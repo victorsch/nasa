@@ -1,0 +1,12 @@
+GET https://jnorampage1.fltops.jpl.nasa.gov
+
+
+< HTTP/1.1 401 Authorization Required
+< Date: Tue, 19 Sep 2023 05:55:10 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval';
+< Www-Authenticate: Basic realm="JNO RAMPAGE"
+< Content-Length: 401
+< Server: Apache
+< Content-Type: text/html; charset=iso-8859-1

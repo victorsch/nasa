@@ -1,0 +1,16 @@
+GET https://lms.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Etag: "1bf-5bc4252599c2a"
+< X-Permitted-Cross-Domain-Policies: none
+< Server: Apache
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:58:14 GMT
+< X-Frame-Options: sameorigin
+< X-Content-Type-Options: nosniff
+< Last-Modified: Fri, 26 Feb 2021 19:31:59 GMT
+< Accept-Ranges: bytes
+< Content-Length: 447
+< X-Xss-Protection: 1; mode=block

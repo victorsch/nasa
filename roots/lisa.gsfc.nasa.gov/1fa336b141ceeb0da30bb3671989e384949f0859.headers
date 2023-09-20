@@ -1,0 +1,12 @@
+GET https://lisa.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 05:59:16 GMT
+< X-Frame-Options: sameorigin
+< Content-Security-Policy: upgrade-insecure-requests
+< Server: WebServer/1.0
+< Location: https://lisa.nasa.gov/
+< Content-Length: 230

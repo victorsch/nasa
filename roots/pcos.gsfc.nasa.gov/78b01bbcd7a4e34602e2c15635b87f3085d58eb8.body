@@ -1,0 +1,425 @@
+
+
+
+ 
+
+
+
+
+
+    
+   
+
+  
+ 
+  
+  
+
+
+  
+  
+
+
+
+
+
+<!DOCTYPE html><html lang="en">
+
+<head><title>Physics of the Cosmos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="name" content="Physics of the Cosmos (PhysCOS)">
+<meta name="description" content="Web site for the NASA Physics of the Cosmos Program">
+<meta name="keywords" content="Physics Astrophysics Cosmos NASA High-Energy X-ray Gamma-Ray Gamma Cosmic Gravity Gravitational Wave IPSAG IPSIG GRSAG GRSIG GWSAG SWSIG CRSAG CRSIG XRSAG XRSIG COSSIG PhysPAG Blackhole Neutron Star Pulsar Beyond Einstein BeyondEinstein">
+<meta name="orgcode" content="600">
+<meta name="rno" content="Phillip.A.Newman.1">
+<meta name="content-owner" content="Brian Humensky">
+<meta name="webmaster" content="Stephan.F.Fantasia.1">
+<meta charset="utf-8" />
+<meta name="doc-class" content="Living Document" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/styles.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/Selected-PhysCOS.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/sigimages.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/probes-cards.css" />
+
+<!-- SLIDER -->
+<link href="/includes/css/js-image-slider600.css" rel="stylesheet" type="text/css" />  
+<script src="/includes/css/js-image-slider.js" type="text/javascript"></script>
+
+<!-- Lightbox -->
+<link rel="stylesheet" href="/includes/css/lightbox.css" media="screen" />
+<script src="/includes/scripts/jquery-3.2.1.min.js"></script>
+<script src="/includes/scripts/lightbox-2.6.min.js"></script>
+
+<!-- SHOW/HIDE -->
+<script language="javascript" src="/includes/scripts/showHide.js"></script>
+<script language="javascript" src="/includes/scripts/toggle.js"></script>
+
+<!-- GOOGLE ANALYTICS -->
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC"></script>
+
+
+</head>
+
+
+<body class="nasa oneon">
+<div id="bkg_surround">
+<div id="bkg_layer"> </div>
+</div>
+
+<div id="paperTop">
+
+<div id="nasahead"><div class="nasalogo"><a href="https://www.nasa.gov" target="_blank"><img src="/images/nasa-logo.png" alt="NASA logo"  /></a></div> 
+<div class="hidden"> <a href="#skipping" title="Skip Navigation" accesskey="2">Skip Navigation (press 2)</a> </div>
+
+<div class="dark"><div id="searchbox"><form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
+<div style="margin:0;padding:0;display:inline; "><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input id="affiliate" name="affiliate" type="hidden" value="nasastaging" /> <input autocomplete="on" class="usagov-search-autocomplete" id="query" name="query" type="text" /></form>
+<div style="font-size:12pt; color:aliceblue; font-weight:bold; text-align:left; left-margin:10px">&nbsp;&nbsp;&nbsp;Search NASA</div>
+</div>
+
+<div id="socialtop">
+<ul id="socialmenu">
+ <li><img src="/images/socialmedia.png" alt="social media" class="socialtop" />
+ <ul> 
+ <li><a href="https://www.facebook.com/NASA.GSFC" target="_blank"><img src="/images/facebook-icon.png" alt="facebook" /></a></li>
+ <li><a href="https://twitter.com/NASAGoddard" target="_blank"><img src="/images/twitter-bird-white-on-blue.png" alt="twitter" /></a></li>
+ <li><a href="https://www.youtube.com/user/NASAexplorer" target="_blank"><img src="/images/youtube-icon.png" alt="youtube" /></a></li>
+ <li><a href="https://www.flickr.com/photos/gsfc/" target="_blank"><img src="/images/flickr-icon.png" alt="flickr" /></a></li>
+ <li><a href="https://instagram.com/nasagoddard" target="_blank"><img src="/images/instagram-64.jpg" alt="instagram" /></a></li>
+ </ul></li> 
+ 
+ </ul>
+ </div> 
+ </div> 
+ </div>
+<div id="headimage"><img src="/images/BANNER3.png" alt="Astrophsyics" /></div>
+<div class="clear"></div>
+
+
+<ul id="css3menu1" class="topmenu">
+
+<li class="topmenu"><a href="/about.php" style="width:168px;height:16px;line-height:16px;">About PhysCOS</a>
+	<ul><li class="subfirst"><a href="/science/science.php">Science</a>
+		<ul>
+			<li><a href="/science/darkenergy.php">Dark Energy</a></li>
+    		<li><a href="/science/bigbang.php">Expansion of the Universe</a></li>
+        	<li><a href="/science/relativity.php">Relativity and Spacetime</a></li>
+        	<li><a href="/science/blackholes.php">Black Holes</a></li>
+        	<li><a href="/science/extremes.php">Matter and Energy in Extreme Environments</a></li>
+		</ul></li>
+    <li><a name="Projects" name="Projects">Projects</a>
+		<ul><li class="subfirst"><a name="Orbital Missions">Orbital Missions</a>
+          <ul>
+			<li><a href="/projects/current.php">Current</a></li>
+    		<li><a href="/projects/past.php">Past</a></li>
+        	<li><a href="/projects/future.php">Future</a></li>
+          </ul></li>
+        <li><a href="/projects/suborbital.php">Suborbital Missions</a></li>
+		</ul></li>
+    <li><a href="/program/program.php">Program Office</a></li>
+	<li><a href="/NASA Astrophysics Statement of Principles Nov2022.pdf">Statement of Principles</a></li> 
+    <li><a href="https://apd440.gsfc.nasa.gov/students.html" target="_blank">Public Outreach</a></li>
+    </ul>
+</li>
+<li class="topmenu"><a href="/physpag/physpag.php" style="width:168px;height:16px;line-height:16px;">PhysPAG</a>
+    <ul>        <li><a href="/physpag/physpag-ec.php">Executive Committee</a></li>
+	    <li class="subfirst"><a name="SIGs" href="/physpag/sigs.php">Science Interest Groups</a>
+		<ul>
+			<li><a href="/sigs/crsig.php">Cosmic Ray SIG</a></li>
+			<li><a href="/sigs/cossig.php">Cosmic Structure SIG</a></li>
+			<li><a href="/sigs/grsig.php">Gamma Ray SIG</a></li>
+			<li><a href="/sigs/gwsig.php">Gravitational Wave SIG</a></li>
+			<li><a href="/sigs/ipsig.php">Inflation Probe SIG</a></li>
+			<li><a href="/sigs/tdamm-sig.php">TDAMM SIG</a></li>
+			<li><a href="/sigs/xrsig.php">X-Ray SIG</a></li>
+		</ul></li>
+	    <li class="subfirst"><a name="SAGs" href="/physpag/sags.php">Science Analysis Groups</a>
+		<ul>
+			<li><a href="/sags/awesom.php">AWESOM SAG</a></li>
+			<li><a href="/sags/ngo-sag.php">New Great Observatories SAG</a></li>
+			<li><a href="/sags/tdammcomm-sag.php">TDAMM Communications SAG</a></li>
+            <hr>
+			<li><a href="/sags/mmasag.php">MMA SAG (Completed)</a></li>
+			<li><a href="/sags/gtn-sag.php">GTN SAG (Completed)</a></li>
+			<li><a href="/sags/techsag.php">Tech SAG (Completed)</a></li>
+		</ul></li>
+
+    <li><a href="/physpag/science-gaps/science-gaps.php">Science Gaps</a></li>
+    <li><a href="/physpag/meetings.php">Meetings</a></li>
+    <li><a href="/events-calendar.php">Events Calendar</a></li>
+	</ul></li>
+
+<li class="topmenu"><a name="Mission Studies" href="/studies/studies.php" style="width:168px;height:16px;line-height:16px;"><span>Mission Studies</span></a>
+	<ul>
+       <li><a href="https://lisa.nasa.gov/L3Study.html" target="_blank">NASA L3/LISA Study (NASA LISA site)</a></li>
+       <li><a class="subfirst" href="#" name="Completed Studies">Completed Studies</a>
+       <ul>
+            <li><a href="/studies/athena/athena.php">Athena/L2 Study</a></li>
+            <li><a href="https://wwwastro.msfc.nasa.gov/lynx/">Lynx</a></li>
+            <li><a href="/studies/completed/x-ray-probe-2013-2014.php">2013-2014 X-ray Probe Study</a></li>
+            <li><a href="/studies/completed/studies-2012.php">2012 Architecting Studies</a></li>
+       </ul></li>
+	</ul>
+</li>
+	
+<li class="topmenu"><a href="#" style="width:169px;height:16px;line-height:16px;">Resources</a>
+    <ul>
+       <li class="subfirst"><a href="https://apd440.gsfc.nasa.gov/technology/">Technology</a></li>
+       <li><a href="https://heasarc.gsfc.nasa.gov/">HEASARC</a></li>
+       <li><a href="https://nspires.nasaprs.com/external/" target="_blank">NSPIRES</a></li>
+    </ul>
+</li>
+
+<li class="topmenu"><a href="#" name="Documents" style="width:169px;height:16px;line-height:16px;">Documents</a>
+    <ul>
+       <li class="subfirst"><a href="/docs/publications.php">Publications</a></li>
+       <li><a href="/newsletters/newsletters.php">Newsletters</a></li>
+       <li><a href="/docs/presentations/presentations.php">Presentations</a></li>
+    </ul>
+</li>
+
+</ul>
+<div class="clear"></div>
+</div>
+
+<a  id="skipping"></a>
+
+<div id="paper">
+<div class="fullscreenwhite">
+<div class="wideleft">
+
+ 
+
+
+
+
+
+<h1>About Physics of the Cosmos</h1>
+<p>The Physics of the Cosmos (PhysCOS) Program is one of three focused programs contained within NASA's <a href="https://science.nasa.gov/astrophysics" title="Astrophysics Division (APD)" target="_blank">Astrophysics Division (APD)</a>, together with <a href="https://cor.gsfc.nasa.gov/" title="Cosmic Origins (COR)" target="_blank">Cosmic Origins (COR)</a> and the <a href="https://exoplanets.nasa.gov/exep/" title="Exoplanet Exploration Program (ExEP)" target="_blank">Exoplanet Exploration Program (ExEP)</a>. PhysCOS lies at the intersection of physics and astronomy. Its purpose is to explore some of the most fundamental questions regarding the physical forces and laws of the universe: the validity of Einstein's General Theory of Relativity and the nature of spacetime, the behavior of matter and energy in extreme environments, the cosmological parameters governing inflation and the evolution of the universe, and the nature of dark matter and dark energy.</p>
+
+
+<p>Located at the Goddard Space Flight Center, the PhysCOS Program Office supports, tracks, and studies a suite of science missions and enabling technologies that focus on specific aspects of these topics. PhysCOS activities include:</p>
+
+<div class="box">
+
+<ul>
+<li>Facilitating the <a href="https://pcos.gsfc.nasa.gov/physpag/" title="https://pcos.gsfc.nasa.gov/physpag/">PhysCOS Program Analysis Group (PhysPAG)</a>, which comprises standing Science Interest Groups (SIGs) engaged in particular branches of high-energy astrophysics, and shorter-term Science Analysis Groups (SAGs) convened to address related science and technology topics.</li>
+<br>
+<li>Keeping its members informed of upcoming developments and funding opportunities, both within NASA and at other agencies engaged in science and technology activities.</li>
+<br>
+<li>Soliciting, and prioritizing community-identified technology gaps that must be closed to enable or enhance future strategic Astrophysics missions with benefits to PhysCOS science. This technology gap prioritization informs APD’s strategic technology development solicitation, selection, and funding.</li>
+<br>
+<li>Managing funded technology projects with benefits to PhysCOS science.</li>
+</ul>
+
+</div>
+
+<div class="box">
+<iframe width="530" height="298" src="https://www.youtube.com/embed/Vj5OV4YxTSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>For more NASA videos, check out the <a href="https://apd440.gsfc.nasa.gov/students.html" title="Scientific Visualization Studio" target="_blank">Scientific Visualization Studio</a></p>
+</div>
+
+
+</div><br>
+
+<div class="rightcolwhite">
+<p align="center"><span style="font-size: 16px;"><strong>JAXA, NASA XRISM Mission Ready for Liftoff</strong></span><br>
+
+<p style="font-size:10pt; line-height:11pt;"><a href="https://www.nasa.gov/sites/default/files/thumbnails/image/xrism_s2_113.png" target="_blank"><img src="/images/xrism/xrism_s2_113.png" width="268"></a>
+<em>XRISM <a href="https://global.jaxa.jp/press/2023/09/20230907-1_e.html" target="_blank">launched successfully</a> on Wednesday, Sept. 6, 2023, at 7:42 p.m. EDT (Thursday, Sept. 7, 8:42 a.m. in Japan). The spacecraft separated from the rocket at 7:56 p.m. EDT.</em><a href="https://www.nasa.gov/feature/goddard/2023/jaxa-nasa-xrism-mission-ready-for-liftoff" target="_blank">Read more</a>.</p>
+
+<hr>
+
+<h4>PhysCOS News</h4>
+
+<p>See our new <a href="/events-calendar.php">Events Calendar</a></p>
+
+<p>Program News and Announcements</p>
+
+<li><a href="/physcosnews-mailing-list.php" title="Physics of the Cosmos Mailing List">Sign up for PhysCOS News and Announcements</a></li>
+<br>
+
+<div class="news-item">
+<div class="news-date">13 September 2023</div>
+2023 Astrophysics Probe Explorer Announcement of Opportunity: Revisions &raquo;&nbsp; <a href="/news/2023/2023_Astrophysics_Probe_Explorer_AO.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">13 September 2023</div>
+IXPE General Observer Cycle 1 Notice of Intent Due 18 September 2023 &raquo;&nbsp; <a href="/news/2023/IXPE_GO_NOI.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">13 September 2023</div>
+INTEGRAL's Final Call for Guest Observing Time, AO-21, is Open &raquo;&nbsp; <a href="/news/2023/INTEGRAL_Final_AO-21.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">13 September 2023</div>
+JWST Calibration Workshop: November 14 &#8211; 17, 2023 &raquo;&nbsp; <a href="/news/2023/JWST_Calibration_Workshop.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">6 September 2023</div>
+Special Announcement About the Habitable Worlds Observatory START and TAG Teams &raquo;&nbsp; <a href="/news/2023/HWO_Teams_Announcement.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">5 September 2023</div>
+XRISM Launch Rescheduled for This Week &raquo;&nbsp; <a href="/news/2023/XRISM_Launch_Rescheduled.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">5 September 2023</div>
+SMD Bridge Program Seed Funding Announcement of Opportunity Still Open &raquo;&nbsp; <a href="/news/2023/Bridge_Program_AO_Still_Open.php" target="_blank">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">5 September 2023</div>
+ROSES-23: D.13 Astrophysics Pioneers Not Solicited This Year &raquo;&nbsp; <a href="/news/2023/ROSES-23_D.13-Not-Solicited_This_Year.php" target="_blank">Details</a>.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="/news/physcos-news-archive.php">More News Articles</a></li>
+
+<p>Project News</p>
+
+<ul>
+<li><a href="https://sci.esa.int/web/athena" target="_blank">Athena Study News</a></li>
+<li><a href="https://www.nasa.gov/mission_pages/chandra/newsarchive/index.html" target="_blank">Chandra News</a></li>
+<li><a href="https://sci.esa.int/web/euclid/" target="_blank">Euclid News</a></li>
+<li><a href="https://www.nasa.gov/content/goddard/fermi-gamma-ray-space-telescope-latest-news/" target="_blank">Fermi Latest News</a></li>
+<li><a href="https://lisa.nasa.gov/index.html" target="_blank">LISA Study News</a></li>
+<li><a href="https://www.nasa.gov/mission_pages/planck/news/index.html#.WJyhW3qGHCc" target="_blank">Planck News Archive</a></li>
+<li><a href="https://www.cosmos.esa.int/web/xmm-newton/latest-news/" target="_blank">XMM-Newton Latest News</a></li>
+
+</ul>
+
+<p>Related News</p>
+
+<ul>
+<li><a href="https://heasarc.gsfc.nasa.gov/docs/nicer/news/nicer_whatsnew.html" target="_blank">NICER News</a></li>
+<li><a href="http://www.nustar.caltech.edu/news?category=news-release" target="_blank">NuSTAR News Releases</a></li>
+<li><a href="https://www.nasa.gov/content/latest-swift-news-from-nasa" target="_blank">Swift Latest News</a></li>
+<li><a href="https://heasarc.gsfc.nasa.gov/docs/xrism/whatsnew/" target="_blank">XRISM News</a></li>
+</ul>
+
+<hr>
+<h4>Links</h4>
+
+<ul>
+    <li><a href="/links.php" title="NASA Astrophysics Programs and Missions">NASA Astrophysics Programs and Missions</a></li>
+    <li><a href="https://science.nasa.gov/astrophysics/documents">HQ Science Astrophysics Documents</a></li>
+
+
+   <li><a href="/physpag/whitepapers.php" title="PhysPAG Call for White Papers: Probe-Class Astrophysics Mission Concepts">White Papers on Probe Missions</a></li>
+   <li><a href="/physpag/large-missions/large-missions2020.php" title="Large Mission Studies, Decadal Survey 2020">Large Mission Studies, Decadal Survey 2020</a></li>
+   
+</ul>
+
+</div>
+</div>
+<div class="clear"></div>
+
+
+<div id="nasafoot"><div id="nasafootlinks"><a href="https://www.facebook.com/NASA.GSFC" target="_blank"><img src="/images/facebook-icon.png" alt="facebook" /></a>
+<a href="https://twitter.com/NASAGoddard" target="_blank"><img src="/images/twitter-bird-white-on-blue.png" alt="twitter" /></a>
+<a href="https://www.youtube.com/user/NASAexplorer" target="_blank"><img src="/images/youtube-icon.png" alt="youtube" /></a>
+<a href="https://www.flickr.com/photos/gsfc/" target="_blank"><img src="/images/flickr-icon.png" alt="flickr" /></a> 
+<a href="https://instagram.com/nasagoddard" target="_blank"><img src="/images/instagram-64.jpg" alt="instagram" /></a> 
+</div>
+
+<div class="nasafoothome"> <a href="https://www.nasa.gov/" target="_blank"><img src="/images/nasa-logo2.png" alt="NASA logo" /></a></div>
+<div id="nasafootrno"> <ul><li>NASA Official: Phil Newman</li></ul></div>
+<div id="nasafootrno"> <ul><li>Web Curator: Pat Tyler</li></ul></div>
+<div id="nasafootsignature"><a href="https://www.nasa.gov/goddard" target="_blank"><img src="/images/goddard.png" alt="Goddard Space Flight Center" /></a></div>
+
+<div id="nasafootplus">
+<ul>
+	<li><h1>CONTACT</h1></li>
+    	<li><a href="mailto:pat.tyler@nasa.gov?subject=Web Inquiry - PhysCOS">Web Site Issues</a></li>
+</ul></div>
+<div id="nasafootpriv"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank"><img src="/images/privacy.png" alt="privacy" /></a></div><div id="blank" class="modalDialog"><div> </div> </div> 
+
+</div>
+</div>
+</body>
+</html>

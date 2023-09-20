@@ -1,0 +1,14 @@
+GET http://monitoring.larcmap.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Location: https://monitoring.larcmap.appdat.jsc.nasa.gov
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Powered-By: appdat
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:44:09 GMT
+< Content-Type: text/html
+< Content-Length: 164
+< X-Frame-Options: SAMEORIGIN
+< X-Using-Nginx-Controller: true

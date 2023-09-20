@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="es" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="es" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="es" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="es" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="es" dir="ltr" prefix="fb: http://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="es" dir="ltr" prefix="fb: http://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://ciencia.nasa.gov/sites/all/themes/science_nasa/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon-precomposed" href="https://ciencia.nasa.gov/sites/all/themes/science_nasa/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://ciencia.nasa.gov/sites/all/themes/science_nasa/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" href="https://ciencia.nasa.gov/sites/all/themes/science_nasa/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://ciencia.nasa.gov/sites/all/themes/science_nasa/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://ciencia.nasa.gov/" />
+<link rel="shortlink" href="https://ciencia.nasa.gov/" />
+  <title>Ciencia de la NASA | Ciencia</title>
+  <style>
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.base.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/scald/modules/fields/mee/css/editor-global.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/comment/comment.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/modules/node/node.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/field/field.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/scald_file/scald_file.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/custom/scald_library_youtube_icon/css/scald_library_youtube_icon.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/views/css/views.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/user/user.base.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/omega/omega/css/modules/user/user.theme.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/ckeditor/css/ckeditor.css?rx1hx4");
+</style>
+<style>
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/ctools/css/ctools.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/panels/css/panels.css?rx1hx4");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.css" media="all" />
+<style>
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/qtip/css/qtip.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/mobile_navigation/mobile_navigation.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/libraries/fontawesome/css/font-awesome.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/libraries/mmenu/main/src/css/jquery.mmenu.all.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/libraries/mmenu/icomoon/icomoon.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/modules/contrib/mmenu/themes/mm-basic/styles/mm-basic.css?rx1hx4");
+</style>
+<style>
+@import url("https://ciencia.nasa.gov/sites/all/themes/science_nasa/css/science-nasa.normalize.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/science_nasa/css/science-nasa.hacks.css?rx1hx4");
+@import url("https://ciencia.nasa.gov/sites/all/themes/science_nasa/css/science-nasa.styles.css?rx1hx4");
+</style>
+
+<!--[if lte IE 8]>
+<style>
+@import url("https://ciencia.nasa.gov/sites/all/themes/science_nasa/css/science-nasa.no-query.css?rx1hx4");
+</style>
+<![endif]-->
+<style>body{background-color:#FFFFFF !important;background-image:url('https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/background_image_file_size/public/thumbnails/image/nh-apluto-wide-9-17-15-final_0.png?itok=pl3qI6j1') !important;background-repeat:no-repeat !important;background-attachment:fixed !important;background-position:center top !important;}
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One:regular|Raleway:100,200,300,500,600,700,800,900&amp;subset=latin,latin-ext" media="all" />
+  <script src="https://ciencia.nasa.gov/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script src="https://ciencia.nasa.gov/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script src="https://ciencia.nasa.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script src="https://ciencia.nasa.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://ciencia.nasa.gov/misc/drupal.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/omega/omega/js/no-js.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/jquery_update/replace/jquery.form/4/jquery.form.min.js?v=4.2.1"></script>
+<script src="https://ciencia.nasa.gov/misc/form-single-submit.js?v=7.98"></script>
+<script src="https://ciencia.nasa.gov/misc/ajax.js?v=7.98"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="https://ciencia.nasa.gov/s3fs-js/languages/es_SGBH0TwuxC6UmaRD_Dn3MrKPs-8gW4mH4ucZUirLEug.js?rx1hx4"></script>
+<script src="//cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.js"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/scald_file/scald_file.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/scald/modules/providers/scald_image/scald_image.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/views_load_more/views_load_more.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/views/js/base.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/misc/progress.js?v=7.98"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/views/js/ajax_view.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/mobile_navigation/js/mobile_menu.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/mobile_navigation/mobile_navigation.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/mmenu/js/mmenu.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/libraries/mmenu/hammer/hammer.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/libraries/mmenu/jquery.hammer/jquery.hammer.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/libraries/mmenu/main/src/js/jquery.mmenu.min.all.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/qtip/js/qtip.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/jquery.checkbox.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/search-expand.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/science-nasa.behaviors.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/science-nasa.header.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/science-nasa.main-navigation.js?rx1hx4"></script>
+<script src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/js/_debounce.js?rx1hx4"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"science_nasa","theme_token":"FXeKdDEahNFw5gFmGHhgOcHwHXtDXw6Dw9IgTR9tseg","jquery_version":"1.8","js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"public:\/\/languages\/es_SGBH0TwuxC6UmaRD_Dn3MrKPs-8gW4mH4ucZUirLEug.js":1,"\/\/cdn.jsdelivr.net\/qtip2\/3.0.3\/jquery.qtip.min.js":1,"sites\/all\/modules\/contrib\/scald_file\/scald_file.js":1,"sites\/all\/modules\/contrib\/scald\/modules\/providers\/scald_image\/scald_image.js":1,"sites\/all\/modules\/contrib\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/mobile_navigation\/js\/mobile_menu.js":1,"sites\/all\/modules\/contrib\/mobile_navigation\/mobile_navigation.js":1,"sites\/all\/modules\/contrib\/mmenu\/js\/mmenu.js":1,"sites\/all\/libraries\/mmenu\/hammer\/hammer.js":1,"sites\/all\/libraries\/mmenu\/jquery.hammer\/jquery.hammer.js":1,"sites\/all\/libraries\/mmenu\/main\/src\/js\/jquery.mmenu.min.all.js":1,"sites\/all\/modules\/contrib\/qtip\/js\/qtip.js":1,"sites\/all\/themes\/science_nasa\/js\/jquery.checkbox.js":1,"sites\/all\/themes\/science_nasa\/js\/search-expand.js":1,"sites\/all\/themes\/science_nasa\/js\/science-nasa.behaviors.js":1,"sites\/all\/themes\/science_nasa\/js\/science-nasa.header.js":1,"sites\/all\/themes\/science_nasa\/js\/science-nasa.main-navigation.js":1,"sites\/all\/themes\/science_nasa\/js\/_debounce.js":1},"css":{"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/scald\/modules\/fields\/mee\/css\/editor-global.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/comment\/comment.theme.css":1,"modules\/node\/node.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/scald_file\/scald_file.css":1,"sites\/all\/modules\/custom\/scald_library_youtube_icon\/css\/scald_library_youtube_icon.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"\/\/cdn.jsdelivr.net\/qtip2\/3.0.3\/jquery.qtip.min.css":1,"sites\/all\/modules\/contrib\/qtip\/css\/qtip.css":1,"sites\/all\/modules\/contrib\/mobile_navigation\/mobile_navigation.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/libraries\/mmenu\/main\/src\/css\/jquery.mmenu.all.css":1,"sites\/all\/libraries\/mmenu\/icomoon\/icomoon.css":1,"sites\/all\/modules\/contrib\/mmenu\/themes\/mm-basic\/styles\/mm-basic.css":1,"sites\/all\/themes\/science_nasa\/css\/science-nasa.normalize.css":1,"sites\/all\/themes\/science_nasa\/css\/science-nasa.hacks.css":1,"sites\/all\/themes\/science_nasa\/css\/science-nasa.styles.css":1,"sites\/all\/themes\/science_nasa\/css\/science-nasa.no-query.css":1,"0":1,"https:\/\/fonts.googleapis.com\/css?family=Fjalla+One:regular|Raleway:100,200,300,500,600,700,800,900\u0026subset=latin,latin-ext":1}},"instances":"{\u0022default\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:false,\u0022classes\u0022:\u0022\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022bottom right\u0022,\u0022adjust\u0022:{\u0022method\u0022:\u0022\u0022},\u0022my\u0022:\u0022top left\u0022,\u0022viewport\u0022:false},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022}}}","qtipDebug":"{\u0022leaveElement\u0022:0}","scaldFile":{"path":"sites\/all\/modules\/contrib\/scald_file\/scald_file.css"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:8b01b59f63b36537eeeab8718947f0ca":{"view_name":"home_page_content_refactor","view_display_id":"page_1","view_args":"All","view_path":"home","view_base_path":"home","view_dom_id":"8b01b59f63b36537eeeab8718947f0ca","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/search":true},"mmenu":{"mmenu_left":{"enabled":"1","title":"Left menu","name":"mmenu_left","blocks":[{"module_delta":"system|main-menu","menu_parameters":{"min_depth":"1"},"title":"\u003Cnone\u003E","collapsed":"0","wrap":"1","module":"system","delta":"main-menu"}],"options":{"classes":"mm-basic","effects":[],"slidingSubmenus":false,"clickOpen":{"open":true,"selector":"#hamburger a"},"counters":{"add":false,"update":true},"dragOpen":{"open":true,"pageNode":"body","threshold":100,"maxStartPos":50},"footer":{"add":false,"content":"","title":"Copyright \u00a92016","update":true},"header":{"add":false,"content":"","title":"Science Mission Directorate","update":true},"labels":{"collapse":false},"offCanvas":{"enabled":true,"modal":false,"moveBackground":true,"position":"left","zposition":"front"},"searchfield":{"add":false,"addTo":"menu","search":false,"placeholder":"Search","noResults":"No results found.","showLinksOnly":true}},"configurations":{"clone":false,"preventTabbing":false,"panelNodetype":"div, ul, ol","transitionDuration":400,"classNames":{"label":"Label","panel":"Panel","selected":"Selected","buttonbars":{"buttonbar":"anchors"},"counters":{"counter":"Counter"},"fixedElements":{"fixedTop":"FixedTop","fixedBottom":"FixedBottom"},"footer":{"panelFooter":"Footer"},"header":{"panelHeader":"Header","panelNext":"Next","panelPrev":"Prev"},"labels":{"collapsed":"Collapsed"},"toggles":{"toggle":"Toggle","check":"Check"}},"dragOpen":{"width":{"perc":0.8,"min":140,"max":440},"height":{"perc":0.8,"min":140,"max":880}},"offCanvas":{"menuInjectMethod":"prepend","menuWrapperSelector":"body","pageNodetype":"div","pageSelector":"body \u003E div"}},"custom":[],"position":"left"}},"mobile_navigation":{"breakpoint":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","menuSelector":".secondary-menu","menuPlugin":"basic","showEffect":"expand_down","showItems":"all","tabHandler":1,"menuWidth":"65","specialClasses":0,"mainPageSelector":".l-page","useMask":1,"menuLabel":"Menu","expandActive":0}});</script>
+  <script type="text/javascript">
+    setTimeout(function(){var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0070/1109.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+  </script>
+</head>
+<body class="html front not-logged-in page-home i18n-es">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  <!-- analytics tracking -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create','UA-11902218-4', 'auto');
+  ga('send', 'pageview');
+  function handlePDFLinks(event) {
+    ga('send', 'event', 'Downloads', 'PDF', event.href);
+  }
+  ga('send', 'event', 'Videos', 'play');
+  function handleOutboundLinkClicks(event) {
+    ga('send', 'event', {
+      eventCategory: 'Outbound Link',
+      eventAction: 'click',
+      eventLabel: event.target.href,
+      transport: 'beacon'
+    });
+  }
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVNTDP6PR1"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-VVNTDP6PR1');
+
+</script>
+  <!-- end analytics tracking -->
+    <div class="l-page">
+  <div class="top-container">
+    <header class="site-header site-header--sticky" role="banner">
+
+  <div class="site-header__container">
+    <div class="site-header__branding">
+              <span class="site-header__site-logo"><a href="https://www.nasa.gov"><img class="site-header__site-logo-img" width="72" src="https://ciencia.nasa.gov/sites/all/themes/science_nasa/logo.png" alt="Home" /></a></span>
+      
+                        <h1 class="site-name element-invisible">
+            <a href="/" title="Home" rel="home"><span>Ciencia de la NASA</span></a>
+          </h1>
+        
+                  <h1 class="site-header__site-slogan">
+            <a class="site-header__site-slogan-link" href="/" title="Home" rel="home"><span>Ciencia</span></a>
+            <div class="site-header__site-sub-slogan"></div>
+          </h1>
+                </div>
+  <div class="site-header__main-nav-mobile-toggle"><a href=""><i class="fa fa-navicon"></i></a></div>
+    <nav class="site-header__navigation" role="navigation">
+        <div class="l-region l-region--branding">
+    <nav id="block-menu-block-5" role="navigation" class="block block--menu-block block--menu-block-5">
+      
+  <div class="site-header__wrapper"><ul class="site-header__main-nav-container"><div class="site-header__main-nav-item site-header__search-form"><form class="views-exposed-form-es-connector-view-main-search" action="/search" method="get" id="views-exposed-form-es-connector-view-main-search" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-text-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-text">
+  <label class="element-invisible" for="edit-search-api-views-text">Haga una pregunta </label>
+ <input placeholder="Haga una pregunta" type="text" id="edit-search-api-views-text" name="search_api_views_text" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-es-connector-view" value="Pregunte" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form></div><li class="site-header__main-nav-item first leaf menu-mlid-1308 "><a href="/ciencias-espaciales" title="Ciencias Espaciales" class="site-header__main-nav-item-link">Ciencias Espaciales</a><ul class="site-header__sub-nav"></ul></li><li class="site-header__main-nav-item leaf menu-mlid-1306 "><a href="/ciencias-terrestres" title="Ciencias Terrestres" class="site-header__main-nav-item-link">Ciencias Terrestres</a><ul class="site-header__sub-nav"></ul></li><li class="site-header__main-nav-item leaf menu-mlid-1305 "><a href="/ciencia-en-la-estaci%C3%B3n" title="Ciencia en la Estación" class="site-header__main-nav-item-link">Ciencia en la Estación</a><ul class="site-header__sub-nav"></ul></li><li class="site-header__main-nav-item leaf menu-mlid-1641 "><a href="/gente" title="Gente" class="site-header__main-nav-item-link">Gente</a><ul class="site-header__sub-nav"></ul></li><li class="site-header__main-nav-item last leaf menu-mlid-1637 "><a href="https://science.nasa.gov/" title="Ciencia en inglés" class="site-header__main-nav-item-link">Ciencia en inglés</a><ul class="site-header__sub-nav"></ul></li></ul></div></nav>
+  </div>
+    </nav>
+  </div>
+</header>
+  
+    <div id="page-header-items" class="site-header__extra">
+      <div class="site-header__extra-container">
+        <h1>
+          Ciencia de la NASA        </h1>
+                </div>
+    </div>
+  
+    <div class="l-main">
+        <div class="l-region l-region--highlighted">
+    <nav id="block-menu-menu-main-secondary" role="navigation" class="block block--menu secondary-menu block--menu-menu-main-secondary">
+      
+  <ul class="menu"><li class="first leaf universe"><a href="/ciencias-espaciales">Ciencias Espaciales</a></li>
+<li class="leaf sun"><a href="/ciencias-terrestres">Ciencias Terrestres</a></li>
+<li class="last leaf earth"><a href="/ciencia-en-la-estaci%C3%B3n">Ciencia en la Estación</a></li>
+</ul></nav>
+  </div>
+      <div class="l-content" role="main">
+        <h2 class="element-invisible">You are here</h2><ul class="breadcrumb"><li><a href="/home" class="active">Home</a></li></ul>                <a id="main-content"></a>
+                                        <div class="view view-home-page-content-refactor view-id-home_page_content_refactor view-display-id-page_1 home-feed view-dom-id-8b01b59f63b36537eeeab8718947f0ca">
+        
+  
+  
+      <div class="view-content">
+      
+  
+  <div class="views-row home-feed__item">
+
+    
+      <div class="home-feed__col2">
+        <div class="home-feed__image-wrap">
+                      <a href="/mision-record-de-astronauta-ayuda-planificar-viajes-al-espacio-profundo" target="_blank"><img typeof="foaf:Image" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/front_page_hero_image/public/thumbnails/image/Rubio_Main_Image.png?itok=A9LYTOzH" alt="Imagen de Frank Rubio flotando en la cúpula de observación de la Estación Espacial Internacional. Rubio, un hombre de pelo y ojos oscuros y con lentes, sonríe y tiene los brazos cruzados. Va vestido con un polo oscuro y pantalones khaki. Detrás suyo se ve la atmósfera de la Tierra a través de las ventanas de observación de la cúpula." /></a>
+                  </div>
+              </div>
+
+      <div class="home-feed__col1">
+        <h2 class="home-feed__title"><a class="home-feed__title-link" href="/mision-record-de-astronauta-ayuda-planificar-viajes-al-espacio-profundo">Misión récord de astronauta ayuda a planificar viajes al espacio profundo</a></h2>
+        <div class="home-feed__meta">
+                    <span class="home-feed__science-categories ciencias-espaciales">Ciencias Espaciales</span>
+          <span class="home-feed__created">Sep 13, 2023</span>
+        </div>
+        <div class="home-feed__body">
+          Frank Rubio ha contribuido a varios experimentos científicos, que incluyen estudios orientados a comprender&nbsp;cómo los vuelos espaciales afectan&nbsp;al cuerpo humano.&nbsp;
+        </div>
+        <div class="home-feed__read-more">
+          <a href="/mision-record-de-astronauta-ayuda-planificar-viajes-al-espacio-profundo">Lee más</a>
+        </div>
+      </div>
+
+    
+  </div>
+    
+  
+  <div class="views-row home-feed__item">
+
+    
+      <div class="home-feed__col2">
+        <div class="home-feed__image-wrap">
+                      <a href="/el-oceano-tiene-fiebre" target="_blank"><img typeof="foaf:Image" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/front_page_hero_image/public/thumbnails/image/ssta_mur_2023233_es.jpg?itok=vvucTGEp" alt="Este mapa mundial muestra las anomalías en la temperatura de la superficie del mar el día 21 de agosto de 2023, cuando muchas zonas estaban más de 3 °C (5,4 °F) más cálidas de lo normal. " /></a>
+                  </div>
+              </div>
+
+      <div class="home-feed__col1">
+        <h2 class="home-feed__title"><a class="home-feed__title-link" href="/el-oceano-tiene-fiebre">El océano tiene fiebre</a></h2>
+        <div class="home-feed__meta">
+                    <span class="home-feed__science-categories ciencias-terrestres">Ciencias Terrestres</span>
+          <span class="home-feed__created">Sep 8, 2023</span>
+        </div>
+        <div class="home-feed__body">
+          Décadas de calentamiento gradual debido al cambio climático y el fenómeno de El Niño ha impulsado las temperaturas oceánicas mundiales a niveles récord en&nbsp;2023.
+        </div>
+        <div class="home-feed__read-more">
+          <a href="/el-oceano-tiene-fiebre">Lee más</a>
+        </div>
+      </div>
+
+    
+  </div>
+    
+  
+  <div class="views-row home-feed__item">
+
+    
+      <div class="home-feed__col2">
+        <div class="home-feed__image-wrap">
+                      <a href="/antiguas-formas-de-vida-en-australia-orientaran-investigacion-en-marte" target="_blank"><img typeof="foaf:Image" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/front_page_hero_image/public/thumbnails/image/egg_carton_stromatolites_at_the_trendall_3.png?itok=0yy9bD2w" alt="Esta imagen muestra estromatolitos en forma de &#039;cartón de huevos&#039; de 3.350 millones de años de antigüedad, en la formación de Strelley Pool en la localidad de Trendall, en el oeste de Australia." /></a>
+                  </div>
+              </div>
+
+      <div class="home-feed__col1">
+        <h2 class="home-feed__title"><a class="home-feed__title-link" href="/antiguas-formas-de-vida-en-australia-orientaran-investigacion-en-marte">Antiguas formas de vida en Australia orientarán investigación en Marte </a></h2>
+        <div class="home-feed__meta">
+                    <span class="home-feed__science-categories ciencias-terrestres">Ciencias Terrestres</span>
+          <span class="home-feed__created">Aug 31, 2023</span>
+        </div>
+        <div class="home-feed__body">
+          La NASA y sus socios estudian formas de vida fosilizadas en la región de Pilbara en preparación para traer muestras marcianas a la Tierra.
+        </div>
+        <div class="home-feed__read-more">
+          <a href="/antiguas-formas-de-vida-en-australia-orientaran-investigacion-en-marte">Lee más</a>
+        </div>
+      </div>
+
+    
+  </div>
+    
+  
+  <div class="views-row home-feed__item">
+
+    
+      <div class="home-feed__col2">
+        <div class="home-feed__image-wrap">
+                      <a href="/el-agujero-negro-en-el-centro-de-la-via-lactea-desperto-hace-2-siglos-revela-telescopio-ixpe" target="_blank"><img typeof="foaf:Image" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/front_page_hero_image/public/thumbnails/image/sgra_ixpe-chandra_wideangle.jpg?itok=ocUOU-CB" alt="Las imágenes del Explorador de polarimetría de imágenes de rayos X de la NASA y del Observatorio de rayos X Chandra se han combinado para mostrar datos de rayos X del área alrededor de Sagitario A*, el agujero negro supermasivo en el núcleo de la galaxia Vía Láctea. El cuadro de abajo combina datos de IXPE, en naranja, con datos de Chandra, en azul. El cuadro de arriba representa un campo de visión mucho más amplio del centro de la Vía Láctea, por cortesía de Chandra. " /></a>
+                  </div>
+              </div>
+
+      <div class="home-feed__col1">
+        <h2 class="home-feed__title"><a class="home-feed__title-link" href="/el-agujero-negro-en-el-centro-de-la-via-lactea-desperto-hace-2-siglos-revela-telescopio-ixpe">El agujero negro en el centro de la Vía Láctea despertó hace 200 años, revela telescopio IXPE</a></h2>
+        <div class="home-feed__meta">
+                    <span class="home-feed__science-categories ciencias-espaciales">Ciencias Espaciales</span>
+          <span class="home-feed__created">Aug 25, 2023</span>
+        </div>
+        <div class="home-feed__body">
+          Sagitario&nbsp;A* está a más de 25.000&nbsp;años luz de la Tierra y es nuestro agujero negro supermasivo más cercano, con una masa estimada de millones de veces la del Sol.
+        </div>
+        <div class="home-feed__read-more">
+          <a href="/el-agujero-negro-en-el-centro-de-la-via-lactea-desperto-hace-2-siglos-revela-telescopio-ixpe">Lee más</a>
+        </div>
+      </div>
+
+    
+  </div>
+    
+  
+  <div class="views-row home-feed__item">
+
+    
+      <div class="home-feed__col2">
+        <div class="home-feed__image-wrap">
+                      <a href="/grietas-en-antiguo-lodo-marciano-sorprenden-equipo-de-curiosity" target="_blank"><img typeof="foaf:Image" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/styles/front_page_hero_image/public/thumbnails/image/e1-PIA25915-Curiosity-Discovers-1041.jpg?itok=NQtNfXYy" alt="Un primer plano de la imagen panorámica tomada por la Mastcam de Curiosity en “Pontours” revela patrones hexagonales —delineados en rojo en la misma imagen, a la derecha— que sugieren que estas grietas de lodo se formaron después de muchos ciclos de lluvias y sequías que ocurrieron durante años. Crédito: NASA/JPL-Caltech/MSSS/IRAP " /></a>
+                  </div>
+              </div>
+
+      <div class="home-feed__col1">
+        <h2 class="home-feed__title"><a class="home-feed__title-link" href="/grietas-en-antiguo-lodo-marciano-sorprenden-equipo-de-curiosity">Grietas en antiguo lodo marciano sorprenden a equipo de Curiosity </a></h2>
+        <div class="home-feed__meta">
+                    <span class="home-feed__science-categories ciencias-espaciales">Ciencias Espaciales</span>
+          <span class="home-feed__created">Aug 17, 2023</span>
+        </div>
+        <div class="home-feed__body">
+          Un reciente artículo científico sugiere que las mismas condiciones que crearon las grietas podrían haber sido favorables para el surgimiento de la vida microscópica.
+        </div>
+        <div class="home-feed__read-more">
+          <a href="/grietas-en-antiguo-lodo-marciano-sorprenden-equipo-de-curiosity">Lee más</a>
+        </div>
+      </div>
+
+    
+  </div>
+    
+    </div>
+  
+      <ul class="pager pager-load-more"><li class="pager-next"><a href="/home?page=1">Mostrar más</a></li>
+</ul>  
+  
+  
+  
+  
+</div>          	  <aside class="l-region l-region--sidebar-first">
+    <div id="block-block-6" class="block block--block block--block-6">
+        <h2 class="block__title">Síguenos</h2>
+      <div class="block__content">
+    <p class="rtecenter"><a href="https://twitter.com/NASA_es"><img alt="Twitter" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/thumbnails/image/twitter.png" style="width: 45px; height: 45px;" /></a>&nbsp;&nbsp;<a href="https://youtube.com/NASA_es"><img alt="Youtube" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/thumbnails/image/youtube.png" style="width: 45px; height: 45px;" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/nasa_es/" target="_blank"><img alt="" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/thumbnails/image/instagram-png-instagram-png-logo-1455.png" style="width: 45px; height: 45px;" /></a>&nbsp;<a href="http://facebook.com/nasaes" target="_blank"><img alt="Facebook" src="https://smd-prod.s3.amazonaws.com/ciencia-pink/s3fs-public/thumbnails/image/facebook-icon.png" style="width: 45px; height: 45px;" /></a></p>
+  </div>
+</div>
+<div id="block-block-7" class="block block--block block--block-7">
+        <h2 class="block__title">Otras páginas de la NASA en español</h2>
+      <div class="block__content">
+    <p><a href="https://spaceplace.nasa.gov/sp/">Space Place</a><a href="http://spaceplace.nasa.gov/sp/">&nbsp;para niños</a></p>
+
+<p><a href="https://climate.nasa.gov/resources/en-espanol/">NASA Climate</a></p>
+
+<p><a href="https://www.mdscc.nasa.gov/index.php/es/inicio/">Madrid Deep Space Communications Complex</a></p>
+
+<p><a href="https://appliedsciences.nasa.gov/what-we-do/disasters">Programa de Desastres de la NASA&nbsp;</a></p>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+  </div>
+</div>
+<div id="block-block-8" class="block block--block block--block-8">
+        <h2 class="block__title">¡Suscríbete!</h2>
+      <div class="block__content">
+    <p>Para suscribirte a nuestro boletín semanal y no perderte ninguna de nuestras historias en español, rellena <a href="https://lp.constantcontactpages.com/su/krhMYBd/novedadesdelanasa" target="_blank">este formulario</a><span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small;">.</span></p>
+  </div>
+</div>
+  </aside>
+  	    
+      </div>
+    </div>
+
+    <div class="l-second-content">
+          </div>
+
+    <footer class="site-footer" role="contentinfo">
+  <div class="site-footer__wrapper">
+      <div class="l-region l-region--footer">
+    <nav id="block-menu-menu-footer-menu" role="navigation" class="block block--menu block--menu-menu-footer-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="/ciencias-espaciales">Ciencias Espaciales</a></li>
+<li class="leaf"><a href="/ciencias-terrestres">Ciencias Terrestres</a></li>
+<li class="leaf"><a href="/ciencia-en-la-estaci%C3%B3n">Ciencia en la Estación</a></li>
+<li class="last leaf"><a href="https://science.nasa.gov/">Ciencia en inglés<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+</ul></nav>
+  </div>
+      <div class="l-region l-region--secondary-footer">
+    <nav id="block-menu-menu-footer-secondary-menu" role="navigation" class="block block--menu block--menu-menu-footer-secondary-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="http://www.nasa.gov">NASA.gov</a></li>
+<li class="leaf"><a href="http://science.nasa.gov">Science.NASA.gov</a></li>
+<li class="leaf"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Política de privacidad y Avisos importantes</a></li>
+<li class="leaf"><a href="/cont%C3%A1ctenos">Contáctenos</a></li>
+<li class="last leaf"><a href="https://science.nasa.gov/about-us/contact-us">Oficial de la NASA: Dr. Mamta Patel Nagaraja</a></li>
+</ul></nav>
+  </div>
+    <div class="site-footer__official">
+      <p><strong>OFICIAL DE LA NASA</strong> <a href="https://science.nasa.gov/about-us/contact-us">Dana Bolles</a></p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</div>
+  
+  
+<nav id="mmenu_left" class="mmenu-nav clearfix">
+  <ul>
+                                    <ul><li class="mmenu-block-wrap"><span><form class="views-exposed-form-es-connector-view-main-search" action="/search" method="get" id="views-exposed-form-es-connector-view-main-search" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-search-api-views-text-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search-api-views-text">
+  <label class="element-invisible" for="edit-search-api-views-text">Haga una pregunta </label>
+ <input placeholder="Haga una pregunta" type="text" id="edit-search-api-views-text" name="search_api_views_text" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-es-connector-view" value="Pregunte" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form><ul class="mmenu-mm-list-level-1"><li class="mmenu-mm-list-mlid-1308 mmenu-mm-list-path-node-1213"><a href="/ciencias-espaciales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Ciencias Espaciales</span></a></li><li class="mmenu-mm-list-mlid-1306 mmenu-mm-list-path-node-1212"><a href="/ciencias-terrestres" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Ciencias Terrestres</span></a></li><li class="mmenu-mm-list-mlid-1305 mmenu-mm-list-path-node-1211"><a href="/ciencia-en-la-estaci%C3%B3n" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Ciencia en la Estación</span></a></li><li class="mmenu-mm-list-mlid-1641 mmenu-mm-list-path-gente"><a href="/gente" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Gente</span></a></li><li class="mmenu-mm-list-mlid-1637 mmenu-mm-list-path-https:--science.nasa.gov"><a href="https://science.nasa.gov/" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Ciencia en inglés</span></a></li></ul></span></li></ul>
+                    </ul>
+</nav>
+<script src="https://ciencia.nasa.gov/sites/all/modules/contrib/addthis/addthis.js?rx1hx4"></script>
+    <script src=https://touchpoints.app.cloud.gov/touchpoints/31b66f19.js async></script>
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+    <script type="text/javascript">
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName("script")[0];
+      a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0068/7565.js?"+Math.floor(new Date().getTime()/3600000);
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+    </script>
+</body>
+</html>

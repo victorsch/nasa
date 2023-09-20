@@ -1,0 +1,14 @@
+GET http://marsoweb.nas.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://marsoweb.nas.nasa.gov/
+< Cache-Control: no-cache, private
+< Content-Length: 238
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:56:52 GMT
+< Set-Cookie: session=expiry=1695103612575399;Max-Age=600;path=/; HttpOnly; Secure;
+< Set-Cookie: session=expiry=1695103612575399;Max-Age=600;path=/; HttpOnly; Secure;
+< Content-Type: text/html; charset=iso-8859-1

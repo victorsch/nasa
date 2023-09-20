@@ -1,0 +1,11 @@
+GET https://mcs-gds2.jpl.nasa.gov
+
+
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;preload
+< Www-Authenticate: Basic realm="Authorized Users only"
+< Content-Length: 381
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:57:56 GMT
+< Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_wsgi/4.5.18 Python/3.6 SVN/1.7.14 PHP/5.4.16 mod_perl/2.0.11 Perl/v5.16.3
+< X-Frame-Options: sameorigin

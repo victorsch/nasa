@@ -1,0 +1,10 @@
+GET https://lora.j.bailey@nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.18.0 (Ubuntu)
+< Date: Tue, 19 Sep 2023 05:53:02 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Location: https://www.nasa.gov/
+< Strict-Transport-Security: max-age=31536000

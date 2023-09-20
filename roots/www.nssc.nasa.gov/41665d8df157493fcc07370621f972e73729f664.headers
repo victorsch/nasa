@@ -1,0 +1,13 @@
+GET http://www.nssc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Amz-Cf-Id: 0CBAHmAR3xvUuKOa4FuyQMYGlWjkZeQo57q0cMoaqNGBkljtQLtzhg==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:50:13 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://www.nssc.nasa.gov/
+< Via: 1.1 2a78cba32e1e70413cb851835f0eb89c.cloudfront.net (CloudFront)

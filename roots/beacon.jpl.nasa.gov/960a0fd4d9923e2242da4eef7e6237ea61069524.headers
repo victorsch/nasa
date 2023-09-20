@@ -1,0 +1,10 @@
+GET https://beacon.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Location: https://jpl-nasa.libguides.com
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:49:48 GMT
+< Content-Type: application/octet-stream
+< Content-Length: 0

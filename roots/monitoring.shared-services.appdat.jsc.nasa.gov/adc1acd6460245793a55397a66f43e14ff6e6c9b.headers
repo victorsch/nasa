@@ -1,0 +1,16 @@
+GET https://monitoring.shared-services.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-store
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:43:44 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Powered-By: appdat
+< Content-Length: 29
+< Location: /login
+< X-Content-Type-Options: nosniff
+< X-Using-Nginx-Controller: true

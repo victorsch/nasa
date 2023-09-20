@@ -1,0 +1,23 @@
+GET https://disasters.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< Via: 1.1 d9b04a822e1c215374729ec159356140.cloudfront.net (CloudFront)
+< Content-Type: text/html; charset=UTF-8
+< Content-Language: en
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: same-origin
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Hit from cloudfront
+< Server: Apache/2.4.29 (Ubuntu)
+< X-Generator: Drupal 9 (https://www.drupal.org)
+< Date: Tue, 19 Sep 2023 05:29:25 GMT
+< X-Amz-Cf-Pop: JFK50-P2
+< X-Ua-Compatible: IE=edge
+< X-Drupal-Cache: HIT
+< X-Amz-Cf-Id: glen-6UK3SPxkxOV2PR5wK8BXsFLJ-KaWIrgrR7YszQ5Q66ZJzSzxA==
+< Age: 1537
+< X-Content-Type-Options: nosniff
+< Location: http://appliedsciences.nasa.gov/what-we-do/disasters

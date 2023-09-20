@@ -1,0 +1,16 @@
+GET http://metrics-otel-jaeger.ngap.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< X-Amz-Cf-Id: yOFftLtRuIMTvWSdi1pOTNk9Fwtxd-kRlqBnXuykdHWEUi6SVWUFzg==
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:41:30 GMT
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 cf88880413082302757828626cf7b020.cloudfront.net (CloudFront)
+< Content-Length: 167
+< X-Content-Type-Options: nosniff
+< Location: https://metrics-otel-jaeger.ngap.earthdata.nasa.gov/
+< X-Amz-Cf-Pop: PHL50-C1

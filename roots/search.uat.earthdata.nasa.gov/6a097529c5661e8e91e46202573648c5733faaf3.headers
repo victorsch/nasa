@@ -1,0 +1,21 @@
+GET https://search.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: ServerTokens ProductOnly
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Id: Tl8ime0aRgD9kALLWynbj9mEe7UNPy60b0H4fJIMCGllQWue6ZWVyg==
+< Content-Type: text/html
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 06:03:43 GMT
+< X-Request-Id: Tl8ime0aRgD9kALLWynbj9mEe7UNPy60b0H4fJIMCGllQWue6ZWVyg==
+< X-Cache: Miss from cloudfront
+< Via: 1.1 5a8a3f9dea8033ff97627e0a0c6df032.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P3
+< Vary: Accept-Encoding
+< Etag: W/"b80b5af78d67d29c5f24dbe1c4a98278"
+< X-Amz-Server-Side-Encryption: AES256
+< Cache-Control: no-store
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Wed, 06 Sep 2023 13:40:08 GMT

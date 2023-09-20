@@ -1,0 +1,14 @@
+GET http://sfa.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:00:57 GMT
+< Content-Type: text/html
+< Content-Length: 164
+< Location: https://sfa.jsc.nasa.gov
+< Referrer-Policy: strict-origin-when-cross-origin

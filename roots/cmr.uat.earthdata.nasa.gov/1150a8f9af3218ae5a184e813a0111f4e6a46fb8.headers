@@ -1,0 +1,16 @@
+GET http://cmr.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 167
+< Location: https://cmr.uat.earthdata.nasa.gov/
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK50-P8
+< X-Amz-Cf-Id: AbCMvbPV5XtWvkjdI8mZJOShvXaLNKT1YIzKeYf3qTiFwab6zl_9nA==
+< Date: Tue, 19 Sep 2023 06:03:35 GMT
+< X-Cache: Redirect from cloudfront
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 4810d74d0025d8ce3dbab6cb71a901d2.cloudfront.net (CloudFront)

@@ -1,0 +1,13 @@
+GET http://exoplanets.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 ab3cd7cfdd9d5cf21e29b3ffd33aa170.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< X-Amz-Cf-Id: tLjt6pxH4Wdqbo0U4FRb9tGJiZ4w-fiL0Nl-98G4bV0FBl8lt_iYcA==
+< Server: CloudFront
+< Location: https://exoplanets.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Date: Tue, 19 Sep 2023 06:01:51 GMT
+< Content-Type: text/html
+< Content-Length: 167

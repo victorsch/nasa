@@ -1,0 +1,13 @@
+GET https://search.hec.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 595
+< Content-Type: text/html
+< Via: 1.1 d4b67fda8355378cec4afc079701f8e6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P2
+< X-Amz-Cf-Id: XiRYEueFTCzdW-tS6DG9M-7d7fIllZFJYn6scShj72XjC6hu1bTXBw==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:53:47 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< X-Cache: Error from cloudfront

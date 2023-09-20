@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script id="f5_cspm">(function(){var f5_cspm={f5_p:'DGPDFPBECCOKKELEPEGFHKKEKINJMABFLPPANCHDELJNIDDMHJBHPCFHEMLLJGDDNCMBCPDGAABMKFBMPKMAFCIJAABNICDNDCMEFLNPOPMGCAPHOBABJLCJGJEAAIFA',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr1779101917aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>
+<meta charset="utf-8" />
+<title>International Directory Network (IDN)</title>
+<!-- Jetty Server #3 -->
+<!--script src="scripts/jquery.js" type="text/javascript"> </script>
+<script src="javascript.js" type="text/javascript"> </script>
+<link type="text/css" rel="stylesheet" href="idn_common.css" /-->
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+<!--This stylesheet contains classes for the template areas that are not for general use -->
+<!--link rel="stylesheet" href="ceosorg.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="ceosv3_style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="ceosv3_bootstrapmin.css" type="text/css" /-->
+
+<!-- Head Begin -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="IE=edge">  <!-- allows IE to render CSS styles just like the rest of the browsers -->
+<meta name="Description" content="The Global Change Master Directory is a comprehensive directory of information about Earth science data, including the oceans, atmosphere, hydrosphere, solid earth, biosphere and human dimensions of global change. FGDC Clearinghouse Node (NASA)." />
+
+<meta name="orgcode" content="400" />
+<meta name="rno" content="Stephen.W.Berrick" />
+<meta name="webmaster" content="Rosy.M.Cordova.1" />
+
+<meta name="Keywords" content="agricultrue, atmosphere, biosphere,cryosphere, snow, ice, climate indicators, human dimensions, hydrosphere, land surface, ocean, paleoclimate, radiance,  imagery, sun, solid earth,  data, global warming, world climate, climate change, earth science, data sets, research, conferences, data services, data center, university, graduate school, science project, earth science data" />
+<script src="/javascript.js" type="text/javascript"> </script>
+<link type="text/css" rel="stylesheet" href="/idn_common.css" />
+
+<!--This stylesheet contains classes for the template areashat are not for general use -->
+<link rel="stylesheet" href="/ceosorg.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/ceosv3_style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="/ceosv3_bootstrapmin.css" type="text/css" />
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- END Google Tag Manager -->
+
+<!--This stylesheet contains all the classes for the site design -->
+
+<script type="text/javascript">
+    // Do browser detection to set browser switches in javascript.js for javaScript syntax.
+    browserDetect();
+</script>
+
+<!-- Feedback Module -->
+<script src="https://fbm.earthdata.nasa.gov/for/GCMDComments/feedback.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+feedback.init({showIcon: false});
+</script>
+<!-- End Feedback Module -->
+
+<!--[if lte IE 7]>
+    <link type="text/css" rel="stylesheet" href="/ie_specific.css" />
+<![endif]-->
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="/images/specialicon.ico">
+<link rel="stylesheet" href="/lib/font-awesome-4.5.0/css/font-awesome.min.css">
+
+<style type="text/css">
+ul.navbar-nav
+{
+    /*white-space:nowrap;
+    overflow:hidden;*/
+    height:50px;
+}
+ul.navbar-nav li
+{
+    white-space:nowrap;
+}
+</style>
+
+<!-- Head end -->
+
+
+<style type="text/css">
+  .flex-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+    ol
+    {
+        padding: 2em;
+        list-style-type:upper-roman;
+    }
+    ol li a{/*padding-left:0.25em;*/}
+    section {margin-top:1em;}
+    section div img {margin:1em;}
+    section p {text-align: justify;}
+    section img
+    {
+        float:right;
+        padding:0 2em;
+    }
+
+/* auto complete */
+
+span.title_like
+{
+    display:inline-block;
+    padding: 4px;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background: linear-gradient(#415571 0%, #34445b 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width:297px;
+}
+
+</style>
+<script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+<style>
+.ui-autocomplete {
+   max-height: 130px;
+   max-width: 552px;
+   overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+   padding-left: 5px;
+   padding-right: 5px;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+ }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(106,136,255,1);
+ }
+
+ ::-webkit-scrollbar-corner { display: none; height: 0px; width: 0px; }
+
+</style>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+            new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WNP7MLF');
+    </script>
+    <!-- END Google Tag Manager -->
+
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrap">
+
+<!-- Header Begin -->
+<script type="text/javascript" src="../../scripts/jquery.js"></script>
+<script type="text/javascript">
+try
+{
+    var _run_title_once = false;
+    function basicTitles()
+    {
+        //set all tooltips for urls to CEOS
+        $("a").each(function(o)
+        {
+            var h = $(this).attr("href");
+            var t = $(this).attr("title");
+            
+            if (h!=null && -1<h.indexOf("ceos.org") && (t==null || t.length1) )
+            {
+                $(this).attr("title", "This link will transfer you to the CEOS web site");
+                _run_title_once = true;
+            }
+        });
+        if (!_run_title_once){window.setTimeout("basicTitles()", 2000);}
+    }
+
+    $(document).ready(basicTitles);
+}catch (e)
+{
+    window.console&&console.log(e.toString());
+}
+</script>
+
+
+
+<script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+<header id="header-main" class="wrapper">
+    <nav id="nav-main" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <div class="mobileBrand">
+                <a class="navbar-brand" href="http://ceos.org/" title="CEOS" rel="home">CEOS</a>
+            </div>
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>-->
+        </div>
+        <div class="collapse navbar-collapse wrapper" id="bs-example-navbar-collapse-1">
+            <div class="wrapper" id="mainNav-wrapper">
+                <div class="container">
+                    <nav id="cssmenu" class="menu-main-nav-container">
+                        <ul id="menu-main-nav" class="nav navbar-nav">
+                            <li><img src="images/ceos_small.png" title="CEOS logo" style="padding-top:10px;padding-right:10px;"></img></li>
+                            <li><a href="http://ceos.org/"><span>CEOS Home</span></a></li>
+                            <li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub"><a href="http://ceos.org/about-ceos/"><span>About CEOS</span></a>
+                                <ul>
+                                    <li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/overview/"><span>Overview</span></a>
+                                    </li>
+                                    <li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/governing-documents/"><span>Governing Documents</span></a>
+                                    </li>
+                                    <li id="menu-item-1031" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/organization/"><span>Organization</span></a>
+                                    </li>
+                                    <li id="menu-item-1032" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/publications-2/"><span>Publications</span></a>
+                                    </li>
+                                    <li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/agencies/"><span>Agencies</span></a>
+                                    </li>
+                                    <li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/about-ceos/the-faces-of-ceos/"><span>The Faces of CEOS</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub">
+                                <a href="http://ceos.org/ourwork/"><span>Our Work</span></a>
+                                <ul>
+                                    <li id="menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/ourwork/workinggroups/"><span>Working Groups</span></a>
+                                    </li>
+                                    <li id="menu-item-1035" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/ourwork/virtual-constellations/"><span>Virtual Constellations</span></a>
+                                    </li>
+                                    <li id="menu-item-1036" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/ourwork/ad-hoc-teams/"><span>Ad Hoc Teams</span></a>
+                                    </li>
+                                    <li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/ourwork/other-ceos-activities/"><span>Other CEOS Activities</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="http://ceos.org/meetings-page/"><span>Meetings</span></a>
+                            </li>
+                            <li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="http://ceos.org/data-tools/"><span>Data &#038; Tools</span></a>
+                            </li>
+                            <li id="menu-item-1040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has-sub">
+                                <a href="http://ceos.org/resources/"><span>Resources</span></a>
+                                <ul>
+                                    <li id="menu-item-1042" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/calendar/"><span>Calendar</span></a>
+                                    </li>
+                                    <li id="menu-item-1157" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/documents/"><span>Documents</span></a>
+                                    </li>
+                                    <li id="menu-item-1044" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="http://ceos.org/tracking/"><span>Deliverables Tracking</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-1041" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://ceos.org/contact-us/"><span>Contact Us</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="wrapper" id="utilityNav-wrapper" style="background:none">
+                <div class="container">
+                    <h1 id="mainBrand">
+                        <img src="images/idnbetalogo.png" title="International Directory Network (IDN) logo." width="300" height="70">
+                    </h1>
+                <div id="search-block" class="image2-div">
+                    <span style="padding-left:8em; padding-top:2em; color:#B2B2B2">Search IDN for Data
+                    </span>
+                    <form method="GET"  action="https://search.earthdata.nasa.gov/portal/idn/search">
+                        <input type="hidden" value="true" name="ac">
+                        <input type="text" size="45" title="View data set titles related to your search terms" name="q" value="" style="background-color:#CEE6EF">
+                        <button type="submit" id="btnSearch" style="-moz-border-radius:5px;-webkit-border-radius:5px; background-color:white;padding:5px" value="Submit" title="Select this button to begin your search"><i class="fa fa-search fa-lg"></i></button>
+                        <button type="reset" id="btnSearch" style="-moz-border-radius:5px;-webkit-border-radius:5px; background-color:white;padding:5px;"  title="Select this button to clear your search terms" value="Reset"/><i class="fa fa-times-circle fa-lg" style="color:#E74C3C;"></i></button>
+                    </form>
+
+                </div>
+                        <div style="padding-left:35px">
+                            <p style="padding-top:3px; top:115px; right:0px; position:absolute;white-space: nowrap; color:#465D7B; background-color:transparent;">
+                                <a href="http://idn.ceos.org/index.html" title="Return to the IDN home page"style="color:#465D7B; text-decoration:none;">IDN Home</a>
+                                |
+                                <a href="https://wiki.earthdata.nasa.gov/display/EDSC/How-To+Articles" title="View information about how to search" style="color:#465D7B; text-decoration:none;">IDN Help</a>
+                                |
+                                <a href="sitemap.html" title="View a list of all the IDN web site pages"style="color:#465D7B; text-decoration:none;">IDN Sitemap</a>
+                                |
+                                <a href="mailto:support@earthdata.nasa.gov" title="Contact IDN User Support for assistance" style="color:#465D7B; text-decoration:none;">Contact IDN</a><span style="padding-right:15px"></span>
+                            </p>
+                        </div>
+ <div style="margin-left:35em; padding-top:45px; color:#B2B2B2; position: absolute; background-color:transparent;">
+                <a href="https://wiki.earthdata.nasa.gov/display/EDSC/How+To%3A+Search+using+Earthdata+Search" title="View information about how to search" style="color:#6BA71B; text-decoration:underline;">Search Help</a>
+            </div>
+                    </div>
+       </div> 
+   
+</nav>
+
+<!-- Add the Status banner -->
+<div id="earthdata-notification-banner"></div>
+<!-- End Status banner -->
+
+
+<!--/div-->
+<!-- Header end -->
+
+
+    <div id="backup">
+        <div class="wrapper" align="center" style="background: linear-gradient(to bottom, #032E3E 0%, #FFF 100%) repeat scroll 0% 0% transparent; height:625px">
+            <p style="padding-top:20px; padding-bottom: 10px; margin-left:120px; margin-right:100px; color: #D8E5E5; text-align:justify;">
+               Welcome to the CEOS International Directory Network (IDN) - a Gateway to the world of Earth Science data. The CEOS IDN is an international effort developed to assist researchers in locating information on available datasets. The directory is sponsored as a service to the Earth science community.
+            <br>
+
+            <div style="padding-top:35px; margin-bottom:300px; margin-right:100px; margin-left:100px; width:1050px; background:white; padding-bottom:10px;">
+                <a href="https://search.earthdata.nasa.gov/portal/idn/search?ac=true" target="_top">
+                    <div class="shadowBox pathWay" title="Search for IDN Data Sets">
+                        <span class="title">Search IDN Data Sets</span>
+                            <span class="content">
+                                <a href="https://search.earthdata.nasa.gov/portal/idn/search?ac=true" target="_top"><img title="Search for IDN Data Sets" alt="image depicting Data Set related imagery" src="images/CEOSData.png"></a>
+                                    <p>Discover and access data descriptions, relevant to global change and Earth science research.</p>
+                            </span>
+                        <span class="bottom"><a href="https://search.earthdata.nasa.gov/portal/idn/search?ac=true" target="_top">Search IDN Data Sets</a></span>
+                    </div>
+                </a>&nbsp;&nbsp;
+                <a href="contribute.html" title="Create or Update IDN Metadata using our online tool" target="_top">
+                    <div class="shadowBox pathWay" title="Create or Update IDN data descriptions">
+                        <span class="title">Create/Update IDN Metadata</span>
+                        <span class="content">
+                            <a href="contribute.html" title="Create or Update IDN Metadata using our online tool" target="_top">
+                                <img title="Create or Update IDN data descriptions" alt="global imagery" src="images/CDsample.png">
+                            </a>
+                            <p>Add or Update your data description within the International Directory Network Data sets.</p>
+                        </span>
+                        <span class="bottom">
+                            <a href="contribute.html" target="_top">Create/Update IDN Metadata</a>
+                        </span>
+                    </div>
+                </a>
+                <div class="shadowBox pathWay" style="border: 0px !important; box-shadow: none; padding-left: 10px; padding-bottom:15px;">
+                    <div class="imageTwo image"  style="width:295px; height: 170px; color:#465D7B;">
+                        <span class="title">What's New</span>
+                        <span>
+                            <ul style="list-style:square; list-style-position: inside; margin: 6px; width:24em; text-align: left; font-size:12px; text-indent: -1em; padding-left: 1em;">
+    <li><a href="https://gcmd.earthdata.nasa.gov/KeywordViewer/" target="_blank" style="text-decoration:none">GCMD Keyword Viewer</a></li>
+    <li><a href="https://forum.earthdata.nasa.gov/app.php/tag/GCMD+Keywords" target="_blank" style="text-decoration:none">GCMD Keyword Forum</a></li>
+    <li><a href="https://wiki.earthdata.nasa.gov/display/ED/Keyword+Release+Announcements" target="_blank" style="text-decoration:none">Latest GCMD Keyword Releases</a></li>
+    <li>Portals for GCMD/IDN Partners:</li>
+        <ul><li><a href="https://search.earthdata.nasa.gov/portal/soos/search" target="_blank" style="text-decoration:none">SOOS Portal</a></li>
+    	    <li><a href="https://search.earthdata.nasa.gov/portal/amd/search" target="_blank" style="text-decoration:none">AMD Portal</a></li></ul>
+</ul>
+                       </span>
+                    </div>
+                    <br>
+                    <div class="imageTwo"  style="width:295px; margin-top:10px">
+                        <a href="https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords" target="_blank" style="text-decoration:none" title="Keyword Access"><span class="title">Show All GCMD Keywords</span></a>
+                    </div>
+
+                    <div class="imageTwo"  style="width:295px; margin-top:17px">
+                        <a href="mailto:support@earthdata.nasa.gov" style="text-decoration:none" title="Send email to IDN"><span class="title">Contact IDN</span></a>
+                    </div>
+                </div>
+                <br>
+                <div class="flex-container" style="width:950px">
+                    <span style="display:inline-block; padding-left: 0px; margin-left:10px; padding-right: 0px; width: 285px">
+
+                        <div style="padding:10px; margin:0px; background-color:#2B384F">
+                            <a href="mimkeywords.html" target="_top" style="color:white;text-decoration:none;" title="The CEOS Missions, Instruments, and Measurements (MIM) keywords contain information on many key measurements of interest to the main user groups of Earth observation satellite data">
+                               <span class="title">Search by CEOS MIM Keywords</span>
+                            </a>
+                        </div>
+
+                        <!-- div style="padding:8px; margin:9px; padding-bottom:10px; height: 25px; width; 50px;">&nbsp;
+                                <!-- a href="https://idn.ceos.org/search/Titles.do?search=&subset=idn#titles" target="_top" style="color:white;text-decoration:none" title="Browse by Legacy Interface">
+                                <span class="_title">Browse by Legacy Interface</span>
+                            </a>
+                        </div -->
+                    </span>
+
+                    <span style="background-color:#2B384F; display:inline-block; margin-top:-1px !important; width: 605px">
+                        <div style="padding:8px;margin:8px;margin-top:3px;color:white;">
+                            Search For Data Sets by CEOS Member
+                            <i id="member_info" style="margin-left:0.25em" class="fa fa-info-circle fa-inverse" aria-hidden="true" title="This search feature is for discovery of CEOS Members data sets only. For discovery of CEOS Associate Members or other agencies outside CEOS go to the search box called Search IDN Data Sets."></i>
+                        </div>
+
+                        <div style="padding:5px">
+                            <input size="32" id="member_list" style="width:550px;" placeholder="Search for members by name" title="Type in the name of a member to search for">
+                            <a style="height:1.75em" id="drop_button"></a>
+                            <!--i id="member_info" class="fa fa-info-circle fa-inverse" aria-hidden="true"></i-->
+                        </div>
+                    </span>
+
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+$(document).ready(function()
+{
+    var queries =
+    {
+        "none":''
+        , "CNES":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=FR/CNES&ac=true'
+        , "CONAE":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=AR/CREDAS&ac=true'
+        , "CSA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=CA/CSA/ST/SP&ac=true'
+        , "CSIRO":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=AU/CSIRO/ENTO!AU/CSIRO/CMAR!AU/CSIRO/CLW&ac=true'
+        , "DLR":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=DE/DLR/DFD/ISIS!DE/DLR/DFD!DE/DLR/DFD/EOWEB!DE/DLR/DFD!DE/DLR&ac=true'
+        //, "DLR":'{"condition":{"data_center":{"level_0":"GOVERNMENT AGENCIES-NON-US","level_1":"GERMANY","level_2":"Not Provided","level_3":"Not Provided","short_name":"DE/DLR/DFD*","pattern":true}}}'
+        , "ESA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=ESA/UDS!ESA/ESRIN!ESA/ESOC!ESA/EARTHNET!ESA/CSDS!ESA/CS1CGS!ESA/CCI!ESA/ENVISAT!ESA/EO!ESA/ESRIN/ODISSEO!ESA/MIRAVI!ESA/SEOM&ac=true'
+        //, "EUMETSAT":'{"condition":{"or":[{"data_center":{"level_0":"MULTINATIONAL ORGANIZATIONS","level_1":"Not Provided","level_2":"Not Provided","level_3":"Not Provided","short_name":"EUMETSAT*","pattern":true}},{"data_center":{"level_0":"GOVERNMENT AGENCIES-NON-US","level_1":"GERMANY","level_2":"Not Provided","level_3":"Not Provided","short_name":"DE/EUMETSAT"}}]}}'
+        // , "EUMETSAT":'{"condition":{"data_center":{"level_0":"*S","level_1":"Not Provided","level_2":"Not Provided","level_3":"Not Provided","short_name":"*EUMETSAT*","pattern":true}}}'
+        // , "EUMETSAT":'{"condition":{"and":[{"not":{"or":[{"data_center":{"short_name":"PO.DAAC"}},{"data_center":{"short_name":"NASA/JPL/PODAAC"}},{"data_center":{"short_name":"DOC/NOAA/NESDIS/NCEI"}},{"data_center":{"short_name":"NOAA/CLASS"}},{"data_center":{"short_name":"SCIOPS"}}]}},{"or":[{"data_center":{"short_name":"EUMETSAT"}},{"data_center":{"short_name":"EUMETSAT/OSISAF"}}]}]}}'
+        , "EUMETSAT":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=European%20Organisation%20for%20the%20Exploitation%20of%20Meteorological%20Satellites%20(EUMETSAT)!EUMETSAT%20for%20Copernicus!!EUMETSAT%20Ocean%20and%20Sea%20Ice%20Satellite%20Application%20Facility%20(OSI%20SAF)&ac=true'
+        , "GISTDA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=TH/MSTE/GISTDA&ac=true'
+        , "INPE":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=BR/INPE!BR/INPE/DSR!BR/INPE/DSA!BR/INPE/DPI!BR/INPE/DGI!BR/INPE/DAS!BR/INPE/DAE/FISAT!BR/INPE/CPTEC!&ac=true'
+        , "ISRO":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=IN/ISRO/NRSC-BHUVAN!IN/ISRO/NDC!IN/ISRO/MOSDAC!IN/ISRO/NOEDA!IN/ISRO/NRSC/NOEDA!IN/ISRO&ac=true'
+        , "KARI":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=KR/KARI&ac=true'
+        , "MEXT/JAXA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=JP/JAXA/EORC!JP/JAXA/ISAS!JP/JAXA/SAOC!JP/JAXA/EOC!JP/JAXA/EORC/GLACE!&ac=true'
+        , "NASA":'https://search.earthdata.nasa.gov/portal/idn/search?tag_key=gov.nasa.eosdis&ac=true'
+        , "NOAA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=DOC/NOAA/CBO!DOC/NOAA/CLASS!DOC/NOAA/EDU!DOC/NOAA/GEO-IDE!DOC/NOAA/GFDL/NOMADS!DOC/NOAA/GFDL!DOC/NOAA/GLERL!DOC/NOAA/MPA!DOC/NOAA/NESDIS/COARE!DOC/NOAA/NESDIS/CRW!DOC/NOAA/NESDIS/CWP!DOC/NOAA/NESDIS/NCDC!DOC/NOAA/NESDIS/NCEI!DOC/NOAA/NESDIS/NGDC!DOC/NOAA/NESDIS/NODC/COL!DOC/NOAA/NESDIS/NODC/JASADCP!DOC/NOAA/NESDIS/NODC/LISD!DOC/NOAA/NESDIS/NODC/NCDDC!DOC/NOAA/NESDIS/NODC/OCL!DOC/NOAA/NESDIS/NODC!DOC/NOAA/NESDIS/NOSA!DOC/NOAA/NESDIS/OPDB/FPDT!DOC/NOAA/NESDIS/ORA/LSA!DOC/NOAA/NESDIS/ORA/LST!DOC/NOAA/NESDIS/OSDPD/SSD!DOC/NOAA/NESDIS/OSDPD!DOC/NOAA/NESDIS/OSD!DOC/NOAA/NESDIS/OSEI!DOC/NOAA/NESDIS/OSO!DOC/NOAA/NESDIS/OSPO!DOC/NOAA/NESDIS/STAR/SMCD!DOC/NOAA/NESDIS/STAR!DOC/NOAA/NESDIS!DOC/NOAA/NIC!DOC/NOAA/NMFS/AFSC/NMML/APIS!DOC/NOAA/NMFS/AFSC/NMML!DOC/NOAA/NMFS/AFSC!DOC/NOAA/NMFS/AKRO!DOC/NOAA/NMFS/FSED!DOC/NOAA/NMFS/GALVESTON!DOC/NOAA/NMFS/GARFO!DOC/NOAA/NMFS/NEFSC!DOC/NOAA/NMFS/NERO!DOC/NOAA/NMFS/NWFSC!DOC/NOAA/NMFS/OHC!DOC/NOAA/NMFS/OPR!DOC/NOAA/NMFS/OSF!DOC/NOAA/NMFS/OST/RACD!DOC/NOAA/NMFS/OST!DOC/NOAA/NMFS/PIFSC/ESD!DOC/NOAA/NMFS/PIFSC!DOC/NOAA/NMFS/SEFSC/SEAMAP!DOC/NOAA/NMFS/SEFSC!DOC/NOAA/NMFS/SERO!DOC/NOAA/NMFS/SWFSC/PFEL!DOC/NOAA/NMFS/SWFSC!DOC/NOAA/NMFS/WCRO!DOC/NOAA/NMFS!DOC/NOAA/NOS/CO-OPS!DOC/NOAA/NOS/CORIS!DOC/NOAA/NOS/CSC/CRS!DOC/NOAA/NOS/CSC/LCR!DOC/NOAA/NOS/CSC!DOC/NOAA/NOS/MBO/SP!DOC/NOAA/NOS/NCCOS/CCEHBR!DOC/NOAA/NOS/NCCOS/CCFHR!DOC/NOAA/NOS/NCCOS/CCMA!DOC/NOAA/NOS/NCCOS/CSCOR!DOC/NOAA/NOS/NCCOS/HML!DOC/NOAA/NOS/NCCOS!DOC/NOAA/NOS/NGS!DOC/NOAA/NOS/NMS/STELLWAGEN!DOC/NOAA/NOS/NMS!DOC/NOAA/NOS/OCM!DOC/NOAA/NOS/OCRM/NERRS/GBNERR!DOC/NOAA/NOS/OCRM/NERRS/WNERR!DOC/NOAA/NOS/OCRM/NERR!DOC/NOAA/NOS/OCS/CSDL/MMAP!DOC/NOAA/NOS/OCS/HSD!DOC/NOAA/NOS/OCS/MCD!DOC/NOAA/NOS/OCS!DOC/NOAA/NOS/ORCA/CMBAD!DOC/NOAA/NOS/ORCA/SEA!DOC/NOAA/NOS/ORR/HAZMAT!DOC/NOAA/NOS/ORR!DOC/NOAA/NOS/SPO!DOC/NOAA/NOS!DOC/NOAA/NWS/APRFC!DOC/NOAA/NWS/ARH/WCATWC!DOC/NOAA/NWS/ARH!DOC/NOAA/NWS/BOSTON!DOC/NOAA/NWS/CBRFC!DOC/NOAA/NWS/FSD!DOC/NOAA/NWS/ILN!DOC/NOAA/NWS/LA!DOC/NOAA/NWS/LWX!DOC/NOAA/NWS/NCEP-CFSR!DOC/NOAA/NWS/NCEP/CPC/NDACC!DOC/NOAA/NWS/NCEP/CPC!DOC/NOAA/NWS/NCEP/EMC/GCWMB!DOC/NOAA/NWS/NCEP/EMC!DOC/NOAA/NWS/NCEP/NCO!DOC/NOAA/NWS/NCEP/SEC!DOC/NOAA/NWS/NCEP/SPC!DOC/NOAA/NWS/NCEP/SWPC!DOC/NOAA/NWS/NCEP/TPC/NHC!DOC/NOAA/NWS/NCEP!DOC/NOAA/NWS/NDBC!DOC/NOAA/NWS/NOHRSC!DOC/NOAA/NWS/OAX!DOC/NOAA/NWS/OCWWS!DOC/NOAA/NWS/OHD!DOC/NOAA/NWS/OST/MDL!DOC/NOAA/NWS/PRH/ITIC!DOC/NOAA/NWS/PTWC!DOC/NOAA/NWS/PUB!DOC/NOAA/NWS/SALTLAKE!DOC/NOAA/NWS/SFO!DOC/NOAA/NWS/SRH!DOC/NOAA/NWS/STL/NWAC!DOC/NOAA/NWS/TLH!DOC/NOAA/NWS!DOC/NOAA/OAR/AOML/HRD!DOC/NOAA/OAR/AOML/OCD/CHAMP!DOC/NOAA/OAR/AOML!DOC/NOAA/OAR/ARL/ATDD!DOC/NOAA/OAR/ARL/SRRB!DOC/NOAA/OAR/ARL!DOC/NOAA/OAR/ARO!DOC/NOAA/OAR/ARP!DOC/NOAA/OAR/CSD!DOC/NOAA/OAR/ESRL/AMDAR/!DOC/NOAA/OAR/ESRL/GMD/CCGG!DOC/NOAA/OAR/ESRL/GMD/HATS!DOC/NOAA/OAR/ESRL/GMD/OZWV!DOC/NOAA/OAR/ESRL/GMD!DOC/NOAA/OAR/ESRL/GSD/ISB!DOC/NOAA/OAR/ESRL/GSD/!DOC/NOAA/OAR/ESRL/PSD/CAB!DOC/NOAA/OAR/ESRL/PSD/CSD!DOC/NOAA/OAR/ESRL/PSD/ETL!DOC/NOAA/OAR/ESRL/PSD!DOC/NOAA/OAR/GLERL!DOC/NOAA/OAR/MOC!DOC/NOAA/OAR/NSSL!DOC/NOAA/OAR/NURP/NAGL!DOC/NOAA/OAR/OER!DOC/NOAA/OAR/PMEL/EPIC!DOC/NOAA/OAR/PMEL/NCTR!DOC/NOAA/OAR/PMEL/VENTS!DOC/NOAA/OAR/PMEL!DOC/NOAA/OAR!DOC/NOAA/OMAO!DOC/NOAA/OOE!DOC/NOAA/OPCA!DOC/NOAA/SHORELINE!DOC/NOAA!IOOS!NSIDC_ACADIS!NSIDC_AGDC!NSIDC_ARCSS/ADCC!NSIDC_ARCSS!NSIDC_CCAWS!NSIDC_ELOKA!NSIDC_FGDC!NSIDC_ICEBRIDGE!NSIDC_MEaSUREs!NSIDC_NOAA!NSIDC_ROCS!NSIDC_USADCC!NSIDC!WDC/GEOPHYSICS, BOULDER!WDC/METEOROLOGY, ASHEVILLE!WDC/MGG, BOULDER!WDC/PALEOCLIMATOLOGY, BOULDER!WDC/SEG, BOULDER!WDC/STP, BOULDER!WDC/STP!NOAA&ac=true'
+        , "NRSCC":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=CN/MST/NRSCC&ac=true'
+        , "NSAU":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=UA/NASC&ac=true'
+        , "NSMC/CMA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=CN/FENGYUN&ac=true'
+        , "ROSHYDROMET":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=RU/ROSHYDROMET/FERHRI&ac=true'
+        , "ROSKOSMOS":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=RU/NTs OMZ&ac=true'
+        , "SANSA":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=ZA/SANSA/HERMANUS&ac=true'
+        , "USGS":'https://search.earthdata.nasa.gov/portal/idn/search?fdc=DOI/USGS/ADDS!DOI/USGS/ASC/BR!DOI/USGS/ASC/GEOG/AGDC!DOI/USGS/ASC/WR!DOI/USGS/BRD/CERC/INFOLINK!DOI/USGS/BRD/CERC/PUBS!DOI/USGS/BRD/CERC!DOI/USGS/BRD/ER/SSP!DOI/USGS/BRD/FRESC/CRG!DOI/USGS/BRD/FRESC/SRFS!DOI/USGS/BRD/FRESC!DOI/USGS/BRD/GAP!DOI/USGS/BRD/GLSC!DOI/USGS/BRD/LSC/NARL!DOI/USGS/BRD/LSC!DOI/USGS/BRD/NPWRC!DOI/USGS/BRD/NWHC/WNV!DOI/USGS/BRD/NWHC!DOI/USGS/BRD/NWRC/SDMS!DOI/USGS/BRD/NWRC!DOI/USGS/BRD/PIERC!DOI/USGS/BRD/PWRC/BBL!DOI/USGS/BRD/PWRC/BBS!DOI/USGS/BRD/PWRC/CWB!DOI/USGS/BRD/PWRC/LIBRARY!DOI/USGS/BRD/PWRC/MBR!DOI/USGS/BRD/PWRC/NAAMP!DOI/USGS/BRD/PWRC/NABBS!DOI/USGS/BRD/PWRC/WCO!DOI/USGS/BRD/PWRC!DOI/USGS/BRD/SBSC/CPFS!DOI/USGS/BRD/SBSC/SWEPIC!DOI/USGS/BRD/UMESE/DSS!DOI/USGS/BRD/WERC/YNP!DOI/USGS/BRD/WERC!DOI/USGS/BRD/WRO/WFRC!DOI/USGS/CAWSC!DOI/USGS/CBOS!DOI/USGS/CCG!DOI/USGS/CCS!DOI/USGS/CEGIS!DOI/USGS/CGGSC!DOI/USGS/CHESAPEAKE!DOI/USGS/CMG/CCWS!DOI/USGS/CMG/SP!DOI/USGS/CMG/WHSC/MRIB!DOI/USGS/CMG/WHSC!DOI/USGS/CMG/WRCMG/IB!DOI/USGS/CMG/WRCMG/NAMSS!DOI/USGS/CMG/WRCMG/SDLS!DOI/USGS/CMG/WRCMG!DOI/USGS/CMG!DOI/USGS/CSAS/USGS-NPS-VCP!DOI/USGS/CSAS!DOI/USGS/ED!DOI/USGS/EGSC!DOI/USGS/ENERGY/CR/CET/NPRA!DOI/USGS/ENERGY/CR/CET!DOI/USGS/ENERGY/ER/EERT!DOI/USGS/ENERGY!DOI/USGS/EROS/GISDATA!DOI/USGS/EROS!DOI/USGS/FORT!DOI/USGS/FRAMES!DOI/USGS/GD/ARP/ISIS!DOI/USGS/GD/ARP/PIGWAD!DOI/USGS/GD/ARP!DOI/USGS/GD/CR/BRR!DOI/USGS/GD/CR/CRC!DOI/USGS/GD/CR/ESP!DOI/USGS/GD/CR/GHT!DOI/USGS/GD/CR/SL!DOI/USGS/GD/EHP/ANSS!DOI/USGS/GD/EHP/EQC!DOI/USGS/GD/EHP/ERP!DOI/USGS/GD/EHP/H&P!DOI/USGS/GD/EHP/N-CA!DOI/USGS/GD/EHP/NEIC!DOI/USGS/GD/EHP/S-CA!DOI/USGS/GD/EHP!DOI/USGS/GD/ER/EESPT!DOI/USGS/GD/FM!DOI/USGS/GD/GCRP/PUBS!DOI/USGS/GD/GCRP!DOI/USGS/GD/LHP/NLIC!DOI/USGS/GD/LHP/!DOI/USGS/GD/MENLO PARK!DOI/USGS/GD/MRP/SP!DOI/USGS/GD/MRP!DOI/USGS/GD/MT!DOI/USGS/GD/NGMDB!DOI/USGS/GD/NGP!DOI/USGS/GD/PUBS/CR!DOI/USGS/GD/PUBS/WR/GEOPUBS!DOI/USGS/GD/VHP/CVO!DOI/USGS/GD/VHP!DOI/USGS/GD/WMR/AK!DOI/USGS/GD/WMR/WRDIA!DOI/USGS/GD/WMR!DOI/USGS/GD/WR/ESP!DOI/USGS/GD/!DOI/USGS/GECSE!DOI/USGS/GEOG/CAS!DOI/USGS/GEOG/GAM!DOI/USGS/GEOG/GNIS!DOI/USGS/GEOG/MCGSC!DOI/USGS/GEOG/MCMC/NHD!DOI/USGS/GEOG/MCMC/SDTS!DOI/USGS/GEOG/MCMC/TOPO!DOI/USGS/GEOG/MCMC!DOI/USGS/GEOG/NSDI/GEOSCI!DOI/USGS/GEOG/PUBS/FS!DOI/USGS/GEOG/RMMC!DOI/USGS/GEOG/WRG/MOJAVE!DOI/USGS/GEOG/WRG!DOI/USGS/JEM!DOI/USGS/LCI!DOI/USGS/NATIONAL ATLAS!DOI/USGS/NGPO!DOI/USGS/NPO!DOI/USGS/NRMSC/GNPFS!DOI/USGS/NRMSC!DOI/USGS/PHOTO-LIB/ES!DOI/USGS/PUBS/ER/PW/DDS!DOI/USGS/PUBS/ER/PW/FS!DOI/USGS/PUBS/ER/PW/MAPS/I-MAPS!DOI/USGS/PUBS/ER/PW/OFS!DOI/USGS/PUBS/ER/PW/PP!DOI/USGS/PUBS/PW!DOI/USGS/RMGSC!DOI/USGS/SESC/SOFIA!DOI/USGS/SESC!DOI/USGS/USANPN!DOI/USGS/USARC!DOI/USGS/WGSC!DOI/USGS/WNVM!DOI/USGS/WRD/AZWSC!DOI/USGS/WRD/CAPP!DOI/USGS/WRD/CWSC!DOI/USGS/WRD/FWSC!DOI/USGS/WRD/GA/CR!DOI/USGS/WRD/GA/ED!DOI/USGS/WRD/GIS!DOI/USGS/WRD/IA!DOI/USGS/WRD/IWSC!DOI/USGS/WRD/NAWQA/ACF!DOI/USGS/WRD/NAWQA/POTOMAC!DOI/USGS/WRD/NAWQA/TRACE!DOI/USGS/WRD/NAWQA!DOI/USGS/WRD/NDWSC!DOI/USGS/WRD/NHVWSC!DOI/USGS/WRD/NJ!DOI/USGS/WRD/NMWSC!DOI/USGS/WRD/NVWSC!DOI/USGS/WRD/NWIS!DOI/USGS/WRD/NYWSC!DOI/USGS/WRD/NY!DOI/USGS/WRD/OGW!DOI/USGS/WRD/OR!DOI/USGS/WRD/OSW!DOI/USGS/WRD/OWSC!DOI/USGS/WRD/PAWSC!DOI/USGS/WRD/PUB/OFR!DOI/USGS/WRD/SW/GW!DOI/USGS/WRD/TN!DOI/USGS/WRD/VA!DOI/USGS/WRD/WIWSC!DOI/USGS/WRD/WVWSC!DOI/USGS/WRD/WWSC!DOI/USGS/WRD/!DOI/USGS!WDC/SEISMOLOGY, DENVER&ac=true'
+
+        //, "ASI":''
+        //, "CDTI":''
+        //, "CRESDA":''
+        //, "CAST":''
+        //, "EC":''
+        //, "KMA":''
+        //, "NASRDA":''
+        //, "NSO":''
+        //, "TÜBITAK:''
+        //, "UKSA":''
+        //, "VAST":''
+    }
+
+    var availableTags = [
+        //{label:"Agenzia Spaziale Italiana (ASI)", value:"ASI"}
+        //{label:"Canadian Space Agency (CSA)", value:"CSA"}
+        //{label:"Center for the Development of Industrial Technology (CDTI)", value:"CDTI"}
+        {label:"Centre National d'Etudes Spatiales (CNES)", value:"CNES"}
+        //,{label:"China Center for Resources Satellite Data and Application (CRESDA)", value:"CRESDA"}
+        //,{label:"Chinese Academy of Space Technology (CAST)", value:"CAST"}
+        ,{label:"Comision Nacional de Actividades Espaciales (CONAE)", value:"CONAE"}
+        ,{label:"Commonwealth Scientific and Industrial Research Organisation (CSIRO)", value:"CSIRO"}
+        ,{label:"Deutsches Zentrum für Luft-und Raumfahrt (DLR)", value:"DLR"}
+        //,{label:"European Commission (EC)", value:"EC"}
+        ,{label:"European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT)", value:"EUMETSAT"}
+        ,{label:"European Space Agency (ESA)", value:"ESA"}
+        ,{label:"Geo-Informatics and Space Technology Development Agency (GISTDA)", value:"GISTDA"}
+        ,{label:"Indian Space Research Organisation (ISRO)", value:"ISRO"}
+        ,{label:"Instituto Nacional de Pesquisas Espaciais (INPE)", value:"INPE"}
+        ,{label:"Korea Aerospace Research Institute (KARI)", value:"KARI"}
+        //,{label:"Korea Meteorological Administration (KMA)", value:"KMA"}
+        ,{label:"Ministry of Education, Culture, Sports, Science, and Technology/Japan Aerospace Exploration Agency (MEXT/JAXA)", value:"MEXT/JAXA"}
+        ,{label:"National Aeronautics & Space Administration (NASA)", value:"NASA"}
+        ,{label:"National Oceanic and Atmospheric Administration (NOAA)", value:"NOAA"}
+        ,{label:"National Remote Sensing Center of China (NRSCC)", value:"NRSCC"}
+        ,{label:"National Satellite Meteorological Center/China Meteorological Administration (NSMC/CMA)", value:"NSMC/CMA"}
+        ,{label:"National Space Agency of Ukraine (NSAU)", value:"NSAU"}
+        //,{label:"National Space Research & Development Agency of Nigeria (NASRDA)", value:"NASRDA"}
+        //,{label:"Netherlands Space Office (NSO)", value:"NSO"}
+        ,{label:"Russian Federal Service for Hydrometeorology and Environmental Monitoring (ROSHYDROMET)", value:"ROSHYDROMET"}
+        ,{label:"Russian Federal Space Agency (ROSKOSMOS)", value:"ROSKOSMOS"}
+        //,{label:"Scientific and Technological Research Council of Turkey (TÜBITAK)", value:"TÜBITAK"}
+        ,{label:"South African National Space Agency (SANSA)", value:"SANSA"}
+        //,{label:"United Kingdom Space Agency (UKSA)", value:"UKSA"}
+        ,{label:"United States Geological Survey (USGS)", value:"USGS"}
+        //,{label:"Vietnam Academy of Science and Technology (VAST)", value:"VAST"}
+    ];
+
+    $("#member_list")
+    .addClass("custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left")
+    .autocomplete(
+    {
+        minLength: 0
+        ,source: availableTags
+        ,select: function( event, ui )
+        {//send as freetext to titles.do
+            var key = ui.item.value;
+            var value = queries[key];
+
+            if (value!=null && 0<value.length && value.startsWith("{\"condition\":{") && value.endsWith("}"))
+            {
+                $("#json").val(value);
+                $("#search").val("");
+                ui.item.value = "";
+            }
+            else if (value!=null && 0<value.length && value.startsWith("https://"))
+            {
+                location.href=value;
+            }
+            else
+            {
+                $("#json").val("");
+                $("#search").val(ui.item.value);
+                ui.item.value = "";
+            }
+            $("#searchText").submit();
+        }
+    })
+    .on("focus", function ()
+    {
+        $(this).addClass("custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left").autocomplete("search", "");
+    })
+    ;
+
+    var wasOpen = false;
+
+    /*make the drop box button */
+    var aa = $("#drop_button")
+        .attr( "title", "Show All Items" )
+        .addClass("custom-combobox-toggle ui-corner-right")
+        .removeClass( "ui-corner-all" )
+        .button({icons: {primary: "ui-icon-triangle-1-s"},text: false})
+        .on("click", function()
+        {
+            var ml = $("#member_list");
+            ml.trigger("focus");
+            ml.autocomplete("search", "");
+        })
+
+    //make tooltip a popup panel
+    $("#member_info").tooltip(
+    {
+        disabled: true,
+        close: function( event, ui ) { $(this).tooltip('disable'); }
+    })
+    //.on('click',function(){$(this).tooltip('enable').tooltip('open');})
+    .hover(
+        function(){$(this).tooltip('enable').tooltip('open');}
+        , function(){$(this).tooltip('enable').tooltip('close');})
+    ;
+});
+  </script>
+                </div>
+            </div>
+    </div>
+
+    <div id="footerWrap" class="wrapper">
+        <div class="container">
+             <div class="col-sm-8">
+                <nav id="footnav">
+                    <ul class="menu">
+                        <li><a href="http://ceos.org/about-ceos/">About CEOS</a>
+                            <ul class="sub-menu">
+                                <li><a href="http://ceos.org/about-ceos/overview/">Overview</a></li>
+                                <li><a href="http://ceos.org/about-ceos/governing-documents/">Governing Documents</a></li>
+                                <li><a href="http://ceos.org/about-ceos/organization/">Organization</a></li>
+                                <li><a href="http://ceos.org/about-ceos/publications-2/">Publications</a></li>
+                                <li><a href="http://ceos.org/about-ceos/agencies/">Agencies</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://ceos.org/ourwork/">Our Work</a>
+                            <ul class="sub-menu">
+                                <li><a href="http://ceos.org/ourwork/workinggroups/">Working Groups (WG)</a></li>
+                                <li><a href="http://ceos.org/ourwork/virtual-constellations/">Virtual Constellations</a></li>
+                                <li><a href="http://ceos.org/ourwork/ad-hoc-teams/">Ad Hoc Teams</a></li>
+                                <li><a href="http://ceos.org/ourwork/other-ceos-activities/">Other CEOS Activities</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://ceos.org/calendar/">Resources</a>
+                            <ul class="sub-menu">
+                                <li><a href="http://ceos.org/calendar/">Calendar</a></li>
+                                <li><a href="http://ceos.org/documents/">Documents</a></li>
+                                <li><a href="http://ceos.org/tracking/">Objectives/Deliverables Tracking</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://ceos.org/meetings-page/">Meetings</a>
+                            <ul class="sub-menu">
+                                <li><a href="http://ceos.org/data-tools/">Data &amp; Tools</a></li>
+                                <li><a href="http://ceos.org/contact-us/">Contact CEOS</a></li>
+                            </ul>
+                        </li>
+                   </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Begin -->
+<div id="nasafoot" style="background-color:black; color:white;">
+    <div id="nasafootleft">
+        <ul>
+            <li>
+                Webmaster:
+                <a href="javascript:feedback.showForm();" title="Send a comment to GCMD">Michael Morahan</a>
+            </li>
+            <li>
+                Responsible CEOS IDN Website Official:
+                <a href="javascript:feedback.showForm();" title="Send a comment to GCMD">Stephen Berrick</a>
+            </li>
+            <li>
+                <a  href="mailto:support@earthdata.nasa.gov" target="_blank">Contact IDN</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

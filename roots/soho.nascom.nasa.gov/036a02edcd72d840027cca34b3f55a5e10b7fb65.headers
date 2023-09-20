@@ -1,0 +1,10 @@
+GET http://soho.nascom.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Location: https://soho.nascom.nasa.gov/
+< Content-Length: 237
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:55:52 GMT
+< Server: Apache

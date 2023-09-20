@@ -1,0 +1,14 @@
+GET https://nodis3.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 62
+< Last-Modified: Tue, 31 Mar 2020 19:01:58 GMT
+< Etag: "85cb24da8e7d61:0"
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31557600; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:06:31 GMT
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< Set-Cookie: SMIDENTITY=TuqhYsItRMbnaVSo3TbhXWCIAJyMYl9j0ZDxMHXnwd2m20pyhbGRf4a34+FgmscY26iIvGnRG5rra4WJUqOQdfM3d6b9T63vlHchRgBAKnJmxrfXKGOQ/c53Z0jzu3Exv9/zhNeS/MLZxiSOyl76kFvF8k+0xRIp8WqZRHVJ5IfN3Gu/EMk4ZIRZH/5zmHMPU72bDidhkjVQ9WFUb+nJii1OeY3HKpZpwwmttKvACYUKD+11DL2qfnzGG6+sElLZsjgmZKbmZVR3yr3/XUQYJoWRlM5p80QC3DCt5WmIg1a65NBhhZTCMNW2IN/KCTHvKBpc3VFSTgoYP8J471sxkMVb5v9+QXVlkUVhNl62XGya+cnUEnAziLW+abQW7a4FTm23lzUmaBZXMY4dIfxFxHTqHyKKBsEqO/RyY13nm/8Fgd8YG4oFXK1ZKvtiTC1dZIVC+eiSCmdHt3Lt98nW9RX/rDb6cNp/N5aG++oF9BVpIsnsPm1XNukWZGfHWGJ3coq4bkx1ZCCEDZFWBT6CD1BcwdqvVW67wmzaNKmsVfFLyyFjml+5X1NDjYbM9AmA; expires=Thu, 18 Sep 2025 06:06:31 GMT; path=/; domain=.nasa.gov; secure; HTTPOnly

@@ -1,0 +1,14 @@
+GET https://marsoweb.nas.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Strict-Transport-Security: max-age=31557600; includeSubDomains
+< Location: https://marsoweb.nas.nasa.gov/landingsites/landingsites.html
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:55 GMT
+< Set-Cookie: session=expiry=1695103615719109;Max-Age=600;path=/; HttpOnly; Secure;
+< Set-Cookie: session=expiry=1695103615719109;Max-Age=600;path=/; HttpOnly; Secure;
+< Cache-Control: no-cache, private
+< Content-Length: 244
+< Server: Apache

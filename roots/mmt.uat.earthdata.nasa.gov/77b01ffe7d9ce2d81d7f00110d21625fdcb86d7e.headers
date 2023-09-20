@@ -1,0 +1,20 @@
+GET https://mmt.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:42:33 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Request-Id: 983b8d11-9342-49c0-afea-f1e2172b11d3
+< X-Runtime: 0.010711
+< Cache-Control: max-age=0, private, must-revalidate
+< Content-Security-Policy-Report-Only: base-uri self; child-src self; connect-src self; default-src self cdn.earthdata.nasa.gov cdn.sit.earthdata.nasa.gov cdn.uat.earthdata.nasa.gov fbm.earthdata.nasa.gov https://fonts.googleapis.com; font-src self https://fonts.googleapis.com; form-action self; frame-ancestors self; frame-src self; img-src self cdn.earthdata.nasa.gov cdn.sit.earthdata.nasa.gov cdn.uat.earthdata.nasa.gov; manifest-src self; media-src self; object-src 'none'; script-src self cdn.earthdata.nasa.gov cdn.sit.earthdata.nasa.gov cdn.uat.earthdata.nasa.gov fbm.earthdata.nasa.gov; style-src self *.earthdata.nasa.gov maxcdn.bootstrapcdn.com; worker-src self; report-uri /report_csp_violation
+< Set-Cookie: _mmt_session=8c123d99b86f9d289c3fac27fbff634d; path=/; secure; HttpOnly
+< Server: nginx
+< X-Frame-Options: SAMEORIGIN
+< X-Download-Options: noopen
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Etag: W/"070e9b3902b76d413d19abd0ad60a332"
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Strict-Transport-Security: max-age=31536000

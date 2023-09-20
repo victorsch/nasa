@@ -1,0 +1,8 @@
+GET https://ens.nasa.gov
+
+
+< HTTP/1.1 302 Moved Temporarily
+< Date: Tue, 19 Sep 2023 05:58:02 GMT
+< Server: Apache
+< Location: https://nasa.dccnotify.com/NXTPortal/login.aspx
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

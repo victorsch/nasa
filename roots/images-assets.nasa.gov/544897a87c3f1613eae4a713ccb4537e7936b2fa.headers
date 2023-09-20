@@ -1,0 +1,13 @@
+GET http://images-assets.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 167
+< Location: https://images-assets.nasa.gov/
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:01:43 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 fd6ee8ff46440f33e22da71450793e70.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< X-Amz-Cf-Id: KEXz_XlqhZBEgR7bmidkHkc8RPCeMhvT27sKTcN-eS4yE_BEz--jbg==

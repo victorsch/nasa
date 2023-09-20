@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC ""
+    "">
+
+<html>
+  <head>
+    <link rel="stylesheet" href="/earthdata.min.css?v=fb02872e" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/app.css?v=fb02872e" type="text/css" media="screen" />
+    <title>Earthdata Code Collaborative - Welcome to the ECC</title>
+    <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/lib/jquery-ui-1.10.3/css/ui-lightness/jquery-ui-1.10.3.custom.min.css?v=fb02872e" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/lib/jquery.tagit.css?v=fb02872e" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/lib/tagit.ui-zendesk.css?v=fb02872e" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.earthdata.nasa.gov/elibs/font-awesome/4.3.0/font-awesome-4.3.0/css/font-awesome.min.css?v=fb02872e" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/lib/select2-3.5.1/select2.css?v=fb02872e" />
+
+  
+  
+  
+  
+  
+  
+  
+    <!-- Google Tag Manager -->
+    
+    <!-- End Google Tag Manager -->
+
+  </head>
+  <body class="earthdata">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+    <div class="toolbar">
+      <div class="wrap">
+        <a href="/"><h1 class="ir">Earthdata Code Collaborative</h1></a>
+        <nav>
+          <ul id="nav-buttons">
+            <li><a href="https://urs.earthdata.nasa.gov/oauth/authorize?client_id=D9zoMZ6zzkB-kcXCMZ-hOQ&amp;redirect_uri=https%3A%2F%2Fecc.uat.earthdata.nasa.gov%2Flogin&amp;response_type=code&amp;state=%2F">Sign In</a></li>
+          </ul>
+          
+        </nav>
+      </div>
+    </div>
+
+  <div class="wrap" id="main-content">
+      <!-- Flash messages -->
+      
+
+      
+
+      
+
+      
+
+      
+
+  
+
+        <!-- project settings page sections -->
+
+        
+
+        
+
+        
+
+        <!-- TODO This should not be grouped in with the project sections -->
+  
+
+        
+    <section id="home-page">
+        
+
+        <header>
+          <h2 id="page-title-label">The <strong>Earthdata Code Collaborative</strong> is a platform for development,
+            testing, and discovery of Earthdata-related applications and services. <a class="urs" href="https://urs.earthdata.nasa.gov/oauth/authorize?client_id=D9zoMZ6zzkB-kcXCMZ-hOQ&amp;redirect_uri=https%3A%2F%2Fecc.uat.earthdata.nasa.gov%2Flogin&amp;response_type=code&amp;state=%2F">Sign in with
+            Earthdata Login <i class="edsc-icon-arrow-right"></i></a>
+          </h2>
+        </header>
+
+        <div class="highlight">
+          <h3>Worldview</h3>
+          <p>Worldview provides the capability to interactively browse global, full-resolution satellite imagery and then download the underlying data. Most of the 250+ available products are updated within three hours of observation, essentially showing the entire Earth as it looks <em>right now</em>.</p>
+          <p><a class="button" href="https://earthdata.nasa.gov/labs/worldview/">View Project Homepage</a></p>
+    </div>
+
+    
+
+        
+
+        <div id="features">
+          <ul>
+            <li class="hosting">
+              <h4>Standardize and Automate Testing</h4>
+              <p>Writing code is hard, but testing code is even harder. What framework should you use? What types of tests should you write? And most importantly, how can you ensure those tests are run consistently? The ECC provides a ready-to-use framework for running your tests every time your code base changes, alerting your team of failures, and even makes recommendations about what testing frameworks and approaches to use.</p>
+            </li>
+            <li class="tools">
+              <h4>Project Management Tools</h4>
+              <p>Bug tracking, collaboration, and managing code changes are essential to a strong application development process. Through integration with Atlassian Jira, Confluence, Stash, and Bamboo, you can quickly track and squash bugs, enable communication among your team, and do it all in a way that feels natural and lightweight. On top of that, Stash provides your team complete control over your code changes and even makes it easy for non-team members to submit patches and pull requests.</p>
+            </li>
+            <li class="discovery">
+              <h4>Explore Other Earthdata Projects</h4>
+              <p>All the tools in the world can't replace inspiration and good ideas. Sometimes looking at another solid project is just what you need to kickstart your own development thinking. The ECC provides the ability to browse other public projects, including taking a look at their code base and running application. Get ideas, integrate other code bases into your project, and fix a bug while you're at it... all using the tools you're already familiar with from your own project.</p>
+            </li>
+          </ul>
+        </div>
+      </section></div>
+
+    <footer>
+      <div class="compliance">
+        <ul>
+          <li>Earthdata Code Collaborative <span class="version">1.21.18</span></li>
+          <li>NASA Official: Stephen Berrick</li>
+        </ul>
+      </div>
+    </footer>
+  
+<script type="text/javascript" src="/lib/jquery-3.5.1.min.js?v=fb02872e"></script><script type="text/javascript" src="/lib/jquery-ui-1.10.3/js/jquery-ui-1.10.3.custom.min.js?v=fb02872e"></script><script type="text/javascript" src="/lib/tag-it.min.js?v=fb02872e"></script><script type="text/javascript" src="/lib/underscore-min.js?v=fb02872e"></script><script type="text/javascript" src="/lib/select2-3.5.1/select2.min.js?v=fb02872e"></script><script type="text/javascript" src="/js/app.js?v=fb02872e"></script><script src="/js/request-ecc-access.js?v=fb02872e" type="text/javascript"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+
+        {'gtm.start': new Date().getTime(),event:'gtm.js'}
+
+    );var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WNP7MLF');</script><script src="https://cdn.uat.earthdata.nasa.gov/tophat2/tophat2.js?v=fb02872e" type="text/javascript" data-show-status="true" data-show-fbm="true" id="earthdata-tophat-script" data-show-outage-banner="true" data-status-api-url="https://status.uat.earthdata.nasa.gov/api/v1/notifications">
+    </script><script type="text/javascript" src="https://fbm.uat.earthdata.nasa.gov/for/ECC_UAT/feedback.js?v=fb02872e"></script><script type="text/javascript">$(function () { feedback.init({showIcon: false}); });</script></body></html>

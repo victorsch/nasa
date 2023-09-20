@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+    <head>
+    
+    <script language="JavaScript"><!-- hide from older browsers
+function confirm_leave() {
+    return confirm('Thank you for visiting our NASA web site. You are now leaving this site to enter a web site that is NOT maintained by the National Aeronautics and Space Administration (NASA).  Click Cancel if you want to stay.');
+}
+//--> </script>
+
+
+		<meta HTTP-EQUIV="Pragma" CONTENT="No-cache">
+		<meta HTTP-EQUIV="Cache-control" CONTENT="No-cache,No-store">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!--Meta Data starts-->
+        <meta name="dc.title" content="NASA - Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations" />
+        <meta name="dc.format" content="text/html" />
+        <meta name="dc.date.modified" content="" />
+        <meta name="dc.language" content="en" />
+        <meta name="dc.publisher" content="David Winker" />
+        <meta name="dc.publisher" content="Chip Trepte" />
+        <meta name="dc.description" content="" />
+        <meta name="dc.identifier" content="https://www-calipso.larc.nasa.gov/" />
+        <!--Meta Data ends-->
+        <title>CALIPSO - Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations</title>
+        <link type="text/css" rel="stylesheet" href="/common/css/sg/layout.css" media="screen" charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="/common/css/calipso.css" />
+        <link type="text/css" rel="stylesheet" href="/common/css/may-common-calipso.css" />
+        <meta name="viewport" content="width=808" />
+    </head>
+    <body>
+        <noscript>
+            <center><font size="3" color="red">The www-calipso.larc.nasa.gov site requires that JavaScript be enabled in your browser. For instructions, <a target="_blank" href="#" class="navLnkRed">click here</a></font></center>
+        </noscript>
+
+        <!--HIGH BANDWIDTH STARTS  -->
+        <!-- This is a home page using XSL template 1 -->
+        <br />
+        <table border="0" cellspacing="0" cellpadding="0" width="760" align="center">
+            <!-- START 5px shadow for border -->
+            <tr height="5">
+                <td valign="bottom" height="5" background="/images/template/border/topleft_shadow.jpg"><img src="/images/template/border/topleft_shadow.jpg" alt="" height="5" /></td>
+                <td valign="bottom" height="5" background="/images/template/border/top_shadow.jpg"><img src="/images/template/border/top_shadow.jpg" alt="" height="5" /></td>
+                <td valign="bottom" height="5" background="/images/template/border/topright_shadow.jpg"><img src="/images/template/border/topright_shadow.jpg" alt="" height="5" /></td>
+            </tr>
+            <tr>
+                <td valign="right" width="5" background="/images/template/border/left_shadow.jpg"><img src="/images/template/border/left_shadow.jpg" alt="" width="5" /></td>
+                <td>
+                    <!-- START 10px white border -->
+                    <table border="0" cellspacing="0" cellpadding="10" width="100%">
+                        <tr bgcolor="#ffffff">
+                            <td bgcolor="#ffffff">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <!-- Where real content begins -->
+                                            <!-- Header starts -->
+                                            <table bgcolor="#cccccc" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td bgcolor="#cccccc" align="left" valign="middle" width="540"><a href="https://www.nasa.gov"><img border="0" alt="NASA - National Aeronautics and Space Administration" height="51" width="288" src="/images/template/header/logo_nasa.gif" /></a><br /></td>
+                                                    <!-- [[ QUICK LINKS START ]] -->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- Header ends -->
+                                            <!-- Top Nav Bar starts -->
+                                            <table width="1030" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td><a onBlur="swapImg('navti0','/images/navigation/topnav/nav_top_0_0.jpg');"
+                                                            onFocus="swapImg('navti0','/images/navigation/topnav/nav_top_0_1.jpg');"
+                                                            onMouseOut="swapImg('navti0','/images/navigation/topnav/nav_top_0_0.jpg');"
+                                                            onMouseOver="swapImg('navti0','/images/navigation/topnav/nav_top_0_1.jpg');"
+                                                            href="/about/"><img id="navti0" name="navti0" border="0" title="ABOUT CALIPSO" alt="ABOUT CALIPSO" height="25" width="120" src="/images/navigation/topnav/nav_top_0_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti1','/images/navigation/topnav/nav_top_1_0.jpg');"
+                                                            onFocus="swapImg('navti1','/images/navigation/topnav/nav_top_1_1.jpg');"
+                                                            onMouseOut="swapImg('navti1','/images/navigation/topnav/nav_top_1_0.jpg');"
+                                                            onMouseOver="swapImg('navti1','/images/navigation/topnav/nav_top_1_1.jpg');"
+                                                            href="/products/"><img id="navti1" name="navti1" border="0" title="PRODUCTS" alt="PRODUCTS" height="25" width="100" src="/images/navigation/topnav/nav_top_1_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti2','/images/navigation/topnav/nav_top_2_0.jpg');"
+                                                            onFocus="swapImg('navti2','/images/navigation/topnav/nav_top_2_1.jpg');"
+                                                            onMouseOut="swapImg('navti2','/images/navigation/topnav/nav_top_2_0.jpg');"
+                                                            onMouseOver="swapImg('navti2','/images/navigation/topnav/nav_top_2_1.jpg');"
+                                                            href="/outreach/"><img id="navti2" name="navti2" border="0" title="OUTREACH" alt="OUTREACH" height="25" width="100" src="/images/navigation/topnav/nav_top_2_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti3','/images/navigation/topnav/nav_top_3_0.jpg');"
+                                                            onFocus="swapImg('navti3','/images/navigation/topnav/nav_top_3_1.jpg');"
+                                                            onMouseOut="swapImg('navti3','/images/navigation/topnav/nav_top_3_0.jpg');"
+                                                            onMouseOver="swapImg('navti3','/images/navigation/topnav/nav_top_3_1.jpg');"
+                                                            href="/documents/"><img id="navti3" name="navti3" border="0" title="DOCUMENTS" alt="DOCUMENTS" height="25" width="110" src="/images/navigation/topnav/nav_top_3_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti4','/images/navigation/topnav/nav_top_4_0.jpg');"
+                                                            onFocus="swapImg('navti4','/images/navigation/topnav/nav_top_4_1.jpg');"
+                                                            onMouseOut="swapImg('navti4','/images/navigation/topnav/nav_top_4_0.jpg');"
+                                                            onMouseOver="swapImg('navti4','/images/navigation/topnav/nav_top_4_1.jpg');"
+                                                            href="/resources/"><img id="navti4" name="navti4" border="0" title="RESOURCES" alt="RESOURCES" height="25" width="110" src="/images/navigation/topnav/nav_top_4_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti5','/images/navigation/topnav/nav_top_5_0.jpg');"
+                                                            onFocus="swapImg('navti5','/images/navigation/topnav/nav_top_5_1.jpg');"
+                                                            onMouseOut="swapImg('navti5','/images/navigation/topnav/nav_top_5_0.jpg');"
+                                                            onMouseOver="swapImg('navti5','/images/navigation/topnav/nav_top_5_1.jpg');"
+                                                            href="/tools/"><img id="navti5" name="navti5" border="0" title="TOOLS" alt="TOOLS" height="25" width="90" src="/images/navigation/topnav/nav_top_5_0.jpg" /></a></td>
+                                                    <td><a onBlur="swapImg('navti6','/images/navigation/topnav/nav_top_6_0.jpg');"
+                                                            onFocus="swapImg('navti6','/images/navigation/topnav/nav_top_6_1.jpg');"
+                                                            onMouseOut="swapImg('navti6','/images/navigation/topnav/nav_top_6_0.jpg');"
+                                                            onMouseOver="swapImg('navti6','/images/navigation/topnav/nav_top_6_1.jpg');"
+                                                            href="/contacts/"><img id="navti6" name="navti6" border="0" title="CONTACTS" alt="CONTACTS" height="25" width="100" src="/images/navigation/topnav/nav_top_6_0.jpg" /></a></td>
+<td width="100"> &nbsp; </td>
+<td width="100"> &nbsp; </td>
+<td width="100"> &nbsp; </td>
+<td width="100"> &nbsp; </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="5"><img border="0" alt="" height="5" width="1" src="images/common/spacer.gif" /></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Top Nav Bar ends -->
+                                            <!-- Banner start -->
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr bgcolor="#000000">
+                                                    <td valign="top" width="1030">
+                                                       <h3><font color="#ff6600">The Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO)</font></h3>
+                                                       <p><font color="white">CALIPSO, a joint mission between NASA and the French space agency, CNES, provides new insight into the role that clouds and atmospheric aerosols (airborne particles) play in regulating Earth's weather, climate, and air quality.</font></p>
+                                                       <a href="/about/" title="Read More" class="open"></a>
+                                                       <img src="/banner/calipso.jpg" alt="" class="full" /><br /> <br />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="5"><img border="0" alt="" height="5" width="1" src="images/common/spacer.gif" /></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Banner ends -->
+                                            <!-- CONTENT AREA START -->
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr valign="top">
+                                                    <td valign="top">
+                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                            <tr valign="top">
+                                                                <!-- Start of Updates sidebar -->
+                                                                <td align="left" valign="top">
+                                                                    <a name="maincontent"></a>
+                                                                    <style type="text/css"><!--
+.status
+{
+	padding: 3%;
+	position: relative;
+	overflow: hidden;
+	/* wrap floats */
+	background-color: #FFC;
+	border: 1px solid #FFC;
+	margin-bottom: .05em;
+}
+//-->
+                                                                    </style>
+                                                                    <table border="0" width="325" cellspacing="0" cellpadding="0" align="left">
+                                                                        <tr valign="top">
+                                                                            <td valign="top">
+
+                                                                                <table bgcolor="#a1a5a9" border="0" width="100%" cellspacing="0" cellpadding="1" align="left">
+                                                                                    <tr valign="top">
+                                                                                        <td valign="top" bgcolor="#eeeeee"><!-- cbdded -->
+                                                                                            <table width="100%" border="0" cellpadding="0" cellspacing="1" valign="top">
+                                                                                                <tr bgcolor="#ffffff" valign="top">
+                                                                                                    <td bgcolor="#ffffff" valign="top">
+                                                                                                        <table width="100%" border="0" cellpadding="8" cellspacing="0">
+                                                                                                            <tr class="silver180">
+                                                                                                                <th class="silver180" align="center">NEWS</th>
+                                                                                                            </tr>
+                                                                                                            <tr bgcolor="#ffffff">
+                                                                                                                <td align="left" valign="top" bgcolor="#ffffff">
+<div class="status">
+<!-- USER MESSAGE CONTENT AREA--> 
+<p class="standard"><b>June 1, 2023: Data Release of the CALIPSO Lidar Level 2 Version 4.51 Products</b><br />
+The CALIPSO mission team announces the release of new CALIOP Level 2 Products:
+<ul>
+<li><strong>CAL_LID_L2_01kmCLay-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_05kmALay-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_05kmCLay-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_05kmMLay-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_333mMLay-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_05kmAPro-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_05kmCPro-Standard-V4-51</strong></li>
+<li><strong>CAL_LID_L2_VFM-Standard-V4-51</strong></li>
+</ul>
+</p>
+
+<p class="standard">The V4.51 CALIOP Level 2 products have a number of improvements to the characterization 
+of smoke above clouds, single-shot (333m) cloud clearing techniques, and the stratospheric 
+aerosol classification scheme. Two additional particulate optical depths are computed, 
+derived over both ocean surfaces and above opaque water clouds.</p>
+
+<p class="standard">The products are available beginning with data from June 13, 2006, and as of this 
+announcement, through December 31, 2006. Remaining data will be available as it is 
+produced and successfully ingested at the Atmospheric Science Data Center (ASDC) at 
+NASA Langley Research Center.</p>
+
+<p class="standard">Information about these new data products including data availability, user 
+documentation and quality statements, and relevant links can be found at the following ASDC link:<br />
+<a href="https://asdc.larc.nasa.gov/project/CALIPSO" target="_blank">https://asdc.larc.nasa.gov/project/CALIPSO</a></p>
+
+<p class="standard">An in-depth data quality document and description can be found in the following CALIPSO links: <br />
+<li><a href="https://www-calipso.larc.nasa.gov/resources/calipso_users_guide/qs/cal_lid_l2_all_v4-51_qs.php" target="_blank">https://www-calipso.larc.nasa.gov/resources/calipso_users_guide/qs/cal_lid_l2_all_v4-51_qs.php</a></li>
+<li><a href="https://www-calipso.larc.nasa.gov/resources/calipso_users_guide/data_quality/index.php" target="_blank">https://www-calipso.larc.nasa.gov/resources/calipso_users_guide/data_quality/index.php</a></li>
+</p>
+
+</div>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <!-- Updates sidebar ends -->
+                                                                <td width="10"><img border="0" alt="" height="1" width="5" src="images/common/spacer.gif" /></td>
+                                                                <td align="left" valign="top">
+                                                                        <!-- Start of motd -->
+                                                                        <br />
+                                                                        <style type="text/css"><!--
+.motd
+{
+	padding: 3%;
+	position: relative;
+	overflow: hidden;
+	/* wrap floats */
+	background-color: #F99;
+	border: 1px solid #F99;
+	margin-bottom: .05em;
+}
+//-->
+                                                                        </style>
+
+<div class="motd">
+<!-- USER MESSAGE CONTENT AREA-->
+
+<p class="standard"><b>August 02, 2023 - ATTENTION:</b><br />
+NASA and CNES agreed to end the CALIPSO science mission on August 1, 2023. 
+This mission has been highly successful: designed for a lifetime of 3 years, 
+CALIPSO delivered unprecedented measurements of the vertical structure of the 
+Earth&rsquo;s atmosphere for 17 years.  Fuel reserves are now exhausted, and 
+in its decaying orbit the satellite can no longer generate sufficient power 
+to operate the science instruments.  Both agencies thank the international data 
+user community for their on-going interest and support.  Over the next two years, 
+the project will continue to refine and document its extensive data products 
+catalog and will notify the community as these products are updated.</p>
+
+</div>
+                                                                        <!-- End of motd -->
+                                                                    <!-- Start of content -->
+                                                                    <h1>INTRODUCTION</h1>
+                                                                    <p>The Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) satellite provides new insight into the role that clouds and atmospheric aerosols (airborne particles) play in regulating Earth's weather, climate, and air quality.</p>
+                                                                    <p>CALIPSO combines an active lidar instrument with passive infrared and visible imagers to probe the vertical structure and properties of thin clouds and aerosols over the globe.  CALIPSO was launched on April 28, 2006 with the cloud profiling radar system on the <a href="http://cloudsat.atmos.colostate.edu/" onClick="return confirm_leave();" onMouseOver="window.status='CloudSat'; return true;" onMouseOut="window.status=''; return true;" target="_blank">CloudSat</a> satellite.</p>
+                                                                    <p>CALIPSO and CloudSat are highly complementary and together provide new, never-before-seen 3-D perspectives of how clouds and aerosols form, evolve, and affect weather and climate. CALIPSO and CloudSat fly in formation with three other satellites in the A-train constellation to enable an even greater understanding of our climate system from the broad array of sensors on these other spacecraft.</p>
+                                                                    <p>CALIPSO is a joint U.S. (<a href="https://www.NASA.gov" title="NASA" onMouseOver="window.status='NASA'; return true;" onMouseOut="window.status=''; return true;" target="_blank">NASA</a>) and French (<a href="https://calipso.cnes.fr/en/CALIPSO/index.htm" title="Centre National d'Etudes Spatiales" onClick="return confirm_leave();" onMouseOver="window.status='Centre National d\'Etudes Spatiales'; return true;" onMouseOut="window.status=''; return true;" target="_blank">Centre National d&rsquo;Etudes Spatiales/CNES</a>) satellite mission that has been in operation for four years. <a href="about/index.php" title="About CALIPSO...">&nbsp;&raquo;&nbsp;Read more &hellip;</a></p>
+								    <h1>QUICK LINKS</h1>
+                                                                    <p>
+								<a href="/tools/data_avail/">&raquo;&nbsp;CALIPSO&rsquo;s Data Availability Tool</a><br />
+                                <a href="https://subset.larc.nasa.gov/calipso/login.php">&raquo;&nbsp;CALIPSO&rsquo;s Search and Subsetting Web Application</a><br />
+                                <a href="/tools/instrument_status/">&raquo;&nbsp;CALIPSO&rsquo;s Instrument Status Page</a>
+								</p>
+                                                                    <!-- End of content -->
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- CONTENT AREA ENDS -->
+                                            <br />
+                                            <!-- Where real content ends -->
+                                            <!-- Footer starts -->
+                                            <table cellpadding="0" cellspacing="0" border="0" bgcolor="#cccccc" width="100%">
+                                                <tr>
+                                                    <td valign="top" width="1%"><img src="/images/common/spacer.gif" width="1" height="1" alt="" border="0"></td>
+                                                    <td width="8%" valign="top"><a href="https://www.nasa.gov/"><img src="/images/template/footer/logo_nasa.gif" width="49" height="48" alt="NASA" border="0"></a></td>
+                                                    <td class="light" width="25%" align="left" valign="top">
+                                                        <small>
+                                                            <br /> 
+                                                            Last Updated: September 07, 2023 <br />
+                                                            Curator: Charles R. Trepte<br />
+                                                            NASA Official: Charles R. Trepte<br />
+                                                        </small>
+                                                    </td>
+                                                    <td valign="top" width="1%"><img src="/images/common/spacer.gif" width="1" height="1" alt="" border="0"></td>
+                                                    <td valign="top" align="left" width="25%">
+                                                        <small>
+                                                            <br />
+                                                            <a href="https://odeo.hq.nasa.gov/nofear.html" class="footerLnk">+ No Fear Acts</a><br />
+                                                            <a href="https://www.nasa.gov/FOIA/index.html" class="footerLnk">+ FOIA</a><br />
+                                                            <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="footerLnk">+ Privacy</a><br />
+
+                                                        </small>
+                                                    </td>
+                                                    <td valign="top" align="left" width="25%">
+                                                        <small>
+                                                            <br />
+                                                            <a href="https://oig.nasa.gov" class="footerLnk">+ Office of Inspector General</a><br />
+                                                            <a href="https://osc.gov" class="footerLnk">+ Office of Special Councel</a><br />
+                                                            <a href="https://www.nasa.gov/news/budget/index.html" class="footerLnk">+ Agency Financial Reports</a><br />
+                                                        </small>
+                                                    </td>
+                                                    <td valign="top" align="left" width="15%">
+                                                        <small>
+                                                            <br />
+                                                            <a href="https://www.nasa.gov/about/contact/index.html" class="footerLnk">+ Contact NASA</a><br />
+
+                                                        </small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5"><img src="/images/common/spacer.gif" width="1" height="19" alt="" border="0"></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Footer ends -->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- END 10px white border -->
+                </td>
+                <td valign="left" width="5" background="/images/template/border/right_shadow.jpg"><img src="/images/template/border/right_shadow.jpg" alt="" width="5" /></td>
+            </tr>
+            <tr height="5">
+                <td valign="top" height="5" background="/images/template/border/bottomleft_shadow.jpg"><img src="/images/template/border/bottomleft_shadow.jpg" alt="" height="5" /></td>
+                <td valign="top" height="5" background="/images/template/border/bottom_shadow.jpg"><img src="/images/template/border/bottom_shadow.jpg" alt="" height="5" /></td>
+                <td valign="top" height="5" background="/images/template/border/bottomright_shadow.jpg"><img src="/images/template/border/bottomright_shadow.jpg" alt="" height="5" /></td>
+            </tr>
+            <!-- END 5px shadow for border -->
+        </table>
+        <br />
+        <br />
+    </body>
+</html>

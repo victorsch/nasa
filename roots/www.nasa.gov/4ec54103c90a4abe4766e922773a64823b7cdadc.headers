@@ -1,0 +1,13 @@
+GET http://www.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: JFK50-P1
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:43:27 GMT
+< Content-Type: text/html
+< Location: https://www.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 fcf7ae9d0acd31cfede668ccef6e2ace.cloudfront.net (CloudFront)
+< Content-Length: 167
+< X-Amz-Cf-Id: B01EQxp5Zf6aPOQtlMyy1sLG2WhpMyKD_ER6Z6QDNxAWxCiwlBrMFA==

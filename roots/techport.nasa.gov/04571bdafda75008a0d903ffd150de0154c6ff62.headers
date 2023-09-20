@@ -1,0 +1,21 @@
+GET https://techport.nasa.gov
+
+
+< HTTP/1.1 302 
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:56:31 GMT
+< Set-Cookie: JSESSIONID=4E36E9CE0961CFD27B877935F0B9C9D7; Path=/; HttpOnly; SameSite=Strict;Secure
+< Set-Cookie: fsr.s=''; Domain='.nasa.gov'; Expires='Thu, Jan 01 1970 00:00:00 GMT'; Max-Age=0; Path=/;Secure
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Location: home
+< Server: NASA/1.0
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Webkit-Csp: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; options inline-script eval-script; xhr-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline' 'https://fonts.googleapis.com'; img-src 'self'; form-action 'self'; font-src 'self' 'https://fonts.gstatic.com'; connect-src 'self'; plugin-types application/pdf; reflected-xss block;frame-src 'self';sandbox;frame-ancestors 'self'
+< Cache-Control: private
+< Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; options inline-script eval-script; xhr-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline' 'https://fonts.googleapis.com'; img-src 'self'; form-action 'self'; font-src 'self' 'https://fonts.gstatic.com'; connect-src 'self'; plugin-types application/pdf; reflected-xss block;frame-src 'self';sandbox;frame-ancestors 'self'
+< X-Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; options inline-script eval-script; xhr-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline' 'https://fonts.googleapis.com'; img-src 'self'; form-action 'self'; font-src 'self' 'https://fonts.gstatic.com'; connect-src 'self'; plugin-types application/pdf; reflected-xss block;frame-src 'self';sandbox;frame-ancestors 'self'
+< Content-Length: 0

@@ -1,0 +1,9 @@
+GET http://www.mdscc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:08:45 GMT
+< Server: Apache
+< Location: https://www.mdscc.nasa.gov/
+< Content-Length: 235
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,526 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" dir="ltr">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="http://lwstrt.gsfc.nasa.gov/" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>LWS - Targeted Research and Technology - Science</title>
+	<link href="/templates/jomi/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<script src="/media/jui/js/jquery.min.js?91396fc59ba377a419160247fd46c28a" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?91396fc59ba377a419160247fd46c28a" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?91396fc59ba377a419160247fd46c28a" type="text/javascript"></script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/jomi/apple_touch_icon.png" />
+<link rel="stylesheet" href="/templates/jomi/css/uikit.gradient.css" />
+<link rel="stylesheet" href="/templates/jomi/css/kunena.css" />
+<link rel="stylesheet" href="/templates/jomi/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/templates/jomi/css/base.css" />
+<link rel="stylesheet" href="/templates/jomi/css/layout.css" />
+<link rel="stylesheet" href="/templates/jomi/css/menus.css" />
+<style>.wrapper { max-width: 1100px; }
+#sidebar-a { width: 25%; }
+#sidebar-b { width: 25%; }
+#maininner { width: 50%; }
+#maininner, #sidebar-a { position: relative; }
+#maininner { left: 25%; }
+#sidebar-a { left: -50%; }
+#menu .dropdown { width: 250px; }
+#menu .columns2 { width: 500px; }
+#menu .columns3 { width: 750px; }
+#menu .columns4 { width: 1000px; }</style>
+<link rel="stylesheet" href="/templates/jomi/css/modules.css" />
+<link rel="stylesheet" href="/templates/jomi/css/tools.css" />
+<link rel="stylesheet" href="/templates/jomi/css/system.css" />
+<link rel="stylesheet" href="/templates/jomi/css/extensions.css" />
+<link rel="stylesheet" href="/templates/jomi/styles/jomi/css/custom.css" />
+<link rel="stylesheet" href="/templates/jomi/css/color1/red.css" />
+<link rel="stylesheet" href="/templates/jomi/css/font1/opensans.css" />
+<link rel="stylesheet" href="/templates/jomi/css/font2/georgia.css" />
+<link rel="stylesheet" href="/templates/jomi/css/font3/arial.css" />
+<link rel="stylesheet" href="/templates/jomi/css/style.css" />
+<link rel="stylesheet" href="/templates/jomi/css/responsive.css" />
+<link rel="stylesheet" href="/templates/jomi/css/print.css" />
+<link rel="stylesheet" href="template:fonts/opensans.css" />
+<script src="/templates/jomi/styles/jomi/js/uikit.js"></script>
+<script src="/templates/jomi/warp/js/warp.js"></script>
+<script src="/templates/jomi/warp/js/responsive.js"></script>
+<script src="/templates/jomi/warp/js/accordionmenu.js"></script>
+<script src="/templates/jomi/warp/js/dropdownmenu.js"></script>
+<script src="/templates/jomi/styles/jomi/js/template.js"></script>
+<style type="text/css">
+#meatball {
+height:98px;
+width:98px;
+background-color:transparent;
+    /*float:left;*/
+position:absolute;
+}
+#centername {
+position:absolute;
+left:155px;
+height:98px;
+}
+#centername h2 {
+font-family:Arial,Helvetica,sans-serif;
+font-size:18px;
+font-weight:normal;
+padding-bottom:5px;
+padding-top:35px;
+position:relative;
+color:#ffffff;
+margin:0;
+}
+#centername h3 {
+color:#ffffff;
+font-family:Arial,Helvetica,sans-serif;
+font-size:15px;
+font-weight:normal;
+position:relative;
+margin:0;
+}
+</style>
+<script id='_fed_an_ua_tag' type='text/javascript' src='//dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true'>
+</script>
+</head>
+
+<body id="page" class="page sidebar-a-left sidebar-b-right sidebars-2  isblog " data-config='{"twitter":0,"plusone":0,"facebook":0}'>
+
+		
+		
+		<div id="block-toolbar">
+        <a href="//www.nasa.gov"><div id="meatball"></div></a>                  
+			<div id="centername">
+				<h2><a href="//www.nasa.gov">National Aeronautics and Space Administration</a></h2>
+			</div>
+
+		<div class="wrapper">
+		
+			<div id="toolbar" class="clearfix">
+	
+									
+								
+				<ul class="social-icons float-right">
+<li class="facebook"><a href="https://www.facebook.com/NASA" target="_blank" title="Facebook">Facebook</a></li>
+<li class="twitter"><a href="https://twitter.com/NASA" target="_blank" title="Twitter">Twitter</a></li>
+<li class="gplus"><a href="https://plus.google.com/+NASA" target="_blank" title="Google plus">gplus</a></li>
+<li class="youtube"><a href="https://www.youtube.com/user/NASAtelevision" target="_blank" title="Youtube">Youtube</a></li>
+<li class="rss"><a href="/index.php" target="_blank" title="Rss Feed">rss</a></li>
+
+
+
+</ul>			
+			</div>
+        </div>	
+	</div>
+
+<div id="block-header">	
+	<div class="wrapper grid-block">
+
+		<header id="header" class="clearfix">
+
+			<div id="headerbar" class="clearfix">
+			
+					
+				<a id="logo" href="http://lwstrt.gsfc.nasa.gov">
+<div style="position: absolute; width: 700px; height: auto; margin-left: 60px; margin-top: 10px;">
+<div style="margin-top: 40px;">
+<h2 style="color: #e1e1e1; font-family: Helvetica,Arial; font-size: 36px; padding: 0; margin: 0; margin-bottom: 15px;">Living With A Star</h2>
+<h4 style="color: #e1e1e1; font-family: Arial,Helvetica; font-size: 24px; padding: 0; margin: 0;">LWS Science</h4>
+</div>
+</div></a>
+								
+								
+			</div>
+	</div>
+</div>
+
+<div id="block-menu">
+		
+		<div class="wrapper">
+		
+	<div id="menubar"><div><div class="clearfix">
+					
+										<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item101"><a href="http://lws.gsfc.nasa.gov" target="_blank" rel="noopener noreferrer" class="level1"><span>Home</span></a></li><li class="level1 item102"><a href="/missions" class="level1"><span>Missions</span></a></li><li class="level1 item172"><a href="http://lws-set.gsfc.nasa.gov/" target="_blank" rel="noopener noreferrer" class="level1"><span>SET</span></a></li><li class="level1 item103 active current"><a href="/" class="level1 active current"><span>Science</span></a></li><li class="level1 item104"><a href="https://heliophysics.ucar.edu/summer-school" target="_blank" rel="noopener noreferrer" class="level1"><span>Summer Schools</span></a></li><li class="level1 item105"><a href="https://heliophysics.ucar.edu/jack-eddy" target="_blank" rel="noopener noreferrer" class="level1"><span>Postdoc Program</span></a></li><li class="level1 item106"><a href="https://heliophysics.ucar.edu/lws/lws-institute-topics" target="_blank" rel="noopener noreferrer" class="level1"><span>Institutes</span></a></li><li class="level1 item215"><a href="/meetings" class="level1"><span>Meetings</span></a></li></ul></nav>
+						
+										
+				</div></div></div>
+			
+					
+	</div>
+		
+	</div>	
+	
+
+	
+	
+	
+	
+	
+
+	
+		
+		<div id="block-top-b"><div><div>
+		
+		<section id="top-b" class="wrapper grid-block"><div class="grid-box width100 grid-h"><div class="module mod-box  deepest">
+
+			
+	
+
+
+
+<h3 class="module-title">Announcement – 2023-06-14</h3>
+<h4>2023 Community Input for LWS Focused Science Topics</h4>
+<p>The LWS Program Analysis Group (LPAG) Executive Committee invites the Heliophysics community to provide input to the 2023 Focused Science Topics (FST) development process. The deadline for entering new input and comments is <span style="text-decoration: line-through;">July 21, 2023</span> <b>extended till end of day on July 31, 2023</b>. Please:</p>
+<ul>
+<li><a href="https://lwstrt.org/assets/docs/lpag/2023-06DCLforFSTinputs.pdf">View 2023 Dear Colleague Letter from the LPAG EC</a></li>
+<li><a href="https://lwstrt.org/communityinput/input/">Enter FST input for ROSES 2024 FSTs</a></li>
+<li><a href="https://lwstrt.org/communityinput/viewinput/2023/">View &amp; comment on this year's suggested FSTs and rollover FST suggestions from previous years</a></li>
+<li><a href="/assets/docs/lpag/FST_Town_Hall_2023_DRAFT2[1].pdf">LWS Town Hall - 2023-07-13</a></li>
+<li><a href="/assets/docs/lpag/LWSTownHall2023-07-13-15-13-18.mp4">LWS Town Hall Recording - 2023-07-13</a></li>
+</ul>
+	
+
+
+
+<h3 class="module-title">Announcement – 2023-04-27</h3>
+<p>The LWS Science element in <a href="/assets/docs/roses/B.05_LWS_Amend19.pdf"><b><u>2023 ROSES</u></b></a> has been released. The Living With a Star (LWS) Program emphasizes the science necessary to understand those aspects of the coupled Sun-Earth system that affect life and society. The overarching goal of the LWS Program is to provide advances in scientific understanding of this system that can lead to predictive capability of the space environment conditions at Earth, other planetary systems, and in the interplanetary medium. Every year the LWS Science program element solicits Focused Science Topics (FSTs) that address some part of this goal. To be responsive to this program element this year, proposed investigations must have objectives suitable for one of the three Focused Science Topics (FSTs) listed below:</p>
+<ul>
+<li>FST 1: Understanding Ionospheric Conductivity and its Variability;</li>
+<li>FST 2: Synergistic View of the Global Magnetosphere;</li>
+<li>FST 3: Evolution of Coronal Mass Ejections in the Corona and Inner Heliosphere.</li>
+</ul>
+<p>Step-1 proposals are due August 15, 2023).</p>
+<p>Step-2 proposals are due November 7, 2023.</p>
+		
+</div></div></section>
+		
+	</div></div></div>
+		
+		<div id="block-main">
+		
+		<div id="main" class="wrapper grid-block">
+		
+			<div id="maininner" class="grid-box">
+			
+								
+								
+								
+				<section id="content" class="grid-block"><div id="system-message-container">
+	</div>
+
+
+
+
+
+
+<div id="system">
+
+
+
+
+
+	
+
+
+
+
+	<article class="item">
+
+
+
+
+
+		
+
+		<header>
+
+
+
+
+
+			
+
+				
+
+				<div class="icon email"><a href="/component/mailto/?tmpl=component&amp;template=jomi&amp;link=4274b38682f71a0b1278fd2b7bf64b3f4486390a" title="Email this link to a friend" onclick="window.open(this.href,'win2','width=400,height=450,menubar=yes,resizable=yes'); return false;" rel="nofollow">	Email</a></div>
+
+
+				
+
+			
+
+
+				
+
+			
+
+			
+
+
+			
+
+	
+
+
+			<h1 class="title">LWS Science Home</h1>
+
+
+
+
+
+			
+
+
+
+
+		</header>
+
+
+		
+
+	
+
+
+		
+
+
+
+
+		<div class="content clearfix">
+
+
+
+
+
+		
+<h2>(Targeted Research &amp; Technology)</h2>
+<div>
+<div style="float: right; position: relative; width: 120px;"><img src="/images/pdf/john_eddy/Eddy_cover_sm.jpg" width="120px" /><br /><small><a href="/images/pdf/john_eddy/SES_Book_Interactive.pdf" target="_blank" rel="noopener noreferrer">THE SUN, THE EARTH, AND NEAR-EARTH SPACE: A Guide to the Sun-Earth System.</a></small><br /> <small><a href="https://www.meted.ucar.edu/education_training/login" target="_blank" rel="noopener noreferrer">Now available as a COMET MetEd training module</a></small></div>
+<div style="float: right:position:relative; margin: 0 130px 0 0;">
+<p>The goal of the Living With a Star (LWS) Program is to develop the scientific understanding needed for the United States to effectively address those aspects of the connected Sun-Earth system that may affect life and society. A highly readable account of the Sun-Earth system can be found in the LWS TR&amp;T-sponsored free book by John A. Eddy (<b>NASA Publication Number: NP-2009-1-066-GSFC</b>). In addition, the LWS program has sponsored the development of a set of highly accessible <a href="https://heliophysics.ucar.edu/resources/textbooks" target="_blank" rel="noopener noreferrer">Textbook Series on Heliophysics and Space Weather</a> for its <a href="https://cpaess.ucar.edu/heliophysics/summer-school" target="_blank" rel="noopener noreferrer">Summer School programs</a>.</p>
+<div style="float: left; position: relative; width: 375px;"><img src="/assets/img/Textbook_Collection.png" width="375px" /><center><small><a href="https://heliophysics.ucar.edu/resources/textbooks" target="_blank" rel="noopener noreferrer">Textbook series on "Heliophysics</a></small></center></div>
+<div class="clearfix"> </div>
+<p>The LWS Targeted Research and Technology (TR&amp;T) program element solicits proposals leading to a physics-based understanding of the integral system linking the Sun to the Earth both directly and via the heliosphere, magnetosphere, and ionosphere. The program’s objectives can be achieved by data analysis, theory and modeling, and the development of tools and methods (e.g., software). LWS is a crosscutting program whose goals and objectives relate to NASA’s Exploration Initiative, as well as NASA's Strategic Enterprises, namely (and in no priority order):</p>
+</div>
+</div>
+<ul>
+<li><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"><strong><span style="color: #000099;"><em>Aeronautics </em></span></strong> - LWS characterizes those aspects of the Earth’s radiation belt environment needed to design reliable electronic subsystems for use in air and space transportation systems;</span></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"> <span style="color: #000099;"><em><strong>Biological and Physical Research</strong></em></span> – LWS defines the radiation environment beyond the Earth’s magnetosphere to enable exploration of interplanetary space by humans; </span></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"> <span style="color: #000099;"><em><strong>Earth Science</strong></em></span> - LWS improves our understanding of the effects of solar variability and disturbances on terrestrial climate change; </span></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"> <span style="color: #000099;"><em><strong>Exploration Systems and Space Flight </strong></em></span> - LWS develops the knowledge needed to predict solar energetic particle events that affect the safety of humans and technology in space; and </span></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"> <span style="color: #000099;"><strong><em>Space Science</em></strong></span> - LWS quantifies the physics, dynamics, and behavior of the Sun-Earth system over the 11-year solar cycle.</span></li>
+</ul>
+<p> </p>
+<p><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;"> <a title="link to TR&amp;T SDT 2003 Report" href="/images/pdf/TRT_SDT_Report.pdf">The LWS TR&amp;T Science Definition Team (SDT) Report, 2003</a> identified particular scientific topics to be addressed using measurements by the LWS space flight missions, as well as data from other missions, and also by employing theory and modeling efforts. Among these topics are: the role of solar variability in climate and in stratospheric chemistry; ionospheric perturbations and scintillations; neutral thermosphere composition and density; geomagnetically-induced currents; energetic particles in the magnetosphere and atmosphere; and radiation associated with explosive events on the sun. The hazards to and effects on society, space-based systems, and human space flight are of particular importance to this program. </span></p>
+<p><span style="font-family: Arial,Helvetica,sans-serif; font-size: small;">Significant progress toward quantitative understanding and predictive capability with respect to these problems will require large-scale, integrated modeling activities. Recognizing the need for activities that would be broader and more sustained than those that can be supported by a traditional NASA grants program, the TR&amp;T Science Definition Team Report recommended that “…large modeling activities that address coupling across traditional science domains in the Sun-Earth chain specifically be included as strategic capabilities.” The TR&amp;T SDT also recommended the formation of a TR&amp;T Steering Committee in order to update periodically the designated strategic capabilities for future NRAs. The report of this Steering Committee is available at the Web site given above.</span></p>
+<p> </p> 
+
+		</div>
+
+
+
+
+
+		
+
+
+
+
+		
+
+	
+
+
+	</article>
+
+
+
+
+
+</div>
+</section>
+				
+				
+				
+			</div>
+			
+						<aside id="sidebar-a" class="grid-box"><div class="grid-box width100 grid-v"><div class="module mod-box  deepest">
+
+		<h3 class="module-title">Science</h3>	<ul class="menu menu-sidebar"><li class="level1 item183 active current"><a href="/" class="level1 active current"><span>LWS Science</span></a></li><li class="level1 item298"><a href="/strategic-science-areas-ssas" class="level1"><span>Strategic Science Areas (SSAs)</span></a></li><li class="level1 item252"><a href="/lpag" class="level1"><span>LWS Program Analysis Group (LPAG)</span></a></li><li class="level1 item184"><a href="/steering-committee" class="level1"><span>Steering Committee (2004-2016)</span></a></li><li class="level1 item209"><a href="/awarded-proposals" class="level1"><span>Proposal Selections</span></a></li><li class="level1 item294"><a href="/program-announcements" class="level1"><span>Program Announcements</span></a></li><li class="level1 item296"><a href="/publications" class="level1"><span>Publications &amp; Resources</span></a></li></ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box projectmenu deepest">
+
+		<h3 class="module-title">Projects</h3>	<ul class="menu menu-sidebar"><li class="level1 item258 active"><span class="separator level1 active"><span><span style="font-weight:bold;">Targeted Science</span></span></span>
+</li><li class="level1 item259"><a href="/focusedsciencetopics/" class="level1"><span>-- Focused Science (FS) Topics</span></a></li><li class="level1 item299"><a href="/focusedscienceteams/" class="level1"><span>-- FS Team Reports</span></a></li><li class="level1 item261"><a href="/scostep/" class="level1"><span>-- SCOSTEP</span></a></li><li class="level1 item263"><a href="/innerheliosphere/" class="level1"><span>-- Physics of the Inner Heliosphere</span></a></li><li class="level1 item265"><a href="/sdo/" class="level1"><span>Solar Dynamics Observatory</span></a></li><li class="level1 item267"><a href="/sunclimate/" class="level1"><span>Sun Climate</span></a></li><li class="level1 item269"><a href="/strategiccapability/" class="level1"><span>Strategic Capability</span></a></li><li class="level1 item271"><a href="/partnership/" class="level1"><span>Partnerships</span></a></li><li class="level1 item273"><a href="/crossdiscipline/" class="level1"><span>Cross-Discipline Infrastructure Building Programs</span></a></li><li class="level1 item275"><a href="/datatoolsmethods/" class="level1"><span>Data, Tools, &amp; Methods</span></a></li><li class="level1 item277"><a href="/independent/" class="level1"><span>Independent Investigations</span></a></li><li class="level1 item304"><a href="/interdisciplinary/" class="level1"><span>Interdisciplinary Science for Eclipse (ISE)</span></a></li></ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box  deepest">
+
+			
+<h3 class="module-title">Research Highlights (RH)</h3>
+<ul class="menu menu-sidebar highlightsbtn">
+<li><a class="level1" href="/search/">Search Research Highlights</a></li>
+</ul>
+<ul class="menu menu-sidebar highlightsbtn">
+<li><a class="level1" href="https://researchhighlights.lwstrt.org">Submit for Individual Project</a></li>
+</ul>
+<!--<ul class="menu menu-sidebar highlightsbtn">
+<li><a class="level1" href="/team-highlights">Team Reports</a></li>
+</ul>-->		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box relatedcontent deepest">
+
+			
+<h3 class="module-title">Program Documents</h3>
+<ul class="menu menu-sidebar menu-sidebar3">
+<li class="level1"><a class="level1" href="/images/pdf/LWS_10YrVision_Oct2015_Final.pdf" target="_blank" rel="noopener noreferrer">10 Year Vision Report - 2015</a></li>
+<li class="level1"><a class="level1" href="/images/pdf/Assessment_report_final_2014_07_07.pdf" target="_blank" rel="noopener noreferrer">10 Year Assessment Report - 2014</a></li>
+<li class="level1"><a class="level1" href="/images/pdf/oldsite/lws_mowg.htm" target="_blank" rel="noopener noreferrer">Management Operations Working Group (MOWG) - 2003 - 2007</a></li>
+<li class="level1"><a class="level1" href="/images/pdf/TRT_SDT_Report.pdf" target="_blank" rel="noopener noreferrer">Final Report of the Science Definition Team - 2003</a></li>
+<li class="level1"><a class="level1" href="/images/pdf/trt_charter.pdf" target="_blank" rel="noopener noreferrer">Technology Charter - 2003</a></li>
+<li class="level1"><a class="level1" href="https://nasa-my.sharepoint.com/:b:/g/personal/kaddison_ndc_nasa_gov/EWmEb0OqcVBDgblGGxFGfpEBqk4HawpeNWzhwlciplcc5w?e=H9KwhN" target="_blank" rel="noopener noreferrer">LWS SSAs</a></li>
+<li class="level1"><a class="level1" href="https://science.nasa.gov/science-pink/s3fs-public/atoms/files/LWS-Architecture-Committee-Report_08-26-2022_FINAL.pdf" target="_blank" rel="noopener noreferrer">LWS Architecture Committee Report (2022)</a></li>
+</ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box relatedcontent deepest">
+
+		<h3 class="module-title"><span class="color">Proposal</span> Information</h3>	<ul class="menu menu-sidebar"><li class="level1 item198"><a href="http://science.nasa.gov/researchers/sara/" target="_blank" rel="noopener noreferrer" class="level1"><span>NASA-SARA</span></a></li><li class="level1 item199"><a href="http://nspires.nasaprs.com/external/" target="_blank" rel="noopener noreferrer" class="level1"><span>NASA-NSPIRES</span></a></li><li class="level1 item200"><a href="http://www.grants.gov/web/grants/home.html" target="_blank" rel="noopener noreferrer" class="level1"><span>Grants.gov</span></a></li></ul>		
+</div></div></aside>
+						
+						<aside id="sidebar-b" class="grid-box"><div class="grid-box width100 grid-v"><div class="module mod-box relatedcontent deepest">
+
+			
+<h3 class="module-title"><a href="http://www.nasa.gov/" target="_blank" rel="noopener noreferrer"><span class="color">NASA</span></a> Organizations</h3>
+<h3><a href="http://www.nasa.gov/" target="_blank" rel="noopener noreferrer">Headquarters</a></h3>
+<ul class="menu menu-sidebar menu-sidebar3">
+<li class="level1 item110"><a class="level1" href="http://science.nasa.gov" target="_blank" rel="noopener noreferrer">Science Mission Directorate</a></li>
+<li class="level1 item111"><a class="level1" href="http://science.nasa.gov/heliophysics" target="_blank" rel="noopener noreferrer">Heliophysics</a>
+<ul>
+<li class="level1 item114"><a class="level1" href="https://science.nasa.gov/science-pink/s3fs-public/atoms/files/HPD%20Data%20Policy_Final_20220209.pdf" target="_blank" rel="noopener noreferrer">Science Data Management Policy</a></li>
+</ul>
+</li>
+</ul>
+<h3><a href="http://www.nasa.gov/centers/goddard/home/index.html" target="_blank" rel="noopener noreferrer">GSFC</a></h3>
+<ul class="menu menu-sidebar menu-sidebar3">
+<li class="level1 item116"><a class="level1" href="http://lws.gsfc.nasa.gov" target="_blank" rel="noopener noreferrer">LWS Flight Office</a></li>
+<li class="level1 item114"><a class="level1" href="http://science.gsfc.nasa.gov/heliophysics" target="_blank" rel="noopener noreferrer">Heliophysics</a></li>
+<li class="level1 item115"><a class="level1" href="http://ccmc.gsfc.nasa.gov" target="_blank" rel="noopener noreferrer">CCMC</a></li>
+<li class="level1 item117"><a class="level1" href="http://swrc.gsfc.nasa.gov" target="_blank" rel="noopener noreferrer">Space Weather Research Center</a></li>
+<li class="level1 item118"><a class="level1" href="http://radhome.gsfc.nasa.gov/" target="_blank" rel="noopener noreferrer">Radiation Effects and Analysis Group</a></li>
+</ul>
+<h3><a href="https://www.nasa.gov/centers/johnson/home/index.html" target="_blank" rel="noopener noreferrer">JSC</a></h3>
+<ul class="menu menu-sidebar menu-sidebar3">
+<li class="level1 item119"><a class="level1" href="http://srag-nt.jsc.nasa.gov/" target="_blank" rel="noopener noreferrer">SRAG</a></li>
+</ul>
+<h3><a href="https://www.nasa.gov/ames" target="_blank" rel="noopener noreferrer">ARC</a></h3>
+<ul class="menu menu-sidebar menu-sidebar3">
+<li class="level1 item122"><a class="level1" href="https://frontierdevelopmentlab.org/" target="_blank" rel="noopener noreferrer">Frontier Development Laboratory (FDL)</a>
+<ul>
+<li><a href="https://frontierdevelopmentlab.org/publications">FDL publications</a></li>
+</ul>
+</li>
+<li class="level1 item120"><a class="level1" href="https://nas.nasa.gov/hms/small_nano-sats.html" target="_blank" rel="noopener noreferrer"> NASA/ARC Heliophysics Small/Nano-Satellites Working Group</a></li>
+<li class="level1 item121"><a class="level1" href="https://www.nasa.gov/ames/partnerships/spaceportal/radiationworkshop" target="_blank" rel="noopener noreferrer">2017 Radiation Workshop</a></li>
+</ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box relatedcontent deepest">
+
+			
+<h3 class="module-title">National Programs</h3>
+<ul class="menu menu-sidebar">
+<li class="level1"><a class="level1" href="http://ostp.gov/" target="_blank" rel="noopener noreferrer">OSTP</a>
+<ul class="menu menu-sidebar menu-sidebar2">
+<li><a class="level1" href="https://www.whitehouse.gov/blog/2015/10/28/enhancing-national-preparedness-space-weather-events" target="_blank" rel="noopener noreferrer">Space Weather: Understanding Potential Impacts and Building Resilience (2015)</a></li>
+<li><a class="level1" href="https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/final_nationalspaceweatherstrategy_20151028.pdf" target="_blank" rel="noopener noreferrer">National Space Weather Strategy (2015)</a></li>
+<li><a class="level1" href="https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/final_nationalspaceweatheractionplan_20151028.pdf" target="_blank" rel="noopener noreferrer">Space Weather Action Plan (2015)</a></li>
+<li><a class="level1" href="https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/space_weather_fact_sheet_final.pdf" target="_blank" rel="noopener noreferrer">OSTP Fact Sheet: New Actions to Enhance National Space-Weather Preparedness (2015)</a></li>
+<li><a href="https://www.sworm.gov/">Space Weather Operations, Research and Mitigation (SWORM)</a></li>
+<li><a href="https://www.whitehouse.gov/wp-content/uploads/2019/03/National-Space-Weather-Strategy-and-Action-Plan-2019.pdf">National Space Weather Strategy and Action Plan (2019)</a></li>
+</ul>
+</li>
+<li class="level1"><a class="level1" href="http://www.swpc.noaa.gov/portal/" target="_blank" rel="noopener noreferrer">NSWP</a></li>
+<li class="level1"><a class="level1" href="http://nsf.gov/" target="_blank" rel="noopener noreferrer">NSF</a></li>
+<li class="level1"><a class="level1" href="https://www.wpafb.af.mil/afrl/afosr/" target="_blank" rel="noopener noreferrer">AFOSR</a></li>
+<li class="level1"><a class="level1" href="http://www.onr.navy.mil/" target="_blank" rel="noopener noreferrer">ONR</a></li>
+<li class="level1"><a class="level1" href="http://www.swpc.noaa.gov/" target="_blank" rel="noopener noreferrer">NOAA SWPC</a>
+<ul class="menu menu-sidebar menu-sidebar2">
+<li><a href="https://www.nesdis.noaa.gov/OPPA/swfo.php" target="_blank" rel="noopener noreferrer">Space Weather Follow On</a></li>
+</ul>
+</li>
+<li class="level1"><a class="level1" href="http://www.swpc.noaa.gov/" target="_blank" rel="noopener noreferrer">The National Academies (of Sciences, Engineering and Medicine)</a>
+<ul class="menu menu-sidebar menu-sidebar2">
+<li><a href="https://nap.nationalacademies.org/catalog/13519/the-effects-of-solar-variability-on-earths-climate-a-workshop" target="_blank" rel="noopener noreferrer">A Report on The Effects of Solar Variability on Earth's Climate: A Workshop Report (2012)</a></li>
+</ul>
+</li>
+</ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-box relatedcontent deepest">
+
+			
+<h3 class="module-title">International Programs</h3>
+<ul class="menu menu-sidebar">
+<li class="level1 item116"><a class="level1" href="https://cosparhq.cnes.fr/" target="_blank" rel="noopener noreferrer">COSPAR</a>
+<ul class="menu menu-sidebar menu-sidebar2">
+<li><a class="level1" href="https://www.iswat-cospar.org/iswat-cospar" target="_blank" rel="noopener noreferrer">International Space Weather Action Teams (ISWAT) Initiative</a></li>
+</ul>
+</li>
+<li class="level1"><a href="https://www.cosmos.esa.int/web/ilws/home" target="_blank" rel="noopener noreferrer">ILWS</a>
+<ul class="menu menu-sidebar menu-sidebar2">
+<li><a class="level1" href="https://www.iswat-cospar.org/iswat-cospar" target="_blank" rel="noopener noreferrer">ILWS COSPAR Space Weather Road Map</a></li>
+</ul>
+</li>
+<li class="level1 item116"><a class="level1" href="http://www.iswi-secretariat.org/" target="_blank" rel="noopener noreferrer">ISWI</a></li>
+<li class="level1 item114"><a class="level1" href="http://www.oosa.unvienna.org/" target="_blank" rel="noopener noreferrer">UNCOPUOS</a></li>
+</ul>		
+</div></div></aside>
+			
+		</div>
+		
+	</div>
+		
+		
+	
+	<div id="block-bottom-b">
+	
+		</div>
+	
+	<div id="block-bottom-c">
+	
+		</div>
+	
+	
+		<div id="block-footer">
+	
+		<div class="wrapper">
+			
+			<footer id="footer" class="grid-block">
+	
+								<a id="totop-scroller" href="#page"></a>
+								
+				<div class="module   deepest">
+
+			
+<p>LWS Program Scientist &amp; Responsible NASA Official: <a href="mailto:simon.p.plunkett@nasa.gov">Simon Plunkett</a><br /> LWS Science Lead: <a href="mailto:john.p.mccormack@nasa.gov">John McCormack</a><br /> LWS Website Manager: <a href="mailto:shing.f.fung@nasa.gov">Shing Fung</a></p>
+<p><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA IT Security Warning, Privacy Statement, Accessibility Statement, and Disclaimer </a></p>
+<p> </p>		
+</div>	
+			</footer>
+
+		
+	</div>
+
+	
+                                                   
+
+</body>
+
+</html>
+

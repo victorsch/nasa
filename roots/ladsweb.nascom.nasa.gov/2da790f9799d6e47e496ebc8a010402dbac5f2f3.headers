@@ -1,0 +1,11 @@
+GET https://ladsweb.nascom.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://ladsweb.modaps.eosdis.nasa.gov/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Request-Id: f694a9794e43016bae52685fa332fddc
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:57:10 GMT

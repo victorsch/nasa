@@ -1,0 +1,13 @@
+GET https://cloudsway2.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< X-Permitted-Cross-Domain-Policies: none
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:54:25 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: default-src 'self' *.larc.nasa.gov; style-src 'self' 'unsafe-inline' https://js.arcgis.com https://www.gstatic.com https://www.google.com https://maxcdn.bootstrapcdn.com https://openlayers.org https://code.jquery.com https://*.googleapis.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.gstatic.com https://www.google.com https://maps.googleapis.com https://code.jquery.com https://openlayers.org https://maxcdn.bootstrapcdn.com https://js.arcgis.com https://cdnjs.cloudflare.com blob:; frame-ancestors 'self'; font-src 'self' https://maxcdn.bootstrapcdn.com https://*.gstatic.com https://js.arcgis.com; img-src 'self' http://52.200.226.137 https://*.nasa.gov https://*.tile.openstreetmap.org https://code.jquery.com https://*.gstatic.com https://*.googleapis.com https://js.arcgis.com https://www.arcgis.com https://cdn.arcgis.com https://services.arcgisonline.com https://server.arcgisonline.com data:; connect-src 'self' wss://testbed.mysmce.com:8443/mqtt https://*.s3.amazonaws.com https://satcorps.larc.nasa.gov https://www.arcgis.com https://js.arcgis.com https://basemaps.arcgis.com https://services.arcgis.com https://utility.arcgisonline.com https://static.arcgis.com https://basemaps-api.arcgis.com https://cdn.arcgis.com https://services.arcgisonline.com blob:;

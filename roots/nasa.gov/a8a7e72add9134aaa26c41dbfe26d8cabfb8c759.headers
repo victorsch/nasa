@@ -1,0 +1,9 @@
+GET http://geraldine.m.tucker@nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:45:26 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Location: https://www.nasa.gov/
+< Server: nginx/1.18.0 (Ubuntu)

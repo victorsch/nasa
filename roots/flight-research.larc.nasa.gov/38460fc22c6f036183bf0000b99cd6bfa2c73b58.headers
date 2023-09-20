@@ -1,0 +1,9 @@
+GET http://flight-research.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Location: https://flight-research.larc.nasa.gov/
+< Content-Length: 246
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:49:36 GMT

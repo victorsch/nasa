@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>PMM Publisher</title>
+	<link rel="icon" href="/favicon.png" type="image/png">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap-select.css">
+	
+	<script src="/js/jquery.min.js"></script>	
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/bootstrap-select.js"></script>
+	<!--<script src="/js/lock.min.js"></script>-->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/base1.css">
+<!--	<style type="text/css">
+	    body {
+	        padding-top: 60px;
+	        padding-bottom: 40px;
+	    }
+	    .sidebar-nav {
+	        padding: 9px 0;
+	    }
+	  	.login {
+	  		float: right;
+	  		text-align: right;
+	  	}
+	    @media (max-width: 980px) {
+	        /* Enable use of floated navbar text */
+	        .navbar-text.pull-right {
+	          float: none;
+	          padding-left: 5px;
+	          padding-right: 5px;
+	        }
+	    }
+		#map {
+		    width: 900px;
+		    height:900px;
+		}
+		.popup {
+		    text-align: center;
+		}
+		.popup img {
+		    width: 100%;
+		}
+		#filters {
+		    position: absolute;
+		    top: 145px;
+		    left: 10px;
+		    z-index: 100;
+		    padding: 5px;
+		    background: #fff;
+		}
+
+		#filters ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		}
+		
+		.popover.popover-stats {
+		    display: none
+		}
+		
+		.twitter-hashtag-button {
+		      position:relative;
+		      top:6px;
+		}
+		.table-scrollable { height: 500px; overflow: auto; }
+		
+	</style>-->
+<!--	<style id="antiClickjack">body{display:none !important;}</style>-->
+	<link id="antiClickjack" href="css/anticlickjack.css">
+	<script src="/js/anticlickjack.js"></script>	
+<!--	<script type="text/javascript">
+		if (self === top) {
+			var antiClickjack = document.getElementById("antiClickjack");
+			antiClickjack.parentNode.removeChild(antiClickjack);
+		} else {
+			top.location = self.location;
+		}
+	</script>-->
+  </head>
+
+  <body>
+	<div class="container">
+		<nav class="navbar navbar-default" role='navigation'>
+		    <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav" id="menus">
+	 			  <li><a href="/">Home</a></li>
+  					
+				  <li class="dropdown">
+		          	<a href="/opensearch/classic">OpenSearch</a>
+				  </li>
+				  
+				  <li class="dropdown">
+		          	<a href="/api">API</a>
+				  </li>
+
+				  <li class="dropdown">
+					<a href="/docs">Documentation</a>
+				  </li>
+				  
+				</ul>				
+	      	</div>
+	    </nav>
+		
+	    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+			<div class="list-group">
+				<a href="/about" class="list-group-item">About</a>
+				<a href="/contact" class="list-group-item">Contacts</a>
+			</div>
+	    </div>
+			   
+		<div class="col-xs-6 col-sm-9">	
+	<h2>PMM Publisher Home</h2>
+	<br/>
+	<p>This is the publisher of GIS products (topojson, GeoJSON, shapefiles, etc.) generated from the following products:
+	</p>
+	<ul>
+		<li><a href="https://pmm.nasa.gov/category/keywords/imerg">IMERG 30-minute, 1-day, 3-day, and 7-day</a></li>
+		<li><a href="https://pmm.nasa.gov/applications/landslides">Goddard Global Landslide Nowcast</a></li>
+		<li><a href="http://flood.umd.edu/">University of Maryland Global Flood Monitoring System (GFMS) Nowcast</a></li>
+	</ul></br>
+	<p>Products are available up to 60 days prior to the current date. If you're interested in GIS-friendly data more than 60 days old, consider trying the IMERG GeoTIFF-formatted files from GPM's Precipitation Processing System (PPS). <a href="https://arthurhou.pps.eosdis.nasa.gov/Documents/README.GIS.pdf">Click here for more information.</a> 
+	</p>
+</div>
+
+		<br/>
+		<hr/>
+
+		
+		<div class='footer'>
+			<a href='https://pmm.nasa.gov/contact'>Problems/questions? Contact Me</a>
+			<br/>
+			<a href='http://www.nasa.gov/about/highlights/HP_Privacy.html'>Privacy Statement</a>
+			<div class="pull-right">
+				<a href="https://www.nasa.gov"><img src='/img/nasalogo-proper.svg' width=64></a>
+			</div>
+
+		<!--<div id="footer">-->
+			<!--<div> <a href="http://www.nasa.gov" class="imageLink"><img src="/img/nasa_header_logo1.gif" alt="NASA Logo, National Aeronautics and Space Administration" width="140" height="98" /></a> </div>
+			<div id="footer-signature"> <a href="http://www.nasa.gov/goddard/" class="imageLink"><img src="/img/goddardsignature2.png" alt="Goddard Space Flight Center" height="68" /></a> </div>
+			<div class="nasafootlinks">
+				<ul style="list-style-type:none;">
+					<li>Responsible NASA Official : <a href="mailto:Erich.F.Stocker@nasa.gov">Dr. Erich Stocker</a></li>
+					<li>Web Curator: <a href="mailto:jason.west@mail.pps.eosdis.nasa.gov">Jason West</a></li>
+				</ul>
+			</div>
+
+			<div class="nasafootlinks" id="footerRight">
+				<ul style="list-style-type:none;">
+					<li> <a target="_blank" href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a> </li>
+					<li><a href="mailto:helpdesk@mail.pps.eosdis.nasa.gov">Contact Us</a> </li>
+					<li> Page Last Updated: January 13, 2022 </li>
+				</ul>
+			</div>-->
+
+		</div>
+
+	</div>
+
+</body>
+</html>

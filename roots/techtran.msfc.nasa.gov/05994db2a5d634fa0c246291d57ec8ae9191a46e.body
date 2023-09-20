@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marshall Space Flight Center Technology Transfer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+    <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
+    <link rel="shortcut icon" href="/img/meatball-favicon.ico"/>
+    <link type="text/css" href="/css/home.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="page">
+        <a class="accessible" href="#content">[Skip to Content]</a>
+        <div id="header">
+            <div><a href="https://technology.nasa.gov"><img src="/img/home/banner/banner-t2.png" /></a></div>
+            <div><img src="/img/home/banner/banner-msfc.png" /></div>
+        </div>
+        <div id="notice"></div>
+        <div id="main">
+            <a id="content"></a>
+            <div class="m-left">
+                <div class="title">Areas of Expertise</div>
+                <div>
+                    Marshall Space Flight Center (MSFC) has unique expertise in many areas, including:
+                    <ul>
+                        <li>Materials and Processes</li>
+                        <li>Mission Operations</li>
+                        <li>Propulsion Systems</li>
+                        <li>Space Systems</li>
+                        <li>Vehicle Systems</li>
+                    </ul>
+                </div>
+
+                <div class="title pp">Patent Portfolio</div>
+                <div>
+                    In addition to the areas of expertise listed above, the Technology Transfer Office at MSFC has a diverse portfolio of inventions available for licensing, especially in these categories:
+                    <ul>
+                        <li>Mechanical and Fluid Systems</li>
+                        <li>Manufacturing</li>
+                        <li>Materials and Coatings</li>
+                        <li>Electrical and Electronics</li>
+                        <li>Propulsion</li>
+                    </ul>
+                    For more information on how to license technologies with NASA's Marshall Space Flight Center, please visit:
+                    <a href="https://technology.nasa.gov/license">technology.nasa.gov/license</a>.
+                </div>
+
+                <br clear="all" />
+                <br clear="all" />
+                <div class="title">Our Staff</div>
+                <!--
+                <div class="staff">
+                    <div class="s-left">
+                        <img src="/img/home/headshots/msfc/taylor.jpg" alt="Terry Taylor" />
+                    </div>
+                    <div class="s-right">
+                        <div class="title">Technology Transfer Officer</div>
+                        Terry Taylor<br>
+                        256.544.5916<br>
+                        <a href="mailto:terry.taylor@nasa.gov">terry.taylor@nasa.gov</a>
+                    </div>
+                </div>
+                -->
+                <div class="staff">
+                    <div class="s-left">
+                        <img src="/img/home/headshots/msfc/nabors.jpg" alt="Sammy Nabors" />
+                    </div>
+                    <div class="s-right">
+                        <div class="title">Technology Transfer Officer</div>
+                        <div class="title">Chair, Agency Licensing Team</div>
+                        Sammy Nabors<br>
+                        256.544.5226<br>
+                        <a href="mailto:sammy.nabors@nasa.gov">sammy.nabors@nasa.gov</a>
+                    </div>
+                </div>
+                <div class="staff">
+                    <div class="s-left">
+                        <img src="/img/home/headshots/msfc/garrison.jpg" alt="Lynn Garrison" />
+                    </div>
+                    <div class="s-right">
+                        <div class="title">Software Release Authority</div>
+                        Lynn Garrison<br>
+                        256.544.6719<br>
+                        <a href="mailto:virginia.b.garrison@nasa.gov">virginia.b.garrison@nasa.gov</a>
+                    </div>
+                </div>
+                <div class="staff">
+                    <div class="s-left">
+                        <img src="/img/home/headshots/missing.person.png" alt="Valerie Hughes" />
+                    </div>
+                    <div class="s-right">
+                        <div class="title">New Technology Representative</div>
+                        Valerie Hughes<br>
+                        256.544.3254<br>
+                        <a href="mailto:valerie.l.hughes@nasa.gov">valerie.l.hughes@nasa.gov</a>
+                    </div>
+                </div>
+            </div>
+            <div class="m-right">
+                <div id="map">
+                    <img src="/img/home/maps/msfc.map.png" />
+                </div>
+                <div id="portfolios">
+                    <div id="p-left">
+                        <a href="https://technology.nasa.gov/patents">
+                            <img src="/img/home/patent.png" alt="Patent Portfolio" />
+                            <div>Patent Portfolio</div>
+                        </a>
+                    </div>
+                    <div id="p-right">
+                        <a href="https://software.nasa.gov/">
+                            <img src="/img/home/software.png" alt="Software Catalog" />
+                            <div>Software Catalog</div>
+                        </a>
+                    </div>
+                </div>
+                <br clear="all" />
+                <div id="contact">
+                    <div class="title">Contact us:</div>
+                    Marshall Space Flight Center<br />
+                    Technology Transfer Office<br />
+                    MS: ST22<br />
+                    Huntsville, AL 35812<br />
+                    256.961.2255<br />
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="f-left">
+                <a href="http://www.nasa.gov">
+                    <img alt="home" src="/img/home/nasa-logo.svg">
+                </a>
+            </div>
+            <div class="f-right">
+                <div class="f-title">National Aeronautics and Space Administration</div>
+                <table>
+                    <tr>
+                        <td>
+                            NASA Official: Terry Taylor<br />
+                            <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a><br />
+                            <a href="mailto:techtransfer-system-support@lists.nasa.gov">Contact Us</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $.get('/opinfo.php',function(data){
+       $('#notice').html(data);
+    },'html');
+</script>

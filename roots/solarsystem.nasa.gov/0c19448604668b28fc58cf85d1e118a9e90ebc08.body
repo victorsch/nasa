@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MXPRC56');
+</script>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3f776c1fa0","applicationID":"691068959","transactionName":"elhfQRdXWQkHFBgOUVpaQhoGV1sRBwhDPENYUFRGSktdChU=","queueTime":0,"applicationTime":495,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"691069996",accountID:"404656",trustKey:"404656",xpid:"UAYDV1NVGwUJVVFUDwgCXw==",licenseKey:"3f776c1fa0",applicationID:"691068959"};;/*! For license information please see nr-loader-spa-1.240.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,r={5763:(e,t,r)=>{r.d(t,{P_:()=>h,Mt:()=>g,C5:()=>s,DL:()=>b,OP:()=>_,lF:()=>D,Yu:()=>A,Dg:()=>p,CX:()=>c,GE:()=>y,sU:()=>S});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,n.Qy)(e,a[e],"info")}var u=r(7056);const d=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},l={},f="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(f);if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function p(e,t){if(!e)throw new Error(f);l[e]=(0,i.D)(t,d()),(0,n.Qy)(e,l[e],"config")}function g(e,t){if(!e)throw new Error(f);var r=h(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function b(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function y(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,m),(0,n.Qy)(e,v[e],"loader_config")}const A=(0,n.mF)().o;var w=r(385),x=r(6818);const E={buildEnv:x.Re,customTransaction:void 0,disabled:!1,distMethod:x.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:x.q4,denyList:void 0},T={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!T[e])throw new Error("Runtime for ".concat(e," was never set"));return T[e]}function S(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");T[e]=(0,i.D)(t,E),(0,n.Qy)(e,T[e],"runtime")}function D(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.240.0",i="PROD",o="CDN"},385:(e,t,r)=>{r.d(t,{FN:()=>s,IF:()=>d,Nk:()=>f,Tt:()=>c,_A:()=>o,cv:()=>h,iS:()=>a,il:()=>n,ux:()=>u,v6:()=>i,w1:()=>l});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=""+o?.location,c=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=(()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),l=Boolean(n&&window.document.documentMode),f=!!o.navigator?.sendBeacon,h=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),a(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(5763);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var h={on:g,addEventListener:g,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=m(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([h,e,r,a]);return a},get:v,listeners:m,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",h.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function g(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(h,t)}function b(){return h.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{r.d(t,{Ht:()=>u,M:()=>c,Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++r).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(r,++i).toString(16));return a.join("")}function c(){return s(16)}function u(){return s(32)}},7056:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>o,oD:()=>i});const n="NRBA",i=144e5,o=18e5},7894:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{r.d(t,{e:()=>o});var n=r(385),i={};function o(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};let t;var r=n._A?.location,o={};if(n.il)t=document.createElement("a"),t.href=e;else try{t=new URL(e,r.href)}catch(e){return o}o.port=t.port;var a=t.href.split("://");!o.port&&a[1]&&(o.port=a[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===a[0]?"443":"80"),o.hostname=t.hostname||r.hostname,o.pathname=t.pathname,o.protocol=a[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var s=!t.protocol||":"===t.protocol||t.protocol===r.protocol,c=t.hostname===r.hostname&&t.port===r.port;return o.sameOrigin=s&&(!t.hostname||c),"/"===o.pathname&&(i[e]=o),o}},50:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2587:(e,t,r)=>{r.d(t,{N:()=>c,T:()=>u});var n=r(8325),i=r(5546),o=r(3325);const a={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},s=new Set;function c(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,n]=e;a[t]?a[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),u[t]=Boolean(n)})),Object.keys(a).forEach((e=>{void 0===u[e]&&(a[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),u[e]=!1)})),s.add(t))}const u={}},2210:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{r.d(t,{K:()=>a,b:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{r.d(t,{em:()=>b,u5:()=>D,QU:()=>N,_L:()=>I,Gm:()=>H,Lg:()=>L,BV:()=>G,Kf:()=>K});var n=r(8325),i=r(3117);const o="nr@original:".concat(i.a);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];d(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return d(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,d,l;try{a=this,o=[...arguments],d="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],d],e)}i(r+"start",[o,a,s],d,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],d,c),e}finally{i(r+"end",[o,a,l],d,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e){return!(e&&e instanceof Function&&e.apply&&!e[o])}var l=r(2210),f=r(385);const h={},p=f._A.XMLHttpRequest,g="addEventListener",m="removeEventListener",v="nr@wrapped:".concat(n.A);function b(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=c(t,!0);function i(e){r.inPlace(e,[g,m],"-",o)}function o(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&y(document,i),y(f._A,i),y(p.prototype,i)),t.on(g+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,v,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(m+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function y(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,g);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}var A="fetch-",w=A+"body-",x=["arrayBuffer","blob","json","text","formData"],E=f._A.Request,T=f._A.Response,_="prototype";const S={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(E&&T&&f._A.fetch))return t;if(S[t.debugId]++)return t;function r(e,r,i){var o=e[r];"function"==typeof o&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(i+"before-start",[r],a),a[n.A]&&a[n.A].dt&&(e=a[n.A].dt);var s=o.apply(this,r);return t.emit(i+"start",[r,e],s),s.then((function(e){return t.emit(i+"end",[null,e],s),e}),(function(e){throw t.emit(i+"end",[e],s),e}))})}return S[t.debugId]=1,x.forEach((e=>{r(E[_],e,w),r(T[_],e,w)})),r(f._A,"fetch",A),t.on(A+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(A+"done",[null,r],n)}else t.emit(A+"done",[e],n)})),t}const j={},C=["pushState","replaceState"];function N(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||j[t.debugId]++||(j[t.debugId]=1,c(t).inPlace(window.history,C,"-")),t}var O=r(3239);const P={},R=["appendChild","insertBefore","replaceChild"];function I(e){const t=function(e){return(e||n.ee).get("jsonp")}(e);if(!f.il||P[t.debugId])return t;P[t.debugId]=!0;var r=c(t),i=/[?&](?:callback|cb)=([^&#]+)/,o=/(.*)\.([^.]+)/,a=/^(\w+)(\.|$)(.*)$/;function s(e,t){if(!e)return t;const r=e.match(a),n=r[1];return s(r[3],t[n])}return r.inPlace(Node.prototype,R,"dom-"),t.on("dom-start",(function(e){!function(e){if(!e||"string"!=typeof e.nodeName||"script"!==e.nodeName.toLowerCase())return;if("function"!=typeof e.addEventListener)return;var n=(a=e.src,c=a.match(i),c?c[1]:null);var a,c;if(!n)return;var u=function(e){var t=e.match(o);if(t&&t.length>=3)return{key:t[2],parent:s(t[1],window)};return{key:e,parent:window}}(n);if("function"!=typeof u.parent[u.key])return;var d={};function l(){t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,O.m$)(!1)),e.removeEventListener("error",f,(0,O.m$)(!1))}function f(){t.emit("jsonp-error",[],d),t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,O.m$)(!1)),e.removeEventListener("error",f,(0,O.m$)(!1))}r.inPlace(u.parent,[u.key],"cb-",d),e.addEventListener("load",l,(0,O.m$)(!1)),e.addEventListener("error",f,(0,O.m$)(!1)),t.emit("new-jsonp",[e.src],d)}(e[0])})),t}const k={};function H(e){const t=function(e){return(e||n.ee).get("mutation")}(e);if(!f.il||k[t.debugId])return t;k[t.debugId]=!0;var r=c(t),i=f._A.MutationObserver;return i&&(window.MutationObserver=function(e){return this instanceof i?new i(r(e,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype),t}const z={};function L(e){const t=function(e){return(e||n.ee).get("promise")}(e);if(z[t.debugId])return t;z[t.debugId]=!0;var r=t.context,i=c(t),a=f._A.Promise;return a&&function(){function e(r){var n=t.context(),o=i(r,"executor-",n,null,!1);const s=Reflect.construct(a,[o],e);return t.context(s).getCtx=function(){return n},s}f._A.Promise=e,Object.defineProperty(e,"name",{value:"Promise"}),e.toString=function(){return a.toString()},Object.setPrototypeOf(e,a),["all","race"].forEach((function(r){const n=a[r];e[r]=function(e){let i=!1;[...e||[]].forEach((e=>{this.resolve(e).then(a("all"===r),a(!1))}));const o=n.apply(this,arguments);return o;function a(e){return function(){t.emit("propagate",[null,!i],o,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(r){const n=a[r];e[r]=function(e){const r=n.apply(this,arguments);return e!==r&&t.emit("propagate",[e,!0],r,!1,!1),r}})),e.prototype=a.prototype;const n=a.prototype.then;a.prototype.then=function(){var e=this,o=r(e);o.promise=e;for(var a=arguments.length,s=new Array(a),c=0;c<a;c++)s[c]=arguments[c];s[0]=i(s[0],"cb-",o,null,!1),s[1]=i(s[1],"cb-",o,null,!1);const u=n.apply(this,s);return o.nextPromise=u,t.emit("propagate",[e,!0],u,!1,!1),u},a.prototype.then[o]=n,t.on("executor-start",(function(e){e[0]=i(e[0],"resolve-",this,null,!1),e[1]=i(e[1],"resolve-",this,null,!1)})),t.on("executor-err",(function(e,t,r){e[1](r)})),t.on("cb-end",(function(e,r,n){t.emit("propagate",[n,!0],this.nextPromise,!1,!1)})),t.on("propagate",(function(e,r,n){this.getCtx&&!r||(this.getCtx=function(){if(e instanceof Promise)var r=t.context(e);return r&&r.getCtx?r.getCtx():this})}))}(),t}const M={},B="setTimeout",F="setInterval",U="clearTimeout",Z="-start",V="-",q=[B,"setImmediate",F,U,"clearImmediate"];function G(e){const t=function(e){return(e||n.ee).get("timer")}(e);if(M[t.debugId]++)return t;M[t.debugId]=1;var r=c(t);return r.inPlace(f._A,q.slice(0,2),B+V),r.inPlace(f._A,q.slice(2,3),F+V),r.inPlace(f._A,q.slice(3),U+V),t.on(F+Z,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(B+Z,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}var W=r(50);const X={},Q=["open","send"];function K(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(X[r.debugId]++)return r;X[r.debugId]=1,b(t);var i=c(r),o=f._A.XMLHttpRequest,a=f._A.MutationObserver,s=f._A.Promise,u=f._A.setInterval,d="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],p=f._A.XMLHttpRequest=function(e){const t=new o(e),n=r.context(t);try{r.emit("new-xhr",[t],n),t.addEventListener(d,(a=n,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",w)}),(0,O.m$)(!1))}catch(e){(0,W.Z)("An error occurred while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}var a;return t};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",w)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,p),p.prototype=o.prototype,i.inPlace(p.prototype,Q,"-xhr-",w),r.on("send-xhr-start",(function(e,t){g(e,t),function(e){h.push(e),a&&(m?m.then(A):u?u(A):(v=-v,y.data=v))}(t)})),r.on("open-xhr-start",g),a){var m=s&&s.resolve();if(!u&&!s){var v=1,y=document.createTextNode(v);new a(A).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===d||A()}));function A(){for(var e=0;e<h.length;e++)g(0,h[e]);h.length&&(h=[])}function w(e,t){return t}return r}},7825:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(3325).D.sessionReplay},3614:(e,t,r)=>{r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>u,FN_START:()=>c,PUSH_STATE:()=>d,RESOURCE:()=>o,START:()=>a});const n=r(3325).D.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,u="fn"+s,d="pushState"},7836:(e,t,r)=>{r.d(t,{BODY:()=>x,CB_END:()=>E,CB_START:()=>u,END:()=>w,FEATURE_NAME:()=>i,FETCH:()=>_,FETCH_BODY:()=>v,FETCH_DONE:()=>m,FETCH_START:()=>g,FN_END:()=>c,FN_START:()=>s,INTERACTION:()=>f,INTERACTION_API:()=>d,INTERACTION_EVENTS:()=>o,JSONP_END:()=>b,JSONP_NODE:()=>p,JS_TIME:()=>T,MAX_TIMER_BUDGET:()=>a,REMAINING:()=>l,SPA_NODE:()=>h,START:()=>A,originalSetTimeout:()=>y});var n=r(5763);const i=r(3325).D.spa,o=["click","submit","keypress","keydown","keyup","change"],a=999,s="fn-start",c="fn-end",u="cb-start",d="api-ixn-",l="remaining",f="interaction",h="spaNode",p="jsonpNode",g="fetch-start",m="fetch-done",v="fetch-body-",b="jsonp-end",y=n.Yu.ST,A="-start",w="-end",x="-body",E="cb"+w,T="jsTime",_="fetch"},5938:(e,t,r)=>{r.d(t,{W:()=>o});var n=r(5763),i=r(8325);class o{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{r.d(t,{j:()=>b});var n=r(3325),i=r(5763),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),h=r(8632);function p(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var g=r(2587);const m=e=>{r.p=e};let v=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:A,info:w,loader_config:x,runtime:E={loaderType:b},exposed:T=!0}=t;const _=(0,h.gG)();w||(A=_.init,w=_.info,x=_.loader_config),(0,i.Dg)(e,A||{}),(0,i.GE)(e,x||{}),w.jsAttributes??={},d.v6&&(w.jsAttributes.isWorker=!0),(0,i.CX)(e,w);const S=(0,i.P_)(e),D=[w.beacon,w.errorBeacon];v||(v=!0,S.proxy.assets&&(m(S.proxy.assets+"/"),D.push(S.proxy.assets)),S.proxy.beacon&&D.push(S.proxy.beacon)),E.denyList=[...S.ajax.deny_list||[],...S.ajax.block_internal?D:[]],(0,i.sU)(e,E),p();const j=function(e,t){t||(0,c.R)(e,"api");const h={};var p=a.ee.get(e),g=p.get("tracer"),m="api-",v=m+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),w(m,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>{h[e]=w(m,e,!0,"api")})),h.addPageAction=w(m,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=w(m,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,w(m,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h.interaction=function(){return(new y).get()};var A=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(v+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(g.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw g.emit("fn-err",[arguments,this,e],r),e}finally{g.emit("fn-end",[(0,s.z)()],r)}}}};function w(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(111).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{A[e]=w(v,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b)((()=>x()),!0):x(),h}(e,y);return(0,h.Qy)(e,j,"api"),(0,h.Qy)(e,T,"exposed"),(0,h.EZ)("activatedFeatures",g.T),j}},3325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({111:"nr-spa",164:"nr-spa-compressor",433:"nr-spa-recorder"}[e]+"."+{111:"3b61d78f",164:"d88fc931",433:"252a96f3"}[e]+"-1.240.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.240.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={801:0,92:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.240.0.PROD"]=self["webpackChunk:NRBA-1.240.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{var e=i(50);class t{addPageAction(t,r){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,r){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,r,n){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,r){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,r){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var r=i(3325),n=i(5763);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(111).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(111).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),o(!1)}};l.il?(0,d.b)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var h=i(7633);class p extends f{static featureName=h.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,h.t,r),this.importAggregator()}}var g=i(1117),m=i(1284);class v extends g.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,m.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,m.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,m.D)(e,w)}function w(e,t){return t}var x=i(8632),E=i(4402),T=i(4351);var _=i(5546),S=i(7956),D=i(3239),j=i(7894),C=i(9251);class N extends f{static featureName=C.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t,r),l.il&&((0,S.N)((()=>(0,_.p)("docHidden",[(0,j.z)()],void 0,C.t,this.ee)),!0),(0,D.bP)("pagehide",(()=>(0,_.p)("winPagehide",[(0,j.z)()],void 0,C.t,this.ee))),this.importAggregator())}}var O=i(3081);class P extends f{static featureName=O.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,O.t9,r),this.importAggregator()}}var R=i(6660);class I{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class k extends f{static featureName=R.t;#e=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#e.has(n)&&(this.#e.add(n),(0,_.p)("err",[this.#t(n),(0,j.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,_.p)("ierr",[this.#t(e),(0,j.z)(),!0],void 0,r.D.jserrors,this.ee)})),l._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,_.p)("err",[this.#r(e),(0,j.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,D.m$)(!1,this.removeOnAbort?.signal)),l._A.addEventListener("error",(e=>{this.abortHandler&&(this.#e.has(e.error)?this.#e.delete(e.error):(0,_.p)("err",[this.#n(e),(0,j.z)()],void 0,r.D.jserrors,this.ee))}),(0,D.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.#e.clear(),this.abortHandler=void 0}#t(e){return e instanceof Error?e:void 0!==e?.message?new I(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new I("string"==typeof e?e:(0,T.P)(e))}#r(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new I(t);const r=this.#t(e.reason);return r.message=t+r.message,r}#n(e){return e.error instanceof Error?e.error:new I(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let z=1;const L="nr@id";function M(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===l._A?0:(0,H.X)(e,L,(function(){return z++}))}function B(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,T.P)(e).length}catch(e){return}}}var F=i(1214),U=i(7243);class Z{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!r||!i)return null;var a=(0,E.M)(),s=(0,E.Ht)(),c=Date.now(),u={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),u.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,r,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(a,s,c,r,i,o)),u}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof l._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,T.P)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var o=(0,U.e)(r.allowed_origins[i]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var V=i(7825),q=["load","error","abort","timeout"],G=q.length,W=n.Yu.REQ,X=n.Yu.XHR;class Q extends f{static featureName=V.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,V.t,i),(0,n.OP)(e).xhrWrappable){this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,_.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};l._A?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const n={status:t.responseStatus},i={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};K(n,t.name),this.handler("xhr",[n,i,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,r.D.ajax)}}))}catch(e){}(0,F.u5)(this.ee),(0,F.Kf)(this.ee),function(e,t,i,o){function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=x,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){E(t,e)}),(0,D.m$)(!1)),l.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,D.m$)(!1))}function s(e){this.params={method:e[0]},K(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var a=o.generateTracePayload(this.parsedOrigin);if(a){var s=!1;a.newrelicHeader&&(r.setRequestHeader("newrelic",a.newrelicHeader),s=!0),a.traceContextParentHeader&&(r.setRequestHeader("traceparent",a.traceContextParentHeader),a.traceContextStateHeader&&r.setRequestHeader("tracestate",a.traceContextStateHeader),s=!0),s&&(this.dt=a)}}function u(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=B(i);a&&(n.txSize=a)}this.startTime=(0,j.z)(),this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<G;s++)r.addEventListener(q[s],this.listener,(0,D.m$)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+M(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+M(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,j.z)()}function g(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof X&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,j.z)()))}function b(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,j.z)()-this.xhrCbStart,this.onload,r],r)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&l.il&&(t=""+l._A.location.href):e[0]&&e[0].url?t=e[0].url:l._A?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,U.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=o.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,n)&&(this.dt=n);else{var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function A(e,t){this.params={},this.metrics={},this.startTime=(0,j.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:l._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),K(this,r);var o=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.txSize=B(n.body)||0}function w(e,t){var n;this.endTime=(0,j.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,j.z)()-this.startTime};i("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function x(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<G;o++)e.removeEventListener(q[o],this.listener,!1);t.aborted||(n.duration=(0,j.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):E(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function E(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?B(e.response):"text"===r||""===r||void 0===r?B(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",a),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",u),t.on("xhr-cb-time",d),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",p),t.on("addEventListener-end",g),t.on("removeEventListener-end",m),t.on("fn-end",b),t.on("fetch-before-start",y),t.on("fetch-start",A),t.on("fn-start",v),t.on("fetch-done",w)}(e,this.ee,this.handler,this.dt),this.importAggregator()}}}function K(e,t){var r=(0,U.e)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var Y=i(3614);const{BST_RESOURCE:J,RESOURCE:ee,START:te,END:re,FEATURE_NAME:ne,FN_END:ie,FN_START:oe,PUSH_STATE:ae}=Y;var se=i(7144);class ce extends f{static featureName=se.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,se.t,r),this.importAggregator()}}var ue=i(7836);const{FEATURE_NAME:de,START:le,END:fe,BODY:he,CB_END:pe,JS_TIME:ge,FETCH:me,FN_START:ve,CB_START:be,FN_END:ye}=ue;var Ae=i(4649);class we extends f{static featureName=Ae.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,Ae.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,E.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new v({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){const t="features";try{const n=a(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>n[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,T.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,x.Qy)(this.agentIdentifier,this.features,t)}catch(r){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",r);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,x.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[Q,p,N,class extends f{static featureName=ne;constructor(e,t){if(super(e,t,ne,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;const n=this.ee;let i;(0,F.QU)(n),this.eventsEE=(0,F.em)(n),this.eventsEE.on(oe,(function(e,t){this.bstStart=(0,j.z)()})),this.eventsEE.on(ie,(function(e,t){(0,_.p)("bst",[e[0],t,this.bstStart,(0,j.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+te,(function(e){this.time=(0,j.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+re,(function(e){(0,_.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,_.p)(J,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:ee,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},ce,P,we,k,class extends f{static featureName=de;constructor(e,t){if(super(e,t,de,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;if(!(0,n.OP)(e).xhrWrappable)return;try{this.removeOnAbort=new AbortController}catch(e){}let r,i=0;const o=this.ee.get("tracer"),a=(0,F._L)(this.ee),s=(0,F.Lg)(this.ee),c=(0,F.BV)(this.ee),u=(0,F.Kf)(this.ee),d=this.ee.get("events"),f=(0,F.u5)(this.ee),h=(0,F.QU)(this.ee),p=(0,F.Gm)(this.ee);function g(e,t){h.emit("newURL",[""+window.location,t])}function m(){i++,r=window.location.hash,this[ve]=(0,j.z)()}function v(){i--,window.location.hash!==r&&g(0,!0);var e=(0,j.z)();this[ge]=~~this[ge]+e-this[ve],this[ye]=e}function b(e,t){e.on(t,(function(){this[t]=(0,j.z)()}))}this.ee.on(ve,m),s.on(be,m),a.on(be,m),this.ee.on(ye,v),s.on(pe,v),a.on(pe,v),this.ee.buffer([ve,ye,"xhr-resolved"],this.featureName),d.buffer([ve],this.featureName),c.buffer(["setTimeout"+fe,"clearTimeout"+le,ve],this.featureName),u.buffer([ve,"new-xhr","send-xhr"+le],this.featureName),f.buffer([me+le,me+"-done",me+he+le,me+he+fe],this.featureName),h.buffer(["newURL"],this.featureName),p.buffer([ve],this.featureName),s.buffer(["propagate",be,pe,"executor-err","resolve"+le],this.featureName),o.buffer([ve,"no-"+ve],this.featureName),a.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"],this.featureName),b(f,me+le),b(f,me+"-done"),b(a,"new-jsonp"),b(a,"jsonp-end"),b(a,"cb-start"),h.on("pushState-end",g),h.on("replaceState-end",g),window.addEventListener("hashchange",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("load",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("popstate",(function(){g(0,i>1)}),(0,D.m$)(!0,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}],loaderType:"spa"})})()})();</script>
+<!-- Responsiveness -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<!-- Favicon -->
+<link href='/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/manifest.json' rel='manifest'>
+<link color='#20468c' href='/safari-pinned-tab.svg' rel='mask-icon'>
+<meta content='#ffffff' name='theme-color'>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="tY8YRExOjPcNLdy+0s53ut7rkPO296MWkLxzWo/ChKMz4LzFBZKUMuDORG9oYd8rwP45sRfWZD74mxEEC/laGA==" />
+<title>Home – NASA Solar System Exploration</title>
+<meta content='NASA Solar System Exploration' property='og:site_name'>
+<meta content='' name='author'>
+<meta content='Planets, Sun, Venus, Earth, Earth&#39;s Moon, Moon, Satellite, Robot, Mars, Asteroid, Jupiter, Europa, Saturn, Enceladus, Titan, Uranus, Neptune, Dwarf Planet, Pluto, Eris' name='keywords'>
+<meta content='NASA’s real-time science encyclopedia of deep space exploration. Our scientists and far-ranging robots explore the wild frontiers of our solar system.
+' name='description'>
+<meta content='NASA’s real-time science encyclopedia of deep space exploration. Our scientists and far-ranging robots explore the wild frontiers of our solar system.
+' property='og:description'>
+<meta content='Home – NASA Solar System Exploration' property='og:title'>
+<meta content='https://solarsystem.nasa.gov/' property='og:url'>
+<meta content='article' property='og:type'>
+<meta content='2023-09-01 14:42:47 -0700' property='og:updated_time'>
+<meta content='https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFZSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--112e4bc20ea50275b4decd1e2dc042263312f0a4/solarsystem_200.jpg' property='og:image'>
+<meta content='https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFZSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--112e4bc20ea50275b4decd1e2dc042263312f0a4/solarsystem_200.jpg' name='twitter:image'>
+<link href='https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcFZSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--112e4bc20ea50275b4decd1e2dc042263312f0a4/solarsystem_200.jpg' rel='image_src'>
+
+<meta content='386757505155871' property='fb:app_id'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:300,400' rel='stylesheet'>
+
+<link rel="stylesheet" media="all" href="/assets/public_manifest-ddb639389a0b0cd24e7e6a0a1f8fae9ba855fa014ffd5a2493e498eed1819ad9.css" />
+<link rel="stylesheet" media="screen" href="/assets/mbcms/vendor/jquery.fancybox3-d5d81bdfc05a59e4ea72bca1d8b7fcc399bd3b61f7c06af95a8a48795df69d7a.css" />
+<link rel="stylesheet" media="screen" href="/assets/mbcms/vendor/jquery.fancybox-thumbs-63891ea3fd7b7f15621befe5cbdf329cd554b2129f7d69a7ea8d7cedb4c98323.css" />
+<link rel="stylesheet" media="print" href="/assets/gulp/print-8f8fee6fd062f161b3d761c1d1f16d49d7f6b94fc5c4450adeb3fcf015497a76.css" />
+<script src="/assets/public_manifest-6bc0db6784f2acaaa6700e78cc0caae0aad9268d0561242c1ae3f254c6465f3e.js"></script>
+<script src="/assets/mbcms/vendor/jquery.fancybox3-bd543a29719f5c70e897670b5484b67824cc3c8eba68c8e4719d3cd6e2a5f542.js"></script>
+<script src="/assets/mbcms/vendor/jquery.fancybox-thumbs3-165b9822252e6816da53602b68cdd1a366475c528a9276488772c4849fed264f.js"></script>
+<script src="/assets/mb_manifest-d9dfd00895ac094a4de12c40fe827899a4b9b85b0e7e04327d98fe17d326ce6c.js"></script>
+
+</head>
+<body class='main_feature_present
+'>
+<svg display="none" width="0" height="0">
+
+  <symbol id="circle_plus" viewBox="0 0 24 24">
+    <g fill="none" fill-rule="evenodd">
+    <circle cx="12" cy="12" fill="#2aabfe" r="12"/><path d="m7 11.332h4.332v-4.332h1.482v4.332h4.332v1.482h-4.332v4.332h-1.482v-4.332h-4.332z" fill="#fff"/>
+    </g>
+  </symbol>
+  
+  
+  <symbol id="expand_contract_arrow" viewBox="0 0 15 15" >
+    <path d="m28.7594979 15h-.1600174-1.092229-5.221853-.1879104c-.1937826.0205556-.3816929.1027782-.5284979.2525408-.3435236.3435729-.3435236.9000436 0 1.2450848l1.711746 1.7119917c.3435237.343573.3435237.9029802 0 1.2480214l-3.0946489 3.0936247-4.6067401 4.6088695c-.6899834.6886142-.8059594 1.6884995-.117444 2.3771137.6885153.6886141 1.6882572.5740898 2.3767725-.1145243l4.6082083-4.6088695 3.0946489-3.0936248c.3435236-.3435729.9013825-.3435729 1.2463742 0l1.7014697 1.7002456c.3449917.3435729.9013825.3435729 1.2463742 0 .1717619-.1717865.2583768-.3964303.2583768-.6225424h.0058722v-5.3062932-1.1011954-.146826c-.0176166-.3127395-.146805-.6225424-.384629-.8604006-.2378241-.2378582-.5461146-.3670651-.8558731-.383216z" fill="#fff" transform="translate(-15 -15)"/>
+  </symbol>
+
+
+  <symbol id="pause_circle" viewBox="0 0 39 39" >
+    <g fill="none" fill-rule="evenodd">
+      <path d="m0 0h39v39h-39z" />
+      <circle cx="19.5" cy="19.5" r="17.5" stroke="#8f8f8f" stroke-width="2"/>
+      <path d="m2.48675806 0c.0185.00291756.037 0 .0562957 0 .23731721 0 .43007527.17651255.43007527.39441801l-.00019892.00091174v10.16624735c0 .2177231-.19255914.3942356-.43007527.3942356h-2.11258065l-.08668145-.0080097c-.19601235-.0367623-.34359274-.1957182-.34359274-.3862259l.00019892-10.16670322.00874648-.07996622c.04014239-.17976524.21370111-.31490766.42152772-.31490766zm5.88001613 0c.0185.00291756.037 0 .0562957 0 .23731721 0 .43007527.17651255.43007527.39441801l-.00019892.00091174-.00039785 10.16624735c0 .2177231-.19255914.3942356-.43007527.3942356h-2.1121828l-.08668145-.0080097c-.19601235-.0367623-.34359274-.1957182-.34359274-.3862259l.00019892-10.16670322.00874648-.07996622c.04014238-.17976524.2137011-.31490766.42152772-.31490766z" fill="#b9d4f0" fill-rule="nonzero" transform="translate(15 14)"/>
+    </g>
+  </symbol>
+  
+  <symbol id="play_circle" viewBox="0 0 39 39" >
+    <g fill="none" fill-rule="evenodd">
+      <path d="m0 0h39v39h-39z" />
+      <circle cx="19.5" cy="19.5" r="17.5" stroke="#8f8f8f" stroke-width="2"/>
+      <path d="m25 19.5000893c0-.1512083-.0790527-.2811724-.1946298-.3493679l-8.2178118-5.0785984c-.0605404-.0451662-.1339226-.072123-.2133089-.072123-.2066378 0-.3742495.1792362-.3742495.4004252 0 .0155314.0026684.0301703.0043362.0451661l-.0043362 10.1991496c.025517.1997663.1821214.3552591.3742495.3552591.0682121 0 .1312542-.0208871.1862909-.0549848l.0033355.0062483 8.251501-5.0994856-.0033355-.0062483c.1119079-.0692666.1879586-.1972669.1879586-.3454403z" fill="#b9d4f0" fill-rule="nonzero"/>
+    </g>
+  </symbol>
+  
+
+
+</svg>
+
+
+
+<noscript>
+<iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MXPRC56' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+<div data-react-class="BrowseHappier" data-react-props="{&quot;gt&quot;:1,&quot;lt&quot;:11}" data-react-cache-id="BrowseHappier-0"></div>
+<div id='main_container'>
+<div id='site_body'>
+<div class='site_header_area'>
+<header class='site_header'>
+<div class='brand_area'>
+<div class='brand1'>
+<a class='nasa_logo' href='/' title='Home'>NASA</a>
+</div>
+<div class='brand2'>
+<a class='top_logo' href='/' title='Home'>Solar System Exploration</a>
+<a class='sub_logo' href='/' title='Home'>Our Galactic Neighborhood</a>
+</div>
+<img alt='' class='print_only print_logo' src='/assets/sse-print.png'>
+</div>
+
+<a class='visuallyhidden focusable' href='#page'>Skip Navigation</a>
+<div class='right_header_container'>
+<a class='menu_button' href='javascript:void(0);' id='menu_button'>
+<span class='menu_icon'>
+menu
+</span>
+</a>
+<a class='modal_close' id='modal_close'>
+<span class='modal_close_icon'>
+close modal
+</span>
+</a>
+</div>
+<div class='nav_area'>
+<div id='site_nav_container'>
+<nav data-react-class="Meganav" data-react-props="{&quot;nav_items&quot;:[{&quot;name&quot;:&quot;Solar System&quot;,&quot;link&quot;:&quot;/solar-system/our-solar-system/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;Our Solar System&quot;,&quot;link&quot;:&quot;/solar-system/our-solar-system/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:87},{&quot;name&quot;:&quot;Sun&quot;,&quot;link&quot;:&quot;/solar-system/sun/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:88},{&quot;name&quot;:&quot;Kuiper Belt&quot;,&quot;link&quot;:&quot;/solar-system/kuiper-belt/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:89},{&quot;name&quot;:&quot;Oort Cloud&quot;,&quot;link&quot;:&quot;/solar-system/oort-cloud/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:90},{&quot;name&quot;:&quot;Beyond Our Solar System&quot;,&quot;link&quot;:&quot;/solar-system/beyond/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:91},{&quot;name&quot;:&quot;Eclipses&quot;,&quot;link&quot;:&quot;/eclipses/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:2006}]}],&quot;id&quot;:55,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Planets&quot;,&quot;link&quot;:&quot;/planets/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;About Planets&quot;,&quot;link&quot;:&quot;/planets/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:131}],&quot;columns&quot;:[{&quot;title&quot;:&quot;PLANETS&quot;,&quot;sub_items&quot;:[{&quot;url&quot;:&quot;/planets/mercury/overview/&quot;,&quot;link_text&quot;:&quot;Mercury&quot;},{&quot;url&quot;:&quot;/planets/venus/overview/&quot;,&quot;link_text&quot;:&quot;Venus&quot;},{&quot;url&quot;:&quot;/planets/earth/overview/&quot;,&quot;link_text&quot;:&quot;Earth&quot;},{&quot;url&quot;:&quot;/planets/mars/overview/&quot;,&quot;link_text&quot;:&quot;Mars&quot;},{&quot;url&quot;:&quot;/planets/jupiter/overview/&quot;,&quot;link_text&quot;:&quot;Jupiter&quot;},{&quot;url&quot;:&quot;/planets/saturn/overview/&quot;,&quot;link_text&quot;:&quot;Saturn&quot;},{&quot;url&quot;:&quot;/planets/uranus/overview/&quot;,&quot;link_text&quot;:&quot;Uranus&quot;},{&quot;url&quot;:&quot;/planets/neptune/overview/&quot;,&quot;link_text&quot;:&quot;Neptune&quot;}]},{&quot;title&quot;:&quot;DWARF PLANETS&quot;,&quot;sub_items&quot;:[{&quot;url&quot;:&quot;/planets/dwarf-planets/pluto/overview/&quot;,&quot;link_text&quot;:&quot;Pluto&quot;},{&quot;url&quot;:&quot;/planets/dwarf-planets/ceres/overview/&quot;,&quot;link_text&quot;:&quot;Ceres&quot;},{&quot;url&quot;:&quot;/planets/dwarf-planets/makemake/in-depth/&quot;,&quot;link_text&quot;:&quot;Makemake&quot;},{&quot;url&quot;:&quot;/planets/dwarf-planets/haumea/in-depth/&quot;,&quot;link_text&quot;:&quot;Haumea&quot;},{&quot;url&quot;:&quot;/planets/dwarf-planets/eris/in-depth/&quot;,&quot;link_text&quot;:&quot;Eris&quot;}]},{&quot;title&quot;:&quot;HYPOTHETICAL&quot;,&quot;sub_items&quot;:[{&quot;url&quot;:&quot;/planets/hypothetical-planet-x/in-depth/&quot;,&quot;link_text&quot;:&quot;Planet X&quot;}]}]}],&quot;id&quot;:51,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[{&quot;title&quot;:&quot;Planetary Analogs&quot;,&quot;body&quot;:&quot;The quest to understand our solar system begins close to home.&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWRTIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--de7512c131350ad50c95b06116707f39db507bb7/IcelandCherieAchilles20_640.jpg?disposition=inline&quot;,&quot;link&quot;:&quot;/planets/planetary-analogs&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:[&quot;featured&quot;]}],&quot;short_description&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Moons&quot;,&quot;link&quot;:&quot;/moons/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;About Moons&quot;,&quot;link&quot;:&quot;/moons/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:132}],&quot;columns&quot;:[{&quot;title&quot;:&quot;BY DESTINATION&quot;,&quot;sub_items&quot;:[{&quot;url&quot;:&quot;/moons/earths-moon/overview/&quot;,&quot;link_text&quot;:&quot;Earth (1)&quot;},{&quot;url&quot;:&quot;/moons/mars-moons/overview/&quot;,&quot;link_text&quot;:&quot;Mars (2)&quot;},{&quot;url&quot;:&quot;/moons/jupiter-moons/overview/&quot;,&quot;link_text&quot;:&quot;Jupiter (95)&quot;},{&quot;url&quot;:&quot;/moons/saturn-moons/overview/&quot;,&quot;link_text&quot;:&quot;Saturn (83)&quot;},{&quot;url&quot;:&quot;/moons/uranus-moons/overview/&quot;,&quot;link_text&quot;:&quot;Uranus (27)&quot;},{&quot;url&quot;:&quot;/moons/neptune-moons/overview/&quot;,&quot;link_text&quot;:&quot;Neptune (14)&quot;},{&quot;url&quot;:&quot;/moons/pluto-moons/overview/&quot;,&quot;link_text&quot;:&quot;Pluto (5)&quot;}]}]}],&quot;id&quot;:93,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Asteroids, Comets \u0026 Meteors&quot;,&quot;link&quot;:&quot;/asteroids-comets-and-meteors/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;About Asteroids, Comets \u0026 Meteors&quot;,&quot;link&quot;:&quot;/asteroids-comets-and-meteors/overview/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:133}],&quot;columns&quot;:[{&quot;title&quot;:&quot;BY TYPE&quot;,&quot;sub_items&quot;:[{&quot;url&quot;:&quot;/asteroids-comets-and-meteors/meteors-and-meteorites/overview/&quot;,&quot;link_text&quot;:&quot;Meteors \u0026 Meteorites&quot;},{&quot;url&quot;:&quot;/asteroids-comets-and-meteors/asteroids/overview/&quot;,&quot;link_text&quot;:&quot;Asteroids&quot;},{&quot;url&quot;:&quot;/asteroids-comets-and-meteors/comets/overview/&quot;,&quot;link_text&quot;:&quot;Comets&quot;}]}]}],&quot;id&quot;:101,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;},{&quot;name&quot;:&quot;More&quot;,&quot;link&quot;:&quot;/in-progress/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;News&quot;,&quot;link&quot;:&quot;/news/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:11},{&quot;name&quot;:&quot;What&#39;s Up: Skywatching Tips from NASA&quot;,&quot;link&quot;:&quot;/skywatching/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1944},{&quot;name&quot;:&quot;Resources&quot;,&quot;link&quot;:&quot;/resources/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:108},{&quot;name&quot;:&quot;Raw Images&quot;,&quot;link&quot;:&quot;/raw-images/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:2003},{&quot;name&quot;:&quot;People&quot;,&quot;link&quot;:&quot;/people/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:127},{&quot;name&quot;:&quot;Missions&quot;,&quot;link&quot;:&quot;/missions/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:412},{&quot;name&quot;:&quot;Kids&quot;,&quot;link&quot;:&quot;/kids/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:154},{&quot;name&quot;:&quot;Interactives&quot;,&quot;link&quot;:&quot;/interactives/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:157},{&quot;name&quot;:&quot;Basics of Space Flight&quot;,&quot;link&quot;:&quot;/basics/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:159},{&quot;name&quot;:&quot;Solar System Ambassadors&quot;,&quot;link&quot;:&quot;/solar-system-ambassadors/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:80},{&quot;name&quot;:&quot;Resource Packages&quot;,&quot;link&quot;:&quot;/resource-packages/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1929},{&quot;name&quot;:&quot;NASA HEAT&quot;,&quot;link&quot;:&quot;/heat/home/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:2145}]}],&quot;id&quot;:58,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;},{&quot;name&quot;:&quot;orrery&quot;,&quot;style&quot;:&quot;icon&quot;,&quot;popups&quot;:{&quot;Halley&#39;s Comet&quot;:[{&quot;title&quot;:&quot;1P/Halley&quot;,&quot;link&quot;:&quot;/small-bodies/comets/1p-halley/in-depth/&quot;,&quot;description&quot;:&quot;Comet Halley is perhaps the most famous comet.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDF5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9ca8188e3fae5e9e711efa7f757666bdc9fe2c34/halley_480x320_comets.jpg?disposition=inline&quot;}],&quot;Makemake&quot;:[{&quot;title&quot;:&quot;Makemake&quot;,&quot;link&quot;:&quot;/planets/dwarf-planets/makemake/in-depth/&quot;,&quot;description&quot;:&quot;It takes 310 Earth years for Makemake to complete one orbit around our Sun.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbzV5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--da442d80baf68beeb51823768c33f9342cd45ec1/makemake_480x320.jpg?disposition=inline&quot;}],&quot;Neptune&quot;:[{&quot;title&quot;:&quot;Neptune&quot;,&quot;link&quot;:&quot;/planets/neptune/overview/&quot;,&quot;description&quot;:&quot;Neptune—the eighth and most distant major planet orbiting our Sun—is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations. &quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbkp5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cb7cb2868fd8b4892788893961c20975baffeb52/neptune_480x320.jpg?disposition=inline&quot;}],&quot;Haumea&quot;:[{&quot;title&quot;:&quot;Haumea&quot;,&quot;link&quot;:&quot;/planets/dwarf-planets/haumea/in-depth/&quot;,&quot;description&quot;:&quot;Haumea is one of the fastest rotating large objects in our solar system.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEJ5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cbc291b6d9659fbccebd845aae501d9f81f89e3c/haumea_480x320.jpg?disposition=inline&quot;}],&quot;Mercury&quot;:[{&quot;title&quot;:&quot;Mercury&quot;,&quot;link&quot;:&quot;/planets/mercury/overview/&quot;,&quot;description&quot;:&quot;Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth&#39;s Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajF5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f83e2101be00f832081169073e7d511d19d91515/mercury_480x320_new.jpg?disposition=inline&quot;}],&quot;Venus&quot;:[{&quot;title&quot;:&quot;Venus&quot;,&quot;link&quot;:&quot;/planets/venus/overview/&quot;,&quot;description&quot;:&quot;Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajl5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1771be6bd46710c30aa93cd6c3ababe23ad52681/480x320_venus.png?disposition=inline&quot;}],&quot;Ceres&quot;:[{&quot;title&quot;:&quot;Ceres&quot;,&quot;link&quot;:&quot;/planets/dwarf-planets/ceres/overview/&quot;,&quot;description&quot;:&quot;Ceres makes up almost a third of the asteroid belt&#39;s total mass, but it is still far smaller than Earth&#39;s Moon. Ceres is heavily cratered with large amounts of ice underground. &quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb3h5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2f49c8b7a7bc040a6ab23aea87aa08e3b85c7d35/ceres_480x320.jpg?disposition=inline&quot;}],&quot;Earth&quot;:[{&quot;title&quot;:&quot;Earth&quot;,&quot;link&quot;:&quot;/planets/earth/overview/&quot;,&quot;description&quot;:&quot;Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It&#39;s also the only planet in our solar system with liquid water on the surface.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0Z5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--95003f011b0d6a78fda6724a75d5fe39aa017fe8/earth_480x320.jpg?disposition=inline&quot;},{&quot;title&quot;:&quot;Earth&#39;s Moon&quot;,&quot;link&quot;:&quot;/moons/earths-moon/overview/&quot;,&quot;description&quot;:&quot;The fifth largest moon in the solar system, Earth&#39;s moon is the only place beyond Earth where humans have set foot. &quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa0p5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--295cabfd9ebae60fb1179208c7b2303dca9146fc/earth_moon_480x320.jpg?disposition=inline&quot;}],&quot;Saturn&quot;:[{&quot;title&quot;:&quot;Saturn&quot;,&quot;link&quot;:&quot;/planets/saturn/overview/&quot;,&quot;description&quot;:&quot;Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn&#39;s. &quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFJ5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--36cd7257e340442074c8173c1f894281d04a2678/saturn_480x320.jpg?disposition=inline&quot;},{&quot;title&quot;:&quot;Enceladus&quot;,&quot;link&quot;:&quot;/moons/saturn-moons/enceladus/in-depth/&quot;,&quot;description&quot;:&quot;Enceladus is Saturn&#39;s sixth largest moon, but it&#39;s one of the most scientifically compelling bodies in our solar system.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbDF5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7b9324a62cf7d834a02282bd4731f3daf0d48eb1/enceladus_480x320_moons.jpg?disposition=inline&quot;},{&quot;title&quot;:&quot;Titan&quot;,&quot;link&quot;:&quot;/moons/saturn-moons/titan/overview/&quot;,&quot;description&quot;:&quot;Saturn’s largest moon, Titan has an earthlike cycle of liquids flowing across its surface.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbVZ5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bab9c42167801c3fbaebaa54319719653a3d6b9f/titan_480x320_moons.jpg?disposition=inline&quot;}],&quot;Jupiter&quot;:[{&quot;title&quot;:&quot;Jupiter&quot;,&quot;link&quot;:&quot;/planets/jupiter/overview/&quot;,&quot;description&quot;:&quot;Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet&#39;s Great Red spot is a centuries-old storm bigger than Earth.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3B5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b54f499dbe9d4b73a0292a51f63fcda615496b9a/jupiter_480x320_new.jpg?disposition=inline&quot;},{&quot;title&quot;:&quot;Io&quot;,&quot;link&quot;:&quot;/moons/jupiter-moons/io/overview/&quot;,&quot;description&quot;:&quot;Io is the most volcanically active body in the solar system.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3h5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fac2ae5da0cd5ad40b34adeebfb98cc0ffa9e58c/io_480x320_moons.jpg?disposition=inline&quot;},{&quot;title&quot;:&quot;Europa&quot;,&quot;link&quot;:&quot;/moons/jupiter-moons/europa/overview/&quot;,&quot;description&quot;:&quot;Europa might be the best place to look for environments where life could exist.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazV5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bc6499aed3c53ced067fc005884cb0a74f5b4d6d/PIA19048_320.jpg?disposition=inline&quot;}],&quot;Sun&quot;:[{&quot;title&quot;:&quot;Sun&quot;,&quot;link&quot;:&quot;/solar-system/sun/overview/&quot;,&quot;description&quot;:&quot;The Sun is a yellow dwarf star, a hot ball of glowing gases at the heart of our solar system. Its gravity holds everything from the biggest planets to tiny debris in its orbit. &quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBanR5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f472a07f9afa1bdca55a2b702ff5b8002e005cd1/sun_480x320.jpg?disposition=inline&quot;}],&quot;Mars&quot;:[{&quot;title&quot;:&quot;Mars&quot;,&quot;link&quot;:&quot;/planets/mars/overview/&quot;,&quot;description&quot;:&quot;Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was – billions of years ago – wetter and warmer, with a thicker atmosphere.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1J5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e0c43c740e3f68577d54939e8081f2311113f36e/mars_480x320.jpg?disposition=inline&quot;}],&quot;Uranus&quot;:[{&quot;title&quot;:&quot;Uranus&quot;,&quot;link&quot;:&quot;/planets/uranus/overview/&quot;,&quot;description&quot;:&quot;Uranus—seventh planet from the Sun—rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbXB5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b7591d57707f65489874a87412390a9b34a9a74e/uranus_480x320.jpg?disposition=inline&quot;}],&quot;Pluto&quot;:[{&quot;title&quot;:&quot;Pluto&quot;,&quot;link&quot;:&quot;/planets/dwarf-planets/pluto/overview/&quot;,&quot;description&quot;:&quot;Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbnB5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--130e1cd1bc5dc1fbe2439915838a93d0cf5d6c68/pluto_480x320.jpg?disposition=inline&quot;}],&quot;Eris&quot;:[{&quot;title&quot;:&quot;Eris&quot;,&quot;link&quot;:&quot;/planets/dwarf-planets/eris/in-depth/&quot;,&quot;description&quot;:&quot;Eris is one of the largest known dwarf planets in our solar system. It&#39;s about the same size as Pluto, but it is three times farther from the Sun. One orbit takes about 557 years.&quot;,&quot;image&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcEp5IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9ec8b506c10e87c2469d585ed32148e65b53b174/eris_480x320.jpg?disposition=inline&quot;}]}}],&quot;search&quot;:true,&quot;search_placeholder&quot;:{&quot;placeholder&quot;:&quot;search&quot;},&quot;no_redirect&quot;:{&quot;name&quot;:&quot;More&quot;},&quot;orrery_url&quot;:null}" data-react-cache-id="Meganav-0" class="site_nav"></nav>
+</div>
+</div>
+</header>
+</div>
+<div id='sticky_nav_spacer'></div>
+
+<div id='page'>
+<div class='page_cover'></div>
+<div data-react-class="HiPO" data-react-props="{}" data-react-cache-id="HiPO-0"></div>
+<section class='subsite_content_page homepage_page'>
+<div class='wysiwyg_content'>
+<div class='fullscreen_top_carousel' data-full='yes' id='feature'>
+<link rel="stylesheet" media="screen" href="/assets/vendor/masterslider/style/masterslider-09f83bbc9395daae7bac52a588b640a76d7b852eb1715a2c629068606cd199aa.css" />
+<link rel="stylesheet" media="screen" href="/assets/vendor/masterslider/style/default/style-aef6ba0cdc588ac4394dca485827af38765be70f92e82709463f7a0242af9c3e.css" />
+<script src="/assets/mbcms/public/homepage_carousel_custom_fns-1eec660bbb7baf8d682ac4073efc53cf25fd4849e3ea505cbeda3c5f4b8351fa.js"></script>
+<section class='main_feature homepage_carousel clearfix'>
+<div class='master-slider ms-skin-default' id='masterslider'>
+<article class='ms-slide slide-1 dark_background box left' data-body-class='The Solar System' data-delay='8' data-fill-mode='fill' data-mobile-video='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUJXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eb80a63115f2ec3c8671262edacf46953d2522b9/planets-720x420.mp4?disposition=inline'>
+<div class='gradient_container_top'></div>
+<picture>
+<source media='(max-width: 600px)' srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDU1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d5e9927d128f66593538a3a62330637da4c6887/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWxnQ2FRSllBam9NWjNKaGRtbDBlVWtpQ201dmNuUm9CanNHVkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--79c48b21aa318820a8db75f324cdfd1eaaa59ef2/SSE_Cover.jpg?disposition=inline'>
+<img alt='slide 1 - Illustration showing an impossible view of all eight planets in front of the Sun in a row.' data-image='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDU1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d5e9927d128f66593538a3a62330637da4c6887/SSE_Cover.jpg?disposition=inline' data-src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDU1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d5e9927d128f66593538a3a62330637da4c6887/SSE_Cover.jpg?disposition=inline' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDU1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d5e9927d128f66593538a3a62330637da4c6887/SSE_Cover.jpg?disposition=inline'>
+</picture>
+<video data-autopause='true' data-fill-mode='fill' data-loop='true' data-mobile='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUJXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--eb80a63115f2ec3c8671262edacf46953d2522b9/planets-720x420.mp4?disposition=inline' data-mute='true' muted playsinline>
+<source src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaDlXIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a05489252935fabc31b3b47a9209007fc38ed934/planets3x3_pluto_colorMercury_axis_tilt_NOLABELS_720p.mp4?disposition=inline' type='video/mp4'>
+</video>
+<div class='floating_text_area ms-layer box left' data-duration='300' data-ease='easeOutQuart' data-effect='right(90)' data-resize='false' data-type='text'>
+<h1 class='media_feature_title'>
+<a href='https://beta.science.nasa.gov/solar-system/'>
+Check Out Our New Space
+</a>
+<span class='arrow'></span>
+</h1>
+<div class='description'>
+<p>This site and many others are joining science.nasa.gov. A preview version of the site is available at beta.science.nasa.gov.</p>
+
+<a class='detail_link' href='https://beta.science.nasa.gov/solar-system/'>
+Preview the Site ›
+</a>
+<footer><a class='big_button button' href='https://beta.science.nasa.gov/solar-system/'>
+Preview the Site</a></footer>
+</div>
+</div>
+
+<div class='gradient_container_bottom'></div>
+</article>
+
+</div>
+</section>
+
+</div>
+
+<div data-react-class="PageDashboard" data-react-props="{&quot;options&quot;:[{&quot;title&quot;:&quot;Planets&quot;,&quot;value&quot;:&quot;8&quot;,&quot;link&quot;:&quot;/planets/&quot;,&quot;animation&quot;:{&quot;speed&quot;:1000,&quot;initial&quot;:1,&quot;ease&quot;:&quot;cubic_out&quot;}},{&quot;title&quot;:&quot;Moons&quot;,&quot;value&quot;:&quot;290&quot;,&quot;link&quot;:&quot;/moons/&quot;,&quot;animation&quot;:{&quot;speed&quot;:6000,&quot;ease&quot;:&quot;cubic_out&quot;,&quot;initial&quot;:1}},{&quot;title&quot;:&quot;Asteroids and Small Bodies&quot;,&quot;link&quot;:&quot;/asteroids-comets-and-meteors/asteroids/&quot;,&quot;type&quot;:&quot;lookup&quot;,&quot;static_val&quot;:&quot;asteroids&quot;,&quot;animation&quot;:{&quot;speed&quot;:6000,&quot;initial&quot;:1,&quot;ease&quot;:&quot;cubic_out&quot;}},{&quot;title&quot;:&quot;Comets&quot;,&quot;link&quot;:&quot;/asteroids-comets-and-meteors/comets/&quot;,&quot;type&quot;:&quot;lookup&quot;,&quot;static_val&quot;:&quot;comets&quot;,&quot;animation&quot;:{&quot;speed&quot;:6000,&quot;initial&quot;:1,&quot;ease&quot;:&quot;cubic_out&quot;}}],&quot;single_slide&quot;:false,&quot;theme_dashboard&quot;:false,&quot;slides_base&quot;:4,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1500,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1024,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:769,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:700,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1,&quot;centerPadding&quot;:&quot;0px&quot;}}],&quot;lunar_phases&quot;:[{&quot;min&quot;:0,&quot;max&quot;:0.03,&quot;title&quot;:&quot;New Moon&quot;,&quot;description&quot;:&quot;The Moon&#39;s unilluminated side is facing the Earth. The Moon is not visible (except during a solar eclipse).&quot;},{&quot;min&quot;:0.03,&quot;max&quot;:0.2,&quot;title&quot;:&quot;Waxing Crescent&quot;,&quot;description&quot;:&quot;The Moon appears to be partly but less than one-half illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is increasing.&quot;},{&quot;min&quot;:0.2,&quot;max&quot;:0.35,&quot;title&quot;:&quot;First Quarter&quot;,&quot;description&quot;:&quot;One-half of the Moon appears to be illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is increasing.&quot;},{&quot;min&quot;:0.35,&quot;max&quot;:0.47,&quot;title&quot;:&quot;Waxing Gibbous&quot;,&quot;description&quot;:&quot;The Moon appears to be more than one-half but not fully illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is increasing.&quot;},{&quot;min&quot;:0.47,&quot;max&quot;:0.55,&quot;title&quot;:&quot;Full Moon&quot;,&quot;description&quot;:&quot;The Moon&#39;s illuminated side is facing the Earth. The Moon appears to be completely illuminated by direct sunlight.&quot;},{&quot;min&quot;:0.55,&quot;max&quot;:0.7,&quot;title&quot;:&quot;Waning Gibbous&quot;,&quot;description&quot;:&quot;The Moon appears to be more than one-half but not fully illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is decreasing.&quot;},{&quot;min&quot;:0.7,&quot;max&quot;:0.82,&quot;title&quot;:&quot;Third Quarter&quot;,&quot;description&quot;:&quot;One-half of the Moon appears to be illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is decreasing.&quot;},{&quot;min&quot;:0.82,&quot;max&quot;:1,&quot;title&quot;:&quot;Waning Crescent&quot;,&quot;description&quot;:&quot;The Moon appears to be partly but less than one-half illuminated by direct sunlight. The fraction of the Moon&#39;s disk that is illuminated is decreasing.&quot;}],&quot;dashboard_class_name&quot;:null}" data-react-cache-id="PageDashboard-0" class="page_dashboard"></div>
+
+<section class='more_bar' style='background-color: #a9d3ee; '>
+<div class='title'>
+MORE
+</div>
+<div class='arrow_down'>
+</div>
+</section>
+<script>
+  $(document).ready(function(){
+    $('body').addClass('more_bar_present');
+  });
+</script>
+
+<div data-react-class="ImageGridTeaser" data-react-props="{&quot;category_subtitle&quot;:&quot;September 2023&quot;,&quot;category_title&quot;:&quot;10 THINGS&quot;,&quot;items&quot;:[{&quot;id&quot;:986,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;October 14, 2023 Eclipse: 3D Data Visualization &quot;,&quot;body&quot;:&quot;\u003cp\u003eExperience the Oct. 14, 2023 annular eclipse rain or shine. Watch from the Moon. This real-time 3D data visualization allows you to explore eclipses any time, any place, in space.\u003c/p\u003e\r\n\r\n\u003cp\u003eNASA\u0026#39;s Eyes includes Earth, our solar system, nearby asteroids, the universe, and the spacecraft exploring them with immersive real-time 3D web-based apps for Mac, PC and mobile devices. No download or sign up necessary.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003ca href=\&quot;https://eyes.nasa.gov/apps/solar-system/#/story/annular_solar_eclipse\&quot; target=\&quot;_self\&quot;\u003eExplore the 2023 Annular Eclipse\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-21T16:21:51.215-08:00&quot;,&quot;updated_at&quot;:&quot;2023-08-28T11:32:52.262-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Screenshot of the 2023 annular eclipse from the lunar orbit. The shadow cone extends from the Moon to cover North America in varying degrees of shadow.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-22T00:15:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaDU2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b3f047df4c620d91c97b4a08656092e30040ed64/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/Eclipse_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaDU2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b3f047df4c620d91c97b4a08656092e30040ed64/Eclipse_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:992,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Neptune&#39;s Disappearing Clouds Linked to the Solar Cycle&quot;,&quot;body&quot;:&quot;\u003cp\u003eAstronomers have uncovered a link between Neptune\u0026#39;s shifting cloud abundance and the 11-year solar cycle, in which the waxing and waning of the Sun\u0026#39;s entangled magnetic fields drives solar activity.\u003c/p\u003e\r\n\r\n\u003cp\u003eThis discovery is based on three decades of Neptune observations captured by NASA\u0026#39;s\u0026nbsp;\u003ca href=\&quot;https://www.nasa.gov/mission_pages/hubble/main/index.html\&quot;\u003eHubble Space Telescope\u003c/a\u003e\u0026nbsp;and the\u0026nbsp;\u003ca href=\&quot;https://www.keckobservatory.org/\&quot; target=\&quot;_blank\&quot;\u003eW. M. Keck Observatory\u003c/a\u003e\u0026nbsp;in Hawaii, as well as data from the\u0026nbsp;\u003ca href=\&quot;https://www.lickobservatory.org/\&quot; target=\&quot;_blank\&quot;\u003eLick Observatory\u003c/a\u003e\u0026nbsp;in California.\u003c/p\u003e\r\n\r\n\u003cp\u003eThe link between Neptune and solar activity is surprising to planetary scientists because Neptune is our solar system\u0026#39;s farthest major planet and receives sunlight with about 0.1% of the intensity Earth receives. Yet Neptune\u0026#39;s global cloudy weather seems to be driven by solar activity, and not the planet\u0026#39;s four seasons, which each last approximately 40 years.\u003c/p\u003e\r\n\r\n\u003cp\u003eAt present, the cloud coverage seen on Neptune is extremely low, with the exception of some clouds hovering over the giant planet\u0026#39;s south pole. A University of California (UC) Berkeley-led team of astronomers discovered that the abundance of clouds normally seen at the icy giant\u0026#39;s mid-latitudes started to fade in 2019.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026quot;I was surprised by how quickly clouds disappeared on Neptune,\u0026quot; said Imke de Pater, emeritus professor of astronomy at UC Berkeley and senior author of the study. \u0026quot;We essentially saw cloud activity drop within a few months,\u0026quot; she said.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026quot;Even now, four years later, the most recent images we took this past June still show the clouds haven\u0026#39;t returned to their former levels,\u0026quot; said Erandi Chavez, a graduate student at the Center for Astrophysics | Harvard-Smithsonian (CfA) in Cambridge, Massachusetts, who led the study when she was an undergraduate astronomy student at UC Berkeley. \u0026quot;This is extremely exciting and unexpected, especially since Neptune\u0026#39;s previous period of low cloud activity was not nearly as dramatic and prolonged.\u0026quot;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ca href=\&quot;https://www.nasa.gov/feature/goddard/2023/webb-maps-surprisingly-large-plume-jetting-from-saturn-s-moon-enceladus\&quot; target=\&quot;_blank\&quot;\u003e\u003cb\u003eRead more on NASA.gov\u003c/b\u003e\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-22T09:49:06.389-08:00&quot;,&quot;updated_at&quot;:&quot;2023-08-23T11:43:09.657-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;A series of eight images of Neptune shows changes in the number of whitish clouds visible on the blue planet.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-22T17:46:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFo2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecbbd68b5fe84167bc10a2a270e5a56a5496ec49/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/hubble_neptuneclouds_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFo2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecbbd68b5fe84167bc10a2a270e5a56a5496ec49/hubble_neptuneclouds_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:993,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Ingenuity Mars Helicopter Flies Again After Unscheduled Landing&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u003ci\u003eThe helicopter performed a short hop to help the team better understand why its previous flight was interrupted.\u0026nbsp;\u003c/i\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eNASA\u0026rsquo;s Ingenuity Mars Helicopter successfully completed its 54th flight on Aug. 3, the first flight since the helicopter cut its July 22 flight short. The 25-second up-and-down hop provided data that could help the Ingenuity team determine why its 53rd flight ended early.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003eFlight 53 was planned as a 136-second scouting flight dedicated to collecting imagery of the planet\u0026rsquo;s surface for the Perseverance Mars rover science team. The complicated flight profile included flying north 666 feet (203 meters) at an altitude of 16 feet (5 meters) and a speed of 5.6 mph (2.5 meters per second), then descending vertically to 8 feet (2.5 meters), where it would hover and obtain imagery of a rocky outcrop. Ingenuity would then climb straight up to 33 feet (10 meters) to\u0026nbsp;\u003ca href=\&quot;https://mars.nasa.gov/resources/27173/ingenuitys-hazard-avoidance-capability/\&quot;\u003eallow its hazard divert system to initiate\u003c/a\u003e\u0026nbsp;before descending vertically to touch down.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003eInstead, the helicopter executed the first half of its autonomous journey, flying north at an altitude of 16 feet (5 meters) for 466 feet (142 meters). Then a flight-contingency program was triggered, and Ingenuity automatically landed. The total flight time was 74 seconds.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026ldquo;Since the very first flight we have included a program called \u0026lsquo;LAND_NOW\u0026rsquo; that was designed to put the helicopter on the surface as soon as possible if any one of a few dozen off-nominal scenarios was encountered,\u0026rdquo; said Teddy Tzanetos, team lead emeritus for Ingenuity at NASA\u0026rsquo;s Jet Propulsion Laboratory in Southern California. \u0026ldquo;During Flight 53, we encountered one of these, and the helicopter worked as planned and executed an immediate landing.\u0026rdquo;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003ca href=\&quot;https://www.nasa.gov/feature/jpl/nasa-s-ingenuity-mars-helicopter-flies-again-after-unscheduled-landing\&quot; target=\&quot;_blank\&quot;\u003eRead More on NASA.gov\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-12-03T15:57:23.058-08:00&quot;,&quot;updated_at&quot;:&quot;2023-08-23T11:53:41.869-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;A small drone helicoper sits among pebbles on the reddish surface of Mars.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-12-03T23:53:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGQ2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e3373e99928f4b59ec18764e026e70d667e40b86/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/pia25968_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGQ2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e3373e99928f4b59ec18764e026e70d667e40b86/pia25968_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:14,&quot;image_file_name&quot;:&quot;ac73-9341_800.jpg&quot;,&quot;title&quot;:&quot;Ocean Currents May Affect Rotation of Europa&#39;s Icy Crust&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u003ci\u003eResearch reveals a new explanation for how the icy shell of Jupiter\u0026rsquo;s moon Europa rotates at a different rate than its interior. NASA\u0026rsquo;s Europa Clipper will take a closer look. \u003c/i\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eNASA scientists have strong evidence that Jupiter\u0026rsquo;s moon Europa has an internal ocean under its icy outer shell \u0026ndash; an enormous body of salty water swirling around the moon\u0026rsquo;s rocky interior. New computer modeling suggests the water may actually be pushing the ice shell along, possibly speeding up and slowing down the rotation of the moon\u0026rsquo;s icy shell over time.\u003c/p\u003e\r\n\r\n\u003cp\u003eScientists have known that Europa\u0026rsquo;s shell is probably free-floating, rotating at a different rate than the ocean below and the rocky interior. The new modeling is the first to show that Europa\u0026rsquo;s ocean currents could be contributing to the rotation of its icy shell.\u003c/p\u003e\r\n\r\n\u003cp\u003eA key element of the study involved calculating drag \u0026ndash; the horizontal force that the moon\u0026rsquo;s ocean exerts on the ice above it. The research hints at how the power of the ocean flow and its drag against the ice layer could even account for some of the geology seen on Europa\u0026rsquo;s surface. Cracks and ridges could result from the icy shell slowly stretching and collapsing over time as it is pushed and tugged by the ocean currents.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026ldquo;Before this, it was known through laboratory experiments and modeling that heating and cooling of Europa\u0026rsquo;s ocean may drive currents,\u0026rdquo; said Hamish Hay, a researcher at the University of Oxford and lead author of the study \u003ca href=\&quot;https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007648\&quot;\u003epublished in JGR: Planets\u003c/a\u003e. Hay performed the research while a postdoctoral research associate at NASA\u0026rsquo;s Jet Propulsion Laboratory in Southern California. \u0026ldquo;Now our results highlight a coupling between the ocean and the rotation of the icy shell that was never previously considered.\u0026rdquo;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003ca href=\&quot;https://www.nasa.gov/feature/jpl/study-finds-ocean-currents-may-affect-rotation-of-europa-s-icy-crust\&quot; target=\&quot;_blank\&quot;\u003eContinue reading on NASA.gov\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2017-06-23T17:34:20.249-07:00&quot;,&quot;updated_at&quot;:&quot;2023-03-14T18:32:42.896-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Full disc view of the crisscrossed, icy surface of Jupiter&#39;s moon Europa.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2017-06-23T17:34:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left box homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaE4zIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e7a41c1de117dd51ba185d7df639f93a7876b52b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/pia25695_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaE4zIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e7a41c1de117dd51ba185d7df639f93a7876b52b/pia25695_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:985,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;New Video Series Captures Team Working on NASA&#39;s Europa Clipper&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u003ci\u003eLed by NASA\u0026rsquo;s Jet Propulsion Laboratory, the short videos take audiences behind the scenes to learn more about how space missions come together.\u003c/i\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eDestined for Jupiter\u0026rsquo;s icy moon Europa, the Europa Clipper spacecraft \u0026ndash; the largest NASA has ever flown on an interplanetary mission \u0026ndash; is being readied to launch in October 2024. Between now and then, thousands of hours of work will go into assembling and testing the spacecraft to ensure it\u0026rsquo;s hardy enough to survive a six-year 1.6-billion-mile (2.6 billion kilometer) journey and sophisticated enough to perform a detailed science investigation of this mysterious moon.\u003c/p\u003e\r\n\r\n\u003cp\u003eThe new video series \u0026ldquo;Spacecraft Makers: Europa Clipper\u0026rdquo; offers quick updates on the mission\u0026rsquo;s progress and lifts the curtain on the exacting work that goes into making sure the spacecraft reaches the Jupiter system in 2030. \u003ca href=\&quot;https://europa.nasa.gov/\&quot;\u003eEuropa Clipper\u003c/a\u003e aims to help answer questions about the ocean that scientists strongly believe lies below Europa\u0026rsquo;s icy crust.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003ca href=\&quot;https://www.nasa.gov/feature/jpl/new-video-series-captures-team-working-on-nasa-s-europa-clipper\&quot; target=\&quot;_blank\&quot;\u003eRead More on NASA.gov\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-21T16:14:12.420-08:00&quot;,&quot;updated_at&quot;:&quot;2023-05-02T15:35:27.021-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Three engineers in cleanroom suits surround the main body of the Europa Clipper Spacecraft, a metallic cylinder about 12-feet tall at this point.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-22T00:03:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEY0IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81d569d58f0c732ec7345c06d94831fa1efbf346/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/PIA25240_640.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEY0IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--81d569d58f0c732ec7345c06d94831fa1efbf346/PIA25240_640.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:758,&quot;image_file_name&quot;:&quot;Ranger_7_First_Moon_Image-pia02975-800x600.jpg&quot;,&quot;title&quot;:&quot;What Drives NASA&#39;s Psyche Mission Team?&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u003ci\u003eThese short videos offer glimpses of the people who\u0026rsquo;ve helped make this upcoming journey to a metal-rich asteroid possible\u003c/i\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eWhat motivates someone to labor for years to help build something that will be rocketed into space, never to be seen again on our planet? For the scientists, engineers, and technicians behind\u0026nbsp;\u003ca href=\&quot;http://www.nasa.gov/psyche\&quot;\u003eNASA\u0026rsquo;s Psyche mission\u003c/a\u003e\u0026nbsp;to a metal-rich asteroid, the answers are wide-ranging but share a common thread: a passion to explore the unknown.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003eThat inspiration is highlighted in the new \u0026ldquo;Behind the Spacecraft\u0026rdquo; video series, in which five members of the Psyche team tell the story of how they ended up on a mission designed to answer questions about the mysterious asteroid\u0026nbsp;\u003ca href=\&quot;https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/16-psyche/in-depth/\&quot;\u003ePsyche\u003c/a\u003e.\u003c/p\u003e\r\n\r\n\u003cp\u003eWatch a trailer about the series here:\u0026nbsp;\u003ca href=\&quot;https://youtu.be/kEErgualpew\&quot;\u003ehttps://youtu.be/kEErgualpew\u003c/a\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2021-05-31T15:23:22.719-07:00&quot;,&quot;updated_at&quot;:&quot;2023-08-23T11:37:11.559-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Four smiling people, one man and three woman, are shown in candid poses from their interviews in the video series.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2021-05-31T22:07:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left box homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFY2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a4d78dc5fbab539b8f01fcc1406b7d3c4fade72/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/psyche-bts-team-800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFY2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a4d78dc5fbab539b8f01fcc1406b7d3c4fade72/psyche-bts-team-800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:983,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Asteroid&#39;s Comet-Like Tail Is Not Made of Dust&quot;,&quot;body&quot;:&quot;\u003cp\u003eA weird asteroid has just gotten a little weirder.\u003c/p\u003e\r\n\r\n\u003cp\u003eWe have known for a while that asteroid 3200 \u003ca href=\&quot;https://www.nasa.gov/centers/marshall/news/lunar/phaethon.html\&quot;\u003ePhaethon\u003c/a\u003e acts like a comet. It brightens and forms a tail when it\u0026rsquo;s near the Sun, and it is the source of the annual Geminid meteor shower, even though comets are responsible for most meteor showers. Scientists had blamed Phaethon\u0026rsquo;s comet-like behavior on dust escaping from the asteroid as it\u0026rsquo;s scorched by the Sun. However, a new study using two NASA solar observatories reveals that Phaethon\u0026rsquo;s tail is not dusty at all but is actually made of sodium gas.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026ldquo;Our analysis shows that Phaethon\u0026rsquo;s comet-like activity cannot be explained by any kind of dust,\u0026rdquo; said California Institute of Technology PhD student Qicheng Zhang, who is the lead author of a paper published in\u0026nbsp;the \u003ca href=\&quot;https://iopscience.iop.org/article/10.3847/PSJ/acc866\&quot;\u003ePlanetary Science Journal\u003c/a\u003e reporting the results.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u003ca href=\&quot;https://www.nasa.gov/feature/goddard/2023/sun/asteroid-s-comet-like-tail-is-not-made-of-dust-solar-observatories-reveal\&quot; target=\&quot;_blank\&quot;\u003eRead more on NASA.gov\u003c/a\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-21T15:12:20.898-08:00&quot;,&quot;updated_at&quot;:&quot;2023-04-25T12:03:39.138-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Animated GIF shows bright dot of asteroid moving against a fuzzy background of stars.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-21T23:03:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:null,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUo0IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1523204f4a85c3dcbbb0639b0f1be320e89ba966/c2_anim.gif?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:989,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Magellan Data Reveals Volcanic Activity on Venus&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u003ci\u003eIn a first, scientists have seen direct evidence of active volcanism on Earth\u0026rsquo;s twin, setting the stage for the agency\u0026rsquo;s VERITAS mission to investigate.\u003c/i\u003e\u003c/p\u003e\r\n\r\n\u003cp\u003eDirect geological evidence of recent volcanic activity has been observed on the surface of Venus for the first time. Scientists made the discovery after poring over archival radar images of Venus taken more than 30 years ago, in the 1990s, by NASA\u0026rsquo;s\u0026nbsp;\u003ca href=\&quot;https://solarsystem.nasa.gov/missions/magellan/in-depth/\&quot;\u003eMagellan\u003c/a\u003e\u0026nbsp;mission. The images revealed a volcanic vent changing shape and increasing significantly in size in less than a year.\u003c/p\u003e\r\n\r\n\u003cp\u003eScientists study active volcanoes to understand how a planet\u0026rsquo;s interior can shape its crust, drive its evolution, and affect its habitability. One of NASA\u0026rsquo;s new missions to Venus will do just that. Led by the agency\u0026rsquo;s Jet Propulsion Laboratory in Southern California,\u0026nbsp;\u003ca href=\&quot;https://solarsystem.nasa.gov/missions/veritas/overview/\&quot;\u003eVERITAS\u003c/a\u003e\u0026nbsp;\u0026ndash; short for Venus Emissivity, Radio science, InSAR, Topography, And Spectroscopy \u0026ndash; will launch within a decade. The orbiter will study Venus from surface to core to understand how a rocky planet about the same size as Earth took a very different path, developing into a world covered in volcanic plains and deformed terrain hidden beneath a thick, hot, toxic atmosphere.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026ldquo;NASA\u0026rsquo;s selection of the VERITAS mission inspired me to look for recent volcanic activity in Magellan data,\u0026rdquo; said Robert Herrick, a research professor at the University of Alaska Fairbanks and member of the VERITAS science team, who led the search of the archival data. \u0026ldquo;I didn\u0026rsquo;t really expect to be successful, but after about 200 hours of manually comparing the images of different Magellan orbits, I saw two images of the same region taken eight months apart exhibiting telltale geological changes caused by an eruption.\u0026rdquo;\u003c/p\u003e\r\n\r\n\u003cp\u003eThe search and its conclusions are described in\u0026nbsp;\u003ca href=\&quot;https://www.science.org/doi/10.1126/science.abm7735\&quot;\u003ea new study\u003c/a\u003e\u0026nbsp;published in the journal Science. Herrick also presented the findings at the\u0026nbsp;\u003ca href=\&quot;https://www.hou.usra.edu/meetings/lpsc2023/\&quot;\u003e54th Lunar and Planetary Science Conference\u003c/a\u003e\u0026nbsp;in the Woodlands, Texas, on March 15.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003cb\u003e\u003ca href=\&quot;https://www.nasa.gov/feature/jpl/nasa-s-magellan-data-reveals-volcanic-activity-on-venus\&quot;\u003eRead the rest of the story on NASA.gov\u003c/a\u003e\u003c/b\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-21T17:02:29.006-08:00&quot;,&quot;updated_at&quot;:&quot;2023-03-15T13:32:02.832-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Orbital radar view of Venus showing volcanic hotspots at red and orange against the green of cooler terrain.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-22T00:59:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGwzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c683489ec88d67823899f7b98da5233bf8b090a3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/2-study_area_for_pub_jan23_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGwzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c683489ec88d67823899f7b98da5233bf8b090a3/2-study_area_for_pub_jan23_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:991,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Talking Science and &#39;Star Trek&#39;&quot;,&quot;body&quot;:&quot;\u003cp\u003e\u0026ldquo;Can you science that, please?\u0026rdquo;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\r\n\r\n\u003cp\u003eThat request will go to Dr. Erin Macdonald, along with a plotline to an upcoming \u0026ldquo;Star Trek\u0026rdquo; episode. Star Trek takes place in the Milky Way, \u0026ldquo;not a galaxy far, far away,\u0026rdquo; Macdonald said. That means Star Trek (mostly) adheres to the known laws of physics.\u003c/p\u003e\r\n\r\n\u003cp\u003eMacdonald \u0026ndash; whose own Ph.D. is in gravitational astrophysics \u0026ndash; has served as Star Trek\u0026rsquo;s science adviser since 2019, ensuring the venerable science fiction franchise gets its physics right.\u003c/p\u003e\r\n\r\n\u003cp\u003eOn Aug. 1, she visited NASA\u0026rsquo;s Goddard Space Flight Center in Greenbelt, Maryland, to discuss how science informs Star Trek, and how Star Trek inspires science and exploration.\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026ldquo;It was a wonderful opportunity to speak at this venue and to the folks who work there,\u0026rdquo; Macdonald said. \u0026ldquo;I love being able to share science fiction with a more science-oriented audience and help them see how a scientist approaches narrative storytelling.\u0026rdquo;\u003c/p\u003e\r\n\r\n\u003cp\u003e\u0026rsaquo; \u003ca href=\&quot;https://www.nasa.gov/feature/goddard/2023/star-trek-adviser-discusses-sci-fi-s-real-science-at-nasa-goddard\&quot;\u003eRead more on NASA.gov\u003c/a\u003e\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-22T09:00:30.940-08:00&quot;,&quot;updated_at&quot;:&quot;2023-08-23T11:29:11.002-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;A woman is speaking to an audience in a darkened auditorium. The room is illuminated by a project of a bluish interstellar cloud of dust and gast.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-22T16:52:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;homepage_ten_things left revealed&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFI2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0af782846d8db61c0a2389ea3abb5d92a863344e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/nasa-star-trek-800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaFI2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0af782846d8db61c0a2389ea3abb5d92a863344e/nasa-star-trek-800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null},{&quot;id&quot;:981,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;New Horizons Team Discusses Discoveries from the Kuiper Belt&quot;,&quot;body&quot;:&quot;\u003cp\u003eMore than 5 billion miles from Earth and 17 years into a mission that included the first close-up exploration of Pluto and the first encounter with a planetary building block in the Kuiper Belt, NASA\u0026rsquo;s New Horizons continues to shed light on the mysterious planets and smaller bodies of the outer solar system.\u003c/p\u003e\r\n\r\n\u003cp\u003eNew Horizons team members shared some of these discoveries with media on March 14 at the 54th Lunar and Planetary Science Conference in The Woodlands, Texas. Among them: new clues to the origins of Arrokoth, two new findings about ancient and evolving geology of Pluto, and a preview of unique observations of Uranus and Neptune that could improve our knowledge of those worlds and influence how we interpret data on similar planets in other solar systems.\u003c/p\u003e\r\n&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;/news/2334/new-horizons-team-discusses-discoveries-from-the-kuiper-belt/&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-11-21T14:20:11.730-08:00&quot;,&quot;updated_at&quot;:&quot;2023-03-15T09:18:23.370-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:null,&quot;feature_type&quot;:&quot;image&quot;,&quot;image_alt&quot;:&quot;Arrokoth looks a lot like two pancakes that merged into a peanut shape while cooking.&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;body_class&quot;:&quot;&quot;,&quot;schedule_date&quot;:&quot;2022-11-21T22:06:00.000-08:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:null,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;left revealed homepage_ten_things&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGQzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--191b7cdcd5c78238e11b2f4cf72169d64a250e99/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--24997868381b1f10543ce76109cabaf03df01923/mu69_800.jpg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGQzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--191b7cdcd5c78238e11b2f4cf72169d64a250e99/mu69_800.jpg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}],&quot;masonry&quot;:false,&quot;more_link&quot;:null,&quot;collage_classes&quot;:[&quot;tall&quot;,&quot;short&quot;,&quot;grande&quot;,&quot;trenta&quot;,&quot;short&quot;,&quot;tall&quot;,&quot;short&quot;,&quot;short&quot;,&quot;tall&quot;,&quot;trenta&quot;],&quot;layout&quot;:&quot;c&quot;,&quot;title&quot;:&quot;The Latest&quot;,&quot;description&quot;:&quot;A Roundup From Around the Solar System&quot;,&quot;mobile_more_text&quot;:&quot;Show All&quot;,&quot;klass&quot;:&quot;foo&quot;}" data-react-cache-id="ImageGridTeaser-0" class="collage_teaser_module full-bleed module"></div>
+
+<section class='media_feature module image_of_the_day_module image_of_the_day homepage_iotd parallax'>
+<div class='gradient_container_top'></div>
+<div class='gradient_container_left'></div>
+<div class='overlay_container_fullheight'></div>
+<div class='window'>
+<div class='image_day'></div>
+<div class='grid_layout module_grid_layout'>
+<div class='floating_text_area'>
+<header>
+<div class='header_link'>
+<h2 class='category_title'>
+Featured
+</h2>
+<h1 class='media_feature_title'>
+The Crater Farm
+</h1>
+</div>
+</header>
+<div class='description'>
+<p>&quot;I remember looking at that picture and thinking that there is something weird going on here and that it has important implications for the whole history of the planet, its climate, its atmosphere, its geology.&quot; - David Grinspoon, scientist</p>
+
+</div>
+<footer class='iotd_footer'>
+<a aria-label='More The Crater Farm' class='iotd_link button' href='/resources/477/the-crater-farm/' target='_self'>
+More
+</a>
+</footer>
+</div>
+</div>
+</div>
+<!-- converted to img via js imageScroll or mobile img in main -->
+<div data-image='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDExIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0b2e4cc8caa753ad17069faad99bbb7e0ef44638/craterFarm_1600.jpg?disposition=inline' data-mobile-image='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDUxIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ebd3a27d4638c401804e04c87237d2789ff8771e/f_craterFarm_400.jpg?disposition=inline' id='featured_image'></div>
+</section>
+
+<section class='module homepage_video_module'>
+<div class='grid_layout'>
+<header>
+<h1 class='module_title'>
+Moon Phase and Libration: 2023
+</h1>
+<div class='subtitle'>
+
+</div>
+</header>
+<div class='video_area'>
+<figure class='lede'>
+<div class='video_embed_container'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jHWj-8GZbtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</figure>
+<div class='video_description'>
+<header>
+<h1>
+All Year
+</h1>
+<div class='year'>
+2023
+</div>
+</header>
+<div class='description'>
+The 2023 phase and libration of the Moon at hourly intervals.
+</div>
+<div class='length'>
+4:55 Video
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+</div>
+</section>
+
+</div>
+<footer id='site_footer'>
+<section class='upper_footer'>
+<section class='planet_teaser module'>
+<div class='grid_layout'>
+<header>
+<h2 class='module_title'>
+More Destinations
+</h2>
+</header>
+<section>
+<script>
+  $(document).ready(function(){
+    $("#planets_slick_slider_pd13ah9l").slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slide: '#planets_slick_slider_pd13ah9l .planet',
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      lazyLoad: 'ondemand',
+      centerMode: false,
+      arrows: true,
+      appendArrows: '#planets_slick_slider_pd13ah9l .slick-nav',
+      appendDots: "#planets_slick_slider_pd13ah9l .slick-nav",
+      responsive: [{"breakpoint":800,"settings":{"slidesToShow":2,"slidesToScroll":2,"centerMode":false}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1,"centerMode":false,"arrows":true}}]
+    });
+  
+    // SHIM: The slick slider doesn’t seem to respond to orientation changes on Android devices
+    // (possibly because there’s a delay while the browser is rendering the page)
+    window.addEventListener('orientationchange', function() {
+    var clock;
+  
+    // Refresh the slider every half second
+    clock = setInterval(function() {
+    // https://github.com/kenwheeler/slick/issues/429#issuecomment-57450725
+    $("#planets_slick_slider_pd13ah9l")[0].slick.refresh();
+    }, 500);
+  
+    // Stop refreshing after 3 seconds
+    setTimeout(function() {
+    clearInterval(clock);
+    }, 3000);
+    });
+  });
+</script>
+<div class='planets' id='planets_slick_slider_pd13ah9l'>
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/jupiter/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Jupiter   ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBanhWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cca503966f218de7e2f1a2442ac3debe69921da7/jupiter_new.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/jupiter/overview'>
+Jupiter
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/earth/overview/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Earth     ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--136f8c33225179bf6735b3ee01c740d5f7a3f09d/earth.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/earth/overview/'>
+Earth
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/mercury/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Mercury   ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b576734970cc9a1091dde94ce82e5be09895c8c8/mercury_new.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/mercury/overview'>
+Mercury
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/mars/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Mars      ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajlWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--af50b76407394da0c3fe9f9c039b4039edc3a665/mars.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/mars/overview'>
+Mars
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/venus/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Venus     ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3hWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8872f6bbc7a9977c508c7dd614efa2ee85a49736/venus_jg.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/venus/overview'>
+Venus
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/saturn/overview/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Saturn    ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazFWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c1fdee45ea165ad2943d52ff73ba79b0f456b5f5/saturn.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/saturn/overview/'>
+Saturn
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/uranus/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Uranus    ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazVWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39ff029041ce1e4f02aade2edfecf44ae1ff62f5/uranus.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/uranus/overview'>
+Uranus
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/planets/neptune/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Neptune   ' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBazlWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ecbf2e349b0aacd9b956e8c0b396f891aa7877fb/neptune.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/planets/neptune/overview'>
+Neptune
+</a>
+</div>
+</div>
+
+<div class='slide planet'>
+<div class='image_and_description_container'>
+<a href='/moons/earths-moon/overview'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Click for more
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<img alt='Earth&#39;s Moon' class='img-lazy' data-lazy='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbEJWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d97d6c05b9a411776c664502255d8b6d8ba93128/earth_moon.png?disposition=inline' src='/assets/loading_320x240.png'>
+</a>
+</div>
+<div class='content_title'>
+<a href='/moons/earths-moon/overview'>
+Earth&#39;s Moon
+</a>
+</div>
+</div>
+
+<div class='grid_layout'>
+<div class='slick-nav_container'>
+<div class='slick-nav'></div>
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</section>
+<div class='share'>
+<h2>Stay Connected</h2>
+<div data-react-class="CherTools" data-react-props="{&quot;follow&quot;:[[&quot;Twitter&quot;,&quot;https://twitter.com/NASASolarSystem&quot;,&quot;/assets/twitter_icon@2x.png&quot;],[&quot;Facebook&quot;,&quot;https://www.facebook.com/nasasolarsystem&quot;,&quot;/assets/facebook_icon@2x.png&quot;],[&quot;Instagram&quot;,&quot;https://www.instagram.com/nasasolarsystem&quot;,&quot;/assets/instagram_icon@2x.png&quot;]]}" data-react-cache-id="CherTools-0"></div>
+
+</div>
+</section>
+<section class='sitemap'>
+<div class='grid_layout'>
+<div class='sitemap_directory' id='sitemap_directory'>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/solar-system/our-solar-system/">Solar System</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/solar-system/our-solar-system/overview/' target='_self'>Our Solar System</a>
+</li>
+<li>
+<a href='/solar-system/sun/overview/' target='_self'>Sun</a>
+</li>
+<li>
+<a href='/solar-system/kuiper-belt/overview/' target='_self'>Kuiper Belt</a>
+</li>
+<li>
+<a href='/solar-system/oort-cloud/overview/' target='_self'>Oort Cloud</a>
+</li>
+<li>
+<a href='/solar-system/beyond/overview/' target='_self'>Beyond Our Solar System</a>
+</li>
+<li>
+<a href='/eclipses/' target='_self'>Eclipses</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/planets/overview/">Planets</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/planets/overview/' target='_self'>About Planets</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+<h4 class='sitemap_title_subhead'>
+PLANETS
+</h4>
+<ul>
+<li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li class='nav_item'>
+<a href="/planets/mercury/overview/">Mercury</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/venus/overview/">Venus</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/earth/overview/">Earth</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/mars/overview/">Mars</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/jupiter/overview/">Jupiter</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/saturn/overview/">Saturn</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/uranus/overview/">Uranus</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/neptune/overview/">Neptune</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+<h4 class='sitemap_title_subhead'>
+DWARF PLANETS
+</h4>
+<ul>
+<li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li class='nav_item'>
+<a href="/planets/dwarf-planets/pluto/overview/">Pluto</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/dwarf-planets/ceres/overview/">Ceres</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/dwarf-planets/makemake/in-depth/">Makemake</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/dwarf-planets/haumea/in-depth/">Haumea</a>
+</li>
+<li class='nav_item'>
+<a href="/planets/dwarf-planets/eris/in-depth/">Eris</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+<h4 class='sitemap_title_subhead'>
+HYPOTHETICAL
+</h4>
+<ul>
+<li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li class='nav_item'>
+<a href="/planets/hypothetical-planet-x/in-depth/">Planet X</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/moons/overview/">Moons</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/moons/overview/' target='_self'>About Moons</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+<h4 class='sitemap_title_subhead'>
+BY DESTINATION
+</h4>
+<ul>
+<li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li class='nav_item'>
+<a href="/moons/earths-moon/overview/">Earth (1)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/mars-moons/overview/">Mars (2)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/jupiter-moons/overview/">Jupiter (95)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/saturn-moons/overview/">Saturn (83)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/uranus-moons/overview/">Uranus (27)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/neptune-moons/overview/">Neptune (14)</a>
+</li>
+<li class='nav_item'>
+<a href="/moons/pluto-moons/overview/">Pluto (5)</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/asteroids-comets-and-meteors/overview/">Asteroids, Comets &amp; Meteors</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/asteroids-comets-and-meteors/overview/' target='_self'>About Asteroids, Comets &amp; Meteors</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+<h4 class='sitemap_title_subhead'>
+BY TYPE
+</h4>
+<ul>
+<li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li class='nav_item'>
+<a href="/asteroids-comets-and-meteors/meteors-and-meteorites/overview/">Meteors &amp; Meteorites</a>
+</li>
+<li class='nav_item'>
+<a href="/asteroids-comets-and-meteors/asteroids/overview/">Asteroids</a>
+</li>
+<li class='nav_item'>
+<a href="/asteroids-comets-and-meteors/comets/overview/">Comets</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+More
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/news/' target='_self'>News</a>
+</li>
+<li>
+<a href='/skywatching/' target='_self'>What&#39;s Up: Skywatching Tips from NASA</a>
+</li>
+<li>
+<a href='/resources/' target='_self'>Resources</a>
+</li>
+<li>
+<a href='/raw-images/' target='_self'>Raw Images</a>
+</li>
+<li>
+<a href='/people/' target='_self'>People</a>
+</li>
+<li>
+<a href='/missions/' target='_self'>Missions</a>
+</li>
+<li>
+<a href='/kids/' target='_self'>Kids</a>
+</li>
+<li>
+<a href='/interactives/' target='_self'>Interactives</a>
+</li>
+<li>
+<a href='/basics/' target='_self'>Basics of Space Flight</a>
+</li>
+<li>
+<a href='/solar-system-ambassadors/' target='_self'>Solar System Ambassadors</a>
+</li>
+<li>
+<a href='/resource-packages/' target='_self'>Resource Packages</a>
+</li>
+<li>
+<a href='/heat/home/' target='_self'>NASA HEAT</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<section class='lower_footer'>
+<div class='grid_layout'>
+<div class='nav_container'>
+<nav>
+<ul>
+<li>
+<a href='/about-us/' target='_self'>About Us</a>
+</li>
+<li>
+<a href='/bibliography/' target='_self'>Bibliography</a>
+</li>
+<li>
+<a href='/feedback/' target='_self'>Feedback</a>
+</li>
+<li>
+<a href='https://www.nasa.gov/about/highlights/HP_Privacy.html' target='_self'>Privacy</a>
+</li>
+<li>
+<a href='https://www.nasa.gov/multimedia/guidelines/index.html' target='_self'>Image Use</a>
+</li>
+<li>
+<a href='http://science.nasa.gov/' target='_self'>NASA SCIENCE MISSION DIRECTORATE</a>
+</li>
+<li>
+<a href='https://www.nasa.gov' target='_self'>NASA Portal</a>
+</li>
+<li>
+<a href='/visual-sitemap/content/' target='_self'>Sitemap</a>
+</li>
+
+</ul>
+</nav>
+</div>
+<div class='credits'>
+<div class='footer_brands'>
+This site is maintained by the Planetary Science Communications team at
+<strong>NASA’s Jet Propulsion Laboratory</strong> for
+<a href="https://science.nasa.gov/" target="_blank" rel="noopener">NASA’s Science Mission Directorate</a>.
+</div>
+<div class='staff'>
+<p>
+Writer | Editor: 
+<a href="mailto:amanda.l.barnett@jpl.nasa.gov?subject=%5BNASA%20Solar%20System%20Exploration%5D">Amanda Barnett</a>
+<br>
+Curator: 
+Phil Davis
+<br>
+Design &amp; Development: 
+Moore Boeck
+<br>
+</p>
+</div>
+<div class='site_last_updated'>
+<p>
+Site last updated: September 18, 2023
+</p>
+</div>
+</div>
+</div>
+</section>
+</footer>
+
+<input type="hidden" name="content_page_id" id="content_page_id" value="1933" autocomplete="off" />
+</div>
+</div>
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=JPL-Solar-System-Exploration &amp;dclink=true&amp;sp=search,s&amp;pua=UA-4391123-16,UA-118212757-2&exts=tif,tiff,wav" type='text/javascript'></script>
+
+
+<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M4ZD7PQ');</script><!-- End Google Tag Manager -->
+
+
+<script id="parsely-cfg" src="//cdn.parsely.com/keys/solarsystem.nasa.gov/p.js" async="" defer=""></script>
+
+</body>
+</html>

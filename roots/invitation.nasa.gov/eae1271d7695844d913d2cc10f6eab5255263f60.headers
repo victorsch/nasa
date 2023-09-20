@@ -1,0 +1,18 @@
+GET https://invitation.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< X-Frame-Options: DENY
+< Server: Apache
+< Cache-Control: no-cache, no-store, must-revalidate
+< Expires: 0
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:57:35 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Set-Cookie: _3911a=f631dc29b50985cd; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=D25F26AE6B9116C5B1154B548512ABEE; Path=/; Secure; HttpOnly
+< Set-Cookie: 3c9164dba275e8608704729f84007543=6cdca8a442c6927e853ba108684b8e64; path=/; HttpOnly; Secure; SameSite=None

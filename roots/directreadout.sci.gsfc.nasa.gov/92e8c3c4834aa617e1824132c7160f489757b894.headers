@@ -1,0 +1,17 @@
+GET https://directreadout.sci.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: W/"d01b6cdb04405f863e8efc71e3ecb321"
+< Age: 47985
+< Content-Type: text/html
+< X-Amz-Server-Side-Encryption: AES256
+< Server: AmazonS3
+< Date: Mon, 18 Sep 2023 16:40:38 GMT
+< X-Cache: Hit from cloudfront
+< X-Amz-Version-Id: RuxlI4Fe5qpcghLcEB1AN4VkerR57mtD
+< Vary: Accept-Encoding
+< Via: 1.1 7edae070a6a25cc68c970c1111701a20.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: -x-LsWtgwlAShiLKzaUqbOPPVNmEoC1Uri1bmq2OkaBpbFvKKFfv5w==
+< Last-Modified: Tue, 25 Jul 2023 16:17:47 GMT
+< X-Amz-Cf-Pop: JFK50-P6

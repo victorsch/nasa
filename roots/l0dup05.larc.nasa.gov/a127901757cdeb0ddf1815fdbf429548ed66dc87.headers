@@ -1,0 +1,16 @@
+GET https://l0dup05.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:54:37 GMT
+< Last-Modified: Tue, 08 Aug 2023 13:02:46 GMT
+< Content-Length: 10667
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< X-Permitted-Cross-Domain-Policies: none
+< Server: Apache
+< Etag: "29f3-60268fab90ae1"
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html;charset=utf-8

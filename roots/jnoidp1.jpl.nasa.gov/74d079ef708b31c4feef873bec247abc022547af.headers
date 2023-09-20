@@ -1,0 +1,18 @@
+GET https://jnoidp1.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:57:48 GMT
+< Server: 
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache
+< X-Request-Id: bf7e906d-65fb-4b9c-8aed-f9761b1bd815
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: Phusion Passenger 5.0.25
+< Status: 302 Found
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< X-Runtime: 0.004579
+< Set-Cookie: _Monitoring_Service_session=TmpUT1lka3B6bFpobnZ5WmZMdHFVMk4zbjNVZ0NYSThXU3haRU1tT1NIQmRsVngxeUtOaXBJTWxWREJPOHFpWmFhampGZ3hxNWc0emRKQU8rZlU3UkQ4YXJWV2FkVWl4NXZST3ZCMVBQY0JsNFIyMy9qR0tTU1pUYnNSaHViRXBmYnFsOElPeUkwbkJlQVVjV2RQcUQzVXEyN0l1b0FIOVhaRnN1Vjh2SytKRmkwdEtnVHB4OFhQOVhvSkpDL3h2Z0kwMGZleDNSSGY4U0gxTkVVOHNxQT09LS1aQitkTHV0d0NZRnlRVDJjU2FRZytBPT0%3D--0c0dbbea3e4c1eee4daab24fa909de539141f5c8; path=/; secure; HttpOnly
+< Location: https://jnoidp1.jpl.nasa.gov/sessions/new

@@ -1,0 +1,8 @@
+GET http://lvis.gsfc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Connection: close
+< Content-Length: 0
+< Location: https://lvis.gsfc.nasa.gov/
+< Server: BigIP

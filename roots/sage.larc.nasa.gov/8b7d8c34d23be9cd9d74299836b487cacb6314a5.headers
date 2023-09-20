@@ -1,0 +1,12 @@
+GET http://sage.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Location: https://sage.larc.nasa.gov/
+< Date: Tue, 19 Sep 2023 05:53:58 GMT
+< Content-Length: 235
+< Content-Type: text/html; charset=iso-8859-1
+< X-Frame-Options: SAMEORIGIN

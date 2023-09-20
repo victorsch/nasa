@@ -1,0 +1,24 @@
+GET https://history.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html
+< Age: 22037
+< Etag: "b303c96f16560e70b7c6a35c7f4e358b"
+< X-Amz-Server-Side-Encryption-Bucket-Key-Enabled: true
+< X-Cache: Hit from cloudfront
+< Via: 1.1 4a124e8b579c1eb5bfcb198db51e61fe.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: gIcGQeoefXaM7N_k3H1KfxUx2aPTzCdKr5I8uGiDd_8rVHwGla4GtQ==
+< Content-Length: 20958
+< X-Content-Type-Options: nosniff
+< X-Amz-Server-Side-Encryption-Aws-Kms-Key-Id: arn:aws:kms:us-east-1:573814868645:key/0b58c294-5d9e-4250-b010-88f7a625f76f
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Wed, 25 Jan 2023 20:38:59 GMT
+< X-Amz-Server-Side-Encryption: aws:kms
+< Server: AmazonS3
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Mon, 18 Sep 2023 23:36:59 GMT
+< Accept-Ranges: bytes

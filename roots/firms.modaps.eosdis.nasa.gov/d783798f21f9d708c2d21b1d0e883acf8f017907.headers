@@ -1,0 +1,9 @@
+GET http://firms.modaps.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:44:32 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://firms.modaps.eosdis.nasa.gov/
+< Server: nginx

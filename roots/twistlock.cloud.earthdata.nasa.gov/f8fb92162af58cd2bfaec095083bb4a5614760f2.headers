@@ -1,0 +1,16 @@
+GET https://twistlock.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 19 Sep 2023 05:41:00 GMT
+< Content-Type: text/html
+< Via: 1.1 97e44a27a616410da5792d77e9d25f52.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< Content-Length: 919
+< X-Cache: Error from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Cf-Pop: JFK50-P6
+< X-Amz-Cf-Id: WU_PFQqKScwODrM2EU1rrTGCqyY-OBVdH9KY9rATpu6nhS6pejmNcQ==

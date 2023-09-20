@@ -1,0 +1,15 @@
+GET https://akama.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Wed, 04 Mar 2020 00:17:39 GMT
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.5
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:49:55 GMT
+< Etag: "7fe4a650baf1d51:0"
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

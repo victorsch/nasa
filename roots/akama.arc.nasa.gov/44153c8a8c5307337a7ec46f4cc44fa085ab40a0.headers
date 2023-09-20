@@ -1,0 +1,13 @@
+GET http://akama.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:49:55 GMT
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Location: https://akama.arc.nasa.gov
+< Server: Microsoft-IIS/8.5
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 149

@@ -1,0 +1,10 @@
+GET http://open.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://open.nasa.gov/
+< Content-Length: 230
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:37 GMT

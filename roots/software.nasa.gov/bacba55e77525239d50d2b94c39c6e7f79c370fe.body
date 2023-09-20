@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+    <head>
+        <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+
+        <title>Home | NASA Software Catalog</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/ajax-progress.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/align.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/autocomplete-loading.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/fieldgroup.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/container-inline.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/clearfix.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/details.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/hidden.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/item-list.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/js.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/nowrap.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/position-container.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/progress.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/reset-appearance.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/resize.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/sticky-header.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-counter.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-counters.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/system-status-report-general-info.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tabledrag.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tablesort.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/system/components/tree-child.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/views/views.module.css?s1030v" />
+<link rel="stylesheet" media="all" href="/libraries/flexslider/flexslider.css?s1030v" />
+<link rel="stylesheet" media="all" href="/modules/contrib/flexslider/assets/css/flexslider_img.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/assets/vendor/normalize-css/normalize.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/stable/css/core/normalize-fixes.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/action-links.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/breadcrumb.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/button.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/collapse-processed.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/container-inline.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/details.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/exposed-filters.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/field.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/form.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/icons.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/inline-form.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/item-list.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/link.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/links.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/menu.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/more-link.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/pager.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabledrag.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tableselect.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tablesort.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/tabs.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/textarea.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/ui-dialog.css?s1030v" />
+<link rel="stylesheet" media="all" href="/core/themes/classy/css/components/messages.css?s1030v" />
+<link rel="stylesheet" media="all" href="/themes/t2portal/css/base.css?s1030v" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&amp;family=Oswald:wght@200;300;400;500&amp;family=Roboto:wght@400;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/t2portal/css/frontpage.css?s1030v" />
+
+        
+        <script id="_fed_an_ua_tag" src="//dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+        <link rel="icon" href="/themes/t2portal/images/favicon.ico">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </head>
+    <body class="path-frontpage">
+                
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://technology.nasa.gov"><img src="/themes/t2portal/images/t2.logo.horiz.rev.svg" class="t2logo" alt="NASA Technology Transfer Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarHeader">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://technology.nasa.gov/patents">Patent Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Software Catalog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://spinoff.nasa.gov">Spinoff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://technology.nasa.gov/virtual-events">Virtual Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://technology.nasa.gov/network">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu">
+                        <a href="https://technology.nasa.gov/features" class="dropdown-item">Features</a>
+                        <a href="https://technology.nasa.gov/license" class="dropdown-item">How to License</a>
+                        <a href="https://technology.nasa.gov/t2u" class="dropdown-item">Technology Transfer University</a>
+                        <a href="https://technology.nasa.gov/t2x" class="dropdown-item">Technology Transfer Expansion</a>
+                        <a href="https://technology.nasa.gov/analytics" class="dropdown-item">Technology Transfer Metrics</a>
+                        <a href="https://technology.nasa.gov/blog" class="dropdown-item">Blog</a>
+                        <a href="https://technology.nasa.gov/ihof" class="dropdown-item">Inventors Hall of Fame</a>
+                        <a href="/remotesensing" class="dropdown-item">Remote Sensing Toolkit</a>
+                        <a href="https://technology.nasa.gov/assistive-technologies" class="dropdown-item">Assistive Technologies</a>
+                        <a href="https://technology.nasa.gov/satellite-servicing" class="dropdown-item">Satellite Servicing Technologies</a>
+                        <a href="https://technology.nasa.gov/icb" class="dropdown-item">Inventions and Contributions Board</a>
+                    </div>
+                </li>
+                                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Log In</a>
+                    </li>
+                            </ul>
+            </form>
+        </div>
+        <div id="search-menu">
+            <a href="/search"><img src="/themes/t2portal/images/search.svg" alt="search icon" class="search-icon"></a>
+        </div>
+        <div class="meatball-sec">
+            <a href="https://www.nasa.gov"><img src="/themes/t2portal/images/NASA.Logo.svg" class="meatball" alt="NASA Meatball" /></a>
+        </div>
+    </nav>
+</header>
+<div class="main-wrapper">
+    <div id="intro">
+        <div class="container"> 
+            <div class="col-lg-12">
+                <table>
+                    <tr style="display: none">
+                        <th role=presentation>icon</th>
+                        <th role=presentation>description</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://software.nasa.gov">
+                                <img src="/themes/t2portal/images/Software_Catalog/Badge/Software-Catalog-Badge_No-Text.png" alt="software catalog icon" class="swcat-badge" />
+                            </a>
+                        </td>
+                        <td>
+                            <div class="box_text">
+                                <div class="heading"><a href="https://software.nasa.gov" style="color: #fff !important;">SOFTWARE CATALOG</a></div>
+                                <div class="blurb">
+                                NASA's Software Catalog offers hundreds of new 
+                                software programs you can download for free to 
+                                use in a wide variety of technical applications.
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="discover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title">RECENTLY RELEASED SOFTWARE</div>
+                    <div class="feature-slider"><div class="views-element-container"><div class="view view-front-page-features view-id-front_page_features view-display-id-block_1 js-view-dom-id-a6b051f206eceb24b449f62758af65d2a0cfb0e4f8570aa5408c971b7c19e423">
+  
+    
+      
+      <div class="view-content">
+      
+<div>
+    
+<div id="flexslider-1" class="flexslider optionset-default">
+ 
+<ul class="slides">
+    
+<li>
+    <div class="views-field views-field-field-category-image"><div class="field-content">  <img loading="lazy" src="/sites/default/files/2021-05/Aeronautics-Icon.png" width="1146" height="1284" alt="aero" typeof="foaf:Image" />
+
+</div></div><div class="views-field views-field-field-category"><div class="field-content">Aeronautics</div></div><div class="views-field views-field-title"><span class="field-content"><a href="https://software.nasa.gov/software/LAR-13995-1">WINGDES2 - Wing Design And Analysis Code (WDES)</a></span></div><div class="views-field views-field-body"><div class="field-content"><p>Wing-design algorithm based on modified linear theory taking into account effects of attainable leading-edge thrust. Provides analysis as well as design capability and applicable to both subsonic and supersonic flow.</p></div></div>
+    </li>
+<li>
+    <div class="views-field views-field-field-category-image"><div class="field-content">  <img loading="lazy" src="/sites/default/files/2021-05/Design-and-Integration-Tools-Icon.png" width="1196" height="1191" alt="cat" typeof="foaf:Image" />
+
+</div></div><div class="views-field views-field-field-category"><div class="field-content">Design and Integration Tools</div></div><div class="views-field views-field-title"><span class="field-content"><a href="https://software.nasa.gov/software/GSC-18169-1">Mixed Reality Engineering Toolkit (MRET)</a></span></div><div class="views-field views-field-body"><div class="field-content"><p>Create Augmented Reality (AR)/Virtual Reality (VR) tools for integrating spacecraft designs and real-time mission telemetry for multiple domains over a mission lifecycle: Pre-phase A concept design Hardware integration &amp; test planning and execution Tele-robotic operations</p></div></div>
+    </li>
+</ul>
+</div>
+
+</div>
+
+    </div>
+  
+      
+          </div>
+</div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title">EXPLORE BY CATEGORY</div>
+                </div>
+            </div>
+            <div class="row searchbar-wrapper">
+                <div class="col-lg-6 searchType-wrapper">
+                    <div class="searchType">
+                        <div>
+                            <select name="center" id="center" onchange="location = '/software/category/all/'+this.value+'/1/';" title="Select a field center to search">
+                                <option value="aw">Agencywide</option>
+                                <option value="dfrc">Armstrong Flight Research Center</option>
+                                <option value="arc">Ames Research Center</option>
+                                <option value="grc">Glenn Research Center</option>
+                                <option value="gsfc">Goddard Space Flight Center</option>
+                                <option value="jpl">Jet Propulsion Laboratory</option>
+                                <option value="jsc">Johnson Space Center</option>
+                                <option value="ksc">Kennedy Space Center</option>
+                                <option value="larc">Langley Research Center</option>
+                                <option value="msfc">Marshall Space Flight Center</option>
+                                <option value="ssc">Stennis Space Center</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="searchBoxWrapper">
+                        <div class="searchBox">
+                            <input type="text" id="searchInputBox" value="" onkeydown = "if (event.keyCode == 13)
+                                document.getElementById('searchGo').click()" title="enter keyword to search"></input>
+                            <input id="searchGo" type="button" value="GO" 
+                                onclick="window.location.href='/search/multi/aw/software/9/'+document.getElementById('searchInputBox').value;"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row categories d-flex">
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/all">
+                            <div class="viewall">View all Categories</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/aeronautics">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Aeronautics/Aeronautics-Icon.png" alt="Aeronautics" title="Aeronautics"></div>
+                            <div class="label">Aeronautics</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/autonomous_systems">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Autonomous_Systems/Autonomous-Systems-Icon.png" alt="Autonomous Systems" title="Autonomous Systems"></div>
+                            <div class="label">Autonomous Systems</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/business_systems_and_project_management">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Business_Systems_and_Project_Management/Business-Systems-and-Project-Management-Icon.png" alt="Business Systems and Project Management" title="Business Systems and Project Management"></div>
+                            <div class="label">Business Systems and Project Management</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/crew_and_life_support">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Crew_and_Life_Support/Crew-and-Life-Support-Icon.png" alt="Crew and Life Support" title="Crew and Life Support"></div>
+                            <div class="label">Crew and Life Support</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/data_and_image_processing">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Data_and_Image_Processing/Data-and-Image-Processing-Icon.png" alt="Data and Image Processing" title="Data and Image Processing"></div>
+                            <div class="label">Data and Image Processing</div>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/data_servers_processing_and_handling">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Data_Servers_Processing_and_Handling/Data-Servers-Processing-and-Handling-Icon.png" alt="DData Servers Processing and Handling" title="Data Servers Processing and Handling" style="max-width: 45px;"></div>
+                            <div class="label">Data Servers Processing and Handling</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/design_and_integration_tools">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Design_and_Integration_Tools/Design-and-Integration-Tools-Icon.png" alt="Design and Integration Tools" title="Design and Integration Tools"></div>
+                            <div class="label">Design and Integration Tools</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/electronics_and_electrical_power">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Electronics_and_Electrical_Power/Electronics-and-Electrical-Power-Icon.png" alt="Electronics and Electrical Power" title="Electronics and Electrical Power"></div>
+                            <div class="label">Electronics and Electrical Power</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/environmental_science_earth_air_space_exoplanet">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Environmental_Science/Environmental-Science-Icon.png" alt="Environmental Science" title="Environmental Science"></div>
+                            <div class="label">Environmental Science</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/materials_and_processes">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Materials_and_Processes/Materials-and-Processes-Icon.png" alt="Materials and Processes" title="Materials and Processes"></div>
+                            <div class="label">Materials and Processes</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/operations">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Operations/Operations-Icon.png" alt="Operations" title="Operations"></div>
+                            <div class="label">Operations</div>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/propulsion">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Propulsion/Propulsion-Icon.png" alt="Propulsion" title="Propulsion"></div>
+                            <div class="label">Propulsion</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/structures_and_mechanisms">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Structures_and_Mechanisms/Structures-and-Mechanisms-Icon.png" alt="Structures and Mechanisms" title="Structures and Mechanisms"></div>
+                            <div class="label">Structures and Mechanisms</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/system_testing">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/System_Testing/System-Testing-Icon.png" alt="System Testing" title="System Testing"></div>
+                            <div class="label">System Testing</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat-box-wrapper">
+                    <div class="cat-box">
+                        <a href="/software/category/vehicle_management_space_air_ground">
+                            <div class="icon"><img src="/themes/t2portal/images/Software_Catalog/Category_Icons/Vehicle_Management/Vehicle-Management-Icon.png" alt="Vehicle Management" title="Vehicle Management"></div>
+                            <div class="label">Vehicle Management</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- close container -->
+    </div>
+    <div id="add-resource">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title">ADDITIONAL RESOURCES</div>
+                </div>
+                <div class="col-lg-6 add-links">
+                    <a href="/contact" class="box_link">Software Contacts</a>
+                    <a href="/sites/default/files/NASA_Software_Catalog_2023-24.pdf" class="box_link">Download NASA's Software Catalog</a>
+                </div>
+            </div>
+            <div class="faq-section row">
+                <div class="faq-title col-lg-12">
+                    FAQ
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-1" aria-controls="faq-1">
+                            &#5171; Are the software codes and tools listed in the software catalog available at "no cost"?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-1">
+                        The NASA software listed in the catalog is available for use at no charge. Certain codes have been licensed by NASA for commercial purposes and are only available to other agencies or companies with a government contract. If a software product is available for commercial purposes, a statement indicating that the code "is available for licensing" will be included in the software description.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-2" aria-controls="faq-2">
+                            &#5171; How often is this site updated?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-2">
+                        This site is updated regularly as new NASA software codes and version updates become available. We invite you to visit often to see what new codes have been added.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-3" aria-controls="faq-3">
+                            &#5171; How do I request a software code?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-3">
+                        Create an account or log into an existing account.
+                        <br><br>
+                        Select the Request Software button below the item description in the software catalog entry. Complete the request form. You must fill in all required fields before you can submit your request.
+                        <br><br>
+                        Your request will automatically be routed to the appropriate Center Software Release Authority (SRA) for processing. Many NASA Open Source software codes and mobile apps provide a URL link so that the requester can download the software directly. Therefore, it is not necessary to use the Request Software button for these codes.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-4" aria-controls="faq-4">
+                            &#5171; What is a release type? How does it affect you?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-4">
+                        The release type determines who can have a NASA software code. If you meet the access criteria for the code (as defined below), NASA can transfer the software to you.
+                        <br>
+                        Release types:
+                        <ul>
+                            <li>General Public Release: For codes with a broad release and no nondisclosure or export control restrictions</li>
+                            <li>Open Source Release: For collaborative efforts in which programmers improve upon codes originally developed by NASA and share the changes</li>
+                            <li>U.S. Release Only: For codes available to U.S. persons only</li>
+                            <li>U.S. and Foreign Release: For codes that are available to U.S. persons and persons outside of the U.S. (who meet certain export control restrictions)</li>
+                            <li>U.S. Government Purpose Release: For codes that are to be used on behalf of the U.S. government by a federal agency or business/university under a federal contract/grant/agreement.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-5" aria-controls="faq-5">
+                            &#5171; Why is access to some software codes restricted?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-5">
+                        Each NASA code has been evaluated for access restrictions and designated for a specific type of release according to the purpose for which the software code was designed. Some codes are deemed restricted because they have been developed for a specific government purpose (e.g., they may have munitions or defense applications). Codes designated U.S. Government Purpose Release require the user to work for a federal agency or a business/university with an active contract, grant, or Space Act Agreement with the federal government.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-6" aria-controls="faq-6">
+                            &#5171; Why do I need to provide a contract/grant/agreement name and number?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-6">
+                        When software is classified as a U.S. Government Purpose Release, NASA must be able to verify that the software will be used for a current U.S. government contract. For non-NASA contracts/grants, you will receive an email from the Center SRA asking for a copy of the front page of the contract and the pages that contain the current statement of work and period of performance for the contract/grant. In some cases, the agency’s contract monitor may be asked to verify the contract information. Once the contract information is received, the appropriate Software Usage Agreement (SUA) will be sent to you for signature.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-7" aria-controls="faq-7">
+                            &#5171; How long will the process take?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-7">
+                        Most software requests will be processed within 5 business days. After your request is reviewed by the Center SRA, you (or the individual identified on your request form with authority to sign the agreement) will receive an email notification that a Software Usage Agreement is ready for review and signature. If additional information is required in order to process your request, you will be contacted by the Center SRA with the specific details needed to complete your request.
+                        <br><br>
+                        After your signed agreement is accepted by the Center SRA, you will receive an email notification of the method of software delivery. If the software code is available for download through the NASA Software Catalog system, you will have 14 days to download the software through your user account.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-8" aria-controls="faq-8">
+                            &#5171; Whom do I contact if I have specific questions about specific codes located in the catalog or on this website?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-8">
+                        A list of center software release contacts is provided at the "Software Contacts" link in the right sidebar of the home page. Please email any questions regarding specific codes to the contact for the center at which the software was developed as indicated in the software catalog entry.
+                    </div>
+                </div>
+                <div class="faq-block col-lg-12">
+                    <div class="faq-question">
+                        <a data-bs-toggle="collapse" href="#faq-9" aria-controls="faq-9">
+                            &#5171; What does "signatory authority" mean?
+                        </a>
+                    </div>
+                    <div class="faq-answer collapse" id="faq-9">
+                        The signatory authority is the person who signs the Software Usage Agreement that binds all users to the terms of use specified in the agreement. The following examples provide additional clarification for a business or university agreement:
+                        <br><br>
+                        Business: Only someone with signatory authority who can legally bind the company can sign the Software Usage Agreement. Typically, that person would be an officer of the company (e.g., President, CEO, etc.).
+                        <br><br>
+                        University: Only someone with signatory authority who can legally bind the school can sign the Software Usage Agreement. Typically, that person would be an officer within the university’s administration.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- end main wrapper -->
+<div id="more_info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 left">
+                Stay up to date, follow NASA's Technology Transfer Program on:
+            </div>
+            <div class="col-lg-6 right">
+                <div class="row">
+                    <div class="col-sm-6" id="join">
+                        <span class="box_link"><a href="https://technology.nasa.gov/newsletter-registration">Join our Newsletter</a></span>
+                    </div>
+                    <div class="col-sm-6" id="social-icons">
+                        <table>
+                            <tr style="display: none">
+                                <th role="presentation"></th>
+                                <th role="presentation">facebook</th>
+                                <th role="presentation">twitter</th>
+                                <th role="presentation">linkedin</th>
+                                <th role="presentation">youtube</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.facebook.com/NASATechTransfer/"><img src="/themes/t2portal/images/Social_Media/f_logo_RGB-White_512.png" alt="Facebook Logo" /></a></td>
+                                <td><a href="http://www.twitter.com/nasasolutions"><img src="/themes/t2portal/images/Social_Media/Twitter_Social_Icon_Circle_White.png" alt="Twitter Logo" /></a></td>
+                                <td><a href="http://www.linkedin.com/company/nasa-technology-transfer-program"><img src="/themes/t2portal/images/Social_Media/LinkedIn.png" alt="Linkedin Logo" /></a></td>
+                                <td><a href="https://www.youtube.com/channel/UChQyrOkAEHd9yoGsYzSx5Ow"><img src="/themes/t2portal/images/Social_Media/Youtube.png" alt="Youtube Logo" /></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-wrapper">
+        <div class="row">
+            <div class="col-sm-6 footer-agency-wrapper">
+                <div class="f-left">
+                    <a href="http://www.nasa.gov">
+                        <img alt="home" src="/themes/t2portal/images/NASA.Logo.svg" class="meatball" alt="NASA Meatball" >
+                    </a>
+                </div>
+                <div class="f-right">
+                    <div class="f-title">National Aeronautics and Space Administration</div>
+                    <p>
+                        NASA Official: Dan Lockney<br />
+                        <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a><br />
+                        <a href="mailto:NHQ-DL-T2-Support@mail.nasa.gov">Contact Us</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6 t2-tagline">
+                <table>
+                    <tr style="display: none">
+                        <th role="presentation">NASA Technology Transfer Tag Line</th>
+                        <th role="presentation">NASA Technology Transfer Logo</th>
+                    </tr>
+                    <tr>
+                        <td>Bringing NASA Technology Down to Earth</td>
+                        <td><img src="/themes/t2portal/images/main/Earth-Icon.svg" class="earth-img" alt="NASA Technology Transfer Logo" /></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+
+        
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"flexslider":{"optionsets":{"default":{"animation":"fade","animationSpeed":600,"direction":"horizontal","slideshow":true,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":true,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":true,"pauseOnHover":false,"controlsContainer":".flex-control-nav-container","manualControls":""}},"instances":{"flexslider-1":"default"}},"user":{"uid":0,"permissionsHash":"1de7bdb8949fb9ca93f2659c27760cf70f74490ca9151f0d144cbae467459c74"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.8"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.8"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.js?v=9.5.8"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.8"></script>
+<script src="/themes/t2portal/js/t2portal.js?v=1.x"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.8"></script>
+<script src="/libraries/flexslider/jquery.flexslider-min.js?s1030v"></script>
+<script src="/modules/contrib/flexslider/assets/js/flexslider.load.js?s1030v"></script>
+
+        <div class="overlay hide"><div class="loader"></div></div>
+    </body>
+</html>

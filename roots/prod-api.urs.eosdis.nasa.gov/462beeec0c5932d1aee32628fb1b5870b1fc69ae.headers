@@ -1,0 +1,7 @@
+GET https://prod-api.urs.eosdis.nasa.gov
+
+
+< HTTP/1.0 200 OK
+< Content-Length: 13311
+< Strict-Transport-Security: max-age=31536000
+< Connection: close

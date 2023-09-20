@@ -1,0 +1,8 @@
+GET http://beta.urs.eosdis.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Location: https://beta.urs.eosdis.nasa.gov/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0

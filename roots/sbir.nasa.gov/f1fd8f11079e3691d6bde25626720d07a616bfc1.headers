@@ -1,0 +1,9 @@
+GET http://sbir.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:43:36 GMT
+< Server: Apache
+< Location: https://sbir.nasa.gov/
+< Content-Length: 206
+< Content-Type: text/html; charset=iso-8859-1

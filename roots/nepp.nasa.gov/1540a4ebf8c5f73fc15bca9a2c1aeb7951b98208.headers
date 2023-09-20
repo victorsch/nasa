@@ -1,0 +1,9 @@
+GET http://nepp.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:57:49 GMT
+< Server: Atari Lynx
+< Location: https://nepp.nasa.gov/
+< Content-Length: 23
+< Content-Type: text/html; charset=iso-8859-1

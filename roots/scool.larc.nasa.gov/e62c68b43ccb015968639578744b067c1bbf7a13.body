@@ -1,0 +1,277 @@
+<!DOCTYPE html lang="en">
+<HEAD>
+<SCRIPT LANGUAGE="JavaScript">if (top.frames.length!=0){top.location=self.document.location;}</SCRIPT>
+<TITLE>S'COOL Citizen Science</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META HTTP-EQUIV="Cache-Control:no-Store,no-Cache" CONTENT="Pragma:no-cache">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+
+<meta name="keywords" content="NASA, Langley Research Center">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="google-translate-customization" content="420b762672774e25-da77150cbc8d5d07-gd5684d13e550f423-19">
+<LINK href="/common/css/SCOOLspecialROVER.css" type=text/css rel=stylesheet>
+<LINK href="/common/css/SCOOLcommon1000.css" type=text/css rel=stylesheet>
+<LINK href="/common/css/GLOBE-SCOOL.css" type=text/css rel=stylesheet>
+<script src="/common/js/writeMOM.js" type="text/javascript"></script>
+
+<meta http-equiv="cache-control" content="no-store" />
+<meta http-equiv="cache-control" content="must-revalidate" />
+
+<script>
+<!-- // Hiding Script Content
+$(document).ready(function(){
+  
+  
+// FANCYBOX Configuration -----
+// specialized inside title configuration
+function formatTitle(title, currentArray, currentIndex, currentOpts) {
+    return '<div id="theImageT-title" style="text-align:left; font-size:1.1em; font-weight:normal; font-family:Arial;"><!--<span><a href="javascript:;" onclick="$.fancybox.close();"><img src="/images/common-graphics/closelabel.gif" border=0 /></a></span>-->' + (title && title.length ? '<b>' + title + '</b>' : '' ) + '</div>';
+}
+// class with title
+$("a.theImageT").fancybox({
+                                'autoScale'             : true,
+                                'transitionIn'          : 'elastic',
+                                'transitionOut'         : 'fade',
+                                'overlayOpacity'        : .6,
+                                'overlayColor'          : '#000',
+                                'speedIn'               : 400,
+                                'showCloseButton'       : true,  //was false
+                                'titlePosition'         : 'inside',
+                                'showNavArrows'         : false,
+                                'titleFormat'           : formatTitle
+});
+// class without title
+$("a.theImage").fancybox({
+                                'padding'               : 5,
+                                'autoScale'             : true,
+                                'transitionIn'          : 'elastic',
+                                'transitionOut'         : 'fade',
+                                'overlayOpacity'        : .6,
+                                'overlayColor'          : '#000',
+                                'speedIn'               : 400,
+                                'showCloseButton'       : true,
+                                'showNavArrows'         : false,
+                                'titleShow'             : false
+                                
+                        });
+
+
+
+
+
+
+});
+//-->
+</script>
+
+</HEAD>
+
+<body style="background:  url(/images/page-graphics/SCOOL-web-background.png); background-repeat: no-repeat; background-attachment: fixed; background-position: top;">
+
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-16768664-1']);   _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>
+
+<BR>
+<!--
+<script src="common/js/wz_tooltip.js" type="text/javascript"></script>
+-->
+ 
+<!-- BEGIN COMMON HEADER -->
+<table width="1000" cellpadding="0" cellspacing="0" border="0" align=center>
+
+   <tr>
+      <td bgcolor="#282828" width=140 height=98><a href="https://www.nasa.gov/"><img src="/images/common-graphics/header_logo.gif" alt="NASA Logo - National Aeronautics and Space Administration" border="0" width=140 height=98></td>
+<td width=460 bgcolor="#282828" style="font-family:Arial; font-size:17px; color:white; padding-left:5px;" align=left valign=center><img src="/images/common-graphics/NASA-LARC-midheader-98H460W.gif" alt="NASA Mid Header Graphic - NASA Langley Reseach Center" align=left></td>
+      <td width="333" height=98 bgcolor="#282828" align="center" valign="middle" style="padding-right:5px; text-align:right;">
+      <div align="right" style="margin-top: 5px; margin-right: 10px; font-size: 14px;">
+      <a rel="alternate" hreflang="fr" href="./Francais/rover-fr.html"><img src="/images/flags/fr.png" alt="fr"><font color="#EEEEEE">&nbsp;Fran&ccedil;ais</font></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a rel="alternate" hreflang="es" href="./Spanish/sp_rover.html"><img src="/images/flags/es.png" alt="es"><font color="#EEEEEE">&nbsp;Español</font></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      </td>
+   </tr>
+
+   <tr>
+      <td colspan=3 width=1000 height=180 style="padding-top: 5px;">
+      <IMG alt="S\'COOL Banner" src="/images/common-graphics/banners/SCOOLbanner1000x180CitizenScience.jpg" width=1000 />
+      </td> 
+   </tr>	  
+
+   <tr class="separator"><td></td></tr>
+
+   <tr>
+      <td colspan=3 align=center width=1000 height=36 style="background:  url(images/common-graphics/SCOOL-MOM-Cloud-1000W_cloud.jpg); background-repeat: no-repeat; font-family: arial; font-size: 15pt; font-weight: bold; padding-bottom: 5px;">
+      <span style="color: #941A40;">Message of The Month:</span>
+      <script>
+      <!-- // Hiding Script Content
+      // writeMOM
+      writeMOM();
+      //-->
+      </script>
+      </td> 
+   </tr>	  
+
+   <tr class="separator"><td></td></tr>
+
+</table>
+<!-- END COMMON HEADER -->
+
+<table width="1000" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+<td class="greenBOX" style="vertical-align: top; margin-top: 0px; padding-top: 0px;  background:#f9f8ea;" width="75%">
+<br>
+<p class="standard16">
+NASA scientists are very interested in learning how clouds affect our atmosphere. It is the <a href="https://www.youtube.com/watch?v=TNc5qjj8ZZE" target="_blank">clouds</a>, in part, that affect the overall temperature and energy balance of the Earth.  The more we know about clouds, the more we will know about our Earth as a system. And <i>YOU</i> can help by sending NASA your observations!</p>
+</p>
+
+<p class="standard16">
+<b>NASA S'COOL</b> has now joined forces with the <b>Global Learning and Observations to Benefit the Environment</b> <a href="https://www.globe.gov" target="_blank">(GLOBE) Program</a> creating a larger community of cloud observers across 120+ countries.
+</p>
+
+<ul><li>If you are new to GLOBE:</li>
+<br>
+<ul>
+   <li>Learn <a href="https://www.globe.gov/web/s-cool/home/participate" target="_blank">how to participate in the NASA GLOBE Cloud Observation Project.</a></li>
+   <li>Teachers may wish to become GLOBE Certified by participating in online <a href="https://www.globe.gov/get-trained/protocol-etraining" target="_blank">eTraining</a>.</li>
+   <br>
+</ul>
+<li>Citizen Science Observations can be submitted through the <a href="https://observer.globe.gov/about/get-the-app" target="_blank">GLOBE Observer app</a>.</li>
+</ul>
+</p>
+
+<p class="standard16margin">
+<b>Download the GLOBE Observer app:</b><br>
+<b>For iOS</b> via the <a href="https://apps.apple.com/us/app/globe-observer/id1090456751" target="_blank">App Store</a><br>
+<b>For Android</b> via <a href="https://play.google.com/store/apps/details?id=gov.nasa.globe.observer&hl=en" target="_blank">Google Play</a><br>
+</p>
+
+<p class="standard16">
+The S'COOL Citizen Science option continues to be available here if you are not able to submit cloud observations through GLOBE.
+</p>
+<!--
+<p class="standard16">
+<b>Our Citizen Scientists are called Rovers, they are <i>roaming</i> Cloud Observers.</b> Rovers will collect data on cloud type, height, cover and related conditions. Your observations help us to validate satellite data and give us a more complete picture of clouds in the atmosphere and their interactions with other parts of the integrated global Earth system. Observations are sent to NASA for comparison to similar information obtained from satellites. Reports from a wide range of locations are helpful to assess the satellite data under different conditions.
+</p>
+-->
+<p class="standard16">
+<span style="font-family: inherit; font-size: inherit; font-weight: bold; color: #000000;">The buttons to the right will walk you through each participation step!</span> We welcome participation from any interested observers, especially from places where official weather observations are few and far between.
+</p>
+
+<br>
+
+<!--
+<div class="standard" style="margin-bottom: 3px;">
+<div class="titleBLACK">ROVER Features</div><br>
+<center>Click on an image below to the view the full feature.</center>
+</div>
+<center>
+    <div id="bulletLooper" data-looper="go" class="looper slide" style="width: 400px;">
+    <div class="looper-inner">
+    <div class="item">
+    <a href="/images/slideshow/HorizonSpirit440W.jpg" title="<center><a href='https://www.bnl.gov/envsci/cloud/campaigns/MAGIC/index.php' target='_blank'>+ Visit the Site To Learn More</a></center><BR>Rover cloud observations coming soon from the container ship Spirit, operated by Horizon Lines, as it travels round trip from Los Angeles to Honolulu every two weeks from October 2012 through September 2013. More information coming soon."  class="theImageT"  rel="theImageT"><img alt="click to view the full story"  src="/images/slideshow/HorizonSpirit440W.jpg" style="width: 190px; border: 1px solid black" border=0  title="click to view the full story"></a>
+    <a href="/images/slideshow/hull_oceanwatch_feature440W.jpg" title="<center><a href='http://aroundtheamericas.org/' target='_blank'>+ Visit the Site To Learn More</a></center><BR>In May 2009, Around the Americas set out on a 25,000 mile sailing circumnavigation of the American continents with the mission of inspiring, educating, and engaging citizens of the Americas to protect our fragile oceans.  In actuality the project hit 13 Countries in 12 months and 17 days while traveling 28,000 nautical miles.  Along with achieving the mission of raising the awareness for the ocean environment through science and education, Around the Americas also supported the S'COOL project by making Rover cloud observations while they traveled."  class="theImageT"  rel="theImageT"><img alt="click to view the full story"   src="/images/slideshow/hull_oceanwatch_feature440W.jpg" style="width: 190px; border: 1px solid black" border=0  title="click to view the full story"></a>
+    </div>
+    <div class="item">
+    <a href="/images/slideshow/Roz_Savage440W.jpg"  class="theImageT"  rel="theImageT" title="<center><a href='http://www.rozsavage.com/expeditions/' target='_blank'>+ Visit the Site To Learn More</a></center><BR>Roz Savage, Ocean Rower and Rover extraordinaire, is the first female to row across the Pacific, Atlantic, and Indian Oceans, by herself!  Amidst everything going on, Roz was able to provide S'COOL with cloud observations from the middle of the ocean. Roz states that she is, 'excited to be working with NASA S'COOL, because it helps me to understand and appreciate our amazing Earth and its weather systems. Too often we take our Earth for granted, but it really is something special!'"><img alt="click to view the full story"   src="/images/slideshow/Roz_Savage440W.jpg" style="width: 190px; border: 1px solid black" border=0  title="click to view the full story"></a>
+    <a href="/images/slideshow/Rover_image440W.png"  class="theImageT"  rel="theImageT" title=" <center><a href='/en_view_rover.html' target='_blank'>+ Visit the Site To Learn More</a></center><BR>Observers will receive a <91>Match' email when their observations have fallen within their overpass time period.  The ground observation will be on the left and the satellite observation and images will be on the right.  There is also a comment section at the bottom of the email that we encourage observers to use to comment on their observation and contact the S'COOL Team."><img alt="click to view the full story"   src="/images/slideshow/Rover_image440W.png" style="width: 190px; border: 1px solid black" border=0  title="click to view the full story"></a>
+    </div>
+    </div>
+    <nav style="margin-right: 30px;">
+    <ul class="looper-nav">
+    <li><a href="#bulletLooper" data-looper="to" data-args="1">&bull;</a></li>
+    <li><a href="#bulletLooper" data-looper="to" data-args="2">&bull;</a></li>
+    </ul>
+    <a class="looper-control" data-looper="prev" href="#bulletLooper" style="color:white; ">&lt;</a>
+    <a class="looper-control right" data-looper="next" href="#bulletLooper"style="color:white; vertical-align: middle;">&gt;</a>
+    </nav>
+    </div>
+</center>
+
+</td>
+-->
+
+
+<td class="greenBOX" width="25%" style="vertical-align: top; margin-top: 0px; padding-top: 15px;  background:#f9f8ea;">
+
+
+<table style="border-collapse:separate; border-spacing: 5px 0px;">
+<tr>
+<td width="50%" height="75">
+<a id="button1" href="https://scool.larc.nasa.gov/en_rover_overpass.html" class="roverLinkBox01" title="Find Satellite Overpass" target="_blank"
+   onmouseover="document.getElementById('button1').style.background='#777777';document.getElementById('button1').style.color='#FFFF00';"
+   onmouseout="document.getElementById('button1').style.background='black';document.getElementById('button1').style.color='#FFFFFF';">Find Satellite Overpass</a>
+</td>
+</tr>
+
+<tr><td height="5px">&nbsp;</td></tr>
+<tr>
+<td width="50%" height="75">
+<a id="button2" href="./pdf/forme-ol.pdf"  class="roverLinkBox02"  title="Observe Sky: this link will open its target Adobe PDF document in a new window" target="_blank"
+   onmouseover="document.getElementById('button2').style.background='#777777';document.getElementById('button2').style.color='#FFFF00';"
+   onmouseout="document.getElementById('button2').style.background='black';document.getElementById('button2').style.color='#FFFFFF';">Observe Sky</a>
+</td>
+</tr>
+
+<tr><td height="5px">&nbsp;</td></tr>
+<tr>
+<td width="50%" height="75">
+<a id="button3" href="https://scool.larc.nasa.gov/en_rover_obs.html"  class="roverLinkBox03" title="Report Data" target="_blank"
+   onmouseover="document.getElementById('button3').style.background='#777777';document.getElementById('button3').style.color='#FFFF00';"
+   onmouseout="document.getElementById('button3').style.background='black';document.getElementById('button3').style.color='#FFFFFF';">Report Data</a>
+</td>
+</tr>
+
+<tr><td height="5px">&nbsp;</td></tr>
+<tr>
+<td width="50%" height="75">
+<a id="button4" href="/en_view_rover.html"  class="roverLinkBox04" title="Compare with Satellite Data" target="_blank"
+   onmouseover="document.getElementById('button4').style.background='#777777';document.getElementById('button4').style.color='#FFFF00';"
+   onmouseout="document.getElementById('button4').style.background='black';document.getElementById('button4').style.color='#FFFFFF';">Compare with Satellite Data</a>
+</td>
+</tr>
+
+<tr><td class="spacer"">&nbsp;</td></tr>
+<tr>
+<td width="50%" height="75">
+<a id="button5" href="https://science.nasa.gov/citizenscience" target="_blank" class="roverLinkBox05" title="Related Citizen Science Projects"
+   onmouseover="document.getElementById('button5').style.background='#777777';document.getElementById('button5').style.color='#FFFF00';"
+   onmouseout="document.getElementById('button5').style.background='black';document.getElementById('button5').style.color='#FFFFFF';">Related Citizen Science Projects</a>
+</td>
+</tr>
+<tr><td height="5px">&nbsp;</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<div class="footer_container" role="navigation">
+   <div class="footer_row" role="navigation">
+
+      <div class="footer_image" role="navigation">
+      <a href="https://www.nasa.gov"><img src="/images/nasa-logo.svg" ALT="go to NASA.gov"></a>
+      </div>
+
+      <div class="footer_one" role="navigation">
+      Page Curator: Tina Rogerson<BR>
+      NASA Official: Jessica Taylor<BR>
+      Page Last Modified:&nbsp;<SCRIPT> document.write(document.lastModified); </SCRIPT>
+      </div>
+      <div class="footer_two" role="navigation">
+         <a class="foot" href="http://odeo.hq.nasa.gov/nofear.html" target="_blank">+ No Fear Act </a><BR>
+         <a class="foot" href="https://www.nasa.gov/FOIA/index.html" target="_blank">+ Freedom of Information Act</a><BR>
+         <a class="foot" href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">+ Privacy Policy and Important Notices</a><BR>
+         <a class="foot" href="https://oig.nasa.gov/" target="_blank">+ Office of Inspector General</a><BR>
+         <a class="foot" href="https://www.nasa.gov/news/budget/index.html" target="_blank">+ Agency Financial Reports </a><BR>
+         <a class="foot" href="/GLOBE/contact/" target="_blank">+ Comments or Questions?</a><BR>
+      </div>
+   </div>
+</div>
+<br>
+
+<BR>
+</body>
+</HTML>

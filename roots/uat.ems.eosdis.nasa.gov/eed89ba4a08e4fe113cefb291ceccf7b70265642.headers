@@ -1,0 +1,11 @@
+GET https://uat.ems.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:57:03 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://uat.ems.eosdis.nasa.gov/ords/
+< Content-Length: 245

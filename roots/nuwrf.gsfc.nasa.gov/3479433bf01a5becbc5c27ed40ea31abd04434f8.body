@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/sixseventeen/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://nuwrf.gsfc.nasa.gov/about-nu-wrf-0" />
+<link rel="shortlink" href="https://nuwrf.gsfc.nasa.gov/node/85" />
+
+    <title>About NU-WRF | NU-WRF</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?s07xis" />
+<link rel="stylesheet" media="all" href="/modules/contrib/genpass/css/genpass.css?s07xis" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?s07xis" />
+<link rel="stylesheet" media="all" href="/modules/custom/smartmenus2/css/sm-ldas/sm-ldas.css?s07xis" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node.css?s07xis" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/bootstrap.min.css?s07xis" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/style_nuwrf.min.css?s07xis" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/js/twentytwenty.css?s07xis" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+
+    
+  </head>
+  <body class="layout-no-sidebars page-node-85 path-frontpage node--type-page">
+    <a href="#main-content" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+            
+
+<div id="page-container" class="container-fluid">
+                        
+        <header id="header" class="row sticky-top" role="banner" aria-label='Site header'>
+        <!-- Meatball -->
+        <div class="col-lg-1 col-md-2 col-sm-3 col-2 tex2-center no-padding meatball">
+            <a href="https://nasa.gov">
+                <img id="nasa-logo" src="https://nuwrf.gsfc.nasa.gov/themes/custom/sixseventeen/images/nasa.svg"
+                     alt="NASA Logo">
+            </a>
+        </div>
+        <!-- Brand and Slogan -->
+        <div class="col-xl-3 col-lg-3 col-md-8 col-sm-7 col-8 region header_region_1">
+            <div class="brand">
+              <h1>
+                <a href="/" title="Home"
+                   rel="home" class="navbar-brand">NU-WRF</a>
+              </h1>
+            </div>
+            <div class="slogan"></div>
+        </div>
+        <!-- Navbar / Main Menu -->
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa-lg"></i>
+            </span>
+        </button>
+
+        
+        <div id="navbar-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse col-lg-11 offset-lg-1" id="navbarSupportedContent">
+                      <nav role="navigation" aria-labelledby="block-sixseventeen-main-menu-menu" id="block-sixseventeen-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-sixseventeen-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                          <a href="/whats-new" class="nav-link nav-link--whats-new" data-drupal-link-system-path="node/163">What&#039;s New</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/research-highlights" class="nav-link nav-link--research-highlights" data-drupal-link-system-path="node/92">Research</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/case-studies" class="nav-link nav-link--case-studies" data-drupal-link-system-path="node/97">Case Studies</a>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/publications" class="nav-link dropdown-toggle nav-link--publications" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/91">Publications</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/publications" title="" class="nav-link--publications" data-drupal-link-system-path="node/91">Publications</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/conference-presentations" class="nav-link--conference-presentations" data-drupal-link-system-path="node/99">Conference Presentations</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                          <a href="/personnel" class="nav-link nav-link--personnel" data-drupal-link-system-path="personnel">Personnel</a>
+              </li>
+                <li class="nav-item">
+                          <a href="/software" class="nav-link nav-link--software" data-drupal-link-system-path="node/56">Software</a>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/documentation" class="nav-link dropdown-toggle nav-link--documentation" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/54">Documentation</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/documentation" title="" class="nav-link--documentation" data-drupal-link-system-path="node/54">Documentation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/nu-wrf-tutorials-0" class="nav-link--nu-wrf-tutorials-0" data-drupal-link-system-path="node/128">NU-WRF Tutorial</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/nu-wrf-user-guide" class="nav-link--nu-wrf-user-guide" data-drupal-link-system-path="node/131">NU-WRF userguide</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/lis" title="http://lis.gsfc.nasa.gov/LDT/index.php" class="nav-link--lis" data-drupal-link-system-path="node/61">LIS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/wrf" class="nav-link--wrf" data-drupal-link-system-path="node/58">WRF</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                          <a href="/news" title="" class="nav-link nav-link--news" data-drupal-link-system-path="news">News</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                    <form action="/search/node" method="get" id="search-block-form"
+                          accept-charset="UTF-8"
+                          class="form-inline search-form search-block-form form-row"
+                          data-drupal-form-fields="edit-keys" >
+                        <input id="edit-keys" name="keys"
+                               class="form-search me-sm-2" type="search"
+                               placeholder="Search" aria-label="Search"
+                               data-drupal-selector="edit-keys">
+                        <button aria-label="Search" id="top-search-box" class="btn form-submit"
+                                data-drupal-selector="edit-submit"
+                                type="submit">
+                            <i class="fa fa-search fa-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+           </header>
+
+<div class="row no-gutters header_image" style="">
+    <div class="col col-sm-12 col-12">
+    </div>
+</div>
+
+ 
+    <section class="row no-gutters">
+        <div class="col col-sm-12 col-12 region placeholder_region_2">
+          <section class="row region region-placeholder-region-2">
+    <div id="block-bannerimage" class="block block-block-content block-block-content95751879-1fdf-4eec-ac01-c775616073be">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="Banner image of dust, lightening and irrigation" data-entity-type="" data-entity-uuid="" src="/sites/default/files/bannernew.jpg" /></p>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+        </div>
+    </section>
+
+    <main id="content_section" class="row no-gutters">
+        <section id="main-content" class="col-sm-12">
+              <div data-drupal-messages-fallback class="hidden"></div>
+
+
+<article role="article" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+        
+      </header>
+  <div class="node__content clearfix">
+    
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The <strong>NASA-Unified Weather Research and Forecasting (NU-WRF) model</strong> is an observation-driven regional earth system modeling and assimilation system at satellite-resolvable scale. NU-WRF is developed upon NCAR’s Advanced Research WRF (ARW); integrates NASA’s advanced physics modules, Land Information System, satellite simulators, and ensemble data assimilation system; and can be driven by GEOS-5 and MERRA. NU-WRF is used to investigate various earth science phenomena including aerosol, cloud, precipitation, and land processes and their interactions. NU-WRF is one of three major earth system modeling systems funded by NASA’s Modeling Analysis and Prediction (MAP) program. </p>
+<h3><strong>NU-WRF components: </strong></h3>
+<p class="text-align-center"><img alt="" src="/sites/default/files/img/NUWRF_Comp1.png" /></p>
+<p><strong>Physics modules:</strong> Goddard one-moment bulk microphysics, Goddard shortwave/longwave radiation, GOddard Chemistry Aerosols Radiation Transport model (GOCART), and those physics coupling modules.</p>
+<p><strong>Land Information System: </strong>GSFC Land Information System (LIS) that includes various land-surface models, physical boundary conditions (land covers, greenness, soil types, etc.), data assimilation, and model evaluations and calibration framework.</p>
+<p><strong>Satellite Simulator: </strong>The Goddard Satellite Data Simulator Unit (G-SDSU) that predicts various satellite-observable raw-level signals (radiance or backscatter) from the NU-WRF simulations.</p>
+<p><strong>Ensemble Data Assimilation:</strong> Ensemble Data Assimilation (EDA) system that assimilates cloud-precipitation-affected satellite radiance using ensemble NU-WRF simulations and G-SDSU through Maximum Likelihood Ensemble Filter (MLEF).</p>
+<p><strong>Lateral and initial boundary conditions: </strong>In addition to the traditional global and regional models (e.g., ERA, NCEP reanalysis), the NU-WRF can be driven by the NASA GEOS-5 global forecasting simulations or the MERRA reanalysis, and the global GOCART simulations for atmospheric aerosols.</p>
+<p>Therefore, NU-WRF can be applied to fully coupled aerosol-cloud-precipitation-land simulations and assimilation at the satellite-resolvable scales (1~5km of horizontal grid spacing).</p>
+<hr /><div class="bs_grid" id="homepage-blocks">
+<div class="row" data-row-lg="equal_equal_equal_equal" data-row-md="equal_equal_equal_equal" data-row-none="none" data-row-sm="equal_equal_equal_equal" data-row-xl="equal_equal_equal_equal" data-row-xxl="none">
+<div class="col-sm col-md col-lg col-xl">
+<p class="text-align-center"><a href="/documentation"><img alt="Documents" data-entity-type="" data-entity-uuid="" src="/sites/default/files/35920.png" /></a></p>
+<p class="text-align-center"><a href="/documentation">Documentation</a></p>
+</div>
+<div class="col-sm col-md col-lg col-xl">
+<p class="text-align-center"><a href="/case-studies"><img alt="Case Studies" data-entity-type="" data-entity-uuid="" src="/sites/default/files/whitecasesymbol.png" /></a></p>
+<p class="text-align-center"><a href="/case-studies">Case Studies</a></p>
+</div>
+<div class="col-sm col-md col-lg col-xl">
+<p class="text-align-center"><a href="/research-highlights"><img alt="Research" data-entity-type="" data-entity-uuid="" src="/sites/default/files/2345221.png" /></a></p>
+<p class="text-align-center"><a href="/research-highlights">Research</a></p>
+</div>
+<div class="col-sm col-md col-lg col-xl">
+<p class="text-align-center"><a href="/news"><img alt="News" data-entity-type="" data-entity-uuid="" src="/sites/default/files/whitenewssymbol_0.png" /></a></p>
+<p class="text-align-center"><a href="/news">News</a></p>
+</div>
+</div>
+</div>
+<hr /><h3><strong>Scientific Objectives</strong></h3>
+<p>NU-WRF is designed to study following areas.</p>
+<ul><li>Impacts of land-surface initialization and hydrological data assimilation on mesoscale weather and regional climate.</li>
+<li>Feedbacks and coupling between the land surface and planetary boundary layer.</li>
+<li>High-impact phenomena, such as hurricane, squall line, blizzard, and drought/flood, dust storms, wildfire, heavy pollution events. </li>
+<li>Aerosol-cloud-precipitation interactions.</li>
+<li>Mesoscale processes controlling the variability of aerosols and trace gases.</li>
+<li>Effects of aerosols and trace gases on regional climate and air quality.</li>
+<li>Improve representation of regional water cycle through assimilating precipitation-affected microwave radiance from satellites.</li>
+<li>Semi-operational high-resolution weather forecasting to support NASA’s field campaigns.</li>
+<li>Downscaling NASA’s global modeling and reanalysis for regional climate.</li>
+<li>Supporting current and future satellite missions via satellite simulator.</li>
+<li>Improving CO<sub>2</sub> flux and transport process representation via high-resolution simulation of the surface state and weather.</li>
+</ul><h3><strong>Project Information</strong></h3>
+<p><span><span><span><span><span><span><strong><span>Cloud, convection, and radiation: </span></strong><span><span>Toshi</span></span> Matsui (lead), Takamichi Iguchi, Roger Shi</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><strong><span>Land surface and PBL: </span></strong>Joseph Santanello (lead), Patricia Parker, Jinwoong Yoo</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><strong>Aerosol and chemistry</strong>: Mian Chin (lead), Zhining Tao, Dongchul Kim</span></span></span></span></span></span></p>
+<p><span><span><span><span><span><span><strong><span>Software POC:</span></strong> C. Cruz, B. Van Aartsen</span></span></span></span></span></span></p>
+<hr /><p><strong>Citation:</strong></p>
+<p><span>Peters-Lidard, C.D., E. M. Kemp, T. Matsui, J. A. Santanello, Jr., S. V., Kumar, J. P. Jacob, T. Clune, W.-K. Tao, M. Chin, A. Hou, J. L. Case,, D. Kim, K.-M. Kim, W. Lau, Y. Liu, J.-J. Shi, D. Starr, Q. Tan,, Z. Tao, B. F. Zaitchik, B. Zavodsky, S. Q. Zhang, M. Zupanski (2015), Integrated modeling of aerosol, cloud, precipitation and land processes at satellite-resolved scales,</span><em> Environmental Modelling &amp; Software</em><span>, </span><strong>67</strong><span>, 149–159</span><span>,  </span><span>doi:</span><a href="http://dx.doi.org/10.1016/j.envsoft.2015.01.007">http://dx.doi.org/10.1016/j.envsoft.2015.01.007</a><span>.</span></p>
+<hr /><div class="align-center row bs-1col media media--type-before-and-after-image media--view-mode-default">
+  
+  <div class="twentytwenty-container col-xs-12 col-sm-12 bs-region bs-region--main">
+      <img loading="eager" src="/sites/default/files/beforeafter/2023-04/clean_2022-08-07_100500_1080x931.png" alt="NU-WRF EPIC Simulation with Clean Background Aerosols" /><img loading="eager" src="/sites/default/files/beforeafter/2023-04/polluted_2022-08-07_100500_1080x931.png" alt="NU-WRF EPIC Simulation with Polluted Background Aerosols" /></div>
+</div>
+
+<p><a href="/animation/nu-wrf-epic-simulation">Click here to see the full-sized comparison</a>.</p>
+</div>
+      
+
+
+  </div>
+</article>
+
+
+        </section>
+
+    </main>
+    
+    <footer id="footer_section" data-footer-bg="">
+
+    <section class="row">
+            </section>
+    <section class='row footer_region_middle'>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                      <section class="row region region-footer-region-1">
+    <div id="block-nasameatball" class="block block-block-content block-block-content7bec4ff6-d427-4308-9cde-1135b3abf019">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="NASA" data-entity-type="" data-entity-uuid="" src="/sites/default/files/nasa.svg" /></p>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                      <section class="row region region-footer-region-3">
+    <div id="block-footercredits" class="block block-block-content block-block-contentf86fc2d2-971f-4b82-abd6-e1f236518d5c">
+  
+    
+  <div id='required-credits'>
+  <p> 
+  <strong><span>Responsible </span>NASA Official:</strong> 
+    <a href="mailto:joseph.a.santanello@nasa.gov?subject=">
+        Joseph Santanello</a><br>
+    <strong>Web Developers:</strong> 
+    <a href="mailto:gsfc-dl-610-webdev@mail.nasa.gov?subject=">
+        610 WebDev</a><br>
+
+        <strong>Curator:</strong> 
+    <a href="mailto:toshihisa.matsui-1@nasa.gov?subject=">
+        Toshihisa Matsui</a><br>
+    
+    <a href='/contact-us'>Contact Us</a> | 
+    <a href="/sitemap.xml">Site Map</a> | 
+    <a href='http://www.nasa.gov/about/highlights/HP_Privacy.html' 
+       target='_blank'>Privacy Policy</a>
+  </p>
+      <p> 
+    Last Updated: 04/21/2023
+  </p>
+    </div>
+</div>
+
+  </section>
+
+                </div>
+    </section>
+    <section class="row">
+            </section>
+</footer>
+<div class="footer_bg">
+</div>
+</div>
+    <!-- Add Federal Analytics -->
+    <script type='text/javascript' id='_fed_an_ua_tag' 
+            src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'>
+    </script>
+
+    <!-- GA3 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56099487-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-56099487-1' );
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJQ23Y3VNP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CJQ23Y3VNP');
+    </script>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/85","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(.*).nasa.gov","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are now navigating to an external website. Do you wish to continue?","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"smarttheme":"sm-ldas","smartloc":"top","smartpath":"modules\/custom\/smartmenus2\/","smartclass":"sm-ldas sm nav navbar-nav","user":{"uid":0,"permissionsHash":"13ab941c1be1ff3a1d755d5df3a978b250f4e64644455a55f730b61097e9b4ee"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.10"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/bootstrap.bundle.min.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/dist/sixseventeen.min.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.event.move.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.twentytwenty.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/dist/twentytwentyFix.min.js?v=9.5.10"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.5.10"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/jquery.smartmenus.min.js?s07xis"></script>
+<script src="/modules/custom/smartmenus2/js/bugfix.js?s07xis"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.min.js?s07xis"></script>
+<script src="/modules/custom/smartmenus2/js/smart.js?s07xis"></script>
+
+  </body>
+</html>

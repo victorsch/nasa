@@ -1,0 +1,22 @@
+GET https://darktarget.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:02:34 GMT
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Strict-Transport-Security: max-age=31557600
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: must-revalidate, no-cache, private
+< From-Origin: same
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Ua-Compatible: IE=edge
+< X-Generator: Drupal 9 (https://www.drupal.org)
+< X-Drupal-Dynamic-Cache: MISS
+< X-Xss-Protection: 1
+< X-Drupal-Cache: HIT

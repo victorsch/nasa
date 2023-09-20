@@ -1,0 +1,10 @@
+GET http://spacecomm.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.spacecomm.nasa.gov/
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Date: Tue, 19 Sep 2023 06:03:52 GMT
+< Content-Length: 154

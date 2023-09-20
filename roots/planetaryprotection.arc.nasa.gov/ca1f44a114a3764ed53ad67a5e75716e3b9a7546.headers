@@ -1,0 +1,10 @@
+GET http://planetaryprotection.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://planetaryprotection.arc.nasa.gov/
+< Content-Length: 249
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:05:28 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN

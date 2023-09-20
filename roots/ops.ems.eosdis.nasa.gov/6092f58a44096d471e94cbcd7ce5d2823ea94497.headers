@@ -1,0 +1,11 @@
+GET https://ops.ems.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:03:17 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://ops.ems.eosdis.nasa.gov/ords/
+< Content-Length: 245

@@ -1,0 +1,19 @@
+GET https://dml.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: private, no-cache, no-store, must-revalidate
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Pragma: no-cache
+< X-Content-Type-Options: nosniff
+< Set-Cookie: _95aa1=fa16795b2a4e4f32; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=9E08AE1B9A671C001ACD43D46D7AAECB; Path=/; Secure; HttpOnly
+< Set-Cookie: COOKIE_SUPPORT=true; Max-Age=31536000; Expires=Wed, 18-Sep-2024 05:56:43 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: GUEST_LANGUAGE_ID=en_US; Max-Age=31536000; Expires=Wed, 18-Sep-2024 05:56:43 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: f0945726cca292d5c1a4f124800280f0=8188aa50c9286587c32292e5fb2e492f; path=/; HttpOnly; Secure; SameSite=None
+< Date: Tue, 19 Sep 2023 05:56:43 GMT
+< Content-Type: text/html;charset=UTF-8
+< X-Xss-Protection: 1
+< Server: Apache
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Frame-Options: SAMEORIGIN

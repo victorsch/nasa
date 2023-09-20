@@ -1,0 +1,22 @@
+GET https://pds-jira.jpl.nasa.gov
+
+
+< HTTP/1.1 302 
+< Date: Tue, 19 Sep 2023 06:04:44 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=UTF-8
+< X-Permitted-Cross-Domain-Policies: none
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Ausername: anonymous
+< Location: /login.jsp
+< Set-Cookie: atlassian.xsrf.token=B60M-ZG5B-ARN5-TGRF_620c5457ea43bd820c3b05f67e4433e3e6984285_lout; Path=/;HttpOnly;Secure
+< Set-Cookie: JSESSIONID=AD16421B75DFA61FA23333DA8C8B61C9; Path=/; Secure; HttpOnly;HttpOnly;Secure
+< X-Arequestid: 1384x14593x1
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Length: 0
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block

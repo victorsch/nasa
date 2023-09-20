@@ -1,0 +1,17 @@
+GET https://microgravityuniversity.jsc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:49:42 GMT
+< Last-Modified: Thu, 07 Sep 2023 14:54:28 GMT
+< X-Powered-By: appdat
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< X-Using-Nginx-Controller: true
+< Etag: "64f9e424-5b1"
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Content-Length: 1457
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Xss-Protection: 1; mode=block

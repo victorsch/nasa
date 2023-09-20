@@ -1,0 +1,13 @@
+GET http://intern.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://intern.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 46b3f244fe2a22dff3a717bf9da34d86.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: LJThJ23KjiGaHHUu5JeSQkCX-e-Oj-pQfohGwKbRNtjHDldfrp_vlg==
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< Date: Tue, 19 Sep 2023 05:57:57 GMT
+< X-Amz-Cf-Pop: JFK52-P4

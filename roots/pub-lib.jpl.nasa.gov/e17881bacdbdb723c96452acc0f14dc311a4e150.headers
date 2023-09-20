@@ -1,0 +1,9 @@
+GET http://pub-lib.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx/1.20.1
+< Date: Tue, 19 Sep 2023 05:49:50 GMT
+< Content-Type: text/html
+< Content-Length: 169
+< Location: https://pub-lib.jpl.caltech.edu/

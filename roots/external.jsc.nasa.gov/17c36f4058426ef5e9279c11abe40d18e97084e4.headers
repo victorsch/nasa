@@ -1,0 +1,14 @@
+GET http://external.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< X-Content-Type-Options: nosniff
+< X-Using-Nginx-Controller: true
+< Date: Tue, 19 Sep 2023 05:50:16 GMT
+< Content-Length: 164
+< Location: https://external.jsc.nasa.gov
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html

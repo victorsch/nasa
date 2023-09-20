@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
+<head>
+<base href="https://nssdc.gsfc.nasa.gov" />
+
+<title>Welcome to the NSSDCA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="NASA Space Science Data Coordinated Archive (NSSDCA) Home Page" />
+<meta name="keywords" content="NASA, NSSDC, NSSDCA, data, space physics, astronomy, astrophysics, planetary science, planet, planets, moon, lunar science, solar wind, CD-ROM, CD-ROMs, solar physics" />
+<meta name="orgcode" content="690.1" />
+<meta name="rno" content="Edwin.J.Grayzeck.1" />
+<meta name="content-owner" content="Edwin.J.Grayzeck.1" />
+<meta name="webmaster" content="Edwin.V.Bell.1" />
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/style/everyone.css" />
+<style type="text/css" media="screen">
+@import url("/style/nasa_style.css");
+@import url("/style/nssdc_style.css");
+@import url("/style/skip_nav.css");
+</style>
+<!--
+<style type="text/css" media="screen">
+@import url("/style/style_iefixes.css");
+</style>
+-->
+<link rel="stylesheet" type="text/css" media="print" href="/style/print.css" />
+<link rel="stylesheet" type="text/css" media="handheld" href="/style/handheld.css" />
+
+<script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+
+</head>
+<body class="lnoneon">
+
+
+
+  <div id="skip">
+    <a href="#maincontent">Skip to Main Content</a>
+  </div>
+
+
+<div id="paper">
+  <div id="nasahead">
+<a href="http://www.nasa.gov/" target="_blank"><img src="/logo/nasa_bigheader_logo.gif" alt="National Aeronautics and Space Administration" width="288" height="51" /></a>
+
+<div id="nasaheadlinks">
+  <ul>
+    <li>+ <a href="http://www.nasa.gov" target="_blank">Visit the NASA Portal</a></li>
+    <li>+ <a href="http://www.nasa.gov/centers/goddard/home/" target="_blank">Goddard Home</a></li>
+  </ul>
+</div>
+
+<div id="searchbox"><form name="search" id="search" method="get" action="http://www.google.com/search"><h3><label for="keywords">Search:</label></h3><input type="text" size="10" name="q" id="keywords" /><input type="hidden" name="sitesearch" value="nssdc.gsfc.nasa.gov" /><input type="image" src="/button/button_go.gif" alt="Submit Search" class="submitit" /></form></div>
+
+  </div>
+
+<div id="menu">
+  <ul>
+    <li id="one"><a href="/about/charter.html" title="NSSDCA Mission"><span>NSSDCA Mission</span></a></li><li id="two"><a href="/about/about_nssdc.html" title="About the NSSDCA"><span>About NSSDCA</span></a></li><li id="three"><a href="/nssdc/nssdc_faq.html" title="Frequently Asked Questions"><span>Frequently Asked Questions</span></a></li><li id="four"><a href="/search.html"><span>Search</span></a></li><li id="five"><a href="mailto:gsfc-dl-nssdca-request@mail.nasa.gov?Subject=Feedback from NSSDCA Main Page" title="Contact Us"><span>Contact Us</span></a></li>
+  </ul>
+</div>
+
+
+  <div id="contentwrapper">
+    <div id="rightcontent"><a name="maincontent"></a>
+      <div id="headimage"><img src="/logo/nssdca_header.jpg" alt="NASA Space Science Data Coordinated Archive" width="530" height="100" /></div>
+
+
+      <p class="bigtext">
+      Welcome to the NASA Space Science Data Coordinated Archive, NASA's
+      archive for space science mission data.
+      </p>
+
+<p style="color: red" align="justify">
+</p>
+
+      <div class="twocol">
+        <div class="urone">
+          <h2>Discipline Services</h2>
+
+          <div class="lgfeature">
+            <div class="theimg"><a href="/astro/"><img src="/button/galaxy_small.jpg" width="100" height="75" alt="Astrophysics" /></a></div>
+            <dl>
+              <dt>Astrophysics</dt>
+              <dd>Astrophysics data and mission information
+                <ul class="linklist">
+                  <li><a href="/astro/">Visit this website</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div class="clearleft"></div>
+
+          <div class="lgfeature">
+            <div class="theimg"><a href="/space/"><img src="/button/aurora_small.jpg" width="100" height="75" alt="Heliophysics" /></a></div>
+            <dl>
+              <dt>Heliophysics</dt>
+              <dd>Space and solar physics data and mission information
+                <ul class="linklist">
+                  <li><a href="/space/">Visit this website</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div class="clearleft"></div>
+
+          <div class="lgfeature">
+            <div class="theimg"><a href="/planetary/"><img src="/button/planet_montage_small.jpg" width="100" height="75" alt="Lunar and Planetary Science" /></a></div>
+            <dl>
+              <dt>Solar System Exploration</dt>
+              <dd>Lunar and planetary science data and mission information
+                <ul class="linklist">
+                  <li><a href="/planetary">Visit this website</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div class="clearleft"></div>
+
+          <div class="lgfeature">
+            <div class="theimg"><a href="/image/"><img src="/button/astronaut_small.jpg" width="100" height="75" alt="Image Resources" /></a></div>
+            <dl>
+              <dt>Image Resources</dt>
+              <dd>Access to a variety of NASA image products
+                <ul class="linklist">
+                  <li><a href="/image/">Visit this website</a></li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div class="clearleft"></div>
+
+          <h2>Archive Support</h2>
+
+          <ul>
+            <li><a href="/nssdc/submitting_data.html">Submitting Data</a></li>
+
+            <li><a href="/nssdc/pdmp_guidelines_march93.rtf">Guidelines for PDMPs</a> (March 1993, Rich Text Format)</li>
+            <li><a href="/nssdc/data_retention.html">White paper on NASA science data retention</a></li>
+            <li><a href="/nssdc/RAXWhite_Paperu.pdf">White paper on Resident archives</a></li>
+            <li><a href="/nssdc/PDS_Data_Policies_110330.pdf">PDS Data Policies</a> (March 2011)</li>
+                        <li><a href="/nssdc/Heliophysics_Data_Policy_2009Apr12.pdf">NASA Heliophysics Science Data Management Policy</a> (April&nbsp;2009)</li>
+            <li><a href="/archive/pdmp/">NASA Mission Project Data Management Plans (PDMPs)</a></li>
+
+            <li><a href="/archive/mou/">Memoranda of Understanding</a></li>
+            <li><a href="/archive/plan/">Archive Plans</a></li>
+          </ul>
+
+
+        </div>
+        <div class="urtwo">
+          <h2>Access Services</h2>
+
+          <ul>
+            <li><a href="/nssdc/obtaining_data.html">Obtaining Data</a></li>
+            <li><a href="/nmc/">Master Catalog</a></li>
+            <li><a href="/spase/">SPASE Registry Search</a></li>
+          </ul>
+
+          <h2>Other Services</h2>
+
+          <ul>
+            
+            
+            <li><a href="/publication/">Publications</a></li>
+          </ul>
+
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div id="leftcontent">
+      <div id="lefttitle"><a href="/" class="homeabs">+ Home</a><h2>NSSDCA</h2><div class="mac ie fix"></div></div>
+    <div id="leftnav">
+      <ul>
+        <li id="lnone"><a href="/">Services</a></li>
+        <li id="lntwo"><a href="/astro/">Universe Exploration</a></li>
+        <li id="lnthree"><a href="/space/">Heliophysics</a></li>
+        <li id="lnfour"><a href="/planetary/">Solar System Exploration</a></li>
+        <li id="lnfive"><a href="/image/">Image Resources</a></li>
+      </ul>
+    </div>
+
+
+      <div class="fact">
+        <h3>Recent News in...</h3>
+
+        <h4>Astrophysics</h4>
+
+        <p>
+JAXA's
+<a href="/nmc/spacecraft/display.action?id=2023-137A"><strong>XRISM</strong></a>
+mission was successfully launched at 23:42&nbsp;UT 06&nbsp;September.
+</p>
+
+<p>
+NASA's
+<a href="/nmc/spacecraft/display.action?id=2021-130A"><strong>James Webb Space Telescope</strong></a>
+released its latest deep field image, featuring never-before-seen details
+in a region of space known as Pandora’s Cluster (Abell 2744).
+<a href="https://www.nasa.gov/feature/goddard/2023/nasa-s-webb-uncovers-new-details-in-pandora-s-cluster"><strong>More...</strong></a>
+</p>
+
+<p>
+<a href="/nmc/spacecraft/display.action?id=2021-121A"><strong>Imaging X-Ray Polarimetry Explorer (IXPE)</strong></a>,
+a joint NASA/ASI mission, has uncovered important new information regarding
+blazars, supermassive black holes feeding off of surrounding material.
+<a href="https://www.nasa.gov/feature/nasa-s-ixpe-helps-solve-black-hole-jet-mystery"><strong>More...</strong></a>
+</p>
+
+
+        <h4>Heliophysics</h4>
+
+        <p>
+The
+<a href="/nmc/spacecraft/display.action?id=2018-065A"><strong>Parker Solar Probe</strong></a>
+made its 15<sup>th</sup> perihelion pass of the Sun, at a distance of 0.06&nbsp;AU,
+on 17&nbsp;March 2023.
+</p>
+
+<p>
+ESA's
+<a href="/nmc/spacecraft/display.action?id=2020-010A"><strong>Solar Orbiter</strong></a>
+reached its 6<sup>th</sup> perihelion, at 0.29&nbsp;AU, on 10&nbsp;April 2023.
+</p>
+
+<p>
+The
+<a href="/nmc/spacecraft/display.action?id=2022-129A"><strong>ASO-S</strong></a>
+mission to study solar flares and CMEs launched on 08&nbsp;October 2022. 
+</p>
+
+
+        <h4>Lunar and Planetary Science</h4>
+
+        The 
+<a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2016-055A">
+OSIRIS-REx</a> sample return capsule will return on 24 September, re-entering 
+the atmosphere at about 14:42 UT (10:42 a.m. EDT) and landing at the Utah Test 
+and Training Range about 13 minutes later with its samples from asteroid Bennu. 
+Live coverage on 
+<a href="https://www.nasa.gov/live">
+NASA TV</a> 
+will begin at 10:00 a.m. EDT on the 24th. 
+A news conference is planned for 5:00 p.m. EDT.
+<p></p>
+
+The JAXA (Japan) 
+<a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=SLIM">
+Smart Lander for Investigating Moon (SLIM)</a> 
+mission launched on September 6 at 23:42:11 UT (7:42:11 p.m. EDT) and 
+successfully separated 47 minutes later to begin its roughly 5 month journey 
+to the lunar surface.
+<p></p>
+
+The Indian Space Research Organization (ISRO)
+<a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=CHANDRYN3">
+Chandrayaan 3</a> 
+Vikram lander touched down successfully on the Moon on 23 August at about 
+12:33 UT (8:33 a.m. EDT) and is operating on the surface.
+<p></p>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="clear">&nbsp;</div>
+
+<div id="nasafoot">
+  <a href="http://www.usa.gov/" target="_blank"><img src="/logo/usagov_logo.gif" width="130" height="34" alt="[USA.gov]" /></a>
+
+      <div id="nasafootplus">
+      <ul>
+        <li>+ <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+        <li>+ <a href="https://get.adobe.com/reader/">Download Adobe Reader</a></li>
+      </ul>
+    </div>
+
+  <a href="http://www.nasa.gov/" target="_blank"><img id="nasafootr" src="/logo/nasa_logo_small.gif" width="61" height="40" alt="NASA - nasa.gov" /></a>
+
+
+  <div id="nasafootlinks">
+    <ul>
+      <li>NASA Official: <a href="mailto:David.R.Williams@nasa.gov">Dr. David R. Williams</a>
+</li>
+      <li>Curator: <a href="mailto:Ed.Bell@nasa.gov">Dr. Edwin Bell, II</a>
+</li>
+      <li>Version 4.3.34</li>
+      <li>Last updated: 07 November 2022</li>
+    </ul>
+  </div>
+</div>
+</div>
+</body>
+</html>

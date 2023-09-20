@@ -1,0 +1,13 @@
+GET http://spaceradiation.jsc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.nasa.gov/hrp/elements/radiation/
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< Date: Tue, 19 Sep 2023 06:04:00 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< X-Xss-Protection: 1; mode=block

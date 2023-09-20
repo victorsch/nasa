@@ -1,0 +1,10 @@
+GET http://nasaeclips.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 240
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:02:36 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://nasaeclips.arc.nasa.gov/

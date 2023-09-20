@@ -1,0 +1,16 @@
+GET https://monitoring.larcmap.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-store
+< Location: /login
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< Date: Tue, 19 Sep 2023 05:44:10 GMT
+< Content-Length: 29
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=utf-8

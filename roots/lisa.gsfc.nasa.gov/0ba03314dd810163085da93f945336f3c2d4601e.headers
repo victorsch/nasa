@@ -1,0 +1,8 @@
+GET http://lisa.gsfc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Server: BigIP
+< Connection: close
+< Content-Length: 0
+< Location: https://lisa.gsfc.nasa.gov/

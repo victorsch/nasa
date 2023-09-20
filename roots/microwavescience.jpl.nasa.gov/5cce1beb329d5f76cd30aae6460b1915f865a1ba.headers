@@ -1,0 +1,17 @@
+GET https://microwavescience.jpl.nasa.gov
+
+
+< HTTP/1.1 200 200
+< X-Frame-Options: SAMEORIGIN
+< Server: Apache
+< Set-Cookie: cfid=e56f00f5-15d6-4450-84ef-7a6a214ccb98;Path=/;Expires=Wed, 17-Sep-2053 13:41:41 GMT;HTTPOnly
+< Set-Cookie: cftoken=0;Path=/;Expires=Wed, 17-Sep-2053 13:41:41 GMT;HTTPOnly
+< Set-Cookie: HTML=no;Path=/
+< Set-Cookie: CF_CLIENT_MWS_DEV_LV=1695102611493;Path=/;Expires=Mon, 18-Dec-2023 05:50:11 GMT
+< Set-Cookie: CF_CLIENT_MWS_DEV_TC=1695102611493;Path=/;Expires=Mon, 18-Dec-2023 05:50:11 GMT
+< Set-Cookie: CF_CLIENT_MWS_DEV_HC=2;Path=/;Expires=Mon, 18-Dec-2023 05:50:11 GMT
+< Expires: {ts '2023-09-18 22:50:11'}
+< Content-Length: 141024
+< Date: Tue, 19 Sep 2023 05:50:11 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload;
+< Content-Type: text/html;charset=UTF-8

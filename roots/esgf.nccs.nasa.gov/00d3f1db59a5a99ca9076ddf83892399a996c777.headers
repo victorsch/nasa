@@ -1,0 +1,14 @@
+GET https://esgf.nccs.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31557600; includeSubdomains;
+< Last-Modified: Fri, 03 Apr 2020 20:51:37 GMT
+< Etag: "5e-5a2691563a617"
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:05:00 GMT
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Content-Length: 94

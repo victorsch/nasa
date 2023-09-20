@@ -1,0 +1,24 @@
+GET https://disc.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Dns-Prefetch-Control: off
+< Vary: Accept-Encoding
+< Via: 1.1 gs6102dsc-web1.gesdisc.eosdis.nasa.gov
+< Server: Apache
+< X-Download-Options: noopen
+< Date: Tue, 19 Sep 2023 06:00:33 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Strict-Transport-Security: max-age=15552000; includeSubDomains
+< Accept-Ranges: bytes
+< Cache-Control: public, max-age=0
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Mon, 18 Sep 2023 18:14:25 GMT
+< Etag: W/"a35-18aa980326f"
+< Set-Cookie: 145109161141712028191376183115=s%3AQu86n6r-mCdPLbAxDpL2OKNHjEeU3v5Z.Okly2zmzz19tlZJ1GXMtM66%2BHBWvTDfxZIWDfaFwHSw; Domain=.nasa.gov; Path=/; HttpOnly

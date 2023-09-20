@@ -1,0 +1,806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/About_the_Airborne_Science_Program" />
+<link rel="shortlink" href="/node/2" />
+  <title>NASA Airborne Science Program</title>
+  <style type="text/css" media="all">
+@import url("https://airbornescience.nasa.gov/modules/system/system.base.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/system/system.menus.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/system/system.messages.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/system/system.theme.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://airbornescience.nasa.gov/modules/comment/comment.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/domain/domain_nav/domain_nav.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/custom/espodb/espodb.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/field/theme/field.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/node/node.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/search/search.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/modules/user/user.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/asset/css/assets.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/views/css/views.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/ckeditor/css/ckeditor.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://airbornescience.nasa.gov/sites/all/modules/custom/calendar/calendar_multiday/calendar_multiday.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/ctools/css/ctools.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/custom/date/date_popup/themes/datepicker.1.7.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/default/files/honeypot/honeypot.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/css/jquery.jscrollpane.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/modules/custom/date/date_api/date.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/css/207071main_allpages.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/css/207072main_allmodules.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/css/207308main_allmodules_homepage.css?s0vqsr");
+@import url("https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/css/style.css?s0vqsr");
+</style>
+  <script type="text/javascript" src="/sites/all/libraries/jquery/jquery-3.7.0.min.js?v=3.7.0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/all/libraries/jquery/jquery-migrate-3.4.1.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/misc/jquery-extend-3.4.0.js?v=3.7.0"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=3.7.0"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/misc/drupal.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/misc/form-single-submit.js?v=7.98"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/modules/entityreference/js/entityreference.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/js/jquery.jscrollpane.min.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/js/front-page.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/js/script.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/themes/custom/nasa/js/jquery.hoverIntent.min.js?s0vqsr"></script>
+<script type="text/javascript" src="https://airbornescience.nasa.gov/sites/all/modules/jquery_update/js/jquery_position.js?v=0.0.1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"nasa","theme_token":"cZ6f4V8OBWF-UtpkLt_2l5uJn4ESpCIcnWqmOmxvkRM","js":{"\/sites\/all\/libraries\/jquery\/jquery-3.7.0.min.js":1,"0":1,"\/sites\/all\/libraries\/jquery\/jquery-migrate-3.4.1.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/themes\/custom\/nasa\/js\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/custom\/nasa\/js\/front-page.js":1,"sites\/all\/themes\/custom\/nasa\/js\/script.js":1,"sites\/all\/themes\/custom\/nasa\/js\/jquery.hoverIntent.min.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_position.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"sites\/all\/modules\/custom\/espodb\/espodb.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/mailman\/mailman.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/asset\/css\/assets.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/custom\/calendar\/calendar_multiday\/calendar_multiday.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/date\/date_popup\/themes\/datepicker.1.7.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/themes\/custom\/nasa\/css\/jquery.jscrollpane.css":1,"sites\/all\/modules\/custom\/date\/date_api\/date.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207071main_allpages.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207072main_allmodules.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207308main_allmodules_homepage.css":1,"sites\/all\/themes\/custom\/nasa\/css\/style.css":1}},"better_exposed_filters":{"views":{"documents":{"displays":{"attachment_1":{"filters":[]},"attachment_2":{"filters":[]},"block_1":{"filters":[]}}},"current_activities":{"displays":{"block_2":{"filters":[]}}},"research_opportunities":{"displays":{"attachment_1":{"filters":[]},"block":{"filters":[]}}},"related_links":{"displays":{"block":{"filters":[]}}},"news":{"displays":{"block_2":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/content\/About_the_Airborne_Science_Program?destination=node\/2":true,"\/":true}});
+//--><!]]>
+</script>
+    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+  <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&cto=12"></script>
+  
+  <!-- generated by realfavicongenerator.net -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/custom/nasa/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/sites/all/themes/custom/nasa/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/sites/all/themes/custom/nasa/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/sites/all/themes/custom/nasa/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/sites/all/themes/custom/nasa/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2 node-type-std-page domain-airbornescience-nasa-gov" >
+	<noscript>
+	<center><font size="3" color="red">This site requires that JavaScripts be
+	enabled in your browser. For instructions,
+	<a target="_blank" href="http://www.nasa.gov/home/How_to_enable_Javascript.html" class="navLnkRed">
+	click here</a></font></center></noscript>
+  <div class="skiplink">
+    <a href="#main-content"> Skip to main content</a>
+  </div>
+
+    
+<div id="page-wrapper"><div id="page" class="content_body">
+	<div class="top">
+		<div id="top_header" class="top_header">
+
+			<div id="header" class="header section clearfix">
+				<h1>
+					<a href="http://www.nasa.gov" class="nasa_logo">
+						<span class="hide">NASA - National Aeronautics and Space Administration</span>
+					</a>
+				</h1>
+				<div id="header_form">
+					  <div class="region region-header">
+    <div id="block-user-login" class="userMenublock block-user">
+	<div id='login_form_nodrop'>
+		<span id="login_links">
+			<span>› <a href="#" onclick="javascript:toggleLoginBox('show');">Log in to Airborne Science</a>
+			</span>
+			|
+			<span>› <a href="https://airbornescience.nasa.gov/user/register">Create New Account</a>
+			</span>
+		</span>
+	</div>
+	<div id="login_floater">
+		<div id="floatArrow" class="float_arrow_up"></div>
+		<div id='floatMessage' class="content normal_overlay_float">
+			<div id="floatMessageTop" class="floatType_bookmark_top"></div>
+			<div id="floatMessageInner" class="floatType_bookmark">
+				<span>
+    				<h5 id="mynasah5">Log in to Airborne Science</h5>
+					<a class="module_close icons_black icon_close" href="#" id="closelink" onclick="javascript:toggleLoginBox('hide');"></a>
+					<form autocomplete="off" action="/content/About_the_Airborne_Science_Program?destination=node/2" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+ <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+ <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-guYihH3XmQ1GSfqMMDESqKCwbBiBaVsYCEkm1d2qY_E" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>					</span>
+			</div>
+			<div id="floatMessageBottom" class="floatType_bookmark_bottom"></div>
+		</div>
+	</div>
+</div>
+<div id="block-menu-block-4" class="block block-menu-block">
+  <div class="content">
+                </div>  
+</div>
+<div id="block-search-form" class="block block-search">
+<div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline" id="search_form_nodrop">
+			<h2 class="element-invisible">Search form</h2>
+		<div class="form-item form-type-textfield form-item-search-block-form">
+ <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><div class="link-textfield"><div class="form-item form-type-textfield form-item-link">
+ <label for="edit-link">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-link" name="link" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><input type="hidden" name="form_build_id" value="form-uk0Uf03qSEcI3zWF2q_Ba1qBSP8Nl2ZChvIamtqCcwQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div></div></form>  </div>
+</div>
+<div id="block-menu-block-1" class="block block-menu-block">
+  <div class="content">
+          <div id="main-nav"><div id="dropper_wrapper" class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+	<ul class="menu"><li class="first expanded active menu-mlid-308"><a href="/" title="About the Airborne Science Program" class="active">Program</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-48893"><a href="/program/airborne_missions" title="Link to the Airborne Missions Page">Airborne Missions</a></li>
+<li class="leaf menu-mlid-1038"><a href="/program/poc/Airborne_Science_Program_at_NASA_Headquarters">NASA Headquarters</a></li>
+<li class="leaf has-children menu-mlid-50960"><a href="/program/poc/NASA_Ames_Research_Center">NASA Centers</a></li>
+<li class="leaf menu-mlid-1234"><a href="https://baeri.org/sarp" title="Link to the SARP website." target="_blank">Student Airborne Research Program (SARP)</a></li>
+<li class="leaf menu-mlid-50805"><a href="/content/National_Suborbital_Research_Center">National Suborbital Research Center (NSRC)</a></li>
+<li class="leaf menu-mlid-1100"><a href="/program/research-opportunities">Research Opportunities</a></li>
+<li class="leaf menu-mlid-461"><a href="/program/news" title="Link to the News Page">News</a></li>
+<li class="leaf menu-mlid-987"><a href="https://blogs.nasa.gov/earthexpeditions/" title="Link to ASP Blog" target="_blank">NASA Earth Expeditions Blog</a></li>
+<li class="leaf menu-mlid-460"><a href="/program/documents" title="Link to the Documents Page">Documents</a></li>
+<li class="leaf menu-mlid-1101"><a href="/program/related-links">Related Links</a></li>
+<li class="last leaf menu-mlid-1704"><a href="/content/Videos" target="_blank">Videos</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-983"><a href="/aircraft">Platforms</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-984"><a href="/aircraft" title="Link to the Platforms Page">All Platforms</a></li>
+<li class="leaf menu-mlid-1459"><a href="/platform/comparison" title="Link to the aircraft comparison page.">Aircraft Comparison</a></li>
+<li class="leaf menu-mlid-49000"><a href="/content/NASA_Airborne_Science_Mission_Map">Mission Map</a></li>
+<li class="leaf menu-mlid-985"><a href="http://airbornescience.nasa.gov/tracker/" title="Link to the ASP Asset Tracker" target="_blank">Asset Tracker</a></li>
+<li class="leaf menu-mlid-986"><a href="http://airbornescience.nasa.gov/sofrs/" title="Link to the Flight Request System">Flight Request</a></li>
+<li class="leaf menu-mlid-1104"><a href="/aircraft_status" title="Current status for all ASP aircraft and instruments">Aircraft Current Status</a></li>
+<li class="leaf menu-mlid-1194"><a href="/aircraft_overview_cal" title="Overview of activities during next six months for all ASP aircraft">Aircraft Overview Schedule</a></li>
+<li class="leaf menu-mlid-1193"><a href="/aircraft_detailed_cal" title="Detailed month-by-month schedules for each ASP aircraft">Aircraft Detailed Schedule</a></li>
+<li class="leaf menu-mlid-1106"><a href="/content/5_Year_ASP_Plan">5 - Year Plan</a></li>
+<li class="leaf menu-mlid-48095"><a href="/ac-activities-by-log-number">Aircraft Activities by Flight Request</a></li>
+<li class="last leaf menu-mlid-36770"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-52283"><a href="/aircraft_detailed_cal">Schedule</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-52284"><a href="/aircraft_status">Aircraft Current Status</a></li>
+<li class="leaf menu-mlid-52285"><a href="/aircraft_overview_cal">Aircraft Overview Schedule</a></li>
+<li class="leaf menu-mlid-52286"><a href="/aircraft_detailed_cal">Aircraft Detailed Schedule</a></li>
+<li class="last leaf menu-mlid-52287"><a href="/content/5_Year_ASP_Plan">5 - Year Plan</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-307"><a href="/content/Airborne_Science_Instrumentation" title="Airborne Science Program Instruments">Instruments</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-363"><a href="/instrument/all" title="Browse a table listing all instruments available in the Airborne Science database.">Instrument Database</a></li>
+<li class="leaf menu-mlid-1554"><a href="/instrument/facility">Facility Instruments</a></li>
+<li class="leaf menu-mlid-6178"><a href="http://airbornescience.nasa.gov/sites/default/files/documents/TRL%20Levels.pdf" target="_blank">Instrument TRL levels</a></li>
+<li class="leaf menu-mlid-15380"><a href="/content/Engineering_Support_for_Hardware_and_Software">Engineering Support </a></li>
+<li class="leaf menu-mlid-36826"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+<li class="leaf menu-mlid-50550"><a href="/content/Payload_Information_Form">Payload Information Form</a></li>
+<li class="leaf menu-mlid-50975"><a href="/instrument/faqs">Instrument FAQs</a></li>
+<li class="last leaf menu-mlid-51383"><a href="/content/General_Use_Equipment">General Use Equipment</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-1883"><a href="/content/Mission_Tools">Mission Tools</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-1885"><a href="https://airbornescience.nasa.gov/tracker/" title="Link to the ASP Asset Tracker" target="_blank">Aircraft Tracker</a></li>
+<li class="leaf menu-mlid-1888"><a href="https://mts2.nasa.gov/" target="_blank">MTS</a></li>
+<li class="leaf menu-mlid-1991"><a href="http://acce.jpl.nasa.gov/ " target="_blank">ACCE</a></li>
+<li class="leaf menu-mlid-1992"><a href="https://nasa.gov/nex/ " target="_blank">NEX</a></li>
+<li class="leaf menu-mlid-8326"><a href="http://airbornescience.jpl.nasa.gov/data-nasa/" target="_blank">Airborne Data Search</a></li>
+<li class="leaf menu-mlid-8370"><a href="http://airbornescience.jpl.nasa.gov/visualization/portals-nasa/ " target="_blank">JPL Hurricane Tool</a></li>
+<li class="leaf menu-mlid-27669"><a href="https://asdc.larc.nasa.gov/soot/" target="_blank">LaRC Sub-Orbital Order Tool (SOOT)</a></li>
+<li class="leaf menu-mlid-51058"><a href="/content/ASP_Data_Repository">ASP Data Repository</a></li>
+<li class="last leaf menu-mlid-51651"><a href="/content/3D_Models">3D Models</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-480"><a href="http://airbornescience.nasa.gov/sofrs/" title="Link to the Flight Request System">Flight Request</a></li>
+<li class="last expanded menu-mlid-28973"><a href="/content/PI_Support">PI Support</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-29457"><a href="/asp_call_letter" target="_blank">Current Call Letter</a></li>
+<li class="leaf menu-mlid-51354"><a href="https://airbornescience.nasa.gov/sites/default/files/documents/2020_11-pax_aircraft_nasa.pptx  -  Read-Only.pdf" target="_blank">Transport of passengers on NASA Aircraft</a></li>
+<li class="leaf menu-mlid-28976"><a href="https://airbornescience.nasa.gov/content/Pre-Proposal_Support">Pre-Proposal Support</a></li>
+<li class="leaf menu-mlid-28977"><a href="/content/Costing_Support">Costing Support</a></li>
+<li class="leaf menu-mlid-28978"><a href="https://airbornescience.nasa.gov/content/SATCOM_Requirements_and_Costing">SATCOM Requirements</a></li>
+<li class="leaf menu-mlid-28981"><a href="/content/Engineering_Support_for_Hardware_and_Software">Engineering Support</a></li>
+<li class="leaf menu-mlid-28979"><a href="https://airbornescience.nasa.gov/content/SOFRS_User_Guide" target="_blank">Flight Request Procedures</a></li>
+<li class="leaf menu-mlid-28980"><a href="https://airbornescience.nasa.gov/content/Situational_Awareness">Situational Awareness FAQs</a></li>
+<li class="leaf menu-mlid-31260"><a href="/faqs?field_help_topics_tid=SOFRS&amp;title=&amp;sort_by=created&amp;sort_order=ASC">SOFRS FAQs</a></li>
+<li class="leaf menu-mlid-36827"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+<li class="last leaf menu-mlid-50585"><a href="/content/Mishap_Preparedness_and_Contingency_Plan">Mishap Preparedness and Contingency Plan</a></li>
+</ul></div></li>
+</ul></div></div>
+      </div>  
+</div>
+  </div>
+				</div>
+				
+			</div> <!-- /.section, /#header -->
+			
+						
+		</div>
+	</div>
+	<div id="main-wrapper"><div id="main" class="clearfix">
+     	 
+	<!-- div class="messages warning">
+     The  website will be undergoing maintenance between Friday, June 23rd at 5:00 PM PDT and Monday, June 26th at 5:00 AM PDT.  Please plan to complete any critical activities before or after this time.
+     </div -->
+
+			<!--Start of Left Column -->
+		<div id="left" class="left_232">
+							<div id="sidebar-first-top" class="column sidebar"><div class="section">
+					  <div class="region region-sidebar-first-top">
+    <div id="block-menu-block-2" class="block block-menu-block">
+  <div class="content">
+          <div class="block block-menu-block section_nav_cap">
+        <div class="top_cap"></div>
+      	  <div class="section_nav">
+      	    <h2 class="h2_grey"></h2>
+            		
+		<ul class="menu"><li class="first expanded active menu-mlid-308"><a href="/" title="About the Airborne Science Program" class="active">Program</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-48893"><a href="/program/airborne_missions" title="Link to the Airborne Missions Page">Airborne Missions</a></li>
+<li class="leaf menu-mlid-1038"><a href="/program/poc/Airborne_Science_Program_at_NASA_Headquarters">NASA Headquarters</a></li>
+<li class="expanded menu-mlid-50960"><a href="/program/poc/NASA_Ames_Research_Center">NASA Centers</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-977"><a href="/program/poc/NASA_Ames_Research_Center">NASA Ames Research Center</a></li>
+<li class="leaf menu-mlid-978"><a href="/program/poc/NASA_Armstrong_Dryden_Flight_Research_Center">NASA Armstrong (Dryden) Flight Research Center</a></li>
+<li class="leaf menu-mlid-979"><a href="/program/poc/NASA_Johnson_Space_Center">NASA Johnson Space Center</a></li>
+<li class="leaf menu-mlid-981"><a href="/program/poc/NASA_Langley_Research_Center">NASA Langley Research Center</a></li>
+<li class="leaf menu-mlid-980"><a href="/program/poc/NASA_Wallops_Flight_Facility">NASA Wallops Flight Facility</a></li>
+<li class="last leaf menu-mlid-982"><a href="/program/poc/NASA_Glenn_Research_Center">NASA Glenn Research Center</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-1234"><a href="https://baeri.org/sarp" title="Link to the SARP website." target="_blank">Student Airborne Research Program (SARP)</a></li>
+<li class="leaf menu-mlid-50805"><a href="/content/National_Suborbital_Research_Center">National Suborbital Research Center (NSRC)</a></li>
+<li class="leaf menu-mlid-1100"><a href="/program/research-opportunities">Research Opportunities</a></li>
+<li class="leaf menu-mlid-461"><a href="/program/news" title="Link to the News Page">News</a></li>
+<li class="leaf menu-mlid-987"><a href="https://blogs.nasa.gov/earthexpeditions/" title="Link to ASP Blog" target="_blank">NASA Earth Expeditions Blog</a></li>
+<li class="leaf menu-mlid-460"><a href="/program/documents" title="Link to the Documents Page">Documents</a></li>
+<li class="leaf menu-mlid-1101"><a href="/program/related-links">Related Links</a></li>
+<li class="last leaf menu-mlid-1704"><a href="/content/Videos" target="_blank">Videos</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-983"><a href="/aircraft">Platforms</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-984"><a href="/aircraft" title="Link to the Platforms Page">All Platforms</a></li>
+<li class="leaf menu-mlid-1459"><a href="/platform/comparison" title="Link to the aircraft comparison page.">Aircraft Comparison</a></li>
+<li class="leaf menu-mlid-49000"><a href="/content/NASA_Airborne_Science_Mission_Map">Mission Map</a></li>
+<li class="leaf menu-mlid-985"><a href="http://airbornescience.nasa.gov/tracker/" title="Link to the ASP Asset Tracker" target="_blank">Asset Tracker</a></li>
+<li class="leaf menu-mlid-986"><a href="http://airbornescience.nasa.gov/sofrs/" title="Link to the Flight Request System">Flight Request</a></li>
+<li class="leaf menu-mlid-1104"><a href="/aircraft_status" title="Current status for all ASP aircraft and instruments">Aircraft Current Status</a></li>
+<li class="leaf menu-mlid-1194"><a href="/aircraft_overview_cal" title="Overview of activities during next six months for all ASP aircraft">Aircraft Overview Schedule</a></li>
+<li class="leaf menu-mlid-1193"><a href="/aircraft_detailed_cal" title="Detailed month-by-month schedules for each ASP aircraft">Aircraft Detailed Schedule</a></li>
+<li class="leaf menu-mlid-1106"><a href="/content/5_Year_ASP_Plan">5 - Year Plan</a></li>
+<li class="leaf menu-mlid-48095"><a href="/ac-activities-by-log-number">Aircraft Activities by Flight Request</a></li>
+<li class="last leaf menu-mlid-36770"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-52283"><a href="/aircraft_detailed_cal">Schedule</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-52284"><a href="/aircraft_status">Aircraft Current Status</a></li>
+<li class="leaf menu-mlid-52285"><a href="/aircraft_overview_cal">Aircraft Overview Schedule</a></li>
+<li class="leaf menu-mlid-52286"><a href="/aircraft_detailed_cal">Aircraft Detailed Schedule</a></li>
+<li class="last leaf menu-mlid-52287"><a href="/content/5_Year_ASP_Plan">5 - Year Plan</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-307"><a href="/content/Airborne_Science_Instrumentation" title="Airborne Science Program Instruments">Instruments</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-363"><a href="/instrument/all" title="Browse a table listing all instruments available in the Airborne Science database.">Instrument Database</a></li>
+<li class="leaf menu-mlid-1554"><a href="/instrument/facility">Facility Instruments</a></li>
+<li class="leaf menu-mlid-6178"><a href="http://airbornescience.nasa.gov/sites/default/files/documents/TRL%20Levels.pdf" target="_blank">Instrument TRL levels</a></li>
+<li class="leaf menu-mlid-15380"><a href="/content/Engineering_Support_for_Hardware_and_Software">Engineering Support </a></li>
+<li class="leaf menu-mlid-36826"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+<li class="leaf menu-mlid-50550"><a href="/content/Payload_Information_Form">Payload Information Form</a></li>
+<li class="leaf menu-mlid-50975"><a href="/instrument/faqs">Instrument FAQs</a></li>
+<li class="last leaf menu-mlid-51383"><a href="/content/General_Use_Equipment">General Use Equipment</a></li>
+</ul></div></li>
+<li class="expanded menu-mlid-1883"><a href="/content/Mission_Tools">Mission Tools</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-1885"><a href="https://airbornescience.nasa.gov/tracker/" title="Link to the ASP Asset Tracker" target="_blank">Aircraft Tracker</a></li>
+<li class="leaf menu-mlid-1888"><a href="https://mts2.nasa.gov/" target="_blank">MTS</a></li>
+<li class="leaf menu-mlid-1991"><a href="http://acce.jpl.nasa.gov/ " target="_blank">ACCE</a></li>
+<li class="leaf menu-mlid-1992"><a href="https://nasa.gov/nex/ " target="_blank">NEX</a></li>
+<li class="leaf menu-mlid-8326"><a href="http://airbornescience.jpl.nasa.gov/data-nasa/" target="_blank">Airborne Data Search</a></li>
+<li class="leaf menu-mlid-8370"><a href="http://airbornescience.jpl.nasa.gov/visualization/portals-nasa/ " target="_blank">JPL Hurricane Tool</a></li>
+<li class="leaf menu-mlid-27669"><a href="https://asdc.larc.nasa.gov/soot/" target="_blank">LaRC Sub-Orbital Order Tool (SOOT)</a></li>
+<li class="leaf menu-mlid-51058"><a href="/content/ASP_Data_Repository">ASP Data Repository</a></li>
+<li class="last leaf menu-mlid-51651"><a href="/content/3D_Models">3D Models</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-480"><a href="http://airbornescience.nasa.gov/sofrs/" title="Link to the Flight Request System">Flight Request</a></li>
+<li class="last expanded menu-mlid-28973"><a href="/content/PI_Support">PI Support</a><div class="dropper"><ul class="menu"><li class="first leaf menu-mlid-29457"><a href="/asp_call_letter" target="_blank">Current Call Letter</a></li>
+<li class="leaf menu-mlid-51354"><a href="https://airbornescience.nasa.gov/sites/default/files/documents/2020_11-pax_aircraft_nasa.pptx  -  Read-Only.pdf" target="_blank">Transport of passengers on NASA Aircraft</a></li>
+<li class="leaf menu-mlid-28976"><a href="https://airbornescience.nasa.gov/content/Pre-Proposal_Support">Pre-Proposal Support</a></li>
+<li class="leaf menu-mlid-28977"><a href="/content/Costing_Support">Costing Support</a></li>
+<li class="leaf menu-mlid-28978"><a href="https://airbornescience.nasa.gov/content/SATCOM_Requirements_and_Costing">SATCOM Requirements</a></li>
+<li class="leaf menu-mlid-28981"><a href="/content/Engineering_Support_for_Hardware_and_Software">Engineering Support</a></li>
+<li class="leaf menu-mlid-28979"><a href="https://airbornescience.nasa.gov/content/SOFRS_User_Guide" target="_blank">Flight Request Procedures</a></li>
+<li class="leaf menu-mlid-28980"><a href="https://airbornescience.nasa.gov/content/Situational_Awareness">Situational Awareness FAQs</a></li>
+<li class="leaf menu-mlid-31260"><a href="/faqs?field_help_topics_tid=SOFRS&amp;title=&amp;sort_by=created&amp;sort_order=ASC">SOFRS FAQs</a></li>
+<li class="leaf menu-mlid-36827"><a href="https://asapdata.arc.nasa.gov/sensor_net.html" target="_blank">ASP Sensor Network</a></li>
+<li class="last leaf menu-mlid-50585"><a href="/content/Mishap_Preparedness_and_Contingency_Plan">Mishap Preparedness and Contingency Plan</a></li>
+</ul></div></li>
+</ul>          </div>
+      	<div class="footer_bottom footer"></div>
+      </div>  
+      </div>  
+</div>
+  </div>
+				</div></div> <!-- /.section, /#sidebar-first-top -->
+										<div id="sidebar-first-bottom" class="column sidebar"><div class="section">
+					  <div class="region region-sidebar-first-bottom">
+    <div id="block-views-documents-block-1" class="block block-views">
+<div class="content">
+    	<div class="box_230_cap">
+		<div class="top_cap"></div>
+		<div class="box_230 box_blue box_230_tall narrow_blue_news" style="text-align:left; height:auto;">
+				<h2>
+					<p>Documents</p>
+				</h2>
+				<div class="content_outline_blue">
+				  <!-- code for hiding and expanding the document block commented out for now -->
+					<!-- <div class="hide_docs"> -->
+						<ul style="height:auto" class="content_outline_black">
+							<li>
+	<div class="item-list">		<ul>				    		<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+          <a href="https://airbornescience.nasa.gov/sites/default/files/documents/ASP%20Spring%202023%20Newsletter.pdf" target="_blank">Spring 2023 - Newsletter</a>  </div>
+	 				</ul>	</div></li>
+													<li>
+	<div class="item-list">		<ul>				    		<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+          <a href="https://airbornescience.nasa.gov/sites/default/files/documents/ASP%20call%20letter%20FY24%20final%20v2.pdf" target="_blank">2024 - Call Letter</a>  </div>
+	 				</ul>	</div></li>
+								<li>
+	<div class="item-list">		<ul>				    		<div class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+          <a href="https://airbornescience.nasa.gov/sites/default/files/documents/ASP2022AnnualReport.pdf" target="_blank">2022 - Annual Report</a>  </div>
+	 				</ul>	</div></li>
+								</ul>
+					<!-- </div> -->
+				</div>
+				<div class="more_button">
+					<a href="/program/documents" class="linkbutton_on_blue">More Documents</a>				</div>		
+		</div>
+		<div class="bottom_cap"></div>
+	</div>
+  </div>
+</div>
+  </div>
+				</div></div> <!-- /.section, /#sidebar-first-bottom -->
+					</div>
+		<!--End of Left Column -->
+		<div class="wide_right">
+			<!-- Start of ABS Banner -->
+			<div class="wide_right">
+				<div id="center_banner">
+					<div class="box_710">
+						<div id="name-and-logo">
+						  							  <span class="banner_image"><img 
+							    							      alt="" 
+							    							  src="https://airbornescience.nasa.gov/sites/default/files/ASP_banner_v2.jpg"/></span>
+																					<!-- /#name-and-logo -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of ABS Banner -->
+	    	
+			<!-- Start of Center Column -->
+      <div id="content" class="column middle"><div class="section">
+																<a id="main-content"></a>
+												  <div class="region region-content">
+    <div id="block-views-news-block-2" class="block block-views">
+<div class="content">
+    			<div id="landing-fpss-outer-container">
+			<div class="top_middle_cap"></div>
+			<h2 class="landing-fpss-container-title">
+			   	<p>News</p>
+			</h2>
+			<div id="landing-fpss-container">
+				<div id="landing-fpss-slider">
+					<div id="landing-slide-wrapper">
+						<div id="landing-slide-outer">
+      						  <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/sarp_2023_11.jpg?itok=iG8wuInH" alt="NASA SARP intern Karla Lemus, on left, assists NASA Scientist Emeritus Anne Thompson as she leads NASA SARP East interns, to release an ozone sonde from the parking lot of the VCU Rice Rivers Center on June 16, 2023. Credits: NASA/Angelique Herring" title="NASA SARP intern Karla Lemus, on left, assists NASA Scientist Emeritus Anne Thompson as she leads NASA SARP East interns, to release an ozone sonde from the parking lot of the VCU Rice Rivers Center on June 16, 2023. Credits: NASA/Angelique Herring" /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/Surf_Turf_Above_Earth_Students_Participate_in_NASA_Field_Research">Surf, Turf, Above Earth: Students Participate in NASA Field...</a></span>				</h1>
+				<p>Flying over and tromping through watery landscapes along the East Coast, working alongside NASA scientists, and recording measurements about the air t...</p>
+				<a href="https://www.nasa.gov/feature/goddard/2023/surf-turf-above-earth-students-participate-in-nasa-field-research/">Read More</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/Picture1.png?itok=YlRfvm0z" alt="DC-8 airplane during SARP 2023." title="DC-8 airplane during SARP 2023." /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/NASA_Student_Airborne_Research_Program_2023_Sky-High_Science_Learning">NASA Student Airborne Research Program 2023: Sky-High Science...</a></span>				</h1>
+				<p>NASA’s Armstrong Flight Research Center hosted undergraduate students for the 2023 Student Airborne Research Program.  An eight-week summer interns...</p>
+				<a href="https://www.youtube.com/watch?v=QjZij043B50">Watch Video</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/aloft1.jpg?itok=vVg0SJCa" alt="The joint team that worked on the Airborne Lightning Observatory for Fly’s Eye GLM Simulator (FEGS) and Terrestrial gamma-ray flashes (ALOFT) field campaign takes a break in front of NASA Armstrong’s ER-2 aircraft following its safe return from a mission on July 24. The ALOFT field campaign spent 30 days studying gamma-ray glows and flashes produced from the electric fields of thunderclouds. Credits: NASA" title="The joint team that worked on the Airborne Lightning Observatory for Fly’s Eye GLM Simulator (FEGS) and Terrestrial gamma-ray flashes (ALOFT) field campaign takes a break in front of NASA Armstrong’s ER-2 aircraft following its safe return from a mission on July 24. The ALOFT field campaign spent 30 days studying gamma-ray glows and flashes produced from the electric fields of thunderclouds. Credits: NASA" /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/Global_Collaboration_Leads_to_New_Discoveries_in_Lightning_Research">Global Collaboration Leads to New Discoveries in Lightning...</a></span>				</h1>
+				<p>With operations based out of Tampa, Florida, the ALOFT field campaign logged approximately 60 hours of flight time across Central America and the Cari...</p>
+				<a href="https://www.nasa.gov/centers/marshall/news/global-collaboration-leads-to-new-discoveries-in-lightning-research">Read more</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/afrc2023-0104-27orig.jpg?itok=eDLPfz6w" alt="NASA Armstrong’s ER-2 aircraft flies high to study lightning. Credit: NASA" title="NASA Armstrong’s ER-2 aircraft flies high to study lightning. Credit: NASA" /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/NASA%E2%80%99s_ER-2_Aircraft_Flies_High_to_Investigate_Lightning">NASA’s ER-2 Aircraft Flies High to Investigate Lightning</a></span>				</h1>
+				<p>In July 2023, NASA’s ER-2 aircraft has been flying close to thunderclouds to investigate lightning and its connection to the vast energy fields in o...</p>
+				<a href="https://www.nasa.gov/feature/nasa-s-er-2-aircraft-flies-high-to-investigate-lightning">Read More</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/nasa_pilot_wayne_ringelberg_in_the_egress_cage_waiting_to_be_dunked_during_faa_pilot_dunker_safety_training.jpg?itok=P9Ivj7qY" alt="NASA pilot Wayne Ringelberg, right, prepares to be dunked by Federal Aviation Administration Aviation Physiology and post-crash survival instructor Roger Storey, left, for helicopter egress training on April 12, 2023, at the FAA Civil Aerospace Medical Institute in Oklahoma. Credits: FAA Mike Monroney Aeronautical Center/Laura Shepherd-Madsen" title="NASA pilot Wayne Ringelberg, right, prepares to be dunked by Federal Aviation Administration Aviation Physiology and post-crash survival instructor Roger Storey, left, for helicopter egress training on April 12, 2023, at the FAA Civil Aerospace Medical Institute in Oklahoma. Credits: FAA Mike Monroney Aeronautical Center/Laura Shepherd-Madsen" /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/NASA_Pilots_Get_Dunked">NASA Pilots Get Dunked</a></span>				</h1>
+				<p>What’s it like to escape from an aircraft underwater? NASA research pilots Wayne Ringelberg, and Scott Howe recently found out when they completed p...</p>
+				<a href="https://www.nasa.gov/feature/nasa-pilots-get-dunked">Read more</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-6 views-row-even views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/image-3_s-mode.png?itok=YD8Wf2b3" alt="Scenes from CTD water collection party. Courtesy of Jessica Caggiano and Jacob Wenegrat." title="Scenes from CTD water collection party. Courtesy of Jessica Caggiano and Jacob Wenegrat." /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/Elation_Through_Filtration_An_Oceanographer%E2%80%99s_Sensations_at_Sea">Elation Through Filtration: An Oceanographer’s Sensations at Sea</a></span>				</h1>
+				<p>Being a biological oceanographer on a physical oceanographic voyage has highlighted a key distinction between the two disciplines. Physical oceanograp...</p>
+				<a href="https://blogs.nasa.gov/earthexpeditions/2023/05/22/elation-through-filtration-an-oceanographers-sensations-at-sea/">Read More</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last views-row-hidden">
+    <div class="clearfix landing-slide" style="height:auto;">
+	<div class="landing-slide-inner">
+		<div class="fpss-img_holder_div_landing">
+			<div class="fpss-img-div_466">
+				<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/news_block_466x248/public/news/dust-day-image_0.jpeg?itok=bJT-dCZ8" alt="" /></div>			</div>
+		</div>
+		<div class="landing-fpss-introtext">
+			<div class="landing-slidetext">
+				<h1>
+					<span class="field-content"><a href="/content/In_Dust_and_Clouds_Over_Africa_Scientists_Find_Clues_to_How_Hurricanes_Form">In Dust and Clouds Over Africa, Scientists Find Clues to How...</a></span>				</h1>
+				<p>When the dust that wafts off the Sahel and Sahara regions of Africa mixes with tropical clouds, it creates what’s known as a rainy “disturbance”...</p>
+				<a href="https://blogs.nasa.gov/earthexpeditions/2023/05/24/in-dust-and-clouds-over-africa-scientists-find-clues-to-how-hurricanes-form/">Read More</a>			</div>
+		</div>
+	</div>
+</div>  </div>
+						</div>
+					</div>
+				</div>
+				<div id="landing-navi-outer">
+					<div id="pseudobox"></div>
+					<div class="landing-ul_container">
+						<ul>
+							<li><a href="/" class="navi navi-active" id="nav-1"><span class="navbar-key">01</span></a></li><li><a href="/" class="navi" id="nav-2"><span class="navbar-key">02</span></a></li><li><a href="/" class="navi" id="nav-3"><span class="navbar-key">03</span></a></li><li><a href="/" class="navi" id="nav-4"><span class="navbar-key">04</span></a></li><li><a href="/" class="navi" id="nav-5"><span class="navbar-key">05</span></a></li><li><a href="/" class="navi" id="nav-6"><span class="navbar-key">06</span></a></li><li><a href="/" class="navi" id="nav-7"><span class="navbar-key">07</span></a></li>							<li class="noimages">
+									<span id="fpss-container_playButton" class="play" title="play/Pause Slide"> </span>
+							</li>
+						</ul>
+					</div>
+					<div id="landing-top_blinds_title">
+						<div class="landing-fpss_archive_link">
+							<a href="/program/news">View News Archive</a>						</div>
+					</div>
+				</div>
+				<div class="landing-fpss-clr"></div>
+			</div>
+			<div class="landing-fpss-clr"></div>
+		</div>
+	  </div>
+</div>
+<div id="block-system-main" class="block block-system">
+<div class="content">
+    
+<div class="top_cap_white"></div>
+<div id="node-2" class="node node-std-page clearfix box_470 box_white" style="height:auto;text-align:left;">
+	
+		<h2 class="h2_small">About the Airborne Science Program</h2>
+		
+	<div class="content white_article_wrap_detail"> 
+		<div class="default_style_wrap">
+		
+			<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><div class="rteright"> </div>
+<p>The Airborne Science Program within the Earth Science Division is responsible for providing aircraft systems that further science and advance the use of satellite data. The primary objectives of this program are to:</p>
+<ul>
+<li><strong>Satellite Calibration and Validation</strong><br />
+	Provide platforms to enable essential calibration measurements for the Earth observing satellites, and the validation of data retrieval algorithms.</li>
+<li><strong>Support New Sensor Development</strong><br />
+	Provide sub-orbital flight opportunities to test and refine new instrument technologies/algorithms, and reduce risk prior to committing sensors for launch into space.</li>
+<li><strong>Process Studies</strong><br />
+	Obtain high-resolution temporal and spatial measurements of complex local processes, which can be coupled to global satellite observations for a better understanding of the complete Earth system.</li>
+<li><strong>Develop the Next-Generation of Scientists and Engineers</strong><br />
+	Foster the development of our future workforce with the hands-on involvement of graduate students, and young scientists/engineers in all aspects of ongoing Earth science investigations.</li>
+</ul>
+<p>To meet these observing objectives ASP maintains and operates a suite of sustained, ongoing platforms and sensors on which investigators can rely from year to year. From these known capabilities the Science Mission Directorate can develop observing strategies. However, an ongoing capability will be resource-constrained and eventually technology-constrained, so that not all observing requirements will be met with the limited core capability. Therefore the program facilitates access to other platforms or sensors on a funds-available, as-needed basis, to accommodate unique and/or occasional requirements. The Program also looks for new or evolving technologies to demonstrate their applicability for Earth science. Depending on the success of the demonstrations and the observing needs, the core capability is expected to evolve and change over time. The speed and extent of change will be balanced against the need for established, known capabilities for long-term planning.</p>
+</div></div></div>		</div>
+	</div>
+</div>
+  </div>
+</div>
+  </div>
+							</div></div> <!-- /.section, /#content -->
+			<!-- End of Center Column -->
+			
+			<!--Start of Right Column -->
+			<div class="right_232">
+									<div id="sidebar-second" class="column sidebar"><div class="section">
+						  <div class="region region-sidebar-second">
+    <div id="block-views-current-activities-block-2" class="block block-views">
+<div class="content">
+       	<div class="box_230_cap">
+		<div class="top_cap"></div>
+    		<div style="text-align:left;height:auto;" class="box_230 box_230_tall box_blue">
+				<h2>
+			      	<p>Current Airborne Missions</p>
+			    </h2>
+				<div class="current_activities">
+      				  <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+<div class="clearfix blinds 210 narrow_blue_blinds_img" style="height:auto;">
+	<h3 class="top_h3" id="ca-95512">
+		<span class="field-content">
+			<a href="/content/FireSense_1">FireSense</a>		</span>
+	</h3>
+	
+	<div class="content">
+		<div class="fill_narrow_blind_wrap">
+			<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/blue_accordian_230wide/public/current_activities/fire_1.png?itok=wCiireW7" alt="" /></div>		</div>
+		<div class='story_link'>
+			<div class="field-content"><a href="https://www-air.larc.nasa.gov/missions/firesense/index.html">Read More</a></div>		</div>
+	</div>
+</div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even views-row-hidden">
+    
+<div class="clearfix blinds 210 narrow_blue_blinds_img" style="height:auto;">
+	<h3 class="top_h3" id="ca-95511">
+		<span class="field-content">
+			<a href="/content/Geological_Earth_Mapping_Experiment_GEMx">Geological Earth Mapping Experiment (GEMx)</a>		</span>
+	</h3>
+	
+	<div class="content">
+		<div class="fill_narrow_blind_wrap">
+			<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/blue_accordian_230wide/public/current_activities/GEMx2023_logo_300dpi_jpeg.jpg?itok=Yi0e53s6" alt="" /></div>		</div>
+		<div class='story_link'>
+			<div class="field-content"></div>		</div>
+	</div>
+</div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last views-row-hidden">
+    
+<div class="clearfix blinds 210 narrow_blue_blinds_img" style="height:auto;">
+	<h3 class="top_h3" id="ca-6539">
+		<span class="field-content">
+			<a href="/content/UAVSAR_1">UAVSAR</a>		</span>
+	</h3>
+	
+	<div class="content">
+		<div class="fill_narrow_blind_wrap">
+			<div class="field-content"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/blue_accordian_230wide/public/current_activities/G-III_5.jpg?itok=1VGz-zmb" alt="C-20A in flight" title="C-20A in flight" /></div>		</div>
+		<div class='story_link'>
+			<div class="field-content"><a href="http://uavsar.jpl.nasa.gov">Visit Mission Website</a></div>		</div>
+	</div>
+</div>
+
+  </div>
+				</div>
+				<div class="more_button">
+					<a href="/program/airborne_missions" class="linkbutton_on_blue">More Airborne Missions</a>				</div>
+			</div>
+		<div class="bottom_cap"></div>	
+	</div>
+    </div>
+</div>
+<div class="blinds 355 grip_accordion">	<div id="block-block-1" class="block block-block active">
+		<div class="content">
+			<div class="cap"></div>
+				<h3 class="top_header_grip_popular">
+					<span>Asset Tracker</span>
+				</h3>
+				<div class="inner_content expandablebox">
+					<div class="content_outline_grey">
+						<div class="content_outline_black">
+	    					<p><a href="https://airbornescience.nasa.gov/tracker/" id="asset_tracker_link" target="_blank"><span class="hide">Asset Tracker</span></a></p>
+						</div>
+	  				</div>
+					<div class="more_button">
+						<a href="http://airbornescience.nasa.gov/tracker/" class="linkbutton_on_blue">Locate ASP Platforms</a>					</div>
+				</div>
+			<div class="footer"></div>
+		</div>
+	</div>
+<div id="block-block-15" class="block block-block">
+<div class="content">
+    <div style="margin: 5px 0 5px 0">
+<div class="content_outline_blue">
+<div class="box_230_cap  box_blue">
+<h4><a href="https://baeri.org/sarp/" target="_blank">Student Airborne Research Program (SARP)</a></h4>
+</div>
+</div>
+</div>
+  </div>
+</div>
+<div id="block-block-8" class="block block-block">
+  <div class="content">
+    <h3 class="top_header_grip_popular">
+      <span>Twitter @NASAExpeditions</span>
+      <a href="https://twitter.com/NASAAirborne" class="help_icon popular_content_help twitter_icon"><span class="hide">RSS</span></a>    </h3>
+    <div class="inner_content">
+      <div class="content_outline_grey">
+    	  <div class="content_outline_black">
+    		  <div class="small_gray_scroll">
+    		    <div>
+              <a class="twitter-timeline" data-height="335" data-theme="dark" href="https://twitter.com/NASAAirborne/lists/1422956453325910021?tw_debug=true&s=3">Tweets by @NASAExpeditions & @NASAEarth</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="footer"></div>
+  </div>
+</div>
+<div id="block-views-research-opportunities-block" class="block block-views">
+<div class="content">
+      	<h3 class="top_header_grip_popular">
+  		<span>Research Opportunities</span>
+  	</h3>
+	<div class="inner_content">
+		<div class="content_outline_grey">
+			<div class="content_outline_black">
+				<div class="small_gray_scroll">
+					<div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div id="node-1115" class="node node-research-opportunities clearfix">
+	<h3><a href="/content/NSPIRES">NSPIRES</a></h3>
+	<div class="field field-name-field-res-op-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/res_op/NSPIRES.gif?itok=ZhXPdXRI" alt="" /></div></div></div><div class="field field-name-field-res-op-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&amp;solId=%7BAEF75D0F-2272-7DE7-D52A-295B47C8F5CF%7D&amp;path=open" target="_blank">ROSES 2011</a></div></div></div></div></li>
+      </ul></div>									    	<div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last"><div id="node-95098" class="node node-documents clearfix">
+
+	<h3><a href="/content/2024_-_Call_Letter_0">Call Letter</a></h3><span id="call_letter_res_op" class="hide">Airborne Science Flight Program</span>
+	<div class="field field-name-field-document field-type-file field-label-above"><div class="field-label">Document:&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://airbornescience.nasa.gov/sites/default/files/documents/ASP%20call%20letter%20FY24%20final%20v2.pdf" type="application/pdf; length=80448">ASP call letter FY24 final v2.pdf</a></span></div></div></div></div></li>
+      </ul></div>									</div>
+			</div>
+		</div>
+		<div class="more_button">
+			<a href="/program/research-opportunities" class="linkbutton_on_blue">More Research Opportunities</a>		</div>
+	</div>
+	<div class="footer"></div>
+  </div>
+</div>
+<div id="block-views-related-links-block" class="block block-views">
+<div class="content">
+    		  	<h3 class="top_header_grip_popular">
+			<span>
+	  			Related Links
+	  		</span>
+		</h3>
+		<div class="inner_content">
+			<div class="content_outline_grey">
+				<div class="content_outline_black">
+					<div class="small_gray_scroll">
+						<div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first"><div id="node-24300" class="node node-related-links clearfix">
+	<h3><a href="/content/Wallops_Flight_Facility_Aircraft_Office">Wallops Flight Facility Aircraft Office</a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/New%20Picture%20%287%29.png?itok=wcpTZ8mA" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><span style="font-family: 'Arial','sans-serif';">The Aircraft Office at the <span>Wallops Flight Facility (WFF) provides for the operation, maintenance, engineering, airworthiness, and mission support of assigned aircraft as well as the planning and conducting of Airborne Science missions. The Aircraft Office explores new areas of aircraft support and plans for capabilities to accommodate them, develop and implement rules and procedures required to ensure the effective management of aircraft operations, and provide safety and quality assurance oversight of all aircraft</span> functions. The WFF Aircraft Office also supports logistical airlift needs, range surveillance, recovery operations, and a wide array of other aircraft functions. </span></p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://code830.wff.nasa.gov/" target="_blank">WFF Aircraft Office Website</a></div></div></div></div></li>
+          <li class="views-row views-row-2 views-row-even"><div id="node-10658" class="node node-related-links clearfix">
+	<h3><a href="/content/NASA_Earth_Science_Project_Office">NASA Earth Science Project Office</a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/espo_logo_200.png?itok=IZqVJQYe" alt="" title="ESPO logo" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left;">The </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left; font-weight: bold;">E</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left;">arth </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left; font-weight: bold;">S</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left;">cience </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left; font-weight: bold;">P</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left;">roject </span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left; font-weight: bold;">O</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; text-align: left;">ffice is a small group of success-oriented individuals providing project management for NASA's Science Mission Directorate field research. We provide planning, implementation and post mission support for large, complex, multi-agency, national and international field campaigns</span></p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.espo.nasa.gov/index.php" target="_blank">Earth Science Project Office</a></div></div></div></div></li>
+          <li class="views-row views-row-3 views-row-odd"><div id="node-8008" class="node node-related-links clearfix">
+	<h3><a href="/content/JPLs_Earth_Science_Airborne_Program">JPL&#039;s Earth Science Airborne Program</a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/JPL_logo.png?itok=206CDMoP" alt="" /></div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://airbornescience.jpl.nasa.gov/" target="_blank">JPL's Earth Science Airborne Program</a></div></div></div></div></li>
+          <li class="views-row views-row-4 views-row-even"><div id="node-1117" class="node node-related-links clearfix">
+	<h3><a href="/content/Science_NASA">Science @ NASA </a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/science_at_nasa.gif?itok=IW-ss4jF" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The Science Mission Directorate Website</p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://science.nasa.gov/" target="_blank">Read More</a></div></div></div></div></li>
+          <li class="views-row views-row-5 views-row-odd"><div id="node-1118" class="node node-related-links clearfix">
+	<h3><a href="/content/Balloon_Program_Office">Balloon Program Office </a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/balloon_prog_office.gif?itok=8Rd194na" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Balloon Program Office offers capabilities and benefits for scientific research</p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://sites.wff.nasa.gov/code820/" target="_blank">Read More</a></div></div></div></div></li>
+          <li class="views-row views-row-6 views-row-even"><div id="node-1119" class="node node-related-links clearfix">
+	<h3><a href="/content/Sounding_Rockets_Program_Office">Sounding Rockets Program Office </a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/code810.gif?itok=_-3c8eqJ" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Sounding Rockets Program Office provides suborbital launch vehicles, payload development, and field operations support</p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://sites.wff.nasa.gov/code810/" target="_blank">Read More</a></div></div></div></div></li>
+          <li class="views-row views-row-7 views-row-odd views-row-last"><div id="node-1120" class="node node-related-links clearfix">
+	<h3><a href="/content/SOFIA">SOFIA</a></h3>
+	<div class="field field-name-field-rel-link-pic field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img src="https://airbornescience.nasa.gov/sites/default/files/styles/height_48px/public/rel_link/sofia.gif?itok=lp9599W8" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>SOFIA is an airborne observatory that will study the universe in the infrared spectrum</p>
+</div></div></div><div class="field field-name-field-rel-link-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://sofia.usra.edu/" target="_blank">Read More</a></div></div></div></div></li>
+      </ul></div>					</div>
+				</div>
+			</div>
+			<div class="more_button">
+				<a href="/program/related-links" class="linkbutton_on_blue">More Related Links</a>			</div>
+		</div>
+		<div class="footer bottom_footer"></div>
+	</div>
+  </div>
+</div>
+  </div>
+					</div></div> <!-- /.section, /#sidebar-second -->
+							</div>
+			<!-- End if Right Column -->
+		</div>
+	
+	</div></div> <!-- /#main, /#main-wrapper -->
+	<div id="footer"><div class="section">
+		  <div class="region region-footer">
+    <div id="block-espo-shared-standard" class="block block-espo-shared">
+<div class="content">
+    		<a href="http://www.nasa.gov" class="nasa_logo_footer">
+			<span class="hide">NASA Home</span>
+		</a>
+		<div id="footercol1">
+			<span>
+				<p>Page Last Updated: January 9, 2023</p>
+				<p>Page Editor: Mary Gross</p>
+				<p>NASA Official: Bruce A. Tagg</p>
+        				<p>Website Issues: <a href="/contact">Contact Us</a></p>
+			</span>
+		</div>
+		<div id="footercol2">
+      <ul><li class="link1-0 first"><a href="https://www.nasa.gov/news/budget/index.html" target="_blank">Budgets, Strategic Plans and Accountability Reports</a></li>
+<li class="link1-1"><a href="https://www.hq.nasa.gov/office/codee/nofear.html" target="_blank">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a></li>
+<li class="link1-2 last"><a href="https://www.nasa.gov/about/contact/information_inventories_schedules.html" target="_blank">Information-Dissemination Policies and Inventories</a></li>
+</ul>
+		</div>
+		<div id="footercol3">
+      <ul><li class="link2-0 first"><a href="https://www.nasa.gov/FOIA/" target="_blank">Freedom of Information Act</a></li>
+<li class="link2-1"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy &amp; Important Notices</a></li>
+<li class="link2-2"><a href="https://www.nasa.gov/offices/nac/home/index.html" target="_blank">NASA Advisory Council</a></li>
+<li class="link2-3"><a href="https://oig.nasa.gov/hotline.html" target="_blank">Inspector General Hotline</a></li>
+<li class="link2-4"><a href="https://oig.nasa.gov" target="_blank">Office of the Inspector General</a></li>
+<li class="link2-5 last"><a href="https://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">NASA Communications Policy</a></li>
+</ul>
+		</div>
+		<div id="footercol4">
+      <ul><li class="link3-0 first"><a href="https://www.nasa.gov/about/contact/index.html" target="_blank">Contact NASA</a></li>
+<li class="link3-1"><a href="https://www.nasa.gov/sitemap/sitemap_nasa.html" target="_blank">Site Map</a></li>
+<li class="link3-2"><a href="https://www.USA.gov" target="_blank">USA.gov</a></li>
+<li class="link3-3 last"><a href="https://www.nasa.gov/open/index.html" target="_blank">Open Government at NASA</a></li>
+</ul>
+		</div>  </div>
+</div>
+  </div>
+	</div></div> <!-- /.section, /#footer -->
+</div></div> <!-- /#page, /#page-wrapper -->
+    <div class="background_layer">&nbsp;</div>
+
+</body>
+</html>

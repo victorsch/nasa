@@ -1,0 +1,8 @@
+GET https://jsoohoo-test.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 118
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:43:15 GMT
+< Content-Type: text/html

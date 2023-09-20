@@ -1,0 +1,16 @@
+GET https://rms.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://rms.earthdata.nasa.gov/login.req
+< Date: Tue, 19 Sep 2023 05:41:50 GMT
+< Content-Length: 0
+< Jamafishtag: {"originHost":"07687f03f40f","originUUID":"4def653e79f44cdd","tenantId":null,"breadCrumbDTOs":[]}
+< X-Content-Type-Options: nosniff
+< Server: nginx
+< X-Jama-Node: 
+< Set-Cookie: jama-csrf-token=9031587d-f98a-4fb3-8044-b5fd78ebf3f4; Domain=rms.earthdata.nasa.gov; Path=/
+< Set-Cookie: JSESSIONID=b687b7df-66ca-4121-a269-023f976997b8; Path=/; Secure; HttpOnly
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000

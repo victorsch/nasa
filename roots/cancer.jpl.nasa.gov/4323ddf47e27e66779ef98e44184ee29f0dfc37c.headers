@@ -1,0 +1,11 @@
+GET https://cancer.jpl.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors https://cancer.jpl.nasa.gov/;
+< Content-Length: 199
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:04:46 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

@@ -1,0 +1,11 @@
+GET https://www.esdis.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:59:40 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://earthdata.nasa.gov/esdis
+< Content-Length: 240

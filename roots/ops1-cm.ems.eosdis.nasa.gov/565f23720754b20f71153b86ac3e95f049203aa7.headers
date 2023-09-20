@@ -1,0 +1,12 @@
+GET https://ops1-cm.ems.eosdis.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:57:32 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 577
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-a4592fa3-1895-4b3b-bc93-6a827d87eb54&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-b6Sf%2fPWESuvwgRSDdbxkmjmpwDga6yoKAvEXuILamElpVVzv4ZzBK6MEO2n%2fC1dcY%2fW0UK6G8Q%2bx1AskyJP4yq4cndci3vwxBCd7j57RBkenFlGxa1E5%2fNC6hai21dkL&TARGET=-SM-https%3a%2f%2fops1--cm%2eems%2eeosdis%2enasa%2egov%2f

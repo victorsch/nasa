@@ -1,0 +1,12 @@
+GET https://caps.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy: upgrade-insecure-requests
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Length: 24774
+< Content-Type: text/html; charset=ISO-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 05:54:13 GMT
+< Server: WebServer/1.0

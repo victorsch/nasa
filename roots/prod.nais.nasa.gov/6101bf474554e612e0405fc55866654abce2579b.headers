@@ -1,0 +1,13 @@
+GET https://prod.nais.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://prod.nais.nasa.gov/cgibin/nais/index.cgi
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Referrer-Policy: strict-origin
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Content-Length: 256
+< Date: Tue, 19 Sep 2023 05:57:14 GMT
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k PHP/7.4.33

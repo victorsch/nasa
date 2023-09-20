@@ -1,0 +1,14 @@
+GET http://monitoring.staging.uas.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Type: text/html
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:43:43 GMT
+< Content-Length: 164
+< Location: https://monitoring.staging.uas.appdat.jsc.nasa.gov
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true

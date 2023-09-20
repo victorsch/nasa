@@ -1,0 +1,9 @@
+GET https://webmail.jpl.nasa.gov
+
+
+< HTTP/1.0 302 Moved Temporarily
+< Location: https://webmail.jpl.nasa.gov/owa/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Server: BigIP
+< Connection: close
+< Content-Length: 0

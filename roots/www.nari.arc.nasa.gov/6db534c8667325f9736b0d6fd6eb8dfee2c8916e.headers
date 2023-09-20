@@ -1,0 +1,9 @@
+GET http://www.nari.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:05:42 GMT
+< Content-Type: text/html
+< Content-Length: 134
+< Location: https://www.nari.arc.nasa.gov:443/
+< Server: awselb/2.0

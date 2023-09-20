@@ -1,0 +1,271 @@
+
+
+
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The NASA Electronic Parts and Packaging Program</title>
+  <meta name="description" content="The NASA Electronic Parts and Packaging (NEPP) Program Website">
+  <meta name="author" content="NASA/NEPP">
+
+  <link rel="stylesheet" href="/css/neppstyle.css?v=1.0">
+  <link rel="stylesheet" href="/css/tiny-slider.css">
+
+  <script src="/js/tiny-slider.js"></script>
+
+  <script type="module">
+
+  var slider = tns({
+    container: '.my-slider',
+	speed: 1500,
+	autoplayHoverPause: true,
+	autoplayTimeout: 10000,
+	controls: true,
+	controlsPosition: 'bottom',
+	nav: false,
+	//nav: true,
+	//navPosition: 'bottom',
+	center: true,
+    slideBy: 'page',
+    autoplay: true,
+	autoplayButtonOutput: false
+  });
+  </script>
+
+
+</head>
+
+<body>
+
+	
+
+<header id="headerblock">
+
+  
+  <script language="javascript" id="_fed_an_ua_tag"
+    src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC"></script>
+
+  <img src="/img/NASA_LOGO.png" style="display:inline;">
+  <img src="/img/NEPP_LOGO.png" style="display:inline; float:right">
+  <span id="bannerText">NASA Electronic Parts and Packaging Program</span>
+
+  
+
+  <nav id="headerNav">
+    <ul>
+      <li>
+        <a href="https://nepp.nasa.gov/">Home</a>
+        <ul>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/About-NEPP.cfm">About NEPP</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/News-Archives.cfm">News Archives</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/Contact-NEPP.cfm">Contact NEPP</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/Parts.cfm">Parts</a>
+        <ul>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/EEE-INST-002.cfm">EEE-INST-002</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/GSFC-QPLD.cfm">GSFC Qualified Parts List</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/GSFC-S-311-Specs.cfm">GSFC S-311 Specifications</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/Application-Handbook.cfm">NASA Parts Application Handbook</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/Destructive-Physical-Analysis.cfm">S-311-M-70, Destructive Physical
+              Analysis</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/MSFC-STD-355C.cfm">MSFC-STD-355C</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/MSFC-STD-3012.cfm">MSFC-STD-3012</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/Packaging.cfm">Packaging</a>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/Radiation.cfm">Radiation</a>
+        <ul>
+          <li>
+            <a href="https://radhome.gsfc.nasa.gov" target="_blank">GSFC Radiation Effects and Analysis Group</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/pubs.cfm">Publications</a>
+      </li>
+      <li>
+        <a href="#">NASA Parts Engineering School</a>
+        <ul>
+          <li>
+            <a href="#">Content Coming Soon...</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/Training.cfm">Training</a>
+        <ul>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/Training-Radiation.cfm">Radiation Assurance</a>
+          </li>
+          <li>
+            <a href="https://nepp.nasa.gov/pages/Training-Parts-Assurance.cfm">Parts Assurance</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/whisker">Tin Whiskers</a>
+      </li>
+      <li>
+        <a href="https://nepp.nasa.gov/pages/npsl/npsl.cfm">NPSL</a>
+      </li>
+      <li class="blink">
+        <a href="https://nepp.nasa.gov/workshops/etw2023">NEPP ETW</a>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
+	<article id="sliderblock">
+		
+
+
+
+<div class="my-slider">
+
+
+	
+
+	<div>
+		<table width="100%" border="0" style="border-collapse:collapse;height:200px;border:3px solid white;background-color:white;">
+			<tr>
+				<td valign="middle">
+					<div
+						style="border: 5px solid red;border-radius:10px;width: 60%;margin:auto;background-color:rgba(176, 176, 176, 0.178)">
+						<div align="center"
+							style="color:rgb(0, 0, 0);font-size:20pt;font-weight:bold;text-shadow: 1px 1px 1px rgba(211, 207, 207, 0.434);">
+							2024 NEPP Electronics Technology Workshop</div>
+						<p align="center"
+							style="color:#956d08;font-size:14pt;text-shadow:1px 1px 1px #000000a1; font-weight:bold;">To
+							be
+							held at NASA/GSFC, Greenbelt, MD<br>(In-Person and Virtual WebEx)
+						<div
+							style="text-align:center;color:rgb(14, 180, 14); text-shadow: 1px 1px 0 #000;font-size:2em;font-weight:bold; margin: 8px 0px 8px 0px">
+							June 3 - 6, 2024</div>
+
+						<div
+							style="text-align:center;font-size:16pt;font-weight:bold;text-shadow: 0px 0px 1px #6969697a; color:#956d08">
+							Save the date!</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	
+
+	<div>
+		<table width="100%" border="0" border-collapse style="height:200px;border:3px solid white;background-color:white;">
+			<tr>
+				<td valign="middle">
+					<div style="width:80%;margin:auto;border:4px solid purple;border-radius:15px;background-color:azure;">
+						<h2 align="center" style="color:red;font-weight:bold;text-shadow: #e0e0e0 1px 1px 0;">
+							NASA Parts Engineering School</h2>
+						<p align="center"><br>
+							Content Coming Soon...
+							<br>
+						</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	
+
+	
+
+	<div>
+		<table width="100%" border="0" border-collapse style="height:200px;border:3px solid white">
+			<tr>
+				<td valign="middle">
+					<div style="margin:auto;width:65%;background-color: rgb(229, 237, 232);border-radius:10px;height:80%;display:grid;">
+						<h2 align="center" style="position:relative;top:10%;color: #3e3e3e;text-shadow: #e0e0e0 1px 1px 0;">Use the Publication Lookup Tool to Browse NEPP Publications</h2>
+						<p style="position:relative;bottom:20%;text-align:center;padding-top:-5px;font-size:14pt;width:15%;margin:auto;background-color: #dfb344;height:40px;line-height:40px;border-radius:10px;border:2px solid red"><a href="/pages/pubs.cfm" style="color:rgb(14, 14, 133);text-shadow: #e0e0e0 1px 1px 0;text-decoration: none;">Click Here</a></p>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+
+</div>
+	</article>
+
+	<main id="bottomcontent">
+
+		<article style="text-align:center">
+			<h2>About the NEPP Program</h2>
+			<p align="justify" style="padding:20px;">
+			The NEPP Program generates technical knowledge and recommendations about electrical, electronic, electromechanical (EEE) part performance, application,
+			failure modes, test methods, reliability and supply chain quality within the context of NASA space flight missions and hardware. This information is made
+			available to the NASA and high-reliability aerospace community through publications, web pages and links published on this website.
+			</p>
+		</article>
+
+		<article style="text-align:center">
+			<h2>View the NEPP Charter</h2>
+			<a href="https://nepp.nasa.gov/images/program/nepp_charter.jpg" target="_blank"><img src="https://nepp.nasa.gov/images/program/nepp_charter_thumb.jpg"></a>
+		</article>
+		<br><br>
+
+    </main>
+
+	    <footer>
+		<img src="/img/NASA_LOGO.png">
+		<div style="display:inline-block">NASA Officials:<br>
+		Peter Majewicz, Program Manager<br>
+		Susana Douglas, Deputy Manager<br>
+		<span style="font-size:9pt;">
+		Site Admin: Carl M. Szabo, Jr.<br>
+		Curator: Martha O'Bryan
+		</span>
+		</div>
+		<nav id="footnav">
+		<ul>
+			<li><a target="_blank" href="https://www.nasa.gov/offices/odeo/no-fear-act">No Fear Act</a></li>
+			<li><a target="_blank" href="https://www.nasa.gov/FOIA">FOIA</a></li>
+			<li><a target="_blank" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy</a></li>
+			<li><a target="_blank" href="https://oig.nasa.gov/">Office of Inspector General</a></li>
+			<li><a target="_blank" href="https://osc.gov/">Office of Special Counsel</a></li>
+			<li><a target="_blank" href="https://www.nasa.gov/news/budget/index.html">Agency Financial Reports</a></li>
+			<li><a id="lastone" target="_blank" href="https://www.nasa.gov/about/contact/index.html">Contact NASA</a></li>
+		</ul>
+		</nav>
+    </footer>
+
+</body>
+</html>
+

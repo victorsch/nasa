@@ -1,0 +1,14 @@
+GET http://webpass.nas.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:05:57 GMT
+< Set-Cookie: session=expiry=1695104157926673;Max-Age=600;path=/; HttpOnly; Secure;
+< Set-Cookie: session=expiry=1695104157926673;Max-Age=600;path=/; HttpOnly; Secure;
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Location: https://webpass.nas.nasa.gov/
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-cache, private
+< Content-Length: 237

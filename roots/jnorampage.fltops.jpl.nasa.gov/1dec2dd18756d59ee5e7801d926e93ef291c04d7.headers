@@ -1,0 +1,9 @@
+GET http://jnorampage.fltops.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:58:47 GMT
+< Server: Apache
+< Location: https://jnorampage.fltops.jpl.nasa.gov:443/
+< Content-Length: 251
+< Content-Type: text/html; charset=iso-8859-1

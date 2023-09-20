@@ -1,0 +1,21 @@
+GET https://www.mdscc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:09:25 GMT
+< X-Frame-Options: SAMEORIGIN
+< Pragma: no-cache
+< X-Ua-Compatible: IE=edge
+< Referrer-Policy: no-referrer
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: PHPSESSID=mfm72lff93ohl3vnshars3qe1b; path=/;HttpOnly;Secure
+< Set-Cookie: pll_language=es; expires=Wed, 18-Sep-2024 06:09:26 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax;HttpOnly;Secure
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< Link: <https://www.mdscc.nasa.gov/index.php/wp-json/>; rel="https://api.w.org/"
+< Link: <https://www.mdscc.nasa.gov/index.php/wp-json/wp/v2/pages/9107>; rel="alternate"; type="application/json"
+< Link: <https://www.mdscc.nasa.gov/>; rel=shortlink

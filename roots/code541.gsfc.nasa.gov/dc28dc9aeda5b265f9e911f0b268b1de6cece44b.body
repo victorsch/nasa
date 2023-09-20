@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/core/themes/bartik/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://code541.gsfc.nasa.gov/home" />
+<link rel="shortlink" href="https://code541.gsfc.nasa.gov/node/2" />
+
+    <title>Mission Statement | Materials Engineering Branch</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_cMx5LBIbzJ_oG8zVwXpppulTI4h2UleDDQtBhsZSyRo.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_zb7Sq_IdABuAqEIkmYNol_ZVzM6_PGnK0lDPkVLHJaw.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+
+    
+  </head>
+  <body class="layout-no-sidebars path-frontpage page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner">
+      <div class="section layout-container clearfix">
+        
+          <div class="clearfix region region-header">
+    <div id="block-bartik-branding" class="clearfix site-branding block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-branding__logo">
+      <img src="/sites/default/files/541branch_logo_1.png" alt="Home" />
+    </a>
+        <div class="site-branding__text">
+              <div class="site-branding__name">
+          <a href="/" rel="home">Materials Engineering Branch</a>
+        </div>
+                </div>
+  </div>
+
+  </div>
+
+          <div class="region region-primary-menu">
+    
+<nav role="navigation" aria-labelledby="block-bartik-main-menu-menu" id="block-bartik-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-bartik-main-menu-menu">Main navigation</h2>
+  
+
+        <div class="content">
+            <div class="menu-toggle-target menu-toggle-target-show" id="show-block-bartik-main-menu"></div>
+      <div class="menu-toggle-target" id="hide-block-bartik-main-menu"></div>
+      <a class="menu-toggle" href="#show-block-bartik-main-menu">Show &mdash; Main navigation</a>
+      <a class="menu-toggle menu-toggle--hide" href="#hide-block-bartik-main-menu">Hide &mdash; Main navigation</a>
+      
+              <ul class="clearfix menu">
+                    <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
+              </li>
+                <li class="menu-item">
+        <a href="/organization" title="Organization" data-drupal-link-system-path="node/3">Organization</a>
+              </li>
+                <li class="menu-item">
+        <a href="/publications" title="Publications" data-drupal-link-system-path="node/4">Publications</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contactscapabilities" title="Capabilities" data-drupal-link-system-path="node/5">Capabilities</a>
+              </li>
+                <li class="menu-item">
+        <a href="/memos" data-drupal-link-system-path="memos">Memo Bank</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contact" data-drupal-link-system-path="contact">Contact Us</a>
+              </li>
+        </ul>
+  
+
+
+    </div>
+  </nav>
+
+  </div>
+
+      </div>
+    </header>
+          <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+            <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
+      <div id="main" class="layout-main clearfix">
+        
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+              <div class="region region-content">
+    <div id="block-bartik-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+
+  <h1 class="title page-title"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Mission Statement</span>
+</h1>
+
+
+    </div>
+  </div>
+<div id="block-bartik-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+<article data-history-node-id="2" role="article" about="/home" typeof="schema:WebPage" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+            <span property="schema:name" content="Mission Statement" class="rdf-meta hidden"></span>
+
+      </header>
+  <div class="node__content clearfix">
+    
+            <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The Materials Engineering Branch has been serving the Goddard community for over 40 years. By maintaining a workforce encompassing a wide technical diversity including expertise in Chemical Engineering, Chemistry, Electrical Engineering, Physics, Materials Science, Mechanical Engineering, and Metallurgical Engineering, the Materials Engineering Branch is able to resolve many of the unique materials specific challenges routinely encountered by Goddard Scientists and Engineers. The suite of technical instruments employed to facilitate much of the support activities performed by the Materials Engineering Branch has been tailored to meet the specific needs of the Goddard community.</p>
+
+<p>In support of flight projects, the Materials Engineering Branch provides materials assurance support, technical consultation on materials applications and processes, analytical laboratory investigations to solve organic and inorganic materials related issues, life testing and design qualification in anticipated service environments, and failure analyses. In support of research activities, the Materials Engineering Branch conducts applied research in materials technology and development to meet the future needs of GSFC spacecraft, instrument and technology programs. Utilization of the Materials Engineering Branch services are not restricted to science and engineering applications but are routinely used by Safety, Chemical Hygiene and the Facilities Management organizations. Materials Engineering Branch personnel take pride in their ability to "Enable Mission Success through Problem Resolution."</p>
+
+<center>
+<p>PER ASPERA AD ASTRA,<br />
+THROUGH ADVERSITY TO THE STARS</p>
+</center>
+</div>
+      
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+          </section>
+        </main>
+                      </div>
+    </div>
+        <footer class="site-footer">
+      <div class="layout-container">
+                          <div class="site-footer__bottom">
+              <div class="region region-footer-fifth">
+    <div id="block-footer" class="block block-block-content block-block-content5762d98c-1a50-4282-9316-783ac3c6d953">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><img alt="NASA Meatball" data-entity-type="file" data-entity-uuid="5dbad6b5-f847-4da8-a487-d2ba592b3f87" height="71" src="/sites/default/files/inline-images/nasa_logo.png" width="87" class="align-left" loading="lazy" />  NASA Responsible Official:  Jelila Stanton<br />
+  <br />
+  <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></p></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+              </div>
+    </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=GSFC&amp;dclink=true&amp;pua=0" id="_fed_an_ua_tag"></script>
+
+  </body>
+</html>

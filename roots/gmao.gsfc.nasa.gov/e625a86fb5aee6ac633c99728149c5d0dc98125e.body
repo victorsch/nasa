@@ -1,0 +1,369 @@
+<!--  Home page for GMAO  -->
+
+
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">
+<meta name="orgcode" content="610.1" />
+<meta name="rno" content="Steven.Pawson-1" />
+<meta name="content-owner" content="Steven.Pawson-1" />
+<meta name="webmaster" content="Kaushal.A.Patel" /><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700" rel="stylesheet">
+<meta name="keywords" content="nasa, global, modeling, assimilation, data, atmospheric, land surface, ocean, subseasonal to decadal, ozone, clouds, precipitation, MERRA, DAS, products, publications, intex, organization, weather" />
+<meta name="description" content="Global Modeling and Assimilation Research">
+
+
+<title>GMAO - Global Modeling and Assimilation Office Research Site</title>
+
+<link rel="stylesheet" type="text/css" href="/css/reset.css" media="screen" async />
+<link rel="stylesheet" type="text/css" href="/css/base-2014.css" media="screen" async />
+<link rel="stylesheet" type="text/css" href="/css/dropdown-2014.css" media="screen" async />
+<link rel="stylesheet" type="text/css" href="/css/BlueTheme-noglobes.css" media="screen" async />
+<link rel="stylesheet" type="text/css" href="/css/homepage_supplemental-2017.css" async />
+<link rel="stylesheet" type="text/css" href="/css/fadeover/fadeinout1.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/slide_home.css" media="screen" />
+<script type="text/javascript" src="/js/activate.js" async ></script>
+<script src="/js/jquery-3.5.1.min.js" type="text/javascript" async></script>
+
+<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" href="/css/ie6.css" media="screen" />
+     <script src="/js/stuHover.js" type="text/javascript" ></script>
+    <script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" ></script>
+    <script>
+			DD_belatedPNG.fix('div#bannerImg, li.tab1-on, li.tab1-off, li.tab-on, li.tab-off, #footer-signature, img');
+		</script>
+
+<![endif]-->
+
+    <script src="/js/ReplaceContentInContainer.js" type="text/javascript" async ></script>
+    <script src="/js/newsToggler.js"  type="text/javascript" async ></script>
+
+   <!-- Google Analytics -->
+<script id="_fed_an_ua_tag" type="application/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+</head>
+
+<body>
+<div id="page-wrapper" style="display:block;">
+    	<div id="page">
+           <div id="nasaHeader">
+                <div>
+                    <a href="http://www.nasa.gov" class="imageLink"><img src="/images/nasa-logo.svg" width="90" alt="NASA Logo, National Aeronautics and Space Administration" height="98" style="margin-left: 20px;" /></a>
+                </div><!--class="nasaLogo"-->
+               <div id="headerTxtWrapper"> 
+                    <h1><a href="http://www.nasa.gov">National Aeronautics and Space Administration</a></h1>
+                    <h2><a href="http://www.nasa.gov/goddard/">Goddard Space Flight Center</a></h2>
+               </div><!--headerTxtWrapper--> 
+               
+               <div id="searchbox">
+					<h3>Search:</h3>
+            <form action="https://www.google.com/search" method="get" id="search" name="search">
+            <input type="text" name="q" id="keywords" value="" title="srchField" size="10" class="flt_left" />
+            <input style="width:49px; height:22px;" type="image" alt="Search" src="/images/search_go.jpg" onclick="this.form.submit();" class="flt_left" />
+            <input type="hidden" value="gmao.gsfc.nasa.gov" name="sitesearch" />
+            </form>
+            <div class="divClear"></div>
+            <p>
+            <a href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&amp;&amp;navOrgCode=610">Earth Sciences Division</a>
+            <span class="listdevider">| </span>
+            <a href="http://sciences.gsfc.nasa.gov/">Sciences and Exploration</a>
+            </p>
+</div>
+
+            </div><!--id = nasaHeader -->
+            <div class="hidden">
+					<a href="#skipping" title="Skip Navigation" accesskey="2">Skip Navigation (press 2)</a>
+			</div>
+			<div id="banner">
+
+                
+				<!--BANNER IMAGE GOES HERE-->
+				<div id="bannerImg">
+						<a href="/"><img src="/images/gmao-bnr-2019.png" alt="Global Modeling and Assimilation Office" style="width:1080px;" /></a>
+				</div><!--id=bannerImg-->
+			</div><!--id=banner-->
+            <div class="divClear"></div>
+            <!--TOP MENU GOES HERE -->
+			<div id="topMenu">
+            	<ul id="menu">
+                  <!-- <li><a href="/gmao_mission/" class="topMenu-frst-itm"  onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro1');">GMAO MISSION</a></li> -->
+                    
+                    		 <!-- OPTIONAL SUB NAVIGATION-->
+                            
+<!--                            <ul class="sub">
+				    <li><a href="index.cfm">Sub Navigation for Item 1</a></li>
+                                    <li><a href="index.cfm">Sub Navigation for Item 1</a></li>
+                                    <li><a href="index.cfm">Sub Navigation for Item 1</a></li>
+				</ul>
+-->                    
+                    
+
+		  <li><a href="/weather_prediction/" onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro2');">WEATHER ANALYSIS<br />&amp; PREDICTION</a></li>
+		  <li><a href="/seasonal/" onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro3');">SEASONAL-DECADAL<br /> ANALYSIS &amp; PREDICTION</a></li>
+                  <li><a href="/reanalysis/" onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro4');">REANALYSIS</a></li>
+                  <li><a href="/global_mesoscale/"  onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro5');">GLOBAL MESOSCALE MODELING</a></li>
+		  <li class=""><a href="/observing_sys_science/" class="topMenu-last-itm" onmouseover="javascript:ReplaceContentInContainer('GMAO_intro','leveltwo_intros.json','intro6');">OBSERVING SYSTEM SCIENCE</a></li>
+                </ul>
+            </div><!--id="topMenu"-->
+
+
+			<div id="content" style="display:block; background-color:transparent;">
+            
+            
+            <div id="leftsideWrapper">
+                        
+                        <!--LEFT NAVIGATION BEGINS HERE-->
+<div id="leftnav" style="height:532px; box-sizing:border-box; position:relative; margin-bottom:0;">
+  <ul>
+    <li><a href="/gmao_mission/" id="index_ln1">GMAO Mission</a></li>
+    <li><a href="/GMAO_products/" id="index_ln1">GMAO Products</a></li>
+    <li><a href="/NASA_missions/" id="index_ln2">NASA Mission Support</a></li>
+    <li><a href="/field_campaigns/" id="index_ln3">Suborbital Campaigns</a></li>
+   <li><a href="/multi-partner/" id="index_ln3b">Multi-Partner Projects</a></li>    <li><a href="/research/highlights/" id="index_ln4">Research Briefs</a></li>
+    <li><a href="/research/science_snapshots/" id="index_ln5">Science Snapshots</a></li>
+    <li><a href="/GEOS_systems/" id="index_ln6">GEOS Systems</a></li>
+    <li><a href="/pubs/" id="index_ln7">Publications</a></li>
+    <li><a href="/seminars_workshops/" id="index_ln7a">Seminars &amp; Workshops</a></li>
+    <li><a href="/staff.php" id="index_ln8">Staff Directory</a></li>
+    <li><a href="/contact.php" id="index_ln9">Contact Information</a></li>
+    <li><a href="/jobs/" id="index_ln10">Employment</a></li>
+    <li><a href="/intranet/">Intranet (internal)</a></li>
+    <li><a href="/extranet/">Extranet (login required)</a></li> 
+  </ul>
+
+  <!-- <div id="cf4a" style="display:inline-block; box-sizing:content-box; width:inherit; position: absolute; bottom: 0px; margin:0px auto 0px auto; padding-top:135px; text-align:center; background:linear-gradient(#20303b, #456980);">
+  <a href="/animations/" id="Animations">
+  <img src="/images/active_winter_SSW-165.png" style="width:136px;" alt="" />
+  <img src="/images/Arctic_fires_2019-pm-165.png" style="width:136px;" alt="Arctic Fires Summer 2019 - fine particulates" />
+  <img src="/images/Arctic_fires_2019-165.png" style="width:136px;" alt="Arctic Fires Summer 2019" />
+  <img src="/images/scale-aware_convection-165.png" style="width:136px;" alt="Scale aware convection" />
+  <img src="/images/M2R12K_CO2-165.png" style="width:136px;" alt="MERRA-2 R12K CO2" />
+  <img src="/images/MERRA-2_SP_ozone-165.png" style="width:136px;" alt="MERRA-2 South Polar Ozone" />
+</a>
+</div> -->
+<!--
+  <img src="/images/SSW-150.png" alt="stratospheric sudden warming" />
+  <img src="/images/GEOS5_clouds-150.png" alt="GEOS-5 clouds" />
+  <img src="/images/meteor_circ-150.png" alt="russian meteor strat circulation" />
+  <img src="/images/sphere-165.png" alt="aerosol sphere" />
+-->
+
+
+                        </div><!--id=leftnav-->
+<!--
+                                <div id="quickLinks">
+              </div>--><!--quicklinks-->
+            </div><!--leftsidebar-->
+            
+          	 	<a name="skipping" id="skipping"></a>
+  <div id="content-wrapper" style="background-color:transparent;">
+     <div id="Homepage-2014-twocol">
+
+     <div id="GMAO_intro">
+<h2>The GMAO Research Site</h2>
+<p>The <span style="font-weight:600;">Global Modeling and Assimilation Office (GMAO)</span> supports NASA&#39;s Earth Science mission.  Activities in Earth System modeling and data assimilation aim to maximize the impact of satellite observations on analyses and predictions of the atmosphere, ocean, land and cryosphere.
+</p>
+  
+  <div id="intro_readmore">
+    <a href="/gmao_mission/">Read More &raquo;</a>
+  </div>
+</div>
+
+
+<div id="highlights">
+
+  <div class="section_title">Science Snapshots</div>
+  <div class="briefs_archive_link"><a href="/research/science_snapshots/" style="color:#fff;">Science Snapshot Archive &raquo;</a></div>
+               
+  <div class="slider-holder">
+  <span id="slider-image-1"></span>
+  <span id="slider-image-2"></span>
+  <span id="slider-image-3"></span>
+  <span id="slider-image-4"></span>
+
+<div class="image-holder">
+<div class="slide" id="slide1">
+<a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/hurricane_idalia.php" target="_blank"><img src="https://gmao.gsfc.nasa.gov/research/science_snapshots/slides/2023/hurricane_idalia-icon.png" alt="Hurricane Idalia at Landfall thumbnail" style="width:300px; height:315px;" /></a>
+  <div class="slide_text">
+    <h4><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/hurricane_idalia.php" target="_blank">Hurricane Idalia at Landfall</a></h4>
+    <div class="slide_desc">
+  Hurricane Idalia made landfall along the northern gulf coast of Florida on the 30th of August 2023. Radar reflectivity from observations (left) and as simulated by the Goddard Earth Observing System (GEOS) atmospheric model visualizes the internal structure of Idalia. 
+  </div>
+    <div class="slide_link"><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/hurricane_idalia.php">Read More &raquo;</a></div>
+  </div>
+    <div class="slide_count">1</div>
+</div><div class="slide" id="slide2">
+<a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/sea-surface.php" target="_blank"><img src="https://gmao.gsfc.nasa.gov/research/science_snapshots/slides/2023/sea-surface-icon.png" alt="Sea surface currents and salinity near the maritime continent thumbnail" style="width:300px; height:315px;" /></a>
+  <div class="slide_text">
+    <h4><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/sea-surface.php" target="_blank">Sea surface currents and salinity near the maritime continent</a></h4>
+    <div class="slide_desc">
+  The Indonesian Throughflow (ITF) is the only low-latitude gateway for export of large amounts of heat and freshwater from the Pacific to the Indian Ocean. The ITF affects the atmosphere–ocean coupling with potential impacts on ENSO (El Niño–Southern Oscillation) and the Asian monsoon. 
+  </div>
+    <div class="slide_link"><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/sea-surface.php">Read More &raquo;</a></div>
+  </div>
+    <div class="slide_count">2</div>
+</div><div class="slide" id="slide3">
+<a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/ozone-2023.php" target="_blank"><img src="https://gmao.gsfc.nasa.gov/research/science_snapshots/slides/2023/ozone-icon.png" alt="Ozone extremes over the U.S. tracked by NASA’s composition forecasting system thumbnail" style="width:300px; height:315px;" /></a>
+  <div class="slide_text">
+    <h4><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/ozone-2023.php" target="_blank">Ozone extremes over the U.S. tracked by NASA’s composition forecasting system</a></h4>
+    <div class="slide_desc">
+  In May, the Midwest U.S. experienced high levels of surface ozone that exceeded the National Ambient Air Quality Standard and posed a risk to millions of people and thousands of acres of crops. The region was already grappling with poor air quality caused by smoke drifting south from the massive fires in Alberta.  
+  </div>
+    <div class="slide_link"><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/ozone-2023.php">Read More &raquo;</a></div>
+  </div>
+    <div class="slide_count">3</div>
+</div><div class="slide" id="slide4">
+<a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/smap-radiance-assimilation.php" target="_blank"><img src="https://gmao.gsfc.nasa.gov/research/science_snapshots/slides/2023/rolf-smap-icon.png" alt="SMAP Radiance Assimilation Over Land Improves GEOS Medium-Range Forecasts of Near-Surface Air Temperature and Humidity thumbnail" style="width:300px; height:315px;" /></a>
+  <div class="slide_text">
+    <h4><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/smap-radiance-assimilation.php" target="_blank">SMAP Radiance Assimilation Over Land Improves GEOS Medium-Range Forecasts of Near-Surface Air Temperature and Humidity</a></h4>
+    <div class="slide_desc">
+  The NASA Goddard Earth Observing System (GEOS) employs a hybrid four-dimensional ensemble-variational (Hybrid-4DEnVar) atmospheric data assimilation system to provide global, near-real time weather analysis and forecast products.  
+  </div>
+    <div class="slide_link"><a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/smap-radiance-assimilation.php">Read More &raquo;</a></div>
+  </div>
+    <div class="slide_count">4</div>
+</div>  </div>
+</div>
+ 
+
+
+
+  </div>  <!-- end of highlights -->
+
+
+<!-- ============================================================= -->
+
+
+</div>
+	
+
+              </div><!--full-width-content-item-->
+												
+<div style="height:5px;"></div>
+
+
+               <div class="divClear"></div>
+            
+     </div><!--id = maincontent-->
+<!-- MAIN CONTENT ENDS HERE -->
+
+<!--RIGHT SIDEBAR BEGINS HERE-->
+     <div id="rightsidebar">
+       <div id="snapshots">
+         <div class="section_title">Research Briefs</div>
+
+  <div class="snapshot_item">
+<div class="snapshot_image"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/new_atmos_phys_GEOS-FP/new_atmos_phys_GEOS-FP.pdf" target="_blank"><img src="https://gmao.gsfc.nasa.gov/researchbriefs/new_atmos_phys_GEOS-FP/new_atmos_phys_GEOS-FP-main.png" alt="Impacts of new atmospheric physics in the updated GEOS FP system (Version 5.25) thumbnail" style="width:210px; height:105px;"/></a></div><div class="snapshot_title"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/new_atmos_phys_GEOS-FP/new_atmos_phys_GEOS-FP.pdf" target="_blank">Impacts of new atmospheric physics in the updated GEOS FP system (Version 5.25)</a></div></div><div class="snapshot_item">
+<div class="snapshot_image"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/sw_rrtmg_transition/sw_rrtmg_transition.pdf" target="_blank"><img src="https://gmao.gsfc.nasa.gov/researchbriefs/sw_rrtmg_transition/sw_rrtmg_transition-main.png" alt="Transition to the RRTMG Shortwave Radiation Code in GEOS Models thumbnail" style="width:210px; height:105px;"/></a></div><div class="snapshot_title"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/sw_rrtmg_transition/sw_rrtmg_transition.pdf" target="_blank">Transition to the RRTMG Shortwave Radiation Code in GEOS Models</a></div></div><div class="snapshot_item">
+<div class="snapshot_image"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/sat_o3_data_geos/sat_o3_data_geos.pdf" target="_blank"><img src="https://gmao.gsfc.nasa.gov/researchbriefs/sat_o3_data_geos/sat_o3_data_geos-main.png" alt="Ozone Data from Ultraviolet Satellite Measurements in GEOS Products thumbnail" style="width:210px; height:105px;"/></a></div><div class="snapshot_title"><a href="https://gmao.gsfc.nasa.gov/researchbriefs/sat_o3_data_geos/sat_o3_data_geos.pdf" target="_blank">Ozone Data from Ultraviolet Satellite Measurements in GEOS Products</a></div></div>
+<div class="archive_link"><a href="/research/briefs/">Research Briefs Archive &raquo;</a>
+  </div>
+</div> <!-- end of snapshots -->
+
+
+      <!--id="rightsidebar"-->
+<!-- RIGHT SIDEBAR ENDS HERE -->
+
+<div id="secondrow">
+
+<div id="forecasts">
+  <div class="section_title">Forecasting Support</div>
+<!--  <div class="section_title" style="margin:0px 4px 10px 0px;">Forecasts &amp; Support</div>-->
+
+										    <p><a href="https://fluid.nccs.nasa.gov/weather">GEOS FP Weather Analyses<br />&nbsp; &amp; Forecasts&nbsp;<span style="font-size:120%;">&#9729; &#9728;</span></a></p>
+
+    <div class="item_divider_light"></div>
+
+    <p><a href="/field_campaigns/real_time_support_requests.php">Requests for Support</a></p>
+
+    <div class="item_divider_light"></div>
+
+    <p><a href="/field_campaigns">Suborbital Campaigns:</a></p>
+      <p style='margin:1em;'><a href='https://portal.nccs.nasa.gov/datashare/gmao/geos-fp/.internal/MIAMI_DUST/' style='font-style:italic;'>&middot; CAROb</a></p>
+<p style='margin:1em;'><a href='https://pace.oceansciences.org/campaigns.htm' style='font-style:italic;'>&middot; PACE-PAX</a></p>
+
+    <div class="archive_link"><a href="/field_campaigns/past_campaigns.php">Past Missions Supported &raquo;</a></div>
+</div> <!-- end of forecasts -->
+
+<div id="gmao_news">
+  <div class="section_title-dark" style="margin:-2px 8px 10px 0px;">GMAO News</div>
+
+  <p style="clear:both; padding-top:0.5em; padding-bottom: 1rem;text-indent:-10px;"><strong><!--  --></strong><a href="https://www.nccs.nasa.gov/news-events/nccs-highlights/Impact-of-Pacific-Ocean-Heatwaves-on-Phytoplankton-Populations" target="_blank"> <img src="https://gmao.gsfc.nasa.gov/news/2023/phytoplankton.png" alt="thumbnail" style="float:left; vertical-align:top; padding-right:10px; width:53px; height:53px;" /> NCCS-Enabled Data Assimilation Probes Impact of Pacific Ocean Heatwaves on Phytoplankton Populations (6.16.23)</a><br /><br /><a href="https://www.nccs.nasa.gov/news-events/nccs-highlights/Impact-of-Pacific-Ocean-Heatwaves-on-Phytoplankton-Populations" target="_blank">Read More &raquo;</a></p>
+<p style="clear:both; padding-top:0.5em; padding-bottom: 1rem;text-indent:-10px;"><strong><!--  --></strong><a href="https://gmao.gsfc.nasa.gov/news/2023/present-visualizations.php" target="_blank"> <img src="https://gmao.gsfc.nasa.gov/news/2023/ott.png" alt="thumbnail" style="float:left; vertical-align:top; padding-right:10px; width:53px; height:53px;" /> The GMAO’s Lesley Ott Presents Air Quality Visualizations for Visiting Country Leaders (5.11.23)</a><br /><br /><a href="https://gmao.gsfc.nasa.gov/news/2023/present-visualizations.php" target="_blank">Read More &raquo;</a></p>
+<p style="clear:both; padding-top:0.5em; padding-bottom: 1rem;text-indent:-10px;"><strong><!--  --></strong><a href="https://gmao.gsfc.nasa.gov/news/2023/itsc.php" target="_blank"> <img src="https://gmao.gsfc.nasa.gov/news/2023/Northern.png" alt="thumbnail" style="float:left; vertical-align:top; padding-right:10px; width:53px; height:53px;" /> The GMAO Stays Warm at ITSC in the Arctic Circle (3.29.23)</a><br /><br /><a href="https://gmao.gsfc.nasa.gov/news/2023/itsc.php" target="_blank">Read More &raquo;</a></p>
+
+  <div class="archive_link"><a href="/news/index.php#archive">GMAO News Archive &raquo;</a></div>
+
+</div>
+
+
+<div id="system_news">
+
+<div class="section_title">GEOS System News</div>
+  
+ <p>01.25.2023 &middot;<a href="https://gmao.gsfc.nasa.gov/news/geos_system_news/2023/GEOS_FP_upgrade_1_25.php" target="_blank">GEOS Forward Processing (GEOS-FP) Upgrade Feb 7, 2023</a><br /></p>
+<div class="item_divider_light"></div>
+<p>03.21.2022 &middot;<a href="https://gmao.gsfc.nasa.gov/news/geos_system_news/2022/GEOS_FP_upgrade_3_01.php" target="_blank">GEOS FP Upgraded to GEOS-5.29.4 on March 1</a><br /></p>
+<div class="item_divider_light"></div>
+<p>02.18.2021 &middot;<a href="https://gmao.gsfc.nasa.gov/news/geos_system_news/2021/planned_GEOS_FP_upgrade_5_27_1.php" target="_blank">* Rescheduled * GEOS FP Upgrade Now Planned for 25 February, 2021</a><br /></p>
+
+ <div class="archive_link"><a href="/news/geos_system_news/">GEOS System News Archive &raquo;</a></div>
+
+</div> <!-- end of GEOS System News -->
+
+</div> <!-- end of second row -->
+
+
+  <!--id="content-wrapper"-->       
+
+
+
+			</div><!--id="content"-->
+
+
+		 <div class="divClear"></div>
+         <div id="footer">
+            	<div>
+                    <a href="https://www.nasa.gov" class="imageLink"><img src="/images/nasa-logo.svg" alt="NASA Logo, National Aeronautics and Space Administration" height="85" style="margin-left: 20px;" /></a>
+                </div><!--class="nasaLogo"-->
+            	<!-- <div id="footer-signature">
+                		<a href="https://www.nasa.gov/goddard/" class="imageLink"><img src="/images/goddardsignature2.png" height="68" alt="Goddard Signature" /></a>
+                </div> -->
+                <div id="footer-signature">
+                	<a href="https://science.gsfc.nasa.gov/earth/" class="imageLink"><img src="/images/ESD-logo.png" weight="230" height="47" alt="Earth Sciences" /></a>
+                </div>
+                <div class="nasafootlinks"id="footerLeft">
+                	<ul>
+                    	<li>Responsible NASA Official : <!--EDIT THIS--><br />&nbsp;&nbsp;<a href="mailto:Steven.Pawson-1@nasa.gov">Steven Pawson</a></li>
+                        <li>Web Curator: <!--EDIT THIS--> <br />&nbsp;&nbsp;<a href="mailto:kaushal.a.patel@nasa.gov">Kaushal Patel</a></li>
+                    </ul>
+                </div>
+                 <div class="nasafootlinks" id="footerRight" style="zoom:reset;">
+                	<ul>
+                        <li>
+                        <a target="_blank" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a>
+                        </li> <li>
+                        <a href="/contact.php">Contact Us</a>
+                        </li>
+			<li>Page Last Updated: 09/15/2023</li> 
+					</ul>
+
+                </div><!--footerRight-->
+                
+            </div><!--id=footer-->
+		</div><!--id="page"-->
+	</div><!--id = page-wrapper-->
+</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+
+

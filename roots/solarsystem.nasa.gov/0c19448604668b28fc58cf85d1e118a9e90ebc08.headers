@@ -1,0 +1,25 @@
+GET https://solarsystem.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Request-Id: 7d79a71f-b887-4ec4-985b-1858fad6e231
+< Access-Control-Max-Age: 1005
+< X-Amz-Cf-Pop: EWR53-C1
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: max-age=0, private, must-revalidate
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval';        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Frame-Options: sameorigin
+< Etag: W/"2ca8bc904b5c2c0056397131bd8a0a69"
+< Status: 200 OK
+< X-Powered-By: Phusion Passenger(R)
+< Access-Control-Allow-Origin: https://solarsystem.nasa.gov
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< X-Amz-Cf-Id: u-kh50VbzNHt01426CZQMpfc6kkSU88JdR3-nyCUI3zvZ656f1ICOg==
+< Age: 2665
+< X-Cache: Hit from cloudfront
+< Date: Tue, 19 Sep 2023 05:22:13 GMT
+< Server: Apache
+< X-Runtime: 0.495504
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Via: 1.1 7f822cbc5468903ff5582a7c6af4c024.cloudfront.net (CloudFront)

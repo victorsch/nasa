@@ -1,0 +1,12 @@
+GET https://sdo5.nascom.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Last-Modified: Thu, 19 Jan 2023 17:09:23 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:54:05 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Etag: "478-5f2a0fe9b160f"
+< Content-Length: 1144

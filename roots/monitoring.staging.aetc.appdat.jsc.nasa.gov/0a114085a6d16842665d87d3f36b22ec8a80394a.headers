@@ -1,0 +1,14 @@
+GET http://monitoring.staging.aetc.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Length: 164
+< Location: https://monitoring.staging.aetc.appdat.jsc.nasa.gov
+< Date: Tue, 19 Sep 2023 05:44:41 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html

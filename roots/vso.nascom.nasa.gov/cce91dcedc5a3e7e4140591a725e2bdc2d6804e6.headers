@@ -1,0 +1,12 @@
+GET https://vso.nascom.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:55:31 GMT
+< Last-Modified: Mon, 22 Feb 2021 13:42:45 GMT
+< Etag: "488-5bbecfa071f40"
+< Content-Length: 1160
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k mod_perl/2.0.12 Perl/v5.26.3
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8

@@ -1,0 +1,22 @@
+GET https://gsgoesbomgar.ndc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< X-Ua-Compatible: IE=edge
+< X-Frame-Options: SAMEORIGIN
+< X-Robots-Tag: noindex, nofollow
+< Date: Tue, 19 Sep 2023 06:03:00 GMT
+< Pragma: no-cache
+< Set-Cookie: ns_s=a43b5d911b834d34f6c0bee4fb21fea8; path=/; secure; HttpOnly; SameSite=lax
+< Vary: X-Requested-With
+< Server: Apache
+< Cache-Control: no-cache, no-store
+< Referrer-Policy: strict-origin-when-cross-origin
+< Permissions-Policy: accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=()
+< Content-Security-Policy: default-src 'self'; frame-ancestors 'self';
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Content-Type: text/html; charset=utf-8
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Content-Type-Options: nosniff

@@ -1,0 +1,20 @@
+GET https://ftsdb.grc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Aspnetmvc-Version: 4.0
+< Set-Cookie: __RequestVerificationToken=gJa1V9l0eAyhb8bAxunWIFY6XPrHBuwmkI1I1HYcD9Iw_nEvKdlAMZdVtYhgMTwnaaTpDwr8HHWdeEPjdD62geV_quenzUBN1k0zBx1Sl3uh_uxyRS2-XF12_JRC4GbM2REcag2; path=/; secure; HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: private
+< Server: 
+< Via: 1.1 c7705692ed008dad7e46e32f966aa3fe.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P8
+< X-Amz-Cf-Id: 04zqgjx_kCIimWFMCjTnPcGWOST7cn8IAn4h0OevYuF4ip-74RRXYA==
+< X-Xss-Protection: 1; mode=block
+< X-Cache: Miss from cloudfront
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:00:49 GMT
+< X-Aspnet-Version: 
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding

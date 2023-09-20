@@ -1,0 +1,11 @@
+GET http://gibs-a.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 1237
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:04:15 GMT
+< Server: Apache
+< Last-Modified: Wed, 06 Apr 2022 14:15:53 GMT
+< Etag: "4d5-5dbfcffd0627d"
+< Accept-Ranges: bytes

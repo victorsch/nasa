@@ -1,0 +1,13 @@
+GET https://go.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< Content-Length: 67
+< Content-Type: text/html; charset=utf-8
+< Location: https://www.nasa.gov/socialmedia
+< Server: nginx
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Date: Tue, 19 Sep 2023 05:54:43 GMT
+< Pragma: no-cache

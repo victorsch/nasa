@@ -1,0 +1,15 @@
+GET https://st.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:00:27 GMT
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+< X-Powered-By: PHP/7.4.33
+< X-Xss-Protection: 1
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Set-Cookie: juno_sequencetracker=fmgsad243o9f79gqs898r2pid1; expires=Tue, 19-Sep-2023 10:00:27 GMT; Max-Age=14400; path=/; secure; HttpOnly
+< X-Frame-Options: deny
+< Location: https://st.jpl.nasa.gov/home/login
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8

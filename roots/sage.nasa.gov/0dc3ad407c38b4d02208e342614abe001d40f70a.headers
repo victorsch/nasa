@@ -1,0 +1,20 @@
+GET https://sage.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Pragma: no-cache
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 19 Sep 2023 05:54:40 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< X-Powered-By: PHP/8.1.22
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Link: <https://sage.nasa.gov/>; rel=shortlink
+< X-Content-Type-Options: nosniff
+< Set-Cookie: PHPSESSID=qophdvktasgmcrimrq2r1ioobr; path=/
+< Set-Cookie: 7hinkZElzC=c6d6d1eeae; expires=Tue, 19-Sep-2023 06:24:40 GMT; Max-Age=1800
+< Content-Type: text/html; charset=UTF-8

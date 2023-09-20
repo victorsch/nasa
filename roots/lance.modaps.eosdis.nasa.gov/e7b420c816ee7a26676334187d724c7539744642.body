@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#" style="background: #222;font-size:10px;">
+    <head>  
+        <!-- Google Tag Manager -->
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+        <!-- End Google Tag Manager -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="theme-color" content="#630202"/>
+        <meta name='mobile-web-app-capable' content='yes'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='application-name' content='LANCE'>
+        <meta name='apple-mobile-web-app-status-bar-style' content='#630202'>
+        <meta name='apple-mobile-web-app-title' content='MODAPS LANCE'>
+        <link rel='icon' sizes='192x192' href='/images/touch/icon-192x192.png'>
+        <link rel='apple-touch-icon' href='/images/touch/icon-192x192.png'>
+        <meta name='msapplication-TileImage' content='/images/touch/icon-144x144.png'>
+        <meta name='msapplication-TileColor' content='#630202'>
+        <meta name='theme-color' content='#630202'>
+        <meta property='og:title' content='MODAPS LANCE 1.5.4'>
+        <meta property='og:type' content='website'>
+        <meta property='og:image' content='/images/touch/icon-192x192.png'>
+        <meta property='og:url' content='https://lance.modaps.eosdis.nasa.gov'>
+        <meta property='og:description' content='LANCE-MODIS Collection 6.1; VIIRS-LAND Collection 1 & 2'>
+        <meta name='twitter:card' content='summary'>
+        <meta name='twitter:url' content='https://lance.modaps.eosdis.nasa.gov'>
+        <meta name='twitter:title' content='LANCE'>
+        <meta name='twitter:description' content='LANCE-MODIS AND VIIRS-LAND NEAR REAL-TIME DATA'>
+        <meta name='twitter:image' content='/images/touch/icon-192x192.png'>
+        <meta name='twitter:creator' content='@nasa'>
+                
+        <link rel="manifest" href="/manifest.json">
+    
+        <title>LANCE</title>
+        <meta name="description" content="NASA’s Land, Atmosphere Near-real-time Capability for EOS (LANCE) leverages existing satellite data processing systems in order to provide data and imagery available from select instruments (currently AIRS, AMSR2, ISS LIS, MISR, MLS, MODIS, MOPITT, OMI, OMPS, and VIIRS).">
+        
+        <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700);</style>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://earthdata.nasa.gov/favicon.ico?9e083c0f-343c-42eb-a383-97be5cfb929f" type="image/vnd.microsoft.icon">
+        
+<!--        <link rel="stylesheet" href="/css/ozoneaq.css">-->
+        <link rel="stylesheet" href="/css/woff2.css">
+    </head>
+    <style> html { background: #ecf0f1; font-size:10px; } </style>
+    <link rel="stylesheet" href="/dist/index.98a1a557.css"><script type="module" src="/dist/index.178d463d.js"></script><style>
+.about {
+    border-top: 2px solid #24506a;
+    background: #fff url(/images/lance-logo3.png) no-repeat center right;
+}
+.masthead {
+    background: url(/images/bm2.jpg) no-repeat top center;
+    height:35rem;
+}
+
+</style>
+<script>
+    window.load_news = true;
+</script>
+<body>
+    <section class="masthead">
+    </section>
+    <section class="about">
+        <div class="wrap" style="padding:1rem 3%;">
+            <div>    
+            <h2>LANCE-MODIS AND VIIRS-LAND NEAR REAL-TIME DATA</h2> 
+            <div style="width:auto;margin:1em 5em 2em 2em;">		
+                <a href="/modis/"><div class="frontButton info btn"><b>MODIS</b> <i class="fa fa-info-circle" aria-hidden="true" style="margin-left:0.5em;"></i></div></a>
+                <a href="/viirs/"><div class="frontButton info btn"><b>VIIRS</b> <i class="fa fa-info-circle" aria-hidden="true" style="margin-left:0.5em;"></i></div></a>
+                <a href="/imagery-apps/"><div class="frontButton info btn">Imagery <i class="fa fa-image" aria-hidden="true" style="margin-left:0.5em;"></i></div></a>
+                <a href="https://firms.modaps.eosdis.nasa.gov/"><div class="frontButton btn" style="margin-top:3em;">FIRMS Fire Data  <i class="fa fa-download" aria-hidden="true" style="margin-left:0.5em;"></i></div></a>
+                <a href="https://nrt3.modaps.eosdis.nasa.gov/archive/"><div class="frontButton btn">NRT Data Archive  <i class="fa fa-download" aria-hidden="true" style="margin-left:0.5em;"></i></div></a>
+            </div>
+            
+            <p>
+                NASA’s <a target="_blank" rel="noopener" class="ext" href="https://earthdata.nasa.gov/earth-observation-data/near-real-time">Land, Atmosphere Near-real-time Capability for EOS (LANCE)</a>
+                leverages existing satellite data processing systems in order to provide data and imagery available from select instruments 
+                (currently AIRS, AMSR2, ISS LIS, MISR, MLS, MODIS, MOPITT, OMI, OMPS, and VIIRS). 
+                Most data products are available within 3 hours of satellite observation. 
+                These data meet the timely needs of applications such as numerical weather and climate prediction, forecasting and monitoring natural hazards, 
+                agriculture, air quality and disaster relief.
+            </p>
+            <p>
+                Both the LANCE-MODIS and LANCE VIIRS-Land elements are provided by the 
+                <a target="_blank" rel="noopener" class="ext" href="https://earthdata.nasa.gov/about/science-system-description/eosdis-components/lance/about-modaps">MODIS Adaptive Processing System (MODAPS)</a> 
+                operated by the GSFC Terrestrial Information Systems Laboratory, Code 619. 
+            </p>
+            <p>
+                Level 0-3  Near real-time (NRT) products are provided from 
+                the <a target="_blank" rel="noopener" class="ext" href="https://modis.gsfc.nasa.gov/">MODIS (Moderate Resolution Imaging Spectroradiometer)</a> instruments 
+                on both the <a target="_blank" rel="noopener" class="ext" href="https://terra.nasa.gov/">Terra</a> (AM) and <a target="_blank" rel="noopener" class="ext" href="https://aqua.nasa.gov/">Aqua</a> (PM) satellites. 
+                L2 NRT land products are provided from <a target="_blank" rel="noopener" class="ext" href="https://www.jpss.noaa.gov/viirs.html">VIIRS (the Visible Infrared Imaging Radiometer Suite)</a>  onboard 
+                    the <a target="_blank" rel="noopener" class="ext" href="https://www.nasa.gov/mission_pages/NPP/main/index.html">Suomi National Polar-orbiting Partnership (S-NPP)</a> 
+                    and <a target="_blank" rel="noopener" class="ext" href="https://www.jpss.noaa.gov/mission_and_instruments.html">NOAA-20 (formally JPSS-1)</a> satellites. 
+            </p>
+            <p>
+                If latency is not a primary concern, users are encouraged to use the standard science products, which are created using the best available ancillary, 
+                calibration and ephemeris information. See <a href="/data/difference.php">information on the differences between standard and near real-time products</a>.
+            </p>
+            </div>
+        </div>
+    </section>
+    <section class="feed-section" style="margin-bottom:2em;">
+        <div class="wrap">
+            <div class="feed-section-header">
+                News <span class="light">&amp;</span> Events     
+            </div>
+            <div class="feed-grid">
+                <div class="news-container" id="newsContent">
+                    <div id="loader">
+                        <div>
+                            <div class="dot-flashing"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="viewall">
+                <a href="/news">View All</a></div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="https://fbm.earthdata.nasa.gov/for/nrt3/feedback.js"></script>
+
+<!--googleon: all-->    
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>  
+
+</html>

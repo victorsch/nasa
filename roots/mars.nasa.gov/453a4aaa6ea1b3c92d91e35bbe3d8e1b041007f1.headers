@@ -1,0 +1,23 @@
+GET https://mars.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Runtime: 0.372736
+< X-Request-Id: 66589c2c-ada3-43fa-b32a-13ed82e03be2
+< X-Powered-By: Phusion Passenger(R)
+< Via: 1.1 bbd89b29eb16bb369cdc097594fa8260.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< Age: 32
+< Date: Tue, 19 Sep 2023 05:44:19 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Amz-Cf-Id: fAnTUs013NVZfdoiKD72KOf3N4mUy2G8jrxhVN-k8geHm02wkIY7kA==
+< X-Cache: Miss from cloudfront
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: max-age=900, public
+< Cache-Control: public
+< Referrer-Policy: same-origin
+< X-Content-Type-Options: nosniff
+< Etag: W/"0225a2937a49eaaf9c6c1180b1acaf51"
+< Status: 200 OK

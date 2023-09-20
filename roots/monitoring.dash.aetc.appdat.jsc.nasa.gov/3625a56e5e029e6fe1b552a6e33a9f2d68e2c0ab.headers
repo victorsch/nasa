@@ -1,0 +1,14 @@
+GET http://monitoring.dash.aetc.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Type: text/html
+< Content-Length: 164
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:44:02 GMT
+< Location: https://monitoring.dash.aetc.appdat.jsc.nasa.gov
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block

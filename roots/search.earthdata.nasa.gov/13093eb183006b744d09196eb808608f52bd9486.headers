@@ -1,0 +1,16 @@
+GET http://search.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:04:50 GMT
+< Content-Length: 167
+< Location: https://search.earthdata.nasa.gov/
+< Via: 1.1 d07915e7a5c22513f7a2f462a7421cce.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P7
+< X-Amz-Cf-Id: eK-ntWZVh53ve_XB23H5iaFxjho0FDupGCdHHQaqebHZxgouT6aVXw==

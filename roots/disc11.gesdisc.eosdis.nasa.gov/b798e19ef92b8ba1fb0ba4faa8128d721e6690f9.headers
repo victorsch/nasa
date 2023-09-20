@@ -1,0 +1,13 @@
+GET https://disc11.gesdisc.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:02:13 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Tue, 01 Nov 2022 14:22:37 GMT
+< Etag: "860-5ec6974b2b7bc"
+< Accept-Ranges: bytes
+< Content-Length: 2144

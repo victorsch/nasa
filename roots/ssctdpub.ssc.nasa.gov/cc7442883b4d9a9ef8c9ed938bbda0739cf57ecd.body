@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>TechDoc Search Engine</title>
+<link href="/td/styles/normal.css" rel="STYLESHEET" type="text/css">
+</head>
+<body>
+<table class="topSection">
+ <tr class="topSection"><td class="topSection">
+  <table class="topBar">
+   <tr class="topBar">
+    <td class="topBarLeft"><a href="/" class="topBar" title="Home Page">Search</a></td>
+    <td class="topBarCenter">Search Engine</td>
+    <td class="topBarRight">&nbsp;</td>
+   </tr>
+  </table>
+ </td></tr>
+ <tr class="topSection"><td class="topSection">
+  <table class="menuBar">
+   <tr class="menuBar">
+    <td class="menuBar"><a href="/search/general.html" class="menuBar">Advanced&nbsp;Search</a></td>
+    <td class="menuBarWide"><a href="/servlet/sm.web.HomePage" class="menuBar">Search&nbsp;Manager</a></td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+
+<div class="lowlightedWide">
+
+<table border="0" cellpadding="0" cellspacing="4" width="100%">
+<tr>
+<td><img src="/td/images/nasa-logo.gif" border="0" style="padding: 4px 16px;" alt="Our Logo"></td>
+<td align="center" width="100%"><h2>Welcome&nbsp;to&nbsp;the <a href="http://www.nasa.gov/centers/stennis/home/index.html">Stennis Space Center</a>&nbsp;TechDoc Search&nbsp;Engine.</h2>
+ <table class="speedSearch">
+  <tr>
+   <td class="speedSearch"><form method="GET" action="/servlet/search" class="speedSearch">
+    <input type="TEXT" name="TEXT1" value="" size="52" maxlength="255"><br>
+    <input type="RADIO" name="FIELD1" value="SM_TEXT" checked>Text&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_DOC_NUMBER">Doc Number&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_TITLE">Title&nbsp;&nbsp;<input type="SUBMIT" value="Speed Search" style="margin-top: 4px;">
+    <input type="HIDDEN" name="MAX_RESULTS" value="50"></form></td>
+  </tr>
+ </table>
+ <div class="speedSearch">Tip: Doc Numbers do not allow spaces, so use asterisks or<br>
+question marks in place of spaces, i.e.&nbsp;SPR?1150*</div>
+</td>
+<td><img src="/td/images/nasa-logo.gif" border="0" style="padding: 4px 16px;" alt="Our Logo"></td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>To locate documents, use the Quick Search above or choose the
+Advanced Search option below to refine your search criteria.</p>
+
+<ul>
+
+<li><strong><a href="/search/general.html">Advanced Search</a></strong><br>
+Search by one or more fields in the documents.<br>&nbsp;</li>
+
+<li><strong><a href="/servlet/sm.web.HomePage">Search Manager</a></strong> -
+Manage the search engine on this server.<br>&nbsp;</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+</div>
+
+</body>
+</html>

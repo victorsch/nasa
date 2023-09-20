@@ -1,0 +1,16 @@
+GET http://sandbox-backend.ngap.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://sandbox-backend.ngap.uat.earthdata.nasa.gov/
+< X-Amz-Cf-Id: M4AOfLFrGsdie0YuWiDVkVY_7KyLkcQiD6YU8bL72bQFGUSvPPlpgg==
+< Server: CloudFront
+< Content-Type: text/html
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< Via: 1.1 4a124e8b579c1eb5bfcb198db51e61fe.cloudfront.net (CloudFront)
+< Date: Tue, 19 Sep 2023 05:42:22 GMT
+< Content-Length: 167

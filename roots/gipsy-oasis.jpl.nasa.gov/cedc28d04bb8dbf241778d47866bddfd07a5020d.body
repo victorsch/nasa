@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 9]> <html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie ie8" lang="en"> <![endif]-->
+<!-- START HEADER: "DEFAULT" -->
+
+<head>
+    <link href="/css/manifest.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.jpl.nasa.gov/assets/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+    <script src="https://www.jpl.nasa.gov/assets/javascripts/public_manifest.js"></script>
+    <script src="https://www.jpl.nasa.gov/assets/javascripts/vendor/jquery.fancybox.js"></script>
+    <script src="https://www.jpl.nasa.gov/assets/javascripts/vendor/jquery.fancybox-thumbs.js"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>GipsyX</title>
+
+        <link rel='stylesheet' href='css/styles.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='css/slideshow.css' type='text/css' media='screen'/>    <link rel="stylesheet" href="css/navigation.css" type="text/css" media="screen"/>
+    <script type="text/javascript">var _siteRoot='index.php?page=home',_root='index.php?page=home';</script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body class='dark_background logged_out mobile_menu' id='home'>
+    <div id='main_container'>
+        <div id='site_body'>
+            <div class='site_header_area'>
+                <header class='site_header'>
+                    <div class='brand_area'>
+                        <div class='brand1'>
+                            <a class='nasa_logo' href='https://www.nasa.gov' title='NASA'>NASA</a>
+                        </div>
+                        <div class='brand2'>
+                            <div class='jpl_logo'>
+                                <a href='https://www.jpl.nasa.gov/' id='jpl_logo' title='Jet Propulsion Laboratory'>Jet Propulsion Laboratory</a>
+                            </div>
+                            <div class='caltech_logo'>
+                                <a href='https://www.caltech.edu/' id='caltech_logo' title='California Institute of Technology' target='_blank'>California Institute of Technology</a>
+                            </div>
+                        </div>
+                        <img alt='' class='print_only print_logo' src='https://www.jpl.nasa.gov/assets/images/logo_nasa_trio_black@2x.png'>
+                    </div>
+                </header>
+            </div>
+<!-- END HEADER: "DEFAULT" -->
+<!--
+            <div id='page'>
+                <div class='header_mask'></div>
+                <div class="content">
+<body>
+-->
+<!-- ################ -->
+<!-- START CONTENT -->
+<div id="bg">
+<div id="box">
+<div id="banner_container">
+<div id="banner"><a href="index.php?page=home"><img src="img/transparent.gif" border="0" class="alignTransparency" alt="Go Back to GIPSY Home Page" title="Go Back to GIPSY Home Page"/></a></div>
+</div>
+<a href="#maincontent"><img src="img/transparent.gif" alt="Follow this
+link to skip to the main content" width="1" height="1" hspace="0" vspace="0" border="0" align="left" style="float: left;"></a>
+<div class="wrapper"> 
+	<div id="container">
+	<div id="left_content">
+
+		
+<div class="glossymenu">
+		
+        <a class="menuitem" href="/index.php?page=home">Home</a>
+        
+        <a class="menuitem" href="/index.php?page=software">GipsyX Software</a>
+        <a class="menuitem" href="/index.php?page=data">Orbit/Clock Data Products</a>
+        <a class="menuitem" href="/index.php?page=pppdata">PPP Data Products</a>
+        
+        <a class="menuitem" href="/index.php?page=forum">Forum</a>
+        <a class="menuitem" href="/index.php?page=documentation">Documentation</a>
+
+        <a class="menuitem" href="/index.php?page=faq">FAQs</a>
+        <a class="menuitem" href="/index.php?page=references">References</a>
+        <a class="menuitem" href="/index.php?page=links">Links</a>
+        <a class="menuitem" href="/index.php?page=contact">Contact</a>
+<!---// end #glossymenu ---></div>
+		<div class="getGipsy">
+			<a href="index.php?page=software"><img src="img/gipsy_ad.jpg" alt="Get GIPSY Now" title="Get GIPSY Now" border="0px" /></a>
+		<!---// end #getGipsy ---></div>
+	<!---// end #left_content ---></div>
+	<div id="main">
+    <div id="mid_content_home">
+		<div id="slideshow">
+    		<div id="header">
+            	<div class="wrap">
+            		<div id="slide-holder">
+            			<div id="slide-runner">
+                            <a><img id="slide-img-1" width="540px" height="240px"  src="slideshow_imgs/image1.jpg" class="slide" alt="Precise positioning from Earth's surface to space" title="Precise positioning from Earth's surface to space"/></a>
+                            <a><img id="slide-img-2" width="540px" height="240px" src="slideshow_imgs/image2.jpg" class="slide" alt="GNSS orbit and clock determination" title="GNSS orbit and clock determination"/></a>
+                            <a><img id="slide-img-3" width="540px" height="240px"  src="slideshow_imgs/image3.jpg" class="slide" alt="Orbit determination of low Earth orbiters" title="Orbit determination of low Earth orbiters"/></a>
+                            <a><img id="slide-img-4" width="540px" height="240px"  src="slideshow_imgs/image4.jpg" class="slide" alt="Kinematic positioning of airplanes" title="Kinematic positioning of airplanes"/></a>
+                            <a><img id="slide-img-5" width="540px" height="240px"  src="slideshow_imgs/image5.jpg" class="slide" alt="Positioning for static and moving platforms" title="Positioning for static and moving platforms"/></a>
+                            <a><img id="slide-img-6" width="540px" height="240px"  src="slideshow_imgs/image6.jpg" class="slide" alt="Precise orbit determination for satellite altimetry" title="Precise orbit determination for satellite altimetry"/></a>
+                            <a><img id="slide-img-7" width="540px" height="240px"  src="slideshow_imgs/image7.jpg" class="slide" alt="Precise orbit determination for gravity recovery" title="Precise orbit determination for gravity recovery"/></a>
+                            <a><img id="slide-img-8" width="540px" height="240px"  src="slideshow_imgs/image8.jpg" class="slide" alt="Plate tectonics and regional deformations" title="Plate tectonics and regional deformations"/></a>
+                            
+
+                            <div id="slide-controls">
+                                <p id="slide-client" class="text"><!--<strong>Title: </strong>--><span></span></p>
+                                <p id="slide-desc" class="text"></p>
+                                <p id="slide-nav"></p>
+                            <!---// end #slide-controls ---></div>
+            			<!---// end #slide-runner ---></div>
+            		<!---// end #slide-holder ---></div>
+            	<!---/// end .wrap ---></div>
+        	<!---// end #header ---></div>
+    	<!---// end #slideshow ---></div>
+        
+        <!--- code for jQuery slider --->
+        <script type="" text="" javascript="">
+			if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"","desc":"Precise positioning from Earth's surface to space"},{"id":"slide-img-2","client":"","desc":"GNSS orbit and clock determination"},{"id":"slide-img-3","client":"","desc":"Orbit determination of low Earth orbiters"},{"id":"slide-img-4","client":"","desc":"Kinematic positioning of airplanes"},{"id":"slide-img-5","client":"","desc":"positioning for static and moving platforms"},{"id":"slide-img-6","client":"","desc":"Precise orbit determination for satellite altimetry"},{"id":"slide-img-7","client":"","desc":"Precise orbit determination for gravity recovery"},{"id":"slide-img-8","client":"","desc":"Plate tectonics and regional deformations"}];
+		</script>
+		
+        <div id="about">
+        <div class="pad">
+        <a href="https://doi.org/10.1016/j.asr.2020.04.015"><strong>GipsyX</strong></a> is developed by the Jet Propulsion Laboratory (JPL), and maintained by the Near Earth Tracking Applications and Systems groups. It replaces the <strong>GIPSY-OASIS (GNSS-Inferred Positioning System and Orbit Analysis Simulation Software)</strong> software. <br /><br />
+        <h3>Features:</h3>
+        	<ul>
+                <li>Analysis of data from Global Navigation and Satellite Systems (GNSS):
+                	<ul>
+                        <li>Global Positioning System (GPS)</li>
+                        <li>Russian GLONASS</li>
+                        <li>French DORIS</li>
+                        <li>Satellite Laser Ranging (SLR) system</li>
+                    </ul>
+                </li>
+                
+                <li>Precise centimeter-level GNSS-based positioning and timing:
+                	<ul>
+                        <li>Space platforms, including low-Earth orbiters and GNSS constellations</li>
+                        <li>Airplanes</li>
+                        <li>Terrestrial (ground) stations, static or moving</li>
+                        <li>Time transfer</li>
+                    </ul>
+                </li>
+                
+                <li>Single high-level user interface supports majority of precise positioning applications</li>
+                <li>Single-receiver ambiguity resolution using JPL's GPS orbit and clock products</li>
+                <li>Documentation accompanying software modules, and <a href="/index.php?page=forum">online help</a></li>
+                <li>Training at annual GipsyX user group classes, and <a href="/index.php?page=forum">online</a></li>
+                <li>Hundreds of research and educational users in more than 20 countries</li>
+		<li>Builds on more than 35 years of JPL experience with GPS data analysis</li>
+			</ul>
+			<br />
+        <h3>Applications:</h3>
+			<ul>
+                <li>Terrestrial positioning for geophysical research:</li>
+                    <ul> 
+                    <li>Earth deformation, plate tectonics</li>
+                    <li>GNSS Networks (e.g. PBO and SCIGN)</li>
+                    <li>Ice flow</li>
+                    <li>Climate studies through observation of troposphere and ionosphere</li>
+                    <li>Reference frame (geocenter and scale) and Earth rotation parameters</li>
+                    </ul>
+                <li>Airplane positioning</li>
+                <li>Precise orbit determination</li>
+                    <ul> 
+                    <li>Low-Earth orbiters: Topex/Poseidon, Jason-1, Jason-2/OSTM, Jason-3, Sentinel-6, NISAR, GRACE, GRACE-FO, Champ, SAC-C, COSMIC, COSMIC-2, DSAC, Space Shuttle (e.g. SRTM), Commercial Satellites</li>
+                    <li>GNSS constellations including GPS, GLONASS, Galileo, Beidou, QZSS, and IRNSS</li>
+                    </ul>
+			</ul>
+
+            
+        </div>
+        <!---// end #about ---></div>
+
+	<!---// end #mid_content_home ---></div>
+	<div id="right_content">
+        <div id="announce">
+            <h2>ANNOUNCEMENTS</h2>
+            <ul>
+        <li><strong>Websites outage<br>
+        Date: 2023-09-07/08</strong><br>
+        All GipsyX-related websites will be down from approximately 24 hours
+        due to work in the datacenter hosting them.  That includes sideshow
+        (orbit and clock products), this website, and the user forum.
+        </li>
+
+        <li><strong>GipsyX-2.2 Release<br>
+        Date: 2023-09-05</strong><br>
+        GipsyX-2.2 has been released. It is available for download
+        by licensed users from the 
+        <a href="index.php?page=software">download area.</a> 
+        </li>
+
+        <li><strong>GipsyX-2.1 Release<br>
+        Date: 2022-08-23</strong><br>
+        GipsyX-2.1 has been released. It is available for download
+        by licensed users from the 
+        <a href="index.php?page=software">download area.</a> 
+        </li>
+
+        <li><strong>GipsyX-2.0 Release<br>
+        Date: 2022-01-12</strong><br>
+        GipsyX-2.0 has been released. It is available for download
+        by licensed users from the 
+        <a href="index.php?page=software">download area.</a> 
+        The major changes relate to processing all data as RINEX3 by
+        default.
+        </li>
+
+        <li><strong>GipsyX-1.7 Release<br>
+        Date: 2021-03-05</strong><br>
+        GipsyX-1.7 has been released. It is available for download
+        by licensed users from the 
+        <a href="index.php?page=software">download area.</a>
+        </li>
+
+        <li><strong>GIPSY-OASIS version 6.4.1<br />
+        Date: 2020-01-08</strong><br />
+        Bugfix for 2020-related bug, available for active license holders from 
+        the <a href="software/index.html"> GOA download area.</a></li>
+
+        <li><strong>Repro3.0 Completed<br>
+        Date: 2019-10-10</strong><br>
+
+        JPL repro3.0 is now complete.  It provides orbit and 
+        clock products in the IGS14 reference frame extending back to
+        1992-08-15 and forward to the present, where it is extended
+        with our weekly <a href="index.php?page=data">Final products.</a>
+        </li>
+
+
+
+<!--        <font color=black>
+        <li>
+	    <strong>GIPSY-OASIS Course (Covilha, Portugal, September 5-7, 2016) Static and Kinematic GPS-based Positioning Using GIPSY/OASIS </strong><br />
+
+	    </li> -->
+
+<!--	      <font color=black>
+            <li><strong>GIPSY User Group Meeting</strong><br />
+            Date: <strong>December 17, 2014</strong><br />
+            Meeting presentation now available to registered 
+            GIPSY users at <a href="https://gipsy-oasis.jpl.nasa.gov/index.php?page=documentation">Documentation</a> website.
+            </li>
+            <li><strong>Operational GPS Orbits and Clocks</strong><br />
+            Adopts IERS2010/IGS08 standards.
+            Includes Rapid GPS High-Rate Clock Products with 30-second sampling.
+            <strong> Repro 2.1 products released Novemeber 6, 2014</strong><br />
+            <li><strong>Ultra-Rapid GPS Orbits and Clock Products</strong><br />< 2-hour latency, 5 cm accuracy, and updated hourly. Available <a href="index.php?page=data">here</a>.</li>
+            <li><strong>Reprocessed GPS Orbits and Clocks</strong><br />
+            Reprocessed products with IERS2010/ IGS08 standards available for August 16, 1992 - present. -->
+	     </font>
+	</font>
+
+            </ul>  
+        <!---// end #announce ---></div>
+
+	<!---// end #right_content ---></div>
+	<!---// end #main ---></div>
+    </div>
+    <!---// end #container --->
+</div>
+<!---// end #wrapper --->
+</div>
+<!---// end #box --->
+</div>
+<!---// end #gradient --->
+
+.
+<!-- START FOOTER: "DEFAULT" -->
+    <footer class='clearfix' id='site_footer'>
+        <section class='upper_footer'>
+            <div class='grid_layout'>
+                <div class='footer_newsletter'>
+                    <h2>Get the Newsletter</h2>
+                    <form action='https://www.jpl.nasa.gov/signup/index.php' class='submit_newsletter' method="post">
+                        <input class='email_field' name='email_field' onblur="this.placeholder = 'enter email address'" onfocus="this.placeholder = ''" placeholder='enter email address' type='email' value=''>
+                        <input class='email_submit' type='submit' value=''>
+                    </form>
+                </div>
+                <div class='gradient_line_divider'></div>
+                <div class='share'>
+                    <h2>Follow JPL</h2>
+                    <div class='social_icons'>
+                        <!-- AddThis Button BEGIN -->
+                        <div class='addthis_toolbox addthis_default_style addthis_32x32_style'>
+                            <a class='addthis_button_facebook_follow icon' addthis:userid='NASAJPL'></a>
+                            <a class='addthis_button_twitter_follow icon' addthis:userid='NASAJPL'></a>
+                            <a class='addthis_button_youtube_follow icon' addthis:userid='JPLnews'></a>
+                            <a class='addthis_button_instagram_follow icon' addthis:userid='nasajpl'></a>
+                            <a class='icon all_icon' href='https://www.jpl.nasa.gov/social'>
+                                <span>All</span>
+                            </a>
+                        </div>
+                        <script>
+                            addthis_loader.init("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5429eeee4e460927", {
+                                follow: true
+                            })
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='lower_footer'>
+            <h3>Links</h3>
+            <div class='nav_container'>
+              <nav>
+                <ul>
+                  <li>
+                    <a href='https://www.nasa.gov/' target='_blank'>NASA</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='https://www.caltech.edu/' target='_blank'>Caltech</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='https://www.jpl.nasa.gov/privacy'>Privacy</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='https://www.jpl.nasa.gov/imagepolicy'>Image Policy</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='https://www.jpl.nasa.gov/faq.php'>FAQ</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='https://www.jpl.nasa.gov/contact_JPL.php'>Feedback</a>
+                  </li>
+                  |
+                  <li>
+                    <a href='/index.php?page=sitemap'>Sitemap</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class='credits'>
+                <br>
+                <span class='credits_webmaster'>
+		Site Manager: <a href="mailto:David.W.Murphy@jpl.nasa.gov">David Murphy</a><br />
+		Webmaster: <a href="mailto:Angela.Pham@jpl.nasa.gov">Angela Pham</a><br />
+                JPL Clearance: CL 10-4895
+		</span>
+            </div>
+        </section>
+    </footer>
+    <script src="https://www.jpl.nasa.gov/assets/javascripts/vendor/prefixfree.js"></script>
+    <script src="https://www.jpl.nasa.gov/assets/javascripts/vendor/prefixfree.jquery.js"></script>
+  </div>
+</div>
+<!-- Google Analytics -->
+    <script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GIPSY&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+    <!-- END FOOTER: "DEFAULT" -->
+</body>
+
+</html>
+<!--- for faq page --->
+<script type="text/javascript">
+$(document).ready(function()
+{
+  //hide all of the element with class msg_body
+  $(".msg_body").hide();
+  //toggle the component with class msg_body
+  $(".msg_head").click(function()
+  {
+    $(this).next(".msg_body").slideToggle(100);
+  });
+  $(".expandAll").click(function()
+  {
+    $(".msg_body").show();
+  });
+  $(".collapseAll").click(function()
+  {
+    $(".msg_body").hide();
+  });
+});
+</script>
+</body>
+</html>

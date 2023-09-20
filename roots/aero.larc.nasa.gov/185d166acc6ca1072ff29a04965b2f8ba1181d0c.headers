@@ -1,0 +1,15 @@
+GET https://aero.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< X-Permitted-Cross-Domain-Policies: none
+< Access-Control-Allow-Origin: *
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< X-Ua-Compatible: IE=edge
+< Strict-Transport-Security: max-age=31536000
+< Link: <https://aero.larc.nasa.gov/wp-json/>; rel="https://api.w.org/", <https://aero.larc.nasa.gov/wp-json/wp/v2/pages/3>; rel="alternate"; type="application/json", <https://aero.larc.nasa.gov/>; rel=shortlink
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Date: Tue, 19 Sep 2023 05:56:57 GMT

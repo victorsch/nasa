@@ -1,0 +1,1145 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="h-100">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Home |
+					NESC Academy Online			
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="The NESC Academy enables effective knowledge capture and transfer, ensuring technical information remains viable and accessible. It provides a forum for the NASA community to gain critical knowledge to aid professional development and support the NASA mission. The NESC Academy presents live and on-demand content from researchers, engineers, and field experts in 21 technical disciplines relevant to the design, development, test, and operation of NASA programs and projects. It hosts more than 770 videos and webcasts containing interviews, tutorials, lectures, and lessons learned in an engaging format that features side-by-side video and slides, powerful search capabilities, downloadable course materials, and more.">
+		<link rel="icon" type="image/png" href="/favicon.ico">
+
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+						<link rel="stylesheet" href="/build/702.c6c5b20c.css"><link rel="stylesheet" href="/build/academy.10a340a2.css">
+            <style>
+                            </style>
+		
+	<link rel="stylesheet" href="/build/academy_index.8ff85c83.css">
+
+			                        <script>
+                var rootURL = "/",
+                    uriRoot = "/",
+                    isUser  = "",
+                    auid    = "",
+                    env     = "prod";
+            </script>
+			<script src="/build/runtime.9a71ee5d.js" defer></script><script src="/build/755.ff3a52bf.js" defer></script><script src="/build/52.558dbcc1.js" defer></script><script src="/build/702.7a48bd1b.js" defer></script><script src="/build/academy.c32eeb21.js" defer></script>
+                            <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33523145-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-33523145-1');
+                </script>
+            
+                                        <script type='text/javascript' src='https://mobile.neacc.nasa.gov/pulse/track.js'></script>
+            		
+
+	<script>
+		var showDisclaimer = '1',
+			is_processing = false,
+			page = 0,
+			count = parseInt('0'),
+			player,
+			loaded = false;
+	</script>
+
+	<script src="/build/128.c78e0821.js" defer></script><script src="/build/academy_index.e1711145.js" defer></script>
+	</head>
+	<body class="content h-100">
+		<script>
+			var rootURL = "/";
+		</script>
+		<header class="fixed-top">
+            		
+	<nav id="mainNav" class="navbar navbar-dark bg-dark navbar-expand-lg">
+		<div class="container">
+			<a class="text-light text-decoration-none clearfix" href="/">
+				<img src="/images/ACAD_Online_E.png" class="mr-3 float-left d-lg-none d-xl-inline" style="max-height: 50px;" alt="NESC Logo"/>
+				<div class="float-right">
+					<span class="h4">
+						<strong>NESC</strong>
+						Academy</span><br>
+					<small>NASA Engineering and Safety Center</small>
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<form class="form-inline flex-grow-1 collapse multi-collapse navbar-collapse" role="search" id="search" action="/search/" method="POST">
+				<div class="input-group input-group-sm mx-auto flex-nowrap">
+					<select id="resizing_select" name="searchCatalog" title="Search by catalog" class="custom-select flex-shrink-1 flex-grow-0 flex-shrink-0 bg-light">
+						<option value="">All</option>
+													<option value="95fff5ad5cc444d283204672f850993e4d" >Aerosciences</option>
+													<option value="df8b04e98efb48d98719556d37cf2a1c4d" >Avionics</option>
+													<option value="47a894a326bb4f08991c949dc689b2c74d" >Cryogenics</option>
+													<option value="b38fd260ffbd4ea3b3e95f7f70f092894d" >Electrical Power</option>
+													<option value="4c93eb50ece04182b9b3c4180c7d94ec4d" >Environmental Control/Life Support</option>
+													<option value="57e9e0905f6546ac809ef0d2193351564d" >Flight Mechanics</option>
+													<option value="b082695393534665b0275157c043a58b4d" >Guidance Navigation &amp; Control</option>
+													<option value="5184ac5305c84df0ad5e86a89b20d2274d" >Human Factors</option>
+													<option value="fcc2262628154641b1e3563863efe39a4d" >Loads and Dynamics</option>
+													<option value="00ee347f9e3444779bb1913be8c53f664d" >Materials</option>
+													<option value="2f537d2cc60c4f1cad9bd5946ee23d904d" >Mechanical Systems</option>
+													<option value="2694d063cd9c40aca5adb78c7c06c6854d" >Nondestructive Evaluation (NDE)</option>
+													<option value="f0cbd47df6e24093812d9a00b51b938b4d" >Propulsion</option>
+													<option value="555944481ece48a79a8a468d19a41b0b4d" >Sensors &amp; Instrumentation</option>
+													<option value="53de0b85777e4d93aa3b42025fe7c50b4d" >Software</option>
+													<option value="afb0bf081c5144b0b9659a8d090ea73f4d" >Space Environments</option>
+													<option value="b63bee951e5b4f6aacffb81f7889ca894d" >Structures</option>
+													<option value="58f99dd43fa0470c8184841b445f16a84d" >Systems Engineering</option>
+													<option value="e130f742fd3f4898b64ce267856d69d84d" >Thermal Control and Protection</option>
+											</select>
+					<select id="width_tmp_select" aria-label="Used for width of #resizing_select">
+						<option id="width_tmp_option"></option>
+					</select>
+					<input class="form-control flex-grow-1" id="searchCriteria" name="searchCriteria" placeholder="Search the NESC Academy" type="search" aria-label="Search" style="min-width: 190px; border-radius: 0.5px" >
+					<span class="input-group-append">
+						<button class="btn text-light btn-primary" type="submit" aria-label="Search Button">
+							<i class="fas fa-search"></i>
+						</button>
+					</span>
+				</div>
+			</form>
+			<div class="collapse multi-collapse navbar-collapse flex-grow-0" id="navbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mx-1">
+						<a class="nav-link text-nowrap text-light btn btn-danger" id="subscribe" href="/subscribe" title="Click to receive notifications about live webcasts and newly released lessons." role="button">
+							<i class="fas fa-plus-circle"></i>
+							<span class="d-inline d-md-none d-lg-inline">
+								Subscribe</span>
+						</a>
+					</li>
+																		<li class="nav-item mx-1">
+								<a id="login" href="/login?redirect=https://nescacademy.nasa.gov/" class='nav-link text-nowrap text-red-light' role="button" data-toggle="tooltip" title="Sign in to see additional features for NASA employees">
+									<i class="fas fa-lock text-primary"></i>
+									<span class="d-inline d-md-none d-lg-inline">
+										Sign In</span>
+								</a>
+							</li>
+															</ul>
+			</div>
+		</div>
+	</nav>
+
+				<nav class="navbar navbar-dark bg-primary navbar-expand-md p-0">
+		<div class="collapse multi-collapse navbar-collapse">
+			<div class="container m-0 m-md-auto">
+				<ul class="navbar-nav w-100 d-flex justify-content-between">
+					<li class="nav-item">
+						<a href="/" title="Home" class="nav-link text-light">
+							<i class="fas fa-home"></i>
+						</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="text-light nav-link dropdown-toggle" data-toggle='dropdown' href="#">Browse By</a>
+						<div class="dropdown-menu shadow">
+														<a class="dropdown-item" href="/catalogs/popular">Popular</a>
+							<a class="dropdown-item" href="/catalogs/latest">Latest</a>
+							<a class="dropdown-item" href="/catalogs/all">All Videos</a>
+													</div>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="text-light nav-link dropdown-toggle" data-toggle='dropdown' href="#">Disciplines</a>
+						<div class="dropdown-menu bg-transparent border-0 w-100 top-auto">
+							<div class="container bg-white border rounded shadow-lg">
+								<div class="row py-1 menu-row w-100">
+																			<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/aerosciences">Aerosciences</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/avionics">Avionics</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/cryogenics">Cryogenics</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/electricalpower">Electrical Power</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/ecls">Environmental Control/Life Support</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/fm">Flight Mechanics</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/gnandc">Guidance Navigation &amp; Control</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/humanfactors">Human Factors</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/lnd">Loads and Dynamics</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/materials">Materials</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/mechanisms">Mechanical Systems</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/nde">Nondestructive Evaluation (NDE)</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/propulsion">Propulsion</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/si">Sensors &amp; Instrumentation</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/software">Software</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/spaceenv">Space Environments</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/structures">Structures</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/systemseng">Systems Engineering</a>
+																													<a class="d-block text-dark my-auto p-2 col-sm-4 col-lg-3 " href="/catalogs/thermal">Thermal Control and Protection</a>
+																											</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="text-light nav-link dropdown-toggle" data-toggle='dropdown' href="#">Other Subjects</a>
+						<div class="dropdown-menu shadow">
+															<a class="dropdown-item" href="/catalogs/assessment">NESC Assessments</a>
+															<a class="dropdown-item" href="/catalogs/other">NESC Other</a>
+															<a class="dropdown-item" href="/catalogs/spacesuit">U.S. Spacesuit Knowledge Capture</a>
+													</div>
+					</li>
+											<li class="nav-item">
+							<a class="text-light nav-link" href="/playlists">Playlists</a>
+						</li>
+										<li class="nav-item dropdown">
+						<a class="text-light nav-link dropdown-toggle" data-toggle='dropdown' href="#">NESC Academy</a>
+						<div class="dropdown-menu shadow">
+							<a class="dropdown-item" href="/learn_more">About</a>
+							<a class="dropdown-item" href="/contacts">Contacts</a>
+							<a class="dropdown-item" href="/faqs">FAQ</a>
+							<a class="dropdown-item" href="/technical_resources">Technical Resources</a>
+													</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+		</header>
+		<main class="container">
+                        
+            
+
+            		<section id="intro">
+		<div class="row">
+			<div
+				class="col-lg-8 pt-4">
+								<h2>Engineering Insight, On-Demand</h2>
+				<div class="row">
+					<div class="col-2xl pb-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<video controls src="/images/NESC_Promo.mp4" type="video/mp4" preload="none" poster="/images/nesc_promo_thumbnail.png">
+								Sorry, your browser doesn't support embedded videos.
+							</video>
+						</div>
+					</div>
+					<div class="col-2xl">
+						<p class="px-3" style="font-size: clamp(12px, 3vw, 16px);">The NESC Academy presents live and on-demand content from researchers, engineers, and field experts in 19 technical disciplines relevant to the design, development, test, and operation of NASA programs and projects. It hosts more than 800 videos containing interviews, tutorials, lectures, and lessons learned in an engaging format that features side-by-side video and slides, powerful search capabilities, downloadable course materials, and more.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 pt-4">
+				<h2>Webcasts</h2>
+				<div id="webcast-container" class="border border-primary my-2 d-flex bg-light text-dark">
+					<div class="p-2 text-center mr-1 bg-primary text-white" style="min-width:70px;max-width;70px">TBD</div>
+					<div class="my-auto loading">Checking for webcasts...</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="w-100 bg-dark">
+
+	<section id="catalogs" class="d-flex flex-column">
+					<div class="py-2">
+				<h2>
+					Popular
+					<span class="small float-right">
+						<a href="/catalogs/popular" class="btn btn-sm btn-primary-dark" role="button">View All</a>
+					</span>
+				</h2>
+				<div class="slider-container position-relative">
+					<div id='catalogSlider_popular' class="swiper-container catalogSlider">
+						<div class="swiper-wrapper">
+															                                                                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Dr. Daniel Dvorak" data-subfolders="Systems Engineering" data-categories="" data-subCategories="~Model Based Systems Engineering" data-skillLevels="#Intermediate,#Advanced,#Fundamental,#State of the Art" data-tags="">
+        <a href="/video/804f524f16c24fd2927a4eb9f01bdf831d" title="Model-Centric Engineering, Part 1: Introduction to Model-Based Systems Engineering">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/61a88dfc-b34b-42f4-9459-776363456eea.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Model-Centric Engineering, Part 1: Introduction to Model-Based Systems Engineering
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Dr. Daniel Dvorak
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> December 2013
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Systems Engineering
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:00:47</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="804f524f16c24fd2927a4eb9f01bdf831d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Tom Irvine" data-subfolders="Loads &amp; Dynamics" data-categories=".Analysis / Modeling and Simulation" data-subCategories="~Natural Frequencies" data-skillLevels="#Fundamental" data-tags="">
+        <a href="/video/cc902bdcdacf4425a1f12017d63de32e1d" title="Shock &amp; Vibration: 01. Natural Frequencies, Part 1">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p19ovtcefbd6ueamgh94et1pgh7h.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Shock &amp; Vibration: 01. Natural Frequencies, Part 1
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Tom Irvine
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> February 2014
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Loads &amp; Dynamics
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">56:56</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="cc902bdcdacf4425a1f12017d63de32e1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="NASA" data-subfolders="Systems Engineering" data-categories=".Lessons Learned" data-subCategories="~Applied Systems Engineering" data-skillLevels="#Intermediate,#Advanced,#Fundamental,#State of the Art" data-tags="">
+        <a href="/video/1d9fd5f9c909436a82815df03c6b735e1d" title="7 Habits of Highly Effective (NASA) Systems Engineers">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/bc5100c6-22db-4562-88f9-22742a2129b5.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          7 Habits of Highly Effective (NASA) Systems Engineers
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> NASA
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> September 2018
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Systems Engineering
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:22:22</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="1d9fd5f9c909436a82815df03c6b735e1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="William Walker" data-subfolders="Thermal Control and Protection" data-categories=".Hardware" data-subCategories="" data-skillLevels="#Fundamental" data-tags="">
+        <a href="/video/906674b21ca844319f98aa087b2ff6e31d" title="Short Course on Lithium-ion Batteries: Fundamental Concepts, Battery Safety, and Modeling Techniques">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/52e650de-56f6-475f-9d3f-daa7d299252b.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Short Course on Lithium-ion Batteries: Fundamental Concepts, Battery Safety, and Modeling Techniques
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> William Walker
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> February 2019
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Thermal Control and Protection
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">02:18:28</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="906674b21ca844319f98aa087b2ff6e31d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Ruth Amundsen" data-subfolders="Thermal Control and Protection" data-categories=".Analysis / Modeling and Simulation" data-subCategories="" data-skillLevels="#Fundamental" data-tags="">
+        <a href="/video/e496742590e044cf803644e744c7c4441d" title="Common Thermal Modeling Mistakes, Part 1">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p1b58f25ijgv32cm1ggmdno16f7a.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Common Thermal Modeling Mistakes, Part 1
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Ruth Amundsen
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> October 2016
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Thermal Control and Protection
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:15:04</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="e496742590e044cf803644e744c7c4441d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Steve Jenkins" data-subfolders="Systems Engineering" data-categories="" data-subCategories="~Model Based Systems Engineering" data-skillLevels="#Intermediate,#Advanced,#Fundamental,#State of the Art" data-tags="">
+        <a href="/video/4f998c2acaa44fc587df5b545d3ab82c1d" title="Model-Centric Engineering, Part 2: Introduction to System Modeling">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/abdcef69-167f-4a21-9663-b6021a13def0.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Model-Centric Engineering, Part 2: Introduction to System Modeling
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Steve Jenkins
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> March 2014
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Systems Engineering
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:04:04</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="4f998c2acaa44fc587df5b545d3ab82c1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Robert Wingate" data-subfolders="Mechanical Systems" data-categories=".Analysis / Modeling and Simulation,.Testing,.Hardware" data-subCategories="~Fastener,~Locking Features" data-skillLevels="#Intermediate" data-tags="">
+        <a href="/video/f6cc40ef9a7a48a4a1f577a450168e0b1d" title="An Overview of Fastener Requirements in the new NASA-STD-5020">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p19o394lcq146917bi14nsno6fqg2e.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          An Overview of Fastener Requirements in the new NASA-STD-5020
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Robert Wingate
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> April 2013
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Mechanical Systems
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:13:10</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="f6cc40ef9a7a48a4a1f577a450168e0b1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Dr. Sanjay Garg" data-subfolders="Guidance Navigation &amp; Control" data-categories=".Design" data-subCategories="~Control Design,~Control Systems" data-skillLevels="#Fundamental" data-tags="">
+        <a href="/video/135553bc3b7b4171b7c54ee0578489211d" title="Fundamentals of Aircraft Engine Control">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/c145feb6-2554-4e81-b8ae-ecb429d2f384.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Fundamentals of Aircraft Engine Control
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Dr. Sanjay Garg
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> November 2011
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Guidance Navigation &amp; Control
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">55:15</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="135553bc3b7b4171b7c54ee0578489211d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Tom Irvine" data-subfolders="Loads &amp; Dynamics" data-categories=".Analysis / Modeling and Simulation" data-subCategories="~Power Spectral Density" data-skillLevels="#Intermediate" data-tags="">
+        <a href="/video/6d75ec7578ee442990c1782faf9758601d" title="Shock &amp; Vibration: 13. Power Spectral Density Function">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p19p02rr6g1i161nt61ms27j01d93t.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Shock &amp; Vibration: 13. Power Spectral Density Function
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Tom Irvine
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> November 2014
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Loads &amp; Dynamics
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:04:38</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="6d75ec7578ee442990c1782faf9758601d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="John W Welch" data-subfolders="Thermal Control and Protection" data-categories=".Testing" data-subCategories="" data-skillLevels="#Intermediate" data-tags="">
+        <a href="/video/3d29c289da404ed394a839bae8b6f3201d" title="Rationale for Selected MIL-STD-1540E Thermal Test Requirements">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p19oispcj7e4mb0h1igjnv6rkod3.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Rationale for Selected MIL-STD-1540E Thermal Test Requirements
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> John W Welch
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> December 2012
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Thermal Control and Protection
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">37:34</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="3d29c289da404ed394a839bae8b6f3201d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+														<div class="swiper-slide video-card box-shadow">
+								<a href="/catalogs/popular" class="video-thumbnail">
+									<div class="video-view-all">
+										<h4>View All<br>
+											<i class="fas fa-arrow-right"></i>
+										</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<button class="btn-scroll-left btn-scroll-left-catalogSlider_popular" title="Scroll Left">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="btn-scroll-right btn-scroll-right-catalogSlider_popular" title="Scroll Right">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+			<hr class="w-100 bg-dark">
+					<div class="py-2">
+				<h2>
+					Latest
+					<span class="small float-right">
+						<a href="/catalogs/latest" class="btn btn-sm btn-primary-dark" role="button">View All</a>
+					</span>
+				</h2>
+				<div class="slider-container position-relative">
+					<div id='catalogSlider_latest' class="swiper-container catalogSlider">
+						<div class="swiper-wrapper">
+															            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Nemanja Jovanovic" data-subfolders="Sensors &amp; Instrumentation" data-categories="" data-subCategories="" data-skillLevels="" data-tags="">
+        <a href="/video/d909cf9306ea4270a12cd86f083ec3c21d" title="The Path to Detecting Extraterrestrial Life With Astrophotonics">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/b50cff8b-5e53-48dc-bc39-f8951f54fa14.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          The Path to Detecting Extraterrestrial Life With Astrophotonics
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Nemanja Jovanovic
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> September 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Sensors &amp; Instrumentation
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">00:00</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="d909cf9306ea4270a12cd86f083ec3c21d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Ryan Lee" data-subfolders="Environmental Control/Life Support" data-categories="" data-subCategories="" data-skillLevels="" data-tags="">
+        <a href="/video/923fb3fc44464cfca4eed583d384789e1d" title="Implications of Operational Pressure">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p1g521gsis1maon4k1hi4d198id2lv.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Implications of Operational Pressure
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Ryan Lee
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> September 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Environmental Control/Life Support
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:18:39</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="923fb3fc44464cfca4eed583d384789e1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Michael O&#039;Malley" data-subfolders="Thermal Control and Protection" data-categories=".Analysis / Modeling and Simulation" data-subCategories="~Ablation,~Erosion,~Char,~Nozzle,~SRM,~Carbon Phenolic" data-skillLevels="#Advanced" data-tags="">
+        <a href="/video/bace48b99a4f45f0bc9fcacc48a2e0a21d" title="Aerotherm Chemical Equilibrium (Ace) and Charring Material Thermal Response and Ablation Programs (Cma) Tutorial">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/e582c91f-86f5-4bfd-8834-580fa8e2bc89.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Aerotherm Chemical Equilibrium (Ace) and Charring Material Thermal Response and Ablation Programs (Cma) Tutorial
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Michael O&#039;Malley
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> September 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Thermal Control and Protection
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">43:47</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="bace48b99a4f45f0bc9fcacc48a2e0a21d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Nathan Wells" data-subfolders="Sensors &amp; Instrumentation" data-categories="" data-subCategories="" data-skillLevels="" data-tags="">
+        <a href="/video/6beed6b702c943cbbda491d56444041d1d" title="Bigelow Expandable Activity Module (BEAM) ISS Distributed Impact Detection System (DIDS)">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/8f18391d-243f-41b9-ac34-6d50c044a892.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Bigelow Expandable Activity Module (BEAM) ISS Distributed Impact Detection System (DIDS)
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Nathan Wells
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> August 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Sensors &amp; Instrumentation
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:02:36</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="6beed6b702c943cbbda491d56444041d1d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Paul Schutte" data-subfolders="Human Factors" data-categories="" data-subCategories="" data-skillLevels="" data-tags="">
+        <a href="/video/157bc311cee84c119f08fc4917f8f1781d" title="Human/Machine Teaming: Dancing with the Bear">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/8014ebb3-4221-443a-bfca-a19152266d67.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Human/Machine Teaming: Dancing with the Bear
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Paul Schutte
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> August 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Human Factors
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:00:36</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="157bc311cee84c119f08fc4917f8f1781d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                                                                                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Dr. Grant Cates" data-subfolders="Systems Engineering" data-categories=".Analysis / Modeling and Simulation,.Operations,.Lessons Learned" data-subCategories="~Space Shuttle,~Skylab,~Artemis Mission,~Apollo,~Human Space Exploration,~Space Rescue,~Submarine Rescue,~International Docking System Standard" data-skillLevels="#Fundamental" data-tags="">
+        <a href="/video/60944831e0714c0f9ede96b64a27a6141d" title="In-Space Rescue">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/p1h828upv91pnn6r3ken1nd31hl6l.JPG" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          In-Space Rescue
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Dr. Grant Cates
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> July 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Systems Engineering
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:41:07</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="60944831e0714c0f9ede96b64a27a6141d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Dr. Jessica Gaskin" data-subfolders="Sensors &amp; Instrumentation" data-categories="" data-subCategories="" data-skillLevels="" data-tags="">
+        <a href="/video/c8598c3201dd42d8814570c25e851fa41d" title="X-Ray Vision: Exploring The Hidden Universe">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/6a377b59-340d-4f1d-b462-18bc6f37a3cd.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          X-Ray Vision: Exploring The Hidden Universe
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Dr. Jessica Gaskin
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> July 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Sensors &amp; Instrumentation
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:00:32</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="c8598c3201dd42d8814570c25e851fa41d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                                                                                                                                                                            <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Stephen Cumming" data-subfolders="Flight Mechanics" data-categories=".Analysis / Modeling and Simulation,.Testing,.Lessons Learned" data-subCategories="~Flight Mechanics,~Aerodynamics,~Aircraft Performance,~Air Data Systems,~Airworthiness,~Computational Fluid Dynamics,~Parameter Identification" data-skillLevels="#Intermediate,#Advanced" data-tags="">
+        <a href="/video/bf1f18320427479887caf2e296b033211d" title="Aerodynamics and Performance Flight Research and Airworthiness Best Practices">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/4e76c2a4-24ef-4ad8-a2cc-f2efd7c64eb9.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Aerodynamics and Performance Flight Research and Airworthiness Best Practices
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Stephen Cumming
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> June 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Flight Mechanics
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">23:13</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="bf1f18320427479887caf2e296b033211d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                                                                                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Dr. Grant Cates" data-subfolders="Systems Engineering" data-categories=".Analysis / Modeling and Simulation,.Operations" data-subCategories="~Discreet Event Simulation,~Launch Campaigns,~On-Orbit Assembly,~Risk Analysis,~Human Space Exploration,~Concept of Operations (CONOPS)" data-skillLevels="#Intermediate,#Advanced,#Fundamental" data-tags="">
+        <a href="/video/523d898fa3b14d30b3a13c1db6f24a691d" title="Past Discrete Event Simulations – A Summary of Past Lunar, Asteroid, and Mars Mission Campaign Analyses">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/eee31478-a393-418f-a6a2-993fb0b918ed.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Past Discrete Event Simulations – A Summary of Past Lunar, Asteroid, and Mars Mission Campaign Analyses
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Dr. Grant Cates
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> June 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Systems Engineering
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">01:08:09</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="523d898fa3b14d30b3a13c1db6f24a691d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+															                                                                                                                                                                                                                                    <div class="card video-card bg-transparent border-dark swiper-slide mr-5" data-presenters="Lauren McIntyre" data-subfolders="Human Factors" data-categories=".Analysis / Modeling and Simulation" data-subCategories="~Modeling and Simulation,~Crew Performance,~Crew Health,~Probabilistic Risk Assessment,~Monte Carlo,~Risk Quantification,~Long Term Health" data-skillLevels="#Intermediate" data-tags="">
+        <a href="/video/5f7eedb67b374af99bc758504836b3831d" title="Crew Health and Performance System Probabilistic Risk Assessment (Chp-Pra): Proof-of-Concept Approach">
+      <img class="video-img card-img-top" src="/LegacyRepository/thumbnails/32dc7123-387f-4965-ba96-bb60761d2f14.jpg" onerror="this.src='/images/video_placeholder.png'" alt="Video Thumbnail" loading="lazy" />
+      <div class="card-body p-2">
+        <h5 class="card-image-title">
+          Crew Health and Performance System Probabilistic Risk Assessment (Chp-Pra): Proof-of-Concept Approach
+        </h5>
+        <p class="card-text video-presenter">
+          <i class="fas fa-user pr-2"></i> Lauren McIntyre
+        </p>
+        <p class="card-text video-record_date">
+          <i class="fas fa-calendar pr-2"></i> June 2023
+        </p>
+        <p class="card-text video-parent">
+          <i class="fas fa-folder-open pr-1"></i> Human Factors
+        </p>
+      </div>
+    </a>
+
+        <div class="video-overlay">58:24</div>
+
+        
+        <div class="video-more-info" data-toggle="tooltip" data-placement="left" title="More information">
+      <button class="btn btn-sm btn-success" type="button" data-toggle="modal" data-target="#infoModal" data-video-type="videosInfo" data-video-id="5f7eedb67b374af99bc758504836b3831d" aria-label="More Information"><i class="fas fa-info-circle"></i></button>
+    </div>
+
+        
+      </div>
+
+														<div class="swiper-slide video-card box-shadow">
+								<a href="/catalogs/latest" class="video-thumbnail">
+									<div class="video-view-all">
+										<h4>View All<br>
+											<i class="fas fa-arrow-right"></i>
+										</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<button class="btn-scroll-left btn-scroll-left-catalogSlider_latest" title="Scroll Left">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="btn-scroll-right btn-scroll-right-catalogSlider_latest" title="Scroll Right">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+			<hr class="w-100 bg-dark">
+		
+								<h2 id="disciplines">Disciplines</h2>
+		<div class="grid justify-content-between" style="grid-template-rows: unset">
+							<a href="/catalogs/aerosciences" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/aerosciences.png" onerror="" alt="Aerosciences discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Aerosciences</h4>
+							<div class="small">The Aerosciences Discipline encompasses a range of engineering activities associated with the prediction and characterization of atmospheric flight and fluid dynamics. Prediction of aerodynamic and aerothermodynamic performance for aircraft and spacecraft operating in earth and other planetary atmospheres is the primary responsibility of the discipline. This performance includes development of aerodynamic and aerothermodynamic databases for vehicle flight performance simulations, propulsion system operation and interactions with the vehicle, aerodynamic heating due to high speed flight and jet and rocket plume impingement, aerodynamic loads transmitted to structures, aeroacoustic loads transmitted to structures and other subsystems, and aero/structural and aero/controls interactions. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/avionics" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/avionics.png" onerror="" alt="Avionics discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Avionics</h4>
+							<div class="small">These training modules were compiled by the Avionics Technical Discipline Team (TDT). The Avionics discipline covers a wide variety of electrical and electronic sub-disciplines, including but not limited to command and data handling systems; communication and tracking systems; guidance and navigation hardware; ground and flight instrumentation, as well as science instruments; data networks; avionics systems engineering; avionics hardware integration and testing; avionics electrical ground support equipment; electronics packaging and assembly; electrical, electronic and electromechanical parts, including radiation effects; failure mode and effects, reliability, and robustness analysis. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/cryogenics" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/cryogenics.png" onerror="" alt="Cryogenics discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Cryogenics</h4>
+							<div class="small">Welcome to the Cryogenics lesson catalog.</div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/electricalpower" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/electrical power.png" onerror="" alt="Electrical Power discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Electrical Power</h4>
+							<div class="small">These training modules were compiled by the Electrical Power Technical Discipline Team (TDT). The Electrical Power community covers a wide range of disciplines including but not limited to Energy Conversion, Energy Storage, Power Electronics and Power Management &amp; Distribution. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/ecls" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/environmental control life support.png" onerror="" alt="Environmental Control/Life Support discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Environmental Control/Life Support</h4>
+							<div class="small"> The goal of this catalog is to present detailed case studies from the career experiences of the Environmental Control/Life Support Technical Discipline Team. We will provide experiences and lessons learned involving life support systems to a new generation of NASA engineers and scientists, designated contractors, university professors, and graduate students in engineering programs. Courses in this discipline will cover many areas including; atmospheric revitalization, active thermal control, supply and wastewater, smoke detection and fire suppression, crew escape, galley/food,and waste management.</div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/fm" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/flight mechanics.png" onerror="" alt="Flight Mechanics discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Flight Mechanics</h4>
+							<div class="small">These training modules were compiled by the Flight Mechanics Technical Discipline Team (TDT), which encompasses expertise in the areas of atmosphere definition and measurement (earth and planetary); trajectory design and analysis (ascent/entry in the atmosphere, mission design); modeling for simulation; flight mechanics simulation and analysis (including Monte Carlo methods); flight measurement techniques; flight testing (flight mechanics and performance verification); stability and control; handling qualities; system identification (sometimes called parameter identification); entry/descent/landing (EDL), aerocapture, aerobraking; parachute/decelerator systems; and orbital entry and debris analysis. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/gnandc" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/guidance navigation and control.png" onerror="" alt="Guidance Navigation &amp; Control discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Guidance Navigation &amp; Control</h4>
+							<div class="small"> These training modules were compiled by the GN&amp;C Technical Discipline Team (TDT). The GN&amp;C discipline focuses on determining, guiding, and controlling the dynamic state of a vehicle to enable robotic and human space exploration.
+
+The GN&amp;C community also offers regular webcasts led by subject matter experts, held the third Wednesday of every other month at 2 pm Eastern. If you are interested in viewing the session abstracts or attending the next webcast, please register in advance in the NASA GN&amp;C Community of Practice. Visit the GN&amp;C Webcast Series page to view previously held webcasts. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/humanfactors" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/human factors.png" onerror="" alt="Human Factors discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Human Factors</h4>
+							<div class="small">These training modules were compiled by the Human Factors Discipline Team (TDT). The discipline of Human Factors advances human-centered design and operations of complex aerospace systems through analysis, experimentation, and modeling of human capability and performance. Practice of the Human Factors discipline has made dramatic improvements in safety, efficiency, and mission success. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/lnd" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/loads and dynamics.png" onerror="" alt="Loads and Dynamics discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Loads and Dynamics</h4>
+							<div class="small">Loads and structural dynamics is a specialty branch of structural and mechanical engineering that deals with the determination of the vibration response of a structure subjected to dynamic (time varying) forces in its operational environment. In aerospace applications dynamic loads include applied forces such as wind forces, mechanical and pyrotechnic shock, acoustic pressures, engine or rocket thrust, plume impingement forces, aerodynamic fluctuating pressures, control system forces, and contact forces. In dynamic analysis the structural response may be determined as the frequencies and mode shapes of vibration, and the time histories or frequency response spectra of displacement, velocity, acceleration, internal force, or stress. Dynamic analysis can be performed by classical methods (closed-form solutions or formulae, and hand calculations) or by a number of modern numerical methods such as Finite Element Analysis (FEA), Boundary Element Analysis (BEA), and Statistical Energy Analysis (SEA). The magnitude of the responses of concern may span from millions of pounds as in a launch vehicle internal load to micro-g&#039;&#039;s as in an on-orbit experiment vibration environment. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/materials" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/materials.png" onerror="" alt="Materials discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Materials</h4>
+							<div class="small">The Materials Technical Discipline Team (TDT) provides technical expertise for the resolution of Agency-wide issues related to materials and processes. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/mechanisms" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/mechanical systems.png" onerror="" alt="Mechanical Systems discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Mechanical Systems</h4>
+							<div class="small">These training modules were compiled by the Mechanical Systems Technical Discipline Team (TDT) which retains expertise to solve a wide variety of problems across the agency. These include Bearing Systems and Tribology (including lubrication science); Gear and Transmission Systems; Deployment Systems for antennae, solar arrays, instruments and other mission specific hardware (including pyrotechnic systems for deployments); Spacecraft and Instrument Mechanisms including motors, actuators, scan mechanisms, and instrument level deployables; Kinematic and Structure Analyses for Mechanica Systems; EVA Mechanisms; Cryogenic Mechanisms; Test capabilities for the span of NASA Mission Mechanical Systems </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/nde" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/nondestructive evaluation nde.png" onerror="" alt="Nondestructive Evaluation (NDE) discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Nondestructive Evaluation (NDE)</h4>
+							<div class="small">Nondestructive Evaluation (NDE) techniques are a variety of measurement techniques used to gain information about a material or structure without damaging it. Some commonly used NDE techniques include ultrasonic testing, radiographic inspection, and eddy current testing. NDE techniques can be used to measure material properties such as conductivity and elastic stiffness, assess dimensions and structural configuration, and to detect indications of damage such as cracks and disbonds. Since the component being inspected is not damaged, it can then be used in its intended application. NDE techniques can be used at a variety of points during a components manufacture and lifetime to include screening of initial raw materials, inspection of machined and assembled components, and after intervals of usage. Some NDE methods can also be used for real time, in-situ Structural Health Monitoring (SHM) of components. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/propulsion" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/propulsion.png" onerror="" alt="Propulsion discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Propulsion</h4>
+							<div class="small">Welcome to the NESC&#039;s Propulsion training video catalog.
+
+NASA utilizes a broad range of propulsion system types, most common being solid and liquid chemical propulsion and electric propulsion. NASA also does research into airbreathing and advanced (non-chemical) propulson. This catalog contains training videos developed by NASA&#039;s Propulsion Technical Discipline Team (TDT). These training modules provide lessons learned and perspectives in propulsion engineering.
+
+We will continue to add to this content and welcome your suggestions for additions (email larc-dl-support-nescacademy@mail.nasa.gov). </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/si" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/sensors and instrumentation.png" onerror="" alt="Sensors &amp; Instrumentation discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Sensors &amp; Instrumentation</h4>
+							<div class="small">These training modules were compiled by the Sensors &amp; Instrumentation Technical Discipline Team (TDT). </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/software" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/software.png" onerror="" alt="Software discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Software</h4>
+							<div class="small">Welcome to the NESC Academy Software Discipline catalog. Software Engineering is a core capability and a key enabling technology for NASA&#039;s missions and supporting infrastructure. Topics include software requirements, design, implementation, architecture, assurance, testing, training, tools, process improvement, best practices, software release, models and simulations, and software research and technology innovation. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/spaceenv" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/space environments.png" onerror="" alt="Space Environments discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Space Environments</h4>
+							<div class="small">The Space Environments catalog features lessons covering all aspects of the causes, mitigations, and effects of space radiation as a natural environmental effect. Examples of relevant disciplines include (but are not limited to): radiation effects on humans; understanding, modeling, and forecasting the space environment and radiation [space weather]; space environments and radiation effects on components [e.g., design, shielding, operation]; and space environments and radiation effects on space vehicle systems [e.g., avionics, navigation, communications]. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/structures" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/structures.png" onerror="" alt="Structures discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Structures</h4>
+							<div class="small">This catalog contains training modules developed by the NESC Structures Technical Discipline Team (TDT). Aerospace structures are lightweight, they house all flight systems and payloads, and they must withstand all mission loads and environments. The structures discipline strives to meet often contradictory mission requirements by performing trade and sensitivity studies using various sub-disciplines - structural mechanics, structural design and sizing, structural testing, computational mechanics, damage and failure prediction, and interdisciplinary analyses. The modules in this catalog capture lessons learned, perspectives, advice, and experiences of the various members of the structures TDT. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/systemseng" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/systems engineering.png" onerror="" alt="Systems Engineering discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Systems Engineering</h4>
+							<div class="small">The Systems Engineering discipline provides a broad systems perspective to complement other discipline expertise. Systems engineers look across components, concerning themselves with interface management, system interactions, and overall system integration. Systems engineers are sensitive to emergent behaviors not apparent at the component level. Systems engineering at the NESC encompasses systems analysis; engineering statistics; data mining and trending; systems design and integration; technical risk management; standards and requirements; and verification, validation and testing. </div>
+						</div>
+					</div>
+				</a>
+							<a href="/catalogs/thermal" class="card border-0 catalog-card text-decoration-none text-white" style="width:18rem;">
+					<div class="card-body p-0">
+						<img src="/images/disciplines/thermal control and protection.png" onerror="" alt="Thermal Control and Protection discipline image" class="img-fluid">
+						<div class="img-caption">
+							<h4 class="text-center">Thermal Control and Protection</h4>
+							<div class="small">Thermal control and protection aims to maintain vehicle and component temperatures within acceptable limits. Thermal control is a broad discipline including internal and external systems, component and integrated thermal model development and analysis and correlation, attitude timeline analysis, and purge, vent, and drain analysis for vehicle cavities and compartments, thermal-vacuum testing. Thermal protection focuses on reusable high temperature thermal protection insulations such as tiles and high temperature blankets, the thermal aspects of hot structure, seals and barriers, ablative materials, thermo-mechanical analysis for induced stress, and arc jet and radiant heat testing. </div>
+						</div>
+					</div>
+				</a>
+					</div>
+	</section>
+
+			<div class="modal fade" id="infoModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content text-dark">
+						<div class="modal-body" id="infoModalBody" style="padding-top:20px; margin-bottom:0;">
+							<p id='infoModalText'></p>
+							<button type="button" class="btn btn-default" data-dismiss="modal" id="infoModalButton" style="margin-top:20px;">close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="applicationUriRoot" class="d-none">/</div>
+
+            		</main>
+
+		<footer>
+            	<div class="bg-footer-blue py-3">
+		<div class="container">
+			<div class="row">
+				<div class="media col col-md-6">
+					<img src="/images/ACAD_Online_E.png" class="mr-3" style="max-height: 75px;" alt="NESC Logo"/>
+					<small class="align-self-md-center">The NESC Academy was established by the NASA Engineering and Safety Center (NESC), headquartered at NASA Langley Research Center, to enable effective knowledge capture and transfer and ensure technical information remains viable and accessible.</small>
+				</div>
+				<div class="col col-md-6 d-flex flex-column justify-content-between">
+					<div class="media text-right">
+						<div class="media-body">
+							<small class="align-self-md-center">
+								National Aeronautics and Space Administration<br>
+								NASA Official:
+								<a class="text-light" href="mailto:ryan.crowley@nasa.gov">Ryan Crowley</a>
+							</small>
+						</div>
+						<img src="/images/nasa-logo.svg" class="ml-3" style="max-height: 50px;" alt="NASA Meatball Logo"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+            <div class="bg-footer-dark py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-8">
+                            <div class="d-flex justify-content-between">
+                                <a class="text-light text-uppercase mx-2" href="/">Home</a>
+                                <a class="text-light text-uppercase mx-2" href="/faqs">FAQs</a>
+                                <a class="text-light text-uppercase mx-2" href="/contacts">Contacts</a>
+                                <a class="text-light text-uppercase mx-2" href="/technical_resources">Technical Resources</a>
+                                <a class="text-light text-uppercase mx-2" href="mailto:larc-dl-support-nescacademy@mail.nasa.gov">Development Team</a>
+                                <a class="text-light text-uppercase mx-2" href="http://www.larc.nasa.gov/privacy.html">Privacy Act Statement</a>
+                                <a class="text-light text-uppercase mx-2" href="#" id="showDisclaimer">Disclaimer</a>
+                            </div>
+                        </div>
+                        <div class="col col-md-4 nowrap text-right align-self-md-center">
+                            <small>Page Last Updated:
+                                May 17, 2023                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</footer>
+
+		<div
+			id="toast-container" class="d-none w-100" aria-live="polite" aria-atomic="true" style="position: fixed; bottom: 0; min-height: 200px; z-index:1;">
+			<!-- Position it -->
+			<div style="position: absolute; bottom: 5px; right: 25px; min-width: 350px;">
+				<div id="disclaimer" class="toast mb-0 bg-danger border-danger" role="alert" data-delay="5500" data-autohide="false" aria-live="assertive" aria-atomic="true">
+					<div
+						class="toast-header bg-danger text-light border-danger">
+						<!-- <img src="..." class="rounded mr-2" alt="..."> -->
+						<strong class="mr-auto">Disclaimer</strong>
+						<button id='hideDisclaimerPerm' type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="toast-body bg-white text-dark">
+						The presentations and materials posted to the National Aeronautics and Space Administration (<a href="https://www.nasa.gov/">NASA</a>) Engineering and Safety Center (<a href="https://nesc.nasa.gov/">NESC</a>) Academy online training are provided for informational purposes only. The use of trademarks, names of manufacturers, or particular items shown or mentioned in the presentations and materials are for identification and example only. Their usage in the presentations and materials does not constitute an official endorsement, either expressed or implied, by
+						<a href="https://www.nasa.gov/">NASA</a>
+						or the
+						<a href="https://nesc.nasa.gov/">NESC</a>.
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

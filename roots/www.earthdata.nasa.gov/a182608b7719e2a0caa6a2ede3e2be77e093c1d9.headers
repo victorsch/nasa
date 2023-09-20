@@ -1,0 +1,28 @@
+GET https://www.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Server: ServerTokens ProductOnly
+< Via: 1.1 4ec5361277f6487ae5a8f880297d598c.cloudfront.net (CloudFront)
+< X-Drupal-Dynamic-Cache: MISS
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: THosDVk_Jn5BMV6gMyNL87cEAm4Dpdq1yjNRfl7Im1fuz_NEbqiZ4w==
+< Cache-Control: max-age=21600, public
+< X-Request-Id: THosDVk_Jn5BMV6gMyNL87cEAm4Dpdq1yjNRfl7Im1fuz_NEbqiZ4w==
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:45:01 GMT
+< Last-Modified: Tue, 19 Sep 2023 04:14:24 GMT
+< Content-Language: en
+< X-Ua-Compatible: IE=edge
+< Content-Security-Policy: upgrade-insecure-requests; object-src 'none'; script-src 'self' 'unsafe-eval' www.google.com www.gstatic.com https://assets.pinterest.com https://www.google-analytics.com 'sha256-EeeULpREplDSZUSVW97YrBpzPCltPT/BgVivzUtuZwM=' 'sha256-w8Sow0sTeay1IhIbcEPNolCDu2M0Tavi1erOmdcgJYE=' cdn.jsdelivr.net cdnjs.cloudflare.com dap.digitalgov.gov https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://polyfill.io https://rebilly.github.io https://static.addtoany.com https://unpkg.com mdbootstrap.com script.crazyegg.com static.ctctcdn.com www.googletagmanager.com; script-src-attr 'self'; script-src-elem 'self' www.google.com www.gstatic.com https://assets.pinterest.com https://www.google-analytics.com https://www.youtube.com 'sha256-w8Sow0sTeay1IhIbcEPNolCDu2M0Tavi1erOmdcgJYE=' 'sha256-EeeULpREplDSZUSVW97YrBpzPCltPT/BgVivzUtuZwM=' 'sha256-rtaVU57dLbRdkXCugTr49x7HJRqjTwe5YoVCy2M4dDE=' 'sha256-kl2nf6jTgbyz1+EJohrUkb9c8TLB8V8ycI1au5okobs=' 'sha256-gjnw1iqnzFlCo3IKNENFiTkV/IzZfNHN2sQzNsJj+IY=' 'sha256-LRUIZNVwrnCYR4Bv51LqrxPsZi+DJwqT6Mw4txzMssw=' 'sha256-tU9n/6S064bg/WCR7IOABQpmPu9LWRntxR8xEyqlE1k=' 'sha256-UvaZ9dnD1vbqwGnEW9cIXalSGus6PH9AjVjCtHkaV8M=' 'sha256-vnhTSsDm11lp1CkhVnY8Q7eDKNMS15mbpiuBEDeipyM=' 'sha256-zAjiNTl5IvSf3pdxydcAaShAjB7Ym0irlUZ3apj+26A=' 'sha256-CV54lQexbqK41oQut9EF63lZCWMSkD19f2V1iSaus0w=' 'sha256-M+88Wh4bjsDdiJoNEgQbkyfyqCGwx9WKsa897sfM4ZQ=' 'sha256-2M400TBOWIAG0gL8q8iuh+PK0TW7ZRMhrvE7BWDi1os=' 'sha256-/g/U1jIWK1Qv4D8fY7waf5qGfLtait/l8X7131Igt24=' 'sha256-u8T6NVagggpi9dvdxoTOKipUQAu4VIZg58vZmle5IWk=' cdn.jsdelivr.net cdnjs.cloudflare.com dap.digitalgov.gov https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://polyfill.io https://rebilly.github.io https://static.addtoany.com https://unpkg.com mdbootstrap.com script.crazyegg.com static.ctctcdn.com www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://static.ctctcdn.com cdn.jsdelivr.net fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com mdbootstrap.com stackpath.bootstrapcdn.com use.fontawesome.com https://script.crazyegg.com/scripts/addons/1.0.76/survey.css; worker-src 'self' blob: https://script.crazyegg.com; frame-ancestors 'self'
+< X-Drupal-Cache: HIT
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+< Vary: Cookie
+< X-Content-Type-Options: nosniff
+< Etag: W/"1695096864"
+< X-Generator: Drupal 9 (https://www.drupal.org)

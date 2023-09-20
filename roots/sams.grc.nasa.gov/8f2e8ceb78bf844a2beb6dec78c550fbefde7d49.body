@@ -1,0 +1,99 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                   
+   <script type="text/javascript">
+        if (top.frames.length != 0){
+                if(window.location.href.replace)
+                        top.location.replace(self.location.href);
+                else
+                        top.location.href=self.document.href;
+        }
+   </script>
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GRC&dclink=true"></script>
+
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+   
+  <meta name="Author" content="default">
+   
+  <meta name="GENERATOR"
+ content="Microsoft FrontPage 6.0">
+  <title>SAMS ISS Operations Site</title>
+      
+  </head>
+  <body link="#0000ff" vlink="#0000ff" lang="EN-US">
+ 
+<div class="Section1">&nbsp; 
+<center> 
+<p><b><font color="#ff0000"><font size="+3">SAMS</font></font></b><br>
+ <b>Space Acceleration Measurement Systems</b></p>
+ 
+<p><img src="images/SAMS_logo_small.jpg" alt="SAMS Logo" nosave="" border="0" width="250" height="250" >
+</p>
+ 
+<p><font size="+1"><a href="https://gipoc.grc.nasa.gov/wp/pims/home">Principal Investigator 
+Microgravity Services ISS Website</a></font><br>
+ <font size="+1"><a href="https://gipoc.grc.nasa.gov/wp/pims/acceleration-archives/">(SAMS Acceleration Data)</a></font></p>
+ </center>
+  
+<p><br>
+</p>
+ 
+<table cellpadding="5" cellspacing="2" border="0" width="90%"
+ align="center">
+   <tbody>
+     <tr>
+       <td valign="top" width="50%" align="center">                     
+		<p>
+		<a href="https://gipoc.grc.nasa.gov/wp/pims/locations/">
+		SAMS Sensor+EE Locations &amp; Cable (P/N's, B/N's, Lengths) [PDF]</a>
+           </p>
+       </td>
+       <td valign="top" rowspan="3" align="center" colspan="1">       <b>Contact
+the SAMS Operations Team</b><br>
+       <a href="mailto:pimsops@grc.nasa.gov">pimsops@grc.nasa.gov</a><br>
+     </tr>
+     <tr>
+       <td valign="top" width="50%" align="center">                     
+            
+      <p><a href="https://sams.grc.nasa.gov/ops/index.html">SAMS Ops Team Only</a> 
+      </p>
+       </td>
+     </tr>
+    <tr>
+      <td valign="top" align="center">
+      </td>
+      <td valign="top">
+      </td>
+    </tr>
+               
+  </tbody> 
+</table>
+ 
+<p>&nbsp;<br>
+ </p>
+ 
+  <hr>
+  <hr>
+  <p>&nbsp;</p>
+ 
+<p>
+ <br>
+ </p>
+ 
+<center> 
+<p>Responsible NASA person: Robert Hawersaat</p>
+ 
+<p>This page maintained by:<br>
+  Eric Kelly<br>
+Last Updated: November 21, 2016<br>
+ <a href="mailto:pimsops@grc.nasa.gov?subject=SAMS%20web%20page">SAMS Operations Team</a></p>
+<p><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></p>
+ </center>
+ </div>
+ <br>
+ <br>
+</body>
+</html>

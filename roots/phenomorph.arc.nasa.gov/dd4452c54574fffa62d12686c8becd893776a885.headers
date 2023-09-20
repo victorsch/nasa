@@ -1,0 +1,12 @@
+GET https://phenomorph.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:49:39 GMT
+< Server: 
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< Upgrade: h2

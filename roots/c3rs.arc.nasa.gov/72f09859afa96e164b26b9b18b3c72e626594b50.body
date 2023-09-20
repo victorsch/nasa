@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="NASA Confidential Close Call Reporting System (C3RS)" />
+  <meta name="description" content="Report rail safety issues or close calls voluntarily and confidentially." />
+  <meta property="og:title" content="NASA Confidential Close Call Reporting System (C3RS)" />
+  <meta property="og:description" content="Report rail safety issues or close calls voluntarily and confidentially." />
+  <meta name="keywords" content="c3rs, nasa, rail, safety, report, reporting, system, program, fra, railroad, train, trains, close, call, incident" />
+
+  <title>Home | NASA Confidential Close Call Reporting System</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="vendor/iconfont/material-icons.css" rel="stylesheet">
+
+  <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&dclink=true"></script>
+
+</head>
+
+<body>
+  <!-- Alert -->
+
+  <!-- <div id="alert-top" class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Alert</strong> Message for alert.
+    <button type="button" id="close-alert" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div> -->
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid" alt="NASA Confidential Close Call Reporting System Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="confidentiality.html">Confidentiality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="report.html">Submit a Report</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Safety Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.php">Contact</a>
+          </li>
+          <li class="nav-item">
+              <span class="nav-link" id="search-icon" data-search>
+                  <span class="material-icons">search</span>
+              </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container-fluid darkened text-center">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-bold">The NASA Confidential Close Call Reporting System (C<sup>3</sup>RS)</h1>
+          <p class="lead">The program is designed to improve railroad safety by collecting and analyzing reports which describe unsafe conditions and events in the railroad industry. Report safety issues or "close calls" voluntarily and confidentially.</p>
+          <a href="about.html" class="btn btn-primary btn-lg mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid orange-darkened text-center">
+      <div class="row">
+        <div class="col-12 text-center below-darkpart">
+          <h5>Report Voluntarily and Confidentially</h5>
+          <p><a id="report-selection" href="#report-selection">Scroll to select a report form: <br />Transportation, Mechanical, or Engineering</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="rectangle rectangle-1"></div>
+    <div class="rectangle rectangle-2"></div>
+  </header>
+
+
+
+   <!-- Cards -->
+   <div class="container">
+    <div class="row report-forms-container mt-sm-3">
+
+      <div class="col-sm-4 p-0 pr-sm-1 p-xs-1">
+        <a href="#" class="btn btn-primary p-0" data-toggle="modal" data-target="#TransportationReport">
+          <div class="card transportation">
+            <div class="card-body" style="background: url('images/bucket_bg1.png')">
+              <div class="border-container">
+                <h3 class="card-title">Submit Transportation Report Form</h3>
+                <p class="card-text minor">e.g. Conductor, Dispatcher, Engineer</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4 p-0 pr-sm-1 p-xs-1">
+        <a href="#" class="btn btn-primary p-0" data-toggle="modal" data-target="#MechanicalReport">
+          <div class="card mechanical">
+            <div class="card-body">
+              <div class="border-container">
+                <h3 class="card-title">Submit Mechanical Report Form</h3>
+                <p class="card-text minor">e.g. Carman, Laborer, Machinist, Pipe Fitter</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-4 p-0 pr-sm-0 p-xs-1">
+        <a href="#" class="btn btn-primary p-0" data-toggle="modal" data-target="#EngineeringReport">
+          <div class="card engineering">
+            <div class="card-body">
+              <div class="border-container">
+                <h3 class="card-title">Submit Engineering Report Form</h3>
+                <p class="card-text minor">e.g. Signal Maintainer, Track Inspector, Track Supervisor</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confidentiality Hero -->
+  <div class="holder">
+    <div class="container-fluid darkened text-center">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-sm-0 offset-md-3 mt-hero text-center">
+          <h2 class="font-weight-bold">Learn more about confidentiality and how reports are processed</h2>
+          <p>
+            <a href="confidentiality.html" class="btn btn-primary btn-lg mt-n1">Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Confidentiality Hero -->
+
+  <div class="container">
+    <!-- NOTE: commenting out the column (e.g. confidentiality) allows use of :only-child -->
+    <!-- Cards -->
+    <div class="row bucket-callouts-container">
+      <div class="col col-md-6 pl-md-0">
+        <div class="card left">
+          <div class="card-body">
+            <div class="border-container">
+              <h3 class="card-title">Explore our Database Search Tool, Newsletter &amp; Publications</h3>
+              <a href="products.html" class="btn btn-warning btn-primary mt-3 text-uppercase">Safety Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-6 pr-md-0">
+        <div class="card right">
+          <div class="card-body">
+            <div class="border-container">
+              <h3 class="card-title">Receive the free rail safety newsletter <em><strong>Inside The Rail</strong></em> by email!</h3>
+              <a href="	https://lp.constantcontactpages.com/su/3ZXXwgH/insidetherail" target="_blank" class="btn btn-warning btn-primary mt-3 text-uppercase">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid pb-5 mt-5 footer">
+    <div class="row">
+      <div class="container mt-5">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 text-left mb-3 p-0">
+              <p>The Confidential Close Call Reporting System (C<sup>3</sup>RS) is a partnership between the National
+                Aeronautics and Space Administration (NASA), the Federal Railroad Administration (FRA), in conjunction
+                with participating railroad carriers and labor organizations.</p>
+              <ul class="footer-nav">
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="confidentiality.html">Confidentiality</a>
+                </li>
+                <li>
+                  <a href="report.html">Submit a Report</a>
+                </li>
+                <li>
+                  <a href="products.html">Safety Products</a>
+                </li>
+                <li>
+                  <a href="contact.php">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 text-right nasa-logo">
+                <a href="https://www.nasa.gov/" target="_blank">
+                    <img src="images/logo_nasa.png" alt="NASA logo" />
+                </a>
+            </div>
+          </div>
+          <div class="row justify-content-md-center mt-3">
+            <div class="col-md-8">
+              <div class="d-flex">
+                <ul class="footer-bottom list-inline mx-auto justify-content-center text-center">
+                  <li class="list-inline-item">Webmaster: <a href="contact.php">Mariana Carmona</a></li>
+                  <li class="list-inline-item">NASA Official: <a href="contact.php">Becky L. Hooey</a></li>
+					<li style="width: 100%;"></li>
+                  <li class="list-inline-item"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy</a></li>
+                  <li class="list-inline-item"><a href="https://www.nasa.gov/" target="_blank">NASA.gov</a></li>
+                  <li class="list-inline-item"><a href="https://www.nasa.gov/ames" target="_blank">NASA Ames</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="TransportationReport" tabindex="-1" role="dialog" aria-labelledby="TransportationReport" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title"><img src="images/logo.png" class="img-fluid logo-C3RS" alt="NASA Confidential Close Call Reporting System Logo"></h3><img src="images/logo_nasa.png" alt="NASA logo" class="img-fluid logo-nasa" />
+        </div>
+        <div class="modal-body">
+          <h5>PLEASE READ THE FOLLOWING</h5>
+          <p>NASA, through agreements with the Federal Railroad Administration, is managing, operating, and accepting reports for the Railroad Confidential Close Call Reporting System (C<sup>3</sup>RS). The C<sup>3</sup>RS is expected to identify
+            issues in the railroad system that could be addressed to provide improvements in safety. Your assistance in informing us about such issues is essential to the success of the project. Please fill out this form as completely as possible.
+          </p>
+          <p>The FRA has agreed through MOU's with rail carriers that the reports filed with NASA are prohibited from being used for FRA enforcement purposes. This report will not be made available to the FRA for disciplinary actions for violations.
+            Your identification strip, date stamped by NASA, is proof that you have submitted a report to the C<sup>3</sup>RS. We can only return the ID strip to you if you have provided a mailing address. The information you provide on the identification strip
+            will be used only by NASA to contact you for further information. We can often obtain additional useful information if our safety analysts can talk with you directly by telephone. For this reason, we have requested telephone numbers where
+            we may reach you. THIS IDENTIFICATION STRIP WILL BE RETURNED BY MAIL DIRECTLY TO YOU. The return of the identification strip assures your anonymity.</p>
+          <p class="mb-n1"><strong>NOTE:</strong> Train Accidents and/or criminal acts should not be reported on this form. Such events should be filed through appropriate authorities.</p>			
+			
+			<div class="accordion-link">
+				<input type="checkbox" id="omb1" class="accordion-input">
+				<label for="omb1" class="accordion-label">Paperwork Reduction Act Statement</label>
+				<div class="accordion-content">
+				<p class="minor">This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget control number. The OMB control number for this information collection is 2700-0172. We estimate that it will take about 30 minutes to read the instructions, gather the facts, and answer the questions. You may send comments on our time estimate above to: P.O. Box 177 Moffett Field, CA 94035-0177.</p>
+				</div>
+			</div>
+          <h4><strong>Thank you for your contribution to railroad safety!</strong></h4>
+        </div>
+        <div class="modal-footer">
+          <div class="container-fluid">
+            <div class="row reverse-xs">
+              <div class="col-12 col-sm-4 text-left">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Back</button>
+              </div>
+              <div class="col-12 col-sm-8 text-right">
+                <iframe class="modal_templates" src="modal_templates/transportation-accept.html"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="MechanicalReport" tabindex="-1" role="dialog" aria-labelledby="MechanicalReport" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title"><img src="images/logo.png" class="img-fluid logo-C3RS" alt="NASA Confidential Close Call Reporting System Logo"></h3><img src="images/logo_nasa.png" alt="NASA logo" class="img-fluid logo-nasa" />
+        </div>
+        <div class="modal-body">
+          <h5>PLEASE READ THE FOLLOWING</h5>
+          <p>NASA, through agreements with the Federal Railroad Administration, is managing, operating, and accepting reports for the Railroad Confidential Close Call Reporting System (C<sup>3</sup>RS). The C<sup>3</sup>RS is expected to identify
+            issues in the railroad system that could be addressed to provide improvements in safety. Your assistance in informing us about such issues is essential to the success of the project. Please fill out this form as completely as possible.
+          </p>
+          <p>The FRA has agreed through MOU's with rail carriers that the reports filed with NASA are prohibited from being used for FRA enforcement purposes. This report will not be made available to the FRA for disciplinary actions for violations.
+            Your identification strip, date stamped by NASA, is proof that you have submitted a report to the C<sup>3</sup>RS. We can only return the ID strip to you if you have provided a mailing address. The information you provide on the identification strip
+            will be used only by NASA to contact you for further information. We can often obtain additional useful information if our safety analysts can talk with you directly by telephone. For this reason, we have requested telephone numbers where
+            we may reach you. THIS IDENTIFICATION STRIP WILL BE RETURNED BY MAIL DIRECTLY TO YOU. The return of the identification strip assures your anonymity.</p>
+          <p class="mb-n1"><strong>NOTE:</strong> Train Accidents and/or criminal acts should not be reported on this form. Such events should be filed through appropriate authorities.</p>
+          
+			<div class="accordion-link">
+				<input type="checkbox" id="omb2" class="accordion-input">
+				<label for="omb2" class="accordion-label">Paperwork Reduction Act Statement</label>
+				<div class="accordion-content">
+				<p class="minor">This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget control number. The OMB control number for this information collection is 2700-0172. We estimate that it will take about 30 minutes to read the instructions, gather the facts, and answer the questions. You may send comments on our time estimate above to: P.O. Box 177 Moffett Field, CA 94035-0177.</p>
+				</div>
+			</div>
+          <h4><strong>Thank you for your contribution to railroad safety!</strong></h4>
+        </div>
+        <div class="modal-footer">
+          <div class="container-fluid">
+            <div class="row reverse-xs">
+              <div class="col-12 col-sm-4 text-left">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Back</button>
+              </div>
+              <div class="col-12 col-sm-8 text-right">
+                <iframe class="modal_templates" src="modal_templates/mechanical-accept.html"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="EngineeringReport" tabindex="-1" role="dialog" aria-labelledby="EngineeringReport" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><img src="images/logo.png" class="img-fluid logo-C3RS" alt="NASA Confidential Close Call Reporting System Logo"></h5><img src="images/logo_nasa.png" alt="NASA logo" class="img-fluid logo-nasa" />
+        </div>
+        <div class="modal-body">
+          <h5>PLEASE READ THE FOLLOWING</h5>
+          <p>NASA, through agreements with the Federal Railroad Administration, is managing, operating, and accepting reports for the Railroad Confidential Close Call Reporting System (C<sup>3</sup>RS). The C<sup>3</sup>RS is expected to identify
+            issues in the railroad system that could be addressed to provide improvements in safety. Your assistance in informing us about such issues is essential to the success of the project. Please fill out this form as completely as possible.
+          </p>
+          <p>The FRA has agreed through MOU's with rail carriers that the reports filed with NASA are prohibited from being used for FRA enforcement purposes. This report will not be made available to the FRA for disciplinary actions for violations.
+            Your identification strip, date stamped by NASA, is proof that you have submitted a report to the C<sup>3</sup>RS. We can only return the ID strip to you if you have provided a mailing address. The information you provide on the identification strip
+            will be used only by NASA to contact you for further information. We can often obtain additional useful information if our safety analysts can talk with you directly by telephone. For this reason, we have requested telephone numbers where
+            we may reach you. THIS IDENTIFICATION STRIP WILL BE RETURNED BY MAIL DIRECTLY TO YOU. The return of the identification strip assures your anonymity.</p>
+          <p class="mb-n1"><strong>NOTE:</strong> Train Accidents and/or criminal acts should not be reported on this form. Such events should be filed through appropriate authorities.</p>
+          
+			<div class="accordion-link">
+				<input type="checkbox" id="omb3" class="accordion-input">
+				<label for="omb3" class="accordion-label">Paperwork Reduction Act Statement</label>
+				<div class="accordion-content">
+				<p class="minor">This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget control number. The OMB control number for this information collection is 2700-0172. We estimate that it will take about 30 minutes to read the instructions, gather the facts, and answer the questions. You may send comments on our time estimate above to: P.O. Box 177 Moffett Field, CA 94035-0177.</p>
+				</div>
+			</div>
+          <h4><strong>Thank you for your contribution to railroad safety!</strong></h4>
+        </div>
+        <div class="modal-footer">
+          <div class="container-fluid">
+            <div class="row reverse-xs">
+              <div class="col-12 col-sm-4 text-left">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Back</button>
+              </div>
+              <div class="col-12 col-sm-8 text-right">
+                <iframe class="modal_templates" src="modal_templates/engineering-accept.html"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/nav.js"></script>
+
+  <script>
+    $('#myModal').on('shown.bs.modal', function() {
+      $('#myInput').trigger('focus');
+    });
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>

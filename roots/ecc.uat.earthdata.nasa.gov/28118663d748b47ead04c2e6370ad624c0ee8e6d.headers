@@ -1,0 +1,12 @@
+GET https://ecc.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:41:56 GMT
+< Render-Time: 36 ms
+< Set-Cookie: ring-session=525c99fb-6f08-4d0c-896f-4027722c4253;Path=/;HttpOnly
+< Server: Jetty(9.4.51.v20230217)
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1;mode=block
+< Strict-Transport-Security: max-age=31536000

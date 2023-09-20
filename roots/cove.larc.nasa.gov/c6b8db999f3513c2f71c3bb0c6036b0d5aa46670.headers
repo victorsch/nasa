@@ -1,0 +1,11 @@
+GET http://cove.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:53:50 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Location: https://cove.larc.nasa.gov/
+< Content-Length: 235

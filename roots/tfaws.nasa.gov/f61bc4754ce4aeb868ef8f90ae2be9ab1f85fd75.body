@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- This site is optimized with the Yoast SEO plugin v21.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>TFAWS 2023 | Thermal &amp; Fluids Analysis Workshop (TFAWS)</title>
+	<meta name="description" content="What is TFAWS? The Thermal and Fluids Analysis Workshop (TFAWS) is an annual training and professional development workshop that is designed to encourage" />
+	<link rel="canonical" href="https://tfaws.nasa.gov/" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://tfaws.nasa.gov/","url":"https://tfaws.nasa.gov/","name":"TFAWS 2023 | Thermal &amp; Fluids Analysis Workshop (TFAWS)","isPartOf":{"@id":"https://tfaws.nasa.gov/#website"},"about":{"@id":"https://tfaws.nasa.gov/#organization"},"datePublished":"2022-12-16T20:49:00+00:00","dateModified":"2023-08-18T17:25:32+00:00","description":"What is TFAWS? The Thermal and Fluids Analysis Workshop (TFAWS) is an annual training and professional development workshop that is designed to encourage","breadcrumb":{"@id":"https://tfaws.nasa.gov/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://tfaws.nasa.gov/"]}]},{"@type":"BreadcrumbList","@id":"https://tfaws.nasa.gov/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://tfaws.nasa.gov/#website","url":"https://tfaws.nasa.gov/","name":"Thermal &amp; Fluids Analysis Workshop (TFAWS)","description":"","publisher":{"@id":"https://tfaws.nasa.gov/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://tfaws.nasa.gov/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://tfaws.nasa.gov/#organization","name":"Thermal & Fluids Analysis Workshop","url":"https://tfaws.nasa.gov/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://tfaws.nasa.gov/#/schema/logo/image/","url":"https://tfaws.nasa.gov/wp-content/uploads/TFAWS-2016-Logo-1.jpg","contentUrl":"https://tfaws.nasa.gov/wp-content/uploads/TFAWS-2016-Logo-1.jpg","width":1357,"height":1822,"caption":"Thermal & Fluids Analysis Workshop"},"image":{"@id":"https://tfaws.nasa.gov/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/TFAWS","https://twitter.com/TFAWS"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Thermal &amp; Fluids Analysis Workshop (TFAWS) &raquo; Feed" href="https://tfaws.nasa.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Thermal &amp; Fluids Analysis Workshop (TFAWS) &raquo; Comments Feed" href="https://tfaws.nasa.gov/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tfaws.nasa.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='news-theme-css' href='https://tfaws.nasa.gov/wp-content/themes/nasa-genesis-responsive/style.css?ver=1.19' type='text/css' media='all' />
+<link rel='stylesheet' id='genesis-printstyle-plus-css' href='https://tfaws.nasa.gov/wp-content/plugins/genesis-printstyle-plus/css/print-html5.min.css?ver=1569952278' type='text/css' media='print' />
+<link rel='stylesheet' id='genesis-printstyle-plus-additions-css' href='https://tfaws.nasa.gov/wp-content/themes/nasa-genesis-responsive/print-additions.css?ver=1569952278' type='text/css' media='print' />
+<script type='text/javascript' src='https://tfaws.nasa.gov/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://tfaws.nasa.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tfaws.nasa.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tfaws.nasa.gov/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="XXXXXXXXXXXXXXX" X>
+<link rel='shortlink' href='https://tfaws.nasa.gov/' />
+<link rel="alternate" type="application/json+oembed" href="https://tfaws.nasa.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftfaws.nasa.gov%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://tfaws.nasa.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftfaws.nasa.gov%2F&#038;format=xml" />
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+	<link rel="icon" href="https://tfaws.nasa.gov/wp-content/themes/nasa-genesis-responsive/images/favicon.ico" />
+<style type="text/css">.site-header { background: url(https://tfaws.nasa.gov/wp-content/uploads/TFAWS_2023_Web_Banner_Ver_2.png) no-repeat !important; }</style>
+		<script type="text/javascript" language="javascript">
+		<!--
+		if (top.frames.length!=0)
+		  top.location=self.document.location;
+		// -->
+		</script>
+		<style type="text/css" id="wp-custom-css">
+			/*TO BE ADJUSTED TO THEME*/
+#nav li.social-facebook a, #nav li.social-facebook a:hover, #nav li.social-rss a, #nav li.social-rss a:hover, #nav li.social-twitter a, #nav li.social-twitter a:hover, #subnav li.social-facebook a, #subnav li.social-facebook a:hover, #subnav li.social-rss a, #subnav li.social-rss a:hover, #subnav li.social-twitter a, #subnav li.social-twitter a:hover, #abovenav li.social-facebook a, #abovenav li.social-facebook a:hover, #abovenav li.social-rss a, #abovenav li.social-rss a:hover, #abovenav li.social-twitter a, #abovenav li.social-twitter a:hover {
+	border: none;
+	margin: 7px 10px 0 0;
+}
+
+/*DITTO THEME*/
+/*NEXT INPUT Button in Gravity Forms is not appearing correctly */
+div.gform_wrapper input.gform_next_button, div.gform_wrapper input.gform_previous_button, div.gform_wrapper input.gform_button {
+	color: #fff;
+}
+
+/*Gravity Forms Description Font is too small; let's increase*/
+.gform_wrapper .description, .gform_wrapper .gfield_description, .gform_wrapper .gsection_description, .gform_wrapper .instruction {
+	font-size: 1em;
+}
+
+/*Navigation Better Section */
+.home .better-section-nav h3 {display:none;} 
+		</style>
+		</head>
+<body class="home page-template-default page page-id-4226 page-parent custom-header header-image header-full-width sidebar-content genesis-breadcrumbs-hidden genesis-footer-widgets-hidden"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li></ul><!-- beginning of nasa_header NEW -->
+
+<div id="nasahead" class="nasahead-new">
+    <div class="nasahome">
+    <a href="http://www.nasa.gov/" target="_blank">
+      <img src="https://tfaws.nasa.gov/wp-content/themes/nasa-genesis-responsive/images/nasa-logo.png" alt="NASA" />
+    </a>
+  </div><!--end nasahome div -->
+  <div class="nasacenterinfo">
+    <p id="nasaname">National Aeronautics and Space Administration</p>
+    <p id="nasacenter">Glenn Research Center</p>
+      <!--<div class="hidden skip">
+    <a href="#content" title="Skip to Content">Skip Navigation</a>
+  </div>--><!--end hidden div -->
+    
+    
+  </div><!--end centername div -->
+  
+  <div class="nasaout nasalinks">
+    <ul>
+      <li><a href="http://www.nasa.gov/">Visit NASA.gov</a></li>
+	  <li><a href="http://www.nasa.gov/centers/glenn/">NASA Glenn</a></li>
+      </ul>
+  </div><!--end nasaheadlinks div -->
+  <div class="nasasearch">
+  <div class="searchbox">
+                             
+		<form method="get" class="searchform search-form" action="https://tfaws.nasa.gov/" >
+			<label for="ng-query" class="screenreader">Search Site</label>
+			<input type="text" value="" name="s" id="ng-query" class="s search-input" />
+			<input type="submit" class="searchsubmit search-submit" value="Search" />
+		</form>
+	            	
+  </div><!--end searchbox div -->
+ </div><!--end nasalast-->
+</div><!--end nasahead div -->
+
+<!-- end of nasa_header -->
+<header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://tfaws.nasa.gov/">Thermal &amp; Fluids Analysis Workshop (TFAWS)</a></p></div></div></header><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-tfaws-2023" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-4431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4226 current_page_item menu-item-4431"><a href="https://tfaws.nasa.gov/" aria-current="page"><span >TFAWS 2023</span></a></li>
+<li id="menu-item-4766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4766"><a href="https://tfaws.nasa.gov/tfaws23/paper-presentation-submissions/"><span >Paper/Presentation Submissions</span></a></li>
+<li id="menu-item-4747" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4747"><a href="https://tfaws.nasa.gov/tfaws23/lunch-and-banquet-dinner-purchase/"><span >Lunch and Banquet Dinner Purchase</span></a></li>
+<li id="menu-item-4710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4710"><a href="https://tfaws.nasa.gov/tfaws23/lunch-and-keynote-speakers/"><span >Lunch and Keynote Speakers</span></a></li>
+<li id="menu-item-4698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4698"><a href="https://tfaws.nasa.gov/tfaws23/agenda/"><span >Agenda</span></a></li>
+<li id="menu-item-4655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4655"><a href="https://tfaws.nasa.gov/tfaws23/venue-information/"><span >Venue and Lodging Information</span></a></li>
+<li id="menu-item-4435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4435"><a href="https://tfaws.nasa.gov/tfaws23/tfaws2023-poster/"><span >Poster Submission</span></a></li>
+<li id="menu-item-4447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447"><a href="https://tfaws.nasa.gov/about/"><span >About TFAWS</span></a></li>
+</ul></div></nav><div class="site-inner"><div class="wrap"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><article class="post-4226 page type-page status-publish entry" aria-label="TFAWS 2023"><header class="entry-header"><h1 class="entry-title">TFAWS 2023</h1>
+</header><div class="entry-content"><h2 style="text-align: left;">What is TFAWS?</h2>
+<p><strong>The Thermal and Fluids Analysis Workshop (TFAWS) is an annual training and professional development workshop that is designed to encourage knowledge sharing, professional development, and networking throughout the thermal and fluids engineering community within NASA and the aerospace community at large. The vision of TFAWS is to maintain continuity over time and between disciplines throughout the thermal and fluids engineering community.</strong></p>
+<h2>Latest TFAWS 2023 News</h2>
+<h3><span style="color: #ff0000; background-color: #ffff00;">!!! Paper Session schedules are now released !!!</span></h3>
+<ul>
+<li>
+<h4><a href="https://tfaws.nasa.gov/wp-content/uploads/TFAWS-2023-Paper-Session-Schedule_2023Aug18.pdf" class="local-link"> Paper Sessions &#8211; Full schedule (Updated August 18)</a></h4>
+</li>
+<li>
+<h4><span style="color: #3d64ad;">Paper Sessions &#8211; Daily Schedules (Updated August 18)</span></h4>
+<ul>
+<li>
+<h4><a href="https://tfaws.nasa.gov/wp-content/uploads/Monday_2023Aug18.pdf" class="local-link">Monday 8/21</a></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/wp-content/uploads/Tuesday_2023Aug18.pdf" class="local-link">Tuesday 8/22</a></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/wp-content/uploads/Wednesday_2023Aug18.pdf" class="local-link">Wednesday 8/23</a></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/wp-content/uploads/Thursday_2023Aug18.pdf" class="local-link">Thursday 8/24</a></h4>
+</li>
+</ul>
+</li>
+</ul>
+<h2>TFAWS 2023 Important Links</h2>
+<ul>
+<li>
+<h3><a href="https://tfaws.nasa.gov/wp-content/uploads/34th_TFAWS_2023_Final_rev_small.pdf" class="local-link">TFAWS 2023 Flyer (feel free to redistribute!)</a></h3>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/tfaws23/agenda/" class="local-link">Agenda (08/09/2023)</a></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/tfaws23/lunch-and-keynote-speakers/" class="local-link">Lunch and Keynote Speakers</a></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/tfaws23/venue-information/" class="local-link">Venue Information</a><span style="color: #000000;"><br />
+</span></h4>
+</li>
+<li>
+<h4><a href="https://tfaws.nasa.gov/tfaws23/paper-presentation-submissions/" class="local-link">Paper Submission &#8211; <span style="background-color: #ffff00; color: #ff0000;">Submit Papers Here</span></a></h4>
+</li>
+<li>
+<h4>Lunch and Banquet Order Link &#8211; Now Closed</h4>
+</li>
+<li>
+<h4>Participant Registration &#8211; Now Closed</h4>
+</li>
+<li>
+<h4>Abstract Submission &#8211; Now Closed</h4>
+</li>
+<li>
+<h4>Vendor Registration &#8211; Now Closed</h4>
+</li>
+</ul>
+<h2>Important Dates for TFAWS 2023</h2>
+<ul>
+<li><strong>Final Paper Submission Deadline</strong>: Monday August 7, 2023</li>
+<li><strong>Conference</strong>: Monday August 21, 2023 &#8211; Friday August 25, 2023</li>
+<li><strong>Meal Order Deadline:</strong> <del>Monday August 14, 2023</del></li>
+<li><strong>Student Poster Submission</strong> <strong>Deadline</strong>: <del>Monday August 7, 2023</del></li>
+<li><strong>Registration Period Closes</strong>: <del>Monday August 1, 2023</del></li>
+<li><strong>Registration Period Opens</strong>:  <del>Tuesday May 2, 2023</del></li>
+<li><strong>Abstract Submission Opens</strong>: <del>Tuesday March 7, 2023</del></li>
+<li><b>Abstract Submission Deadline:</b> <del>Extended to Wednesday May 31, 2023</del></li>
+<li><strong>Vendor Registration Deadline</strong>:  <del>Friday June 30, 2023</del></li>
+</ul>
+<h2>TFAWS 2023 Overview</h2>
+<ul>
+<li><strong>Hosted by: <a href="https://www.nasa.gov/goddard" class="local-link"><span style="color: #0000ff;">NASA Goddard Space Flight Center (GSFC)</span></a></strong></li>
+<li><strong>Sponsored by: <a href="https://www.nasa.gov/offices/nesc/home/index.html" class="local-link"><span style="color: #0000ff;">NASA Engineering and Safety Center (NESC)</span></a></strong></li>
+<li><strong>NESC Sponsoring Technical Discipline Teams (TDTs):</strong>
+<ul>
+<li>Thermal Control and Protection</li>
+<li>Aerosciences</li>
+<li>Cryogenics</li>
+<li>Environmental Control / Life Support</li>
+</ul>
+</li>
+<li><strong>Conference Dates</strong>: Monday August 21, 2023 &#8211; Friday August 25, 2023</li>
+<li><strong>Conference Location</strong>: The Hotel at The University of Maryland, 7777 Baltimore Avenue, College Park, MD 20740</li>
+<li><strong>Keynote Speaker</strong>: Dr. Jim Garvin, NASA GSFC</li>
+<li><span style="background-color: #ff0000; color: #ffff00;"><strong>Registration Cost</strong>: Free</span></li>
+<li><strong>NCTS Number (for Civil Servants)</strong>: 48149-23</li>
+</ul>
+<h2>Workshop Features</h2>
+<ul>
+<li>Paper Sessions</li>
+<li>Software Demonstrations and Training</li>
+<li>Technical Short Courses</li>
+<li>Student Poster Session <span style="color: #ff0000;"> <strong>*** New This Year *** </strong></span></li>
+<li>Guest Speakers</li>
+</ul>
+<h2>Who Should Attend?</h2>
+<ul>
+<li>Engineers</li>
+<li>Scientists</li>
+<li>Educators</li>
+<li>Students</li>
+<li>International Guests and Partners</li>
+<li>Thermal and Fluids Analysis Tool Users</li>
+<li>Anyone interested in thermal and fluids analysis</li>
+</ul>
+<p><span style="color: #ff0000;"><em>All levels of experience are welcome!!</em></span></p>
+<h2>Workshop Benefits</h2>
+<ul>
+<li>Participants have the opportunity to share their work on the latest application of new and established methods to aerospace missions, impart engineering lessons learned, and compare/contrast engineering practices.</li>
+<li>Annual sharing of knowledge, hands-on instruction in relevant state-of-the-art engineering analysis tools, and seminars/short courses taught by the veterans in the thermal and fluids engineering community helps to ensure that the expertise of the community is maintained.</li>
+<li>Networking at TFAWS gives each engineer an extensive network of contacts which serves as an excellent source of advice and technical knowledge.</li>
+<li>TFAWS provides tremendous opportunities for enhancing collaboration between NASA centers, other government agencies, industry, academia, and the international thermal and fluids engineering community.</li>
+</ul>
+</div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><section id="nav_menu-5" class="widget widget_nav_menu"><div class="widget-wrap"><h3 class="widgettitle widget-title">TFAWS 2023</h3>
+<div class="menu-tfaws-2023-container"><ul id="menu-tfaws-2024" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4226 current_page_item menu-item-4431"><a href="https://tfaws.nasa.gov/" aria-current="page">TFAWS 2023</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4766"><a href="https://tfaws.nasa.gov/tfaws23/paper-presentation-submissions/">Paper/Presentation Submissions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4747"><a href="https://tfaws.nasa.gov/tfaws23/lunch-and-banquet-dinner-purchase/">Lunch and Banquet Dinner Purchase</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4710"><a href="https://tfaws.nasa.gov/tfaws23/lunch-and-keynote-speakers/">Lunch and Keynote Speakers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4698"><a href="https://tfaws.nasa.gov/tfaws23/agenda/">Agenda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4655"><a href="https://tfaws.nasa.gov/tfaws23/venue-information/">Venue and Lodging Information</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4435"><a href="https://tfaws.nasa.gov/tfaws23/tfaws2023-poster/">Poster Submission</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447"><a href="https://tfaws.nasa.gov/about/">About TFAWS</a></li>
+</ul></div></div></section>
+<section id="nav_menu-7" class="widget widget_nav_menu"><div class="widget-wrap"><h3 class="widgettitle widget-title">Thermal/Fluids Community</h3>
+<div class="menu-tfaws-web-site-links-container"><ul id="menu-tfaws-web-site-links" class="menu"><li id="menu-item-4825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4825"><a href="https://tfaws.nasa.gov/about/">About TFAWS</a></li>
+<li id="menu-item-4833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4833"><a href="https://tfaws.nasa.gov/about/archives/">Archives – Previous Years</a></li>
+<li id="menu-item-4826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4826"><a href="https://tfaws.nasa.gov/about/conferences/">Conferences of interest to thermal/fluids engineers</a></li>
+<li id="menu-item-4827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4827"><a href="https://tfaws.nasa.gov/about/thermal-environmental-test-facilities/">Thermal Environmental Test Facilities</a></li>
+<li id="menu-item-4828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4828"><a href="https://tfaws.nasa.gov/about/nasa-analysis-organizations/">NASA Analysis Organizations</a></li>
+<li id="menu-item-4829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4829"><a href="https://tfaws.nasa.gov/about/thermal-email-lists/">Thermal Email Lists</a></li>
+<li id="menu-item-4830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4830"><a href="https://tfaws.nasa.gov/about/history/">History</a></li>
+<li id="menu-item-4831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4831"><a href="https://tfaws.nasa.gov/about/eloquent/">Eloquent</a></li>
+<li id="menu-item-4832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4832"><a href="https://tfaws.nasa.gov/about/badges/">Badges</a></li>
+</ul></div></div></section>
+</aside></div></div></div><footer class="site-footer"><div class="wrap"><p><h2 id="genesis-footer-widgets" class="genesis-sidebar-title screen-reader-text">Footer</h2>
+<div id="nasafoot" class="nasafoot-new">
+    
+    <div class="nasahome">
+      <a href="http://www.nasa.gov/" target="_blank"><span class="hidden">NASA Home</span></a>
+    </div><!--end nasahome div -->
+
+    <div class="nasalinks nasaRNO">
+        <ul>
+             <li>NASA Official: <a href="mailto:monica.c.guzik@nasa.gov">Monica C. Guzik</a></li>
+             <li>Curator: <a href="mailto:monica.c.guzik@nasa.gov">Monica C. Guzik</a></li>
+           <li><time class="entry-modified-time">Last Modified: August 18, 2023</time> <time class="entry-time">3:49 pm</time></li>
+		</ul>
+    </div><!--end nasalinks nasaRNO div -->
+    
+        <div class="nasalinks nasaplus">
+   <ul>
+<li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+<li><a href="http://www.grc.nasa.gov/Doc/viewers.html">Document and Media Viewers</a></li>
+</ul>
+</div><!--end nasalinks nasaplus div-->
+
+  <div class="nasaout nasalinks">
+    <ul>
+      <li><a href="http://www.nasa.gov/">Visit NASA.gov</a></li>
+      <li><a href="http://www.nasa.gov/centers/glenn/">NASA Glenn</a></li>
+            </ul>
+  </div><!--end nasaout nasalinks div -->
+  </div><!--end nasafoot-new div--></p></div></footer></div><script type='text/javascript' src='https://tfaws.nasa.gov/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://tfaws.nasa.gov/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10' id='superfish-js'></script>
+<script type='text/javascript' src='https://tfaws.nasa.gov/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=3.4.0' id='superfish-args-js'></script>
+<script type='text/javascript' src='https://tfaws.nasa.gov/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.4.0' id='skip-links-js'></script>
+</body></html>

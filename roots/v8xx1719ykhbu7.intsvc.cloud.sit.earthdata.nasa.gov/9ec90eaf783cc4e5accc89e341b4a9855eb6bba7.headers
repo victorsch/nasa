@@ -1,0 +1,9 @@
+GET http://v8xx1719ykhbu7.intsvc.cloud.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://v8xx1719ykhbu7.intsvc.cloud.sit.earthdata.nasa.gov:443/
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:42:42 GMT
+< Content-Type: text/html
+< Content-Length: 134

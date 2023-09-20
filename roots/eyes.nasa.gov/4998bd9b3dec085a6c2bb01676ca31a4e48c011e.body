@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<html>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<!-- Responsiveness -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<!-- Meta -->
+<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="194x194" href="./favicons/favicon-194x194.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="./favicons/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png" />
+<link rel="manifest" href="./favicons/site.webmanifest" />
+<link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#2b5797" />
+<link rel="shortcut icon" href="./favicons/favicon.ico" />
+<meta name="msapplication-TileColor" content="#2b5797" />
+<meta name="msapplication-config" content="./favicons/browserconfig.xml" />
+<meta name="theme-color" content="#000000" />
+
+<title>NASA’s Eyes
+</title>
+<meta content="NASA's Eyes" property='og:site_name'>
+<meta content='' name='author'>
+<meta content='' name='keywords'>
+<meta content="Welcome to NASA's Eyes, a way for you to learn about your home planet, our solar system, the universe beyond and the spacecraft exploring them." name='description'>
+<meta content="Welcome to NASA's Eyes, a way for you to learn about your home planet, our solar system, the universe beyond and the spacecraft exploring them." property='og:description'>
+<meta content='NASA’s Eyes' property='og:title'>
+<meta content='https://eyes-cms.jpl.nasa.gov/index.html' property='og:url'>
+<meta content='2014-06-02 17:12:34 -0700' property='og:updated_time'>
+<meta content='website' property='og:type'>
+<meta content='https://eyes-cms.jpl.nasa.gov/system/site_config_values/meta_share_images/1_solarsystem_400x400.jpg' property='og:image'>
+<meta content='https://eyes-cms.jpl.nasa.gov/system/site_config_values/meta_share_images/1_solarsystem_400x400.jpg' name='twitter:image'>
+<link href='https://eyes-cms.jpl.nasa.gov/system/site_config_values/meta_share_images/1_solarsystem_400x400.jpg' rel='image_src'>
+
+
+<link href="./assets/public_manifest.css" media="all" rel="stylesheet" />
+<link href='./assets/overrides.css' media='all' rel='stylesheet' type='text/css'>
+<script src='./assets/config.js'></script>
+<script src="./assets/public_manifest.js"></script>
+<script src="./assets/mb_manifest.js"></script>
+<script src='./assets/overrides.js'></script>
+</head>
+<body id='home'>
+<div id='no_protocol'>You may not have NASA&rsquo;s Eyes installed. Please press Download to download Eyes and then choose Launch to launch your experience.</div>
+<div id='main_container'>
+<div id='site_body'>
+<div class='site_header_area'>
+<header class='site_header'>
+<div class='brand_area'>
+<div class='brand1'>
+<a class='nasa_logo' href='http://www.nasa.gov' target='_blank' title='Visit nasa.gov'>NASA</a>
+</div>
+<div class='brand2'>
+<a class='top_logo' href='http://jpl.nasa.gov' title='JPL'>Jet Propulsion Laboratory</a>
+<a class='sub_logo' href='http://www.caltech.edu' title='Caltech'>California Institute of Technology</a>
+</div>
+<img alt='' class='print_only print_logo' src='./assets/logo_nasa_mission_black@2x.png'>
+</div>
+
+<a class='visuallyhidden focusable' href='#page'>Skip Navigation</a>
+<div class='site_logo'>
+<a href='./' title='Home'>
+<img alt='Home' src='./assets/logo-eyes-white@2x.png'>
+</a>
+</div>
+</header>
+</div>
+
+<div id='page'>
+<script>
+  var app_download_link = "doDownload('auto')";
+</script>
+<style>
+  .primary_media_feature .feature_container {
+    display: none;
+  }
+</style>
+<section class='centered_text clearfix main_feature primary_media_feature single'>
+<article class='feature_container' data-source='./system/basic_html_elements/11404_eyes_bg.jpg' id='pmf_homepage'>
+<div class='floating_text_area section_media_feature'>
+<h1 class='media_feature_title'>
+NASA&rsquo;s Eyes
+</h1>
+<div class='description desktop'>
+Experience Earth, our solar system, nearby asteroids, the universe, and the spacecraft exploring them with immersive real-time 3D web-based apps for Mac, PC and mobile devices. No download or sign up necessary.
+</div>
+<div class='description mobile'>
+Experience Earth, our solar system, nearby asteroids, the universe, and the spacecraft exploring them with immersive real-time 3D web-based apps for Mac, PC and mobile devices. No download or sign up necessary.</div>
+</div>
+
+</article>
+
+<div class='gradient_container_top'></div>
+<div class='gradient_container_bottom'></div>
+</section>
+<script src="./assets/public/landing_page.js"></script>
+
+<section class='promo_banner solar-system'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/solar-system' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/SolarSystemBanner.webp"/>
+        <img src="./system/basic_html_elements/SolarSystemBannerMobile.webp" alt="Solar System Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='promo_banner'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/asteroids' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/AsteroidsBanner.jpg"/>
+        <img src="./system/basic_html_elements/AsteroidsBannerMobile.jpg" alt="Asteroids Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='promo_banner'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/earth' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/EarthBanner.jpg"/>
+        <img src="./system/basic_html_elements/EarthBannerMobile.jpg" alt="Earth Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='promo_banner'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/exo' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/ExoplanetsBanner.jpg"/>
+        <img src="./system/basic_html_elements/ExoplanetsBannerMobile.jpg" alt="Exoplanets Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='promo_banner'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/orrery' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/OrreryBanner.webp"/>
+        <img src="./system/basic_html_elements/OrreryBannerMobile.webp" alt="Orrery Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='promo_banner'>
+  <div class='grid_layout'>
+  <article class='promo'>
+    <a class='banner_link' href='/apps/mars2020' target="_blank">
+      <picture>
+        <source media="(min-width: 720px)" srcset="./system/basic_html_elements/Mars2020Banner.jpg"/>
+        <img src="./system/basic_html_elements/Mars2020BannerMobile.jpg" alt="Mars 2020 Banner">
+      </picture>
+    </a>
+  </article>
+  </div>
+</section>
+
+<section class='events_teaser carousel_teaser module desktop'>
+<div class='grid_layout'>
+<header class='carousel_header'>
+<h2 class='module_title'>Events on Earth</h2>
+</header>
+<section id='events_carousel'></section>
+</div>
+</section>
+
+<section class='multi_teaser module suggested_features'>
+<h1 class='module_title'>
+More to Explore
+</h1>
+<div class='grid_layout'>
+<header class='suggested_header'>
+</header>
+<ul class='module_gallery gallery_list'>
+
+<li class='slide'>
+<a href='./dsn' target='_blank'>
+<img alt='DSN Now' src='./system/basic_html_elements/11422_more_dsn_393x222.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+DSN Now
+</h1>
+The Deep Space Network is how our robotic explorers keep in touch. See which spacecraft are talking to us right now in this live web app.
+</div>
+</div>
+</a>
+</li>
+
+<li class='slide'>
+<a href='https://scan-now.gsfc.nasa.gov/sr' target='_blank'>
+<img alt='NSN SR Now' src='./system/basic_html_elements/nsn-sr-393x222.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+NSN SR NOW
+</h1>
+The Near Space Network Space Relay provides near-constant communication through a constellation of GEOsynchronous satellites.
+</div>
+</div>
+</a>
+</li>
+
+<li class='slide'>
+<a href='https://scan-now.gsfc.nasa.gov/dte' target='_blank'>
+<img alt='NSN DTE Now' src='./system/basic_html_elements/nsn-dte-393x222.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+NSN DTE NOW
+</h1>
+The Near Space Network Direct-to-Earth antennas provide communication services through a blend of diverse service providers.
+</div>
+</div>
+</a>
+</li>
+
+</ul>
+<ul class='module_gallery gallery_list'>
+
+<li class='slide'>
+<a href='./curiosity' target='_blank'>
+<img alt='Experience Curiosity' src='./system/basic_html_elements/11423_curiosity_ad_fixed.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+Experience Curiosity
+</h1>
+A WebGL experience that lets you learn about the Curiosity rover and what it has done at the Pahrump Hills region of Gale Crater.
+</div>
+</div>
+</a>
+</li>
+
+<li class='slide'>
+<a href='./mobile-apps.html'>
+<img alt='Mobile Apps' src='./system/basic_html_elements/11424_more_apps_393x222.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+Mobile Apps
+</h1>
+Explore Earth climate data with the award winning Earth Now or get up close with our spacecraft in Spacecraft 3D for both iOS &amp; Android.
+</div>
+</div>
+</a>
+</li>
+
+<li class='slide'>
+<a href='/apps/experience-insight/InSight.html' target="_blank">
+<img alt='Mars InSight lander' src='./system/basic_html_elements/insight-393x222.jpg'>
+<div class='bottom_gradient'>
+<div class='text_overlay'>
+<h1 class='media_feature_title'>
+Experience InSight
+</h1>
+Interact and deploy the InSight lander on Mars. Bring it to life by controlling its robotic arm and learn about the many instruments aboard.
+</div>
+</div>
+</a>
+</li>
+
+</ul>
+</div>
+</section>
+
+
+</div>
+<footer id='site_footer'>
+<div class='grid_layout'>
+<div class='share'>
+<h2>Stay Connected</h2>
+<div class='social_icons'>
+<!-- AddThis Button BEGIN -->
+<div class='addthis_toolbox addthis_default_style addthis_32x32_style'><a addthis:userid='nasa_eyes' class='addthis_button_twitter_follow icon'>
+<img alt='twitter' src='./assets/twitter_icon@2x.png'>
+</a><script>
+  addthis_loader.init("//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559454f93fb67e8c", {follow: true})
+</script>
+</div>
+</div>
+
+</div>
+<div class='gradient_line'></div>
+<div class='nav_container'>
+<nav>
+<ul>
+<li>
+<a href="mailto:eyes@jpl.nasa.gov">FEEDBACK</a>
+</li>
+<li>
+<a href="./faq.html">FAQ</a>
+</li>
+<li>
+<a href="./accessibility.html">Accessibility</a>
+</li>
+<li>
+<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class='credits'>
+<div class='footer_brands_top'>
+<p>
+This website is produced by the Visualization Technology Applications and Development Team at
+</p>
+</div>
+<div class='footer_brands'>
+<a class='jpl' href='http://www.jpl.nasa.gov' target='_blank'>NASA's Jet Propulsion Laboratory</a>
+|
+<a class='caltech' href='http://caltech.edu' target='_blank'>California Institute of Technology</a>
+</div>
+<div class='staff'>
+<p>
+Site Manager:
+<a href="mailto:eyes@jpl.nasa.gov?subject=To%20Site%20Manager%3A%20">Jon Nelson</a>
+</p>
+</div>
+</div>
+<div class='brand_area'>
+<div class='brand1'>
+<a class='nasa_logo' href='http://www.nasa.gov' target='_blank' title='Visit nasa.gov'>NASA</a>
+</div>
+<div class='brand2'>
+<a class='top_logo' href='http://jpl.nasa.gov' title='JPL'>Jet Propulsion Laboratory</a>
+<a class='sub_logo' href='http://www.caltech.edu' title='Caltech'>California Institute of Technology</a>
+</div>
+<img alt='' class='print_only print_logo' src='./assets/logo_nasa_mission_black@2x.png'>
+</div>
+
+</div>
+</footer>
+
+</div>
+</div>
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=EYES&pua=UA-19316180-1,UA-118212757-8&sp=q&yt=true&dclink=true&exts=tif,tiff,wav" type='text/javascript'></script>
+
+
+</body>
+</html>

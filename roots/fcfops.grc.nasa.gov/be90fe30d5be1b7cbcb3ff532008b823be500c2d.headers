@@ -1,0 +1,7 @@
+GET http://fcfops.grc.nasa.gov
+
+
+< HTTP/1.1 302 Object moved
+< Location: https://fcfops.grc.nasa.gov:443/
+< Content-Length: 74
+< Content-Type: text/html

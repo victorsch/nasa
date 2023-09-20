@@ -1,0 +1,10 @@
+GET http://smartskies.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:55:47 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://smartskies.nasa.gov/
+< Content-Length: 236

@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/indexdwt.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- End Google Tag Manager --> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<!-- Add your page's title here -->
+<title>LANCE NRT AMSR2 and LIS Data - Near Real-time - Data Products | GHRC LANCE</title>
+<meta name="description" content="NASA’s Land, Atmosphere Near real-time Capability for Earth Observing Systems (LANCE) leverages existing satellite data processing systems in order to provide data and imagery available from select EOS instruments (currently AIRS, AMSR2, ISS LIS, MISR, MLS, MODIS, MOPITT, OMI, and OMPS) within 3 hours of satellite overpass. These data meet the timely needs of applications such as numerical weather and climate prediction, forecasting and monitoring natural hazards, agriculture, air quality and disaster relief.">
+<meta name="keywords" content="near real-time, dataset, product, iss, lis, amsr2, lance">
+<!-- InstanceEndEditable -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<!-- Most recent compiled and tested CSS -->
+<link href="https://cdn.earthdata.nasa.gov/eui/1.1.4/stylesheets/application.css" rel="stylesheet" />
+
+<!-- Latest compiled JavaScript-->
+<script src="https://cdn.earthdata.nasa.gov/eui/1.1.4/js/eui.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/footer.css">
+<script type="text/javascript">
+    setTimeout(function(){var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0013/2090.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<script type="text/javascript" src="js/banner_widget.js"></script>
+
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="css/eui-icon-library.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/banner_widget-3.css">
+<link rel="stylesheet" type="text/css" href="css/eui-icon-library_002.css">
+
+<link rel="stylesheet" type="text/css" href="css/lightning_custom.css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<!-- Add a metrics script -->
+
+<!-- Add the Earthdata Status App notifications -->
+
+<!-- Print the NASA tophat -->
+
+<!-- Render any relevant Earthdata Status App notifications in this div -->
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+	<div id="earthdata-notification-banner"></div>
+
+<!-- Per https://getbootstrap.com/components/#navbar but with our own #logo-bar addition-->
+	<section id="logo-bar">
+    	<div class="container">
+        	<div class="row">
+            <!-- logos first -->
+	            <div class="col-md-5 col-sm-5">
+    	            <img src="images/logos/nasa_blue_logo.png" alt="NASA"><a href="https://ghrc.nsstc.nasa.gov/home/" title="GHRC Home page"><img src="images/logos/ghrc_blue_logo.png" alt="GHRC Home page"></a>
+	            </div><!-- /.col-md-5 .col-sm-5 -->
+
+	        </div><!-- /.row -->
+    	</div><!--/.container -->
+	</section>
+
+
+	<nav class="navbar navbar-default">
+    	<div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
+                	<span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+    	            <span class="icon-bar"></span>
+        	        <span class="icon-bar"></span>
+            	</button>
+	            <a href="index.html" title="GHRC Home page"><img src="images/logos/lance_logo.png" alt="LANCE Home page" style="float:left; height:150px"><span class="Title navbar-brand">LANCE NRT AMSR2 and ISS LIS Data<br>
+	            <span class="rbibo">Land, Atmosphere Near real-time Capability for EOS</span></span></a>
+	        </div> <!--/.navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+    	    <div class="collapse navbar-collapse" id="navbar-links">
+        	    <ul class="nav navbar-nav navbar-right">
+                
+                <!--/ home button --> 
+<ul class="nav navbar-nav">                
+					<li><a href="index.html"><img src="images/menu/menu-icon-home.png" align="middle"><br >Home</a></li> 
+                   </ul> <!--/ end home button -->
+                 
+                 <!--/ begin data menu --> 
+<ul class="nav navbar-nav">                        
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/menu/menu-icon-dataset.png" align="middle"><br >Get Data</a>            
+                        <ul class="dropdown-menu">
+                        	<li role="separator" class="divider"></li>
+                           <li class="custom-container"><strong>NEAR REAL-TIME</strong></li>
+							<li role="separator" class="divider"></li>
+                            
+							<li><a class="pull-left" href="amsr2/data.html">LANCE AMSR2</a></li>
+                            <li><a class="pull-left" href="iss-lis/data.html">LANCE ISS LIS</a></li><br />
+							<li>&nbsp;</li>
+						  <li>&nbsp;</li>
+                            <li role="separator" class="divider"></li>
+                            <li class="custom-container"><strong>STANDARD</strong></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="pull-left" href="https://nsidc.org/data/amsre_amsr2/data_summaries" target="_blank">AMSR at NSIDC</a></li>
+                            <li><a class="pull-left" href="https://ghrc.nsstc.nasa.gov/lightning/data/data_lis_iss.html" target="_blank">LIS at GHRC</a></li>
+							<br />
+                        </ul>
+                    </li>
+                    </ul><!--/ end data menu -->
+                    
+                     <!--/ begin resources menu -->
+<ul class="nav navbar-nav">                     
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/menu/menu-icon-resources.png" align="middle"><br >Resources</a>            
+						<ul class="dropdown-menu">
+	                        <li><a class="pull-left" href="recipe_ma.html">Data Recipes & Articles</a></li>
+							
+                            <li>&nbsp;</li>
+						  <li>&nbsp;</li>
+                            <li role="separator" class="divider"></li>
+                        	<li class="custom-container"><strong>AMSR2</strong></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="pull-left" href="amsr2/announcements.html">AMSR2 Announcements</a></li>
+                            <li><a class="pull-left" href="amsr2/anomalies.html">AMSR2 Anomalies</a></li>
+							<li><a class="pull-left" href="amsr2/latency.html">AMSR2 Latency Charts</a></li>
+                            <br />
+                            <br />
+						    
+                            <li>&nbsp;</li>
+						  <li>&nbsp;</li>            
+                            <li role="separator" class="divider"></li>                        	
+                            <li class="custom-container"><strong>ISS LIS</strong></li>
+							<li role="separator" class="divider"></li>
+							<li><a class="pull-left" href="iss-lis/announcements.html">ISS LIS Announcements</a></li>
+                            <li><a class="pull-left" href="iss-lis/anomalies.html">ISS LIS Anomalies</a></li>
+							<li><a class="pull-left" href="iss-lis/latency.html">ISS LIS Latency Charts</a></li>
+                            <br />
+                            <br />
+                            
+                            <li>&nbsp;</li>
+						  <li>&nbsp;</li>
+                            <li role="separator" class="divider"></li>                        	
+                            <li class="custom-container"><strong>NASA Sites</strong></li>
+							<li role="separator" class="divider"></li>
+                            <li><a class="pull-left" href="https://earthdata.nasa.gov/earth-observation-data/near-real-time" target="_blank">NASA LANCE</a></li>
+                            <li><a class="pull-left" href="https://worldview.earthdata.nasa.gov/?p=geographic&l=MODIS_Terra_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor,GCOM_W1_Orbit_Asc(hidden),GCOM_W1_Orbit_Dsc(hidden),AMSR2_Cloud_Liquid_Water_Day,AMSR2_Cloud_Liquid_Water_Night,AMSR2_Columnar_Water_Vapor_Day,AMSR2_Columnar_Water_Vapor_Night,AMSR2_Surface_Precipitation_Rate_Day,AMSR2_Surface_Precipitation_Rate_Night,AMSR2_Surface_Rain_Rate_Day,AMSR2_Surface_Rain_Rate_Night,AMSR2_Wind_Speed_Day,AMSR2_Wind_Speed_Night,Reference_Labels(hidden),Reference_Features(hidden),Coastlines&t=2018-06-20-T00%3A00%3A00Z&z=3&v=-278.31168599469027,-159.22460348663793,261.68831400530973,133.83789651336207" target="_blank">NASA Worldview</a></li>
+                        </ul>
+					</li>
+                    </ul><!--/ end resources menu -->
+
+<!--/ begin about menu -->
+<ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/menu/menu-icon-about.png" align="middle"><br >About<br /> LANCE</a>            
+                        <ul class="dropdown-menu">
+                        	<li><a class="pull-left" href="amsr2/index.html">About LANCE AMSR2</a></li>
+                            <li><a class="pull-left" href="iss-lis/index.html">About LANCE ISS LIS</a></li>
+							<li><a class="pull-left" href="https://earthdata.nasa.gov/earth-observation-data/near-real-time" target="_blank">NASA LANCE</a></li>
+                        </ul>
+                    </li>
+                    </ul><!--/ end about menu -->
+                    
+                    <!--/ contact us button -->
+<ul class="nav navbar-nav">
+                    <li><a href="https://ghrc.nsstc.nasa.gov/home/contact-us" target="_blank"><img src="images/menu/menu-icon-contact.png" align="middle"><br >Contact Us</a></li>
+                    </ul><!--/ contact us button -->
+                    
+				</ul><!--/.nav navbar-nav navbar-right -->
+			</div><!-- /.navbar-collapse -->
+		</div>/*/**/*/<!-- /.container-fluid -->
+	</nav>
+
+ 
+ 
+    <!-- Header Carousel (Only in index page)-->
+	<header id="myCarousel" class="carousel slide">
+		<!-- Indicators -->
+		<!--<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>-->
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="fill">
+                <div class="text-center">
+					<img src="images/banners/hurricane_michael.jpg" alt="GCOM-W1 AMSR2 L3 Snow Water Equivalent" style="height: 215px; position: relative;">
+				<!--</div>
+			</div>
+			<div class="item">
+				<div class="fill">
+					<img src="images/banners/banner_space.jpg" alt="lightning" style="width: 100%; height: 215px; position: relative; ">
+				</div>
+			</div>
+			<div class="item">
+				<div class="fill">
+					<img src="images/banners/banner_research.jpg" alt="lightning" style="width: 100%; height: 215px; position: relative; ">-->
+                    </div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<!--<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>-->
+	</header>
+
+	<div class="custom-container">
+		<div class="container lightning-text">
+		<div class="text-center"><!-- InstanceBeginEditable name="EditHeaderText" -->Hurricane Michael is clearly visible in Worldview using LANCE NRT AMSR2 data.<br />
+		  Please visit <a class="ext" href="https://worldview.earthdata.nasa.gov/?p=geographic&amp;l=VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor,MODIS_Terra_CorrectedReflectance_TrueColor(hidden),AMSR2_Wind_Speed_Day,AMSR2_Surface_Precipitation_Rate_Day,AMSR2_Cloud_Liquid_Water_Day,Reference_Labels(hidden),Reference_Features(hidden),Coastlines&amp;t=2018-10-10-T00%3A00%3A00Z&amp;z=3&amp;v=-155.10902299749688,-46.546875,24.327772997496865,53.015625" target="_blank">Worldview</a>&nbsp;to follow Hurricane Michael and other storms using <a href="https://lance.nsstc.nasa.gov/amsr2/data.html">NRT AMSR2 data</a>.		<!-- InstanceEndEditable -->
+    		    </div>
+        </div>
+    </div>
+
+	<a href="https://ghrc.nsstc.nasa.gov/home/feedback/contact"><button class="btn btn-success" id="rotate" style="float:left; margin-top:100px">Feedback</button></a>
+<!-- Begin to add your page content here. Do not add a footer. We will include
+the GHRC footer below, after your content. -->
+
+<div class="container"  style="margin: 0 auto !important;">
+		<div class="sub-pages"><a href="index.html">Home</a>&nbsp;&nbsp;<span class="fa fa-chevron-circle-right"></span>&nbsp;&nbsp;
+		<!-- InstanceBeginEditable name="EditBreadcrumb1" --><!-- InstanceEndEditable -->
+        </div>
+
+<!-- InstanceBeginEditable name="Content" -->
+
+<div class="container">
+        <!-- Marketing Icons Section -->
+        <div class="row_custom">
+                <div class="col-sm-4">
+                	<!--<div class="row">
+                <div class="column one-third">
+                 <div class="header-buttons">-->
+            <a href="amsr2/data.html">
+            <button class="btn btn-primary btn-success btn-success-cus">GET <strong>AMSR2 <br />
+            NRT</strong> DATA</button></a>
+        <!--</div>
+        <div class="header-buttons">-->
+            <a href="iss-lis/data.html"><br />
+            <br />
+            <button class="btn btn-primary btn-success btn-success-cus">GET <strong>ISS LIS <br />
+          NRT</strong> DATA</button></a>
+            <p>
+              <!--</div>
+        <div class="image-divider">
+              <img src="images/logos/lance_logo.png" alt="image mission" class="image-in-divider" />-->
+              <!--</div>-->
+              <!-- </div>  /.row -->
+            </p>
+            <p>&nbsp;</p>
+                </div> <!--/.col-->
+                <div class="col-xs-8">
+              <!--<div class="image-divider">-->
+                        <!--<h2>LAND, ATMOSPHERE NEAR REAL-TIME CAPABILITY FOR EOS (LANCE)</h2>
+                        <p>
+                            NASA’s Land, Atmosphere Near real-time Capability for Earth Observing Systems (LANCE) leverages existing satellite data processing systems in order to provide data and imagery available from select EOS instruments (currently AIRS, AMSR2, MLS, MODIS and OMI) within 3 hours of satellite overpass. These data meet the timely needs of applications such as numerical weather and climate prediction, forecasting and monitoring natural hazards, agriculture, air quality and disaster relief.</p>
+                        <p>&nbsp;</p>
+       <div class="row">
+        <div class="col-sm-4">
+        <button type="button" class="eui-btn">
+          <p>
+          <a href="amsr2/index.html">More About
+          <br />
+            AMSR2 NRT Data</a></p></button>
+            </div>
+        
+        <div class="col-sm-4">
+        <button type="button" class="eui-btn">
+            <p>
+            <a href="iss-lis/index.html">More About
+            <br />
+            ISS LIS NRT Data</a>
+            </p>
+            </button>
+         </div>
+        
+        <div class="col-sm-4">
+        <button type="button" class="eui-btn">
+            <p>
+            <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time" target="_blank">Visit
+            <br />
+            NASA LANCE</a>
+            </p>
+            </button>
+         </div>
+      </div>
+            </div> <!--/.col-->
+        </div> <!-- /.row -->
+    </div>  <!-- /.container -->
+    
+    <div class="container">
+        <!--<div class="container">-->
+        <div class="row">
+            <!--<div class="container-div vertical-divider">-->                 
+                    <h1> LANCE NRT AMSR2 and LIS Data</h1>
+                    <p><a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time" target="_blank">NASA’s Land, Atmosphere Near real-time Capability for Earth Observing Systems (LANCE)</a> leverages existing satellite data processing systems in order to provide data and imagery available from select EOS instruments (currently AIRS, AMSR2, ISS LIS, MISR, MLS, MODIS, MOPITT, OMI,  OMPS, and VIIRS) within 3 hours of satellite overpass. These data meet the timely needs of applications such as numerical weather and climate prediction, forecasting and monitoring natural hazards, agriculture, air quality and disaster relief.</p>
+                    </div>
+                    </div>
+                    <hr />
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-8">
+                    <h2>GCOM-W1 AMSR2</h2>
+                    <a href="http://suzaku.eorc.jaxa.jp/GCOM_W/w_gcomw/whats_w.html" target="_blank"><img src="images/logos/gcom-w1_logo.png" alt="GCOM-W1 logo" width="109" height="100" hspace="20" align="right" /></a>
+                    <p>The LANCE AMSR element at the AMSR SIPS generates Level-2B swath and incremental Level-3 daily products from the AMSR2 instrument on <a href="http://suzaku.eorc.jaxa.jp/GCOM_W/w_amsr2/whats_amsr2.html" target="_blank">JAXA's GCOM-W1</a> satellite.  The AMSR2 instrument was designed to detect water in all its state phases in the environment and monitor the water processes that exert a strong influence on climate and weather.   NRT AMSR2 products are generally available 90 minutes after observation. AMSR-2 on JAXA's GCOM-W1 spacecraft, launched  May 18, 2012.</p>
+                    <br />
+                    <a href="amsr2/index.html"><button type="button" class="eui-btn">More About GCOM-W1 AMSR2</button></a>
+                      </div>
+                      <div class="col-sm-4">
+                    <div class="image-divider"> <a href="amsr2/data.html"><img src="images/front/AU_LAND_NRT2.jpg" alt="GCOM-W1 AMSR2 Unified Level-2B Half-Orbit 25 km EASE-Grid Surface Soil Moisture product" class="image-in-divider" /></a>
+                      <p>GCOM-W1 AMSR2 Unified Level-2B Half-Orbit 25 km EASE-Grid Surface Soil Moisture product</p>
+                    </div>
+                    </div>
+                    </div>
+                    <hr />
+				<div class="row">
+                    <div class="col-sm-8">
+                <h2>ISS LIS</h2>
+                <a href="https://ghrc.nsstc.nasa.gov/lightning/" target="_blank"><img src="images/logos/iss-lis_logo.png" alt="ISS LIS logo" width="100" height="100" hspace="20" align="right" /></a> 
+                <p>The LANCE ISS LIS element at the GHRC DAAC creates NRT lightning data products from the Lightning Imaging Sensor (LIS) on the International Space Station (ISS).  NRT ISS LIS data are used for storm warnings, oceanic aviation safety and international Significant Meteorological (SIGMET) advisories, long-range lightning system validation, hurricane rapid intensification evaluations, and support of Fire Weather in the data sparse regions of the western United States.   These data are available within two minutes of observation.</p>
+                  <br />
+                <a href="iss-lis/index.html"><button type="button" class="eui-btn">More About ISS LIS</button></a>
+                </div>                 
+                <div class="col-sm-4">
+                    <div class="image-divider"> <a href="iss-lis/data.html" target="_blank"><img src="images/front/lis_12hr.jpg" alt="12-hour ISS LIS NRT browse image" class="image-in-divider" /></a>
+                        <p><strong>ISS LIS 12-hour Browse Image</strong><br />
+                        Please Note: LIS 12-hour data plots are created using near real-time data. A section of missing data due to communications drop-outs is visible in these plots extending from roughly 60 to 90 degrees E longitude.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Section -->
+        </div>
+    </div>
+    </div>
+    <!--<div class="row_custom front-imagebg">
+        <div class="header-buttons">
+            <a href="https://ghrc.nsstc.nasa.gov/hydro/?collection[0]=Lightning%20Products"><button class="btn btn-primary btn-success btn-success-cus">FIND LIGHTNING DATA</button></a>
+        </div>
+    </div>-->
+
+<!-- InstanceEndEditable -->
+<hr />
+<!-- Print the user registration form link above the footer. -->
+    <div class="container-fluid" id="front-under" style="float: right">
+        <!--<row class="col-lg-3 col-md-3 col-sm-6 col-xs-12 col-lg-offset-6 col-md-offset-6 col-sm-offset-6">-->
+        	<p>Have you used our data? <a href="https://signup.e2ma.net/signup/1859843/1805924/" onclick="window.open('https://signup.e2ma.net/signup/1859843/1805924/', 'signup', 'menubar=no, location=no, toolbar=no, scrollbars=yes, height=500'); return false;">Register for updates</a></p>
+        <!--</row>-->
+    </div>
+
+<!-- Print the footer. -->
+	<div id="footer">
+    	<div class="container-fluid">
+        	<div class="row row-center" id="social-footer-icons">
+            	<a href="https://twitter.com/ghrcdaac" alt="GHRC twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+	            <a href="https://www.facebook.com/ghrc.nsstc/" alt="GHRC facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        	    <a href="https://www.youtube.com/channel/UCl7i78WYVFJWsqmHon3Ch9g" alt="GHRC YouTube" target="_blank"><i class="fa fa-youtube"></i></a>
+            	<a href="https://www.flickr.com/photos/ghrcdaac/sets" alt="GHRC Flickr" target="_blank"><i class="fa fa-flickr"></i></a>
+	            <a href="https://ghrc.nsstc.nasa.gov/home/ghrc-news.xml" alt="GHRC RSS" target="_self"><i class="fa fa-rss"></i></a>
+    	    </div><!--/.row -->
+			<div class="row">
+    	    	<div class="col-md-2 col-sm-6 footer-link-col col-md-offset-1">
+        	    	<p class="link-list-heading">Get Data - NRT</p>
+                    <a href="amsr2/data.html">LANCE AMSR2</a>
+                    <a href="iss-lis/data.html">LANCE ISS LIS</a>
+	            	
+        		</div>
+		        <div class="col-md-2 col-sm-6 footer-link-col">
+    		        <p class="link-list-heading">Get Data - Standard</p>
+                    <a href="http://nsidc.org/data/AU_LAND" target="_blank">AMSR at NSIDC</a>
+                    <a href="http://dx.doi.org/10.5067/LIS/ISSLIS/DATA204" target="_blank">LIS at GHRC</a>
+                    
+                    <!--<a href="data/data_otd.html">TRMM OTD Data</a>
+                    <a href="data/data_lis_vhr-climatology.html">TRMM LIS Very High Res Climatology Data</a>
+                    <a href="data/data_lis_otd-climatology.html">TRMM LIS/OTD Climatology Data</a>
+                    <a href="https://lightning.nsstc.nasa.gov/lma/dclma" target="_blank">DC LMA Browse</a>
+                    <a href="https://lightning.nsstc.nasa.gov/lma/nalma/overview/" target="_blank">North Alabama LMA Browse</a>
+                    <a href="overview_glm.html">Geostationary Lightning Mapper</a>
+                    <a href="data/data_ksc_fm.html">KSC Field Mill Data</a>
+                    <a href="data/data_ldar.html">LDAR Data from KSC</a>
+                    <a href="data/data_trmm-lba.html">TRMM LBA Data</a>-->
+	    	    </div>
+    	    	<div class="col-md-2 col-sm-6 footer-link-col">
+        	    	<p class="link-list-heading">Lance Resources</p>
+					<a href="amsr2/anomalies.html">AMSR2 Anomalies</a>
+					<a href="iss-lis/anomalies.html">ISS LIS Anomalies</a>
+					<a href="amsr2/latency.html">AMSR2 Latency</a>
+					<a href="iss-lis/latency.html">ISS LIS Latency</a>
+                    <a href="amsr2/announcements.html">AMSR2 Announcements</a>
+                    <a href="iss-lis/announcements.html">ISS LIS Announcements</a>
+                    <a href="recipe_ma.html">Data Recipes & Micro Articles</a>
+                    <!--<a href="amsr2/documentation.html">AMSR2 Documentation</a>
+                    <a href="iss-lis/documentation.html">ISS LIS Documentation</a>-->
+    	    	</div>
+	        	<div class="col-md-2 col-sm-6 footer-link-col">
+    	        	<p class="link-list-heading">About LANCE</p>
+					<a href="amsr2/index.html">About LANCE AMSR2</a>
+					<a href="iss-lis/index.html">About LANCE ISS LIS</a>
+                    <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time" target="_blank">NASA LANCE</a>
+		        </div>
+    		    <div class="col-md-2 col-sm-6 footer-link-col">
+        		    <p class="link-list-heading">GHRC DAAC</p>
+					<a href="https://ghrc.nsstc.nasa.gov/home/access-data" target="_blank">Find Data</a>
+					<a href="https://ghrc.nsstc.nasa.gov/home/measurements" target="_blank">Measurements</a>
+					<a href="https://ghrc.nsstc.nasa.gov/home/field-campaigns" target="_blank">Field Campaigns</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/content/projects" target="_blank">Projects</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/content/resources" target="_blank">Resources</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/micro-articles" target="_blank">Micro Articles</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/data-recipes" target="_blank">Data Recipes</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/ghrc-multimedia" target="_blank">Multimedia</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/about-ghrc" target="_blank">About GHRC</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/about-ghrc/citing-ghrc-daac-data" target="_blank">Cite</a>
+                    <a href="https://ghrc.nsstc.nasa.gov/home/contact-us" target="_blank">Contact</a>
+    	    	</div>
+			</div><!--/.row -->
+            <br />
+			
+            <div class="row row-center" style="margin: 0 auto; display: table;">
+            	<a href="https://ghrc.nsstc.nasa.gov/home/" target="_blank"><img src="images/logos/ghrc_blue_logo.png" alt="GHRC" style="margin-left: 50px; height:50px; width: 112px" /></a>
+                <a href="https://www.itsc.uah.edu/main/" target="_blank"><img src="images/logos/itsc_logo_x.png" alt="ITSC" style="margin-left: 50px; height:50px; width:129px"></a>
+                <a href="http://www.uah.edu/" target="_blank"><img src="images/logos/uah_logo_x.png" alt="UAH" style="margin-left: 50px; height:75px; width:141px"></a>
+                
+                <a href="http://wokinfo.com/products_tools/multidisciplinary/dci/" target="_blank"><img src="images/logos/DCI_button.png" alt="The GHRC repository is included in the Thomson Reuters Data Citation Index" style="margin-left: 50px; width:75px; height:75px"></a>
+                
+                <a href="https://www.icsu-wds.org/" target="_blank"><img src="images/logos/icsu-wds-logo.png" alt="The GHRC is a member of the ICSU World Data System" style="margin-left: 50px; height:75px; width:135px"></a>
+
+            </div><!--/.row -->
+            
+            <div class="row row-center">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+                    <hr>
+                </div>
+            </div><!--/.row -->
+            <div class="row row-center">
+                <p class="text-center" id="footer-tagline">
+                    <span id="rahul-span">NASA Official: <a href="mailto:manil.maskey@nasa.gov">Manil Maskey</a></span>
+                    <a class="ext" href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Web Privacy Policy</a>
+                    <a class="ext" href="http://science.nasa.gov/earth-science/earth-science-data/data-information-policy" target="_blank">Data &amp; Information Policy</a>
+                    <a class="ext" href="http://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">Communications Policy</a>
+                    <a class="ext" href="http://www.nasa.gov/FOIA/index.html" target="_blank">Freedom of Information Act</a>
+                    <a class="ext" href="http://www.usa.gov/" target="_blank">USA.gov</a>
+                </p>
+            </div><!--/.row -->
+	  	</div><!--/.container -->
+	</div><!--/#footer -->
+<!-- InstanceBeginEditable name="FooterJavascripts" --><!-- InstanceEndEditable -->
+
+<!-- Add and initialize the Earthdata Feedback notification -->
+<script type="text/javascript" src="https://fbm.earthdata.nasa.gov/for/GHRC/feedback.js"></script>
+<script type="text/javascript">
+  feedback.init({showIcon: false});
+</script>
+
+<!-- Print the NASA tophat -->
+  <script type="text/javascript" src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js" id="earthdata-tophat-script"
+        data-show-fbm="true"
+        data-show-status="true"
+        data-status-api-url="https://status.earthdata.nasa.gov/api/v1/notifications"
+        data-status-polling-interval="10"
+        data-current-daac="GHRC">
+        </script>
+        
+</body><!-- InstanceEnd --></html>

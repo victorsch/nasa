@@ -1,0 +1,20 @@
+GET https://techtran.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< X-Amz-Cf-Pop: JFK50-P3
+< X-Amz-Cf-Id: sCG3FAUVetOfm9ut7dO2hgy2qq1w2VgSGwztRSM-aNhfZcX0rzHvfA==
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:00:12 GMT
+< Server: Apache
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 0667564db9d2ec4ceec667e46b842a9c.cloudfront.net (CloudFront)
+< Access-Control-Allow-Origin: https://technology.msfc.nasa.gov
+< Last-Modified: Fri, 09 Dec 2022 02:29:04 GMT
+< X-Cache: Miss from cloudfront
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 7054
+< Set-Cookie: AWSALB=EYglQHtuUTlEHCBcNbJYg9FFJ5MK0jt+oSZIlJSY+Ilto8C6dGhkyp67nn++hU7ZnFi0Gi2qbC5RCrng8qR5kKijFjXTKPYIln/gwzNZ9LyQg+qg2DLUppTbrdXF; Expires=Tue, 26 Sep 2023 06:00:12 GMT; Path=/
+< Set-Cookie: AWSALBCORS=EYglQHtuUTlEHCBcNbJYg9FFJ5MK0jt+oSZIlJSY+Ilto8C6dGhkyp67nn++hU7ZnFi0Gi2qbC5RCrng8qR5kKijFjXTKPYIln/gwzNZ9LyQg+qg2DLUppTbrdXF; Expires=Tue, 26 Sep 2023 06:00:12 GMT; Path=/; SameSite=None; Secure

@@ -1,0 +1,22 @@
+GET https://oltaris.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:53:57 GMT
+< Server: Apache
+< X-Runtime: 0.015247
+< X-Content-Type-Options: nosniff
+< Status: 200 OK
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 0
+< X-Request-Id: f22b80d0-4ca2-4cc1-8c50-2e42b775dd26
+< Link: </assets/signin_page-fb3487548e19d9d985d68c3123b5cf8d161a2195a0091d74603636cb37211ccc.css>; rel=preload; as=style; nopush
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< X-Permitted-Cross-Domain-Policies: none
+< X-Download-Options: noopen
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"c7792521c134faee9add1fe9a7231dd4"
+< Cache-Control: max-age=0, private, must-revalidate
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Powered-By: Phusion Passenger 6.0.2
+< Set-Cookie: _oltaris_session=Z%2BWOEd%2Fw%2FTYRj1Ka7KojrN8ixruqI6rEsnfFFNkmqQ1OU66dfBuOH30Jn%2B02%2F%2FyAT4mYi9eO6f%2F%2FhFo9aNgGfJi4HhzX1iPAbJ%2BasMM3boynxC%2FoRIbRTHcaktEdphGBUQuCod%2Fu%2FY1teIcsuGUC1kv9sUuHiDLbAqwl0FkmNfm89VTGKb3mLJ5nfVpfmFxcuOvEaL0PQAPXA7dTnyHJYw0iK2CFtpSRrZFMXHt1YhJKT%2B6SZo%2FlOdweDwn1qjhuL0xHRZxliyWmxdUudVeFE04g52h0119p--oPkMhcBWbPE4%2Bocr--6GTsIFOcVPyhfXAcrFUzzQ%3D%3D; path=/; HttpOnly; SameSite=Lax

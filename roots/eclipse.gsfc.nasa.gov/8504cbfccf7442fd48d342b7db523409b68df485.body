@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>NASA Eclipse Web Site</title>
+   <script language="JavaScript" type="text/javascript" src="style/header.js"></script>
+   <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+   <meta http-equiv="Content-Language" content="en-us" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta name="orgcode" content="670" />
+   <meta name="rno" content="c.a.young" />
+   <meta name="content-owner" content="robert.m.candey" />
+   <meta name="webmaster" content="robert.m.candey" />
+
+   <meta name="keywords" content="eclipse, ephemeris, lunar, moon, solar, sun, total, transit" />
+   <meta name="description" content="This is NASA's official eclipse Web site. 
+   It contains maps and tables
+  for 5,000 years of eclipses and includes information on eclipse
+  photography, observing tips and eye safety." />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body class="lnfiveon">
+<script language="JavaScript" type="text/javascript" src="style/highlighter.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="style/navbar.js"></script>
+<noscript>
+<h1><a href="http://www.nasa.gov/">NASA (National Aeronautics and Space Administration)</a></h1>
+<ul>
+   <li id="one"><a href="eclipse.html"><span>Home</span></a></li>
+   <li id="two"><a href="solar.html"><span>Solar Eclipses</span></a></li>
+   <li id="three"><a href="lunar.html"><span>Lunar Eclipses</span></a></li>
+   <li id="four"><a href="transit/transit.html"><span>Planetary Transits</span></a></li>
+<!--    <li id="five"><a href="TYPE/TYPE.html"><span>12-Year Ephemeris</span></a></li>
+   <li id="six"><a href="phase/phase2001gmt.html"><span>Moon Phases</span></a></li>
+-->
+</ul>
+<h1><a href="eclipse.html">Eclipse Web Site</a></h1>
+<h2>by Fred Espenak, GSFC Planetary Systems Laboratory</h2>
+</noscript>
+
+<div id="contentwrapper">
+<div id="singlecolumn">
+
+
+<h1 class="box">NASA Goddard Space Flight Center Eclipse Web Site</h1>
+<h2 class="box"><strong>eclipse.gsfc.nasa.gov/eclipse.html</strong></h2>
+<h2 class="box"><strong>More on Eclipses at <a href="https://www.nasa.gov/eclipse">www.nasa.gov/eclipse</a></strong></h2>
+
+<!-- ++++++++++++++++++++ -->
+<!--
+<table class="datatab" cellspacing="0" align="center" width="100%">
+<thead>
+<tr class="theading">
+<td colspan="4">Eclipses of 2016</td></tr>
+</thead>
+<tbody>
+<tr>
+<td align ="center">
+<a href="SEplot/SEplot2001/SE2016Mar09T.GIF" align="center">
+Total Solar Eclipse<br/>  2016 Mar 09<br/>
+<img src="5MCSEmap/2001-2100/2016-03-09.gif" width="150" border="0"></a>
+</td>
+<td align ="center">
+<a href="LEplot/LEplot2001/LE2016Mar23N.pdf" align="center">
+Penumbral Lunar Eclipse<br/>  2016 Mar 23<br/>
+<img src="5MCLEmap/2001-2100/LE2016-03-23N.gif" width="150" border="0"></a>
+</td>
+<td align ="center">
+<a href="SEplot/SEplot2001/SE2016Sep01A.GIF" align="center">
+Annular Solar Eclipse<br/>  2016 Sep 01<br/>
+<img src="5MCSEmap/2001-2100/2016-09-01.gif" width="150" border="0"></a>
+</td>
+<td align ="center">
+<a href="LEplot/LEplot2001/LE2016Sep16N.pdf" align="center">
+Penumbral Lunar Eclipse<br/>  2016 Sep 16<br/>
+<img src="5MCLEmap/2001-2100/LE2016-09-16N.gif" width="150" border="0"></a>
+</td>
+</tr></tbody>
+</table>
+-->
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!--
+    <hr class="blue" />
+
+<p class="quote">
+View Sky Calendar for: <a href="SKYCAL/SKYCAL.html?month">Current Month</a> 
+</p>
+<p class="quote">
+View Sky Calendar for Year: |  
+<a href="SKYCAL/SKYCAL.html?cal=2010">2010</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2011">2011</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2012">2012</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2013">2013</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2014">2014</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2015">2015</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2016">2016</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2017">2017</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2018">2018</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2019">2019</a> | 
+<a href="SKYCAL/SKYCAL.html?cal=2020">2020</a> | 
+</p>
+-->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<hr class="blue" />
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!--
+<center><p align="center" id="TLE2018">
+<br/>
+<a href="https://eclipse.gsfc.nasa.gov/LEplot/LEplot2001/LE2018Jul27T.pdf" style="color:red; font-size:150%;">Lunar Eclipse 2018 July 27</a><br/><br/>
+The lunar eclipse of 2018 July 27 is visible in regions of South America, Europe, Africa, Asia, and Australia. 
+<br/>
+<a href="https://eclipse.gsfc.nasa.gov/LEplot/LEplot2001/LE2018Jul27T.pdf">Figure showing the phases of the eclipse and where it will be visible</a>
+<br/>
+<br/>
+<table class="datatab" cellspacing="0" align="center" width="100%">
+<thead>
+<tr>
+<!-- <tr class="theading">
+ -->
+<!--
+<td colspan="3">Timing for 2018 July 27 Lunar Eclipse</td></tr>
+</thead>
+<tbody>
+<tr>
+<td align ="center"></td>
+<td align ="center">Time in UTC</td>
+<td align ="center">Time in EDT</td>
+</tr>
+<tr>
+<td align ="center">Penumbral Eclipse begins</td>
+<td align ="center">2018 July 27 at 17:14:47</td>
+<td align ="center">2018 July 27 at 1:14:47 pm</td>
+</tr>
+<tr>
+<td align ="center">Partial Eclipse begins</td>
+<td align ="center">2018 July 27 at 18:24:27</td>
+<td align ="center">2018 July 27 at 2:24:27 pm</td>
+</tr>
+<tr>
+<td align ="center">Full Eclipse begins</td>
+<td align ="center">2018 July 27 at 19:30:15</td>
+<td align ="center">2018 July 27 at 3:30:15 pm</td>
+</tr>
+<tr>
+<td align ="center">Maximum Eclipse</td>
+<td align ="center">2018 July 27 at 20:21:44</td>
+<td align ="center">2018 July 27 at 4:21:44 pm</td>
+</tr>
+<tr>
+<td align ="center">Full Eclipse ends</td>
+<td align ="center">2018 July 27 at 21:13:11</td>
+<td align ="center">2018 July 27 at 5:13:11 pm </td>
+</tr>
+<tr>
+<td align ="center">Partial Eclipse ends</td>
+<td align ="center">2018 July 27 at 22:19:00</td>  
+<td align ="center">2018 July 27 at 6:19:00 pm</td>
+</tr>
+<tr>
+<td align ="center">Penumbral Eclipse ends</td>
+<td align ="center">2018 July 27 at 23:28:38</td>
+<td align ="center">2018 July 27 at 7:28:38 pm</td>
+</tr>
+</tbody>
+</table>
+
+<br/>The magnitude of the eclipse is 1.609.
+<br/>The penumbral magnitude of the eclipse is 2.679.
+<br/>The total duration of the eclipse is 6 hours, 14 minutes.
+<br/>The total duration of the partial phases is 2 hours, 12 minutes.
+<br/>The duration of the full eclipse is 1 hour, 43 minutes.
+<br/>
+
+
+</p></center>
+-->
+<center><p align="center" style="color:red; font-size: 200%;"><br/>This website is available as a resource for eclipse and transit records and information, but will not be updated. For the latest on future eclipses from NASA, please visit <a href="https://solarsystem.nasa.gov/eclipses/" style="color:red; font-size: 100%;">https://solarsystem.nasa.gov/eclipses/</a></p></center>
+
+
+<hr class="blue" />
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<center><p align="center">
+<br/>     
+<a href="/SEplot/SEplot2001/SE2020Dec14T.GIF"><img src="/SEanimate/SEanimate2001/SE2020Dec14T.GIF"></a>
+<br/>
+<a href="/SEgoogle/SEgoogle2001/SE2020Dec14Tgoogle.html" style="color:red; font-size:150%;">2020 December 14 Total Solar Eclipse</a><br/>
+<a href="https://www.nasa.gov/eclipse/2020-eclipse-in-south-america" style="color:red; font-size:150%;">NASA main page for 2020 December 14 Total Solar Eclipse</a><br/>
+<a href="https://www.nasa.gov/sites/default/files/atoms/files/2020_eclipse_factsheet_english.pdf">2020 December 14 Solar Eclipse Flyer</a><br/>
+<a href="https://www.nasa.gov/sites/default/files/atoms/files/2020_eclipse_fact_sheet_spanish.pdf">2020 Diciembre 14 Eclipse Solar en Espanol</a><br/>
+</p></center>
+<br/><br/>
+<center><p align="center" style="color:red; font-size:150%;"><br/>Google Maps are not working at present; we are working on a replacement.<br/><br/></p></center>
+<!--
+<center><p align="center" id="TSE2017">
+<br/>
+<a href="http://eclipse2017.nasa.gov/" style="color:red; font-size:150%;">Main NASA site for 2017 Aug 17 eclipse</a><br/><br/>
+</p></center>
+-->
+
+<hr class="blue" />
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<h6>Eclipses of the Sun</h6>
+     
+<ul class="emphlist">
+   <li><a class="hlink" href="solar.html">Solar Eclipse</a> 
+- main directory for NASA's Solar Eclipse Page 
+(some popular links below)</li>
+   <p>
+   <li><ul>
+      <!-- <li><a href="SEmono/ASE2012/ASE2012.html">Annular Solar Eclipse of 2012 May 20</a></li> -->
+      <!-- <li><a href="SEmono/TSE2012/TSE2012.html">Total Solar Eclipse of 2012 Nov 13</a></li> -->
+      <li></li>
+      <p>
+      <li>Eclipses During:
+      <ul>
+         <li> |
+          <a href="OH/OH2001.html">2001</a> |
+          <a href="OH/OH2002.html">2002</a> |
+          <a href="OH/OH2003.html">2003</a> |
+          <a href="OH/OH2004.html">2004</a> |
+          <a href="OH/OH2005.html">2005</a> |
+          <a href="OH/OH2006.html">2006</a> |
+          <a href="OH/OH2007.html">2007</a> |
+          <a href="OH/OH2008.html">2008</a> |
+          <a href="OH/OH2009.html">2009</a> |
+          <a href="OH/OH2010.html">2010</a> |
+          </li>
+          <li> |
+          <a href="OH/OH2011.html">2011</a> |
+          <a href="OH/OH2012.html">2012</a> |
+          <a href="OH/OH2013.html">2013</a> |
+          <a href="OH/OH2014.html">2014</a> |
+          <a href="OH/OH2015.html">2015</a> |
+          <a href="OH/OH2016.html">2016</a> |</li>
+          </li>
+        </ul>
+       <li>Decade Solar Eclipse Tables: 
+       <ul>
+          <li> |
+          <a href="SEdecade/SEdecade1951.html">1951 - 1960 </a> | 
+          <a href="SEdecade/SEdecade1961.html">1961 - 1970 </a> | 
+          <a href="SEdecade/SEdecade1971.html">1971 - 1980 </a> | 
+          <a href="SEdecade/SEdecade1981.html">1981 - 1990 </a> | 
+          <a href="SEdecade/SEdecade1991.html">1991 - 2000 </a> | 
+          </li>
+          <li> |
+          <a href="SEdecade/SEdecade2001.html">2001 - 2010 </a> | 
+          <a href="SEdecade/SEdecade2011.html">2011 - 2020 </a> | 
+          <a href="SEdecade/SEdecade2021.html">2021 - 2030 </a> | 
+          <a href="SEdecade/SEdecade2031.html">2031 - 2040 </a> | 
+          <a href="SEdecade/SEdecade2041.html">2041 - 2050 </a> | 
+          </li>
+        </ul>
+        <li>Solar Eclipses on Google Maps: 
+        <ul>
+          <li> |
+          <a href="SEgoogle/SEgoogle1901.html">1901 - 1920 </a> | 
+          <a href="SEgoogle/SEgoogle1921.html">1921 - 1940 </a> | 
+          <a href="SEgoogle/SEgoogle1941.html">1941 - 1960 </a> | 
+          <a href="SEgoogle/SEgoogle1961.html">1961 - 1980 </a> | 
+          <a href="SEgoogle/SEgoogle1981.html">1981 - 2000 </a> |
+          </li>
+          <li> |
+          <a href="SEgoogle/SEgoogle2001.html">2001 - 2020 </a> | 
+          <a href="SEgoogle/SEgoogle2021.html">2021 - 2040 </a> | 
+          <a href="SEgoogle/SEgoogle2041.html">2041 - 2060 </a> |
+          <a href="SEgoogle/SEgoogle2061.html">2061 - 2080 </a> |
+          <a href="SEgoogle/SEgoogle2081.html">2081 - 2100 </a> |
+         </li>
+       </ul>
+       <li>World Atlas of Solar Eclipse Maps: <a href= "SEatlas/SEatlas.html"><strong>Index Page</strong></a> 
+       <ul>
+          <li> |
+          <a href="SEatlas/SEatlas2/SEatlas1901.GIF">1901 - 1920 </a> | 
+          <a href="SEatlas/SEatlas2/SEatlas1921.GIF">1921 - 1940 </a> | 
+          <a href="SEatlas/SEatlas2/SEatlas1941.GIF">1941 - 1960 </a> | 
+          <a href="SEatlas/SEatlas2/SEatlas1961.GIF">1961 - 1980 </a> | 
+          <a href="SEatlas/SEatlas2/SEatlas1981.GIF">1981 - 2000 </a> | 
+          </li>
+          <li> |
+          <a href="SEatlas/SEatlas3/SEatlas2001.GIF">2001 - 2020 </a> | 
+          <a href="SEatlas/SEatlas3/SEatlas2021.GIF">2021 - 2040 </a> | 
+          <a href="SEatlas/SEatlas3/SEatlas2041.GIF">2041 - 2060 </a> |
+          <a href="SEatlas/SEatlas3/SEatlas2061.GIF">2061 - 2080 </a> |
+          <a href="SEatlas/SEatlas3/SEatlas2081.GIF">2081 - 2100 </a> |
+          </li>
+       </ul>
+       <li>North America Solar Eclipse Maps: 1851-2100 - <a href="SEmap/SEmapNA.html"><strong>Index Page</strong></a></li>
+       </p>
+       <p>
+       <li><a href="SEcat5/SEcatalog.html">Five Millennium Catalog of Solar Eclipses: -1999 to +3000</a> </li>
+       <li><a href="SEsearch/SEsearch.php">Five Millennium Solar Eclipse Search Engine</a>
+ - search for solar eclipses and plot on Google maps</li>
+       <li><a href="JSEX/JSEX-index.html">Javascript Solar Eclipse Explorer</a>
+ - calculate all solar eclipses visible from a city</li>
+       </p>
+   </ul></li>
+</p>
+</ul>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<hr class="blue" />
+
+<h6>Eclipses of the Moon</h6> 
+
+<ul class="emphlist">
+   <li><a class="hlink" href="lunar.html">Lunar Eclipse</a>
+ - main directory for NASA's Lunar Eclipse Page 
+(some popular links below)</li>
+   <p>
+   <li><ul>
+      <li></li>
+      <p>
+      <li>Eclipses During:
+      <ul>
+         <li> |
+          <a href="OH/OH2001.html">2001</a> |
+          <a href="OH/OH2002.html">2002</a> |
+          <a href="OH/OH2003.html">2003</a> |
+          <a href="OH/OH2004.html">2004</a> |
+          <a href="OH/OH2005.html">2005</a> |
+          <a href="OH/OH2006.html">2006</a> |
+          <a href="OH/OH2007.html">2007</a> |
+          <a href="OH/OH2008.html">2008</a> |
+          <a href="OH/OH2009.html">2009</a> |
+          <a href="OH/OH2010.html">2010</a> |
+          </li>
+          <li> |
+          <a href="OH/OH2011.html">2011</a> |
+          <a href="OH/OH2012.html">2012</a> |
+          <a href="OH/OH2013.html">2013</a> |
+          <a href="OH/OH2014.html">2014</a> |
+          <a href="OH/OH2015.html">2015</a> |
+          <a href="OH/OH2016.html">2016</a> |</li>
+          </li>
+        </ul>
+        </ul>
+   <li><ul>
+       <li>Decade Lunar Eclipse Tables: 
+       <ul>
+          <li> |
+          <a href="LEdecade/LEdecade1951.html">1951 - 1960 </a> | 
+          <a href="LEdecade/LEdecade1961.html">1961 - 1970 </a> | 
+          <a href="LEdecade/LEdecade1971.html">1971 - 1980 </a> | 
+          <a href="LEdecade/LEdecade1981.html">1981 - 1990 </a> | 
+          <a href="LEdecade/LEdecade1991.html">1991 - 2000 </a> | 
+          </li>
+          <li> |
+          <a href="LEdecade/LEdecade2001.html">2001 - 2010 </a> | 
+          <a href="LEdecade/LEdecade2011.html">2011 - 2020 </a> | 
+          <a href="LEdecade/LEdecade2021.html">2021 - 2030 </a> | 
+          <a href="LEdecade/LEdecade2031.html">2031 - 2040 </a> | 
+          <a href="LEdecade/LEdecade2041.html">2041 - 2050 </a> | 
+          </li>
+        </ul>
+       </p>
+       <p>
+     <li><a href="LEcat5/LEcatalog.html">Five Millennium Catalog of Lunar Eclipses: -1999 to +3000</a></li>
+      <li><a href="JLEX/JLEX-index.html">Javascript Lunar Eclipse Explorer</a>
+ - calculate all lunar eclipses visible from a city</li>
+   </ul></li>
+</ul>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<hr class="blue" />
+
+<h6>Planetary Transits Across the Sun</h6> 
+<ul class="emphlist">
+   <li><a class="hlink" href="transit/transit.html">Planetary Transits</a>
+ - main directory for NASA's Transits Page 
+(some popular links below)</li>
+
+   <li><ul>
+      <li><a href="OH/transit12.html">2012 Transit of Venus</a></li>
+      <li><a href="OH/transit04.html">2004 Transit of Venus</a></li>
+      <li><a href="transit/venus0412.html">2004 &amp; 2012 Transits of Venus</a></li>
+      <li><a href="OH/transit06.html">2006 Transit of Mercury</a></li>
+      <li><a href="transit/catalog/MercuryCatalog.html">Seven Century Catalog of Mercury Transits: 1600 CE to 2300 CE</a></li>
+      <li><a href="transit/catalog/VenusCatalog.html">Six Millennium Catalog of Venus
+Transits: 2000 BCE to 4000 CE</a></li>
+   </ul></li>
+</ul>
+
+<!-- <hr class="blue" />
+
+<h6>Solar System Data</h6> 
+<ul class="emphlist">
+   <li>Generate sky events calendar: 
+<a href="SKYCAL/SKYCAL.html">SKYCAL: Sky Events Calendar</a></li>
+     <li><ul><li>Sky Events Calendars: |
+        <a href="SKYCAL/SKYCAL.html?cal=2010">2010</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2011">2011</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2012">2012</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2013">2013</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2014">2014</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2015">2015</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2016">2016</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2017">2017</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2018">2018</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2019">2019</a> |
+        <a href="SKYCAL/SKYCAL.html?cal=2020">2020</a> |
+     </li></ul></li>
+
+     <li><ul><li> Sky Events Tables: | 
+        <a href="SKYCAL/SKYCAL.html?tab=2010">2010</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2011">2011</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2012">2012</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2013">2013</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2014">2014</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2015">2015</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2016">2016</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2017">2017</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2018">2018</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2019">2019</a> |
+        <a href="SKYCAL/SKYCAL.html?tab=2020">2020</a> |
+     </li></ul></li>
+  </li>
+
+   <li>Phases of the Moon from 2001 to 2025  (select Time Zone)- 
+       [<a href="phase/phase2001gmt.html">UT</a>] 
+       [<a href="phase/phase2001est.html">EST</a>] 
+       [<a href="phase/phase2001cst.html">CST</a>] 
+       [<a href="phase/phase2001mst.html">MST</a>] 
+       [<a href="phase/phase2001pst.html">PST</a>]
+   </li>
+
+   <li>Celestial coordinates for Sun, Moon and planets: <a href="TYPE/TYPE.html">
+Twelve Year Planetary Ephemeris: 1995 - 2006</a></li>
+
+</ul>
+-->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<hr class="blue" />
+<p class="quote">All eclipse calculations are by Fred
+Espenak, and he assumes full responsibility for their accuracy.
+Some of the information presented on this web site is based on data
+originally published in 
+<em><a href="SEpubs/RP1178.html">Fifty Year Canon of Solar Eclipses: 1986 - 2035</a></em>, 
+<em><a href="SEpubs/RP1216.html">Fifty Year Canon of Lunar Eclipses: 1986 - 2035</a></em>, 
+<em><a href="SEpubs/5MCSE.html">Five Millennium Canon of Solar Eclipses: -1999 to +3000 </a></em>, 
+<em><a href="SEpubs/5MKSE.html">Five Millennium Catalog of Solar Eclipses: -1999 to +3000</a></em>, 
+<em><a href="SEpubs/5MCLE.html">Five Millennium Canon of Lunar Eclipses: -1999 to +3000 </a></em>, and
+<em><a href="SEpubs/5MKLE.html">Five Millennium Catalog of Lunar Eclipses: -1999 to +3000</a></em>.
+</p>
+
+<p class="quote">Permission is freely granted to reproduce this data when accompanied by an acknowledgment:</p>
+
+<p align="center">"Eclipse Predictions by Fred Espenak, NASA/GSFC Emeritus"</p>
+
+<p class="quote">For more information, see: <a href="SEpubs/copyright.html">NASA Copyright Information</a>.</p>
+
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[<!--
+   document.write('<\/div>');
+//-->//]]>
+</script>
+</div>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="style/footer-1.js"></script>
+2016 Aug 27
+<script language="JavaScript" type="text/javascript" src="style/footer-2.js"></script>
+<noscript>
+<hr class="blue" />
+<h3 align="center">Go to <a href="solar.html">NASA Solar Eclipse
+Page</a></h3>
+<h3 align="center">Go to <a href="lunar.html">NASA Lunar Eclise Page</a></h3>
+<h3 align="center">Go to <a href="transit/transit.html">NASA Planetary Transit Page</a></h3>
+<h3 align="center">Go to <a href="resource.html">NASA Eclipse Resource Page</a></h3>
+<hr class="blue" />
+<table border="5" cellspacing="5" align="center">
+<tr>
+<th>
+<table align="center"><tr><td><img src="image/NASAlogo.tiny.gif" alt="NASA logo" /></td>
+<td><p>Website: Robert M. Candey<br/>
+Email: <a href="mailto:Robert.M.Candey@nasa.gov">Robert.M.Candey@nasa.gov</a></p>
+<p>Official NASA Representative: Alex Young<br/><a
+href="mailto:c.a.young@nasa.gov">c.a.young@nasa.gov</a></p>
+</td></tr>
+</table>
+<p style="text-align: center;">Heliospheric Physics Laboratory &#8211; Code 672<br/>
+NASA's Goddard Space Flight Center, Greenbelt, Maryland 20771, USA</p>
+</th>
+</tr>
+</table>
+</noscript>
+
+</body>
+</html>
+

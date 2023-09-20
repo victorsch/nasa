@@ -1,0 +1,8 @@
+GET http://sesi.gsfc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Content-Length: 0
+< Location: https://sesi.gsfc.nasa.gov/
+< Server: BigIP
+< Connection: close

@@ -1,0 +1,10 @@
+GET http://mediaex-server.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 160
+< Content-Type: text/html; charset=UTF-8
+< Location: https://mediaex-server.larc.nasa.gov/
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 06:05:24 GMT

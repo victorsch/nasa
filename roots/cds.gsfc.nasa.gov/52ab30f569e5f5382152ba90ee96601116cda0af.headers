@@ -1,0 +1,8 @@
+GET https://cds.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://cdsweb.gsfc.nasa.gov/
+< Strict-Transport-Security: max-age=1701134336; includeSubDomains
+< Content-Type: text/html
+< Content-Length: 0

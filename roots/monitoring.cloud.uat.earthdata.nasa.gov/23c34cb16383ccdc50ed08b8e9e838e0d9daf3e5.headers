@@ -1,0 +1,16 @@
+GET http://monitoring.cloud.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: A6QdcnQ9VTzDx8v1qEEWb_-16DrDAq-twhBJJ8gpDXybUTOUHUszRw==
+< Via: 1.1 a147f9c60c162e36df3586fdd9c01478.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:41:58 GMT
+< Location: https://monitoring.cloud.uat.earthdata.nasa.gov/
+< X-Amz-Cf-Pop: PHL51-P1
+< Content-Type: text/html

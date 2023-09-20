@@ -1,0 +1,20 @@
+GET https://pmmpublisher.pps.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: nginx/1.24.0
+< Content-Type: text/html; charset=utf-8
+< X-Download-Options: noopen
+< X-Xss-Protection: 0
+< X-Frame-Options: DENY
+< X-Dns-Prefetch-Control: off
+< Expect-Ct: max-age=0
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 19 Sep 2023 05:54:31 GMT
+< Content-Security-Policy: default-src 'self' https://stats.g.doubleclick.net https://www.google-analytics.com https://ajax.googleapis.com https://dap.digitalgov.gov;script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://ajax.googleapis.com https://dap.digitalgov.gov;base-uri 'self';block-all-mixed-content;font-src 'self' https:  data:;frame-ancestors 'self';img-src 'self' data: https://server.arcgisonline.com;object-src 'none';style-src 'self' 'unsafe-inline' https://ajax.googleapis.com;upgrade-insecure-requests
+< Content-Security-Policy: frame-ancestors 'self';
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+< Referrer-Policy: no-referrer
+< Etag: W/"16ad-X4pZPXuDZWkCpK7Suu9p2F2Rddw"
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

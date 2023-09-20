@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JPL IT | Directory and Authentication Service</title>
+	
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/default.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/tabber.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/button.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/collapse.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/jquery-ui-1.7.2.custom.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/jplit.css" type="text/css" media="screen">
+<link rel="stylesheet" href="https://icis.jpl.nasa.gov/shared/styles/print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel="stylesheet" href="https ://icis.jpl.nasa.gov/shared/styles/ie.css" type="text/css" media="screen">
+<![endif]-->
+
+<script src="https://icis.jpl.nasa.gov/shared/js/fader.js"></script>
+<script src="https://icis.jpl.nasa.gov/shared/js/collapser.js"></script>
+<script src="https://icis.jpl.nasa.gov/shared/js/jquery-1.3.2.min.js"></script>
+<script src="https://icis.jpl.nasa.gov/shared/js/jquery-ui-1.7.2.custom.min.js"></script>
+
+</head>
+
+<body>
+	
+<div id="jplitFullPage">
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.jpl.nasa.gov/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '164']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+						<div id="jplitHeaderImage">
+			      				<a href="http://jplit.jpl.nasa.gov/">
+				      <img src="https://icis.jpl.nasa.gov/shared/images/newlogo.png" alt="Information Technology at JPL" border="0">
+				   </a>
+				  
+			</div>
+		
+		
+			<div id="jplitTopTitle">
+				<a href="http://dir.jpl.nasa.gov/">
+					<h1>
+												Directory and Authentication Service					</h1>
+				</a>
+			</div>
+
+			
+	
+	
+		<div id="jplitSectionTitle">
+			<h1>
+							</h1>
+		</div>
+
+		<div id="printHeader" class="printOnly">
+			<h1>JPL IT - Directory and Authentication Service</h1>
+		</div>
+
+	
+	<div id="jplitPageAndMenu">
+		<table cellpadding='0' cellspacing='0' border='0' width="100%">
+			<tr>
+									<td id="jplitPageLeftMenuTd">
+
+								<div id="jplitLeftMenu">
+					<div class='navsub'><div class='sub first'><h3>Directory and Authentication Service</h3>
+	<ul>
+	<li class='current depth_1'><a href="/index.php" title='Home'>Home</a></li>
+	<li class='depth_1'><a href="/phonebook/" title='White Pages Look-up'>White Pages Look-up</a></li>
+	</ul>
+	</div></div>
+	<div class='navsub'><div class='sub'><h3>JPL Password</h3>
+	<ul>
+	<li class='depth_1'><a href="/ui/" title='Change Your Password'>Change Your Password</a></li>
+	<li class='depth_1'><a href="https://launchit.jpl.nasa.gov/dayone/" title='Get a JPL Password'>Get a JPL Password</a></li>
+	<li class='depth_1'><a href="/checklist.php" title='Checklist for Password Reset'>Checklist for Password Reset</a></li>
+	<li class='depth_1'><a href="/strongpass.php" title='Strong Password Guidelines'>Strong Password Guidelines</a></li>
+	<li class='depth_1'><a href="/challenge.php" title='Challenge &amp; Response'>Challenge &amp; Response</a></li>
+	</ul>
+	</div></div>
+	<div class='navsub'><div class='sub'><h3>Two-Factor Authentication</h3>
+	<ul>
+	<li class='depth_1'><a href="/tfa" title='RSA SecurID Tokens'>RSA SecurID Tokens</a></li>
+	<li class='depth_1'><a href="https://dir.jpl.nasa.gov/smartcard.php" title='Smartcards'>Smartcards</a></li>
+	<li class='depth_1'><a href="https://dir.jpl.nasa.gov/smartcard_virtual.php" title='Virtual Smartcard Authentication'>Virtual Smartcard Authentication</a></li>
+	</ul>
+	</div></div>
+	<div class='navsub'><div class='sub'><h3>Directory Groups</h3>
+	<ul>
+	<li class='depth_1'><a href="/groups/" title='Directory Groups Interface'>Directory Groups Interface</a></li>
+	<li class='depth_1'><a href="/howto.php" title='How-to's'>How-to's</a></li>
+	</ul>
+	</div></div>
+	<div class='navsub'><div class='sub'><h3>Support</h3>
+	<ul>
+	<li class='branch depth_1'>JPL Directory</li>
+	<ul class='branch'>	<li class='depth_2'><a href="/projects/project_support.php" title='For Projects'>For Projects</a></li>
+	<li class='depth_2'><a href="/developer/" title='For Developers'>For Developers</a></li>
+	<li class='depth_2'><a href="/certificates/index.php" title='Certificates'>Certificates</a></li>
+	<li class='depth_2'><a href="/faq.php" title='FAQs'>FAQs</a></li>
+	</ul>	<li class='branch depth_1'>JPL Domain</li>
+	<ul class='branch'>	<li class='depth_2'><a href="/domain.php" title='About'>About</a></li>
+	<li class='depth_2'><a href="/setupad.php" title='Setup and Use'>Setup and Use</a></li>
+	</ul>	<li class='branch depth_1'>JPL Web SSO</li>
+	<ul class='branch'>	<li class='depth_2'><a href="/websso/index.php" title='For Developers'>For Developers</a></li>
+	<li class='depth_2'><a href="/websso/ssofaq.php" title='FAQs'>FAQs</a></li>
+	</ul>	<li class='branch depth_1'>Smartcard</li>
+	<ul class='branch'>	<li class='depth_2'><a href="/pivfaq.php" title='FAQs & Troubleshooting'>FAQs & Troubleshooting</a></li>
+	</ul>			</div></div>
+		</div>
+				                        <div class="navsub">
+                            <div class="sub" id='contactdiv'>
+                                <h3>Contact Us 
+                                                                        </h3>
+                                                       
+                            
+ <!---------- Begin NTRsupport integration ---------->
+ <div id="supportChatWebPart">
+ <a onclick="$('#support_dialog').dialog('open')">
+ <img border="0" width="180px" src="http://icis.jpl.nasa.gov/shared/images/contactus.png" alt="Contact Us">
+ </a>
+ </div>
+ <!---------- End NTRsupport integration ---------->
+ <!-- Hide all web part nobrs (title underlines) if they have no title -->
+ <script type="text/javascript">
+ $('nobr:has(span:not(span[id]):hidden)').replaceWith('<nobr style="border-bottom: none; line-height: 1px; font-size: 1px;"></nobr>');
+ </script>
+ <!--Contact US POPUP --->                        
+ <div id="support_dialog" style="display: none; text-align : left;">	
+ <style type="text/css">a{ _noFocusLine: expression(this.hideFocus=true); }</style>
+ <h2 class="header2">Technical Support</h2>			
+ <p>
+ <ul class="unorder">
+ <li>Urgent and time-critical issues, Call 4-HELP (818-35<b>4-4357</b>)</li>
+ <li>Non-urgent assistance with a product or service 
+ <ul class="unorder">
+ <li>Submit a <a target="_new" style="outline:none;" href="https://servicenow.jpl.nasa.gov/sp?id=sc_cat_item&sys_id=3f1dd0320a0a0b99000a53f7604a2ef9">Service Request</a> - response within 2 business hours on Mon-Fri, 8am to 5pm, except RDO and Holidays</li>
+ <li>Use <a target="_new" href="https://servicenow.jpl.nasa.gov/sp?id=kb_home">4HELP Knowledgebase</a> - Self Help</li>
+ </ul>
+ <li>To check the status of an existing support ticket or hardware order,
+     login to the <a target="_new" href="https://servicenow.jpl.nasa.gov/sp">JPL IT Service Portal</a>.
+     All open help desk tickets and orders will be displayed.</li>
+ <li>Tech Cafe @ The Hub (111-104). Support technicians are available from
+     8:00 a.m. - 4:00 p.m. Monday-Friday (RDO Fridays excluded) for your
+     on-site IT triage and catalog needs.</li>
+ </ul>
+ </p>
+                                    
+ <h2 class="header2" style="margin-top: 20px">Send Us Your Feedback</h2>
+ <p>
+ <ul class="unorder">
+ <li>Have a comment, suggestion or idea for the ITSD Management? Send us your <a href="mailto:JPLIT@jpl.nasa.gov">Feedback</a>.</li>
+ </ul>
+ </p>
+
+ <h2 class="header2" style="margin-top: 20px">Contact the Web Support</h2>
+ <p>
+ <ul class="unorder">
+ <li>Have a concern with the functionality of this site? Contact <a href="mailto:webauthors.admin@jpl.nasa.gov">Web Support</a></li>
+ </ul>
+ </p>
+ <br/>
+ <center>
+ <a href="https://ocio.jpl.nasa.gov"><img src="https://icis.jpl.nasa.gov/shared/images/itsd_logo.png" style="border:none"/></a>
+ </center>
+ </div>
+                                    <script type="text/javascript">
+                                        $('#support_dialog').dialog({title: 'Contact Us', modal: true, draggable: true, width: 450, height: 400, resizable: false, autoOpen: false});
+                                    </script>
+                                         
+                                   
+                            </div>
+                        </div>
+        
+				
+                				
+                        <div class="navsub">
+                            <div class="sub">
+                                <h3>Last Updated 
+                                                                        </h3>
+                                                                <ul>
+                                <li>
+                                                                        Last Updated: 05/04/2022<br />
+                                                                </li>
+                                </ul><br/>
+                                <!-- <div style="text-align: center"><a href="http://ocio.jpl.nasa.gov/"><img src='https://icis.jpl.nasa.gov/shared/images/ocio_logo.png' class=' png' border='0' onclick=''></a> --></div>
+                            </div>
+                        </div>
+					</td>
+				
+					<td id="jplitPageTd">
+						<div id="jplitPage"  >
+							<a name="top"></a>
+
+	<h1><b>JPL Directory and Authentication Service</b></h1>
+
+   <div class="jplitRightTidbit left thin">
+      <h2>Common Tools</h2>
+      <ul>
+         <li><a href="/ui/" target=new>Change Your Password &amp; Directory Listing</a></li>
+         <li><a href="https://launchit.jpl.nasa.gov/dayone/" target=new>Get a JPL Password</a></li>
+		 <li><a href="/groups/" target=new>Directory Groups Tool</a></li>
+		 <li><a href="/phonebook/" target=new>Directory White Pages</a></li>
+		 <li><a href="/projects/" target=new>Project Admin Interface</a></li>
+      </ul>
+   </div>
+
+	<p>
+		The JPL Directory and Authentication service is a collection of resources that allow applications 
+		to authenticate and authorize users for access to their data.
+	</p>
+	<p>
+		<i>Authentication</i> is the process of determining whether someone is, in fact, who they declare to be. 
+		<i>Authorization</i> is the process of giving someone permission to do, or have access to something.
+	</p>
+	
+	<h2>Service Offerings</h2>
+	<ul>
+		<li>
+			<a href="/ui/" target=new><b>JPL Directory (LDAP Directory)</b></a> &mdash; 
+			Master directory for IT authentication and 
+			authorization. Contains identities for all JPL employees, contractors, 
+			applications, and sponsored external users.  <a onclick='toggle(this,"dir_more")'>More &gt;&gt;</a>
+			<div id="dir_more" class="collapsable tidbit">
+				There are multiple JPL Directory clusters serving:
+				<ul type=square>
+					<li>Shared Services environment &mdash; most institutional applications</li>
+					<li>Enterprise Mission Support Area</li>
+					<li>Flight Projects Network</li>
+					<li>Messaging</li>
+					<li>MSL ATLO and Testbed</li>
+					<li>Out-of-state Disaster Recovery</li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="/groups/" target=new><b>JPL Directory Groups</b></a> &mdash; Collections 
+			of identities used for authorization, email, and calendaring.
+		</li>
+		<li>
+			<a href="/projects/" target=new><b>JPL Directory Projects Administration</b></a> 
+			&mdash; Maintenance of data structures required for Linux and Solaris workstations to acquire their 
+			authentication and authorization from the JPL Directory Projects Space (NIS Replacement).
+		</li>
+		<li>
+            <font color="11aa11">
+			<a href="/sysadmin_support.php" target=new><b>JPL Directory System Administrator Support</b></a> 
+            </font>
+		</li>
+		<li>
+			<a href="/ui/" target=new><b>Password Synchronization (Password Maintenance)</b></a> 
+			&mdash; User interface that allows a user to 
+			synchronize the three main JPL Passwords: JPL Password, JPL Domain password, and the NBS 
+			Password. Includes expiration notification service.
+		</li>
+		<li>
+			<b>JPL Domain (Windows Active Directory)</b> &mdash; Microsoft Windows Active Directory designed for 
+			authentication and authorization of Windows desktop systems. Also used by Windows Active 
+			Directory-aware applications such as Exchange, SharePoint, and JPL Chat.  <a onclick='toggle(this,"domain_more")'>More &gt;&gt;</a>
+			<div id="domain_more" class="collapsable tidbit">
+				There are three JPL Domain clusters serving:
+				<ul type=square>
+					<li>Shared Services Environment</li>
+					<li>Messaging</li>
+					<li>Out-of-state Disaster Recovery</li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<a href="/eps/" target=new><b>JPL Extranet Domain (Windows Active Directory for Extranet)</b></a> &mdash; Microsoft Windows Active 
+			Directory that contains only lightly vetted, Extranet identities. 
+			There is a trust between the JPL Domain and this directory such that users in the JPL Domain may log into 
+			Extranet applications with their JPL Domain identity and password.
+		</li>
+		
+		<li>
+			<a href="/tfa/" target=new><b>JPL Two-Factor Authentication (TFA) and RSA SecurID Tokens</a></b> &mdash; Required to remotely access JPL's network. TFA also provides authentication to applications that require more secure authentication services then just a username and password.
+		</li>
+		<li>
+			<b>JPL Kerberos (Heimdal Kerberos Service)</b> &mdash; Provides an industry standard, highly secure, authentication mechanism capable 
+			of being used for single-sign-on. Repository for passwords used by the JPL Directory.  <a onclick='toggle(this,"kerberos_more")'>More &gt;&gt;</a>
+			<div id="kerberos_more" class="collapsable tidbit">
+				There are multiple Kerberos servers serving:
+			
+				<ul type=square>
+					<li>Shared Services Environment</li>
+					<li>Enterprise Mission Support Area</li>
+					<li>Flight Projects Network</li>
+					<li>MSL ATLO and Testbed</li>
+					<li>Out-of-state Disaster Recovery</li>
+				</ul>
+			</div>
+		</li>
+		<li>
+			<b><a href="/phonebook/" target=new>JPL Directory White Pages (JPL User Lookup Services)</a></b><br />
+		</li>
+		<li>
+            <b><a href="https://wiki.jpl.nasa.gov/display/ociodirjpl/About+Identity+Governance+and+Administration" target=new>JPL Identity Governance Administration (IGA)</a></b><br />
+            <ul><li><b><a href="https://wiki.jpl.nasa.gov/display/ociodirjpl/IGA+FAQ" target=new>IGA FAQ</a></b><br /></li></ul>
+        </li>
+	</ul>
+
+	<h2>Costs</h2>
+	<ul>
+		<li>Access a summary of all IT service charges: 
+		<a href="http://fees.jpl.nasa.gov" target=new>
+		JPL Information Services User Fees</a>.</li>
+		<li>Log into <a href="http://ucs.jpl.nasa.gov" target="new">Unified Charging System 
+		(UCS)</a> to review your IT service charges.</li>
+	</ul>
+
+
+	
+
+</div>
+</td></tr>
+<tr><td id="jplitPageLeftMenuFooterTd"></td><td>
+<div class="jplitPageFooterWrapper">
+	<div class="jplitPageFooter">
+	
+				
+												https://dir.jpl.nasa.gov/<br />
+					</div>
+</div>
+</td></tr></table>
+
+</div>
+</div>
+
+<script>
+	cleanPopups();
+	tabpreload();
+</script>
+
+</body>
+</html>

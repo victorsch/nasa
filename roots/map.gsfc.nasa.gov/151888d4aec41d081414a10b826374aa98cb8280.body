@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+<meta name="description" content="Public access site for The Wilkinson Microwave Anisotropy Probe and associated information about cosmology.">
+<meta name="orgcode" content="665">
+<meta name="rno" content="Edward.J.Wollack.1">
+<meta name="content-owner" content="Edward.J.Wollack.1">
+<meta name="webmaster" content="Theophilus.B.Griswold.1">
+
+<link href="/common/wmap.css" rel='stylesheet' type='text/css' media="all" />
+<!--[if IE]>
+<link href='/common/wmap_ie.css' rel='stylesheet' type='text/css' media="all" />
+<![endif]-->
+<link href="/common/wmapprintPDF.css" rel='stylesheet' type='text/css' media="print" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<script type="text/javascript" src="/common/cookies.js"></script>
+<script type="text/javascript" src="/common/CSScriptLib.js"></script>
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+<!-- Google Analytics -->
+</script> 
+<title>Wilkinson Microwave Anisotropy Probe (WMAP)</title>
+<link href="/common/wmapFP.css" rel="stylesheet" type="text/css">
+</head><body id='topone'><div id='left001'>
+<div id='paper'>
+<!-- DO NOT DELETE THIS FILE. IF YOU DO, YOU'LL GET AN ERROR ON YOUR WEB PAGES. -->
+<!-- THE MASTER FILE RESIDES AT /universe/htdocs/universe/downtime.inc -->
+<!-- THAT FILE SHOULD BE EDITED TO COMMENT OUT THE CONTENT WHEN IT'S NOT NEEDED. -->
+<!--
+<div align="center">
+<table style="border: 2px solid black; background-color:white; color: black;padding:5px;width:80%">
+<tr><td align="center">
+<span style="font-size: 12pt;">There will be a network outage, Wednesday May 2, 2018 from 19:00 EDT - 23:59 EDT. All services, web sites, and systems that require access to the internet will be affected by this work.</span>
+</td></tr>
+</table>
+</div>
+<br>
+-->
+
+<div id='printnasahead'><img src='/media/990293/990293_160.jpg' height='45' width='80' alt='NASA Logo'> Wilkinson Microwave Anisotropy Probe</div>
+
+<div id='nasahead'>
+  <a href='http://www.nasa.gov/' target='_blank'><img src='/common/images/nasa_header_logo1.gif' alt='NASA Logo, National Aeronautics and Space Administration' width='288px' height='51px'></a>
+  <div id='searchbox'>
+    <h4><label for='id3'>Search</label> / <a id='sitemap' href='/site/'>Site Map</a></h4>
+    <script>
+//<![CDATA[
+      var usasearch_config = { siteHandle:"wmap" };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+     <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+
+    <input type="hidden" name="affiliate" id="affiliate" value="wmap" />
+    <!---<label for="query">Enter Search Term(s):</label>--->
+    <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
+    <input type="submit" name="commit" value="Search" data-disable-with="Search" />
+  </form>
+
+    <!--<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden" value="wmap.gsfc.nasa.gov">
+<input autocomplete="on" class="form-control search" name="q" placeholder="Search in example.com" required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>-->
+    
+    <!--<form name='search' id='search' method='POST' action='/cgi-bin/mapsearch.pl'>
+    <input type='text' name="tquery" id="id3" size='15' value=''>
+    <input type='submit' class='submitit' id='id4' name='submitButtonName' value='Go'>
+    </form>-->
+  </div>
+</div>
+
+<div id='topmenu'>
+<ul>
+  <li id='topone'><a href='/'><span>HOME</span></a></li>
+  <li id='toptwo'><a href='/news/'><span>NEWS</span></a></li>
+  <li id='topthree'><a href='/universe/'><span>UNIVERSE</span></a></li>
+  <li id='topfour'><a href='/mission/'><span>MISSION</span></a></li>
+  <li id='topfive'><a href='/resources/'><span>RESOURCES</span></a></li>
+  <li id='topsix'><a href='/site/'><span>SITE INFO</span></a></li>
+</ul>
+</div>
+
+<div id='centralpage'>
+
+
+<link href="/common/wmapFP.css" rel="stylesheet" type="text/css">
+<div class='leftmenu'>
+
+<div id='title'>
+<div id='motto'>&nbsp;</div>
+<div id='category'>WMAP Highlights</div>
+</div>
+
+<ul>
+<li id='left001'><a href='/'>Home</a></li>
+<li id='left002'><a href='/news/'>WMAP Results</a></li>
+<li id='left003'><a href='/news/tp_links.html'>WMAP Technical Papers</a></li>
+<li id='left004'><a href='/mission/sgoals_universe.html'>WMAP Science</a></li>
+<li id='left005'><a href='/cosmology/cosmology.html'>Universe Tutorial</a></li>
+<li id='left006'><a href='/resources/animconcepts.html'>Animations</a></li>
+<li id='left007'><a href='/resources/edresources1.html'>Teaching Resources</a></li>
+<li id='left008'><a href="/resources/imagetopics.html">Image Gallery</a></li>
+<li id='left009'><a href='/site/'>Site Map</a></li>
+</ul>
+
+   <!-- <div class='shortcuts'>
+	 <div class='featureimage'><a href="/news/index.html#microwavesky"><img src="/media/080997/080997_5yrFullSky_WMAP_160.jpg" alt="Full Sky Map of Universe with Galaxy removed" width="160" height="90" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/news/index.html#microwavesky">Full Sky Map  of Universe</a></div>
+   </div>
+   
+  <div class='shortcuts'>
+	 <div class='featureimage'><a href="/news/index.html#content"><img src="/media/080998/080998_Universe_Content_200.jpg" alt="Pie Chert of Univers Contents, 4.6% Atoms, 23% Dark matter, 72% Dark Energy" width="160" height="85" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/news/index.html#content">Contents of Universe</a></div>
+   </div> -->
+   
+   <div class='shortcuts'>
+	 <div class='featureimage'><a href="/media/060915/index.html"><img src="/media/060915/060915_230.jpg" alt="A visual Timeline of the Universe" width="160" height="85" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/media/060915/index.html">History of Universe</a></div>
+   </div>
+   
+ <div class='shortcuts'>
+	 <div class='featureimage'><a href="/media/121238/index.html"><img src="/media/121238/ilc_9yr_moll160BW.jpg" alt="Primortial Universe Iimage- All Sky ILC" width="160" height="85" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/media/121238/index.html">The Primordial Universe</a></div>
+   </div>
+    
+ <div class='shortcuts'>
+	 <div class='featureimage'><a href="/resources/camb_tool/index.html"><img src="/resources/camb_tool/images/ToolIcon.jpg" alt="Build a Universe Interactive Flash Tool" width="160" height="85" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/resources/camb_tool/index.html">Build a Universe</a></div>
+   </div>
+    
+ <div class='shortcuts'>
+	 <div class='featureimage'><a href="/site/faq.html"><img src="/media/ContentMedia/WatchIcon.jpg" alt="Facts and Questions" width="160" height="91" border="0"></a></div>
+	 <div class='.captionfeature'><a href="/site/faq.html">Facts and Questions</a></div>
+  </div>  
+	
+</div> <!-- end of leftmenu -->
+
+
+<div id='pagespacer'> </div>
+<div id='content'>
+
+<a name="startofpage"></a>
+
+<div id='topimage' style='background: #000 url(/common/images/MAP_HeaderBkGd_04.jpg) top left no-repeat'>
+  <img src="/common/images/MAP_HeaderSC.gif" alt="">
+</div>
+
+<div id='content2'>
+<h1>Wilkinson Microwave Anisotropy Probe</h1>
+
+<p>The Wilkinson Microwave Anisotropy Probe (WMAP) is a NASA Explorer mission that launched June 2001 to make fundamental measurements of 
+cosmology -- the study of the properties of our universe as a whole.  WMAP has been stunningly successful, producing our new Standard Model of 
+Cosmology.  WMAP's data stream has ended. <a href="news/index.html">Full analysis of the data is now complete.</a> Publications have been submitted as of 12/20/2012.</p>
+<div style="width: 100%;">
+  <div style="width: 90%;">
+    <h2><a href="/news/index.html"><strong>WMAP Team Receives the 2018 Breakthrough Prize</strong></a></h2>
+  <p><img src="media/breakthrough_statue.jpg" alt="2018 Breakthrough Prize for Fundamental Phyics" width="150" height="165" class="fright"><em>&quot;WMAP wins the Fundamental Physics Award for detailed maps of the early universe that greatly improved our knowledge of the evolution of the cosmos and the fluctuations that seeded the formation of galaxies.&quot;</em></p>
+  <p>The prize is awarded to Charles L. Bennett, Gary Hinshaw, Norman Jarosik, Lyman Page Jr., David N. Spergel, and the 27 member WMAP Science Team.</p>
+  <p>For more information about the prize visit: 	<a href="https://breakthroughprize.org/Laureates/1" target="_blank">2018 Breakthrough Prize - Fundamental Physics - Laureates</a></p>
+</div>
+
+<div style="width: 90%;clear:both">
+    <h2><a href="/news/index.html"><strong>WMAP Team Receives the 2012 Gruber Cosmology Prize</strong></a></h2>
+  <p><img src="media/gruber_prize.jpg" alt="Gruber Prize for Cosmology medal" width="150" height="150" class="fright"><em>&quot;The Gruber Foundation proudly presents the 2012 Cosmology Prize to Charles Bennett and the Wilkinson Microwave Anisotropy Probe team for their exquisite measurements of anisotropies in the relic radiation from the Big Bang---the Cosmic Microwave Background. These measurements have helped to secure rigorous constraints on the origin, content, age, and geometry of the Universe, transforming our current paradigm of structure formation from appealing scenario into precise science.&quot;</em></p>
+  <p>Other Members of the WMAP team are:<br />
+  Chris Barnes, Rachel Bean, Olivier Dor&eacute;, Joanna Dunkley, Benjamin M. Gold, Michael Greason, Mark Halpern, Robert Hill, Gary F. Hinshaw, Norman Jarosik, Alan Kogut, Eiichiro Komatsu, David Larson, Michele Limon, Stephan S. Meyer, Michael R. Nolta, Nils Odegard, Lyman Page, Hiranya V. Peiris, Kendrick Smith, David N. Spergel, Greg S. Tucker, Licia Verde, Janet L. Weiland, Edward Wollack, and Edward L. (Ned) Wright.</p>
+  <p>For more information about the prize visit: 	<a href="http://gruber.yale.edu/cosmology/2012/charles-bennett-and-wmap-team" target="_blank">2012 Gruber Cosmology Prize Press Release</a></p>
+  </div>
+</div>
+<div class="cboth" style="width: 100%;">
+  <table class="WMAP_essence" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top" style="width: 55%;" scope="col">
+          <div class="title">WMAP's Top Ten</div>
+          <div class="fpleft">
+         <br />
+         <strong>The WMAP science team has…</strong>
+            <ol>
+              <li>
+                <p>... has put the &quot;precision&quot; in &quot;precision cosmology&quot; by reducing the allowed volume of cosmological parameters by a factor <strong>in excess of 68,000</strong>. The three most highly cited physics and astronomy papers published in the new millennium are WMAP scientific papers--- reflecting WMAP's enormous impact. </p>
+              </li>
+                                     
+           <li>
+             <p>&hellip;mapped the pattern of tiny fluctuations in the Cosmic Microwave Background (CMB) radiation (the oldest light in the universe) and produced the first fine-resolution (0.2 degree) full-sky map of the microwave sky.</p>
+           </li>
+              <li>
+                <p>&hellip;determined the universe to be 13.77 billion years old to within a half percent.</p>
+              </li>
+                            
+            <li>
+              <p>&hellip;nailed down the curvature of space to within 0.4% of &quot;flat&quot; Euclidean.</p>
+            </li>
+              <li>
+                <p>&hellip;determined that ordinary atoms (also called baryons) make up only 4.6% of the universe.</p>
+              </li>
+              <li>
+                <p>&hellip;completed a census of the universe and finds that dark matter (matter not made up of atoms) is 24.0% </p>
+              </li>
+              <li>&hellip;determined that dark energy, in the form of a cosmological constant, makes up 71.4% of the universe, causing the expansion rate of the universe to speed up. - &quot;Lingering doubts about the existence of dark energy and the composition of the universe dissolved when the WMAP satellite took the most detailed picture ever of the cosmic microwave background (CMB).&quot; <span class="caption">- <a href="http://www.sciencemag.org/content/vol302/issue5653/#special" target="_blank">Science Magazine 2003, &quot;Breakthrough of the Year&quot; article</a></span></li>
+              <li>&hellip; mapped the polarization of the microwave radiation over the full sky and discovered that the universe was reionized earlier than previously believed. - &quot;WMAP scores on large-scale structure. By measuring the polarization in the CMB it is possible to look at the amplitude of the fluctuations of density in the universe that produced the first galaxies. That is a real breakthrough in our understanding of the origin of structure.&quot; <span class="caption"> - <a href="http://sciencewatch.com/ana/hot/phy/08marapr-phy/" target="_blank">ScienceWatch: &quot;What's Hot in Physics&quot;, Simon Mitton, Mar./Apr. 2008</a></span>.</li>
+              <li>
+                <p>&hellip;detected that the amplitude of the variations in the density of the universe on big scales is slightly larger than smaller scales. This, along with other results, supports &quot;inflation&quot;, the idea is that the universe underwent a dramatic period of expansion, growing by more than a trillion trillion fold in less than a trillionth of a trillionth of a second. Tiny fluctuations were generated during this expansion that eventually grew to form galaxies.</p>
+              </li>
+              <li>
+                <p>&hellip; determined that the distribution of these fluctuations follows a bell curve with the same properties across the sky, and that there are equal numbers of hot and cold spots in the map. The simplest version of the inflation idea predicted these properties and remarkably, WMAP&rsquo;s precision measurement of the properties of the fluctuations has confirmed these predictions, in detail.</p>
+              </li>
+          </ol>
+          </div></td>
+          <td valign="top" style="width: 45%"; scope="col"><div class="fpmiddle">
+         <div class="highlight_quotes">
+              <h2><strong>The End of the Beginning</strong></h2>
+              <p><em>&quot;The last word from WMAP marks the end of the beginning in our quest to 
+understand the Universe. WMAP has brought precision to cosmology and the 
+Universe will never be the same.&quot;</em></p>
+              <div class="caption"> -Adam Riess, recipient of the 2011 Nobel Prize in physics</div>
+           </div>
+         <div class="highlight_quotes">
+              <h2><strong>Steven Hawking</strong></h2>
+              <p><em>&quot;Stephen Hawking recently told New Scientist that WMAP's evidence for inflation was the most exciting development in physics during his career.&quot;</em></p>
+              <div class="caption"> <a href="http://www.newscientist.com/article/mg21628965.700-2013-smart-guide-new-maps-to-rein-in-cosmic-inflation.html" target="_blank">-2013 Smart Guide,New Scientist</a></div>
+           </div>
+         <div class="highlight_quotes">
+              <h2><strong>WMAP Awarded Gruber Prize</em></strong></h2>
+              <p><em>&quot;WMAP has had a transformative impact on the field of cosmology. It 
+provided strong confirmation of our basic picture of the universe and 
+added unprecedented precision. It is the benchmark for almost every 
+other cosmological measurement and sets a very high bar for future 
+experiments.&quot;</em></p>
+              <div class="caption"> <a href="http://www.perimeterinstitute.ca/news/wmap-awarded-gruber-prize" target="_blank">-Neil Turok, Director of the Perimeter Institute for Theoretical Physics</a></div>
+           </div>
+
+            <div class="highlight_quotes">
+              <h2><strong>WMAP mission scores 'world's most cited' in science pubs</em></strong></h2>
+              <p>&quot;<em>WMAP results were among the most-cited scientific papers in the world across all scientific disciplines [in 2011], not just in physics and astronomy. It also happened in 2003, 2007 and 2009. This time WMAP captured the first, second and third spots in the rankings in a single year—a science trifecta.</em>&quot;</p>
+              <div class="caption"> <a href="http://gazette.jhu.edu/2012/04/23/wmap-mission-scores-‘world’s-most-cited’-in-science-pubs/" target="_blank">- Johns Hopkins University Gazette, 2012/04/23</a></div>
+              <hr>
+              <h2><strong>THE RED-HOT RESEARCH PAPERS OF 2011</strong></h2>
+              <p>&quot;<em>Achieving particular distinction atop the list are three reports from the Wilkinson Microwave Anisotropy Probe (WMAP), launched in 2001. ... Paper #1 in the table, delivering the &quot;cosmological interpretations&quot; of the WMAP seven-year data, had already been cited more than 500 times before the end of its first year of publication.</em>&quot;</p>
+              <div class="caption"> 
+                <p><a href="http://archive.sciencewatch.com/ana/fea/11maraprFea/" target="_blank">- Science Watch/ The Hottest Research of 2011 by Christopher King   </a>               ----<a href="http://sciencewatch.com/articles/hottest-research-2011" target="_blank">The List</a></p>
+              </div>
+</div>
+
+<div class="highlight_quotes">
+  <p><strong>&quot;<em>Every astronomer will remember the moment he heard the results from WMAP.</em>&quot;</strong></p>
+              <hr>
+              <p>&quot;<em>Before the WMAP results, astronomers and physicists had put together a very implausible picture of our universe.  It had a tiny amount of ordinary matter. It had a modest amount of dark matter, whatever that is. It had an overwhelming amount of dark energy, which is a strange beast. I have to confess I was very skeptical of this picture. But the WMAP results have convinced me.</em>&quot;</p>
+              <hr>
+              <p>&quot;<em>The announcement today represents a rite of passage for cosmology from speculation to precision science.</em>&quot; </p>
+              <div class="caption"> - John Bahcall of the Institute for Advanced Study in Princeton, N.J.</div>
+</div>
+	          
+           <div class='highlight_quotes'>
+  <p><em>&quot;WMAP is the instrument that finally allowed scientists to hear the celestial music and figure out what sort of instrument our cosmos is... WMAP has nearly perfect pitch.&quot;</em>  </p>
+  <hr>
+  <p>&quot;<em>It ends a decades-long argument about the nature of the universe and confirms that our cosmos is much, much stranger than we ever imagined.</em>&quot; </p>
+  <hr>
+  <p>&quot;<em>All the arguments of the last few decades about the basic properties of the universe&mdash;its age, its expansion rate, its composition, its density&mdash;have been settled in one fell swoop.</em>&quot; </p>
+  <div class="caption"><a href="http://www.sciencemag.org/content/vol302/issue5653/#special" target="_blank">-Science Magazine 2003, &quot;Breakthrough of the Year&quot; article</a></div>
+</div>
+<div class="highlight_quotes">The precise and accurate WMAP result is &quot;<em>now the frame of reference for all cosmological investigations.&quot;</em>  It &quot;<em>dramatically shrinks the volume of parameter space that describes our </em><nobr><em>universe</em>.&quot;</nobr>
+  <div class="caption"> <a href="http://sciencewatch.com/ana/hot/phy/08marapr-phy/" target="_blank">-ScienceWatch: &quot;What's Hot in Physics&quot;, Simon Mitton, Mar./Apr. 2008</a></div>
+</div>
+<div class="highlight_quotes">&quot;<em>In a sentence, the observations are spectacular and the conclusions are stunning,</em>&quot; said Brian Greene of Columbia University in New York City.  &quot;<em>WMAP data support the notion that galaxies are nothing but quantum mechanics writ large across the sky.&quot;  &quot;To me, this is one of the marvels of the modern scientific age.</em>&quot;</div>
+          </div></td>
+          </tr>
+      </table>
+</div>
+	<div style="width: 560px;">
+	
+		
+	
+	</div>
+</div>
+</div>						<!-- End of content      -->
+</div>						<!-- End of central page -->
+<div id='nasafoot'>			<!-- Begin of footer  -->	
+<div id='nasafootleft'>
+<ul>
+ <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+ <li><a href="http://www.nasa.gov/multimedia/guidelines/index.html">Reproduction Guidelines</a> / <a href="/site/citations.html">Citations</a></li>
+</ul>
+</div>
+<div id='nasafootright'>
+<ul>
+  <li id='webaddress'>wmap.gsfc.nasa.gov</li>
+  <li>Webmaster: Britt Griswold</li>
+  <li>NASA Official: Dr. Edward J. Wollack</li>
+  <li>Page Updated: Friday, 12-22-2017</li>
+</ul>
+</div>
+<div id='nasafootrightimg'>
+  <a href='http://www.nasa.gov/' target='_blank'><img src='/common/images/nasa_foot_nasa1.gif' height='48' width='51' alt='NASA Logo'></a>
+</div>
+</div>						<!-- End of footer  -->
+</div>						<!-- End of 'paper' -->
+
+</div></body></html>

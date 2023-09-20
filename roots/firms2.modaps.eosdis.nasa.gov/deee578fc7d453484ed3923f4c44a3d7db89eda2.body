@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+        <!-- End Google Tag Manager -->
+        <!-- process generated -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#630202"/>
+        <meta name='mobile-web-app-capable' content='yes'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='application-name' content='NASA-FIRMS'>
+        <meta name='apple-mobile-web-app-status-bar-style' content='#630202'>
+        <meta name='apple-mobile-web-app-title' content='NASA Fire Info'>
+        <link rel='icon' sizes='192x192' href='/images/touch/icon-192x192.png'>
+        <link rel='apple-touch-icon' href='/images/touch/icon-192x192.png'>
+        <meta name='msapplication-TileImage' content='/images/touch/icon-144x144.png'>
+        <meta name='msapplication-TileColor' content='#630202'>
+        <meta name='theme-color' content='#630202'>
+        <meta property='og:title' content='NASA-FIRMS'>
+        <meta property='og:type' content='website'>
+        <meta property='og:image' content='/images/touch/icon-192x192.png'>
+        <meta property='og:url' content='https://firms.modaps.eosdis.nasa.gov/map/'>
+        <meta property='og:description' content='Fire Information for Resource Management System'>
+        <meta name='twitter:card' content='summary'>
+        <meta name='twitter:url' content='https://firms.modaps.eosdis.nasa.gov/map/'>
+        <meta name='twitter:title' content='NASA-FIRMS'>
+        <meta name='twitter:description' content='Fire Information for Resource Management System'>
+        <meta name='twitter:image' content='/images/touch/icon-192x192.png'>
+        <meta name='twitter:creator' content='@nasa'>
+        
+        <link rel="manifest" href="/content/manifest/firms.json">
+        <meta name="description" content="Global fire map and data. NASA | LANCE | Fire Information for Resource Management System provides near real-time active fire data from MODIS and VIIRS to meet the needs of firefighters, scientists and users interested in monitoring fires. Fire data is available for download or can be viewed through a map interface. Users can subscribe to email alerts bases on their area of interest.">
+        <meta name="keywords" content="fire, wildfire, fire map, map, archive fire data, fire email alerts, fire download, fire data download, California, USA, US, Canada, Indonesia, Australia, Asia, Africa, Amazon, Brazil, Europe, Siberia, Russia">
+        <title>NASA | LANCE | FIRMS</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap" rel="stylesheet">
+        <style> html { background: #222; font-size:10px; } </style>    
+    </head>
+
+<link rel="stylesheet" href="/dist/firms_index.064a4c7a.css"><script type="module" src="/dist/firms_index.f1bed6fb.js"></script><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<script>
+    window._hasCarousel = true;
+</script>
+    
+    <style>
+        #frontContentSection1 {
+            background: url(/images/fs_img1.png) no-repeat 100% 40%;
+            background-size: auto;
+            margin-top: 1rem; 
+        }
+        .frontIconImg {
+            background-image: url('/images/fireicon1.png');
+            height: 4.5rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 2rem 0 0 5.3rem;
+        }
+        *, ::after, ::before {
+            box-sizing: border-box;
+        } 
+    
+        @media screen and (max-width: 1000px) {
+            .frontIconImg {
+                padding: 1rem 0 0 6rem;
+            }
+            .frontLabel {
+                font-size:3rem;
+                line-height: -1rem;
+                text-align: left;
+                padding:1rem;
+            }
+            .frontContent {
+                padding:1rem 1rem 2rem 2rem;
+            }
+            .frontContent li {
+                font-size: 2rem;
+                margin: 0;
+                padding: 0.5rem 0.5rem;
+            }
+            .frontContent .title {
+                font-size: 2rem;  
+                margin-top:10px;
+            }
+            .mapSubsection {
+                padding-top:.5rem;
+            }
+            .mapSubsection div {
+                font-size: 1.8rem;
+                height:4.5rem;
+            }
+            .frontNASALogo {
+                position: absolute;
+                right: 1rem;
+                width: 7rem;
+                bottom: 1.1rem;
+            }
+            .subTitle h3 {
+                font: 1.7em Titillium Web, sans-serif;
+                text-align: center;
+                line-height:2.9rem;
+                background-color: #840806;
+                color: #ffd800;
+                margin: 0;
+                padding:0.5rem 0.5rem 1rem 0.5rem;
+            }
+            #frontContentSection1 {
+                background: url(/images/fs_img1.png) no-repeat 100% 40%;
+                background-size: auto;
+                margin-top: 1rem; 
+            }
+            #frontContentSection2 li {
+                font: normal 2.2rem Titillium Web, sans-serif;
+                line-height: 2.5rem;
+                margin: 1rem 0rem 1.5rem -2.5rem;
+                padding: 2rem 2rem 2rem 3rem;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            #headerTxtLabelSmall {
+                display: block;
+                /*font-size: 2.3rem;*/
+                font-family: Titillium Web,sans-serif;
+                /*color: #fed100;*/
+                text-decoration: none;
+                /*margin: 2rem 0 0 1rem;*/
+            }	
+        }
+        @media screen and (max-width: 650px) {
+            .frontContent {
+                padding:2rem 1rem;
+            }
+            .frontNASALogo {
+                position: absolute;
+                right: 1rem;
+                width: 6rem;
+                bottom: 0.5rem;
+            }
+            #frontContentSection1 {
+                background: url(/images/fs_img1small.png) no-repeat 100% 8%;
+                background-size: auto;
+            }
+            #frontContentSection2 img.frontUSFSLogo {
+                width: 25rem;
+                margin: 2em 1rem .5rem -2rem;
+                padding: 0rem 1rem 0rem 1rem;
+            }	
+            .ft-main-item {
+                width: auto;
+                padding: 1rem 1rem 1rem 0rem;
+            }
+        }
+        @media screen and (max-width: 350px) {
+    
+            #headerTxtLabelSmall {
+                display: none;
+            }
+            .frontIconImg {
+                padding: 1rem 0 0 6rem;
+            }
+            .subTitle h3 {
+                font: 1.5em Titillium Web, sans-serif;
+                text-align: center;
+                line-height:2.9rem;
+                background-color: #840806;
+                color: #ffd800;
+                margin: 0;
+                padding:0.5rem 0.5rem 1rem 0.5rem;
+            }
+            #frontContentSection1 {
+                background: url(images/fs_img1small.png) no-repeat 100% 2%;
+                background-size: auto;
+            }
+            #frontContentSection1 h4, #frontContentSection2 h4  {
+                font-size: 2.6rem;
+            }
+            #frontContentSection2 img.frontUSFSLogo {
+                width: 20rem;
+                margin: 1.5em 1rem 0.5rem -1rem;
+                padding: 0rem 0.5rem 0rem 1rem;
+            }
+            #frontContentSection2 li {
+                font: normal 1.9rem Titillium Web, sans-serif;
+                line-height: 2rem;
+                margin: 1rem 0rem 1.5rem -3rem;
+                padding: 0.5rem 0.3rem 2rem 1.8rem;
+            }
+            #frontContentSection2 .frontIcon {
+                font-size: 4.2rem;
+                padding: 0.5rem 1rem 0.5rem 0rem;
+            }
+        }
+    </style>
+    <body class="isMain" style="background: #323333;">
+        <section class="content" style="position:relative;min-height:40rem;">
+            <div id="frontImageBox">
+                <div class="frontImage">
+                    <div id="carousel"></div>
+                    <div class="frontLabel">
+                        <div class="frontContent frontContentMain">
+                            <ul id="tour-icons">
+                                <li id="mapOption" class="multiOption">
+                                    <div class="icon"><i class="fa fa-globe fa-lg frontIcon"></i></div>
+                                    <div class="title">
+                                        Fire Map 
+                                        <span style="padding:0 .5rem;"><i class="fas fa-caret-left" style="transform: rotate(-90deg);"></i></span>
+                                    </div>
+                                    <div id="mapSubselect" class="mapSubsection">
+                                        <a href="/map/"><div>GLOBAL</div></a>
+                                        <a href="/usfs/map/"><div>USA &amp; CANADA</div></a>
+                                    </div>
+                                </li>
+                                <li id="activefireOption" class="multiOption"">
+                                    <div class="icon"><i class="fa fa-fire fa-lg frontIcon"></i></div>
+                                    <div class="title">
+                                        Active Fire Data
+                                        <span style="padding:0 .5rem;"><i class="fas fa-caret-left" style="transform: rotate(-90deg);"></i></span>
+                                    </div>
+                                    <div id="mapSubselect" class="mapSubsection">
+                                        <a href="/active_fire/"><div>GLOBAL</div></a>
+                                        <a href="/usfs/active_fire/"><div>USA &amp; CANADA</div></a>
+                                    </div>
+                                </li>
+                                <li onclick="window.location = '/alerts';">
+                                    <div class="icon"><i class="fa fa-bell fa-lg frontIcon"></i></div>
+                                    <div class="title">Fire Alerts</div>
+                                </li>
+                                <li onclick="window.location = '/download';">
+                                    <div class="icon"><i class="fa fa-archive fa-lg frontIcon"></i></div>
+                                    <div class="title">Archive Download</div>
+                                </li>
+                                <li id="servicesOption" class="multiOption"">
+                                    <div class="icon"><i class="fa fa-desktop fa-lg frontIcon"></i></div>
+                                    <div class="title">
+                                        Web Services
+                                        <span style="padding:0 .5rem;"><i class="fas fa-caret-left" style="transform: rotate(-90deg);"></i></span>
+                                    </div>
+                                    <div id="mapSubselect" class="mapSubsection">
+                                        <a href="/web-services/"><div>GLOBAL</div></a>
+                                        <a href="/usfs/web-services/"><div>USA &amp; CANADA</div></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="subTitle"><h3>Fire Information for Resource Management System</h3></div>
+        <section class="frontContent" id="frontContentSection1">
+            <h4>
+                Providing Active Fire Data for Near-Real Time Monitoring and Applications
+            </h4>
+            <p>
+                The Fire Information for Resource Management System (FIRMS) distributes Near Real-Time (NRT) active fire data 
+                from the Moderate Resolution Imaging Spectroradiometer (MODIS) 
+                aboard the Aqua and Terra satellites, and the Visible Infrared Imaging Radiometer Suite (VIIRS) 
+                aboard S-NPP and NOAA 20 (formally known as JPSS-1). 
+                Globally these data are available within 3 hours of satellite observation, but for the US and Canada active fire detections are available in real-time.
+            </p>
+            
+            <p>
+                The active fire / hotspot data can be viewed in <a href="/map">FIRMS Fire Map</a> or in 
+                <a target="_blank" rel="noopener" class="ext" href="https://worldview.earthdata.nasa.gov/?p=geographic&l=MODIS_Aqua_SurfaceReflectance_Bands143,MODIS_Aqua_SurfaceReflectance_Bands721,MODIS_Terra_SurfaceReflectance_Bands143,MODIS_Terra_SurfaceReflectance_Bands721,VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor,MODIS_Fires_Terra(hidden),MODIS_Fires_Aqua(hidden),VIIRS_SNPP_Fires_375m_Night,VIIRS_SNPP_Fires_375m_Day,MODIS_Fires_All,Reference_Labels(hidden),Reference_Features(hidden),Coastlines&z=3&v=-102.7939785015448,-46.546875,94.0752285015448,53.015625">NASA’s Worldview</a>
+                    , delivered as email alerts or downloaded in the following formats: 
+                <a href="/active_fire/#firms-shapefile">SHP</a>, 
+                <a href="/active_fire/#firms-kml">KML</a>, 
+                <a href="/active_fire/#firms-txt">TXT</a>, 
+                <a href="/web-services">WMS</a>
+            </p>
+            <p>
+                FIRMS is part of NASA’s Land, Atmosphere Near real-time Capability for EOS (<a target="_blank" rel="noopener" class="ext" href="http://earthdata.nasa.gov/lance">LANCE</a>).  
+            </p>
+            <p>
+                For Tips, Suggestions and What's new visit 
+                <a href="https://wiki.earthdata.nasa.gov/pages/viewrecentblogposts.action?key=FIRMS" class="ext" target="_blank" rel="noopener">FIRMS Blog</a>
+            </p>
+            <p>
+                For Frequently Asked Questions visit 
+                <a href="https://www.earthdata.nasa.gov/faq/firms-faq" class="ext" target="_blank" rel="noopener">FIRMS FAQs</a>
+            </p>    
+            
+        </section>
+    
+        <section id="frontContentSection2" class="frontContent frontContent2" style="background: #1c1c1c;">
+            <h4>
+                About the Fire Information for Resource Management System
+            </h4>
+            <img src="/images/lance_logo.png" alt="LANCE logo" class="frontLANCELogo"> 
+            <p>
+                NASA FIRMS uses satellite observations from the MODIS and VIIRS instruments to detect active fires and 
+                thermal anomalies and deliver this information in near real-time to decision makers through email alerts, 
+                analysis ready data, online maps and web services.
+            </p>
+            <p>
+                FIRMS was originally developed by the University of Maryland, with funds from NASA’s Applied Sciences Program and 
+                the United Nations Food and Agriculture Organization (UN FAO). It was transitioned to NASA LANCE in 2012.
+            </p>
+    
+            <p style="clear: both;padding: 3rem 0 0 0;">
+                FIRMS focus and objectives include:       
+             </p>
+             
+             <ul>
+                    <li><div class="frontIconImg">Providing quality resources for fire data on demand </div></li>
+                    <li><div class="frontIconImg">Working with end users to enhance critical applications</div></li>
+                    <li><div class="frontIconImg">Assisting global organizations in fire analysis efforts</div></li>
+                    <li><div class="frontIconImg">Delivering effective data presentation and management</div></li>
+             </ul>
+            <p></p>
+        </section>
+        
+    </body><script src="https://fbm.earthdata.nasa.gov/for/firms/feedback.js"></script>
+
+    <!--googleon: all-->    
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>  
+</html>

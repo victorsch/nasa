@@ -1,0 +1,13 @@
+GET https://uat1-cm.ems.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:01:26 GMT
+< Accept-Ranges: bytes
+< Last-Modified: Fri, 17 Jun 2022 15:05:42 GMT
+< Etag: "ae-5e1a616821d80"
+< Content-Length: 174
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

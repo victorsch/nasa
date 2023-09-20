@@ -1,0 +1,919 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>NASA Ocean Color</title>
+
+
+<!-- SCRIPTS -->
+<!--<script src='/js/ga.js'></script>-->
+<script src='/js/jquery-2.2.4.min.js'></script>
+<script src='/js/random_image.js'></script>
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+<script src='/includes/nav_data.js'></script>
+
+<script src="/js/TweenMax.min.js"></script>
+<script src="/js/angular.min.js"></script>
+
+
+<!-- Google Tag Manager -->
+<script>
+(
+	function(w,d,s,l,i) {
+		w[l]=w[l]||[];
+		w[l].push(
+			{
+				"gtm.start": new Date().getTime(),
+				event:"gtm.js"
+			}
+		);
+		var f=d.getElementsByTagName(s)[0];
+		var j=d.createElement(s);
+		var dl=l!="dataLayer"?"&l="+l:"";
+		j.async=true;
+		j.src="https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+	}
+)
+(window,document,"script","dataLayer","GTM-WNP7MLF");
+</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- FONTS -->
+<!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<!-- RESPONSIVE NAV FILES -->
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">-->
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">-->
+<link href="/css/nav-files/bootstrap.css" rel="stylesheet">
+<!-- SmartMenus jQuery Bootstrap Addon CSS -->
+<link href="/css/nav-files/smartmenus-1.2.1/addons/bootstrap/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+<!-- END RESPONSIVE NAV FILES -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="/js/nav-files/jquery-1.11.3.min.js"></script>-->
+<script src="/js/nav-files/bootstrap.min.js"></script>
+
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="/js/nav-files/smartmenus-1.2.1/jquery.smartmenus.js"></script>
+<script type="text/javascript" src="/js/nav-files/smartmenus-1.2.1/addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
+
+<!-- EARTH DATA -->
+<!--<link href="https://cdn.earthdata.nasa.gov/eui/1.1.8/stylesheets/application.css" rel="stylesheet" /> -->
+<link href="/css/application.css" rel="stylesheet" />
+<script src="https://cdn.earthdata.nasa.gov/eui/1.1.8/js/eui.js"></script>
+
+
+<!-- OC FEATURE SLIDER -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />-->
+<link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+<!--<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
+<script src="/js/swiper-bundle.min.js"></script>
+
+<!-- CUSTOM STYLES -->
+<link href="/css/styles.css" rel="stylesheet">
+<link href="/css/navigation.css" rel="stylesheet">
+
+<!-- FONT PAGE SPECIFIC mSLIDERS -->
+<link href="/css/pace_timeline.css" rel="stylesheet">
+<link href="/css/ocean_color_feature.css" rel="stylesheet">
+<link href="/css/missions_timeline_feature.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div class="full-width-container">
+<script src="/js/tophat.js" id="earthdata-tophat-script" data-show-fbm="false" data-show-status="true" data-status-polling-interval=5 data-current-daac="OB.DAAC" data-show-outage-banner="true" data-use-fontawesome="true"></script>
+</div>
+
+
+<div class="full-width-container">
+
+	<div class="oc-header-grid">
+
+		<div class="oc-header-item"><a href="/"><img class="oc-obdaac-logo-image" src="https://oceancolor.gsfc.nasa.gov/images/ob-logo-svg-2.svg" alt="OB.DAAC Logo" /></a></div>
+		<div class="oc-header-item"><img class="oc-nasa-logo-image" src="https://cdn.earthdata.nasa.gov/eui/latest/docs/assets/ed-logos/meatball_hover_2x.png" alt="NASA Logo" /></div>
+
+	</div>
+
+</div>
+
+<div class="full-width-container">
+
+<div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+
+		<div id="ocean_color_navbar"></div>
+		<div id="quicklinks_navbar"></div>
+
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div>
+
+</div>
+
+
+<style>
+.eui-feature-grid-row__description{
+ font-size: 15px;
+ font-weight: normal;
+}
+</style>
+
+<div class="full-width-container">
+	<div class="ocf-container">
+		<div class="ocf-timeline">
+			<div class="swiper-container">
+				<div class="swiper-wrapper" id="ocf-timeline"></div>
+
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="full-width-container">
+	
+	
+	
+	
+	
+	<div class="home-content-grid">
+		<div class="home-content-item welcome">
+			<h1>Ocean Color Web</h1>
+			
+         <p>
+            NASA deploys a number of Earth observing instruments that measure the spectral nature, or color, of water.  Specifically, NASA acquires, archives, and publicly distributes such data from a variety of sources, including remote sensing ocean color instruments on satellite and airborne platforms, as well as similar measurements made on shipborne field campaigns, by long-duration autonomous in situ platforms, and derived as Earth system model outputs.
+         </p>
+         <p>
+            The Ocean Biology Processing Group (OBPG) at NASA's Goddard Space Flight Center has been operating and supporting the Ocean Color Web since 1996. As a Science Investigator-led Processing System (SIPS), our responsibilities include the collection, processing, calibration, validation of ocean-related products from a large number of operational, satellite-based remote-sensing missions providing ocean color, sea surface temperature and sea surface salinity data to the international research community. As a Distributed Active Archive Center (DAAC), known as the Ocean Biology DAAC (OB.DAAC), we are responsible for the archive and distribution of satellite ocean biology data produced or collected under NASA EOSDIS, including those from historical missions and partner space organizations.
+         </p>
+
+
+         <!--
+         <p>Ocean Color is the apparent hue, shade, or tone color of sea water due to the interactions of sunlight with the substances or particles present in the water. The color of the ocean is affected by the absorption or scattering of sunlight as it encounters these substances and particles.</p>
+			<p>The wavelength and color of the water can be used to infer the quality and quantity of these materials which may allow scientist, policymakers, and society, as a whole, to understand the composition of global waters. This understanding may also lend insight into how marine organisms thrive or decline under changing conditions of the water.</p>
+         -->
+			
+
+	<div id="usr-journeys" class="overview-grid">
+
+		<div class="card" style="border: 1px solid #dbdbdb; border-radius: 3px;">
+			<div style="overflow: hidden; height: 100px;"><img src="images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" style="padding: 0px;" class="image_overlay" alt="Stock image for decorative purposes"></div>
+			<div class="card-content" style="background-color: #f2f2f2;">
+
+				<div class="service-with-image">
+					<div class="service-block">
+							<div class="number alt-font">
+								<i class="fa-solid fa-chalkboard-user"></i>
+							</div>
+					</div>
+				</div>
+
+				<h3 class="card-title"><a href="/data/getting-started/" style="padding-top: 20px; color: #000000;">Get Started &nbsp;<i class="fa-solid fa-chevron-right"></i></a></h3>
+				<p class="card-body">
+					
+				</p>
+			</div>
+		</div>
+
+
+		<div class="card" style="border: 1px solid #dbdbdb; border-radius: 3px;">
+			<div style="overflow: hidden; height: 100px;"><img src="images/nasa-6-jTZysYY_U-unsplash.jpg" style="padding: 0px;" class="image_overlay" alt="Stock image for decorative purposes"></div>
+			<div class="card-content" style="background-color: #e6e6e6;">
+
+				<div class="service-with-image">
+					<div class="service-block">
+							<div class="number alt-font">
+								<i class="fa-solid fa-earth-oceania"></i>
+							</div>
+					</div>
+				</div>
+
+				<h3 class="card-title"><a href="/data/find-data/" style="color: #000000;">Find Data &nbsp;<i class="fa-solid fa-chevron-right"></i></a></h3>
+				<p class="card-body">
+					
+				</p>
+			</div>
+		</div>
+
+
+		<div class="card" style="border: 1px solid #dbdbdb; border-radius: 3px;">
+			<div style="overflow: hidden; height: 100px;"><img src="images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" style="padding: 0px;" class="image_overlay" alt="Stock image for decorative purposes"></div>
+			<!--<div style="overflow: hidden; height: 100px;"></div>-->
+			<div class="card-content" style="background-color: #d9d9d9;">
+
+				<div class="service-with-image">
+					<div class="service-block">
+							<div class="number alt-font">
+								<i class="fa-solid fa-chart-simple"></i>
+							</div>
+					</div>
+				</div>
+
+				<h3 class="card-title"><a href="/data/use-data/" style="color: #000000;">Use Data &nbsp;<i class="fa-solid fa-chevron-right"></i></a></h3>
+				<p class="card-body">
+					
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+         <h2>What is Ocean Color?</h2> 
+         <p>
+            Ocean Color is the apparent hue, shade, or tone of water that results from the interactions of sunlight with the microscopic composition of the water column and water itself. Typical relevant water constituents include phytoplankton, mineral particles, and dissolved organic matter.  The color of the ocean varies with how these materials in seawater absorb and scatter photons of different wavelengths, which varies with their composition.  For example, highly productive waters where phytoplankton are abundant can appear green, whereas less productive waters with fewer constituents typically appear blue.
+         </p>
+
+         <p>The spectral nature of color of the water, that is, the intensity at which different wavelengths absorb and scatter photons, can be used to infer the quality and quantity of materials that comprise natural waters - allowing scientists, policymakers, and society as a whole to understand their composition on local to global scales. This understanding can lend insight into how aquatic organisms at the base of the food chain thrive or decline under changing conditions of their environments.</p>
+
+
+		</div>
+
+		<div class="home-content-item news">
+<!--
+			<h2>News</h2>
+			
+			<p class="news-item news-item-highlight"><span style="font-weight: bold;">Reprocessing R2022 Status:</span> In Progress: SNPP; Next Up: Terra; Completed: JPSS1, SeaWiFS, S3A, S3B, Aqua, MERIS.</p>
+			<ul class="hanging-indent">
+				<li>OBDAAC User Working Group Meeting<br><a href="https://oceancolor.gsfc.nasa.gov/uwg/">View the minutes</a></li>
+			</ul>
+-->
+			<!--<h2 style="margin-top: 80px;">Ocean Color Social Media</h2>-->
+			<h2>Ocean Color Social Media</h2>
+			<div>
+				<div class="social-media-icons">
+					<a href="https://twitter.com/NASAOcean" aria-label="View the Twitter page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-twitter" aria-hidden="true" style="font-size: 2em; color: #dbdbdb;"></i></a>
+					<a href="https://www.facebook.com/NASAOcean" aria-label="View the Facebook page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-facebook" aria-hidden="true" style="font-size: 2em; color: #dbdbdb;"></i></a>
+					<a href="https://www.instagram.com/nasaocean/" aria-label="View the Instagram page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-instagram" aria-hidden="true" style="font-size: 2em; color: #dbdbdb;"></i></a>
+				</div>
+				<div style="align: center;">
+					<!-- <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CN4_8sxnaWu/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CN4_8sxnaWu/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CN4_8sxnaWu/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by NASA Ocean (@nasaocean)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script> -->
+					<!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CnzQWisu3uv/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CnzQWisu3uv/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CnzQWisu3uv/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by NASA Ocean (@nasaocean)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>-->
+					<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cs872eUOWfZ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Cs872eUOWfZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Cs872eUOWfZ/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by NASA Ocean (@nasaocean)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="full-width-container-no-grid">
+<div style="background: url(/images/satellite_view_of_earth.jpg) no-repeat fixed; background-size: cover; text-align: center; padding-top: 50px; padding-bottom: 5px; width: 100%;">
+		&nbsp;<h3 style="color: #ffffff; font-size: 2em; margin: 0.67em 0;">SUPPORTED MISSIONS</h3>
+		<h2 style="color: #ffffff;">Learn about satellites and the instruments capturing ocean color data.</h2>
+	<div class="missions-slider">
+
+
+		<div class="missions-slider" style="position: relative;">
+			<div class="swiper swiper-mission-slides" style="width: 90%;">
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide">
+						<a href="/about/missions/oci/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/oci.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2024 (TBD)</span> OCI</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Ocean Color Instrument (OCI)</strong> is the primary instrument aboard the Plankton, Aerosol, Cloud, and ocean Ecosystem (PACE) mission. It's optical spectrometer will be used to measure properties of light over portions of the electromagnetic spectrum and enable continuous measurements at finer resolutions than previous sensors.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/noaa21/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/noaa21.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2022 Nov 10</span> NOAA-21 VIIRS</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Visible and Infrared Imager/Radiometer Suite (VIIRS)</strong> is currently being flown on the Joint Polar Satellite System (JPSS) series on JPSS-2 (a.k.a. NOAA-21). JPSS is a multi-platform, multi-agency program that consolidates the polar orbiting spacecraft of NASA and the National Oceanic and Atmospheric Administration (NOAA).</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/hawkeye/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/hawkeye.png);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2018 Dec 3</span> HawkEye</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Hawkeye</strong> instrument, flown onboard the SeaHawk CubeSat, was optimized to provide high quality, high resolution imagery  (120 meter) of the open ocean, coastal zones, lakes, estuaries and land features. This ability provides a valuable complement to the lower resolution measurements from previous missions like SeaWiFS, MODIS and VIIRS.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/s3b/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/s3b.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2018 Apr 25</span> S3B OLCI</h3>
+								<p class="eui-feature-grid-row__description">The Ocean and Land Colour Instrument (OLCI) is the successor to ENVISAT's Medium Resolution Imaging Spectrometer (MERIS) having additional spectral channels, different camera arrangements and simplified on-board processing.  The OLCI is a push-broom instrument with five camera modules sharing the field of view.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/noaa20/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/noaa20.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2017 Nov 18</span> NOAA-20 VIIRS</h3>
+								<p class="eui-feature-grid-row__description">The <b>Visible and Infrared Imager/Radiometer Suite (VIIRS)</b> is currently being flown on the Joint Polar Satellite System (JPSS) series on JPSS-1 (a.k.a. NOAA-20).  JPSS is a multi-platform, multi-agency program that consolidates the polar orbiting spacecraft of NASA and the National Oceanic and Atmospheric Administration (NOAA).</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/s3a/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/s3a.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2016 Feb 16</span> S3A OLCI</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Ocean and Land Colour Instrument (OLCI)</strong> is the successor to ENVISAT's Medium Resolution Imaging Spectrometer (MERIS) having additional spectral channels, different camera arrangements and simplified on-board processing. The OLCI is a push-broom instrument with five camera modules sharing the field of view.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/snpp/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/snpp.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2011 Oct 11</span> SNPP VIIRS</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Visible and Infrared Imager/Radiometer Suite (VIIRS)</strong> is a multi-disciplinary instrument that was first flown on the Suomi National Polar-orbiting Partnership (SNPP) spacecraft. VIIRS is the successor to MODIS, having 22 spectral bands, 16 moderate-resolution bands, 5 image-resolution bands, and one day-night band.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/goci/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/goci.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2010 Jun 26</span> GOCI</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Geostationary Ocean Color Imager (GOCI)</strong> is one of the three payloads onboard the Korean spacecraft Communication, Ocean and Meteorological Satellite (COMS). It acquires data in 8 spectral bands (6 visible, 2 NIR) with a spatial resolution of about 500 m over the Korean sea.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/hico/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/hico.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2009 Sep 10</span> HICO</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Hyper-spectral Imager for the Coastal Ocean (HICO)</strong> is based on the PHILLS airborne imaging spectrometers. It is the first spaceborne imaging spectrometer designed to sample the coastal ocean. During operation, HICO collected ~2000 scenes/year from around the world.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/meris/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/meris.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2008 Feb 28</span> MERIS</h3>
+								<p class="eui-feature-grid-row__description">The <strong>Medium Resolution Imaging Spectrometer (MERIS)</strong> is a programmable, medium-spectral resolution imaging spectrometer which acquires data over Earth whether illumination conditions are suitable or not. Its 68.5 field-of-view around nadir covers a swath width of 1150 km.</p>
+							</div>
+						</a>
+					</div>
+					
+               <div class="swiper-slide">
+						<a href="/about/missions/aqua/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/aqua.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">2004 May 4</span> MODIS-Aqua</h3>
+								<p class="eui-feature-grid-row__description">Aqua (a.k.a. EOS PM) is a satellite in NASA's Earth Observing System (EOS) that orbits the Earth from south to north and passes over the equator in the afternoon. The data acquired by <strong>Moderate Resolution Imaging Spectroradiometer (MODIS)</strong> on the Aqua spacecraft complements that of Terra satellite.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/terra/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/terra.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">1999 Dec 18</span> MODIS-Terra</h3>
+								<p class="eui-feature-grid-row__description">The key instrument on the Terra spacecraft, <strong>Moderate Resolution Imaging Spectroradiometer (MODIS)</strong>, views the entire Earth's surface every 1 to 2 days, acquiring data in 36 spectral bands, or groups of wavelengths to help improve our understanding of global dynamics and processes occurring on the land, in the oceans, and in the lower atmosphere.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/seawifs/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/seawifs.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">1997 Aug 1</span> SeaWiFS</h3>
+								<p class="eui-feature-grid-row__description">The key instrument on the Terra spacecraft, <strong>MODIS</strong> (or <strong>Moderate Resolution Imaging Spectroradiometer</strong>), views the entire Earth's surface every 1 to 2 days, acquiring data in 36 spectral bands, or groups of wavelengths to help improve our understanding of global dynamics and processes occurring on the land, in the oceans, and in the lower atmosphere.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/octs/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/octs.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">1996 Aug 17</span> OCTS</h3>
+								<p class="eui-feature-grid-row__description">Coastal Zone Color Scanner Experiment <strong>(CZCS)</strong> was the first instrument devoted to the measurement of ocean color and flown on a spacecraft. Although other instruments flown on other spacecraft had sensed ocean color, only CZCS had every parameter optimized for use over water to the exclusion of any other type of sensing.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="/about/missions/czcs/" class="eui-feature-grid-row__image mission-content" style="background: url(images/satellites/czcs.jpg);">
+							<div class="eui-feature-grid-row__content">
+								<h3 class="eui-feature-grid-row__title"><span style="color: #FF9900;">1978 Oct 24</span> CZCS</h3>
+								<p class="eui-feature-grid-row__description">The Japanese Space Agency (NASDA - National Space Development Agency) launched the Advanced Earth Observing Satellite (ADEOS) carrying the <strong>Ocean Color and Temperature Scanner (OCTS)</strong> instrument aboard. OCTS is an optical radiometer with 12 bands covering the visible, near infrared and thermal infrared regions.</p>
+							</div>
+						</a>
+					</div>
+
+				</div>
+
+
+				<br><br>
+
+				<div class="swiper-pagination swiper-mission-slides-pagination"></div>
+
+			</div>
+	
+			<div class="swiper-button-next swiper-button-next-missions"></div>
+			<div class="swiper-button-prev swiper-button-prev-missions"></div>
+
+		</div> <!-- missions-slider -->
+
+
+	</div>
+</div>
+</div>
+
+<script>
+
+const build_ocf = (ocf_results) => {
+
+
+	// SET THE DEFAULTS
+	let ocf_output = '';
+
+
+	// LOOP THROUGH EACH ITEM AND 
+	$.each(ocf_results, function(index, value) {
+
+
+		const image_id = value.id;
+		const title = value.image_title;
+		const caption = value.caption;
+		
+		
+		
+		// GET THE MEDIUM-SIZED IMAGE
+		let image_medium = value.image_large.replace(/_lg(\.[a-z]{2,5})$/gi, "_md$1");
+		image_medium = 'https://oceancolor.gsfc.nasa.gov/gallery' + image_medium;
+
+
+
+		// BUILD OUT THE FEATURE DATE TAG
+		const month_array = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		const d = new Date(value.feature_date);
+		const month = d.getMonth() + 1;
+		const year = d.getFullYear();
+		const date_tag = month_array[month] + ' ' + year;
+
+
+		
+		ocf_output += `
+					<div class="swiper-slide" style="background-image: url(${image_medium});" data-year="${date_tag}">
+						<div class="swiper-slide-content"><span class="ocf-timeline-year">Ocean Color Feature</span>
+							<h4 class="ocf-timeline-title">${title}</h4>
+							<p class="ocf-timeline-text">${caption}</p>
+							<p><a href="https://oceancolor.gsfc.nasa.gov/gallery/${image_id}/" style="color: #f5ae05; margin-top: 20px;">See this in the Gallery</a></p>
+						</div>
+					</div>`;
+		
+		
+	});
+
+	ocf_output += `
+					<div class="swiper-slide" style="background-image: url(https://oceancolor.gsfc.nasa.gov/HawkEyeSampleScenes/20230215-HawkEye-StraitOfHormuz-md.jpg);" data-year="April 2023">
+						<div class="swiper-slide-content"><span class="ocf-timeline-year">Ocean Color Feature</span>
+							<h4 class="ocf-timeline-title">Strait of Hormuz</h4>
+							<p class="ocf-timeline-text">The Strait of Hormuz connects the Persian Gulf to the Gulf of Oman. Weather systems and strong winds in the Persian Gulf influence water circulation and mixing, which can cause blooms while phytoplankton productivity in the Gulf of Oman is heavily influenced by the coming and going of the monsoon and related upwelling. Although the Strait of Hormuz sits at the boundary of these two systems, past research showed phytoplankton species in the strait are more similar to those in the Gulf of Oman.</p>
+							<p><a href="https://oceancolor.gsfc.nasa.gov/data/hawkeye/scenes/" style="color: #f5ae05; margin-top: 20px;">See this in the Gallery</a></p>
+						</div>
+					</div>`;
+
+
+	return ocf_output;
+
+
+}
+
+
+
+jQuery(function($){
+
+
+
+	// CALL THE OCF API
+	$.get("/ocean-color-feature-api/", function(data) {
+
+
+		// WRITE THE API CONTENTS TO THE DIV
+		const ocf_output = build_ocf(data.ocf_results);
+		$('#ocf-timeline').html(ocf_output);
+
+
+		// INITIALIZE THE OCF TIMELINE
+		var timelineSwiper = new Swiper('.ocf-timeline .swiper-container', {
+			direction: 'vertical',
+			loop: false,
+			speed: 1600,
+			pagination: '.swiper-pagination',
+			paginationBulletRender: function (swiper, index, className) {
+				var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');
+				return '<span class="' + className + '">' + year + '</span>';
+			},
+			paginationClickable: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			breakpoints: {
+				768: {
+					direction: 'horizontal'
+				}
+			} 
+		});
+
+
+	});
+
+
+
+});
+
+</script>
+
+
+<script>
+
+<!-- Initialize Swiper -->
+
+    var swiperMissionSlides = new Swiper(".swiper-mission-slides", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-mission-slides-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next-missions",
+        prevEl: ".swiper-button-prev-missions",
+      },
+      debugger: true,
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+
+
+</script>
+
+
+
+
+
+
+
+<div class="full-width-container">
+
+	<div class="grid-cols-2">
+
+		<div class="grid-cols-2-item pace-timeline">
+
+
+
+			<div id="master" style="height: 500px;">
+
+				<div class="structure" data-ng-app="app" ng-controller="HomeController" style="position: relative;">
+
+					<div class="preloaderimg">
+						<img src="images/nasa-n463SoeSiVY-unsplash.jpg" alt="Image of space from a satellite" style="display: none;" />
+						<img src="images/nasa-yZygONrUBe8-unsplash.jpg" alt="Image of a lady presenting on a whiteboard" style="display: none;" />
+						<img src="images/64_GSFC_20200211_PACE_06856.jpg" alt="PACE instrumentation being prepared for the thermal vacuum chamber at Goddard Space Flight Center." style="display: none;"/>
+						<img src="images/GSFC_20220407_PACE_039744_1200w.jpg" alt="PACE flight solar array panels inspection and electrical testing at Goddard Space Flight Center." style="display: none;"/>
+					</div>
+
+  <div style="background-color: rgba(0, 0, 0, .5);">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3 style="text-shadow: 1 1 1 black; color: #ffffff; font-size: 2em; margin: 0.67em 0;">{{goal_title}}</h3>
+      </div>
+    </div>
+  </div>
+
+
+					<div class="timeline-pace"></div>
+
+					<div class="timeline-pace">  
+						<div data-ng-repeat="date in dates track by $index" class="date date-{{$index}}">
+							<div class="goal_wrap goal_real_estate" data-ng-show="goal_real_estate_{{date}}">
+								<i class="fa fa-person-chalkboard" aria-hidden="true" style="transform: rotate(-90deg); text-shadow: 1px 1px 1px black;"></i>
+							</div>
+							<div class="goal_wrap goal_involve" data-ng-show="goal_involve_{{date}}">
+								<i class="fa-solid fa-rocket" aria-hidden="true" style="transform: rotate(-90deg); text-shadow: 1px 1px 1px black;"></i>
+							</div>
+							<div class="goal_wrap goal_testing" data-ng-show="goal_testing_{{date}}">
+								<i class="fa-solid fa-clipboard-check" aria-hidden="true" style="transform: rotate(-90deg); text-shadow: 1px 1px 1px black;"></i>
+							</div>
+							<div class="goal_wrap goal_retirement" data-ng-show="goal_retirement_{{date}}">
+								<!--<i class="fa-solid fa-satellite" aria-hidden="true" style="transform: rotate(-90deg); text-shadow: 1px 1px 1px black;"></i>-->
+								<i class="fa-solid fa-wrench" aria-hidden="true" style="transform: rotate(-90deg); text-shadow: 1px 1px 1px black;"></i>
+							</div>
+							<p class="focus"><a href="#">{{date}}</a></p>
+						</div>
+					</div>
+
+					<div class="info_box_wrapper">
+						<div></div>
+						<div id="info_box_desc" class="info_box">&nbsp;</div>
+					</div>
+
+
+
+
+
+
+<script id="pace-js" >
+var app = angular.module('app', []);
+
+app.controller('HomeController', function ($scope) {
+
+  $scope.goal_title = "PACE Mission Timeline";
+
+  $scope.dates = [2012, 2015, 2017, 2021, 2022, 2023, 2024, 2025];
+
+
+  $scope.goal_real_estate = false;
+
+  for (x in $scope.dates) {
+    if ($scope.dates[x] == 2012) {
+      $scope.goal_real_estate_2012 = true;
+    } else if ($scope.dates[x] == 2017) {
+      $scope.goal_retirement_2017 = true;
+    } else if ($scope.dates[x] == 2024) {
+      $scope.goal_involve_2024 = true;
+    } else if ($scope.dates[x] == 2022) {
+      $scope.goal_testing_2022 = true;
+    }
+  }
+
+});
+
+$(document).ready(function (e) {
+  // var viewport = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+  var viewport = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  // console.log('Viewport Size: ' + viewport);
+  // console.log(viewport);
+
+
+  //$('a').click(function (e) {
+  //  e.preventDefault();
+  //});
+
+  $('.goal_wrap').click(function () {
+    var diff = $(this).parent()[0].offsetLeft;
+    $('.date .goal_wrap').removeClass('active bounce');
+    $(this).addClass('active bounce');
+    //console.log('diff: ' + diff);
+    // console.log(diff);
+    //console.log('Viewport - Diff:' + (viewport - diff));
+    // console.log(viewport - diff);
+    //TweenLite.to($('.date').parent(), 1, { y: viewport * 0.5 - diff, onComplete: function () {
+    //    console.log('success');
+    //   /*TweenLite.to($('.timeline'), 1, {top:"50%"});*/
+    //  } });
+  });
+
+
+
+  $('.goal_real_estate').click(function () {
+    console.log('goal click');
+    $('#master').fadeTo('ease', 0.3, function ()
+    {
+      // $(this).css('background-image', 'url(images/airfocus-K_VeavYEfdA-unsplash.jpg)'); // nasa-yZygONrUBe8-unsplash.jpg
+      $('#master').css('background-image', 'url(images/airfocus-K_VeavYEfdA-unsplash.jpg)');
+    }).fadeTo('slow', 1);
+
+	$('.info_box_wrapper').css('visibility', 'visible');
+	$('#info_box_desc').html('<div class="info_box_title">SCIENCE JUSTIFICATION FOR PACE ANNOUNCED</div><div class="info_box_date">October 16, 2012</div><p>In the autumn of 2011, NASA convened a Science Definition Team (SDT) to provide the science justification along with measurement and mission requirements for the PACE mission. The resulting SDT Report defines key science questions in ocean ecology and biogeochemistry and presents a series of measurement and mission requirements that are necessary to address those questions.</p>');
+
+  });
+
+
+
+  $('.goal_involve').click(function () {
+    console.log('goal click');
+    $('#master').fadeTo('ease', 0.3, function ()
+    {
+      // $(this).css('background-image', 'url(images/nasa-n463SoeSiVY-unsplash.jpg)');
+      $('#master').css('background-image', 'url(images/nasa-n463SoeSiVY-unsplash.jpg)');
+    }).fadeTo('slow', 1);
+
+	$('.info_box_wrapper').css('visibility', 'visible');
+	$('#info_box_desc').html('<div class="info_box_title">LAUNCH READINESS DATE</div><div class="info_box_date">January 9, 2024</div><p>The Final Commit-to-Launch Poll is conducted approximately five minutes before launch to confirm readiness to launch. A "Go" statement is required from all parties polled to enter into terminal count. Mandatory launch constraints cannot be waived after the start of terminal launch countdown.</p>');
+
+  });
+
+
+
+  $('.goal_testing').click(function () {
+    // console.log('goal click');
+    $('#master').fadeTo('ease', 0.3, function ()
+    {
+      // $(this).css('background-image', 'url(images/nasa-n463SoeSiVY-unsplash.jpg)');
+      $('#master').css('background-image', 'url(images/GSFC_20220407_PACE_039744_1200w.jpg)');
+    }).fadeTo('slow', 1);
+
+	$('.info_box_wrapper').css('visibility', 'visible');
+	$('#info_box_desc').html('<div class="info_box_title">OBSERVATORY INTEGRATION & TESTING</div><div class="info_box_date">Sep 30, 2022</div><p>Integration & Testing (I&T) of the Observatory - The purpose of I&T is to assemble and integrate the observatory and create the system while developing confidence that it will be able to meet the system requirements. I&T activities include assembly, integration, verification, and validation of the observatory system, including testing the flight system to expected environments within margin.</p>');
+
+  });
+
+
+
+  $('.goal_retirement').click(function () {
+    console.log('goal click');
+    $('#master').fadeTo('ease', 0.3, function ()
+    {
+      // $(this).css('background-image', 'url(images/imaginearth-la-terre-en-images-opZ--yE1-hg-unsplash.jpg)');
+      $('#master').css('background-image', 'url(images/64_GSFC_20200211_PACE_06856.jpg)');
+    }).fadeTo('slow', 1);
+
+	$('.info_box_wrapper').css('visibility', 'visible');
+	$('#info_box_desc').html('<div class="info_box_title">SPACECRAFT DEVELOPMENT BEGINS</div><div class="info_box_date">November 2017</div><p>Spacecraft Development at Goddard Space Flight Center - The PACE spacecraft will be designed to accommodate the following key mission characteristics: A hyperspectral ocean color instrument and possible Multi-Angle Polarimeter; 2-day global coverage to solar and zenith angles of 75 degrees and 60 degrees; Sun-synchronous, polar orbit with a local Equatorial crossing time of around 1 PM; 676.5 kilometer altitude and 98 degree inclination; 3 years of operation; and 10 years of fuel.</p>');
+
+  });
+
+
+});
+
+		</script>
+	</div>
+
+</div>
+
+		</div> <!-- pace-content-item pace-timeline -->
+		<div class="grid-cols-2-item pace">
+		
+			<h2 style="margin-top: 0px;">The Upcoming PACE Mission</h2>
+
+			<p>PACE is NASA's <span style="font-weight: bold;"><u>P</u>lankton, <u>A</u>erosol, <u>C</u>loud, ocean <u>E</u>cosystem</span> mission, currently in the design phase of mission development. It is scheduled to launch in 2024, extending and improving NASA's over 20-year record of satellite observations of global ocean biology, aerosols (tiny particles suspended in the atmosphere), and clouds.</p>
+
+			<p>PACE will advance the assessment of ocean health by measuring the distribution of phytoplankton, tiny plants and algae that sustain the marine food web. It will also continue systematic records of key atmospheric variables associated with air quality and Earth's climate.</p>
+
+			<p>PACE has two fundamental science goals:
+				<ul>
+					<li>To extend key systematic ocean color, aerosol, and cloud data records for Earth system and climate studies.</li>
+					<li>To address new and emerging science questions using its advanced instruments, surpassing the capabilities of previous and current missions.</li>
+				</ul>
+
+			<p><a href="https://pace.oceansciences.org" target="_blank">Visit the PACE website</a></p>
+
+		</div>
+
+	</div> <!-- pace-content-grid -->
+
+</div> <!-- full-width-container -->
+
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+
+
+<div class="full-width-container">
+	<div class="footer-grid">
+		<div class="footer-item">
+			<div class="footer-title">ABOUT</div>
+			<div class="footer-links">
+				<!--<p><a href="" target="_blank">What We Do</a></p>-->
+				<p><a href="https://oceancolor.gsfc.nasa.gov/about/staff/">Our Team</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/about/contact/">Contact Us</a></p>
+			</div>
+
+			<div class="footer-title" style="margin-top: 40px;">DATA</div>
+			<div class="footer-links">
+				<p><a href="https://oceancolor.gsfc.nasa.gov/data/getting-started/">Get Started</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/data/find-data/">Find Data</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/data/use-data/">Use Data</a></p>
+			</div>
+
+			
+		</div>
+		<div class="footer-item">
+			<div class="footer-title">TOOLS</div>
+			<div class="footer-links">
+				<p><a href="https://seabass.gsfc.nasa.gov/" target="_blank">SeaBASS</a></p>
+				<p><a href="https://seadas.gsfc.nasa.gov/" target="_blank">SeaDAS</a></p>
+				<p><a href="https://giovanni.gsfc.nasa.gov/giovanni/" class="ext" target="_blank">Giovanni Data Visualizer</a></p>
+				<p><a href="https://worldview.earthdata.nasa.gov/" class="ext" target="_blank">Worldview Mapping Interface</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/cgi/l3bts" target="_blank">Level 3 Time Series Plotter</a></p>
+				<p><a href="https://uncw.edu/socon/request_image.html" target="_blank">Request a SeaHawk Image</a></p>
+				<p><a href="https://oceandata.sci.gsfc.nasa.gov/mqm/" target="_blank">Mission Quality Monitor</a></p>
+			</div>
+
+			
+
+		</div>
+		<div class="footer-item">
+			<div class="footer-title">HELP</div>
+			<div class="footer-links">
+				<p><a href="https://oceancolor.gsfc.nasa.gov/cgi/browse.pl?sen=amod" target="_blank">Level 1 & 2 Browser Help</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/l3/help/" target="_blank">Level 3 &amp; 4 Browser Help</a></p>
+				<p><a href="https://oceandata.sci.gsfc.nasa.gov/api/file_search_help/" target="_blank">File Search Help</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/data/download_methods/" target="_blank">Search & Download Help</a></p>
+				<p><a href="https://forum.earthdata.nasa.gov/viewforum.php?f=7&&DAAC=86&sid=9c4bae2136e93fa40cbf1f73f254ac3e" class="ext" target="_blank">Earthdata Forum</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/resources/mailing-lists/" target="_blank">Join Mailing List</a></p>
+				<p><a href="https://oceancolor.gsfc.nasa.gov/resources/how-to-cite/">How to Cite Data</a></p>
+			</div>
+			
+
+		</div>
+		<div class="footer-item">
+
+			<div class="footer-title">CONNECT WITH US</div>
+			<div class="social-media-icons">
+				<a href="https://twitter.com/NASAOcean" aria-label="View the Twitter page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-twitter" style="font-size: 2em; color: #dbdbdb;"></i></a> <a href="https://www.facebook.com/NASAOcean" aria-label="View the Facebook page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-facebook" style="font-size: 2em; color: #dbdbdb;"></i></a> <a href="https://www.instagram.com/nasaocean/" aria-label="View the Instagram page for NASA Ocean" target="_blank"><i class="fa-brands fa-square-instagram" style="font-size: 2em; color: #dbdbdb;"></i></a>
+			</div>
+
+			<div class="footer-title" style="margin-top: 40px;">COMPLIANCE</div>
+			<div class="footer-links"> 
+				<p><a class="ext" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Web Privacy Policy</a></p>
+				<p><a class="ext" href="https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/">Data &amp; Information Policy</a></p>
+				<p><a class="ext" href="https://www.nasa.gov/audience/formedia/features/communication_policy.html">Communications Policy</a></p>
+				<p><a class="ext" href="https://www.nasa.gov/FOIA/index.html">Freedom of Information Act</a></p>
+				<p><a class="ext" href="https://www.usa.gov/">USA.gov</a></p>
+			</div>
+
+			
+		</div>
+		
+		<div class="footer-item">
+			<div class="responsible-party-grid">
+				<div class="responsible-party-item">
+               
+               <a title="World Data System" href="https://worlddatasystem.org/"><img src="https://oceancolor.gsfc.nasa.gov/images/wds_logo-1.png" style="width: 55px; height: auto; background: white;"></a>
+               <a title="CoreTrustSeal" href="https://www.coretrustseal.org/"><img src="https://oceancolor.gsfc.nasa.gov/images/CoreTrustSeal-logo.jpg" style="width: 60px; height: auto; border: none;"></a>
+   
+            </div>
+				<div class="responsible-party-item">
+               Responsible NASA Official: <a href="https://science.gsfc.nasa.gov/sed/bio/sean.w.bailey" target="blank" style="color: #fafafa;">Sean Bailey</a>
+               <br>
+               Curator: <a href="mailto:webadmin@oceancolor.gsfc.nasa.gov" style="color:#fafafa;">OceanColor Webmaster</a>
+            </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
+

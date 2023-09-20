@@ -1,0 +1,11 @@
+GET https://webmail.nasa.gov
+
+
+< HTTP/1.1 302 Redirect
+< Content-Length: 157
+< Content-Type: text/html; charset=UTF-8
+< Location: https://outlook.office365.com/owa/
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:00:47 GMT

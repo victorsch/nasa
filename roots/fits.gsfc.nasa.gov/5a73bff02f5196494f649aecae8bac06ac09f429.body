@@ -1,0 +1,241 @@
+<HTML>
+<HEAD>
+<TITLE>FITS Support Office</TITLE>
+<link rel="StyleSheet" HREF="fits_style.css" type="text/css">
+<script id="fed_an_js_tag" type="text/javascript" src="http://asd.gsfc.nasa.gov/scripts/Federated-Analytics.js?agency=NASA">
+<!-- Google Analytics -->
+</script>
+</HEAD>
+
+<body>
+<blockquote>
+<center>
+<img SRC="https://fits.gsfc.nasa.gov/FITSlogo.gif" ALT="FITS The Astronomical Image and Table Format" height=180
+width=720 align="top">
+
+<HR width=720>
+<font size="2">
+<table bgcolor="#f0f0f0" border="0" cellpadding="0" cellspacing="0" width="720" align="center">
+
+
+<td align="center" width="720">
+<font size=2>
+ <a href="http://fits.gsfc.nasa.gov/fits_home.html" style="text-decoration:none;">Home</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_verify.html" style="text-decoration:none;">Verifier</a> |
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_news.html" style="text-decoration:none;">News</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_documentation.html" style="text-decoration:none;">Docs</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_wcs.html" style="text-decoration:none;">WCS</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_samples.html" style="text-decoration:none;">Samples</a> | 
+
+<td align="center" width="750">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_libraries.html" style="text-decoration:none;">Libraries</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_viewer.html" style="text-decoration:none;">Viewers</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_utility.html" style="text-decoration:none;">Utilities</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_dictionary.html" style="text-decoration:none;">Keywords</a>  | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_conventions.html" style="text-decoration:none;">Conventions</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_resources.html" style="text-decoration:none;">Resources</a>
+
+</table>
+</font>
+<HR width="720">
+
+<!-- DO NOT DELETE THIS FILE. IF YOU DO, YOU'LL GET AN ERROR ON YOUR WEB PAGES. -->
+<!-- THE MASTER FILE RESIDES AT /universe/htdocs/universe/downtime.inc -->
+<!-- THAT FILE SHOULD BE EDITED TO COMMENT OUT THE CONTENT WHEN IT'S NOT NEEDED. -->
+<!--
+<div align="center">
+<table style="border: 2px solid black; background-color:white; color: black;padding:5px;width:80%">
+<tr><td align="center">
+<span style="font-size: 12pt;">There will be a network outage, Wednesday May 2, 2018 from 19:00 EDT - 23:59 EDT. All services, web sites, and systems that require access to the internet will be affected by this work.</span>
+</td></tr>
+</table>
+</div>
+<br>
+-->
+
+
+
+<H1>The FITS Support Office</h1>
+<H2> at NASA/GSFC </h2>
+</center>
+
+<h2>What is FITS?</h2>
+<UL>
+<li> The standard data format used in astronomy
+<li> Stands for 'Flexible Image Transport System'
+<li> Endorsed by NASA and the 
+<a href="iaufwg/iaufwg.html">
+International Astronomical Union</a>
+<li> Much more than just another image format (such as JPEG or GIF)
+<li> Used for the transport, analysis, and archival storage of scientific data sets
+<ul>  
+  <li> Multi-dimensional arrays: 1D spectra, 2D images, 3D+ data cubes
+  <li> Tables containing rows and columns of information
+  <li> Header keywords provide descriptive information about the data
+  <li> Supports state-of-the-art data compression methods
+</ul>
+<li> See also the descriptions on the
+<a href="http://en.wikipedia.org/wiki/FITS">Wikipedia</a> and
+<a href="http://www.digitalpreservation.gov/formats/fdd/fdd000317.shtml">Library
+of Congress</a> Web sites.
+</ul>
+
+<h2>Online FITS format Verifier</h2>
+<ul>
+<li>
+<a href="fits_verify.html">Test</a> whether a FITS file conforms to the FITS
+format requirements
+</ul>
+
+<h2>Information about FITS</h2>
+
+<ul>
+<li>
+<a href="fits_news.html">News</a>: latest news regarding FITS
+<li>
+<a href="fits_documentation.html">Documentation</a>:
+  user's guides, definition documents and other FITS papers
+<li>
+<a href="fits_wcs.html">World Coordinate System</a> (WCS) documents and software
+
+<li>
+<a href="fits_samples.html">Sample</a> FITS files
+<li>
+<a href="fits_libraries.html">FITS I/O libraries</a> to read and write FITS files from various
+computer languages
+<li>
+<a href="fits_viewer.html">FITS image viewers</a> and image format converters
+<li>
+<a href="fits_utility.html">General FITS Utility software</a> including a
+<a href="fits_verify.html">FITS conformance verifier</a>
+<li>
+<a href="fits_dictionary.html">FITS keyword data dictionaries</a> which define existing keyword usage
+<li>
+<a href="fits_conventions.html">FITS conventions</a> used within the FITS community.
+<li>
+<a href="fits_resources.html">Other FITS resources</a> - newsgroups, web sites, 
+and the <a href="iaufwg/iaufwg.html">
+IAU FITS Working Group</a>
+
+</ul>
+
+<HR width=720>
+<font size="2">
+<table bgcolor="#f0f0f0" border="0" cellpadding="0" cellspacing="0" width="720" align="center">
+
+
+<td align="center" width="720">
+<font size=2>
+ <a href="http://fits.gsfc.nasa.gov/fits_home.html" style="text-decoration:none;">Home</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_verify.html" style="text-decoration:none;">Verifier</a> |
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_news.html" style="text-decoration:none;">News</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_documentation.html" style="text-decoration:none;">Docs</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_wcs.html" style="text-decoration:none;">WCS</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_samples.html" style="text-decoration:none;">Samples</a> | 
+
+<td align="center" width="750">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_libraries.html" style="text-decoration:none;">Libraries</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_viewer.html" style="text-decoration:none;">Viewers</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_utility.html" style="text-decoration:none;">Utilities</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_dictionary.html" style="text-decoration:none;">Keywords</a>  | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_conventions.html" style="text-decoration:none;">Conventions</a> | 
+
+<td align="center" width="720">
+<font size=2>
+<a href="http://fits.gsfc.nasa.gov/fits_resources.html" style="text-decoration:none;">Resources</a>
+
+</table>
+</font>
+<HR width="720">
+
+<!-- DO NOT DELETE THIS FILE. IF YOU DO, YOU'LL GET AN ERROR ON YOUR WEB PAGES. -->
+<!-- THE MASTER FILE RESIDES AT /universe/htdocs/universe/downtime.inc -->
+<!-- THAT FILE SHOULD BE EDITED TO COMMENT OUT THE CONTENT WHEN IT'S NOT NEEDED. -->
+<!--
+<div align="center">
+<table style="border: 2px solid black; background-color:white; color: black;padding:5px;width:80%">
+<tr><td align="center">
+<span style="font-size: 12pt;">There will be a network outage, Wednesday May 2, 2018 from 19:00 EDT - 23:59 EDT. All services, web sites, and systems that require access to the internet will be affected by this work.</span>
+</td></tr>
+</table>
+</div>
+<br>
+-->
+
+
+
+<font size="2">
+<ADDRESS>
+<B>Last revised:</B> Monday, 03-Apr-2023 13:56:16 EDT<br>
+<B>Contact us:</B> fits @ fits.gsfc.nasa.gov<br>
+<B>Hosted by:</B> The <A HREF="http://heasarc.gsfc.nasa.gov/">HEASARC</A>
+ (High Energy Astrophysics Science Archive Research Center)<br>
+<B>Responsible NASA representative:</B> Dr. Tess Jaffe
+</ADDRESS>
+
+<A HREF="http://heasarc.gsfc.nasa.gov/banner.html">Privacy, Security & Accessibility Statements</a>.
+
+
+
+</blockquote>
+</BODY>
+</HTML>

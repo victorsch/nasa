@@ -1,0 +1,15 @@
+GET https://sbir.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< Content-Security-Policy: frame-ancestors 'self' nasa-sbir-homepage-staging-web.reisys.com;
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=31536000
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:00:41 GMT
+< Cache-Control: no-cache, must-revalidate
+< X-Ua-Compatible: IE=edge,chrome=1

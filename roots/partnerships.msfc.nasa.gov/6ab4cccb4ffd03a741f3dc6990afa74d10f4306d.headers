@@ -1,0 +1,15 @@
+GET https://partnerships.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:02:49 GMT
+< Location: https://www.nasa.gov/partnerships/marshall
+< Server: goredirect/2013.08.12
+< Strict-Transport-Security: max-age=31536000
+< X-Last-Reviewed: Thu, 14 July 2016
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: JFK52-P3
+< Content-Type: text/html; charset=utf-8
+< X-Amz-Cf-Id: CUjG-PaBR5_sdqPR7TTiYZdydDgEVsV9hIB9pWED16mm-2dpKkCREQ==
+< Via: 1.1 a410463cf33c032bf74ee26bf94b81b2.cloudfront.net (CloudFront)
+< Content-Length: 77

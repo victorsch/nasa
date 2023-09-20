@@ -1,0 +1,12 @@
+GET http://materials.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://materials.gsfc.nasa.gov/
+< Content-Length: 240
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:02:26 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Content-Type: text/html; charset=iso-8859-1

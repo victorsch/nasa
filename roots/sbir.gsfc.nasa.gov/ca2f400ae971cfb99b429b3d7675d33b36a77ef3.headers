@@ -1,0 +1,9 @@
+GET http://sbir.gsfc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:00:40 GMT
+< Server: Apache
+< Location: https://sbir.gsfc.nasa.gov/
+< Content-Length: 211
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,9 @@
+GET http://cor1.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 235
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:54:02 GMT
+< Server: Apache
+< Location: https://cor1.gsfc.nasa.gov/

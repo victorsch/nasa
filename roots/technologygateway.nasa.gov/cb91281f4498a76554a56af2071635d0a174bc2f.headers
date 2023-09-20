@@ -1,0 +1,13 @@
+GET http://technologygateway.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Server: CloudFront
+< Content-Length: 167
+< Location: https://technologygateway.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 29cb8c298da4d2ced72495e99456ecc8.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: E83XodmhSPaqQEw4i8geIK_S5PPFkyAkEy2v-au8EuAbFEAng0dAmw==
+< Date: Tue, 19 Sep 2023 06:05:44 GMT

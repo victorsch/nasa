@@ -1,0 +1,381 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+
+<head>
+<title>LineUp With Math Simulator!</title>
+<meta name="dc.title" content="Welcome to Smart Skies Air Traffic Control Simulator!">
+<meta name="dc.format" content="text/html">
+<meta name="dc.date.modified" content="2004-12-22">
+<meta name="dc.format" content="text/html">
+<meta name="dc.language" content="en">
+<meta name="dc.publisher" content="Jeffrey Simmons">
+<meta name="dc.description" content="LineUp With Math Simulator: On-Line Distance-Rate-Time Problems in Air Traffic Control (ATC) for Grades 5-9.">
+<meta name="dc.identifier" content="http://www.atcsim.nasa.gov/">
+<meta name="dc.contributor" content="Jeffrey Simmons : ARC">
+<meta name="dc.subject.mission" content="Airspace, Aerospace">
+<meta name="dc.subject" content="NASA, NASA lesson plan, NASA instructional materials, 5-8 education, middle school education, 9-12 education, high school education, grades 5-9, 5th grade, 6th grade, 7th grade, 8th grade, 9th grade, NASA education, NASA careers, careers at NASA, trading cards, female role models, careers, Distance rate time problems, Distance-rate-time problems, Smart Skies, FlyBy Math, Fly By Math, FlyByMath, LineUp With Math, Line Up With Math, air traffic control, air traffic, controller, pilot, speed, air speed, aviation, aeronautics, airplanes, planes, instruction, educator, game, teaching, education, groups, teacher guide, educator guide, student workbook, air route, intersection, conflict, separation, spacing, sector, sector diagram, nautical mile, knot, knots, sector 33, air route, route, ideal spacing, safe spacing, minimum separation, flight plan, route change, speed change, change, airspace systems, FAA, NATCA, NCTM, NSES, Science Content, Mathematics Standards and Expectations, National Council of Teachers of Mathematics, standards-based, Alignment, Algebra, Problem Solving, Decision-Making, Decision Making, Proportional Reasoning, Communications, Connections, Representation, Measurement, formula, plot, graph, table, calculation, merging, analysis, analyze, experiment, inquiry, percent, per cent, units, conversion, record, diagram, predict, prediction, scientist, engineer, headstart, head start, collision, violation, safe, safety, pattern, rate, math methods, mathematical methods, SmartSkies, Flight Math, FlightMath, Fly Math, FlyMath, Plane Math, PlaneMath, Sky Math, SkyMath, Airplane Math, Just Plane Math, Prealgebra, Pre-algebra, math curriculum, jet route, NASA math, middle school math, high school math, math activity, math activities, math, linear motion, uniform motion, linear, uniform, Simulator, proportional reasoning, decision-making, fly-in, flyin, jet route, computer, workshop, demonstration, demo, professional development, teacher training, NSTA, NECC, EAA, CAP, KidVenture, Kid Venture" >
+<meta name="dc.subject.organization" content="Ames Research Center (arc)">
+<meta name="dc.audience" content="Educators, Teachers, Students, Kids, Parents, Press and Media">
+<meta name="dc.audience.level" content="Grades 5 - 9">
+<meta name="dc.subject.discipline" content="Airspace, Aerospace">
+
+<link href="css/ss.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+body {
+	background-color: #000000;
+}
+.style8 {color: #FF0000}
+.style9 {font-weight: bold; font-size: 24px;}
+.style10 {color: #C23430}
+.style11 {
+	font-weight: bold;
+	font-size: 24px;
+	color: #C23430;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: -90px;
+	padding-left: 0px;
+}
+.style12 {font-size: 20px}
+.style15 {
+	color: #C23430;
+	font-size: 14px;
+}
+.style16 {font-size: 14px; }
+.style17 {font-size: 18px; }
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function loadGame() {
+	
+ var left = (screen.width/2)-(w/2);
+  var top = (screen.height/2)-(h/2);
+  var w = '924px';
+  var h = '668px';
+	window.open('simulator/sim2/sector33.html','Sector 33 CE','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=974px, height=668px, top='+top+', left='+left);
+
+}
+
+//-->
+</script>
+</head>
+<body onLoad="MM_preloadImages('images/fly_by_nav_over_01.jpg','images/fly_by_nav_over_02.jpg','images/fly_by_nav_over_03.jpg','images/fly_by_nav_over_04.jpg','images/fly_by_nav_over_05.jpg','images/fly_by_nav_over_06.jpg')">
+
+<table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+    <tr>
+      <td width="790" height="10" valign="top"><img src="images/shim.gif" alt=" " width="1" height="10" border="0"></td>
+    </tr>
+</table>
+  <table width="790" border="0" align="center" cellpadding="0" cellspacing="0" summary="table for layout">
+    <tr>
+      <td width="30" height="10" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+      <td width="730" height="10" valign="top" bgcolor="#FFFFFF"><img src="images/shim.gif" alt=" " height="10" border="0"></td>
+      <td width="30" height="10" valign="top"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+    </tr>
+</table>
+
+  <div align="center">
+    <table width="790" border="0" cellspacing="0" cellpadding="0" summary="table for layout">
+      <tr>
+        <td height="65" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+        <td width="95" height="65" valign="top" bgcolor="#CCCCCC"><a href="http://www.nasa.gov" target="_blank"><img src="images/meatball_top.gif" alt="NASA" width="95" height="65" border="0"></a></td>
+        <td width="185" height="65" valign="top" bgcolor="#CCCCCC"><img src="images/ames.gif" alt="Ames Research Center" width="185" height="65" border="0"></td>
+        <td width="104" height="65" valign="top" bgcolor="#CCCCCC"><img src="images/divider.gif" alt=" " width="104" height="65" border="0"></td>
+        <td width="168" height="65" align="left" bgcolor="#CCCCCC"><a href="http://www.nasa.gov" target="_blank" class="navLnkBlack">+ View the NASA portal</a></td>
+        <td width="178" height="65" valign="top"><a href="acce.html" target="_blank"><img src="images/access.gif" alt="Site Accessibility Notes" width="178" height="65" border="0"></a></td>
+        <td width="30" height="65" valign="top" ><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+      </tr>
+    </table>
+    
+  
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" height="91" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+      <td width="730" height="91" valign="top" bgcolor="#FFFFFF"><a href="index.html"><img src="images/int/atc_logo.gif" alt="ATC logo" width="589" height="100" align="right"></a><a href="index.html"><img src="images/ss_logo.gif" alt="Smart Skies Logo" width="134" height="100" border="0" align="left"></a> </td>
+
+        <td width="30" height="91" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+      </tr>
+    </table>
+    
+    
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="30" height="38" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+        <td width="104" valign="top" bgcolor="#FFFFFF"><a href="javascript:openWindow('vid2.html','videos','height=260,width=500,toolbar=no,scrollbars=no,resizable=yes');" onMouseOver="changeImages('image5','image5on');" onMouseOut="changeImages('image5','image5off');" title="Access Quicktime video clips"></a><a href="videos.html"><img src="images/fly_by_nav_01.jpg" alt="Vids" name="vids" width="104" height="38" border="0" onMouseOver="MM_swapImage('vids','','images/fly_by_nav_over_01.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+
+      <td width="103" valign="top" bgcolor="#FFFFFF"><a href="http://nasajobs.nasa.gov/" target="_blank"><img src="images/fly_by_nav_02.jpg" alt="Careers" name="Image51" width="103" height="38" border="0" onMouseOver="MM_swapImage('Image51','','images/fly_by_nav_over_02.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td width="86" valign="top" bgcolor="#FFFFFF"><a href="http://www.nasa.gov/sector33 " target="_blank"><img src="images/fly_by_nav_03.jpg" alt="ATC Mobile App Game" name="Image52" width="86" height="38" border="0" onMouseOver="MM_swapImage('Image52','','images/fly_by_nav_over_03.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td width="140" valign="top" bgcolor="#FFFFFF"><a href="demo.html"><img src="images/fly_by_nav_04.jpg" alt="Download Demo Version" name="Image53" width="152" height="38" border="0" onMouseOver="MM_swapImage('Image53','','images/fly_by_nav_over_04.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td width="158" valign="top" bgcolor="#FFFFFF"><a href="simulator/save/index.html" target="_blank"><img src="images/fly_by_nav_05.jpg" alt="Sim WIth Save Option" name="Image54" width="157" height="38" border="0" onMouseOver="MM_swapImage('Image54','','images/fly_by_nav_over_05.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td width="127" valign="top" bgcolor="#FFFFFF"><a href="contact.html"><img src="images/fly_by_nav_06.jpg" alt="Contact Us" name="Image55" width="128" height="38" border="0" onMouseOver="MM_swapImage('Image55','','images/fly_by_nav_over_06.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="30" height="1" border="0"></td>
+      </tr>
+    </table>
+    
+      <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="30" height="15" border="0"></td>
+        <td width="730" valign="top" bgcolor="#FFFFFF"><div align="center" class="style11">
+          <p class="style8">
+          <img src="images/shim.gif" alt=" " width="1" border="0"> <span class="style11">Be
+            an Air Traffic Controller!</span><br>
+          </p>
+        </div></td>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="30" height="15" border="0"></td>
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30"  valign="top" bgcolor="#000000"><img src="images/shim.gif" alt=" " width="30" height="3" border="0"></td>
+        <td width="362" height="191" valign="middle" bgcolor="#FFFFFF">
+
+	<a href="#" onclick="loadGame();"><img src="images/Screen.jpg" alt="Go to The Air Traffic Control Simulator" style="margin-left: 50px;" name="ATC Simulator Screenshot" width="230" height="168" border="0"></a>    
+       </td>
+
+      <td width="368" align="left" bgcolor="#FFFFFF">
+          
+            <h1 class="style12"><a  href="#" onclick="loadGame();">Try the newly updated Sector 33 ATC Simulator</a></h1>
+            <ul>
+              <li class="style12">Computer-based</li>
+              <li class="style12">2-5 airplane problems</li>
+            </ul>
+            <p class="style12"><a href="http://www.atcsim.nasa.gov/simulator/index.html" target="_blank">or click here for the original Java-based Sector 33 ATC Simulator</a></p>
+       
+        <p>&nbsp;</p></td>
+
+      <td width="30" height="191" valign="top"><img src="images/shim.gif" alt=" " width="30" height="8" border="0"></td>
+  <!--       <td width="3" valign="top"></td> -->
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="20" height="20" border="0"></td>
+        <td width="730"  valign="top" bgcolor="#FFFFFF"><img src="images/shim.gif" alt=" " width="1"border="0"><img src="images/firsttimehorzline.gif" alt="First Time? Title" width="724" height="20"></td>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="20" height="15" border="0"></td>
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30"  valign="top" bgcolor="#000000"><img src="images/shim.gif" alt=" " width="30" border="0"></td>
+        <td width="51" height="119" valign="top" bgcolor="#FFFFFF">
+
+</td>
+  <td width="260" height="119" valign="middle" bgcolor="#FFFFFF"><div align="left" class="bold style5">
+    <div align="center" class="style17">Start here      </div>
+  </div>
+    <ul class="style16">
+      <li class="style10">
+        <div align="left" class="style5">
+          <div align="left"><a href="../questvideos/24hrs.html" target="_blank">&quot;24 Hours of Flight&quot; video</a></div>
+        </div>
+      </li>
+        </ul>
+
+          <ul class="style16">
+      <li class="style10">
+        <div align="left" class="style5">
+          <div align="left"><a href="../questvideos/sector33.html" target="_blank">&quot;Welcome to Sector
+            33&quot; video</a></div>
+        </div>
+      </li>
+        </ul>
+
+        <ul>
+          <li class="style10">
+            <div align="left" class="style5">
+              <div align="left"><span class="style16"><a href="goal.html" target="_blank">What's the Goal?</a></span></div>
+            </div>
+          </li>
+        </ul>        <div align="center"></div></td>
+	    <td width="51" height="119" valign="top" bgcolor="#FFFFFF"><div align="center"> </div></td>
+        <td width="329" height="119" align="left"  valign="top" bgcolor="#FFFFFF"><div align="left" class="bold style5">
+          <div align="center" class="style17">Learn more          </div>
+        </div>
+        <ul >
+  <li class="style15">
+    <div align="left"><span class="style5"><a href="docs/ATC_Simulator_Print_User_Guide.pdf" target="_blank">Simulator
+      Quick Start Guide </a> <span class="style6">(480
+        KB PDF)</span></span></div>
+          </li>
+          </ul>
+          <ul>
+  <li class="style10">
+    <div align="left" class="style5">
+      <div align="left"><span class="style16"><a href="simulator_tutorial/index.html" target="_blank">Animated Simulator Tutorial </a></span></div>
+    </div>
+  </li>
+          </ul>
+        <p>&nbsp;</p></td>
+	  <td width="39" height="119" valign="top" bgcolor="#FFFFFF"><div align="center"> </div></td>
+        <td width="30" height="119" valign="top"><img src="images/shim.gif" alt=" " width="30" height="8" border="0"></td>
+  <!--       <td width="3" valign="top"></td> -->
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" height="13" valign="top"><img src="images/shim.gif" alt=" " width="20" height="9" border="0"></td>
+        <td width="730" valign="top" bgcolor="#FFFFFF"><img src="images/shim.gif" alt=" " width="1"  border="0"><img src="images/horzline.gif" alt="Horizontal Line" width="724" height="9" align="top"></td>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="20" height="11" border="0"></td>
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" height="91" valign="top">&nbsp;</td>
+	    <td width="10" height="91" valign="top" bgcolor="#FFFFFF"></td>
+        <td width="720" height="91" valign="top" bgcolor="#FFFFFF">
+          <p align="center" class="style7"><strong>Technical Requirements
+            and Troubleshooting</strong></p>
+          <p align="left"><span class="style6"><strong>Operating Systems:&nbsp;&nbsp; </strong>Windows
+            7 or higher, Mac OS 10.8 or higher</span></p>
+          <blockquote>
+            <p align="left" class="style6">Browsers:<strong>&nbsp;&nbsp;&nbsp; </strong>Internet
+              Explorer 10 or higher, Safari 6 or higher, Firefox 31or higher, Chrome 36 or higher</p>
+          </blockquote>
+          <p align="left" class="style7">&nbsp;</p>
+          <p align="center" class="style7"><strong>Original Java-based Simulator</strong></p>
+          <p align="left"><span class="style6"><strong>PC Operating Systems:&nbsp;&nbsp; </strong>Windows
+            XP, Windows 2000, Windows ME, Windows 98SE</span></p>
+          <blockquote><p align="left" class="style6">Browsers:<strong>&nbsp;&nbsp;&nbsp; </strong>Internet
+              Explorer v.5.5 or higher or
+              Mozilla Firefox v1.4 or higher</p>
+            <p align="left" class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Caution:&nbsp; The
+              Simulator may not work with other browsers such as MSN.</em></p>
+            <p align="left" class="style6">Java<strong>: </strong>Version 1.4.2 or higher</p>
+            <p align="left" class="style6"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              If the Simulator will not open, <a href="version/index.html" target="_blank">click
+                here</a> to check</em                > <em>your
+            Java version and download a free upgrade.</em></p>
+          </blockquote>
+          <p align="left" class="style6"><strong>MAC Operating Systems</strong>:&nbsp; OS-X
+            v10.2 or higher</p>
+          <div align="left">
+            <blockquote>&nbsp; </blockquote>
+          </div>
+          <blockquote><p align="left" class="style6">Browser:&nbsp; Safari ONLY
+            
+            </p>
+            <p align="left" class="style6">Java:<em> If
+              the Simulator will not open, be sure that Java is enabled in your
+              browser <br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ndash;</em><em>&nbsp;From
+                the Safari dropdown menu, click &ldquo;Preferences&hellip;&rdquo;. <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ndash; In the new window, click the &ldquo;Security&rdquo; icon.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Make
+            sure there is a check in the box &ldquo;Enable Java&rdquo;.</em></p>
+          </blockquote>
+        <p>&nbsp;</p>      </td>
+      <td width="30"></td>    </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" height="63" valign="top" >&nbsp;</td>
+        <td width="19" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+        <td width="11" valign="top" bgcolor="#FFFFFF">&nbsp;</td>
+        <td width="700" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext">
+          <table width="684" border="0" cellspacing="0">
+            <tr>
+              <th width="230" height="67" scope="col"><div align="right">
+                <table width="230" border="1" cellspacing="0">
+                  <tr>
+                    <th scope="col"><a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank"><img src="images/adobe.gif" alt="Get Adobe Reader" width="88" height="31" border="0" align="left"></a></th>
+                  <th scope="col"><div align="left"><a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">In
+                    order to read the downloadable materials, you will need Adobe
+                    Reader.</a></div></th>
+                </tr>
+                </table>
+              </div></th>
+            <th width="19" scope="col">&nbsp;</th>
+            <th width="178" scope="col"><table width="173" border="1" cellspacing="0">
+              <tr>
+                <th width="56" scope="col"><a href="http://www.apple.com/quicktime/download" target="_blank"><img src="images/Quicktime.gif" alt="Download Quicktime" width="50" height="63" border="0" align="left"></a></th>
+                <th width="136" scope="col"><div align="left"><a href="http://www.apple.com/quicktime/download" target="_blank">The
+                  videos require Quicktime.</a></div></th>
+              </tr>
+              </table>          </th>
+            <th width="14" scope="col">&nbsp;</th>
+            <th width="233" scope="col"><div align="right">
+              <table width="230" border="1" cellspacing="0">
+                <tr>
+                  <th scope="col"><a href="http://www.adobe.com/products/flashplayer/" target="_blank"><img src="images/flash.gif" alt="Download Flash player" width="50" height="55" border="0" align="left"></a></th>
+                  <th scope="col"><div align="left"><a href="http://www.adobe.com/products/flashplayer/" target="_blank">The
+                    animated instruction for the Simulator requires Flash. </a></div></th>
+                </tr>
+                </table>
+              </div></th>
+          </tr>
+        </table></td>
+        <td width="30" valign="top"></td></tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+        <td width="135" valign="top" bgcolor="#CCCCCC"><a href="http://www.firstgov.gov" target="_blank"><img src="images/firstgov.gif" alt="FirstGov" width="135" height="54" border="0"></a><br>
+        <a href="http://as.nasa.gov/" target="_blank"></a></td>
+        <td width="286" align="left" valign="top" bgcolor="#CCCCCC" class="light"><p><br><a href="http://www.aeronautics.nasa.gov/programs_asp.htm" target="_blank" class="footerLnk" title="NASA Airspace Systems">+ NASA Airspace
+          Systems</a><br>
+          <a href="http://www.arc.nasa.gov/" target="_blank" class="footerLnk" title="NASA Ames">+ NASA Ames</a><br>
+          <a href="http://education.arc.nasa.gov/" target="_blank" class="footerLnk" title="NASA Ames Education">+ NASA Ames Education</a><br>
+          <a href="http://education.nasa.gov/" target="_blank" class="footerLnk" title="NASA Education">+ NASA Education</a></p>
+        </td>
+        <td width="45" valign="top" bgcolor="#CCCCCC"><img src="images/shim.gif" alt=" " width="45" height="1" border="0"></td>
+        <td width="58" valign="top" bgcolor="#CCCCCC"><img src="images/meatball_foot.gif" alt="NASA" width="58" height="54" border="0"></td>
+        <td width="186" align="left" valign="top" bgcolor="#CCCCCC" class="light"><br>
+Curator: <a href="mailto:maria.a.chambers@nasa.gov?Subject=ATCSIM%20Info" target="_top">Maria Chambers</a>
+<br>
+NASA Official: <a href="mailto:jonas.dino@nasa.gov?Subject=ATCSIM%20Info" target="_top">Jonas Dino</a>
+<br>
+
+Last Updated: Nov 2015<br>
+
+<a href="contact.html">+
+        Contact Us</a></td>
+        <td width="20" valign="top" bgcolor="#CCCCCC"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+        <td width="30" valign="top"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+      </tr>
+    </table>
+    <table width="790" border="0" cellpadding="0" cellspacing="0" summary="table for layout">
+      <tr>
+        <td width="30" height="10" valign="top"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+        <td width="730" height="10" valign="top" bgcolor="#CCCCCC"><div align="center"><a href="#" class="footerLnk" title="Site Disclaimer">Site
+            Disclaimer</a> This web site conforms to the <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank" class="footerLnk" title="NASA User Privacy Policy">NASA
+            User Privacy Policy</a>. Site sponsored by <a href="http://as.nasa.gov/" target="_blank" class="footerLnk" title="Airspace Systems">Airspace
+        Systems</a>.</div></td>
+        <td width="30" height="10" valign="top"><img src="images/shim.gif" alt=" " width="20" height="1" border="0"></td>
+      </tr>
+    </table>
+  </div>
+  <p>&nbsp;</p>
+<p></p>
+</body>
+</html>

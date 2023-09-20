@@ -1,0 +1,11 @@
+GET https://polargateways2008.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:54:17 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: frame-ancestors 'self' *.gsfc.nasa.gov;
+< Location: https://spdf.gsfc.nasa.gov/research/polargateways2008/
+< Content-Length: 262

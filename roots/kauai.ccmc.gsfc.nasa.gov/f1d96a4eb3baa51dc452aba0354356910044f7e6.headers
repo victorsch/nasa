@@ -1,0 +1,9 @@
+GET http://kauai.ccmc.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://kauai.ccmc.gsfc.nasa.gov/
+< Content-Length: 241
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:27 GMT
+< Server: Apache

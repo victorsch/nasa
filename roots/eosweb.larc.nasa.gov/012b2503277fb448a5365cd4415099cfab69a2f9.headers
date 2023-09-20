@@ -1,0 +1,19 @@
+GET https://eosweb.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:01:56 GMT
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Content-Length: 29068
+< Cache-Control: no-cache, no-store, must-revalidate
+< Set-Cookie: a0c178f09d897d0c82e3fa828e3480e0=433f4f0beec4630e20aa5345574d6872; path=/; HttpOnly; Secure; SameSite=None
+< Pragma: no-cache
+< Expires: 0
+< Server: gunicorn
+< X-Frame-Options: DENY
+< X-Frame-Options: DENY
+< Vary: Cookie
+< Referrer-Policy: same-origin

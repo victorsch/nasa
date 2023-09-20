@@ -1,0 +1,12 @@
+GET https://sdo4.nascom.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Wed, 14 Nov 2012 19:17:30 GMT
+< Etag: "c001e-40d-4ce7962c23eb5"
+< Content-Length: 1037
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:59:27 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

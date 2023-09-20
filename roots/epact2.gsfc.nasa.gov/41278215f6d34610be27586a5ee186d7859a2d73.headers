@@ -1,0 +1,12 @@
+GET https://epact2.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: WebServer/1.0
+< Accept-Ranges: bytes
+< Content-Length: 7461
+< Content-Security-Policy: upgrade-insecure-requests
+< Date: Tue, 19 Sep 2023 05:59:01 GMT
+< X-Frame-Options: sameorigin
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

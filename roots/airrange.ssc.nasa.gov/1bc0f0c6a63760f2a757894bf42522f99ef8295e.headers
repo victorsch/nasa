@@ -1,0 +1,20 @@
+GET https://airrange.ssc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Set-Cookie: ASP.NET_SessionId=iauvunjmchuzmrges0gs1yv4; path=/; HttpOnly; SameSite=Lax; Secure
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< Location: /WarningBanner/
+< Server: 
+< X-Aspnetmvc-Version: 
+< X-Frame-Options: SameOrigin
+< Permissions-Policy: camera=(), display-capture=(), geolocation=(), microphone=(), payment(), picture-in-picture=(), web-share=()
+< Date: Tue, 19 Sep 2023 05:57:28 GMT
+< X-Aspnet-Version: 
+< Content-Security-Policy: frame-ancestors 'self' https://nasa.sharepoint.com
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: no-referrer
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Length: 132

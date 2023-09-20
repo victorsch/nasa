@@ -1,0 +1,9 @@
+GET http://espoarchive.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:06:41 GMT
+< Server: Apache
+< Location: https://espoarchive.nasa.gov/
+< Content-Length: 237
+< Content-Type: text/html; charset=iso-8859-1

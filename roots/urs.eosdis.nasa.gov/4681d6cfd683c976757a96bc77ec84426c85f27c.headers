@@ -1,0 +1,9 @@
+GET https://urs.eosdis.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Connection: close
+< Content-Length: 0
+< Location: https://urs.earthdata.nasa.gov/
+< Strict-Transport-Security: max-age=31536000
+< Server: BigIP

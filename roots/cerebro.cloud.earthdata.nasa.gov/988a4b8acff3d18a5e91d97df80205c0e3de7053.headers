@@ -1,0 +1,24 @@
+GET https://cerebro.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Request-Id: PCCYh_Zs2ea3LN3kAaapLczXyp4ml9YzIV0D3RUNzgcT56uO8o35kA==
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Cf-Id: PCCYh_Zs2ea3LN3kAaapLczXyp4ml9YzIV0D3RUNzgcT56uO8o35kA==
+< Content-Type: text/html
+< Date: Tue, 19 Sep 2023 05:41:28 GMT
+< Etag: "c39cff2e1ae32af8182119d7e2430477"
+< X-Content-Type-Options: nosniff
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< Content-Length: 3983
+< Vary: Accept-Encoding
+< X-Amz-Id-2: 44haRBOr3Lz7YbCsUqlWjkVl3AomMmEjAX/lBL05U09dhd25sPrtS7odCE0CA3ETYcrSJUBffcc=
+< X-Amz-Request-Id: FX592MMDP8F1YKCH
+< Last-Modified: Tue, 25 Jul 2023 16:39:19 GMT
+< X-Amz-Server-Side-Encryption: AES256
+< Accept-Ranges: bytes
+< Server: ServerTokens ProductOnly
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 a3553fd14d7dc73d33a5426ee64abf1c.cloudfront.net (CloudFront)

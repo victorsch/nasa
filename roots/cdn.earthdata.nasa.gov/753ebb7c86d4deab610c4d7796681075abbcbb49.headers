@@ -1,0 +1,13 @@
+GET https://cdn.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Last-Modified: Thu, 10 Dec 2020 02:00:43 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET
+< Date: Tue, 19 Sep 2023 05:41:20 GMT
+< Server: Apache
+< Content-Length: 2247

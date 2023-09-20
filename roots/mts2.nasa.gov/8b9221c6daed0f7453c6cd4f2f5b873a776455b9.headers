@@ -1,0 +1,8 @@
+GET http://mts2.nasa.gov
+
+
+< HTTP/1.1 303 See Other
+< Cache-Control: no-cache
+< Location: https://mts2.nasa.gov/
+< Content-Length: 0
+< Content-Type: text/html

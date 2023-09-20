@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Earthdata Forum - Home</title>
+
+<!-- Uploading Earthdata UI Library -->
+<!-- https://cdn.earthdata.nasa.gov/eui/latest/docs/index.html -->
+<!-- Most recent compiled and tested CSS -->
+<link href="https://cdn.earthdata.nasa.gov/eui/1.1.7/stylesheets/application.css" rel="stylesheet" />
+
+<!-- Reference JQuery before eui.js-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript-->
+<script src="https://cdn.earthdata.nasa.gov/eui/1.1.7/js/eui.js"></script>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - Earthdata Forum" href="/app.php/feed?sid=0f7a1bed89f1926571fb8329b863e057">			<link rel="alternate" type="application/atom+xml" title="Feed - New Questions" href="/app.php/feed/topics?sid=0f7a1bed89f1926571fb8329b863e057">				
+
+<!--
+	phpBB style name: asdc
+	Based on style:   prosilver (this is the default phpBB3 style)
+-->
+
+<!-- CSS files from prosilver  -->
+<link href="/styles/prosilver/theme/stylesheet.css?assets_version=113" rel="stylesheet">
+<link href="/styles/prosilver/theme/en_us/stylesheet.css" rel="stylesheet">
+
+
+<link href="/assets/css/font-awesome.min.css?assets_version=113" rel="stylesheet">
+<link href="/styles/asdc/theme/stylesheet.css?assets_version=113" rel="stylesheet">
+<link href="/styles/asdc/theme/en_us/stylesheet.css?assets_version=113" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="/styles/prosilver/theme/tweaks.css?assets_version=113" rel="stylesheet">
+<![endif]-->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- End Google Tag Manager -->
+
+
+	
+<link href="./ext/kinerity/bestanswer/styles/prosilver/theme/bestanswer.css?assets_version=113" rel="stylesheet" media="screen" />
+<link href="./ext/paul999/mention/styles/all/theme/mention.css?assets_version=113" rel="stylesheet" media="screen" />
+<link href="./ext/phpbb/pages/styles/prosilver/theme/pages_common.css?assets_version=113" rel="stylesheet" media="screen" />
+<link href="./ext/robertheim/topictags/styles/prosilver/theme/rh_topictags.css?assets_version=113" rel="stylesheet" media="screen" />
+<link href="./ext/sniper/tables/styles/prosilver/theme/tables.css?assets_version=113" rel="stylesheet" media="screen" />
+
+
+
+<!-- CSS files from asdc  -->
+<link href="/styles/asdc/theme/prosilver_overwrite.css" rel="stylesheet">
+<link href="/styles/asdc/theme/custom.css" rel="stylesheet">
+<link href="/styles/asdc/theme/toggle-switch.css" rel="stylesheet" />
+
+<!-- Crazy Egg Heat Map Metrics Monitoring script -->
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0013/2090.js" async="async"></script>
+
+</head>
+<body id="phpbb" class="nojs notouch section-index ltr ">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Add the Status banner -->
+<div id="earthdata-notification-banner"></div>
+<!-- End Status banner -->
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+				<div id="site-description" class="site-description">
+					<a id="logo" class="logo" href="./index.php?sid=0f7a1bed89f1926571fb8329b863e057" title="Home">
+						<span class="site_logo">
+							<!-- Insert Earthdata Forum text inside logo -->
+							<h1>Forum</h1>
+						</span>
+						<span class="a-tag-alt-text">Home Logo</span>
+					</a>
+					<p>Welcome to the Earthdata Forum! Here, the scientific user community and subject matter experts from NASA Distributed Active Archive Centers (DAACs), and other contributors, discuss research needs, data, and data applications.</p>
+					<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+				</div>
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				<div class="pointer"><div class="pointer-inner"></div></div>
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="./viewforum.php?f=7&noReplies=noResponse&amp;sid=0f7a1bed89f1926571fb8329b863e057" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i><span>Unanswered questions</span>
+								</a>
+							</li>
+							<li>
+								<a href="./search.php?search_id=active_topics&amp;sid=0f7a1bed89f1926571fb8329b863e057" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active questions</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="./search.php?sid=0f7a1bed89f1926571fb8329b863e057" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+		
+<li id="user-guides" class="quick-links dropdown-container responsive-menu" data-skip-responsive="true">
+  <a href="#" class="dropdown-trigger">
+    <i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>Help</span>
+  </a>
+  <div class="dropdown">
+    <div class="pointer">
+      <div class="pointer-inner"></div>
+    </div>
+    <ul class="dropdown-contents" role="menu">
+      <li data-last-responsive="true">
+        <a href="/app.php/tag/FAQ/AND?&amp;sid=0f7a1bed89f1926571fb8329b863e057" rel="help" title="Frequently Asked Questions" role="menuitem">
+          <i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>FAQ</span>
+          <span class="screen-reader-only">(PDF will open in new tab)</span>
+        </a>
+      </li>
+      <li data-last-responsive="true">
+        <a href="/ext/asdc/asdc/files/userguide.pdf?sid=0f7a1bed89f1926571fb8329b863e057" title="General User Guide" role="menuitem" rel="nofollow noopener" target="_blank">
+          <i class="icon fa-file-pdf-o" aria-hidden="true"></i><span>General User Guide</span>
+          <span class="screen-reader-only">(PDF will open in new tab)</span>
+        </a>
+      </li>
+                  <li data-last-responsive="true">
+        <a href="/app.php/tag/Data+Recipes/AND?&amp;sid=0f7a1bed89f1926571fb8329b863e057" title="Data recipes" role="menuitem">
+            <i class="icon fa-book fa-fw" aria-hidden="true"></i><span>Data Recipes</span>
+            <span class="screen-reader-only">(PDF will open in new tab)</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>		
+		<!-- <li data-last-responsive="true">
+			<a rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-book fa-fw" aria-hidden="true"></i><span>Data Recipes</span>
+			</a>
+		</li> -->
+
+
+				
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="./ucp.php?mode=login&amp;redirect=index.php&amp;sid=0f7a1bed89f1926571fb8329b863e057" title="Login" accesskey="x" role="menuitem">
+				<i class="icon fa-power-off fa-fw" aria-hidden="true"></i><span>Login</span>
+			</a>
+		</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+				
+		
+		<li class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+
+			
+							<span class="crumb" itemtype="https://schema.org/ListItem" itemprop="itemListElement" itemscope><a itemprop="item" href="./index.php?sid=0f7a1bed89f1926571fb8329b863e057" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></span>
+
+			
+					</li>
+
+		
+					<li class="rightside responsive-search">
+				<a href="./search.php?sid=0f7a1bed89f1926571fb8329b863e057" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<div id="noscript">
+	<hr /> <br />
+	<p>
+		Earthdata Forum requires JavaScript to use all of its features.
+	</p>
+	<p>
+		Please enable JavaScript and refresh the page.
+	</p>
+	<br /><hr />
+</div>
+<script>
+	document.querySelector('#noscript').remove();
+</script>
+
+<p class="right responsive-center time">It is currently Tue Sep 19, 2023 1:41 am America/New_York</p>
+
+
+	
+				<div class="forabg">
+			<div class="inner">
+			<ul class="topiclist">
+				<li class="header">
+										<dl class="row-item">
+						<dt><div class="list-inner">Forum</div></dt>
+						<dd class="topics">Questions</dd>
+						<dd class="posts">Posts</dd>
+						<dd class="lastpost"><span>Last post</span></dd>
+					</dl>
+									</li>
+			</ul>
+			<ul class="topiclist forums">
+		
+					<li class="row noBottomBorder ">
+						<dl class="row-item forum_read">
+				<dt title="No unread posts">
+										<div class="list-inner">
+													<!--
+								<a class="feed-icon-forum" title="Feed - Questions/Comments" href="/app.php/feed?sid=0f7a1bed89f1926571fb8329b863e057?f=7">
+									<i class="icon fa-rss-square fa-fw icon-orange" aria-hidden="true"></i><span class="sr-only">Feed - Questions/Comments</span>
+								</a>
+							-->
+																		<a href="./viewforum.php?f=7&amp;sid=0f7a1bed89f1926571fb8329b863e057" class="forumtitle">Questions/Comments</a>
+						<br />Use this Forum to find information on, or ask a question about, NASA Earth Science data.												
+												<div class="responsive-show" style="display: none;">
+															Questions: <strong>3874</strong>
+													</div>
+											</div>
+				</dt>
+									<dd class="topics">3874 <dfn>Questions</dfn></dd>
+					<dd class="posts">14879 <dfn>Posts</dfn></dd>
+					<dd class="lastpost">
+						<span>
+																						<dfn>Last post</dfn>
+																										<a href="./viewtopic.php?p=16470&amp;sid=0f7a1bed89f1926571fb8329b863e057#p16470" title="Re: SeaDAS on Apple M1 Chip?" class="lastsubject">Re: SeaDAS on Apple M1 Chip?</a> <br />
+																	by <a href="./memberlist.php?mode=viewprofile&amp;u=731&amp;sid=0f7a1bed89f1926571fb8329b863e057" style="color: #000000;" class="username-coloured">OB SeaDAS - xuanyang02</a>																	<a href="./viewtopic.php?p=16470&amp;sid=0f7a1bed89f1926571fb8329b863e057#p16470" title="View the latest post">
+										<i class="icon fa-external-link-square fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">View the latest post</span>
+									</a>
+																<br /><time datetime="2023-09-18T15:02:40+00:00">Mon Sep 18, 2023 11:02 am America/New_York</time>
+													</span>
+					</dd>
+							</dl>
+					</li>
+			
+				</ul>
+
+			</div>
+		</div>
+		
+
+
+
+
+
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="./index.php?sid=0f7a1bed89f1926571fb8329b863e057" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Home</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="America/New York">UTC-04:00</span></li>
+														<li class="rightside">
+			<a href="/app.php/daac-resources?sid=0f7a1bed89f1926571fb8329b863e057" role="menuitem">
+				<i class="icon fa-archive fa-fw" aria-hidden="true"></i><span>NASA Distributed Active Archive Centers (DAAC) and Forum Contributors</span>
+			</a>
+		</li>
+								</ul>
+
+	</div>
+</div>
+
+	<div class="copyright">
+				<p class="footer-row">
+			<span class="footer-copyright">Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Limited</span>
+		</p>
+						<p class="footer-row">
+			<a class="footer-link" href="./ucp.php?mode=privacy&amp;sid=0f7a1bed89f1926571fb8329b863e057" title="Privacy Policy">
+				<span class="footer-link-text">Privacy Policy</span>
+			</a>
+			|
+			<a class="footer-link" href="./ucp.php?mode=terms&amp;sid=0f7a1bed89f1926571fb8329b863e057" title="Usage Terms and Copyright">
+				<span class="footer-link-text">Usage Terms and Copyright</span>
+			</a>
+		</p>
+					</div>
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		<div id="darken" class="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+			<span class="a-tag-alt-text">Close Alert</span>
+		</a>
+		<span class="alert_title">&nbsp;</span><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+			<span class="a-tag-alt-text">Close Alert</span>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img class="sr-only" aria-hidden="true" src="&#x2F;app.php&#x2F;cron&#x2F;cron.task.text_reparser.poll_option&#x3F;sid&#x3D;0f7a1bed89f1926571fb8329b863e057" width="1" height="1" alt="">
+</div>
+
+<script src="/assets/javascript/jquery-3.6.0.min.js?assets_version=113"></script>
+<script src="/assets/javascript/core.js?assets_version=113"></script>
+
+
+
+<script src="./styles/prosilver/template/forum_fn.js?assets_version=113"></script>
+<script src="./styles/prosilver/template/ajax.js?assets_version=113"></script>
+
+
+
+<!-- CUSTOM CODE HERE -->
+
+<!-- Earthdata Tophat2 -->
+<script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js"
+        id="earthdata-tophat-script"
+        data-show-fbm="true"
+        data-fbm-subject-line="[FORUM] Application Help - Select Post a New Question for help with data or services"
+        data-show-status="true"></script>
+<!-- Earthdata Feedback Module -->
+<script type="text/javascript" src="https://fbm.earthdata.nasa.gov/for/Earthdata%20Forum/feedback.js"></script>
+<script type="text/javascript">feedback.init({showIcon: false});</script>
+<!-- Earthdata Banner Widget -->
+<script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+<!-- Earthdata UI Lean Modal -->
+<script src="/scripts/lean_modal.js"></script>
+
+<!-- This will include all references to custom js files in the scripts folder -->
+<script src="/scripts/helpers.js"></script>
+<script src="/scripts/global_variables.js"></script>
+<script src="/scripts/styles.js"></script>
+<script src="/scripts/main.js" type="module"></script>
+<!-- END OF CUSTOM CODE -->
+
+</body>
+</html>

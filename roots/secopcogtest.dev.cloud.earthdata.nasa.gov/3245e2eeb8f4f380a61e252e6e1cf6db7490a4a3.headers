@@ -1,0 +1,16 @@
+GET http://secopcogtest.dev.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: UDCK66zMdnJj2qq9-S-Rs45Wv7z5ZyMZa1WDXOwjOA9BIndSA1jOTQ==
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 167
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:41:07 GMT
+< Content-Type: text/html
+< Location: https://secopcogtest.dev.cloud.earthdata.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 1d4079b9c92abe0dba6581682966e934.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< Server: CloudFront

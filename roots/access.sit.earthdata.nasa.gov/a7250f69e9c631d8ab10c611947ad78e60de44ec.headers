@@ -1,0 +1,16 @@
+GET http://access.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Location: https://access.sit.earthdata.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Content-Type-Options: nosniff
+< Via: 1.1 345e58b151dd5a8ce47c17921388574a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C3
+< Content-Length: 167
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:03:24 GMT
+< Content-Type: text/html
+< X-Amz-Cf-Id: 93wXaJLjrwPbNYarflObUrEiox2nKOYM5Dw1qKiXNUvzvo8389M1Sg==
+< X-Frame-Options: SAMEORIGIN

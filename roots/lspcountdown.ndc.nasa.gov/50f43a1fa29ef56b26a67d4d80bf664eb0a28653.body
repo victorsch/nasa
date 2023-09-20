@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+		<link rel="stylesheet" type="text/css" href="Styles/style.css"/>
+		<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="Scripts/dataRequest.js">
+		</script>
+		<script type="text/javascript" src="Scripts/switchVideo.js">
+		</script>
+        
+	<!-- Google Analytics -->
+	<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=KSC&dclink=true&cto=1"></script> 
+
+		<title>
+			LSP Countdown AE
+		</title>
+	</head>
+	<body onload="updateIntervalAE()">
+		<!--Header-->
+		<div class="header">
+			<span>
+				<a href="http://www.nasa.gov/"><img id="NASALogo" src="Images/NASAlogo.png" alt="NASA Logo"/></a>
+				<div id="headerTable">	
+					<div id="LSPText">Launch Services Program</div>
+					<div id="headerText">
+						<span id="missionText">Mission</span><span id="vehicleText">Vehicle</span>
+					</div>				
+				</div>
+			</span>		
+			<a href="http://www.nasa.gov/directorates/heo/launch_services/index.html" ><img id="LSPLogo" src="Images/AE Logo transparent background.gif" alt="LSP Logo"/></a>							
+		</div>
+		<!--Clock-->		
+		<table  id="clockTable">
+			<tr>
+				<td class="clockLabel" id="lbl0">L-Time</td>
+				<td class="clockTime" id="val0">000:00:00:00</td>
+
+				<td class="clockLabel" id="lbl1">Liftoff</td>
+				<td class="clockTime" id="val1">000:00:00:00</td>						
+			</tr>
+			<tr>
+				<td class="clockLabel" id="lbl2">T-Time</td>
+				<td class="clockTime" id="val2">000:00:00:00</td>
+
+				<td class="clockLabel" id="lbl3">Window Remaining</td>
+				<td class="clockTime" id="val3">000:00:00:00</td>						
+			</tr>
+			<tr>
+				<td class="clockLabel" id="lbl4">Built-in Hold</td>
+				<td class="clockTime" id="val4">000:00:00:00</td>
+						
+				<td class="clockLabel" id="lbl5">Window Close</td>
+				<td class="clockTime" id="val5">000:00:00:00</td>							
+			</tr>
+			<tr>
+				<td class="clockLabel">GMT</td>
+				<td class="clockTime" id="GMT">000:00:00:00</td>
+						
+				<td class="clockLabel">Local Time</td>
+				<td class="clockTime" id="localTime">000:00:00:00</td>							
+			</tr>
+		</table><br/>
+		<!--Messages-->
+		<div id="clockMessages"></div>
+		<div id="videoAndEvents">			
+			<!--Events-->
+			<table id="eventTable">
+				<tr>
+					<td class="eventLabel"> <div id="event0"></div></td>
+					<td class="eventTime"> <div id="lt0">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event1"></div></td>
+					<td class="eventTime"> <div id="lt1">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel2"> <div id="event2"></div></td>
+					<td class="eventTime2"> <div id="lt2">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event3"></div></td>
+					<td class="eventTime"> <div id="lt3">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event4"></div></td>
+					<td class="eventTime"> <div id="lt4">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event5"></div></td>
+					<td class="eventTime"> <div id="lt5">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event6"></div></td>
+					<td class="eventTime"> <div id="lt6">00:00</div></td>
+				</tr>
+				<tr>
+					<td class="eventLabel"> <div id="event7"></div></td>
+					<td class="eventTime"> <div id="lt7">00:00</div></td>
+				</tr>
+			</table>			
+			<!--Ustream Video-->
+			<iframe id="video" src="https://www.ustream.tv/embed/13125391?html5ui=1" allowfullscreen webkitallowfullscreen></iframe>
+		</div>
+		<!--Video Select-->
+		<div id="controls">
+			<select id="vidSelect" onchange="changeVideo()">
+				<option value="vidLabel" disabled="disabled" selected="selected">Select Video Feed</option>
+				<option value="https://www.ustream.tv/embed/13125391?html5ui=1"> LSP 1 </option>
+				<option value="https://www.ustream.tv/embed/13125472?html5ui=1"> LSP 2 </option>
+				<option value="https://www.ustream.tv/embed/13125483?html5ui=1"> LSP 3 </option>
+				<option value="https://www.ustream.tv/embed/13125489?html5ui=1"> LSP 4 </option>
+				<option value="https://www.ustream.tv/embed/19757539?html5ui=1"> LSP 5 </option>
+				<option value="https://www.ustream.tv/embed/19757545?html5ui=1"> LSP 6 </option>
+				<option value="https://www.ustream.tv/embed/19757550?html5ui=1"> LSP 7 </option>	
+				<option value="https://www.ustream.tv/embed/19757553?html5ui=1"> LSP 8 </option>	
+			</select>
+			<a id="vidText">LSP 1</a>
+			<!--Clock Select-->			
+			<select id="clockSelect" onchange="changeFile()">
+				<option value="clockLabel" disabled="disabled" selected="selected">Select Clock Feed</option>
+				<option value="AEPrime"> Hangar AE primary (default)</option>
+				<option value="AEBackup"> Hangar AE secondary </option>
+				<option value="VAFBPrime"> VAFB primary</option>
+				<option value="VAFBBackup"> VAFB secondary </option>
+			</select>			
+		</div>
+		<!--Footer and Links-->
+		<p id="footer">NASA Official: <a href="mailto:reed.divertie@nasa.gov?Subject=LSP%20Countdown%20Clock" target="_top"> Reed Divertie </a><br/>
+		Developer: <a href="mailto:carlos.f.maldonado@nasa.gov?Subject=LSP%20Countdown%20Clock" target="_top"> Carlos F. Maldonado </a><br/></p>
+		<div id="footerLinks">
+			<a id="links" href="/vafb.html">VAFB Site</a>
+			<a id="links" href="/mobileae.html">Mobile Version</a>
+			<a id="links" href="/allvideos.html">All Videos</a>
+			<a id="links" href="/clockae.html">Clock</a>
+			<a id="links" href="#" onclick="changeHMS()">Time Format: Default</a>
+			<a id="links" href="#" onclick="changeMS()">Time Format: MM:SS</a>
+			<a id="links" href="#" onclick="changeS()">Time Format: :SS</a>
+			<a id="links" href="/help.html">Help</a>
+		</div>				
+	</body>
+</html>

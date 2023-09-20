@@ -1,0 +1,19 @@
+GET https://beta.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: max-age=300, must-revalidate
+< Vary: Accept-Encoding
+< Accept-Ranges: bytes
+< Server: nginx
+< Host-Header: a9130478a60e5f9135f765b23f26593b
+< X-Robots-Tag: index, follow
+< Link: <https://beta.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://beta.nasa.gov/wp-json/wp/v2/pages/128943>; rel="alternate"; type="application/json"
+< Link: <https://beta.nasa.gov/>; rel=shortlink
+< X-Cache: hit
+< Date: Tue, 19 Sep 2023 05:44:40 GMT
+< X-Launch-Status: Go Flight!
+< X-Rq: jfk1 85 188 443
+< Age: 984

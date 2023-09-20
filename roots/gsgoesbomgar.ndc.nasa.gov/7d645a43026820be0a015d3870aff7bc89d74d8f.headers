@@ -1,0 +1,24 @@
+GET http://gsgoesbomgar.ndc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: noindex, nofollow
+< X-Permitted-Cross-Domain-Policies: none
+< Content-Length: 0
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-store, no-cache, must-revalidate
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self'; frame-ancestors 'self';
+< Permissions-Policy: accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=()
+< Strict-Transport-Security: max-age=31536000
+< Vary: X-Requested-With
+< X-Ua-Compatible: IE=edge
+< Pragma: no-cache
+< Location: https://gsgoesbomgar.ndc.nasa.gov/
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 19 Sep 2023 06:02:58 GMT
+< Server: Apache
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: ns_s=318b1f0d123d6529bcd65a9c699ce77f; path=/; HttpOnly; SameSite=lax
+< X-Xss-Protection: 1; mode=block

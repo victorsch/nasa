@@ -1,0 +1,7 @@
+GET http://uat-b.gibs.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://uat-b.gibs.earthdata.nasa.gov/
+< Content-Length: 0

@@ -1,0 +1,22 @@
+GET https://geo-cape.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Redirect-By: WordPress
+< Content-Length: 0
+< X-Ua-Compatible: IE=edge
+< Pragma: no-cache
+< Redirecttype: Quick Page Post Redirect - Quick
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:55:12 GMT
+< Server: Apache
+< Cache-Control: no-store, no-cache, must-revalidate
+< Set-Cookie: PHPSESSID=a56v8g6o4gd63ss2gga85ri7n0; path=/; HttpOnly
+< X-Frame-Options: sameorigin
+< Location: https://science.larc.nasa.gov/geo-cape
+< Access-Control-Allow-Origin: *
+< Content-Type: text/html; charset=UTF-8
+< X-Permitted-Cross-Domain-Policies: none

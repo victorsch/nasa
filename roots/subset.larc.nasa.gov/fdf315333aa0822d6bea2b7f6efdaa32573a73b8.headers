@@ -1,0 +1,16 @@
+GET https://subset.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Powered-By: PHP/8.1.22
+< X-Xss-Protection: 1; mode=block
+< Expires: 0
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:01:54 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Pragma: no-cache
+< X-Frame-Options: DENY
+< Set-Cookie: a9739e3f13b238d4142767b846103851=77661aa1111be708d4986cdfd3f0b52a; path=/; HttpOnly; Secure; SameSite=None

@@ -1,0 +1,12 @@
+GET https://eptsfiler.nssc.nasa.gov
+
+
+< HTTP/1.1 302 HTTP/1.1 302 Object Moved
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Security-Policy: frame-ancestors 'self' https://eptsfiler.nssc.nasa.gov/
+< X-Frame-Options: SAMEORIGIN
+< Server: 
+< Date: Tue, 19 Sep 2023 05:50:14 GMT
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-02444ce8-bedd-4384-bf6d-8fc58d9c7c05&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-7399x4IRCDsmpB%2fR6fjnhHjqRIe9jTphry9wjYCfO%2fK9URowqB3GrMr8YKu%2bp9Ml5ymitMQkGa83wmGsQqRA8RmtlirdNOGv43ApzgQWdqQpOtyHE9x0cvq%2bzLmQURbA&TARGET=-SM-https%3a%2f%2feptsfiler%2enssc%2enasa%2egov%2f
+< Content-Length: 0

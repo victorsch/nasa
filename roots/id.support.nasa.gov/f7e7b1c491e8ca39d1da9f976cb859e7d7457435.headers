@@ -1,0 +1,23 @@
+GET https://id.support.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Cross-Origin-Resource-Policy: same-origin
+< Location: https://id.support.nasa.gov/oauth2/authorization/launchpad
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< Set-Cookie: _ab624=a392d3b41b76f53f; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=B6A23449536CAEADE7AEAC916609EE00; Path=/; Secure; HttpOnly
+< Set-Cookie: 2debcc45649f01f8d1cc6eefe4c39372=9cda8f74e248ab79b714bc4f8e3ca501; path=/; HttpOnly; Secure; SameSite=None
+< Date: Tue, 19 Sep 2023 06:01:33 GMT
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Content-Security-Policy: form-action 'self' null ; upgrade-insecure-requests ; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pulse.staging.nasa.gov ; block-all-mixed-content ; default-src 'self' ; img-src 'self' 'unsafe-inline' data: https://pulse.staging.nasa.gov ; object-src 'none' ; frame-ancestors 'none' ; style-src 'self' 'unsafe-inline' ;
+< X-Permitted-Cross-Domain-Policies: none
+< Permissions-Policy: accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),layout-animations=(self),legacy-image-formats=(self),magnetometer=(),microphone=(),midi=(),oversized-images=(self),payment=(),picture-in-picture=(),publickey-credentials-get=(),speaker-selection=(),sync-xhr=(self),unoptimized-images=(self),unsized-media=(self),usb=(),screen-wake-lock=(),web-share=(),xr-spatial-tracking=()
+< Referrer-Policy: no-referrer
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cross-Origin-Opener-Policy: same-origin
+< Expires: 0
+< Pragma: no-cache
+< Server: Apache
+< Content-Length: 0

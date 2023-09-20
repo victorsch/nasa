@@ -1,0 +1,13 @@
+GET http://mcdc.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:02:57 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: JFK50-P5
+< X-Amz-Cf-Id: EX280Y8kWb1gjqkwwgP1VPWgdFxOKgcymFzapAJFsqIn5WwWgzG18w==
+< Server: CloudFront
+< Content-Length: 167
+< Location: https://mcdc.msfc.nasa.gov/
+< Via: 1.1 b5fe18267507cb61755963d8928a60f4.cloudfront.net (CloudFront)

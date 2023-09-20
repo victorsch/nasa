@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!--To put this html into an existing HTML document, you must copy the JavaScript and--><!--paste it in a specific location within the destination HTML document. You must then copy--><!--and paste the table in a different location.-->
+  <title>Welcome to the NASA Sounding Rocket Science Website</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="description" content="Fireworks Splice HTML">
+  <meta name="orgcode" content="674">
+  <meta name="rno" content="Robert.F.Pfaff.1">
+  <meta name="content-owner" content="Steven Martin">
+  <meta name="webmaster" content="Steven Martin">
+  <meta name="description"
+ content="Resources for the NASA Sounding Rocket Program.">
+  <meta name="keywords" content="NASA Sounding Rocket">
+  <script language="JavaScript">
+
+<!--hide this script from non-javascript-enabled browsers
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+/* Functions that swaps images. */
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+/* Functions that handle preload. */
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+// stop hiding -->
+  </script>
+  <script id="_fed_an_js_tag" type="text/javascript"
+  src="/scripts/federated-analytics.js?agency=NASA">
+</script>
+</head>
+<body
+ onload="MM_preloadImages('index_sl/index_d_f2.gif','index_sl/index_p_f11.gif','index_sl/index_e_f2.gif','index_sl/index_p_f12.gif','index_sl/index_f_f2.gif','index_sl/index_p_f13.gif','index_sl/index_g_f2.gif','index_sl/index_p_f14.gif','index_sl/index_h_f2.gif','index_sl/index_p_f15.gif','index_sl/index_i_f2.gif','index_sl/index_p_f16.gif');"
+ style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+ link="#0099ff" vlink="#0099ff">
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr valign="top">
+      <td>
+      <table border="0" cellpadding="0" cellspacing="0" width="640">
+        <tbody>
+          <tr align="center" valign="top">
+            <td><img name="index_anew" alt="Top Title"
+ src="index_sl/index_anew.gif" border="0" height="49" width="520"></td>
+          </tr>
+          <tr align="center" valign="top">
+            <td><img name="index_bnew" alt="Bottom Title"
+ src="index_sl/index_bnew.gif" border="0" height="38" width="391"></td>
+          </tr>
+          <tr align="center" valign="top">
+            <td><img name="Subject_cats" alt="Categories"
+ src="NewSplashPics/Subject_cats.jpg" border="0" height="59" width="552"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<center>
+<center><img name="Splash pictures" alt="Collage of Rocket Images"
+ src="NewSplashPics/V1548_notitle_nosub_meat.jpg" border="0"></center>
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+  <tbody>
+    <tr valign="top">
+      <td>
+      <table border="0" cellpadding="0" cellspacing="0" width="640">
+        <tbody>
+          <tr valign="top">
+            <td><img name="index_c" src="index_sl/index_c.gif"
+ border="0" height="32" width="58"></td>
+
+            <td><a href="overview.html"
+ onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('overview','','index_sl/select_choices/overview_b.gif','index_p','','index_sl/index_p_f12.gif',1);"><img
+ name="overview" src="index_sl/select_choices/overview.gif" border="0"
+ height="32" width="88"></a></td>
+            <td><a href="opsrang.html" onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('operations','','index_sl/select_choices/operations_b.gif','index_p','','index_sl/index_p_f13.gif',1);"><img
+ name="operations" src="index_sl/select_choices/operations.gif"
+ border="0" height="32" width="103"></a></td>
+            <td><a href="srwg.html" onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('srwg','','index_sl/select_choices/srwg_b.gif','index_p','','index_sl/index_p_f14.gif',1);"><img
+ name="srwg" src="index_sl/select_choices/srwg.gif" border="0"
+ height="32" width="115"></a></td>
+            <td><a href="education.html"
+ onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('education','','index_sl/select_choices/education_b.gif','index_p','','index_sl/index_p_f15.gif',1);"><img
+ name="education" src="index_sl/select_choices/education.gif" border="0"
+ height="32" width="88"></a></td>
+            <td><a href="links.html" onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('ulinks','','index_sl/select_choices/links_b.gif','index_p','','index_sl/index_p_f16.gif',1);"><img
+ name="ulinks" src="index_sl/select_choices/links.gif" border="0"
+ height="32" width="58"></a></td>
+            <td><img name="index_j" src="index_sl/index_j.gif"
+ border="0" height="32" width="63"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<center>
+<a href="keydocs.html" onmouseout="MM_swapImgRestore();"
+ onmouseover="MM_swapImage('keydocs','','index_sl/select_choices/keydocs_b.gif','index_p2','','index_sl/index_p_f16.gif',1);"><img
+ name="keydocs" src="index_sl/select_choices/keydocs.gif" border="0"
+ height="32" width="300"></a></center>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" height="100"
+ width="640">
+  <tbody>
+
+   <tr align="left" valign="bottom">
+      <td>
+
+      <!-- 
+<div align="center"><font face="Arial, Helvetica, sans-serif"
+ size="4" color="red"><b>Sounding Rocket Working Group meeting July 10-11, 2019</a><br>
+ Taking place at Goddard Space Flight Facility<br>(starting at 9am in bldg. 21 room 183)
+ </b></font><br>
+
+<a href="Presentations/Final_SRWG_Agenda_July_2019.pdf">July 2019 Agenda</a>
+      <br>
+  <a href="Presentations/SRWG_Findings_Feb_2019.pdf">February 2019 Findings</a>   
+        </font>
+      <br><br>
+ -->
+ 
+      <div align="center"><font face="Arial, Helvetica, sans-serif"
+ size="2"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy
+Policy and Important Notices</a><br>
+      </font> <font face="Arial, Helvetica, sans-serif" size="2" color="black"><br>
+Curator: <br>
+      <a href="mailto:gsfc-rscience@nasa.onmicrosoft.com">Steven Martin</a>:
+NASA/GSFC ITM Physics Laboratory (<i>ADNET Systems, Inc.</i>)</font> <br>
+      <font face="Arial, Helvetica, sans-serif" size="2">Responsible
+NASA Scientist: <br>
+      Dr.
+Robert F. Pfaff, Jr: NASA/GSFC ITM Physics Laboratory<br>
+      </font> <br>
+      <font face="Arial, Helvetica, sans-serif" size="2">Website
+content last
+revised July 6, 2023</font> </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+</div>
+</body>
+</html>

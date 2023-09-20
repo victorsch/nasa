@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="orgcode" content="Org Code 661">
+<meta name="rno" content="Eric.R.Christian.1">
+<meta name="webmaster" content="Kristin.A.Wortman.1">
+<meta name="description" content=
+"WIND/EPACT,STEREO/HET,IMP-8 Data and Info">
+<meta name="keywords" content=
+"keywords, that, describe, your site">
+<title>NASA/GSFC Low Energy Cosmic Ray Group</title>
+<link media="projection, screen" href="css/basic.css" type=
+"text/css" rel="stylesheet">
+<script id='_fed_an_ua_tag' type='text/javascript' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true'>
+</script>
+</head>
+<body>
+<!-- HEADER STARTS HERE -->
+<div id="nasaHeader">
+<div><a class="imageLink" href="http://www.nasa.gov"><img height=
+"98" width="140" alt=
+"NASA Logo, National Aeronautics and Space Administration" src=
+"images/nasa_header_logo1.gif"></a></div>
+<!--class="nasaLogo"-->
+<div id="headerTxtWrapper">
+<h1><a href="http://www.nasa.gov">National Aeronautics and Space
+Administration</a></h1>
+<h2><a href="http://www.nasa.gov/goddard/">Goddard Space Flight
+Center</a></h2>
+</div>
+<!--headerTxtWrapper-->
+<div id="searchbox">
+<h3>Search:</h3>
+<form action="http://search.nasa.gov/search/search.jsp" method=
+"get" id="search" name="search"><input type="text" name=
+"nasaInclude" value="Search NASA.gov" title="searchfield" id=
+"searchfield" class="flt_left" size="10"> <a class="searchbtn"
+href="http://search.nasa.gov/search/search.jsp"><img height="22"
+width="49" alt="Search" src="images/search_go.jpg"></a></form>
+<div class="divClear"></div>
+<p><a href="http://fpd.gsfc.nasa.gov/">Flight Projects</a>
+<span class="listdevider">|</span> <a href="/600/sci/">Sciences and
+Exploration</a></p>
+</div>
+</div>
+<!-- HEADER ENDS HERE -->
+<center>
+<font color="#0000FF">
+<h1>Goddard Space Flight Center's</h1>
+</font>
+<h1><font color="#CC0000"><b><i><font size="+1">EPACT2 Web
+Server</font></i></b></font></h1>
+<font color="#0000FF">
+<h1><i>Low Energy Cosmic Ray Group</i></h1>
+</font>
+</center>
+<center>
+<p><br>
+<img alt="Picture of Dr. Tycho von Rosenvinge" src="tycho.jpg"
+height="100" width="84">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img alt="Picture of Dr. Donald Reames" src="Reames.jpg" height=
+"100" width="83"><br>
+<b><i><font color="#FF0000">
+Dr. Tycho T. von
+Rosenvinge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:reames@lheavx.gsfc.nasa.gov">Dr. Donald V.
+Reames</a></font></i></b><br></p>
+<hr>
+</center>
+<center>
+<table cellspacing="50">
+<tr>
+<th>
+<center><font color="#000099">WIND Spacecraft</font></center>
+</th>
+<th>
+<center><font color="#000099">IMP-8 Spacecraft</font></center>
+</th>
+</tr>
+<tr>
+<td><img alt="Picture of WIND spacecraft" src="epact.jpeg" height=
+"438" width="217"></td>
+<td><div align="top"><img alt="Picture of IMP-8 spacecraft" src="imp8.gif" height=
+"301" width="217"></td>
+</tr>
+</table>
+<font color="#CC0000"><b><font size="+1">Information on the
+Wind/EPACT</font></b></font><br>
+<b><font color="#000099"><font size="+1"><font color=
+"#CC0000">instruments can be found at: &nbsp;</font>
+&nbsp;<br></font></font></b><b><a href=
+"http://asd.gsfc.nasa.gov/docs/gamcosray/lecr/EPACT/epact.html"><font color="#000099"><font size="+1">Description<br>
+</font></font></a></b><b><a href=
+"pubs.html"><font color=
+"#000000"><font size=
+"+1">Publications</font></font></a></b>&nbsp;</center>
+<div align="center"><br>
+<font color="#000099"><big><b>STEREO
+Spacecraft</b></big></font></div>
+<br>
+<div style="text-align: center;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;<img src="stereo.jpg" alt="STEREO Spacecraft"
+width="400" height="286"><br>
+<br>
+<big style="font-weight: bold; color: rgb(204, 0, 0);">Information
+for STEREO/HET and STEREO/SIT instruments can be found
+at:</big><br>
+<big style="font-weight: bold;"><a href=
+"STEREO/docs.html">Documentation and
+Presentations</a><br>
+<a href="SCRS/scrs.html">Software
+Configuration Reporting System</a><br>
+<a href=
+"STEREO/plots/plots.html">STEREO/HET
+Plots</a></big><br></div>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp;<br>
+<div style="text-align: center;"><font color=
+"#CC0000"><b><font size="+1">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;</font></b></font></div>
+<p style="text-align: center;"><b><font color="#000099"><font size=
+"+1">View telemetry data from Wind/Epact &amp; IMP-8&nbsp; Low
+Energy Cosmic Ray instruments:<br></font></font></b></p>
+<center><br>
+<font size="+1"><a href=
+"StereoTrending/plots/index.html"><b>Stereo
+Trending Plots</b></a><br></font></center>
+<center>
+<font size="+1"><a href=
+"StereoAvgFiles/"><b>Averaged Stereo HET Fluxes
+</b></a><br></font></center>
+<!--
+<center>
+<p><a href="wmac.htm"><b><font color=
+"#000099"><font size="+1"><img src="graph.bmp" alt="WinMac" width=
+"32" height="32"></font></font></b></a></p>
+</center>
+<center><font size="+1"><a href=
+"wmac.htm"><b>Plotting
+Application</b></a><br>
+<br></font>
+<p style="text-align: center;"><font size="+1"><b><font color=
+"#000099"><font size="+1"><a href=
+"tutorials/">WinMac
+Tutorials</a><br></font></font></b></font></p>
+<font size="+1"><br></font>
+-->
+<p style="text-align: center;"><font size="+1"><b><font color=
+"#000099"><font size="+1">View Processing
+Logs:<br></font></font></b></font></p>
+<center><font size="+1"><a href=
+"processing/epact/log.html"><font size=
+"+1"><b>EPACT Data Processing Logs</b></font></a></font></center>
+<center><font size="+1"><a href=
+"processing/stereo/log.html"><font size="+1">
+<b>Stereo Data Processing Logs</b></font></a></font></center>
+<font size="+1"><br>
+<!-- FOOTER STARTS HERE --></font>
+<div id="footer">
+<div><font size="+1"><a class="imageLink" href=
+"http://www.nasa.gov"><img height="98" width="140" alt=
+"NASA Logo, National Aeronautics and Space Administration" src=
+"images/nasa_header_logo1.gif"></a></font></div>
+<font size="+1"><!--class="nasaLogo"--></font>
+<div id="footer-signature"><font size="+1"><a class="imageLink"
+href="http://www.nasa.gov/goddard/"><img height="68" src=
+"images/goddardsignature2.png"></a></font></div>
+<font size="+1"><!--id="footer-signature--></font>
+<div class="nasafootlinks">
+<ul>
+<li><font size="+1">Responsible NASA Official: <a href=
+"mailto:eric.r.christian@nasa.gov">Dr. Eric R. Christian
+</a></font></li>
+<li><font size="+1">Web Curator:<a href=
+"mailto:wortman@lheapop.gsfc.nasa.gov">Kristin
+Wortman</a></font></li>
+</ul>
+</div>
+<!--nasafootlinks-->
+<div id="footerRight" class="nasafootlinks">
+<ul>
+<li><font size="+1"><a href=
+"http://www.nasa.gov/about/highlights/HP_Privacy.html" target=
+"_blank">Privacy Policy &amp; Important Notices</a></font></li>
+<li><font size="+1"><!--EDIT THIS--> <a href="">Contact
+Us</a></font></li>
+<li>Page Last Updated: 30-Mar-2011</li>	
+</ul>
+</div>
+<!--nasafootlinks--></div>
+<!-- FOOTER ENDS HERE --></center>
+</body>
+</html>

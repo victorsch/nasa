@@ -1,0 +1,12 @@
+GET https://hesperia.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:00:34 GMT
+< Content-Type: text/html; charset=ISO-8859-1
+< Content-Security-Policy: upgrade-insecure-requests
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

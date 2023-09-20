@@ -1,0 +1,14 @@
+GET https://keycloak.shared-services.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 404 Not Found
+< Date: Tue, 19 Sep 2023 05:44:48 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< Content-Length: 53
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff

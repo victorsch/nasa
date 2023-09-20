@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<SCRIPT LANGUAGE="JavaScript">if (top.frames.length!=0){top.location=self.document.location;}</SCRIPT>
+<META HTTP-EQUIV="refresh" content="0;URL=http://science.larc.nasa.gov/CRAVE/">
+<TITLE>NASA CERES Ocean Validation Experiment (COVE)</TITLE>
+<link rel="stylesheet"  href="https://cove.larc.nasa.gov/common/css/menubarcell.css" type="text/css">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Author" CONTENT="Jay Madigan">
+<META NAME="keywords" CONTENT="NASA, COVE, 'CERES Ocean Validation Experiment','Atmospheric Sciences'">
+<META NAME="description" CONTENT="CERES Ocean Validation Experiment">
+<LINK href="COVE.ico" type=image/x-icon rel="SHORTCUT ICON">
+<LINK  href="https://cove.larc.nasa.gov/common/COVEmain3.css" type=text/css rel=stylesheet>
+<script src="https://cove.larc.nasa.gov/common/js/CreateCommonSearchBlock.js" type="text/javascript" language="javascript"></script>
+<SCRIPT language=javascript src="https://cove.larc.nasa.gov/common/FooterMainCommon2.js" type=text/javascript></SCRIPT>
+<SCRIPT language=javascript src="https://cove.larc.nasa.gov/common/COVEmainREVISED.js" type=text/javascript></SCRIPT>
+<script src="https://cove.larc.nasa.gov/common/js/jQuery/jquery-1.4.3.min.js" type="text/javascript" language="javascript"></script>
+<script src="https://cove.larc.nasa.gov/common/bxSlider/bxSlider4.1.1/jquery.bxslider.js" type="text/javascript" language="javascript"></script>
+<link rel="stylesheet"  href="https://cove.larc.nasa.gov/common/bxSlider/bxSlider4.1.1/jquery.bxslider.css" type="text/css">
+<script type="text/javascript" src="https://cove.larc.nasa.gov/common/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="https://cove.larc.nasa.gov/common/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css"  href="https://cove.larc.nasa.gov/common/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<style>
+.hide{
+display:none;
+}
+</style>
+<script language="JavaScript">
+<!-- // Hiding Script Content
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  mode: 'horizontal',
+  captions: false,
+  controls: false,
+  slideMargin: 0,
+  slideWidth: 200,
+  auto: true,
+  autoControls: true,
+  speed: 940,   //Slide transition duration (in ms)
+  pause: 4500, //The amount of time (in ms) between each auto transition
+  autoHover: true,  //pauses slideshow on mouseover
+});
+$("a.theImage").fancybox({
+				'padding'		: 5,
+				'autoScale'		: true,
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'fade',
+				'overlayOpacity'	: .6,
+				'overlayColor'		: '#000',
+				'speedIn'		: 400,
+				
+				
+			});
+});
+
+
+//-->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+
+       <!-- 
+       function Disclaimer() {
+       alert("\nYou are leaving the NASA web domain (.nasa.gov)\n");
+       }
+       //-->
+       
+
+</script>
+
+</HEAD>
+<BODY bgColor=#000000>
+
+
+
+
+<!-- BUFFER -->
+<TABLE cellSpacing=0 cellPadding=10 width=730 align=center bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width=730 bgColor=#000000 colSpan=3 height=10>
+        <IMG height=10 alt="" src="https://cove.larc.nasa.gov/common/spacer.gif" width=1 border=0>
+            </TD>
+    </TR></TBODY></TABLE>
+  
+  
+  
+  
+  
+  
+  <!-- Header starts here -->
+
+<!-- START 10px white border -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" WIDTH=750 align=center>
+<TBODY>
+<TR BGCOLOR="#ffffff">
+<TD BGCOLOR="#ffffff">
+
+
+
+
+
+<!-- Header starts --><!-- Start: NASA Header with meat ball -->
+<TABLE cellSpacing=0 cellPadding=0 width=730 align=center border=0 bgcolor=#FFFFFF>
+  <TBODY>
+  <TR bgColor=#cccccc>
+    <TD width=500 colSpan=6 align=left><FONT 
+      face="Verdana, Arial, Helvetica, sans-serif"><A 
+      href="http://www.nasa.gov" target="_blank"><IMG 
+      height=54 alt="NASA -National Aeronautics and Space Administration" 
+      src="https://cove.larc.nasa.gov/common/nasa_header_01.gif" width=274 
+      border=0 align=left></A> </FONT></TD>
+    <TD align=middle width=260 bgColor=#cccccc>
+      <script language="JavaScript">
+<!-- // Hiding Script Content
+// NASA Common Search Block Code
+CreateCommonSearchBlock();
+//-->
+</script>
+</TD></TR></TBODY></TABLE>
+  <!-- End: NASA Header with meat ball --><!-- Start: Banner -->
+
+
+
+<!-- LOGO HERE -->
+<TABLE cellSpacing=0 cellPadding=0 width=730 align=center border=0 bgColor=#ffffff class="hide">
+  <TBODY>
+  <TR>
+    <TD colSpan=6><IMG height=128 alt="COVE Banner" src="images/COVEbanner-EXP2.jpg" width=730></TD>
+    </TR></TBODY></TABLE>
+  <!-- End: LOGO -->
+<!--- HORIZONTAL NAV BAR BEGINS -->
+<TABLE cellSpacing=1 cellPadding=0 width=730 align=center border=0 style="margin-bottom: 2px;" class="hide">
+  <TBODY>
+  <TR >
+
+    <TD><A class="menubarcellSELECTED" style="width: 104px; height: 33px;" href=".">Home</A></TD>
+    
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="AboutCOVE.html">About COVE</A></TD>
+
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="instruments.html">Instruments</A></TD>
+
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="data.html">Data</A></TD>
+
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="calibration.html">Calibration</A></TD>
+
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="research.html">Research</A></TD>
+
+    <TD><A class="menubarcell" style="width: 104px; height: 33px;" href="links.html">Links</A></TD>
+
+</TR></TBODY></TABLE>
+<!-- END HORIZONTAL NAV BAR-->
+
+<!-- Begin vertical nav and page content -->
+
+
+
+
+
+
+
+
+
+
+<TABLE cellSpacing=0 cellPadding=0 width=730 align=center bgColor=#BADDFC 
+border=0>
+  <TBODY>
+  <TR><!-- [[ START Left Content Area ]] -->
+         <!-- [[ END Left Content Area ]] -->
+    <TD width=19 height="100%">&nbsp;</TD>
+    <TD vAlign=top width=700 height="100%"><!-- Begin pageContent --><IMG 
+      height=0 alt="" 
+      src="https://cove.larc.nasa.gov/common/spacer.gif" 
+      width=0 border=0> 
+      <TABLE height="100%" cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=center width=700>
+            
+            <TABLE width="100%" bgcolor=#BADDFC>
+              <TBODY>
+              <TR>
+                <TD>
+                 <!-- PRIMARY CONTENT STARTS HERE -->
+                <center><SPAN class=standard16><b>Welcome to the CERES Radiation and Validation Experiment (CRAVE) Home Page</b></SPAN></center> <BR><BR>
+                  
+<table border="0" summary="">
+<tr>
+<td align=left class=standard14 style="padding-bottom:15px;">
+<p>
+The Clouds and the Earth's Radiant Energy System (<a href="http://ceres.larc.nasa.gov/" target="_blank">CERES</a>) experiment is one of the highest priority scientific satellite instruments
+ developed for NASA's Earth Observing System (<a href="http://eospso.gsfc.nasa.gov/" target="_blank">EOS</a>)
+</p>
+
+<p>
+The CERES Radiation and Validation Experiment (CRAVE) provide continuous world-class surface radiation measurements and validation of CERES and other satellite products.  
+CRAVE consists of three sites (2 active and 1 legacy).   One active site is Granite Island in Lake Superior, established in the summer of 2018, located 19 km (12 mi.) due North of Marquette, Michigan, and 10 km (6 mi.) to the closest land point.  
+The second active site is at Nasa Langley in Hampton, Virginia, established December 2014.  The legacy CERES Ocean Validation Experiment (COVE) at Chesapeake Light Station site was active from 2000-2016 and after 17 years of continuous operation has been indefinitely suspended due to structural concerns.
+  COVE was located 25km (~15 mi.) to the closest land point in Virginia Beach.
+</p>
+
+<p>
+All 3 sites belong to the Baseline Surface Radiation Network (BSRN), the gold standard for surface radiation measurements.  The active sites are 2 of only 63 BSRN sites operational in the world.  
+</p>
+<p>
+For data access please visit the current and archival program links given below:<BR>
+<a href="https://cove.larc.nasa.gov/BSRN-PLUS/LRC/" target="_blank">LaRC BSRN-PLUS DATA</a><BR>
+<a href="https://cove.larc.nasa.gov/BSRN-PLUS/GIM/" target="_blank">GRANITE ISLAND BSRN-PLUS DATA</a><BR>
+<a href="https://cove.larc.nasa.gov/BSRN-PLUS/COVE/">COVE BSRN-PLUS DATA </a><BR>
+<a href="https://cove.larc.nasa.gov/index-COVE.html">LEGACY COVE Site</a><BR>
+</p>
+
+ </td>
+</tr>
+</table>
+<BR><BR><BR>
+<!-- END PRIMARY CONTENT -->
+                  </TD></TR>
+                </TBODY></TABLE>
+              </TD>
+
+
+  
+  
+                
+                <!-- Body ends -->               
+                </TR></TBODY></TABLE>
+        </TR></TBODY></TABLE><!-- module layout - ends --><!-- End pageContent --><!-- [[ RIGHT CONTENT END ]] --></TD>
+
+
+    </TR></TBODY></TABLE>
+
+<!-- White space starts here -->
+
+
+
+
+<!-- START 10px white border -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" WIDTH=750 align=center>
+<TBODY>
+<TR BGCOLOR="#ffffff">
+<TD BGCOLOR="#ffffff">
+<div style="margin-top:-35px;">
+<script>
+<!-- // Hiding Script Content
+CreateFooterREVISED();
+//-->
+</script>
+</div>
+<!-- Footer ends --><!-- footer ends here -->
+    </TD>
+    </TR>
+    </TBODY>
+    </TABLE>
+
+
+
+
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+
+
+
+
+<!-- BUFFER -->
+<TABLE cellSpacing=0 cellPadding=0 width=730 align=center bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD width=730 bgColor=#000000 colSpan=3 height=10><IMG height=10 alt="" 
+      src="https://cove.larc.nasa.gov/common/spacer.gif" width=1 
+  border=0></TD></TR></TBODY></TABLE>
+  
+  
+  </BODY></HTML>

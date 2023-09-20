@@ -1,0 +1,8 @@
+GET http://ecc.earthdata.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Location: https://ecc.earthdata.nasa.gov/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0

@@ -1,0 +1,16 @@
+GET https://roster-denver.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Set-Cookie: PHPSESSID=qd73h2kc5rv15e2m1d2eqq3n02; path=/
+< Cache-Control: no-store, no-cache, must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Server: Apache/2.4.55 (Debian)
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Location: https://roster-denver.jpl.nasa.gov/home/login
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:56:56 GMT
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache

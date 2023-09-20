@@ -1,0 +1,10 @@
+GET http://cce.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< Location: https://cce.nasa.gov/
+< Content-Length: 229
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:50:07 GMT

@@ -1,0 +1,16 @@
+GET http://lft.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://lft.jpl.nasa.gov/
+< Content-Security-Policy: default-src 'self'; img-src * data:; style-src 'self'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self' 'unsafe-inline'; script-src 'self'; script-src-elem 'self'; object-src 'self'; connect-src *; font-src 'self' data: ms-appx-web://*; frame-src *;
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: SAMEORIGIN
+< Feature-Policy: Autoplay: self; Camera: none; Encrypted-media: self; Fullscreen: self; Geolocation: none; Microphone: none; Midi: none; Sync-xhr: self
+< Content-Length: 136
+< Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:49:49 GMT

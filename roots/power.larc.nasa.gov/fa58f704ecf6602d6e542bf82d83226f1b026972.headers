@@ -1,0 +1,17 @@
+GET https://power.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Amz-Server-Side-Encryption: AES256
+< X-Cache: Hit from cloudfront
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html
+< Last-Modified: Fri, 15 Sep 2023 15:18:02 GMT
+< Via: 1.1 34db9bd11ebdbcc746e357ed5d665244.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: bLsAWkGe8lBFBzigzTR8VwkOGTjAoTNP-tV52qaJNHUJMtU5F5HOFw==
+< Age: 56791
+< Date: Mon, 18 Sep 2023 13:57:56 GMT
+< Etag: W/"f7d6a5b0370cc6b1cf7f2935ad3eec30"
+< Server: AmazonS3

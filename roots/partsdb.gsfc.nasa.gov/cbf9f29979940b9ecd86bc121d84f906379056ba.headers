@@ -1,0 +1,11 @@
+GET http://partsdb.gsfc.nasa.gov
+
+
+< HTTP/1.1 307 Temporary Redirect
+< X-Xss-Protection: 1; mode=block
+< Location: https://partsdb.gsfc.nasa.gov/
+< Content-Length: 240
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:58:24 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN

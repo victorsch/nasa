@@ -1,0 +1,12 @@
+GET https://spsweb.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Length: 229
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Security-Policy: frame-ancestors 'self';
+< Date: Tue, 19 Sep 2023 05:55:22 GMT
+< Server: Apache/2.4.57 (Unix) OpenSSL/1.1.1v
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://spsweb.jpl.nasa.gov/portalappsdev10g/

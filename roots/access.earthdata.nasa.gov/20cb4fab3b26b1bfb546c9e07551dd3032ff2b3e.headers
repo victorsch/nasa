@@ -1,0 +1,21 @@
+GET https://access.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< Date: Tue, 19 Sep 2023 06:05:21 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: p3S4geCclbibDSjiufd7pO4aDN7FKhQxlKDymVwhF5fP1y01y6ueAA==
+< Last-Modified: Wed, 06 Sep 2023 13:28:44 GMT
+< Server: ServerTokens ProductOnly
+< X-Request-Id: p3S4geCclbibDSjiufd7pO4aDN7FKhQxlKDymVwhF5fP1y01y6ueAA==
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Miss from cloudfront
+< Via: 1.1 0112af6219abab80a1c298e0563cf966.cloudfront.net (CloudFront)
+< X-Content-Type-Options: nosniff
+< Etag: W/"beb92ab3f63b6e04f6fe56782c222cee"
+< X-Amz-Server-Side-Encryption: AES256
+< Cache-Control: no-store

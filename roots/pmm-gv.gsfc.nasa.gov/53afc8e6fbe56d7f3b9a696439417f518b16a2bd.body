@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+  <title>PMM Ground Validation</title>
+
+  <meta name="rno" content="David B. Wolff">
+  <meta name="content-owner" content="David B. Wolff">
+  <meta name="webmaster" content="Jianxin Wang">
+  <meta name="description" content="GPMGV data ">
+  <meta name="keywords" content="GPM Satellite Validation, NASA Goddard Space Flight Center">
+  <link rel="stylesheet" href="/pmm-gv.css" type="text/css">
+  <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center>
+<table width="760" border="0">
+  <!--                 header starts here                          -->
+  <tr>
+    <td>
+	<!-- header contents (3 tables) -->
+      <table cellpadding="0" cellspacing="0"  border="0" width="760">
+        <tr>
+          <td>
+	         <table bgcolor="000000" cellpadding="0" cellspacing="0" border="0" BORDERCOLOR="FFFFFF" width="760">
+	           <tr>
+	               <td  bgcolor="#cccccc">
+		              <img src="/gifs/nasa_banner.gif" alt="NASA Logo - GSFC" border="0" />
+		           </td>
+	               <td align="left" width="30%" bgcolor="#cccccc">
+		             <font size="1" face="verdana" color="000000">
+		               + <a class="navLnkBlack" href="http://www.nasa.gov" target="nasa">NASA Homepage</a>
+                       <br />
+	                   + <a class="navLnkBlack" href="http://www.nasa.gov/goddard" target="gsfc">Goddard Homepage</a>
+                       <br />
+                     </font> 
+	               </td>
+	               <td width="30%" bgcolor="#006699" align="center" valign="middle">
+	                 <form method="get" action="https://search.nasa.gov/nasasearch/search/search.jsp" target="out">
+		                <label for="searchfield" class="sectionLnk">
+	                        <font size="1" face="verdana">SEARCH NASA</font>
+                        </label>	            
+                        <input type="textbox" name="nasaInclude" id="searchfield" size="10" maxlength="200" value="">
+	                    <input alt="search" type="image" height="18" width="17" src="/gifs/head_searchgo.gif" name="search" border="0">
+	                 </form>
+                   </td>
+	           </tr>
+	         </table>
+          </td>
+        </tr>
+      </table>
+      
+      <table width="760" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>
+            <img src="gifs/PMM_GV.jpg" width="760" />
+          </td>
+        </tr>
+      </table>
+
+
+    </td>
+  </tr>
+  <tr align="left">
+    <td> 
+       <P \>
+
+
+<!--                         body content below                               -->
+
+<html>
+<h1> To traverse back up the directory use the browser back button.</h1> 
+<p> To download a directory <b>left click mouse button </b>and copy link location. Use either wget or curl to download files. </p>
+
+<iframe src="pub/" frameborder="0" scrolling="auto" width="760" height="400"></iframe>
+</html>
+
+
+<!--                      end of body content, and trailer starts here    -->    
+    </td>
+  </tr>
+
+  <tr>
+     <td>
+
+      <div style="text-align:left">
+        <table style="background-color:#cccccc" cellpadding="4" cellspacing="0" width="760" border="0">
+          <tr>
+            <td valign="top">
+               <a href="http://www.firstgov.gov"><img src="/gifs/foot_firstgov.gif" alt="FirstGov logo" border="0"></a>
+            </td> 
+            <td>
+               <a STYLE="font-size:10px" href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="newwindow">Privacy Policy and Important Notices</a>
+            </td>
+            <td>
+               <a href="http://www.nasa.gov/home/index.html"  target="newwindow"><img src="/gifs/logo_nasa.gif" alt="NASA logo" border="0" alt="NASA Home Page"></a>
+            </td>
+            <br />
+            <td STYLE="font-size:10px">Web Curator: <a href="mailto:jianxin.wang@nasa.gov">Jianxin Wang</a>
+                <br />
+                        Technical Lead: <a href="mailto:charanjit.s.pabla@nasa.gov">Charanjit S. Pabla</a>
+                <br />
+                 NASA Official: <a href="mailto:David.B.Wolff@nasa.gov">David B. Wolff</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+
+</table>
+
+</center>
+
+</body>
+</html>
+
+

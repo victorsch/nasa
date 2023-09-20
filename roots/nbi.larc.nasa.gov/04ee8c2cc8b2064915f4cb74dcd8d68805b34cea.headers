@@ -1,0 +1,10 @@
+GET http://nbi.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: sameorigin
+< Location: https://nbi.larc.nasa.gov/
+< Content-Length: 234
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:17 GMT
+< Server: Apache

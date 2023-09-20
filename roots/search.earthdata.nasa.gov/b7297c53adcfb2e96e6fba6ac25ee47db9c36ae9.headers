@@ -1,0 +1,21 @@
+GET https://search.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: W/"8c5dabf4b2be31fe787599b823bb7003"
+< Cache-Control: no-store
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+< Date: Tue, 19 Sep 2023 06:04:52 GMT
+< X-Request-Id: sNGijGGf-7m24IvaXXyI2JQO3ZwRKbBsaFH5Ugypt46PSHJ3PfCRwQ==
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 bef00830ac8715b50c3242c5f64020a4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P7
+< X-Amz-Cf-Id: sNGijGGf-7m24IvaXXyI2JQO3ZwRKbBsaFH5Ugypt46PSHJ3PfCRwQ==
+< Content-Type: text/html
+< Last-Modified: Wed, 06 Sep 2023 13:46:41 GMT
+< X-Amz-Server-Side-Encryption: AES256
+< Server: ServerTokens ProductOnly
+< X-Content-Type-Options: nosniff
+< X-Cache: Miss from cloudfront

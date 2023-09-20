@@ -1,0 +1,12 @@
+GET https://nasatoms.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: "040d24fdb6c41:0"
+< Strict-Transport-Security: max-age=31557600
+< Accept-Ranges: bytes
+< Server: Microsoft-IIS/10.0
+< Date: Tue, 19 Sep 2023 06:02:32 GMT
+< Content-Length: 255
+< Content-Type: text/html
+< Last-Modified: Wed, 10 Mar 2004 20:07:28 GMT

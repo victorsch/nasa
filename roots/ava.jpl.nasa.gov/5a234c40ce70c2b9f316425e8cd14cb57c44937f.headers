@@ -1,0 +1,16 @@
+GET https://ava.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Wed, 12 Apr 2023 09:53:56 GMT
+< Date: Tue, 19 Sep 2023 06:02:01 GMT
+< Content-Length: 243918
+< X-Content-Type-Options: nosniff
+< Etag: "3b8ce-5f9209622d17e"
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=63072000; includeSubDomains
+< Content-Security-Policy: frame-ancestors none;
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8

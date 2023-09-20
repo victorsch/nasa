@@ -1,0 +1,11 @@
+GET http://eospso.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:05:55 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< X-Frame-Options: SAMEORIGIN
+< Location: https://eospso.nasa.gov/
+< Content-Length: 232

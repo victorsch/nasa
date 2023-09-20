@@ -1,0 +1,14 @@
+GET https://humanresearchroadmap.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: private, no-store
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< X-Aspnet-Version: XXXXXXXXXX
+< Date: Tue, 19 Sep 2023 06:04:28 GMT
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=vhgibom5gwwh2yejphxrjrqi; path=/; secure; HttpOnly; SameSite=Lax
+< Set-Cookie: cookiesession1=678B2874BF92B3BF21A829EC57291E7C;Expires=Wed, 18 Sep 2024 06:04:30 GMT;Path=/;HttpOnly

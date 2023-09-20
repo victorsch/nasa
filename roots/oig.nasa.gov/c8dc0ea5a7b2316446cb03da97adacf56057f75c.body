@@ -1,0 +1,1033 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- #BeginTemplate "/Templates/Default.dwt" -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- #BeginEditable "title" -->
+<title>NASA OIG</title>
+<!-- #EndEditable -->
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/vnd.microsoft.icon" />
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- Accordion Display - Audits/Investigations -->
+
+    <link href="/css/oig_styles_v3.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <link href="/Content/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+
+<!-- #BeginEditable "head" -->
+
+<!-- #EndEditable -->
+
+</head>
+<body>
+
+    <div class="container-fluid hidden-xs">
+        <div class="row" id="bannerBkgd">
+            <div class="col-lg-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10" id="bannerSeal">
+                            <a href="/Welcome.html">
+                                <img src="/images/oigSeal_banner.png" alt="NASA OIG Seal" align="left" />
+                            </a>
+                            <span id="bannerText">NASA Office of Inspector General</span>
+                        </div>
+                        <div class="col-lg-2" style="margin-top:50px;">
+                            <a href="/hotline.html" id="hotlineBtn">HOTLINE</a><br />
+                            <span id="hotlineSubtext">Report Fraud / Waste / Abuse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- phone: reduced banner -->
+    <div class="container text-center hidden-lg hidden-md hidden-sm" style="background-color:#445777;color:white;"> 
+        <div class="h2">NASA IG</div>
+    </div>
+
+    <div class="container-fluid" style="padding:0;">
+        <div class="row" style="background-color:#445777;">
+            <div class="col-lg-offset-7 col-lg-5">
+                <div id="socialLinkBullets">
+                    <a href="mailto:ig-reports-request@hq.nasa.gov" id="social_email">Subscribe</a> <a href="http://twitter.com/NASAOIG" id="social_twitter" target="_blank">Twitter</a> 
+                    <a href="https://www.facebook.com/NASA-OIG-152542428109320" id="social_facebook" target="_blank">Facebook</a>
+
+                    <!-- AddThis Button BEGIN -->
+                    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=ra-4f6c9e8f5f45eb8b" class="addthis_button" id="social_share">Share</a>
+                    <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js"></script>
+                    <!-- END AddThis Button -->
+
+                    <a href="/OIGapp.html" id="social_iOS" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation" id="navBkgdColor">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navCustomStyles">
+                    <li class=""><a href="/Welcome.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Audit <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <!--li><a href="audits/about.html">About</a></li>
+                            <li><a href="audits/staff.html">Staff</a></li-->
+                            <li><a href="/audits/activeProjects.html">Active Projects</a></li>
+                            <li><a href="/audits/auditReports.html">Issued Reports</a></li>
+                            <li><a href="/audits/recovery.html">Recovery Act</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigations <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/investigations/about.html">About</a></li>
+                            <li><a href="/investigations/reports.html">Reports</a></li>
+                            <li><a href="/investigations/pressRelease.html">Press Releases</a></li>
+                            <li><a href="/investigations/field_offices.html">Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/orgCharts/inspector_general.html" target="_new">Inspector General</a></li>
+                            <li><a href="/mission.html">Mission</a></li>
+                            <li><a href="/aboutAll.html">OIG Personnel</a></li>
+                            <li><a href="/orgCharts.html">NASA OIG Organization</a></li>
+                            <li><a href="/offices.html">OIG Field Offices</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruitment <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/rec_info.html">General Information</a></li>
+                            <li><a href="/rec_current.html">Current Vacancies</a></li>
+                            <li><a href="/rec_apply.html">How to Apply</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form method="get" action="https://www.bing.com/search" id="search_form" class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <label for="q" class="obscure">Enter a search term</label>
+                        <input type="text" class="form-control" placeholder="Key word(s)" name="q" id="q">
+                        <input type="hidden" name="cp" value="1252" />
+                        <input type="hidden" name="FORM" value="FREESS" />
+                        <input type="hidden" name="q1" value="site:oig.nasa.gov" />
+                    </div>
+                    <button type="submit" class="btn btn-default" value="Search" id="searchButton">Search</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<!-- #BeginEditable "body" -->
+
+
+<!-- Legacy: Scripts and Styles -->
+<script src="/SpryAssets/SpryData.js" type="text/javascript"></script>
+<script src="/SpryAssets/SpryHTMLDataSet.js" type="text/javascript"></script>
+<script src="/SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<link href="/SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="/css/featuredcontentglider.css" />
+<script type="text/javascript" src="/js/featuredcontentglider.js"></script>
+<script type="text/javascript">
+    // Bug Fix for "featuredcontentglider.js" which is a plug-in
+    // that incorrectly uses jQuery NoConflict. May remove when the
+    // legacy plug-in is no longer used. Replace with Bootstrap Slider.
+    if (!$) $ = jQuery;
+</script>
+<!-- /Legacy -->
+
+
+<!-- NEWS ITEMS -->
+<div class="container" id="featureNewsBkgd">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="featuredItem">
+                <script type="text/javascript">
+
+                    featuredcontentglider.init({
+                        gliderid: "newsItems", //ID of main glider container
+                        contentclass: "glidecontent", //Shared CSS class name of each glider content
+                        togglerid: "p-select", //ID of toggler container
+                        remotecontent: "", //Get gliding contents from external file on server? "filename" or "" to disable
+                        selected: 0, //Default selected content index (0=1st)
+                        persiststate: false, //Remember last content shown within browser session (true/false)?
+                        speed: 500, //Glide animation duration (in milliseconds)
+                        direction: "leftright", //set direction of glide: "updown", "downup", "leftright", or "rightleft"
+                        autorotate: true, //Auto rotate contents (true/false)?
+                        autorotateconfig: [8000, 2] //if auto rotate enabled, set [milliseconds_btw_rotations, cycles_before_stopping]
+                    });
+
+                </script>
+                <style type="text/css">
+                    .glidecontent div,
+                    .glidecontent h4,
+                    .glidecontent h3 {
+                        /* override OIG style which messes with headers */
+                        padding: 0;
+                        margin: 0;
+                        margin-bottom: 0.5em;
+                    }
+
+                    .glidecontent div {
+                        font-weight: bold;
+                        color: #555;
+                    }
+
+                    .glidecontent img {
+                        float: left;
+                        margin-right: 2em;
+                        border: none !important;
+                        height: 300px;
+                        width: auto;
+                        border-radius: 4px;
+                        box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    }
+
+                    .no-shadow, img.no-shadow {
+                        border: none !important;
+                        border-radius: 4px;
+                        box-shadow: none;
+                    }
+                </style>
+
+                <div id="newsItems" class="glidecontentwrapper">
+                            <!-- NEWS ITEM -->
+                            <div class="glidecontent">
+                                <img src="/docs/IG-23-018.jpg" alt="News item" />
+                                <h4><a href="/docs/IG-23-018.pdf" target="_blank">NASA’s Earth System Science Pathfinder Program</a></h4>
+                                <div>NASA established this program nearly 30 years ago to spur new science to help monitor climate change. While we found that the program advances Earth science research, a sharper focus on solutions that more directly benefit society would serve an even greater good.</div>
+                                <div><a href="/docs/IG-23-018.pdf" target="_blank">&raquo; 
+                                        <span>Report</span>
+                                    </a>
+                                </div>
+                            </div>							
+ 							<!-- NEWS ITEM -->
+                            <div class="glidecontent">
+                                <img src="/docs/IG-23-017.png" alt="News item" />
+                                <h4><a href="/docs/IG-23-017.pdf" target="_blank">NASA Federal Information Security Modernization Act of 2014 Evaluation Report for Fiscal Year 2023</a></h4>
+                                <div>Cybersecurity remains one of NASA’s top management challenges. While NASA’s information security program maintained a consistently implemented rating this year, it still falls short of what the Office of Management and Budget considers effective.</div>
+                                <div><a href="/docs/IG-23-017.pdf" target="_blank">&raquo;
+                                        <span>Report</span>
+                                    </a>
+                                </div>
+                            </div>
+							<!-- NEWS ITEM -->
+                            <div class="glidecontent">
+                                <img src="/docs/IG-23-016.jpg" alt="News item" />
+                                <h4><a href="/docs/IG-23-016.pdf" target="_blank">Audit of NASA’s Deep Space Network</a></h4>
+                                <div>NASA’s Deep Space Network transmits scientific and communications data between dozens of spacecraft and Earth. However, the network is oversubscribed with demand exceeding supply by 40 percent at times. While NASA is upgrading this critical infrastructure, the effort is costing more and taking longer than planned—challenges that could intensify as more “big data” missions like Artemis come online.</div>
+                                <div><a href="/docs/IG-23-016.pdf" target="_blank">&raquo; 
+                                        <span>Report</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- NEWS ITEM -->
+                            <div class="glidecontent">
+                                <img src="/docs/SAR-2023-SPRING.png" alt="News item" />
+                                <h4><a href="/docs/SAR-2023-SPRING.pdf" target="_blank">Semiannual Report to Congress</a></h4>
+                                <div>The NASA Office of Inspector General issues its Semiannual Report to Congress summarizing the OIG’s activities and accomplishments from October 1, 2022 – March 31, 2023.</div>
+                                <div><a href="/docs/SAR-2023-SPRING.pdf" target="_blank">&raquo; 
+                                        <span>Report</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- NEWS ITEM -->
+                            <div class="glidecontent">
+                                <img src="/docs/IG-23-015.png" alt="News item" />
+                                <h4><a href="/docs/IG-23-015.pdf" target="_blank">NASA’s Management of the Space Launch System Booster and Engine Contracts</a></h4>
+                                <div>NASA is adapting heritage hardware from the Space Shuttle era, including solid rocket boosters and RS-25 rocket engines, to power the Artemis campaign’s Space Launch System rocket that will launch the Orion crew capsule to the Moon. This report examines whether NASA is meeting cost, schedule, and performance goals for its Booster and RS-25 Engine contracts and examines efforts to reduce the Agency’s financial risk and promote affordability.</div>
+                                <div><a href="/docs/IG-23-015.pdf" target="_blank">&raquo; 
+                                        <span>Report</span>
+                                    </a>
+                                </div>
+                            </div>
+                    <div id="glidertoggle_RM">
+                        <div id="p-select" class="glidecontenttoggler">
+                                <a href="javascirpt:void()" class="toc">1</a>
+                                <a href="javascirpt:void()" class="toc">2</a>
+                                <a href="javascirpt:void()" class="toc">3</a>
+                                <a href="javascirpt:void()" class="toc">4</a>
+                                <a href="javascirpt:void()" class="toc">5</a>
+                            <a href="/featured-Items_archive.html" class="rounded-corners">All OIG Products &raquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row" style="background-color:#fff7e7;">
+        <div class="col-md-4">
+            <div class="oig_title_FeatureAuditInvestigation">
+                <h2 id="auditIcon">Audits</h2>
+            </div>
+            <div class="oig_topBoxes">
+				<p>
+					<strong>September 5, 2023</strong><br />
+					<a href="/docs/IG-23-018.pdf" target="_blank">NASA’s Earth System Science Pathfinder Program (IG-23-018)</a>
+				</p>
+                <p>
+                    <strong>August 17, 2023</strong><br />
+                    <a href="/docs/IG-23-017.pdf" target="_blank">NASA Federal Information Security Modernization Act of 2014 Evaluation Report for Fiscal Year 2023 (IG-23-017)</a>
+                </p>
+				<p>
+					<strong>July 12, 2023</strong><br />
+					<a href="/docs/IG-23-016.pdf" target="_blank">Audit of NASA’s Deep Space Network (IG-23-016)</a>
+				</p>
+				<p>
+					<strong>May 25, 2023</strong><br />
+					<a href="/docs/IG-23-015.pdf" target="_blank">NASA’s Management of the Space Launch System Booster and Engine Contracts (IG-23-015)</a>
+				</p>
+				<p>
+					<strong>May 17, 2023</strong><br />
+					<a href="/docs/IG-23-014.pdf" target="_blank">NASA’s Electrified Aircraft Propulsion Research and Development Efforts (IG-23-014)</a>
+				</p>
+				<p>
+					<strong>May 16, 2023</strong><br />
+					<a href="/docs/IG-23-013.pdf" target="_blank">Audit of NASA’s Compliance with the Payment Integrity Information Act for Fiscal Year 2022 (IG-23-013)</a>
+				</p>
+				<p>
+					<strong>May 3, 2023</strong><br />
+					<a href="/docs/IG-23-012.pdf" target="_blank">NASA’s Management of Its Artificial Intelligence Capabilities (IG-23-012)</a>
+				</p>
+				<p>
+					<strong>April 19, 2023</strong><br />
+					<a href="/docs/IG-23-011.pdf" target="_blank">NASA’s Efforts to Increase Diversity in Its Workforce (IG-23-011)</a>
+				</p>
+				<p>
+					<strong>March 20, 2023</strong><br />
+					<a href="/docs/IG-23-010.pdf" target="_blank">NASA’s Management of Its Radioisotope Power Systems Program (IG-23-010)</a>
+				</p>
+				<p>
+					<strong>January 30, 2023</strong><br />
+					<a href="/docs/ML-23-004.pdf" target="_blank">Fiscal Year 2022 Report on Status of Charge Card Audit Recommendations (ML-23-004)</a>
+				</p>
+				<p>
+					<strong>January 17, 2023</strong><br />
+					<a href="/docs/IG-23-004.pdf" target="_blank">NASA’s Partnerships with International Space Agencies for the Artemis Campaign (IG-23-004)</a>
+				</p>
+				<p>
+					<strong>January 12, 2023</strong><br />
+					<a href="/docs/IG-23-008.pdf" target="_blank">NASA’s Software Asset Management (IG-23-008)</a>
+				</p>
+				<p>
+					<strong>December 19, 2022</strong><br />
+					<a href="/docs/IG-23-006.pdf" target="_blank">NASA Federal Information Security Modernization Act of 2014 Evaluation Report for Fiscal Year 2022 (IG-23-006)</a>
+				</p>
+				<p>
+					<strong>December 19, 2022</strong><br />
+					<a href="/docs/IG-23-005.pdf" target="_blank">Review of NASA’s Space Technology Mission Directorate Portfolio (IG-23-005)</a>
+				</p>
+				<p>
+					<strong>November 15, 2022</strong><br />
+					<a href="/docs/IG-23-003.pdf" target="_blank">Audit of NASA’s Fiscal year 2021 Financial Statements (IG-23-003)</a>
+				</p>
+				<p>
+					<strong>October 6, 2022</strong><br />
+					<a href="/docs/IG-23-002.pdf" target="_blank">Summary of Results of Incurred Cost Audits and Agreed-Upon Procedure Engagement (IG-23-002)</a>
+				</p>
+				<p>
+					<strong>October 5, 2022</strong><br />
+					<a href="/docs/IG-23-001.pdf" target="_blank">NASA’s Compliance with the Geospatial Data Act for Fiscal Year 2022 (IG-23-001)</a>
+				</p>
+				<p>
+					<strong>September 29, 2022</strong><br />
+					<a href="/docs/IG-22-017.pdf" target="_blank">NASA’s Management of Its Johns Hopkins University Applied Physics Laboratory Portfolio (IG-22-017)</a>
+				</p>
+				<p>
+					<strong>August 4, 2022</strong><br />
+					<a href="/docs/IG-22-015-R.pdf" target="_blank">Ames Research Center’s Lease Management Practices (IG-22-015 Redacted)</a>
+				</p>
+				<p>
+					<strong>June 28, 2022</strong><br />
+					<a href="/docs/IG-22-014.pdf" target="_blank">NASA's Compliance with the Payment Integrity Information Act for Fiscal Year 2021 (IG-22-014)</a>
+				</p>
+				<p>
+					<strong>June 14, 2022</strong><br />
+					<a href="/docs/IG-22-013.pdf" target="_blank">NASA’s Management of the Earth Science Disasters Program (IG-22-013)</a>
+				</p>
+				<p>
+					<strong>June 9, 2022</strong><br />
+					<a href="/docs/IG-22-012.pdf" target="_blank">NASA's Management of the Mobile Launcher 2 Contract (IG-22-012)</a>
+				</p>
+				<p>
+					<strong>April 07, 2022</strong><br />
+					<a href="/docs/IG-22-011.pdf" target="_blank">NASA's Cost Estimating and Reporting Practices for Multi-Mission Programs (IG-22-011)</a>
+				</p>
+				<p>
+					<strong>April 06, 2022</strong><br />
+					<a href="/docs/IG-22-010.pdf" target="_blank">NASA's Volatiles Investigating Polar Exploration Rover (VIPER) Mission (IG-22-010)</a>
+				</p>
+				<p>
+					<strong>March 14, 2022</strong><br />
+					<a href="/docs/IG-22-009.pdf" target="_blank">NASA's Insider Threat Program (IG-22-009)</a>
+				</p>
+				<p>
+					<strong>February 03, 2022</strong><br />
+					<a href="/docs/IG-22-008.pdf" target="_blank">NASA's Compliance with Federal Export Control Laws (IG-22-008)</a>
+				</p>
+				<p>
+					<strong>January 11, 2022</strong><br />
+					<a href="/docs/IG-22-007.pdf" target="_blank">NASA's Management of Its Astronaut Corps (IG-22-007)</a>
+				</p>
+				<p>
+					<strong>January 04, 2022</strong><br />
+					<a href="/docs/ML-22-003.pdf" target="_blank">Fiscal Year 2021 Report on Status of Charge Card Audit Recommendations (ML-22-003)</a>
+				</p>
+				<p>
+					<strong>November 30, 2021</strong><br />
+					<a href="/docs/IG-22-005.pdf" target="_blank">NASA's Management of the International Space Station and Efforts to Commercialize Low Earth Orbit (IG-22-005)</a>
+				</p>
+				<p>
+					<strong>November 15, 2021</strong><br />
+					<a href="/docs/IG-22-004.pdf" target="_blank">Audit of NASA's Fiscal Year 2021 Financial Statements (IG-22-004)</a>
+				</p>
+				<p>
+					<strong>November 15, 2021</strong><br />
+					<a href="/docs/IG-22-003.pdf" target="_blank">NASA's Management of the Artemis Missions (IG-22-003)</a>
+				</p>
+				<p>
+					<strong>November 09, 2021</strong><br />
+					<a href="/docs/ML-22-001.pdf" target="_blank">Evaluation of NASA's Information Security Program under the Federal Information Security Modernization Act for Fiscal Year 2021 (ML-22-001)</a>
+				</p>
+				<p>
+					<strong>November 08, 2021</strong><br />
+					<a href="/docs/IG-22-002.pdf" target="_blank">Review of NASA's Fiscal Year 2020 Digital Accountability and Transparency Act Submission (IG-22-002)</a>
+				</p>
+				<p>
+					<strong>September 27, 2021</strong><br />
+					<a href="/docs/IG-21-028.pdf" target="_blank">Final Memorandum, Summary of Results of Incurred Cost Audits (IG-21-028)</a>
+				</p>
+				<p>
+					<strong>September 08, 2021</strong><br />
+					<a href="/docs/IG-21-027.pdf" target="_blank">NASA's Construction of Facilities (IG-21-027)</a>
+				</p>
+				<p>
+					<strong>August 10, 2021</strong><br />
+					<a href="/docs/IG-21-025.pdf" target="_blank">NASA's Development of Next-Generation Spacesuits (IG-21-025)</a>
+				</p>
+				<p>
+					<strong>August 09, 2021</strong><br />
+					<a href="/docs/IG-21-024.pdf" target="_blank">Review of Coronavirus Aid, Relief, and Economic Security (CARES) Act Funding (IG-21-024)</a>
+				</p>
+				<p>
+					<strong>July 14, 2021</strong><br />
+					<a href="/docs/IG-21-022.pdf" target="_blank">NASA's Management of USRA's Cooperative Agreements (IG-21-022)</a>
+				</p>
+				<p>
+					<strong>May 18, 2021</strong><br />
+					<a href="/docs/IG-21-020.pdf" target="_blank">NASA's Compliance with the Payment Integrity Information Act for Fiscal Year 2020 (IG-21-020)</a>
+				</p>
+				<p>
+					<strong>May 18, 2021</strong><br />
+					<a href="/docs/IG-21-019.pdf" target="_blank">NASA's Cybersecurity Readiness (IG-21-019)</a>
+				</p>
+				<p>
+					<strong>April 19, 2021</strong><br />
+					<a href="/docs/IG-21-018.pdf" target="_blank">Artemis Status Update (IG-21-018)</a>
+				</p>
+				<p>
+					<strong>March 31, 2021</strong><br />
+					<a href="/docs/IG-21-017.pdf" target="_blank">Desk Reviews of Fiscal Year 2019 NASA Exchange Audit Reports (IG-21-017)</a>
+				</p>
+				<p>
+					<strong>March 31, 2021</strong><br />
+					<a href="/docs/IG-21-016.pdf" target="_blank">COVID-19 Impacts on NASA's Major Programs and Projects (IG-21-016)</a>
+				</p>
+				<p>
+					<strong>March 24, 2021</strong><br />
+					<a href="/docs/IG-21-015.pdf" target="_blank">Fiscal Year 2020 Federal Information Security Modernization Act Evaluation – A Contractor-Operated Communications System (IG-21-015)</a>
+				</p>
+				<p>
+					<strong>March 02, 2021</strong><br />
+					<a href="/docs/IG-21-014.pdf" target="_blank">Fiscal Year 2020 Federal Information Security Modernization Act Evaluation – A Center Command and Control System (IG-21-014)</a>
+				</p>
+				<p>
+					<strong>February 16, 2021</strong><br />
+					<a href="/docs/IG-21-013.pdf" target="_blank">Fiscal Year 2020 Federal Information Security Modernization Act Evaluation – A Center Communications System (IG-21-013)</a>
+				</p>
+				<p>
+					<strong>February 10, 2021</strong><br />
+					<a href="/docs/IG-21-012.pdf" target="_blank">NASA's Compliance with Federal Export Control Laws (IG-21-012)</a>
+				</p>
+				<p>
+					<strong>January 27, 2021</strong><br />
+					<a href="/docs/IG-21-011.pdf" target="_blank">NASA's Efforts to Mitigate the Risks Posed by Orbital Debris (IG-21-011)</a>
+				</p>
+				<p>
+					<strong>January 14, 2021</strong><br />
+					<a href="/docs/ML-21-001.pdf" target="_blank">Fiscal Year 2020 Report on Status of Charge Card Audit Recommendations (ML-21-001)</a>
+				</p>
+				<p>
+					<strong>December 22, 2020</strong><br />
+					<a href="/docs/IG-21-010.pdf" target="_blank">Fiscal Year 2020 Federal Information Security Modernization Act Evaluation – An Agency Common System (IG-21-010)</a>
+				</p>
+				<p>
+					<strong>December 03, 2020</strong><br />
+					<a href="/docs/IG-21-006.pdf" target="_blank">NASA's Management of Hazardous Materials (IG-21-006)</a>
+				</p>
+				<p>
+					<strong>December 01, 2020</strong><br />
+					<a href="/docs/IG-21-007.pdf" target="_blank">NASA's Challenges to Safely Return Humans to the Moon by 2024 (IG-21-007)</a>
+				</p>
+				<p>
+					<strong>November 16, 2020</strong><br />
+					<a href="/docs/IG-21-005.pdf" target="_blank">Audit of NASA's Fiscal Year 2020 Financial Statements (IG-21-005)</a>
+				</p>
+				<p>
+					<strong>November 10, 2020</strong><br />
+					<a href="/docs/IG-21-004.pdf" target="_blank">NASA's Management of the Gateway Program for Artemis Missions (IG-21-004)</a>
+				</p>
+				<p>
+					<strong>October 27, 2020</strong><br />
+					<a href="/docs/IG-21-002.pdf" target="_blank">NASA's Management of its Acquisition Workforce (IG-21-002)</a>
+				</p>
+				<p>
+					<strong>October 02, 2020</strong><br />
+					<a href="/docs/IG-21-001.pdf" target="_blank">Final Memorandum, Audit of NASA's Compliance with the Geospatial Data Act (IG-21-001)</a>
+				</p>
+				<p>
+					<strong>September 16, 2020</strong><br />
+					<a href="/docs/IG-20-023.pdf" target="_blank">NASA's Planetary Science Portfolio (IG-20-023)</a>
+				</p>
+				<p>
+					<strong>September 14, 2020</strong><br />
+					<a href="/docs/IG-20-022.pdf" target="_blank">NASA's Management of the Stratospheric Observatory for Infrared Astronomy Program (IG-20-022)</a>
+				</p>
+				<p>
+					<strong>August 27, 2020</strong><br />
+					<a href="/docs/IG-20-021.pdf" target="_blank">NASA's Policy and Practices Regarding the Use of Non-Agency Information Technology Devices (IG-20-021)</a>
+				</p>
+				<p>
+					<strong>August 19, 2020</strong><br />
+					<a href="/docs/ML-20-004.pdf" target="_blank">Fiscal Year 2020 Risk Assessment of NASA's Charge Card Programs (ML-20-004)</a>
+				</p>
+				<p>
+					<strong>July 16, 2020</strong><br />
+					<a href="/docs/IG-20-018.pdf" target="_blank">NASA's Management of the Orion Multi-Purpose Crew Vehicle Program (IG-20-018)</a>
+				</p>
+				<p>
+					<strong>June 25, 2020</strong><br />
+					<a href="/docs/IG-20-017.pdf" target="_blank">Evaluation of NASA's Information Security Program under the Federal Information Security Modernization Act for Fiscal Year 2019 (IG-20-017)</a>
+				</p>
+				<p>
+					<strong>May 15, 2020</strong><br />
+					<a href="/docs/IG-20-016.pdf" target="_blank">NASA's Compliance with the Improper Payments Information Act for Fiscal Year 2019 (IG-20-016)</a>
+				</p>
+				<p>
+					<strong>May 06, 2020</strong><br />
+					<a href="/docs/IG-20-015.pdf" target="_blank">Management of the Low-Boom Flight Demonstrator Project (IG-20-015)</a>
+				</p>
+				<p>
+					<strong>March 19, 2020</strong><br />
+					<a href="/docs/IG-20-014.pdf" target="_blank">NASA's Development of Ground and Flight Application Software for the Artemis Program (IG-20-014)</a>
+				</p>
+				<p>
+					<strong>March 17, 2020</strong><br />
+					<a href="/docs/IG-20-013.pdf" target="_blank">NASA's Mobile Launchers (IG-20-013)</a>
+				</p>
+				<p>
+					<strong>March 10, 2020</strong><br />
+					<a href="/docs/IG-20-012.pdf" target="_blank">NASA's Management of Space Launch System Program Costs and Contracts (IG-20-012)</a>
+				</p>
+				<p>
+					<strong>March 03, 2020</strong><br />
+					<a href="/docs/IG-20-011.pdf" target="_blank">NASA's Management of Distributed Active Archive Centers (IG-20-011)</a>
+				</p>
+				<p>
+					<strong>February 20, 2020</strong><br />
+					<a href="/docs/IG-20-010.pdf" target="_blank">NASA's Compliance with Federal Export Control Laws (IG-20-010)</a>
+				</p>
+				<p>
+					<strong>February 05, 2020</strong><br />
+					<a href="/docs/ML-20-003.pdf" target="_blank">Risk Assessment of NASA's Grant Closeout Process (ML-20-003)</a>
+				</p>
+				<p>
+					<strong>January 27, 2020</strong><br />
+					<a href="/docs/ML-20-002.pdf" target="_blank">Fiscal Year 2019 Report on Status of Charge Card Audit Recommendations (ML-20-002)</a>
+				</p>
+				<p>
+					<strong>December 12, 2019</strong><br />
+					<a href="/docs/IG-20-007.pdf" target="_blank">Audit of Space Science Institute (IG-20-007)</a>
+				</p>
+				<p>
+					<strong>November 15, 2019</strong><br />
+					<a href="/docs/IG-20-006.pdf" target="_blank">Audit of NASA's Fiscal Year 2019 Financial Statements (IG-20-006)</a>
+				</p>
+				<p>
+					<strong>November 14, 2019</strong><br />
+					<a href="/docs/IG-20-005.pdf" target="_blank">NASA's Management of Crew Transportation to the International Space Station (IG-20-005)</a>
+				</p>
+				<p>
+					<strong>November 07, 2019</strong><br />
+					<a href="/docs/IG-20-004.pdf" target="_blank">Review of NASA's Fiscal Year 2019 Digital Accountability and Transparency Act Submission (IG-20-004)</a>
+				</p>
+				<p>
+					<strong>October 30, 2019</strong><br />
+					<a href="/docs/ML-20-001.pdf" target="_blank">Memorandum, Fiscal Year 2019 Risk Assessment of NASA's Charge Card Programs (ML-20-001)</a>
+				</p>
+				<p>
+					<strong>October 21, 2019</strong><br />
+					<a href="/docs/IG-20-001-R.pdf" target="_blank">NASA's Security Management Practices (IG-20-001 Redacted)</a>
+				</p>
+				<p>
+					<strong>June 18, 2019</strong><br />
+					<a href="/docs/IG-19-022.pdf" target="_blank">Cybersecurity Management and Oversight at the Jet Propulsion Laboratory (IG-19-022)</a>
+				</p>
+				<p>
+					<strong>June 03, 2019</strong><br />
+					<a href="/docs/IG-19-020.pdf" target="_blank">NASA's Compliance with the Improper Payments Information Act for Fiscal Year 2018 (IG-19-020)</a>
+				</p>
+				<p>
+					<strong>May 29, 2019</strong><br />
+					<a href="/docs/IG-19-019.pdf" target="_blank">Management of NASA's Europa Mission (IG-19-019)</a>
+				</p>
+				<p>
+					<strong>May 07, 2019</strong><br />
+					<a href="/docs/IG-19-018.pdf" target="_blank">NASA's Heliophysics Portfolio (IG-19-018)</a>
+				</p>
+				<p>
+					<strong>April 25, 2019</strong><br />
+					<a href="/docs/IG-19-017.pdf" target="_blank">Final Memorandum, Ames Research Center Protective Services Contract (IG-19-017)</a>
+				</p>
+				<p>
+					<strong>April 15, 2019</strong><br />
+					<a href="/docs/IG-19-016.pdf" target="_blank">NASA's Technology Transfer Process (IG-19-016)</a>
+				</p>
+            </div>
+            <div class="oig_bottomBoxes"><a href="/audits/auditReports.html">View all audits &raquo;</a></div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="oig_title_FeatureAuditInvestigation">
+                <h2 id="rrIcon">Reading Room</h2>
+            </div>
+            <div class="oig_topBoxes">
+                <ul>
+                    <li><a href="/audits/activeProjects.html">Audit - Active Projects</a></li>
+                    <li><a href="/audits/reports/index.html">Audit - Issued Reports</a></li>
+                    <li><a href="/audits/recommend.html">Audit - Open Recommendations</a></li>
+                    <li><a href="/challenges.html">Management Challenges</a></li>
+                    <li><a href="/sar.html">Semiannual Reports</a></li>
+                    <li><a href="/specialReview.html">Special Reviews</a></li>
+                    <li><a href="/testimony.html">Congressional Testimony</a></li>
+                    <li><a href="/letters.html">Letters to Congress</a></li>
+                    <li><a href="/investigations/pressRelease.html">Investigations - Press Releases</a></li>
+                    <li><a href="/audits/recovery.html">Recovery Act</a></li>
+                    <li><a href="/FOIA_requests.html">FOIA</a></li>
+					<li></li>
+                </ul>
+            </div>
+            <div class="oig_bottomBoxes"><!--a href="#">All Reading Room docs &raquo;</a--></div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="oig_title_FeatureAuditInvestigation">
+                <h2 id="investIcon">Investigations</h2>
+            </div>
+            <div class="oig_topBoxes">
+                        <p>
+                            <strong>November 10, 2022</strong><br />
+                            <a href="https://www.justice.gov/opa/pr/ohio-state-university-pays-over-875000-resolve-allegations-it-failed-disclose-professor-s" target="_blank">Ohio State University Pays Over $875,000 to Resolve Allegations that It Failed to Disclose Professor’s Foreign Government Support (PR-2022-I)</a>
+                        </p>
+                        <p>
+                            <strong>September 26, 2022</strong><br />
+                            <a href="https://www.justice.gov/usao-cdca/pr/riverside-man-ordered-spend-46-months-federal-prison-his-second-federal-case-stemming" target="_blank">Riverside Man Ordered to Spend 46 Months in Federal Prison in His Second Federal Case Stemming from Sale of Bogus Aircraft Parts (PR-2022-H)</a>
+                        </p>
+                        <p>
+                            <strong>February 23, 2022</strong><br />
+                            <a href="https://www.justice.gov/usao-sdtx/pr/texas-company-convicted-supplying-potentially-tainted-rocket-fuel-nasa" target="_blank">Texas company convicted for supplying potentially tainted rocket fuel to NASA (PR-2022-F)</a>
+                        </p>
+                        <p>
+                            <strong>February 17, 2022</strong><br />
+                            <a href="https://www.justice.gov/usao-sdny/pr/former-founder-and-ceo-nanotechnology-company-convicted-multimillion-dollar-securities" target="_blank">Former Founder and CEO Of Nanotechnology Company Convicted of Multimillion-Dollar Securities Fraud Scheme (PR-2022-E)</a>
+                        </p>
+                        <p>
+                            <strong>January 21, 2022</strong><br />
+                            <a href="https://www.justice.gov/opa/pr/university-arkansas-professor-pleads-guilty-lying-federal-agents-about-patents-china" target="_blank">University of Arkansas Professor Pleads Guilty to Lying to Federal Agents About Patents in China (PR-2022-D)</a>
+                        </p>
+                        <p>
+                            <strong>December 21, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-md/pr/information-technology-contractor-agrees-pay-more-13-million-settle-federal-false-claims" target="_blank">Information Technology Contractor Agrees to Pay More Than $1.3 Million to Settle Federal False Claims Act Allegations of Overbilling (PR-2022-C)</a>
+                        </p>
+                        <p>
+                            <strong>December 20, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-edva/pr/edva-takes-action-against-covid-19-fraud-2021" target="_blank">EDVA Takes Action Against COVID-19 Fraud in 2021 (PR-2022-B)</a>
+                        </p>
+                        <p>
+                            <strong>November 30, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/brevard-county-woman-sentenced-federal-prison-falsifying-records-related-nasa" target="_blank">Brevard County Woman Sentenced to Federal Prison for Falsifying Record Related to NASA Investigation (PR-2022-A)</a>
+                        </p>
+                        <p>
+                            <strong>August 04, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-edva/pr/jury-convicts-former-nasa-subcontractor-fraud" target="_blank">Jury Convicts Former NASA Subcontractor of Woman-Owned Small-Business Fraud (PR-2021-H)</a>
+                        </p>
+                        <p>
+                            <strong>July 15, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-edva/pr/senior-nasa-employee-sentenced-covid-19-related-loan-fraud" target="_blank">Senior NASA Employee Sentenced for COVID-19 Related Loan Fraud (PR-2021-G)</a>
+                        </p>
+                        <p>
+                            <strong>June 16, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-sdny/pr/senior-nasa-scientist-sentenced-prison-making-false-statements-related-chinese-thousand" target="_blank">Senior NASA Scientist Sentenced to Prison for Making False Statements related to Chinese Thousand Talents Program Participation and Professorship (PR-2021-F)</a>
+                        </p>
+                        <p>
+                            <strong>April 19, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-edva/pr/senior-nasa-employee-pleads-guilty-covid-19-related-loan-fraud" target="_blank">Senior NASA Employee Pleads Guilty to COVID-19 Related Loan Fraud (PR-2021-E)</a>
+                        </p>
+                        <p>
+                            <strong>April 19, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-edpa/pr/bucks-county-fluid-dynamics-and-software-development-company-agrees-pay-almost-200k-and" target="_blank">Pennsylvania Company Agrees to Pay Almost $200k to Resolve Claims It Failed to Meet Federal Contract Obligations (PR-2021-D)</a>
+                        </p>
+                        <p>
+                            <strong>January 13, 2021</strong><br />
+                            <a href="https://www.justice.gov/usao-sdny/pr/senior-nasa-scientist-pleads-guilty-making-false-statements-related-chinese-thousand" target="_blank">Senior NASA Scientist Pleads Guilty to Making False Statements Related to His Support of China's Thousand Talents Program (PR-2021-C)</a>
+                        </p>
+                        <p>
+                            <strong>December 09, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-sdny/pr/former-founder-and-ceo-nanotechnology-company-charged-manhattan-federal-court" target="_blank">CEO of Nanotech Company Allegedly Faked Connection With NASA and Defrauded Investors of More than $12 Million (PR-2021-B)</a>
+                        </p>
+                        <p>
+                            <strong>November 03, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-ks/pr/engineering-firm-kansas-pay-672352-settle-false-claims-allegations" target="_blank">Engineering Firm in Kansas To Pay $672,352 to Settle False Claims Allegations (PR-2021-A)</a>
+                        </p>
+                        <p>
+                            <strong>August 24, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-sdtx/pr/texas-professor-and-nasa-researcher-arrested-charges-related-china-s-talents-program" target="_blank">Texas Professor and NASA Researcher Arrested on Charges Related to China's Talents Program (PR-2020-L)</a>
+                        </p>
+                        <p>
+                            <strong>July 29, 2020</strong><br />
+                            <a href="https://www.justice.gov/opa/pr/university-arkansas-professor-indicted-wire-fraud-and-passport-fraud" target="_blank">University of Arkansas Professor Indicted for Wire Fraud and Passport Fraud (PR-2020-I)</a>
+                        </p>
+                        <p>
+                            <strong>May 11, 2020</strong><br />
+                            <a href="https://www.justice.gov/opa/pr/university-arkansas-professor-arrested-wire-fraud" target="_blank">University of Arkansas Professor Arrested for Wire Fraud (PR-2020-H)</a>
+                        </p>
+                        <p>
+                            <strong>May 11, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-mdpa/pr/pennsylvania-state-university-pay-151000-resolve-potential-false-claims-liability" target="_blank">Pennsylvania State University to Pay $151,000 to Resolve Potential False Claims Liability (PR-2020-G)</a>
+                        </p>
+                        <p>
+                            <strong>April 06, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-sdtx/pr/woman-charged-falsely-claiming-officer-accessed-her-bank-account-international-space" target="_blank">Woman charged with falsely claiming officer accessed her bank account from International Space Station (PR-2020-F)</a>
+                        </p>
+                        <p>
+                            <strong>February 27, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-edtn/pr/researcher-university-tennessee-arrested-wire-fraud-and-making-false-statements-about" target="_blank">Researcher at University of Tennessee Arrested for Wire Fraud and Making False Statements about Affiliation with a Chinese University (PR-2020-E)</a>
+                        </p>
+                        <p>
+                            <strong>February 19, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/former-chief-economist-center-advancement-science-space-pleads-guilty" target="_blank">Former Chief Economist for the Center for the Advancement of Science in Space Pleads Guilty (PR-2020-D)</a>
+                        </p>
+                        <p>
+                            <strong>January 06, 2020</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/nasa-contractor-agrees-pay-375000-settle-false-claims-act-liability" target="_blank">NASA Contractor Agrees to Pay $375,000 to Settle False Claims Act Liability (PR-2020-C)</a>
+                        </p>
+                        <p>
+                            <strong>December 19, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/former-employee-nasa-contractor-convicted-substituting-foreign-materials-domestic" target="_blank">Former Employee of NASA Contractor Convicted for Substituting Foreign Materials for Domestic Materials to be Used by NASA (PR-2020-B)</a>
+                        </p>
+                        <p>
+                            <strong>November 08, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-ndoh/pr/florida-man-convicted-fraudulently-exploiting-programs-designed-protect-service" target="_blank">Florida man convicted of fraudulently exploiting programs designed to protect service-disabled veteran-owned businesses and small disadvantaged businesses (PR-2020-A)</a>
+                        </p>
+                        <p>
+                            <strong>August 29, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/former-nasa-contractor-employee-convicted-substituting-foreign-materials-domestic" target="_blank">Former NASA Contractor Employee Convicted for Substituting Foreign Materials for Domestic Materials To Be Used by NASA (PR-2019-L)</a>
+                        </p>
+                        <p>
+                            <strong>May 22, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-wdny/pr/penn-yan-man-charged-falsifying-inspection-reports-space-parts" target="_blank">Penn Yan Man Charged with Falsifying Inspection Reports (PR-2019-K)</a>
+                        </p>
+                        <p>
+                            <strong>May 09, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-ndil/pr/chicago-software-developer-sentenced-prison-fraudulently-obtaining-federal-grant-money" target="_blank">Chicago Software Developer Sentenced to Prison for Fraudulently Obtaining Federal Grant Money (PR-2019-H)</a>
+                        </p>
+                        <p>
+                            <strong>April 23, 2019</strong><br />
+                            <a href="https://www.justice.gov/opa/pr/aluminum-extrusion-manufacturer-agrees-pay-over-46-million-defrauding-customers-including" target="_blank">Aluminum Extrusion Manufacturer Agrees to Pay Over $46 Million for Defrauding Customers, including the United States, in Connection with Test Result Falsification Scheme (PR-2019-G)</a>
+                        </p>
+                        <p>
+                            <strong>March 27, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-nh/pr/former-university-new-hampshire-employee-sentenced-stealing-government-funds" target="_blank">Former University of New Hampshire Employee Sentenced for Stealing Government Funds (PR-2019-J)</a>
+                        </p>
+                        <p>
+                            <strong>March 14, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-ndoh/pr/five-men-charged-71-count-indictment-defrauding-federal-agencies-paying-bribes-and" target="_blank">Five Men Charged in 71-Count Indictment for Defrauding Federal Agencies (PR-2019-F)</a>
+                        </p>
+                        <p>
+                            <strong>February 26, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-mdfl/pr/former-nasa-contractor-pleads-guilty-receipt-child-pornography" target="_blank">Former NASA Contractor Pleads Guilty To Receipt of Child Pornography (PR-2019-E)</a>
+                        </p>
+                        <p>
+                            <strong>February 25, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-cdca/pr/ex-nasa-contractor-who-hacked-women-s-accounts-and-threatened-publish-nude-photos" target="_blank">Former NASA Contractor Pleads Guilty and Admits to Computer Hacking and Stalking (PR-2019-D)</a>
+                        </p>
+                        <p>
+                            <strong>January 29, 2019</strong><br />
+                            <a href="https://www.justice.gov/usao-de/pr/newark-based-company-and-ceo-agree-pay-275-million-resolve-allegations-government" target="_blank">Newark-Based Company and CEO Agree to Pay $2.75 Million to Resolve Allegations of Government Contracting Fraud (PR-2019-I)</a>
+                        </p>
+                        <p>
+                            <strong>December 11, 2018</strong><br />
+                            <a href="https://www.justice.gov/usao-edva/pr/nasa-facility-chief-guilty-receiving-illegal-gratuities" target="_blank">NASA Facility Chief Guilty of Receiving Illegal Gratuities (PR-2019-C)</a>
+                        </p>
+                        <p>
+                            <strong>November 29, 2018</strong><br />
+                            <a href="https://www.justice.gov/usao-pr/pr/university-puerto-rico-settles-misuse-grant-funds-case" target="_blank">University Of Puerto Rico Settles Misuse Of Grant Funds Case (PR-2019-B)</a>
+                        </p>
+                        <p>
+                            <strong>October 11, 2018</strong><br />
+                            <a href="/docs/PR-2019-A.pdf" target="_blank">Former NASA Contractor Pleads Guilty and Admits to Computer Hacking and Stalking (PR-2019-A)</a>
+                        </p>
+                        <p>
+                            <strong>August 24, 2018</strong><br />
+                            <a href="/docs/pr2018-E.pdf" target="_blank">Scientist Sentenced To Three Years for Defrauding NASA, U.S. Navy, And Missile Defense Agency (PR-2018-E)</a>
+                        </p>
+                        <p>
+                            <strong>August 10, 2018</strong><br />
+                            <a href="/docs/pr2018-D.pdf" target="_blank">NASA Contractor Arrested For Possession of Child Pornography (PR-2018-D)</a>
+                        </p>
+                        <p>
+                            <strong>June 20, 2018</strong><br />
+                            <a href="/docs/pr2018_C.pdf" target="_blank">Alabama Computer Store Owner Charged in Fraud Scheme to Acquire, Sell Government Computers Intended for Schools, Nonprofit Organizations (PR-2018-C)</a>
+                        </p>
+                        <p>
+                            <strong>May 03, 2018</strong><br />
+                            <a href="/docs/pr2018_B.pdf" target="_blank">MassTech, Richard Lee and Arnold Lee to Pay U.S. $1.9 Million to Settle False Claims Act Allegations Relating to Small Business Innovation Research Awards (PR-2018-B)</a>
+                        </p>
+                        <p>
+                            <strong>February 12, 2018</strong><br />
+                            <a href="/docs/pr2018-A.pdf" target="_blank">Federal Jury Finds Scientist Guilty of Defrauding NASA, Navy, and Missile Defense Agency (PR-2018-A)</a>
+                        </p>
+            </div>
+            <div class="oig_bottomBoxes"><a href="/investigations/pressRelease.html">View all investigations &raquo;</a></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- VIDEO CLIPS -->
+<style type="text/css">
+    .video-thumbnail {
+        height: 125px !important;
+        width: auto !important;
+    }
+</style>
+
+<!-- VIDEO CLIPS -->
+
+
+<div class="container" id="videosHomepage">
+
+    <!-- Example row of columns -->
+    <div class="row" style="margin-bottom:10px">
+        <div class="col-md-12">
+            <h2>OIG Videos</h2>
+            <a href="/videos.html">All videos &raquo;</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 videoLinks">
+            <a href="/videos.html?id=5204" target="_blank">
+                <div class="row">
+                    <div class="col-lg-5"><img class="video-thumbnail" src="https://i.ytimg.com/vi/-ePaZvDxESg/mqdefault.jpg" alt="video thumbnail" /> </div>
+                    <div class="col-lg-7">
+                        <p> <strong>COVID-19 Impacts on NASA's Major Programs and Projects</strong> </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-6 videoLinks">
+            <a href="/videos.html?id=5128" target="_blank">
+                <div class="row">
+                    <div class="col-lg-5"><img class="video-thumbnail" src="https://i.ytimg.com/vi/yNct6Hh-eDM/mqdefault.jpg" alt="video thumbnail" /> </div>
+                    <div class="col-lg-7">
+                        <p> <strong>NASA's Mobile Launchers</strong> </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Row 1 Col 1 -->
+    <div class="row">
+
+        <div class="col-lg-6 videoLinks">
+            <a href="/videos.html?id=5132" target="_blank">
+                <div class="row">
+                    <div class="col-lg-5"><img class="video-thumbnail" src="https://i.ytimg.com/vi/RhyDY3kuShQ/mqdefault.jpg" alt="video thumbnail" /> </div>
+                    <div class="col-lg-7">
+                        <p> <strong>NASA's Management of Space Launch System Program Costs and Contracts</strong> </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-lg-6 videoLinks">
+            <a href="/videos.html?id=5107" target="_blank">
+                <div class="row">
+                    <div class="col-lg-5"><img class="video-thumbnail" src="https://i.ytimg.com/vi/RtM9s4420-w/mqdefault.jpg" alt="video thumbnail" /> </div>
+                    <div class="col-lg-7">
+                        <p> <strong>NASA's Management of Crew Transportation to the International Space Station</strong> </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- #EndEditable -->
+
+    <footer id="footerInternal" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAudits">
+                    <p>Audits</p>
+                    <ul>
+                        <li><a href="/audits/activeProjects.html">Active Projects</a></li>
+                        <li><a href="/audits/reports/index.html">Issued Reports</a></li>
+                        <li><a href="/audits/recovery.html">Recovery Act</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerInvestigations">
+                    <p>Investigations</p>
+                    <ul>
+                        <li><a href="/investigations/about.html">About</a></li>
+                        <li><a href="/investigations/reports.html">Reports</a></li>
+                        <li><a href="/investigations/pressRelease.html">Press Releases</a></li>
+                        <li><a href="/investigations/field_offices.html">Field Offices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerAboutUs">
+                    <p>About Us</p>
+                    <ul>
+                        <li><a href="/orgCharts/inspector_general.html" target="_new">Inspector General</a></li>
+                        <li><a href="/mission.html">Mission</a></li>
+                        <li><a href="/aboutAll.html">OIG Personnel</a></li>
+                        <li><a href="/orgCharts.html">NASA OIG Organization</a></li>
+                        <li><a href="/offices.html">OIG Field Offices</a></li>
+						<li><a href="/docs/Body_Worn_Camera_Policy(website).pdf">BWC Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-2 contentSpan footerRecruitment">
+                    <p>Recruitment</p>
+                    <ul>
+                        <li><a href="/rec_info.html">General Information</a></li>
+                        <li><a href="/rec_current.html">Current Vacancies</a></li>
+                        <li><a href="/rec_apply.html">How to Apply</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-4 col-xm-12 contentSpan footerOversightAreas">
+                    <p>Oversight Areas</p>
+                    <ul>
+                        <li><a href="/spaceOps.html">Space Operations</a></li>
+                        <li><a href="/sciAero.html">Science &amp; Aeronautics</a></li>
+                        <li><a href="/infoTech.html">Information Technology</a></li>
+                        <li><a href="/financialMgmt.html">Financial Management</a></li>
+                        <li><a href="/missionSupport.html">Mission Support</a></li>
+                        <li><a href="/auditOps.html">Audit Operations and<br />&nbsp;&nbsp;&nbsp;Quality Assurance</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xm-12 contentSpan footerContactNASAOIG">
+                    <p>Contact NASA OIG</p>
+                    <ul>
+                        <li>
+                            <a href="/contact.html">NASA OIG</a><br />
+                            <span class="smallText">Address, phone numbers, and e-mail</span>
+                        </li>
+                        <li>
+                            <a href="/FOIA_requests.html">FOIA</a><br />
+                            <span class="smallText">Freedom of Information Act requests</span>
+                        </li>
+                        <li>
+                            <a href="/audits/mandatory.html">
+                                Mandatory FAR<br />
+                                Contractor Disclosure
+                            </a><br />
+                            <span class="smallText">Report violations of the civil False Claims Act or a violation of Federal criminal law</span>
+                        </li>
+                        <li>
+                            <a href="/whistleblower.html" 
+                               style="background-color:red;color:whitesmoke;padding:1px;margin-top:5px; margin-bottom:5px;display:block;">
+                                Whistleblower Protection Coordinator</a>
+                            <div class="smallText">Information about Federal Whistleblower Protections</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xm-12 contentSpan footerInternalEmail">
+                    <ul>
+                        <li>Curator: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=william.c.todd@nasa.gov">William Todd</a></li>
+                        <li>NASA Official: <a href="mailto:HQ-OIG-IT-Help@mail.nasa.gov?subject=NASA OIG Website&cc=james.c.akers@nasa.gov">James Akers</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <script language="Javascript">
+                                document.write("Last Updated: " + document.lastModified + "");
+                            </script>
+                        </li>
+                        <li>Last Reviewed: 03/20/2018</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <footer id="footerGovt" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1"> <a href="https://www.nasa.gov"><img src="/images/nasaLogo_footer.png" width="58" height="48" alt="NASA logo"></a></div>
+                <div class="col-xs-2"> <a href="https://www.usa.gov"><img src="/images/usaGov_footer.png" width="99" height="33" alt="USA.gov"></a></div>
+                <div class="col-xs-3">
+                    <a href="https://www.ignet.gov" target="_blank"><img src="/images/ignetgov.png"></a>
+                    <!--Council of the Inspectors General on Integrity & Efficiency-->
+                </div>
+                <div class="col-xs-2"> <a href="https://www.oversight.gov" target="_blank"><img src="/images/oversightgov.png"></a> </div>
+                <div class="col-xs-4">
+                    <ul>
+                        <li><a href="/disclaimer.html">&#9656; OIG Disclaimer</a></li>
+                        <li><a href="/FOIA_requests.html">&#9656; Freedom of Information Act</a></li>
+                        <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">&#9656; NASA Privacy, Security, Notices</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- #EndTemplate -->
+</html>

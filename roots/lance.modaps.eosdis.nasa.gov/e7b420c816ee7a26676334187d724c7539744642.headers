@@ -1,0 +1,11 @@
+GET https://lance.modaps.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Request-Id: e74de3c8f35c392636550bab99ce6501
+< Date: Tue, 19 Sep 2023 06:03:55 GMT
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Credentials: true

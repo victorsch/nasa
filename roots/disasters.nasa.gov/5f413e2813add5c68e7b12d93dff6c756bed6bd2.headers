@@ -1,0 +1,13 @@
+GET http://disasters.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 167
+< Location: https://disasters.nasa.gov/
+< Via: 1.1 d4b67fda8355378cec4afc079701f8e6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P2
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: 46KAj3p241t4N_Mkj3t5shPTtJqaC0AWjIuHnQLUeJHwitAsiNMQsA==
+< Date: Tue, 19 Sep 2023 05:55:01 GMT

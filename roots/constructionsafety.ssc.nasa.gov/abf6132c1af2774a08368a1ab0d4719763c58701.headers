@@ -1,0 +1,18 @@
+GET https://constructionsafety.ssc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:01:21 GMT
+< Cache-Control: private
+< X-Frame-Options: SameOrigin
+< X-Content-Type-Options: nosniff
+< Expires: Tue, 19 Sep 2023 06:01:20 GMT
+< Content-Security-Policy: frame-ancestors 'self' https://nasa.sharepoint.com
+< Permissions-Policy: camera=(), display-capture=(), geolocation=(), microphone=(), payment(), picture-in-picture=(), web-share=()
+< Referrer-Policy: no-referrer
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Server: 
+< Set-Cookie: ASPSESSIONIDCUBBDDQD=KNMLLGGADIALIGDBLGJGMHFF; secure; path=/; HttpOnly

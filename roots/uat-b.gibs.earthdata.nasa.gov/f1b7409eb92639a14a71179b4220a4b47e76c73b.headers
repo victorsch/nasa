@@ -1,0 +1,12 @@
+GET https://uat-b.gibs.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: "4d5-5dbfcdb9e8a69"
+< Content-Length: 1237
+< Last-Modified: Wed, 06 Apr 2022 14:05:46 GMT
+< Server: Apache
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 06:04:26 GMT

@@ -1,0 +1,18 @@
+GET https://images-assets.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 19 Sep 2023 06:01:45 GMT
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Error from cloudfront
+< Content-Type: application/xml
+< Referrer-Policy: same-origin
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 34d27d5dec8d9c8d04bc61d1e0056be2.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< X-Amz-Cf-Id: pG5LQf2JwCWsGIsNIWKOJCYNEUqg066vgLZDx1v-tpBQicuuB9hruQ==
+< Server: AmazonS3
+< X-Content-Type-Options: nosniff
+< X-Amz-Bucket-Region: us-east-1

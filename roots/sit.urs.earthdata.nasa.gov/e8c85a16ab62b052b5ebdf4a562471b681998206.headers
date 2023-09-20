@@ -1,0 +1,21 @@
+GET https://sit.urs.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:41:54 GMT
+< X-Frame-Options: SAMEORIGIN
+< Server: nginx/1.22.1
+< Content-Type: text/html; charset=utf-8
+< Expires: Fri, 01 Jan 1990 00:00:00 GMT
+< X-Runtime: 0.012085
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Download-Options: noopen
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: no-store
+< X-Request-Id: 8f5e5c51-e275-4edc-a7a2-8894ce9f2979
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Pragma: no-cache
+< Etag: W/"ab5ae422b04f53b5cb52d9f4c2df1d48"
+< Set-Cookie: _urs_sit-gui_session=7a6733f27d039bd3b5f1285fc7a6c7d5; path=/; expires=Wed, 20 Sep 2023 05:41:54 GMT; HttpOnly

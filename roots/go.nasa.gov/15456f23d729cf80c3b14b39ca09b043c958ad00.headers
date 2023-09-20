@@ -1,0 +1,11 @@
+GET http://go.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:54:34 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 43
+< Location: https://go.nasa.gov/
+< X-Frame-Options: DENY
+< Via: 1.1 google
+< Server: nginx

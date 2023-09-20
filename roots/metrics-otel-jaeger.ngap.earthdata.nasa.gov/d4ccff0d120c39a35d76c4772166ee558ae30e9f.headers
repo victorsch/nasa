@@ -1,0 +1,16 @@
+GET https://metrics-otel-jaeger.ngap.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 919
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:41:30 GMT
+< Via: 1.1 aed3f8ed29085c056c75452d71b07f7e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: nQVZMczDIlG4H9iNZzNog1V80YJP1SAK_VAksEfuwZS0mdxiQLAztg==
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Error from cloudfront
+< Strict-Transport-Security: max-age=31536000

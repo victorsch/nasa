@@ -1,0 +1,579 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>LAMBDA - Legacy Archive for Microwave Background Data Analysis</title>
+<meta name="description"   content="Legacy Archive for Microwave Background Data Analysis">
+
+<meta http-equiv='content-type' content='text/html'>
+<meta charset='utf-8'>
+<meta name='orgcode'       content='665'>
+<meta name='rno'           content='Thomas M. Essinger-Hileman'>
+<meta name='content-owner' content='Thomas M. Essinger-Hileman'>
+<meta name='webmaster'     content='Michael.R.Greason'>
+<meta name='keywords'      content='CMB,Cosmology,NASA'>
+
+<link href='/common/lambda.css' rel='stylesheet' type='text/css' media='all'>
+<!--[if IE]><link href='/common/lambda_ie.css' rel='stylesheet' type='text/css' media='all'><![endif]-->
+<link href='/common/lambda_print.css' rel='stylesheet' type='text/css' media='print'>
+<link href='/common/google_cse.css' rel='stylesheet' type='text/css' media='all'>
+
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<script type='text/javascript' src='/common/CSScriptLib.js'></script>
+<script type='text/javascript' src='/common/cookies.js'></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = 'https://platform.twitter.com/widgets.js';
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, 'script', 'twitter-wjs'));</script>
+<script id='_fed_an_ua_tag' type='text/javascript' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true'>
+</script>
+</head>
+<body id='topone'>
+
+<div id='astroImage'>
+<div id='pageContainer'>
+<!--
+		NASA header.
+-->
+<div id='nasaHeader' class='nasaBanner'>
+  <a href='https://www.nasa.gov' target='_blank'><img class='logo' src='/common/images/nasa_logo.jpg'
+     alt='NASA Logo, National Aeronautics and Space Administration'></a>
+  <div id='nasaHeaderSearch'>
+    <div id='nasaSearchBox'>
+      <script>
+        (function() {
+          var cx = '009395633457503830258:4snyfo-tqye';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
+    </div>
+    <div id='HeaderButtons'>
+    <h3><a href='https://twitter.com/NASA_LAMBDA' class='twitter-follow-button' data-show-count='false'>Follow @NASA_LAMBDA</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></h3>
+    </div>
+    <div id='LambdaAboutLink'>
+    <div style='position:relative; left:0px; top:2px;'><a href='/contact/'>ABOUT LAMBDA</a></div>
+    </div>
+  </div>
+  <div id='nasaHeaderLinks'>
+    <h1><a href='https://www.nasa.gov' target='_blank'>National Aeronautics and Space Administration</a></h1>
+    <h2><a href='https://www.nasa.gov/centers/goddard/home/index.html' target='_blank'>Goddard Space Flight Center</a></h2>
+    <h3><a href='https://science.gsfc.nasa.gov/sci/' target='_blank'>Sciences and Exploration</a></h3>
+  </div>
+</div> <!-- end of nasaHeader -->
+<!--
+		The primary menu.
+-->
+<ul id='topmenu' class='primarymenu'>
+  <li id='topone'><a href='/'><span>Home</span></a></li>
+  <li id='toptwo'><a href='/product/'><span>Data</span></a></li>
+  <li id='topfour'><a href='/simulation/'><span>Simulations</span></a></li>
+  <li id='topthree'><a href='/toolbox/'><span>Tools</span></a></li>
+  <li id='topsix'><a href='/papers/'><span>Papers</span></a></li>
+  <li id='topseven'><a href='/education/'><span>Education/Graphics</span></a></li>
+  <li id='topfive'><a href='/news/'><span>News</span></a></li>
+</ul>		<!-- end of primarymenu -->
+
+<!--
+			The LAMBDA banner/graphic.
+-->
+<div id='lambdahead'>
+  <img id='lambdaheadbga' src='/common/images/LAMBDA_Bannerb.png' alt=''>
+  <img id='lambdaheadbgb' src='/common/images/LAMBDA_Bannerb.png' alt=''>
+</div>
+
+<!--
+			The secondary menu.
+-->
+
+<!--
+		Border separating menus from the page content and a left menu.
+-->
+<div class='navbar'></div>
+
+<!--
+		Start of page content.
+-->
+<div id='pageContentBG'>
+<div id='pageContent'>
+
+<style>
+/*
+@import "compass/css3";
+*/
+.flex-container {
+  padding: 1em;
+  margin: 0;
+  list-style: none;
+  flex: 1;
+  #background: pink;
+    text-align: center;
+
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-container2 {
+  min-width: 600px;
+  padding: 1em;
+  margin: 0;
+  list-style: none;
+  flex: 1;
+ #background: pink;
+    text-align: center;
+
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+ flex: 1;
+ text-align: center;
+ position: relative;
+}
+
+.flex-item2 {
+    min-width: 600px;
+flex: 0 0 30vw;
+  background: #fff;
+  text-align: center;
+
+}
+
+.flex-1 {
+  flex: 0 0 40vw;
+  #background: blue;
+  #padding: 10px;
+  min-width: 600px;
+  #height: 20px;
+  margin-top: 10px;
+  
+  line-height: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1 em;
+  text-align: center;
+}
+
+.flex-2 {
+  flex: 0 0 30vw;
+ background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #369, #fff, #fff, #fff, #fff, #fff, #369);
+  min-width: 600px;
+  height: 20px;
+  #margin-top: 10px;
+  
+  #line-height: 16px;
+  border: 1px solid #369;
+  #color: white;
+  font-weight: bold;
+  font-size: 0.2 em;
+  text-align: center;
+}
+
+royalbox {
+  padding: 1em;
+  	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+}
+
+
+@media screen and (max-width: 1075px) {
+  .flex-container {
+    display: block;
+  }
+  
+royalbox1 {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	}
+}
+.tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:3px 10px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:3px 10px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-rznk{
+	background-color:#ffffff;
+	color:#330001;
+	border-color:#ffffff;
+	text-align:center;
+	vertical-align:middle}
+.tg .tg-j50j{background-color:#ffffff;color:#330001;vertical-align:top}
+
+#Whats-New-CSS {}
+
+.headline-royal {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 20px 1px 1px 1px;
+  margin: 1px 1px 20px 1px ;
+  background: linear-gradient(135deg, red, yellow, green, blue, purple);
+  filter: drop-shadow(2px 2px 2px #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.parent-container-royal {
+  border: none;
+  font-family: 'times', serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+span .absolute-royal {
+  background-color: #b2b2b2;
+}
+
+.absolute-royal, .absolute-royal1, .absolute-royal2 {
+  border-color: red;
+  position: absolute;
+  top: 15 ;
+  right: 0 ;
+  width: 70%;
+  text-align: left;  
+  font-family: 'Helvetica', sanserif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+  color: red;
+  padding: 30px 5px 1px 1px;
+  margin: 2px;
+  background-color: none;
+}
+
+#parent-container-royal {
+  border-color: purple;
+  height: 400px;
+  width: 600px;
+  position: relative;
+  background-image: url(common/images/sliders/191589_LAMBDA-Whats-New-bkgd.jpg);
+  background-repeat: no-repeat;
+}
+
+#parent-container-github {
+  border-color: purple;
+  height: 400px;
+  width: 600px;
+  position: relative;
+  background-image: url(common/images/sliders/slider_github.jpg);
+  background-repeat: no-repeat;
+}
+
+.absolute-royal1 ul, .absolute-royal1 a{
+list-style-type: disc;
+color: orange;
+}
+
+.absolute-royal1 a:visited{
+color: #96c;
+text-decoration: none;
+}
+
+.absolute-royal2 ul, .absolute-royal2 a{
+list-style-type: disc;
+color: black;
+}
+
+</style>
+
+<!-- basic stylesheet -->
+<link rel="stylesheet" href="/common/royalslider/royalslider.css">
+
+<!-- skin stylesheet (change it if you use another) -->
+<link rel="stylesheet" href="/common/royalslider/skins/default/rs-default.css"> 
+
+<!-- Plugin requires jQuery 1.8+  -->
+<!-- If you already have jQuery on your page, you shouldn't include it second time. -->
+<script src='/common/royalslider/jquery-3.5.1.min.js'></script>
+
+<!-- Main slider JS script file --> 
+<!-- Create it with slider online build tool for better performance. -->
+<script src="/common/royalslider/jquery.royalslider.min.js"></script>
+
+
+<ul class="flex-container">
+  <li class="flex-item">
+    <ul class="flex-container2">
+     <li class="flex-1">
+     <p>&nbsp<br></p>
+<a href='/news/index.html'><img src='/common/images/lambda_home_new.png' alt='LAMBDA Log and Satellite Collage' name='LAMBDA_collage' width='100%' border='0' id='LAMBDA_collage'></a>
+<h3>Legacy Archive for Microwave Background Data Analysis</h3></th>
+    <p>&nbsp<br></p>
+</li>
+     <li class="flex-2"><a href="https://github.com/nasa-lambda/lambda_overview/blob/main/lambda_overview.pdf">Read Our Overview Document on GitHub</a></li>
+    </ul>
+  </li>
+  <li class="flex-item2">
+      <royalbox1 class='royalbox'>
+
+    <div id="royalSlider01" class="royalSlider rsDefault" >
+
+
+<!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="/product/class/class_prod_table.html" target="_blank">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/class_40GHz_data_release.jpg" alt="CLASS 40GHz Data Release - Now Available" />
+        </a>
+    </div>
+
+
+<!-- HTML content slide -->
+<div id="parent-container-royal">
+<a href="/news/history.html">
+    <div class="absolute-royal2">
+      <div class="headline-royal"><a href="/news/history.html">LAMBDA Announcements</a></div>
+<ul>
+	<li><a href="/product/class/class_prod_table.html">CLASS 40GHz Data Release</a></li>
+	<li><a href="/product/foreground/fg_csfd_reddening_map_info.html">Corrected SFD Dust Reddening Map</a></li>
+	<li><a href="/product/act/actadv_prod_table.html">ACT DR6 Lensing Likelihood</a></li>
+	<li><a href="/product/spider/spider_prod_table.html">SPIDER 1 CMB Data Release</a></li>
+	<li><a href="/product/quijote/quijote_prod_table.html">QUIJOTE MFI Data Release 1 Data</a></li>
+	<li><a href="/product/act/actadv_targeted_transient_constraints_2023_info.html">ACT targeted transient flux limits</a></li>
+										
+    <li><a href="/news/index.html">News History.</a></li>
+</ul>
+    </div>
+</a>
+</div>
+
+
+<!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="/product/spider/spider_prod_table.html" target="_blank">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/spider1_slider.jpg" alt="SPIDER 1 CMB Data Release" />
+        </a>
+    </div>
+
+<!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="/product/quijote/" target="_blank">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/QUIJOTE-1y2-daniel-lopez-slider.jpg" alt="QUIJOTE Data Released on LAMBDA" />
+        </a>
+    </div>
+
+<!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="https://nap.nationalacademies.org/resource/26141/interactive/ " target="_blank">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/decadal2020_priorities.jpg" alt="2020 Decadal Survey of Astronomy and Astrophysics: CMB-S4 design and implementation, CMB research in support of a 2030's probe call." />
+        </a>
+    </div>
+
+<!-- simple image slide
+    <div style="background-color:black;">
+        <a href="/product/act/">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="/common/images/sliders/act_dr4_slider.jpg" alt="Atacama Cosmology Telescope Data Release 4 is here!" />
+        </a>
+    </div>
+    -->
+
+<!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="/education/graphic_history/intensitymapping.html">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/line-intensity_mapping.jpg" alt="Line-Intensity Mapping studies the evolution of galaxies and the Universe" />
+        </a>
+    </div>
+
+<!-- simple image slide
+    <div style="background-color:black;">
+        <a href="product/cobe/firas_overview.html">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/FIRAS_movie.png" alt="FIRAS Overview Page" />
+        </a>
+    </div>
+     -->
+
+<!-- HTML content slide -->
+<div id="parent-container-github">
+<a href="https://github.com/nasa-lambda/">
+    <div class="absolute-royal1">
+      <!-- <div class="headline-royal"><a href="https://github.com/nasa-lambda">What's New on Github</a></div> -->
+<ul><br /><br /><br />
+    <li><a href="https://github.com/nasa-lambda/docker-lambda">docker/jupyter notebook analysis examples</a><br /><br /></li>
+    <li><a href="https://github.com/nasa-lambda/cmb_analysis">python port of polspice</a><br /><br /></li>
+        <li><a href="https://github.com/nasa-lambda/cmbpol_plotting">polarized CMB power spectra data/plotting</a><br /><br /></li>
+        <li><a href="https://github.com/nasa-lambda/cmb_footprint">footprints of cosmological surveys</a></li>
+</ul>
+    </div>
+</a>
+</div>
+
+  <!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="toolbox/footprint/">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/footprint.png" alt="Lambda Footprint Tool" />
+        </a>
+    </div>
+
+    <!-- simple image slide -->
+    <div style="background-color:black;">
+        <a href="education/graphic_history/">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/Universe_Timeline_600.jpg" alt="CMB Graphical History" />
+        </a>
+    </div>
+
+   <!-- simple image slide -->
+    <div style="background-color:white;">
+        <a href="graphics/">
+        <img data-rsw="610" data-rsh="400" class="rsImg" src="common/images/sliders/lambda_graphic.png" alt="LAMBDA CMB Graphics" />
+        </a>
+    </div>
+
+    </div>
+    </royalbox1>
+    </aside>
+  </div>
+
+<hr>
+<p>LAMBDA is a part of NASA's <a href='https://heasarc.gsfc.nasa.gov/' target='_blank'>High Energy Astrophysics Science Archive Research Center (HEASARC)</a>. This site is a multi-mission NASA center of expertise for cosmic microwave background (CMB) radiation research; it provides CMB researchers with archive data from cosmology missions, software tools, and links to other sites of interest. As a resource for the CMB community, your <a href="/contact/contact.html" target="_blank">suggestions</a> are encouraged.</p>
+
+<table cellspacing='0'>
+    <th>Related &nbsp;Archives:&nbsp; </th>
+    <td>
+      <a href="https://cade.irap.omp.eu/dokuwiki/" target="_blank"> CADE</a> /
+      <a href="https://cdsweb.u-strasbg.fr/" target="_blank"> CDS</a> /
+      <a href="https://asc.harvard.edu/" target="_blank">CXC</a> /
+      <a href="https://heasarc.gsfc.nasa.gov/" target="_blank"> HEASARC</a> /
+      <a href="https://irsa.ipac.caltech.edu/frontpage/" target="new">IRSA</a> /
+      <a href="https://archive.stsci.edu/" target="new">MAST</a> /
+      <a href="http://ned.ipac.caltech.edu/" target="new">NED</a> /
+      <a href="https://nssdc.gsfc.nasa.gov/" target="new">NSSDC</a> /
+      <a href="https://www.cosmos.esa.int/web/planck/pla" target="new">PLA</a> /
+      <a href="https://irsa.ipac.caltech.edu/data/SPITZER/docs/spitzermission/" target="new">SSC</a> /
+      <a href="https://heasarc.gsfc.nasa.gov/vo/summary/" target="new">USVAO</a>
+    </td>
+</table>
+
+<p><a href="/contact/"><strong>LAMBDA's Mission and Use Acknowledgement Statement</strong></a><p>
+
+<script>
+    jQuery(document).ready(function($) {
+        $('#royalSlider01').royalSlider({
+            // options go here
+            // as an example, enable keyboard arrows nav
+            keyboardNavEnabled: true,
+            loop: true,
+    		autoPlay: {
+    		// autoplay options go here
+    		enabled: true,
+    		pauseOnHover: true,
+    		delay: 6000},
+            slidesSpacing: 0,
+            transitionType: 'none',
+            controlNavigation: 'bullets',
+            controlsInside: true,
+        });
+    });
+
+    jQuery(document).ready(function($) {
+        $('#royalSlider02').royalSlider({
+            // options go here
+            // as an example, enable keyboard arrows nav
+            keyboardNavEnabled: true,
+            loop: true,
+    		autoPlay: {
+    		// autoplay options go here
+    		enabled: true,
+    		pauseOnHover: true,
+    		delay: 4000},
+    		visibleNearby: {
+            enabled: true,
+            centerArea: 0.33,
+            center: false},
+            slidesSpacing: 0,
+            transitionType: 'none',
+            controlNavigation: 'none',
+        });
+    });
+
+</script>
+
+
+<p></p>
+</div>				<!-- End of pageContent   -->
+</div>				<!-- End of pageContentBG -->
+
+<!--
+		Border for the bottom of the page.
+-->
+<div class='navbar'></div>
+<!--
+		Insert the page footers.
+-->
+<div class='footers'>
+<!--
+			Full width service comment.
+-->
+<div id='serviceFooter' class='nasaBanner'>
+A service of the
+<a href='https://heasarc.gsfc.nasa.gov/' target='_blank'>HEASARC</a>
+and of the
+<a href='https://science.gsfc.nasa.gov/astrophysics/' target='_blank'>Astrophysics Science Division</a>
+at NASA/GSFC
+</div>						<!-- End of serviceFooter -->
+<!--
+			Multi-component bottom banner.
+-->
+<div id='nasaFooter' class='nasaBanner'>
+  <a href='https://www.nasa.gov/' target='_blank'><img class='logo' src='/common/images/nasa_logo.jpg'
+     alt='NASA Logo, National Aeronautics and Space Administration'></a>
+  <a href='https://www.nasa.gov/centers/goddard/home/index.html' target='_blank'><img class='signature' src='/common/images/goddardsignature2.png'
+     alt='Goddard Space Flight Center, National Aeronautics and Space Administration'></a>
+
+<div id='nasaFooterLinks'>
+  <a href='/contact/contact.html'>Comments/Feedback</a><br>
+  <a href='https://science.gsfc.nasa.gov/astrophysics/' target='_blank'>NASA Astrophysics</a><br>
+  <a href='https://www.nasa.gov/about/highlights/HP_Privacy.html' target='_blank'>Privacy Policy & Important Notices</a><br>
+</div>						<!-- End of nasaFooterLinks -->
+<div id='nasaFooterPeople'>
+HEASARC Director: Dr. Andrew F. Ptak<br>
+LAMBDA Director: Dr. Thomas M. Essinger-Hileman<br>
+NASA Official: Dr. Thomas M. Essinger-Hileman<br>
+Web Curator: Mr. Michael R. Greason<br>
+</div>						<!-- End of nasaFooterPeople -->
+</div>						<!-- End of nasaFooter       -->
+</div>						<!-- End of footers          -->
+<!--
+		Close out the page.
+-->
+</div>						<!-- End of 'pageContainer'  -->
+</div>						<!-- End of 'astroImage'     -->
+</body></html>

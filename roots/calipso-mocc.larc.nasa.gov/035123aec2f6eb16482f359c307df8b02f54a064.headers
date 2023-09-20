@@ -1,0 +1,13 @@
+GET https://calipso-mocc.larc.nasa.gov
+
+
+< HTTP/1.1 401 Unauthorized
+< Content-Type: text/html; charset=iso-8859-1
+< X-Frame-Content-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Www-Authenticate: Basic realm="CALIPSO Flight Operations"
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 381
+< Date: Tue, 19 Sep 2023 06:01:05 GMT
+< Server: Apache
+< X-Content-Type-Options: nosniff

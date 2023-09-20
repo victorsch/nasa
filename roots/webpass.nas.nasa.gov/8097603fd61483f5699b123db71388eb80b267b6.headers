@@ -1,0 +1,15 @@
+GET https://webpass.nas.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Cache-Control: no-store
+< Cache-Control: no-cache, private
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=30&TYPE=33554433&REALMOID=06-2a82decb-20a2-4fb0-8dad-7ded9926245f&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-T%2fDYhGVqdSlvJj3yJgsaaClAcnbchK99t1tJc6BgsjvNHl7ZcZfTRlLDAJ9fMWooy73fNCSWmLZLGKl7wmQ9A6A%2bqINl2bP2XfxXf%2bjU5zsukUtvYJfQgSsbRpnz0YtN&TARGET=-SM-https%3a%2f%2fwebpass%2enas%2enasa%2egov%2f
+< Strict-Transport-Security: max-age=31557600; includeSubDomains
+< Content-Length: 563
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:06:00 GMT
+< Server: Apache
+< Set-Cookie: session=expiry=1695104160020439;Max-Age=600;path=/; HttpOnly; Secure;
+< Set-Cookie: session=expiry=1695104160020439;Max-Age=600;path=/; HttpOnly; Secure;

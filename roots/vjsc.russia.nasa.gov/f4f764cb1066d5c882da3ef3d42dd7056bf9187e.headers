@@ -1,0 +1,14 @@
+GET https://vjsc.russia.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:40:45 GMT
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000;
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+< Content-Length: 173
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Set-Cookie: SESSID=1b3c9311-4038-4a05-a7d3-ea2593bda5b0; Path=/; HttpOnly; Secure
+< X-Frame-Options: DENY

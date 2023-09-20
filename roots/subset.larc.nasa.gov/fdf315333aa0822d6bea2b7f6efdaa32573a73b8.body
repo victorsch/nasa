@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+	<html lang="en">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <title>ASDC Search and Subsetting Web Applications &raquo; Home Page</title>
+        <base href="." />
+        <link rel="stylesheet" type="text/css" href="css/cupertino/jquery-ui-1.8.custom.css" title="ui-theme" />    
+        <link rel="stylesheet" type="text/css" href="css/form-validate/jquery.validate.css" />
+	<link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+
+
+<script type="text/javascript" src="./lib/jquery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="./lib/jquery-ui/jquery-ui-1.8.custom.min.js"></script>
+<script type="text/javascript" src="./lib/jquery-cookie/jquery.cookie.js"></script>
+<script type="text/javascript" src="./lib/calcMD5.js"></script>
+<script type="text/javascript" src="./liblib/Leaflet.js"></script>
+
+
+        
+ <!-- Address XSS vulnerability -->
+<script language=javascript type=text/javascript>
+<!--
+    if (top.frames.length != 0) top.location = self.document.location;
+-->
+</script>
+        
+        <link rel="stylesheet" type="text/css" media="screen, projection" href="css/home_search.css" />
+    </head>
+	
+	
+	
+	
+    <body onload="init(); ajax_update_count();">
+		<!-- Google Tag Manager (noscript) -->
+    	<noscript>
+        	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden">
+        	</iframe>
+    	</noscript>
+    	<!-- End Google Tag Manager (noscript) -->
+        <!-- Add the Status banner -->
+		<div id="earthdata-notification-banner"></div>
+        <h5>
+            <div class="alert alert-warning text-center rounded-0 mb-20px" role="alert" id="earthdata-notification-banner"></div>
+        </h5>
+        <!-- <script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script> -->
+	<!-- End Status banner   -->
+        <noscript>
+            <meta http-equiv="Refresh" content="0;url=js_disabled.html" />
+        </noscript>
+<!--[if lte IE 7]>
+        <div id="broken_ie_message">
+            <div class="inner">
+                <p><strong>Why does this site look messed up?</strong> Modern web sites, like this one, are built to conform with web standards. Web standards codify how web technologies, such as HTML and CSS, must work so the web can be accessible and interoperable. You're using an outdated version of Microsoft Internet Explorer, which supports web standards poorly, provides you a sub-optimal web browsing experience, and makes web developers miserable.</p>
+                <p>Don't worry, there's hope! You can upgrade your browser to the latest version of <a href="http://www.microsoft.com/windows/internet-explorer/download-ie.aspx">Internet Explorer</a>, <a href="http://www.google.com/chrome">Google Chrome</a>, <a href="http://www.apple.com/safari">Apple Safari</a>, or <a href="http://www.opera.com/">Opera</a>. Thay are freely downloadable, and by upgrading you're increasing the quality of your web browsing experience and just plain making the web a better place.</p>
+            </div>
+        </div>
+<![endif]-->
+        <div id="wrapper">
+            <div id="content">
+                <!-- start #header -->
+                <div id="header">
+                    <div id="logo"><h1><a href="http://www.nasa.gov" target="_blank" title="NASA Home Page">NASA - National Aeronautics and Space Administration</a></h1></div>
+                    <!-- start NASA search #nasa_search -->
+                    <div id="nasa_search">
+<!--                        <form name="search" id="search" method="get" action="http://search.nasa.gov/nasasearch/search/search.jsp">
+                            <span id="searchbutton"><a href="javascript:document.search.submit();" title="Search NASA">Search</a></span>
+                            <span id="inputfield"><input title="searchfield" type="text" id="nasaInclude" name="nasaInclude" class="searchbox" autocomplete="off" /></span>
+                        </form>-->
+			<form accept-charset="UTF-8" name="search" action="http://nasasearch.nasa.gov/search" target="_blank" id="search_form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+                              <input id="affiliate" name="affiliate" type="hidden" value="nasa">
+                              <span id="inputfield"><input autocomplete="off" class="usagov-search-autocomplete searchbox ui-autocomplete-input" id="query" name="query" type="text" role="textbox" aria-autocomplete="list" aria-haspopup="true" aria-labelledby="searchbutton"></span>
+                              <span id="searchbutton"><a href="javascript:document.search.submit();" title="Search NASA">Search</a></span>
+			      </form>
+
+                    </div>
+                    <!-- end NASA search #nasa_search -->
+                </div>
+                <div style="clear: both;"></div>
+                <!-- end #header -->
+                <!-- start #breadcrumb -->
+                <div id="breadcrumb">
+                    <ul id="crumbs">
+                        <li><a href="https://asdc.larc.nasa.gov" target="_blank" title="Home"><img src="img/home.gif" alt="ASDC Home" class="home" /></a></li>
+                        <li><a href="./" title="Search and Subsetting Web Applications">ASDC Search and Subsetting Web Applications</a></li>
+                        <li>Introductory Page</li>
+                    </ul>
+                </div>
+                <!-- end #breadcrumb -->
+				
+                <!-- start #login_section -->
+                <div id="login_section" class="ui-widget-content ui-corner-all section_shadow">
+                    <h2>Available Subsetters</h2>
+		    <p>The ASDC offers subsetting web applications for the following projects:</p>
+		    <ul>
+		    	<li><a href=https://subset.larc.nasa.gov/calipso alt="CALIPSO Search and Subsetting" title="CALIPSO Search and Subsetting">CALIPSO</a></li>
+		    	<li><a href=https://subset.larc.nasa.gov/ceres alt="CERES Search and Subsetting" title="CERES Search and Subsetting">CERES</a></li>
+				<li><a href=https://subset.larc.nasa.gov/mopitt alt="MOPITT Search and Subsetting" title="MOPITT Search and Subsetting">MOPITT</a></li>
+				<li><a href=https://subset.larc.nasa.gov/tes alt="TES Search and Subsetting" title="TES Search and Subsetting">TES</a></li>
+			</ul>
+			<p>The following are subsetting web applications external to the ASDC:</p>
+			<ul>
+		    	<li><a href=http://ceres.larc.nasa.gov/order_data.php alt="CERES Subset/Visualization Tool. External to the ASDC." title="CERES Subset/Visualization Tool. External to the ASDC.">CERES Subset/Visualization Tool</a></li>
+			</ul>
+                    <h2>Introduction</h2>
+		    <p>Welcome to the ASDC Search and Subsetting Web Applications. Each of these tools enables a more sophisticated approach to selecting and ordering project data by date, time and geolocation.</p>
+		    <h3 style="color: rgb(59, 170, 227);padding-left: 10px;">What is Subsetting?</h3>
+		    <p style="padding-left:10px;">A subset is defined as a set that is part of a larger set. The ASDC subsetters give the user three subsetting options that can be used individually or in combination with one another.</p>
+		    <dl style="padding-left:10px">
+		    <dt>Parameter Groupings</dt>
+		    <dd>For each project, data parameters have been grouped together based on type. The user may select which parameter groups, as well as which data variables from these parameter groups, to include. The final output will also include a default group of data variables.</dd>
+		    <dt>Temporal</dt>
+		    <dd>The user is given the opportunity to narrow their search to a specific temporal range. Any available data that intersects with the selected time range will be returned.</dd>
+		    <dt>Geospatial</dt>
+		    <dd>The user can select to search either the entire globe or a specific geospatial area. If a specific region is selected, any available data that intersects with that region will be returned. Below is an example of a geospatially subsetted footprint and its output (select the image to see the full size).</dd>
+		    <dd style="text-align:center"><a href="img/subset_example.png"><img src="img/subset_example.png" alt="Geospatial subsetting example. Click to see full size." title="Geospatial subsetting example. Click to see full size." height="400px"></a></dd>
+		    </dl>
+		    <h3 style="color: rgb(59, 170, 227);padding-left: 10px;">What Data is Available?</h3>
+		    <p style="padding-left:10px;">The ASDC subsetters offer the following data products:</p>
+		    <ul>
+		    <li><a href=https://subset.larc.nasa.gov/calipso alt="CALIPSO Search and Subsetting" title="CALIPSO Search and Subsetting">CALIPSO</a>: Level 1 and Level 2 LIDAR data</li>
+		    <li><a href=https://subset.larc.nasa.gov/ceres alt="CERES Search and Subsetting" title="CERES Search and Subsetting">CERES</a>: Level 2 SSF and FLASH_SSF data</li>
+		    <li><a href=https://subset.larc.nasa.gov/mopitt alt="MOPITT Search and Subsetting" title="MOPITT Search and Subsetting">MOPITT</a>: Level 2, Version 5 data</li>
+		    <li><a href=https://subset.larc.nasa.gov/tes alt="TES Search and Subsetting" title="TES Search and Subsetting">TES</a>: Level 2 Nadir data</li>
+		    </ul>
+		    <p>To begin ordering data, please select the desired project from above. Access to the application web site requires that users login with an <a href="https://urs.earthdata.nasa.gov/documentation" title="EOSDIS Earthdata Login">EOSDIS Earthdata Login</a> account. Please contact <a href="http://asdc.larc.nasa.gov/contact-us" title="ASDC User Services">ASDC User Services</a> (<a href="mailto:support-asdc@earthdata.nasa.gov?subject=Re: Search and Subsetter Web Application" title="support-asdc@earthdata.nasa.gov">support-asdc@earthdata.nasa.gov</a>) if you need assistance.</p>
+		    <p>We highly encourage that you send us your feedback using the URL at the bottom of the page; every bit of feedback will allow us to address issues and add enhancements in future releases.</p>
+                    </form>
+                </div>
+                <!-- end #login_section -->
+                 <!-- start #footer -->
+                <div id="footer">
+                    <!-- start foot_wrap -->
+                    <div class="foot_wrap">
+					<div class="col">
+					</div>
+					<div class="col">
+						<h3><a href="http://asdc.larc.nasa.gov/" title="ASDC Homepage" onclick= "window.open(this.href); return false;">ASDC Homepage</a></h3>
+					</div>
+					<div class="col">
+					</div>
+					<div class="col2">
+						<h3> <a href="mailto:support-asdc@earthdata.nasa.gov?subject=Question, Comment, or Feedback regarding the ASDC Search and Subsetting Web Applications">Questions, Comments, or Feedback?</a></h3>
+					</div>
+					</div>
+                    <!-- end foot_wrap -->
+                    <!-- start foot_stamp -->
+                   	<br>
+				<div id = "foot_stamp" class="ui-widget-content ui-corner-all section_shadow" >
+					<center><table border="0" summary="for footer formatting">
+						<tbody>
+						<br>
+							<tr>
+								<td>
+									<a href="http://www.nasa.gov" title="NASA Home Page"><img src="img/logo.png" border="0" alt="NASA logo"/></a>
+								</td>
+								<td>
+									<address>
+										<small>
+										Responsible NASA Official: John M. Kusterer<br>
+										Site Administration/Help: NASA Langley ASDC User Services 
+										(<a href="mailto:support-asdc@earthdata.nasa.gov">support-asdc@earthdata.nasa.gov</a>)<br>
+										[<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy and Important Notices</a>]<br>
+										Last Updated: August 09, 2023										</small>
+									</address>
+								</td>
+							</tr>
+						</tbody>
+					</table></center>
+				</div>
+            </div>
+        </div>
+	</div>
+	<!-- Begin Javascript to have ED Status app properly registered  -->
+	<script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+        <script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js" id="earthdata-tophat-script" data-current-daac="ASDC" data-show-fbm="true" data-show-status="true"></script>
+         <!-- End -->
+		<!-- 9/22/20 Removed netinsight page tag
+		Begin: NetInsight Page Tag
+		<script language="JavaScript" type="text/javascript" src="./lib/ntpagetag.js"></script>
+		<noscript>
+		<img src="http://ws1.ems.eosdis.nasa.gov/images/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+			</noscript>
+		End: NetInsight Page Tag -->
+    </body>
+	
+			
+	
+	
+    <script type="text/javascript"><!-- hide from older browsers
+$(function(){
+
+    $("button, input:reset, input:submit").button();
+});
+
+function confirm_leave() {
+    return confirm('Thank you for visiting our NASA web site.\n\nYou are now leaving this site to enter a web site that is NOT maintained by the National Aeronautics and Space Administration (NASA).\n\nClick Cancel if you want to stay.');
+}
+//-->
+    </script>
+</html>

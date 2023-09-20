@@ -1,0 +1,8 @@
+GET http://heasarc.gsfc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Location: https://heasarc.gsfc.nasa.gov/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0

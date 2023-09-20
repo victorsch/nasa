@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8 | appel.nasa.gov" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="cleartype" content="on">
+		<title>APPEL Knowledge Services</title>
+
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54b9444979ff1ae7" async="async"></script>
+
+		<link rel="pingback" href="https://appel.nasa.gov/xmlrpc.php" />
+		<link rel="shortcut icon" type="image/x-icon"  href="/wp-content/uploads/2013/04/favicon.png">
+		<link rel="apple-touch-icon" href="/wp-content/uploads/2013/04/favicon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/wp-content/uploads/2013/04/favicon.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/wp-content/uploads/2013/04/favicon.png">
+
+		<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="APPEL Knowledge Services &raquo; Feed" href="https://appel.nasa.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="APPEL Knowledge Services &raquo; Comments Feed" href="https://appel.nasa.gov/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="APPEL Knowledge Services &raquo; Home Comments Feed" href="https://appel.nasa.gov/home/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/appel.nasa.gov\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='jquery.prettyphoto-css'  href='https://appel.nasa.gov/wp-content/plugins/wp-video-lightbox/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='video-lightbox-css'  href='https://appel.nasa.gov/wp-content/plugins/wp-video-lightbox/wp-video-lightbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://appel.nasa.gov/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://appel.nasa.gov/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='collapscore-css-css'  href='https://appel.nasa.gov/wp-content/plugins/jquery-collapse-o-matic/css/core_style.css' type='text/css' media='all' />
+<style id='collapscore-css-inline-css' type='text/css'>
+.collapseomatic{
+line-height:22px;
+color:#000000;
+font-weight:lighter;
+font-size:18px;
+background-image: url (/wp-content/uploads/2013/07/collapseomatic_arrow_down.png)
+}
+
+.collapseomatic2{
+color: #000000;
+font-weight:200;
+font-size:18px;
+}
+
+.colomat-close {
+	background-image: url(/wp-content/uploads/2013/07/collapseomatic_arrow_down.png); !important;
+}
+
+.colomat-hover {
+    color: #000000;
+    text-decoration:none;
+	font-weight:bold;
+}
+</style>
+<link rel='stylesheet' id='collapseomatic-css-css'  href='https://appel.nasa.gov/wp-content/plugins/jquery-collapse-o-matic/css/light_style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://appel.nasa.gov/wp-content/plugins/page-list/css/page-list.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nasa-search-css-css'  href='https://appel.nasa.gov/wp-content/plugins/nasa-search/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='https://appel.nasa.gov/wp-content/themes/bold-2.0/dist/css/styles.min.css' type='text/css' media='screen' />
+<script type='text/javascript' src='https://appel.nasa.gov/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js' id='jquery.prettyphoto-js'></script>
+<script type='text/javascript' id='video-lightbox-js-extra'>
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/plugins/wp-video-lightbox/js/video-lightbox.js' id='video-lightbox-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/focus-visible.min.js' id='focus-visible-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://appel.nasa.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://appel.nasa.gov/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://appel.nasa.gov/" />
+<link rel='shortlink' href='https://appel.nasa.gov/' />
+<script>
+            WP_VIDEO_LIGHTBOX_VERSION="1.9.7";
+            WP_VID_LIGHTBOX_URL="https://appel.nasa.gov/wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script><script>var kopaLocalizeJS = {"please_enter_your_name":"Please enter your name","please_enter_your_password":"Please enter your password","please_enter_your_email":"Please enter your email","please_enter_a_valid_email_address":"Please enter a valid email address","please_enter_a_valid_URL":"Please enter a valid URL","please_enter_your_message":"Please enter your message","send":"Send","sending":"Sending","checking":"Checking","loading":"Loading","your_email":"Your email"};</script>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+
+		<!--[if lte IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/4.0.1/placeholders.jquery.min.js"></script>
+			<script src="https://appel.nasa.gov/wp-content/themes/bold-2.0/js/classlist-polyfill.js"></script>
+			<link rel='stylesheet' href='https://appel.nasa.gov/wp-content/themes/bold-2.0/dist/css/ie9.min.css' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/ie.css">
+		<![endif]-->
+
+		<!--start:google-analytics-->
+		<!-- New Google Analytics from GSA. Updated on 2015/08/06 -->
+		<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=APPEL"></script>
+		<!-- End Google Analytics from GSA -->
+
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7F4XD9');</script>
+
+
+
+<style type="text/css">
+span.wpcf7-list-item { display: block; }
+</style>
+<link rel="stylesheet" href="/wp-content/uploads/2018/03/KM.css">		<!--end:google-analytics -->
+	</head>
+
+	<body class="home page-template page-template-page-template-home page-template-page-template-home-php page page-id-536 sub">
+		<div class="skip-to-main" id="back-top">
+			<a href="#site-main" aria-label="Back to top">
+				<i class="icon icon-up-open"></i> Back to Top
+			</a>
+		</div>
+		<header class="header">
+			<div class="header__sub">
+				<div class="container">
+					<div class="header__social-links">
+<ul class="social-links">
+			<li class="social-links__item">
+			<a target="_blank" title="LinkedIn" class="social-links__link" href="https://www.linkedin.com/showcase/nasa-appel-knowledge-services">
+				<i class="social-links__icon icon icon-linkedin" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on LinkedIn</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Twitter" class="social-links__link" href="http://twitter.com/nasa_appel">
+				<i class="social-links__icon icon icon-twitter" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on Twitter</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Facebook" class="social-links__link" href="https://www.facebook.com/NASAappel">
+				<i class="social-links__icon icon icon-facebook" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on Facebook</span>
+			</a>
+		</li>
+		<li class="social-links__item">
+		<a target="_blank" title="Flickr" class="social-links__link" href="http://www.flickr.com/photos/nasa_appel/sets/">
+			<i class="social-links__icon icon icon-flickr" aria-hidden="true"></i>
+			<span class="social-links__alt sr-only">View NASA APPEL Images on Flickr</span>
+		</a>
+	</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Youtube" class="social-links__link" href="https://www.youtube.com/user/NASAappel">
+				<i class="social-links__icon icon icon-youtube" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">View NASA APPEL Videos on YouTube</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+		<a target="_blank" title="RSS" class="social-links__link" href="/feed/">
+			<i class="social-links__icon icon icon-rss" aria-hidden="true"></i>
+			<span class="social-links__alt sr-only">Subscribe to NASA APPEL's RSS Feed</span>
+		</a>
+	</li>
+</ul>
+</div>
+					<div class="header__menu-auxilliary">
+					<ul id="menu-appel-top-menu" class="menu-auxilliary"><li id="menu-item-346857" class="home-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-346857"><a href="https://appel.nasa.gov/about-us/">About</a></li>
+<li id="menu-item-346858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346858"><a href="https://appel.nasa.gov/support/contact-us/">Contact</a></li>
+</ul>					</div>
+					<button class="header__search-toggle js-toggle" data-toggle="menu" data-focus="#search input[type='text']"><i class="icon icon-search" aria-hidden="true"></i><span class="sr-only">Open site searchbar</span></button>
+				</div>
+			</div>
+
+				<div class="header__alert" style="background-color: #D03D41; color: #FFFFFF;">
+		<p><strong>Upcoming NASA <span class="searchHighlight">History</span> <span class="searchHighlight">Talk</span>: September 20, 12 pm &#8211; 1 pm ET. </strong><em>“A Cultural History of the Cosmonaut”</em>  with Dr. Cathleen Lewis. <a title="https://appel.nasa.gov/nasa-history-office-brown-bag-talks/" href="https://appel.nasa.gov/nasa-history-office-talks/" target="_blank" rel="noopener"><strong>Learn more.</strong></a></p>
+	</div>
+
+			<div class="header__main">
+				<div class="container">
+					<div class="header__logos">
+						<a class="header__logo header__logo--nasa" href="https://www.nasa.gov/" target="_blank"><img src="https://appel.nasa.gov/wp-content/themes/bold-2.0/images/nasa/logo-nasa.svg" alt="NASA" /></a>
+						<h1>							<a class="header__logo header__logo--appel" href="https://appel.nasa.gov"><img src="https://appel.nasa.gov/wp-content/themes/bold-2.0/images/nasa/logo-appel.svg" alt="APPEL" /></a>
+							</h1>					</div>
+
+					<div class="header__toggles">
+						<div class="header__toggle-wrapper">
+							<button class="header__toggle header__toggle--news js-toggle" data-toggle="news">
+								<i class="header__toggle-icon icon icon-news" aria-hidden="true"></i>
+								<span class="header__toggle-name">Insight</span>
+							</button>
+
+							<div class="header__toggle-target header__toggle-target--news js-toggle-target" id="news">
+								<div class="widget widget-news"><h2 class="widget__title">INSIGHT</h2><ul class="widget-news__posts">
+				<li class="widget-news__post 
+				widget-news__post--dark				">
+											<a class="widget-news__thumbnail-link" href="https://appel.nasa.gov/2023/09/15/psyche-mission-prepares-for-october-launch/" aria-label="View Article"><img width="1200" height="681" src="https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array.png" class="widget-news__thumbnail wp-post-image" alt="In this image from July 18, 2023, a NASA team helps attach solar arrays for the agency’s Psyche spacecraft onto a stand inside the Astrotech Space Operations Facility near Kennedy Space Center in Florida. Photo Credits: NASA/Isaac Watson" loading="lazy" srcset="https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array.png 1200w, https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array-300x170.png 300w, https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array-1024x581.png 1024w, https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array-768x436.png 768w, https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array-212x120.png 212w, https://appel.nasa.gov/wp-content/uploads/2023/09/INSIGHT-article-Psyche-solar-array-670x380.png 670w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+										<div class="widget-news__text">	
+						<a class="widget-news__title" href="https://appel.nasa.gov/2023/09/15/psyche-mission-prepares-for-october-launch/">Psyche Mission Prepares for October Launch</a>
+						<div class="widget-news__meta">September 15, 2023 // by <a href="https://appel.nasa.gov/author/kevin-wilcox/" title="Posts by Kevin Wilcox" class="author url fn" rel="author">Kevin Wilcox</a></div>
+					</div>
+				</li> 
+				
+				<li class="widget-news__post 
+				widget-news__post--dark				">
+											<a class="widget-news__thumbnail-link" href="https://appel.nasa.gov/2023/09/11/this-month-in-nasa-history-a-closer-look-at-mars/" aria-label="View Article"><img width="1200" height="681" src="https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023.png" class="widget-news__thumbnail wp-post-image" alt="Global images of Mars taken by the Mars Global Surveyor (MGS) during summer in the planet’s northern hemisphere. Between 1997 and 2006, MGS looked at Mars in unprecedented detail, building upon the successful Viking missions before it. Credits: NASA/USGS" loading="lazy" srcset="https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023.png 1200w, https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023-300x170.png 300w, https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023-1024x581.png 1024w, https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023-768x436.png 768w, https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023-212x120.png 212w, https://appel.nasa.gov/wp-content/uploads/2023/09/TMINH-mars-global-surveyor-SEPT-2023-670x380.png 670w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+										<div class="widget-news__text">	
+						<a class="widget-news__title" href="https://appel.nasa.gov/2023/09/11/this-month-in-nasa-history-a-closer-look-at-mars/">This Month in NASA History: A Closer Look at Mars</a>
+						<div class="widget-news__meta">September 11, 2023 // by <a href="https://appel.nasa.gov/author/kevin-wilcox/" title="Posts by Kevin Wilcox" class="author url fn" rel="author">Kevin Wilcox</a></div>
+					</div>
+				</li> 
+				
+				<li class="widget-news__post 
+				widget-news__post--dark				">
+											<a class="widget-news__thumbnail-link" href="https://appel.nasa.gov/podcast/episode-116-nasa-trade-and-technical-professionals-part-2/" aria-label="View Article"><img width="1200" height="681" src="https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social.png" class="widget-news__thumbnail wp-post-image" alt="nside the clean-room &quot;tent&quot; of Building 1555 at North Vandenberg Air Force Base, technicians in bunny suits prepare for the solar array deployment on the AIM spacecraft. Photo Credit: NASA" loading="lazy" srcset="https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social.png 1200w, https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social-300x170.png 300w, https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social-1024x581.png 1024w, https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social-768x436.png 768w, https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social-212x120.png 212w, https://appel.nasa.gov/wp-content/uploads/2023/09/SSGL-116-Trade-Tech-Professionals-Part2-social-670x380.png 670w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+										<div class="widget-news__text">	
+						<a class="widget-news__title" href="https://appel.nasa.gov/podcast/episode-116-nasa-trade-and-technical-professionals-part-2/">Podcast Episode 116: NASA Trade and Technical Professionals, Part 2</a>
+						<div class="widget-news__meta">September 6, 2023 // by <a href="https://appel.nasa.gov/author/insight-staff/" title="Posts by INSIGHT Staff" class="author url fn" rel="author">INSIGHT Staff</a></div>
+					</div>
+				</li> 
+				</ul><a class="widget-news__read-more btn btn--icon btn--icon-right" href="https://appel.nasa.gov/category/insight/">Read More<i class="icon icon-angle-double-right" aria-hidden="true"></i></a></div>								<div class="widget widget-digest"><h2 class="widget__title">Subscribe to INSIGHT</h2>
+			<div class="widget-digest__content composition 
+			composition--dark			">
+				<img class="alignleft hidden-xs hidden-sm" src="https://appel.nasa.gov/wp-content/themes/bold-2.0/images/other/digest.png" aria-hidden="true" alt="">
+				<p><strong>Expanding perspectives every month.</strong></p>
+				<a class="btn" href="https://appel.nasa.gov/subscribe/">Subscribe</a>
+			</div>
+
+		</div>							</div>
+						</div>
+						<div class="header__toggle-wrapper">
+							<a class="header__toggle" href="https://appel.nasa.gov/podcast/">
+								<i class="header__toggle-icon icon icon-podcast" aria-hidden="true"></i>
+								<span class="header__toggle-name">Podcast</span>
+							</a>
+						</div>
+
+													<div class="header__toggle-wrapper">
+								<a class="header__toggle" href="/knowledge">
+									<i class="header__toggle-icon icon icon-telescope" aria-hidden="true"></i>
+									<span class="header__toggle-name">Explore</span>
+								</a>
+							</div>
+						
+						<div class="header__toggle-wrapper">
+							<button class="header__toggle header__toggle--menu js-toggle" data-toggle="menu" aria-haspopup="menu">
+								<i class="header__toggle-icon icon icon-menu" aria-hidden="true"></i>
+								<span class="header__toggle-name">Menu</span>
+							</button>
+
+							<div class="header__toggle-target header__toggle-target--menu header__toggle-target--wrapper js-toggle-target" id="menu">
+								<div class="overflow-wrapper">
+									<div id="search">
+									<div class="widget widget_nasa_search_widget"><form method="post" class="form form--search form--large form--dark" action="https://appel.nasa.gov/search-results/">
+    <div class="form__group form__group--inline">
+        <div class="form__field">
+            <div class="form__select">
+                <select  name="dg-subdomain" title="Domain">
+                                            <option value="APPEL">APPEL</option>
+                                            <option value="NASA">NASA</option>
+                                    </select>
+            </div>
+        </div>
+        <div class="form__field form__field--grow">
+            <input type="text" placeholder="Search..."  name="query" title="Query" maxlength="255">
+        </div>
+        <div class="form__field">
+            <button type="submit" name="submit" class="btn icon icon-search search-submit" title="Search"><span class="sr-only">Search</span></button>
+        </div>
+    </div>
+
+    </form></div>									</div>
+									<ul id="menu-appel-main-menu" class="menu-main"><li id="menu-item-316456" class="home-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-316456"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="Home" href="/" aria-current="page">Home</a></li>
+<li id="menu-item-364473" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364473"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/career-development/">Career Development</a>
+<ul class="sub-menu">
+	<li id="menu-item-367018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367018"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/career-development/competency-models/">Competency Models</a></li>
+	<li id="menu-item-367019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367019"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/career-development/development-frameworks/">Development Frameworks</a></li>
+	<li id="menu-item-350072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-350072"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/career-resources/maximize-your-course-experience/">Maximize Your Learning Experience</a></li>
+	<li id="menu-item-337515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-337515"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="SELDP" href="https://appel.nasa.gov/career-development/selp-overview/">Systems and Engineering Leadership Program (SELP)</a></li>
+	<li id="menu-item-343074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343074"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="Accreditations and Affiliations" href="https://appel.nasa.gov/career-development/accreditations-and-affiliations/">Accreditations &#038; Affiliations</a></li>
+	<li id="menu-item-342913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342913"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="Defense Acquisition University" href="https://appel.nasa.gov/career-development/defense-acquisition-university-dau-training-opportunities/">Defense Acquisition University</a></li>
+</ul>
+</li>
+<li id="menu-item-341074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-341074"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="Course Catalog" href="https://appel.nasa.gov/courses/">Course Catalog</a>
+<ul class="sub-menu">
+	<li id="menu-item-339709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339709"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="APPEL Curriculum Points of Contact (POCs)" href="https://appel.nasa.gov/courses/course-support/">Course Support</a></li>
+	<li id="menu-item-364474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364474"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/career-development/maximize-your-learning-experience/">Maximize Your Learning Experience</a></li>
+	<li id="menu-item-315885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315885"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="How to Register" href="https://appel.nasa.gov/courses/registration-overview/">Registration Overview</a></li>
+	<li id="menu-item-361237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361237"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/courses/virtual-backgrounds/">Virtual Backgrounds</a></li>
+</ul>
+</li>
+<li id="menu-item-364475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364475"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/">Critical Knowledge</a>
+<ul class="sub-menu">
+	<li id="menu-item-364476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364476"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/category/insight/">INSIGHT Publication</a></li>
+	<li id="menu-item-359392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-359392"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/apollo-era-resources/">Apollo Era Resources</a></li>
+	<li id="menu-item-361621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361621"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/case-studies/">Case Studies</a></li>
+	<li id="menu-item-364477" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364477"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/knowledge-capture-and-transfer/">Knowledge Capture and Transfer</a></li>
+	<li id="menu-item-364478" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364478"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/knowledge/results/?_knowledge_category=knowledge-sharing-tools&#038;_knowledge_organization=hq">Knowledge Sharing Tools</a></li>
+	<li id="menu-item-358719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358719"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/nasa-knowledge-community/">NASA Knowledge Community</a></li>
+	<li id="menu-item-360619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360619"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/critical-knowledge/shuttle-era-resources/">Shuttle Era Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-364479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364479"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/lessons-learned/">Lessons Learned</a>
+<ul class="sub-menu">
+	<li id="menu-item-364481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364481"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/tag/spotlight-on-lessons-learned/">Spotlight on Lessons Learned Series</a></li>
+	<li id="menu-item-365514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365514"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/lessons-learned/lessons-learned-lifecycle-and-highlights/">Lessons Learned Lifecycle and Highlights</a></li>
+	<li id="menu-item-364480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364480"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/lessons-learned/#ll_page_databases">Databases</a></li>
+	<li id="menu-item-364482" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364482"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/lessons-learned/excel-llb/">Lessons Learned Bot</a></li>
+</ul>
+</li>
+<li id="menu-item-364483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364483"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/program-project-management/">Program &#038; Project Management</a>
+<ul class="sub-menu">
+	<li id="menu-item-364484" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364484"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/courses/?_course_category=program-project-management">Project Management Courses</a></li>
+	<li id="menu-item-364485" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364485"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/program-project-management/pgm-series/">Program Management Series</a></li>
+	<li id="menu-item-363620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-363620"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/program-project-management/npr-7120-5-revision-f-rollout-briefing/">NPR 7120.5 Revision F Rollout Briefing (NASA Only)</a></li>
+	<li id="menu-item-363474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363474"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/program-project-management/npr-7120-5-tailoring-resources/">NPR 7120.5 Tailoring Resources</a></li>
+	<li id="menu-item-340844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340844"><button class="menu-main__toggle js-sub-menu-toggle"></button><a title="NASA FAC-P/PM Certification Program" href="https://appel.nasa.gov/program-project-management/nasa-fac-ppm-certification/">NASA FAC-P/PM Certification Program</a></li>
+</ul>
+</li>
+<li id="menu-item-364487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-364487"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/systems-engineering/">Systems Engineering</a>
+<ul class="sub-menu">
+	<li id="menu-item-364488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364488"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov//systems-engineering/#se_page_courses">Courses</a></li>
+	<li id="menu-item-364489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364489"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov//systems-engineering/#se_page_handbooks">Office of the Chief Engineer Handbooks</a></li>
+	<li id="menu-item-364490" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364490"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov//systems-engineering/#se_page_documents">Relevant Documents</a></li>
+	<li id="menu-item-364491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364491"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov//systems-engineering/#se_page_affiliations">Affiliations</a></li>
+</ul>
+</li>
+<li id="menu-item-363257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-363257"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/watch-listen-learn/">Watch, Listen, Learn</a>
+<ul class="sub-menu">
+	<li id="menu-item-364492" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364492"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/podcast/">Small Steps, Giant Leaps Podcast</a></li>
+	<li id="menu-item-364493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364493"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/watch-listen-learn/quick-webinars/">Quick Webinars</a></li>
+	<li id="menu-item-364494" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364494"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/courses/?_course_category=on-demand-learning-appel-course">On-Demand Courses</a></li>
+	<li id="menu-item-364496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364496"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/watch-listen-learn/pk-expo/">Project Knowledge Expo</a></li>
+	<li id="menu-item-364495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364495"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/knowledge/results/?_knowledge_type=video">NASA Knowledge on Video</a></li>
+</ul>
+</li>
+<li id="menu-item-358067" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-358067"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/knowledge/">Knowledge Inventory</a></li>
+<li id="menu-item-352173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-352173"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/technical-authority/">Technical Authority</a></li>
+<li id="menu-item-364497" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364497"><button class="menu-main__toggle js-sub-menu-toggle"></button><a href="https://appel.nasa.gov/support/">Support</a></li>
+</ul>								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main id="site-main" class="main">
+
+	<style type="text/css">
+		.featured-posts__img-caption {
+			color: #ffffff;
+		}
+		.featured-posts__img-caption a {
+			color: #ffffff;
+		}
+	</style>
+
+<div class="featured-posts">
+	<img class="featured-posts__background featured-posts__background--mobile" src="https://appel.nasa.gov/wp-content/uploads/2023/08/OSIRIS-REx-illumination-test-640x360.png" aria-hidden="true" alt="">
+	<img class="featured-posts__background featured-posts__background--desktop" src="https://appel.nasa.gov/wp-content/uploads/2023/08/OSIRIS-REx-illumination-test.png" aria-hidden="true" alt="">
+
+	<div class="container">
+		<div class="featured-posts__slider flexslider flexslider--featured-posts clearfix">
+			<ul class="featured-posts__slides slides">
+									<li class="featured-post">
+						<h2 class="featured-post__title"><a class="featured-post__link" href="https://appel.nasa.gov/2023/09/15/psyche-mission-prepares-for-october-launch/">Psyche Mission Prepares for October Launch</a></h2>
+						<div class="featured-post__excerpt composition composition--dark"><p>2.2-billion-mile journey to metal-rich asteroid tests new technology.</p>
+</div>
+						<a class="featured-post__btn btn" href="https://appel.nasa.gov/2023/09/15/psyche-mission-prepares-for-october-launch/">Full Story</a>
+					</li>
+									<li class="featured-post">
+						<h2 class="featured-post__title"><a class="featured-post__link" href="https://appel.nasa.gov/2023/09/11/this-month-in-nasa-history-a-closer-look-at-mars/">This Month in NASA History: A Closer Look at Mars</a></h2>
+						<div class="featured-post__excerpt composition composition--dark"><p>Mars Global Surveyor examines the Red Planet in unprecedented detail.</p>
+</div>
+						<a class="featured-post__btn btn" href="https://appel.nasa.gov/2023/09/11/this-month-in-nasa-history-a-closer-look-at-mars/">Full Story</a>
+					</li>
+									<li class="featured-post">
+						<h2 class="featured-post__title"><a class="featured-post__link" href="https://appel.nasa.gov/podcast/episode-116-nasa-trade-and-technical-professionals-part-2/">Podcast Episode 116: NASA Trade and Technical Professionals, Part 2</a></h2>
+						<div class="featured-post__excerpt composition composition--dark"><p>NASA Technicians Scott Bartram, Eric Bentley, Maria Salinas, and Phil Steele discuss their hands-on work on a variety of projects and technologies.</p>
+</div>
+						<a class="featured-post__btn btn" href="https://appel.nasa.gov/podcast/episode-116-nasa-trade-and-technical-professionals-part-2/">Full Story</a>
+					</li>
+							</ul>
+		</div>
+	</div>
+
+			<div class="featured-posts__img-caption caption--topright">
+			<div class="caption" style="line-height: 1.25em;">In this photo from 2016, illumination testing is underway on the power-producing solar arrays for the OSIRIS-REx spacecraft inside the Payload Hazardous Servicing Facility at NASA&#8217;s Kennedy Space Center. <a href="https://appel.nasa.gov/podcast/episode-113-osiris-rex-sample-return-preparation/"><span style="text-decoration: underline;"><strong>Learn more.</strong></span></a></div>
+<p style="line-height: 1.18; text-align: left; padding: 8px 0px 0px 0px;">Photo Credit: NASA/Cory Huston</p>
+		</div>
+	
+</div>
+
+	<section class="landing section section--black">
+		<div class="container">
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/courses/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2020/01/course_catalog_book.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">COURSE CATALOG</h2>
+						<p style="color: #000000;">Build your skills with courses for every <br />career level.  
+
+<!--Expand your abilities! Explore courses at every career level.--!></p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/career-development/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2020/01/career_resources_books.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">CAREER DEVELOPMENT</h2>
+						<p style="color: #000000;">Discover resources to help you reach your development goals.
+
+<!--Discover resources designed to help you achieve your development goals.--!></p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/critical-knowledge/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/product-box-critical-knowledge-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">CRITICAL KNOWLEDGE</h2>
+						<p style="color: #000000;">Explore INSIGHT magazine, knowledge sharing tools, case studies, publications, and more.</p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/program-project-management/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/product-box-pm-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">Program & Project Management </h2>
+						<p style="color: #000000;">Review NASA requirements and APPEL KS courses for program and project managers.</p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/systems-engineering/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/production-box-systems-engineering-se-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">SYSTEMS ENGINEERING</h2>
+						<p style="color: #000000;">Find key NASA handbooks, policy manuals, and APPEL courses that focus on systems engineering and model-based systems engineering.</p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/lessons-learned/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/product-box-lessons-learned-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">LESSONS LEARNED</h2>
+						<p style="color: #000000;">Learn from the past to succeed in the future.
+
+<!--From team-building tips to welding techniques, NASA’s lessons learned databases contain a wealth of information to help you reach mission success.--!></p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/knowledge/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2020/01/telescope.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">KNOWLEDGE INVENTORY</h2>
+						<p style="color: #000000;">Search a growing collection of valuable <br />NASA resources.
+
+<!--Explore a growing collection of case studies, lessons learned, articles, expert videos, and more.--!></p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/watch-listen-learn/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/product-box-watch-listen-learn-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">WATCH, LISTEN, LEARN</h2>
+						<p style="color: #000000;">Podcast Episodes, Quick Webinars, Any-Time Courses, Videos, and Special Events.</p>
+						<btn class="cta" style="background-color: #ffffff; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+								<a class="card" style="background-color: " target="_self" href="https://appel.nasa.gov/support/">
+																											<img width="1" height="1" src="https://appel.nasa.gov/wp-content/uploads/2022/03/product-box-support-page-icon.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />																			<h2 style="color: #337ab7;">SUPPORT</h2>
+						<p style="color: #000000;">Quick contacts to find the help you need.</p>
+						<btn class="cta" style="background-color: #FFFFFF; color: #337ab7; border-color: #337ab7;">LEARN MORE</btn>
+					</a>
+					</div>
+	</section>
+
+	<section class="upcoming-courses section section--black">
+		<div class="container">
+			<h3 class="upcoming-courses__header section__header">Upcoming Events</h3>
+
+			<ul class="upcoming-courses__list">
+				
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-aevm/">Advanced Earned Value Management (APPEL-vAEVM)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=program-project-management" data-filter-slug="program-project-management" data-filter-type="category" style="background-color: #21adda;" title="Filter by Category: Program / Project Management"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/program-project-management-1.svg" class="course-category-icon__image" alt="Program / Project Management" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Sep 19-20, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<div class="upcoming-courses__closed">Registration Closed</div>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-smsdo/">Science Mission &amp; Systems: Design &amp; Operations (APPEL-vSMSDO)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=systems-engineering-engineering" data-filter-slug="systems-engineering-engineering" data-filter-type="category" style="background-color: #8ac24e;" title="Filter by Category: Systems Engineering &amp; Engineering"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/systems-engineering-and-engineering-1.svg" class="course-category-icon__image" alt="Systems Engineering &amp; Engineering" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Sep 25-28, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<div class="upcoming-courses__closed">Registration Closed</div>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-cc/">Crucial Conversations for Mastering Dialogue (APPEL-vCC)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=building-leading-nasa-teams" data-filter-slug="building-leading-nasa-teams" data-filter-type="category" style="background-color: #b94699;" title="Filter by Category: Building &amp; Leading NASA Teams"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/building-nasa-teams-1.svg" class="course-category-icon__image" alt="Building &amp; Leading NASA Teams" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Sep 26-27, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<div class="upcoming-courses__closed">Registration Closed</div>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-ca/">Crucial Conversations for Accountability (APPEL-vCA)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=building-leading-nasa-teams" data-filter-slug="building-leading-nasa-teams" data-filter-type="category" style="background-color: #b94699;" title="Filter by Category: Building &amp; Leading NASA Teams"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/building-nasa-teams-1.svg" class="course-category-icon__image" alt="Building &amp; Leading NASA Teams" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Pacific</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Sep 28-29, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135234%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-fse/">Fundamentals of Systems Engineering (APPEL-vFSE)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=systems-engineering-engineering" data-filter-slug="systems-engineering-engineering" data-filter-type="category" style="background-color: #8ac24e;" title="Filter by Category: Systems Engineering &amp; Engineering"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/systems-engineering-and-engineering-1.svg" class="course-category-icon__image" alt="Systems Engineering &amp; Engineering" loading="lazy" /></a><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=nasa-fundamentals" data-filter-slug="nasa-fundamentals" data-filter-type="category" style="background-color: #ef3645;" title="Filter by Category: NASA Fundamentals"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/nasa-fundamentals-1.svg" class="course-category-icon__image" alt="NASA Fundamentals" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Central</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 2-6, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135237%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/ensuring-mbse-model-consistency-by-design-appel-vambse2/">Ensuring MBSE Model Consistency – By Design (APPEL – vAMBSE2)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=systems-engineering-engineering" data-filter-slug="systems-engineering-engineering" data-filter-type="category" style="background-color: #8ac24e;" title="Filter by Category: Systems Engineering &amp; Engineering"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/systems-engineering-and-engineering-1.svg" class="course-category-icon__image" alt="Systems Engineering &amp; Engineering" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Central</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 2-5, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135251%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-fou/">Foundations of Aerospace at NASA (APPEL-vFOU)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=systems-engineering-engineering" data-filter-slug="systems-engineering-engineering" data-filter-type="category" style="background-color: #8ac24e;" title="Filter by Category: Systems Engineering &amp; Engineering"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/systems-engineering-and-engineering-1.svg" class="course-category-icon__image" alt="Systems Engineering &amp; Engineering" loading="lazy" /></a><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=nasa-fundamentals" data-filter-slug="nasa-fundamentals" data-filter-type="category" style="background-color: #ef3645;" title="Filter by Category: NASA Fundamentals"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/nasa-fundamentals-1.svg" class="course-category-icon__image" alt="NASA Fundamentals" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Central</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 2-5, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135228%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-app/">Assessing Project Performance (APPEL-vAPP)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=program-project-management" data-filter-slug="program-project-management" data-filter-type="category" style="background-color: #21adda;" title="Filter by Category: Program / Project Management"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/program-project-management-1.svg" class="course-category-icon__image" alt="Program / Project Management" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 3-4, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135225%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-pmse/">Project Management and Systems Engineering (APPEL-vPM&amp;SE)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=systems-engineering-engineering" data-filter-slug="systems-engineering-engineering" data-filter-type="category" style="background-color: #8ac24e;" title="Filter by Category: Systems Engineering &amp; Engineering"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/systems-engineering-and-engineering-1.svg" class="course-category-icon__image" alt="Systems Engineering &amp; Engineering" loading="lazy" /></a><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=program-project-management" data-filter-slug="program-project-management" data-filter-type="category" style="background-color: #21adda;" title="Filter by Category: Program / Project Management"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/program-project-management-1.svg" class="course-category-icon__image" alt="Program / Project Management" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 10-19, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135248%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+
+<li class="upcoming-courses__item">
+	<h4 class="upcoming-courses__title upcoming-courses__column"><a class="upcoming-courses__link" href="https://appel.nasa.gov/course-catalog/appel-rm1/">Risk Management I (APPEL-vRM I)</a></h4>
+	<span class="upcoming-courses__categories upcoming-courses__column"><a class="course-category-icon course-category-icon--small" href="https://appel.nasa.gov/courses/?_course_category=program-project-management" data-filter-slug="program-project-management" data-filter-type="category" style="background-color: #21adda;" title="Filter by Category: Program / Project Management"><img src="https://appel.nasa.gov/wp-content/uploads/2018/02/program-project-management-1.svg" class="course-category-icon__image" alt="Program / Project Management" loading="lazy" /></a></span>
+	<span class="upcoming-courses__center upcoming-courses__column">Eastern</span>
+	<span class="upcoming-courses__dates upcoming-courses__column">Oct 10, 2023</span>
+	<span class="upcoming-courses__btn upcoming-courses__column">
+					<a class="btn" href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa%2dhcm03%2ens2cloud%2ecom%2Flearning%2Fuser%2Fdeeplink%5fredirect%2ejsp%3FlinkId%3DSCHEDULED%5fOFFERING%5fDETAILS%26scheduleID%3D135245%26fromSF%3DY&company=NASAHCM03" target="_blank">Register</a>
+			</span>
+</li>
+			</ul>
+
+			<div class="upcoming-courses__all">
+				<a class="btn" href="https://appel.nasa.gov/courses/">View All Courses</a>
+			</div>
+		</div>
+	</section>
+<section class="landing-hr section" style="background-color: #337ab7"></section></main><!--end:main-->
+
+<footer class="footer">
+	<section class="footer__main section section--black">
+		<div class="container">
+			<h2 class="footer__header section__header">Learn More About APPEL Knowledge Services</h2>
+			<div class="footer__widgets">
+				<div class="widget_text widget custom_html-2"><div class="textwidget custom-html-widget"><div style="margin:0 0 0 -20px">
+<a href="https://www.youtube.com/watch?v=_T8cn2J13-4" target="_blank" rel="noopener"><img src="https://appel.nasa.gov/wp-content/uploads/2019/12/FooterImage_artemis_dec_2019.jpg" alt="Youtube Video" width="100%" /></a></div></div></div><div class="widget_text widget custom_html-3"><div class="textwidget custom-html-widget"><p style="font-size: 1.05em;">Through its world-class training curriculum, knowledge-sharing initiatives, development resources, and strategic communications, the Academy of Program/Project &#38; Engineering Leadership (APPEL) Knowledge Services helps ensure NASA’s technical workforce has the skills and knowledge needed to advance mission success.</p></div></div><div class="widget nav_menu-26"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-346873" class="home-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-346873"><a href="https://appel.nasa.gov/about-us/">About</a></li>
+<li id="menu-item-364500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364500"><a href="https://appel.nasa.gov/about-us/history/">History</a></li>
+<li id="menu-item-346876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346876"><a href="https://appel.nasa.gov/about-us/leadership/">Leadership</a></li>
+<li id="menu-item-364501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364501"><a href="https://appel.nasa.gov/about-us/mission-vision/">Mission &amp; Vision</a></li>
+<li id="menu-item-364502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364502"><a href="https://appel.nasa.gov/support/">Support</a></li>
+<li id="menu-item-351495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-351495"><a href="https://appel.nasa.gov/support/contact-us/">Contact Us</a></li>
+</ul></div></div>			</div>
+		</div>
+	</section>
+
+	<div class="footer__sub">
+		<div class="container">
+			<a class="footer__logo footer__logo--nasa" href="http://www.nasa.gov/" target="_blank"><img src="https://appel.nasa.gov/wp-content/themes/bold-2.0/images/nasa/logo-nasa.svg" alt="NASA" /></a>
+			<div class="footer__credits">Page Editor: <a href="mailto:maria.berger@nasa.gov?subject=appel.nasa.gov - Page Editor Contact" title="appel.nasa.gov: Page Editor Contact">Masha Berger</a><br>
+NASA Official: Stephen Angelillo<br>
+<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy and Important Notices</a></div>
+			<div class="footer__social-links">
+<ul class="social-links">
+			<li class="social-links__item">
+			<a target="_blank" title="LinkedIn" class="social-links__link" href="https://www.linkedin.com/showcase/nasa-appel-knowledge-services">
+				<i class="social-links__icon icon icon-linkedin" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on LinkedIn</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Twitter" class="social-links__link" href="http://twitter.com/nasa_appel">
+				<i class="social-links__icon icon icon-twitter" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on Twitter</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Facebook" class="social-links__link" href="https://www.facebook.com/NASAappel">
+				<i class="social-links__icon icon icon-facebook" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">Interact with NASA APPEL on Facebook</span>
+			</a>
+		</li>
+		<li class="social-links__item">
+		<a target="_blank" title="Flickr" class="social-links__link" href="http://www.flickr.com/photos/nasa_appel/sets/">
+			<i class="social-links__icon icon icon-flickr" aria-hidden="true"></i>
+			<span class="social-links__alt sr-only">View NASA APPEL Images on Flickr</span>
+		</a>
+	</li>
+				<li class="social-links__item">
+			<a target="_blank" title="Youtube" class="social-links__link" href="https://www.youtube.com/user/NASAappel">
+				<i class="social-links__icon icon icon-youtube" aria-hidden="true"></i>
+				<span class="social-links__alt sr-only">View NASA APPEL Videos on YouTube</span>
+			</a>
+		</li>
+				<li class="social-links__item">
+		<a target="_blank" title="RSS" class="social-links__link" href="/feed/">
+			<i class="social-links__icon icon icon-rss" aria-hidden="true"></i>
+			<span class="social-links__alt sr-only">Subscribe to NASA APPEL's RSS Feed</span>
+		</a>
+	</li>
+</ul>
+</div>
+		</div>
+	</div>
+</footer>
+
+<script>var kopa_ajax_url = 'https://appel.nasa.gov/wp-content/themes/bold-2.0/ajax/admin-ajax.php';var kopa_current_post_id = 536;</script><input type="hidden" id="kopa_newsletter_wpnonce" name="kopa_newsletter_wpnonce" value="960ac33051" /><input type="hidden" id="kopa_recaptcha_wpnonce" name="kopa_recaptcha_wpnonce" value="37697f075d" /><input type="hidden" id="kopa_contactus_wpnonce" name="kopa_contactus_wpnonce" value="9144388209" /><input type="hidden" name="_wp_http_referer" value="/" /><input type="hidden" id="kopa_sharing_button_wpnonce" name="kopa_sharing_button_wpnonce" value="edbc969c07" /><input type="hidden" name="_wp_http_referer" value="/" /><script type='text/javascript' id='collapseomatic-js-js-before'>
+const com_options = {"colomatduration":"fast","colomatslideEffect":"slideFade","colomatpauseInit":"","colomattouchstart":""}
+</script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js' id='collapseomatic-js-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/plugins/nasa-search/js/search.js' id='nasa-search-js-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery-scroller-v1.min.js' id='kopa-scroller-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery-scroller-v1.src.js' id='kopa-scroller-src-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.carouFredSel.min.js' id='kopa-carou-fred-sel-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.prettyPhoto.min.js' id='kopa-pretty-photo-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jflickrfeed.min.js' id='kopa-jflickrfeed-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.flexslider-min.js' id='kopa-flexslider-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.easing.1.3.js' id='kopa-easing-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.tweet.js' id='kopa-tweet-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/jquery.validate.min.js' id='kopa-validate-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/common-utility.js' id='kopa-common-utility-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/form-contact.js' id='kopa-common-form-contact-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/form-newsletter.js' id='kopa-common-form-newsletter-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/element-accordion.js' id='kopa-common-element-accordion-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/element-tabs.js' id='kopa-common-element-tabs-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/element-toggle.js' id='kopa-common-element-toggle-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/post-gallery.js' id='kopa-common-post-gallery-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/post-sharing-button.js' id='kopa-common-post-sharing-button-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/comment-facebook.js' id='kopa-common-comment-facebook-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/comment-form.js' id='kopa-common-comment-form-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/comment-rating.js' id='kopa-common-comment-rating-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/social.js' id='mg-social-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/common/common-fixed.js' id='kopa-common-fixed-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/readmore.js' id='kopa-custom-readmore-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/custom.js' id='kopa-custom-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/custom-course-catalog.js' id='kopa-custom-course-catalog-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/landing-page.js' id='landing-page-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/themes/bold-2.0/js/select2.js' id='select2-js'></script>
+<script type='text/javascript' src='https://appel.nasa.gov/wp-content/plugins/page-links-to/dist/new-tab.js' id='page-links-to-js'></script>
+	<script>
+		(function($) {
+			$(document).on('facetwp-loaded', function() {
+				// Dropdown and search fields
+				$('.facetwp-dropdown, .facetwp-search').each(function() {
+					var facet_name = $(this).closest('.facetwp-facet').attr('data-name');
+					var facet_label = FWP.settings.labels[facet_name];
+					$(this).attr('id', facet_label.replace(/\s+/g, '') );
+				});
+
+				// Date fields
+				$('.facetwp-date[type=text]').each(function() {
+					var facet_label = $(this).attr('placeholder');
+					$(this).attr('id', facet_label.replace(/\s+/g, '') );
+				});
+
+				// Sorting dropdown
+				$('.facetwp-sort-select').attr('title', 'Sort By');
+				$('.facetwp-sort-select').attr('id', 'sort-results');
+			});
+		})(jQuery);
+	</script>
+		<script>
+		(function($) {
+			$(document).on('facetwp-loaded', function() {
+				// Bail if date range field is not present
+				if ( 0 === $('.facetwp-type-date_range').length ) {
+					return;
+				}
+
+				var startDate = $('.facetwp-date-min').val();
+				var endDate = $('.facetwp-date-max').val();
+
+				// Format today's date
+				var today = new Date();
+				var dd = String( today.getDate() ).padStart( 2, '0' );
+				var mm = String( today.getMonth() + 1 ).padStart( 2, '0' );
+				var yyyy = today.getFullYear();
+				today = yyyy + '-' + mm + '-' + dd;
+
+				// Set minimum date for start/end of range to today's date
+				FWP.settings.course_date.range.min.minDate = today;
+				FWP.settings.course_date.range.max.minDate = today;
+
+				// Set a mininum for the end date if a start date has been chosen
+				if( startDate ) {
+					FWP.settings.course_date.range.max.minDate = startDate;
+				}
+
+				// Set a maxinum for the start date if an end date has been chosen
+				if( endDate ) {
+					FWP.settings.course_date.range.min.maxDate = endDate;
+				}
+			});
+		})(jQuery);
+	</script>
+		<script>
+		(function($) {
+			$(document).on('facetwp-loaded', function() {
+				var filtered_results_btn = $('.btn--filtered-results');
+
+				// Bail if filtered results button is not present
+				if ( 0 === filtered_results_btn.length ) {
+					return;
+				}
+
+				var filtered_results_btn_el = filtered_results_btn[0];
+				var new_query_string = FWP.buildQueryString();
+				var new_url = filtered_results_btn_el.protocol + '//' + filtered_results_btn_el.hostname + filtered_results_btn_el.pathname + '?' + new_query_string;
+
+				filtered_results_btn.attr('href', new_url );
+			});
+		})(jQuery);
+	</script>
+		<!--[if lte IE 9]>
+		<script>
+			(function($) {
+				var query_string = null;
+
+				$(document).on('facetwp-refresh', function() {
+					if( query_string ) {
+						var new_query_string = FWP.buildQueryString();
+
+						if( query_string != new_query_string ) {
+							window.location.href = window.location.protocol + '//' + window.location.hostname + window.location.pathname + '?' + new_query_string;
+						}
+					} else {
+						query_string = FWP.buildQueryString();
+					}
+				});
+			})(jQuery);
+		</script>
+	<![endif]-->
+	
+</body>
+</html>

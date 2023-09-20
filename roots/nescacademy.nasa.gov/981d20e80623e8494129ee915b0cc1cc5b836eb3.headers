@@ -1,0 +1,15 @@
+GET https://nescacademy.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:58:34 GMT
+< Expires: Tue, 19 Sep 2023 05:58:34 GMT
+< Set-Cookie: nesc_academy=l7en4b42co0kqcr56vvssrhjtd; path=/; domain=.nasa.gov; secure; httponly; samesite=lax
+< X-Frame-Options: sameorigin
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Server: Apache
+< X-Permitted-Cross-Domain-Policies: none
+< Cache-Control: max-age=0, must-revalidate, private
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8

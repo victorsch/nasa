@@ -1,0 +1,12 @@
+GET http://fdf.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Content-Type-Options: nosniff
+< Location: https://fdf.gsfc.nasa.gov/
+< Content-Length: 234
+< Date: Tue, 19 Sep 2023 06:00:59 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=iso-8859-1

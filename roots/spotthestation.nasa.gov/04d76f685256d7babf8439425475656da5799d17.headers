@@ -1,0 +1,15 @@
+GET https://spotthestation.nasa.gov
+
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 599003
+< Set-Cookie: AWSALB=F2Sv1xxYdxR9/ymFZx0bm+MDsnj/ISlkNJ9GvGdEY4H36sMyhSY6g3GH6KqIVtX+FtDKY5laIVjIec6Kp+//uzUcCay74vyaIQqMsbjtNIAb3JAK/1wO/wX/AsST; Expires=Tue, 26 Sep 2023 06:02:56 GMT; Path=/
+< Set-Cookie: AWSALBCORS=F2Sv1xxYdxR9/ymFZx0bm+MDsnj/ISlkNJ9GvGdEY4H36sMyhSY6g3GH6KqIVtX+FtDKY5laIVjIec6Kp+//uzUcCay74vyaIQqMsbjtNIAb3JAK/1wO/wX/AsST; Expires=Tue, 26 Sep 2023 06:02:56 GMT; Path=/; SameSite=None; Secure
+< Set-Cookie: cfid=42bbb029-7370-464a-ac3f-a43e8d0a69d3;Path=/;Expires=Mon, 09-Oct-2023 07:41:00 UTC;HttpOnly
+< Set-Cookie: cftoken=0;Path=/;Expires=Mon, 09-Oct-2023 07:41:00 UTC;HttpOnly
+< Server: Apache
+< Content-Security-Policy: script-src 'self' 'unsafe-inline' *.nasa.gov connect.facebook.net dap.digitalgov.gov platform.twitter.com ssl.google-analytics.com static.xx.fbcdn.net www.google-analytics.com www.googletagmanager.com; style-src 'self' 'unsafe-inline' *.nasa.gov fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' 'unsafe-inline' server.arcgisonline.com services.arcgisonline.com ssl.google-analytics.com static.xx.fbcdn.net stats.g.doubleclick.net syndication.twitter.com data: www.w3.org;
+< Date: Tue, 19 Sep 2023 06:02:56 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

@@ -1,0 +1,9 @@
+GET http://gissrv6.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 153
+< Content-Type: text/html; charset=UTF-8
+< Location: https://gissrv6.larc.nasa.gov/
+< Server: Microsoft-IIS/10.0
+< Date: Tue, 19 Sep 2023 05:55:44 GMT

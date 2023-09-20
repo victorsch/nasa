@@ -1,0 +1,12 @@
+GET https://sesi.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 13188
+< Content-Type: text/html; charset=ISO-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: upgrade-insecure-requests
+< Date: Tue, 19 Sep 2023 05:54:20 GMT
+< Server: WebServer/1.0
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes

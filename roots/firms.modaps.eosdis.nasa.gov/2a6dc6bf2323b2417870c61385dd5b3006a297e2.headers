@@ -1,0 +1,16 @@
+GET https://firms.modaps.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 16877
+< Last-Modified: Fri, 15 Sep 2023 12:35:49 GMT
+< Access-Control-Allow-Origin: *
+< Request-Id: ee35762bfa6d10fd8e41a02bf72174cf
+< Content-Type: text/html
+< Cache-Control: no-cache
+< X-Frame-Options: DENY
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:44:34 GMT
+< Etag: "65044fa5-41ed"

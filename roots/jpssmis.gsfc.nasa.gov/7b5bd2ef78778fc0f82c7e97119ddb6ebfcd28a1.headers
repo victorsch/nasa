@@ -1,0 +1,14 @@
+GET https://jpssmis.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Tue, 19 Sep 2023 06:02:30 GMT
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: JSESSIONID=384D1D453EAFF245347CA1A795B9EDB4.cfusion3; Path=/; Secure; HttpOnly
+< Content-Type: text/html;charset=UTF-8
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31556927;includeSubDomains
+< Strict-Transport-Security: max-age=31557600
+< X-Frame-Options: SAMEORIGIN

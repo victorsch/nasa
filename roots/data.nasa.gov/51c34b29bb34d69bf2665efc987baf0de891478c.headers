@@ -1,0 +1,10 @@
+GET http://data.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:44:19 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://data.nasa.gov/
+< Content-Length: 230
+< Content-Type: text/html; charset=iso-8859-1

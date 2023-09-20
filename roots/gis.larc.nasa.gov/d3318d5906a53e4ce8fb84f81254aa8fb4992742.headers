@@ -1,0 +1,10 @@
+GET http://gis.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:59:48 GMT
+< Server: Apache
+< Content-Security-Policy: frame-ancestors self
+< Location: https://gis.larc.nasa.gov/
+< Content-Length: 234
+< Content-Type: text/html; charset=iso-8859-1

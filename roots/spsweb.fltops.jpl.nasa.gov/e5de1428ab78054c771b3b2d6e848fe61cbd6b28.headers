@@ -1,0 +1,11 @@
+GET https://spsweb.fltops.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:57:47 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://spsweb.fltops.jpl.nasa.gov/portalappsops/
+< Content-Length: 236
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Security-Policy: frame-ancestors 'none';

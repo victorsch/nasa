@@ -1,0 +1,13 @@
+GET http://lyncdiscover.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Ms-Client-Request-Id: 44e53e81-1c37-4c1c-94ab-56811468b7ce
+< Date: Tue, 19 Sep 2023 06:00:16 GMT
+< Pragma: no-cache
+< Content-Type: application/json
+< Expires: -1
+< Vary: Accept-Encoding
+< Cache-Control: no-cache
+< X-Ms-Correlation-Id: 90c9ec9d-ed30-4c59-bd9f-4cff25c70e60
+< X-Content-Type-Options: nosniff

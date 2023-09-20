@@ -1,0 +1,12 @@
+GET http://code541.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Location: https://code541.gsfc.nasa.gov/
+< Date: Tue, 19 Sep 2023 06:02:24 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Content-Length: 238
+< Content-Type: text/html; charset=iso-8859-1

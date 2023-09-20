@@ -1,0 +1,11 @@
+GET https://cddis.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:44:17 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Tue, 25 Jul 2023 18:58:02 GMT
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000

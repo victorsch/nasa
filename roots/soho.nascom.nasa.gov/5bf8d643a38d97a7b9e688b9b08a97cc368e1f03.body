@@ -1,0 +1,287 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136660976-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136660976-1');
+</script>
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+
+<script defer data-domain="soho.nascom.nasa.gov" src="https://plausible.io/js/script.js"></script>
+
+<title>Solar and Heliospheric Observatory Homepage</title>
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> -->
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<link rel="stylesheet" type="text/css" href="/css/sohohome.css">
+</head>
+
+<body>
+<div id="page_container">
+<div id="top_nav"><div class="cur_date">19 September 2023 - Mission Day: 10154 - DOY: 262</div>
+<div class="top_links"><table width="100%">
+<tr><td align="right"><a href="/community/localinfo.html">About us</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;</td>
+<td class="vertical-align:bottom;"><!-- Google CSE Search Box Begins -->
+</td></tr></table></div></div>
+<div id="main_nav">
+<table  width="100%" cellpadding="0" cellspacing="0">
+<tr><td colspan="11"><img src="/imgs/soho_top.jpg" width="850" height="139" alt="SOHO" /></td></tr>
+<tr><td class="top_space">&nbsp;</td>
+<td class="main_buttons_hl"><a class="main_links_hl" href="/home.html">home</a></td>
+<td class="main_buttons"><a class="main_links" href="/about/about.html">about</a></td>
+<td class="main_buttons"><a class="main_links" href="/gallery/">gallery</a></td>
+<td class="main_buttons"><a class="main_links"  href="/data/data.html">data/archive</a></td>
+<td class="main_buttons"><a class="main_links"  href="/operations/operations.html">operations</a></td>
+<td class="main_buttons"><a class="main_links"  href="/publications/publications.html">publications</a></td>
+<td class="main_buttons"><a class="main_links"  href="/newsroom/newsroom.html">newsroom</a></td>
+<td class="main_buttons"><a class="main_links"  href="/classroom/classroom.html">classroom</a></td>
+<td class="main_buttons"><a class="main_links"  href="/community/">community</a></td>
+<td class="top_space">&nbsp;</td></tr></table></div>
+ 
+
+<div id="content">
+<div id="content_home_left">
+
+
+<!-- ******************** ITEM #1 **************************** -->
+
+<div class="line_separator">&nbsp;</div>
+<div class="home_left_img"><a class="home_more_link" href="/hotshots/2023_04_25/">
+<img src="/hotshots/2023_04_25/Phaethon_shines_and_vanishes_pillars_redonly_thumb.jpg" width="125" height="125" alt="SOHO Hotshot" /></a></div>
+<div class="home_left_text">
+	<h1 class="home_red_heading">HOTSHOT</blink></h1>
+	<h1 class="home_black_heading">SOHO CHASES ASTEROID'S TAIL (25 April 2023)</b></h1>
+
+<p class="home_left_p"> 
+The ESA/NASA SOHO observatory has overturned 14 years of thinking about the strange Sun-skirting 'rock comet' 
+known as Phaethon that could reopen the mystery of how...
+<p class="home_left_p" 
+style="text-align:right;color:#E14800;"><a class="home_more_link" href="/hotshot/">more</a>&nbsp;&raquo;</p> 
+
+</div>
+
+
+<!-- ******************** ITEM #2 **************************** -->
+
+
+<div class="line_separator">&nbsp;</div>
+<div class="home_left_img"><a class="home_more_link" href="/pickoftheweek/">
+<img src="/pickoftheweek/pow_thumb.jpg" width="125" height="125" alt="Pick of the Week" /></a></div>
+<div class="home_left_text">
+	<h1 class="home_red_heading">Solar Pick</blink></h1>
+	<h1 class="home_black_heading">UNIQUE SOLAR ECLIPSE OVER AUSTRALIA (APRIL 20, 2023)</b></h1>
+<p class="home_left_p">
+Composites of a highly processed eclipse image taken on 20 April 2023 by Petr Hora&#833;lek 
+Milan Hlava&#833;&#269;, and Josef Kujal from the Czech Republic near Exmouth in Western Australia...
+<p class="home_left_p"  style="text-align:right;color:#E14800;">
+<a class="home_more_link" href="http://soho.nascom.nasa.gov/pickoftheweek/">more</a>&nbsp;&raquo;</p> 
+
+</div>
+
+
+
+<!-- ANNOUNCEMENT ======================================= -->
+
+<div class="line_separator">&nbsp;</div>
+
+<div class="home_left_img">
+<a class="home_more_link"href="/hotshots/2010_12_14/"><img 
+width=125 height=100 src="/hotshots/2010_12_14/JHV_Screenshot_SOHO_overlay2_thumb.jpg" 
+alt="JHelioviewer"></a>
+</div>
+
+
+<div class="home_left_text">
+
+        <h1 class="home_red_heading">SPOTLIGHT</h1>
+        <h1 class="home_black_heading"><b>
+JHelioviewer: A new way of looking at the Sun
+</b></h1>
+
+<p class="home_left_p">
+JHelioviewer is new visualization software that enables everybody, anywhere to explore the Sun...
+</p>
+ <p class="home_left_p" style="text-align:right;color:#E14800;">
+<a class="home_more_link" href="/hotshots/2010_12_14/" >read the story</a>&nbsp;&raquo;</p>
+</div>
+
+
+<div class="line_separator">&nbsp;</div>
+
+
+
+
+<!-- ******************** END OF ITEMS **************************** -->
+
+</div>			
+
+<div id="content_home_right">
+<table  width="100%" cellpadding="0" cellspacing="0" >
+	<tr>
+		<td class="home_right_header"><p class="home_right_header_p">the sun now</p></td>
+		<td class="home_right_space">&nbsp;</td>
+		<td class="home_right_header">
+			<p class="home_right_header_p">sunspots</p></td>
+	</tr>
+	
+	<tr>
+		<td class="home_right_imges">
+			<a href="/data/realtime-images.html">
+			<img src="/data/realtime/eit_171/512/latest.jpg" width="101" height="101" alt="SOHO" /></a>
+		</td>
+		<td class="home_right_space">&nbsp;</td>
+		<td class="home_right_imges">
+			<a href="/sunspots/">
+			<img src="/data/synoptic/sunspots/mdi_sunspots.jpg" width="101" height="101" alt="SOHO" /></a>
+	<!-- <img src="/data/synoptic/sunspots/mdi_sunspots.jpg" width="101" height="101" alt="SOHO" /></a> -->
+		</td>
+	</tr>
+
+	<tr>
+		<td class="home_right_header"><p class="home_right_header_p">spaceweather</p></td>
+		<td class="home_right_space">&nbsp;</td>
+		<td class="home_right_header"><p class="home_right_header_p">estimated Kp</p></td>
+	</tr>
+
+	<tr>
+		<td class="home_right_imges"><a href="/spaceweather/"><img src="data/realtime/c2/512/latest.jpg" width="101" height="101"
+alt="spaceweather" /></a></td>
+		<td class="home_right_space">&nbsp;</td>
+		<td class="home_right_imges"><a href="https://www.swpc.noaa.gov/products/planetary-k-index" target="blank"><img src="/data/synoptic/sel/satenv-small.gif"
+width="101" height="101" alt="SOHO" /></a></td>
+	</tr>
+</table>
+
+<!-- ***********************************  SOLAR WIND SECTION ************************************ -->
+
+<table border=0 style="margin-top:1px;" width="100%" cellpadding="0" cellspacing="0" >
+
+<tr><td class="home_right_header" colspan="2"><p class="home_right_header_p">solar wind</p></td></tr> 
+
+		
+<tr>
+<td rowspan="3"><a href="https://space.umd.edu/pm/" target="_blank" alt="Solar wind data">
+<img src="/imgs/sws_dial_6.png" width=160 height=74></a></td>
+<td class="home_right_solarwindtxt" style="text-align:center"><a style="color:white; text-decoration:none" href="https://space.umd.edu/pm/"
+target="_blank"><b>DOY:262  05:05 UT</b></a></td>
+	</tr>
+
+	<tr>
+		<td class="home_right_solarwindtxt" style="vertical-align:middle"><a style="color:white;
+text-decoration:none" href="https://space.umd.edu/pm/" target="_blank">Speed: <a style="color:#FFCC00">580.6 km/s
+</a></font></td>
+
+	</tr>
+	
+	<tr>
+		<td class="home_right_solarwindtxt" style="vertical-align:top"><a style="color:white;
+text-decoration:none" href="https://space.umd.edu/pm/" target="_blank">Density: <font
+style="color:#FFCC00">4.73 p/cm<sup>3</sup>
+</font></a></td>
+		
+	</tr>
+
+				
+</table>
+
+<!-- BOTTOM RIGHT: BEST OF SOHO RANDOM IMAGES -->
+
+<table style="margin-top:1px;" width="100%" cellpadding="0" cellspacing="0" >
+	<tr><td colspan="3" class="home_right_header"><p class="home_right_header_p">best of soho</p></td></tr>
+ 	<tr>	<td class="home_right_best_of_soho"><a class="content_link" href="/gallery/bestofsoho.html" alt="SOHO"><img src="/gallery/SolarCorona/random/las003_thumb.jpg"></A></td>
+		<td class="home_right_best_of_soho"><a class="content_link" href="/gallery/bestofsoho.html" alt="SOHO"><img src="/gallery/Helioseismology/random/mdi023_thumb.jpg"></a>
+</td>		<td class="home_right_best_of_soho"><a class="content_link" href="/gallery/bestofsoho.html" alt="SOHO"><img src="/gallery/Particle/random/swa010_thumb.jpg"></A></td>
+	</tr>
+</table>
+</div>
+<div style="clear: both; height: 0px; font-size: 0px; line-height: 1px;">&nbsp;</div></div>
+
+
+
+<div id="content_bottom">
+<div class="home_wide_text">
+<table border="0" width="600">
+<tr><td></td></tr>
+<tr>
+<td align=left colspan=3 class="table_black_heading">ALSO DON'T MISS </td>
+</tr>
+<tr>
+<td width="5"></td><td valign=top class="home_table_narrow">
+<ul>
+<!--<li class="content"><span> <a class="home_more_link" style="text-transform:capitalize;"
+ href="http://www.solarweek.org/" target="_blank">Solar Week (Oct 5-9, 2009)</a>
+-->
+<li class="content"><span> <a class="home_more_link" 
+style="text-transform:capitalize;" href="/outreach/" target="_blank">Outreach Spotlight</a>
+
+<li class="content"><span> Science@ESA <a class="home_more_link" 
+style="text-transform:capitalize;"
+ href="http://astronomy2009.esa.int/science-e/www/object/index.cfm?fobjectid=46594" target="_blank">Vodcasts</a>
+
+<li class="content"><span> <a class="home_more_link" style="text-transform:capitalize;"
+ href="http://svs.gsfc.nasa.gov/vis/a000000/a003500/a003595/" target="_blank">Sentinels of the Heliosphere</a>
+
+(<a class="home_more_link"  style="text-transform:capitalize; href="/Sentinel/Sentinels_H264_1280x720_30.mov"
+target="_blank">QT</a>, <a class="home_more_link" style="text-transform:capitalize;
+href="/Sentinel/Sentinels_H264_1280x720_30.mpg" target="_blank">MPEG</a>)</li>
+
+<!-- <li class="content"><span>
+<a class="home_more_link" style="text-transform:capitalize;" href="outreach/">Outreach Spotlight</a>&nbsp;
+<img width="23" height="12" src="/imgs/new.gif"></span></li> -->
+
+<!-- <li class="content"><span> <a class="home_more_link" style="text-transform:capitalize;"
+href="/sunworks/HallOfFame/Summer05.html">SOHO Sun as Art Contest and Winners</a></span></li> -->
+</ul>
+</td>
+<td valign=top class="home_table_narrow">
+<ul>
+<li class="content"><span><a class="home_more_link" style="text-transform:capitalize;"
+href="/whatsnew/">What's New</a> </span></li>
+
+<li class="content"><span><a class="home_more_link" style="text-transform:capitalize;"
+href="/freestuff/">Free Stuff</a> </span></li>
+
+<li class="content"><span><a class="home_more_link" style="text-transform:capitalize;"
+href="/sunworks/exhibit.html">SunWorks Exhibit</a> </span></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+
+ <div id="bottom_nav">
+	<div class="home_site_is">
+		<p class="home_bottom_p">&bull;&nbsp;<a class="bottom_links" href="http://soho.esac.esa.int/">European 
+Site</a>&nbsp;&bull;&nbsp;<a class="bottom_links" href="http://sohowww.nascom.nasa.gov/">US Site</a></p>
+				<p class="home_bottom_space">&nbsp;</p>
+				<p class="home_bottom_p">Feedback &amp; Comments:<a class="bottom_links"
+href="http://sohowww.nascom.nasa.gov/contact/webmaster.html">&nbsp;SOHO Webmaster</a></p>
+			<p class="home_bottom_p">Last modification: July 27, 2020 
+
+</p>
+
+	</div>
+
+	<div class="nasa"><a href="http://www.nasa.gov/"><img src="/imgs/nasa.jpg" width="66" height="70" alt="SOHO" /></a></div>
+	<div class="home_and">and</div>
+	<div class="esa"><a href="http://www.esa.int/"><img src="/imgs/esa.jpg" width="100" height="70" alt="SOHO" /></a></div>
+	<div class="home_soho_is">SOHO is a project of international cooperation between</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
+

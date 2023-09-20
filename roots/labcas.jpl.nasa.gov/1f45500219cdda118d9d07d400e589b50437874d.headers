@@ -1,0 +1,10 @@
+GET http://labcas.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:04:39 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Location: https://labcas.jpl.nasa.gov/
+< Content-Length: 212

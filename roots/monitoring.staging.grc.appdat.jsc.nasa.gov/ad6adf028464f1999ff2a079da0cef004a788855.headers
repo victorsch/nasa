@@ -1,0 +1,16 @@
+GET https://monitoring.staging.grc.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:43:34 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< Content-Length: 29
+< Cache-Control: no-store
+< Location: /login
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< Content-Type: text/html; charset=utf-8
+< Referrer-Policy: strict-origin-when-cross-origin

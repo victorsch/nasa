@@ -1,0 +1,6 @@
+GET http://cloud-object.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://cloud-object.larc.nasa.gov/

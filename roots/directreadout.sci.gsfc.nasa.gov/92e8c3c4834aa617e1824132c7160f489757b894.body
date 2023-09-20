@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F57HZEMMYS"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-F57HZEMMYS');
+        </script>
+        <style>
+            :target{
+                background-color: black;
+                color: white;
+                padding: 2px;
+                margin-left: -2px;
+            }
+        </style>
+        <title>Direct Readout Home Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body id="main_body">
+        <a class="accessible_skip" href="#right">[Skip to Main Content]</a>
+        <center>
+            <iframe title="Header Frame" src="top.html" width="1000px" height="120px" frameborder=0 scrolling=no></iframe>
+            <div style="width: 1000px; min-height: 800px;">
+                <iframe title="Menu Frame" src="left.html" frameborder=0 scrolling=no id="left" style="width: 250px; height: 800px; float: left;"></iframe>
+                <div id="right" style="margin-left: 258px; background-color: #d3d4d7; text-align: left;">
+                    <div class="image_container">
+                        <h3 id="home_image_text">Real Time Earth Observation for Societal Benefits</h3>
+                    </div>
+                    <div class="body_title"><h1>DRL Current Status</h1></div>
+                    <div class="body_content">
+                        <p>
+                            Direct Readout Laboratory support to the Direct Broadcast community is changing.
+                        </p>
+                        <p>
+                            For many years the Direct Readout Laboratory (DRL) has provided support for the Direct Broadcast community that has invested in the resources to receive sensor data directly from the satellite rather than waiting until the data is distributed via official channels. Satellite Direct Broadcast capabilities will continue to exist, primarily via NOAA missions and support.
+                        </p>
+                        <p>
+                            The Terra and Aqua missions are approaching their end of life, thus support for them is also ramping down. Continuing support for all NASA and NOAA Direct Broadcast missions (Terra, Aqua, SNPP, and JPSS) will be provided, but not through Direct Readout Laboratory. NOAA has for the past few years been, and will continue to be, the principal provider for Direct Broadcast support going forward.
+                        </p>
+                        <p>
+                            DRL has ended development status and begun archive status. This means that the most current DRL software (IPOPP, SPAs, and other) are frozen and archived. No new users will be supported. Existing users who need a replacement copy of some software may request it.
+                        </p>
+                        <p>
+                            It is time for the DRL community to migrate to missions with more expected life and services with continuing support. The University of Wisconsin, Madison, is NOAA's prime support source.
+                        </p>
+                        <p>
+                            If you are interested in Terra and Aqua:<br><a target="_blank" aria-label="opens in new window" href="https://cimss.ssec.wisc.edu/imapp/">https://cimss.ssec.wisc.edu/imapp/</a>
+                        </p>
+                        <p>
+                            If you are interested in SNPP or JPSS:<br><a target="_blank" aria-label="opens in new window" href="https://cimss.ssec.wisc.edu/cspp/">https://cimss.ssec.wisc.edu/cspp/</a>
+                        </p>
+                        <p>
+                            NOAA will be directly maintaining RT-STPS:<br><a target="_blank" aria-label="opens in new window" href="https://fieldterminal.nesdis.noaa.gov/">https://fieldterminal.nesdis.noaa.gov/</a>
+                        </p>
+                        <p>
+                            The following DRL services will change:
+                        </p>
+                        <ul>
+                            <li>No new users will be accepted</li>
+                            <li>No software distribution except by request for existing users</li>
+                            <li>The website will continue to provide information
+                                <ul>
+                                    <li>Login/registration not required to access resources</li>
+                                    <li>Documentation will be retained</li>
+                                    <li>The email list will continue to operate for current subscribers</li>
+                                </ul>
+                            </li>
+                            <li>The Forum is discontinued</li>
+                            <li>No Direct Broadcast data distribution</li>
+                            <li>No data processing</li>
+                            <li>No imagery generation</li>
+                            <li>No sample data other than that contained within the software</li>
+                            <li>Changes to ancillary data distribution</li>
+                        </ul>
+                        <h4 id="registration">Why can't I become a DRL registered user?</h4>
+                        <p>
+                            Access to the resources that were behind a registration barrier has changed, making registration no longer useful. User guides are now available to all. Software is only available by request. The forum has been discontinued. The only registration perk remaining is membership in the email group, and your membership in that will remain (although if you don't use it it may expire). An email was sent to members of the email list in June of 2023 announcing these changes.
+                        </p>
+                        <h4 id="software_download">Why can't I directly download DRL software?</h4>
+                        <p>
+                            The DRL Software has gone into Archive status. This means it is no longer being actively updated and will become increasingly out of date.  New users should use the "Alternate Source" on the software download page when available. Existing users are strongly encouraged to migrate your production flow to the alternate source software, which is being actively updated. Existing users can request an archived replacement copy of something they've already downloaded by emailing the email group (your request won't be posted to the entire list).
+                        </p>
+                        <h4 id="alternate_software">But there is no alternative to the DRL software I'm using!</h4>
+                        <p>
+                            The IPOPP production environment is a large, complex, and old piece of software that may assume a network environment that does not exist. Most SPAs can be run stand-alone outside of IPOPP and that is the suggested way to run them if IPOPP develops issues until you can migrate to alternative software.
+                        </p>
+                        <p>
+                            If you have some specific DRL unique SPA that doesn't have Alternate Source equivalents that are essential to your work, it is possible there could be some kind of future support for them, perhaps by collaboration with other end users. Please contact us about that, but remember that if you are successfully operating today, you should be able to continue to successfully operate tomorrow. No current software is being deleted; it is being archived. It is possible that the most current software versions may have errors/issues in the future. Whether they can be fixed will depend on the cause of the error/issue.
+                        </p>
+                        <p>
+                            Bear in mind that some DRL SPAs use a NOAA developed algorithm that NOAA has since deprecated and replaced with a newer algorithm. Whether deprecated or current as of June 2023, no further algorithm/etc upgrades are forthcoming.
+                        </p>
+                        <h4 id="ancillary_data">How do I get ancillary data?</h4>
+                        <p>The ancillary data server will continue to run allowing IPOPP to pull needed data. At some point it will be transferred to another system, so there may be a temporary outage. It is not known at this time whether the data will be able to be manually pulled after the transfer. Historical ancillary data will not be available. More details to come and will be announced via the email group.</p>
+                        <h4 id="data_download">Why can't I directly download DRL high level processed data? </h4>
+                        <p>
+                            As NASA Direct Broadcast support ramps down (to be covered via NOAA DB support), resources are diminishing. Data handling resources have gone away. Therefore DRL will no longer acquire or process data. Much of the data DRL calculated came from the following sources:<br>
+                            For NASA products - <a target="_blank" aria-label="opens in new window" href="https://ladsweb.modaps.eosdis.nasa.gov/search/">https://ladsweb.modaps.eosdis.nasa.gov/search/</a><br>
+                            For NOAA products - <a target="_blank" aria-label="opens in new window" href="https://www.avl.class.noaa.gov/saa/products/catSearch">https://www.avl.class.noaa.gov/saa/products/catSearch</a>
+                        </p>
+                        <h4 id="image_download">Why can't I directly download DRL images?</h4>
+                        <p>
+                            Since DRL is no longer receiving or processing data, it no longer produces images. Most of the DRL near real time produced images duplicated images produced elsewhere. Near real time and historical archived images can be found at:
+                        </p>
+                        <ul>
+                            <li><a target="_blank" aria-label="opens in new window" href="https://worldview.earthdata.nasa.gov/?l=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,OMPS_SO2_Upper_Troposphere_and_Stratosphere(hidden),OMPS_SO2_Middle_Troposphere(hidden),OMPS_SO2_Lower_Troposphere(hidden),OMPS_SO2_Planetary_Boundary_Layer(hidden),OMPS_Ozone_Total_Column(hidden),OMPS_Aerosol_Index_PyroCumuloNimbus(hidden),OMPS_Aerosol_Index(hidden),MODIS_Terra_EVI_8Day,VIIRS_SNPP_DayNightBand_ENCC(hidden),VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),MODIS_Terra_Thermal_Anomalies_Day(hidden),MODIS_Terra_Thermal_Anomalies_All(hidden),MODIS_Combined_Thermal_Anomalies_Night(hidden),MODIS_Combined_Thermal_Anomalies_Day(hidden),MODIS_Combined_Thermal_Anomalies_All(hidden),VIIRS_SNPP_Thermal_Anomalies_375m_Night(hidden),VIIRS_SNPP_Thermal_Anomalies_375m_All(hidden),VIIRS_NOAA20_Thermal_Anomalies_375m_Night(hidden),VIIRS_NOAA20_Thermal_Anomalies_375m_Day(hidden),VIIRS_NOAA20_Thermal_Anomalies_375m_All,VIIRS_SNPP_Angstrom_Exponent_Deep_Blue_Best_Estimate(hidden),VIIRS_SNPP_Angstrom_Exponent_Dark_Target_Ocean(hidden),MODIS_Terra_Angstrom_Exponent_Land(hidden),MODIS_Aqua_Angstrom_Exponent_Land(hidden),MODIS_Terra_Angstrom_Exponent_Ocean(hidden),MODIS_Aqua_Angstrom_Exponent_Ocean(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=true&t=2023-05-24-T12%3A59%3A34Z">NASA Worldview</a></li>
+                            <li><a target="_blank" aria-label="opens in new window" href="https://nasa-gibs.github.io/gibs-api-docs/available-visualizations/#visualization-product-catalog">NASA Global Imagery Browse Services (GIBS)</a></li>
+                            <li><a target="_blank" aria-label="opens in new window" href="https://landweb.modaps.eosdis.nasa.gov/cgi-bin/QS/new/pages.cgi?name=nrt_browse">NASA MODIS LAND NRT browses (LDOPE)</a></li>
+                            <li><a target="_blank" aria-label="opens in new window" href="https://landweb.modaps.eosdis.nasa.gov/cgi-bin/ATM/ATMbrowse.cgi">NASA Global Browse of MODIS Atmosphere</a></li>
+                            <li><a target="_blank" aria-label="opens in new window" href="https://ladsweb.modaps.eosdis.nasa.gov/view-data/#@9.4,0.0,3z">NASA Level-1 and Atmospheric Archive & Distribution System (LAADS)</a></li>
+                        </ul>
+                        <h4 id="help">Can I continue to get help?</h4>
+                        <p>
+                            Yes! While the forum has gone away, the email list continues so you can reach out to other users for help. The remaining DRL staff will review these questions to see if we can help first before forwarding to the group.
+                        </p>
+                        <h4 id="dead_links">There are so many dead links! </h4>
+                        <p>
+                            The website has been in existence for many years and has been archived mostly as it was in May 2023. Many identified dead links have been taken care of. Most internal dead links due to deprecated functions are marked by a frowning face  &#128577; and redirect to here. For external dead links the link has been removed but the names have been left for those who might need to try to find their new contact information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <iframe title="Footer Frame" src="bottom.html" frameborder=0 scrolling=no class="bottom_frame"></iframe>
+        </center>
+    </body>
+</html>

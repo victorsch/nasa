@@ -1,0 +1,13 @@
+GET https://ohp.nasa.gov
+
+
+< HTTP/1.1 404 Not Found
+< Date: Tue, 19 Sep 2023 06:00:29 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Cf-Pop: EWR53-P1
+< X-Amz-Cf-Id: EgP25MbCAirpxfIu52XP7URqYEADM9uhPdXCTUrwEM5pdHXSBGWQDg==
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 19
+< Server: goredirect/2013.08.12
+< X-Cache: Error from cloudfront
+< Via: 1.1 c22d4946ef5faea12b8d3942ceb9259a.cloudfront.net (CloudFront)

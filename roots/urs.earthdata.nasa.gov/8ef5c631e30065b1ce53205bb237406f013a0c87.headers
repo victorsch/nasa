@@ -1,0 +1,21 @@
+GET https://urs.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Expires: Fri, 01 Jan 1990 00:00:00 GMT
+< X-Runtime: 0.256907
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-store
+< Set-Cookie: _urs-gui_session=3f0bfda7f9c1d1b8d61a31fc9abb4719; path=/; expires=Wed, 20 Sep 2023 05:41:47 GMT; HttpOnly
+< Referrer-Policy: strict-origin-when-cross-origin
+< Pragma: no-cache
+< X-Request-Id: 681a62fe-6729-4cde-8ae5-92a7bb66af83
+< Server: nginx/1.22.1
+< Date: Tue, 19 Sep 2023 05:41:47 GMT
+< X-Content-Type-Options: nosniff
+< X-Permitted-Cross-Domain-Policies: none
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< X-Download-Options: noopen
+< Etag: W/"8ffe63fac7d71df3abcd3025a24f452d"

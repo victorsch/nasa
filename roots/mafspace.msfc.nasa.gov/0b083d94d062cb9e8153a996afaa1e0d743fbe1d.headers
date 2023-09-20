@@ -1,0 +1,23 @@
+GET https://mafspace.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Link: <https://mafspace.msfc.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://mafspace.msfc.nasa.gov/>; rel=shortlink
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+< Date: Tue, 19 Sep 2023 06:02:40 GMT
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: no-store, no-cache, must-revalidate
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Set-Cookie: spo_26_fa=d5eb97be9497c8f923eaddde830fa030; expires=Tue, 19-Sep-2023 06:32:39 GMT; Max-Age=1800; path=/mafspace/
+< Set-Cookie: PHPSESSID=c41ff7f198555f0a959bd6b7e05ab2ae; path=/; secure; HttpOnly
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true

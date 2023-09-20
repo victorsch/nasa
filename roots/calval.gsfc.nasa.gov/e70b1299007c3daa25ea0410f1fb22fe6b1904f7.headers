@@ -1,0 +1,10 @@
+GET http://calval.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 237
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:00:26 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< Location: https://calval.gsfc.nasa.gov/

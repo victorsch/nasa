@@ -1,0 +1,16 @@
+GET https://atcsim.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:55:57 GMT
+< Etag: "61c5-5c21511b91fc0"
+< Last-Modified: Tue, 11 May 2021 22:03:51 GMT
+< Content-Length: 25029
+< Content-Type: text/html; charset=UTF-8
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Upgrade: h2
+< Accept-Ranges: bytes
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

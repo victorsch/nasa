@@ -1,0 +1,10 @@
+GET http://hsi.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://hsi.arc.nasa.gov/
+< X-Debug-Cache: no_cache=0
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:55:21 GMT
+< Content-Type: text/html
+< Content-Length: 178

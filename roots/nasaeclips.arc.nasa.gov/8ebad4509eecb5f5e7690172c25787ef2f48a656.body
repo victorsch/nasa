@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta property="og:title" content="NASA eClips">
+<meta property='og:type' content='article'/><meta property='og:image' content='https://nasaeclips.arc.nasa.gov/assets/images/eClips_wht_outline.png'/><title>NASA eClips</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="icon" type="image/ico" href="https://nasaeclips.arc.nasa.gov/favicon.ico" sizes="16x16">
+<link rel="shortcut icon" href="https://nasaeclips.arc.nasa.gov/favicon.ico">
+
+    <link type="text/css" rel="stylesheet" href="https://nasaeclips.arc.nasa.gov/min/?b=assets&f=bsg/templates/basic/bootstrap341/css/bootstrap.css,bsg/templates/basic/css/tablesorter.css,bsg/templates/basic/css/bsg-table.css,bsg/bsg-form/bsg.form-global.css,bsg/bsg-form/widgets/bsg.attachment.css,bsg/bsg-form/widgets/bsg.select.css,bsg/bsg-form/widgets/bsg.lookup.css,bsg/bsg-form/widgets/bsg.user-lookup.css,bsg/bsg-form/widgets/bsg.date.css,bsg/bsg-form/widgets/bsg.textarea.css,bsg/bsg-form/widgets/bsg.checkbox.css,bsg/bsg-form/widgets/bsg.one-to-many.css,bsg/libs/selectize/selectize.bootstrap3.css,bsg/libs/wickedpicker/wickedpicker.min.css,bsg/bsg-form/widgets/bsg.tags.css,bsg/templates/basic/css/reset-bootstrap.css,bsg/templates/basic/css/style.css,bsg/templates/basic/css/phone.css,bsg/templates/basic/css/tablet.css,bsg/templates/basic/css/small-desktop.css,bsg/templates/basic/css/medium-desktop.css,bsg/templates/basic/css/large-desktop.css,bsg/templates/basic/css/fullscreen.css,bsg/templates/basic/css/menus.css,bsg/templates/basic/css/print.css,css/app_global.css,css/app_print.css,css/fotorama.css,js/jquery-ui-1.12.1/jquery-ui.structure.min.css,js/jquery-ui-1.12.1/jquery-ui.theme.min.css,js/select2/css/select2.min.css">
+
+    
+    <script type="text/javascript" src="https://nasaeclips.arc.nasa.gov/min/?b=assets&f=bsg/templates/basic/jquery/jquery.1.11.3.js,bsg/templates/basic/jquery/jquery.float-table-head.min.js,bsg/templates/basic/jquery/ui/jquery-ui.min.js,bsg/templates/basic/bootstrap341/js/bootstrap.min.js,bsg/templates/basic/js/bsg-structure.js,bsg/templates/basic/js/bsg-popover.js,bsg/templates/basic/js/bsg-table.js,bsg/js/bsg_plugin.js,bsg/js/bsg.menus.js,bsg/libs/selectize/selectize.min.js,bsg/bsg-form/bsg.form-global.js,bsg/bsg-form/widgets/bsg.input-currency.js,bsg/bsg-form/widgets/bsg.lookup.js,bsg/bsg-form/widgets/bsg.user-lookup.js,bsg/bsg-form/widgets/bsg.date.js,bsg/bsg-form/widgets/bsg.time.js,bsg/bsg-form/widgets/bsg.tags.js,bsg/bsg-form/widgets/bsg.textarea.js,bsg/bsg-form/widgets/bsg.one-to-many.js,js/app.js,js/eclips.js,js/form.js,js/fotorama.js,bsg/js/modal.js,js/bxslider/jquery.bxslider.min.js,js/jwplayer-6.9/jwplayer.js,js/jwplayer-6.9/jwplayer.html5.js,js/jquery-ui-1.12.1/jquery-ui.min.js,js/select2/js/select2.min.js"></script>
+
+        <script id="_fed_an_js_tag" type="text/javascript" src="https://bsgapps.arc.nasa.gov/ga/?agency=NASA&sub-agency=ARC&vcto=12"></script>
+<script>jwplayer.key="LRj01mRMDsXEXE60UVcOqkcG7mWHuZF4bWsUWv9euno=";</script>
+
+<script>
+    var ajax_home = 'https://nasaeclips.arc.nasa.gov/ajax/';
+    var app_home = 'https://nasaeclips.arc.nasa.gov/';
+    var playlist_ids = [];
+            playlist_ids.push('ourworld');
+            playlist_ids.push('realworld');
+            playlist_ids.push('launchpad');
+        playlist_ids.push('spotlite');
+</script>
+</head>
+<body class="eclips2 no-js bsg-env-production bsg-browser- bsg-client-type-desktop">
+<a href="#main-content" class="bsg-skip-to-content sr-only sr-only-focusable">Skip to main content</a>
+<div class="bsg-page-wrap-upper">
+<header>
+    
+    <div class="header-image">
+        
+        <div class="header-banner https://nasaeclips.arc.nasa.gov/assets/images/eclips_info_banner.gif ">
+                            <a href="/">
+                    <img src="https://nasaeclips.arc.nasa.gov/assets/images/eclips_info_banner.gif" width="100%">
+                </a>
+                    </div>
+
+                    <div class="search" id="header_search">
+                <div class="mini-search container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="search-area ">
+                <input type="text" class="form-control header-mini-search" placeholder="Search ..." >
+                <div id="search-advanced" style="display: block;">
+                    <div class="search-advanced-item">
+                        <div class="checkbox search-box-advanced-checkbox">
+                            <label>
+                                <input type="checkbox" class="mini-filter" id="ourworld" value="ourworld" checked="">
+                                <span class="bold">Grades 3‑5</span>
+                                <div class="mini-search-item-desc">
+                                    <span class="accent">(Our World)</span>
+                                    <span class="light">Natural vs Designed World</span>
+                                </div>
+
+                            </label>
+                        </div>
+                        <div class="checkbox search-box-advanced-checkbox">
+                            <label>
+                                <input type="checkbox" class="mini-filter" id="realworld" value="realworld" checked="">
+                                <span class="bold">Grades 6‑8</span>
+                                <div class="mini-search-item-desc">
+                                    <span class="accent">(Real World)</span>
+                                    <span class="light">Mathematics in Action</span>
+                                </div>
+
+                            </label>
+                        </div>
+                        <div class="checkbox search-box-advanced-checkbox">
+                            <label>
+                                <input type="checkbox" class="mini-filter" id="launchpad" value="launchpad" checked="">
+                                <span class="bold">Grades 9‑12</span>
+                                <div class="mini-search-item-desc">
+                                    <span class="accent">(Launchpad)</span>
+                                    <span class="light">NASA Innovations &amp; Technologies</span>
+                                </div>
+
+                            </label>
+                        </div>
+                        <div class="checkbox search-box-advanced-checkbox">
+                            <label>
+                                <input type="checkbox" class="mini-filter" id="spotlite" value="spotlite" checked="">
+                                <span class="bold">Student Produced</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="search-btn">
+                <button class="btn btn-default mini-search-btn" type="button">
+                    <span class="glyphicon glyphicon-search" alt="Search" title="Search"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>                <div class="nav-menu">
+                    <img class="menu-img" data-toggle="modal" src="https://nasaeclips.arc.nasa.gov/assets/images/menu_button_only.png" style="height: 35px;" alt="NASA eClips" id="eclips_menu" />
+                </div>
+            </div>
+                <div class="clearfix"></div>
+    </div>
+</header>
+<div id="main-content" class="container">
+<div class="page-content">
+        <div class="home-nav container">
+            <div class="row row-no-gutters">
+                <div class="col-sm-2 menu-item">
+                    <div class="title">
+                        VIDEOS
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://nasaeclips.arc.nasa.gov/video/ourworld">
+                            <div class="heading">Our World</div>
+                            <div class="subtext">(Grades 3-5)</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/video/realworld">
+                            <div class="heading">Real World</div>
+                            <div class="subtext">(Grades 5-8)</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/video/launchpad">
+                            <div class="heading">Launchpad</div>
+                            <div class="subtext">(Grades 9-12)</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/careerconnection">
+                            <div class="heading">Ask SME</div>
+                            <div class="subtext">Close-up with a NASA Subject Matter Expert</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/spotlite">
+                            <div class="heading">NASA Spotlites</div>
+                            <div class="subtext">Student Productions</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/sme">
+                            <div class="heading">Subject Matter Experts as Educators (SME<sup>2</sup>)</div>
+                            <div class="subtext">Student Productions</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 menu-item">
+                    <div class="title">
+                        EDUCATOR GUIDES
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Full_Guide_grades_K-5_Our_World">
+                            <div class="heading">Grades K-5</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Full_Guide_grades_6-8_Real_World">
+                            <div class="heading">Grades 6-8</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Full_Guide_grades_9-12_Launchpad">
+                            <div class="heading">Grades 9-12</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Guide_Lite">
+                            <div class="heading">Guide Lites</div>
+                            <div class="subtext">(3-18 Years old)</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Engineering_Design_Packet">
+                            <div class="heading">Engineering Design Packets</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/guides#Spotlite_Interactive_Lessons">
+                            <div class="heading">Spotlite Interactive Lessons</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 menu-item">
+                    <div class="title">
+                        EDUCATOR RESOURCES
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/valuebundle">
+                            <div class="heading">V.A.L.U.E. Bundles</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/bestpractice">
+                            <div class="heading">Best Practices in Education</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/newsletters">
+                            <div class="heading">Newsletters</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/vocab">
+                            <div class="heading">Virtual Vocabulary</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/engineering">
+                            <div class="heading">Engineering</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-2 menu-item">
+                    <div class="title">
+                        STUDENT OPPORTUNITIES
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://nasaeclips.arc.nasa.gov/resources/sdchallenge">
+                            <div class="heading">Spotlite Design Challenge</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-2 menu-item">
+                    <div class="title">
+                        ABOUT
+                    </div>
+                    <div class="dropdown">
+                        <a href="https://nasaeclips.arc.nasa.gov/about/about#eab-body">
+                            <div class="heading">Meet the Team</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/about/awards">
+                            <div class="heading">Awards</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/about/faq">
+                            <div class="heading">FAQ</div>
+                        </a>
+                        <a href="https://nasaeclips.arc.nasa.gov/about/contact/us">
+                            <div class="heading">Contact Us</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="intro page-intro">
+            <h3 class="text-center">
+                Providing educators with standards-based videos, activities and lessons to increase STEM literacy through the lens of NASA            </h3>
+        </div>
+        <div class="container page-main">
+        <div class="search home" id="header_search">
+        <div id="search-box" class="search-box">
+  <div class="input-group">
+     <label for='search-box-input' class='sr-only'>Search</label>
+     <input class="form-control " id="search-box-input" type="text" placeholder="Search NASA eClips&#8482;">
+    <span class="input-group-btn">
+      <button title="button" id="search-box-advanced-toggle" class="btn btn-default" type="button">
+        <span class="glyphicon glyphicon-triangle-bottom" alt="Advanced Options" title="Advanced Options"></span>
+      </button>
+      <button title="button" id="search-box-search-button" class="btn btn-default search-btn" type="button">
+        <span class="glyphicon glyphicon-search" alt="Search" title="Search"></span>
+      </button>
+    </span>
+  </div>
+  <div id="search-box-advanced"
+         >
+    <div class="search-box-advanced-item">
+      <h3>Filter search by grade-level (optional)</h3>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-ourworld"
+                value="ourworld"
+                checked            >
+            <span class="bold">Grades 3&#8209;5</span>
+            <span class="accent">(Our World)</span>
+            <span class="light">Natural vs Designed World</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-realworld"
+                value="realworld"
+                checked            >
+            <span class="bold">Grades 6&#8209;8</span>
+            <span class="accent">(Real World)</span>
+            <span class="light">Mathematics in Action</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-launchpad"
+                value="launchpad"
+                checked            >
+            <span class="bold">Grades 9&#8209;12</span>
+            <span class="accent">(Launchpad)</span>
+            <span class="light">NASA Innovations &amp; Technologies</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-spotlite"
+                value="spotlite"
+                checked            >
+            <span class="bold">Student Produced</span>
+          </label>
+        </div>
+    </div>
+      <div class="clearfix"></div>
+  </div>
+    <div class="clearfix"></div>
+</div>
+    </div>
+    <div id="playlists">
+        <div class="playlist_wrapper">
+            <div class="playlist_videos">
+                                                        <article>
+                        <a href='https://nasaeclips.arc.nasa.gov/video/ourworld'><div class="image_wrapper ourworld" style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/podcast-ourworld.png);"><span class="sr-only">Our World</span></div></a>                        <h3 id="playlist_heading" class="playlist_subtitle">Grades 3&#8209;5</h3>
+                        <p class="playlist_description ourworld"><b>Our World</b> videos supplement existing elementary learning objectives not only in science, technology, engineering and mathematics, but also in reading, writing, and visual and performing arts.</p>
+                                                    <div class="seemore">
+                                <a class="playlist_link" href="https://nasaeclips.arc.nasa.gov/video/ourworld">See all Our World Videos</a>
+                            </div>
+                                            </article>
+                                                        <article>
+                        <a href='https://nasaeclips.arc.nasa.gov/video/realworld'><div class="image_wrapper realworld" style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/podcast-realworld.png);"><span class="sr-only">Real World</span></div></a>                        <h3 id="playlist_heading" class="playlist_subtitle">Grades 6&#8209;8</h3>
+                        <p class="playlist_description realworld"><b>Real World</b> videos connect classroom mathematics to 21st century careers and innovations and are designed for students to develop an appreciation for mathematics through real-world problem-solving.</p>
+                                                    <div class="seemore">
+                                <a class="playlist_link" href="https://nasaeclips.arc.nasa.gov/video/realworld">See all Real World Videos</a>
+                            </div>
+                                            </article>
+                                                        <article>
+                        <a href='https://nasaeclips.arc.nasa.gov/video/launchpad'><div class="image_wrapper launchpad" style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/podcast-launchpad.png);"><span class="sr-only">Launchpad</span></div></a>                        <h3 id="playlist_heading" class="playlist_subtitle">Grades 9&#8209;12</h3>
+                        <p class="playlist_description launchpad"><b>Launchpad</b> videos support project-based and problem-based learning experiences in science, mathematics, and career and technical education classrooms.</p>
+                                                    <div class="seemore">
+                                <a class="playlist_link" href="https://nasaeclips.arc.nasa.gov/video/launchpad">See all Launchpad Videos</a>
+                            </div>
+                                            </article>
+                                                        <article>
+                        <a href='https://nasaeclips.arc.nasa.gov/spotlite'><div class="image_wrapper studentproduced" style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/podcast-spotlite.png);"><span class="sr-only">Spotlite</span></div></a>                        <h3 id="playlist_heading" class="playlist_subtitle">Student Productions</h3>
+                        <p class="playlist_description studentproduced"><b>Spotlite</b> videos address common science misconceptions and are paired with interactive lessons and subject matter expert interviews to offer real-world connections.</p>
+                                                    <div class="seemore">
+                                <a class="playlist_link" href="https://nasaeclips.arc.nasa.gov/spotlite">See all Spotlite Videos</a>
+                            </div>
+                                            </article>
+                                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div id="home_sections" class="row">
+        <div class="col-md-3 col-sm-6 thumbnail ">
+            <h2>
+                <a href="https://nasaeclips.arc.nasa.gov/resources/guides " style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/Guides-2.jpg);" class="tilt">
+                    <span class="sr-only">Guides</span>
+                </a>
+            </h2>
+            <h3 class="playlist_subtitle" style="text-align:start;font-weight: bold;margin:20px 0px">Guides</h3>
+            <p class="playlist_description" style="text-align:start;">
+                <b>Educator Guides</b> integrate video segments into lessons for formal and informal educational settings.
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 thumbnail ">
+            <h2>
+                <a href="https://nasaeclips.arc.nasa.gov/resources/sdchallenge" class="tilt">
+                    Spotlite <br>Design <br>Challenge
+                </a>
+            </h2>
+            <h3 class="playlist_subtitle" style="text-align:start;font-weight: bold;margin:20px 0px">Spotlite Design Challenge</h3>
+            <p class="playlist_description" style="text-align:start;">
+                <b>Spotlite Design Challenge</b> guides student teams through the process of producing videos that confront and disprove science misconceptions.
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 thumbnail ">
+            <h2>
+                <a href="https://nasaeclips.arc.nasa.gov/careerconnection " style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/Ask_SME_Title_5.1.png);" class="tilt">
+                    <span class="sr-only">Ask SME</span>
+                </a>
+            </h2>
+            <h3 class="playlist_subtitle" style="text-align:start;font-weight: bold; margin:20px 0px">Ask SME</h3>
+            <p class="playlist_description" style="text-align:start;">
+                <b>Ask SME</b> videos spark interest and broaden learners’ perspectives about STEM careers.
+            </p>
+        </div>
+        <div class="col-md-3 col-sm-6 thumbnail ">
+        <h2>
+                <a href="https://nasaeclips.arc.nasa.gov/resources/home " style="background-image: url(https://nasaeclips.arc.nasa.gov/assets/images/Learning-resources.jpg);" class="tilt">
+                    <span class="sr-only">Resources</span>
+                </a>
+            </h2>
+            <h3 class="playlist_subtitle" style="text-align:start;font-weight: bold; margin:20px 0px">Resources</h3>
+            <p class="playlist_description" style="text-align:start;">
+                <b>Learning resources</b> help educators implement best practices in the classroom and learning environment.
+            </p>
+        </div>
+    </div>
+    <div id="tagline">
+        <span>
+            <h3>Bringing <b>STEM</b> alive through <b>NASA</b> real-world connections</h3>
+        </span>
+    </div>
+    
+<div id="footer">
+    <div class="footer_wrapper">
+        <div class="social_footer">
+            <article>
+                <div id="extras" class="column twitter-col">
+                    <div class="twitter" style="min-height:210px">
+                        <h4><img src="https://nasaeclips.arc.nasa.gov/assets/images/Twitter_Logo_Blue.png" alt="Twitter"/>Recent tweets from NASA eClips</h4>
+                        <a class="twitter-timeline" data-height="200" href="https://twitter.com/NASA_eClips?ref_src=twsrc%5Etfw" data-chrome="nofooter noborders"></a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="column social">
+                    <ul class="footer-contact-list">
+                        <li class="newsletter-box">
+                            <a class="newsletter-link" id="newsletter_modal_link" href="https://www.nationalinstituteofaerospace.org/nianet/nasaeclips-newsletter/index.html">Get the Newsletter</a>
+                        </li>
+                        <li class="privacy">
+                            <a class="contact-link" id="contact_form_modal_link" href="#" data-form-url="https://nasaeclips.arc.nasa.gov/contact">Contact Us</a>
+                        </li>
+                        <li class="curator">
+                            <a class="contact-link" target="_blank" href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <p>
+                            <a href="http://www.facebook.com/NASAeClips" target="_blank"><img src="https://nasaeclips.arc.nasa.gov/assets/images/FB-fLogo-Blue-broadcast-2.png" alt="Follow us on Facebook"/></a>
+                            <a href="https://twitter.com/nasa_eclips" target="_blank"><img src="https://nasaeclips.arc.nasa.gov/assets/images/Twitter_Logo_White_On_Blue.png" alt="Follow us on Twitter"/></a>
+                            <a href="https://www.youtube.com/user/NASAeClips" target="_blank"><img src="https://nasaeclips.arc.nasa.gov/assets/images/YouTube-social-squircle_red_48px.png" alt="Subscribe on YouTube"/></a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="footer-contacts-article">
+                <div class="footer-contacts-wrapper">
+                    <div class="read-more">
+                        <h4 style="color: #fff !important;">
+                            <span style="font-weight: bold;">Read More at</span> <a href="https://science.nasa.gov">SCIENCE.NASA.GOV</a>
+                        </h4>
+                    </div>
+                    <div class="search" id="footer_search">
+                        <div id="search-box" class="search-box">
+  <div class="input-group">
+     <label for='search-box-input' class='sr-only'>Search</label>
+     <input class="form-control footer" id="search-box-input" type="text" placeholder="Search NASA eClips&#8482;">
+    <span class="input-group-btn">
+      <button title="button" id="search-box-advanced-toggle-footer" class="btn btn-default" type="button">
+        <span class="glyphicon glyphicon-triangle-bottom" alt="Advanced Options" title="Advanced Options"></span>
+      </button>
+      <button title="button" id="search-box-search-button-footer" class="btn btn-default search-btn" type="button">
+        <span class="glyphicon glyphicon-search" alt="Search" title="Search"></span>
+      </button>
+    </span>
+  </div>
+  <div id="search-box-advanced-footer"
+         >
+    <div class="search-box-advanced-item">
+      <h3>Filter search by grade-level (optional)</h3>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-ourworld"
+                value="ourworld"
+                checked            >
+            <span class="bold">Grades 3&#8209;5</span>
+            <span class="accent">(Our World)</span>
+            <span class="light">Natural vs Designed World</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-realworld"
+                value="realworld"
+                checked            >
+            <span class="bold">Grades 6&#8209;8</span>
+            <span class="accent">(Real World)</span>
+            <span class="light">Mathematics in Action</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-launchpad"
+                value="launchpad"
+                checked            >
+            <span class="bold">Grades 9&#8209;12</span>
+            <span class="accent">(Launchpad)</span>
+            <span class="light">NASA Innovations &amp; Technologies</span>
+          </label>
+        </div>
+              <div class="checkbox search-box-advanced-checkbox">
+          <label>
+            <input
+                type="checkbox"
+                id="filter-spotlite"
+                value="spotlite"
+                checked            >
+            <span class="bold">Student Produced</span>
+          </label>
+        </div>
+    </div>
+      <div class="clearfix"></div>
+  </div>
+    <div class="clearfix"></div>
+</div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </article>
+            <article class="footer-contacts-article">
+                <div class="footer_contacts_wrapper">
+                    <ul class="footer-contact-list">
+                        <li class="official" style="color: #fff !important;">
+                            <span class="contact-label" style="color: #fff !important;">NASA Official:</span> Kristen Erickson
+                        </li>
+                        <li class="editor">
+                            <span class="contact-label" style="color: #fff !important;">Editor:</span>
+                            <a class="contact-link" id="contact_form_modal_link" href="#" data-form-url="https://nasaeclips.arc.nasa.gov/contact">Shannon Verstynen</a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </article>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="survey" style="display: none;">
+        <div class="panel">
+            <h3 style="margin:2px 0px" class="center">Please share your impact.</h3>
+            <div style="position: absolute;top: 5px;right: 5px;color: black;font-weight: bold;cursor: pointer;" onclick="hideSurvey()">X</div>
+            <div>
+                <input id="CSRF" type="hidden" name="eclips2_csrf_test_" value="e2a214c8a608ffa7363d192816d65fc9" />
+                <hr style="margin: 4px 0px;">
+                <h5 style="color: black !important;">Do you use Spanish content with your students?</h5>
+                <label for="first">Yes</label>
+                <input class="survey-ans" type="radio" name="use_spanish_content_with_students" value="yes">
+                <label for="first">No</label>
+                <input class="survey-ans" type="radio" name="use_spanish_content_with_students" value="No">
+            </div>
+            <div>
+                <hr style="margin: 4px 0px;">
+                <h5 style="color: black !important;">What types of resources are most valuable to you? (Please select all that apply)</h5>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="Lesson and activity guides" name="valuable_resources">
+                    <label>Lesson and activity guides</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="STEM content videos" name="valuable_resources">
+                    <label>STEM content videos</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="Student projects" name="valuable_resources">
+                    <label>Student projects</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="Video interviews with scientists and engineers" name="valuable_resources">
+                    <label>Video interviews with scientists and engineers</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="Spanish content" name="valuable_resources">
+                    <label>Spanish content</label>
+                </div>
+                <div>
+                    <input type="checkbox" class="survey-ans" value="STEM career resources" name="valuable_resources">
+                    <label>STEM career resources</label>
+                </div>
+                <div>
+                    <label>Other</label>
+                    <input class="survey-ans" type="text" value="" name="valuable_resources_other">
+                </div>
+            </div>
+            <div>
+                <hr style="margin: 4px 0px;">
+                <h5 style="color: black !important;">Help us understand more about your learners.</h5>
+                <p>
+                    Approximately <input type="number" style="max-width: 50px;" class="survey-ans" value="0" name="learner_percentage"> percent of my learners are from an underserved and/or under-represented population.
+                </p>
+            </div>
+            <div>
+                <button class="btn btn-block btn-primary" style="margin-top: 10px;" onclick="shareImpact()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="modal fade" id="menu-Modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close hidden" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <a class="menuModal-close" data-dismiss="modal" aria-label="Close" id="menuModal_close" title="Close Menu"><span aria-hidden="true">Close Menu</span></a>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer hidden">
+<!--                <button type="button" class="btn btn-default modal-close-btn" data-dismiss="modal">Close</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

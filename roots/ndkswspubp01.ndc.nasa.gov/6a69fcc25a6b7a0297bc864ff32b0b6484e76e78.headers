@@ -1,0 +1,12 @@
+GET https://ndkswspubp01.ndc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Wed, 30 Mar 2022 15:21:35 GMT
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Date: Tue, 19 Sep 2023 06:01:36 GMT
+< Etag: "2c-5db7119e5031d"
+< Content-Type: text/html
+< Server: Apache

@@ -1,0 +1,753 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+<!-- BEGIN META DATA SECTION -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<meta name="author" content="Human Systems Integration Division" />
+
+<meta name="description" content="The Human Systems Integration Division at NASA Ames Research Center, advances human-centered design and aerospace systems to make dramatic improvements in safety, efficiency and mission success." />
+
+<meta name="keywords" content="Human Systems, human, systems, factors, Code TH, NASA, Ames Research Center, Moffett Field, Human Factors Research and Technology Division, information, technology, ATC, IT, Human Information Processing, Human Automation Integration, System Safety, aviation, aerospace, cognition, memory, fatigue, vision, visual, spatial, short-term, display, sleep, cockpit, flight, performance, safety, psychology, perception, behavior, virtual, reality, environments, psychophysiology, air traffic, circadian rhythm, kinesthetic, haptic, 3-D, 3D, interaction, automation, simulation, integration, error, decision making, risk assessment, complex, systems, security, autogenic, feedback, training, AFT" />
+
+<meta name="robots" content="index, follow" />
+<!-- END META DATA SECTION -->
+
+<title>Human Systems Integration Division @ NASA Ames - Home</title>
+
+<!-- BEGIN HEADER SECTION -->
+<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+<link rel="stylesheet" href="/css/styles2.css" type="text/css" />
+<link rel="stylesheet" href="/css/core.css" type="text/css" />
+<link rel="stylesheet" href="/css/may-common.css" type="text/css" />
+<style type="text/css" media="screen">
+#contentArea { position: relative; }
+.rollover-swap { display: none; }
+.rollover-container:hover .rollover { display: none; }
+.rollover-container:hover .rollover-swap { display: inline; }
+</style>
+ 
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+<!--
+function MM_preloadImages() {
+	var d = document;
+	
+	if (d.images) {
+		if (!d.MM_p) d.MM_p = new Array();
+		
+		var i, j = d.MM_p.length;
+		var a = MM_preloadImages.arguments;
+
+		for (i = 0; i < a.length; i++) {
+			if (a[i].indexOf("#") != 0) {
+				d.MM_p[j] = new Image;
+				d.MM_p[j++].src = "/" + a[i];
+			}
+		}
+	}
+}
+
+function MM_swapImgRestore() {
+	var i, x;
+	var a = document.MM_sr;
+
+	for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++)
+		x.src = x.oSrc;
+}
+
+function MM_findObj(name, doc) {
+	var elm;
+
+	if (!doc) doc = document;
+
+	if (doc.getElementById)
+		elm = doc.getElementById(name);
+
+	if (!elm && doc.getElementByName)
+		elm = doc.getElementByName(name);
+
+	return elm;
+}
+
+function MM_swapImage() {
+	var i, j = 0, x;
+	var a = MM_swapImage.arguments;
+	
+	document.MM_sr = new Array;
+	
+	for (i = 0; i < (a.length - 2); i += 3) {
+		if ((x = MM_findObj(a[i])) != null) {
+			document.MM_sr[j++] = x;
+			
+			if (!x.oSrc) x.oSrc = x.src;
+			
+			x.src = a[i + 2];
+		}
+	}
+}
+
+function MM_showHideLayers() {
+	var i, p, v, obj;
+	var args = MM_showHideLayers.arguments;
+
+	for (i = 0; i < (args.length - 2); i += 3) {
+		if ((obj = MM_findObj(args[i])) != null) {
+			v = args[i + 2];
+			
+			if (obj.style) {
+				obj = obj.style;
+				v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v;
+			}
+
+			obj.visibility = v;
+		}
+	}
+}
+
+function MM_openBrWindow(theURL, winName, features) {
+	window.open(theURL, winName, features);
+}
+
+function MM_openNewWindow(winURL, winName, winFeatures) {
+	var _features = [ ];
+	
+	if (!('height' in winFeatures)) winFeatures.height = 300;
+	if (!('width' in winFeatures)) winFeatures.width = 400;
+
+	if ('pos' in winFeatures) {
+		if (winFeatures.pos == 'center') {
+			if (!('left' in winFeatures))
+				winFeatures.left = (screen.width - winFeatures.width)/2;
+			if (!('top' in winFeatures))
+				winFeatures.top = (screen.height - winFeatures.height)/2;
+		}
+
+		delete winFeatures.pos;
+	}
+
+	if ('offset_x' in winFeatures && 'left' in winFeatures) {
+		winFeatures.left += winFeatures.offset_x;
+		delete winFeatures.offset_x;
+	}
+
+	if ('offset_y' in winFeatures && 'top' in winFeatures) {
+		winFeatures.top += winFeatures.offset_y;
+		delete winFeatures.offset_y;
+	}
+	
+	for (var _key in winFeatures)
+		_features.push(_key + "=" + winFeatures[_key]);
+	
+	window.open(winURL, winName, _features.join(','));
+}
+
+if (top.frames.length != 0)
+	top.location = self.document.location;
+
+//-->
+//]]>
+</script>
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&dclink=true"></script>
+<!-- END HEADER SECTION -->
+	</head>
+	<bodyMM_preloadImages('images/button_go.gif','images/header-wide.gif','images/hsi_division_bannerlogo.gif','images/main_graphic_3.jpg','images/main_graphic_5.jpg','images/main_graphic_6.jpg','images/nav/nav_contact_off.gif','images/nav/nav_contact_on.gif','images/nav/nav_home_off.gif','images/nav/nav_home_on.gif','images/nav/nav_org_off.gif','images/nav/nav_org_on.gif','images/nav/nav_outreachpubs_off.gif','images/nav/nav_outreachpubs_on.gif','images/nav/nav_techareas_off.gif','images/nav/nav_techareas_on.gif','images/nav/subnav_awards_off.gif','images/nav/subnav_awards_on.gif','images/nav/subnav_contractors_off.gif','images/nav/subnav_contractors_on.gif','images/nav/subnav_events_off.gif','images/nav/subnav_factsheets_off.gif','images/nav/subnav_factsheets_on.gif','images/nav/subnav_hf101_off.gif','images/nav/subnav_hf101_on.gif','images/nav/subnav_hffaq_off.gif','images/nav/subnav_hffaq_on.gif','images/nav/subnav_history_off.gif','images/nav/subnav_history_on.gif','images/nav/subnav_media_off.gif','images/nav/subnav_media_on.gif','images/nav/subnav_news_off.gif','images/nav/subnav_news_on.gif','images/nav/subnav_org_off.gif','images/nav/subnav_org_on.gif','images/nav/subnav_orgchart_off.gif','images/nav/subnav_orgchart_on.gif','images/nav/subnav_outpubs_off.gif','images/nav/subnav_outpubs_on.gif','images/nav/subnav_partners_off.gif','images/nav/subnav_partners_on.gif','images/nav/subnav_patents_off.gif','images/nav/subnav_patents_on.gif','images/nav/subnav_personnel_off.gif','images/nav/subnav_personnel_on.gif','images/nav/subnav_projects_off.gif','images/nav/subnav_projects_on.gif','images/nav/subnav_pubs_off.gif','images/nav/subnav_pubs_on.gif','images/nav/subnav_techareas_off.gif','images/nav/subnav_techareas_on.gif','images/whatishsi_thumb.jpg')>
+		<noscript>
+		<center>
+			<font size="3" color="red">The nasa.gov site requires that JavaScripts be enabled in your browser. For instructions, <a target="_blank" href="#" class="navLnkRed">click here</a></font>
+		</center>
+		</noscript>
+		<script>function collapse(themenu){
+	var tehmenu = document.getElementById(themenu);
+	
+	if(tehmenu.style.display == "block"){
+		tehmenu.style.display = "none";
+	} else {
+		tehmenu.style.display = "block";
+	}
+}</script>
+		<!-- HIGH BANDWIDTH STARTS -->
+<!-- BEGIN MENUS SECTION -->
+		<!-- ORGANIZATION MENU -->
+		<div id="organization_menu" style="position:absolute; left:174px; top:126px; width:209px; height:145px; z-index:1; visibility:hidden;">
+<table width="209" border="0" cellpadding="0" cellspacing="0" summary="" role='presentation'>
+	<tr>
+		<td rowspan="6" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="156" border="0" /></a></td>
+		<td><a class="rollover-container" href="/organization/missiongoals.php"><img class="rollover" src="/images/nav/subnav_org_on.gif" alt="Missions and Goals" /><img class="rollover-swap" src="/images/nav/subnav_org_off.gif" alt="Missions and Goals" /></a></td>
+		<td rowspan="6" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="156" border="0" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/organization/orgcharts.php"><img class="rollover" src="/images/nav/subnav_orgchart_on.gif" alt="Organization Charts" /><img class="rollover-swap" src="/images/nav/subnav_orgchart_off.gif" alt="Organization Charts" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/organization/personnel.php"><img class="rollover" src="/images/nav/subnav_personnel_on.gif" alt="Personnel" /><img class="rollover-swap" src="/images/nav/subnav_personnel_off.gif" alt="Personnel" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/organization/contractors.php"><img class="rollover" src="/images/nav/subnav_contractors_on.gif" alt="Contract Organizations" /><img class="rollover-swap" src="/images/nav/subnav_contractors_off.gif" alt="Contract Organizations" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/organization/careers.php"><img class="rollover" src="/images/nav/subnav_careers_on.gif" alt="Careers" /><img class="rollover-swap" src="/images/nav/subnav_careers_off.gif" alt="Careers" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/organization/history.php"><img class="rollover" src="/images/nav/subnav_history_on.gif" alt="History" /><img class="rollover-swap" src="/images/nav/subnav_history_off.gif" alt="History" /></a></td>
+
+	</tr>
+
+	<tr>
+		<td colspan="3"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="179" height="15" border="0" /></a></td>
+	</tr>
+</table>
+		</div>
+
+		<!-- TECHNICAL WORK MENU -->
+		<div id="techareas_menu" style="position:absolute; left:320px; top:126px; width:209px; height:70px; z-index:1; visibility:hidden;">
+<table width="209" border="0" cellpadding="0" cellspacing="0" summary="" role='presentation'>
+	<tr>
+		<td rowspan="5" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="130" border="0" /></a></td>
+		<td><a class="rollover-container" href="/techareas/tech_areas.php"><img class="rollover" src="/images/nav/subnav_techareas_on.gif" alt="Technical Areas" /><img class="rollover-swap" src="/images/nav/subnav_techareas_off.gif" alt="Technical Areas" /></a></td>
+		<td rowspan="5" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="130" border="0" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/techareas/tech_faq.php"><img class="rollover" src="/images/nav/subnav_hffaq_on.gif" alt="Human Factors FAQ" /><img class="rollover-swap" src="/images/nav/subnav_hffaq_off.gif" alt="Human Factors FAQ" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/techareas/funding.php"><img class="rollover" src="/images/nav/subnav_projects_on.gif" alt="Funding Sources" /><img class="rollover-swap" src="/images/nav/subnav_projects_off.gif" alt="Funding Sources" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/techareas/partners.php"><img class="rollover" src="/images/nav/subnav_partners_on.gif" alt="External Partners" /><img class="rollover-swap" src="/images/nav/subnav_partners_off.gif" alt="External Partners" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/techareas/patents.php"><img class="rollover" src="/images/nav/subnav_patents_on.gif" alt="Patents" /><img class="rollover-swap" src="/images/nav/subnav_patents_off.gif" alt="Patents" /></a></td>
+
+	</tr>
+
+	<tr>
+		<td colspan="3"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="179" height="15" border="0" /></a></td>
+	</tr>
+</table>
+		</div>
+		
+		<!-- OUTREACH/PUBLICATIONS MENU -->
+		<div id="outpubs_menu" style="position:absolute; left:466px; top:126px; width:209px; height:197px; z-index:1; visibility:hidden;">
+<table width="209" border="0" cellpadding="0" cellspacing="0" summary="" role='presentation'>
+	<tr>
+		<td rowspan="7" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="182" border="0" /></a></td>
+		<td><a class="rollover-container" href="/awards_pubs/outreachpubs.php"><img class="rollover" src="/images/nav/subnav_outpubs_on.gif" alt="Outreach and Publications Page" /><img class="rollover-swap" src="/images/nav/subnav_outpubs_off.gif" alt="Outreach and Publications Page" /></a></td>
+		<td rowspan="7" valign="top"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="15" height="182" border="0" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/awards.php"><img class="rollover" src="/images/nav/subnav_awards_on.gif" alt="Awards Page" /><img class="rollover-swap" src="/images/nav/subnav_awards_off.gif" alt="Awards Page" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/news.php"><img class="rollover" src="/images/nav/subnav_news_on.gif" alt="News Page" /><img class="rollover-swap" src="/images/nav/subnav_news_off.gif" alt="News Page" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/publications.php"><img class="rollover" src="/images/nav/subnav_pubs_on.gif" alt="Publications Page" /><img class="rollover-swap" src="/images/nav/subnav_pubs_off.gif" alt="Publications Page" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/factsheets.php"><img class="rollover" src="/images/nav/subnav_factsheets_on.gif" alt="Factsheets Page" /><img class="rollover-swap" src="/images/nav/subnav_factsheets_off.gif" alt="Factsheets Page" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/media.php"><img class="rollover" src="/images/nav/subnav_media_on.gif" alt="Media Page" /><img class="rollover-swap" src="/images/nav/subnav_media_off.gif" alt="Media Page" /></a></td>
+
+	</tr>
+	<tr>
+		<td><a class="rollover-container" href="/awards_pubs/hf101.php"><img class="rollover" src="/images/nav/subnav_hf101_on.gif" alt="Human-Factors 101 Page" /><img class="rollover-swap" src="/images/nav/subnav_hf101_off.gif" alt="Human-Factors 101 Page" /></a></td>
+
+	</tr>
+
+	<tr>
+		<td colspan="3"><a href="javascript:;" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/spacer.gif" alt="" width="179" height="15" border="0" /></a></td>
+	</tr>
+</table>
+		</div>
+<!-- END MENUS SECTION -->
+	
+		<table class="tablespacing" width="748" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" summary="">
+			<tr>
+				<td colspan="3" height="10" bgcolor="#000000"><img border="0" alt="" height="10" width="1" src="/images/spacer.gif" /></td>
+			</tr>
+	
+			<tr>
+				<td colspan="3" height="10"><img border="0" alt="" height="10" width="1" src="/images/spacer.gif" /></td>
+			</tr>
+	
+			<tr>
+				<td rowspan="4" width="10"><img border="0" alt="" height="1" width="9" src="/images/spacer.gif" /></td>
+	
+				<td>
+<!-- BEGIN TOP BANNER SECTION -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCCCCC" summary="" role='presentation'>
+		<tr class="headerInfo">
+			<td width="340" valign="middle" class="headerdivider"><a href="http://www.nasa.gov/"><img src="/images/header-wide.gif" alt="Go to the NASA Homepage" width="288" height="51" border="0" /></a></td>
+
+			<td width="110" valign="middle" class="headerdivider">
+				<div class="slot">
+					<span>+ </span><a href="http://www.nasa.gov/" target="_blank">NASA Home</a>
+				</div>
+
+				<div class="slot">
+					<span>+ </span><a href="http://www.nasa.gov/centers/ames/home/index.html" target="_blank">Ames Home</a>
+				</div>
+
+				<div class="slot">
+					&nbsp;
+				</div>
+			</td>
+
+			<td width="110" valign="middle">
+				<div class="slot">
+					<span>+ </span><a href="/contact/contact.php">Contact Us</a>
+				</div>
+
+				<div class="slot">
+					<span>+ </span><a href="/organization/personnel.php">Staff Directory</a>
+				</div>
+
+				<div class="slot">
+					<span>+ </span><a href="/sitemap.php">Sitemap</a>
+				</div>
+			</td>
+
+			<td width="170" align="center" valign="middle" bgcolor="#006699">
+				<div style="display:inline-block; text-align:left;">
+					<table width="100%" border="0" cellspacing="0" cellpadding="1" summary="" role='presentation'>
+						<tr>
+							<td colspan="2" class="bannerLnk">Search &gt;</td>
+						</tr>
+
+						<tr>
+							<td>
+								<form style="display:inline;" name="site_search_form" method="post" action="/cgi-bin/seek_hsi.cgi" id="site_search_form">
+									<input style="width:100px; margin-right:3px;" type="text" name="phrase" title="Type search term here" class="input-box" />
+								</form>
+							</td>
+
+							<td><a href="#" onmousedown="document.site_search_form.submit();" onkeydown="document.site_search_form.submit();"><img src="/images/button_go.gif" alt="Click to Search" name="Search_button" border="0" id="Search_button" /></a></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+<!-- END TOP BANNER SECTION -->
+<!-- BEGIN TOP NAVIGATION BAR SECTION -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role='presentation'>
+   <tr>
+      <td colspan="5"><img src="/images/spacer.gif" alt="" width="1" height="5" border="0" /></td>
+   </tr>
+   <tr>
+<td width="130">
+         <a class="rollover-container" href="/index.php" onmouseover="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');" onfocus="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');"><img class="rollover" src="/images/nav/nav_home_off.gif" alt="Human Systems Integration Division homepage" width="130" height="25" border="0" /><img class="rollover-swap" src="/images/nav/nav_home_on.gif"  alt="Human Systems Integration Division homepage" width="130" height="25" border="0" /></a>
+      </td>
+      <td width="146">
+         <a class="rollover-container" href="/organization/missiongoals.php" onmouseover="MM_showHideLayers('organization_menu', '', 'show', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');" onfocus="MM_showHideLayers('organization_menu', '', 'show', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');"><img class="rollover" src="/images/nav/nav_org_off.gif" alt="Organization page" width="146" height="25" border="0" /><img class="rollover-swap" src="/images/nav/nav_org_on.gif"  alt="Organization page" width="146" height="25" border="0" /></a>
+      </td>
+      <td width="146">
+         <a class="rollover-container" href="/techareas/tech_areas.php" onmouseover="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'show', 'outpubs_menu', '', 'hide');" onfocus="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'show', 'outpubs_menu', '', 'hide');"><img class="rollover" src="/images/nav/nav_techareas_off.gif" alt="Technical Areas page" width="146" height="25" border="0" /><img class="rollover-swap" src="/images/nav/nav_techareas_on.gif"  alt="Technical Areas page" width="146" height="25" border="0" /></a>
+      </td>
+      <td width="162">
+         <a class="rollover-container" href="/awards_pubs/outreachpubs.php" onmouseover="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'show');" onfocus="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'show');"><img class="rollover" src="/images/nav/nav_outreachpubs_off.gif" alt="Outreach and Publications page" width="162" height="25" border="0" /><img class="rollover-swap" src="/images/nav/nav_outreachpubs_on.gif"  alt="Outreach and Publications page" width="162" height="25" border="0" /></a>
+      </td>
+      <td width="146">
+         <a class="rollover-container" href="/contact/contact.php" onmouseover="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');" onfocus="MM_showHideLayers('organization_menu', '', 'hide', 'techareas_menu', '', 'hide', 'outpubs_menu', '', 'hide');"><img class="rollover" src="/images/nav/nav_contact_off.gif" alt="Contact page" width="146" height="25" border="0" /><img class="rollover-swap" src="/images/nav/nav_contact_on.gif"  alt="Contact page" width="146" height="25" border="0" /></a>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="5"><img src="/images/spacer.gif" alt="" width="1" height="5" border="0" /></td>
+   </tr>
+</table>
+
+<!-- END TOP NAVIGATION BAR SECTION -->
+				</td>
+	
+				<td rowspan="4" width="10"><img border="0" alt="" height="1" width="9" src="/images/spacer.gif" /></td>
+			</tr>
+	
+			<tr>
+				<td>
+					<!-- CONTENT AREA START -->
+					<!-- Skip navigation link -->
+					<a name="site" id="site"></a>
+				  <table width="100%" border="0" cellpadding="0" cellspacing="0" summary="">
+					  <tr>
+						  <td valign="top" width="179">
+							  <!-- Left Nav Bar starts -->
+	
+							  <table width="179" border="0" cellpadding="0" cellspacing="0" summary="">
+								  <!-- BEGIN SECTION HEADING ================================= BEGIN SECTION HEADING -->
+	
+								  <tr>
+									  <td valign="top">
+										  <!-- open navbar table 2 -->
+	
+										  <table width="100%" border="0" cellpadding="0" cellspacing="0" summary="">
+											  <tr>
+												  <td valign="top">
+<!-- BEGIN LEFT-SIDE GRAPHIC SECTION -->
+<a href="/index.php" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/hsi_division_bannerlogo.gif" alt="Human Systems Integration Division Homepage" width="179" height="123" border="0" /></a>
+<!-- END LEFT-SIDE GRAPHIC SECTION -->
+												  </td>
+											  </tr>
+										  </table>
+										  <!-- close navbar table 2 -->
+									  </td>
+								  </tr>
+								  <!-- END SECTION HEADING ===================================== END SECTION HEADING -->
+								  <!-- close navbar table 1 -->
+							  </table>
+							  <!-- Left Nav Bar ends -->
+<!-- BEGIN SIDEBAR SECTION -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+    <tr>
+      <td><img src="/images/spacer.gif" alt="" width="1" height="10" border="0" /></td>
+    </tr>
+    <tr>
+      <td><img src="/images/dividers/mission_side_divider.gif" alt="Mission Statement Header" width="179" height="15" border="0" /></td>
+    </tr>
+    <tr>
+      <td><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /></td>
+    </tr>
+    <tr>
+      <td><span>The <span class="boldBlack">Human Systems Integration Division</span> enables the development of complex aerospace systems through analysis and modeling of human performance and human-automation interactions to make dramatic improvements in safety, efficiency, and mission success.<br><br></span></td>
+    </tr>
+	 <tr>
+                 <td colspan="2"><img src="/images/dividers/annualreport_divider.gif" width="173" height="15" alt="Annual Report Header" /></td>
+               </tr>
+               <tr>
+                 <td colspan="2"><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /></td>
+               </tr>
+               <tr>
+                 <td colspan="2"> <a href="/factsheets/th_brochure_2019_web.pdf" target="_blank"><img src="/images/th_trifold_thumb.jpg" alt="Click to download the NASA Human Systems Integration Division Annual Report PDF" width="173" height="224" border="0" /></a><br />(<a href="/factsheets/TH_Brochure_2019.pdf" target="_blank"><img src="/images/pdf_small.gif" alt="Click to download the NASA Human Systems Integration Division Annual Report PDF" width="16" height="16" border="0" /> Download PDF</a>, 42.7 MB) <a href="http://get.adobe.com/reader/" target="_blank">(Download Acrobat Reader <img src="/images/download_arrow.jpg" alt="Click to download Adobe Acrobat Reader" width="14" height="14" border="0" /></a>)</font></td>
+               </tr>
+  </table>
+<!-- END SIDEBAR SECTION -->
+						  </td>
+	
+						  <td width="5"><img border="0" alt="" height="1" width="5" src="/images/spacer.gif" /></td>
+	
+						  <td valign="top">
+							  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+								  <tr>
+									  <td>
+<!-- BEGIN SITE GRAPHIC SECTION -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role='presentation'>
+		<tr>
+			<td width="363">
+				<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+<!--
+images = new Array(3);
+
+images[0] = "<img src='/images/main_graphic_7.jpg' alt='Human Systems Integration Research Image Collage - NASA Air Traffic Management, Taxiway Navigation'>";
+images[1] = "<img src='/images/main_graphic_8.jpg' alt='Human Systems Integration Research Image Collage - Human Machine Interaction, Playbook, Mission Assurance Systems (MAS)'>";
+images[2] = "<img src='/images/main_graphic_9.jpg' alt='Human Systems Integration Research Image Collage - Human Vibration Research, Visuomotor Control, Vision Research'>";
+
+index = Math.floor(Math.random() * images.length);
+
+document.write(images[index]);
+//-->
+//]]>
+				</script>
+			</td>
+
+			<td width="5"><img src="/images/spacer.gif" alt="" width="5" height="1" border="0" /></td>
+
+			<td width="164"><a href="/awards_pubs/hf101.php" onmouseover="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')" onfocus="MM_showHideLayers('organization_menu','','hide','techareas_menu','','hide','outpubs_menu','','hide')"><img src="/images/whatishsi_thumb.jpg" alt="What is Human System Integration? Website" width="178" height="123" border="0" /></a></td>
+		</tr>
+	</table>
+<!-- END SITE GRAPHIC SECTION -->
+									  </td>
+								  </tr>
+	
+								  <tr>
+									  <td><img src="/images/spacer.gif" alt="" width="1" height="10" border="0" /></td>
+								  </tr>
+							  </table>
+<!-- BEGIN CONTENT SECTION -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+      <tr>
+         <td width="362" valign="top">
+            <div class="headerLarge">
+               <img src="/images/dividers/news_divider_long.gif" alt="News Header" width="358" height="15" border="0" />
+            </div><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /> 
+            
+<!-- BEGIN NEWS LIST -->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=195'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">Sep 11, 2023</div>
+					NASA Psychomotor Vigilance Test (PVT) Integrated into International Space Station Systems by European Space Agency (ESA).					<a href="/awards_pubs/news_view.php?news_id=195"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=194'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">May 26, 2023</div>
+					Cassie Hilditch receives the 2023 William E. Collins Award for her paper on pilot fatigue during COVID-19					<a href="/awards_pubs/news_view.php?news_id=194"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=193'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">May 17, 2023</div>
+					NASA’s Dr. Erin Flynn-Evans Interviewed by CNN to Discuss the Sleep Challenges Faced by Astronauts on a Mission to Mars					<a href="/awards_pubs/news_view.php?news_id=193"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=192'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">Apr 21, 2023</div>
+					NASA's UASP-kit Showcased During Executive Roundtable Discussions and Demonstrations for Wildfire Management					<a href="/awards_pubs/news_view.php?news_id=192"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=191'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">Apr 14, 2023</div>
+					NASA Ames and Langley Research Centers Conduct Cross-Center High Density Vertiplex (HDV) Research Simulation					<a href="/awards_pubs/news_view.php?news_id=191"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=190'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">Mar 21, 2023</div>
+					Joey Mercer wins the 2022 Aeronautics Research Mission Directorate (ARMD) Associate Administrator (AA) Award for Strategic Partnerships					<a href="/awards_pubs/news_view.php?news_id=190"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<img src="/images/spacer.gif" alt="" width="1" height="10" />
+				</td>
+			</tr>
+			<tr>
+				<td width="98">
+					<div style="width:90px; height:75px; background:url('/display.news_icon.php?news_id=189'); background-size:90px auto; background-repeat:no-repeat;"></div>
+				</td>
+				<td valign="top">
+					<div class="newshighlight">Mar 14, 2023</div>
+					Vernol Battiste receives the Dean-Greene S.T.E.M Award and is inducted into the Black Legends Hall of Fame Silicon Valley					<a href="/awards_pubs/news_view.php?news_id=189"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+				</td>
+			</tr>
+		</table>
+
+<!-- END NEWS LIST --> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+               <tr>
+                  <td align="right"><a style="padding-right:8px;" href="/awards_pubs/news.php">&gt; news archive</a></td>
+               </tr>
+            </table>
+            <br /></td>
+         <td width="5"><img src="/images/spacer.gif" alt="" width="5" height="1" border="0" /></td>
+	<td width="179" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+               <tr>
+                  <td class="headerLarge"><img src="/images/dividers/events_divider_small.gif" alt="Division Events Header" width="173" height="15" border="0" /></td>
+               </tr>
+               <tr>
+                  <td><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /></td>
+               </tr>
+            </table>
+<!-- BEGIN EVENTS LIST -->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+			<tr>
+				<td>
+					<div class="newshighlight">
+						Oct 1, 2023  - Oct 5, 2023 					</div>
+					Digital Avionics Systems Conference 2023 (DASC)					<a href="/event_view.php?event_id=447"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+					<br /><br />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="newshighlight">
+						Oct 23, 2023  - Oct 27, 2023 					</div>
+					67th Annual Human Factors and Ergonomics Society (HFES) Meeting					<a href="/event_view.php?event_id=448"><img src="/images/read_more.jpg" alt="Click to Read More" width="38" height="8" border="0" /></a>
+					<br /><br />
+				</td>
+			</tr>
+		</table>
+<!-- END EVENTS LIST -->
+            <div style="height:5px;"></div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+               <tr>
+                  <td colspan="2" class="headerLarge"><img src="/images/dividers/divchief_divider_small.gif" alt="Division Chief Header" width="173" height="15" border="0" /></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /></td>
+               </tr>
+               <tr>
+                  <td width="90"><a href="/organization/personnel_view.php?personnel_id=58"><img src="/images/Jessica_Nowinski_thumb.jpg" alt="Thumbnail image of NASA Human Systems Integration Acting Division Chief, Dr. Jessica Nowinski" width="82" height="96" border="0" /></a></td>
+         <td width="89" valign="top">
+                     <div align="left">
+                        <div class="bold">
+                           <a href="/organization/personnel_view.php?personnel_id=58">Dr. Jessica Nowinski</a><br />
+                          Acting Division Chief</div>
+                     </div>
+                  </td>
+               </tr>
+            </table>
+            <div style="height:15px;"></div> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" role="presentation">
+               <tr>
+                 <td colspan="2">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td colspan="2" class="headerLarge"><img src="/images/dividers/humfact101_divider_small.gif" alt="Human Factors 101 Header Image" width="173" height="15" border="0" /></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><img src="/images/spacer.gif" alt="" width="1" height="8" border="0" /></td>
+               </tr>
+               <tr>
+                  <td width="90"><a href="/awards_pubs/hf101.php"><img src="/images/human_factors_101icon.jpg" alt="Click to visit Human Factors 101" width="82" height="75" border="0" /></a></td>
+                  <td width="89" valign="top">
+                    <div align="left">
+                        <div class="bold">
+                           What is Human Factors?<a href="/awards_pubs/hf101.php"><img src="/images/read_more.jpg" alt="Click to visit Human Factors 101" width="38" height="8" border="0" /></a>
+                        </div>
+                     </div>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+   </table>
+<!-- END CONTENT SECTION -->
+						  </td>
+					  </tr>
+				  </table>
+			    </td>
+			</tr>
+	
+			<tr>
+				<td><img src="/images/spacer.gif" alt="" width="1" height="30" border="0" /></td>
+			</tr>
+	
+			<tr>
+				<td>
+<!-- BEGIN FOOTER SECTION -->
+   <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC" summary="" role="presentation">
+      <tr>
+         <td colspan="4"><img src="/images/spacer.gif" width="1" height="4" alt="" border="0" /></td>
+      </tr>
+
+      <tr>
+         <td width="140" valign="top">
+            <div>
+               <a href="http://www.firstgov.gov" target="_blank"><img src="/images/logo_first_gov.gif" alt="Go to the First Gov Homepage" border="0" /></a>
+            </div>
+         </td>
+
+         <td width="330" valign="top">
+            <div class="footerInfo">
+               <div>
+                  <span>+ </span><a href="https://www.nasa.gov/about/index.html" target="_blank">About NASA</a>
+               </div>
+
+               <div>
+                  <span>+ </span><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">NASA Privacy and Section 508 Statement</a>
+               </div>
+
+               <div>
+                  <span>+ </span><a href="http://www.hq.nasa.gov/office/pao/FOIA/" target="_blank">Freedom of Information Act</a>
+               </div>
+            </div>
+         </td>
+
+         <td width="60" valign="top">
+            <div style="margin-top:0;">
+               <a href="http://www.nasa.gov"><img src="/images/logo_nasa.gif" alt="Go to the NASA - National Aeronautics and Space Administration Homepage" border="0" /></a>
+            </div>
+         </td>
+
+         <td align="center" valign="top">
+            <div class="footerInfo">
+               <div>
+                  Curator: <a href="mailto:phil.w.so@nasa.gov">Phil So</a>
+               </div>
+
+               <div>
+                  NASA Official: <a href="mailto:Jessica.L.Nowinski@nasa.gov">Jessica Nowinski</a>
+               </div>
+
+               <div>
+                  Last Updated: September 11, 2023
+               </div>
+
+            </div>
+         </td>
+      </tr>
+
+      <tr>
+         <td colspan="4"><img src="/images/spacer.gif" width="1" height="8" alt="" border="0" /></td>
+      </tr>
+   </table>
+<!-- END FOOTER SECTION -->
+				</td>
+			</tr>
+	
+			<tr>
+				<td colspan="3" height="10"><img border="0" alt="" height="10" width="1" src="/images/spacer.gif" /></td>
+			</tr>
+	
+			<tr>
+				<td colspan="3" height="10" bgcolor="#000000"><img border="0" alt="" height="10" width="1" src="/images/spacer.gif" /></td>
+			</tr>
+		</table>
+	</body>
+   </html>

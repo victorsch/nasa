@@ -1,0 +1,8 @@
+GET http://tdglobal.ksc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Connection: close
+< Content-Length: 0
+< Location: https://tdglobal.ksc.nasa.gov/
+< Server: BigIP

@@ -1,0 +1,10 @@
+GET https://ecc.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< Set-Cookie: ring-session=439a13a7-605d-4642-9171-dfbe2c99cad4;Path=/;HttpOnly
+< Server: Jetty(9.4.51.v20230217)
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:41:08 GMT
+< Render-Time: 573 ms

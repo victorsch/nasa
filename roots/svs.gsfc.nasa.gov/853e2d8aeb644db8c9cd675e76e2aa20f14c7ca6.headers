@@ -1,0 +1,13 @@
+GET https://svs.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:43:46 GMT
+< X-Frame-Options: DENY
+< Etag: "651385a5c14d7ed5dab5dabb18a8a588"
+< Content-Security-Policy: default-src 'self'; script-src 'self' blob: data: 'unsafe-inline' 'wasm-unsafe-eval' https://dap.digitalgov.gov https://cdn.jsdelivr.net https://api.observablehq.com https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js https://www.googletagmanager.com https://www.google-analytics.com/analytics.js https://www.youtube.com/iframe_api; img-src 'self' blob: data: https://nasa.gov https://p1.parsely.com; media-src 'self' https://nasa.gov https://www.youtube.com; connect-src 'self' blob: https://cdn.jsdelivr.net https://static.observableusercontent.com https://www.airnowapi.org https://p1.parsely.com https://www.google-analytics.com https://api.weather.gov; child-src 'self' https://web.wwtassets.org https://eyes.nasa.gov https://nasa.gov https://www.youtube.com https://player.vimeo.com https://calendar.google.com; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; object-src 'self'; worker-src 'self' blob:;
+< Content-Language: en
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Content-Length: 91480
+< Content-Type: text/html; charset=utf-8

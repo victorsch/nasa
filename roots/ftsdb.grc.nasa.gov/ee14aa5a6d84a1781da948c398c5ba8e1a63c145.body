@@ -1,0 +1,177 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        
+    Flight Test Safety Database
+
+    </title>
+    <link type="text/css" rel="stylesheet" href="/Content/jPicker-1.1.5.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="/Content/Ftsdb.css" />
+
+    <script type="text/javascript">
+        if (top != self) top.location = self.location;
+    </script>
+    <!--[if lt IE 8]><link type="text/css" rel="stylesheet" href="/Content/ie.css" />
+<![endif]-->
+    <!--[if IE 6]><link type="text/css" rel="stylesheet" href="/Content/ie6.css" />
+<![endif]-->
+    <!--[if IE 8]><link type="text/css" rel="stylesheet" href="/Content/ie8.css" />
+<![endif]-->
+    <link type="text/css" rel="stylesheet" href="/Content/themes/base/jquery-ui.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="/Content/overrides.css" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+
+    <script type="text/javascript" src="/Content/Scripts/jquery-3.5.1.min.js" ></script>
+
+    <script type="text/javascript" src="/Content/Scripts/jquery-ui-1.12.1.min.js" ></script>
+
+    
+
+            
+</head>
+<body>
+        <div id="Header">
+            <h1>
+                <a href="/"><img src="/Content/Images/FtsdbHeader.gif" id="FTSDBBanner" alt="Flight Test Safety Database" /></a></h1>
+            
+
+            
+            <span id="SecondaryNavigation" class="ui-corner-tl">
+            <span id="menuTab">
+                <a href="/" id="homeLink">Home</a></span>
+            | <a href="/Home/Contact" id="contactLink">Contact</a>
+            |
+            
+            <span id="accountLink">Account</span>
+            
+            </span>
+        </div>
+    <div id="Content">
+        <div id="CommonActionPanel">
+            <div id="loginPanel">
+                
+                <a href="/Account/Login" id="loginLink">Login</a> | <a href="/Account/Register" id="RegisterLink">Register</a>
+                
+            </div>
+            <div id="searchPanel">
+                <form action="/Search" method="get"><input name="__RequestVerificationToken" type="hidden" value="a4qqQrHLW8lmkajYM4UMs4QEA9KgiTOKJ2pzitDH9pGg4zq_EwXjsiYxADVc2bjyCcjfCHkC48O1YNnTUwnAL4rIQdz_QnN4OJkUJ4aZmnicCwr6h3wPILgnfWZpWv9JXTi2eA2" />
+                <label for="searchEntryTextbox" class="NonForm">Search Database:</label>
+                    <input id="searchEntryTextbox" name="q" type="text" /><input type="image" alt="Go" src="/Content/Images/Go_Button.gif" id="searchEntryGoButton" />
+                </form>
+            </div>
+        </div>
+          <div id="PrimaryNavigation">
+            <a href="/TestHazardAnalysis" title="Test Hazard Analysis"><span id="thaButton" class="MenuButton">
+                <img src="/Content/Images/THA_Icon.gif" class="MenuIcon" alt="" /><span
+                    class="MenuText" id="thaButtonText">THA</span></span></a> 
+            <a href="/ApplicationData" title="Application Data">
+                        <span id="applicationDataButton" class="MenuButton">
+                            <img src="/Content/Images/AppData_Icon.gif" class="MenuIcon" alt="" /><span
+                                id="applicationDataButtonText" class="MenuText">Application Data</span></span></a>
+            <a href="/CenterOfTestExpertise" title="Centers of Test Expertise"><span id="centersOfTestExcellenceButton"
+                class="MenuButton">
+                <img src="/Content/Images/CoTE_Icon.gif" class="MenuIcon" alt="" /><span
+                    id="centersOfTestExpertiseButtonText" class="MenuText">Centers of Test Expertise</span></span></a>
+            <a href="/ReferenceData" title="Reference Data"><span id="referenceDataButton"
+                class="MenuButton">
+                <img src="/Content/Images/RefData_Icon.gif" class="MenuIcon" alt="" /><span
+                    id="referenceDataButtonText" class="MenuText">Reference Data</span></span></a>
+            
+            
+        </div>
+       <div id="Main" class="ui-corner-tl">
+            <p id="SiteMap"><span class="link">Home</span></p>
+            
+    <div id="indexPage">
+        <h2>Welcome</h2>
+        
+        <p id="indexIntroStatement">        
+            <map id="Wheel" name="Wheel">
+                <area shape="circle" coords="134,133,45" href="/TestHazardAnalysis" alt="THA" title="Test Hazard Analysis" />
+                <area shape="poly" coords="135,88,135,24,150,26,169,31,188,40,203,50,216,64,229,83,237,105,241,126,241,142,239,159,235,170,229,182,228,187,173,155,176,147,178,138,179,131,176,122,175,116,172,110,168,104,164,100,160,96,154,93,150,90,145,89,142,89," href="/ApplicationData" alt="Application Data" title="Application Data" />
+                <area shape="poly" coords="132,88,132,24,123,24,115,26,104,29,94,32,86,36,77,40,70,45,61,51,54,58,48,67,41,76,35,87,30,98,27,108,25,121,24,136,25,149,28,161,32,171,35,182,42,182,92,154,91,150,88,143,87,134,88,127,90,119,93,113,96,105,103,99,110,94,117,90,125,88," href="/ReferenceData" alt="Reference Data" title="Reference Data" />
+                <area shape="poly" coords="171,158,226,189,220,197,214,204,208,211,201,218,193,224,184,229,174,234,163,238,152,240,141,242,128,242,118,241,107,239,97,236,88,232,80,228,72,223,67,219,61,215,56,210,51,206,48,201,45,197,41,189,95,158,101,166,111,173,122,176,134,178,144,176,155,173,162,166," href="/CenterOfTestExpertise" alt="Centers of Test Expertise" title="Centers of Test Expertise" />
+            </map>
+            <img src="/Content/Images/THA_Wheel.jpg" alt="Data Item Image" usemap="#Wheel" />For years the international Flight Test community has had a need for easy access to flight test maneuver descriptions, test hazards and hazard mitigation techniques.
+        </p>
+        <p id="indexWelcomeText">
+            This database is a step in that direction and builds on similar efforts by the Flight Test Safety Committee, The Society of Experimental Test Pilots, The Society of Flight Test Engineers and other professional organizations.  Our object is to identify and document hazards and mitigations associated with flight testing and provide a compilation of the flight test industry's corporate knowledge regarding flight test safety risk assessment.  Where applicable, the database cross-references FAR guidance from Parts 23, 25 and other flight-test related sections.  It also discusses typical industry risk levels assigned to specific types of tests.  All data has been reviewed by at least 2 persons with extensive Flight Test and/or Aviation Safety Experience.  We hope you find this tool useful, and solicit your feedback and contributions as we work to keep it up to date.
+        </p>
+        <p><strong>Data Items were last added or updated on 12/24/2019</strong></p>
+        <div id="DatabaseSearch" class="ui-corner-all">
+            <h3>Database Search</h3>
+            <form action="/Search" method="get"><input name="__RequestVerificationToken" type="hidden" value="JhYj4QkU9NC8QWsRReoh8IVRFKjxxlwCGqsTg9Vn_GlX58kmQM9stwyEjwNvhw8kUnM7N6y5KRdhwVC1dorrTl8HqZ_IO44cWfm8AljtpZweb_z1jOV6j_VM3T83RMZ1WuKQ_Q2" />
+                    <label for="q" style="position:absolute;left:-1000px;">Search</label>
+                    <input type="text" id="q" name="q" />
+                    <a href="/online-help/keyword-search-online-help.html">Help</a><br />
+                    <input type="image" alt="Search Database" src="/Content/Images/SearchDB_Button.gif" id="submit" />
+            </form>
+
+        </div>
+        <div id="Partners">
+            <h3>Partners</h3>
+            <div id="partnersDetails">
+                
+                        <img src="/Content/Images/Partners/FAA.jpg" 
+                            alt="FAA is a proud Partner with FTSDB" /> 
+                    
+                        <img src="/Content/Images/Partners/Navair.jpg" 
+                            alt="Navair is a proud Partner with FTSDB" /> 
+                    
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $("#RecentSearches").dialog({autoOpen: false, title: "Recent Searches", width: 450});
+            $("#ShowRecentSearches").click(function() { $("#RecentSearches").dialog('open'); return false; } );
+        });
+    </script>          
+
+
+        </div>
+    </div>
+    
+
+<div id="Footer">
+    <div id="FooterLogo">
+        <img id="Meatball" src="/Content/Images/NASA_Meatball.gif"
+            alt="NASA Logo Image" />
+    </div>
+    <div id="FooterSiteInformation">
+    <p>
+        FTSDB Version: 1.1.0<br />
+        Site Last Updated On: 05/17/2022<br />
+        NASA Official: Glenn Graham
+    </p>
+    <a href="mailto:shawn.m.kern@nasa.gov">Report an Issue</a>
+    </div>
+    <div id="FooterLinks">
+        <ul>
+            <li><a href="/Home/SupportedBrowsers">Supported Browsers</a></li>
+            <li><a href="http://www.nasa.gov/FOIA/">Freedom of Information
+                Act</a></li>
+            <li><a href="http://www.nasa.gov/about/highlights/HP_Management.html">President's Management
+                Agenda</a></li>
+            <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp;
+                Implementation Notices</a></li>
+            <li><a href="http://oig.nasa.gov/hotline.html">Inspector General Hotline</a></li>
+            <li><a href="http://oig.nasa.gov/">Office of the Inspector General</a></li>
+        </ul>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $(function () {
+            $(":button, :submit").button();
+        });
+    </script>
+</body>
+</html>

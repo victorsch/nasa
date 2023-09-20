@@ -1,0 +1,13 @@
+GET http://eyes.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:04:33 GMT
+< Via: 1.1 6fde4eba6716c9f80db3b63d251f248c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P3
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://eyes.jpl.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: 3Dw329TGb_41Y5fQ6TgAC6ITpx0TekRKOswFead8qsn7o3sPMMw-YQ==

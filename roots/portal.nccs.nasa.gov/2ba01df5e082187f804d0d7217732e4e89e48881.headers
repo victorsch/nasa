@@ -1,0 +1,13 @@
+GET https://portal.nccs.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:05:01 GMT
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/html
+< Content-Length: 165
+< Etag: "63642617-a5"
+< Accept-Ranges: bytes
+< Server: nginx/1.14.1
+< Last-Modified: Thu, 03 Nov 2022 20:35:35 GMT

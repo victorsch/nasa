@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>NSSC Public Search Engine</title>
+<link href="/td/styles/normal.css" rel="STYLESHEET" type="text/css">
+</head>
+<body>
+<table class="topSection">
+ <tr class="topSection"><td class="topSection">
+  <table class="topBar">
+   <tr class="topBar">
+    <td class="topBarLeft"><a href="/" class="topBar" title="Home Page">SearchPub</a></td>
+    <td class="topBarCenter">NSSC Public Search Engine</td>
+    <td class="topBarRight">&nbsp;</td>
+   </tr>
+  </table>
+ </td></tr>
+ <tr class="topSection"><td class="topSection">
+  <table class="menuBar">
+   <tr class="menuBar">
+    <td class="menuBar"><a href="/" class="menuBar">Home</a></td>
+    <td class="menuBar"><a href="/certificates/" class="menuBar">Certificates</a></td>
+    <td class="menuBar"><a href="/faq.html" class="menuBar">FAQ</a></td>
+    <td class="menuBarWide"><a href="/whatsnew.html" class="menuBar">Whats New</a></td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="4" width="100%">
+<tr>
+<td><img src="/td/images/nasa-logo.gif" align="TOP" border="0"></td>
+<td align="center" width="100%"><h2>NSSC&nbsp;Technical&nbsp;Documentation Public&nbsp;Search&nbsp;Engine</h2>
+ <table class="speedSearch">
+  <tr>
+   <td class="speedSearch"><form method="GET" action="/servlet/search" class="speedSearch">
+    <input type="TEXT" name="TEXT1" value="" size="52" maxlength="1000"><br>
+    <input type="RADIO" name="FIELD1" value="SM_TEXT" checked>Text&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_DOC_NUMBER">Doc Number&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_TITLE">Title&nbsp;&nbsp;<input type="SUBMIT" value="Speed Search" style="margin-top: 4px;">
+    <input type="HIDDEN" name="MAX_RESULTS" value="100"></form></td>
+  </tr>
+ </table>
+ <div class="speedSearch">Tip: Doc Numbers do not allow spaces, so use asterisks or<BR>question marks in place of spaces, i.e.&nbsp;NDP?9200*</div>
+</td>
+<td><img src="/td/images/nasa-logo.gif" align="TOP" border="0"></td>
+</tr>
+</table>
+
+<!-- <p>Welcome to the NSSC Technical Documentation
+System's Public Search Engine.</p> -->
+
+<p>To locate documents, select a search option and provide search
+criteria. To view documents in their released format, you will need to have the
+Acrobat Reader.</p>
+
+<ul>
+
+<li><strong><a href="search/general.html">Search for NSSC Documents</a></strong><br>
+Search by one or more fields in the documents.<br>&nbsp;</li>
+
+<li><strong><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Private Policy & Important Notices</a><br>
+NASA Web Privacy Policy and Important Notices.<br>&nbsp;</li>
+
+</ul>
+
+<p><strong><font color="#FF0000">Special Note:</font>
+<a href="/certificates/">If you are receiving messages about untrusted certificates when
+accessing this system, click here for instructions on how to resolve the issue.</a></strong></p>
+
+<p>&nbsp;</p>
+
+<table class="bottomBar">
+ <tr class="bottomBar">
+  <td class="bottomBarWide"><a href="/tdteam.html" class="bottomBar" title="Contact Us">Contact Us</a></td>
+ </tr>
+</table>
+</body>
+</html>

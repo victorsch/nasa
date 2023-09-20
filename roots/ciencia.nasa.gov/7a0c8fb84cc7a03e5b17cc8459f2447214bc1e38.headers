@@ -1,0 +1,13 @@
+GET http://ciencia.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Length: 167
+< Via: 1.1 66ea06c52ae44609b3bf6f6054c081b6.cloudfront.net (CloudFront)
+< Location: https://ciencia.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: JFK52-P1
+< X-Amz-Cf-Id: jI7Y5nZNlfdMWOt518mvsLjYW4KP1e3bQP-l7CkLhdJlDXUgcURX5A==
+< Date: Tue, 19 Sep 2023 06:01:27 GMT
+< Content-Type: text/html

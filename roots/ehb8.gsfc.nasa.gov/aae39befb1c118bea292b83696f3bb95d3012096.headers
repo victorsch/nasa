@@ -1,0 +1,12 @@
+GET https://ehb8.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:50:20 GMT
+< Location: https://ehb8.gsfc.nasa.gov/ehb-app/
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 243
+< Set-Cookie: AWSALB=KG0rOJ6Jwf/Xi5rKxVkiXm9nNfyVgAcgUkI4Ghwcr9X+LCtinUrTbA4acjnUyBp0f/koDrNFqCfQOXualNB5ZuAPvadCXnf/UOa/hXzy0rn/Wh0HkoWBbuTJN3a7; Expires=Tue, 26 Sep 2023 05:50:20 GMT; Path=/
+< Set-Cookie: AWSALBCORS=KG0rOJ6Jwf/Xi5rKxVkiXm9nNfyVgAcgUkI4Ghwcr9X+LCtinUrTbA4acjnUyBp0f/koDrNFqCfQOXualNB5ZuAPvadCXnf/UOa/hXzy0rn/Wh0HkoWBbuTJN3a7; Expires=Tue, 26 Sep 2023 05:50:20 GMT; Path=/; SameSite=None; Secure
+< Server: Apache/2.4.53 (Unix) OpenSSL/1.0.2k-fips mod_jk/1.2.48
+< Strict-Transport-Security: max-age=31536000

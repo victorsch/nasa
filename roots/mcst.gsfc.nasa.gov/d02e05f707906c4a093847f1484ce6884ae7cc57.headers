@@ -1,0 +1,11 @@
+GET http://mcst.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://mcst.gsfc.nasa.gov/
+< Content-Length: 235
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:21 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< X-Frame-Options: SAMEORIGIN

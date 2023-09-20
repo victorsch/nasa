@@ -1,0 +1,11 @@
+GET https://ozoneaq.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:56:28 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: DENY
+< X-Frame-Options: DENY
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8

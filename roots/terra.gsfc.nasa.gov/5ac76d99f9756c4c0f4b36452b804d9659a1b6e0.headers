@@ -1,0 +1,9 @@
+GET https://terra.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:05:39 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,9 @@
+GET http://esdpubs.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:06:40 GMT
+< Server: Apache
+< Location: https://esdpubs.nasa.gov/
+< Content-Length: 233
+< Content-Type: text/html; charset=iso-8859-1

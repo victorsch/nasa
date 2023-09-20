@@ -1,0 +1,13 @@
+GET http://airs.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Length: 167
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: iIwrzh7yJrgPB__XQrRhTzG059WToyRiGHbIXy6qZl-EO5n4lsbJ4w==
+< Date: Tue, 19 Sep 2023 06:06:09 GMT
+< Content-Type: text/html
+< Location: https://airs.jpl.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 e1d636b234c38932eb25194cb146dbcc.cloudfront.net (CloudFront)

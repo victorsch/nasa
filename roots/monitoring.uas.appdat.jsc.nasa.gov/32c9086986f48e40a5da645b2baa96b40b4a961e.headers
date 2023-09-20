@@ -1,0 +1,16 @@
+GET https://monitoring.uas.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Length: 29
+< Location: /login
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Using-Nginx-Controller: true
+< Cache-Control: no-store
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:43:37 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Powered-By: appdat

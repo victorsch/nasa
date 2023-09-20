@@ -1,0 +1,412 @@
+
+
+ 
+
+<!DOCTYPE html><html lang="en">
+
+<head><title>Cosmic Origins (COR)</title>
+<meta name="name" content="Cosmic Origins (COR)">
+<meta name="description" content="Web site for the NASA Cosmic Origins (COR) Program">
+<meta name="keywords" content="cosmic origins, cosmic, origin, astrophysics, universe, universe formation, dark matter, galaxies, galaxy evolution, stars, star formation, planet formation, ultraviolet, telescope, far-infrared, interstellar medium, nasa">
+<meta name="orgcode" content="600">
+<meta name="rno" content="Phillip.A.Newman.1">
+<meta name="content-owner" content="Peter.Kurcyznski">
+<meta name="webmaster" content="Stephan.F.Fantasia.1">
+<meta charset="utf-8" />
+<meta name="doc-class" content="Living Document" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/styles.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/Selected-COR.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/probes-cards.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/includes/css/hubbleFellows.css" />
+
+
+
+<script>
+function Reset() { document.getElementById('MyVideo1').load(); }
+</script>
+
+<script>
+function Reset() { document.getElementById('MyVideo2').load(); }
+</script>
+
+<link href="/includes/css/js-image-slider600.css" rel="stylesheet" type="text/css" />  
+<script src="/includes/css/js-image-slider.js" type="text/javascript"></script>
+
+
+<link rel="stylesheet" href="/includes/css/lightbox.css" media="screen" />
+<script src="/includes/scripts/jquery-1.10.2.min.js"></script>
+<script src="/includes/scripts/lightbox-2.6.min.js"></script>
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC"></script>
+
+<script language="javascript" src="/includes/showHide.js"></script>
+<script language="javascript" src="/includes/toggle.js"></script>
+
+
+</head>
+
+
+<body class="nasa oneon">
+<div id="bkg_surround">
+<div id="bkg_layer"> </div>
+</div>
+
+<div id="paperTop">
+
+<div id="nasahead"><div class="nasalogo"><a href="https://www.nasa.gov" target="_blank"><img src="/images/nasa-logo.png" alt="NASA logo"  /></a></div> 
+<div class="hidden"> <a href="#skipping" title="Skip Navigation" accesskey="2">Skip Navigation (press 2)</a> </div>
+
+<div class="dark"><div id="searchbox"><form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
+<div style="margin:0;padding:0;display:inline; "><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input id="affiliate" name="affiliate" type="hidden" value="nasastaging" /> <input autocomplete="on" class="usagov-search-autocomplete" id="query" name="query" type="text" /></form>
+</div>
+
+<div id="socialtop">
+<ul id="socialmenu">
+ <li><img src="/images/socialmedia.png" alt="social media" class="socialtop" />
+ <ul> 
+ <li><a href="https://www.facebook.com/NASA.GSFC" target="_blank"><img src="/images/facebook-icon.png" alt="facebook" /></a></li>
+ <li><a href="https://twitter.com/NASAGoddard" target="_blank"><img src="/images/twitter-bird-white-on-blue.png" alt="twitter" /></a></li>
+ <li><a href="https://www.youtube.com/user/NASAexplorer" target="_blank"><img src="/images/youtube-icon.png" alt="youtube" /></a></li>
+ <li><a href="https://www.flickr.com/photos/gsfc/" target="_blank"><img src="/images/flickr-icon.png" alt="flickr" /></a></li>
+ <li><a href="https://instagram.com/nasagoddard" target="_blank"><img src="/images/instagram-64.jpg" alt="instagram" /></a></li>
+ </ul></li> 
+ 
+ </ul>
+ </div> 
+ </div> 
+ </div>
+<div id="headimage"><img src="/images/BANNER3-update.png" alt="Astrophsyics" /></div>
+<div class="clear"></div>
+
+
+<ul id="css3menu1" class="topmenu">
+<li class="topmenu"><a href="/" style="width:216px;height:16px;line-height:16px;;">About Cosmic Origins</a>
+<ul>
+
+	<li class="subfirst"><a name="Projects">Projects</a>
+	<ul><li><a href="/projects/current.php">Current</a></li>
+		<li><a href="/projects/future.php">Future</a></li>
+		<li><a href="/projects/past.php">Past</a></li>
+	</ul></li>   
+    <li><a href="/program/program.php">Program Office</a></li>
+	<li><a href="/NASA Astrophysics Statement of Principles Nov2022.pdf">Statement of Principles</a></li>
+    <li><a href="https://apd440.gsfc.nasa.gov/team.html">Project Office</a></li>
+	<li><a href="https://apd440.gsfc.nasa.gov/students.html">Public Outreach</a></li>
+</ul></li>
+
+<li class="topmenu"><a href="/copag/" style="width:215px;height:16px;line-height:16px;;">Community</a>
+<ul>
+    <li><a href="/copag/ec/copag-ec-membership.php">Executive Committee</a></li>
+    <li class="subfirst"><a href="/sigs/sigs.php">Science Interest Groups</a>
+<ul>
+    <li><a href="/sigs/agnsig.php">Active Galactic Nuclei SIG</a></li>
+    <li><a href="/sags/awesom.php">AWESOM SAG</a></li>
+    <li><a href="/sigs/dgce-sig.php">Cosmic Ecosystems SIG</a></li>
+    <li><a href="/sigs/Galaxies-SIG.php">Galaxies SIG</a></li>
+    <li><a href="/sigs/irstig.php">InfraRed STIG</a></li>
+    <li><a href="/sags/ngo-sag.php">New Great Observatories SAG</a></li>
+    <li><a href="/sigs/starssig.php">Stars SIG</a></li>
+    <li><a href="/stigs/uvstig.php">UV STIG/QUEST</a></li>
+</ul></li>
+
+    <li><a name="Meetings" href="/copag/meetings.php">Meetings</a></li>
+    <li><a href="/events-calendar.php">Events Calendar</a></li>
+    <li><a href="/Research_Opportunities.php">Research Opportunities</a></li>
+
+    
+</ul></li>
+
+<li class="topmenu"><a href="/studies/studies.php" style="width:215px;height:16px;line-height:16px;">Studies</a>
+<ul>
+    <li><a href="/studies/habitable-worlds/hwo.php" style="width:97px;">Habitable Worlds Observatory</a></li>
+    <li><a href="/Astro2020/Astro2020.php" style="width:97px;">Astro2020 Decadal Survey</a></li>
+    <li><a href="https://science.nasa.gov/about-us/large-mission-study" style="width:97px;">SMD Large Mission Study</a></li>
+    <li><a href="https://www.jpl.nasa.gov/habex/" style="width:97px;">HabEx</a></li>
+    <li><a href="https://asd.gsfc.nasa.gov/luvoir/" style="width:97px;">LUVOIR</a></li>
+    <li><a href="https://wwwastro.msfc.nasa.gov/lynx/" style="width:97px;">Lynx</a></li>
+    <li><a href="https://asd.gsfc.nasa.gov/firs/" style="width:97px;">Origins</a></li>
+    <li><a href="/copag/probe-study.php">Archived Probe-class Missions</a></li>
+</ul></li>
+
+<li class="topmenu"><a href="https://apd440.gsfc.nasa.gov/technology/" target="_blank" style="width:216px;height:16px;line-height:16px;">Technology</a></li>
+
+
+</ul>
+<div class="clear"></div>
+</div>
+
+<a  id="skipping"></a>
+
+<div id="paper">
+<div class="fullscreenwhite">
+<div class="wideleft">
+
+
+
+
+
+
+
+
+
+
+<h1>About Cosmic Origins</h1>
+
+<p style="font-size: 18px"><strong>How did we get here?</strong></p>
+
+<p>Answering this question is one of the key goals in <strong>NASA's Astrophysics Division</strong>, and is the main objective of its <strong>Cosmic Origins (COR) Program</strong>.</p>
+
+<p>Here are some of the topics our work focuses on:</p>
+
+<div class="box">
+
+<li>Stellar lifecycles and the evolution of the elements</li> 
+<li>Early formation and evolution of planetary systems</li> 
+<li>Archaeology of the Milky Way and its neighbors</li> 
+<li>History and evolution of galaxies and supermassive black holes</li> 
+<li>First light and reionization</li>
+
+</div>
+
+<p>No one mission or observatory can provide all the answers. The Cosmic Origins Program includes telescopes that <strong>together operate across much of the electromagnetic spectrum</strong>. From the iconic <strong>Hubble Space Telescope’s</strong> groundbreaking science to the future discoveries awaiting us with the <strong>James Webb Space Telescope</strong> and more to come, Cosmic Origin's facilities help us in our search for answers to the biggest questions about <strong>our universe and its origins</strong>.</p>
+<br>
+
+<hr>
+
+<h2 Style="color:#336699; font-size:20px;">Current Highlights</h2>
+
+<h3>Black Space Week™ 2023</h3>
+
+<p style="text-align: justify;"><img src="images/highlights/NHQ202306200015~medium-sm.jpg" width="300" align="right" style=" padding-left: 1em;">Black Space Week™ 2023 was the genesis of a national expansion of what it means to be Black and in the Space STEM career fields. Coordinated in parallel with Black In Astro, NASA centers, and members of the National Space Council within the White House Office of Science &amp; Technology Policy. This incorporated, for the first time, a more over-arching evidence-based approach to the many areas of Space STEM.</p>
+
+<p>Two in-person events took place during the week that touched on the following topics of discussion for plausible solutions:</p>
+
+<ul>
+    <li>Scientific Research</li>
+    <li>Space law &amp; Policy</li>
+    <li>Aerospace and Astronautical Engineering</li>
+    <li>Afrofuturism</li>
+    <li>Commercial and Scientific Research Space Missions</li>
+    <li>Cultural astronomy</li>
+    <li>LGBTQIA+ Intersectionality</li>
+    <li>Disability amp; Neurodivergent Introspectives</li>
+</ul>
+
+<p>In-person programming included an invited panel of experts in the space industry across community and scientific focused careers entitled: Artemis Generation Roundtable. This featured Dr. Ronald Gamble (NASA GSFC), Kim Macharia (Space Prize), Zephanii Eisenstat (NAACP), and moderate by Amber McIntyre (NASA HQ). In addition, a candid talk was given by Artemis II Commander, Astronaut Victor Glover.”</p>
+
+<hr>
+
+
+</div>
+
+<div class="rightcolwhite"> 
+
+<p align="center"><span style="font-size: 16px;"><strong>JAXA, NASA XRISM Mission Ready for Liftoff</strong></span><br>
+
+<p style="font-size:10pt; line-height:11pt;"><a href="https://www.nasa.gov/sites/default/files/thumbnails/image/xrism_s2_113.png" target="_blank"><img src="/images/xrism/xrism_s2_113.png" width="268"></a>
+<em>XRISM <a href="https://global.jaxa.jp/press/2023/09/20230907-1_e.html" target="_blank">launched successfully</a> on Wednesday, Sept. 6, 2023, at 7:42 p.m. EDT (Thursday, Sept. 7, 8:42 a.m. in Japan). The spacecraft separated from the rocket at 7:56 p.m. EDT.</em><a href="https://www.nasa.gov/feature/goddard/2023/jaxa-nasa-xrism-mission-ready-for-liftoff" target="_blank">Read more</a>.</p>
+
+<hr>
+
+<h4>COR News and Events</h4>
+
+<p>See our new <a href="/events-calendar.php">Events Calendar</a></p>
+
+<p>Current and Upcoming Events</p>
+
+<div class="news-item"><span style="color:#080178; font-weight:bold;">Continuing Call for Nominations to the Cosmic Origins Program Analysis Group (COPAG) Executive Committee.</span> &raquo;&nbsp; <a href="/news/Call_for_Nominations_to_COPAG_EC.php">Details</a>.
+</div>
+
+
+<div class="news-item">
+<div class="news-date">28 September 2023</div>
+DGCE SIG Seminar: The Link Between Halo Gas and Dwarf Galaxy Evolution &raquo;&nbsp; <a href="/sigs/dgcesig/events/28-Sept-2023/28-Sept-2023.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">3 October 2023</div>
+Galaxies SIG Seminar &raquo;&nbsp; <a href="/sigs/galsig/events.php">Details</a>
+</div>
+
+<div class="news-item">
+<div class="news-date">25 October 2023</div>
+JWST Call for Proposals for Cycle 3 &raquo;&nbsp; <a href="https://jwst-docs.stsci.edu/jwst-opportunities-and-policies/jwst-call-for-proposals-for-cycle-3">Details</a>.
+</div>
+
+
+
+
+
+<p><a href="/cor-news-mailing-list.php" title="Join the COR News Email List">Join the COR News Email List</a></p>
+
+<p>Program News and Announcements</p>
+
+<div class="news-item">
+<div class="news-date">15 September 2023</div>
+ROSES-2023 APRA &amp; SAT Due Dates Deferred &raquo;&nbsp; <a href="/news/2023/ROSES-2023_Due_Dates_Deferred.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">15 September 2023</div>
+Cosmic Origins &amp; Physics of the Cosmos Conference Exhibits &raquo;&nbsp; <a href="/news/2023/COR-PhysCOS_Conference_Exhibits.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">15 September 2023</div>
+Congratulations to the XRISM Team &raquo;&nbsp; <a href="/news/2023/Congratulations_XRISM_Team.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">9 September 2023</div>
+Special Announcement About the Habitable Worlds Observatory START and TAG Teams &raquo;&nbsp; <a href="/news/2023/HWO_Special_Announcement.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">1 September 2023</div>
+GALAXIES Science Interest Group | Tuesday, 5 September 2023, 1:00pm &#8211; 2:00pm Eastern &raquo;&nbsp; <a href="/news/2023/Galaxies-SIG_Seminar.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">1 September 2023</div>
+NASA Space Technology Graduate Research Opportunities (NSTGRO24) Released | Proposals Due: November 1, 2023 (6 PM Eastern, 3 PM Pacific) &raquo;&nbsp; <a href="/news/2023/NASA_Space_Technology_Grad _Research_Opportunities.php">Details</a>.
+</div>
+
+<div class="news-item">
+<div class="news-date">1 September 2023</div>
+ROSES-23 Amendment 39: D.13 Astrophysics Pioneers Not Solicited This Year &raquo;&nbsp; <a href="/news/2023/ROSES-23_D.13_Not_Solicited_This_Year.php">Details</a>.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul><li type="square"><a href="/news/cor-news-archive.php" title="COR News Archive">More News Articles</a></li></ul>
+
+<p>Project News</p>
+
+<ul style="text-align: left;">
+<li><a href="https://www.nasa.gov/content/latest-hubble-news">Hubble Space Telescope (HST) Newsroom</a></li>
+<li><a href="http://jwst.nasa.gov/news_archive.html">James Webb Space Telescope (JWST) Recent News</a></li>
+<li><a href="https://www.nasa.gov/mission_pages/SOFIA/index.html">SOFIA Mission News</a>; <a href="https://www.sofia.usra.edu/multimedia/science-results-archive/">SOFIA Science Results Archive</a></li>
+<li><a href="http://www.spitzer.caltech.edu/news/">Spitzer Space Telescope News</a></li>
+<li><a href="https://roman.gsfc.nasa.gov/newsroom.html">Roman Newsroom</a></li>
+</ul>
+<hr>
+<h4>Links</h4>
+
+<ul style="text-align: left;">
+<li><a href="/docs/documents.php" title="Documents">Documents</a></li>
+<li><a href="/newsletters/newsletters.php" title="COR Newsletters">Newsletters</a></li>
+<br>
+<li><a href="/links.php" title="NASA Astrophysics Program Offices">NASA Astrophysics Program Offices</a></li>
+<li><a href="https://science.nasa.gov/astrophysics/documents">HQ Science Astrophysics Documents</a></li>
+<br />
+<li><a href="https://asd.gsfc.nasa.gov/luvoir/" title="Large UV/Optical/Infrared (LUVOIR) Surveyor Study" target="_blank">Large UV/Optical/Infrared (LUVOIR) Surveyor Study</a></li>
+<li><a href="http://asd.gsfc.nasa.gov/firs/" title="Origins Space Telescope (OST) Study" target="_blank">Origins Space Telescope (OST) Study</a></li>
+<li><a href="https://www.jpl.nasa.gov/habex/" title="Habitable Exoplanet Imaging Mission (HabEx) Study" target="_blank">Habitable Exoplanet Imaging Mission (HabEx) Study</a></li>
+<li><a href="https://wwwastro.msfc.nasa.gov/lynx/" title="Lynx" target="_blank">Lynx</a></li>
+<li><a href="http://www.hdstvision.org/report/" title="High Definition Space Telescope">High Definition Space Telescope Study</a></li> 
+<br>
+
+
+</ul>
+
+</div>
+</div>
+<div class="clear"></div>
+
+
+<div id="nasafoot"><div id="nasafootlinks"><a href="https://www.facebook.com/NASA.GSFC" target="_blank"><img src="/images/facebook-icon.png" alt="facebook" /></a>
+<a href="https://twitter.com/NASAGoddard" target="_blank"><img src="/images/twitter-bird-white-on-blue.png" alt="twitter" /></a>
+<a href="https://www.youtube.com/user/NASAexplorer" target="_blank"><img src="/images/youtube-icon.png" alt="youtube" /></a>
+<a href="https://www.flickr.com/photos/gsfc/" target="_blank"><img src="/images/flickr-icon.png" alt="flickr" /></a> 
+<a href="https://instagram.com/nasagoddard" target="_blank"><img src="/images/instagram-64.jpg" alt="instagram" /></a> 
+<a href="https://plus.google.com/+NASAGoddard/posts" target="_blank"><img src="/images/google-plus-icon.png" alt="googleplus" /></a></div>
+
+<div class="nasafoothome"> <a href="https://www.nasa.gov/" target="_blank"><img src="/images/nasa-logo2.png" alt="NASA logo" /></a></div>
+<div id="nasafootrno"> <ul><li>NASA Official: Phil Newman</li></ul> <ul><li>Web Curator: Pat Tyler</li></ul></div>
+<div id="nasafootsignature"><a href="https://www.nasa.gov/goddard" target="_blank"><img src="/images/goddard.png" alt="Goddard Space Flight Center" /></a></div>
+
+<div id="nasafootplus">
+<ul>
+	<li><h1>CONTACT</h1></li>
+    <!--<li><a href="mailto: ?subject=Web%20Inquiry">General Questions</a></li>
+	<li><a href="mailto: ?subject=Web%20Inquiry">Media queries</a></li>-->
+	<li><a href="mailto:pat.tyler@nasa.gov?subject=Web%20Inquiry%20-%20COR">Web Site Issues</a></li>
+</ul></div>
+<div id="nasafootpriv"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank"><img src="/images/privacy.png" alt="privacy" /></a></div><div id="blank" class="modalDialog"><div> </div> </div> </div> 
+</div>
+</div>
+</body>
+</html>

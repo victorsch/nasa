@@ -1,0 +1,16 @@
+GET https://cdsweb.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: "8c769c41866d81:0"
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=1701134336; includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: BNI_persistence=bcCUh9A3ly_H6Q4KugNZ0lDfEBU0OqVVzklxX2uv19HZgUfT78aXszDUijLOzBNMkUWzd5W70HxwRhXvNOdjrQ==; Path=/; Secure; HttpOnly
+< Content-Type: text/html
+< Content-Security-Policy: child-src 'self';
+< Content-Length: 3952
+< Last-Modified: Thu, 12 May 2022 15:55:56 GMT
+< Accept-Ranges: bytes
+< Server: Microsoft-IIS/10.0
+< Date: Tue, 19 Sep 2023 06:06:10 GMT

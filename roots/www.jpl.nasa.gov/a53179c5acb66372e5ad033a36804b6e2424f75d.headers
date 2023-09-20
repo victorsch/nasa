@@ -1,0 +1,13 @@
+GET http://www.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.jpl.nasa.gov/
+< X-Amz-Cf-Id: mQeaVuMgzjzdOgntl-Kfu5BifjeUo2fEDGWJYGgbFB_g4Dst3B67kg==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:44:03 GMT
+< Content-Type: text/html
+< Via: 1.1 e5ff4a3d69612691bbce9d66888e6aa4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront

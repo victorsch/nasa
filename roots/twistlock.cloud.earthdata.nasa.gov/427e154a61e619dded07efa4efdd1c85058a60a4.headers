@@ -1,0 +1,16 @@
+GET http://twistlock.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Location: https://twistlock.cloud.earthdata.nasa.gov/
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 167
+< Via: 1.1 c36b03c9737c294317e3651e77ee0c4a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: l1Am1VKO3mSgzkJN8QE7czqJ3NSFMYnj9NoVYgcyJZt8ShVedXU39Q==
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:40:58 GMT
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK50-P6
+< X-Cache: Redirect from cloudfront
+< X-Xss-Protection: 1; mode=block

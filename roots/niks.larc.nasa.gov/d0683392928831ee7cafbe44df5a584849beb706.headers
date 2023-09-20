@@ -1,0 +1,10 @@
+GET http://niks.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 235
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:59:28 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Location: https://niks.larc.nasa.gov/

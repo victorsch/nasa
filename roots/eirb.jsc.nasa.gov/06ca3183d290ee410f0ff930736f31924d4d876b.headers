@@ -1,0 +1,12 @@
+GET https://eirb.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Redirect
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31536000
+< X-Powered-By: XXXXXXXX
+< Set-Cookie: cookiesession1=678B2870E9ADE8D9ACDF7FFFECA26A1A;Expires=Wed, 18 Sep 2024 05:58:39 GMT;Path=/;HttpOnly
+< Content-Type: text/html; charset=UTF-8
+< Location: https://eirb.jsc.nasa.gov/eirb
+< Date: Tue, 19 Sep 2023 05:55:22 GMT
+< Content-Length: 153

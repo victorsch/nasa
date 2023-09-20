@@ -1,0 +1,860 @@
+
+	<!DOCTYPE html>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="./portal.css?v1.04" type="text/css" rel="stylesheet"> 
+	<script language="JavaScript" type="text/javascript">
+		location.replace("https://jpssmis.gsfc.nasa.gov/frontmenu_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000");
+	</script>
+
+<html>
+<head>
+	<meta name="description" content="Joint Polar Satellite System Management Information System (JPSS MIS)">
+	<meta name="orgcode" content="470">
+	<meta name="rno" content="Lauri.l.Via">
+	<meta name="content-owner" content="Lauri.l.Via">
+	<meta name="webmaster" content="Terri.A.Hairell">
+	<title>LEO Division - Low Earth Orbit (LEO) Division Management Information System</title>
+	
+	<script language="JavaScript" type="text/javascript">
+		function doEventMore(EVT) {
+			moreinfo_window = window.open("./show_more_info.cfm?DTTM=20230919020231&RequestTimeout=5000&eidx=" + EVT,"moreinfowin","width=700,height=400,top=5,left=50,scrollbars=yes,resizable=yes");
+		}
+		//function launchHelp() {
+		//	help_window = window.open("./help_index.cfm?DTTM=20230919020231&RequestTimeout=5000","helpwin","width=800,height=600,top=5,left=50,scrollbars=yes,resizable=yes");
+		//}
+		function Validate() {
+			if (document.f1.userid.value == "") {
+				alert("Invalid Username! Please try again.");
+				document.f1.userid.focus();
+				return false;
+			}
+			if (document.f1.passwd.value == "") {
+				alert("Invalid Password! Password cannot be a null string. Please try again.");
+				document.f1.passwd.focus();
+				return false;
+			}
+		}
+		function switchDisp(TYPE) {
+			if (typeof document.f1.thisMonth != "undefined") {
+			  var M = document.f1.thisMonth.value;
+			  var Y = document.f1.thisYear.value;
+			  location.href="./frontmenu_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000&disp=" + TYPE + "&mth=" + M + "&year=" + Y;
+			} else {
+			  location.href="./frontmenu_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000&disp=" + TYPE;
+			}
+		}
+		function doSwitchDisplay() {
+		  var whichCalendar = document.f1.calendar_type_id.options[document.f1.calendar_type_id.selectedIndex].value;
+		  var n=whichCalendar.indexOf("_");
+		  var flag=whichCalendar.substring( n+1);
+		  var str=whichCalendar.substring(0, n);
+		  var whichCalendar = str;
+		 if ((whichCalendar != "") &&  (flag == "")){
+		    switchDisp(whichCalendar);
+			  }
+		 if ((whichCalendar != "") && (flag > "")){
+			redirectLink = window.open(href=flag);
+			}
+		 if (whichCalendar == ""){
+		  	alert("Please select a calendar.");
+			}
+
+		}
+
+		function displayEvent(EVT) {
+			evt_window = window.open("./displayevt_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000&eidx=" + EVT,"evtwin","width=700,height=400,top=5,left=50,scrollbars=yes,resizable=yes");
+		}
+		function printPdfCalendar() {
+			var M = document.f1.thisMonth.value;
+			var Y = document.f1.thisYear.value;
+			print_window = window.open("./print_pdf_calendar.cfm?DTTM=20230919020231&RequestTimeout=5000&mth=" + M + "&year=" + Y,"moreinfowin","width=700,height=400,top=5,left=50,scrollbars=yes,resizable=yes");
+		}
+	</script>
+
+	<style type="text/css">
+		/* ================================
+    CSS STYLES FOR PORTAL 
+    v1.0, 01/2001
+   ================================
+*/
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+  background-color: darkblue;
+}
+
+/* background color for the content part of the pages */
+body {
+  background-color: white;
+  /*background-image: url(./i/logo_mms_bg.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+legend {
+  background: #ffe7bf;
+  border: 1px solid gray;
+  padding: 2px 3px;
+}
+
+/* PAGE BANNER */
+/* NOTE: Site Title, Site Links and Tabs are rendered by MobilePortalBanner.ascx
+/* style for the text of the site title */
+.SiteTitle {
+  font-family: Verdana Bold, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+}
+
+/* background/border colors for the unselected tabs */
+.OtherTabsBg {
+  background-color: #cccccc;
+  border-color: darkblue;
+  border-width: 1px;
+  border-style: solid;
+  height: 25px;
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  color: darkblue;
+  font-weight: bold;
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  color: gainsboro;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* hyperlink styles of the unselected tabs */
+a.OtherTabs:link {
+  text-decoration: none;
+  color: #003366;
+}
+
+a.OtherTabs:visited {
+  text-decoration: none;
+  color: #003366;
+}
+
+a.OtherTabs:active {
+  text-decoration: none;
+  color: #003366;
+}
+
+a.OtherTabs:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* text style for the site links (at extreme top-right of header) */
+.SiteLink {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* hyperlink style for the site links */
+a.SiteLink:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.SiteLink:visited {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+a.SiteLink:active {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+a.SiteLink:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* style for separator between site links */
+.Accent {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* another style for separator between site links */
+.Divider {
+  color: 003366;
+  font-weight: bold;
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */
+.Message {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  font-size: 11px;
+  background-color: #eeeeee;
+}
+
+/* style of item titles by Announcements and events */
+.ItemTitle {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #666644;
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead,
+.Subhead,
+.subhead {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* style of item titles on edit and admin pages */
+.LightSubHead {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: darkblue;
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+}
+
+/* text style used for most text rendered by modules */
+.Normal,
+.normal {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 12px;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.NormalRed {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: red;
+}
+
+.NormalBold {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.UltraBold {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: black;
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+a.CommandButton:link {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+a.CommandButton:visited {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+a.CommandButton:active {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+a.CommandButton:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* GENERIC */
+h1 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #666644;
+}
+
+h2 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #666644;
+}
+
+h3 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: darkblue;
+}
+
+h4 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: darkblue;
+}
+
+h5,
+dt {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+
+h6 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+tfoot,
+thead {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+
+}
+
+th {
+  vertical-align: baseline;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:active {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+small {
+  font-size: 8px;
+}
+
+big {
+  font-size: 14px;
+}
+
+blockquote,
+pre {
+  font-family: Lucida Console, monospace;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ul li li {
+  list-style-type: disc;
+}
+
+ul li li li {
+  list-style-type: circle;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+ol ol li {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol li {
+  list-style-type: lower-roman;
+}
+
+hr {
+  color: dimgrey;
+  height: 1pt;
+  text-align: left;
+}
+
+.fieldset {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: darkblue;
+}
+/* FOOTER Fonts and colors */
+.footer {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 9px;
+  color: 999999;
+  line-height: 130%;
+}
+.footer_bold {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  color: 999999;
+  line-height: 130%;
+}
+.footer_normal {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: normal;
+  line-height: 130%;
+}
+.frm-error {
+  background-color: #ffcccc;
+  transition: 0.5s;
+}
+
+.misreserve-dropdown {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 95px;
+}
+
+nav.misreserve-dropdown li {
+  list-style: none;
+}
+
+.misreserve:hover nav.misreserve-dropdown {
+  display: block;
+}
+
+
+	</style>
+
+</head>
+<body bottomMargin="0" leftMargin="0" topMargin="0" rightMargin="0" marginwidth="0" marginheight="0" onLoad="document.f1.userid.focus();">
+<form name="f1" method="post" action="https://jpssmis.gsfc.nasa.gov/login_act.cfm?DTTM=20230919020231&RequestTimeout=5000" onSubmit="return Validate()">
+<input type="hidden" name="logact" value="">
+<input type="hidden" name="di" value="">
+<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+
+
+
+	<tr vAlign="top">
+		<td colSpan="2">
+			<table width="100%" cellspacing="0" class="HeadBg" border="0">
+			<tr valign="top">
+				<td colspan="3" class="SiteLink" background="./i/bars.gif" align="right">
+					<a href="#skipnav"><img src="./i/spacer.gif" alt="Skip Navigation" border="0"></a>
+					<a href="https://jpssmis.gsfc.nasa.gov/frontmenu_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000" class="SiteLink">Portal Home</a>&nbsp;&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width="10" rowspan="2">&nbsp;</td>
+				<td height="40"><span id="Banner_siteName" class="SiteTitle">Low Earth Orbit (LEO) Division </span></td>
+				<td align="right" rowspan="2" style="padding-right: 5px;">
+					
+					
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="Banner_tabs" class="OtherTabsBg" cellspacing="0" border="0" style="border-collapse:collapse;">
+					<tr>
+						<td class="TabBg" style="border-width:1px;border-style:solid;height:25px;">&nbsp;<span class="SelectedTab">Home</span>&nbsp;</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr><a name="skipnav"></a>
+
+
+
+<tr>
+	<td><br>
+		<table cellspacing="0" cellpadding="4" width="100%" border="0">
+		<tr valign="top" height="*">
+			<td width="5">&nbsp;</td>
+
+			<td id="LeftPane" width="170">
+				
+					<hr width="98%" noShade SIZE="1">
+					<span class="SubSubHead" style="HEIGHT: 20px">Account Login</span>
+					<br><br>
+					
+					<a href="./mainmenu_dsp.cfm?DTTM=20230919020231&RequestTimeout=5000"><img src="./i/signin.gif" alt="Sign In" border="0"></a><span class="Normal" style="color : red;">*</span><br><br>
+					<span class="Normal" style="color : black;"><span style="color : red">*</span> - Click this Sign-In link to authenticate your user session with LaunchPad.</span>
+					
+					<br>
+				
+				<a href="#skipql"><img src="./i/spacer.gif" alt="Skip to Quick Launch" border="0"></a>
+		
+				<a href="#skipnews"><img src="./i/spacer.gif" alt="Skip to News, Upcoming Events and Calendar" border="0"></a>
+		
+				<a href="#skipalerts"><img src="./i/spacer.gif" alt="Skip to Alerts Area" border="0"></a>
+		
+				<a name="skipql"><img src="./i/spacer.gif" alt="At quick launch links area" border="0"></a>
+				<hr noshade size="1pt" width="98%">
+				<span class="SubSubHead">Quick Launch</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<table id="_ctl4_myDataList" cellspacing="0" cellpadding="4" border="0" style="width:100%;border-collapse:collapse;">
+				
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="https://jpss.gsfc.nasa.gov">LEO Division SharePoint Home Page</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="https://jpss.gsfc.nasa.gov/sites/program/cm/i/JPSS%20Templates%20and%20Forms">LEO Division Document Templates</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="https://jpss.gsfc.nasa.gov/sites/program/cm/grnd_cm/Forms/AllItems.aspx?RootFolder=%2Fsites%2Fprogram%2Fcm%2Fgrnd%5Fcm%2FTemplates%20and%20Forms%20Specific%20to%20Ground%20Project%2FNew%20Ground%20Templates%2013%20Oct%202021%20%2D%20includes%20CUI&FolderC">LEO Ground Services Project Document Templates</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="https://jpss.gsfc.nasa.gov/sites/program/cm/grnd_cm/Templates%20and%20Forms%20Specific%20to%20Ground%20Project/Ground%20Forms%20-%20Current">LEO Ground Services Project Forms</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="http://internal.gsfc.nasa.gov/">GSFC Internal Home Page</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="http://www.nasa.gov/home/index.html">NASA External Home Page</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="http://www.noaa.gov/">NOAA External Home Page</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="https://gdms.gsfc.nasa.gov/GDMSv2/index.htm">GSFC GDMS site</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="http://nodis3.gsfc.nasa.gov/">NODIS Library</a>
+									</span><br></td>
+						</tr>
+					
+						<tr>
+							<td><span class="Normal">
+								
+									<img src="./i/navlink.gif" border="0" alt="">
+								
+										<a href="http://export.gsfc.nasa.gov">GSFC Export Control Office - Code 274</a>
+									</span><br></td>
+						</tr>
+					
+				</table>
+				
+				<a href="#skipnews"><img src="./i/spacer.gif" alt="Skip to News, Upcoming Events and Calendar" border="0"></a>
+		
+				<a href="#skipalerts"><img src="./i/spacer.gif" alt="Skip to Alerts Area" border="0"></a>
+		
+				<br><br></td>
+			<td width="1"></td>
+
+
+
+			
+				<td id="ContentPane" width="*">
+					<table width="98%" cellspacing="0" cellpadding="0">
+					
+					<tr>
+						<td colspan="2"><img src="./i/spacer.gif" alt="System alert message" border="0">
+						
+								<fieldset style="border-color:black">
+								<span class="Normal" style="color:red"><strong><center><span style="font-size:2em">****IMPORTANT NOTICE (PLEASE READ)****</span><br>
+<br>
+<br>
+<span style="font-size:1.65em">As of Friday, April 07, 2023, the LEO and NEON Organizations are active in the LEO Division MIS Production Site.</span><br>
+<br>
+<b style="text-decoration:underline;font-size:1.85em">PLEASE CONTACT THE PROGRAM CM TEAM BEFORE CREATING ANY LEO OR NEON DOCUMENTS OR CCRS.</b></center><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="color:#000;">***NOTE: The LEO Division MIS session timeout is set to 59 minutes after inactivity (Please save your work often).***<br>
+<br>
+<br>
+<br>
+Please send any issues, concerns, and change requests to: csv-jpssmisrequests@nasa.onmicrosoft.com<MARQUEE></MARQUEE></span></strong></span><br>
+								</fieldset>
+							
+						</td>
+					</tr>
+					</table><br>
+					
+						<table width="98%" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="left"><span id="_ctl2_Title1_ModuleTitle" class="Head">Welcome to LEO Division</span></td>
+						</tr>
+						<tr>
+							<td><hr noshade size="1"></td>
+						</tr>
+						</table>
+						<table id="_ctl2_t1" cellspacing="0" cellpadding="0">
+						<tr valign="top">
+							<td id="_ctl2_HtmlHolder">
+								<table border='0' cellpadding='5' cellspacing='0'><tbody><tr valign='top'><td><span class='Normal'>Welcome to the <b>JPSS MIS</b>, the Management Information System for the Joint Polar Satellite System. This site provides access to CM-controlled JPSS Mission documentation, online news and event information, and employee contact information. In order to get access to the LEO Division MIS, request an account through <a href='http://idmax.nasa.gov'>IdMAX</a>. For password resets and other questions, please contact the <a href='mailto: JPSSMISAccountManager@listserv.gsfc.nasa.gov'>JPSS MIS Account Managers</a>. 
+<br><br>
+The LEO Division MIS is compatible with Internet Explorer 6.0 and higher, Mozilla Firefox 2 and higher, and Safari 2 and higher.
+<br><br>
+
+
+LEO Division MIS and eRooms performs non-emergency patching on hosted servers on the third Thursday of every month. Down time is possible. Both JPSS MIS and all eroom servers are or could be affected.</span></td></tr></tbody></table>
+							</td>
+						</tr>
+					</table><br>
+					<a name="skipnews"><img src="./i/spacer.gif" alt="At news and events area" border="0"></a>
+					<table width="98%" cellspacing="0" cellpadding="0">
+					
+					<tr>
+						<td align="left"><span id="_ctl6_Title1_ModuleTitle" class="Head">News and Upcoming Events</span></td>
+						
+					</tr>
+					<tr>
+						<td ><hr noshade size="1"></td>
+					</tr>
+					</table>
+					<table id="_ctl6_myDataList" cellspacing="0" cellpadding="4" border="0" style="width:98%;border-collapse:collapse;">
+					<tr>
+						<td>
+					
+							<span class="ItemTitle"><b><font color=red>REMINDER: MIS Session Alert Message<b></font></span>
+								<br>
+							
+								<span class="Normal"><b><font color=blue>NOTE: The LEO Division MIS session has an alert message when your session is about to time out. This alert message is set to appear on the users MIS page 59 minute after inactivity. <br>
+<br>
+      ***Please try to save your work often.***<b></font></span> <a class="Normal" style="font-size: 9px;" href="javascript: doEventMore('36')">[...more info]</a><br>
+							
+							<br>
+
+						
+							<span class="ItemTitle"><b><font color=blue>Please use the following email addresses to reach the LEO CM Teams:<b></font></span>
+								<br>
+							
+								<span class="Normal"><b>LEOS Division, JPSS Program, NEON Program, QuickSounder, and SMBA CM Team<b></font>: gsfc-dl-jpss-prog-cm@mail.nasa.gov (reaches Carol, Lidya & Markus)</b><br>
+<b>JPSS Flight CM Team: gsfc-dl-jpss-flight-cmo@mail.nasa.gov (reaches Linda & Shannon)</b><br>
+<b>Ground CM Team: JPSSGroundCM@nasa.onmicrosoft.com (reaches Daphne, Katie P., Destinae & Gina)</b><br>
+<b>DPMS CM Team: jpssground-dpmscm@nasa.onmicrosoft.com (reaches, Destinae & Daphne)<b><br>
+<b> OCCB CM Team: JPSS-OCCB-CM@nasa.onmicrosoft.com (reaches Katie P., Markus, & Daphne)<b><br>
+<br>
+Using this community address will ensure faster response to your email!</span><br>
+							
+							<br>
+
+						
+							<span class="ItemTitle"><b><font color=blue>Application Support Email Address<b></font></span>
+								<br>
+							
+								<span class="Normal"><b>Please send any issues, concerns, and change requests to: <font color=red>csv-jpssmisrequests@nasa.onmicrosoft.com.<b></font><br>
+A link to this email address is located at the bottom of the MIS Home Page.<br>
+</span><br>
+							
+							<br>
+
+						
+							<span class="ItemTitle">NASA Goddard Space Flight Center Quality Statement</span>
+								<br>
+							
+								<span class="Normal">The GSFC quality policy is to: <br>
+a.	Foster an engaged and empowered culture that leads in scientific research, engineering, technology development, and project management; <br>
+b.	Meet our commitments to customers; and <br>
+c.	Continually improve our processes<br>
+<br>
+Rich Barney, Code 300 Quality Representative</span><br>
+							
+							<br>
+
+						
+					
+						</td>
+					</tr>
+					</table><br>
+				</td>
+
+
+
+			
+
+
+
+			<td id="RightPane" width="230">
+				
+				<a name="skipalerts"><img src="./i/spacer.gif" alt="At the alerts area" border="0"></a>
+				<table width="98%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="left"><span id="_ctl5_Title1_ModuleTitle" class="Head">Alerts</span></td>
+					<td align="right"><a id="_ctl5_Title1_EditButton" class="CommandButton"></a></td>
+				</tr>
+				<tr>
+					<td colspan="2"><hr noshade size="1"></td>
+				</tr>
+				</table>
+				
+					<span id="_ctl5_AlertsHTML">
+					<table width="100%" border="0">
+					<tr>
+						<td class="Normal"><b>Please Login</b></td>
+					</tr>
+					</table>
+				
+				</span>
+				<br>
+				
+				<a href="#skipql"><img src="./i/spacer.gif" alt="Skip to Quick Launch" border="0"></a>
+		
+				<a href="#skipnews"><img src="./i/spacer.gif" alt="Skip to News, Upcoming Events and Calendar" border="0"></a>
+		
+			</td>
+
+
+			<td width="10">&nbsp;</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</form>
+
+
+
+
+
+   <!-- STANDARD FOOTER TABLE -->
+	<table>
+		<tr><td align="center"><img src="./i/nasalogo.gif" width="67" height="56" alt="NASA Logo" border="0"></td>
+		<td>
+		<div class="footer_bold">Application Support: <a class="footer_normal" href="mailto:csv-jpssmisrequests@nasa.onmicrosoft.com">csv-jpssmisrequests@nasa.onmicrosoft.com</a></div>
+		
+		<div class="footer_bold">Curator: <webpoc><a class="footer_normal" href="mailto:GSFC-DL-JPSSMIS-Techteam@mail.nasa.gov">LEO Division Tech Team</a></webpoc></div>
+		
+		<div class="footer_bold">Responsible NASA Official: <rno><a class="footer_normal" href="mailto:khrista.n.white@nasa.gov">Khrista.N.White</a></rno></div>
+		
+		<div class="footer_bold">Developed by: <a class="footer_normal" href="https://itcd.gsfc.nasa.gov/">Computing and Communications</a> <span class="footer">, Code 720</span></div>
+		
+		<div class="footer_bold"><a class="footer_normal" href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></div>
+		</td>
+		</tr>
+	</table>
+	<!-- END STANDARD FOOTER TABLE -->
+
+</body>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=GSFC" id="_fed_an_ua_tag"></script>
+</html>

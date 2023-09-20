@@ -1,0 +1,22 @@
+GET https://images-api.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Amz-Cf-Id: DtkirseLbPvq5KIaNA-FuyfHn3MXLM1I9xXXjasBHE0IIzM42TeDgg==
+< Referrer-Policy: same-origin
+< Via: 1.1 77c1752e5c6dfb050c6304b9d473a1e2.cloudfront.net (CloudFront)
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Cf-Pop: JFK50-P4
+< Access-Control-Allow-Headers: Origin,Content-Type,Accept,Authorization,X-Requested-With
+< Access-Control-Allow-Origin: *
+< Server: nginx/1.19.10
+< Date: Tue, 19 Sep 2023 06:01:41 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Cache: Miss from cloudfront
+< Content-Type: application/json
+< Access-Control-Allow-Methods: GET
+< Cache-Control: public, max-age=300, s-maxage=600
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 2
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< X-Content-Type-Options: nosniff

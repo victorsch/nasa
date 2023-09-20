@@ -1,0 +1,12 @@
+GET https://test.ccs.esmo.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:58:23 GMT
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Server: Constellation Coordination System
+< Set-Cookie: ASP.NET_SessionId=fg2wnkuz03ifpz1bp0yyd24s; path=/; secure; HttpOnly; SameSite=Lax

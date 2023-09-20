@@ -1,0 +1,15 @@
+GET http://pds.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://pds.jpl.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Xss-Protection: 1; mode=block
+< Vary: Origin
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: sywvyZmaRML0r3tJC1taYqGj42ailAP-iVzWKYaXJZk3Sl2mKMEnXA==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:06:56 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Via: 1.1 aa68d5eaf078dffca4154e55039dbb84.cloudfront.net (CloudFront)

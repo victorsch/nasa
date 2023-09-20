@@ -1,0 +1,16 @@
+GET https://external.jsc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Fri, 19 May 2023 18:14:58 GMT
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< X-Content-Type-Options: nosniff
+< X-Powered-By: appdat
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Using-Nginx-Controller: true
+< Etag: W/"6467bca2-413"
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:50:19 GMT

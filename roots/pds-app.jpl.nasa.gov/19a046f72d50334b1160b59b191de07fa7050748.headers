@@ -1,0 +1,11 @@
+GET http://pds-app.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Location: https://pds-app.jpl.nasa.gov/
+< Content-Length: 213
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:04:08 GMT

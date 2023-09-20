@@ -1,0 +1,10 @@
+GET https://umbra.nascom.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:53:49 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://umbra.nascom.nasa.gov/index.html/
+< Content-Length: 249
+< Content-Type: text/html; charset=iso-8859-1

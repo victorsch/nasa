@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="https://nbi.larc.nasa.gov/">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>NBI - Search</title>
+    <script src="js/jquery.3.5.1.min.js"></script>
+    <script src="js/jquery.main.js"></script>
+    <script src="js/jquery.clearable.js"></script>
+
+    <script src="js/jquery.fields.js"></script>
+
+    <script src="js/jquery.search.js"></script>
+
+    <script src="js/jquery.units.js"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=LARC&dclink=true"></script>
+  </head>
+
+  <body>
+<!-- BEGIN HEADER -->
+    <div id="header">
+      <div class="meatball">
+        <a href="http://www.nasa.gov/" target="_blank">
+          <img src="images/nasa-logo.png" alt="NASA" />
+        </a>
+      </div>
+      <div class="header-title">
+        <h1>National Aeronautics and Space Administration</h1>
+        <h2>Langley Research Center</h2>
+        <div id="skipnav">
+          <a href="#content" title="Skip to Content" accesskey="2">Skip Navigation (press 2)</a>
+        </div>
+      </div>
+      <div class="nasalinks">
+        <ul>
+  <!-- TOP 3 LINKS IN HEADER -->
+          <li><a href="http://www.nasa.gov/">Visit NASA.gov</a></li>
+          <li><a href="http://www.nasa.gov/centers/langley/">NASA Langley</a></li>
+          <li><a href="http://www.aeronautics.nasa.gov/atp/test_technology/force_measurement/index.html">NFMTC</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="menubar">
+      <div id="ptitle"><h1>National Balance Inventory</h1><h2>Search</h2></div>
+      <div id="menublock">
+        <ul>
+          <li><a href="/admin">Admin</a></li>
+          <li><a href="/help">Help</a></li>
+          <li><a href="/links">Links</a></li>
+          <li><a href="/hardware">Cal. Hardware</a></li>
+          <li><a href="/">Search</a></li>
+        </ul>
+      </div>
+    </div>
+    <a id="content"></a>
+    <!-- BEGIN CONTENT -->
+      <form action="results/" method="post">
+<div id="wrap">
+	<div class="contentsubtitle"><h3>Search by Name</h3></div>
+	<div class="content">
+		<div class="columncontainer">
+			<div class="column" style="width:100%">
+				<p><label for="balancename">Name, Model, ECN, or Serial Number:</label> <input type="text" class="valuebox large clearable" name="balancename" id="balancename"> <button type="submit" id="namesubmitbutton"> Search </button></p>
+				<p class="note">Note: Any text entered in this search box will override the search parameters below</p>
+			</div>
+		</div>
+	</div>
+	<div class="contentsubtitle"><h3>Search by Attributes</h3><span class="right">Units: <input name="units" type="radio" value="metric" id="units_m" > <label for="units_m">Metric</label> <input name="units" type="radio" value="us" id="units_u" checked> <label for="units_u">US</label></span></div>
+	<div class="content">
+		<div class="columncontainer">
+			<div class="column" style="width:33%">
+				<p>Include Structural Design Types:</p>
+				<div class="subcontentbar">
+					<input type="checkbox" name="DesignTypeStructural[]" value="Single-Piece Moment" id="dts_spm" checked><label for="dts_spm">Single-Piece Moment</label><br>
+					<input type="checkbox" name="DesignTypeStructural[]" value="Multi-Piece Force" id="dts_mpf" checked><label for="dts_mpf">Multi-Piece Force</label><br>
+					<input type="checkbox" name="DesignTypeStructural[]" value="Hybrid Force" id="dts_hf" checked><label for="dts_hf">Hybrid Force</label><br>
+					<input type="checkbox" name="DesignTypeStructural[]" value="Multi-Piece Moment" id="dts_mpm" checked><label for="dts_mpm">Multi-Piece Moment</label><br>
+				</div>
+			</div>
+			<div class="column" style="width:34%">
+				<p>Include Electrical Design Types:</p>
+				<div class="subcontentbar">
+					<input type="checkbox" name="DesignTypeElectrical[]" value="Direct Read" id="dte_dr" checked><label for="dte_dr">Direct Read</label><br>
+					<input type="checkbox" name="DesignTypeElectrical[]" value="Force" id="dte_f" checked><label for="dte_f">Force</label><br>
+					<input type="checkbox" name="DesignTypeElectrical[]" value="Moment" id="dte_m" checked><label for="dte_m">Moment</label><br>
+				</div>
+			</div>
+			<div class="column" style="width:33%">
+				<p>Design Feature:</p>
+				<div class="subcontentbar">
+					<input type="checkbox" name="DesignFeatures[]" value="DesignFeatFlowThru" id="df_ft"><label for="df_ft">Flow-Thru (Air Balance)</label><br>
+					<input type="checkbox" name="DesignFeatures[]" value="DesignFeatSemiSpan" id="df_ss"><label for="df_ss">Semi-Span</label><br>
+					<input type="checkbox" name="DesignFeatures[]" value="DesignFeatCoolingShield" id="df_cs"><label for="df_cs">Cooling Shield</label><br>
+					<input type="checkbox" name="DesignFeatures[]" value="DesignFeatPropBalance" id="df_pb"><label for="df_pb">Rotating or Prop Balance</label>
+				</div>
+			</div>
+		</div>
+		<div class="clearing"></div>
+		<hr>
+		<div class="columncontainer">
+			<div class="column" style="width:50%;">
+				<p><label class="fixedwidth" for="switch_fn">Normal Force</label> <select name="ForceNormalSwitch" class="switch" id="switch_fn"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="ForceNormalMin" placeholder="0"><span id="ForceNormalSwitchSpan"> to <input type="text" class="valuebox small clearable" name="ForceNormalMax" placeholder="&infin;"></span> <span class="usvalue">lb</span><span class="metricvalue">N</span></p>
+				<p><label class="fixedwidth" for="switch_fa">Axial Force</label> <select name="ForceAxialSwitch" class="switch" id="switch_fa"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="ForceAxialMin" placeholder="0"><span id="ForceAxialSwitchSpan"> to <input type="text" class="valuebox small clearable" name="ForceAxialMax" placeholder="&infin;"></span> <span class="usvalue">lb</span><span class="metricvalue">N</span></p>
+				<p><label class="fixedwidth" for="switch_fs">Side Force</label> <select name="ForceSideSwitch" class="switch" id="switch_fs"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="ForceSideMin" placeholder="0"><span id="ForceSideSwitchSpan"> to <input type="text" class="valuebox small clearable" name="ForceSideMax" placeholder="&infin;"></span> <span class="usvalue">lb</span><span class="metricvalue">N</span></p>
+			</div>
+			<div class="column" style="width:50%;">
+				<p><label class="fixedwidth" for="switch_mp">Pitch Moment</label> <select name="MomentPitchSwitch" class="switch" id="switch_mp"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="MomentPitchMin" placeholder="0"><span id="MomentPitchSwitchSpan"> to <input type="text" class="valuebox small clearable" name="MomentPitchMax" placeholder="&infin;"></span> <span class="usvalue">in-lb</span><span class="metricvalue">N-m</span></p>
+				<p><label class="fixedwidth" for="switch_my">Yaw Moment</label> <select name="MomentYawSwitch" class="switch" id="switch_my"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="MomentYawMin" placeholder="0"><span id="MomentYawSwitchSpan"> to <input type="text" class="valuebox small clearable" name="MomentYawMax" placeholder="&infin;"></span> <span class="usvalue">in-lb</span><span class="metricvalue">N-m</span></p>
+				<p><label class="fixedwidth" for="switch_mr">Roll Moment</label> <select name="MomentRollSwitch" class="switch" id="switch_mr"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="MomentRollMin" placeholder="0"><span id="MomentRollSwitchSpan"> to <input type="text" class="valuebox small clearable" name="MomentRollMax" placeholder="&infin;"></span> <span class="usvalue">in-lb</span><span class="metricvalue">N-m</span></p>
+			</div><br>
+		</div>
+		<div class = "columncontainer">
+			<div class="column" style="width:100%">
+				<p class="centered"><button id="loadreset" type="button"> Reset Loads </button></p>
+			</div>
+		</div>
+		<div class="clearing"></div>
+		<hr>
+		<div class="columncontainer">
+			<div class="column" style="width:50%">
+				<p><label class="fixedwidth" for="switch_sl">Length</label> <select name="SizeLengthSwitch" class="switch" id="switch_sl"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="SizeLengthMin" placeholder="0"><span id="SizeLengthSwitchSpan"> to <input type="text" class="valuebox small clearable" name="SizeLengthMax" placeholder="&infin;"></span> <span class="usvalue">in</span><span class="metricvalue">m</span></p>
+				<p><label class="fixedwidth" for="switch_sd">Diameter</label> <select name="SizeDiameterSwitch" class="switch" id="switch_sd"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="SizeDiameterMin" placeholder="0"><span id="SizeDiameterSwitchSpan"> to <input type="text" class="valuebox small clearable" name="SizeDiameterMax" placeholder="&infin;"></span> <span class="usvalue">in</span><span class="metricvalue">m</span></p>
+				<p><label class="fixedwidth" for="switch_std">Taper Diameter</label> <select name="SizeTaperDiameterSwitch" class="switch" id="switch_std"><option value="range">ranges from</option><option value="equal">equals</option></select> <input type="text" class="valuebox small clearable" name="SizeTaperDiameterMin" placeholder="0"><span id="SizeTaperDiameterSwitchSpan"> to <input type="text" class="valuebox small clearable" name="SizeTaperDiameterMax" placeholder="&infin;"></span> <span class="usvalue">in</span><span class="metricvalue">m</span></p>
+				<p class="centered"><button id="sizereset" type="button"> Reset Dimensions </button></p>
+			</div>
+			<div class="column" style="width:50%">
+			<p><input type="checkbox" id="RestrictFacility" name="restrictfacility"><label for="RestrictFacility">Restrict search to specific facilities:</label></p>
+				<div class="subcontentbar">
+					<select multiple id='FacilitySelect' name='FacilityName[]' size=11 style='margin-left:10px;'>
+					  
+                        <option value="AEDC-PWT">AEDC-PWT</option>
+                        <option value="AEDC-T9">AEDC-T9</option>
+                        <option value="AEDC-VKF">AEDC-VKF</option>
+                        <option value="AFRL">AFRL</option>
+                        <option value="Calspan Corp.">Calspan Corp.</option>
+                        <option value="Calspan FMS San Diego">Calspan FMS San Diego</option>
+                        <option value="NASA Ames">NASA Ames</option>
+                        <option value="NASA Glenn">NASA Glenn</option>
+                        <option value="NASA Langley">NASA Langley</option>
+                        <option value="NASA Marshall">NASA Marshall</option>
+                        <option value="Sandia">Sandia</option>
+            					</select>
+				</div>
+			</div>
+		</div>
+		<div style="clearing"></div>
+		<div class="columncontainer">
+			<div class="column" style="width:100%">
+				<p class="centered"><button type=submit name="fullsearchbutton"> Search </button> <button type="button" id="allreset"> Reset All </button></p>
+			</div>
+		</div>
+	</div>
+	<div style="clearing"></div>
+</div>
+</form>
+<!-- BEGIN FOOTER -->
+    <div id="footerwrap">
+      <div id="footer">
+        <div class="meatball">
+          <a href="http://www.nasa.gov/" target="_blank">
+            <img src="images/nasa-logo.png" alt="NASA" />
+          </a>
+        </div>
+        <div class="footer-title">
+          <h2>NASA Responsible Official: <a href="mailto:pacita.i.tiemsin@nasa.gov">Pacita I.Tiemsin</a></h2>
+          <h3>Last Updated: 21 Aug 2023</h3>
+        </div>
+        <div class="nasalinks">
+          <ul>
+            <li><a href="http://www.nasa.gov/">Visit NASA.gov</a></li>
+            <li><a href="http://www.nasa.gov/centers/langley/">NASA Langley</a></li>
+            <li><a href="http://www.aeronautics.nasa.gov/atp/test_technology/force_measurement/index.html">NFMTC</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

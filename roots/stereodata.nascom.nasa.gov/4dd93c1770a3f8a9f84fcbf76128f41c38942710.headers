@@ -1,0 +1,9 @@
+GET http://stereodata.nascom.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:01:16 GMT
+< Server: Apache
+< Location: https://stereo-ssc.nascom.nasa.gov/
+< Content-Length: 243
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,8 @@
+GET http://dev15test.ngap.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 19 Sep 2023 05:41:27 GMT
+< Content-Type: text/html
+< Content-Length: 118
+< Server: awselb/2.0

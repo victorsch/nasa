@@ -1,0 +1,12 @@
+GET https://cmar.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:57:23 GMT
+< Content-Length: 499
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-43748698-72b3-454b-b470-a8f074c6a7d5&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-KZ3%2fmNYMduFK3pRCq9m1225OJofT6EfCHcB%2fQEQGge%2fB1XJmFxeVUEjGQ4qNhh%2fT&TARGET=-SM-https%3a%2f%2fcmar%2elarc%2enasa%2egov%2f

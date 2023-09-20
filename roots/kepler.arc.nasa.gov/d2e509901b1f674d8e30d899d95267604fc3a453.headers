@@ -1,0 +1,13 @@
+GET https://kepler.arc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:03:10 GMT
+< Via: 1.1 20068bd484823d12a57ecea8a9946b6c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Amz-Cf-Id: aBv1rSDbC8zR7JAsh23YfnsG-B9PPDgIHu3CW1sbgXTXPFtRAOhBSg==
+< Content-Length: 0
+< Server: CloudFront
+< Location: https://www.nasa.gov/mission_pages/kepler/main/index.html
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: LambdaGeneratedResponse from cloudfront

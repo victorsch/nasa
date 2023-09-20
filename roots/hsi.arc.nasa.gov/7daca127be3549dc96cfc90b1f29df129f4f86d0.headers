@@ -1,0 +1,14 @@
+GET https://hsi.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Expires: Tue, 19 Sep 2023 09:55:25 GMT
+< Cache-Control: max-age=14400
+< X-Content-Type-Options: nosniff
+< X-Proxy-Cache: HIT
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:55:25 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN

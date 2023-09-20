@@ -1,0 +1,9 @@
+GET http://sservi.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 134
+< Location: https://sservi.arc.nasa.gov:443/
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:59:55 GMT
+< Content-Type: text/html

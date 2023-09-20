@@ -1,0 +1,11 @@
+GET http://mynasadata.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://mynasadata.larc.nasa.gov//
+< Content-Length: 242
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:03:20 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: ALLOW-FROM https://mynasadata.larc.nasa.gov/

@@ -1,0 +1,9 @@
+GET http://oltaris.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:53:46 GMT
+< Server: Apache
+< Location: https://oltaris.larc.nasa.gov/
+< Content-Length: 238
+< Content-Type: text/html; charset=iso-8859-1

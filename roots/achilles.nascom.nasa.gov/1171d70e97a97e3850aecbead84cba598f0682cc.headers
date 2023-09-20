@@ -1,0 +1,10 @@
+GET http://achilles.nascom.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:54:40 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Location: https://achilles.nascom.nasa.gov/
+< Content-Length: 241

@@ -1,0 +1,25 @@
+GET https://mcst.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Vary: Cookie
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Generator: Drupal 9 (https://www.drupal.org)
+< X-Drupal-Dynamic-Cache: MISS
+< Last-Modified: Tue, 19 Sep 2023 04:48:27 GMT
+< Etag: "1695098907"
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:56:23 GMT
+< X-Ua-Compatible: IE=edge
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=600, public
+< Content-Language: en
+< X-Xss-Protection: 1
+< From-Origin: same
+< X-Drupal-Cache: HIT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< Strict-Transport-Security: max-age=31536000

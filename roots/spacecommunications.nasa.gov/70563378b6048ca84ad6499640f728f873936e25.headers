@@ -1,0 +1,10 @@
+GET http://spacecommunications.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.scan.nasa.gov/
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Date: Tue, 19 Sep 2023 06:03:16 GMT
+< Content-Length: 149

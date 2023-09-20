@@ -1,0 +1,12 @@
+GET https://kauai.ccmc.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:56:30 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+< Etag: "4f-5b727eee097f7"
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Last-Modified: Wed, 23 Dec 2020 20:57:02 GMT
+< Content-Length: 79

@@ -1,0 +1,18 @@
+GET https://cxpraca.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Delivered-By: CGI
+< X-Content-Type-Options: nosniff
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Content-Security-Policy: default-src 'self' *.nasa.gov ; script-src 'self' *.nasa.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:54:46 GMT
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache, no-store, must-revalidate
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Expires: 0

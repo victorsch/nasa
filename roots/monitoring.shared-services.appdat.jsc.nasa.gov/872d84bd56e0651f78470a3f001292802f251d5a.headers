@@ -1,0 +1,14 @@
+GET http://monitoring.shared-services.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Location: https://monitoring.shared-services.appdat.jsc.nasa.gov
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:43:42 GMT
+< Content-Type: text/html
+< Content-Length: 164

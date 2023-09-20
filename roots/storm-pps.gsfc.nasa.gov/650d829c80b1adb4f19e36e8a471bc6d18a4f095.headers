@@ -1,0 +1,14 @@
+GET https://storm-pps.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 509
+< Content-Security-Policy: frame-ancestors 'self' https://arthurhou.pps.eosdis.nasa.gov;
+< Last-Modified: Thu, 12 Mar 2015 20:08:32 GMT
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Etag: "1fd-5111cf2b11000"
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:49:35 GMT
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k mod_qos/11.70 mod_wsgi/4.6.4 Python/3.6 mod_jk/1.2.48
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

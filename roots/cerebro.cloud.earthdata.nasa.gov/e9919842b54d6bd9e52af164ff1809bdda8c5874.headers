@@ -1,0 +1,16 @@
+GET http://cerebro.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:41:25 GMT
+< Location: https://cerebro.cloud.earthdata.nasa.gov/
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: e19vIt9X_nVGkHrExuEqLR2-NXa2wm014fnkIIjmN_dVgUSwLVi1Ww==
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 4ec5361277f6487ae5a8f880297d598c.cloudfront.net (CloudFront)
+< Content-Length: 167
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html

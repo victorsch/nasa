@@ -1,0 +1,16 @@
+GET http://access.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 8db0da5790a86a83533944290a7dab9a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: 95s6bjM8KLs_kayy8Ky0Or1YgeF-6lV1zNkMw6jz6DKGEdfxR2ax_g==
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 167
+< Location: https://access.earthdata.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Content-Type: text/html
+< X-Xss-Protection: 1; mode=block
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:05:14 GMT
+< X-Amz-Cf-Pop: PHL50-C1

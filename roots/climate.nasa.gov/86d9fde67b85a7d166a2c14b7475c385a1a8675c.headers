@@ -1,0 +1,13 @@
+GET http://climate.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Length: 167
+< Location: https://climate.nasa.gov/
+< X-Amz-Cf-Id: wgbd5DwYM11SOxwBIhzHXhFwb5Ga_Qi-ldcRqZH9cIVF7QSeytrCxQ==
+< X-Amz-Cf-Pop: PHL51-P1
+< Date: Tue, 19 Sep 2023 05:44:39 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 1f8f39239caa9483a95872353afdef00.cloudfront.net (CloudFront)

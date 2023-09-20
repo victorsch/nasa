@@ -1,0 +1,14 @@
+GET https://support.sewp.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:59:49 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Access-Control-Max-Age: 1000
+< Access-Control-Allow-Headers: X-Requested-With, x-UserToken, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding
+< X-Frame-Options: DENY
+< Content-Length: 231
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT
+< Location: https://sewpprod.servicenowservices.com/support
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,10 @@
+GET http://techport.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:56:18 GMT
+< Location: https://techport.nasa.gov/
+< Server: NASA/1.0
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 234
+< Content-Type: text/html; charset=iso-8859-1

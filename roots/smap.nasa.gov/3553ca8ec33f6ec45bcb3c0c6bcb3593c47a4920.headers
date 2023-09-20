@@ -1,0 +1,7 @@
+GET http://smap.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Location: https://smap.nasa.gov/

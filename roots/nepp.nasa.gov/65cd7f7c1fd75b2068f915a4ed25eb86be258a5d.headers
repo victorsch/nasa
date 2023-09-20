@@ -1,0 +1,15 @@
+GET https://nepp.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Referrer-Policy: no-referrer
+< Server: Atari Lynx
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store, must-validate, private
+< Date: Tue, 19 Sep 2023 05:57:50 GMT
+< Content-Type: text/html;charset=utf-8
+< Vary: Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block

@@ -1,0 +1,13 @@
+GET http://science.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: NkR-w2B8d78mqseFqiZXpxg7lEcRoNboyC9V4RttBTmjjo3HXtxmhg==
+< Server: CloudFront
+< Location: https://science.nasa.gov/
+< Via: 1.1 18235244f92adbfef142c197cb3eac0c.cloudfront.net (CloudFront)
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< Date: Tue, 19 Sep 2023 05:57:16 GMT
+< Content-Type: text/html
+< Content-Length: 167

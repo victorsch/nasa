@@ -1,0 +1,12 @@
+GET https://lvis.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: WebServer/1.0
+< Content-Length: 64
+< Content-Type: text/html
+< Date: Tue, 19 Sep 2023 06:00:46 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: upgrade-insecure-requests

@@ -1,0 +1,18 @@
+GET https://juno-uls.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Frame-Options: deny
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Location: login.php
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Set-Cookie: uls_session=6aijrfvo4l485fn6al3lft4ai4a6egnjbrcnh00gb5bpbmtpemlee4ae7i17h1v01vm6gdjbg4cpukgtvsjom21r08oq611nv9ut513; expires=Wed, 20-Sep-2023 05:57:53 GMT; path=/; secure; HttpOnly
+< Pragma: no-cache
+< Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'
+< Content-Length: 0
+< Date: Tue, 19 Sep 2023 05:57:53 GMT

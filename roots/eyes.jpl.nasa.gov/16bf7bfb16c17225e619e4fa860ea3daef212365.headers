@@ -1,0 +1,19 @@
+GET https://eyes.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Age: 76710
+< Last-Modified: Tue, 22 Aug 2023 11:58:05 GMT
+< Accept-Ranges: bytes
+< X-Amz-Cf-Pop: JFK50-P3
+< X-Cache: Hit from cloudfront
+< Via: 1.1 f07e3fd03d3423bceb1c6083ab62cf8a.cloudfront.net (CloudFront)
+< Content-Length: 12784
+< X-Amz-Server-Side-Encryption: AES256
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< Access-Control-Allow-Origin: *
+< Server: AmazonS3
+< Date: Mon, 18 Sep 2023 08:46:05 GMT
+< Etag: "d3840e94d1a27f86c311c1211eda17a6"
+< Content-Type: text/html
+< X-Amz-Cf-Id: OJZHL1LhGpsgm7_6CZSrnlAqRYuy1fQnZSnGeoI2fHbus5YeftNmlQ==

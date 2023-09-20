@@ -1,0 +1,13 @@
+GET https://mas.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Last-Modified: Wed, 25 Mar 2020 00:13:52 GMT
+< Accept-Ranges: bytes
+< Date: Tue, 19 Sep 2023 05:58:38 GMT
+< Etag: "d62-5a1a2be3d1000-gzip"
+< Content-Type: text/html; charset=UTF-8

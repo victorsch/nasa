@@ -1,0 +1,16 @@
+GET http://dashboard-hector.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: JFK52-P2
+< Content-Type: text/html
+< Via: 1.1 e58d56c2f23391dd5609aad3656901ce.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:43:03 GMT
+< Location: https://dashboard-hector.ngap.sit.earthdata.nasa.gov/
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: ayKOyvC9et-C1Oxx6OUL61rEwXh77ryKLPrdxGd0zrGIsR4aqTcReA==
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 167

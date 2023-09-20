@@ -1,0 +1,13 @@
+GET http://nmo.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 f26a1d19b20e4cf5dd8998779bc5b1fc.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:00:55 GMT
+< Content-Length: 167
+< Location: https://nmo.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK52-P4
+< X-Amz-Cf-Id: VC61F2yQIPzH7cKBEsGT7Tyay853A67qThw00lPiqGmF6LEto6DtVQ==

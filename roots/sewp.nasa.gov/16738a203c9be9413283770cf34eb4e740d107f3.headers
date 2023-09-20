@@ -1,0 +1,15 @@
+GET https://sewp.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Accept-Ranges: bytes
+< Date: Tue, 19 Sep 2023 05:53:38 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT
+< Access-Control-Allow-Headers: X-Requested-With, x-UserToken, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding
+< Vary: Origin
+< Server: Apache
+< Access-Control-Max-Age: 1000
+< X-Frame-Options: DENY
+< Content-Language: en

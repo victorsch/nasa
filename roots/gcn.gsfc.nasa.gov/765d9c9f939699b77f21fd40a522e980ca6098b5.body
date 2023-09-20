@@ -1,0 +1,875 @@
+<html><head><title>GCN</title>
+
+<META name="orgcode" content="660">
+<META name="rno" content="Phillip.A.Newman.1">
+<META name="content-owner" content="Judith.Racusin">
+<META name="webmaster" content="Judith.Racusin">
+<META name="description" content="Gamma-ray Coordination Network provides
+the distribution of GRB (and other transients) locations detected by various spacecraft and distributes to the world community 
+prose-style e-mail messages (and socket packets) about follow-up observations on various GRBs/transients.">
+<META name="keywords content="gamma ray, gamma-ray, burst, transients">
+
+
+<script language="JavaScript1.2">
+
+/*
+Change Cell Backgrounds -
+&copy; Shivaji Basu (www.shivbasu.com)
+To add more shock to your site, visit www.DHTML Shock.com
+*/
+
+function cOn(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#006699";
+}
+}
+
+function cOut(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#666666";
+}
+}
+
+function gofOut(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#000000";
+}
+}
+
+function epoOut(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#dd0000";
+}
+}
+
+function liteOut(td){
+if(document.getElementById||(document.all && !(document.getElementById))){
+td.style.backgroundColor="#999999";
+}
+}
+</script>
+
+<link type=text/css rel=stylesheet href="portal.css">
+<link rel="stylesheet" type="text/css" href="print.css" media="print">
+
+<script type=text/javascript language="JavaScript">
+var dtt_agent = navigator.userAgent.toLowerCase();
+var dtt_isAlpha = dtt_agent.indexOf("alpha") != -1
+var dtt_isOSF = dtt_agent.indexOf("osf1") != -1
+var dtt_isSunOS = dtt_agent.indexOf("sunos") != -1
+if (dtt_isAlpha || dtt_isOSF || dtt_isSunOS) {
+    document.write('<link type=text/css rel=stylesheet href="portal_osf.css">\n');
+}
+</script>
+
+<script language="javascript" id="_fed_an_ua_tag"
+   src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC"></script>
+
+
+</head>
+<body topmargin="0" bgcolor="#000000">
+
+<a href="#content"><img alt="skip to content" src="/Images/pixel.gif" width=1 height=1></a>
+
+
+<!-- main white cell -->
+<table width=750 cellpadding=0 border=0 align="center" valign=top bgcolor="#FFFFFF">
+
+<tr>
+<td>
+<!-- DO NOT DELETE THIS FILE. IF YOU DO, YOU'LL GET AN ERROR ON YOUR WEB PAGES. -->
+<!-- THE MASTER FILE RESIDES AT /universe/htdocs/universe/downtime.inc -->
+<!-- THAT FILE SHOULD BE EDITED TO COMMENT OUT THE CONTENT WHEN IT'S NOT NEEDED. -->
+<!--
+<div align="center">
+<table style="border: 2px solid black; background-color:white; color: black;padding:5px;width:80%">
+<tr><td align="center">
+<span style="font-size: 12pt;">There will be a network outage, Wednesday May 2, 2018 from 19:00 EDT - 23:59 EDT. All services, web sites, and systems that require access to the internet will be affected by this work.</span>
+</td></tr>
+</table>
+</div>
+<br>
+-->
+
+&nbsp;
+<DIV class="navigation">
+
+<!-- NASA header & search box-->
+        <table border=0 width=730 cellpadding=0 align=center valign=top>
+        <tr>
+        <td bgcolor="#cccccc" width=271><a href="http://www.gsfc.nasa.gov/"><img
+        src="head_nasa.gif" width="271" height="63" alt="Goddard Space Flight Center"
+        border="0"></a></td>
+        <td bgcolor="#cccccc" width=100>
+&nbsp;  <a class="news" href="faq.html">GCN Help/FAQ</a><br>
+&nbsp;  <a class="news" href="whats_new.html">GCN What's New</a><br>
+&nbsp;  <a class="news" href="http://www.nasa.gov/">NASA Homepage</a><br>
+        </td>
+    <td width="181" bgcolor="#006699" align="center" valign="middle"><label for 
+class="sectionLnk"searchfield><font color=#ffffff>SEARCH NASA</font></label>
+        <form method="get" action="http://search.nasa.gov/nasasearch/search/search.jsp">
+          <input type="textbox" name="nasaInclude2"  id="nasaInclude" size="10" maxlength="200" value="">
+          <input alt="search" type="image" height="18" width="17" src="/head_searchgo.gif" name="search2" 
+border="0">
+        </form>
+
+    </td>
+        
+</tr></table>
+</DIV>        
+</td></tr>
+
+
+
+<tr><td>
+<DIV class="navigation">
+        <table width=730 cellpadding=3 align=center><tr align=center>
+        <td bgcolor="#006699" onClick="location.href='http://gcn.gsfc.nasa.gov/'">
+        <a class="menu" href="http://gcn.gsfc.nasa.gov/">GCN&nbsp;HOME</a></td>
+
+        <td bgcolor="#666666" onMouseOver="cOn(this);" onMouseOut="cOut(this);" 
+onClick="location.href='about.html'">
+        <a class="menu" href="about.html">ABOUT GCN</a></td>
+
+        <td bgcolor="#666666" onMouseOver="cOn(this);" onMouseOut="cOut(this);" 
+onClick="location.href='burst_info.html'">
+        <a class="menu" href="burst_info.html">BURST/TRANS&nbsp;INFORMATION</a></td>
+
+        <td bgcolor="#666666" onMouseOver="cOn(this);" onMouseOut="cOut(this);" 
+onClick="location.href='membership.html'">
+        <a class="menu" href="membership.html">MEMBERSHIP</a></td>
+
+        <td bgcolor="#666666" onMouseOver="cOn(this);" onMouseOut="cOut(this);" 
+onClick="location.href='archives.html'">
+        <a class="menu" href="archives.html">ARCHIVES</a></td>
+
+        <td bgcolor="#666666" onMouseOver="cOn(this);" onMouseOut="cOut(this);" 
+onClick="location.href='search.html'">
+        <A class="menu" HREF="search.html">SEARCH&nbsp;GCN&nbsp;FOR&nbsp;BURSTS</A></td>
+        </tr></table>   
+</DIV>
+</td></tr>
+
+<!-- supressing image
+<tr>
+<td cellpadding=3 align=center><img alt="GRB Coordinates Network" src="gcnbanner.jpg"></td>
+</tr>
+-->
+
+<tr><td>
+<p align=center>
+<table border=0 valign=top width=730 cellpadding=5><tr><td valign=top>
+
+
+
+
+<h1>GCN: The Gamma-ray Coordinates Network (TAN: Transient Astronomy Network)</h1>
+<p>
+<!--
+<font color="#ff0000">
+The processing of Circulars to the Archive page has stopped (since ~00:00 UT 01 Dec 2020).<br>
+(The Circulars ARE BEING DISTRIBUTED -- it is only the archive web page that is having a problem.)<br>
+-->
+<!--
+<font color="#ff0000">
+GCN was down breifly (Notices and Circulars) from 20:35 to 20:52 and 21:06 to 21:09 UT 11 Nov 2020.<br>
+-->
+<!--
+GCN IS UP (Notices and Circulars) AS OF ~19:43 UT Thu 05 Nov 2020.<br>
+-->
+<!--
+GCN IS DOWN AS OF ~03:30 UT Wed 05 Nov 2020.  COMPUTER PROBLEMS; WORK IS IN PROGRESS.<br>
+-->
+<!--
+GCN IS BACK UP IN FULL OPERATION: NOTICES and CIRCULARS.<br>
+GCN WAS DOWN (Notices only) FROM ~21:49 ut 04nov20 to ~01:05 ut 05nov20 (~3 hrs)<br>
+GCN IS BACK UP IN FULL OPERATION: NOTICES and CIRCULARS.<br>
+GCN WAS DOWN FROM ~04:11 ut 04nov20 to ~19:30 ut 04nov20 (~15 hrs)<br>
+GCN IS DOWN AS OF ~04:30 UT Wed 04 Nov 2020.  COMPUTER PROBLEMS; WORK IS IN PORGRESS.<br>
+BOTH NOTICES AND CIRCULARS ARE DOWN.<br>
+<p>
+-->
+<!--
+GCN IS STILL DOWN AS OF 11:15 UT Monday.
+-->
+<!--
+<br>
+<br>
+GCN IS BACK UP IN FULL OPERATION: NOTICES and CIRCULARS.<br>
+GCN WAS DOWN FROM ~22:00 ut 18oct20 to ~13:30 ut 19oct20 (~15 hrs)<br>
+<br>
+<br>
+-->
+<!--
+<p>
+<font color="#ff0000">
+Posted 30 Aug 2020:<br>
+One of the GCN VOevent servers (209.208.78.170) was, down from ~12:10 to ~12:20UT.<br>
+<p>
+
+<font color="#ff0000">
+Posted 31 Jul 2020:<br>
+The ICECUBE_CASCADE notice type was added to GCN.<br>
+<p>
+-->
+<!--
+<font color="#ff0000">
+Posted 25 Jul 2020:<br>
+<p>
+The power was out for the key buildings handling the center-wide Internet.<br>
+This started at 14:02 UT and resumed connections and distributions at 17:07 UT.<br>
+-->
+<!--
+<font color="#ff0000">
+Posted 22 Jul 2020:<br>
+<p>
+There may be interruptions to/from GCN (incoming and outgoing; Notices and/or Circulars) from 23:00 22 July to 04:00 UT 23 Jul 2020<br>
+while GSFC-wide internet tests are being done.  The interruptions are expected to be short (~5 min).<br>
+-->
+<!--
+<font color="#ff0000">
+Posted 07 Jun 2020:<br>
+<p>
+A mistake in the processing code within GCN blocked the distribution of two CALET notices, two MAXI notice and 9 Fermi_GBM_Subthreshold.<br>
+This blockage occurred from 00:00 01 Jun to 16:00  07 Jun 2020 UT and was specific to only these 3 notice types.<br>
+-->
+<!--
+<font color="#ff0000">
+GCN will be down on Thur Feb 25 from 00:00 to 04:00 UT due to a center-wide network border reconfiguration.<br>
+There will be 2 - 4 intermitant interuptions mostly occurring in the first hour, and less so as the time increases to 04:00 UT.<br>
+-->
+<!--
+<font color="#ff0000">
+The installation of the new server computer is completed;<br>
+Specifically, the computer ID was 68.169.57.253. It handles 3 of the nine VOEvent streams.<br>
+The down time was from 18:57 to 19:38 UT. Expected time was 19:00 to 20:00 UT.<br>
+-->
+<!--
+<font color="#ff0000">
+GCN Notices (collection and distribution) was down from 21:50 to 23:12 UT (delta_T=1.4 hrs), 17 Mar 2021.<br>
+(Only the notices were down; the Circulars operated without problems.)<br>
+<p>
+Posted 23 Mar 2020 (updated 27 Mar 2020, 04 Apr 2020, 03 May 2020, 08 May 2020; 10 Aug 2020, and 18 Oct 20):<br>
+-->
+
+<!--
+<p>
+<font color="#ff0000">
+There was a power outage to GCN from 08:03UT to 11:50 UT Sep 01, 2021 (down-time was 3.75 hrs).
+<br>
+-->
+
+<!--
+<p>
+<font color="#ff0000">
+The voevent cloud server atlantic was down from 10:45 UT to 16:32 UT Sep 12, 2021 (down-time was 5.47 hrs)<br>
+due to network connection problems.  The other 8 voevent cloud servers were fine.<br>
+<br>
+-->
+
+<!--
+The new TACH archive of the GCN Notices & Circulars is accesible through the GCN Viewer at<br>
+<a href=https://heasarc.gsfc.nasa.gov/tachgcn>https://heasarc.gsfc.nasa.gov/tachgcn</a><br>
+<br>
+-->
+<!--
+    <p>
+    <font color="#ff0000">
+    <h2>
+        GCN Classic Outage Due to Local Network Maintenance
+    </h2>
+    Due to planned network maintenance at GSFC, the connections to GCN Classic will be offline on Saturday, May 6 from 8AM ET (12:00 UTC) and concluding no later than 3PM ET (19:00 UTC). This affects the following GCN services:
+    </font>
+</p>
+<ul>
+    <font color="#ff0000">
+    <li>GCN Classic Notices distribution via socket, VOEvent, and email</li>
+    <li>GCN Classic Notices web site archive</li>
+    <li>GCN Classic-to-Kafka connection and distribution of Notices via Kafka and email</li>
+    <li>Forwarding of GCN Circulars submitted to gcncirc@capella2.gsfc.nasa.gov, however submission to circulars@gcn.nasa.gov and the web form will be unaffected.</li>
+    </font>
+</ul>
+-->
+<div style="border: 1px solid #000; padding-left: 1em; padding-bottom: 1em; padding-right: 1em; background-color: #FFFFE0">
+<h2>
+Introducing the New GCN: Kafka Broker, Circulars Service, and Website <a href="https://gcn.nasa.gov">https://gcn.nasa.gov</a>
+</h2>
+
+<p>
+We are pleased to introduce the new General Coordinates Network, the evolution of the Gamma-ray Coordinates Network (now referred to as GCN Classic, this website) using modern, open-source, reliable, and secure alert distribution technologies that have been established by the broader astronomy community and promoted by the Vera C. Rubin Observatory.
+</p>
+<p>
+GCN has a redesigned website, <a href="https://gcn.nasa.gov">https://gcn.nasa.gov</a> and a new improved method of streaming GCN Notices called GCN Classic over Kafka, and a self-service configuration of GCN Notices over Email. All three classic GCN Notice formats (text, VOEvent, 160-byte binary packet) are now also available over Kafka or self-service email. This new Kafka streaming service can be used as a drop-in replacement for GCN Classic socket and VOEvent subscribers, and the self-service emails replace GCN Classic Notice subscriptions.
+</p>
+<p>
+The web site that you are viewing now (the old GCN Classic web site) and the legacy socket and VOEvent delivery methods will continue to be supported for the foreseeable future. However, new features and notice types will only be available on the new web site and GCN Kafka.
+</p>
+<h3>Effective April 17, 2023:</h3>
+<h3 style="line-height: 0em">The modernized GCN Circulars experience is part of the <a href="https://gcn.nasa.gov/circulars">new GCN web site</a>, where you can</h3>
+<ul>
+    <li>Browse and search Circulars in our all-new archive.</li>
+    <li>Sign up for and manage your own email subscriptions.</li>
+    <li>Enroll yourself and your colleagues to submit Circulars with arXiv-style peer endorsements for new contributors.</li>
+    <li>Submit Circulars with our new Web form, or continue to submit by email.</li>
+</ul>
+
+<h3 style="line-height: 0em">This legacy GCN Classic Circulars service has been disabled.</h3>
+<ul>
+    <li>All legacy accounts are transferred to the new system. </li>
+    <li>The <a href="https://gcn.gsfc.nasa.gov/gcn3_archive.html">legacy archive</a> is frozen.</li>
+    <li>Email submissions to the old address will be forwarded to the new system and processed normally.  We encourage use of the <a href="https://gcn.nasa.gov/news">new submission address</a>.</li>
+</ul>
+
+For questions, please contact the <a href="https://gcn.nasa.gov/contact">GCN Team</a>.
+</div>
+
+<!--
+<p>
+<font color="#ff0000">
+<p>
+14 Feb 2022:  There was trouble in printing and processing of Circular #31590.
+<p>
+<p>
+<font color="#ff0000">
+<p>
+27 Dec 2021:  Earlier today an acciedent in processing caused some old email Notices to be resent.
+There were 3 intervals of old Notices from short windows of time: Oct 23, Nov 01, and Dec 04, 2021.
+They were correct Notices of their time and content, but just retransmitted (duration of ~1 hour
+between 06:40 to 07:40 UT today).  This occurred for only those recpients that use the email method.
+We apologize for the confusion that occurred.
+<p>
+<p>
+03 Nov 2021:  The Time-domain Astronomy Coordination Hub (TACH) project is pleased to announce a<br>
+new community tool to access the archive of GCN Notices and Circulars.  The GCN Viewer<br>
+ingests new notices and circulars in real time, and associates events detected by multiple<br>
+facilities, providing useful categorization and searchability.  This first public release of the<br>
+GCN Viewer provides this functionality, and new features will be added with forthcoming releases.<br>
+The new TACH archive of the GCN Notices & Circulars is accesible through the GCN Viewer at<br>
+<a href=https://heasarc.gsfc.nasa.gov/tachgcn>https://heasarc.gsfc.nasa.gov/tachgcn</a><br>
+<br>
+
+
+
+<p>
+<font color="#ff0000">
+Posted 23 Mar 2020 (last updated 18 Oct 20):<br>
+Due to the policies and constraints during the CoronaVirus pandemic,<br>
+my response to your requests and questions may not be as fast as normal.<br>
+Example: changes to your site_configuration may take up to 7 days (instead of the usual 2-4 days).<br>
+Being at home teleworking, requires making the site_config file change a remote operation instead of the normal on-site operation.<br>
+Which is doable, but I try to keep that method to a minimum.  I will wait longer to do the file change<br>
+or I will use a weekly 4-hr pass to do work on-site.<br>
+
+-->
+<!--
+<font color="#ff0000">
+Posted 09 Mar 2020.<br>
+<p>
+An LVC_PRELIMINARY Notice and LVC_INITIAL Notice labeled S200309cm was accidentally distributed<br>
+to 20 recipients.  This was due to a bug in the Playback LVC GCN and the real GCN.<br>
+The S200309cm (TrigTime 10:52:57.9 UT, CBC, MBTAOnline) is NOT a real astrophysical event.<br>
+It is a practice event that accidentally got distributed via the regular GCN sytem.<br>
+My sincere apologies to those who received this bogus/practice event.<br>
+-->
+<!--
+<font color="#ff0000">
+Posted 14 Nov for a 16 Nov 2019 Event.<br>
+<p>
+The electrical power for the Goddard Internet access is expected to go down for 20-30 min interval<br>
+some time in the 12 - 19 UT time window on the 16th Nov (Saturday).<br>
+This will stop (a) all Notice deliver (all formats) and (b) all Circulars.<br>
+-->
+
+<!--
+<font color="#ff0000">
+Posted 24 Oct 2019.<br>
+<p>
+The Extra UVOT IMAGES for the two recent bursts:<br>
+<p>
+The two most recent Swift detected GRBs have generated extra UVOT images,<br>
+at longer times after the burst trigger time than is usual (hours).<br>
+<p>
+The extra images are the result of a misconfigured parameter in the<br>
+TOO commands used to performed follow-up observations on the given burst,<br>
+which caused UVOT to produce products usually only generated during<br>
+the immediate Burst Response mode. This error has been fixed going forward,<br>
+and we believe UVOT should not for future follow-up generate these additional images.<br>
+-->
+
+<!--
+<font color="#ff0000">
+Posted 12 Oct 2019.<br>
+<p>
+There is a problem with my sbarthel@milkyway.gsfc.nasa.gov (also aliased as scott@milkyway.gsfc.nasa.gov);<br>
+I am not receiving ~60% of what is being sent. It has been doing this since middle of 11 oct 2019.<br>
+Please email to scott.d.barthelmy@nasa.gov .  &nbsp;&nbsp;&nbsp;&nbsp;And you should resend anything in the last day or two.<br>
+<br>
+<br>
+<br>
+-->
+
+<!--
+<font color="#ff0000">
+Posted 15 Oct 2019 12:30 ET.<br>
+GCN VOEvent cloud-computer 209.208.78.170 is back up and running as of ~12:20 ET !!!!<br>
+-->
+<!--
+<p>
+Posted 15 Oct 2019 12:00noon ET.<br>
+We are having problems bringing the system back up.  The cloud server company is trying to figure out what went wrong.<br>
+Stand by.<br>
+The other IPnums and ports listed below are redundant servers.<br>
+<p>
+<font color="#000000">
+Posted 06 Oct 2019.<br>
+<p>
+GCN VOEvent cloud-computer 209.208.78.170 will be taken off-line at 15:00 UT (Tue, Oct 15, 2019) (11:00 EDT)<br>
+to upgrade the system (increased memory and disk space).  The upgrade will take 15-20 minutes.<br>
+This upgrade will be done to 3 of the 9 GCN VOEvent server streams (the other 6 streams already have the bigger memories & disks).<br>
+This cloud computer was the first server in the GCN cloud.  The 3 streams involved in the upgrade are:<br>
+209.208.78.170 &nbspports:&nbsp;&nbsp; 8099 (public, version 1.1),&nbsp;&nbsp; 8092 (private, ver 1.1),&nbsp; &&nbsp; 8096 (private, ver 2.0).<br>
+<p>
+In the cluster of GCN VOEvent servers, the redundant servers are<br>
+(pick the server that matches (a) your public-vs-private and (b) version number of your VOEvents you currently receive):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50.116.49.68&nbsp;&nbsp;&nbsp; : port 8099, public,&nbsp;&nbsp;&nbsp;&nbsp; version 1.1,&nbsp;&nbsp; vetted & anonymous;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68.169.57.253&nbsp; : port 8092, private,&nbsp;&nbsp; version 1.1,&nbsp;&nbsp; vetted only;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50.116.49.68&nbsp;&nbsp;&nbsp; : port 8096, private,&nbsp;&nbsp; version 2.0,&nbsp;&nbsp; vetted only;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68.169.57.253&nbsp; : port 8096, private,&nbsp;&nbsp; version 2.0,&nbsp;&nbsp; vetted only.<br>
+to which all vetted and anonymous sites can switch to if you can not tolerate a 15-20 min loss in coverage or<br>
+if the upgrade would end up taking longer than predicted.<br>
+<p>
+After the end of the upgrade session (~15:20UT), please check this webpage for the status of the upgrade.<br>
+-->
+<!--
+<font color="#ff0000">
+05 Aug 2019:  The VOEvent server 209.208.78.170 is currently experiencing intermittant problems.<br>
+I believe these problems are due to some clients connecting multiple times -- there are ~4 IPnums<br>
+that connect 5 to 90 times.  They are anonymous connections (ie not listed in the GCN sites config file).<br>
+I am puzzled as to why a site would make multiple connections -- what functional need is there?<br>
+These sites do not resolve in IPnum lookup services.  If you are one of the multiple anonymous connectors,<br>
+please contact me to explain the need for multiple connections.  Currently, I am working on a modification<br>
+to the server program that will only allow a single connection.  If you have legitimate need for multiple connections<br>
+please tell me and we can work out an accomodation.<br>
+-->
+<!--
+<font color="#ff0000">
+20 July 2019:  The mistake in the LVC_COUNTERPART notices that was labeling them as a RETRACTION<br>
+has been fixed.  My apologies for the confusion and erronius conclusions it caused.
+-->
+<!--
+<h1><font color="#ff0000">
+GCN OFFLINE DURING NETWORK UPGRADE  (~23:10 to ~23:40 UT July 17th):<br>
+The internet connections for GCN went down for 30 minutes (~23:10 to ~23:40 UT<br>
+during planned window of 17-Jul 23:00 thru 18-Jul-2019 03:00 UT).<br>
+They installed new network equipment for Building 34 at Goddard Space Flight Center.<br>
+</h1>
+-->
+<!--
+<h1><font color="#ff0000">
+ALERT (29-Jun-2019 12:00-16:00 UT):<br>
+The internet connections for GCN will go down for ~15 minutes somwhere in the 4-hour time window listed above,<br>
+with a few other possible shorter outages thereafter.<br>
+This is to install new firewalls for all of Goddard Space Flight Center.<br>
+And, there is a second NASA work activity from 13:00-23:00 UT that may cause intermittent interuptions.<br>
+</h1>
+-->
+<!--
+24 May 2019:  The Atlantic Inc cloud machine is having problems.<br>
+So if you are connecting to that machine (IP= 209.208.78.170) for your voevent format/protocal streams of Notices,<br>
+then you need to try one of the other redundant cloud servers (different vendors).<br>
+Please see the <a href=https://gcn.gsfc.nasa.gov/voevent.html>table of voevent servers within GCN</a> for the redundant source of the version and class.<br>
+25may19 16:00 UT:  The Atlantic cloud server (209.208.78.170) back in server (some time ago).<br>
+<p>
+25may19 16:00 UT:  And now the eApps cloud service (68.169.57.253) is acting up (since late last night).<br>
+I just killed/rebooted/restarted votan server on eApps (68.169.57.253) and things are fine.<br>
+The redundant cloud server for eApps is Atlantic3 (45.58.43.146)) so you should connect that IPnum if problems repeat.<br>
+There are always two cloud servers to choose from for all 4 combinations of Public-vs-Private and Version 1.1 vs 2.0.<br>
+Please see the <a href=https://gcn.gsfc.nasa.gov/voevent.html>table of voevent servers within GCN</a> for the redundant source of the version and class.<br>
+-->
+<!--
+GCN encountered a new "infinite loop" problem with a new form of "I am on vacation" email sevice.<br>
+It started about 04:30 UT last night.  I have broken the loop with some new code to prevent<br>
+this new form. Even during this loop, GCN Circulars were being processed and distributed.<br>
+-->
+<!--
+A general comment: The recent LIGO-Virgo event (and the one a week ago) have resulted
+in a round of Circuars submissions from people who have not submitted in a long time (sometime years).<br>
+Please not that a new form of security 
+-->
+
+<font color="#ff0000">
+<!-- Nope, my email problems are back.<br>
+So please continue to use my scott.d.barthelmy@nasa.gov (instead of sbarthel@milkyway.gsfc.nasa.gov).<br> -->
+
+<!-- LIGO-Virgo resumed producing MS-series (Mock-Super) at 15:43 UT May 14th (6-day gap).<br> -->
+<!--
+LIGO-Virgo stopped producing MS-series (Mock-Super) shortly after 19:39 UT May 8th.<br>
+and this continues as of 17:45 UT May 12th.<br>
+Imalive packets continue to be exchanges (both directions), so the link between LIGO-Virgo and GCN is good;<br>
+and GCN will distributed MS-series as soon as received.<br> -->
+
+
+<!-- My mail problem has been fixed.  You can resume sending to scott@milkyway.gsfc.nasa.gov or sbarthel@milkyway.gsfc.nasa.gov .<br> -->
+
+
+<!--
+LVC events are in the public domain.<br>
+The LVC_PRELIMINARY, _INITIAL, _UPDATE, and _RETRACTION notice types are available to the public (the private phase is over).<br>
+Circulars involving LVC events are to be published on the original Circulars method (not the LVC-private subnet).<br>
+-->
+
+<!--
+<p>
+10-Feb-19: LIGO-Virgo will start Engineering Run (#14) on 4 March 2019.<br>
+and Operations #3 will start 4 weeks later.<br>
+-->
+
+<!--
+<p>
+<font color="#ff0000">
+10-Feb-19: Two new notice types will be ready for use later in late March 2019:<br>
+    ICECUBE_ASTROPHYSICAL_TRACK_GOLD  and  ICECUBE_ASTROPHYSICAL_TRACK_BRONZE.<br>
+T<br> <p>hey will be replacing the simultaneously discontinued AMON_ICECUBE_HESE  and  AMON_ICECUBE_EHE notice types.<br>
+
+<!--
+<font color="#ff0000">
+11-Jan-19: The last of the Circulars for the private-phase LIGO-Virgo triggers (in 2017) was transferred to the public pages.<br>
+There were 8 triggers and 279 Circulars.<br>
+<p>
+15-Dec-18: LIGO-Virgo has completed their Engineering Run (#13) on 14 Dec 2018.<br>
+ER14 will start in March 1st , and Operations #3 will start 4 weeks later.<br>
+-->
+<!--
+<font color="#ff0000">
+GCN is distributing GW event notices from LIGO-Virgo -- L-V  started their Engineering Run (#13) on 14 Dec 2018.<br>
+It will run for 5 days.  Then ER14 will start in couple months. An Operations #3 will start shortly thereafter.<br>
+-->
+<!--
+<font color="#ff0000">
+ALERT (20-Sep-2018 12:00 UT):<br>
+GCN was off-line from 06:55 to 11:31 UT (4.6 hrs) due to a power failure in the building in which GCN is housed.<br>
+The UPS for the GCN maintained power through the 3 interruptions in that window,<br>
+but the building-level power and UPS's for the netwark router closets was insufficient.<br>
+-->
+<!--
+UPDATE (15-Sep-2018):<br>
+It seems there is still a few scenarios in which this new email identity-checking protocol<br>
+is not working properly.  We are working on it.<br>
+ANNOUNCEMENT (13-14-Sep-2018):<br>
+Due to the sudden and unannounced installation (at NASA) of a new email certification/identification software package,<br>
+the emails sent to gmail.com-based accounts (and some other domains) were rejected by those domains.<br>
+It took about 48 hours to figure out the corrections and work-arounds to allow successful transactions.<br>
+During that time ~25% of the Circualars accounts were affected.<br> 
+-->
+<!--
+ANNOUNCEMENT (30-Jul-2018):<br>
+GCN will be off-net for ~10 minutes on Wednesday Aug 1st (afternoon/evening local time)<br>
+when the router for the building in which GCN is located<br>
+will be rebooted for routine maintenance.<br>
+-->
+<!--
+ANNOUNCEMENT (26-Jun-2018):<br>
+There is a possibility that the GSFC network will have intermittent interruptions<br>
+between 23:00 and 23:59 UT Wed Jun 27.  Goddard IT will be doing some emergency repairs<br>
+to a critical power system.  If there are interruptions, then they are expected<br>
+to be only a few minutes in duration each.<br>
+-->
+<!--
+ANNOUNCEMENT (22-Jun-2018):<br>
+UPDATE:  Based on one data point out of over a 1000 copies distributed,<br>
+the recent Circular 22823 (redshift measurement on 180620B, z=1.1175)<br>
+there can be longer delivery delays out to 1 hour.<br>
+INITIAL: GSFC experienced a center-side internet problem (starting ~08:30 UT).<br>
+This affected email-based deliveries with 0.5-15 min delays.<br>
+And for socket-based deliveries there were no delays, but if a site broke its connection and tried to remake<br>
+there may have been problems.<br>
+As of 12:15 UT, things are getting better (much smaller delays).<br>.
+-->
+<!--
+ANNOUNCEMENT (02-Mar-2018):<br>
+GCN was offline from 22:05 to 23:10 UT (65 minutes) due to a NASA-wide Internet problem.<br>
+GCN is currently operating (receiving data and distributing Notices and Circulars).<br>
+UPDATE:
+Improved start/stop times:  22:07 to 23:06 UT (59 minutes).
+-->
+<!--
+ANNOUNCEMENT (19-Jan-2018):<br>
+Like in previous US Government Shutdowns, GCN will continue to operate.<br>
+-->
+<!--
+ANNOUNCEMENT (15-Nov-2017):<br>
+The GCN Circulars for LIGO/Virgo Event <a href=https://gcn.gsfc.nasa.gov/other/G288732.gcn3>G288732/GW170608</a> have been added to these public web pages (both the concatenated page and the individual circulars).<br>
+-->
+<!--
+ANNOUNCEMENT (17-Oct-2017):<br>
+The GCN Circulars for LIGO/Virgo Event G298048/GW170817 has been added to these public web pages.<br>
+-->
+<!--
+<font color="#ff0000">
+UPDATE: 22:30 UT 04 July:  GCN has been operating properly for 34+ hours - things are back to normal.<br>
+UPDATE: 15:00 UT 03 July:  The NASA Network people are investigating the routers and cables.<br>
+The GCN computer ether i/f card idea has lost favor because the connectivity problem<br>
+was seen in another computer in the same office (but on a different cable and wall-jack).<br>
+In this last go-round, it has been running without problems since 16:00 UT 03 Jul 17.<br>
+ALERT: GCN has been having intermittant problems since 02:00 UT 02 Jul throught to now (03:00 03 Jul).<br>
+It has something to do with connection to all the DNS machines here at Goddard (but the problem<br>
+is at the GCN end, not the DNS end).  Or it could be with the ether interface in the GCN computer.<br>
+GCN is running as I type this, but but the last 25 hrs have shown that to last of order 2 to 13 hrs.<br>
+Work will resume early tomorrow/Monday morning.<br>
+-->
+<!--
+ANNOUNCEMENT (01-Jun-2017):<br>
+The GCN Circulars for LIGO Event G268556/GW170104 has been added to these public web pages.<br>
+-->
+<!--
+<font color="#008f00">
+<b>ANNOUNCEMENT: GCN is back online (09-May-2017).<br>
+The work for the upgrade started at ~14:03 UT, and functionality returned at ~14:56 UT.<br>
+There were 4 short outages (3-8 min each) scattered throughout 15:00-16:55 UT)<br>
+as various problems were cleared up resulting from new security measures<br>
+implmented in the new operating system (SL5 to SL6).<br>
+There was a residual problem with LVC Circular submission (access permission to a system resource);<br>
+but this was fixed this morning (~14:00 UT 10-Oct-2017).<br>
+-->
+<!--
+<font color="#ff0000">
+<b>ANNOUNCEMENT: GCN will be off-line from 14:00 to 15:00 UT on 09 May 2017 (10-11 AM Eastern US time)<br>
+while the computer is being upgraded.  All aspects of GCN (Notices & Circulars) will not be available.<br>
+Nearly all Notices during that time window will be lost,<br>
+but Circulars submitted during that window will be held in a queue for later distribution.</b>
+</font>
+-->
+<!--
+<p>
+<b>ANNOUNCEMENT</b> (08-Jan-2017 21:41 UT):<br>
+The problem with IPnum=68.169.57.253, port 8096 LVC-enabled (VOEvents ver=2.0) not distributing VOEvents<br>
+has been fixed.<br>
+<p>
+<b>ANNOUNCEMENT</b> (08-Jan-2017 19:55 UT):<br>
+There is a problem with IPnum=68.169.57.253, port 8096 LVC-enabled (VOEvents ver=2.0).  It is NOT distributing VOEvents.<br>
+This is a problem ONLY with the LVC-enabled/Private-Phase voevent server; the other two Ver2.0/LVC-enabled servers are fine.<br>
+(and the public VOevent/2.0, 68.169.57.253:8099 servers and the Private VOEvent/1.1, 68.169.57.253:8092 servers are all operating fine)<br>
+You LVC-enabled/Ver2.0 customers should switch your connections to either 209.208.78.170 or 50.116.49.68, both on port 8096.<br>
+My apologies for this outage.<br>
+(If you are receiving GCN Notices by email or 160-byte-binary packet, there are no problems.  This is only with this<br>
+one voevent server, and only the Ver2.0 voevents/LVC-Privae phase.<br>
+-->
+<!--
+<p>
+<b>ANNOUNCEMENT</b> (06-Jan-2017 15:35 UT):<br>
+the "eApps" (IPnum=68.169.57.253) LVC-enabled (VOEvent ver=2.0) is back on line !!!<br>
+-->
+<!--
+<p>
+ANNOUNCEMENT (16-Dec-2016):<br>
+The GCN website will be intermittantly inaccessible Saturday/17dec16 between 9am - 5pm (EST),<br>
+while the IT people upgrade routers and switches in the building.
+-->
+<!--
+<p>
+ANNOUNCEMENT (12-Oct-2016):<br>
+During a malformed test session while porting GCN from the current/old machine to a new/fast machine,<br>
+a domain in a top-level email command caused the emails from a playback test (of a very old bust) on the new machine<br>
+to use the procmail lists for yesterday's burst on the old machine. My apologies for the spam.<br>
+Only email-based recipients were affected; the socket and voevent recipients did not receive this playback spam.<br>
+-->
+<!--
+<p>
+ANNOUNCEMENT (10-Oct-2016):<br>
+Intermitant problems with the GFSC network are introducing delay for emailed Notices/Circulars in the 5min - 3 hrs (03:00 UT 10oct16).<br>
+In between the intermitant problems the delivery times are in the 0-15 sec range. Socket connections are not affected.<br>
+-->
+<!--
+<p>
+ANNOUNCEMENT (27-Feb-2016):<br>
+The GCN Circulars for LIGO Events G194575, LVT151012/G197392, GW151226/G211117, GW150914/G184098 have been added to these public web pages.<br>
+-->
+<!--
+<p>
+<b>UPDATE:</b>  The only outage was from 16:05 to 18:54 UT (2.82 hrs duration).
+<p>
+<b>ORIGINAL ANNOUNCEMENT:</b> There will be intermitant interruptions in the internet connectivity with GCN this Sat, Sep 24 14:00-20:00 UT.<br>
+The network for several buildings (including the one that houses GCN) is undergoing upgrades.<br>
+There will be several outages with durations of minutes to maybe an hour.<br>
+Socket connections will drop for each interruption, and<br>
+email-based distributions will experience delayed delivery until internet access is re-established.<br>
+-->
+<!--
+<p>
+GCN Notices has a waiver to pass throught the firewalls like normal.<br>
+The Circulars portion of GCN is less certain, because it works on the regular email system.<br>
+[as of 00:10 EDT 01 Oct 2013,  and at 3:10am EDT,  and as of 9:20am EDT]
+<p>
+-->
+<!--
+<p>
+<h3>VOEvent Direct Servers Added: <a href=admin/voevent_server_announce.txt>full announcement message</a><br>
+And Version 2.0 VOEvents added:  <a href=admin/voevent_version20_available.txt>full announcement message</a></h3>
+<p>
+-->
+<!--
+<br>
+<p>
+<h3>
+<blink>
+ANNOUNCEMENT:
+</blink>
+<br>
+This Sunday (26 Apr 15) from 18 to 06 UT (Monday, 27 Apr 15) GCN internet access will be down<br>
+for a few intervals while there is a NASA-wide (all Centers) upgrade of the major routers.<br>
+There will be a 1-2 hour outage interval near the beginning of the 12-hr total window,<br>
+and there will be a few 3-5 minute outages spread across the rest of the total window.<br>
+During each of these outages, there will be no socket connections and no email distribution capbilities.<br>
+(This was announced to happen last weekend, but it did not.<br>
+</h3>
+<p>
+-->
+
+<br>
+
+<!-- OPEN 2-COLUMN CONTENT TABLE -->
+<table cellpadding=5><tr><td valign="top">
+
+
+<b>The GCN system distributes:</b>
+
+<ol>
+<LI> 
+<b>Locations of GRBs and other Transients (the Notices)</b> detected by spacecraft (most in real-time while the burst is still bursting and 
+others are that delayed due to telemetry down-link delays).<br>
+
+<LI>
+<b>Reports of follow-up observations (the Circulars)</b> made by
+ground-based and space-based optical, radio, X-ray, TeV, and other particle observers.
+</OL>
+
+These two functions provide a one-stop shopping network for follow-up sites
+and GRB and transient researchers.
+<p>
+
+The GCN system can be explored using the links above and below. 
+<UL>
+<LI><b><a href=about.html>About GCN/TAN</a></b> provides a number of 'Introductions' from different points of view.
+'Technical Details' (found on the <b><a href=about.html>About GCN/TAN</a></b> page) describes the 
+various services and products of GCN/TAN and how they are generated.
+
+<LI>'Burst Data Archives' are available under <b><a href=burst_info.html>Burst & Transient Information</a></b>,
+which record the inputs and outputs of GCN/TAN automatically and are updated
+in real-time.
+
+<LI>You can also <b><a href=search.html>Search for past Bursts/Transients and webtext</a>.</b>
+</UL>
+
+<P>
+<b>Invitation to <a href="invitation.html">subscribe to the Notices or Circulars here</a>.</b> &nbsp;&nbsp;&nbsp;<a href="unsubscribe.html">unsubscribe here.</a><br>
+<b>Make a modification to an existing Notices site configuration<a href="config_builder.html"> here</a>.</b> <br>
+<b>Invitation to producers to incorporate your events into GCN<a href="producer_invite.html"> here</a>.</b> <br>
+
+<P>
+
+<!-- ===================LATEST NEWS & STATUS TABLE================================ -->
+        <table cellspacing=3 cellpadding=3 bgcolor="CCCCCC">
+        <tr><td bgcolor="CCCCCC">
+        <b>System Status</b>
+        </td></tr>
+        <tr><td bgcolor="ffffff">
+    <span class="news">
+<!--Put your system status link here.-->
+<a href=sys_status.html>System Status: Latest update: 17 Mar 2021 (UT)</a><br>
+    </span>
+
+        </td></tr>
+        <tr><td bgcolor="CCCCCC">
+        <b>What's New</b>
+        </td></tr>
+        <tr><td bgcolor="ffffff">
+    <span class="news">
+<!--Put your what's new link here.-->
+<a href=whats_new.html>What's New: Latest update: 31 Jul 2020 (UT)</a><br>
+    </span>
+        </td></tr></table>
+<!-- ===================END LATEST NEWS & STATUS TABLE================================ -->
+
+
+
+
+</td><td valign="top">
+<!-- RIGHT HAND COLUMN -->
+
+<a href="GCN.gif"><img alt="thumbnail of GCN physical network" src="GCN_250wide.gif"><br>
+The physical GCN network. (Click to enlarge.)</a>
+
+<P>
+
+<!-- =====================LATEST BURSTS TABLE================================== -->
+
+    <table cellspacing=3 width=250 cellpadding=3 bgcolor="CCCCCC">
+    <tr><td bgcolor="CCCCCC">
+    <b>Latest Gamma-Ray Bursts</b>
+    </td></tr>
+
+    <tr><td bgcolor="ffffff">
+<span class="news">
+
+<!-- !--#include virtual="gcn.inc"-- -->
+
+        <P>
+        <a href="http://gcn.gsfc.nasa.gov/gcn3_archive.html">GCN Circulars Archive</a> &nbsp; &nbsp;
+        <a href="http://gcn.gsfc.nasa.gov/selected.html">Circs by Burst</a> <br>
+        <a href="http://gcn.gsfc.nasa.gov/report_archive.html">GCN Reports Archive</a> 
+</span>
+    </td></tr></table>
+
+<!-- ===================END LATEST BURSTS TABLE================================ -->
+
+
+
+</td></tr></table>
+
+<!-- CLOSE 2-COLUMN CONTENT TABLE -->
+
+</td></tr>
+<tr><td bgcolor="cccccc" colspan=3>
+<font size="-1">
+<hr>
+<p>
+For questions or subscription changes, please contact the <a href="https://gcn.nasa.gov/contact?service=gcn-classic">GCN Team</a>.
+<p>
+<!--A service of the -->
+A service of the <a href="https://heasarc.gsfc.nasa.gov">HEASARC</a> at the
+<a href="http://universe.gsfc.nasa.gov/"> Astrophysics Science Division (ASD)</a> at
+<a href="http://www.nasa.gov/">NASA's</a>
+<a href="http://www.nasa.gov/goddard">GSFC</a>.<br>
+
+<p>
+<LI>Astronomy Questions?
+                 <a href="http://imagine.gsfc.nasa.gov/docs/ask_astro/ask_an_astronomer.html"> Ask a High Energy Astronomer</a>.<br>
+
+<LI>NASA-specific Questions?  Try the
+                 <a href="http://www.nasa.gov/"> NASA Homepage</a> or start at the
+                 <a href="http://www.nasa.gov/siteindex.html"> NASA site map</a>.<br>
+
+<LI>Curator:
+                 <webpoc>
+                 <rno>Judith Racusin</rno>
+                 </webpoc><br>
+                 
+<LI>Responsible NASA Official:
+                 <rno> Phil Newman</rno><br>
+                 
+<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Statement, Disclaimer, and Accessibility Certification</a>
+
+<hr>
+
+<i>This file was last modified on
+Monday, 08-May-2023 12:39:22 EDT</i></font></font>
+</td></tr></table>
+
+
+
+</font>
+</td></tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+GET https://www.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 919
+< Via: 1.1 7b2c97c3ba7e37bdd32ec314e5554c74.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Id: WV7QIznEcLnE4mqcVaMxbWgHSm69K3qS9liGK9z0HwysGfrjf6z8VQ==
+< X-Frame-Options: SAMEORIGIN
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Error from cloudfront
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 06:05:18 GMT

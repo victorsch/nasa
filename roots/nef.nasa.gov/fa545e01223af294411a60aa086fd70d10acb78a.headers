@@ -1,0 +1,11 @@
+GET https://nef.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Date: Tue, 19 Sep 2023 05:45:09 GMT
+< Server: Apache
+< Content-Type: text/html; charset=utf-8
+< Location: https://auth.launchpad.nasa.gov/affwebservices/CASSO/oidc/11539-aps-traefik-prod-prod-sc/authorize?access_type=offline&client_id=5ed6f4ee-daad-42cc-a5ad-fdbb06ee56e3&nonce=O3FmYbuU8gP9GvrjOjDA&redirect_uri=https%3A%2F%2Fauth.aao.nasa.gov%2Foidc-icam-sm-prod-prod-sc%2Fcallback&response_type=code&scope=openid++email++profile++nasastandard&state=ziR8I2kVJ1ay9WjX5jhQ
+< Content-Length: 412
+< Set-Cookie: traefik-state-aps-oidc-icam-sm-prod-prod-sc=dkNWSXBLWXU4SnNVY1paZXmKqLVvizRBTh0c_Mn2vf7cuYR8BRntPYqBghpdo9v6OYEacQJGHuKBf81__uu9txi3eOMlcit5cUcsIxJQv5bcMsqeTWiWYjS1koAXJgvfHIdU2dh99NT1ZNEdBCw2rKSbrq9Xk7cXEfTzb8EHVFxQCa85shj9lvdv; Path=/; Domain=nasa.gov; Max-Age=600; HttpOnly; Secure; SameSite=Lax

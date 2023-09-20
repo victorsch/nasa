@@ -1,0 +1,16 @@
+GET https://ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:42:58 GMT
+< X-Content-Type-Options: nosniff
+< Via: 1.1 fcf7ae9d0acd31cfede668ccef6e2ace.cloudfront.net (CloudFront)
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: JFK50-P1
+< X-Amz-Cf-Id: wYaI3GWbJQRjE84hIzFyrlkg9tAjaApniCgk27AOhAxofZvIuF7F2g==
+< Content-Type: text/html
+< Content-Length: 919
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000

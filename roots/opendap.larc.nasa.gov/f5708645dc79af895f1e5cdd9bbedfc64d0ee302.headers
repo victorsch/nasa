@@ -1,0 +1,10 @@
+GET https://opendap.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000
+< Location: https://opendap.larc.nasa.gov/opendap/
+< Content-Length: 246
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 01:12:40 GMT
+< Server: Apache

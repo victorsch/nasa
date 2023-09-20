@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<title>The Patient Safety Reporting System - Welcome to the PSRS</title><meta name="Author" content="Booz Allen Hamilton" />
+
+<link href="styles_htmlsite.css" rel="stylesheet" type="text/css" />
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&dclink=true"></script>
+<style type="text/css">
+<!--
+.intro {
+	margin: 20px 0;
+}
+-->
+</style>
+</head>
+<body>
+<div id="shadow">
+  <table width="750" border="0" align="center" cellpadding="0" cellspacing="0" id="container" role='presentation'>
+    <tr>
+      <td><div id="header"><a href="index.html"><img src="images/psrs_logo.gif" alt="Patient Safety Reporting System" name="logo" width="220" height="75" border="0" id="logo" /></a></div></td>
+    <a href="#main"><img src="images/spacer.gif" alt="Skip to Content" border="0" /></a> </tr>
+    <tr>
+      <td><div id="content">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" role='presentation'>
+            <tr>
+              <td>
+			  <!-- Main Navigation -->
+			  <div id="navBox"><a href="#main"><img src="images/spacer.gif" alt="Skip to Content" border="0" /></a>
+                <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="710" role='presentation'>
+                  
+                  <tr>
+                    <td><!-- Program Overview--><a href="programoverview/index.html" id="program" ><img src="images/navbar/program.gif" alt="Program Overview" name="program" width="131" height="27" border="0" id="program" /></a></td>
+                    <td><!-- Reporting Form --><a href="reportingform/index.html" id="reporting"><img src="images/navbar/reporting.gif" alt="Reporting Form" name="reporting" width="112" height="27" border="0" id="reporting" /></a></td>
+                    <td><!-- Publications --><a href="publications.html" id="publications"><img src="images/navbar/publications.gif" alt="Publications" name="publications" width="92" height="27" border="0" id="publications" /></a></td>
+                    <td><!-- FAQ --><a href="faq.html" id="faq"><img src="images/navbar/faq.gif" alt="Frequently Asked Questions" name="faq" width="45" height="27" border="0" id="faq" /></a></td>
+                    <td><!-- History --><img src="images/navbar/history.gif" alt="History of Development" name="history" width="156" height="27" border="0" id="history" /></td>
+                    <td><!-- Services --><img src="images/navbar/useful.gif" alt="Services" name="useful" width="89" height="27" border="0" id="useful" /></td>
+                    <td><!-- Contact Us --><a href="contactus/index.html" id="contact"><img src="images/navbar/contact.gif" alt="Contact Us" name="contact" width="85" height="27" border="0" id="contact" /></a></td>
+                  </tr>
+                </table>
+
+			    
+		      </div></td>
+            </tr>
+          </table>
+          
+          <table border="0" cellspacing="0" cellpadding="0" role='presentation'>
+            <tr>
+              <td><img src="images/home_01.jpg" alt="Doctors overviewing x-rays. " width="319" height="237" /></td>
+              <td valign="top" bgcolor="#BAD5E8"><img src="images/home_02.jpg" alt="See It. Report it. Make a Difference." width="391" height="122" />
+                <a name="main" id="main"></a><p class="homeText">The Patient Safety Reporting System (PSRS) is a voluntary, confidential, non-punitive reporting system
+                  available to collaborate with both private and federal medical facilities..<br />
+                </p></td>
+            </tr>
+            <tr>
+              <td colspan="2"><div class="intro"><img src="images/intro_viewtutorial.gif" alt="View the PSRS Tutorial, watch the 4 minute tutorial" width="165" height="80" border="0" /><img src="images/intro_divide.gif" alt="divider" width="44" height="82" /><a href="reportingform/index.html"><img src="images/intro_reportingform.gif" alt="Reporting Form, see example form here" width="207" height="82" border="0" /></a><img src="images/intro_divide.gif" alt="divider" width="44" height="82" /><img src="images/intro_feedback.gif" alt="FEEDBACK, view sample issues of our free quarterly newsletter" width="208" height="82" border="0" /></div></td>
+            </tr>
+          </table>
+      </div></td>
+    </tr>
+  </table>
+</div>
+<div id="footer">
+  <p> <a href="#main">&nbsp;<img src="images/spacer.gif" alt="Skip to Content" border="0" id="spacer" width="1" height="1" /></a> <a href="programoverview/index.html">PROGRAM OVERVIEW</a> | <a href="reportingform/index.html">REPORTING
+      FORM</a> | <a href="publications.html">PUBLICATIONS</a> | <a href="faq.html">FAQ's</a> | HISTORY
+      OF DEVELOPMENT | SERVICES | <a href="contactus/index.html">CONTACT
+      US</a> </p>
+  <p>PSRS Website Administrator: <a href="mailto: mariana.carmona@nasa.gov">Mariana
+      Carmona </a> || NASA/PSRS Director: <a href="mailto: Becky.L.Hooey@nasa.gov">Becky Hooey</a><br />
+  <a href="#main">&nbsp;<img src="images/spacer.gif" alt="Skip to Content" border="0" id="spacer" width="1" height="1" /></a> <a href="http://www.hq.nasa.gov/privacy.html">NASA Privacy Statement</a> || <a href="http://www.nasa.gov">NASA Home</a> || <a href="http://www.nasa.gov/ames">NASA Ames</a></p>
+</div>
+</body>
+</html>

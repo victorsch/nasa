@@ -1,0 +1,12 @@
+GET https://si.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:59:24 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: upgrade-insecure-requests
+< Server: WebServer/1.0
+< X-Frame-Options: sameorigin
+< Location: https://hires.gsfc.nasa.gov/si/
+< Content-Length: 239

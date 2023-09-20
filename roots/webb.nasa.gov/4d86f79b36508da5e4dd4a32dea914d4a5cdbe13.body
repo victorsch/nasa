@@ -1,0 +1,1679 @@
+<!-- rev 4.1.1.1 hidden-embedded video section for anniv.
+
+<!-- START TEMPLATE TOP -->
+	<!-- STANDARD/SHARED <HEAD> TAGS : -->
+<!doctype html>
+<html lang="en"> <!-- set language 508 req-->
+<head>
+<meta charset="utf-8">
+
+<!-- MOBILE SITE SCALING: for a RESP  design, -->
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+
+<!-- SHARED META TAGS ETC -->
+
+<!-- Common Header -->
+<meta name="description" content="James Webb Space Telescope">
+<meta name="orgname" content="Code 600">
+<meta name="rno" content="Jonathan P. Gardner"> 
+<meta name="content-owner" content="Jonathan P. Gardner"> 
+<meta name="webmaster" content="Maggie Masetti,Steve Sabia"> 
+<meta name="keywords" content="James Webb Space Telescope, JWST, Big Bang, history of the universe, first light after the big bang, formation of galaxies, exoplanets, formation of solar systems, evolution of our solar system, nasa's next great observatory, hubble space telescope, nasa, gsfc, ASTRONOMY, PHYSICS, ASTROPHYSICS, UNIVERSE, SCIENCE IMAGE, SPACE TELESCOPE, JAMES WEBB, STAR, GALAXY, STARS, GALAXIES">
+
+   
+<!-- SHARED CSS FILES -->
+
+  <!-- Bootstrap 
+    <link href="/topLevelIncludes/bootstrap/css/bootstrap.css" rel="stylesheet">    
+  	<link href="/topLevelIncludes/bootstrapOverrides.css" rel="stylesheet"> 
+   -->
+	
+<!-- fonts -->
+	
+	<!-- BODY FONT:
+	open sans ( v good chance it's in most users' cache, used as general site default over arial, other custom headline fonts are included in template.css -->
+	
+	<!-- body font -->
+    <link rel='stylesheet'   href='//fonts.googleapis.com/css?family=Open+Sans' type='text/css' media='all' /> <!-- font-family: 'Open Sans', arial, sans-serif -->
+	
+	<!-- Headline Font: -->
+	<link rel='stylesheet'   href='//fonts.googleapis.com/css?family=Titillium+Web' type='text/css' media='all' /> <!-- font-family: 'Titillium Web', 'Open Sans', arial, sans-serif -->
+	
+	<!-- Masthead Font -->
+	<link rel='stylesheet'   href='//fonts.googleapis.com/css?family=Muli' type='text/css' media='all' />
+	
+	<!-- Page Header H2 and Quote Font - NOTE only the 600 italic -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=EB+Garamond:600i&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600i&display=swap" rel="stylesheet">	
+	
+    <!-- icons     
+    <link href="/topLevelIncludes/fonts/fontelloStdSet/css/fontello-embedded.css" rel="stylesheet"> <!-- must use this version of fontello.css for FFox to work. or alter server config. see readme.txt .  was <link href="fontello.css" rel="stylesheet"> 
+    -->	
+    
+	<!-- LEGACY  WEBSITE CSS - legacy styles -INCLUDE THIS FIRST SO new css OVERRIDES legacy content uses styles in this to for content -->
+
+
+	<!-- TOPNAV CSS - pageHeader nav, aka site wide nav 
+	<link href="/widgets/navBar/topNav/topOfPageNav.css" rel="stylesheet">
+-
+->
+	<!-- DropCrumb and Section Nav dropdown css 
+	<link href="/include/css/pageLevelNav.css" rel="stylesheet" type="text/css" media="screen" />
+-->
+     
+<!-- EARLY LOAD SHARED JS  -->
+<!-- NOTE: MOST ALL JS should be included in templatePageEnd.html not here! Only those that MUST be included in head else put in page end include. -->
+
+  <!-- google analytics:
+      code placed here (rather than bottom of page) so it executes first and more accurately captures any/all activity on page which may include clicks to links/widgets before page fully loads (which could be lost if at bottom ) -->
+	  
+ 
+<!-- NASA: google analytics code placed here (rather than bottom of page) so it executes first and more accurately captures any/all activity on page which may include clicks to links/widgets before page fully loads (which could be lost if at bottom )
+yt=youtube tracking, &dclink= demographics -->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&yt=true&dclink=true"></script>
+
+  <!-- NOAA:
+  pua is parallel tracking in diff accoutnt
+  yt=youtube tracking, &dclink= demographics tracking 
+  <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NOAA&pua=UA-44002563-1&yt=true&dclink=true"></script>
+-->
+  	
+ <!-- lazySizes.js lazy load:
+ 	to ensure existance for lazyLoaded images, note its NOT dependent on Jquery and loaded first to support lazyLoaded images asap on page load. -->
+	 <!-- loading lazySizes first to even before JQuery to support lazyloading images asap on load -->
+	<script src="/widgets/jquery/lazysizes/lazysizes.min.js" async></script>
+
+
+ <!-- JQUERY:
+ 	loaded here to ensure it's existance before other JS that depends on in loaded at end of body -->
+	<!-- LOCAL version, verified working 
+	<script src="/widgets/jquery/jquery-1.9.1.js" ></script> -->
+	<!-- CDN VERSION: most ppl's browser will already have latest google cdn version cached -->
+	<!-- older version -- nist notice says has vulnerability
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	-->
+	<!-- Need version 3.5.1 or greater to avoid NIST vulnerability 
+		loading from JQUERY CDN
+	The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers to ensure that resources hosted on third-party servers have not been tampered with. Use of SRI is recommended as a best-practice, whenever libraries are loaded from a third-party source. Read more at srihash.org -->
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.min.js"
+	  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+	  crossorigin="anonymous"></script>
+
+	
+  <!-- html5shiv- conditional include: 
+  NOTE: this is js file included in HEAD since it controls layout in older IE browsers and isnt included otherwise. All other JS is included at page end.  
+   Html5Shiv: creates a display:block emulation code of html tags in pre HTML5 browsers - renders HTML5 element dynamically in the DOM and rules out the cross-browsr compatibility issues in IE6-8.
+      -->    
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+      
+
+<!-- SITE LEVEL CSS -->
+
+	<!--   #   include virtual="/indexBaseUrlSSI.html" -->
+
+	<!-- @ss tempMod OLD JWST WEBSITE CSS - based on OLD nasa template -- 
+	INCLUDE these FIRST SO MY CODE OVERRIDES IT WHERE NEEDED 
+	<link rel="stylesheet" href="/jwst.css" media="screen"> -->
+	<!-- @ss tempMod OLD CSS OVERRIDE - to style some old code into NEW LOOK - temporary fix 
+	<link rel="stylesheet" href="/topLevelIncludes/jwstOverride.css" media="screen"> -->
+
+	<!-- Rebuild Cor JWST STyles -->
+	<link rel="stylesheet" type="text/css" href="/topLevelIncludes/jwstCore.css">
+
+<!-- HEADER and FOOTER Widgets -->
+	<!-- included with SSI in pageBodyTopSSI
+	<link rel="stylesheet" type="text/css" href="/widgets/header/responsive/headerEmulateOld.css">
+	-->
+
+	<!--PAGE Footer -->
+	<!-- included with SSI in pageBodyBottomSSI
+	<link rel="stylesheet" type="text/css" href="/widgets/footer/code/footer.css">
+	-->
+
+<!-- NAV -->
+
+	<!--  replaced with next <link rel="stylesheet" type="text/css" href="/topLevelIncludes/jwstInternalNav.css"> -->
+	<!--
+	<link rel="stylesheet" type="text/css" href="/widgets/nav/navSSIs/fullSiteNav.css">
+	-->
+
+	<!-- <link rel="stylesheet" type="text/css" href="/widgets/mainNav/responsive/mainNav.css"> -->
+
+	<!-- for legacy LEFT NAV -->
+	<!--
+	<link rel="stylesheet" type="text/css" href="topLevelIncludes/jwstInternalNav.css">
+	-->
+
+<!-- INTERNAL PAGE DESIGNS and CONTENT DESIGNS -->
+
+<!--
+	<link  href="/pageTemplates/contentDesigns/internalPageDesign/internalPage2.0.css" rel="stylesheet" type="text/css">
+-->	
+	
+	<link href="/topLevelIncludes/content.css" rel="stylesheet" type="text/css" media="screen" />    
+
+	<!-- REORG!!!
+	<link href="/assets/css/content.css" rel="stylesheet" type="text/css" media="screen" /> 
+	<link href="/include/css/content.css" rel="stylesheet" type="text/css" media="screen" />  
+	-->	
+	
+	<link  href="/pageTemplates/contentDesigns/internalPageDesign/internalPage2.3.css" rel="stylesheet" type="text/css"> 
+	
+
+<!-- Widget Specific CSS ----------------------------------------------- -->
+
+<style>
+
+/* move this to template.css!!! */
+
+#ssdBgWrapper { 
+	width:100%;
+	margin:0; 
+	padding:0;
+	background-color:#000;
+	/*background-image:url(/widgets/pageTemplates/baseline/code/images/homePage2.14-1-Long.jpg);*/
+	background-position:top center;
+	background-repeat:no-repeat;
+	}
+
+	
+	#ssdMaskLayer {  /* to mask page contents on modals */
+	width:100vw;
+	height:100vh;
+	background-color:#000000;
+	opacity: .85; 
+	position:absolute;
+	top:0;  
+	left:0;
+	z-index:150;
+	display:none;
+	}
+
+
+/* ssdPageWrapper defines the "page" metaphor, width and look */
+#ssdPageWrapper {
+    width: 100%;
+	box-sizing: border-box; /* if width:100% use border-box to prevent border/pad breakouts */
+    
+	/* max-width: 1400px; */
+    /* min-height: 1200px; was mainly for height of leftNav, could elim */
+	
+    background-color: #fff;
+    color: #000000;
+	
+    margin: 0 auto;
+	/* margin-top: 20px; -- no top margin for ~<1400px maxwidth/breakpt, IE viewport width */
+    padding: 0;
+    
+	/* 
+	border-top: 3px #ccc solid;
+	border-bottom: 3px #ccc solid;
+	*/
+	
+    background-image: url(/widgets/widgetImageCache/hexagonGridFullMirror1000pxLiteTan.png) no-repeat 430px -660px;
+/* options
+  url(/widgets/widgetImageCache/hexagonGridHalfMirrorMediumLiteGrey.png) 180px -170px no-repeat ;		
+*/
+
+}
+
+@media (min-width: 1400px) { /* large sizes */
+
+	#ssdPageWrapper {
+	/* add top/bottom margin and left/right border for "page" visual metaphor */
+		
+		/* 
+		margin: 20px auto; 
+		border: 3px #ccc solid;
+		border-radius: 4px;
+		*/
+	}
+
+}
+
+/***** trans BG experiment *******
+, with BG fills on sections instead, poss later rev
+must use #ccc H2 subtitle color paired below with trans bg 
+
+.ssdPageContentWrapper {
+	background-color: transparent;
+	color:#fff;
+	} 
+
+.ssdPageContentWrapper HEADER .ssdPageCalloutWrap H2 {
+	color:#ccc;
+}
+
+.ssdPageContentWrapper SECTION {
+	background-color: #fff;
+	color:#000;
+	} 
+*****/
+
+</style>
+
+
+
+
+
+<!-- ---PAGE SPECIFIC HEAD ZONE -------------------------------
+	META TAGS, keywords and desc, poss local .css or .js includes (js should go at bottom unless vital to be at top) etc  -->
+
+	<title>Webb Image Release- Webb Space Telescope  GSFC/NASA</title>
+	
+	<!-- Desc shown on search eng and when page is shared -->
+	<meta name="description" content="The Latest NASA Released Webb Image is featured on this page. The James Webb Space Telescope's revolutionary technology will study every phase of cosmic history—from within our solar system to the most distant observable galaxies in the early universe. Webb’s infrared telescope will explore a wide range of science questions to help us understand the origins of the universe and our place in it. Seeking Light from the First Galaxies in the Universe Webb will directly observe a part of space and time never seen before. Webb will gaze into the epoch when the very first stars and galaxies formed, over 13.5 billion years ago. Ultraviolet and visible light emitted by the very first luminous objects has been stretched or 'redshifted' by the universe's continual expansion and arrives today as infrared light. Webb is designed to “see” this infrared light with unprecedented resolution and sensitivity. Exploring Distant Worlds and the Solar System Webb will also be a powerful tool for studying the nearby universe. Scientists will use Webb to study planets and other bodies in our solar system to determine their origin and evolution and compare them with exoplanets, planets that orbit other stars. Webb will also observe exoplanets located in their stars’ habitable zones, the regions where a planet could harbor liquid water on its surface, and can determine if and where signatures of habitability may be present. Using a technique called transmission spectroscopy, the observatory will examine starlight filtered through planetary atmospheres to learn about their chemical compositions." >
+
+<meta property="og:description" content="The Latest NASA Released Webb Image is featured on this page. The James Webb Space Telescope's revolutionary technology will study every phase of cosmic history—from within our solar system to the most distant observable galaxies in the early universe. Webb’s infrared telescope will explore a wide range of science questions to help us understand the origins of the universe and our place in it. Seeking Light from the First Galaxies in the Universe Webb will directly observe a part of space and time never seen before. Webb will gaze into the epoch when the very first stars and galaxies formed, over 13.5 billion years ago. Ultraviolet and visible light emitted by the very first luminous objects has been stretched or 'redshifted' by the universe's continual expansion and arrives today as infrared light. Webb is designed to “see” this infrared light with unprecedented resolution and sensitivity. Exploring Distant Worlds and the Solar System Webb will also be a powerful tool for studying the nearby universe. Scientists will use Webb to study planets and other bodies in our solar system to determine their origin and evolution and compare them with exoplanets, planets that orbit other stars. Webb will also observe exoplanets located in their stars’ habitable zones, the regions where a planet could harbor liquid water on its surface, and can determine if and where signatures of habitability may be present. Using a technique called transmission spectroscopy, the observatory will examine starlight filtered through planetary atmospheres to learn about their chemical compositions." />
+
+	
+	<!-- keywords specific to this page used for search engines 
+	<meta name="keywords" content="insertKeywordsHereAndUncomment">
+	-->
+	
+	<!-- Image to show when page is shared on FB and some search eng and email etc 
+	 Below is a generic image for project, can use a specific image to this page if desired.
+	 NOTE: og:image can be for mixed sites and have http or https urls, secure is for pure https -->
+
+	<!-- DEFAULT IMAGE: -->
+	<meta property="og:image" content="https://jwst.nasa.gov/aaaOgImageDefault.png" />
+	<meta property="og:image:secure_url" content="https://jwst.nasa.gov/aaaOgImageDefault.png" />
+
+	<!-- Image Release Specific Image
+	<meta property="og:image" content="https://jwst.nasa.gov/content/webbLaunch/assets/images/images2022/dec-21-2022-potm2212a-NGC7479-1kpx.jpg">
+	<meta property="og:image:secure_url" content="https://jwst.nasa.gov/content/webbLaunch/assets/images/images2022/dec-21-2022-potm2212a-NGC7479-1kpx.jpg" />
+ -->
+	<meta http-equiv="refresh" content="3600">  <!--seconds -->
+	<meta http-equiv="Cache-Control" content="max-age=3590"/> <!-- seconds -->
+	
+	
+	<!-- Page Local CSS -->
+
+
+<!-- ---END PAGE SPECIFIC HEAD ZONE ------------------------------- -->
+
+<!-- START pageBodyTop -->
+	
+</head> 
+<body>  <!-- include body tag in outer page???  or here in template. outer page allows local support body tag specific JS ONLOAD + CSS (setting page ID's for targetting) though this could be done in JS with binds to events on body and CSS set/injected  onLoad if body is placed in template 
+-->
+
+
+<!-- START PAGE LAYOUT -->
+
+<!-- fullwidth BACKGROUND wrapper contains fullwidth elements like header and footer, mask layer same width allows masking of the page and pageWrapper is contained within those and creates the "page" metaphor and sets width/centering of that -->
+
+<!-- CONTENT Anchor - 508 header jump link jumps here-->
+<a name="pageTop"></a>
+
+
+<div id="ssdBgWrapper"> <!-- was bgWrapper -->
+
+<!-- MASTHEAD AND SITE NAV -->
+	 <link href="/widgets/header/responsive/headerEmulateOld.css" rel="stylesheet"> 
+	<!-- # include virtual="/widgets/header/responsive/headerEmulateOldSSI.html" -->
+	
+	<!-- <link href="/widgets/header/responsive/header.css" rel="stylesheet"> -->
+	
+
+<!-- BEGIN pageHeader widget ------------------ -->
+
+<header class="ssdFullWidthBannerResp">
+
+	<a name="pageTop" id="pageTop"></a><!-- anchor for top link -->
+    
+    <div class="ssdSkipLinks">
+    	<a href="#contentTop">Skip To Content</a>
+    </div>
+	
+    <div class="ssdBrand">
+    	<button title="NASA.gov Home Page" id="ssdHeaderLogoButton" onclick="
+		document.location.href='https://nasa.gov';"></button> <!-- temp replaced navball menu onclick="$('#ssdNasaMenu').toggle();" -->
+    </div>
+    
+    <div class="ssdHeadings">
+      
+		<div class="ssdView1">
+		  <h1><a href="/index.html" title="Webb Home Page">JAMES WEBB SPACE TELESCOPE</a></h1>
+		  <h2><a href="http://www.gsfc.nasa.gov"  title="go to GSFC Home">Goddard Space Flight Center</a></h2>
+		</div>
+
+		<div class="ssdView2">
+			<h1><a href="/index.html" title="Webb Home Page">James Webb<br>
+			<span >Space Telescope</span></a>
+			</h1>
+		  <!-- hidden @ mobile: <h2><a href="http://www.gsfc.nasa.gov">GSFC</a></h2>-->
+		</div>
+		
+    </div>
+    
+	<div class="ssdNav">
+      <button title="search tools" class="ssdSearchToggle" onclick="$('#ssdSearch').toggle();"></button>
+      <button title="share this page menu" class="ssdShareToggle" onclick="$('#ssdShare').toggle();"></button>
+	  <button title="main navigation menu" class="ssdMenuToggle" 
+	  		Xonclick="$('#ssdLeftMenu ').toggle();" 
+			onclick="$('#ssdMenu').toggle();"></button>
+	<!-- note menu toggle is last so in tab navigation after openning menu next tab puts focus on menu items unless search and share are open then those first, menu next. !!!Future revs will use element.focus() to shift focus to element toggled. -->
+
+    </div>
+    
+
+</header>
+
+<!-- header menus are outside menu container, location controlled by css  -->
+
+ 		<div id="ssdNasaMenu">
+            <!-- not used -->
+        </div><!-- end ssdNasaMenu --.
+
+<!-- note: these are specifically ordered for screen reader read order and to show multiple at one time with Search and share above the main menu -->
+ 		<div id="ssdSearch">
+        	<link rel="stylesheet" type="text/css" href="/widgets/search/responsive/search.css">
+            <style>#jwstSearchBox {width: 100%; max-width: 700px; padding:0 5px; margin:10px auto;}</style>
+			<div id='jwstSearchBox'>
+
+  <form accept-charset="UTF-8" action="https://search.usa.gov/search"
+   id='jwstSearchForm' method='get' target='_top'>
+ 
+    <input id='jwstSearchText' name="query" type='text' title="search terms" aria-label="search terms"/>
+    <button id='jwstSearchButton' type='submit' title="submit search" aria-label="submit search"><span>Search</span></button>
+    
+	<input name="utf8" type="hidden" value="&#x2713;" />
+    <input id="affiliate" name="affiliate" type="hidden" value="jwst" />
+  </form>
+ 
+ 
+<!--
+  <form accept-charset="UTF-8" action="http://search.usa.gov/search" id="search_form" method="get">
+    <div style="margin:0;padding:0;display:inline">
+      <input name="utf8" type="hidden" value="&#x2713;" />
+    </div>
+    <input id="affiliate" name="affiliate" type="hidden" value="nasastaging" />
+    <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" />
+    <input name="commit" type="submit" value="Search" />
+  </form>
+ 
+  
+  <form action='http://google.com' id='jwstSearchForm' method='get' target='_top'>
+    <button id='jwstSearchButton' type='submit'><span>Search</span></button>
+    <input id='jwstSearchText' name='q' type='text'/>
+  </form>
+  
+ -->  
+</div>
+
+        </div>
+        
+ 		<div id="ssdShare" > 
+			
+	
+			<div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="display:table;margin: 10px auto;" ><!-- a2a_floating_style, extra div w display:table to shrinkwrap and center and outer wrap uses.toggle() -->
+        	<!-- AddToAny BEGIN -->
+            
+            <a title="share on facebook" class="a2a_button_facebook"></a>
+            <a title="share on twitter" class="a2a_button_twitter"></a>       
+            <a title="share on instagram" class="a2a_button_instagram"></a>
+            <a title="share via text/sms (only on mobile capable devices)" class="a2a_button_sms"></a>
+		    <a title="share on email" class="a2a_button_email"></a>
+            <a title="share on other platforms" class="a2a_dd" href="https://www.addtoany.com/share"></a> 
+            
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+			<style>
+			/* override a2a core styles */
+			
+				.a2a_default_style a {
+					float:none;
+					display:inline-block; /* combined with parent #ssdShare text-align:center to wrap these in centered style */
+					padding:2px;
+				}
+				
+				a.a2a_dd {
+					float:none !important;
+				}
+			</style>
+
+</div><!-- AddToAny END -->
+
+        </div>
+         
+    	<div id="ssdMenu">
+        	<!-- <link rel="stylesheet" type="text/css" href="/widgets/mainNav/responsive/mainNav.css"> -->
+			<!-- # include virtual="/widgets/mainNav/responsive/mainNavSSI.html"  -->
+			
+			<link rel="stylesheet" type="text/css" href="/widgets/nav/navSSIs/fullSiteNav.css">
+			<!--- expandable nav element, used as top nav and left nav --->
+
+<style> /* turn off subSubMenus by default, turned on (display:block) in target page code */
+
+/* note: the TOP3 menu is the FIRST thing in the nav and separated off by a gap to denote its "separate" function */
+.top3SubMenu,.webbLaunchSubMenu,
+.statusSubMenu, .newsSubMenu, .aboutSubMenu, .observatorySubMenu, .oteSubMenu, .mirrorsSubMenu, .innovationsSubMenu, .faqSubMenu, .scienceSubMenu, .instrumentsSubMenu, .featuresSubMenu,  .featuresArtAndProjectsSubMenu,  .featuresCoolStuffSubMenu, .featuresEducationalSubMenu, .multimediaSubMenu, .teamSubMenu,
+.scientistsSubMenu, .educatorsSubMenu, .pressSubMenu { /* note .ssdNestedNavSocial is NOT hidden at loadtime */
+	display:none;
+}
+	
+.ssdNewWindow, .ssdRepeatedLink {
+	color:#a93;
+	font-weight: bold;
+	font-size: 120%;
+	}
+	
+.ssdNewWindow::after {
+	content: '\21D7';  /* unicode needed in content, equiv to &#8663; */
+	}
+	
+.ssdRepeatedLink::after {
+	content: '*';
+	}	
+
+.ssdNavNote {
+	color:#bbb; font-style: italic; padding: 3px 12px;
+	}
+	
+</style>
+
+<script>
+
+function ssdNav(submenu) {
+	//$(".ssdNestedNav ." + submenu ).siblings(".ssdDropDownToggle").toggleClass("open"); 
+	$(".ssdNestedNav ." + submenu ).toggle();
+}
+
+// hightlight nav on each page - run this every page load...
+try {
+console.log("Attempting to set subnav selected type for pathname: *"+ window.location.pathname.substring(0) + "*");
+		// set only a tags in subnav  of leftnav!  
+	$(document).ready(function() {	
+       // was only second tier $("ul.jwstInternalNav>ul>li>a").each(function(){
+		    $("ul.ssdNestedNav li a").each(function(){
+	   			//console.log("scanning: *"+$(this).attr("href") + "*");
+               if ($(this).attr("href") == window.location.pathname.substring(0)){  // grab leading "/"
+			   			console.log("Selected: " + $(this).attr("href") );
+                       $(this).addClass("selected");
+               }
+       });
+	 } );
+	 
+} catch (e1) {
+
+	console.log("\nException setting main nav highlight: " + e1.toString() )
+}
+
+/* to prevent the default page load on A tags with href="#" you must return false in js onclick OR do this... 
+   OR better use buttons and not A tags that dont actually load pages. */
+/*   
+$('a.ssdDropDownToggle').click(function(e)
+{
+    // Special stuff to do when this link is clicked...
+
+    // Cancel the default action
+    e.preventDefault();
+});
+*/
+</script>
+
+<nav>
+<ul role="menu" class="ssdNestedNav">
+<!-- !!! change this to ssdInternalNav poss TOPNAV vs SIDE NAV -->
+
+<style>
+
+ul.ssdNestedNav ul li a{
+	height:auto; /* override default fixed height */
+	background: url(/widgets/widgetImageCache/greyRectDull10x10.gif) no-repeat 12px 6px; 
+}
+
+ul.ssdNestedNav ul li a.ssdCurrent {
+	background: url(/widgets/widgetImageCache/goldRectBright10x10.gif) no-repeat 12px 6px !important;
+	color:#E1BD2A !important;
+}
+
+.ssdLinkDesc {
+	display: block;
+	color: #999;
+	text-transform: none;
+}
+
+A:hover .ssdLinkDesc {
+	display: block;
+	color: #ccc;
+	text-transform: none;
+}
+
+.selected {
+	color: #F00;
+}
+
+
+</style>
+
+
+<!-- Divider to LOCAL TOP3 SITE -->
+<span style="font-family: Muli,arial, sans_serif; font-size: 125%; line-height: 30px; font-weight: 200; color:#E1BD2A;  padding-left: 6px; ">ENGINEERING SITE:</span>
+
+<!-- OTHER JWST Sites -->
+<li style="display:inline" XXclass="ssdPillBtn" >
+	<a style="float:right; display:table-cell; padding:4px; background: #b18e2688; border-radius:2px;"
+	   class="ssdDropDownToggle" onclick="ssdNav('top3SubMenu');  return(false);"  href="#" role="button" aria-haspopup="true" 
+	title="The 3 Main JWST Websites">Other WEBB Sites <span class="ssdDropDownArrow"></span></a> 
+
+    <ul role="menu" class="top3SubMenu">
+		
+		<li><a href="https://nasa.gov/webb/" title="Latest Mission News, Overview and Feature Stories (nasa.gov)" >MISSION:  <span class="ssdLinkDesc">News/Overview/Features (nasa.gov) </span> </a> </li>
+		<li>
+			<a class="ssdCurrent"  href="/index.html" title="All About Building Webb (webb.nasa.gov)" >
+				ENGINEERING: (you are here) <span class="ssdLinkDesc">Building Webb (webb.nasa.gov)</span>
+			</a> </li>
+			
+		<li><a  href="https://webbtelescope.org" title="All about the amazing science and discoveries to come! (webbtelescope.org)" >
+		SCIENCE: <span class="ssdLinkDesc">Science, Images, Discoveries (webbtelescope.org)</span>
+			</a> </li>
+			<li><a href="/team.html" title="Our Agency, Industry and Academic Partners" >PARTNERS:  <span class="ssdLinkDesc">Agency, Industry and Academic</span> </a> </li>
+    </ul>
+	
+</li> 
+
+
+<li><a href="/index.html">HOME</a> </li>
+	
+	
+
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('webbLaunchSubMenu'); return(false); " href="# " role="button" aria-haspopup="true" >WEBB IMAGES & LAUNCH <div class="ssdDropDownArrow"></div></a> 
+
+	  <ul role="menu" class="webbLaunchSubMenu">
+		<!--<li><a href="/index.html">Launch Home</a> </li>-->
+		<!--<li><a href="/content/webbLaunch/countdown.html">Countdown</a> </li>-->
+		 <li><a href="/content/webbLaunch/needToKnow.html#aboutWebbImages" >About</a>
+		<li><a href="/content/webbLaunch/news.html">News<span class="ssdRepeatedLink"></span></a> </li>
+		<li><a href="https://www.flickr.com/photos/nasawebbtelescope/albums/72177720305127361"  target="_webbFlickr">Webb 2023 - Flickr <span class="ssdNewWindow"></span></a>
+		  <li><a href="https://www.flickr.com/photos/nasawebbtelescope/albums/72177720301006030"  target="_webbFlickr">Webb 2022 - Flickr <span class="ssdNewWindow"></span></a>
+		<li><a href="https://www.flickr.com/photos/nasawebbtelescope/albums/72177720300469752"  target="_webbFlickr"> First Images  - Flickr  <span class="ssdNewWindow"></span></a>
+		<li><a href="https://www.flickr.com/photos/nasawebbtelescope/albums/72177720296737701"  target="_webbFlickr">Test/Eng. Images  - Flickr  <span class="ssdNewWindow"></span></a>
+		<li><a href="https://webbtelescope.org/resource-gallery/images"  target="_stsci" title="Deeper Dive into each image produced specifically by STSci/Webbtelescope.org, detailed info, related images/products.">In Depth (WebbTelescope.org) <span class="ssdNewWindow"></span></a>
+		
+		<li style="padding:15px 0">BUILD, LAUNCH & DEPLOY
+	
+		<li><a href="	https://www.flickr.com/photos/nasawebbtelescope/albums/72157629134274763"  target="_webbFlickr">Webb's Build - Flickr  <span class="ssdNewWindow"></span></a>
+		<li><a href="https://www.flickr.com/photos/nasawebbtelescope/albums/72177720296738159"  target="_webbFlickr">Webb's Launch  - Flickr  <span class="ssdNewWindow"></span></a>
+		<li><a href="/content/webbLaunch/deploymentExplorer.html#0">Explore Webb's Deployments</a> </li>	
+				
+		<!-- 
+		<li><a href="/content/webbLaunch/events.html">Events</a> </li> -->
+		 <li><a href="/content/webbLaunch/whereIsWebb.html">Where Is Webb?</a> </li>
+		 <li><a href="/content/webbLaunch/needToKnow.html">Need to Know</a> </li>
+
+		</ul>
+
+</li>	
+
+<!--  moved status to News Archives. Create redirects!!!
+<li><a class="ssdDropDownToggle" onclick="ssdNav('statusSubMenu');  return(false);"  href="#" role="button" aria-haspopup="true" >STATUS <span class="ssdDropDownArrow"></span></a> 
+
+    <ul role="menu" class="statusSubMenu">
+    <li><a href="/content/status/index.html">Recent Accomplishments</a> </li>
+    </ul>
+	
+</li> 
+-->
+<li><a class="ssdDropDownToggle" onclick="ssdNav('newsSubMenu');  return(false);"  href="#" role="button" aria-haspopup="true"  >NEWS <div class="ssdDropDownArrow"></div></a>
+    
+	
+	<ul role="menu" class="newsSubMenu">
+    <li><a href="/content/news/index.html">News All</a></li>
+	<li><a href="/content/news/index.html#twitter">Twitter Feed</a></li>
+	<li><a href="/content/news/index.html#social">Social Media</a></li>
+	<li><a href="/content/news/index.html#archives">News Archives</a> </li>
+	</ul> 
+		  
+	</li> 
+
+
+
+
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('aboutSubMenu');  return(false);"  href="#" role="button" aria-haspopup="true"  >ABOUT WEBB <div class="ssdDropDownArrow"></div></a> 
+    
+	
+	<ul role="menu" class="aboutSubMenu">
+    <li><a href="/content/about/index.html">About Overview</a></li>
+	
+    <li><a class="ssdDropDownToggle" onclick="ssdNav('faqSubMenu'); return(false); "  href="#" role="button" aria-haspopup="true"  >Fact Sheets &amp; FAQs  <div class="ssdDropDownArrow"></div></a>          
+ 	
+		<!-- subnav FAQ section  -->
+		  <ul role="menu" class="faqSubMenu"> 
+			<li><a href="/content/about/faqs/facts.html">Key Facts</a></li>
+			<li><a href="/content/about/faqs/whoIsJamesWebb.html">Who Is James Webb?</a> </li>
+			<li><a href="/content/about/faqs/faqLite.html">FAQ Lite</a></li>  
+			<li><a href="/content/about/faqs/faq.html">FAQ Full</a></li>    
+		  </ul> 
+		  
+	</li> 
+	
+
+	
+    <li><a href="/content/about/launch.html">Launch</a> </li>
+    <li><a href="/content/about/orbit.html">Orbit</a> </li>
+    <li><a href="/content/about/comparisonWebbVsHubble.html">Webb and Hubble</a> </li>
+	
+    <li><a  class="ssdDropDownToggle" onclick="ssdNav('innovationsSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >Innovations <div class="ssdDropDownArrow"></div></a>  
+
+	 <!-- subnav INNOVATIONS section -->
+		  <ul role="menu" class="innovationsSubMenu"> 
+			<li><a href="/content/about/innovations/index.html">Innovations Overview</a></li> 
+			<li><a href="/content/about/innovations/microshutters.html">Microshutters</a></li>  
+			<li><a href="/content/observatory/ote/backplane.html">Backplane<span class="ssdRepeatedLink"></span></a></li> 
+			<li><a href="/content/observatory/ote/mirrors/index.html">Mirrors<span class="ssdRepeatedLink"></span></a></li>
+			<li><a href="/content/about/innovations/wavefront.html">Wavefront Sensing</a></li>
+			<li><a href="/content/about/innovations/infrared.html">Infrared Detectors</a></li>
+			<li><a href="/content/about/innovations/circuit.html">Cryogenic Data Aquisition</a></li>
+			<li><a href="/content/about/innovations/coating.html">Sunshield Coating</a></li>
+			<li><a href="/content/about/innovations/cryocooler.html">Cryocooler</a></li> 
+		  </ul> 
+    </li>
+	 
+     </ul>     
+</li>
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('scienceSubMenu'); return(false); " href="# " role="button" aria-haspopup="true" >SCIENCE <div class="ssdDropDownArrow"></div></a> 
+
+	   <ul role="menu" class="scienceSubMenu">
+		<li><a href="/content/science/index.html">Science Overview</a> </li>
+		<li><a href="/content/science/firstLight.html">Early Universe</a> </li>
+		<li><a href="/content/science/galaxies.html">Galaxies Over Time</a> </li>
+		<li><a href="/content/science/birth.html">Star Lifecycle</a> </li>
+		<li><a href="/content/science/origins.html">Other Worlds</a> </li>
+		</ul>
+
+</li>	
+
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('observatorySubMenu'); return(false); "  href="#" role="button" aria-haspopup="true">OBSERVATORY  <div class="ssdDropDownArrow"></div></a> 
+
+	  <!-- subnav Observatory section  -->
+	  <ul class="observatorySubMenu"> 
+		<li><a href="/content/observatory/index.html" title="Observatory overview" >Overview</a> </li>
+
+		<li><a class="ssdDropDownToggle" onclick="ssdNav('oteSubMenu'); return(false); "  href="#" role="button" aria-haspopup="true" >Optical Telescope (OTE) <div class="ssdDropDownArrow"></div></a>
+
+			<!-- subnav ote section  -->
+			 <ul class="oteSubMenu"> 
+				<li><a href="/content/observatory/ote/index.html" title="OTE Overview">Overview</a></li>
+				
+				<!-- 
+				<li><a class="ssdDropDownToggle" onclick="ssdNav('mirrorsSubMenu'); return(false); "  href="#" role="button" aria-haspopup="true" href="/mirrors.html">Mirrors <div class="ssdDropDownArrow"></div></a>
+
+					<!-- subnav mirors section future  -->
+					<!--
+					  <ul class="mirrorsSubMenu"> 
+						<li><a href="/mirrors.html">Mirrors Overview</a></li>
+						
+						<li><a href="/primarymirror.html">Primary Mirrors</a></li>
+						<li><a href="/secondarymirror.html">Secondary Mirror</a></li>  
+						<li><a href="/tertiarymirror.html">Tertiary Mirror</a></li>  
+					
+					  </ul> 
+				</li>
+				-->
+
+				<li><a href="/content/observatory/ote/mirrors/index.html" title="Mirrors Overview">Mirrors</a></li>
+				<li><a href="/content/observatory/ote/backplane.html">Backplane</a></li> 
+
+			  </ul> 
+		</li>
+		
+		<li><a class="ssdDropDownToggle" onclick="ssdNav('instrumentsSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >ISIM &amp; Instruments <div class="ssdDropDownArrow"></div></a> 
+
+		   <ul role="menu" class="instrumentsSubMenu">
+				<li><a href="/content/observatory/instruments/index.html" title="ISIM Overview">Overview</a></li>
+				<li><a href="/content/observatory/instruments/nircam.html">NIRCam</a> </li>
+				<li><a href="/content/observatory/instruments/nirspec.html">NIRSpec</a> </li>
+				<li><a href="/content/observatory/instruments/miri.html">MIRI</a> </li>
+				<li><a href="/content/observatory/instruments/fgs.html">FGS/NIRISS</a> </li>
+			</ul>	  
+		</li>
+	 
+
+		<li><a href="/content/observatory/sunshield.html">Sunshield</a></li>  
+		<li><a href="/content/observatory/bus.html">Spacecraft Bus</a></li>    
+	  </ul> 
+
+</li> <!-- end Observatory -->
+	
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('featuresSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >FEATURES &amp; ACTIVITIES <div class="ssdDropDownArrow"></div></a> 
+
+  <ul role="menu" class="featuresSubMenu"> 
+    <li><a href="/content/features/index.html">Features Overview</a> </li>
+    
+
+			
+		 <li><a class="ssdDropDownToggle" onclick="ssdNav('featuresArtAndActivitesSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >Art &amp; Activities <div class="ssdDropDownArrow"></div></a>            
+   
+				<ul role="menu" class="featuresArtAndActivitesSubMenu"> 
+					  <li><a href="/content/webbLaunch/events.html">Webb Events <span class="ssdRepeatedLink"></span></a></li>
+						<li><a href="/content/features/jwstArt/unfoldTheUniverse.html">&#35;unfoldTheUniverse Art</a></li>
+						<li><a href="/content/features/jwstArt/index.html">&#35;jwstArt Juried Art</a></li>
+						<li><a href="/content/features/jwstArt/publicArt.html">&#35;jwstArt Public Art</a></li>
+					  <li><a href="/content/features/webbSnowflake.html">Webb Snowflake</a></li>
+					  <li><a href="/content/features/postcards.html">Webb Postcard</a></li>
+						<li><a href="/content/features/coloringWebb.html">Coloring Webb</a></li>	 	  	  
+						<li><a href="/content/features/origami.html">Webb and Origami</a></li>	 	  
+						<li><a href="/content/features/flipBook.html">Webb Flip Book</a></li>	
+						<li><a href="/content/features/educational/paperModel/paperModel.html">Build a Model of Webb</a> </li>
+						<li><a href="/content/features/spacePumpkin.html">Webb-Themed Pumpkin</a></li>	  	  
+						<li><a target="_new" href="/education/JWSTPuzzle.pdf">Webb Folding Puzzler (pdf) <span class="ssdNewWindow"></span></a> </li>
+						<li><a target="_new" href="/education/jwst_lego_assembly_instructions.pdf">Lego Web (pdf) <span class="ssdNewWindow"></span></a> </li>
+				</ul>
+				
+		</li>
+		
+	
+		 <li><a class="ssdDropDownToggle" onclick="ssdNav('featuresCoolStuffSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >Cool Stuff <div class="ssdDropDownArrow"></div></a>            
+   
+				<ul role="menu" class="featuresCoolStuffSubMenu"> 
+					<li><a target="_new" href="http://www.lindau-repository.org/nobellabs360/gb_johnmather/index.html">John Mather 360 &deg; Lab View <span class="ssdNewWindow"></span></a></li>	  
+					<li><a target="_new"  href="https://store.steampowered.com/app/891960/WebbVR_The_James_Webb_Space_Telescope_Virtual_Experience/">Webb Virtual Reality <span class="ssdNewWindow"></span></a></li>
+					<li><a target="_new" href="https://svs.gsfc.nasa.gov/nasaviz/index.html">NASA Viz Explorer App <span class="ssdNewWindow"></span></a>  </li>
+					
+					<li><a href="/content/features/timeLapse.html">Time-Lapse Movies</a> </li>
+					<li><a target="_new" href="https://svs.gsfc.nasa.gov/Gallery/JWST.html">Webb@Sci-Viz Studio <span class="ssdNewWindow"></span></a></li> 
+					
+					<li><a href="/content/features/keyFactsInternational/">Key Facts MultiLingual</a></li>
+					<li><a href="/content/features/downloads.html">Webb Backgrounds</a> </li>
+					<li><a href="/content/features/educational/print.html">Posters &amp; Print</a> </li>					
+
+					
+										
+				</ul>
+				
+		</li>
+		
+    <li><a class="ssdDropDownToggle" onclick="ssdNav('featuresEducationalSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >Games &amp; Educational <div class="ssdDropDownArrow"></div></a>            
+   
+			<ul role="menu" class="featuresEducationalSubMenu"> 
+				
+				<li><a href="/content/features/bigBangQandA.html">Webb &amp; the Big Bang</a></li>
+				<li><a href="/content/features/educational/build.html">Build a Satellite</a> </li>
+				<li><a href="/content/features/educational/scope.html">Scope It Out</a> </li>
+				<li><a href="/content/features/beyondTheVisible.html">Beyond the Visible</a></li>
+				<li><a href="/content/features/behindTheWebb.html">Podcast: Behind Webb</a></li> 
+				<li><a target="_new" href="/education/SeeingStarlightMadScience.8.11.21.pdf">Seeing Starlight (pdf)<span class="ssdNewWindow"></span></a></li>
+				<li><a href="/content/features/educational/eBooks.html">Webb &amp; Hubble eBooks</a> </li>
+				<!--<li><a target="_new" href="/education/JWSTScienceFunPad.pdf">Webb Fun Pad (pdf)</a> <span class="ssdNewWindow"></span></li>-->
+				<li><a target="_new" href="/education/JWSTPuzzle.pdf">Webb Folding Puzzler (pdf) <span class="ssdNewWindow"></span></a></li>
+				<li><a href="/content/features/mirrorMap.html">Journey of the Mirrors</a></li>  
+				
+				<li><a href="/content/forEducators/index.html">Educator Resources <span class="ssdRepeatedLink"></span></a></li>  
+				
+
+			</ul>
+	</li>
+		
+  </ul>     
+
+</li>
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('multimediaSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >MULTIMEDIA <div class="ssdDropDownArrow"></div></a> 
+
+    <ul role="menu" class="multimediaSubMenu">
+		<li><a href="/content/multimedia/index.html">Multimedia Overview</a> </li>
+        <li><a href="/content/multimedia/images.html">Images</a> </li>
+        <li><a href="/content/multimedia/videos.html">Animations & Videos</a> </li>
+        <li><a href="/content/multimedia/svs.html">Scientific Viz Studio(SVS)</a> </li>
+        <!-- 
+		<li><a href="/content/features/webcam.html">WebbCam Live</a> </li>
+        <li><a href="/content/features/timeLapse.html">WebbCam Time-lapse</a> </li>
+		-->
+    </ul>
+
+</li>
+
+<li><a class="ssdDropDownToggle" onclick="ssdNav('teamSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >MEET THE TEAM <div class="ssdDropDownArrow"></div></a>
+
+    <ul role="menu" class="teamSubMenu">
+		<li><a href="/content/meetTheTeam/index.html">Team Overview</a> </li>
+        <li><a href="/content/meetTheTeam/team.html">Institutional Partners</a> </li>
+        <li><a href="/content/meetTheTeam/workingGroup.html">Science Working Group</a> </li>
+        <li><a href="/content/meetTheTeam/project.html">GSFC Project</a> </li>
+        <li><a href="/content/meetTheTeam/people/index.html">Team Biographies</a> </li>
+    </ul>
+
+ </li>
+ 
+ <li><a class="ssdDropDownToggle" onclick="ssdNav('scientistsSubMenu'); return(false);"  href="#" role="button" aria-haspopup="true" >FOR SCIENTISTS <div class="ssdDropDownArrow"></div></a> 
+
+    <ul role="menu" class="scientistsSubMenu">
+    <li><a href="/content/forScientists/index.html">Scientists Overview</a> </li>
+	<li><a href="/content/forScientists/faqScientists.html">FAQ for Scientists</a> </li>
+    <li><a href="/content/forScientists/faqSolarsystem.html">Solar System Obsv. FAQ</a> </li>
+    <li><a href="/content/forScientists/newsletters.html">Newsletters</a> </li>
+    <li><a href="/content/forScientists/presentations.html">Presentations</a> </li>
+    <li><a href="/content/forScientists/publications.html">Publications</a> </li>
+    </ul>
+ 
+ </li>
+	
+<li><a class="ssdDropDownToggle" onclick="ssdNav('educatorsSubMenu'); return(false);" href="#" role="button" aria-haspopup="true" >FOR EDUCATORS <div class="ssdDropDownArrow"></div></a> 
+  
+  <ul role="menu" class="educatorsSubMenu">
+    <li><a href="/content/forEducators/index.html">Education Overview</a> </li>
+    <li><a href="/content/forEducators/informal.html">Informal Education</a> </li>
+    <li><a href="/content/forEducators/formal.html">Formal Education</a> </li>
+	<li><a href="/content/features/index.html#educationalFeatures">Features/Educational<span class="ssdRepeatedLink"></span></a> </li>
+    </ul>
+
+</li>
+
+<li><a href="/content/forPress/index.html">FOR PRESS</a> </li>
+
+	
+<li><span class="ssdNavNote" > <span class="ssdNewWindow"></span> = Item opens a new window.</span></li>	
+<li><span class="ssdNavNote" > <span class="ssdRepeatedLink"></span> Item repeated from another section.</span></li>	
+	
+	
+	
+<li > <!--<a class="ssdDropDownToggle open" onclick="ssdNav('ssdNestedNavSocial'); return(false);" href="#" role="button" aria-haspopup="true" > JWST SOCIAL MEDIA  <div class="ssdDropDownArrow"></div></a>-->
+
+	<ul role="menu"  class="ssdNestedNavSocial">
+
+	 <!-- <li><a title="RSS" href="http://www.nasa.gov/rss/dyn/webb_features.rss"><img src="/feed_icons/feed32.png" alt="RSS news feed"></a> </li> -->
+
+	  <li><a title="Twitter" href="http://twitter.com/NASAWebb"><img src="/feed_icons/twitter32.png" alt="Twitter"></a> </li>
+
+	  <li><a title="Facebook" href="http://www.facebook.com/nasawebb"><img src="/feed_icons/facebook32.png" alt="Facebook" ></a> </li> 
+
+	  <li><a title="YouTube" href="http://www.youtube.com/user/NASAWebbTelescope"><img src="/feed_icons/youtube32.png" alt="YouTube channel"  ></a> </li>
+
+	  <li><a title="Flickr" href="https://www.flickr.com/photos/nasawebbtelescope/albums/"><img src="/feed_icons/flickr32.png" alt="Flickr" ></a> </li>
+
+	  <li><a title="Instagram" href="http://instagram.com/nasawebb"><img src="/feed_icons/instagram32.png" alt="instagram"></a> </li>
+		
+	</ul>
+
+</li>
+	
+</ul>
+	
+</nav>
+
+
+
+
+        </div>
+ 
+ 
+ <!-- scrolls to #pageTop anchor see function binding in header.js -->
+<button 
+ title="Top of page" class="ssdPillBtn ssdFloatingTopBtn" id="ssdTopButton" >TOP</button>
+
+<!-- END pageHeader widget ------------------ -->
+
+
+
+<!-- CONTENT Anchor - 508 header jump link jumps here-->
+<a name="contentTop"></a>
+
+<div id="ssdPageWrapper"> <!-- was jwstPageWrapper -->
+
+<!--
+<announcement zone here, page width -- but this is PAGE DEPENDENT - works if outer/inner wrappers else needs to be WITHIN page CONTENT container
+-->
+
+<!--
+<breadcrumb zone here, or page local???\ page width-- but this is PAGE DEPENDENT - works if outer/inner wrappers else needs to be WITHIN page CONTENT container
+-->
+
+<!-- ssdContentWrapper: (this maybe just a style applied to the outer ARTICLE tag? or else a wrapper div) outerpage can override with local styles
+<div class="ssdPageContentWrapper"  >
+ -->
+
+
+<!-- --- START: PAGE CONTENT BELOW -------------------------------- -->
+
+
+	<style>
+		/* turn on apropos submenus - this must be placed AFTER the pageBody template code to override it */
+		.webbLaunchSubMenu { display: block;} 
+	</style>
+
+<style>
+	
+/* Template Overrides
+	Page Template and Header/Masthead OVERRIDES for full vid/img Hero Pages 
+	!!!NOTE: ensure this is included AFTER template CSS to override it.
+*/
+	#ssdBgWrapper { background-image:none; } /* LE Pages Defaults: hide bg image - black page. */
+	
+	.ssdPageContentWrapper {  padding-bottom: 0px; margin-bottom: 0px; /* remove end of content gutter for hero */ }
+	
+	ARTICLE, SECTION {
+			 background: #000;
+			 padding:0;
+		 }
+
+	.ssdFullWidthBannerResp { 
+	background-image:none;
+	background-color: rgba(0,0,0,0.0);  /* tune for specific image. 0 (clear) for dark, .5 for mid contrast image */
+	/*background-color: rgba(0,0,0,0.8);  /* USE .8 for noisy images, .5 for not. trans black header in this case */
+	border-bottom: none; 
+    position: absolute; /* !!! note this takes header out of flow so we have it overlap video, change to relative for in-flow, no overlap */
+    top:0px;
+    left: 0px;
+    z-index: 1; 
+    } 
+	
+	#ssdMenu, #ssdShare, #ssdSearch { 
+		position: relative; 
+		top:86px;  
+		z-index:2; 
+		background-color: rgba(0,0,0,0.3);  /* USE .8 for noisy images, .5 for not. trans black header in this case */
+		/*background-color: rgba(0,0,0,0.8);  /* USE .8 for noisy images, .5 for not. trans black header in this case */
+		padding:10px;
+}
+
+</style>
+
+<link rel="stylesheet" type="text/css" href="/content/webbLaunch/heroPage.css">
+<!-- overrides -->
+<link rel="stylesheet" type="text/css" href="/content/webbLaunch/homeHeroOverrides.css">
+
+<style>
+	.ssdHeroContent {
+		margin-top:95px; /* for "clear" header page clearance */
+		max-width: 900px; /* limit spread on big screens */
+	}
+	
+	.ssdHeroContent:hover {
+			background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.7) 5%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.9) 53%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0.7) 92%, transparent 100%);
+		}
+	
+		
+	.ssdPageControls { 
+		padding-top: 1em; } /* gap from more link, mainly for mobile */
+	
+	.ssdHeroImg:hover { /* hover to indicate clickable image, works in convert with the onclick attrib on img tag to pull up what ever image is in view into a new tab, great for zooming in/out in browser at whatever rez image is */
+	border: 1px #ca3 solid;
+	cursor: pointer;
+	}
+	
+	/* local background modifiers for tweeks specific to  image */
+	.ssdHeroContent {
+		/* Use only one based on underlying image */
+		
+	/* !!!edit: TEXT-BED Background - uncomment only one-  chose background for contrast based on image brightness/darkness and noisey-ness
+		
+	/*1 Dark Image, liter bg: 
+		
+	background: 
+		linear-gradient(90deg, transparent 25%, rgba(0,0,0,0.25) 35%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.25) 65%, transparent 75%); 
+	*/
+		
+	/* 2 Moderately Lite Image, darker bg:  */
+		
+	background:
+		linear-gradient(90deg, transparent 15%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.5) 70%, transparent 75%); 
+	
+	
+		
+	/* 3 Medium Image, darker bg: 
+		
+	background:
+		linear-gradient(90deg, transparent 15%, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0.75) 75%, transparent 80%); 
+	
+	*/
+		
+	/* 4 Noisey/Lite Image (such as spectra), WIDE+darker bg: 	
+		
+	background: 
+		linear-gradient(90deg, transparent 10%, rgba(0,0,0,0.85) 20%, rgba(0,0,0,1.0) 50%, rgba(0,0,0,0.85) 80%,  transparent 90%);  
+		
+*/
+		
+	/* 5 VERY Noisey/Lite Image (such as spectra), WIDE+darker bg:	
+		
+	background: 
+		linear-gradient(90deg, transparent 5%, rgba(0,0,0,0.95) 10%, rgba(0,0,0,1.0) 50%, rgba(0,0,0,0.95) 90%,  transparent 95%);  	
+	 */
+		
+	}
+	
+	
+	
+	/* small screen adjustments */
+
+		@media (max-width: 900px ){
+		.ssdHeroContent {
+			width:auto;
+			margin:4%;
+			font-size: .9em;
+			line-height:130%
+		}
+		
+		.ssdHeroContent {   /* mobile BG override always - DARKEST - same as hover for larger screens */
+			background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.7) 5%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.9) 53%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0.7) 92%, transparent 100%);
+		}
+		
+		.ssdHeroContent .ssdHeroContentImageWrap {
+            max-width: 250px;
+			
+		}
+	}
+	
+	
+	@media (max-width: 700px){
+		.ssdHeroContent {
+			width:auto;
+			margin:4%;
+			font-size: .8em;
+			line-height:130%
+		}
+		
+		.ssdHeroContent { /* mobile BG override always - DARKEST - same as hover for larger screens */
+			background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.7) 5%, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.9) 53%, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0.7) 92%, transparent 100%);
+		}
+		
+		.ssdHeroContent .ssdHeroContentImageWrap {
+            max-width: 200px;
+			
+		}
+	}
+	
+
+</style>
+
+
+<div class="ssdAnnouncementWrapper"></div>
+
+<div class="ssdBreadCrumbWrapper"></div>
+
+<div class="ssdPageHeroImageWrapper"></div>
+
+
+<article class="ssdPageContentWrapper ssdMajorSectionFeatures">	
+
+	
+<div id="hero1" class="ssdHeroWrap">
+	
+	<div class="ssdHeroImageWrap ">
+		
+		   <!-- !!!edit: IMAGE tag - create JPGs and insert images for 1k and 2k resolutions, as well as alt tag and longdesc if available, check/chose backgroud text tagged above based on image brightness/noisey-ness -->
+			<img  class="ssdHeroImg ssdFeaturedImage" 
+					 
+					 onclick=" var imgSrc= $(this).attr('src');window.open(imgSrc,'_fullView');" 
+					 title="click to open current resolution image in new window for zooming"
+					 
+					 src=""
+					 
+					 srcset=""
+					 
+					 alt="Image Loading..."
+					 
+					 longdesc="" >
+	</div>
+	
+
+<!-- hero content -->	
+    <div class="ssdHeroContent">
+    
+
+      <div class="ssdHeroContentImageWrap">
+      	<img class="ssdImageResponsive" src="/content/webbLaunch/assets/images/branding/logo/LOGOTYPE_ONECOLOR_2LINE_WHITE.png"  alt="webb logo" />
+			</div>
+        
+			<h1 style="color:#FFCC00; font-size: 1.1em; margin: 15px 0 5px 0 ">
+				
+				  <span class="ssdArticleReleaseDate" style="color:#fff; font-size: .9em; ">
+						
+						Loading Article and Images <!-- set by JS -->
+				
+				  </span> :
+				
+					<a class="ssdArticleUrl" href="https://www.nasa.gov/webb/" target="_featureArticle">
+						
+						<span class="ssdArticleDisplayTitle">  <!-- set by JS --> </span>  
+ 
+
+					</a><span style="color:#ccc; font-size: .9em; font-weight: normal"> &#x2771;</span>
+			</h1>
+					
+			<p  style="font-size: .9em;  line-height: 140%; text-align: left; margin:0; padding:0; ">
+					
+				<span class="ssdArticleTeaserDescription">
+				 		<!-- set by JS -->
+				</span>
+				
+				<span id="moreLink" style="font-weight: bold;" >
+					  <br>
+						<a onclick="$('#more').toggle(); $('#moreLink').hide();"> More </a> 
+					  <span style="color:#ccc;  font-weight: normal"> &#x2771;</span>
+				</span>
+				
+				
+				<span id="more" style="display:none"  >
+				
+					
+				<br><br>
+					<span style="color:#ccc;  font-weight: normal"> &#x2770;</span> <span id="lessLink" style="font-weight: bold;" ><a onclick="$('#more').toggle(); $('#moreLink').show(); window.scrollTo(0, 0);"> Less </a> </span>
+					
+					| 
+					<a  class="ssdArticleUrl" href='https://www.nasa.gov/webb/' target='_featureArticle'>Read the Full Story </a> 
+					| 
+					<a  class="ssdArticleInDepthUrl" href='https://webbtelescope.org/resource-gallery/images' target='_featureArticle'>This Image in Depth </a> 
+					
+
+				<br><br>
+	
+					<!-- caption- may or maynot be same as ALT if there is no "Visual Desc" for alt  -->
+						<span style="color:#eee;  font-weight: bold; text-transform: uppercase">Image Details - </span>
+						<span id="ssdHeroImgCaption">
+							<!-- set by JS toggled by diff image view buttons -->
+						</span>
+					
+					<!-- credit -->
+					<br><br>
+						<span style="color:#eee;  font-weight: bold; text-transform: uppercase">CREDITS - </span>
+						<span id="ssdHeroImgCredits">
+							<!--Default - replaced by JS set - toggled by diff img view buttons -->
+							NASA, ESA, CSA
+						</span>
+	
+			</p>
+	
+		
+						
+				<div  class="ssdPageControls"  >
+
+				<!-- toggle text viz btn -->
+				<!-- CHOOSE ONE: 2 versions, select one only -- first shows ENTIRE image onclick of imageOnly (via adding class .imageOnly which removes object COVER, in favor of object FIT)  2nd keeps FIT which works better for some images.  Note 2k and 4k buttons always change to FIT
+				-->
+					
+	<!--		1) IMAGE ONLY WITH BG image cover/contain toggle  -->
+							<button class="ssdIconButton tighter shrinkWrap" title="show/hide descriptive text for image"
+									onclick=" $('.ssdHeroContent').addClass('hidden'); $('#ssdPageControlsMini').addClass('visible'); setTimeout(function(){ $('.ssdHeroImageWrap').addClass('imageOnly'); window.scrollTo(0, 0);},  400); //delay for anim to complete " ><span class="ssdIconButtonHtmlIcon" style="font-size: 160%; "> &#10563;</span>&nbsp;<span class="ssdIconButtonText">Image Only</span></button>
+    
+	<!-- video tours 			
+					<button class="ssdIconButton tighter shrinkWrap" title="scroll to Video"
+									onclick="ssdScrollTo('#videoEmbed1', 500, 0) " ><span class="ssdIconButtonText">Video Tour</span></button>
+		-->				
+					
+	<!--		2) IMAGE ONLY  BG image retain COVER attribute (same as with text)		
+							<button class="ssdIconButton tighter shrinkWrap" title="show/hide descriptive text for image"
+									onclick=" $('.ssdHeroContent').addClass('hidden'); $('#ssdPageControlsMini').addClass('visible');  setTimeout(function(){ window.scrollTo(0, 0);},  400); //delay for anim to complete " ><span class="ssdIconButtonHtmlIcon" style="font-size: 160%; "> &#10563;</span>&nbsp;<span class="ssdIconButtonText">Image Only</span></button> 
+			-->
+
+
+
+				 <!--<button  class="ssdIconButton tighter shrinkWrap" href='https://webbtelescope.org/resource-gallery/images' target='_stsci'>Related Images</button>-->
+					
+			</div>
+	
+			
+			 <div id="moreWebbImages" style="font-size: 1.0em; font-weight: bold;  margin: 5px 0 35px 0 ">
+				 
+				 <span style="color:#fff;" >Webb Images : </span>
+				 
+				 <a  href='/content/webbLaunch/needToKnow.html#webbImages'>About</a><span style='color:#ccc;' > | </span> 
+				 
+				 <a  href='https://www.flickr.com/photos/nasawebbtelescope/albums/72177720305127361' target='_webbFlickr'>2023</a><span style='color:#ccc;' > | </span> 
+				 
+				 <a  href='https://www.flickr.com/photos/nasawebbtelescope/albums/72177720301006030' target='_webbFlickr'>2022</a><span style='color:#ccc;' > | </span> 
+				 
+				 <a  href='https://www.flickr.com/photos/nasawebbtelescope/albums/72177720300469752' target='_webbFlickr'>1st Images</a><span style='color:#ccc;' > | </span> 
+				 				 
+				  <a  href="https://webbtelescope.org/resource-gallery/images"  target="_inDepth" >In Depth</a>
+
+			   </div>
+
+	
+    </div>
+	
+	
+</div> 
+	<!-- end hero -->
+    
+<!--
+<div style="display: flex; flex-flow: column; justify-content: center; align-content: center;  align-items: center; padding: 2vh 3%">
+	  <h3 class="ssdAccentTitle1">Caption:</h3>
+		<figcaption id="ssdHeroImgCaption" style="max-width: 600px; text-align: left; font-size: 1em; line-height: 1.5;  margin-top: 1vh; color:#ccc; ">
+		
+		</figcaption>		
+</div>-->
+			
+		<div id="ssdPageControlsMini" > 
+			<!-- note: this element OUTSIDE hero content so it doesn't slide out with it and can be independently positioned -->
+
+			<!-- INFO SHOW/HIDE Button - toggle btns note OUTSIDE heroContent and ssdHubButtons which is slid out en masse -->
+
+				<button class="ssdIconButton tighter" title="show/hide text/links over image" onclick="ssdRemoveLoaderInPage(); $('.ssdHeroContent').removeClass('hidden'); $('.ssdHeroImageWrap .ssdHeroImg ').removeClass('minimized'); $('#ssdPageControlsMini').removeClass('visible');$('.ssdHeroImageWrap').removeClass('imageOnly');  " 
+								><span class="ssdIconButtonText">
+										Info&nbsp;</span>
+										<span class="ssdIconButtonHtmlIcon" style="font-size: 160%;"> &#10562;</span></button> 
+			
+			<!-- ALT REZ buttons, setup + show/hide by JS metadata load code  -->
+			
+			<button  id="ssd1kView" class="ssdIconButton tighter " onclick="set by JS"  
+                        title="2k pixel view for This Image"><span class="ssdButtonText">2k</span></button>
+			
+			<button  id="ssd2kView" class="ssdIconButton tighter " onclick="set by JS"  
+                        title="2k pixel view for This Image"><span class="ssdButtonText">2k</span></button>
+			
+			<button  id="ssd4kView" class="ssdIconButton tighter " onclick="set by JS"  
+                        title="4k pixel view for This Image"><span class="ssdButtonText">4k</span></button>
+			
+			<button  id="ssdMaxRezView" class="ssdIconButton tighter " onclick="set by JS"  
+                        title="Maximum Pixel Resolution view for This Image"><span class="ssdButtonText">MaxRez</span></button>
+			
+			
+			<script>
+				//note assumes button element is already in page, addressed at target
+				function ssdLoadAltRezImage(target, url, rez) {  // rez = [ 2k | 4k | fullRez ]
+					 
+					$(target).attr('srcset',''); // remove srcset if exists since it does not apply
+					ssdLoadImageIntoTarget( target,url); // uses preload/loader anim
+					//setTimeout(function(){ $('.ssdHeroImageWrap').addClass('imageOnly'); window.scrollTo(0, 0);}, 0);
+					// since no delay, but the above instream
+					$('.ssdHeroImageWrap').addClass('imageOnly'); //!!! only for home
+					window.scrollTo(0, 0); // scroll to top if we are not there already
+				}
+			</script>
+				
+			
+		
+		<!--  compare 
+			<button  class="ssdIconButton tighter " onclick="var offset = { top:800, left:0}; offset= $('#draggableComparison').offset(); console.log(offset); window.scrollBy({top: offset.top,left: 0,behavior: 'smooth'});//document.getElementById('draggableComparison').scrollIntoView();"  
+							title='Draggable Comparisons with other instruments or missions '><span class="ssdButtonText">Compare</span></button>
+		
+			-->
+			
+		</div>
+		
+	  
+
+		<link href="/content/webbLaunch/iconButtonStyles.css"	type="text/css" rel="stylesheet">
+		<!-- override -->
+		<style>
+			
+		.ssdButtonWrap{ position:relative;bottom:unset; padding: 1vh  0;}
+		.ssdIconButton { background: rgba(0,0,0,.65); }
+
+		.ssdIconButton.shrinkWrap { /* !!! move this to iconButtonStyles.css */
+		}
+
+		.ssdIconButton.tighter { /* !!! move this to iconButtonStyles.css */
+				width:auto;
+				min-width: unset;
+			  height:42px;
+			}
+		
+	.ssdIconButtonText  { /* !!! move this to iconButtonStyles.css */
+				/*border:1px solid #999; */
+		}
+		
+		.ssdIconButtonHtmlIcon { /* as opposed to image. !!! move this to iconButtonStyles.css */
+				color:#fff; 
+				font-size: 120%; 
+				font-weight: bold; 
+			
+			/*border:1px solid #999;	/* border shows you that there are DIFF BROWSER IMP of SAME CHAR, some OFFCENTER so there's no aligning them to center. Esp notable on Android Chrome and somewhat on FFox whereas desktop chrome is perfectly centered on the <-- -> icons. */
+		}
+		
+		</style>
+		<!-- removed iconButtons -->
+
+
+				 
+
+<div id="draggableComparison" style="padding: 12vh 3vw 0 3vw">
+	
+	
+<style>
+	.ssdAccentTitle1 { color: #fff; font-size: 120%;}
+	#draggableComparison P, #draggableComparison UL, #draggableComparison LI { color:#ccc; font-size: .85em;  line-height: 120%;  max-width:600px;}
+</style>
+<!--	
+<nav style="text-align: center; color:#ccc; font-weight: bold;">	
+	 <h3  style="text-align: center; color:#eb3; padding: 60px 0 4px 0 ;margin-bottom: 0;"><span class="ssdAccentTitle1">Draggable Comparisons: </h3>
+	<a href="#draggableComparisonPillarsMiriNircam"> MIRI/NIRCam</a> |
+	<a href="#draggableComparisonPillarsHubbleWebb"> Hubble/Webb NIRCam</a>
+</nav>
+-->
+
+<section style="display:none;" id="videoEmbed1" class="ssdFullWidth">	
+
+	
+    <div style="display:flex;flex-flow: column; align-items: center;">
+
+    <!-- Video Embed  -->
+         <h3  style="text-align: center; color:#fff;  #eb3;  padding: 20px 0 4px 0; margin: 0 0;">
+			 Video Tour
+		 </h3>
+        
+
+        <div style="color:#ccc; width:98%; max-width:1400px"> 
+
+        
+            <div style="width: 85%; clear: both; float: none; margin: auto;" class="ssdImagePanel" > 
+ 
+<!-- youtube embed -->
+					<div class="ssdResponsiveVideo16x9">
+                    <iframe title="Video: Tour of El Gordo Galaxy Cluster"   
+                        src="https://www.youtube.com/embed/k6kMKmpveyo"  
+						allowfullscreen >
+                   </iframe>
+				
+					<!--
+<iframe width="780" height="480" src="https://www.youtube.com/embed/k6kMKmpveyo" title="Tour of El Gordo Galaxy Cluster" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				-->
+                  	</div> 
+				
+<!-- mp4 code:				
+				<div class="ssdResponsiveVideo16x9">
+					<video controls  
+                       style="width:100%; height:auto; border:#666 1px solid" 
+                       poster="/content/webbLaunch/assets/images/images2023/jul-12-23-Tour-Poster.jpg" 
+                       title="Rho Ophiuchi Video Tour">
+                        <source src="https://stsci-opo.org/STScI-01H6S1BF3FJXMWHN663ZKAV1CC.mp4" type="video/mp4">
+					Your browser does not support the video tag.  
+					</video>
+				</div>
+
+-->			
+				
+            </div> <!-- END  ssdImagePanel --> 
+
+    
+ 			<div style="clear:both;">
+				
+        </div>
+
+             
+    </div>
+		
+   	<figcaption style="max-width: 800px; font-size: 14px; color:#ccc; line-height:140%; padding-top:15px;">
+                   In July 2022, NASA's James Webb Space Telescope observed El Gordo, a galaxy cluster that existed 6.2 billion years after the big bang. It was selected as the most massive galaxy cluster known at that time in cosmic history. The resulting image reveals a variety of gravitationally lensed galaxies, including striking objects nicknamed the Fishhook and the Thin One. Come with us on a video tour of this new infrared image from Webb. <a href="https://stsci-opo.org/STScI-01H6SBVQTBRART34KK4JMV927F.docx">Transcript of Video</a>.
+                    <br><br>
+                    <strong>Credits:</strong> NASA, ESA, CSA. SCIENCE: Jose M. Diego (IFCA), Brenda Frye (University of Arizona), Patrick Kamieneski (ASU), Tim Carleton (ASU), Rogier Windhorst (ASU). IMAGE PROCESSING:   Alyssa Pagan (STScI), Jake Summers (ASU), Jordan C. J. D'Silva (UWA), Anton M. Koekemoer (STScI), Aaron Robotham (UWA), Rogier Windhorst (ASU)
+                    
+     </figcaption>
+
+</section>
+
+	
+
+<section style="display:none"  id="videoEmbed2" class="ssdFullWidth">	
+
+	
+    <div style="display:flex;flex-flow: column; align-items: center;">
+
+    <!-- Video Embed  -->
+         <h3  style="text-align: center; color:#fff;  #eb3;  padding: 60px 0 4px 0; margin: 0 0;">
+			 Zoom in to Rho Ophiuchi
+		 </h3>
+        
+
+        <div style="color:#ccc; width:98%; max-width:1400px"> 
+
+        
+            <div style="" class="ssdImagePanel fullWidth" > 
+                <!--  <div class="ssdResponsiveVideo16x9">
+                    <iframe title="Video: Flight to Maisie's Galaxy"   
+                        src="https://youtu.be/embed/M1n82zTBwQY?rel=0"  
+						allowfullscreen >
+                   </iframe>
+				
+                  </div> 
+-->
+				<video controls  
+                   style="width:100%; height:auto; border:#666 1px solid" 
+                   poster="/content/webbLaunch/assets/images/images2023/jul-12-23-ZoomInto-Poster.jpg" 
+                   title="Zoom Into Rho Ophiuchi Video">
+					<source src="/content/webbLaunch/assets/images/images2023/jul-12-23-ZoomIntoSTScI-01H44CNC0MAAWH3507AY4VFH7A.mp4" type="video/mp4">
+					Your browser does not support the video tag.  
+				</video>
+				
+            </div> <!-- END  ssdImagePanel --> 
+
+    
+ 			<div style="clear:both;">
+				
+        </div>
+
+             
+    </div>
+		
+   	<figcaption style="max-width: 800px; font-size: 14px; color:#ccc; line-height:140%; padding-top:15px;">
+                    Travel to the Rho Ophiuchi cloud complex. The journey begins with a ground-based image by astrophotographer Akira Fujii, then transitions into a plate from the Digitized Sky Survey. Next a two-color image from the now-retired infrared NASA Spitzer Space Telescope appears, and then finally the video arrives at the James Webb Space Telescope’s image of the star-forming region.  
+
+					<br><br>The star-forming region captured in Webb’s image is small and not particularly active compared to other well-known star-forming regions. It is the region’s proximity to Earth (390 light-years) that allows Webb to capture it in such detail, emphasizing the structure of jets bursting from young solar-mass stars, and a dusty “cave” of glowing polycyclic aromatic hydrocarbons. Note: There is no audio.
+                    <br><br>
+                    <strong>Credits:</strong>NASA, ESA, CSA, Alyssa Pagan (STScI)
+                    
+     </figcaption>
+
+</section>
+		
+<section style="display:none" id="draggableComparison1" class="ssdFullWidth">	
+
+	
+<div style="display:flex;flex-flow: column; align-items: center;">
+	
+<!-- DRAGGABLE COMPARISON Pillars Of Creation -->
+	 <h3  style="text-align: center; color:#eb3; padding: 60px 0 4px 0 ;margin-bottom: 0;"><span class="ssdAccentTitle1">Draggable Comparison: </span> Hubble / Webb NIRCam</h3>
+		<p>DRAG Handle/Centerline  (or CLICK on images) to compare </p>
+
+	<div style="max-width:1300px"> 
+		<!-- contain cocoen resp behavior to max size of img else expands to largest parent or viewport -->
+		
+			<!--<button style="ssdIconButton" onClick="$('#ssdImageDetailPanel1').toggle();">View Webb Image Details</button>
+		<div id="ssdImageDetailPanel1"  style="display:none">
+			target to insert image detail info panel for show/hide 
+		</div>
+    -->
+		
+	<!-- Only the class cocoen is mandatory to apply proper default styles: -->
+	<div class="cocoen">
+		  <img src="/content/webbLaunch/assets/images/images2022/dec-01-22-titan_fig1_11_29_22-1kpx.jpg" alt="Hubble View" />
+  		<img src="/content/webbLaunch/assets/images/images2022/dec-01-22-titan_fig2_11_29_22-1kpx.jpg" alt="Webb NIRCam View" />
+	</div>
+		
+</div>
+		
+	<!--	<p style="font-size: 1.3; color:#ccc; font-weight: bold">Image Comparison Info: </p>-->
+	<h4 style="color:#ccc; font-weight: bold">Image Comparison Info: </h4>
+			<ul>
+			
+			<li>The chaotic merging galaxies II ZW 96 have been examined in two distinct wavelengths in these images from the NASA/ESA Hubble Space Telescope and the NASA/ESA/CSA James Webb Space Telescope.</li>
+			<li>The <a href="https://esahubble.org/images/heic0810bk/" target="_inDepth">image on the left</a> was taken by Hubble’s Advanced Camera for Surveys and gives a view over the visible-light spectrum of this merger, clearly showing the starburst systems that have formed between the two galactic cores with their older stars.</li>
+			<li>The <a href="https://esawebb.org/images/potm2211a/" target="_inDepth">image on the right</a>, Webb’s image from the Near-InfraRed Camera shines particularly brightly in infrared light. The star-forming regions which have been activated by the galactic tumult are particularly luminous in the infrared, which placed ZW II 96 as one of Webb’s first targets. </li>
+			<li>
+				<strong>Credit:</strong> ESA/Webb, NASA & CSA, L. Armus, A. Evans; the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration
+			</li>
+		</ul>
+	
+</div>
+
+</section>
+	
+<nav id="moreInfo" class="" style="XXposition:absolute; XXbottom: 20px; padding: 2% 3%; font-size: .9em;  color: #ccc; font-weight: bold; text-align: center;  margin: 5px 0 5px 0 ">
+					
+				
+				<!--	<strong>Webb is now in : </strong> 						 
+						<a  href="/content/webbLaunch/deploymentExplorer.html#48">Science Operations Mode</a>  &nbsp; -->
+					
+				<strong style="color: #fff;"> More Info: </strong> 
+						<a target="_twitter" href="https://twitter.com/NASAWebb"> Twitter </a> |
+						<a href="/content/webbLaunch/news.html">News</a> |
+						<a target="_theWebbBlog" href="https://blogs.nasa.gov/webb/">Blog</a> |  
+						<a target="_flickr" href="https://www.flickr.com/photos/nasawebbtelescope/albums/with/72177720296737701" > Flickr</a> |
+						<a target="_stsci" href="https://webbtelescope.org/resource-gallery/images"> WebbTelescope.org</a>  |
+						<a target="_youTube" href="https://www.youtube.com/user/NASAWebbTelescope"> Youtube</a>
+</nav>
+
+
+</article>
+
+
+<!-- END PAGE CONTENT ------------------------------- -->
+	
+		<div style="clear:both"></div><!-- clear all floats to wrap all content -->
+		
+	</div ><!-- class="ssdPageContentWrapper" -->
+
+  <div > <!-- id="ssdPageWrapper" -->
+
+<!-- Page Footer Widget -->
+	<link rel="stylesheet" type="text/css" href="/widgets/footer/rev1.2/footer.css">
+	
+<!-- SSI: JWST FOOTER  --------------------------------->
+<div id="jwstFooter">
+
+
+<div class="jwstFooterColumnWrapper" >
+  
+  <div class="jwstLogoRow" >
+  <!-- note sizing and margin+img width = 100% -->
+  <a target="_new" href="http://www.nasa.gov" style=" width:32%; max-width: 99px;">
+  	<img  src="/widgets/footer/rev1.2/images/nasaLogo.png" alt="nasa logo">
+  </a>
+  <!-- right marg for balance -->
+  <a target="_new" href="http://www.esa.int/ESA" style="margin:0 8px 0 0; width:32%; max-width: 160px;">
+    	<img  src="/widgets/footer/rev1.2/images/esaLogo.png" alt="esa logo">
+  </a>
+  <!-- 28% for balance with nasa logo inner sz -->
+  <a target="_new" href="http://www.asc-csa.gc.ca/" style="margin:0 4px 0 0; width:28%; max-width: 80px;">
+  	  	<img  src="/widgets/footer/rev1.2/images/csaLogo.png" alt="csa logo">
+  </a>
+  </div>
+  
+  <div class="jwstFooterColumn ">
+  <h2>PARTNERS:</h2>
+  
+  <p>
+  </p>
+  
+  <ul id="jwstFooter3" >
+  <li><a target="_new" href="http://www.nasa.gov">NASA - National Aeronautics &amp; Space Administration</a></li>
+  <li><a target="_new" href="http://www.esa.int/ESA">ESA - European Space Agency</a></li>
+	<li><a target="_new" href="http://www.asc-csa.gc.ca/">CSA -  Canadian Space Agency</a></li>
+  <li><a href="/team.html">Other Team Members</a></li>
+  </ul>
+  </div>
+  
+  
+  <div class="jwstFooterColumn ">
+  <h2>JWST:</h2>
+  
+  <p>
+  </p>
+  <ul id="jwstFooter4" >
+  <li><a href="/index.html">JWST Engineering</a></li>
+  <li><a href="https://www.nasa.gov/webb/">JWST News</a></li>
+  <li><a href="https://webbtelescope.org/">JWST Science</a></li>
+
+  <li><a href="mailto:  GSFC-NASAWebb@mail.nasa.gov">Webmaster: Maggie Masetti / Steve Sabia </a>   </li>         
+  <li><a href="mailto:  GSFC-NASAWebb@mail.nasa.gov">Responsible NASA Official: Alan Johns</a>    </li>    
+  <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+  </ul>
+  </div>
+  
+  <div class="jwstFooterColumn ">
+  <h2>CONTACT:</h2>
+  
+  <p>
+  </p>
+  <ul id="jwstFooter1" >
+  <li><a href="/press.html">Media </a></li>
+  <li><a href="/teachers.html">Educators</a></li>
+  <li><a href="mailto:  GSFC-NASAWebb@mail.nasa.gov">General Questions</a></li>
+  <li><a href="/news_archive.html">Social Media</a></li>
+  <li><a href="mailto:  GSFC-NASAWebb@mail.nasa.gov">Website Issues</a></li>
+  <!-- <li><a href="webTeam.html">Web Team Credits</a></li> -->
+  </ul>
+  </div>
+
+</div>
+
+</div> <!-- end jwstFooter -->
+<!-- END JWST HEADER  --------------------------------->
+
+
+</div> <!--  id='ssdBgWrapper'-->
+
+
+<!-- --- START COMMON JS ------------------------------------------------- -->
+
+
+<!-- Site Level Shared JS -->
+<!-- JQUERY and lazysizes.js  currently loaded in head to ensure it's existance at pageLoad  -->
+
+<!-- header support: loaded here in case user interacts with header immediately -->
+	<script src="/widgets/header/responsive/header.js"></script>
+
+<!-- template level js -->
+	<!--template.js  template specific JS -->
+
+<!-- Content Design level js -->
+	<!--contentShared.js : operates on content -->
+
+<!-- Widget level js -->
+
+
+<!-- --- END COMMON JS ------------------------------------------------- -->
+
+
+<!-- START: PAGE LOCAL JS ------------------------------- -->
+
+	<script src="/content/webbLaunch/webbData-rev01.13.029.00-09-14-23-HH211.js" async></script>
+  	<script src="/topLevelIncludes/ssdUtils.js" ></script>
+
+  <!-- Load Cocoen library CDN webb
+  <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
+  -->
+	
+<script>
+	
+	$( document ).ready(function() {
+		
+		//console.log("loading inital imageData:");
+		//ssdLoadFeaturedImageDataIntoImgTagTarget("#hero1",0,0); //load most recent image into target
+		
+	});
+	
+	//using this construct to avoid early use of jquery if not fully loaded
+	window.onload = (event) => {
+		
+		console.log("loading inital imageData:");
+		ssdLoadFeaturedImageDataIntoImgTagTarget("#hero1",0,0); //load most recent image into target
+					
+	   /*			
+  		console.log("Loaded: Starting draggable sideBySide...");
+				//start up - picks up ONLY first
+					//{ "start": "30%", "color" : "#fc3"}  - params per creation
+					//Cocoen.create(document.querySelector('.cocoen') );
+
+				// Multiple Cocoens in one page
+				Cocoen.parse(document.body );
+		*/
+	};
+		
+	</script>
+
+
+    <script>
+        //document.querySelector('video').playbackRate = 1.0;
+        /*setTimeout(function(){
+        $('#videoBackground').trigger('play');
+        },  15000);*/
+    </script>	
+
+<!-- END: PAGE LOCAL JS ------------------------------- -->
+
+<!-- END PAGE TEMPLATE ------------------------------- -->
+	
+<!-- pageEnd -->
+</body>
+</html>

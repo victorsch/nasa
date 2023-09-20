@@ -1,0 +1,12 @@
+GET https://scicolloq.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Content-Security-Policy: upgrade-insecure-requests
+< Date: Tue, 19 Sep 2023 05:59:39 GMT
+< X-Frame-Options: sameorigin
+< Accept-Ranges: bytes
+< Server: WebServer/1.0
+< Content-Length: 75458
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

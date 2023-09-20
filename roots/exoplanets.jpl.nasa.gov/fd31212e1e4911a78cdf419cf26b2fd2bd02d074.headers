@@ -1,0 +1,13 @@
+GET http://exoplanets.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:01:50 GMT
+< Content-Length: 167
+< Location: https://exoplanets.jpl.nasa.gov/
+< Via: 1.1 f78e2a2d083c0945ee670c9d5d179e9e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< X-Amz-Cf-Id: gbcGqHp0HvGMXJLaU-Xz0bz3SAkQhNMNcAv-wHOhGtfxbJavN4gc1g==
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront

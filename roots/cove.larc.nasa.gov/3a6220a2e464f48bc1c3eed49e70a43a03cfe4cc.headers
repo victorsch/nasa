@@ -1,0 +1,15 @@
+GET https://cove.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Last-Modified: Mon, 26 Apr 2021 20:11:03 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 19 Sep 2023 05:53:53 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 9614

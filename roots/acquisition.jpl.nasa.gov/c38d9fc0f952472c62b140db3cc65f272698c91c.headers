@@ -1,0 +1,11 @@
+GET https://acquisition.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:06:56 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=63072000; includeSubdomains

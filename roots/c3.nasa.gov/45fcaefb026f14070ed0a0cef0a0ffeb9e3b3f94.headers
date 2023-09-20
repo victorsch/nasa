@@ -1,0 +1,11 @@
+GET http://c3.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Location: https://c3.nasa.gov/
+< Content-Length: 228
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:38 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=63072000; includeSubDomains

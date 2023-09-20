@@ -1,0 +1,6 @@
+GET http://subset.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://subset.larc.nasa.gov/

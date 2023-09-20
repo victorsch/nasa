@@ -1,0 +1,16 @@
+GET http://cmr.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:05:16 GMT
+< Via: 1.1 bbd89b29eb16bb369cdc097594fa8260.cloudfront.net (CloudFront)
+< X-Cache: Redirect from cloudfront
+< Server: CloudFront
+< Content-Type: text/html
+< X-Amz-Cf-Pop: PHL51-P1
+< Location: https://cmr.earthdata.nasa.gov/
+< X-Amz-Cf-Id: TWKp0Ywo3FbKSwnfndkuZG405LEq_1t_uA7_osjQ2EUFka2hxrqM-g==
+< Content-Length: 167

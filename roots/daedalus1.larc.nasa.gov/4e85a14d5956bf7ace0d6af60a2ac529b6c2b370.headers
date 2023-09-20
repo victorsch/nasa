@@ -1,0 +1,12 @@
+GET https://daedalus1.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< Content-Length: 24122
+< X-Frame-Options: DENY
+< Content-Type: text/html
+< Date: Tue, 19 Sep 2023 05:54:07 GMT
+< Server: Apache
+< Last-Modified: Tue, 12 Sep 2023 23:04:15 GMT

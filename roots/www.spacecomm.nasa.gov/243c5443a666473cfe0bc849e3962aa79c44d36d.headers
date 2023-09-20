@@ -1,0 +1,11 @@
+GET https://www.spacecomm.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:50:03 GMT
+< Content-Length: 176
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.nasa.gov/directorates/heo/scan/index.html
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000

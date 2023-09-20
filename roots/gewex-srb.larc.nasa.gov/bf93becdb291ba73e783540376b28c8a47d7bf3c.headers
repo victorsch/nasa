@@ -1,0 +1,18 @@
+GET https://gewex-srb.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< X-Frame-Options: sameorigin
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:56:03 GMT
+< X-Permitted-Cross-Domain-Policies: none
+< X-Ua-Compatible: IE=edge
+< Access-Control-Allow-Origin: *
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+< Redirecttype: Quick Page Post Redirect - Quick
+< X-Redirect-By: WordPress
+< Strict-Transport-Security: max-age=31536000
+< Location: https://science.larc.nasa.gov/gewex-srb/

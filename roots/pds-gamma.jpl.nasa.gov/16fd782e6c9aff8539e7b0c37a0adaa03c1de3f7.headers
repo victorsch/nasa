@@ -1,0 +1,13 @@
+GET https://pds-gamma.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 19 Sep 2023 06:06:09 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Accept-Ranges: bytes
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block

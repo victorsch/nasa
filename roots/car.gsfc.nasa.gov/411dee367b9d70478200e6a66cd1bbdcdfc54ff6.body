@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='description' content='Cloud Absorption Radiometer' />
+<meta name='orgcode' content='610' />
+<meta name='rno' content='Dong Wu' />
+<meta name='content-owner' content='Dong Wu' />
+<meta name='webmaster' content='610 WebDev' />
+<meta name='DC.publisher' content='610 WebDev' />
+<meta name='DC.publisher.address' content='610webdev@mail.gsfc.nasa.gov' />
+<meta name='DC.creator' content='Dong Wu' />
+<meta name='DC.subject' content='Cloud Absorption Radiometer' />
+<meta name='DC.description' content='Cloud Absorption Radiometer' />
+<script type='text/javascript' id='_fed_an_ua_tag' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'></script><script type='text/javascript'>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-17900569-1', 'auto');
+        ga('send', 'pageview');
+        </script><script async src='https://www.googletagmanager.com/gtag/js?id=G-EE0GQ85T2S'></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-EE0GQ85T2S');</script><meta name='keywords' content='CAR,Cloud Absorption Radiometer, Cloud Absorption Radiometer (CAR),CAR  Cloud Absorption Radiometer (CAR),NASA,GSFC,Goddard Space Flight Center,Earth Sciences Division,National Aeronautics and Space Administration'><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="canonical" href="/cloud-absorption-radiometer-car" />
+<link rel="shortlink" href="/node/2" />
+<link rel="shortcut icon" href="https://car.gsfc.nasa.gov/sites/all/themes/SixTenBoot/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title> Cloud Absorption Radiometer (CAR) | CAR</title>
+  <link type="text/css" rel="stylesheet" href="https://car.gsfc.nasa.gov/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://car.gsfc.nasa.gov/sites/default/files/css/css_pQVd8uEGvIWA-_McLUzVhosfwFfR8J_Oiw21fFR1JNE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://car.gsfc.nasa.gov/sites/default/files/css/css_Uljf2FMSp6QK-TL9-ZQuOZsmA_Ju19vs6CEnnM-TFKI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://car.gsfc.nasa.gov/sites/default/files/css/css_ZQFrpn3bb0wBQPJz8tZ5C5aN5zUrEdUKsX-I5FONZd0.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://car.gsfc.nasa.gov/sites/default/files/js/js_6UR8aB1w5-y_vdUUdWDWlX2QhWu_qIXlEGEV48YgV-c.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/js/bootstrap.min.js"></script>
+<script>      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/contrib/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=default"></script>
+<script src="https://car.gsfc.nasa.gov/sites/default/files/js/js_01pn_YIVitojBVZFtx2ywaF7IoEons1slIjdIfNbeHM.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"SixTenBoot","theme_token":"7Xdo_FdjzScQBpwErTg0McMdVOw9_jQPu85dPkoD1aM","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/2.2\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_browser.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.5\/dist\/js\/bootstrap.min.js":1,"0":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?config=default":1,"sites\/all\/themes\/SixTenBoot\/js\/sixten.min.js":1,"sites\/all\/themes\/SixTenBoot\/js\/stackable\/stacktable.js":1,"sites\/all\/themes\/SixTenBoot\/node_modules\/smartmenus\/dist\/jquery.smartmenus.js":1,"sites\/all\/themes\/SixTenBoot\/node_modules\/smartmenus\/dist\/addons\/bootstrap\/jquery.smartmenus.bootstrap.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/biblio\/biblio.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.5\/dist\/css\/bootstrap.min.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.min.css":1,"sites\/all\/themes\/SixTenBoot\/css\/custom\/car.min.css":1,"sites\/all\/themes\/SixTenBoot\/js\/stackable\/stacktable.css":1,"sites\/all\/themes\/SixTenBoot\/node_modules\/smartmenus\/dist\/css\/sm-core-css.css":1}},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div id='main-wrapper'>
+<header id="navbar" class="navbar container navbar-default">
+  <div class="container .region-page_top">
+    <div id='menu_wrap'>  <div class="region region-header">
+    <div id="block-menu-menu-top-jump-menu" class="block block-menu">
+
+      
+  <div class="content">
+    <ul class="menu nav"><li class="first last leaf"><a href="http://atmospheres.gsfc.nasa.gov/climate">Climate &amp; Radiation</a></li>
+</ul>  </div>
+  
+</div> <!-- /.block -->
+  </div>
+  </div> <!-- menu_wrap -->
+  <div class='name-wrap'>
+        <a class="logo navbar-btn pull-left" href="http://www.nasa.gov" title="NASA">
+        <img src="https://car.gsfc.nasa.gov/sites/all/themes/SixTenBoot/logo.png" alt="Home" />
+      </a>
+  
+<h1 id="site-title">  
+   <a class="name navbar-brand" title="Home" href="/">CAR</a>
+
+   <div id="site-description" class='lead'>Cloud Absorption Radiometer</div>
+</h1>
+
+      </div> <!-- end name-wrap -->
+    <div class="navbar-collapse collapse">
+    <nav id='top_menu' role="navigation">   <div class="region region-top-menu">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+      
+  <div class="content">
+    <ul class="menu nav"><li class="first expanded dropdown"><a href="/instrument" data-target="#" class="dropdown-toggle">INSTRUMENT <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/instrument">Overview</a></li>
+<li class="last leaf"><a href="/instrument/schematics">Schematics</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/applications" data-target="#" class="dropdown-toggle">APPLICATION <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/applications">Overview</a></li>
+<li class="leaf"><a href="/applications/brdf">BRDF</a></li>
+<li class="last leaf"><a href="/applications/imaging">Imaging</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/data" data-target="#" class="dropdown-toggle">DATA <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/data">Overview</a></li>
+<li class="last leaf"><a href="/missions">Missions</a></li>
+</ul></li>
+<li class="leaf"><a href="/albums">GALLERY</a></li>
+<li class="leaf"><a href="/software">SOFTWARE</a></li>
+<li class="leaf"><a href="/view/biblio/year">PUBLICATIONS</a></li>
+<li class="last leaf"><a href="/personnel">STAFF</a></li>
+</ul>  </div>
+  
+</div> <!-- /.block -->
+  </div>
+  
+    </nav>  
+    </div> <!-- navbar-collapse -->
+
+    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" 
+    data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    <div class="social-icons"><ul class='social'>
+        </ul></div>    
+  </div> <!-- container -->
+</header>
+</div> <!-- main-wrapper -->
+</div> <!-- main-wrapper -->
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+        
+    <section class="col-sm-12">
+                  <a id="main-content"></a>
+                    <h1 class="page-header"> Cloud Absorption Radiometer (CAR)</h1>
+                                                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    
+
+<div  about="/cloud-absorption-radiometer-car" typeof="foaf:Document" class="node node-page node-promoted view-mode-full">
+
+
+<div class="row">
+<div class="col-sm-11 ">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div id="VCFWLeft" style="float:left; width:75%">
+<p>The Cloud Absorption Radiometer (CAR) is an airborne multi-wavelength scanning radiometer that can perform several cloud and surface measurement functions. It will fly in 2022-2025 for the NASA&rsquo;s Student Airborne Science Activation (SaSa) project (<a href="https://www.nasa.gov/content/sasa" target="_blank">https://www.nasa.gov/content/sasa</a>). GSFC scientists and engineers will operate CAR together with 12-13 students on P-3B, to take cloud, aerosol, and surface measurements from multiple angular views. The multi-angle observations are critical to characterize and understand scattering light properties of these different targets.</p>
+
+<p>The CAR was designed to operate from a position mounted on various aircraft. Prior to 2002 the CAR flew aboard the University of Washington&rsquo;s aircraft (Douglas B-23: 1983-1984, C-131A: 1985-1997 and Convair CV-580: 1998-2001). Following retirement of the UW aircraft, the CAR has been integrated on two other Aircraft platforms: South Africa Weather Service, Aerocommander 690A (wing mount, June 2005) and Sky Research inc. (USA) Jetstream 31 (nose mount, February 2006- June 2007). It was integrated on NASA&#39;s P-3B in Jan-Mar 2008.</p>
+
+<p>In addition to its traditional starboard viewing mode, the CAR instrument can be operated in any viewing mode and can be switched during flight.</p>
+
+<p>The CAR has been deployed on a regular basis in field campaigns around the world including deployments to Alaska, Brazil, Kuwait, Mexico, Portugal (Azores), the continental U.S., and various countries in southern Africa. During a typical research field campaign, the CAR is flown in concert with an array of cloud microphysics, aerosol, atmospheric chemistry, general meteorological instruments and radiation. CAR will continue to be operated on airborne platforms to acquire multiangular and multispectral observations suitable for satellite validation strategies in many parts of the world.</p>
+
+<p>The CAR instrument was developed at NASA&#39;s Goddard Space Flight Center by Dr. Michael King. The current Principal Investigator is Dr. Charles Gatebe.</p>
+</div>
+
+<div id="VCFWMiddle" style="float:left; width:10%">&nbsp;</div>
+
+<div id="VCFWRight" style="float:left; width:15%"><img alt="" src="/sites/default/files/group1.jpg" style="border-style:solid; border-width:0px; margin-left:4px; margin-right:4px" title="" /></div>
+</div></div></div></div>
+
+<div class="col-sm-1 ">
+</div>
+
+</div>
+</div>
+
+
+  </div>
+  
+</div> <!-- /.block -->
+  </div>
+    </section>
+
+      </div>
+</div>  <!-- main-wrapper -->
+<footer class="footer container .region-page_bottom">
+    <div class='row'>
+    <span class='logo' style='float: left;'>
+        <a class="nasa_logo_footer" href="/">
+        <img alt="NASA" src="https://car.gsfc.nasa.gov/sites/all/themes/SixTenBoot/logo.png" /></a> 
+    </span> <!-- end nasa-logo -->
+    <div class='foot-col'>
+        <p>Last updated: Sep. 16, 2021        <br />NASA Official: Dong Wu 
+        <br />Webmaster: 610 WebDev            <br />Curator: Charles Gatebe 
+      </div>
+
+    <div class='foot-col'>
+        <p> - <a href='https://earthobservatory.nasa.gov' 
+                 target="_blank">Earth Observatory</a><br />
+            - <a href='https://science.gsfc.nasa.gov/600/sci/' 
+                 target="_blank">Sciences and Exploration</a><br />
+                 - <a href='https://atmospheres.gsfc.nasa.gov/climate' 
+                 target="_blank">Climate & Radiation</a>
+            </p> 
+    </div>
+
+    <div class='foot-col'>
+        <p> - 
+        <a href='mailto:charles.k.gatebe@nasa.gov?Subject=CAR: Contact Us&cc=610webdev@mail.gsfc.nasa.gov'>Contact Us</a><br />
+
+           - <a href='/sitemap.xml'>Site Map</a><br />
+           - <a href='http://www.nasa.gov/about/highlights/HP_Privacy.html'>
+           Privacy Policy &amp; Notices</a>
+           </p>
+    </div>
+</div>
+</footer>
+  <script src="https://car.gsfc.nasa.gov/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+</body>
+</html>

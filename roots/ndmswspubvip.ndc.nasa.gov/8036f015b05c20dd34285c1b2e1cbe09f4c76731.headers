@@ -1,0 +1,12 @@
+GET https://ndmswspubvip.ndc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: "2c-5dc26974e0c2d"
+< Content-Type: text/html
+< Server: Apache
+< Last-Modified: Fri, 08 Apr 2022 15:53:08 GMT
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Date: Tue, 19 Sep 2023 05:58:08 GMT

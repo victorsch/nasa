@@ -1,0 +1,9 @@
+GET http://opendap.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Location: https://opendap.larc.nasa.gov/
+< Content-Length: 238
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 01:12:39 GMT

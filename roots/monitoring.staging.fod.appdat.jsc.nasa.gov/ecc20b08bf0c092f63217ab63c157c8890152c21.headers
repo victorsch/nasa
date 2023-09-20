@@ -1,0 +1,16 @@
+GET https://monitoring.staging.fod.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Powered-By: appdat
+< Location: /login
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-store
+< X-Using-Nginx-Controller: true
+< Date: Tue, 19 Sep 2023 05:43:50 GMT
+< Content-Length: 29
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,851 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" lang="en-US">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<meta http-equiv="Cache-control" content="no-cache"/>
+<meta http-equiv="Cache-control" content="no-store"/>
+<meta http-equiv="Cache-control" content="must-revalidate"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta name="expires" content="0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+<title>NASA Ames Research Center Aeromechanics</title>
+
+<link href="/CSS/print.css" rel="stylesheet" type="text/css" media="print" />
+<link rel="icon" type="image/png" href="/Images/NASA_favicon.png" />
+<link href="/CSS/homepage.css" rel="stylesheet" type="text/css" media="screen and (min-device-width:740px) 
+and (min-width:768px)" />
+<link href="/CSS/mobileHome.css" rel="stylesheet" type="text/css" media="all and (max-width:736px)" />
+
+  
+<!--[if IE ]>
+<link href="/CSS/homeIE.css" rel="stylesheet" type="text/css" media="Screen" />
+<link href="/CSS/mobileHome.css" rel="stylesheet" type="text/css" media="all and (max-width:480px)" />
+<![endif]-->
+<!--[if !IE ]><!-->
+<link href="/CSS/homepage.css" rel="stylesheet" type="text/css" media="Screen" />
+<link href="/CSS/print.css" rel="stylesheet" type="text/css" media="print" />
+<![endif]-->
+
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+
+<!--<style type="text/css">
+html{display:none;}
+</style>
+<script type="text/javascript">
+if(self == top){
+  document.documentElement.style.display = 'block';
+}else{
+  top.location = self.location;
+}
+</script> -->
+
+<script id="_fed_an_js_tag" type="text/javascript" src="/federated-analytics.all.min.js?agency=NASA&sub-agency=ARC&vcto=12"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {		
+	
+	//Execute the slideShow, set 4 seconds for each images
+	slideShow(4000);
+
+});
+
+function slideShow(speed) {
+
+
+	//append a LI item to the UL list for displaying caption
+	$('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
+
+	//Set the opacity of all images to 0
+	$('ul.slideshow li').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('ul.slideshow li:first').css({opacity: 1.0});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#slideshow-caption h3').html($('ul.slideshow a:first').find('img').attr('title'));
+	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
+		
+	//Display the caption
+	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
+	
+	//Call the gallery function to run the slideshow	
+	var timer = setInterval('gallery()',speed);
+	
+}
+
+function gallery() {
+
+
+	//if no IMGs have the show class, grab the first image
+	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().attr('id') == 'slideshow-caption')? $('ul.slideshow li:first') :current.next()) : $('ul.slideshow li:first'));
+		
+	//Get next image caption
+	var title = next.find('img').attr('title');	
+	var desc = next.find('img').attr('alt');	
+
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+	
+	//Hide the caption first, and then set and display the caption
+	$('#slideshow-caption').animate({bottom:-70}, 300, function () {
+			//Display the content
+			$('#slideshow-caption h3').html(title);
+			$('#slideshow-caption p').html(desc);				
+			$('#slideshow-caption').animate({bottom: 0}, 500);	
+	});		
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000).removeClass('show');
+
+}
+</script>
+
+ 
+</head>
+
+
+<body class="twoColFixLtHdr" onload="IEVersion()">
+<script type="text/javascript">
+function popup1(){
+    
+    window.open("/Research/Facilities/Video/AMES_AWARDS_NFAC25th.html", "", "height=770px,width=1200px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+</script>
+<script type="text/javascript">
+function popup2(){
+    
+    window.open("/Research/Facilities/Video/TTR_AWARDS_2013_V2.html", "", "height=770px,width=1200px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+</script>
+<script type="text/javascript">
+function popup3(){
+    
+    window.open("/Research/Facilities/Video/TTR_AWARDS_2013_V1.html", "", "height=770px,width=1200px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+function popup4(){
+    
+    window.open("/FiguresVid.html", "", "data-height=770px,data-width=1200px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+function popup5(){
+    
+    window.open("/Images/DominguezAwardee.png", "", "data-height=770px,data-width=700px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+function popup6(){
+    
+    window.open("/Research/Programs/roamx.html", "", "data-height=770px,data-width=700px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+function popup7(){
+    
+    window.open("/FlyingOnMars.pdf", "", "data-height=770px,data-width=700px,status=no,menubar=no,location=no,resizable=1,titlebar=no,scrollbars=1,top=400,left=550");
+}
+</script>
+<div id="container">
+  
+  <div id="header"></div>
+  <!-- end #header -->
+  
+<ul class="slideshow" id="slides">
+    
+<li class="show" style="opacity:1;"><a href="#"><img src="Images/Pictures for Wall/Aerial_60_NFAC_ACD10.jpg" width="960" height="500" title="Aerial 60 NFAC" alt="UH-60A RASCAL Black Hawk Helicopter with National Full-Scale Aerodynamics Complex and SF Bay, 2011" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="about.html"><img src="Images/Aerial View Moffett Field.jpg" width="960" height="500" title="Click to learn about the NASA Ames Aeromechanics Office" alt="Aerial View of NASA Ames Research Center" /></a></li>
+
+<li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/Aerial_View_NASA_ARC_Dec_2012.jpg" width="960" height="500" title="Aerial 60 NFAC" alt="Aerial View of NASA Ames Research Center with Sustainability Base, December 2012" /></a></li>
+ <!--------------------------------------------------    add slides here
+ 
+  ------------------------------------------------------------------------------- -->
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/Ingenuity_on_Mars_April_2021.png" width="960" height="500" title="Ingenuity on Mars, April 2021" alt="Ingenuity on Mars, April 2021" /></a></li>
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/Mars_Perseverance_Ingenuity.png" width="960" height="500" title="Ingenuity on Mars, April 2021" alt="Ingenuity on Mars, April 2021" /></a></li>
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/ingenuity_mouse_view.png" width="960" height="500" title="Ingenuity on Mars, April 2021" alt="Ingenuity on Mars, April 2021" /></a></li>
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/ingenuity_shadow_view.png" width="960" height="500" title="First Flight, April 19, 2021" alt="First Flight, April 19, 2021" /></a></li>
+ 
+  <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/JPL_Visit_071919.jpg" width="960" height="500" title="JPL Visit Ames Ingenuity Team" alt="JPL Visit from Ames Ingenuity Team July, 2019" /></a></li>
+ 
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/10.16marsaeolianwindtunneltest.png" width="960" height="500" title="October 2016 Mars Aeolian Wind Tunnel Test" alt="October 2016 Mars Aeolian Wind Tunnel Test" /></a></li>
+ 
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/UAS_Perf_Test.jpg" width="960" height="500" title="Multicopter UAS Performance Test, December 2015" alt="Multicopter UAS Performance Test, December 2015" /></a></li>
+ 
+ <li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/Aerial 5 TTR Calibration.jpg" width="960" height="500" title="Tiltrotor Test Rig Balance Calibration" alt="Tiltrotor Test Rig Balance Calibration, 2015" /></a></li>
+
+<li class="" style="opacity:0;"><a href="#"><img src="Images/Pictures for Wall/JPLcollage.jpg" width="960" height="500" title="Mars Helicopter Test Stand in JPL Space Simulator, December 2015" alt="Mars Helicopter Test Stand in JPL Space Simulator, December 2015" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Facilities/ttr.html"><img src="Images/Pictures for Wall/TTR_open_front_023_A5.jpg" width="960" height="500" title="Click to learn more about the Tiltrotor Test Rig" alt="TTR on calibration stand, Sep. 2012" /></a></li>
+
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/ibc.html"><img src="Images/Pictures for Wall/LRTA_IBC_DOWNSTREAM_VIEW1.jpg" width="960" height="500" title="Click to learn more about the LRTA" alt="Individual Blade Control Test, 2009" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/brownout.html"><img src="Images/Pictures for Wall/UH60-BROWNOUT TUFFsized.jpg" width="960" height="500" title="Click to learn more about Helicopter Brownout" alt="UH-60 Brownout Test, 2006" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/radio_controlled_models.html"><img src="Images/Pictures for Wall/V-22test_sized.jpg" width="960" height="500" title="Click to learn more about the 1/48th-scale V-22 Formation Flight Test" alt="1/48th-scale V-22 Formation Flight Test in the Army 7x10 Foot Wind Tunnel, 2005 " /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/vshaip.html"><img src="Images/Pictures for Wall/VSHAIP2_sized.jpg" width="960" height="500" title="Click to learn more about VSHAIP" alt="VSHAIP Test in 7 X 10 Ft Wind Tunnel, 2002 " /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Facilities/lrta.html"><img src="Images/Pictures for Wall/LTRA-sized.jpg" width="960" height="500" title="Slide 4" alt="Large Rotor Test Apparatus" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/flightdynamics.html"><img src="Images/Pictures for Wall/VMS1.JPG" width="960" height="500" title="Click to learn more about the VMS" alt="Vertical Motion Simulator, 2009" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/SMART_rotor.html"><img src="Research/IMAGES/SMART1.JPG" width="960" height="500" title="Click to learn more about the SMART Rotor " alt="SMART Rotor, 2008" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="Research/Programs/LCTR.html"><img src="Research/Programs/Images/LCTRcloseup copy.jpg" width="960" height="500" title="Click to learn more about the Large Civil Tiltrotor" alt="Large Civil Tilt Rotor Concept, 2009" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="#"><img src="Images/Pictures for Wall/LCTR_fuselageV2.jpg" width="960" height="500" title="Large Civil Tiltrotor" alt="Large Civil Tilt Rotor First Flight, Circa 2023" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="#"><img src="Images/Pictures for Wall/wind_turbine.png" width="960" height="500" title="DOE/NREL Wind Turbine Test " alt="DOE/NREL Wind Turbine Test" /></a></li>
+
+<li style="opacity: 0; " class=""><a href="#"><img src="Images/Pictures for Wall/UH-60_4.png" width="960" height="500" title="UH-60A " alt="A view of the blades of the UH-60A rotor." /></a></li>
+
+<li style="opacity: 0; " class=""><a href="#"><img src="Images/Pictures for Wall/UH-60_3.png" width="960" height="500" title="UH-60A" alt="Particle Image Velocimetry during operation of the UH-60A rotor" /></a></li>
+</ul>  
+
+<!-- main navigation -->
+ <a href="#main" class="skipNav" >Skip to main content</a>
+<ul id="main-nav">
+  <li><a id="homebtn" href="/index.html" title="Aeromechanics Office Website Home">Home</a></li>
+  <li><a id="aboutbtn" href="/about.html" title="About the Aeromchanics Office" class="drop">About</a>
+    <ul>
+      <li><a id="statusbtn" href="/About/status.html">Rotorcraft Status</a></li>
+      <li><a id="servicesbtn" href="/About/products_and_services.html">Products and Services</a></li>
+    </ul>
+  </li>
+  <li><a id="researchbtn" href="/research.html" title="Research" class="drop">Research</a>
+    <ul>
+      <li><a id="programsbtn" href="/Research/programs.html">Research Programs</a></li>
+      <li><a id="facilitiesbtn" href="/Research/facilities.html">Research Facilities</a></li>
+      <li><a id="methodsbtn" href="/Research/Computational/rotorcraft_methods.html">Computational Methods</a></li>
+    </ul>
+  </li>
+  <li><a id="publicationsbtn" href="/Publications/2023.html" title="Publications">Publications</a></li>
+  <li><a id="awardsbtn" href="/Awards/awards.html" title="Awards">Awards</a></li>
+  <li id="lastbtn"><a id="opportunitiesbtn" href="/Student/internships.html" title="Student Opportunities">Student Opportunities</a></li>  
+  </ul>
+
+ <div class="clearfloat"></div>
+
+
+ 
+  <!-- #sidebar1 -->
+  
+<div id="sidebar1">
+  
+<a href="#maincontent" class="skipNav">Skip to main content</a>
+<ul id="sidebar1-nav">
+      <li><a href="/updates.html">Updates to this Site</a></li>
+      <li><a href="https://www.nasa.gov/home/index.html" target="_blank">NASA Home Page</a></li>
+      <li><a href="http://www.aeronautics.nasa.gov/" target="_blank">Aeronautics Research Mission Directorate</a></li>
+      <li><a href="https://www.nasa.gov/centers/ames/home/index.html" target="_blank">Ames Research Center</a></li>
+      <li><a href="https://www.aeronautics.nasa.gov/" target="_blank">Aeronautics Directorate at Ames Research Center</a></li>
+      <li><a href="https://ntrs.nasa.gov/" target="_blank">NASA Technical Reports Server </a></li>
+    
+      
+      <li class="icons" style="width:45px"><a target="_blank" title="find us on Facebook" href="http://www.facebook.com/AeromechanicsBranchInterns/?ref=bookmarks"><img alt="find us on facebook" src="//login.create.net/images/icons/user/facebook_40x40.png" border=0></a></li>
+      
+      
+      <li class="icons" style="width:45px"><a target="_blank" title="find us on You Tube" href=" https://www.youtube.com/channel/UCV_4B329OTr6Cb2p93OzIAA"><img alt="find us on You Tube" src="YouTubeIcon.png" width="45px" border=0></a></li>
+      
+</ul>
+
+
+    </div>
+    <! ----------------------------- Add Awards here -----------------------------------------------------  -->
+  <!-- end #sidebar1 -->  
+  <div id="main">
+      <div class="featured"> RECENT BRANCH AWARD WINNERS</div>
+    
+      
+	        <div class="clearfloat"></div>
+  
+     <!-- <div id="newsBox"> -->
+  
+<!--
+<ul id="news1" style="float:left;">
+    <h4 style="margin:auto" class="marquee"><span class="emphasis">2022 Vertical Flight Society Awards</span></h4>
+	<li> &nbsp;</li>
+	
+<li class="marquee">  <span class="emphasis">VFS Technical Fellow </span></li>
+ <li class="marquee">Larry Young</li>
+
+<li> &nbsp;</li>
+
+<li class="marquee">  <span class="emphasis">Howard Hughes Award </span></li>
+ <li class="marquee">Mars Helicopter Ingenuity Team</li>
+
+<li> &nbsp;</li>
+
+</ul> 
+ -->
+<ul id="news1" style="float:left;">
+    <h4 style="margin:auto" class="marquee"><span class="emphasis">2023 Special Awards</span></h4>
+	<li> &nbsp;</li>
+
+
+<li class="marquee">  <span class="emphasis">Daniel Guggenheim Medal for Landmark Contributions to Vertical Flight Aeronautics
+AIAA/ASME/SAE/VFS</span></li>
+ <li class="marquee">Wayne Johnson</li>
+
+<li> &nbsp;</li>
+
+<li class="marquee">  <span class="emphasis">The American Society of Mechanical Engineers Spirit of St. Louis Medal </span></li>
+ <li class="marquee">Wayne Johnson</li>
+
+<li> &nbsp;</li>
+<li class="marquee">  <span class="emphasis">American Institute of Aeronautics and Astronautics Wright Brothers Lectureship in Aeronautics </span></li>
+ <li class="marquee">Larry Young</li>
+
+<li> &nbsp;</li>
+
+
+
+<li class="marquee" ><span class="emphasis">Vertical Flight Society Francois-Xavier Bagnoud Award</span></li>
+<li class="marquee" >Dr. Natasha Schatzman</li> 
+<li>&nbsp;</li>
+ 
+  </ul> 
+ 
+         <hr class="hr" width="98%"/>
+      
+       <ul id="news4" style="float:left;">
+     
+    <h4 style="margin:auto;" class="marquee"><span class="emphasis"> 2022 NASA Honor Award Recipients </span></h4>
+          <li>&nbsp;</li>
+
+<li>&nbsp;</li>
+<li class="marquee" ><span class="emphasis">Diversity, Equity, Inclusion, and Accessibility Medal </span></li>
+<li class="marquee">Michelle Dominguez</li>
+<li>&nbsp;</li>
+
+<li class="marquee" ><span class="emphasis">Diversity, Equity, Inclusion, and Accessibility Medal </span></li>
+<li class="marquee">Dorsa Shirazi</li>
+ <li> &nbsp;</li>
+
+<li class="marquee"><span class="emphasis">Early Career Achievement Medal  </span></li>
+
+<li class="marquee"> Sarah A. Conley</li>
+  <li> &nbsp;</li>
+
+<li class="marquee"><span class="emphasis">Exceptional Public Achievement Medal   </span></li>
+<li class="marquee"> Kenneth Mort </li>
+  <li> &nbsp;</li>
+
+<li class="marquee"><span class="emphasis">Exceptional Public Achievement Medal   </span></li>
+<li class="marquee"> Natalia Perez Perez </li>
+  <li> &nbsp;</li>
+
+<li class="marquee"><span class="emphasis">Exceptional Technology Achievement Medal    </span></li>
+<li class="marquee"> Larry A. Meyn  </li>
+  <li> &nbsp;</li>
+
+
+
+ <li class="marquee" >  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee">Multirotor Test Bed 2 Test Team </li>
+  <li>&nbsp;</li>
+       
+    <li class="marquee" >  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee" >NASA/Army Benchmark Hover Test Team</li>
+ <li>&nbsp;</li>
+         
+  <li class="marquee" >  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee">RVLT Toolchain Workshop For eVTOL Aircraft Team</li>
+  <li>&nbsp;</li>
+ 
+          
+ <li class="marquee" >  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee">STMD Early Career ROAMX Team</li>
+ <li>&nbsp;</li>
+          
+          
+ <li class="marquee">  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee">Urban Air Mobility Ride Quality Study Team</li>
+     
+</ul>
+       <div class="clearfloat"></div>
+      
+             
+
+
+  <hr class="hr" width="98%"/>
+      
+      
+<!--
+  <div class="clearfloat"></div>
+-->
+       
+ <!--
+</div> -->
+    
+      
+      
+<!--
+
+ <ul id="news2"style= "float-left;">
+    	
+<h4 style="margin:auto" class="marquee"><span class="emphasis">2021 NASA Honor Award Recipients</span></h4>
+  <li> &nbsp;</li>
+     <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Distinguished Service Medal</span></li>
+  <li class="marquee">Gloria K. Yamauchi</li>
+  <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Diversity, Equity, and Inclusion Medal</span></li>
+  <li class="marquee">Shannah N. Withrow&ndash;Maser </li>
+  <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Early Career Achievement Medal</span></li>
+  <li class="marquee">Haley V. Cummings </li>
+     <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Exceptional Engineering Achievement Medal</span></li>
+  <li class="marquee"> Robert Kufeld </li>
+  <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Outstanding Leadership Medal </span></li>
+  <li class="marquee"> Carl Russell </li>
+  <li> &nbsp;</li>
+     <li class="marquee">  <span class="emphasis">Group Achievement Award</span></li>
+  <li class="marquee">Ames Aero Fair Educational Outreach Team</li>
+  <li> &nbsp;</li>
+      </ul>
+              <hr class="hr" width="98%"/>
+      <ul id="news3">
+          <li> &nbsp;</li>
+          <li> &nbsp;</li>
+          <li> &nbsp;</li>
+          <li> &nbsp;</li>
+ <li class="marquee" style="margin-right:-70px;">  <span class="emphasis" style="float:right;">Group Achievement Award</span></li><br />
+  <li class="marquee" style="float:right; margin-right:-70px;">Ames Mars Helicopter Outreach Team</li>
+  <li> &nbsp;</li>
+   <li> &nbsp;</li>       
+    <li class="marquee" style="margin-right:-70px;">  <span class="emphasis" style="float:right">Group Achievement Award</span></li><br />
+  <li class="marquee" style="float:right; margin-right:-70px;">Ames Mars Helicopter Team</li>
+            <li> &nbsp;</li>
+   <li> &nbsp;</li>       
+  <li class="marquee" style="margin-right:-70px;">  <span class="emphasis" style="float:right">Group Achievement Award</span></li><br />
+  <li class="marquee" style="float:right; margin-right:-70px;">NFAC Aerodyanamics and Aeroacoustics Rotoprop Test</li>
+            <li> &nbsp;</li>
+          
+  <li> &nbsp;</li><li class="marquee" style="margin-right:-70px;">  <span class="emphasis" style="float:right">Group Achievement Award</span></li><br />
+  <li class="marquee" style="float:right; margin-right:-70px;">UAM Conceptual Design Toolchain Workshop Team</li>
+            <li> &nbsp;</li>
+          
+  <li> &nbsp;</li><li class="marquee" style="margin-right:-70px;">  <span class="emphasis" style="float:right">Group Achievement Award</span></li><br />
+  <li class="marquee" style="float:right; margin-right:-70px;">UAM Quadcopter Flight Dynamics Team</li>
+      </ul>
+       <div class="clearfloat"></div>
+      
+               <hr class="hr" width="98%"/>
+
+      
+       <ul id="news4" style="float:left;">
+     
+                <h4 style="margin:auto;" class="marquee"><span class="emphasis"> 2021 NASA Ames Honor Award Winners</span></h4>
+          <li>&nbsp;</li>
+<li>&nbsp;</li>
+<li class="marquee" ><span class="emphasis">Mentor Category</span></li>
+<li class="marquee" >Thomas R. Norman</li> 
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li class="marquee" ><span class="emphasis">Contractor Employee </span></li>
+<li class="marquee"> Brenda Natalia Perez Perez</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li>
+<li class="marquee"><span class="emphasis">Special Appreciation </span></li>
+<li class="marquee"> Susan Gorton</li>
+<li>&nbsp;</li>
+
+
+ </ul> 
+           <hr class="hr" width="98%"/>
+-->
+          <!--<div class="clearfloat"></div> -->
+
+     
+<ul id="news5" style=" border-bottom:1px,#FFFFFF;">
+       <h4 style="margin:auto" class="marquee"><span class="emphasis">2023  Vertical Flight Society SFBAC Awards</span></h4>
+	<li> &nbsp;</li>
+	
+
+    <li class="marquee"><span class="emphasis">Franklin Award:</span></li>
+    <li class="marquee">Side by Side 7x10 Wind Tunnel Urban Air Mobility Team</li>
+<li> &nbsp;</li>
+	
+    
+    <li class="marquee"><span class="emphasis">Schroers Award for Outstanding Rotorcraft Research</span></li>
+    <li class="marquee">NASA/Army HVAB Rotor Test Team </li>
+<li> &nbsp;</li>
+     <li class="marquee"><span class="emphasis">Award for Outstanding Contribution to the VFS Local Chapter:</span></li>
+    <li class="marquee">Carl Russell </li>
+<li> &nbsp;</li>
+	  <li class="marquee"><span class="emphasis">Franklin Award for Outstanding Contribution to the Powered-Lift Field </span></li>
+    <li class="marquee">Side by Side 7x10 Wind Tunnel Urban Air Mobility Team </li> 
+   <li> &nbsp;</li>
+    <li class="marquee"><span class="emphasis">Velkoff Award for Outstanding Technical Paper &ndash;Fundamental Test of a Hovering Rotor: Comprehensive Measurements for CFD Validation</span></li>
+    <li class="marquee">Norman et al </li> 
+<li> &nbsp;</li>
+ <li class="marquee"><span class="emphasis" >Award for Outstanding Technical Support:</span></li>
+    <li class="marquee">Shirley Burek  </li>
+<li> &nbsp;</li>
+	
+          
+ </ul>
+          
+
+
+
+     
+     <!--
+<ul id="news6" style="float:left; border-bottom:1px,#FFFFFF,55%;margin-right:75px;">
+      <h4 style="margin:auto" class="marquee"><span class="emphasis" style="float:left;">2021  Vertical Flight Society SFBAC Awards</span></h4>
+	<li> &nbsp;</li>
+	<li>&nbsp;</li>
+
+<li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">Franklin Award:</span></li><br />
+   <li class="marquee" style="float:left; margin-right:-70px;">
+    
+2021 – NFAC Aerodynamic & Acoustic Rotoprop Test Team: Joe Sacco and Natasha Schatzman</li>
+   
+<li> &nbsp;</li>
+	<li>&nbsp;</li>
+    <li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">Award for Outstanding Technical Support:</span></li><br />
+    <li class="marquee" style="float:left; margin-right:-70px;">
+2021 – TDD-A/DSE Automation Team (Sukhdev Sandhu), and Meridith Segall</li>
+
+<li> &nbsp;</li>
+	<li>&nbsp;</li>
+          
+ </ul>
+               <hr class="hr" width="58%"/>
+
+            <!--<div class="clearfloat"></div> -->
+    
+ <!--
+      
+	      <ul id="news9" class="marquee" style="float:left;" ><span class="emphasis">2021 AIAA San Francisco Section Young Professional of the Year Award</span> <br /> Shannah Withrow&ndash;Maser</ul>
+    
+     
+<ul id="news7" style="float:left; border-bottom:1px,#FFFFFF,55%;margin-right:75px;">
+     <h4 style="margin:auto" class="marquee"><span class="emphasis" style="float:left;">2020  Vertical Flight Society SFBAC Awards</span></h4>
+	<li> &nbsp;</li>
+	<li>&nbsp;</li>
+<li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">
+    Schroers Award</span></li><br />
+    <li class="marquee" style="float:left; margin-right:-70px;">
+    2020 – Mars Helicopter Development Team: Larry Young </li>
+<li> &nbsp;</li>
+	<li>&nbsp;</li>
+    <li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">Franklin Award:</span></li><br />
+    <li class="marquee" style="float:left; margin-right:-70px;">
+2020 – NASA/Army Multirotor Testbed Wind Tunnel Test Team: Carl Russell </li>
+
+<li> &nbsp;</li>
+	<li>&nbsp;</li>
+    <li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">Award for Outstanding Technical Support:</span></li><br />
+    <li class="marquee" style="float:left; margin-right:-70px;">
+2020 – Catherine Dow </li>
+<li> &nbsp;</li>
+	<li>&nbsp;</li>
+   
+
+    <li class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">Award for Outstanding Contribution to the VFS Local Chapter:</span></li><br />
+    <li class="marquee" style="float:left; margin-right:-70px;">
+2020 – Natasha Schatzman </li>
+
+   <li> &nbsp;</li>
+	<li>&nbsp;</li>
+          
+ </ul>
+               <hr class="hr" width="%"/>
+
+      <ul id="news8" style="float:left; margin-right:75px;">
+         
+          	<h4 style="margin:auto" class="marquee"><span class="emphasis" style="float:left;margin-right:70px;">2019 Vertical Flight Society SFBAC Awards</span></h4>
+	<li> &nbsp;</li>
+	<li>&nbsp;</li>
+<li class="marquee">  <span class="emphasis" style="float:left;margin-right:70px;">Velkoff Award </span></li> <br />
+ <li class="marquee" style="float:left;margin-right:70px;">Witold Koning, Wayne Johnson, and H&aacute;vard Grip</li>
+<li>&nbsp;</li>
+<li> &nbsp;</li>
+
+<li class="marquee">  <span class="emphasis" style="float:left;margin-right:70px;">Franklin Award </span></li> <br />
+ <li class="marquee" style="float:left;margin-right:70px;">The 609/Tiltrotor Test Rig Test Team</li><br />
+
+    <li class="marquee" style="float:left; margin-right:70px;">
+2019 MTB test program in the 7- by 10-Foot Wind Tunnel </li>
+<li> &nbsp;</li>
+<li> &nbsp;</li>
+
+<li class="marquee">  <span class="emphasis" style="float:left;margin-right:70px;">Lifetime Achievement Award </span></li> <br />
+ <li class="marquee" style="float:left;margin-right:70px;">Wally Acree</li>
+ <li> &nbsp;</li>
+          
+<li> &nbsp;</li>
+          <li>&nbsp;</li></ul> 
+  -->       
+  <p>&nbsp;</p>
+      
+<!-------------------------------------------------- End Awards --------------------- -->
+           <div class="clearfloat"></div>
+		  <!-- Class used for pop up windows -->
+     
+  
+	   
+	        <div class="clearfloat"></div>
+         <p>&nbsp;</p>
+<div class="featured">Of Special Note</div>
+  <div class="video_list">
+       <p>&nbsp;</p>
+        <div class="video_thumbs">
+        
+          <div class="clearfloat"></div>
+       <img src="/Images/DominguezThumb.png" border="0" alt="click me" onclick="popup5(); return false;"  />
+            </div>
+       
+	<div class="video_thumbs">
+         
+            <img src="/Images/HaleyThumb.png" border="0" alt="click me" onclick="popup6(); return false;"  />
+            </div> <!-- end pop up window -->
+   
+	<div class="video_thumbs">
+         
+            <img src="/Images/FlyingOnMars_thumb.jpg" border="0" alt="click me" onclick="popup7(); return false;"  />
+            </div> <!-- end pop up window -->
+   
+    </div>
+	   <div>
+
+    </div>
+     </div>
+	 
+	  
+  <!--  <div class="featured"> Featured Videos</div>
+    <div class="video_list">
+	   
+	        <div class="clearfloat"></div>
+
+       
+        <div class="video_thumbs">
+       
+            <a style="float:left;" href="/Research/Facilities/Video/AMES_AWARDS_NFAC25th.html"><img src="/Research/Facilities/IMAGES/AMES_AWARDS_NFAC25th.png" border="0" alt="click me" onclick="popup1(); return false;"  /></a>
+            </div>
+	<div class="video_thumbs">
+         
+            <a style="float:left;" href="/Research/Facilities/Video/TTR_AWARDS_2013_V2.html"><img src="/Research/Facilities/IMAGES/TTR_AWARDS_2013_V2.png" border="0" alt="click me" onclick="popup2(); return false;"  /></a>
+            </div>
+<div class="video_thumbs">
+      
+            <a style="float:left;" href="/Research/Facilities/Video/TTR_AWARDS_2013_V1.html"><img src="/Research/Facilities/IMAGES/TTR_AWARDS_2013_V1.png" border="0" alt="click me" onclick="popup3(); return false;"  /></a>
+            </div>      
+     </div>
+  -->
+      <div class="clearfloat"></div>
+    
+    <div id="bar">
+      <div class="featured"> FEATURED LINKS</div>
+      <table class="featured" id="icons">
+      <tr class="row">
+        <td class="test" style="float:left"margin-left:30px">
+     
+        <p>Dr. Michael P. Scully<br />
+	  In Memoriam<br />
+	    1942 to 2018</p>
+	<p>&nbsp;</p>
+       <a href="Scully_TP-2018-219981_final.pdf"><img src="Scully_Thumb.png" alt="Scully publication" width="140" height="110" />	 </a>
+	 
+      </td>
+     <td class="test"style="float:left">
+       
+        <p class="th">The World's Largest Wind Tunnels: <br />Their History, Contributions to Aeronautics, and Importance to Flight <br />
+          <a href="Ken_Mort_Final_4.12.21.pdf">
+	 <img src="Images/MortBookThumb.png" alt="Thumbnail image of Kenneth W. Mort's Book" width="120" height="160" /></a>   <br />   </p>  
+        <p class="info">Download (151 Mb)</p> 
+
+</td>    
+         <td class="test"style="float:left">  
+        <p class="th">Revolutionary Vertical Lift Technology Project: <br /> </p>
+        
+       <a href="RVLT_Center_Town_Hall_All_Centers_August_2022_for_website.pdf"><img src="RVLT_Thumb.png" alt="NASA Rotary Wing Presentation" width="140" height="110" />	 
+	<p class="info" > Download the latest RVLT Project presentation</p></a>
+     <!--   <p class="info">Watch the movie</p>
+	<div class="clearfloat"></div>
+        <p class="info"><a href="From_Here_to_There Movie.mov" target="_blank">From Here to There</a></p> -->
+      
+      </td>
+        
+        
+    
+  <!--    <td class="test" style="float:left">
+     
+        <p>Design Environment <br />for Novel Vertical Lift Vehicles Subproject</p>
+	<p>&nbsp;</p>
+       <a href="DELIVER_2016-03_ODM.pdf"><img src="deliverThumb.png" alt="DELIVER" width="140" height="110" />	 </a>
+	<div class="clearfloat"></div>
+	<p class="info" > Download the DELIVER presentation</p>    
+      </td> -->
+    
+   
+          <div class="clearfloat"></div>
+	
+      </tr>
+      
+      <tr class="row">
+     
+        <td class="test">
+       
+        <p class="th">Autogyros, Helicopters and Other V/STOL Aircraft: <br />Volume III </p>
+          <a href="Harris_Vol III_FINAL_12-4-2016.pdf">
+	 <img src="Images/volume3Thumb.png" alt="Thumbnail image of Frank Harris' Volume 3" width="120" height="160" /></a>        
+        <p class="info">Download &#8220;Autogyros, Helicopters and Other V/STOL Aircraft:Volume III (91 Mb)&#8221;</p> 
+
+</td> 
+       <td class="test">
+       
+        <p class="th">Autogyros, Helicopters and Other V/STOL Aircraft:<br /> Volume II (64 MB)</p>
+          <a href="FINAL_Harris Vol II_Feb 11 2013.pdf"><img src="Images/volume2Thumb.png" alt="Thumbnail image of Frank Harris' Volume 2" width="120" height="160" /></a>        
+        <p class="info">Download &#8220;Autogyros, Helicopters and Other V/STOL Aircraft:Volume II&#8221;</p>
+
+</td>
+ <td class="test">
+      
+        <p class="th">Autogyros, Helicopters and Other V/STOL Aircraft: <br />Volume I (106 MB)</p>
+        <a href="Harris_Vol_1_searchable.pdf"><img src="Images/harris_thumb.png" alt="Link to Frank Harris Book Volume 1" width="120" height="160" /></a>
+        <p class="info">Download &#8220;Volume I: Overview and Autogyros&#8221;</p>
+	<p class="info">Download eBook:</p>
+	<p class="info"><a href="epub/Harris_Vol_1_k2opt_text.pdf" alt="Link to ePub of Frank Harris Book Volume 1">Searchable eBook (111.6 MB)</a></p>
+	<p class="info"><a href="epub/Harris_Vol_1_k2opt.pdf" alt="Link to ePub of Frank Harris Book Volume 1">eBook (41.5 MB)</a></p>
+      
+ </td> </tr>
+      
+        <tr class="row">
+	    
+       <td class="test" style="float:left; margin-left:30px">
+     
+        <p class="th">Figures of Merit
+</p>
+	
+     <a href="/Figuresofmerit_nasasp20183713.pdf"><img src="Images/Ormiston_thumb.png" alt="Link to Ormiston book"  /></a> 
+   
+    <p class="info"> Download <br />
+Figures of Merit,<br />
+NASA SP 2018-3713</p>
+          
+      </td>
+  
+          <td class="test" style="float:left; margin-left:0px;">
+        <p class="th">Figures of Merit Memoir Presentation hosted by VFS August 28th, 2019</p>
+	
+     <a width="100%" height="100%" href="https://www.youtube.com/watch_popup?v=Ru3KYKLzNO4" frameborder="0" allowfullscreen><img src="./FiguresThumb.png" width="140" height="120" border="0" alt="click me" /></a>
+          
+	  
+	<!--  <a style="float:left;" href="./FiguresVid.html"><img src="./FiguresThumb.png" width="140" height="120" border="0" alt="click me" onclick="popup4(); return false;"  /></a> -->
+           
+  </td>
+          <td class="test" style="float:left;">
+      
+        <p class="th">RotorCRAFT Flying HANDBOOK</p>
+	<p>&nbsp;</p>
+        <a href="faa-h-8083-21.pdf"><img src="Images/rotorcraft_handbook.jpg" alt="Link to Rotorcraft Flying Handbook" width="130" height="100" /></a>
+       
+	<p class="info"> Download the FAA <br/>
+        Rotorcraft Flying Handbook</p>
+          
+      </td>
+    </tr>
+	
+       <tr class="row">
+	<!--
+	<td class="test">
+     
+        <p class="th">HART-II Program</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	
+     <a href="/hart2/index.php"><img src="Images/hart_thumb.png" alt="Link to HART 2 Website" width="140" height="120" /></a> 
+   
+        <p class="info">Link to the HART-II Data Distribution Website</p>     
+      </td>
+     -->
+     
+       <td class="test" style="float:left; margin-left:30px;">
+     
+        <p class="th">2011 AHS Alexander A. Nikolsky Honorary Lectureship
+<br />NASA TP-2014-218374</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+     <a href="/Bousman TP-2014-218374.pdf"><img src="Images/Bousman_thumb.png" alt="Link to Bousman Lecture" width="140" height="120" /></a> 
+    
+      </td>
+       
+       
+        <td class="test" style="float:left; margin-left:0px;">
+        <p class="th">2010 AHS Alexander A. Nikolsky Honorary Lectureship
+<br />NASA TP-2011-215971</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+     <a href="/Johnson_TP-2011-215971_final.pdf"><img src="Images/2010_Nikolsky_thumb.jpg" alt="Link to HART 2 Website" width="140" height="120" /></a> 
+    
+  </td>
+ 
+  <td class="test" style="float:left">
+      
+        <p>UH-60 Airloads</p>
+        <p>&nbsp;</p>
+          <a href="tutorial/index.html" target="_blank"><img src="Research/IMAGES/UH-60 Rascal.jpg" alt="Thumbnail image of UH-60 Blackhawk at night" width="140" height="110" /></a>        
+       
+ <p class="info">Link to the UH-60 Airloads Tutorial</p>
+     </td>
+
+
+       
+       </tr>
+       
+      </table>
+        
+    </div><!-- end #bar --> 
+    
+
+    <!-- end #mainContent -->
+
+<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+<br class="clearfloat" />   
+       <div id="footer">
+<ul id="footerp" style="text-align:right;">    
+<li>Editor: Meridith Segall</li>
+<li>Website Designed by: Susan O</li>
+<li>NASA Official: Dr. William Warmbrodt (Chief)</li>
+<li><script type="text/javascript">document.write("Last Update " + document.lastModified) </script></li>
+</ul>
+
+
+    <ul id="footer-nav"> 
+      <li><a href="/index.html" title="Aeromechanics Branch Website Home">Home</a>
+        <ul>  
+          <li><a href="/Publications/2010.html" title="Publications">Publications</a></li>
+  <li><a href="/Awards/awards.html">Awards</a></li>
+          <li><a href="/Student/internships.html" title="internships">Student Opportunities</a></li>  
+        </ul>
+      </li>
+      <li><a href="/about.html" title="About the Aeromchanics Branch">About Us</a>
+        <ul>
+          <li><a href="/About/status.html" title="Rotorcraft Status">Rotorcraft Status</a></li>
+          <li><a href="/About/products_and_services.html" title="Products and Services">Products and Services</a></li>
+        </ul>
+      </li>
+      <li><a href="/research.html" title="Research">Research</a>
+        <ul>
+          <li><a href="/Research/programs.html" title="Research Programs">Research Programs</a></li>
+          <li><a href="/Research/facilities.html" title="Research Facilities">Research Facilities</a></li>
+      <li><a href="/Research/Computational/rotorcraft_methods.html">Computational Methods</a></li>
+        </ul>
+        </li>
+      <li><a href="http://www.hq.nasa.gov/office/pao/FOIA/">Freedom of Information Act</a></li>
+            <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Statement, Disclaimer, and Accessibility Certification</a></li>
+     </ul>
+<!-- end #footer --></div>
+
+
+
+</body></html>

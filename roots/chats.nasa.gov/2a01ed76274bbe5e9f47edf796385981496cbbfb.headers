@@ -1,0 +1,11 @@
+GET https://chats.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:01:32 GMT
+< Server: Apache
+< Content-Type: text/html; charset=utf-8
+< Location: https://auth.launchpad.nasa.gov/affwebservices/CASSO/oidc/11539-aps-traefik-prod-prod-token/authorize?access_type=offline&client_id=c5373379-8fbc-4d49-8e23-69b71d3f3366&nonce=Jqm3oNjI37YQ1z2imUAH&redirect_uri=https%3A%2F%2Fguest.nasa.gov%2Foidc-icam-sm-prod-prod-token%2Fcallback&response_type=code&scope=openid++email++profile++nasastandard&state=68PKIOegU8MEvDOpti2m
+< Content-Length: 415
+< Set-Cookie: traefik-state-aps-oidc-icam-sm-prod-prod-token-public=V2REUkIyZUpVMzF2ZWJyZeH0JSyFzoUYr7_KG7NdRnEhqxj711eCX9w6qmkiw9waNeXHT_qAjaO01nmO49H4IKf3yE1KNWQdmiijqRSVxQs5K4JC_S_SH2uBRE7rRDLj8wKn5PwONK-NiP0GgTt7HKD_FPi8YnS_7l-uKCfLbFY-QWKMQuySMtM-aZw; Path=/; Domain=nasa.gov; Max-Age=600; HttpOnly; Secure; SameSite=Lax
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

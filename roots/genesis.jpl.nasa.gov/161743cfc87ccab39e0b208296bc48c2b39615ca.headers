@@ -1,0 +1,17 @@
+GET https://genesis.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< Content-Length: 27331
+< Expires: Tue, 19 Sep 2023 05:44:37 GMT
+< Vary: Accept-Language,Cookie
+< Content-Language: en
+< Referrer-Policy: origin
+< Date: Tue, 19 Sep 2023 05:44:37 GMT
+< Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+< X-Frame-Options: DENY
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< Set-Cookie: django_language=en; expires=Wed, 18 Sep 2024 05:44:37 GMT; Max-Age=31536000; Path=/
+< Content-Type: text/html; charset=utf-8

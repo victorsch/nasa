@@ -1,0 +1,10 @@
+GET http://nssdc.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Location: https://nssdc.gsfc.nasa.gov/
+< Content-Length: 236
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:47:45 GMT

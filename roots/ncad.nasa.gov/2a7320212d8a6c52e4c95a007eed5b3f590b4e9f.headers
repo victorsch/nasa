@@ -1,0 +1,13 @@
+GET http://ncad.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: EWR53-P1
+< X-Amz-Cf-Id: M9C9L_ooNr80dUlVEIP3zsX72EDv_0_o8zFCxW2sVGg28MNZNgSFzA==
+< Date: Tue, 19 Sep 2023 05:56:26 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://ncad.nasa.gov/
+< Via: 1.1 99b519fb7ca87e7fd6040aacb1160452.cloudfront.net (CloudFront)

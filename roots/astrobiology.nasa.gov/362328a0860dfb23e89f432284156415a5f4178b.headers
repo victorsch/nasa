@@ -1,0 +1,13 @@
+GET https://astrobiology.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:54:35 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Server: nginx
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: script-src 'strict-dynamic' 'nonce-rXk5VWx1Hm6aBwvw8KyTGg=='; style-src 'self' api.mapbox.com 'sha256-eqrKC5LubMH5rfp6JMzE8XOGv3b+GiuBFnwX/agZ1lo=' 'sha256-32Jne0mIfdrmaP/EsXVcqXOB/S5zilMDE45g6cpXcHc=' 'sha256-4PbkY7AMmcyJNRDb0oCWDI3MntDOeDCgwed+y+9Fy0I=' 'sha256-v3WjVr5nkWOEqKwnPlcnYSYBdixKYGQ5tkrIwHHxDx4=' 'nonce-rXk5VWx1Hm6aBwvw8KyTGg=='; frame-ancestors 'self'; default-src 'self'; frame-src platform.twitter.com syndication.twitter.com www.youtube.com www.youtube-nocookie.com w.soundcloud.com; img-src 'self' data: api.mapbox.com syndication.twitter.com cdn.jsdelivr.net; connect-src 'self' www.google-analytics.com api.mapbox.com; object-src 'none'; font-src 'self' cdn.jsdelivr.net; style-src-attr 'sha256-32Jne0mIfdrmaP/EsXVcqXOB/S5zilMDE45g6cpXcHc=' 'sha256-4PbkY7AMmcyJNRDb0oCWDI3MntDOeDCgwed+y+9Fy0I=' 'sha256-v3WjVr5nkWOEqKwnPlcnYSYBdixKYGQ5tkrIwHHxDx4=' 'unsafe-hashes' 'nonce-rXk5VWx1Hm6aBwvw8KyTGg=='; form-action 'self'
+< X-Xss-Protection: 1; mode=block

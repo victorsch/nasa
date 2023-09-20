@@ -1,0 +1,14 @@
+GET https://hubble.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:59:12 GMT
+< Content-Type: text/html
+< Location: https://www.nasa.gov/mission_pages/hubble/main/index.html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< Content-Length: 162

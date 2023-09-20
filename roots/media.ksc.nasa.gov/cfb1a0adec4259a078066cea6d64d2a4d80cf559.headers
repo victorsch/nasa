@@ -1,0 +1,14 @@
+GET https://media.ksc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 17558
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< X-Aspnetmvc-Version: 4.0
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:49:47 GMT
+< Cache-Control: private
+< X-Aspnet-Version: 4.0.30319

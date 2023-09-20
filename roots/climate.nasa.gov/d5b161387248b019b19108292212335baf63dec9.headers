@@ -1,0 +1,24 @@
+GET https://climate.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< X-Frame-Options: sameorigin
+< Etag: W/"656fc2d9064fc8e4762c7f23a1007789"
+< Status: 200 OK
+< X-Cache: Miss from cloudfront
+< X-Runtime: 0.978879
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval' blob:;        style-src 'self' blob: https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Request-Id: 52151442-8af2-49cc-a05e-42a8c738e001
+< Via: 1.1 1d4079b9c92abe0dba6581682966e934.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+< X-Amz-Cf-Id: i-RiU8mFmAu6Q8_EeAqtuJn6RAkS1QPF5ClfG7zsQgDlrUs-YtK3_A==
+< X-Powered-By: Phusion Passenger(R)
+< Access-Control-Allow-Origin: https://climate.nasa.gov
+< Access-Control-Max-Age: 1005
+< Cache-Control: max-age=0, private, must-revalidate
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 05:44:50 GMT

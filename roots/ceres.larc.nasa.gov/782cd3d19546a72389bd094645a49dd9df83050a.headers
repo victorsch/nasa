@@ -1,0 +1,23 @@
+GET https://ceres.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: 8faefc1aa380442ad31b62eafd37c72d=bd38c1a243f279270c6a43ee06e5574a; path=/; HttpOnly; Secure; SameSite=None
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Expires: 0
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Powered-By: PHP/8.1.23
+< Pragma: no-cache
+< Date: Tue, 19 Sep 2023 05:55:05 GMT
+< Server: Apache
+< Link: <https://ceres.larc.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://ceres.larc.nasa.gov/wp-json/wp/v2/pages/10>; rel="alternate"; type="application/json"
+< Link: <https://ceres.larc.nasa.gov/>; rel=shortlink
+< Referrer-Policy: strict-origin
+< Content-Language: en-US

@@ -1,0 +1,518 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript">
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?load=effects" type="text/javascript">
+</script>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>VEFI Home Page</title>
+<meta name="viewport" content="width = 750, minimum-scale = 0.25, maximum-scale = 1.60">
+<meta name="GENERATOR" content="Freeway Pro 7.0">
+<style type="text/css">
+<!--
+body { margin:0px; background-color:#003; height:100% }
+html { height:100% }
+form { margin:0px }
+body > form { height:100% }
+img { margin:0px; border-style:none }
+button { margin:0px; border-style:none; padding:0px; background-color:transparent; vertical-align:top }
+table { empty-cells:hide }
+.f-sp { font-size:1px; visibility:hidden }
+.f-lp { margin-bottom:0px }
+.f-fp { margin-top:0px }
+em { font-style:italic }
+h1 { font-size:18px }
+h1:first-child { margin-top:0px }
+strong { font-weight:bold }
+.style1 { text-align:center }
+.style15 { font-size:14px }
+.style10 { font-size:14px }
+.cnofstitletop { color:#fff; font-family:Trebuchet MS,Arial,Helvetica,sans-serif; font-size:18px; text-align:center }
+.cnofspurposetop { color:#fff; font-family:Trebuchet MS,Arial,Helvetica,sans-serif; font-style:italic; font-size:14px; text-align:center }
+.style19 { color:#fff; font-family:Trebuchet MS,Arial,Helvetica,sans-serif; font-style:italic; font-size:14px }
+.menudateside { color:#fff; font-family:Trebuchet MS,Arial,Helvetica,sans-serif; font-size:12px; text-align:center }
+.style2 { color:#fff; font-family:Trebuchet MS,Arial,Helvetica,sans-serif; font-size:12px }
+#PageDiv { position:relative; min-height:100% }
+#DSC0030crop { position:absolute; left:459px; top:153px; width:233px; height:205px; z-index:1; overflow:visible }
+#DSC0068crop { position:absolute; left:160px; top:151px; width:258px; height:205px; z-index:2; overflow:visible }
+#VEFIorbit2554panelmay32008 { position:absolute; left:160px; top:142px; width:555px; height:439px; z-index:3; overflow:visible }
+#cnofsglobeimage { position:absolute; left:277px; top:388px; width:336px; height:319px; z-index:4; overflow:visible }
+#DSC0034crop { position:absolute; left:173px; top:153px; width:521px; height:204px; z-index:5; overflow:visible }
+#MainMenuBar { position:absolute; left:170px; top:105px; width:538px; height:auto; z-index:6; background-color:#333; overflow:visible }
+#titletop.f-ms { position:absolute; left:153px; top:45px; width:359px; height:27px; z-index:7; overflow:visible }
+#purposetop.f-ms { position:absolute; left:199px; top:69px; width:459px; height:22px; z-index:8; overflow:visible }
+#nasahome.f-ms { position:absolute; left:22px; top:100px; width:80px; height:16px; z-index:9; overflow:visible }
+#nasahomeover.f-ms { position:absolute; left:22px; top:100px; width:80px; height:16px; z-index:10; overflow:visible }
+#gsfchome.f-ms { position:absolute; left:22px; top:115px; width:80px; height:16px; z-index:11; overflow:visible }
+#gsfchomeover.f-ms { position:absolute; left:22px; top:115px; width:80px; height:16px; z-index:12; overflow:visible }
+#sidemenubackground.f-ms { position:absolute; left:17px; top:134px; width:136px; height:247px; z-index:13; overflow:visible }
+#contentchange.f-ms { position:absolute; left:21px; top:147px; width:129px; height:33px; z-index:14; overflow:visible }
+#newsbutton.f-ms { position:absolute; left:18px; top:190px; width:134px; height:20px; z-index:15; overflow:visible }
+#newsbuttonover.f-ms { position:absolute; left:18px; top:190px; width:134px; height:20px; z-index:16; overflow:visible }
+#teambutton.f-ms { position:absolute; left:18px; top:222px; width:134px; height:20px; z-index:17; overflow:visible }
+#teambuttonover.f-ms { position:absolute; left:18px; top:222px; width:134px; height:20px; z-index:18; overflow:visible }
+#contactbutton.f-ms { position:absolute; left:18px; top:254px; width:134px; height:20px; z-index:19; overflow:visible }
+#contactbuttonover.f-ms { position:absolute; left:18px; top:254px; width:134px; height:20px; z-index:20; overflow:visible }
+#internalbutton.f-ms { position:absolute; left:18px; top:285px; width:134px; height:20px; z-index:21; overflow:visible }
+#internalbuttonover.f-ms { position:absolute; left:18px; top:285px; width:134px; height:20px; z-index:22; overflow:visible }
+#mapbutton.f-ms { position:absolute; left:18px; top:317px; width:134px; height:20px; z-index:23; overflow:visible }
+#mapbuttonover.f-ms { position:absolute; left:18px; top:317px; width:134px; height:20px; z-index:24; overflow:visible }
+#linksbutton.f-ms { position:absolute; left:18px; top:349px; width:134px; height:20px; z-index:25; overflow:visible }
+#linksbuttonover.f-ms { position:absolute; left:18px; top:349px; width:134px; height:20px; z-index:26; overflow:visible }
+#swladdress.f-ms { position:absolute; left:30px; top:811px; width:180px; height:64px; z-index:27; overflow:visible }
+#swladdressover.f-ms { position:absolute; left:30px; top:811px; width:180px; height:64px; z-index:28; overflow:visible }
+#responsible.f-ms { position:absolute; left:470px; top:811px; width:237px; height:39px; z-index:29; overflow:visible }
+#policies.f-ms { position:absolute; left:471px; top:861px; width:240px; height:17px; z-index:30; overflow:visible }
+#policiesover.f-ms { position:absolute; left:471px; top:861px; width:240px; height:17px; z-index:31; overflow:visible }
+#CNOFSSatellite { position:absolute; left:286px; top:382px; width:310px; height:400px; z-index:32; overflow:visible }
+#fwNav1 { float:left; padding:0; margin:0; list-style:none }
+#fwNav1 .fwNavItem { width:6.5em; position:relative; float:left; margin:0; padding:0; border-right:2px ridge #000000; border-top:1px solid #000000; border-bottom:1px solid #000000; border-left:0 }
+#fwNav1 .fwNavItem a { display:block; color:#CCCCCC; text-decoration:none; background:#333333; padding:3px 10px 3px 10px }
+#fwNav1 .fwFirstChild { border-left:1px solid #000000 }
+#fwNav1 .fwLastChild { border-right:1px solid #000000 }
+#fwNav1 .fwNavItem:hover > span a, #fwNav1 .fwNavItem:hover > a { color:#FFFFFF; text-decoration:none; background:#333333 }
+#fwNav1 .fwNavItem a:hover, #fwNav1 .fwNavItem span a:hover, #fwNav1 .fwNavItem a:focus { color:#FFFFFF; text-decoration:none; background:#333333 }
+.fwMainPointer1 { margin-top:-50%; height:10px }
+.fwMainPointerWrapper1 { position:absolute; right:5px; top:50% }
+#fwNav1-toggle, .fwNav1-toggle-label { display:none }
+.fwNav1-toggle-label { width:30px; height:30px; overflow:hidden; background-repeat:no-repeat; background-size:100% }
+#fwNav1 * .sub { visibility:hidden; position:absolute; left:-1px; float:left; padding:0; margin:0; list-style:none; z-index:1 }
+#fwNav1 .sub * .sub { top:-1px }
+#fwNav1 .fwNavItem .sub .fwNavItem { display:block; margin:0; padding:0; left:0; width:7em; border-bottom:1px solid #000000; border-left:1px solid #000000; border-right:1px solid #000000; border-top:0 }
+#fwNav1 * * * .sub { left:100%; top:0 }
+#fwNav1 .fwNavItem .sub .fwNavItem a { display:block; color:#CCCCCC; text-decoration:none; background:#333333; padding:3px 10px 3px 10px }
+#fwNav1 .fwNavItem .sub .fwFirstChild { border-top:1px solid #000000 }
+#fwNav1 .fwNavItem .sub .fwLastChild { border-bottom:1px solid #000000 }
+#fwNav1 .fwNavItem .sub .fwNavItem:hover > span a, #fwNav1 .fwNavItem .sub .fwNavItem:hover > a { color:#FFFFFF; text-decoration:none; background:#0099FF }
+#fwNav1 .fwNavItem .sub .fwNavItem a:hover, #fwNav1 .fwNavItem .sub .fwNavItem span a:hover, #fwNav1 .fwNavItem .sub .fwNavItem a:focus { color:#FFFFFF; text-decoration:none; background:#0099FF }
+#fwNav1 :hover > .sub { visibility:visible }
+* html #fwNav1 { float:left }
+* html #fwNav1 .fwNavItem a { height:1% }
+* html #fwNav1 .fwNavItem .sub .fwNavItem { float:left; top:1px }
+* html #fwNav1 .fwNavItem .sub .fwNavItem .sub .fwNavItem { top:0 }
+#fwNav1 .fwNavItem.over *#fwSub1 { visibility:visible }
+#fwNav1 .fwNavItem.over1 *#fwSub2 { visibility:visible }
+-->
+</style>
+<!--[if lt IE 7]>
+<link rel=stylesheet type="text/css" href="css/ie6.css">
+<style type="text/css">
+#PageDiv { height:100% }
+</style>
+<![endif]-->
+<script type="text/javascript">//<![CDATA[
+
+function FWFindLayer(lay)
+{
+	if (lay)
+	{
+		if (document.layers) 
+			return document[lay];
+		else if (document.getElementById)
+			return document.getElementById(lay).style;
+		else if (document.all) 
+			return document.all[lay].style;
+	}
+	return null;
+}
+
+
+function FWShowHideLayerFade(lay, vis, ch, duration)
+{
+	if (ch && lay != "") 
+	{
+		vis = (vis) ? "visible" : "hidden";
+		var obj = FWFindLayer(lay);
+		if (obj && obj.visibility != vis) 
+		{
+			if(vis == "visible")
+			{
+				obj.visibility = vis;
+				new Effect.Appear(lay, {duration:duration, delay:null});
+			}
+			else
+			{
+				new Effect.Fade(lay, {duration:duration, delay:null, afterFinish:function(){obj.visibility = vis}});
+			}
+		} 
+	}
+}
+
+var fwSeq= new Object;
+fwSeq['1']=1;
+fwSeq['2']=2;
+fwSeq['3']=3;
+
+var fwCurrSeq=0;
+var fwCurrSeqDown=false;
+var fwPlaySeqTimer=true;
+
+function FWSeqTimer()
+{
+	if(fwPlaySeqTimer)
+	{
+		if (fwCurrSeqDown)
+			FW_Hit(top.frames,'Indigo',fwSeq[fwCurrSeq],0);
+		else
+		{
+			fwCurrSeq++;
+			if (fwCurrSeq > 3)
+				fwCurrSeq = 1;
+			FW_Hit(top.frames,'Indigo',fwSeq[fwCurrSeq],1);
+		}
+		fwCurrSeqDown=!fwCurrSeqDown;
+		setTimeout("FWSeqTimer();",2000);
+	}
+}
+
+function FWCallHit(func,targNum,msg)
+{
+	if(func)
+		for (var i in func)
+			func[i](targNum,msg);
+}
+function FW_Hit(frameset,chain,targNum,msg)
+{
+	if (frameset && frameset.length) {
+		for (var i=0 ; i <frameset.length ; i++)
+		{
+			try {
+				FW_Hit(frameset[i].frames,chain,targNum,msg);
+			} catch(e) {}
+		}
+		FWCallHit(frameset.window["FT_"+chain],targNum,msg);
+	}
+	else
+		FWCallHit(frameset.window["FT_"+chain],targNum,msg);
+}
+
+
+function FWStripFileFromFilterString(filterString)
+{
+	var start,end;
+	var strSrc = "src='";
+	var strRes = "";
+
+	start = filterString.indexOf(strSrc);
+
+	if(start != -1)
+	{
+		start += strSrc.length;
+		
+		end = filterString.indexOf("',",start);
+		if(end != -1)
+		{
+			strRes = filterString.substring(start,end);
+		}
+	}
+
+	return strRes;
+}
+
+
+var fwIsNetscape = navigator.appName == 'Netscape';
+
+
+fwLoad = new Object;
+function FWLoad(image)
+{
+	if (!document.images)
+		return null;
+	if (!fwLoad[image])
+	{
+		fwLoad[image]=new Image;
+		fwLoad[image].src=image;
+	}
+	return fwLoad[image].src;
+}
+
+
+fwRestore = new Object;
+function FWRestore(msg,chain) 
+{
+	if (document.images) 
+		for (var i in fwRestore)
+		{
+			var r = fwRestore[i];
+			if (r && (!chain || r.chain==chain) && r.msg==msg)
+			{
+				r.src = FWLoad(r.old);
+				fwRestore[i]=null;
+			}
+		}
+}
+
+
+function FWLSwap(name,msg,newImg,layer,chain,trigger) 
+{
+	var r = fwRestore[name];
+	if (document.images && (!r || r.msg < msg)) 
+	{
+		var uselayers = fwIsNetscape && document.layers && layer != '';
+		var hld;
+		if (uselayers)
+			hld = document.layers[layer].document;
+		else
+			hld = document;
+		var im = hld.getElementById(name);
+		if (!im.old)
+		{
+			if(usingIEFix && im.runtimeStyle.filter)
+				im.old = FWStripFileFromFilterString(im.runtimeStyle.filter);
+			else
+				im.old = im.src;
+		}
+		
+		im.msg = msg;
+		im.chain = chain;
+		im.trigger = trigger;
+		if (newImg) im.src = FWLoad(newImg);
+		fwRestore[name] = im;
+	}
+}
+
+
+fwHit = new Object;
+function FWSlave(frameset,chain,targNum,msg)
+{
+	if (msg==1) fwHit[chain]=targNum;
+	FW_Hit(frameset,chain,targNum,1);
+}
+
+function FWSRestore(frameset,chain)
+{
+	var hit=fwHit[chain];
+	if (hit)
+		FW_Hit(frameset,chain,hit,0);
+	fwHit[chain]=null;
+}
+
+function FWPreload()
+{
+	FWLoad("vefi/Resources/nasahomeovera.gif");
+	FWLoad("vefi/Resources/nasahomeover.gif");
+	FWLoad("vefi/Resources/gsfchomeover.gif");
+	FWLoad("data/Resources/newsbuttonover.gif");
+	FWLoad("data/Resources/teambuttonover.gif");
+	FWLoad("data/Resources/contactbuttonover.gif");
+	FWLoad("data/Resources/internalbuttonove.gif");
+	FWLoad("data/Resources/mapbuttonover.gif");
+	FWLoad("data/Resources/linksbuttonover.gif");
+	FWLoad("vefi/Resources/swladdressover.gif");
+	FWLoad("vefi/Resources/policiesover.gif");
+}
+window.onload = function(){  FWSeqTimer();;FWPreload(); };
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var usingIEFix = false;
+//]]></script>
+
+<!--[if lt IE 7]>
+<script type="text/javascript">//<![CDATA[
+usingIEFix = true;
+//]]></script>
+<![endif]-->
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="Resources/fwIE6CSSMenus.js"></script>
+<script type="text/javascript">
+window.onload = function(){ FWStartList(); FWSeqTimer();;FWPreload(); };
+</script>
+<![endif]-->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-33523145-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<style>
+    #yellowlink { color: #FFFF00; }
+</style>
+</head>
+<body>
+<div id="PageDiv">
+	<table border=0 cellspacing=0 cellpadding=0 width=720>
+		<colgroup>
+			<col width=17>
+			<col width=702>
+			<col width=1>
+		</colgroup>
+		<tr valign=top>
+			<td height=19 colspan=2></td>
+			<td height=19></td>
+		</tr>
+		<tr valign=top>
+			<td height=112></td>
+			<td height=112><img src="curator/Resources/bannertop.jpeg" border=0 width=702 height=112 alt="bannertop" style="float:left"></td>
+			<td height=112></td>
+		</tr>
+		<tr class="f-sp">
+			<td><img src="Resources/_clear.gif" border=0 width=17 height=1 alt="" style="float:left"></td>
+			<td><img src="Resources/_clear.gif" border=0 width=702 height=1 alt="" style="float:left"></td>
+			<td height=669><img src="Resources/_clear.gif" border=0 width=1 height=1 alt="" style="float:left"></td>
+		</tr>
+	</table>
+	<table border=0 cellspacing=0 cellpadding=0 width=720>
+		<colgroup>
+			<col width=17>
+			<col width=702>
+			<col width=1>
+		</colgroup>
+		<tr valign=top>
+			<td height=92></td>
+			<td height=92><img src="vefi/Resources/bannerbottom.gif" border=0 width=702 height=92 alt="    " style="float:left"></td>
+			<td height=92></td>
+		</tr>
+		<tr class="f-sp">
+			<td><img src="Resources/_clear.gif" border=0 width=17 height=1 alt="" style="float:left"></td>
+			<td><img src="Resources/_clear.gif" border=0 width=702 height=1 alt="" style="float:left"></td>
+			<td height=1><img src="Resources/_clear.gif" border=0 width=1 height=1 alt="" style="float:left"></td>
+		</tr>
+	</table>
+	<div id="DSC0030crop" style="visibility:hidden; display:none"><img src="Resources/dsc0030crop.jpeg" border=0 width=234 height=205 alt="DSC0030crop" style="float:left">
+	</div>
+	<div id="DSC0068crop" style="visibility:hidden; display:none"><img src="Resources/dsc0068crop.jpeg" border=0 width=258 height=205 alt="DSC0068crop" style="float:left">
+	</div>
+	<div id="VEFIorbit2554panelmay32008" style="visibility:hidden; display:none"><img src="Resources/vefiorbit2554pan.jpeg" border=0 width=555 height=439 alt="VEFIorbit2554panelmay32008" style="float:left">
+	</div>
+	<div id="cnofsglobeimage" style="visibility:hidden; display:none"><img src="Resources/cnofsglobeimage.jpeg" border=0 width=336 height=319 alt="cnofsglobeimage" style="float:left">
+	</div>
+	<div id="DSC0034crop" style="visibility:hidden; display:none"><img src="Resources/dsc0034crop.jpeg" border=0 width=522 height=204 alt="DSC0034crop" style="float:left">
+	</div>
+	<div id="MainMenuBar">
+		<div class="fwNavContainer1">
+			<ul class="style1 f-fp f-lp" id="fwNav1">
+				<li class="fwFirstChild fwNavItem"><a href="index.html">Home</a></li>
+				<li class="fwNavItem"><a href="#nil" style="cursor:default">  VEFI<span class="fwMainPointerWrapper1"><img src="Resources/arrowBlue.png" class="fwMainPointer1" alt=""></span></a>
+					<ul class="sub">
+						<li class="fwFirstChild fwNavItem"><a href="../vefi/instrumentdescript.html"><span class="style15" style="text-decoration:none">Instrument Description</span></a>
+							 
+						</li>
+						<li class="fwNavItem"><a href="vefi/modes.html"><span class="style15" style="text-decoration:none">Modes of Operation</span></a></li>
+						<li class="fwLastChild fwNavItem"><a href="vefi/dataproducts.html"><span class="style15" style="text-decoration:none">Data Products</span></a></li>
+					</ul>
+				</li>
+				<li class="fwNavItem"><a href="#nil" style="cursor:default">C/NOFS<span class="fwMainPointerWrapper1"><img src="Resources/arrowBlue.png" class="fwMainPointer1" alt=""></span></a>
+					<ul class="sub">
+						<li class="fwFirstChild fwNavItem"><a href="cnofs/cnofsmissiondesc.html"><span class="style10" style="text-decoration:none">Mission Description</span></a></li>
+						<li class="fwLastChild fwNavItem"><a href="cnofs/satellite.html"><span class="style10" style="text-decoration:none">Satellite Diagram</span></a></li>
+					</ul>
+				</li>
+				<li class="fwNavItem"><a href="#nil" style="cursor:default">Analysis<span class="fwMainPointerWrapper1"><img src="Resources/arrowBlue.png" class="fwMainPointer1" alt=""></span></a>
+					<ul class="sub">
+						<li class="fwFirstChild fwNavItem"><a href="analysis/processing.html"><span class="style10" style="text-decoration:none">Data Processing Procedure</span></a></li>
+						<li class="fwNavItem"><a href="../analysis/swproducts.html"><span class="style10" style="text-decoration:none">Software Products</span></a></li>
+						<li class="fwNavItem"><a href="analysis/docs.html"><span class="style10" style="text-decoration:none">Documentation</span></a></li>
+						<li class="fwNavItem"><a href="analysis/publications.html"><span class="style10" style="text-decoration:none">Publications</span></a></li>
+						<li class="fwNavItem"><a href="analysis/vefipresentation.html"><span class="style10" style="text-decoration:none">Presentations</span></a></li>
+						<li class="fwLastChild fwNavItem"><a href="analysis/veficonferenceab.html">Conference Abstracts</a></li>
+					</ul>
+				</li>
+				<li class="fwLastChild fwNavItem"><a href="#nil" style="cursor:default">   Data<span class="fwMainPointerWrapper1"><img src="Resources/arrowBlue.png" class="fwMainPointer1" alt=""></span></a>
+					<ul class="sub">
+						<li class="fwFirstChild fwNavItem"><a href="data/vefisummaryplots.html"><span class="style10" style="text-decoration:none">VEFI Summary Plots</span></a></li>
+						<li class="fwNavItem"><a href="data/vefidata.html"><span class="style10" style="text-decoration:none">Examples of VEFI Data</span></a></li>
+						<li class="fwNavItem"><a href="data/lightningdata.html"><span class="style10" style="text-decoration:none">Lightning Detector Data</span></a></li>
+						<li class="fwNavItem"><a href="data/specialevents.html"><span class="style10" style="text-decoration:none">Special Events Timeline</span></a></li>
+						<li class="fwLastChild fwNavItem"><a href="data/specialrequests.html"><span class="style10" style="text-decoration:none">Special Requests</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="titletop" class="f-ms"><p class="cnofstitletop f-fp f-lp">Vector Electric Field Instrument (VEFI)</p>
+	</div>
+	<div id="purposetop" class="f-ms"><p class="cnofspurposetop f-fp f-lp"><a id="yellowlink" href="Resources/s11214-021-00859-y.pdf" target="_blank">VEFI Instrument paper (published online November 22, 2021)</a><br>
+	<a id="yellowlink" href="Resources/VEFI_Overview_AGU_Dec_2021_revwithaudio.mp4" target="_blank">VEFI Overview talk presented at Fall AGU 2021 by R. Pfaff</a>
+	
+	<!--<span class="style19">Exploring the Electrodynamics of the Earth's</span> Low Latitude Ionosphere</p> -->
+	
+	
+	</div>
+	<div id="nasahome" class="f-ms"><img src="vefi/Resources/nasahome.gif" border=0 width=65 height=10 alt="NASA Home" style="position:relative; left:8px; float:left">
+	</div>
+	<div id="nasahomeover" class="f-ms"><a href="http://www.nasa.gov/home/index.html" target="_blank" title="NASA Home Page" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img1',1,'vefi/Resources/nasahomeover.gif','nasahomeover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=81 height=16 alt="NASA Home" style="float:left" id="img1"></a>
+	</div>
+	<div id="gsfchome" class="f-ms"><img src="vefi/Resources/gsfchome.gif" border=0 width=63 height=10 alt="GSFC Home" style="position:relative; left:9px; float:left">
+	</div>
+	<div id="gsfchomeover" class="f-ms"><a href="http://www.nasa.gov/centers/goddard/home/index.html" target="_blank" title="Goddard Home Page" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img2',1,'vefi/Resources/gsfchomeover.gif','gsfchomeover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=81 height=16 alt="GSFC Home" style="float:left" id="img2"></a>
+	</div>
+	<div id="sidemenubackground" class="f-ms"><img src="vefi/Resources/sidemenubackgroun.gif" border=0 width=136 height=247 alt="sidemenubackground" style="float:left">
+	</div>
+	<div id="contentchange" class="menudateside f-ms"><p class="menudateside f-fp f-lp">Content Last Updated:<br><span class="style2">January 10, 2022</span></p>
+	</div>
+	<div id="newsbutton" class="f-ms"><img src="data/Resources/newsbutton.gif" border=0 width=88 height=12 alt="News &amp; Events" style="position:relative; left:23px; top:3px; float:left">
+	</div>
+	<div id="newsbuttonover" class="f-ms"><a href="NewsEvents/index.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img3',1,'data/Resources/newsbuttonover.gif','newsbuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="News &amp; Events" style="float:left" id="img3"></a>
+	</div>
+	<div id="teambutton" class="f-ms"><img src="data/Resources/teambutton.gif" border=0 width=104 height=12 alt="GSFC VEFI Team" style="position:relative; left:16px; top:3px; float:left">
+	</div>
+	<div id="teambuttonover" class="f-ms"><a href="vefiteam/vefiteam.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img4',1,'data/Resources/teambuttonover.gif','teambuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="GSFC VEFI Team" style="float:left" id="img4"></a>
+	</div>
+	<div id="contactbutton" class="f-ms"><img src="data/Resources/contactbutton.gif" border=0 width=112 height=12 alt="Contact the Curator" style="position:relative; left:12px; top:3px; float:left">
+	</div>
+	<div id="contactbuttonover" class="f-ms"><a href="curator/veficurator.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img5',1,'data/Resources/contactbuttonover.gif','contactbuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="Contact the Curator" style="float:left" id="img5"></a>
+	</div>
+	<div id="internalbutton" class="f-ms"><img src="data/Resources/internalbutton.gif" border=0 width=79 height=12 alt="VEFI Internal" style="position:relative; left:28px; top:3px; float:left">
+	</div>
+	<div id="internalbuttonover" class="f-ms"><a href="internal/vefiinternalacce.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img6',1,'data/Resources/internalbuttonove.gif','internalbuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="VEFI Internal" style="float:left" id="img6"></a>
+	</div>
+	<div id="mapbutton" class="f-ms"><img src="data/Resources/mapbutton.gif" border=0 width=51 height=15 alt="Site Map" style="position:relative; left:42px; top:3px; float:left">
+	</div>
+	<div id="mapbuttonover" class="f-ms"><a href="sitemap/vefiwebsitenavig.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img7',1,'data/Resources/mapbuttonover.gif','mapbuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="Site Map" style="float:left" id="img7"></a>
+	</div>
+	<div id="linksbutton" class="f-ms"><img src="data/Resources/linksbutton.gif" border=0 width=32 height=12 alt="Links" style="position:relative; left:51px; top:3px; float:left">
+	</div>
+	<div id="linksbuttonover" class="f-ms"><a href="links/vefilinks.html" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img8',1,'data/Resources/linksbuttonover.gif','linksbuttonover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=135 height=20 alt="Links" style="float:left" id="img8"></a>
+	</div>
+	<div id="swladdress" class="f-ms"><img src="vefi/Resources/swladdress.gif" border=0 width=173 height=58 alt="NASA/Goddard Space Flight Center" style="float:left">
+	</div>
+	<div id="swladdressover" class="f-ms"><a href="http://swl.gsfc.nasa.gov/" target="_blank" title="Code 674 Space Weather Lab" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img9',1,'vefi/Resources/swladdressover.gif','swladdressover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=180 height=64 alt="NASA/Goddard Space Flight Center" style="float:left" id="img9"></a>
+	</div>
+	<div id="responsible" class="f-ms"><img src="vefi/Resources/responsible.gif" border=0 width=223 height=34 alt="Responsible NASA Official: Robert F." style="float:left">
+	</div>
+	<div id="policies" class="f-ms"><img src="vefi/Resources/policies.gif" border=0 width=170 height=12 alt="Privacy Policy &amp; Important Notices" style="float:left">
+	</div>
+	<div id="policiesover" class="f-ms"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank" title="Privacy Policy & Important Notices" onmouseover="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo');FWLSwap('img10',1,'vefi/Resources/policiesover.gif','policiesover','Indigo')" onmouseout="FWRestore(1,'Indigo');FWSRestore(top.frames,'Indigo')"><img src="vefi/Resources/nasahomeovera.gif" border=0 width=241 height=17 alt="Privacy Policy &amp; Important Notices" style="float:left" id="img10"></a>
+	</div>
+	<div id="CNOFSSatellite" style="visibility:hidden; display:none"><img src="Resources/cnofssatellite.jpeg" border=0 width=310 height=400 alt="CNOFSSatellite" style="float:left">
+	</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+function FWImage_Indigo(chain,msg)
+{
+	if (chain==1)
+	{
+		FWShowHideLayerFade("DSC0030crop",msg,msg,0.5);
+		FWShowHideLayerFade("DSC0068crop",msg,msg,0.5);
+		FWShowHideLayerFade("CNOFSSatellite",msg,msg,0.5);
+	}
+	else 
+	{
+		FWShowHideLayerFade("DSC0030crop",!msg,msg,0.5);
+		FWShowHideLayerFade("DSC0068crop",!msg,msg,0.5);
+		FWShowHideLayerFade("CNOFSSatellite",!msg,msg,0.5);
+	}
+	if (chain==2)
+		FWShowHideLayerFade("VEFIorbit2554panelmay32008",msg,msg,0.5);
+	else 
+		FWShowHideLayerFade("VEFIorbit2554panelmay32008",!msg,msg,0.5);
+	if (chain==3)
+	{
+		FWShowHideLayerFade("cnofsglobeimage",msg,msg,0.5);
+		FWShowHideLayerFade("DSC0034crop",msg,msg,0.5);
+	}
+	else 
+	{
+		FWShowHideLayerFade("cnofsglobeimage",!msg,msg,0.5);
+		FWShowHideLayerFade("DSC0034crop",!msg,msg,0.5);
+	}
+}
+window.FT_Indigo=new Object;
+window.FT_Indigo['0']=FWImage_Indigo;
+//]]></script></body>
+</html>

@@ -1,0 +1,10 @@
+GET http://jpssmis.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://jpssmis.gsfc.nasa.gov/
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31557600
+< Date: Tue, 19 Sep 2023 06:02:28 GMT
+< Content-Length: 153

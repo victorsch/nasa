@@ -1,0 +1,13 @@
+GET http://software.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://software.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 153c5cd2b3e635613d0a2fa0f107993a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: WUACsNTfMvIG_PZv85CfLZGcW1579c1cr6lzEdDlLWm_zTYk_It7nQ==
+< Server: CloudFront
+< X-Amz-Cf-Pop: JFK50-P3
+< Date: Tue, 19 Sep 2023 06:04:53 GMT

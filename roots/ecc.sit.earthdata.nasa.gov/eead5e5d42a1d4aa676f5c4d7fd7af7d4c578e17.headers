@@ -1,0 +1,14 @@
+GET https://ecc.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 25 Aug 2016 13:18:41 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< X-Xss-Protection: 1;mode=block
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:42:32 GMT
+< Server: Apache
+< Set-Cookie: f5_cspm=1234;
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff

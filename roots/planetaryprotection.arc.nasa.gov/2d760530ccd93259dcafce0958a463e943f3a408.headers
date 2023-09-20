@@ -1,0 +1,11 @@
+GET https://planetaryprotection.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://sma.nasa.gov/sma-disciplines/planetary-protection/
+< Content-Length: 266
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:05:33 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

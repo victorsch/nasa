@@ -1,0 +1,11 @@
+GET https://lance.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:01:05 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://earthdata.nasa.gov/data/nrt-data/lance-migration-info
+< Content-Length: 245

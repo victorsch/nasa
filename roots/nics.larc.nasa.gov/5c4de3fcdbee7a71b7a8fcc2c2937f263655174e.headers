@@ -1,0 +1,12 @@
+GET https://nics.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:57:54 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-a4f9b235-82cd-443f-834c-2b409a96c235&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=yfpgrr6pjnXhxNWj1WAZSumCVisNE2yjg2igQvJqGoMkv2QcCf0HY6yzeDqN4qKm&TARGET=-SM-https%3a%2f%2fnics%2elarc%2enasa%2egov%2f
+< X-Frame-Options: sameorigin
+< Content-Length: 487
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,21 @@
+GET https://sfa.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html;charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Length: 98
+< Set-Cookie: JSESSIONID=FED3497B4CF5360EA847758D79E53EF4; Path=/; Secure; HttpOnly
+< Set-Cookie: cfid=635c4ff1-49a4-4b66-ae36-330f77eb0dc5;Path=/;Expires=Mon, 09-Oct-2023 07:39:02 UTC;HttpOnly
+< Set-Cookie: cftoken=0;Path=/;Expires=Mon, 09-Oct-2023 07:39:02 UTC;HttpOnly
+< Set-Cookie: CF_CLIENT_SFA3FC45BEDDC09A917EA6D2651F8852E53_LV=1695103258965;Path=/;Expires=Mon, 18-Dec-2023 06:00:58 UTC;Secure;HttpOnly
+< Set-Cookie: CF_CLIENT_SFA3FC45BEDDC09A917EA6D2651F8852E53_TC=1695103258965;Path=/;Expires=Mon, 18-Dec-2023 06:00:58 UTC;Secure;HttpOnly
+< Set-Cookie: CF_CLIENT_SFA3FC45BEDDC09A917EA6D2651F8852E53_HC=2;Path=/;Expires=Mon, 18-Dec-2023 06:00:58 UTC;Secure;HttpOnly
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:00:58 GMT
+< Location: ./SearchForm.cfm
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true

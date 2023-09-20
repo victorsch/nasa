@@ -1,0 +1,12 @@
+GET https://ras.mdscc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: DSSIGNIN=url_default; path=/dana-na/; secure
+< Set-Cookie: DSIVS=; path=/; expires=Thu, 01 Jan 1970 22:00:00 GMT; secure
+< Set-Cookie: DSSignInURL=/; path=/; secure
+< Content-Length: 0
+< X-Xss-Protection: 1
+< Location: /dana-na/auth/url_default/welcome.cgi
+< Content-Type: text/html; charset=utf-8

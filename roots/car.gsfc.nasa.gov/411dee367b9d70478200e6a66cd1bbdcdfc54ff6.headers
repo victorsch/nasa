@@ -1,0 +1,22 @@
+GET https://car.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31557600
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Cache-Control: public, max-age=0
+< Last-Modified: Tue, 19 Sep 2023 03:35:13 GMT
+< Server: Apache
+< X-Drupal-Cache: HIT
+< From-Origin: same
+< Content-Language: en
+< Link: </cloud-absorption-radiometer-car>; rel="canonical",</node/2>; rel="shortlink"
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Etag: "1695094513-1"
+< Date: Tue, 19 Sep 2023 06:00:25 GMT
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Vary: Cookie,Accept-Encoding
+< Content-Type: text/html; charset=utf-8

@@ -1,0 +1,11 @@
+GET https://mymobile.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=utf-8
+< Location: https://awconsole.jpl.nasa.gov/AirWatch/default.aspx
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:55:14 GMT
+< Content-Length: 169
+< Cache-Control: private

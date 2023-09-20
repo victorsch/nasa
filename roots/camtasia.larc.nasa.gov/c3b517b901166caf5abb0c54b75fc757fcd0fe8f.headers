@@ -1,0 +1,11 @@
+GET https://camtasia.larc.nasa.gov
+
+
+< HTTP/1.1 302 HTTP/1.1 302 Object Moved
+< Strict-Transport-Security: max-age=31536000
+< X-Powered-By: ASP.NET
+< Date: Tue, 19 Sep 2023 05:58:40 GMT
+< Content-Length: 0
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-1d7f7b5c-576f-4d40-a355-a7ed90f3553c&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-p24DI6f3kF7rtvs6RxeIEd8vquPwhBtAu3u51AYddgNQad1vau1qN0lHDB45zxYkzJTRzbKUxBfS9cCDb2R%2fVjSOLbDCe8u1Wet%2f7kHGd%2fTWcXcn6sutuDBzAloKRpoo&TARGET=-SM-https%3a%2f%2fcamtasia%2elarc%2enasa%2egov%2f
+< Server: Microsoft-IIS/10.0

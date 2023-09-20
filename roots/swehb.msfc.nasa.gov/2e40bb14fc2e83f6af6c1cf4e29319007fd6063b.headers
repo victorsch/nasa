@@ -1,0 +1,18 @@
+GET https://swehb.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: _51391=f5af9cdcc68167d3; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=251A6714D73DAC3584CADACFA2722C19; Path=/; Secure; HttpOnly;HttpOnly;Secure
+< Cache-Control: no-store
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: DENY
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:00:44 GMT
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Accel-Buffering: no
+< X-Confluence-Request-Time: 1695103243018
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+< Content-Type: text/html;charset=UTF-8

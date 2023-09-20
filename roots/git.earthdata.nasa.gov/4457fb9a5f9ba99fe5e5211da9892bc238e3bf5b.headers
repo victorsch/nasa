@@ -1,0 +1,8 @@
+GET http://git.earthdata.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Content-Length: 0
+< Location: https://git.earthdata.nasa.gov/
+< Server: BigIP
+< Connection: close

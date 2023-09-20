@@ -1,0 +1,9 @@
+GET https://sip.nasa.gov
+
+
+< HTTP/1.1 404 Not Found
+< Server: RTC/7.0
+< X-Ms-Server-Fqdn: BN11B01EDG21.infra.lync.com
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/plain
+< Content-Length: 75

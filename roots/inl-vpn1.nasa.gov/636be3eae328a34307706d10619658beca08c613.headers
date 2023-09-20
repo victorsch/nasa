@@ -1,0 +1,20 @@
+GET https://inl-vpn1.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: webvpn=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure; HttpOnly
+< Set-Cookie: webvpn_as=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnc=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpn_portal=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnSharePoint=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: samlPreauthSessionHash=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: acSamlv2Token=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure; HttpOnly
+< Set-Cookie: acSamlv2Error=; expires=Thu, 01 Jan 1970 22:00:00 GMT; path=/; secure
+< Set-Cookie: webvpnlogin=1; path=/; secure
+< Pragma: no-cache
+< Connection: Keep-Alive
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 06:22:13 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

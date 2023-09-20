@@ -1,0 +1,12 @@
+GET https://seabass.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy: upgrade-insecure-requests; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: oceancolor.gsfc.nasa.gov *.google.com *.gstatic.com *.googleapis.com www.googletagmanager.com www.google-analytics.com www.youtube.com s.ytimg.com stats.g.doubleclick.net dap.digitalgov.gov cdn.earthdata.nasa.gov api.ipify.org www.cloudflare.com maxcdn.bootstrapcdn.com platform.twitter.com *.openstreetmap.org;
+< Strict-Transport-Security: max-age=31536000; includesubdomains; preload
+< Vary: Accept-Encoding
+< Set-Cookie: mojolicious=8415d4b05b3745bb3b0e1a698a0db373cca5505b--3b435d33fe3b5ccf64939fa92bfbc80ef33d533cee7028f70da54ae004d89904; expires=Tue, 19 Sep 2023 06:56:13 GMT; path=/; HttpOnly
+< X-Frame-Options: SAMEORIGIN
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:56:13 GMT
+< Content-Type: text/html;charset=UTF-8

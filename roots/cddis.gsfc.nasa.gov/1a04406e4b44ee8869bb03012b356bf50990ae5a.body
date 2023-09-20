@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="box-sizing:content-box;!important;">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="The Crustal Dynamics Data Information System (CDDIS) continues to support the space geodesy and geodynamics community through NASA's Space Geodesy Project as well as NASA's Earth Science Enterprise. Today, the CDDIS archives and distributes mainly Global Navigation Satellite Systems (GNSS, currently Global Positioning System GPS and GLObal NAvigation Satellite System GLONASS), laser ranging (both to artificial satellites, SLR, and lunar, LLR), Very Long Baseline Interferometry (VLBI), and Doppler Orbitography and Radio-positioning Integrated by Satellite (DORIS) data for an ever increasing user community of geophysists."/>
+<meta name="keywords" content="geodesy, GNSS data, DORIS data, SLR data, VLBI data, data archive, lw20, lw19, lw18, laser ranging">
+		<link rel="icon" href="/css/images/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/css/images/favicon.ico" type="image/x-icon"> 
+		<title id=title>CDDIS</title>
+		
+<!--		<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+		<!--  Stylesheet Includes -->
+		<link rel="stylesheet" href="/css/cddis.css" />
+
+		<script src="/js/activePage.js"></script>
+ 		<script src="/js/setPageTitle.js"></script>
+	<script language="JavaScript">
+			<!--
+			   	setPageTitle();
+			-->
+		</script>
+		
+<!--		<script type="text/javascript">
+		    $(document).ready(function(){
+		
+			$('#scrollbar1').tinyscrollbar({sizethumb: 60});
+			$('#scrollbar2').tinyscrollbar();
+			
+		    });
+		</script> -->
+        <!--[if IE]>
+<style type="text/css">
+  .clearfix {
+    zoom: 1;     /* triggers hasLayout */
+    }  /* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+</style>
+<![endif]-->
+<script src="/js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.13.2.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/js/jquery-panzoom.js"></script>
+<!-- add status banner-->
+<script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+<!-- add Google analytics code-->
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+ 
+    <!-- Add feedback form -->
+
+<script src="https://fbm.earthdata.nasa.gov/for/CDDIS/feedback.js" type="text/javascript"></script>
+
+    <!-- Add Tophat -->
+<script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js" id="earthdata-tophat-script" data-current-daac="CDDIS" data-show-fbm="true" type="text/javascript"></script>
+<!--<noscript>
+<div style="background: white; color: black; padding: 3px; text-align: center;">Javascript is not enabled to display NASA's Earthdata Network navigation bar. You may alternatively view this <a href="http://earthdata.nasa.gov/tophat-links.html">here</a></div>
+</noscript>-->
+
+<script type="text/javascript">
+$(function () {
+
+        function initPanZoom() {
+          $('#pan img').panZoom({
+            'zoomIn' : $('#zoomin'),
+            'zoomOut' : $('#zoomout'),
+            'panUp'	:	$('#panup'),
+            'panDown'	:	$('#pandown'),
+            'panLeft'	:	$('#panleft'),
+            'panRight'	:	$('#panright'),
+            'fit' : $('#fit'),
+            'destroy' : $('#destroy'),
+            'out_x1' : $('#x1'),
+            'out_y1' : $('#y1'),
+            'out_x2' : $('#x2'),
+            'out_y2' : $('#y2'),
+            'directedit': true,
+            'debug' : false
+          })
+		  $('#pan img').panZoom('fit');
+        };
+
+        initPanZoom();
+
+// init the image switcher
+$('#images img').on('click', function () {
+$('#pan img').attr('src', $(this).attr('src'));
+});
+
+        // init the init button (for testing destroy/recreate)
+        $('#reinit').on('click', function (event) {
+          if ($('#pan img').data('panZoom')) {
+            alert('Click destroy before trying to re-initialise panZoom');
+            return;
+          }
+          event.preventDefault();
+          initPanZoom();
+        });
+
+});
+
+</script>
+<script>
+function closeAlert (id)  {
+	document.getElementById(id).style.display = "none";
+}
+</script>
+	</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script type="text/javascript">
+feedback.init({showIcon: false}) ;
+</script>
+
+<div class="content home">
+    
+    <div id="messagesContainer">        
+       
+    </div><!-- end messagesContainer -->
+        
+	<div style="margin-top: 36px;">
+					
+			<div class="logo"></div>
+<!-- Add the Status banner -->
+<div id="earthdata-notification-banner" style="padding-top:40px;"></div>
+<!-- End Status banner --><div class="siteheader" style="margin-top:62px;"><a href="/index.html"><img src="/css/images/header.png" border="0" alt="CDDIS: NASA's Archive of Space Geodesy Data" vspace="0" hspace="0" width="487" height="42"></a></div>
+			<div class="nav">
+				<ul>
+					<li><a href="/index.html" id="home">Home</a></li>
+					<li><a href="/About/Background.html" id="about">About CDDIS</a>
+						<ul>
+							<li class="topnav"><a href="/About/Background.html">About CDDIS</a></li>
+							<li><a href="/About/Background.html">Background</a></li>
+							<li><a href="/About/Data_citation_and_acknowledgment.html">Citing Our Data</a></li>
+							<li><a href="/News/Latest_News.html">News</a></li>
+                            <li><a href="/About/Meetings.html">Meetings</a></li>
+							<li><a href="/About/Space_Geodesy_Contacts.html">Space Geodesy Contacts</a></li>
+							<li><a href="/About/Links.html">Links</a></li>
+							<li><a href="/About/FAQ.html">FAQ</a></li>
+                          	<li><a href="/About/Acronyms.html">Acronyms</a></li>
+							<li><a href="/About/Staff.html">Staff</a></li>
+                            <li><a href="/About/ContactUs.html">Contact Us</a></li>
+						</ul>
+					</li>
+					<li><a href="/Data_and_Derived_Products/index.html" id="dataSets">Data and Products</a>
+                    	<ul>
+                        	<li class="topnav"><a href="/Data_and_Derived_Products/index.html">Data and Products</a></li>
+                        	<li><a href="/Data_and_Derived_Products/GNSS/GNSS_data_and_product_archive.html">GNSS</a></li>
+							<li><a href="/Data_and_Derived_Products/SLR/SLR_data_and_product_archive.html">SLR</a></li>
+							<li><a href="/Data_and_Derived_Products/VLBI/VLBI_data_and_product_archive.html">VLBI</a></li>
+							<li><a href="/Data_and_Derived_Products/DORIS/DORIS_data_and_product_archive.html">DORIS</a></li>
+                            <li><a href="/Data_and_Derived_Products/CDDIS_Earthdata_Search.html">Archive search information</a></li>
+                          <li><a href="/Data_and_Derived_Products/CDDIS_Archive_Access.html">Archive access information</a></li>
+                            <li><a href="/Data_and_Derived_Products/Reports.html">Reports</a></li>
+						</ul>
+                    </li>
+					<li><a href="/Techniques/index.html" id="techniques">Techniques</a>
+                    	<ul>
+                        	<li class="topnav"><a href="/Techniques/index.html">Techniques</a></li>
+                        	<li><a href="/Techniques/GNSS/GNSS_Overview.html">GNSS</a></li>
+							<li><a href="/Techniques/SLR/SLR_Overview.html">SLR</a></li>
+							<li><a href="/Techniques/VLBI/VLBI_Overview.html">VLBI</a></li>
+							<li><a href="/Techniques/DORIS/DORIS_Overview.html">DORIS</a></li>
+						</ul>
+                    </li>
+					<li><a href="/Programs/Current_Programs.html" id="programs">Programs</a>
+                    	<ul>
+                        	<li class="topnav"><a href="/Programs/Current_Programs.html">Programs</a></li>
+                        	<li><a href="/Programs/Current_Programs.html">Current</a></li>
+                        	<li><a href="/Programs/Historical_Programs.html">Historical</a></li>
+						</ul>
+						</li>
+					<li><a href="/Publications/Presentations.html" id="pubs">Publications</a>
+                    	<ul>
+                        	<li class="topnav"><a href="/Publications/Presentations.html">Publications</a></li>
+                        	<li><a href="/Publications/Presentations.html">Presentations</a></li>
+                        	<li><a href="/Publications/Papers.html">Papers</a></li>
+						</ul>
+                    </li>
+					<li><a href="/About/Data_citation_and_acknowledgment.html" id="cite">Citing our Data</a></li>
+					<li class="search" style="padding-top:4px;">
+                    <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get"><div style="margin:0;padding:0;display:inline;width:130px;">
+					  <input name="utf8" type="hidden" value="&#x2713;" />
+					</div>
+
+    <input id="affiliate" name="affiliate" type="hidden" value="cddis" />
+ <!--   <label for="query"><span style="color:#FFF;">Enter Search Term(s):</span></label>-->
+    <input style="vertical-align:middle; width:130px;" autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" onfocus="clearText();" value="CDDIS Text Search" />
+        <input name="commit" type="hidden" value="Search" />
+
+  </form>
+
+                    
+                    
+                   <!-- <input type="text" id="searchText" onfocus="clearText();" value="CDDIS Text Search"> --></li>
+				</ul>
+<script language="JavaScript">
+	<!--
+	setActiveLI();
+	-->
+</script>
+ 
+			</div>
+
+<div class="main_content" style="width:928px;">
+					<div class="data_types">
+						<ul>
+							<li class="title"><a href="/Data_and_Derived_Products/index.html">Access Data and Products</a></li>
+							<li><a href="/Data_and_Derived_Products/GNSS/GNSS_data_and_product_archive.html">GNSS - Global Navigation Satellite System </a></li>
+							<li><a href="/Data_and_Derived_Products/SLR/SLR_data_and_product_archive.html">SLR - Satellite Laser Ranging </a></li>
+							<li><a href="/Data_and_Derived_Products/VLBI/VLBI_data_and_product_archive.html">VLBI - Very Long Baseline Interferometry</a></li>
+							<li class="last"><a href="/Data_and_Derived_Products/DORIS/DORIS_data_and_product_archive.html">DORIS - Doppler Orbitography and Radio-positioning Integrated by Satellite</a></li>
+						</ul>
+					</div>
+<!--				<div class="map_content">  -->
+					<div class="map"><span style="color:#33230B; font-size:14px; font-weight:bold; margin-left:-60px;">Global and Regional Network Maps</span>
+                    <div id="controls"><a id="zoomin" href="#"><img src="/css/images/zoomInImage.png" width="16" height="16" alt="zoom in on image" /></a><a id="zoomout" href="#"><img src="/css/images/zoomOutImage.png" width="16" height="16" alt="zoom out on image" /></a>
+                      <p style="margin-top:1px;"><a id="fit" href="#">Reset</a></p>
+                    <ul class="map_legend">
+                    	<li class="one"><span style="color:#FFF; font-size:10px; vertical-align:top;">GNSS</span></li>
+                     	<li class="two"><span style="color:#FFF; font-size:10px;vertical-align:top;">SLR</span></li>
+                    	<li class="three"><span style="color:#FFF; font-size:10px;vertical-align:top;">VLBI</span></li>
+                    	<li class="four"><span style="color:#FFF; font-size:10px;vertical-align:top;">DORIS</span></li>
+                    </ul>
+                      </div><!-- end div class="controls" -->	
+                    <div id="pan">		
+                    <img id="selectedMap" src="/images/sgp_sites_symbols_world_robinson_v3.png" />
+                    </div><!-- end div class="pan" -->
+                       <div class="scroll" id="scrollbar1">
+							<!--	<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>  -->
+								<div class="viewport"> 
+								<div class="overview">
+									<a id="world" href="#" onClick="changeMap('world');" class="selected">World</a><br>
+									<a id="africa" href="#" onClick="changeMap('africa');">Africa</a><br>
+									<a id="antarctica" href="#" onClick="changeMap('antarctica');">Antarctica</a><br>
+									<a id="asia" href="#" onClick="changeMap('asia');">Asia</a><br>
+									<a id="australia" href="#" onClick="changeMap('australia');">Australia</a><br>
+									<a id="california" href="#" onClick="changeMap('california');">California</a><br>
+									<a id="europe" href="#" onClick="changeMap('europe');">Europe</a><br>
+									<a id="northAmerica" href="#" onClick="changeMap('northAmerica');">North America</a><br>
+									<a id="pacific" href="#" onClick="changeMap('pacific');">Pacific</a><br>
+									<a id="southAmerica" href="#" onClick="changeMap('southAmerica');">South America</a><br>
+								</div><!-- end div class="overview" -->
+							</div><!-- end div class="viewport" -->
+						</div><!-- end div class="scroll" -->
+					</div><!-- end div class="map" -->
+					
+		<!--		</div><!-- end div class="map_content" -->
+                <div style="float:left; height:20px; width:917px; background-image:url(/css/images/learnBackground.jpg); text-align:left; padding-left:10px; padding-top:5px;"><span style="color:#33230B; font-size:14px; font-weight:bold;"><a href="/Techniques/index.html">Learn about Techniques</a></span></div>
+				<div class="techniques_gold">					
+					<div class="gold_box">						
+						<a href="/Techniques/GNSS/GNSS_Overview.html"><img src="/css/images/spacer.gif" border="0" alt="GNSS satellite" vspace="0" hspace="0" width="223" height="137"></a>
+						<div class="title">GNSS</div>
+						<div class="gold_arrow dropdown1">							
+							<ul>
+								<li class="first"><a href="/Techniques/GNSS/GNSS_Overview.html">Overview</a><div class="blue_arrow"></div></li>
+								<li><a href="/Techniques/GNSS/IGS_Summary.html">International GNSS Service (IGS)</a></li>
+								<li><a href="/Techniques/GNSS/GNSS_Related_Links.html">Related links</a></li>
+							</ul>
+						</div>
+						<div class="subtitle">Global Geo-Spatial Positioning</div>						
+					</div>
+					<div class="gold_box">
+						<a href="/Techniques/SLR/SLR_Overview.html"><img src="/css/images/spacer.gif" border="0" alt="LAGEOS satellite" vspace="0" hspace="0" width="223" height="137"></a>
+						<div class="title">SLR</div>
+						<div class="gold_arrow dropdown2">
+							<ul>
+								<li class="first"><a href="/Techniques/SLR/SLR_Overview.html">Overview</a><div class="blue_arrow"></div></li>
+								<li><a href="/Techniques/SLR/ILRS_Summary.html">International Laser Ranging Serrvice (ILRS)</a></li>
+								<li><a href="/Techniques/SLR/SLR_Related_Links.html">Related Links</a></li>
+							</ul>
+						</div>
+						<div class="subtitle">Millimeter Ranging System</div>
+					</div>
+					<div class="gold_box">
+						<a href="/Techniques/VLBI/VLBI_Overview.html"><img src="/css/images/spacer.gif" border="0" alt="VLBI ground station" vspace="0" hspace="0" width="223" height="137"></a>
+						<div class="title">VLBI</div>
+						<div class="gold_arrow dropdown3">
+							<ul>
+								<li class="first"><a href="/Techniques/VLBI/VLBI_Overview.html">Overview</a><div class="blue_arrow"></div></li>
+								<li><a href="/Techniques/VLBI/IVS_Summary.html">International VLBI Service for Geodesy and Astrometry (IVS)</a></li>
+								<li><a href="/Techniques/VLBI/VLBI_Related_Links.html">Related Links</a></li>
+							</ul>
+						</div>
+						<div class="subtitle">Geometric Technique</div>
+					</div>
+					<div class="gold_box">
+						<a href="/Techniques/DORIS/DORIS_Overview.html"><img src="/css/images/spacer.gif" border="0" alt="DORIS instrument" vspace="0" hspace="0" width="223" height="137"></a>
+						<div class="title">DORIS</div>
+						<div class="gold_arrow dropdown4">
+							<ul>
+								<li class="first"><a href="/Techniques/DORIS/DORIS_Overview.html">Overview</a><div class="blue_arrow"></div></li>
+								<li><a href="/Techniques/DORIS/IDS_Summary.html">International DORIS Service (IDS)</a></li>
+								<li><a href="/Techniques/DORIS/DORIS_Related_Links.html">Related Links</a></li>
+							</ul>
+						</div>
+						<div class="subtitle">Dual Frequency Doppler System</div>
+					</div>
+				</div>
+				<div class="news_reports_data">
+					<div class="news">
+						<div class="news_title"><a href="/News/Latest_News.html">News</a></div>
+						<div class="white_box">
+						    <div class="news_subtitle">The SLR-tailored version of ITRF2020, the SLRF2020, has been released to the public</div>
+						  <div class="news_date">25 July 2023</div>
+       <p>The long-awaited SLR-tailored version of ITRF2020, the SLRF2020, has been released to the public, along with the associated Data Handling File required for proper and accurate reduction of SLR data. Both files contain notes that are important to users, especially to those requiring the highest quality results in their work; it is imperative that users read these notes before implementing the new TRF in their production lines.<br /><br />
+        The two files can be accessed from the ILRS website pages:<br /><br />
+            <a class="dont-break-out" href="https://ilrs.gsfc.nasa.gov/science/dataAnalysisResources/index.html">https://ilrs.gsfc.nasa.gov/science/dataAnalysisResources/index.html</a><br />
+            <a  class="dont-break-out"  href="https://ilrs.gsfc.nasa.gov/network/site_information/index.html">https://ilrs.gsfc.nasa.gov/network/site_information/index.html</a><br /><br />
+            CDDIS Landing pages with the appropriate DOIs are here:<br /><br />
+            <a  class="dont-break-out"  href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/slrf_2020.html" target="_blank">https://cddis.nasa.gov/Data_and_Derived_Products/SLR/slrf_2020.html</a><br />
+            <a  class="dont-break-out"  href="https://cddis.nasa.gov/Data_and_Derived_Products/SLR/slrf_2020_DHF.html" target="_blank">https://cddis.nasa.gov/Data_and_Derived_Products/SLR/slrf_2020_DHF.html</a></p>
+
+    <hr />
+
+<div class="news_subtitle">NASA Earth Science Data and Services Survey for 2022</div><div class="news_date">29 September 2022</div>
+                <p>Dear Colleagues,<br /><br />
+
+Recently, some of you may have received an email from the CFI Group on behalf of NASA. This message asked you to complete a survey for users of NASA Earth science data and services, which includes the Crustal Dynamics Data Information System (CDDIS). The CDDIS is one of twelve NASA Earth Observing System Data and Information System (EOSDIS) science data centers evaluated by this survey. The purpose of this survey is to help NASA and the DAACs assess customer satisfaction and improve future services. Suggestions from past surveys have been implemented to improve the tools and services offered by the CDDIS.<br /><br />
+
+Please participate! Your feedback affects our future performance and helps to identify science needs. You will be able to take the survey for each DAAC you use. This is your opportunity to influence the priorities of the DAACs, including CDDIS.<br /><br />
+
+If you did not receive a survey and wish to complete one or know of someone who uses CDDIS and/or EOSDIS data and services who did not receive a survey, please contact<br /><br />
+
+<a href="mailto:surveyhelp@cfigroup.com">surveyhelp@cfigroup.com</a>.<br /><br />
+The American Customer Satisfaction Index (ACSI) is the only national cross-industry measure of customer satisfaction in the United States. NASA commissioned the CFI Group, an independent research and consulting organization, to conduct a brief survey to rate the products and services NASA currently provides from NASA's EOSDIS data centers. Please consider responding to this survey; your input will help us to better serve our user community.<br /><br />
+
+Presentations of these results given to NASA Earth science are available at:<br /><br />
+
+<a href="https://earthdata.nasa.gov/acsi" target="_blank">https://earthdata.nasa.gov/acsi</a> <br /><br />
+Thank you in advance to all of you who are willing to spend a few minutes to complete the survey.</p>
+    <hr />
+              <div class="news_subtitle">The CDDIS to present webinar titled, "GNSS Products at NASA's CDDIS for Disaster Monitoring, Crustal Deformation, Extreme Weather, and Other Applications" on September 28, 2022</div>
+				<div class="news_date">20 September 2022</div>
+        <p>On Wednesday, September 28, 2022, at 2:00 PM EDT (18:00 UTC), the CDDIS will present a webinar titled, "GNSS Products at NASA's CDDIS for Disaster Monitoring, Crustal Deformation, Extreme Weather, and Other Applications". The presenters will be Dr. Patrick Michael, CDDIS; Dr. Yehuda Bock, Scripps Orbit and Permanent Array Center, U. of California San Diego; and Dr. Angelyn Moore, Ionospheric and Atmospheric Remote Sensing Group, Jet Propulsion Laboratory, California Institute of Technology. Join us to learn about the NASA Making Earth System Data Records (ESDR) for Use in Research Environments (MEaSUREs) Extended Solid Earth Science ESDR System (ESESES) project, whose Global Navigation Satellite System (GNSS)-derived data products enable research on tectonic motion, crustal deformation, earthquakes, tsunamis, sea level rise, extreme weather, and more!<br /><br />
+            Register now at <a href="https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/webinar-cddis-gnss-2022-09-28" target="_blank">https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/webinar-cddis-gnss-2022-09-28</a>
+            <br /><br /></p>
+    <hr />
+            <div class="news_subtitle">The CDDIS will reformat all existing MD5SUMS and SHA512SUMS checksum files</div>
+				<div class="news_date">18 August 2022</div>
+        <p>Beginning Monday, August 29, 2022: In order to correct a format error by CDDIS and make it match the current expected format of MD5 and SHA512 checksum utilities, the CDDIS will reformat all existing MD5SUMS and SHA512SUMS checksum files, switching from &lt;filename&gt;&lt;space&gt;&lt;checksum&gt; to &lt;checksum&gt;&lt;space&gt;&lt;space&gt;&lt;filename&gt;. Thank you for your patience while we complete this work. For questions and concerns, please contact us at <a href="mailto:support-cddis@earthdata.nasa.gov">support-cddis@earthdata.nasa.gov</a></p>
+    <hr />
+
+	<div class="news_subtitle"><a href="/News/Latest_News.html">Read more news...</a></div>
+
+
+		          </div>
+                  </div>
+                  											
+					<div class="reports">
+						<div class="news_title"><a href="/Data_and_Derived_Products/Reports.html">Reports</a></div>
+						<div class="white_box">
+							<div class="news_subtitle">Weekly GNSS data holdings (<a href="https://cddis.nasa.gov/archive/reports/gnss/daily/" style="text-decoration:underline;">daily</a>, <a href="https://cddis.nasa.gov/archive/reports/gnss/hourly/" style="text-decoration:underline;">hourly</a>, <a href="https://cddis.nasa.gov/archive/reports/gnss/highrate/" style="text-decoration:underline;">high-rate</a>) </div>
+							<hr>
+							<div class="news_subtitle">Weekly SLR normal point pass segment totals (<a href="https://cddis.nasa.gov/archive/reports/slrweek/" style="text-decoration:underline;">by satellite</a>, <a href="https://cddis.nasa.gov/archive/reports/slrdataprod/" style="text-decoration:underline;">LAGEOS and ETALON only</a>)</div>
+							<hr>
+							<div class="news_subtitle">DORIS data holdings (<a href="https://cddis.nasa.gov/archive/reports/dorisreport/" style="text-decoration:underline;">by year and by satellite</a>, <a href="https://cddis.nasa.gov/archive/reports/dorisreport/" style="text-decoration:underline;">satellite and filename</a>) </div>
+						</div>
+					</div>
+					<div class="data_discovery">
+						<div class="news_title">Data Discovery</div>
+<div class="white_box last">
+<p><img src="/images/api_logo.png" width="175" height="125" style="margin-top:-10px;" alt="image of a computer connected to a gear representing the API which is then connected to the CDDIS logo." /></p>
+                        <p style="padding-left:5px; padding-right: 5px; color: #1f5196; font-weight: bold;"><a href="/Data_and_Derived_Products/CDDIS_Earthdata_Search.html" style="text-decoration: underline;">Search the CDDIS archive</a> by using the <a style="text-decoration: underline;" href="https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html" target="_blank">NASA Earthdata Search API</a>. This comprehensive API allows you to create queries that can be integrated into custom software enabling a wide range of searches to be built.<a href="/Data_and_Derived_Products/CDDIS_Earthdata_Search.html" style="text-decoration: underline;"> Examples are provided for Python and cURL</a>.</p>
+            </div><!--end white_box last-->
+       </div><!--end data_discovery-->
+    </div><!--end news_reports_data-->
+    </div>
+		</div>
+      
+		<div id="footer">
+			<div class="column">
+				<a href="/index.html"><img src="/css/images/spacer.gif" border="0" alt="CDDIS: NASA's Archive of Space Geodesy Data" vspace="0" hspace="0" width="125" height="64"></a><a href="http://icsu-wds.org" target="_blank"><img src="/css/images/WDS_logo100x59.jpg" style="height:59px; width:100px; padding-left:15px;" alt="World Data System logo" /><img src="/images/esip_logoForFooter.jpg" width="60" height="60" style="padding-left:15px;" alt="ESIP logo" /></a>
+  </div>
+			<div class="column middle">
+				<a href="/About/FAQ.html">FAQ</a><br>
+			  <a href="/About/ContactUs.html">Contact Us</a><br>
+              <a href="https://forum.earthdata.nasa.gov/" target="_blank">User Forum</a><br>
+				<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">NASA Privacy Policy and Important Notices</a><br>
+				<a href="http://www.usa.gov" target="_blank">USA.gov</a><br>
+			</div>					
+			<div class="column right">
+				Responsible NASA Official: <a href="mailto:benjamin.p.michael@nasa.gov">Patrick Michael</a><br />
+                Web Curator: <a href="mailto:lori.j.tyahla@nasa.gov">Lori J. Tyahla</a><br />
+		      
+				Last modified date: Jul 25, 2023<br>
+				
+			</div>	
+		</div>
+        <img src="/css/images/spacer.gif" alt=" " width="1" height="5">
+        </body>
+	
+
+	</body>
+</html>
+	

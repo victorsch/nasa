@@ -1,0 +1,22 @@
+GET https://standards.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: must-revalidate, no-cache, private
+< Server: NASA
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: LrVeAtjR3uaLNcNf9b3jafIjfTIUJhGPQj067ayBIxWtABhYQDz0Ag==
+< Via: 1.1 2c8fc98e914dd92124c9f02bae44cffc.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK52-P4
+< Date: Tue, 19 Sep 2023 05:58:39 GMT
+< Content-Language: en
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Real-Client-Ip: 2600:4040:ac58:8c00:df7a:a13e:6ef4:3942
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< Vary: Accept-Encoding
+< X-Ua-Compatible: IE=edge
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: same-origin
+< Strict-Transport-Security: max-age=31536000

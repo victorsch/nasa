@@ -1,0 +1,11 @@
+GET http://dartslab.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Length: 214
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:58:41 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=63072000; includeSubdomains
+< X-Frame-Options: DENY
+< Location: https://dartslab.jpl.nasa.gov/

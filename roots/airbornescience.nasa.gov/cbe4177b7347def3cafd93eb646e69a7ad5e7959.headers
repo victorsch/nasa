@@ -1,0 +1,9 @@
+GET http://airbornescience.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:06:33 GMT
+< Server: Apache
+< Location: https://airbornescience.nasa.gov/
+< Content-Length: 241
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,28 @@
+GET https://podaac.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: "1695096300-0"
+< X-Content-Type-Options: nosniff
+< X-Ua-Compatible: IE=edge,chrome=1
+< Last-Modified: Tue, 19 Sep 2023 04:05:00 GMT
+< X-Drupal-Cache: HIT
+< Content-Security-Policy-Report-Only: default-src 'self' *.nasa.gov; script-src 'self' 'unsafe-inline' 'unsafe-eval' s.ytimg.com *.googletagmanager.com *.earthdata.nasa.gov script.crazyegg.com *.google-analytics.com s3.amazonaws.com *.youtube.com cdn.datatables.net svc.webspellchecker.net *.fontawesome.com *.addthis.com z.moatads.com https://unpkg.com; object-src *.nasa.gov; style-src 'self' 'unsafe-inline' *.googleapis.com *.earthdata.nasa.gov  maxcdn.bootstrapcdn.com cdn.datatables.net stackpath.bootstrapcdn.com svc.webspellchecker.net *.fontawesome.com; img-src 'self' 'unsafe-inline' ws1.ems.eosdis.nasa.gov cdn.earthdata.nasa.gov www.google-analytics.com data: *.crazyegg.com *.s3.amazonaws.com cdn.datatables.net podaac-test.jpl.nasa.gov podaac-uat.jpl.nasa.gov podaac.jpl.nasa.gov podaac-www.jpl.nasa.gov; media-src *.nasa.gov; frame-src *.youtube.com *.nasa.gov *.addthis.com; font-src 'self' 'unsafe-inline' fonts.gstatic.com maxcdn.bootstrapcdn.com stackpath.bootstrapcdn.com cdn.joinhoney.com svc.webspellchecker.net *.fontawesome.com data:; connect-src *.nasa.gov *.crazyegg.com svc.webspellchecker.net; report-uri /report-csp-violation
+< From-Origin: same
+< X-Generator: Drupal 7 (http://drupal.org)
+< Vary: Cookie
+< Date: Tue, 19 Sep 2023 06:06:29 GMT
+< Content-Language: en
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=41536000; includeSubDomains; preload
+< Strict-Transport-Security: max-age=631138519; includeSubDomains
+< Cache-Control: public, max-age=3600
+< Server: Apache
+< Content-Securitiy-Policy: frame-ancestors 'self'
+< X-Powered-By: PHP/8.2.10
+< X-Frame-Options: sameorigin
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Origin: https://.*\.jpl.nasa.gov

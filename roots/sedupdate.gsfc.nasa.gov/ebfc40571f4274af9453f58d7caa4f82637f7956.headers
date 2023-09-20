@@ -1,0 +1,13 @@
+GET https://sedupdate.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 27 Jul 2023 20:30:32 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:53:30 GMT
+< Etag: "64c2d3e8-7ff"
+< Server: nginx
+< Accept-Ranges: bytes
+< Content-Length: 2047
+< Content-Type: text/html

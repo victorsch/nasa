@@ -1,0 +1,12 @@
+GET https://nex.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:04:50 GMT
+< Content-Length: 178
+< X-Xss-Protection: 1; mode=block
+< Server: nginx
+< Content-Type: text/html
+< Location: https://www.nasa.gov/nex
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: default-src 'self' http: https: data: blob: 'unsafe-inline'

@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<!-- edited for Section 508 compliance -->
+
+<head>
+
+<title>NASA Langley Atmospheric Science Data Center (Distributed Active
+Archive Center)</title>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rev="made" href="mailto:larc-asdc-uds@lists.nasa.gov">
+<link rel="schema.DC" href="http://dublincore.org/documents/1998/09/dces/">
+<link rel="SCHEMA.VW96" href="http://vancouver-webpages.com/META/VW96-schema.html">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="keywords" content="NASA Langley DAAC, Atmospheric Science Data Center, Distributed Active Archive Center, MISR, radiation budget, clouds, aerosols, tropospheric composition, atmosphere, CERES, FIRE ACE, NASA Langley Research Center, NASA, DAAC">
+<meta name="description" content="The NASA Langley Distributed Active Archive Center (DAAC) archives and distributes data relating to Radiation Budget, Clouds, Aerosols, and Troposheric Chemistry.">
+<meta name="VW96.objecttype" content="Homepage">
+<meta name="ROBOTS" content="ALL">
+<meta name="DC.Title" content="NASA Langley DAAC (Distributed Active Archive Center)">
+<meta name="DC.Subject" content="NASA Langley Distributed Active Archive Center archives and distributes data relating to Radiation Budget, Clouds, Aerosols, and Troposheric Chemistry.">
+<meta name="DC.Description" content="The NASA Langley Distributed Active Archive Center (DAAC) archives and distributes data relating to Radiation Budget, Clouds, Aerosols, and Troposheric Chemistry.">
+<meta name="DC.Publisher" content="NASA Langley ASDC">
+<meta name="DC.Contributors" content="NASA Langley DAAC User and Data Services">
+<meta name="title" content="NASA Langley Atmospheric Science Data Center (Distributed Active Archive Center)">
+<meta name="rno" content="John M. Kusterer">
+<meta name="center" content="LaRC">
+<meta name="orgcode" content="E301">
+<style type="text/css">
+<!--
+form {margin:0px; padding:0px;}
+h2, h3 {color:black; font-size:12pt; font-weight:bold; font-family:sans-serif;}
+.title_text{color:#ffffff; font-size:24pt; font-family:sans-serif; padding-left:0%;}        
+.h_header_text {font-family:sans-serif;}
+.header_text {font-weight:bold; font-family:sans-serif;}
+.header_text:hover {color:#0000ff; font-weight:bold; font-family:sans-serif;}
+/* .subtitle_text{color:#6699ff; font-weight:bold; font-family:sans-serif; padding-left:0%;}*/
+/* .today_text {font-size:12pt; font-weight:bold; font-family:sans-serif;}*/                 
+/* .nav_text {font-weight:bold; font-family:sans-serif;}*/
+/* th {font-weight:bold; font-family:sans-serif;}*/
+.notice {color:#ff0000; font-family:sans-serif;}
+.noticeit {font-family:sans-serif;}
+.noticeme {font-size:large; font-family:sans-serif;}
+.noticememore {font-size:large; font-weight:bold; font-family:sans-serif;}
+.hilite {background-color:#ffff00;}
+.hilite1 {background-color:#ffff99; font-family:sans-serif;}
+.hilite2 {background-color:#ffffcc; font-family:sans-serif;}
+.hilite3 {background-color:#ffff00; font-family:sans-serif;}
+.hilite4 {background-color:#ffffcc;}
+.hilite5 {background-color:#ccffcc; font-family:sans-serif;}
+.hilite6 {background-color:#2b3b4b; height: 50px; }
+.hilite_notice {background-color:#ffff00; font-family:sans-serif;}
+.hilite_noticeme {background-color:#ffff00; font-weight:bold; font-family:sans-serif;}
+ -->
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WNP7MLF');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body bgcolor="#2b3b4b" text="#ffffff">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Start Earthdata Status Bar -->
+
+<h5>
+<div class="alert alert-warning text-center rounded-0 mb-20px" role="alert" id="earthdata-notification-banner"></div>
+</h5>
+<script type="text/javascript" src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+<!-- End Earthdata Status Bar -->
+
+<div class="hilite6" >                       </div>
+
+<!--  banner heading -->
+<div align="center">
+<table width="90%" border="0" cellpadding="5" summary="page heading.">
+<tr>
+<td><h1 class="title_text">Atmospheric<br>Science<br>Data Center</h1></td>
+<td>
+<big class="h_header_text">Processing, archiving, and
+distributing Earth science data at NASA Langley Research Center</big>
+</td>
+</tr>
+</table>
+</div>
+<!-- END banner heading -->
+
+<!-- NOTICES -->
+<!-- multiple notices in a table -->
+<!-- uncomment the table, first tr and td, td with message, end tr and table -->
+<!--<table border="1" cellspacing="0" cellpadding="4" width="100%" summary="event notices.">
+<tr>
+<th rowspan="1" width="10%"><big><span class="notice"><font color="red">
+NOTICE: </font></span></big></th>
+
+<td style="color:red">
+<h2>The ASDC production web site (eosweb.larc.nasa.gov) is currently down due to
+unexpected maintenance. <br />This is a temporary site with limited links to our tools.
+ Please notify 
+<a href="mailto:support-asdc@earthdata.nasa.gov">ASDC User Services</a> with any 
+problems.</h2>
+</td>
+ 
+<!-- 
+<td class="hilite_notice">
+<b>Downtime events due to maintenance</b>:
+<ul>
+<li>October 17, 2012: 8:00 am to 12:00 pm EDT: 
+The Data Pool, MISR order and browse tools, Reverb, and AMAPS will be
+unavailable.</li>
+<li>October 23, 2012 at 8:00 am to October 24, 2012 at 12:00 pm EDT: 
+The Data Pool, MISR order and browse tools, Reverb, and AMAPS will be
+unavailable.</li>
+</ul>
+</td>
+
+</tr>
+</table><br>
+-->
+<!-- END NOTICES -->
+
+<div align="center">
+<table border="0" width="90%" cellspacing="4" summary="about ASDC and search box.">
+<tr valign="top">
+<td width="80%">The Atmospheric Science Data Center (ASDC) at NASA Langley Research Center
+is responsible for processing, archiving, and distribution of NASA Earth
+science data in the areas of radiation budget, clouds, aerosols, and
+tropospheric composition.  The ASDC specializes in atmospheric data important to
+understanding the causes and processes of global climate change and the 
+consequences of human activities on the climate.</td>
+<td>&nbsp;</td>
+  </tr>
+  </table>
+</div>
+
+
+<div align="center">
+<table width="90%" border="0" cellpadding="4" summary="Outer table used for page section layout.">
+<tr valign="top">
+
+<td width="45%"><!-- cell contains navigation inner table --> 
+  <!-- start inner table containing nagivation links -->
+  <table border="0" width="100%" bgcolor="#ffffff" summary="Inner table to format left navigation.">  
+  <tbody>
+  <tr>
+    <td>
+    <h2><a href="https://asdc.larc.nasa.gov">ASDC Main Site</a></h2>
+    <h2>Data and Tools</h2>
+    <ul>
+    <li><a href="/MISR_BROWSE_INFO/" target="_blank">MISR BROWSE Information page</a>
+    <li><a href="/MISR_BROWSE/" target="_blank">MISR Browse Tool</a>
+    <li><a href="/L3Web/view" target="_blank">MISR L3 Imagery Tool</a>
+    <li><a href="./cgi-bin/DUE/clim_likely.cgi">Model-Derived Global Aerosol Climatology for MISR Analysis(Clim-Likely Data Set)</a></li>
+    <li><a href="https://asdc.larc.nasa.gov/data/" target="_blank"> Data Pool</a></li>
+    <li><a href="./cgi-bin/MISR/main.cgi" target="_blank">MISR 
+    Order Tool</a></li>
+    <li><a href="https://search.earthdata.nasa.gov" target="_blank" 
+    title="External link to Earthdata Search Tool.">Earthdata Search Tool</a></li>
+    <li><a href="https://subset.larc.nasa.gov" target="_blank" 
+    title="link to subset Tools">ASDC Subsetters (CALIPSO CERES MOPITT and TES)</a></li>
+    <li><a href="https://ceres.larc.nasa.gov/order_data.php" 
+    target="_blank">CERES Order Tool</a><!-- (select Level 3 products and SSF) --></li>
+    <li><a href="./cgi-bin/DUE/ecs_pge_history_L1_PR.cgi" target="_blank">MISR Production History </a></li>
+    <li><a href="./cgi-bin/DUE/LarcECSColL1Products.cgi" target="_blank">MISR Processing Status</a></li>
+    <li><a href="./cgi-bin/DUE/misr_loc/misr_date_orbit.cgi" target="blank">MISR Orbit Tool</a></li>
+    <li><a href="./misr_loc/misr_loc.html" target="blank">MISR Path/Block intersecting a Lat/Lon Box</a></li>
+    <li><a href="./cgi-bin/DUE/tes_L1B.cgi" target="blank">TES Archive Reports</a></li>
+    </ul>
+    <h2> MISR Regional Imagery for listed Field Campaigns </h2>
+     <ul>
+     <li><a href="/project/misr/field_campaign_imagery/intexb/regional/level3_CGAS_small.html">INTEXB</a></li>
+     <li><a href="/project/misr/field_campaign_imagery/gomaccs/regional/level3_CGAS_small.html">GOMACCS</a></li>
+     <li><a href="/project/misr/field_campaign_imagery/samum/regional/level3_CGAS_small.html">SAMUM</a></li>
+     <li><a href="/project/misr/field_campaign_imagery/vbbe/regional/level3_CGAS_small.html">VBBE</a></li>
+     <li><a href="/project/misr/field_campaign_imagery/uae/regional/level3_CGAS_small.html">UAE<sup>2</sup></a></li>
+     </ul>
+    </td>
+  </tr>  
+  <tr><td>&nbsp;</td></tr>
+  </tbody>
+</td><!-- end left navigation cell contents -->
+</tr>
+</table>
+</div>
+
+<hr>
+<table width="100%" border="0" bgcolor="#989898" summary="page footer.">
+<tr>
+<td width="75"><a href="http://www.nasa.gov/"><img src="/images/3dmeatball.gif" 
+alt="NASA logo - link to NASA Headquarters." 
+title="NASA logo - link to NASA Headquarters." border="0"></a></td>
+<td>
+<address><small>
+Responsible NASA Official: John M. Kusterer<br>
+Site Administration: NASA Langley ASDC User Services 
+(<a href="mailto:support-asdc@eartdata.nasa.gov">support-asdc@earthdata.nasa.gov</a>)<br>
+[<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" 
+target="_blank">Privacy Policy and Important Notices</a>]<br>
+<script language="JavaScript" type="text/javascript">
+  revisedate = new Date(document.lastModified)
+  document.write( "Last Updated: "+ revisedate);
+</script>
+</small></address>
+<noscript>Last Updated: July 4, 2020</noscript>
+</td>
+</tr>
+</table>
+
+
+<!-- Add Tophat -->
+
+<script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js"
+            id="earthdata-tophat-script"
+            data-show-status="true"
+            data-fbm-subject-line="Help with my app"
+            data-current-daac="ASDC"></script>
+<noscript>
+</noscript>
+<!-- Add Tophat -->
+
+</body>
+</html>

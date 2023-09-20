@@ -1,0 +1,9 @@
+GET https://servicedesk.earthdata.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Connection: close
+< Content-Length: 0
+< Location: https://bugs.earthdata.nasa.gov/servicedesk/customer/portals/
+< Strict-Transport-Security: max-age=31536000
+< Server: BigIP

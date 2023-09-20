@@ -1,0 +1,16 @@
+GET https://dashboard-hector.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 404 Not Found
+< X-Amz-Cf-Id: w7gL_pNAWZNfo2CFp4qXNSXSv0Fb1j8lqP7EaEg2MiwOy03YnGnxjg==
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Error from cloudfront
+< X-Amz-Cf-Pop: JFK52-P2
+< Date: Tue, 19 Sep 2023 05:43:05 GMT
+< Server: ServerTokens ProductOnly
+< X-Request-Id: w7gL_pNAWZNfo2CFp4qXNSXSv0Fb1j8lqP7EaEg2MiwOy03YnGnxjg==
+< X-Content-Type-Options: nosniff
+< Via: 1.1 050d3e345e03ee19c1b095050789e432.cloudfront.net (CloudFront)
+< Content-Type: application/xml

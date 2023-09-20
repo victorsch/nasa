@@ -1,0 +1,18 @@
+GET https://monitoring.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Cf-Id: Y3rNVKbidpcE9l6sgHuOGG4xBaCP_uuyY8It9s68e6cH5mVRgHu0Dg==
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Server: AmazonS3
+< Date: Tue, 19 Sep 2023 05:41:00 GMT
+< Etag: W/"5b1738b6a328ff9bfab7831b0f4f7002"
+< X-Cache: Error from cloudfront
+< Via: 1.1 c267e55887d5d0922d95439137f937dc.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR50-C1
+< Content-Type: text/html
+< Last-Modified: Sun, 12 Apr 2020 19:08:23 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000

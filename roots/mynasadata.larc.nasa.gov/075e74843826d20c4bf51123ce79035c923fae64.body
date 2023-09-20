@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://mynasadata.larc.nasa.gov/" />
+<link rel="shortlink" href="https://mynasadata.larc.nasa.gov/" />
+<link rel="image_src" href="/themes/mynasadata_theme/img/mnd_logo_L1.svg" />
+<meta name="rating" content="general" />
+<meta name="description" content="The My NASA Data website offers a variety of opportunities to explore Earth Science phenomena of the Atmosphere, Biosphere, Cryosphere, Geosphere, and Hydrosphere using uniquely NASA related content." />
+<meta name="keywords" content="NASA, Earth Science, Earth, Data, Science, Atmosphere, Biosphere, Cryosphere, Geosphere, Hydrosphere" />
+<meta name="dcterms.title" content="My NASA Data" />
+<meta name="dcterms.creator" content="My NASA Data" />
+<meta name="dcterms.subject" content="Earth Science Education" />
+<meta name="dcterms.description" content="The My NASA Data website offers a variety of opportunities to explore Earth Science phenomena of the Atmosphere, Biosphere, Cryosphere, Geosphere, and Hydrosphere using uniquely NASA related content." />
+<meta name="dcterms.publisher" content="My NASA Data" />
+<meta name="dcterms.contributor" content="My NASA Data" />
+<meta property="og:site_name" content="My NASA Data" />
+<meta property="og:url" content="https://mynasadata.larc.nasa.gov/node" />
+<meta property="og:title" content="My NASA Data" />
+<meta property="og:description" content="The My NASA Data website offers a variety of opportunities to explore Earth Science phenomena of the Atmosphere, Biosphere, Cryosphere, Geosphere, and Hydrosphere using uniquely NASA related content." />
+<meta property="og:image" content="https://mynasadata.larc.nasa.gov/themes/mynasadata_theme/img/mnd_logo_L1.svg" />
+<meta property="og:image:alt" content="My NASA Data Logo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="The My NASA Data website offers a variety of opportunities to explore Earth Science phenomena of the Atmosphere, Biosphere, Cryosphere, Geosphere, and Hydrosphere using uniquely NASA related content." />
+<meta name="twitter:title" content="My NASA Data" />
+<meta name="twitter:url" content="https://mynasadata.larc.nasa.gov/node" />
+<meta name="twitter:image:alt" content="My NASA Data Logo" />
+<meta name="twitter:image" content="https://mynasadata.larc.nasa.gov/themes/mynasadata_theme/img/mnd_logo_L1.svg" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/mynasadata_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>My NASA Data</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_fVQs-Z6kGcS70SfZ3MpfEmXefr_PivhIzAR-k84N_c4.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css__-P6kN8gLkJMrsnXnOPkPB323EgwfIYPEfiAQ6zGqL4.css" />
+
+    
+     <script>
+            // Minified version of isMobile included in the HTML since it's small
+            // https://github.com/kaimallea/isMobile
+            !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/Windows Phone/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");if("undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window)return this},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+      </script>
+      <!-- GA4 Global site tag (gtag.js) - Google Analytics added 06/23/2022 SG -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XFZ3QH0KQ2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XFZ3QH0KQ2');
+      </script>
+
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127217460-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127217460-1');
+</script>
+-->	 
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+      <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+  </head>
+  <body class="path-frontpage page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="mnd-backdrop mnd-homepage"></div>
+<div class="mnd-site-wrapper mnd-homepage">
+  <div class="mnd-banner-wrapper">
+                <div class="mnd-banner-container">
+		     <div class="mnd-logo-container">
+                        <img src="../themes/mynasadata_theme/img/mnd_logo_L1.svg" alt="mnd logo">
+                    </div>
+                      <div class="region region-header">
+    <nav role="navigation" aria-labelledby="block-mynasadata-theme-main-menu-menu" id="block-mynasadata-theme-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mynasadata-theme-main-menu-menu">Main navigation</h2>
+  
+
+        
+
+<div class="menu-container">
+  
+              <div class="mnd-horiz-nav">
+                <ul>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-atmosphere-background-information" data-drupal-link-system-path="node/6">Atmosphere</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                                            
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-atmosphere-background-information" data-drupal-link-system-path="node/6">About The Atmosphere</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/air-quality" data-drupal-link-system-path="phenomenon/air-quality">Air Quality</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/changing-air-temperatures" data-drupal-link-system-path="phenomenon/changing-air-temperatures">Air Temperatures</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/hurricane-dynamics" data-drupal-link-system-path="phenomenon/hurricane-dynamics">Hurricane Dynamics</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/creation-of-urban-heat-islands" data-drupal-link-system-path="phenomenon/creation-of-urban-heat-islands">Urban Heat Islands</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-atmosphere-maps-and-data" data-drupal-link-system-path="all-atmosphere-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-interactives" title="All Atmosphere Interactive Models" data-drupal-link-system-path="all-atmosphere-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-lesson-plans" data-drupal-link-system-path="all-atmosphere-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-esde-collections" data-drupal-link-system-path="all-atmosphere-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/atmosphere/globe-connections" data-drupal-link-system-path="atmosphere/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/atmosphere/stem-career-connections" data-drupal-link-system-path="atmosphere/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-scientifically-interesting-stories" data-drupal-link-system-path="all-atmosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-biosphere" data-drupal-link-system-path="node/18">Biosphere</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                              
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-biosphere" data-drupal-link-system-path="node/18">About The Biosphere</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/deforestation" data-drupal-link-system-path="phenomenon/deforestation">Deforestation</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/phytoplankton" data-drupal-link-system-path="phenomenon/phytoplankton">Phytoplankton Distribution</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/plant-growth-patterns" data-drupal-link-system-path="phenomenon/plant-growth-patterns">Plant Growth Patterns</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-biosphere-maps-and-data" data-drupal-link-system-path="all-biosphere-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-biosphere-interactives" title="All Biosphere Interactives" data-drupal-link-system-path="all-biosphere-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-biosphere-lesson-plans" data-drupal-link-system-path="all-biosphere-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-biosphere-esde-collections" data-drupal-link-system-path="all-biosphere-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/biosphere/globe-connections" data-drupal-link-system-path="biosphere/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/biosphere/stem-career-connections" data-drupal-link-system-path="biosphere/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-biosphere-scientifically-interesting-stories" data-drupal-link-system-path="all-biosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-cryosphere" data-drupal-link-system-path="node/25">Cryosphere</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                              
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-cryosphere" data-drupal-link-system-path="node/25">About Cryosphere</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/changing-albedo-values" data-drupal-link-system-path="phenomenon/changing-albedo-values">Albedo Values</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/sea-and-land-ice-melt" data-drupal-link-system-path="phenomenon/sea-and-land-ice-melt">Sea and Land Ice Melt</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/changes-in-snow-and-ice-extent" data-drupal-link-system-path="phenomenon/changes-in-snow-and-ice-extent">Snow and Ice Extent</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-cryosphere-maps-and-data" data-drupal-link-system-path="all-cryosphere-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-cryosphere-interactives" title="All Cryosphere Interactives" data-drupal-link-system-path="all-cryosphere-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-cryosphere-lesson-plans" data-drupal-link-system-path="all-cryosphere-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-cryosphere-esde-collections" data-drupal-link-system-path="all-cryosphere-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/cryosphere/globe-connections" data-drupal-link-system-path="cryosphere/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/cryosphere/stem-career-connections" data-drupal-link-system-path="cryosphere/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-cryosphere-scientifically-interesting-stories" data-drupal-link-system-path="all-cryosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-geosphere" data-drupal-link-system-path="node/50">Geosphere</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                              
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-geosphere" data-drupal-link-system-path="node/50">About The Geosphere</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/changes-in-land-surface" data-drupal-link-system-path="phenomenon/changes-in-land-surface">Land Use and Land Cover Change</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/soil-moisture" data-drupal-link-system-path="phenomenon/soil-moisture">Soil Moisture</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/volcanic-eruptions" data-drupal-link-system-path="phenomenon/volcanic-eruptions">Volcanic Eruptions</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-geosphere-maps-and-data" data-drupal-link-system-path="all-geosphere-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-geosphere-interactives" title="All Geosphere Interactives" data-drupal-link-system-path="all-geosphere-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-geosphere-lesson-plans" data-drupal-link-system-path="all-geosphere-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-geosphere-esde-collections" data-drupal-link-system-path="all-geosphere-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/geosphere/globe-connections" data-drupal-link-system-path="geosphere/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/geosphere/stem-career-connections" data-drupal-link-system-path="geosphere/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-geosphere-scientifically-interesting-stories" data-drupal-link-system-path="all-geosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-hydrosphere" data-drupal-link-system-path="node/49">Hydrosphere</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                                                          
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-hydrosphere" data-drupal-link-system-path="node/49">About The Hydrosphere</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/el-nino-southern-oscillation" data-drupal-link-system-path="phenomenon/el-nino-southern-oscillation">El Nino Southern Oscillation</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/hurricane-dynamics" data-drupal-link-system-path="phenomenon/hurricane-dynamics">Hurricane Dynamics</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/ocean-circulation-patterns" data-drupal-link-system-path="phenomenon/ocean-circulation-patterns">Ocean Circulation Patterns</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/sea-level-rise" data-drupal-link-system-path="phenomenon/sea-level-rise">Sea Level Rise</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/soil-moisture" data-drupal-link-system-path="phenomenon/soil-moisture">Soil Moisture</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-hydrosphere-maps-and-data" data-drupal-link-system-path="all-hydrosphere-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-hydrosphere-interactives" title="All Hydrosphere Interactives" data-drupal-link-system-path="all-hydrosphere-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-hydrosphere-lesson-plans" data-drupal-link-system-path="all-hydrosphere-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-hydrosphere-esde-collections" data-drupal-link-system-path="all-hydrosphere-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/hydrosphere/globe-connections" data-drupal-link-system-path="hydrosphere/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/hydrosphere/stem-career-connections" data-drupal-link-system-path="hydrosphere/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-hydrosphere-scientifically-interesting-stories" data-drupal-link-system-path="all-hydrosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/basic-page/about-earth-system-background-information" data-drupal-link-system-path="node/56">Earth as a System</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                                                                                                    
+                    <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/about-earth-system-background-information" data-drupal-link-system-path="node/56">About The Earth as a System</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/earth-energy-budget" data-drupal-link-system-path="phenomenon/earth-energy-budget">Earth&#039;s Energy Budget</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/energy-and-matter" data-drupal-link-system-path="phenomenon/energy-and-matter">Matter and Energy Cycles</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/scale-quantity-and-proportion" data-drupal-link-system-path="phenomenon/scale-quantity-and-proportion">Scale, Proportion, and Quantity</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/solar-eclipse" data-drupal-link-system-path="phenomenon/solar-eclipse">Solar Eclipse</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/phenomenon/systems-and-systems-models" data-drupal-link-system-path="phenomenon/systems-and-systems-models">Systems and Systems Models</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-earthsystem-maps-and-data" data-drupal-link-system-path="all-earthsystem-maps-and-data">Mini Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="/all-earthsystem-interactives" title="All Earth as a System Interactives" data-drupal-link-system-path="all-earthsystem-interactives">Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-earthsystem-lesson-plans" data-drupal-link-system-path="all-earthsystem-lesson-plans">Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/basic-page/story-map-collections">Story Map Collections</a>
+            </li>
+                      <li>
+              <a href="/all-earthsystem-esde-collections" data-drupal-link-system-path="all-earthsystem-esde-collections">Data Resources</a>
+            </li>
+                      <li>
+              <a href="/basic-page/earth-system-interactions-background-information" data-drupal-link-system-path="node/235">Earth System Interactions</a>
+            </li>
+                      <li>
+              <a href="/basic-page/earth-system-poster-activities">Analyzing Global Patterns Posters</a>
+            </li>
+                      <li>
+              <a href="/earthsystem/globe-connections" data-drupal-link-system-path="earthsystem/globe-connections">GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/earthsystem/stem-career-connections" data-drupal-link-system-path="earthsystem/stem-career-connections">STEM Career Connections</a>
+            </li>
+                      <li>
+              <a href="/all-earthsystem-scientifically-interesting-stories" data-drupal-link-system-path="all-earthsystem-scientifically-interesting-stories">Scientifically-Interesting Stories</a>
+            </li>
+                  </ul>
+            
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/EarthSystemLAS/UI.vm">Visualize Data</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                            
+                            <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/EarthSystemLAS/UI.vm">Earth System Data Explorer </a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/all-earthsystem-esde-collections" data-drupal-link-system-path="all-earthsystem-esde-collections">All Data Resources</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/data-collections-earth-system-data-explorer" data-drupal-link-system-path="node/488">Data Collections: Earth System Data Explorer</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/5e-earth-system-story-map-collections-lesson-plans" data-drupal-link-system-path="node/589">Story Map Collections</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/tutorials-using-earth-system-data-explorer" data-drupal-link-system-path="node/205">Tutorials</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/basic-page/locating-data-imagery-student-investigations" data-drupal-link-system-path="node/272">Locating Data &amp; Imagery for Student Investigations</a>
+            </li>
+                      <li>
+              <a href="/basic-page/opening-datasets-mnd-data-visualization-tool-excel" data-drupal-link-system-path="node/176">Opening Datasets from MND Data Visualization Tool in Excel</a>
+            </li>
+                      <li>
+              <a href="/basic-page/import-data-google-sheets-using-earth-system-data-explorer" data-drupal-link-system-path="node/583">Import Data into Google Sheets</a>
+            </li>
+                      <li>
+              <a href="/basic-page/data-volume-units" data-drupal-link-system-path="node/273">Data Volume Units</a>
+            </li>
+                      <li>
+              <a href="/basic-page/guide-using-nasa-worldview-classroom" data-drupal-link-system-path="node/294">Guide to Using NASA Worldview in the Classroom</a>
+            </li>
+                      <li>
+              <a href="/basic-page/using-nasa-earth-observations-neo-10-easy-steps" data-drupal-link-system-path="node/288">Using NASA Earth Observations (NEO) in 10 Easy Steps</a>
+            </li>
+                  </ul>
+      
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/data-literacy-cubes-graphs-maps-and-data-tables" data-drupal-link-system-path="node/691">Resources</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                                                                                                                                                    
+                            <ul>
+                      <li class="mnd-subnav-prominent">
+              <a href="/data-literacy-cubes-graphs-maps-and-data-tables" data-drupal-link-system-path="node/691">Data Literacy Cube Guide</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/earth-systems-graphic-organizer-student-activity" data-drupal-link-system-path="node/291">Earth Systems Graphic Organizer</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/lesson-plans/flipbooks-earth-system-variables" data-drupal-link-system-path="node/228">Flipbooks</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/iceberg-diagram-systems-thinking-tool" data-drupal-link-system-path="node/681">Iceberg Diagram: A Systems Thinking Tool</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/instructional-strategies-earth-science-classroom" data-drupal-link-system-path="node/646">Instructional Strategies for the Earth Science Classroom</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/story-map-collections">Story Map Collections</a>
+            </li>
+                      <li class="mnd-subnav-prominent">
+              <a href="/basic-page/virtual-backgrounds-educators" data-drupal-link-system-path="node/680">Virtual Backgrounds for Educators</a>
+            </li>
+                  </ul>
+        <ul>
+                      <li>
+              <a href="/all-atmosphere-maps-and-data" data-drupal-link-system-path="all-atmosphere-maps-and-data">All Mini-Lessons/Activity</a>
+            </li>
+                      <li>
+              <a href="https://mynasadata.larc.nasa.gov/all-atmosphere-interactives">All Interactives</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-lesson-plans" data-drupal-link-system-path="all-atmosphere-lesson-plans">All Lesson Plans</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-esde-collections" data-drupal-link-system-path="all-atmosphere-esde-collections">All Data Resources</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-globe-connection" data-drupal-link-system-path="all-atmosphere-globe-connection">All GLOBE Connections</a>
+            </li>
+                      <li>
+              <a href="/all-atmosphere-stem-career-connections" data-drupal-link-system-path="all-atmosphere-stem-career-connections">All STEM Career Connections </a>
+            </li>
+                      <li>
+              <a href="/basic-page/archived-lessons-plans" data-drupal-link-system-path="node/276">Archived Lessons</a>
+            </li>
+                      <li>
+              <a href="/basic-page/other-related-nasa-resources" data-drupal-link-system-path="node/229">Other NASA Resources</a>
+            </li>
+                  </ul>
+      
+    
+  </div>
+    
+                </li>
+                        <li class="mnd-nav-btn mnd-horiz-nav-elem" >
+        <a href="/about-mnd" data-drupal-link-system-path="node/140">About Us</a>
+                        <div class = "mnd-submenu">
+        
+                                                                                                      
+                    <ul>
+                  <li class="mnd-subnav-prominent">
+            <a href="/about-mnd" data-drupal-link-system-path="node/140">About My NASA Data</a>
+          </li>
+                  <li class="mnd-subnav-prominent">
+            <a href="/basic-page/meet-our-partners" data-drupal-link-system-path="node/224">Meet Our Partners</a>
+          </li>
+                  <li class="mnd-subnav-prominent">
+            <a href="/about-us-meet-team" data-drupal-link-system-path="node/144">Meet the Team</a>
+          </li>
+                  <li class="mnd-subnav-prominent">
+            <a href="/basic-page/meet-our-advisors-and-product-reviewers" data-drupal-link-system-path="node/450">Meet Our Advisors and Product Reviewers</a>
+          </li>
+                  <li class="mnd-subnav-prominent">
+            <a href="/basic-page/about-website" data-drupal-link-system-path="node/255">About the Website</a>
+          </li>
+                  <li class="mnd-subnav-prominent">
+            <a href="/contact-us" data-drupal-link-system-path="node/143">Contact Us</a>
+          </li>
+                </ul>
+            
+    
+  </div>
+    
+                </li>
+               </ul>
+    
+  </div>
+    
+  
+  <div class="mobile-banner">
+    <div id="globe-white-out"></div>
+    <div class="banner-menu" id="mobile-icon-button"> 
+        <a data-toggle="collapse" data-target="#mobile-menus" id="mainmenu" class="btn btn-navbar" aria-expanded="true"> 
+            <div id="mobile-nav-icon" class="close"><span></span><span></span><span></span></div> 
+        </a>
+    </div>
+
+    <div id="mobile-menus" class="menus navbar collapse" style="height: 0px;" aria-expanded="false">
+        <div class="navbar-inner"> 
+            <div class="container-fluid">
+              <!-- User menu -->  
+                            
+              <!-- usernav - END --> 
+              <!-- Navigation Menu --> 
+               <div id="nav" class="unselectable"> <a href="#">Main Menu</a> </div> 
+
+               <div class="mainnav accordion" id="accordion2">
+                 <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> <a href="/basic-page/about-atmosphere"><span>Atmosphere</span></a> </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                      <div class="accordion-heading"> 
+                        <a href="#subnav1263" class="accordion-toggle" title="atmosphere mobile submenu" data-toggle="collapse" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                      </div> 
+                      <div id="subnav1263" class="accordion-body collapse"> 
+                        <div class="accordion-inner"> 
+                          <div class="mobile-subnav-link"> <a href="/basic-page/about-atmosphere">About The Atmosphere</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/changing-air-temperatures">Air Temperatures</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/hurricane-dynamics">Hurricane Dynamics</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/creation-of-urban-heat-islands">Urban Heat Islands</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-atmosphere-maps-and-data">Mini Lessons</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-atmosphere-interactives">Interactives</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-atmosphere-lesson-plans">Lesson Plans</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-atmosphere-esde-collections">Data Resources</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/atmosphere/globe-connections">GLOBE Connections</a> </div>  
+                          <div class="mobile-subnav-link"> <a href="/atmosphere/stem-career-connections">STEM Career Connections</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-atmosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                  <!-- mobile-nav - END --> 
+                  <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> 
+                      <a href="/basic-page/about-biosphere"><span>Biosphere</span></a> 
+                    </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                      <div class="accordion-heading"> 
+                        <a href="#subnav1280" class="accordion-toggle" data-toggle="collapse" title="biosphere mobile submenu"data-parent="#accordion2"><i class="fa fa-chevron-left"></i>
+                        </a> 
+                      </div> 
+                      <div id="subnav1280" class="accordion-body collapse"> 
+                        <div class="accordion-inner"> 
+                          <div class="mobile-subnav-link"> <a href="/basic-page/about-biosphere">About The Biosphere</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/deforestation">Deforestation</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/plant-growth-patterns">Plant Growth Patterns</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/phytoplankton">Phytoplankton Distribution</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-biosphere-maps-and-data">Mini Lessons</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-biosphere-interactives">Interactives</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-biosphere-lesson-plans">Lesson Plans</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-biosphere-esde-collections">Data Resources</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/biosphere/globe-connections">GLOBE Connections</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/biosphere/stem-career-connections">STEM Career Connections</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-biosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                  <!-- mobile-nav - END --> 
+                  <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> <a href="/basic-page/about-cryosphere"><span>Cryosphere</span></a> </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                      <div class="accordion-heading"> 
+                        <a href="#subnav1287" class="accordion-toggle" data-toggle="collapse" title="cryosphere mobile submenu" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                      </div> 
+                      <div id="subnav1287" class="accordion-body collapse">
+                        <div class="accordion-inner"> 
+                          <div class="mobile-subnav-link"> <a href="/basic-page/about-cryosphere">About The Cryosphere</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/changes-in-snow-and-ice-extent">Snow and Ice Extent</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/sea-and-land-ice-melt">Sea and Land Ice Melt</a> </div> 
+                          <div class="mobile-subnav-link"> <a href="/phenomenon/changing-albedo-values">Albedo Values</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-cryosphere-maps-and-data">Mini Lessons</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-cryosphere-interactives">Interactives</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-cryosphere-lesson-plans">Lesson Plans</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-cryosphere-esde-collections">Data Resources</a> </div>  
+                          <div class="mobile-subnav-link"> <a href="/cryosphere/globe-connections">GLOBE Connections</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/cryosphere/stem-career-connections">STEM Career Connections</a> </div>
+                          <div class="mobile-subnav-link"> <a href="/all-cryosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div> 
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                  <!-- mobile-nav - END --> 
+                  <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> <a href="/basic-page/about-geosphere"><span>Geosphere</span></a> </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                      <div class="accordion-heading"> 
+                        <a href="#subnav1296" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                      </div> 
+                      <div id="subnav1296" class="accordion-body collapse"> 
+                        <div class="accordion-inner"> 
+                            <div class="mobile-subnav-link"> <a href="/basic-page/about-geosphere">About The Geosphere</a> </div> 
+                            <div class="mobile-subnav-link"> <a href="/phenomenon/changes-in-land-surface">Land Surface/Land Use Change</a> </div> 
+                            <div class="mobile-subnav-link"> <a href="/phenomenon/soil-moisture">Soil Moisture</a> </div> 
+                            <div class="mobile-subnav-link"> <a href="/phenomenon/volcanic-eruptions">Volcanic Eruptions</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/all-geosphere-maps-and-data">Mini Lessons</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/all-geosphere-interactives">Interactives</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/all-geosphere-lesson-plans">Lesson Plans</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/all-geosphere-esde-collections">Data Resources</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/geosphere/globe-connections">GLOBE Connections</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/geosphere/stem-career-connections">STEM Career Connections</a> </div>
+                            <div class="mobile-subnav-link"> <a href="/all-geosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div>
+                        </div> 
+                      </div> 
+                    </div> 
+                  </div> 
+                  <!-- mobile-nav - END --> 
+                  <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> <a href="/basic-page/about-hydrosphere"><span>Hydrosphere</span></a> </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                        <div class="accordion-heading"> 
+                            <a href="#subnav1297" class="accordion-toggle" data-toggle="collapse" title="hydrosphere mobile submenu" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                        </div> 
+                        <div id="subnav1297" class="accordion-body collapse"> 
+                            <div class="accordion-inner"> 
+                                <div class="mobile-subnav-link"> <a href="/basic-page/about-hydrosphere">About The Hydrosphere</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/phenomenon/sea-level-rise">Sea Level Rise</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/phenomenon/hurricane-dynamics">Hurricane Dynamics</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/phenomenon/soil-moisture">Soil Moisture</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/phenomenon/ocean-circulation-patterns">Ocean Circulation Patterns</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/phenomenon/el-nino-southern-oscillation">El Nino Southern Oscillation</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/all-hydrosphere-maps-and-data">Mini Lessons</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/all-hydrosphere-interactives">Interactives</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/all-hydrosphere-lesson-plans">Lesson Plans</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/all-hydrosphere-esde-collections">Data Resources</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/hydrosphere/globe-connections">GLOBE Connections</a> </div> 
+                                <div class="mobile-subnav-link"> <a href="/hydrosphere/stem-career-connections">STEM Career Connections</a> </div>
+                                <div class="mobile-subnav-link"> <a href="/all-hydrosphere-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div>
+                            </div> 
+                        </div> 
+                    </div> 
+                  </div> 
+                  <!-- mobile-nav - END --> 
+                  <div class="mobile-nav"> 
+                      <div class="mobile-nav-lvl1"> <a href="/basic-page/about-earth-system"><span>Earth as a System</span></a> </div> 
+                      <div class="accordion-group mobile-nav-secondlvl"> 
+                          <div class="accordion-heading"> 
+                              <a href="#subnav1298" class="accordion-toggle" data-toggle="collapse" title="earth system mobile submenu" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                          </div> 
+                          <div id="subnav1298" class="accordion-body collapse"> 
+                              <div class="accordion-inner"> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/about-earth-system">About The Earth as a System</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/phenomenon/energy-and-matter">Matter and Energy Cycles</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/phenomenon/systems-and-systems-models">Systems and Systems Models</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/phenomenon/scale-quantity-and-proportion">Scale, Proportion and Quantity</a> </div>
+                               	  <div class="mobile-subnav-link"> <a href="/all-earthsystem-maps-and-data">Mini Lessons</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-earthsystem-interactives">Interactives</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-earthsystem-lesson-plans">Lesson Plans</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/story-map-collections">Story Map Collections</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-earthsystem-esde-collections">Data Resources</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/earth-system-interactions">Earth System Interactions</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/earth-system-poster-activities">Analyzing Global Patterns Poster</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/earthsystem/globe-connections">GLOBE Connections</a> </div>  
+                                  <div class="mobile-subnav-link"> <a href="/earthsystem/stem-career-connections">STEM Career Connections</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-earthsystem-scientifically-interesting-stories">Scientifically-Interesting Stories</a> </div>
+                              </div> 
+                          </div> 
+                      </div> 
+                  </div> 
+                  <!-- mobile-nav - END -->
+                  <div class="mobile-nav"> 
+                      <div class="mobile-nav-lvl1"> <a href="https://mynasadata.larc.nasa.gov/EarthSystemLAS/UI.vm"><span>Visualize Data</span></a> </div> 
+                      <div class="accordion-group mobile-nav-secondlvl"> 
+                          <div class="accordion-heading"> 
+                              <a href="#subnav1299" class="accordion-toggle" data-toggle="collapse" title="vizualize data mobile submenu" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                          </div> 
+                          <div id="subnav1299" class="accordion-body collapse"> 
+                              <div class="accordion-inner"> 
+                                  <div class="mobile-subnav-link"> <a href="/EarthSystemLAS/UI.vm">Earth System Data Explorer</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/tutorials">Tutorials</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/data-collections-earth-system-data-explorer">Data Collections: Earth System Data Explorer</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/story-map-collections">Story Map Collections</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-earthsystem-esde-collections">All Data Resources</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/locating-data-imagery-student-investigations">Locating Data & Imagery for Student Investigations</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/opening-datasets-mnd-data-visualization-tool-excel">Opening Datasets from MND Data Visualization Tool in Excel</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/import-data-google-sheets-using-earth-system-data-explorer">Import Data into Google Sheets</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/data-volume-units">Data Volume Units</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/guide-using-nasa-worldview-classroom">Guide to Using NASA Worldview in the Classroom</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/using-nasa-earth-observations-neo-10-easy-steps">Using NASA Earth Observations (NEO) in 10 Easy Steps</a> </div>
+                              </div> 
+                          </div> 
+                      </div> 
+                  </div>
+                  <!-- mobile-nav - END -->
+                  <div class="mobile-nav"> 
+                      <div class="mobile-nav-lvl1"> <a href="/lesson-plans/instructional-videos-globe-earth-system-poster"><span>Resources</span></a> </div> 
+                      <div class="accordion-group mobile-nav-secondlvl"> 
+                          <div class="accordion-heading"> 
+                              <a href="#subnav1300" class="accordion-toggle" data-toggle="collapse" title="Resources mobile submenu " data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                          </div> 
+                          <div id="subnav1300" class="accordion-body collapse"> 
+                              <div class="accordion-inner"> 
+                                  <div class="mobile-subnav-link"> <a href="/data-literacy-cubes-graphs-maps-and-data-tables">Data Literacy Cube Guide</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/earth-systems-graphic-organizer">Earth Systems Graphic Organizer</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/story-map-collections">Story Map Collections</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/iceberg-diagram-systems-thinking-tool">Iceberg Diagram: A Systems Thinking Tool</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/instructional-strategies-earth-science-classroom">Instructional Strategies for the Earth Science Classroom</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/lesson-plans/flipbooks-earth-system-variables">Flipbooks</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/virtual-backgrounds-educators">Virtual Backgrounds for Educators</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-atmosphere-lesson-plans">All Lesson Plans</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/all-atmosphere-maps-and-data">All Mini-Lessons</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/all-atmosphere-esde-collections">All Data Resources</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-atmosphere-globe-connection">All GLOBE Connections</a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/all-atmosphere-stem-career-connections">All STEM Career Connections </a> </div>
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/archived-lessons-plans">Archived Lessons</a> </div> 
+                                  <div class="mobile-subnav-link"> <a href="/basic-page/other-related-nasa-resources">Other NASA Resources</a> </div>
+                              </div> 
+                          </div> 
+                      </div> 
+                  </div> 
+                  <!-- mobile-nav - END -->
+                  <div class="mobile-nav"> 
+                    <div class="mobile-nav-lvl1"> <a href="/about-mnd"><span>About Us</span></a> </div> 
+                    <div class="accordion-group mobile-nav-secondlvl"> 
+                        <div class="accordion-heading"> 
+                            <a href="#subnav1301" class="accordion-toggle" data-toggle="collapse" title="About us  mobile submenu" data-parent="#accordion2"><i class="fa fa-chevron-left"></i></a> 
+                        </div> 
+                        <div id="subnav1301" class="accordion-body collapse"> 
+                            <div class="accordion-inner"> 
+                              <div class="mobile-subnav-link"> <a href="/about-mnd">About My NASA Data</a> </div> 
+                              <div class="mobile-subnav-link"> <a href="/basic-page/meet-our-partners">Meet Our Partners</a> </div>
+                              <div class="mobile-subnav-link"> <a href="/about-us-meet-team">Meet the Team</a> </div> 
+                              <div class="mobile-subnav-link"> <a href="/basic-page/meet-our-advisors-and-product-reviewers">Meet Our Advisors and Product Reviewers</a></div> 
+                              <div class="mobile-subnav-link"> <a href="/basic-page/about-website">About the Website</a></div>
+                              <div class="mobile-subnav-link"> <a href="/contact-us">Contact Us</a></div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                  </div> 
+               </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </nav>
+
+  </div>
+
+                    <div class="mnd-search-social-wrapper">
+			<div class="mnd-social-icon-container mnd-nav-btn" id="social-icon">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share">    
+			        <img src="../themes/mynasadata_theme/img/social_icon_grey.svg" alt="Share social icon">
+                       </a>
+			 </div>
+                        <div class="mnd-search-container">
+                            <form action="/search" role="search">
+                                <input aria-label="search" class="mnd-site-search" type="search" name="keys" placeholder="Search">
+				<input aria-label="submit" type="submit" style="display: none;" >
+                            </form>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+  <main role="main">
+    
+    <a id="main-content" tabindex="-1"></a>  <div class="mnd-hp-gradient-wrapper">
+                <div class="mnd-hp-gradient">
+                    <img src="../themes/mynasadata_theme/img/homepage_gradient.png" alt="">
+                    <div class="mnd-hp-dropshadow"></div>
+                </div>
+    <div class="mnd-content-wrapper">
+        <div class="mnd-content-container mnd-1-column">
+          <div class="mnd-hp-earth-bkgd">
+              <img class="mobile-homepage-earth" src="../themes/mynasadata_theme/img/mobile-layer-bkgd-sm.jpg" alt="Mobile background">
+              <img class="homepage-earth" src="../themes/mynasadata_theme/img/homepage_earth_graphic_3.gif" alt="Desktop Background">
+                <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-mynasadata-theme-content" class="block block-system block-system-main-block">
+  
+    
+      
+  </div>
+<div class="mnd-hp-overlay">
+  <img class="homepage-earth mnd-img-overlay" src="../themes/mynasadata_theme/img/blue-overlay.png" alt="">
+  <div class="mnd-overlay-btn" id="hp-atmo">
+    <div class="mnd-hp-sphere-content">
+                      <div><div class="view view-atmosphere-frontpage view-id-atmosphere_frontpage view-display-id-block_1 js-view-dom-id-f169a275bed0e2cccdad7a290843a84f015e46a76a771d49266e68b0b136120b">
+  
+    
+      
+      <div class="view-content">
+      <div class="sphere-icon">
+<a href="../atmosphere"><img class="mnd-color" src="../themes/mynasadata_theme/img/atmosphere_white.svg" alt="white atmosphere icon"></a>
+</div>
+<div class="mnd-hp-layer-content">
+         <a href="../phenomenon/creation-of-urban-heat-islands"> <h3>Atmosphere</h3></a>
+         <a href="../phenomenon/creation-of-urban-heat-islands"><p>Go to Phenomenon Page</p></a>
+    </div>
+    <div class="mnd-hp-layer-img">  <a href="/lesson-plans/creation-urban-heat-islands-story-map" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-07/Screen%20Shot%202019-07-09%20at%2010.08.31%20AM.png?itok=0PlUB_7f" width="100" height="94" alt="Creation of Urban Heat Islands" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Lesson Plans</h3>
+<p><a href="/lesson-plans/creation-urban-heat-islands-story-map" hreflang="en">Creation of Urban Heat Islands Story Map</a></p>
+</div>
+    <div class="mnd-hp-layer-img">  <a href="/mini-lessonactivity/surface-and-air-temperatures-throughout-day" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-11/505102main_Figure4.JPG?itok=uMSNuJZD" width="100" height="70" alt="Surface and Air Temperatures Throughout the Day - Credit: EPA" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Mini Lesson/Activity</h3>
+<p><a href="/mini-lessonactivity/surface-and-air-temperatures-throughout-day" hreflang="en">Surface and Air Temperatures Throughout the Day</a></p>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+              </div>
+</div>
+</div>
+
+
+
+
+
+<div class="mnd-hp-overlay">
+  <img class="homepage-earth mnd-img-overlay" src="../themes/mynasadata_theme/img/green-overlay.png" alt="">
+  <div class="mnd-overlay-btn" id="hp-bio">
+    <div class="mnd-hp-sphere-content">
+                      <div><div class="view view-biosphere-frontpage view-id-biosphere_frontpage view-display-id-block_1 js-view-dom-id-f9c56819d8baa9bef858e6cbdd45df49cd5707737bf6e15e383720f589ae600f">
+  
+    
+      
+      <div class="view-content">
+      <div class="sphere-icon">
+<a href="../biosphere"><img class="mnd-color" src="../themes/mynasadata_theme/img/biosphere_white.svg" alt="white biosphere icon"></a>
+</div>
+<div class="mnd-hp-layer-content">
+         <a href="../phenomenon/phytoplankton"><h3>Biosphere</h3></a>
+         <a href="../phenomenon/phytoplankton"> <p>Go to Phenomenon Page</p></a>
+    </div>
+    <div class="mnd-hp-layer-img">  <a href="/lesson-plans/global-phytoplankton-distribution-story-map" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2020-02/C6B189F1-49B4-4C42-8B23-FCECB9C245FF.jpg?itok=8j2FbSo8" width="100" height="67" alt="Global Phytoplankton Distribution Story Map Icon" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Lesson Plans</h3>
+<p><a href="/lesson-plans/global-phytoplankton-distribution-story-map" hreflang="en">Global Phytoplankton Distribution Story Map</a></p>
+</div>
+    <div class="mnd-hp-layer-img">  <a href="/mini-lessonactivity/how-are-phytoplankton-and-sea-surface-temperatures-related" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-10/chlorophyll_amo_2010241-248_0.jpg?itok=u80WMjMa" width="100" height="56" alt="Chlorophyll &amp; Sea Surface Temperature. Credit: NASA Earth Observatory" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Mini Lesson/Activity</h3>
+<p><a href="/mini-lessonactivity/how-are-phytoplankton-and-sea-surface-temperatures-related" hreflang="en">How are Phytoplankton and Sea Surface Temperatures Related?</a></p>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+              </div>
+</div>
+</div>
+
+
+
+
+
+<div class="mnd-hp-overlay">
+  <img class="homepage-earth mnd-img-overlay" src="../themes/mynasadata_theme/img/magenta-overlay.png" alt="">
+  <div class="mnd-overlay-btn" id="hp-geo">
+    <div class="mnd-hp-sphere-content">
+                      <div><div class="view view-geosphere-frontpage view-id-geosphere_frontpage view-display-id-block_1 js-view-dom-id-dd70ac11102375357234650b1d7d7d1960489e3967d2aaba307269ef37ea51b2">
+  
+    
+      
+      <div class="view-content">
+      <div class="sphere-icon">
+  <a href="../geosphere"><img class="mnd-color" src="../themes/mynasadata_theme/img/geosphere_white.svg" alt="white geosphere icon"></a>
+</div>
+<div class="mnd-hp-layer-content">
+         <a href="../phenomenon/volcanic-eruptions"><h3>Geosphere</h3></a>
+         <a href="../phenomenon/volcanic-eruptions"><p>Go to Phenomenon Page</p></a>
+    </div>
+    <div class="mnd-hp-layer-img">  <a href="/lesson-plans/volcanic-eruptions-story-map" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2020-02/ISS020-E-09048_lrg.jpg?itok=InBAzs3O" width="100" height="67" alt="Volcanic Eruptions" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Lesson Plans</h3>
+<p><a href="/lesson-plans/volcanic-eruptions-story-map" hreflang="en">Volcanic Eruptions Story Map</a></p>
+</div>
+    <div class="mnd-hp-layer-img">  <a href="/mini-lessonactivity/analyzing-volcanic-ash-model" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2020-08/Volcanic%20Ash.jpg?itok=AtHjrerL" width="100" height="56" alt="Calbuco Volcanic Ash, Image Credit: NASA&#039;s Goddard Space Flight Center" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Mini Lesson/Activity</h3>
+<p><a href="/mini-lessonactivity/analyzing-volcanic-ash-model" hreflang="en">Analyzing a Volcanic Ash Model</a></p>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+              </div>
+</div>
+</div>
+
+
+
+
+
+<div class="mnd-hp-overlay">
+  <img class="homepage-earth mnd-img-overlay" src="../themes/mynasadata_theme/img/teal-overlay.png" alt="">
+  <div class="mnd-overlay-btn" id="hp-hydro">
+    <div class="mnd-hp-sphere-content">
+                      <div><div class="view view-hydrosphere-frontpage view-id-hydrosphere_frontpage view-display-id-block_1 js-view-dom-id-3a9f36e7432d7f9d11aa041fec98f0429d627a5decdd72c4cb6fcca28ad9a3ae">
+  
+    
+      
+      <div class="view-content">
+      <div class="sphere-icon">
+  <a href="../hydrosphere"><img class="mnd-color" src="../themes/mynasadata_theme/img/hydrosphere_white.svg" alt="white hydrosphere icon"></a>
+</div>
+<div class="mnd-hp-layer-content">
+         <a href="../phenomenon/ocean-circulation-patterns"><h3>Hydrosphere</h3></a>
+         <a href="../phenomenon/ocean-circulation-patterns"><p>Go to Phenomenon Page</p></a>
+    </div>
+    <div class="mnd-hp-layer-img">  <a href="/lesson-plans/graphing-sea-level-slopes-and-surface-currents" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-10/Screen%20Shot%202019-10-01%20at%204.14.44%20PM.png?itok=YCkZGEeR" width="100" height="56" alt="Sea Surface Height Maps from Radar Altimetry" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Lesson Plans</h3>
+<p><a href="/lesson-plans/graphing-sea-level-slopes-and-surface-currents" hreflang="en">Graphing Sea Level Slopes and Surface Currents</a></p>
+</div>
+    <div class="mnd-hp-layer-img">  <a href="/mini-lessonactivity/ocean-salinity-data-analysis" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2022-05/Screen%20Shot%202019-09-05%20at%2010.28.50%20AM.png?itok=Orn60Z1n" width="100" height="67" alt="Historical Ocean Salinity Data: Annual Mean Data" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Mini Lesson/Activity</h3>
+<p><a href="/mini-lessonactivity/ocean-salinity-data-analysis" hreflang="en">Ocean Salinity Data Analysis</a></p>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+              </div>
+</div>
+</div>
+
+
+
+
+
+<div class="mnd-hp-overlay">
+  <img class="homepage-earth mnd-img-overlay" src="../themes/mynasadata_theme/img/purple-overlay.png" alt="">
+  <div class="mnd-overlay-btn" id="hp-cryo">
+    <div class="mnd-hp-sphere-content">
+                      <div><div class="view view-cryosphere-frontpage view-id-cryosphere_frontpage view-display-id-block_1 js-view-dom-id-db6f63a18fd68a799d25a5ec7d43f32d9f89fee15daa671226eca5bc4b620b4b">
+  
+    
+      
+      <div class="view-content">
+      <div class="sphere-icon">
+  <a href="../cryosphere"><img class="mnd-color" src="../themes/mynasadata_theme/img/cryosphere_white.svg" alt="white cryosphere icon"></a>
+</div>
+<div class="mnd-hp-layer-content">
+         <a href="../phenomenon/changing-albedo-values"><h3>Cryosphere</h3></a>
+         <a href="../phenomenon/changing-albedo-values"><p>Go to Phenomenon Page</p></a>
+    </div>
+    <div class="mnd-hp-layer-img">  <a href="/lesson-plans/sea-ice-and-earth-system-story-map" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-10/SeaIceStoryMap.PNG?itok=JQ1OypRN" width="100" height="50" alt="Sea Ice and the Earth System Story Map" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Lesson Plans</h3>
+<p><a href="/lesson-plans/sea-ice-and-earth-system-story-map" hreflang="en">Sea Ice and the Earth System Story Map</a></p>
+</div>
+    <div class="mnd-hp-layer-img">  <a href="/mini-lessonactivity/changing-albedo-and-sea-ice" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/thumbnail/public/2019-09/Solar%20radiation.jpg?itok=mLLU6jiE" width="100" height="56" alt="Changes in Solar Radiation - Credit: NASA&#039;s Scientific Visualization Studio" typeof="Image" class="image-style-thumbnail" />
+
+</a>
+</div>
+<div class="mnd-hp-layer-content">
+<h3>Mini Lesson/Activity</h3>
+<p><a href="/mini-lessonactivity/changing-albedo-and-sea-ice" hreflang="en">Changing Albedo and Sea Ice</a></p>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+              </div>
+</div>
+</div>
+
+
+
+
+
+
+  </div>
+
+          </div>
+          <div class="mnd-hp-content">
+                            <div class="mnd-hp-content-column">
+                            <h1 class="h1-to-p">My NASA Data (MND) unveils our newest collection of resources.</h1>
+    <p role="heading">New Resource Topics include:</p>
+        <ul>
+        <li><strong><a href="/basic-page/about-atmosphere" target="_blank">Atmosphere</a></strong> - <a target="_blank" href="/phenomenon/creation-of-urban-heat-islands">Urban Heat Island</a></li>
+        <li><strong><a href="/basic-page/about-biosphere" target="_blank">Biosphere</a></strong> - <a target="_blank" href="/phenomenon/phytoplankton">Global Phytoplankton Distribution</a></li>
+        <li><strong><a href="/basic-page/about-cryosphere" target="_blank">Cryosphere</a></strong> - <a target="_blank" href="/phenomenon/changing-albedo-values">Changing Albedo Values of the Cryosphere</a></li>
+        <li><strong><a href="/basic-page/about-geosphere" target="_blank">Geosphere</a></strong> - <a target="_blank" href="/phenomenon/volcanic-eruptions">Volcanic Eruptions</a></li>
+        <li><strong><a href="/basic-page/about-hydrosphere" target="_blank">Hydrosphere</a></strong> - <a target="_blank" href="/phenomenon/ocean-circulation-patterns">Ocean Circulation</a></li>
+        <li><strong><a href="/basic-page/about-earth-system" target="_blank">Earth As a System</a></strong> - <a target="_blank" href="/phenomenon/scale-quantity-and-proportion">Scale, Quantity, and Proportion</a></li>
+        </ul>
+   
+    <p role="heading">Each topic contains the following resources:</p>
+    <ol>
+    <li><a href="/all-atmosphere-maps-and-data" target="_blank">Mini Lessons</a></li>
+    <li><a href="/all-atmosphere-lesson-plans" target="_blank">Lesson Plans and Story Maps</a></li>
+    <li><a href="/EarthSystemLAS/UI.vm" target="_blank">Data Visualizations</a></li>
+    </ol>
+    
+    <p>Don't miss our connections with <strong><a href="/all-atmosphere-globe-connection" target="_blank">The GLOBE Program</a> & <a target="_blank" href="/all-atmosphere-stem-career-connections">STEM Careers!</a></strong></p>
+
+    <div class="calendlyHomeDiv">
+	<!-- Calendly link widget begin -->
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+	<a role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/mynasadata/mnd-office-hours'});return false;">Click here to schedule time with us.</a>
+	<!-- Calendly link widget end -->
+    </div>
+</div>
+			<a href="https://mynasadata.larc.nasa.gov/EarthSystemLAS/UI.vm" target="_blank">
+                            <div class="mnd-hp-vis-button">
+                                <span>Access the MND</span>
+                                <div class="mnd-eye-icon">
+                               		<img src="../themes/mynasadata_theme/img/eye.svg" alt="eye icon">
+				 </div>
+                                <span>Data Visualization</span>
+                </div>
+		</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  </main>
+
+  <div class="mnd-footer-wrapper-homepage">
+                <div class="mnd-footer-container">
+                    <div class="ft-nasa">
+                        <div class="ft-title">
+                            <span>My NASA Data</span>
+                        </div>
+                        <div class="ft-sponsor">
+                            <div class="ft-title">Sponsored by:</div>
+                            <img src="../themes/mynasadata_theme/img/logo_nasa.png" alt="NASA Logo">
+                        </div>
+                    </div>
+                    <div class="ft-credits">
+                        <div><span>NASA Official: </span>Jessica Taylor</div>
+                        <div><span>Site Curator: </span><a href="mailto:ashlee.m.autore@nasa.gov">Ashlee Autore</a></div>
+			<div><span>Content Manager: </span><a href="mailto:angela.rizzi@nasa.gov">Angie Rizzi</a></div>
+                    </div>
+                    <div class="ft-links">
+                        <div class="icon_container">
+                            <span>
+                                <a href="https://www.youtube.com/user/MyNASAData" target="_blank">
+                                                                        <img src="/themes/mynasadata_theme/img/youtube_icon_red_and_black.svg" tabindex="0" alt="My Nasa Data Youtube Channel" class="social-icon-size footer-youtube-icon">
+                                </a>
+                            </span>
+                        </div>
+                        <div>Privacy Policy</div>
+                        <div tabindex="0" class="footer-contact-us"><a href="../contact-us" target="_blank">Contact My NASA Data</a></div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/135","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"UA-127217460-1","otherIds":["G-XFZ3QH0KQ2"],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"ckeditor_accordion\/accordion_style,classy\/base,classy\/messages,core\/normalize,google_tag\/gtag,google_tag\/gtag.ajax,mynasadata_theme\/global-styling,statistics\/drupal.statistics,system\/base,views\/views.module","theme":"mynasadata_theme","theme_token":null},"ajaxTrustedUrl":[],"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":0}},"statistics":{"data":{"nid":"135"},"url":"\/core\/modules\/statistics\/statistics.php"},"user":{"uid":0,"permissionsHash":"7fe17294ad2c56c0e4e711d71335f586be4900213bd9051a3d3a118d1ae24996"}}</script>
+<script src="/sites/default/files/js/js_R8Smb20DMK68YrwP5HHhMr3IPrDeDMDgC3CzP4247dg.js"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?s0od9k"></script>
+<script src="/sites/default/files/js/js_O01PKD8GWYwtMwVAn9hUiNZf2zxR7zr-g-RqtOmdNvM.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
+    <!-- Latest compiled Bootstrap JavaScript -->
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div hidden>
+      <span id="new-window-0">Opens in a new window</span>
+    </div>
+  </body>
+</html>

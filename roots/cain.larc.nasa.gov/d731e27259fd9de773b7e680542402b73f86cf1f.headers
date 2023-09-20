@@ -1,0 +1,15 @@
+GET https://cain.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Fri, 31 Jan 2020 20:25:19 GMT
+< Etag: "3a7-59d755f50970d"
+< Access-Control-Allow-Credentials: true
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Length: 935
+< Access-Control-Allow-Origin: *
+< Date: Tue, 19 Sep 2023 05:54:53 GMT

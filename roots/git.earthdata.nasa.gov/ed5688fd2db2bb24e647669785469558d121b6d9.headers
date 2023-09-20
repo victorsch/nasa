@@ -1,0 +1,18 @@
+GET https://git.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+< X-Frame-Options: SAMEORIGIN
+< Location: https://git.earthdata.nasa.gov/repos?visibility=public
+< Date: Tue, 19 Sep 2023 05:42:26 GMT
+< X-Arequestid: @1TNV6JKx102x3318539x0
+< Pragma: no-cache
+< Content-Language: en-US
+< Content-Length: 0
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Cache-Control: no-cache
+< Cache-Control: no-store
+< Strict-Transport-Security: max-age=31536000

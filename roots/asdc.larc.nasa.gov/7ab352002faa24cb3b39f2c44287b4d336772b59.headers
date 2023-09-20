@@ -1,0 +1,6 @@
+GET http://asdc.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://asdc.larc.nasa.gov/
+< Content-Length: 0

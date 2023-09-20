@@ -1,0 +1,13 @@
+GET https://firms2.modaps.eosdis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Last-Modified: Thu, 07 Sep 2023 14:34:49 GMT
+< Etag: "41ed-604c5c3242ed9"
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:03:55 GMT
+< Content-Length: 16877

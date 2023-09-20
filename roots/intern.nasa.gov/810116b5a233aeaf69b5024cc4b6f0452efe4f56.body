@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Raul Reutov">
+  <title>NASA Intern</title>
+  
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Apple Devices -->
+  <link rel="apple-touch-icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- IE -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom css for this page -->
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <!-- popup gallery, video thumbnail popups CSS -->
+  <link rel="stylesheet" type="text/css" href="magnific-popup/magnific-popup.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Owl Carousel stylesheet & theme -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	
+  <!-- Google Analytics Tracking Code -->
+  <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&yt=true&dclink=true"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+	
+  <!-- wep app -->
+  <link rel="manifest" href="manifest.json">
+</head>	
+<body>
+<!-- ---- INFO MODAL POPUPS ---- -->
+
+<!-- INTERN -->
+	<div class="modal fade" id="internInfo" tabindex="-1" aria-label="intern more info" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Intern Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <ul>
+			<li><strong>Applicants for this internship must be U.S. Citizens and meet a minimum 3.0 GPA requirement.</strong></li>
+          	<li>These paid internships are offered across NASA facilities in fall, spring, and summer sessions.</li>
+		  	<li>One application is viewed agencywide.</li>
+			<li>OSTEM interns may receive a stipend based on academic level and session length.</li>
+			<li>Prior experience is not required.</li>
+			<li>Applicants must be a full-time student (high school through graduate-level) or a part-time college-level student enrolled in a minimum of 6 semester hours.</li>
+			<li>Opportunities are available at the high school, undergraduate, graduate, and educator levels.</li>
+			<li>NASA also sponsors interns at the Jet Propulsion Laboratory (JPL) in California. To learn more or apply, click <a href="https://www.jpl.nasa.gov/edu/intern/" target="_blank">here.</a></li>
+		</ul>
+
+			<a class="apply-now-link-popup modal-anchor btn-link btn btn-blue" href="https://nasacentral.force.com/s/explore-opportunities" target="_blank" aria-label="link to apply to nasa programs">APPLY NOW!</a>
+			
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<!-- PATHWAYS -->
+  <div class="modal fade" id="pathwaysInfo" tabindex="-1" role="dialog" aria-label="pathways intern more info" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Pathways Intern Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <ul>
+			<li>NASA's work-study (co-op) program is a starting point to a career at NASA.</li>
+			<li>Pathways interns gain valuable work experience and professional development.</li>
+			<li>Paid federal civil servant opportunities with benefits are offered across most NASA facilities.</li>
+			<li>Completion of the Pathways program may lead to a NASA job offer.</li>
+
+          </ul>
+			
+			<a class="apply-now-link-popup btn btn-link btn-blue modal-anchor" href="https://www.nasa.gov/careers/pathways" target="_blank" aria-label="link to apply to nasa programs">LEARN MORE</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	<!-- FELLOW -->
+	
+	<div class="modal fade" id="fellowInfo" tabindex="-1" role="dialog" aria-label="fellow more info" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Fellow Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <ul>
+            <li>NASA Fellowships support graduate-level projects and proposals which contribute to a NASA Research Opportunity.</li>
+		  	<li>Student researchers are exposed to NASA's innovation-oriented culture and facilities.</li>
+			<li>Fellows participate in prestigious conferences and a Center Based Research Experience.</li>
+			<li>Fellowships support academic institutions by enhancing graduate learning and development.</li>
+          </ul>
+			
+			<a class="apply-now-link-popup btn modal-anchor btn-link btn-blue" href="https://www.nasa.gov/stem/fellowships/index.html" target="_blank" aria-label="link to apply to nasa programs">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<!-- INTERNATIONAL INTERN -->
+	
+	<div class="modal fade" id="internationalInternInfo" tabindex="-1" role="dialog" aria-label="international intern more info" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">International Intern Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <ul>
+			<li>Students work in a global environment and on multicultural international missions.</li>
+			<li>Projects are available for fall, spring, and summer sessions.</li>
+		  	<li>International internships are open to citizens of participating countries holding agreements with NASA.</li>
+			<li><strong>International students may also seek opportunities at the Jet Propulsion Laboratory (JPL), <a href="https://www.jpl.nasa.gov/edu/intern/" target="_blank">here.</a></strong></li>
+          </ul>
+			
+			<a class="apply-now-link-popup btn modal-anchor btn-link btn-blue" href="https://www.nasa.gov/stem/international-internships-for-students.html" target="_blank" aria-label="link to apply to nasa programs">LEARN MORE</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ^^^^ INFO MODAL POPUPS ^^^^ -->
+	
+	
+	
+<!-- ---- TOP THINGS TO KNOW - VIEW TESTIMONIALS POPUPS ---- -->
+	<!-- testimonial one -->
+	<div class="modal fade" id="testimonialOne" tabindex="-1" role="dialog" aria-label="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Andrea Lasta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          Andrea Lasta interned at Armstrong Flight Research Center and studies mechanical engineering at the University of Houston. Andrea immigrated to the U.S. with her family as a child, and shared, “After years of constant hard work, setbacks, and dreaming about the future, I finally made it to NASA!”
+		
+
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	<!-- testimonial two -->
+	<div class="modal fade" id="testimonialTwo" tabindex="-1" role="dialog" aria-label="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jonathan Catch the Bear</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          Jonathan Catch the Bear is a two-time NASA intern who has worked at both Ames and Langley Research Centers. He is studying business administration at Sitting Bull College and is a member of the Lakota Nation. Jonathan's message to all students, especially Native Americans, is: "If I could do it, you can too. If you need to, take small steps, but be sure to take those steps forward and remain focused. You never know what amazing things you're capable of until you try.”
+		
+
+        </div>
+      </div>
+    </div>
+  </div>
+	
+	<!-- testimonial three -->
+	<div class="modal fade" id="testimonialThree" tabindex="-1" role="dialog" aria-label="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Shilpa Kancharla</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          Shilpa Kancharla, a Space Communications and Navigation (SCaN) intern at Glenn Research Center, spent her summer working on the Cognitive Communications project to create tutorials for the utilization of communications data in AI systems. She is a master’s student in computer science at North Carolina State University.
+		
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ^^^^ TOP THINGS TO KNOW - VIEW TESTIMONIALS POPUPS ^^^^ -->
+
+
+	
+<!-- ---- NOTICE & UPDATES modal ---- -->
+<div class="modal fade" id="noticeAndUpdates" tabindex="-1" role="dialog" aria-label="NOTICES AND UPDATES info" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Notices and Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">          
+           
+			<ul>
+				<li>
+					Fall 2023 Session Begins: Aug. 28, 2023
+				</li>
+				<li>
+					Spring 2024 Session Application Deadline: Aug. 31, 2023
+				</li>
+				<li>
+					Summer 2024 Session Application Deadline: Oct. 20, 2023
+				</li>
+				<li>
+					Interns who are selected will be required to travel to a NASA facility to be badged even if the project is virtual or remote.
+				</li>
+				<li>
+					NASA interns typically work during the hours of 8 a.m. to 5 p.m., Monday - Friday, unless stated in the project description.
+				</li>
+				<li>
+					NASA follows guidelines from federal, state, and community officials regarding pandemic-related requirements. Protecting the health and safety of team members and staff is our primary priority.
+				</li>			
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ^^^^ NOTICE & UPDATES modal ^^^^ -->
+
+<!-- ---- PODCAST POPUP ---- -->
+<div id="podcast-popup" class="white-popup mfp-hide">
+  <audio src="#" id="hidden-player"></audio>
+	<div id="player">
+		<img src="images/media-section/podcast-thumb/podcast-thumb_better-together.jpg" class="coverr" alt="Houston We Have a Podcast. Episode 199. Better Together." height="100" width="100"/>
+		<div class="player-song">
+			<div class="title"></div>
+			<div class="artist"></div>
+			<progress value="0" max="1"></progress>
+			<div class="timestamps">
+				<div class="time-now">0:00:00</div>
+				<div class="time-finish">0:00:00</div>
+			</div>
+			<div class="actions">
+				<div class="play">
+					<div class="play-button paused" aria-label="play and pause btn">
+						<div class="left"></div>
+						<div class="right"></div>
+						<div class="triangle-1"></div>
+						<div class="triangle-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ^^^^ PODCAST POPUPS ^^^^ -->
+	
+	
+<!-- ---- HEADER ---- -->
+  <nav id="navbarHeader" class="head-section-indent">
+    <div class="container-fluid">
+      <div class="row">
+		  
+        <!-- LOGO -->
+        <div class="col-xl-2 col-lg-2 col-md-12">
+            <div class="row title-logo">
+                <a href="https://www.nasa.gov/" aria-label="Click to go to main NASA website" tabindex="0"><img class="zoom img-responsive" src="images/header/NASA.png" alt="NASA logo"></a>
+            </div>
+        </div>
+
+        <!-- TITLE -->
+        <div class="col-xl-8 col-lg-10 col-md-12 p-0">
+          <div class="header-title">
+            <h2>Find Your Place in Space</h2>
+			<h1>NASA'S INTERNSHIP PROGRAMS</h1>
+            <p class="normal-font">NASA Office of STEM Engagement</p>
+          </div>
+        </div>
+
+        <!-- NOTICES Popup -->
+        <div class="col-xl-2 col-lg-12 col-md-12">
+          <!-- Special nav link for modal popup notices-popup notice & updates-->
+			<div class="row">
+				<div class="col-12">
+				  <div id="notices-popup">
+					<!-- <a data-toggle="modal" href="#noticeAndUpdates" class="btn open-popup" aria-label="open NOTICE & UPDATES">NOTICES AND UPDATES</a> -->
+					<button type="button" class="btn btn-notice" data-bs-toggle="modal" aria-label="open NOTICE & UPDATES" data-bs-target="#noticeAndUpdates">
+						NOTICES AND UPDATES
+					  </button>
+				  </div>  
+				</div>
+			</div>
+        </div>
+		  
+      </div>
+    </div>
+  </nav>
+<!-- ^^^^ HEADER ^^^^ -->
+	
+	
+
+<!-- ---- TOP INFO TILE SECTION ---- -->
+	<div id="top-section" class="container-fluid">
+	
+		<!-- NASA opportunity section -->
+		<div class="row">
+
+		  	<!-- intern -->
+			<div class="left-card opportunity-card col-12 col-lg-6">
+			
+				<img class="img-fluid" src="images/top-section/Intern-Tile-1.jpg" alt="intern background">
+				<h2 class="tile-title"><a href="https://nasacentral.force.com/s/explore-opportunities" target="_blank">INTERN</a></h2>
+			
+				<div class="opportunity-card-content">
+					<p>
+						NASA Office of STEM Engagement (OSTEM) paid <a href="https://nasacentral.force.com/s/explore-opportunities" target="_blank">internships</a> allow high school and college-level students to contribute to agency projects under the guidance of a NASA mentor.
+					</p>
+					<!-- <a data-info_id="intern-0" href="#internInfo" class="apply-now-link btn btn-blue info-popup-link" aria-label="Intern more info">LEARN MORE</a> -->
+					<button type="button" class="apply-now-link btn btn-blue info-popup-link" data-bs-toggle="modal" data-bs-target="#internInfo">
+						LEARN MORE
+					  </button>
+				</div>
+				
+				
+			</div>
+			
+			<!-- pathways -->
+			<div class="right-card opportunity-card col-12 col-lg-6">
+	
+				<img class="img-fluid" src="images/top-section/Intern-Tile-4.jpg" alt="pathways background">
+				<h2 class="tile-title"><a href="https://www.nasa.gov/careers/pathways" target="_blank">PATHWAYS INTERN</a></h2>
+				
+				<div class="opportunity-card-content">
+					<p>
+						The <a href="https://www.nasa.gov/careers/pathways" target="_blank">Pathways</a> program offers current students and recent graduates paid internships that are direct pipelines to full-time employment at NASA upon graduation. Launch your career with a Pathways internship.
+					</p>
+					<!-- <a data-info_id="pathways-1" href="#pathwaysInfo" class="apply-now-link btn btn-blue info-popup-link" aria-label="Pathways intern more info">LEARN MORE</a> -->
+					<button type="button" class="apply-now-link btn btn-blue info-popup-link" data-bs-toggle="modal" data-bs-target="#pathwaysInfo">
+						LEARN MORE
+					  </button>
+				</div>
+				
+				
+			</div>
+	  	</div>
+		  
+		<div class="row">
+			
+			<!-- fellow -->
+			<div class="left-card bottom-card opportunity-card col-12 col-lg-6">
+		
+				<img class="img-fluid" src="images/top-section/Intern-Tile-3.jpg" alt="fellow background">
+				<h2 class="tile-title"><a href="https://www.nasa.gov/stem/fellowships/index.html" target="_blank">FELLOW</a></h2>
+				
+				<div class="opportunity-card-content">
+					<p>
+						NASA Fellowships allow graduate-level students to pursue research projects in response to the agency’s current research priorities.
+					</p>
+					<!-- <a data-info_id="fellow-2" href="#fellowInfo" class="apply-now-link btn btn-blue info-popup-link" aria-label="Fellow more info">LEARN MORE</a> -->
+					<button type="button" class="apply-now-link btn btn-blue info-popup-link" data-bs-toggle="modal" data-bs-target="#fellowInfo">
+						LEARN MORE
+					  </button>
+				</div>
+
+			</div>
+			
+		  	<!-- international intern -->
+			<div class="right-card bottom-card opportunity-card col-12 col-lg-6">
+
+				<img class="img-fluid" src="images/top-section/Intern-Tile-2.jpg" alt="International Intern background">
+				<h2 class="tile-title"><a href="https://www.nasa.gov/stem/international-internships-for-students.html" target="_blank">INTERNATIONAL INTERN</a></h2>
+				
+				<div class="opportunity-card-content">
+					<p>
+						University students from participating countries may intern through the agency’s International Internships Project. Students work with other interns under the guidance of a NASA mentor.
+					</p>
+					<!-- <a data-info_id="international-3" href="#internationalInternInfo" class="apply-now-link btn btn-blue info-popup-link"  aria-label="International intern more info">LEARN MORE</a> -->
+					<button type="button" class="apply-now-link btn btn-blue info-popup-link" data-bs-toggle="modal" data-bs-target="#internationalInternInfo">
+						LEARN MORE
+					  </button>
+				</div>
+			</div>
+		</div>
+	
+	
+	</div>
+<!-- ^^^^ TOP INFO TILE SECTION ^^^^ -->
+	
+	
+	
+<!-- ---- THINGS TO KNOW ---- -->	
+
+<div class="section-title">
+	<h2>Top Things to Know about NASA Internships</h2>
+</div>
+
+<section aria-label="Frequently asked questions" id="things-to-know-section">
+	<div class="container-fluid">
+	  <div class="row flex-column-reverse flex-lg-row">
+		<div class="col-lg-6 col-12 p-0" id="top-things-questions">
+		  <div class="accordion" id="accordionTopThings">
+			<div class="card">
+			  <div class="card-header" id="headingOne">
+				
+				<button class="focus-border ml-2 btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-label="Intern" aria-expanded="true" aria-controls="collapseOne">
+					<span class="accordion-title">Intern</span>
+				</button>
+				  
+				<div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" aria-label="faq arrow">
+				  <div class="fa fa-angle-right"></div>
+				</div>
+				  
+				  <hr>
+				  
+			  </div>
+			  <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-bs-parent="#accordionTopThings">
+				<div class="card-body">
+					<ol>
+						<li>
+							<h3>What are the eligibility requirements?</h3>
+							<p class="accordion-sub-title">Candidates must:</p>
+							<ul>
+								<li>Be a U.S. citizen.</li> 
+								<li>Have a cumulative 3.0 GPA (on a 4.0 scale).</li>
+								<li>Be a full-time student (high school through graduate-level) or a part-time college-level student enrolled in a minimum of 6 semester hours.</li>
+								<li>Be a minimum of 16 years of age at the time of application (no exceptions).</li>
+								<li>Undergraduate and graduate students must be enrolled in a degree-granting program at a U.S. Department of Education accredited college or university with a course of study aligned to NASA’s needs. Educators are also eligible to apply.</li>
+							</ul>
+							<br>
+						</li>
+						
+						
+						<li>
+							<h3>I have completed my undergraduate degree and am transitioning to graduate school. Am I eligible during this gap period?</h3>
+							
+							If you have completed your undergraduate degree and are enrolled in graduate school the following semester, you are eligible for an internship during the gap period.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>When do internships take place, and when should I apply?</h3>
+							
+							There are three internship sessions: 
+							
+							<div class="tableParent">
+								<table>
+
+								  <tr>
+									<th>Session</th>
+									<th>Duration</th>
+									<th>Typical Start and End</th>
+									<th>Application Deadline</th>
+								  </tr>
+
+									  <tr>
+										<td>Spring</td>
+										<td>16 Weeks</td>
+										<td>Mid-January - Early May</td>
+										<td>August</td>
+									  </tr>
+									  <tr>
+										<td>Summer</td>
+										<td>10 Weeks</td>
+										<td>Late May/Early June - August</td>
+										<td>October</td>
+									  </tr>
+									  <tr>
+										<td>Fall</td>
+										<td>16 Weeks</td>
+										<td>Late August/Early September - Mid-December</td>
+										<td>January</td>
+									  </tr>
+
+								</table>
+							</div>
+							
+							
+							<br>
+						</li>
+						
+						<li>
+							<h3>What types of projects are available?</h3>
+							
+							Projects vary at every center each session. Once you complete an application, you will be able to view the available projects for the specified session. You can use filters to locate specific projects that meet your desired geographic location and skill sets.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Are selections made for every project?</h3>
+							
+							Selections are contingent upon many factors, so some projects may remain unfilled.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Are letters of recommendation required?</h3>
+							
+							Letters of recommendation are not required as part of the NASA Office of STEM Engagement Internships application.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Will I be asked to conduct an application interview?</h3>
+							
+							Many project mentors like to conduct phone or video interviews with potential candidates prior to internship selection; however, this is not a requirement. Regardless, make sure that you are checking your phone and email regularly once you have applied to ensure you do not miss a great opportunity!
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>When will I hear if I am selected?</h3>
+							
+							Selections may occur any time after you submit your application. You will be contacted if you are considered for a project and will receive an official offer letter via email if selected.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Where will I live while interning? Will I need a car?</h3>
+							
+							Interns are responsible for making their own housing arrangements. This includes locating their own housing options and paying for their housing. While NASA does not provide housing, we will provide you sufficient time and options to locate housing. Interns will have the opportunity to work at one of NASA's centers located around the country. Many centers will provide resources, such as online forums, where you can connect with other employees to find affordable housing options in the area.
+							<br><br>
+							Your center location and housing options will determine if you need a car. At most centers, unless you find housing within walking distance, you will most likely need a car. However, there are ample public transportation options at some centers.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Are internships paid?</h3>
+							
+							The majority of interns received a stipend award, which is based on academic level and session duration.
+							<br><br>
+						</li>
+						
+					</ol>
+				</div>
+			  </div>
+			</div>
+			  
+			<div class="card">
+			  <div class="card-header" id="headingFour">
+
+				<button class="focus-border ml-2 btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-label="Pathways Intern" aria-expanded="true" aria-controls="collapseFour">
+					<span class="accordion-title">Pathways Intern</span>
+				</button>
+
+				<div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseFour"  aria-expanded="false" aria-controls="collapseFour" aria-label="faq arrow">
+				  <div class="fa fa-angle-right"></div>
+				</div>
+				  
+				  <hr>
+			  </div>
+
+			  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordionTopThings">
+				<div class="card-body">
+					 <ol>
+						<li>
+							<h3>What are the eligibility requirements for Pathways?</h3>
+							<p class="accordion-sub-title">Candidates must meet the following <a href="https://www.youtube.com/watch?v=1Ni_mpMorJ8" target="_blank">requirements:</a></p>
+							<ul>
+								<li>Be a U.S. citizen.</li>
+								<li>Be at least 16 years of age.</li>
+								<li>Be enrolled or accepted for enrollment on at least a half-time basis in an accredited educational institution and maintain enrollment at least half time as defined by the institution.</li>
+								<li>Be pursuing a degree or certificate.</li>
+								<li>Currently have and maintain a cumulative 2.9 grade point average on a 4.0 scale.</li>
+								<li>Be able to complete at least 640 hours of work prior to completing degree/certificate requirements.</li>
+								<li>Meet any other requirements described in the announcement, such as specific educational requirements.</li>
+							</ul>
+							<br>
+						</li>			
+						<li>
+							<h3>Where and when are Pathways opportunities announced?</h3>
+															
+								All of our job postings can be found on USAJobs.gov. <a href="https://www.youtube.com/watch?v=illvTmlYTVE" target="_blank">Application windows</a> for the Pathways Intern Program open in the spring and fall each year.<br>
+								Our application windows open three times per year—typically around February, April, and September.<br>
+								In order to be ready to apply, you can visit USAJobs.gov to create your profile, <a href="https://www.youtube.com/watch?v=ghF4SU7XSRs" target="_blank">build your resume</a>, and set up a notification that will alert you when our positions open.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Are Pathways interns paid? </h3>
+							
+							Yes. The starting pay for Pathways interns varies depending on academic hours completed, position location and grade level(s) of the position being filled. Pathways interns are promoted on the basis of academic hours completed and performance ratings.
+							<br><br>
+							In addition to pay and <a href="https://www.youtube.com/watch?v=NdWcHHqdqNk" target="_blank">valuable work experience</a>, you may receive the same benefits as a permanent employee. This includes health, life, dental and vision insurance, retirement plan, paid leave, holidays and more. More information on <a href="https://www.youtube.com/watch?v=kS7iB6jsYzM" target="_blank">NASA benefits</a> is available <a href="https://www.nasa.gov/careers/benefits" target="_blank">here</a>.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>How long does the intern appointment last?</h3>
+							
+							Pathways internship appointments are designed to last for multiple semesters until graduation and expire 120 days after you complete your degree requirements.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>What happens when I complete my degree?</h3>
+							
+							A Pathways internship may be <a href="https://www.youtube.com/watch?v=ahriVbDcYpI" target="_blank">converted</a> to a permanent civil service position (or, in some circumstances, a term position lasting 1-6 years) within 120 days of successful completion of degree requirements. To be eligible for conversion, an intern must:
+							<ul>
+								<li>Have a cumulative grade point average of at least 2.9 on a 4.0 scale.</li>
+								<li>Complete at least 640 hours of work experience in the Pathways Intern Program before completing degree requirements.</li>
+								<li>Successfully complete all required training and development assignments.</li>
+								<li>Meet the qualification requirements for the position to which the intern will be converted.</li>
+								 <li>Receive a favorable recommendation for conversion from the supervisor.</li>
+								<li>Meet all other requirements for the position (e.g., drug testing, security clearance, etc.).</li>
+							</ul>
+							<br>
+						</li>
+						
+						<li>
+							<h3>I'm not a science or engineering student. Can I still get an internship at NASA?</h3>
+							
+							Yes, approximately 25% of Pathways Interns are non-STEM majors. These interns may support a variety of business and program management work, including human resources, administration and program analysis, accounting and budget, communication and public relations, procurement and contracts, information technology, security, and education. No matter your academic major, you’ll find that NASA is a place where you’ll belong to a <a href="https://www.youtube.com/watch?v=bGyop42nx0Y" target="_blank">supportive community</a> that values your background, perspective, and life experiences.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>What is the NASA work environment like?</h3>
+							
+							As a Pathways Intern, we invest in you by offering a tailored <a href="https://www.youtube.com/watch?v=NdWcHHqdqNk" target="_blank">work experience</a>—assigning you with challenging, meaningful work aligned with your academic or career interests, providing you with life-long learning and growth opportunities, and cultivating a supportive community that offers you a home away from home.
+
+							<br><br>
+						</li>
+
+						<li>
+							<h3>What type of student is NASA looking for?</h3>
+							
+							Our commonalities unite us as a team, and our differences strengthen our capabilities as an organization. For our Pathways Intern positions, we’re looking for students who are not only captivated with the <a href="https://www.nasa.gov/careers/our-mission-and-values" target="_blank">NASA Vision & Mission</a>, but who are also <a href="https://www.youtube.com/watch?v=Lsfjg-zLOwM" target="_blank">well-rounded with diverse backgrounds, perspectives, and life experiences</a>. If you enjoy working on teams and have a willingness to learn new things, we’re looking for you!
+
+							<br>
+						</li>
+					</ol>
+				</div>
+			  </div>
+			</div>
+			  
+			
+			<div class="card">
+			  <div class="card-header" id="headingThree">
+				
+				<button class="focus-border ml-2 btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-label="International Intern" aria-expanded="true" aria-controls="collapseThree">
+					<span class="accordion-title">International Intern</span>
+				</button>
+				  
+				<div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" aria-label="faq arrow">
+				  <div class="fa fa-angle-right"></div>
+				</div>
+				  
+				  <hr>
+			  </div>
+			  
+			  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionTopThings">
+				<div class="card-body">
+					  <ol>
+						<li>
+							<h3>Which countries currently have agreements to participate in the I<sup>2</sup> program?</h3>
+							
+							A full list of participating countries and contacts may be found at <a href="https://www.nasa.gov/stem/international-internships-for-students.html" target="_blank">https://www.nasa.gov/stem/international-internships-for-students.html</a>. If you are a citizen of one of the countries listed and are interested in applying to one of the available research opportunities, please contact the entity in your country currently participating in this program.
+							<br><br>
+						</li>
+						
+						<li>
+							<h3>Are there any additional requirements?</h3>
+							<p class="accordion-sub-title">Candidates must:</p>
+							<ul>
+								<li>Currently be pursuing an undergraduate or graduate degree in a science, technology, engineering, or mathematics (STEM) in a field relevant to NASA's mission priorities.</li>
+								<li>Maintain high academic standing.</li>
+								<li>Demonstrate an active interest in the U.S. space program.</li>
+								<li>Communicate proficiently in English.</li>
+							</ul>
+							<br>
+						</li>
+						
+						<li>
+							<h3>When do International Internship opportunities take place?</h3>
+							
+							Internships are offered in three sessions during the calendar year: spring, summer, and fall.
+							<br><br>
+						</li>
+					</ol>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		  
+		<div class="col-lg-6 col-12" id="top-things-carousel">
+			<div id="internCarousel" class="carousel slide" data-bs-ride="true">
+			  <div class="carousel-indicators">
+				<span data-bs-target="#internCarousel" data-bs-slide-to="0" class="active"></span>
+				<span data-bs-target="#internCarousel" data-bs-slide-to="1"></span>
+				<span data-bs-target="#internCarousel" data-bs-slide-to="2"></span>
+			  </div>
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="images/interns-carousel/Lastra.jpg" alt="Andrea Lasta was an intern at NASA">
+					<div class="carousel-caption d-md-block">
+						<div class="row">
+							<div class="col-6 d-flex justify-content-center">
+								<p class="h5">Andrea Lasta</p>
+							</div>
+							<div class="col-6">
+								<!-- <a data-intern_id="1-0" href="#testimonialOne" class="intern-modal btn btn-blue" aria-label="intern one testimonial popup"><p>View Testimonial</p></a> -->
+								<button type="button" class="intern-modal btn btn-blue" data-bs-toggle="modal" data-bs-target="#testimonialOne">
+									View Testimonial
+								  </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/interns-carousel/Catch-The-Bear.jpg" alt="Jonathan Catch the Bear was an intern at NASA">
+					<div class="carousel-caption d-md-block">
+						<div class="row">
+							<div class="col-6 d-flex justify-content-center">
+								<p class="h5">Jonathan Catch the Bear</p>
+							</div>
+							<div class="col-6">
+								<!-- <a data-intern_id="1-1" data-bs-toggle="modal" data-bs-target="#testimonialTwo" href="#testimonialTwo" class="intern-modal btn btn-blue" aria-label="intern two testimonial popup"><p>View Testimonial</p></a> -->
+								<button type="button" data-bs-toggle="modal" class="intern-modal btn btn-blue" aria-label="intern two testimonial popup" data-bs-target="#testimonialTwo">
+									View Testimonial
+								  </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/interns-carousel/Kancharla.jpg" alt="Shilpa Kancharla was an intern at NASA">
+					  <div class="carousel-caption d-md-block">
+						<div class="row">
+							<div class="col-6 d-flex justify-content-center">
+								<p class="h5">Shilpa Kancharla</p>
+							</div>
+							<div class="col-6">
+								<!-- <a data-intern_id="1-2" href="#testimonialThree" class="intern-modal btn btn-blue" aria-label="intern three testimonial popup"><p>View Testimonial</p></a> -->
+								<button type="button" class="intern-modal btn btn-blue" data-bs-toggle="modal" data-bs-target="#testimonialThree">
+									View Testimonial
+								  </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+				
+				
+			  <a class="carousel-control-prev" href="#internCarousel" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#internCarousel" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+		
+	  </div>
+	</div>
+  </section>
+<!-- ^^^^ THINGS TO KNOW ^^^^ -->
+	
+	
+	
+<!-- ---- MEDIA CAROUSEL ---- -->
+	<div class="section-title">
+		<h2>Explore More</h2>
+	</div>
+
+	<!-- LOADING FOR CAROUSEL -->
+	<div id="loading-placeholder">
+        <div class="loader"></div>
+    </div>
+	
+	<section id="media-section" aria-label="Opportunity Videos">
+		<div class="container-fluid p-0">
+			 <div class="col-12 p-0">
+
+            <div id="media-carousel" class="owl-carousel owl-theme">
+
+			<!-- VIDEO 1 -->
+			<div class="card">
+				<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=QWK1RWByZkM" data-video_id="reset-password">
+						<img src="images/media-section/play-button.png" alt="Video Play Button">
+					</a>
+				</div>
+				<div>
+					<img src="images/media-section/reset-password-overlay1.png" class="video-thumbnail" alt="How Do I Reset My Password Video Banner">
+				</div>
+				<div class="card-body">
+
+					<p class="card-title">How Do I Reset My Password?</p>
+
+				</div>
+			</div>
+
+			<!-- VIDEO 2 -->
+			<div class="card">
+				<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=4pv_mHNJj_A" data-video_id="enter-skills">
+						<img src="images/media-section/play-button.png" alt="Video Play Button">
+					</a>
+				</div>
+				<div>
+					<img src="images/media-section/search-for-skills-overlay.png" class="video-thumbnail" alt="How Do I Enter my Skills Video Banner">
+				</div>
+				<div class="card-body">
+
+					<p class="card-title">How Do I Enter my Skills?</p>
+
+				</div>
+			</div>
+
+			<!-- VIDEO 3 -->
+			<div class="card">
+				<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=Z19c7tXFdjk" data-video_id="search-academic">
+						<img src="images/media-section/play-button.png" alt="Video Play Button">
+					</a>
+				</div>
+				<div>
+					<img src="images/media-section/my-school-overlay.png" class="video-thumbnail" alt="How Do I Search for my Academic Institution Video Banner">
+				</div>
+				<div class="card-body">
+
+					<p class="card-title">How Do I Search for my Academic Institution?</p>
+
+				</div>
+			</div>
+				
+			<!-- VIDEO 4 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=NJAtLrRhkfg" data-video_id="1-0">
+                  		<img src="images/media-section/play-button.png" alt="Video Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/mission-equity.png" class="video-thumbnail" alt="Mission Equity Video Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">Join NASA Astronauts on Mission Equity</p>
+
+				</div>
+			 </div>
+				
+			<!-- VIDEO 5 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=j1t-LWMZqY4"  data-video_id="1-1">
+                  		<img src="images/media-section/play-button.png" alt="Video Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+					<img src="images/media-section/who-are-we.png" class="video-thumbnail" alt="Intern Montage Video Banner">
+			  	</div>
+				<div class="card-body">
+
+					<p class="card-title">Who Are We?</p>
+		
+				</div>
+			 </div>
+				
+			<!-- VIDEO 6 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=DMyyab4W_y8" data-video_id="1-2">
+                  		<img src="images/media-section/play-button.png" alt="Video Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/artemis-generation.png" class="video-thumbnail" alt="Artemis Generation Video Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">Join Us – The Artemis Generation</p>
+
+				</div>
+			 </div>
+				
+				<!-- PODCAST 0 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a id="podcast-0" class="open-popup-link" data-podcast_id="1-0" href="#podcast-popup">
+                  		<img src="images/media-section/play-button.png" alt="Podcast Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/successful-intern.png" class="video-thumbnail" alt="How to Be a Successful Intern Podcast Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">How to Be a Successful Intern</p>
+
+				</div>
+			 </div>
+				
+				<!-- PODCAST 1 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a id="podcast-1" class="open-popup-link" data-podcast_id="1-1" href="#podcast-popup">
+                  		<img src="images/media-section/play-button.png"  alt="Podcast Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/better-together.png" class="video-thumbnail" alt="Better Together Podcast Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">Better Together</p>
+
+				</div>
+			 </div>
+				
+				<!-- PODCAST 2 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a id="podcast-2" class="open-popup-link" data-podcast_id="1-2" href="#podcast-popup">
+                  		<img src="images/media-section/play-button.png" alt="Podcast Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/path-to-success.png" class="video-thumbnail" alt="The Path to Success Podcast Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">The Path to Success</p>
+
+				</div>
+			 </div>
+				
+				<!-- PODCAST 3 -->
+			<div class="card">
+			   	<div class="play-btn">
+					<a id="podcast-3" class="open-popup-link" data-podcast_id="1-3" href="#podcast-popup">
+                  		<img src="images/media-section/play-button.png" alt="Podcast Play Button">
+                	</a>
+			  	</div>
+			  	<div>
+                	<img src="images/media-section/women-in-stem.png" class="video-thumbnail" alt="Women in STEM Podcast Banner">
+              	</div>
+				<div class="card-body">
+
+					<p class="card-title">Women in STEM</p>
+
+				</div>
+			 </div>
+				
+				<!-- LINK 1 -->
+				<div class="card">
+			  	<div>
+					<a target="_blank" href="https://www.nasa.gov/audience/forstudents/careers/index.html" aria-label="link to explore careers at NASA for students">
+                		<img src="images/media-section/exploreing-careers.png" class="video-thumbnail" alt="person working on James Webb Space Telescope">
+					</a>
+              	</div>
+				<div class="card-body">
+					<a target="_blank" href="https://www.nasa.gov/audience/forstudents/careers/index.html" aria-label="link to explore careers at NASA for students">
+						<p class="card-title">Exploring Careers @ NASA - Students</p>
+					</a>
+
+				</div>
+			 </div>
+			
+			 </div>
+			</div>
+		</div>
+	</section>
+<!-- ^^^^ MEDIA CAROUSEL ^^^^ -->
+	
+	
+
+<!-- ---- MAP SECTION ---- -->
+	<div class="section-title">
+		<h2>NASA Locations</h2>
+	</div>
+
+	<div class="container-fluid">
+		
+		<div class="row">
+            <div class="col-12">
+              <div id="ames" class="mfp-hide map-popup">
+                <h4>AMES Research Center</h4>
+                <p>Mountain View, California</p>
+				  <ul>
+				  	<li>Located in the heart of California's Silicon Valley and less than an hour from San Francisco</li>
+					<li>Known for its cutting-edge research and development work supporting NASA's most important missions</li>
+					<li>Missions encompass everything from designing spacecraft entry systems and next-generation aircraft to harnessing quantum computing for advanced modeling and simulation, conducting research in astrobiology, and influencing the most advanced robotics and human technology</li>
+				  
+				  </ul>
+              </div>
+
+              <div id="vandenberg" class="mfp-hide map-popup">
+                <h4>Vandenberg Space Force Base</h4>
+                <p>Lompoc, California</p>
+              </div>
+
+              <div id="jpl" class="mfp-hide map-popup">
+                <h4>Jet Propulsion Laboratory</h4>
+                <p>Pasadena, California</p>
+				
+				<ul>
+					<li>A unique national research facility that carries out robotic space and Earth science missions</li>
+					<li>Developed and manages NASA's Deep Space Network, a worldwide system of antennas that communicated with interplanetary spacecraft</li>
+				</ul>
+              </div>
+
+              <div id="armstrong" class="mfp-hide map-popup">
+                <h4>Armstrong Flight Research Center</h4>
+                <p> Edwards Air Force Base, California</p>
+				
+				<ul>
+					<li>Best known for its achievements in atmospheric flight research and operations, Armstrong Flight Research Center aims to advance science and technology through flight.</li> 
+					<li>Located in the majestic western Mojave Desert, which is less than two hours from the excitement of Los Angeles</li>
+					<li>Led major advancements in the design and capabilities of state-of-the-art civilian and military aircraft, including designing supersonic jets that push the frontiers of flight overhead, as well as sophisticated remotely piloted aircraft that safely detect forest fire hot spots</li>
+
+				</ul>
+              </div>
+
+              <div id="whitesands" class="mfp-hide map-popup">
+                <h4>White Sands Test Facility</h4>
+                <p>Las Cruces, New Mexico</p>
+				  
+				<ul>
+					<li>The facility tests and evaluates potential hazardous materials, spaceflight components, and rocket propulsion systems.</li>
+				</ul>
+              </div>
+
+              <div id="johnson" class="mfp-hide map-popup">
+                <h4>Johnson Space Center</h4>
+                <p>Houston, Texas</p>
+				  
+				<ul>
+					<li>Best known as the home of NASA's Astronaut Corps and Mission Control and the nerve center for America's human space program</li> 
+					<li>From the early Gemini and Apollo projects to today's International Space Station and Orion projects, Johnson continues to lead NASA's efforts in human space exploration.</li>
+					<li>Serves as the lead for the International Space Station—the U.S.-led collaborative effort of 16 nations that is the largest and most complex human facility ever to operate in space</li>
+					<li>Johnson's 3,100 civil service employees push the boundaries of human spaceflight, biological science, and research into how humans can live and thrive in space.</li>
+				</ul>
+              </div>
+
+              <div id="michoud" class="mfp-hide map-popup">
+                <h4>Michoud Assembly Facility</h4>
+                <p>New Orleans, Louisiana</p>
+				  
+				<ul>
+					<li>Premiere site for the manufacture and assembly of large-scale space structures and systems</li>
+				</ul>
+              </div>
+
+              <div id="stennis" class="mfp-hide map-popup">
+                <h4>Stennis Space Center</h4>
+                <p>Hancock County, Mississippi</p>
+				  
+				<ul>
+					<li>NASA's Stennis Space Center sits in picturesque Hancock County on an expansive campus with its own post office, bank, credit union, daycare, fitness center, convenience store, fuel station, and more. It is located less than an hour from the excitement of New Orleans and charm of Biloxi.</li>
+					<li>As NASA's primary rocket propulsion testing ground, Stennis oversees rocket propulsion test services for NASA, the Department of Defense, and the private sector, including the RS-25 engine testing for NASA's Space Launch System, which will take humans deeper into space than ever before.</li>
+					<li>Engaged in a range of scientific research to support NASA's Applied Sciences Program, which will help to build a greater understanding of Earth and the solar system</li>
+				</ul>
+              </div>
+
+              <div id="marshall" class="mfp-hide map-popup">
+                <h4>Marshall Space Flight Center</h4>
+                <p>Huntsville, Alabama</p>
+				  
+				<ul>
+					<li>Provides multidisciplined engineering expertise for a variety of space transportation and propulsion systems</li>
+					<li>Enables scientific discovery through the development of hardware and instruments for projects, including the Chandra X-ray Observatory, the Fermi Gamma-ray Space Telescope, and the Japanese-led Hinode mission to study the Sun</li>
+					<li>Develops and operates major components and systems on the International Space Station while supporting its science operations around the clock</li>
+					<li>Marshall will deliver the systems needed for the Space Launch System, which will be the nation's next advanced heavy-lift vehicle—and the most powerful rocket ever built.</li>
+				</ul>
+              </div>
+
+              <div id="kennedy" class="mfp-hide map-popup">
+                <h4>Kennedy Space Center</h4>
+                <p>Merritt Island, Florida</p>
+				  
+				<ul>
+					<li>Located along the golden shores of Florida's eastern coast, Kennedy's rich legacy includes the assembly, integration and launch of all U.S. human space flight missions, including Apollo and the space shuttle.</li>
+					<li>Home to NASA's Launch Services Program, which launches satellites and robotic missions to learn more about our home planet and to unlock the secrets of the universe</li>
+					<li>Provides support to International Space Station operations as the orbiting laboratory enters its second decade of discoveries</li>
+					<li>Partners with industry as it develops the multi-user Kennedy Spaceport</li>
+				</ul>
+              </div>
+
+              <div id="ivvf" class="mfp-hide map-popup">
+                <h4>Katherine Johnson IV &amp; V Facility</h4>
+                <p>Fairmont, West Virginia</p>
+				  
+				<ul>
+					<li>NASA IV&amp;V assures the safety and success of software on NASA's highest-profile missions.</li>
+				</ul>
+              </div>
+
+              <div id="langley" class="mfp-hide map-popup">
+                <h4>Langley Research Center</h4>
+                <p>Hampton, Virginia</p>
+				 
+				<ul>
+					<li>Established in 1917 as the nation's first civil aeronautics research laboratory, NASA's Langley Research Center is located in the Hampton Roads metro area in beautiful coastal Virginia near historical Jamestown and Williamsburg.</li>
+					<li>The center's research, science, and technology development have revolutionized aviation and space flight, and the center continues to fuel NASA's significant contributions in science and engineering.</li>
+					<li>Known for its work on cutting-edge product lines, including advanced materials and structural systems; aerosciences; atmospheric characterization; entry, descent, and landing; intelligent flight systems; measurement systems; and systems analysis and concepts</li>
+				</ul>
+              </div>
+
+              <div id="wallops" class="mfp-hide map-popup">
+                <h4>Wallops Flight Facility</h4>
+                <p>Wallops Island, Virginia</p>
+				  
+				<ul>
+					<li>Provides launch range services to meet government and commercial sector needs for accessing flight regimes worldwide, to the Moon, and beyond</li>
+				</ul>
+              </div>
+
+              <div id="nasahq" class="mfp-hide map-popup">
+                <h4>Mary W. Jackson NASA Headquarters</h4>
+                <p>Washington, D.C.</p>
+				  
+				<ul>
+					<li>Oversees the work of the agency's numerous space flight centers, science centers, research centers, and other installations</li>
+					<li>Work includes establishing management policies, procedures, and performance criteria; evaluating mission progress; and analyzing all aspects of NASA programs</li>
+					<li>Responsible for developing the NASA budget and for communicating with the White House and Congress</li>
+				</ul>
+              </div>
+
+              <div id="goddard" class="mfp-hide map-popup">
+                <h4>Goddard Space Flight Center</h4>
+                <p>Greenbelt, Maryland</p>
+				  
+				<ul>
+					<li>Best known for its leadership in scientific discovery and understanding, NASA Goddard is located between the vibrant cities of Baltimore and Washington, D.C.</li>
+					<li>Home of innovative Earth science, astrophysics, heliophysics, and planetary science, as well as the nation's largest group of scientists and engineers dedicated to using observations from space to expand knowledge of Earth and our solar system</li>
+					<li>Projects include many of NASA's Earth observation, astronomy, and space physics missions</li>
+					<li>Serves as a major U.S. laboratory for developing and operating robotic scientific spacecraft</li>
+				</ul>
+              </div>
+
+              <div id="goddard-institute" class="map-popup mfp-hide">
+                <h4>Goddard Institute for Space Studies</h4>
+                <p>New York City, New York</p>
+				  
+				<ul>
+				 	<li>The institute is a laboratory in the Earth Sciences Division of NASA's Goddard Space Flight Center.</li>
+					<li>Focuses on a broad study of global change, addressing natural and man-made changes in our environment that occur on various time scales</li>
+
+				</ul>
+              </div>
+
+              <div id="glenn" class="mfp-hide map-popup">
+                <h4>Glenn Research Center</h4>
+                <p>Cleveland, Ohio</p>
+				  
+				<ul>
+					<li>Located in one of America's most affordable cities, near the birthplace of rock and roll, NASA's Glenn Research Center supports all of NASA's missions and major programs.</li>
+					<li>Glenn's 1,600 civil service employees excel in researching and developing innovative technologies for both aeronautics and space flight.</li>
+					<li>A multitude of NASA missions have included elements from Glenn, from the Mercury and Gemini projects to the Space Shuttle Program and the International Space Station.</li>
+					<li>With its world-class engineers, researchers, and facilities—including wind tunnels, drop towers, vacuum chambers, and aircraft hangars—Glenn is distinguished by its unique blend of spaceflight and aeronautics expertise.</li>
+
+				</ul>
+              </div>
+
+              <div id="plum-brook" class="mfp-hide map-popup">
+                <h4>Neil A. Armstrong Test Facility</h4>
+                <p>Sandusky, Ohio</p>
+				  <ul>
+					<li>Formerly known as Plum Brook Station</li>
+					<li>Located on 6,400 acres in the Lake Erie community of Sandusky</li>
+					<li>Home to several world-class test facilities which perform complex and innovative ground tests for the international space community</li>
+				</ul>
+              </div>
+
+              <div id="NSSC" class="mfp-hide map-popup">
+                <h4>NASA Shared Services Center</h4>
+                <p>Hancock County, Mississippi</p>
+				  
+				<ul>
+					<li>Plays a critical role in NASA's business and financial operations</li>
+					<li>Provides timely, accurate, high-quality, cost-effective, and customer-focused support for selected NASA business and technical services</li>
+					<li>Support a wide range of agency functions, including procurement, financial management, human resources, information technology and business support</li>
+				</ul>
+              </div>
+            </div>
+          </div>
+		
+		<div id="map-section" class="row p-4">
+			<!-- Left map column area -->
+			<div class="col-12 col-lg-8">
+			  <div id="map-content">
+
+				<!--AMES Research Center-->
+				<a class="popup-modal" href="#ames" data-effect="mfp-zoom-in" data-map_id="ames-0"><img src="images/map-section/map-pointer.png" class="point p1" alt="AMES Research Center Marker"></a>
+				<!--Vandenberg AFB-->
+				<a class="popup-modal" href="#vandenberg" data-effect="mfp-zoom-in" data-map_id="vandenberg-1"><img src="images/map-section/map-pointer.png" class="point p2" alt="Vandenberg Air Force Base Marker"></a>
+				<!--Jet Propulsion Laboratory-->
+				<a class="popup-modal" href="#jpl" data-effect="mfp-zoom-in" data-map_id="jpl-2"><img src="images/map-section/map-pointer.png" class="point p3" alt="Jet Propulsion Laboratory Marker"></a>
+				<!--Armstrong Flight Research Center-->
+				<a class="popup-modal" href="#armstrong" data-effect="mfp-zoom-in" data-map_id="armstrong-3"><img src="images/map-section/map-pointer.png" class="point p4" alt="Armstrong Flight Research Center Marker"></a>
+				<!--White Sands Test Facility-->
+				<a class="popup-modal" href="#whitesands" data-effect="mfp-zoom-in" data-map_id="whitesands-4"><img src="images/map-section/map-pointer.png" class="point p5" alt="White Sands Test Facility Marker"></a>
+				<!--Johnson Space Center-->
+				<a class="popup-modal" href="#johnson" data-effect="mfp-zoom-in" data-map_id="johnson-5"><img src="images/map-section/map-pointer.png" class="point p6" alt="Johnson Space Center Marker"></a>
+				<!--Michoud Assembly Facility-->
+				<a class="popup-modal" href="#michoud" data-effect="mfp-zoom-in" data-map_id="michoud-6"><img src="images/map-section/map-pointer.png" class="point p7" alt="Michoud Assembly Facility Marker"></a>
+				<!--Stennis Space Center-->
+				<a class="popup-modal" href="#stennis" data-effect="mfp-zoom-in" data-map_id="stennis-7"><img src="images/map-section/map-pointer.png" class="point p8" alt="Stennis Space Center Marker"></a>
+				<!--Marshall Space Flight Center-->
+				<a class="popup-modal" href="#marshall" data-effect="mfp-zoom-in" data-map_id="marshall-8"><img src="images/map-section/map-pointer.png" class="point p9" alt="Marshall Space Flight Center Marker"></a>
+				<!--Kennedy Space Center-->
+				<a class="popup-modal" href="#kennedy" data-effect="mfp-zoom-in" data-map_id="kennedy-9"><img src="images/map-section/map-pointer.png" class="point p10" alt="Kennedy Space Center Marker"></a>
+				<!--Software Independent Verification and Validation Facility-->
+				<a class="popup-modal" href="#ivvf" data-effect="mfp-zoom-in" data-map_id="ivvf-10"><img src="images/map-section/map-pointer.png" class="point p11" alt="Katherine Johnson Software Independent Verification and Validation Facility Marker"></a>
+				<!--Langley Research Center-->
+				<a class="popup-modal" href="#langley" data-effect="mfp-zoom-in" data-map_id="langley-11"><img src="images/map-section/map-pointer.png" class="point p12" alt="Langley Research Center Marker"></a>
+				<!--Wallops Flight Facility-->
+				<a class="popup-modal" href="#wallops" data-effect="mfp-zoom-in" data-map_id="wallops-12"><img src="images/map-section/map-pointer.png" class="point p13" alt="Wallops Flight Facility Marker"></a>
+				<!--NASA Headquarters-->
+				<a class="popup-modal" href="#nasahq" data-effect="mfp-zoom-in" data-map_id="nasahq-13"><img src="images/map-section/map-pointer.png" class="point p14" alt="NASA Headquarters Marker"></a>
+				<!--Goddard Space Flight Center-->
+				<a class="popup-modal" href="#goddard" data-effect="mfp-zoom-in" data-map_id="goddard-14"><img src="images/map-section/map-pointer.png" class="point p15" alt="Goddard Space Flight Center Marker"></a>
+				<!--Goddard Institute for Space Studies-->
+				<a class="popup-modal" href="#goddard-institute" data-effect="mfp-zoom-in" data-map_id="goddard-institute-15"><img src="images/map-section/map-pointer.png" class="point p16" alt="Goddard Institute for Space Studies Marker"></a>
+				<!--Glenn Research Center-->
+				<a class="popup-modal" href="#glenn" data-effect="mfp-zoom-in" data-map_id="glenn-16"><img src="images/map-section/map-pointer.png" class="point p17" alt="Glenn Research Center Marker"></a>
+				<!--Plum Brook Station-->
+				<a class="popup-modal" href="#plum-brook" data-effect="mfp-zoom-in" data-map_id="plum-brook-17"><img src="images/map-section/map-pointer.png" class="point p18" alt="Plum Brook Station Marker"></a>
+				<!--NASA Shared Services Center-->
+				<a class="popup-modal" href="#NSSC" data-effect="mfp-zoom-in" data-map_id="NSSC-18"><img src="images/map-section/map-pointer.png" class="point p19" alt="NASA Shared Services Center"></a>
+				<!-- map of the united states placed behind the map markers -->
+				<img src="images/map-section/us-map.png" class="img-fluid" alt="Map of the contiguous 48 United States.">
+			  </div>
+			</div>
+			<!-- map area right text information column area -->
+			<div class="col-12 col-lg-4 px-sm-4 px-0">
+			  <div class="container-fluid">
+				<div class="row">
+				  <div class="col-lg-5 col-md-3 col-sm-3 col-3 px-2">
+					<img id="map-pointer" src="images/map-section/map-pointer-large.png" class="img-fluid" alt="Large Map Pointer">
+				  </div>
+				  <div class="col-lg-7 col-md-9 col-sm-9 col-9 p-0 text-left map-title">
+					<h3>Find<br>your<br>place<br>in space!</h3>
+				  </div>
+				</div>
+
+				<div class="row mt-3">
+				  <div class="col-12 col-lg-12 p-4 map-box">
+					Nearly 18,000 of the nation's top scientists, engineers, and business professionals work across the United States at our 10 center locations, our Shared Services Center, or one of our smaller test and research facilities.
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+<!-- ^^^^ MAP SECTION ^^^^ -->
+	
+	
+	
+<!-- ---- MORE OPPORTUNITIES SECTION ---- -->
+	<div class="section-title">
+		<h2>More Opportunities</h2>
+	</div>
+	
+	<section id="more-opportunities-section" aria-label="More Opportunities Section">
+		<div class="container-fluid p-0">
+			<div class="p-0 m-0 row">
+				<!-- Item 1 -->
+				<div class="p-0 col-12 col-lg-3 col-sm-6">
+					<div class="more-opportunites-item">
+						<a href="https://www.nasa.gov/stem/murep/projects/ncas.html" target="_blank" aria-label="link to NASA Community College Aerospace Scholars">
+							<img class="img-fluid" src="images/more-opportunities-section/NCAS.png" alt="NASA Community College Aerospace Scholars logo">
+							<p>NASA Community College Aerospace Scholars</p>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Item 2 -->
+				<div class="p-0 col-12 col-lg-3 col-sm-6">
+					<div class="more-opportunites-item">
+						<a href="https://stem.nasa.gov/artemis/" target="_blank" aria-label="link to Artemis Student Challenges">
+							<img class="img-fluid" src="images/more-opportunities-section/ASC.png" alt="A person drilling under water with a wet suit">
+							<p>Artemis Student Challenges</p>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Item 3 -->
+				<div class="p-0 col-12 col-lg-3 col-sm-6">
+					<div class="more-opportunites-item">
+						<a href="https://nasaminds.org/" target="_blank" aria-label="link to NASA MINDS Undergraduate Student Design">
+							<img class="img-fluid" src="images/more-opportunities-section/NASA-MINDS.png" alt="NASA MINDS Undergraduate Student Design logo">
+							<p>NASA MINDS<br>Undergraduate Student Design</p>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Item 4 -->
+				<div class="p-0 col-12 col-lg-3 col-sm-6">
+					<div class="more-opportunites-item">
+						<a href="https://www.nasa.gov/stem" target="_blank" aria-label="link to NASA STEM">
+							<img class="img-fluid" src="images/more-opportunities-section/OSTEM.png" alt="NASA STEM logo">
+							<p>NASA STEM<br>stem.nasa.gov</p>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+<!-- ^^^^ MORE OPPERTUNITIES SECTION ^^^^ -->
+	
+	
+<!-- ---- FAQ Section ---- -->
+	<div class="section-title">
+		<h2>Frequently Asked Questions</h2>
+	</div>
+	
+	<section id="faq-section" aria-label="Faq Section">
+		<div class="container-fluid p-0">
+			 <div class="col-12 p-0">
+				 <div class="accordion" id="accordionTwo">
+					<div class="card">
+					  <div class="card-header">
+						  <button class="focus-border btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-label="General Questions" aria-expanded="true" aria-controls="collapseFive">
+							<span class="accordion-title">General Questions</span>
+                    	  </button>
+						  
+						  <div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" aria-label="faq arrow">
+                      		<div class="fa fa-angle-right"></div>
+                    	  </div>
+						  
+						  <hr>
+					  </div>
+					  <div id="collapseFive" class="collapse hide" data-bs-parent="#accordionTwo">
+						<div class="card-body">
+						  <h3>Are the internships paid?</h3>
+						  <p>
+							The majority of interns received a stipend award, but there are some volunteer opportunities
+							noted in project descriptions.
+						  </p>
+
+						  <h3>Is housing my responsibility if I receive an internship?</h3>
+						  <p>
+							Interns are responsible for making their own housing arrangements. This includes locating their
+							own housing options and paying for their housing. Centers may be able to offer minimal assistance
+							by providing a list of local available housing and/or establishing a private social media group
+							for interns to utilize for relocation planning purposes.
+						  </p>
+
+						  
+
+						  <h3>When do internships take place?</h3>
+							
+							<p>There are three sessions:</p>
+							<div class="tableParent">
+									<table>
+
+									  <tr>
+										<th>Start Date</th>
+										<th>End Date</th>
+										<th>Total Duration</th>
+									  </tr>
+										  <tr>
+											<td>Fall: Late August/early September</td>
+											<td>mid-December</td>
+											<td>16 weeks</td>
+										  </tr>
+										  <tr>
+											<td>Spring: Mid-January</td>
+											<td>early May</td>
+											<td>16 weeks</td>
+										  </tr>
+										  <tr>
+											<td>Summer: Late May/early June</td>
+											<td>August</td>
+											<td>10 weeks</td>
+										  </tr>
+
+									</table>
+								</div>
+							<br>
+						  
+
+						  <h3>What types of opportunities are available?</h3>
+						  <p>
+							The Office of STEM Engagement opportunities, or internship projects, vary at each center and for each session. You will be able to view the available opportunities for the specified session and centers. You must complete an application for each opportunity to be considered. There are filters available to help you locate specific projects that meet your skill set and desired geographic location or virtual.
+						  </p>
+
+						   <h3>Is a Letter of Recommendation required?</h3>
+						  <p>
+						   The Office of STEM Engagement does not require a letter of recommendation. Because our current application system is designed to meet the needs of many STEM engagement opportunities, it requires this question be answered before you can move to the next page. Please feel free to provide a recommender or use your personal email address to circumvent the requirement. Thanks for your patience.
+						  </p>
+						</div>
+					  </div>
+					</div>
+					<div class="card">
+					  <div class="card-header">
+						  
+						  <button class="focus-border btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-label="Trouble With Login" aria-expanded="true" aria-controls="collapseSix">
+							<span class="accordion-title">Trouble With Login</span>
+                    	  </button>
+						  
+						  <div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" aria-label="faq arrow">
+                      		<div class="fa fa-angle-right"></div>
+                    	  </div>
+						  
+						  <hr>
+					  </div>
+					  <div id="collapseSix" class="collapse" data-bs-parent="#accordionTwo">
+						<div class="card-body">
+
+						  <h3>The "Forgot My Password" link is not sending me the email to reset my password.</h3>
+						  <p>
+							If you are a returning user and the "Forgot My Password" link is not sending you the email, email <a href="mailto:HQ-NASA-STEM-GATEWAY@MAIL.NASA.GOV">HQ-NASA-STEM-GATEWAY@MAIL.NASA.GOV</a> to request a password reset.
+						  </p>
+						  <p>
+							<a href="https://youtu.be/QWK1RWByZkM" target="_blank">Watch Training Video: How Do I Reset My Password?</a>
+						  </p>
+						</div>
+					  </div>
+					</div>
+
+					<div class="card">
+					  <div class="card-header">
+
+						  <button class="focus-border btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-label="Selections" aria-expanded="true" aria-controls="collapseEight">
+							<span class="accordion-title">Selections</span>
+                    	  </button>
+						  
+						  <div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" aria-label="faq arrow">
+                      		<div class="fa fa-angle-right"></div>
+                    	  </div>
+						  
+						  <hr>
+					  </div>
+					  <div id="collapseEight" class="collapse" data-bs-parent="#accordionTwo">
+						<div class="card-body">
+						  <h3>When will I hear if I am selected?</h3>
+						  <p>
+							Selections may occur any time after you submit your application. You will be contacted if you are considered for a project.
+						  </p>
+ 
+						  <h3>Are selections made for every project?</h3>
+						  <p>
+							Selections are contingent upon many factors, so some projects may remain unfilled.
+						  </p>
+						</div>
+					  </div>
+					</div>
+              </div>
+			 </div>
+		</div>
+	</section>
+<!-- ^^^^ FAQ Section ^^^^ -->
+	
+	
+	
+<!-- ---- Mentor Access Section ---- -->
+	<div class="section-title">
+		<h2>Mentor Access</h2>
+	</div>
+	
+	<section id="mentor-section" aria-label="Mentor Access Section">
+		<div class="container-fluid p-0">
+			 <div class="col-12 p-0" id="accordion-three">
+				
+				 <div class="accordion">
+                <div class="card">
+                  <div class="card-header">
+					  
+					  <button class="focus-border btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-label="Mentor Login" aria-expanded="true" aria-controls="collapseNine">
+						<span class="accordion-title">Mentor Login</span>
+					  </button>
+
+					  <div role="button" class="faq-arrow" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" aria-label="faq arrow">
+						<div class="fa fa-angle-right"></div>
+					  </div>
+					  
+					  <hr>
+					  
+                  </div>
+                  <div id="collapseNine" class="collapse hide" data-bs-parent="#accordion-three">
+                    <div class="card-body">
+                      <h3>Already have an account?</h3>
+                      <p>
+                        <a href="https://stemgateway.nasa.gov/workplace/s/" target="_blank">https://stemgateway.nasa.gov/workplace/s/</a>
+                      </p>
+
+                      <h3>To request mentor access:</h3>
+                      <p>
+                        <a href="https://nasa.sharepoint.com/sites/NIFS/SitePages/Mentors.aspx" target="_blank">https://nasa.sharepoint.com/sites/NIFS/SitePages/Mentors.aspx</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+				 
+			 </div>
+		</div>
+	</section>
+<!-- ^^^^ Mentor Access Section ^^^^ -->
+	
+
+	
+<!-- ---- FOOTER ---- -->
+	<footer>
+      <div class="container-fluid pb-4">
+		  
+		  <div class="row pt-4">
+		  	<div class="col-12">
+				<h3 class="text-center"><strong>Connect with NASA Internships</strong></h3>
+			</div>
+		  </div>
+		  
+		  <div class="row pb-4">
+				<div class="col-12">
+				   <ul class="footer-links-social p-0">
+              
+					  <li><a href="https://www.facebook.com/NASAInterns" target="_blank" tabindex="0" data-owl-temp-tabindex="0"><img src="images/footer/social-icons/facebook-color.jpg" alt="Facebook"></a></li>
+					  <li><a href="http://www.instagram.com/nasainternships" target="_blank" tabindex="0" data-owl-temp-tabindex="0"><img src="images/footer/social-icons/instagram-color.jpg" alt="Instagram"></a></li>
+					  <li><a href="https://twitter.com/nasainterns" target="_blank" tabindex="0" data-owl-temp-tabindex="0"><img src="images/footer/social-icons/twitter-color.jpg" alt="Twitter"></a></li>
+					  <li><a href="https://blogs.nasa.gov/interns/" target="_blank" tabindex="0" data-owl-temp-tabindex="0"><img src="images/footer/social-icons/blog-color.jpg" alt="Blog"></a></li>
+					  <li><a href="mailto:NASA-Intern-Inquiries@mail.nasa.gov" tabindex="0" data-owl-temp-tabindex="0"><img src="images/footer/social-icons/email.jpg" alt="Email"></a></li>
+                
+            		</ul>
+				</div>
+			</div>
+		  
+		  
+        <div class="row">
+          <div class="col-lg-4 col-12 nasa-logo">
+            <img src="images/NASA.png" height="55" width="65" alt="NASA Emblem">
+            <ul class="edit-details">
+              <li>NASA - National Aeronautics and Space Administration</li>
+              <li>Page Last Updated: July 19, 2023</li> 
+			  <li>NASA Official: Lynnette Madison</li>
+            </ul>
+          </div>
+
+          <div id="stem-logo" class="col-lg-4 col-12 text-center pt-4 pt-lg-0">
+            <img src="images/footer/stem-logo.png" class="img-fluid" alt="STEM Logo">
+          </div>
+
+          <div id="related-links" class="col-lg-4 col-12 text-center pt-4 pt-lg-0">
+				<span>Related Links</span>
+				<ul class="footer-links p-0">
+				  <li><a href="https://www.nasa.gov/offices/odeo/no-fear-act" target="_blank">No Fear Act</a></li>
+				  <li><a href="https://www.nasa.gov/FOIA/index.html" target="_blank">FOIA</a></li>
+				  <li><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy</a></li>
+				  <li><a href="https://oig.nasa.gov/" target="_blank">OIG</a></li>
+				  <li><a href="https://www.nasa.gov/news/budget/index.html" target="_blank">Agency Financial Reports</a></li>
+				  <li><a href="mailto:nasa-intern-inquiries@mail.nasa.gov" target="_blank">Contact NASA</a></li>
+				  <li><a href="mailto:nasa-internships@mail.nasa.gov">Help</a></li>
+				</ul>
+          </div>
+	
+        </div>
+      </div>
+    </footer>
+<!-- ^^^^ FOOTER ^^^^ -->
+	
+	
+
+<!-- ---- IMPORTS ---- -->
+  	<!-- Placed at the end of the document so the pages load faster -->
+  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  	<script src="javascript/jquery-3.5.1.min.js"></script>
+
+  	<!-- jQuery UI (necessary for accrordion and any otehr special UI features) -->
+  	<script src="javascript/jquery-ui.js"></script>
+
+  	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  	<script src="javascript/bootstrap.min.js"></script>
+	
+	<script src="javascript/popper.min.js"></script>
+  	<!-- Magnific Popup gallery Javascript -->
+	<script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- Javascript to produce interactive map modal popups -->
+ 	<script src="javascript/map-popup.js"></script>
+	
+	<script src="javascript/intern-popup.js"></script>
+	<script src="javascript/info-popup.js"></script>
+	
+	<!-- Javascript to set control of video modal popups -->
+ 	<script src="javascript/youtube-popup.js"></script>
+  	<script src="javascript/youtube-popup-playlist.js"></script>
+	<script src="javascript/podcast-popup.js"></script>
+	<script src="javascript/loader-controller.js"></script>
+
+    <!-- Owl Carousel required JavaScript -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+	<script src="javascript/initialize.js"></script>
+
+	<!-- Scrolltop accordion functionality -->
+	<script src="javascript/accordionScrollTop.js"></script>
+<!-- ^^^^ IMPORTS ^^^^ -->
+</body>
+</html>

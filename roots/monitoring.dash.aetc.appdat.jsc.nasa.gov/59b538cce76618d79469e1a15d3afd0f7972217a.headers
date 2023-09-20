@@ -1,0 +1,16 @@
+GET https://monitoring.dash.aetc.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 05:44:05 GMT
+< Location: /login
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< X-Powered-By: appdat
+< Cache-Control: no-store
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Using-Nginx-Controller: true
+< Content-Length: 29

@@ -1,0 +1,6 @@
+GET http://forum.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 0
+< Location: https://forum.earthdata.nasa.gov/

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="Astrophysics research to support astroparticle (gamma-ray and cosmic-ray), x-ray, gravitational-wave, observational cosmology, exoplanet and stellar astrophysics.">
+	<meta name="keywords" content="high-energy, exo planet, stellar, cosmology, gravitational wave, gravity wave, cosmic ray, instrument, high energy, science, xray, x-ray, gamma ray, gamma-ray, astrophysics, astronomy, observatory, data, software, analysis, archive, research">
+	<meta name="robots" content="noodp">
+<!-- NASA Required Meta -->
+	<meta name="orgcode" content="660">
+	<meta name="content-owner" content="John.D.Myers.1">
+	<meta name="webmaster" content="Stephan.F.Fantasia.1">
+	<meta name="rno" content="Phillip.A.Newman.1">
+<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- Favicon -->
+	<link rel="shortcut icon" href="/asd_inc/img/favicon.png">
+<!-- CSS -->
+	<link rel="stylesheet" href="/asd_inc/css/default.css">
+<!-- Javascript -->
+	<!-- Load html5shiv for old IE browsers -->
+	<!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- Google Analytics -->
+		<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+
+
+<!-- Page Title -->
+	<title>Astrophysics Science Division</title>
+</head>
+
+<body>
+<div id="skip"><a href="#content">Skip navigation and go straight to page content.</a></div> <!-- Skip To Content -->
+
+<header> <!-- Start NASA Header -->
+<div id="header-container"> <!-- Start Header Container -->
+<!-- Left - NASA Insignia -->
+	<div class="nasa-insignia"><a href="https://www.nasa.gov"><img src="/asd_inc/img/nasa_insignia.png" alt="NASA Insignia"></a></div>
+<!-- Middle - Affiliations -->
+	<div id="nasa-affiliation">
+	<h1><a href="https://www.nasa.gov">National Aeronautics and Space Administration</a></h1>
+	<h2><a href="https://www.nasa.gov/goddard">Goddard Space Flight Center</a></h2>
+	</div>
+<!-- Right - Links -->
+	<div id="header-links">
+	<p><a href="https://science.gsfc.nasa.gov/660/">Astrophysics Science Division</a> &bull; <a href="https://science.gsfc.nasa.gov/">Sciences and Exploration</a></p>
+	</div>
+<!-- Right - Mobile/Tablet Menu Access -->
+	<div id="mobile-nav-icon">
+		<label for="menu-toggle" class="label-toggle"><img src="/asd_inc/img/hamburger_menu_icon.png" alt="Menu"></label>
+		<input id="menu-toggle" type="checkbox">
+		<!-- Pull in the nav here for mobile and tablet. This is hidden on desktop. -->
+		<nav> <!-- Start Site Navigation -->
+<ul>
+	<li><a href="https://asd.gsfc.nasa.gov/">Home</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/660.2/ASDComputing/">Computing</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/sed/index.cfm?fuseaction=projects.featured&navOrgCode=660&navTab=nav_about_us">Missions & Projects</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/history.html">History</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/archive/">Archive</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/conferences/">Conferences</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/other.html">Other</a></li>
+</ul>
+</nav> <!-- End Site Navigation -->
+
+	</div>
+</div> <!-- End Header Container -->
+</header> <!-- End NASA Header -->
+
+<div id="topnav"> <!-- Start Top Nav -->
+<!-- Pull in the nav here for desktop. This is hidden on mobile and tablet. -->
+<nav> <!-- Start Site Navigation -->
+<ul>
+	<li><a href="https://asd.gsfc.nasa.gov/">Home</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/660.2/ASDComputing/">Computing</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/sed/index.cfm?fuseaction=projects.featured&navOrgCode=660&navTab=nav_about_us">Missions & Projects</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/history.html">History</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/archive/">Archive</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/conferences/">Conferences</a></li>
+	<li><a href="https://asd.gsfc.nasa.gov/other.html">Other</a></li>
+</ul>
+</nav> <!-- End Site Navigation -->
+
+</div> <!-- End Top Nav -->
+
+<div id="bkgd-container"> <!-- Start Background Image Container -->
+<div id="site-container"> <!-- Start Site Container -->
+
+<div id="site-banner"> <!-- Start Site Banner -->
+	<a href="https://asd.gsfc.nasa.gov"><img id="imagine-text" src="/asd_inc/img/site_banner.jpg" alt="Site Title"></a>
+</div> <!-- End Site Banner -->
+
+<div id="page-wrapper"> <!-- Start Page Wrapper -->
+
+<div id="content-wrapper"> <!-- Start Content Wrapper -->
+<div id="content"> <!-- Start Content -->
+
+<!-- ################################### -->
+<!-- YOUR PAGE CONTENT STARTS BELOW HERE -->
+<!-- ################################### -->
+
+<h1>Astrophysics Science Division (ASD) - Code 660</h1>
+
+<p>
+The <a href="https://science.gsfc.nasa.gov/astrophysics/">Astrophysics Science Division</a> conducts a broad program of research in astronomy, astrophysics, and fundamental physics. Individual investigations address issues such as the nature of dark matter and dark energy, which planets outside our solar system may harbor life, and the nature of space, time, and matter at the edges of black holes.
+</p>
+<p>
+Observing photons, particles, and gravitational waves enables researchers to probe astrophysical objects and processes. Researchers develop theoretical models, design experiments and hardware to test theories, interpret and evaluate the data, archive and disseminate the data, provide expert user support to the scientific community, and publish conclusions drawn from research. The Division also conducts education and public outreach programs about its projects and missions.
+</p>
+<p>
+The Astrophysics Science Division contains several laboratories and offices:
+</p>
+
+<h2>Astrophysics Science Labs</h2>
+<ul>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/astroparticles/">Astroparticle Physics (661)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/xray/">X-ray Astrophysics (662)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/gravity/">Gravitational Astrophysics (663)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/cosmology/">Observational Cosmology (665)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/exoplanets/">Exoplanets and Stellar Astrophysics (667)</a></li>
+</ul>
+
+<h2>Astrophysics Science Offices</h2>
+<ul>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/heasarc/">High Energy Astrophysics Science Archive Research Center Office (660.1)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/osc/">Office of Scientific Computing (660.2)</a></li>
+	<li><a href="https://science.gsfc.nasa.gov/astrophysics/instruments/">Instrument Development Group (660.3)</a></li>
+</ul>
+
+<!-- ################################# -->
+<!-- YOUR PAGE CONTENT ENDS ABOVE HERE -->
+<!-- ################################# -->
+</div> <!-- End Content -->
+</div> <!-- End Content Wrapper -->
+</div> <!-- End Page Wrapper -->
+</div> <!-- End Site Container -->
+
+<!-- Start Footer -->
+<footer>
+<!-- Left - NASA Insignia -->
+	<div class="nasa-insignia">
+	<a href="https://www.nasa.gov"><img src="/asd_inc/img/nasa_insignia.png" width="84" height="70" alt="NASA Insignia"></a>
+	</div>
+<!-- Left/Middle - GSFC Signature -->
+	<div id="goddard-signature">
+	<a href="https://www.nasa.gov/goddard"><img src="/asd_inc/img/goddardsignature.png" width="172" height="68" alt="Goddard Signature"></a>
+	</div>
+<!-- Right/Middle - Contacts -->
+	<div id="contacts">
+	<ul>
+		<li>Curator: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#111;&#104;&#110;&#46;&#100;&#46;&#109;&#121;&#101;&#114;&#115;&#64;&#110;&#97;&#115;&#97;&#46;&#103;&#111;&#118;">J.D. Myers</a></li>
+		<li>NASA Official: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#104;&#105;&#108;&#108;&#105;&#112;&#046;&#097;&#046;&#110;&#101;&#119;&#109;&#097;&#110;&#064;&#110;&#097;&#115;&#097;&#046;&#103;&#111;&#118;">Phil Newman</a></li>
+	</ul>
+	<p>A service of the <a href="https://science.gsfc.nasa.gov/660/">Astrophysics Science Division (ASD)</a> at <a href="https://www.nasa.gov/">NASA/</a><a href="https://www.nasa.gov/goddard">GSFC</a></p>
+	</div>
+<!-- Right - Notices -->
+	<div id="notices">
+	<ul>
+		<li><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+		<li><a href="https://www.nasa.gov/about/contact/index.html">Contact NASA</a></li>
+		<li>Page Last Updated: Wed, Aug 31, 2022</li>
+	</ul>
+	</div>
+</footer>
+<!-- End Footer -->
+
+</div> <!-- End Background Image Container -->
+</body>
+</html>
+

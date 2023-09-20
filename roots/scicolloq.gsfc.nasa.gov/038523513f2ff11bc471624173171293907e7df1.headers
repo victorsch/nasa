@@ -1,0 +1,8 @@
+GET http://scicolloq.gsfc.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Connection: close
+< Content-Length: 0
+< Location: https://scicolloq.gsfc.nasa.gov/
+< Server: BigIP

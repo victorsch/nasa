@@ -1,0 +1,25 @@
+GET https://einstein.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=63072000; includeSubdomains
+< Strict-Transport-Security: max-age=63072000; includeSubdomains
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Gitlab-Meta: {"correlation_id":"01HAP0MR85M07S1Y3DS51VTAND","version":"1"}
+< Server: nginx
+< Cache-Control: no-cache
+< Permissions-Policy: interest-cohort=()
+< Content-Security-Policy: 
+< X-Request-Id: 01HAP0MR85M07S1Y3DS51VTAND
+< X-Runtime: 0.028318
+< X-Ua-Compatible: IE=edge
+< Date: Tue, 19 Sep 2023 06:04:36 GMT
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 109
+< X-Download-Options: noopen
+< X-Permitted-Cross-Domain-Policies: none
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=utf-8
+< Location: https://einstein.jpl.nasa.gov/users/sign_in
+< X-Content-Type-Options: nosniff

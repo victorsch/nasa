@@ -1,0 +1,483 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SSC Construction Safety</title>
+<META HTTP-EQUIV="Expires" CONTENT="Fri, Jun 12 1981 08:20:00 GMT">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<link href="https://constructionsafety.ssc.nasa.gov/includes/common_styles_ConstructSafety.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="includes/federated-analytics.all.min.js"></script>
+</head>
+
+<body>
+<table width="951" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  	<td colspan="6">
+		<table class="header" cellspacing="0" cellpadding="0" width="951" bgcolor="#cccccc" border="0">
+			<tbody>
+				<tr>
+					<td valign="middle" width="770"><a href="https://www.nasa.gov/home/index.html" target="_blank"><img height="29" alt="NASA - National Aeronautics and Space Administration" src="images/logo_nasa_sm.gif" width="355" border="0" /></a></td>
+					<td valign="middle" width="181" height="40">
+						<!-- [[ QUICK LINKS START ]] -->
+						<table cellspacing="0" cellpadding="0" width="181" border="0">
+							<tbody>
+							<tr>
+								<td width="1" bgcolor="#666666"><img height="30" alt="" src="IMAGES/spacer.gif" width="1" border="0" /></td>
+								<td width="9"> </td>
+								<td width="171"><a class="headerLnk" href="https://www.nasa.gov/home/index.html" target="_blank">+ Visit NASA.gov</a><br /></td>
+							</tr>
+							</tbody>
+						</table>
+			<!-- [[ QUICK LINKS END ]] -->					</td>
+			    </tr>
+			</tbody>
+	  </table>
+	</td>
+  </tr>
+  <tr>
+  	<td colspan="6"><img src="images/spacer.gif" alt="" height="1" width="1"  /></td>
+  </tr>
+  <tr>
+    <td colspan="7" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="images/banner0.jpg" alt="SSC Construction Safety" width="180" height="125" border="0" /><img src="images/banner1.jpg" alt="SSC Construction Safety" width="180" height="125" border="0" /><img src="images/banner2.jpg" alt="SSC Construction Safety" width="180" height="125" border="0" /><img src="images/banner3.jpg" alt="SSC Construction Safety" width="180" height="125" border="0" /><img src="images/banner4.jpg" alt="SSC Construction Safety" width="180" height="125" border="0" /><img src="images/banner5.jpg" alt="SSC Construction Safety" width="51" height="125" border="0" /></td>
+  </tr>
+  <tr>
+    <td width="20" align="right"><img src="images/btm_leftCrnr_gold.gif" width="20" height="30" alt="" /></td>
+    <td align="left" bgcolor="#FFCC00"><a href="https://www.nasa.gov/home/index.html" title="Go to NASA Home at: http://www.nasa.gov/home/index.html">NASA Home</a> &nbsp;&nbsp;&nbsp;<a href="https://www.nasa.gov/centers/stennis/home/index.html" title="Go to SSC Home page at: https://www.nasa.gov/centers/stennis/home/index.html">SSC Home </a></td>
+    <td colspan="3" bgcolor="#ffcc00"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+    <td width="144" align="left" valign="top" bgcolor="#ffcc00"><img src="images/spacer.gif" border="0" width="125" height="1" alt="" /></td>
+  </tr>
+  <tr>
+    <td colspan="4" align="right" valign="bottom">
+	Tuesday, September 19, 2023	</td>
+    <td align="left" bgcolor="#ffcc00"><img src="images/rightCrnrWhite.gif" alt="" width="20" height="20" border="0" /></td>
+    <td colspan="2" bgcolor="#ffcc00"><img src="images/spacer.gif" alt="" border="0" width="144" height="1" /></td>
+  </tr>
+  <tr>
+    <td width="20" height="1">&nbsp;</td>
+    <td colspan="4">
+		<table cellpadding="0" cellspacing="0" border="0">
+      		<tr>
+        		<td height="1" bgcolor="#000099" width="765" align="right"><img src="images/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+      		</tr>
+    	</table>	</td>
+    <td height="1" colspan="2" align="center" valign="middle" bgcolor="#000000">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td height="1" width="144" bgcolor="#FFFFFF"><img src="images/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+			</tr>
+		</table>	</td>
+  </tr>
+  <tr>
+    <td width="20" height="2">&nbsp;</td>
+    <td colspan="3">Welcome to NASA John C. Stennis Construction  Safety Web Page.&nbsp; Use this page to access  safety-related information for all construction activities at Stennis Space Center.&nbsp; If you need further assistance or have ideas  to improve this web site, please contact Matt Scott at 228-688-1537 or by e-mail at <a href="mailto:matthew.r.scott@nasa.gov" title="Email Matt Scott">Matthew.R.Scott@nasa.gov</a>.<br/></br/>
+       <table width="760" cellpadding="0" cellspacing="0">
+	      <tr>
+	   	    <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+	   	    <td  width="760" align="center" valign="middle" bgcolor="#000099"><span class="style1">SSC Construction Contractor Safety Orientation<sup>1</sup></span><a href="#skiporientationlinks" title="Skip SSC Construction Contractor Safety Orientation Links"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></a></td>
+	   	    <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+	   	  </tr>
+	   	  <tr>
+	   	    <td width="1" rowspan="2" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+	   	    <td width="19">&nbsp;</td>
+	   	    <td>
+	   	       <br />
+	   	       <p align="center"><a href="documents/SSC_Construction_Safety_Contractor_Orientation.pptx" target="_blank">SSC Construction Contractor Safety Orientation</a></p>
+	   	       <p align="center"><a href="documents/SSC_Construction_Safety_Contractor_Orientation_Sign-In.pdf" target="_blank">SSC Construction Contractor Safety Orientation Sign-In Sheet</a></p>
+	   	       <p align="center"><a href="documents/SSC_Construction_Safety_Contractor_Orientation_Monthly_Training_Report.pdf" target="_blank">SSC Construction Contractor Safety Orientation Monthly Training Report</a></p>
+	   	       <br />
+            </td>
+	   	    <td width="19">&nbsp;</td>
+	   	    <td rowspan="2" bgcolor="#000099" width="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+	   	  </tr>
+	      <tr>
+	   	    <td width="19">&nbsp;</td>
+	   	    <td  width="333">&nbsp;</td>
+	   	    <td width="19"><a id="skiporientationlinks" name="skiporientationlinks"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+	   	  </tr>
+	   	  <tr>
+	   	    <td height="1" colspan="5" bgcolor="#000099"><img border="0" alt="" height="1" width="1" src="images/spacer.gif" /></td>
+	   	  </tr>
+       </table>
+    </td>
+    <td width="20">&nbsp;</td>
+    <td colspan="2" rowspan="4" valign="top" bgcolor="#000000"><img src="images/spacer.gif" alt="" width="144" height="1" border="0" /><br />
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td>&nbsp;</td>
+	    <td>
+	      <font color="#FFCC00"><b>NASA Construction Safety:</b></font><br />
+	      <br />
+	      <font color="#FFFFFF">Primary:<br />
+	      Matt Scott<br />
+	      228-688-1537<br />
+
+          <br />
+          Alternate:<br />
+         <!--Kathy Cooper<br />
+	      228-688-1747<br />
+		  <br />-->
+
+        Donna Dubuisson<br />
+        228-688-1167<br><br>
+
+
+          Construction POC:<br />
+          Donald Smith<br />
+          228-688-1085<br />
+         <!-- Alternate:<br />
+          Amy Rice<br />
+          228-688-2972<br />--><br /></font>
+		 <!--11/30/2009: <b><a href="mxrpt_Example.html" class="smHeading" title="Click here to create a Mishap Exposure Report">&gt; Mishap Exposure Report</a></b>--><a class="smHeading" href="https://publicforms.nasa.gov/documents/11002/3969946/SSC850.xlsx?download=true">&gt; Mishap Exposure Report</a><br /><br /><!--<a class="smHeading" href="https://safety.msfc.nasa.gov/apps/TPS/TPS_Main.asp">&gt; SHETrak</a><br /><br  />--><a href="ons/index.asp" class="smHeading">&gt; Severe Weather Warning</a><br /><br /><a href="documents/closecallform.pdf" class="smHeading">&gt; Report a Close Call</a></td>
+	  </tr>
+	  <tr>
+		<td height="475"><img src="images/spacer.gif" alt="" width="8" height="350" /></td>
+	    <td valign="bottom">&nbsp; </td>
+	  </tr>
+     </table>   </td>
+  </tr>
+  <tr>
+    <td height="6">&nbsp;</td>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="15">&nbsp;</td>
+    <td width="375" rowspan="2" valign="top">
+    <table width="375" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+        <td  width="333" align="center" valign="middle" bgcolor="#000099"><span class="style1">Publications<sup>1</sup></span><a href="#skippublications" title="Skip Forms and Publications"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></a></td>
+        <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+      </tr>
+      <tr>
+        <td width="1" rowspan="2" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+        <td width="19">&nbsp;</td>
+        <!--<td  width="333"><p><a href="documents/SSP-8715-0001_Rev_A-1.pdf" title="SSP-8715.0001 'SSC Safety and Health Handbook'" target="_blank">SSP-8715.0001 "SSC Safety and Health Handbook"</a></p>
+            <p><a href="documents/SPR_8715-3_Basic.pdf" title="SPR 8715.3 'John C Stennis Hot Work Permit Program'">SPR  8715.3 &ldquo;John C Stennis Hot Work Permit Program&rdquo;</a></p>
+          <p><a href="documents/SSC-576.pdf" title="SSC-576 'Confined Space Entry Permit'" target="_blank">SSC-576  &ldquo;Confined Space Entry Permit&rdquo;</a></p>
+          <p><a href="documents/nf1627_NASA_Mishap_Report2.pdf" title="NF 1627 'NASA Mishap Report'">NF 1627 &ldquo;NASA Mishap Report&rdquo;</a></p>
+          <p><a href="http://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&amp;p_part_number=1926" title="29 CFR 1926 'Safety and Health Regulations for Construction'" target="_blank" >29 CFR 1926 &ldquo;Safety and Health Regulations for Construction&rdquo;</a></p>
+          <p><a href="http://www.usace.army.mil/CESO/Pages/EM385-1-1,2008NEW!.aspx" title="EMI 385-1-1 'Corp of Engineers Safety Manual'" target="_blank">EMI 385-1-1 &ldquo;Corp of Engineers Safety Manual&rdquo;</a></p>
+
+        	<p><a href="documents/SCWI-8715-0008.pdf">SCWI-8715-0008&nbsp;"SSC Construction Safety and Health Program"</a></p>
+        </td>-->
+        <td>
+        	<br />
+            <ul class="hideBullets">
+            	<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=6237&type=released">SPR 8715.1</a> SSC Safety and Health Requirements</li>
+                <li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=91868&type=released">SSP-8715.0001</a> SSC Safety and Health Handbook</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=63725&type=released">SCWI 8715.0001</a> John C. Stennis Space Center Lightning Warning System</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=101882&type=released">SCWI 8715.0002</a> Personal Protective Equipment</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=101719&type=released">SCWI 8715.0003</a> John C. Stennis Space Center Fall Protection Program</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=102459&type=released">SCWI 8715.0004</a> Confined Space Entry Program</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=101952&type=released">SCWI 8715.0005</a> John C. Stennis Space Center Safety, Health, Housekeeping and Essential Item Inspections</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=104101&type=released">SCWI 8715.0006</a> Electrical Safety Program</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch/?rhid=1000&did=105146&type=released">SCWI 8715.0008</a> SSC Construction Safety and Health Program</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=102938&type=released">SCWI 8715.0012</a> John C. Stennis Space Center Work In Hazard Classification Areas</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=105009&type=released">SCWI 8715.0013</a> SSC Control of Hazardous Energy Lockout/Tagout and Non-Service/Maintenance Hazardous Energy Isolation</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=104767&type=released">SCWI 8715.0014</a> Heat Stress Program</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=99038&type=released">SCWI 8700.0002</a> Health Physics (Radiation) Program Procedures</li>
+				<li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=102666&type=released">SCWI 8838.0002</a> Hot Work Program Procedure</li>
+                <li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=108167&type=released">SSTD-8070-0115-MISC</a> Office Trailer Tie-downs, Blocking & Electrical Connections</li>
+                <li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=75337&type=released">SPLN 1040.0006</a> Emergency Management Plan</li>
+                <li><a href="https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=4942&type=released">SWI-8834-0001</a> Lifting Devices and Equipment Management Instructions</li>
+				<li><a href="https://www.osha.gov/pls/oshaweb/owasrch.search_form?p_doc_type=STANDARDS&p_toc_level=1&p_keyvalue=1926">29 CFR 1926</a> Safety and Health Regulations for Construction</li>
+				<li><a href="http://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_385-1-1.pdf">EM 385-1-1</a> U. S. Army Corps of Engineers Safety and Health Requirements Manual</li>
+				<li><a href="http://mutcd.fhwa.dot.gov/">Manual of Uniform Traffic Control Devices</a></li>
+            </ul>
+        </td>
+        <td width="19">&nbsp;</td>
+        <td rowspan="2" bgcolor="#000099" width="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+      </tr>
+
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td  width="333">&nbsp;</td>
+        <td width="19"><a id="skippublications" name="skippublications"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+      </tr>
+      <tr>
+        <td height="1" colspan="5" bgcolor="#000099"><img border="0" alt="" height="1" width="1" src="images/spacer.gif" /></td>
+      </tr>
+    </table>
+    <br />
+
+    <table width="375" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+        <td  width="333" align="center" valign="middle" bgcolor="#000099"><span class="style1">Forms<sup>1</sup></span><a href="#skippublications" title="Skip Forms and Publications"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></a></td>
+        <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+      </tr>
+      <tr>
+        <td width="1" rowspan="2" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+        <td width="19">&nbsp;</td>
+        <!--<td  width="333"><p><a href="documents/SSP-8715-0001_Rev_A-1.pdf" title="SSP-8715.0001 'SSC Safety and Health Handbook'" target="_blank">SSP-8715.0001 "SSC Safety and Health Handbook"</a></p>
+            <p><a href="documents/SPR_8715-3_Basic.pdf" title="SPR 8715.3 'John C Stennis Hot Work Permit Program'">SPR  8715.3 &ldquo;John C Stennis Hot Work Permit Program&rdquo;</a></p>
+          <p><a href="documents/SSC-576.pdf" title="SSC-576 'Confined Space Entry Permit'" target="_blank">SSC-576  &ldquo;Confined Space Entry Permit&rdquo;</a></p>
+          <p><a href="documents/nf1627_NASA_Mishap_Report2.pdf" title="NF 1627 'NASA Mishap Report'">NF 1627 &ldquo;NASA Mishap Report&rdquo;</a></p>
+          <p><a href="http://www.osha.gov/pls/oshaweb/owastand.display_standard_group?p_toc_level=1&amp;p_part_number=1926" title="29 CFR 1926 'Safety and Health Regulations for Construction'" target="_blank" >29 CFR 1926 &ldquo;Safety and Health Regulations for Construction&rdquo;</a></p>
+          <p><a href="http://www.usace.army.mil/CESO/Pages/EM385-1-1,2008NEW!.aspx" title="EMI 385-1-1 'Corp of Engineers Safety Manual'" target="_blank">EMI 385-1-1 &ldquo;Corp of Engineers Safety Manual&rdquo;</a></p>
+
+        	<p><a href="documents/SCWI-8715-0008.pdf">SCWI-8715-0008&nbsp;"SSC Construction Safety and Health Program"</a></p>
+        </td>-->
+        <td>
+        	<br />
+        	<ul class="hideBullets">
+
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC-221.doc">SSC-221</a> Small Appliance Permit Application</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC576.pdf?download=true">SSC-576</a> Confined Space Entry Permit</li>
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC792.pdf?download=true">SSC-792</a> Flammable Storage Cabinet Application</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC814.pdf?download=true">SSC-814</a> Daily Activity Hazard Analysis</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC819.pdf?download=true">SSC-819</a> PPE Hazard Assessment</li>
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC820.pdf?download=true">SSC-820</a> Fall Protection Field Audit</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC821.pdf?download=true">SSC-821</a> Confined Space Reclassification</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC840.pdf?download=true">SSC-840</a> Mobile Aerial Pre-Use Checklist</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC845.pdf?download=true">SSC-845</a> Forklift Daily Inspection</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC847.pdf?download=true">SSC-847</a> Lockout/Tagout Equipment Log Sheet</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC848A.pdf?download=true&v=1.1">SSC-848A</a> Hazardous Energy Control Procedure</li>
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC849A.pdf?download=true">SSC-849A</a> HECP LOTO Audit</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC850.xlsx?download=true">SSC-850</a> Mishap Exposure Report</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC852.pdf?download=true">SSC-852</a> Job Site Audit</li>
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC853.pdf?download=true">SSC-853</a> Construction Project Hazard Analysis</li>
+				<li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC879.pdf?download=true">SSC-879</a> SSC Construction Safety Weekly Inspection</li>
+				<li><a href="https://forms.neacc.nasa.gov/documents/11002/208106/SSC918.pdf?download=true">SSC-918</a> Radiation Use Authorization</li>
+                <li><a href="https://publicforms.nasa.gov/documents/11002/3969946/SSC1627.pdf?download=true">SSC-1627</a> NASA SSC Mishap Report</li>
+                <li><a href="documents/OSHA_Appendix_D_Respiratory_Voluntary_Use.pdf">OSHA Appendix D</a> Respiratory Voluntary Use</li>
+            </ul>
+        </td>
+        <td width="19">&nbsp;</td>
+        <td rowspan="2" bgcolor="#000099" width="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+      </tr>
+
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td  width="333">&nbsp;</td>
+        <td width="19"><a id="skippublications" name="skippublications"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+      </tr>
+      <tr>
+        <td height="1" colspan="5" bgcolor="#000099"><img border="0" alt="" height="1" width="1" src="images/spacer.gif" /></td>
+      </tr>
+    </table>
+        <br />
+        <table width="375" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+            <td width="335" align="center" valign="middle" bgcolor="#000099"><span class="style1">Additional Resources</span><a href="#skipadditionalresources" title="Skip Additional Resources"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></a></td>
+            <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+          </tr>
+          <tr>
+            <td width="1" rowspan="3" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+            <td width="19">&nbsp;</td>
+            <td  width="335"><p><a href="https://www.osha.gov/" target="_blank" title="OSHA Website">OSHA Website</a> </p>
+            <p><a href="https://www.cpsc.gov/Recalls/">Consumer Product Safety Commission Recalls</a></p>
+            <p><a href="recalls/index.asp">Safety Equipment Recalls, Advisories and Notices</a></p>
+            <!--<p><a href="http://www.usace.army.mil/" target="_blank" title="Corp of Engineers">Corp of Engineers </a></p>-->
+            <!--<p><a href="https://www.osha.gov/dcsp/compliance_assistance/quickstarts/construction/index_construction.html" title="OSHA Quick Start for Construction" target="_blank">OSHA Quick Start for Construction </a></p>-->
+		    <p><a href="https://www.osha.gov/law-regs.html">OSHA Law &amp; Regulations</a></p>
+            <p><a href="https://www.osha.gov/dte/index.html" title="OSHA Training Links" target="_blank">OSHA Training Links </a></p>
+		    <p><a href="http://www.elcosh.org/index.php" title="Electronic Library of Construction Occupational Safety & Health" target="_blank">Electronic Library of Construction Occupational Safety & Health</a></p>		    </td>
+            <td width="19">&nbsp;</td>
+            <td width="1" rowspan="3" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td width="335">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td  width="335">&nbsp;</td>
+            <td><a id="skipadditionalresources" name="skipadditionalresources"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+          </tr>
+          <tr>
+            <td colspan="5" bgcolor="#000099" height="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+          </tr>
+      </table></td>
+
+      <td width="15" rowspan="2"><img src="images/spacer.gif" border="0" width="15" height="1" alt="" /></td>
+      <td width="377" rowspan="2" align="left" valign="top"><table width="375" cellpadding="0" cellspacing="0">
+
+      <tr>
+        <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+        <td width="335" align="center" valign="middle" bgcolor="#000099"><span class="style1">Tool Box Topic Resources</span><a href="#skiptoolboxresources" title="Skip Tool Box Resources"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></a></td>
+        <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+      </tr>
+      <tr>
+        <td width="1" rowspan="4" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+        <td width="19">&nbsp;</td>
+        <td width="335">
+           <p><strong>Tool Box Topics from OSHA</strong><br />Despite its high fatality rate, construction can be a safe occupation when workers are aware of the hazards, and use an effective Safety and Health Program. This eTool will help you identify and control the hazards that commonly cause the most serious construction injuries.<a href="https://www.osha.gov/SLTC/etools/construction/index.html" title="View Tool Box Topics" target="_blank">View more</a></p>
+	        <table border="0" cellpadding="0" cellspacing="0"><tr><td bgcolor="#FFCC00" height="1"><img src="images/spacer.gif" border="0" width="335" height="1" alt="" /></td></tr></table>
+	       <p><a href="https://www.osha.gov/construction/other-resources" target="_blank">OSHA eTools</a></p>
+           <p><a href="https://www.osha.gov/pls/publications/publication.athruz?pType=Types&pID=2" target="_blank">OSHA Fact Sheets</a></p>
+           <p><a href="https://www.osha.gov/pls/publications/publication.athruz?pType=Types&pID=6" target="_blank">OSHA Quick Cards</a></p>
+        </td>
+        <td width="19">&nbsp;</td>
+        <td width="1" rowspan="4" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+      </tr>
+      <tr>
+	    <td>&nbsp;</td>
+	    <td width="335">&nbsp;</td>
+	    <td><a id="skiptoolboxresources" name="skiptoolboxresources"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+	  </tr>
+	  <tr>
+	    <td colspan="5" bgcolor="#000099" height="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+	  </tr>
+    </table>
+    <br />
+    <table width="375" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+        <td width="335" align="center" valign="middle" bgcolor="#000099"><span class="style1">SSC Monthly Safety Meetings<sup>1</sup></span><a href="#skipcontractormeeting" title="Skip SSC Monthly Safety Meetings"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></a></td>
+        <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+      </tr>
+      <tr>
+        <td width="1" rowspan="4" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+        <td width="19">&nbsp;</td>
+        <td width="335">&nbsp;</td>
+        <td width="19">&nbsp;</td>
+        <td width="1" rowspan="4" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+      </tr>
+      <tr>
+        <td width="19">&nbsp;</td>
+        <td width="335">
+<table width="99%" align="center" border="1"  bordercolor="black" cellspacing="1" bgcolor="white">
+
+<tr>
+	<td title="Date" class="subTitle" align="center" width="75">DATE</td>
+	<!--<td title="Agenda Files" class="subTitle" align="center">AGENDA</td>
+	<td title="Minutes Files" class="subTitle" align="center">MINUTES</td>
+	<td title="Presentation Files" class="subTitle" align="center" width="205">PRESENTATIONS</td>-->
+	<td title="Meeting Details" class="subTitle" width="55" align="CENTER">MINUTES</td>
+    <td title="Meeting Details" class="subTitle" width="56" align="CENTER">PRESENTATIONS</td>
+    <td title="Meeting Details" class="subTitle" width="112" align="CENTER">FINDINGS</td>
+<tr>
+<tr><td class=date align=right>July 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=07_06_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=07_06_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=07_06_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>June 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=06_01_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=06_01_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=06_01_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>May 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=05_04_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=05_04_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=05_04_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Apr 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=04_06_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=04_06_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=04_06_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Mar 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=03_02_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=03_02_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=03_02_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Feb 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=02_02_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=02_02_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=02_02_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Jan 2023&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=01_05_2023_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=01_05_2023_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=01_05_2023_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Dec 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=12_01_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=12_01_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=12_01_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Nov 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=11_03_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=11_03_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=11_03_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Oct 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=10_06_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=10_06_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=10_06_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Sept 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=09_01_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=09_01_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=09_01_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Aug 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=08_04_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=08_04_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=08_04_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>July 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=07_07_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=07_07_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=07_07_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>June 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=06_02_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=06_02_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=06_02_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>May 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=05_05_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=05_05_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=05_05_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Apr 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=04_07_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=04_07_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=04_07_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Mar 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=03_03_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=03_03_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=03_03_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Feb 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=02_03_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=02_03_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=02_03_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Jan 2022&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=01_06_2022_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=01_06_2022_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=01_06_2022_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Dec 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=12_02_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=12_02_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=12_02_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Nov 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=11_04_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=11_04_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=11_04_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Oct 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=10_07_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=10_07_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=10_07_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Sept 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=09_02_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=09_02_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=09_02_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Aug 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=08_05_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=08_05_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=08_05_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>July 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=07_01_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=07_01_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=07_01_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>June 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=06_03_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=06_03_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=06_03_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>May 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=05_06_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=05_06_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=05_06_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Apr 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=04_01_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=04_01_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=04_01_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Mar 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=03_04_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=03_04_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=03_04_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Feb 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=02_04_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=02_04_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=02_04_2021_Findings.pdf>Findings</a></td></tr><tr><td class=date align=right>Jan 2021&nbsp;&nbsp;&nbsp;</td><td align=center class=mtgdetails><a title=Minutes href=download_attachment_server_NO_ARS.asp?filename=01_07_2021_Minutes.pdf>Minutes</a></td><td align=center class=mtgdetails><a title=Presentations href=download_attachment_server_NO_ARS.asp?filename=01_07_2021_Presentations.pdf>Presentations</a></td><td align=center class=mtgdetails><a title=Findings href=download_attachment_server_NO_ARS.asp?filename=01_07_2021_Findings.pdf>Findings</a></td></tr>
+</tr>
+</table>
+</td>
+        <td width="19">&nbsp;</td>
+       </tr>
+       <tr>
+        <td>&nbsp;</td>
+		<td width="335"><br /><a href="archived_monthly_safety_presentations.asp">Archived Monthly Safety Presentations</a><br /><br /></td>
+		<td><a id="skipcontractormeeting" name="skipcontractormeeting"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+	  </tr>
+      <tr>
+        <td colspan="5" bgcolor="#000099" height="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+      </tr>
+    </table>
+        <br />
+        <table width="375" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="30" colspan="2"><img src="images/leftCrnr.gif"  alt="" width="20" height="30" /></td>
+            <td  width="335" align="center" valign="middle" bgcolor="#000099" class="style1">NASA SSC Specific Construction Safety <a href="#skipspecific" title="Skip SSC Specific Construction Safety"><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></a></td>
+            <td colspan="2"><img src="images/rightCrnr.gif"  alt="" width="20" height="30" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3" bgcolor="#000099" width="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+            <td width="19">&nbsp;</td>
+            <td  width="335"><br />
+              <!--<p> <a href="documents/Emergency-Numbers-Listing.pdf" title="Emergency Phone Listings to post at job site" target="_blank">Emergency Phone Listings to post at job site</a></p>-->
+             <!-- Removed: 01/27/2010 <p> <a href="documents/precon_handout.pdf" title="NASA Pre-construction handout" target="_blank">NASA Pre-construction handout</a></p>-->
+             <!-- <p> <a href="documents/NASA_Safety_ booklet.pdf" title="NASA Construction Safety Handbook">NASA Construction Safety Handbook</a></p>-->
+              <p> <a href="documents/Contractor_Safety_and_Health_Plans_Section-7.pdf" title="What is needed in a NASA Construction Contractor's Safety Plan - SCWI-8715-0008, Section 7" target="_blank">What is needed in a NASA Construction Contractor's Safety Plan - SCWI-8715-0008, Section 7</a></p>
+           <!--  03.25.02014: <p> <a href="documents/trends/2011.pdf" title="CY2011 Construction Safety Discrepancies trends" target="_blank">CY2011Construction Safety Discrepancies trends</a></p>
+              <p> <a href="documents/trends/2009.pdf" title="CY2010 Construction Safety Discrepancies trends" target="_blank">CY2010 Construction Safety Discrepancies trends</a></p>-->
+              <p> <a href="https://www.bls.gov/iif/osheval.htm" title="How to compute your companies TCIR and DART rates" target="_blank">How to compute your companies TCIR and DART rates </a>(Incident Rates)</p>
+             <!-- Removed 01/27/2010: <p><a href="documents/SSC-814.pdf" title="Daily S & H Review Form version 2.0" target="_blank">Daily S&amp;H Review Form</a></p>-->
+             <!-- Removed 01/27/2010: <p><a href="documents/Hazard_Assess_Worksheet_v1.pdf" title="Safety Assessment Worksheet version 1.0" target="_blank">Hazard Assessment Worksheet</a> </p>-->
+              <!--03.25.2014: <p><a href="A3.html">A-3 Related Forms Only</a></p>-->
+              <p><a href="documents/ConstructionMishapInvestigationOrientation.pdf">Construction Mishap Investigation Orientation</a></p>
+		    <p><a href="forms/DirectCostWorksheet.pdf">Mishap/Close Call Direct Cost Calculation</a></p>
+              <p><a href="documents/NASAMishapClassifications.pdf">NASA Mishaps Classifications</a></p>
+            </td>
+            <td width="19">&nbsp;</td>
+            <td width="1" rowspan="3" bgcolor="#000099"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td width="335">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td  width="335">&nbsp;</td>
+            <td><a id="skipspecific" name="skipspecific"><img src="images/spacer.gif" width="1" height="1" alt="" /></a></td>
+          </tr>
+          <tr>
+            <td colspan="5" bgcolor="#000099" height="1"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+          </tr>
+    </table>
+
+	  	<!--<table  width="375" cellpadding="0" cellspacing="0" ><tr><td width="40"><img src="recalls/megaphone-32.png" alt="red megaphone"></td>
+				<td>Recalls</td>
+			</tr>
+			<tr><td colspan="2">
+				<ul>
+					<li><a href="recalls/Recall-AllPower-Generator.pdf">All Power Generator</a></li>
+					<li><a href="recalls/Recall-BandD-Porter-Cable-hammer-drill-handles.pdf">Black &amp; Decker Hammer Drill</a></li>
+					<li><a href="recalls/Recall-DBI-SALA-Retracting-Lifelines.pdf">DBI SALA Retracting Lifelines</a></li>
+					<li><a href="recalls/Recall-Kohler-Generator.pdf">Kohler Generator</a></li>
+					<li><a href="recalls/Recall-Metabo-Angle-Grinder.pdf">Metabo Angle Grinder</a></li>
+					<li><a href="recalls/Recall-MSA-green-vgard-caps.pdf">MSA Green V-Gard Caps</a></li>
+
+</ul>
+				</td></tr>
+		</table>-->
+
+	  </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="3"><span class="pptviewer">
+      <br />
+      <sup>1</sup>Some publications are in .pdf format. Download the free Acrobat reader from Adobe Systems to view these documents by clicking <a href="http://www.adobe.com/products/acrobat/readstep2.html" title="Some publications are in .pdf format. You can download the free Acrobat reader from Adobe Systems to view these documents by clicking here." target="_blank">here</a>.<a href="http://www.adobe.com/products/acrobat/readstep2.html" title="Some documents are in .pdf format. You can download the free Acrobat reader from Adobe Systems to view these documents."><img src="images/get_adobe_reader.gif" alt="Some documents are in .pdf format. You can download the free Acrobat reader from Adobe Systems to view these documents." width="112" height="33" border="0" /></a>      <br />
+      <!--<sup>2</sup>The presentations are given in Microsoft PowerPoint. Download the free PowerPoint viewer from Microsoft to view these documents by clicking <a href="http://www.microsoft.com/downloads/details.aspx?familyid=048DC840-14E1-467D-8DCA-19D2A8FD7485&amp;displaylang=en" title="The presentations are given in Microsoft PowerPoint. You can download the free PowerPoint viewer from Microsoft to view these documents by clicking here." target="_blank">here</a>.-->
+    </span></td>
+    <td>&nbsp;</td>
+    <td colspan="2" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="3"><table cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="1" bgcolor="#000000" width="765"><img src="images/spacer.gif" border="0" width="1" height="1" alt="" /></td>
+        </tr>
+    </table></td>
+    <td>&nbsp;</td>
+    <td colspan="2" bgcolor="#000000">
+		<table border="0" cellpadding="0" cellspacing="0">
+	<tr><td width="144" height="1" align="center" valign="middle" bgcolor="#FFFFFF"><img src="images/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+	</table>	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="left"><div align="left"><strong>Responsible NASA Official</strong>: <a href="mailto:matthew.r.scott@nasa.gov">Matt Scott</a><br />
+<strong>Technical Point of Contact</strong>: <a href="mailto:donald.g.smith-1@nasa.gov">Donald Smith</a><br />
+            <strong>Curator</strong>: SDC Operations, 228-688-2525 option 3 <br />
+            <strong>Last Updated</strong>:
+      <!-><!-- #BeginDate format:Am1 -->April 21, 2022<!-- #EndDate -->   </div></td>
+    <td width="15" align="left">&nbsp;</td>
+    <td width="377" align="right" valign="bottom"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" title="Privacy Policy and Important Notices" target="_blank">Privacy Policy and Important Notices</a></td>
+    <td>&nbsp;</td>
+    <td colspan="2" bgcolor="#8d735e"><DIV align="center" style="color:#FFCC00; font-family:Arial, Helvetica, sans-serif; font-size:10px;" >
+	This page has<br /> been viewed <br />
+	304 times.
+  </DIV></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="3" valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="144" bgcolor="#ffffff">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

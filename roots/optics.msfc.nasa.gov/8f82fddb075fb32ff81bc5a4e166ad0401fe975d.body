@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" /><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<script src="https://nasasitebuilder.nasawestprime.com/wp-admin/admin-ajax.php?action=mercator-sso-js&#038;host=optics.msfc.nasa.gov&#038;back=https%3A%2F%2Foptics.msfc.nasa.gov%2F&#038;site=42&#038;nonce=c61a03cbc4"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof MercatorSSO ) {
+				document.cookie = "wordpress_test_cookie=WP Cookie check; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					MercatorSSO();
+				}
+			}
+		/* ]]> */
+	</script>
+<title>X-ray &amp; Cryogenic Facility</title>
+<link rel='dns-prefetch' href='//nasasitebuilder.nasawestprime.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="X-ray &amp; Cryogenic Facility &raquo; Feed" href="https://optics.msfc.nasa.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="X-ray &amp; Cryogenic Facility &raquo; Comments Feed" href="https://optics.msfc.nasa.gov/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/optics.msfc.nasa.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='astra-theme-css-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/css/minified/style.min.css?ver=2.4.5' media='all' />
+<style id='astra-theme-css-inline-css'>
+html{font-size:93.75%;}a,.page-title{color:#0071bc;}a:hover,a:focus{color:#205493;}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:'Source Sans Pro',sans-serif;font-weight:400;font-size:15px;font-size:1rem;line-height:1.5;}blockquote{color:#000000;}p,.entry-content p{margin-bottom:1em;}h1,.entry-content h1,.entry-content h1 a,h2,.entry-content h2,.entry-content h2 a,h3,.entry-content h3,.entry-content h3 a,h4,.entry-content h4,.entry-content h4 a,h5,.entry-content h5,.entry-content h5 a,h6,.entry-content h6,.entry-content h6 a,.site-title,.site-title a{font-family:'Merriweather',serif;font-weight:700;}.site-title{font-size:30px;font-size:2rem;}header .site-logo-img .custom-logo-link img{max-width:600px;}.astra-logo-svg{width:600px;}.ast-archive-description .ast-archive-title{font-size:20px;font-size:1.3333333333333rem;}.site-header .site-description{font-size:15px;font-size:1rem;}.entry-title{font-size:30px;font-size:2rem;}.comment-reply-title{font-size:24px;font-size:1.6rem;}.ast-comment-list #cancel-comment-reply-link{font-size:15px;font-size:1rem;}h1,.entry-content h1,.entry-content h1 a{font-size:40px;font-size:2.6666666666667rem;font-family:'Merriweather',serif;}h2,.entry-content h2,.entry-content h2 a{font-size:30px;font-size:2rem;font-family:'Merriweather',serif;}h3,.entry-content h3,.entry-content h3 a{font-size:20px;font-size:1.3333333333333rem;font-family:'Merriweather',serif;}h4,.entry-content h4,.entry-content h4 a{font-size:17px;font-size:1.1333333333333rem;}h5,.entry-content h5,.entry-content h5 a{font-size:15px;font-size:1rem;}h6,.entry-content h6,.entry-content h6 a{font-size:13px;font-size:0.86666666666667rem;}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:2rem;}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:1rem;}::selection{background-color:#0071bc;color:#ffffff;}body,h1,.entry-title a,.entry-content h1,.entry-content h1 a,h2,.entry-content h2,.entry-content h2 a,h3,.entry-content h3,.entry-content h3 a,h4,.entry-content h4,.entry-content h4 a,h5,.entry-content h5,.entry-content h5 a,h6,.entry-content h6,.entry-content h6 a{color:#212121;}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#ffffff;border-color:#0071bc;background-color:#0071bc;}.main-header-menu a,.ast-header-custom-item a{color:#212121;}.main-header-menu li:hover > a,.main-header-menu li:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu li.focus > a,.main-header-menu li.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > a,.main-header-menu .current-menu-ancestor > a,.main-header-menu .current_page_item > a,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle,.main-header-menu .current_page_item > .ast-menu-toggle{color:#0071bc;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#0071bc;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#0071bc;background-color:#0071bc;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#0071bc;border-color:#0071bc;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:#7a7a7a;}.ast-comment-meta{line-height:1.666666667;font-size:12px;font-size:0.8rem;}.single .nav-links .nav-previous,.single .nav-links .nav-next,.single .ast-author-details .author-title,.ast-comment-meta{color:#0071bc;}.entry-meta,.entry-meta *{line-height:1.45;color:#0071bc;}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *{color:#205493;}.ast-404-layout-1 .ast-404-text{font-size:200px;font-size:13.333333333333rem;}.widget-title{font-size:21px;font-size:1.4rem;color:#212121;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#0071bc;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#0071bc;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#0071bc;border-color:#0071bc;}.calendar_wrap #today > a{color:#ffffff;}.ast-pagination a,.page-links .page-link,.single .post-navigation a{color:#0071bc;}.ast-pagination a:hover,.ast-pagination a:focus,.ast-pagination > span:hover:not(.dots),.ast-pagination > span.current,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#205493;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#0071bc;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #0071bc;color:#0071bc;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#0071bc;}@media (max-width:782px){.entry-content .wp-block-columns .wp-block-column{margin-left:0px;}}@media (max-width:768px){#secondary.secondary{padding-top:0;}.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 2.14em;}.ast-separate-container #primary,.ast-separate-container #secondary{padding:1.5em 0;}.ast-separate-container.ast-right-sidebar #secondary{padding-left:1em;padding-right:1em;}.ast-separate-container.ast-two-container #secondary{padding-left:0;padding-right:0;}.ast-page-builder-template .entry-header #secondary{margin-top:1.5em;}.ast-page-builder-template #secondary{margin-top:1.5em;}#primary,#secondary{padding:1.5em 0;margin:0;}.ast-left-sidebar #content > .ast-container{display:flex;flex-direction:column-reverse;width:100%;}.ast-author-box img.avatar{margin:20px 0 0 0;}.ast-pagination{padding-top:1.5em;text-align:center;}.ast-pagination .next.page-numbers{display:inherit;float:none;}}@media (max-width:768px){.ast-page-builder-template.ast-left-sidebar #secondary{padding-right:20px;}.ast-page-builder-template.ast-right-sidebar #secondary{padding-left:20px;}.ast-right-sidebar #primary{padding-right:0;}.ast-right-sidebar #secondary{padding-left:0;}.ast-left-sidebar #primary{padding-left:0;}.ast-left-sidebar #secondary{padding-right:0;}.ast-pagination .prev.page-numbers{padding-left:.5em;}.ast-pagination .next.page-numbers{padding-right:.5em;}}@media (min-width:769px){.ast-separate-container.ast-right-sidebar #primary,.ast-separate-container.ast-left-sidebar #primary{border:0;}.ast-separate-container.ast-right-sidebar #secondary,.ast-separate-container.ast-left-sidebar #secondary{border:0;margin-left:auto;margin-right:auto;}.ast-separate-container.ast-two-container #secondary .widget:last-child{margin-bottom:0;}.ast-separate-container .ast-comment-list li .comment-respond{padding-left:2.66666em;padding-right:2.66666em;}.ast-author-box{-js-display:flex;display:flex;}.ast-author-bio{flex:1;}.error404.ast-separate-container #primary,.search-no-results.ast-separate-container #primary{margin-bottom:4em;}}@media (min-width:769px){.ast-right-sidebar #primary{border-right:1px solid #eee;}.ast-right-sidebar #secondary{border-left:1px solid #eee;margin-left:-1px;}.ast-left-sidebar #primary{border-left:1px solid #eee;}.ast-left-sidebar #secondary{border-right:1px solid #eee;margin-right:-1px;}.ast-separate-container.ast-two-container.ast-right-sidebar #secondary{padding-left:30px;padding-right:0;}.ast-separate-container.ast-two-container.ast-left-sidebar #secondary{padding-right:30px;padding-left:0;}}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{color:#ffffff;border-color:#0071bc;background-color:#0071bc;border-radius:2px;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;font-family:inherit;font-weight:inherit;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.button:hover,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#ffffff;background-color:#205493;border-color:#205493;}@media (min-width:768px){.ast-container{max-width:100%;}}@media (min-width:544px){.ast-container{max-width:100%;}}@media (max-width:544px){.ast-separate-container .ast-article-post,.ast-separate-container .ast-article-single{padding:1.5em 1em;}.ast-separate-container #content .ast-container{padding-left:0.54em;padding-right:0.54em;}.ast-separate-container #secondary{padding-top:0;}.ast-separate-container.ast-two-container #secondary .widget{margin-bottom:1.5em;padding-left:1em;padding-right:1em;}.ast-separate-container .comments-count-wrapper{padding:1.5em 1em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 1em;margin-bottom:1.5em;}.ast-separate-container .ast-comment-list .bypostauthor{padding:.5em;}.ast-separate-container .ast-archive-description{padding:1.5em 1em;}.ast-search-menu-icon.ast-dropdown-active .search-field{width:170px;}}@media (max-width:544px){.ast-comment-list .children{margin-left:0.66666em;}.ast-separate-container .ast-comment-list .bypostauthor li{padding:0 0 0 .5em;}}@media (max-width:768px){.ast-mobile-header-stack .main-header-bar .ast-search-menu-icon{display:inline-block;}.ast-header-break-point.ast-header-custom-item-outside .ast-mobile-header-stack .main-header-bar .ast-search-icon{margin:0;}.ast-comment-avatar-wrap img{max-width:2.5em;}.comments-area{margin-top:1.5em;}.ast-separate-container .comments-count-wrapper{padding:2em 2.14em;}.ast-separate-container .ast-comment-list li.depth-1{padding:1.5em 2.14em;}.ast-separate-container .comment-respond{padding:2em 2.14em;}}@media (max-width:768px){.ast-header-break-point .main-header-bar .ast-search-menu-icon.slide-search .search-form{right:0;}.ast-header-break-point .ast-mobile-header-stack .main-header-bar .ast-search-menu-icon.slide-search .search-form{right:-1em;}.ast-comment-avatar-wrap{margin-right:0.5em;}}@media (max-width:544px){.ast-separate-container .comment-respond{padding:1.5em 1em;}}@media (min-width:545px){.ast-page-builder-template .comments-area,.single.ast-page-builder-template .entry-header,.single.ast-page-builder-template .post-navigation{max-width:1055px;margin-left:auto;margin-right:auto;}}body,.ast-separate-container{background-color:#ffffff;background-image:none;}@media (max-width:768px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1,.entry-content h1 a{font-size:30px;}h2,.entry-content h2,.entry-content h2 a{font-size:25px;}h3,.entry-content h3,.entry-content h3 a{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:544px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1,.entry-content h1 a{font-size:30px;}h2,.entry-content h2,.entry-content h2 a{font-size:25px;}h3,.entry-content h3,.entry-content h3 a{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:768px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:769px){.ast-container{max-width:1055px;}}@font-face {font-family: "Astra";src: url(https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");font-weight: normal;font-style: normal;font-display: fallback;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#eaeaea;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children{border-top-width:1px;border-right-width:1px;border-left-width:1px;border-bottom-width:1px;border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children .children{top:-1px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu a,.ast-desktop .main-header-menu.submenu-with-border .children a{border-bottom-width:1px;border-style:solid;border-color:#eaeaea;}@media (min-width:769px){.main-header-menu .sub-menu li.ast-left-align-sub-menu:hover > ul,.main-header-menu .sub-menu li.ast-left-align-sub-menu.focus > ul{margin-left:-2px;}}.ast-small-footer{border-top-style:solid;border-top-width:2px;border-top-color:#fff;}@media (max-width:920px){.ast-404-layout-1 .ast-404-text{font-size:100px;font-size:6.6666666666667rem;}}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0;}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit;}.ast-breadcrumbs .trail-items{list-style:none;}.trail-items li::after{padding:0 0.3em;content:"\00bb";}.trail-items li:last-of-type::after{display:none;}.ast-header-break-point .main-header-bar{border-bottom-width:0;border-bottom-color:#ffffff;}@media (min-width:769px){.main-header-bar{border-bottom-width:0;border-bottom-color:#ffffff;}}@media (min-width:769px){#primary{width:81%;}#secondary{width:19%;}}.ast-flex{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}.main-header-bar{padding:1em 0;}.ast-site-identity{padding:0;}.header-main-layout-1 .ast-flex.main-header-container,.header-main-layout-3 .ast-flex.main-header-container{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}.header-main-layout-1 .ast-flex.main-header-container,.header-main-layout-3 .ast-flex.main-header-container{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}
+</style>
+<link rel='stylesheet' id='astra-google-fonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%7CMerriweather%3A700&#038;display=fallback&#038;ver=2.4.5' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://optics.msfc.nasa.gov/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-206-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/206-layout.css?ver=ae798bd1783d7d5b3cfcb94b1e7135d0' media='all' />
+<link rel='stylesheet' id='searchandfilter-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/plugins/search-filter/style.css?ver=1' media='all' />
+<link rel='stylesheet' id='bbhf-style-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/plugins/bb-header-footer/assets/css/bb-header-footer.css?ver=1.1.9' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-966-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/966-layout-partial.css?ver=fab5f24bfbb8d5a3bcd39551c01faebd' media='all' />
+<link rel='stylesheet' id='fl-builder-layout--css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/-layout-partial.css?ver=ae798bd1783d7d5b3cfcb94b1e7135d0' media='all' />
+<link rel='stylesheet' id='astra-addon-css-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/astra-addon/astra-addon-5e991eb2aa7568-63395752.css?ver=2.3.4' media='all' />
+<style id='astra-addon-css-inline-css'>
+.ast-separate-container .blog-layout-1,.ast-separate-container .blog-layout-2,.ast-separate-container .blog-layout-3{background-color:transparent;background-image:none;}.ast-separate-container .ast-article-post{background-color:#ffffff;}.ast-separate-container .ast-article-single,.ast-separate-container .comment-respond,.ast-separate-container .ast-comment-list li,.ast-separate-container .ast-woocommerce-container,.ast-separate-container .error-404,.ast-separate-container .no-results,.single.ast-separate-container .ast-author-meta,.ast-separate-container .related-posts-title-wrapper,.ast-separate-container.ast-two-container #secondary .widget,.ast-separate-container .comments-count-wrapper,.ast-box-layout.ast-plain-container .site-content,.ast-padded-layout.ast-plain-container .site-content{background-color:#ffffff;}.ast-header-sections-navigation div > li > ul{border-color:#eaeaea;}.ast-advanced-headers-different-logo .advanced-header-logo,.ast-header-break-point .ast-has-mobile-header-logo .advanced-header-logo{display:inline-block;}.ast-header-break-point.ast-advanced-headers-different-logo .ast-has-mobile-header-logo .ast-mobile-header-logo{display:none;}.ast-advanced-headers-layout{width:100%;}.ast-header-break-point .ast-advanced-headers-parallax{background-attachment:fixed;}
+</style>
+<link rel='stylesheet' id='Branda_Signup_Password-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/plugins/ultimate-branding/inc/modules/login-screen/assets/css/signup-password.css?ver=3.3.1' media='all' />
+<link rel='stylesheet' id='nasa-sitebuilder-theme-css-css'  href='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra-child/style.css?ver=1.0.0' media='all' />
+<!--[if IE]>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=2.4.5'></script>
+<script>
+flexibility(document.documentElement);
+</script>
+<![endif]-->
+<script src='https://optics.msfc.nasa.gov/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script src='https://optics.msfc.nasa.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://optics.msfc.nasa.gov/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://optics.msfc.nasa.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://optics.msfc.nasa.gov/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="NASA Sitebuilder 5.4.1 - https://nasasitebuilder.nasawestprime.com/" />
+<link rel="canonical" href="https://optics.msfc.nasa.gov/" />
+<link rel='shortlink' href='https://optics.msfc.nasa.gov/' />
+<link rel="alternate" type="application/json+oembed" href="https://optics.msfc.nasa.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foptics.msfc.nasa.gov%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://optics.msfc.nasa.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Foptics.msfc.nasa.gov%2F&#038;format=xml" />
+			<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+		<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="home page-template-default page page-id-206 fl-builder dhf-header dhf-template-astra dhf-stylesheet-astra-child ast-desktop ast-plain-container ast-left-sidebar astra-2.4.5 ast-header-custom-item-inside ast-single-post ast-inherit-site-logo-transparent ast-normal-title-enabled astra-addon-2.3.4">
+
+<div 
+	class="hfeed site" id="page">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+				<header id="masthead" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+				<p class="main-title bhf-hidden" itemprop="headline"><a href="https://optics.msfc.nasa.gov" title="X-ray &amp; Cryogenic Facility" rel="home">X-ray &amp; Cryogenic Facility</a></p>
+				<div class="fl-builder-content fl-builder-content-966 fl-builder-global-templates-locked" data-post-id="966" itemscope="itemscope" data-type="header" itemtype="http://schema.org/WPHeader"><div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5a90308e8f11e" data-node="5a90308e8f11e">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5a90308e90cc1" data-node="5a90308e90cc1">
+			<div class="fl-col fl-node-5a90308e90dfb" data-node="5a90308e90dfb">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-photo fl-node-5a90308e8efba" data-node="5a90308e8efba">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://optics.msfc.nasa.gov" target="_self" itemprop="url">
+				<img class="fl-photo-img wp-image-948" src="https://s3.amazonaws.com/nasasitebuilder-prod/wp-content/uploads/sites/42/2018/02/XRCF-banner.png" alt="X-ray and Cryogenic Facility" itemprop="image" title="XRCF-banner" srcset="https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/2018/02/XRCF-banner.png 1003w, https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/2018/02/XRCF-banner-300x65.png 300w, https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/2018/02/XRCF-banner-768x166.png 768w, https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/2018/02/XRCF-banner-600x130.png 600w" sizes="(max-width: 1003px) 100vw, 1003px" />
+				</a>
+					</div>
+	</div>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div>			</header>
+
+		
+	
+	
+	<div id="content" class="site-content">
+
+		<div class="ast-container">
+
+		
+
+	<div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
+	<div class="sidebar-main" >
+
+		
+		
+			<aside id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-206 current_page_item menu-item-957"><a href="https://optics.msfc.nasa.gov/" aria-current="page">Home</a></li>
+<li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"><a href="https://optics.msfc.nasa.gov/capabilities-2/">XRCF Capabilities</a></li>
+<li id="menu-item-215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-215"><a href="https://optics.msfc.nasa.gov/projects-2/">Projects</a></li>
+<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://optics.msfc.nasa.gov/xrcf/">XRCF Data</a></li>
+<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="https://optics.msfc.nasa.gov/work/">Working With Us</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="https://optics.msfc.nasa.gov/tech-2/">Mirror Technology Days</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="https://optics.msfc.nasa.gov/contact/">Contacts</a></li>
+<li id="menu-item-1067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1067"><a href="https://optics.msfc.nasa.gov/content/tech-days-2018/">Tech Days 2018</a></li>
+<li id="menu-item-1163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1163"><a href="https://optics.msfc.nasa.gov/tech-days-2019/">Tech Days 2019</a></li>
+</ul></div></aside>
+		
+		
+	</div><!-- .sidebar-main -->
+</div><!-- #secondary -->
+
+
+	<div id="primary" class="content-area primary">
+
+		
+					<main id="main" class="site-main">
+
+				
+					
+					
+
+<article 
+	class="post-206 page type-page status-publish ast-article-single" id="post-206" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+
+	
+	<header class="entry-header ast-no-thumbnail ast-no-meta">
+
+		
+		<h1 class="entry-title" itemprop="headline">X-ray &amp; Cryogenic Facility</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content clear" 
+		itemprop="text"	>
+
+		
+		<div class="fl-builder-content fl-builder-content-206 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="206"><div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5a903750302d4" data-node="5a903750302d4">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5a903750312b2" data-node="5a903750312b2">
+			<div class="fl-col fl-node-5a903750313fc" data-node="5a903750313fc">
+	<div class="fl-col-content fl-node-content">
+	<div class="fl-module fl-module-rich-text fl-node-5a90375032f1e" data-node="5a90375032f1e">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<div id="block-system-main" class="block block-system unstyled-block">
+<div><!-- div  id="node-1" class="node node-page node" about="/home" typeof="foaf:Document" --></p>
+<div id="node-1" class="node node-page clearfix">
+        <span class="rdf-meta element-hidden" />    </p>
+<div class="content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<p>
+	<span>NASA's X-ray and Cryogenic Facility (XRCF) is an adaptable space environment simulation facility that has been enabling technology development and pre-flight verification of space missions since 1991. As the Agency's premier cryogenic optical test facility, the XRCF enables the development and pre-flight evaluation of large direct-incidence telescope mirrors and structures in relevant thermal environments to 20 Kelvin. As the world's largest x-ray optical test facility, the XRCF enables development, performance, and calibration testing of grazing-incidence x-ray optics, detectors and telescopes.</span></p>
+<p>
+	 </p>
+<p>
+	<img alt="" src="https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/2018/02/facility_aerial.jpg" /></p>
+<p>
+	 </p>
+<p>
+	<span>Since construction in 1989, the facility's capability bas been utilized in the development and verification activities of NASA flagship missions such as the Chandra X-ray Observatory and the James Webb Space Telescope. Technology evaluation and readiness demonstrations have been performed on advanced x-ray mirrors, composite cryogenic structures, advanced video guidance systems, solar thermal propulsion inflatable structures, and advanced UVOIR mirrors. Key to the XRCF success is the optimized, highly trained, technically diverse, flight hardware qualified crew of the test engineers and technicians that are dedicated to customer satisfaction.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix clear" />
+          </div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div>
+		
+		
+	</div><!-- .entry-content .clear -->
+
+	
+	
+</article><!-- #post-## -->
+
+
+					
+					
+				
+			</main><!-- #main -->
+			
+		
+	</div><!-- #primary -->
+
+
+			
+			</div> <!-- ast-container -->
+
+		</div><!-- #content -->
+
+		
+		
+		
+		<footer
+			class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon"		>
+
+			
+			
+<div class="ast-small-footer footer-sml-layout-2">
+	<div class="ast-footer-overlay">
+		<div class="ast-container">
+			<div class="ast-small-footer-wrap" >
+					<div class="ast-row ast-flex">
+
+											<div class="ast-small-footer-section ast-small-footer-section-1 ast-small-footer-section-equally ast-col-xs-12" >
+							<a href="https://www.nasa.gov">NASA Homepage</a> | Responsible NASA Official: Jeffrey Kegley |  Last Update Date: May 14, 2019</a> 						</div>
+				
+					
+					</div> <!-- .ast-row.ast-flex -->
+			</div><!-- .ast-small-footer-wrap -->
+		</div><!-- .ast-container -->
+	</div><!-- .ast-footer-overlay -->
+</div><!-- .ast-small-footer-->
+
+			
+		</footer><!-- #colophon -->
+		
+		
+	</div><!-- #page -->
+
+	
+	<script>
+var astra = {"break_point":"921","isRtl":""};
+</script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/themes/astra/assets/js/minified/style.min.js?ver=2.4.5'></script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/206-layout.js?ver=ae798bd1783d7d5b3cfcb94b1e7135d0'></script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/plugins/bb-header-footer/assets/js/bb-header-footer.js?ver=1.1.9'></script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/966-layout-partial.js?ver=fab5f24bfbb8d5a3bcd39551c01faebd'></script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/bb-plugin/cache/-layout-partial.js?ver=ae798bd1783d7d5b3cfcb94b1e7135d0'></script>
+<script>
+var astraAddon = {"sticky_active":""};
+</script>
+<script src='https://nasasitebuilder.nasawestprime.com/xrcf/wp-content/uploads/sites/42/astra-addon/astra-addon-5e991eb2b94006-65208290.js?ver=2.3.4'></script>
+<script src='https://optics.msfc.nasa.gov/wp-includes/js/wp-embed.min.js?ver=5.4.1'></script>
+			<script>
+			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+			
+	</body>
+</html>

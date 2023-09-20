@@ -1,0 +1,15 @@
+GET https://sealevel.earthdata.nasa.gov
+
+
+< HTTP/1.1 406 Not Acceptable
+< Cache-Control: no-cache
+< X-Runtime: 0.003325
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html
+< Server: nginx/1.20.1
+< Date: Tue, 19 Sep 2023 06:03:44 GMT
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval' blob:;        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Xss-Protection: 1;mode=block
+< X-Request-Id: 8861d86f-643e-4b45-a29c-24500504350f

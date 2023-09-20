@@ -1,0 +1,11 @@
+GET http://robotics.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 234
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:00:50 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Location: https://robotics.nasa.gov/

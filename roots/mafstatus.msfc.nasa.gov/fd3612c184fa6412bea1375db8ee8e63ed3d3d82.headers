@@ -1,0 +1,13 @@
+GET http://mafstatus.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 167
+< X-Amz-Cf-Pop: JFK52-P3
+< X-Amz-Cf-Id: jhjwUBXXOhMy_KPRE_xOoNo03U8b_cyTugndBcp_0ySfTvbQn32A_w==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:02:21 GMT
+< Location: https://mafstatus.msfc.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 4e1c4d133adc8d8214916eeaddd7af66.cloudfront.net (CloudFront)

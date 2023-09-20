@@ -1,0 +1,14 @@
+GET https://public.ksc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Link: <https://public.ksc.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://public.ksc.nasa.gov/wp-json/wp/v2/pages/11>; rel="alternate"; type="application/json"
+< Link: <https://public.ksc.nasa.gov/>; rel=shortlink
+< X-Powered-By: PHP/8.1.16
+< X-Powered-By: ASP.NET
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:57:05 GMT
+< Server: Microsoft-IIS/10.0

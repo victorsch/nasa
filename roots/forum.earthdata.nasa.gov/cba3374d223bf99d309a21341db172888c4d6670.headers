@@ -1,0 +1,20 @@
+GET https://forum.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:41:16 GMT
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: DENY
+< Expires: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Powered-By: PHP/8.1.22
+< Set-Cookie: eData_forum_prd_u=1; expires=Wed, 18-Sep-2024 05:41:16 GMT; path=/; domain=forum.earthdata.nasa.gov; secure;
+< Set-Cookie: eData_forum_prd_k=; expires=Wed, 18-Sep-2024 05:41:16 GMT; path=/; domain=forum.earthdata.nasa.gov; secure;
+< Set-Cookie: eData_forum_prd_sid=0f7a1bed89f1926571fb8329b863e057; expires=Wed, 18-Sep-2024 05:41:16 GMT; path=/; domain=forum.earthdata.nasa.gov; secure;
+< Set-Cookie: c060c9dc62d4edc8b7aa906a7fec7203=4c9f5b0c221bd7743594a4d4a9a300af; path=/; HttpOnly; Secure; SameSite=None
+< Server: Apache
+< Cache-Control: no-cache, no-store, must-revalidate
+< Referrer-Policy: strict-origin-when-cross-origin
+< Pragma: no-cache

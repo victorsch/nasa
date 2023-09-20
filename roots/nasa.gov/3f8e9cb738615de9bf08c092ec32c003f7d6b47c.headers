@@ -1,0 +1,9 @@
+GET http://clifton.smith-1@nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 178
+< Location: https://www.nasa.gov/
+< Server: nginx/1.18.0 (Ubuntu)
+< Date: Tue, 19 Sep 2023 05:51:15 GMT

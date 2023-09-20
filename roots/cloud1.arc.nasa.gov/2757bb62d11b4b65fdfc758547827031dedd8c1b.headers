@@ -1,0 +1,10 @@
+GET https://cloud1.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://espo.nasa.gov
+< Content-Length: 229
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:57:30 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

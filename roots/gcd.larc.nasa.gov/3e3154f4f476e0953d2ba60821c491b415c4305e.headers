@@ -1,0 +1,13 @@
+GET http://gcd.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:05:54 GMT
+< Location: https://gcd.larc.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 235099561ba63a2b7662a2b20d9ac036.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< Server: CloudFront
+< Content-Length: 167
+< X-Amz-Cf-Id: C3Y5LCvqJR3tJHPM57zccN8KSJ-VaOuGKeeHMsALSXBHzBh5nDsZ5w==
+< Content-Type: text/html

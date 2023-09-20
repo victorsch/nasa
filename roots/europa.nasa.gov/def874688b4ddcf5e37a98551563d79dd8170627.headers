@@ -1,0 +1,13 @@
+GET http://europa.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: V7kV5rUQZIsk0JFOwJcmzQWnPAzdxPRONVh8bKswt2TTDTD7xQWG0Q==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:44:06 GMT
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 09271a32d559aa027d52f6c914ebff78.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Location: https://europa.nasa.gov/
+< X-Amz-Cf-Pop: PHL51-P1

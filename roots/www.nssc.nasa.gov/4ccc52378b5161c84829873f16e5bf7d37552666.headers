@@ -1,0 +1,13 @@
+GET https://www.nssc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Cache: LambdaGeneratedResponse from cloudfront
+< Via: 1.1 be2c2de1ae578e4915f9466876d9de46.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Amz-Cf-Id: Ma2CbwjG6d5hoDSjcbB2ywblHbHMcvlFEMJc2BZ3wQbgWJJK8QG8Eg==
+< Content-Length: 0
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:50:26 GMT
+< Location: https://www.nasa.gov/centers/nssc/
+< Strict-Transport-Security: max-age=31536000

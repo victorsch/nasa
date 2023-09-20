@@ -1,0 +1,9 @@
+GET http://earthscience.arc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Location: https://www.nasa.gov/centers/ames/earthscience
+< Content-Length: 230
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:06:32 GMT

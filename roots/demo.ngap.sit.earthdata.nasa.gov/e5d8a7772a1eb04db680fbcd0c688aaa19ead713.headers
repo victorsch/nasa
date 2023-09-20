@@ -1,0 +1,16 @@
+GET http://demo.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Via: 1.1 10a23502057a5449ee9e08eab6e9c0d4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: jXRRE1h852iljSoOdzoLUkkrZBIUSJL3p16muX7_8OWyRhin14z8Qg==
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:43:00 GMT
+< Content-Type: text/html
+< Location: https://demo.ngap.sit.earthdata.nasa.gov/
+< X-Content-Type-Options: nosniff
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: JFK50-P2
+< X-Xss-Protection: 1; mode=block

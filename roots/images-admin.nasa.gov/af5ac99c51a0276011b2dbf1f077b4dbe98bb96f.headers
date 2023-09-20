@@ -1,0 +1,20 @@
+GET https://images-admin.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: goredirect/2013.08.12
+< X-Cache: Miss from cloudfront
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< Referrer-Policy: same-origin
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Id: QOqx6p9jn7yBi4FYQ_BXiT1kqi_KcBgOE9GApA4cwnaCe5_QW2smgw==
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:01:39 GMT
+< Location: https://images.nasa.gov/login
+< X-Last-Reviewed: Thu, 13 Dec 2018
+< Via: 1.1 759533d02225fb7e951ea4dc2b01fd48.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR50-C1
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 64

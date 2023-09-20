@@ -1,0 +1,18 @@
+GET http://autodiscover.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://outlook.office365.com/owa/?realm=nasa.gov&vd=autodiscover
+< X-Feserver: MN2PR20CA0051
+< X-Feserver: MN2PR20CA0051
+< Cache-Control: no-cache
+< Ms-Cv: SmwyJgdHus2i8rIe9m1H1w.0
+< Date: Tue, 19 Sep 2023 06:00:43 GMT
+< X-Requestid: dcb26b35-f6d9-40dc-9468-b433d7d74ccf
+< X-Feefzinfo: MNZ
+< Request-Id: 26326c4a-4707-cdba-a2f2-b21ef66d47d7
+< Server: Microsoft-IIS/10.0
+< X-Feproxyinfo: MN2PR20CA0051.NAMPRD20.PROD.OUTLOOK.COM
+< X-Powered-By: ASP.NET
+< Content-Length: 0
+< Pragma: no-cache

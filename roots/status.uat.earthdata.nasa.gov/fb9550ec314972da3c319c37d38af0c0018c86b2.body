@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Status</title>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.earthdata.nasa.gov/eui/1.1.3/stylesheets/application.css" media="screen" />
+  <link rel="stylesheet" href="/assets/application-d3e4ed6dcb975b5f34a59601bcb28dc603755bb534f9ee165257097cb2076595.css" media="all" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Hpo/umBNA7Kd/NSOtAGhyIYxIwf21klrhh9Fzhq8Jic3ZQHQ/4vPESLYf/4G57LFYQwXvLEpBLRvP+Ske8yWNw==" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon-aa4527caa2440aef4be08729b51cbd68d4463ef7c0725182db4e7e0878cbd32f.ico" />
+    <!--[if lt IE9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+    </script>
+  <! [endif] -->
+
+  <meta name="viewport" content="width=device-width">
+  <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WNP7MLF');
+    </script>
+  <!-- End Google Tag Manager -->
+  </head>
+  <body class="eui-layout">
+  <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+        height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="earthdata-notification-banner"></div>
+  <header class="main-header">
+  <div class="container content">
+    <div class="left-half">
+      <a href="#"><i class="eui-icon eui-fa-bars" id="nav-button"><span class="eui-sr-only">Navigation</span></i></a>
+      <!-- container for content and mask -->
+      <div>
+        <nav class="main-nav" id="nav-menu">
+          <ul>
+  <li class= >
+    <a href="/notifications">Notifications</a>
+  </li>
+  <li class= >
+    <a href="/client_applications">Applications</a>
+  </li>
+  <li class= >
+    <a href="/notifications_calendar">Calendar</a>
+  </li>
+</ul>
+
+        </nav>
+        <div id="nav-mask" class="nav-mask">
+        </div>
+      </div>
+      <!-- end container for content and mask -->
+      <div class="eui-masthead-logo eui-application-logo">
+        <a style="text-decoration: none" tabindex="1" href="/">
+          <h1 style="font-size: 2rem; font-weight: 300; font-family: 'Open Sans', sans-serif; line-height: 1.5;">
+            Status
+          </h1>
+</a>      </div>
+
+      <div class="main-content-link">
+        <a href="#main-content" tabindex="2">Skip to main content</a>
+      </div>
+    </div>
+    <div class="right-half">
+      <div class="access-badge">
+          <a href="https://status.uat.earthdata.nasa.gov/saml/sso">
+            <div class="login-button">
+              <i class="fa fa-lock"></i>
+              <span> Login </span>
+            </div>
+</a>      </div>
+    </div>
+  </div>
+</header>
+
+
+  <div class="wrapper main-container">
+    <div class="container content" id="main-content">
+      <h3>Welcome to the Earthdata Status System</h3>
+
+<h4>
+  This system will provide current operational notifications about Earthdata and
+  Trusted Partner applications.
+</h4>
+
+<br>
+<fieldset class="u-border-b">
+  <form id="app_query" class="search-form" action="/status_page/status_search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+    <table class='search-table'>
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td class="search-cell">
+            <input type="text" name="status_search" id="status_search" placeholder="Search status type, application, etc." class="status-search" />
+          </td>
+          <td>
+            <button type="submit" class=" eui-btn--blue search-btn--round">
+              <i class="eui-icon eui-fa-search"></i> Search
+</button>          </td>
+        </tr>
+      </tbody>
+    </table>
+</form>
+  <br>
+
+  <div class="eui-info-box" id="status-search-selectors" hidden=true>
+    <div class="filter-input">
+      <label for="filter-input"><strong>Status Type </strong></label>
+      <input type="checkbox" name="filter-outage" id="filter-outage" value="outage" />
+      <label for="filter-outage">Outage <i class="fa fa-warning"></i></label>
+      <input type="checkbox" name="filter-issue" id="filter-issue" value="issue" />
+      <label for="filter-issue">Issue <i class="fa fa-exclamation-circle"></i></label>
+      <input type="checkbox" name="filter-ok" id="filter-ok" value="ok" />
+      <label for="filter-ok">Ok <i class="fa fa-check-circle"></i></label>
+
+      <span style="float: right;">
+        <label for="application-dropdown"><strong>Applications</strong></label>
+        <select class="application-dropdown" name="application" id="application-dropdown">
+          <option value="" selected="selected">All Applications</option>
+          <option value="Common Metadata Repository">Common Metadata Repository</option>
+<option value="Earthdata Login (UAT)">Earthdata Login (UAT)</option>
+<option value="Test App">Test App</option>
+<option value="TestApp2">TestApp2</option>
+        </select>
+      </span>
+    </div>
+  </div>
+
+</fieldset>
+  <div class="all-apps-ok-banner">
+      <h3><i class="fa fa-check-circle"></i> All Applications OK</h3>
+  </div>
+
+<h3>
+  Current Status
+</h3>
+
+<div class="status-container" id="status-container">
+  
+  <div class="app-spacer">
+    <h2 class="app-name">Common Metadata Repository</h2>
+    <div class="flex-app-container ok" id="status_for_common metadata repository">
+      <div class="incident-box">
+        <span class="incident-icon">
+          <i class="fa fa-warning"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-info-circle"></i>
+          <i class="fa fa-question-circle"></i>
+        </span>
+        <span class="incident-type">
+          Ok
+        </span>
+      </div>
+
+      <div class="service-msg" onclick="location.href='/status_page/12';"id="Common Metadata Repository">
+        CMR is currently operating with no known issues.
+      </div>
+      
+        <div class="expand-button-area">
+          <button class="expand-button" data-app-id="12" id="expand_for_12">
+            <i class="fa fa-caret-down down" aria-hidden="true"></i>
+            <i class="fa fa-caret-up up" style="display: none;" aria-hidden="true"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+        <div class="services-flex-container hidden" id="services_for_12">
+          <div class="left-spacer">
+          </div>
+
+          <div id="Common Metadata Repository" class="home-services-container ok">
+            <div class="client-services-status-summary">
+              <h5>Application Services</h5>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Ingest Speed
+                  </div>
+                  <div class="incident">
+                    CMR ingest speed is experiencing no issues at this time.
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Search Integrity
+                  </div>
+                  <div class="incident">
+                    CMR search integrity is experiencing no issues at this time.
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Search Speed
+                  </div>
+                  <div class="incident">
+                    CMR search speed is experiencing no issues at this time.
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Ingest Integrity
+                  </div>
+                  <div class="incident">
+                    CMR ingest integrity is experiencing no issues at this time.
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  <div class="app-spacer">
+    <h2 class="app-name">TestApp2</h2>
+    <div class="flex-app-container ok" id="status_for_testapp2">
+      <div class="incident-box">
+        <span class="incident-icon">
+          <i class="fa fa-warning"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-info-circle"></i>
+          <i class="fa fa-question-circle"></i>
+        </span>
+        <span class="incident-type">
+          Ok
+        </span>
+      </div>
+
+      <div class="service-msg" onclick="location.href='/status_page/10';"id="TestApp2">
+        Test OK
+      </div>
+      
+        <div class="expand-button-area">
+          <button class="expand-button" data-app-id="10" id="expand_for_10">
+            <i class="fa fa-caret-down down" aria-hidden="true"></i>
+            <i class="fa fa-caret-up up" style="display: none;" aria-hidden="true"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+        <div class="services-flex-container hidden" id="services_for_10">
+          <div class="left-spacer">
+          </div>
+
+          <div id="TestApp2" class="home-services-container ok">
+            <div class="client-services-status-summary">
+              <h5>Application Services</h5>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    New Service
+                  </div>
+                  <div class="incident">
+                    Everything is okay
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  <div class="app-spacer">
+    <h2 class="app-name">Earthdata Login (UAT)</h2>
+    <div class="flex-app-container ok" id="status_for_earthdata login (uat)">
+      <div class="incident-box">
+        <span class="incident-icon">
+          <i class="fa fa-warning"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-info-circle"></i>
+          <i class="fa fa-question-circle"></i>
+        </span>
+        <span class="incident-type">
+          Ok
+        </span>
+      </div>
+
+      <div class="service-msg" onclick="location.href='/status_page/13';"id="Earthdata Login (UAT)">
+        EDL is operating with no known issues at this time.
+      </div>
+      
+        <div class="expand-button-area">
+          <button class="expand-button" data-app-id="13" id="expand_for_13">
+            <i class="fa fa-caret-down down" aria-hidden="true"></i>
+            <i class="fa fa-caret-up up" style="display: none;" aria-hidden="true"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+        <div class="services-flex-container hidden" id="services_for_13">
+          <div class="left-spacer">
+          </div>
+
+          <div id="Earthdata Login (UAT)" class="home-services-container ok">
+            <div class="client-services-status-summary">
+              <h5>Application Services</h5>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Token Validation
+                  </div>
+                  <div class="incident">
+                    Token Validation is experiencing no issues at this time.	
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Token Generation
+                  </div>
+                  <div class="incident">
+                    Token Generation is experiencing no issues at this time.	
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Profile Retrieval
+                  </div>
+                  <div class="incident">
+                    User Authentication is experiencing no issues at this time.	
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    User Authorization
+                  </div>
+                  <div class="incident">
+                    User Authorization is experiencing no issues at this time.	
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    User Authentication
+                  </div>
+                  <div class="incident">
+                    User Authentication is experiencing no issues at this time.	
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  <div class="app-spacer">
+    <h2 class="app-name">Test App</h2>
+    <div class="flex-app-container ok" id="status_for_test app">
+      <div class="incident-box">
+        <span class="incident-icon">
+          <i class="fa fa-warning"></i>
+          <i class="fa fa-exclamation-circle"></i>
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-info-circle"></i>
+          <i class="fa fa-question-circle"></i>
+        </span>
+        <span class="incident-type">
+          Ok
+        </span>
+      </div>
+
+      <div class="service-msg" onclick="location.href='/status_page/3';"id="Test App">
+        Everything is Working as expected
+      </div>
+      
+        <div class="expand-button-area">
+          <button class="expand-button" data-app-id="3" id="expand_for_3">
+            <i class="fa fa-caret-down down" aria-hidden="true"></i>
+            <i class="fa fa-caret-up up" style="display: none;" aria-hidden="true"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+        <div class="services-flex-container hidden" id="services_for_3">
+          <div class="left-spacer">
+          </div>
+
+          <div id="Test App" class="home-services-container ok">
+            <div class="client-services-status-summary">
+              <h5>Application Services</h5>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Service Two
+                  </div>
+                  <div class="incident">
+                    Everything is Ok
+                  </div>
+                </div>
+                <div class="service-bullet">
+                  <div class="icon ok">
+                    <i class="fa fa-circle" aria-hidden="true"></i>
+                  </div>
+                  <div class="name">
+                    Service One
+                  </div>
+                  <div class="incident">
+                    Everything is OK
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+</div>
+
+    <div class="non-configured-apps eui-info-box">
+      <a href="#" id="toggle-nonfigured-apps">Show</a>
+          <b>7</b> apps that have not been configured to show their statuses.
+
+      <ul id="non-configured-app-list" style="display: none;">
+            <li>Earthdata Website (UAT)</li>
+            <li>worldview.earthdata.nasa.gov</li>
+            <li>Earthdata Developer Portal (UAT)</li>
+            <li>Earthdata Wiki (UAT)</li>
+            <li>Earthdata FBM (UAT)</li>
+            <li>Earthdata Code Collaborative (UAT)</li>
+            <li>Earthdata Conduit (UAT)</li>
+      </ul>
+    </div>
+
+
+      <!-- 
+       -->
+    </div>
+  </div>
+
+  <footer class="main-footer">
+  <div class="flex-container" >
+    <div class="flex-item">V 1.40.0
+</div>
+    <div class="flex-item">NASA Official: Stephen Berrick</div>
+    <div class="flex-item"><a href="/documentation">Documentation</a></div>
+    <div class="flex-item"><a class="ext" href="http://www.nasa.gov/FOIA/index.html">FOIA</a></div>
+    <div class="flex-item"><a class="ext" href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Policy</a></div>
+    <div class="flex-item"><a class="ext" href="http://www.usa.gov/">USA.gov</a></div>
+  </div>
+</footer>
+
+
+  <script src="/assets/application-e7bef9a8e2e5e3b55d1f380d90864147b951a2cb4243ef7c5318617a147e816e.js"></script>
+  <script src="/assets/daterangepicker-7b5735d6c3cc54c0b6fff15bcb62c48caccafe3a7a1c3d7879641a88d9f45c79.js"></script>
+  <script src="https://cdn.earthdata.nasa.gov/eui/1.1.3/js/eui.js"></script>
+
+    <script src="https://status.uat.earthdata.nasa.gov/assets/banner_widget.js"></script>
+    <script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js" id="earthdata-tophat-script"></script>
+    <script src="https://fbm.uat.earthdata.nasa.gov/for/Earthdata%20Status%20(UAT)/feedback.js"></script>
+    <script type="text/javascript">
+      feedback.init();
+    </script>
+  </body>
+</html>

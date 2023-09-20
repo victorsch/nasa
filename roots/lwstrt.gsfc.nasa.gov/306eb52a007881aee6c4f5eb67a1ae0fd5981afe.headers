@@ -1,0 +1,17 @@
+GET https://lwstrt.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: 4910d214350e644bc72e543ff1812a16=32c3317714fa4f377cd68ca46abe051e; path=/; HttpOnly
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Date: Tue, 19 Sep 2023 05:54:33 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Language: en-US
+< P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+< Expires: Wed, 17 Aug 2005 00:00:00 GMT
+< Content-Security-Policy: upgrade-insecure-requests
+< Server: WebServer/1.0
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Tue, 19 Sep 2023 05:54:34 GMT
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

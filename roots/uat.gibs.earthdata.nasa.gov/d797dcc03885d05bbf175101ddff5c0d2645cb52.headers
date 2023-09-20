@@ -1,0 +1,12 @@
+GET https://uat.gibs.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 1237
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:41:40 GMT
+< Server: Apache
+< Last-Modified: Wed, 06 Apr 2022 14:05:46 GMT
+< Etag: "4d5-5dbfcdb9e8a69"
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8

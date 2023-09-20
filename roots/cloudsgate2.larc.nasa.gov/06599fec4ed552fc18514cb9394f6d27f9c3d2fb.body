@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang='en'>
+<HEAD>
+
+<TITLE>NASA LaRC Satellite Imagery and Cloud Products</TITLE>
+
+<META NAME="keywords" CONTENT="NASA Langley Patrick Minnis GOES Satellites imagery and cloud product">
+<LINK REL="stylesheet" HREF="/satimage/style.css">
+
+<script type='text/javascript'>
+
+if (top.frames.length!=0) top.location=self.document.location;
+
+function reducedCapabilityMode () {
+	alert ("ALERT\n\nWe are currently experiencing a partial loss of service.  Imagery and binaries older than one month are currently offline.");
+	return false;
+}
+
+function OpenBrWindow(theURL,winName,features) { //v2.0
+	window.open(theURL,winName,features);
+}
+
+function power_alert () {
+	alert ("ALERT\n\nDue to disk failure, our satellite imagery and cloud product gifs are temporarily unavailable.\n\nWe apologize for the inconvenience.\n\n We expect to be back online later today.");
+}
+
+var enable_power_alert = 0;
+var reduced_redundancy_alert = 0;
+
+if (enable_power_alert == 1) power_alert();
+if (reduced_redundancy_alert == 1) reducedCapabilityMode ();
+
+function outtage_alert () {
+//	alert ("ALERT!  GOES-12 is suffering an outage. There is no GOES-EAST information available for processing.\n\nFull details are here:\n\nhttp://www.ssd.noaa.gov/PS/SATS/bulletins.html");
+}
+	
+// finally, check and implement the dynamic redirect for satcorps vs clouds (not www-pm, www-angler, etc)
+var my_hostname = document.createElement('a');
+my_hostname.href = '/';
+my_hostname = my_hostname.hostname;
+var hostname_test = /^clouds\./;
+if (hostname_test.test(my_hostname)) {
+	//alert ("You are accessing from clouds.");
+	//window.location.href = "http://clouds.larc.nasa.gov/cgi-bin/site/website";      // redirect the user if he's come to the clouds home page
+	// this was turned of per Louis, 2017-10-03 e-mail because STRAW wants us to register twice for the same website!
+}
+
+</script>
+
+
+<style type='text/css'>
+	table.imagery { top:0; }
+	table.imagery tbody tr td { font-size:11px; }
+	table.imagery tbody tr td.archived {  font-size:11px; font-weight:bold; background:#FFF; }
+	table.imagery tbody tr td.realtime {  font-size:11px; font-weight:bold; background:#E0EFFF;}
+</style>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border=0 width=805 cellpadding=0 cellspacing=0 summary="formating">
+	<tr>
+		<td colspan=3 width=800 height=100 valign=top >
+  		<table width="800" height="95" border=0 cellpadding=0 cellspacing=0>  
+			<tr>     
+				<!-- <td width="800" height="95" background="/satimage/images/g8_top.png"> -->
+				<td width="800" height="95" background="/satimage/images/cloud-group-top.png">
+
+<div style='display:none;'>					
+<img src="/satimage/images/g8_top.png"-->
+</div>
+
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td>
+<div style='display:none;color:#F00;text-align:center;font-size:18px;margin:10px;'>Alert!<br/>
+Due to an unscheduled power failures, our historical satellite imagery and cloud product gifs, before 13 Feb 2010, are temporarily unavailable.<br/><br/>We apologize for the inconvenience.
+</div> 
+
+<div style='display:none;color:#F00;text-align:center;font-size:18px;margin:10px;font-weight:bold;'>Alert!<br/>Due to system maintenance, only current imagery is available.  Imagery older than 30 days is not available this weekend.  We apologize for any inconvenience this might cause.</div>
+
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor=#DDDDDD align=center width=150 valign=top >
+			<br>
+			<table border=0 width=150 cellpadding=0 cellspacing=0 summary="formating">
+				<tr>
+					<td align=center>
+						<a href='javascript: void(0)' onClick='OpenBrWindow("..\/..\/satimage\/data_user.html","users","scrollbars=yes,resizable=yes,width=800,height=400")'> 
+						User Warning,<br/> Please read !<br></a>
+						<hr noshade size=1>
+
+    <br><a href='/cgi-bin/site/website'>Cloud and Radiation Group</a><br><br/>
+    <a href='/cgi-bin/site/showdoc?mnemonic=references' title='Click to view real-time references'>References</a><br/><br/>
+    <a href='/CERES_algorithms' title='Click to view the CERES algorithms'>CERES Algorithms</a><br/><br/>
+    <hr noshade size=1>    
+    &nbsp;<i><u> <font color='#000000'>Satellite Calibration:</font></u></i><br/>
+       <br/><a href='/cgi-bin/site/showdoc?mnemonic=SAT_CALIB_USER' title='Satellite Calibration Page'>Langley Satellite Calibration</a><br/>
+    <hr noshade size='1'>
+    &nbsp;<i><u> <font color=#000000>Viewers/Tools: </font> </u></i><br>
+	<br/><img src='/satimage/images/new.gif'>&nbsp;<a href='/cgi-bin/site/showdoc?mnemonic=overshooting-tops'>OT Climatology Datasets</a><br/>
+	<br/><a href='/SBAF'>SCIAMACHY SBAF</a><br/>
+	<br/><a href='/cgi-bin/site/showdoc?mnemonic=SBAF&mode=IR'>IASI SBAF</a><br/>
+	<br/><a href='/SPECTRAL-RESPONSE'>Spectral Response Function</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=33&cmd=latest' title='Click to go to the Contrail Formation Forecast Tool'>Contrail Forecast</a><br>
+    <br/><a href='/cgi-bin/site/showdoc?docid=19'>NOAA AVHRR Viewer</a><br/>
+    <br/><a href='/modis'>MODIS Viewer</a><br/>
+    <br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=22&domain=MIDATL-NEXRAD&lkdomain=Y' title='Click to view the Mid-Atlantic NEXRAD'>Mid-Atlantic NEXRAD</a><br/>
+
+<br/>	<a href='/cgi-bin/site/showdoc?docid=22&domain=ARM-SGP-NEXRAD&lkdomain=Y' title='Click to view the Mid-Atlantic NEXRAD'>ARM-SGP NEXRAD</a><br/>
+    <br><a href="/ANGLES">Angles Viewer</a><br>
+    <!-- <br><a href="http://www-angler.larc.nasa.gov/cgi-bin/satimage/sounding.cgi">Plot RAP Sounding</a> <br> -->
+    <br><a href="/cgi-bin/site/showdoc?docid=238">Plot RAP Sounding</a> <br>
+
+    <br><a href='/cgi-bin/predict/predict.cgi'>Satellite Overpass Predictor</a><br>
+
+<hr noshade size=1>
+&nbsp;<i><u> <font color=#000000>Gridded VISST Products </font> </u></i><br>
+    <!-- <br><a href="http://www-angler.larc.nasa.gov/cgi-bin/satimage/netcdfPlot.cgi">Gridded VISST Products</a><br> -->
+    <br><a href="/cgi-bin/site/showdoc?docid=220">GEO-TISA</a><br>
+    <br><a href="/cgi-bin/site/showdoc?mnemonic=MONTHLY-MEAN">AVHRR-CDR</a><br>
+    
+    <hr noshade size=1>
+    
+    <a href='/cgi-bin/site/showdoc?mnemonic=ICING'>US Aircraft Icing</a><br/>
+    <br/>
+    <img src='/satimage/images/new.gif'>&nbsp;
+     <a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=CLOUD-CEIL'>CLOUD-CEIL</a><br/>
+	<br/>
+
+    <hr noshade size='1'>
+    &nbsp;<strong><u><font color=#000000>Supported Programs:</font></u></strong><br/>
+    <br/>
+    <a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARM'> 
+            <img src='/site/images/ASR_Logo.png'></a>
+    <hr noshade size=1>
+    
+    &nbsp<i><u><font color=#000000>Field Experiments: </font></u></i><br>
+
+    <br/>
+
+	<img src='/satimage/images/new.gif'>&nbsp;
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=PACE-PAX'>PACE-PAX</a><br/>
+	<br/>
+
+	<img src='/satimage/images/new.gif'>&nbsp;
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=FATIMA-2023'>FATIMA-2023</a><br/>
+	<br/>
+
+	<img src='/satimage/images/new.gif'>&nbsp;
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARM-EPCAPE'>ARM-EPCAPE</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=CPEX-AW'>CPEX-AW / CV</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC-2022'>HIWC-2022</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ACCLIP'>ACCLIP</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARM-TRACER'>ARM-TRACER</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ACTIVATE'>ACTIVATE</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ATOMIC-EUREC4A'>ATOMIC-EUREC4A</a><br/>
+	<br/>
+ 
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=Aeolus_Cal-Val-2019'>Aeolus-Cal-Val 2019</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ICICLE-2019'>ICICLE-2019</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC-2018'>HIWC-2018</a><br/>
+	<br/>
+	
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=SOCRATES_MARCUS'>SOCRATES / MARCUS</a><br/>
+	<br/>
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ATOM4'>ATom</a><br/>
+	<br/>
+
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARM-ORACLES'>ORACLES</a><br/>
+	<br/>
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=NAAMES-2015'>NAAMES</a><br/>
+    
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=CSET'>CSET</a><br/>
+
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC-PR-2015'>HIWC-2015 Florida</a><br/>
+
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC-2015'>HIWC-2015 Cayenne</a><br/>
+
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=calwater-2'>CALWater-2&nbsp;/ ACAPEX</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARISE'>ARISE</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ML-CIRRUS'>ML-CIRRUS</a><br/>
+
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC'>HIWC-DARWIN</a><br/>
+    <br/><a href='/SEAC4RS'>SEAC4RS</a><br/>
+
+<div style='display:none;'>
+	PODEX field experiment cancelled.  Pat/Louis notified on 6/19/2012
+	<br><img src='/satimage/images/new.gif'>
+	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=PODEX'>PODEX</a><br/>
+</div>
+
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ACCESS'>ACCESS</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=ARM-MAGIC'>MAGIC</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?mnemonic=AMF-AZORES'>AMF-Azores</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=MC3E'>MC3E</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=amie'>AMIE (Dynamo & Cindy)</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=MACPEX'>MACPEX 2011</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=calwater'>CALWATER 2011</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=stormvex'>STORMVEX 2010</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=calnex'>CALNEX 2010</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?mnemonic=ARM-SPARTICUS'>ARM SPARTICUS</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?mnemonic=FRAM-S'>FRAM-S</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?mnemonic=VOCALS'>VOCALS</a><br/>
+    <br><a href='/cgi-bin/site/showdoc?mnemonic=AMF-CHINA'>AMF-China</a><br/>
+    <br><a href='/tc4'>TC4 2007</a> <br/>
+    <br><a href='/pacdex'>PACDEX 2007</a> <br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=COPS' title='Click to view the ARM-COPS field-experiment'>COPS 2007</a><br/> 
+
+    <br><a href= /ccvex>CCVEX 2006</a><br>
+    <br><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=TWP-ICE' title='Click for the TWP-ICE website'>TWP-ICE 2006</a><br>
+	<br><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=MASRAD' title='Click to view the MASRAD Pt-Reyes field experiment'>MASRAD Pt. Reyes</a><br/>
+    <br/><a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=niamey'>ARM-Naimey 2006</a><br>
+    <br><a href=/midcix/> MIDCIX 2004</a><br>
+    <br><a href=/mpace/> MPACE 2004</a><br>
+    
+    <br><a href=/bangor/> ATReC 2003</a><br> 
+    <br><a href=/thorpex>THORPEX</a><br>
+    <br><a href=/crystal>CRYSTAL</a><br>
+<div style='display:none;'>
+    <br><a href=/armsgp>ARM SGP</a><br>
+</div>
+    
+    <br/><a href=/clams>CLAMS</a><br/> 
+    <br/><a href=/inca>INCA Spring 2000</a><br/> 
+    <br/><a href=/safari>SAFARI 2000</a><br/>
+    <br/><a href=/arctic>FIRE Arctic (1999)</a><br/>
+    <br/><a href="/cgi-bin/site/showdoc?docid=22&domain=cove-goes12&lkdomain=Y">COVE</a><br/>
+       
+  </td></tr>
+  </table>
+  </td>
+  
+  <td width=5> &nbsp </td>
+  
+  <td width=650 valign=top align=center>
+   <p> <br> <img src=/satimage/images/pagetitle.png>
+
+<table width="650" cellspacing=0 cellpadding=0 border=0  summary="formating">
+
+<div style='display:none;'>
+	PRODUCT LOOP
+</div>
+
+   <tr align="left">
+     <td width="650">
+<!--
+		This website provides real-time access to cloud retrieval information, this information, in addition to being available in real-time and near-real-time, expands the frontiers of knowledge and understanding by providing a foundation for research work in this area as well as making this information available to the American public in the form of both imagery and data mining ready binary files. -->
+The Satellite ClOud and Radiation Property retrieval System (SatCORPS) is a 
+comprehensive set of algorithms designed to retrieve cloud information from 
+operational and research meteorological satellite imager data. The SatCORPS 
+algorithms have been adapted to utilize imagery from polar-orbiting, 
+geostationary, and precessing-orbit satellites using dedicated satellite 
+intercalibration and spectral correction efforts. This website provides 
+real-time access to cloud retrieval information. This information, in addition 
+to being available in real-time and near-real-time for dedicated and part-time 
+users, expands the frontiers of knowledge and understanding by providing 
+critical data for research in various disciplines. These datasets are available 
+to the American public in the form of both imagery and data-mining-ready binary 
+files. The generation and distribution of these datasets are supported by the 
+NASA CERES and various NASA ROSES programs, as well as the Department of Energy 
+ARM and ASR Programs.
+		<br/>
+       <br/>
+       <font  color=#050533>
+       <!-- <b><u>Real-time and Historical Cloud Product Loops:</u></b>
+       The cloud products are derived with <A href="#" onClick='OpenBrWindow("..\/..\/satimage\/visst.html","visst","scrollbars=yes,resizable=yes")'><font color=green>VISST/SIST</font></a> algorithm.
+        Select a domain from the table below to access the real-time (blue cells) and archived products.
+	Select a domain from the table below to access the real-time (<font color='blue'>highlighted in blue cells</font>) and archived products.-->
+<br/><br/>
+
+You can also use our <a href='indexV2.html'>New Home Page</a>
+
+<br/><br/><br/>
+
+	<strong><u>Satellite Imagery and Cloud Product Viewers: </u></strong>Select a domain from the table below to access the satellite channel imagery and cloud products.<br/>
+Cloud products are derived with <A href="#" onClick='OpenBrWindow("..\/..\/satimage\/visst.html","visst","scrollbars=yes,resizable=yes")'><font color=green> VISST/SIST</font></a> algorithm.<br/>
+<font color='blue'>Blue Cell</font>: Real-time domain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;White Cell: Discontinued/historical domain
+       </font>
+	<br/><br/><br/>
+
+<div style='display:none;'>
+	Full-Disk Cloud Products
+</div>
+
+	<table width="650" border='1' cellspacing='2' cellpadding='5' bordercolor='#AAAAAA'>
+		<tr align='center'> 
+			<td bgcolor='#CCCCCC' colspan='6'>
+<div style='display:none;'>
+<img src='/satimage/images/new.gif'>&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+				<strong><font color='#CC1111'> FULL-DISK&nbsp;&nbsp;CLOUD&nbsp;&nbsp;PRODUCTS&nbsp;&nbsp;(Real&nbsp;&nbsp;Time)</font></strong> &nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+		<tr align='center'> 
+			<td bgcolor='#e0efff'>
+				<strong>
+				<a title='GOES-West Full Disk Cloud Product' href="/cgi-bin/site/showdoc?docid=22&domain=gw_fd&lkdomain=Y">GOES-WEST</a>
+				</strong>
+			</td>
+			<td bgcolor='#e0efff'>
+				<strong>
+				<a title='GOES-East Full Disk Cloud Product' href="/cgi-bin/site/showdoc?docid=22&domain=conusge_fd&lkdomain=Y">GOES-EAST</a>
+				</strong>
+			</td>
+			<td bgcolor='#e0efff'>
+				<strong>
+				<a title='METEOSAT Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&domain=msg_fd&lkdomain=Y">METEOSAT</a>
+				</strong>
+			</td>
+			<td bgcolor='#e0efff'>
+				<strong>
+				<a title='MET-8 Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=met8-fd">MET-8</a>
+				</strong>
+			</td>
+			<td bgcolor='#e0efff'>
+				<strong>
+				<a title='HIMAWARI Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=hima8-fd">HIMAWARI-8</a>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='5' bgcolor='#e0efff' align='center'>
+				<strong>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=GLOBAL_GEO&lkdomain=Y' title='Click to view our Merged Global Geostationary Gridded Cloud Products'>
+					Merged Global Geostationary Gridded Cloud Products
+					</a>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor='#ffffff' align='center'>
+				<strong>
+				<a title='GOES-17 Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=GOES17-FD">GOES-17</a>
+				</strong>
+			</td>
+			<td bgcolor='#ffffff' align='center'>
+				<strong>
+				<a title='GOES-16 Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=GOES16-FD">GOES-16</a>
+				</strong>
+			</td>
+			<td colspan='1' bgcolor='#FFFFFF' align='center'>
+				<strong>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=INSAT-FD' title='Click to view our Merged Global Geostationary Gridded Cloud Products'>INSAT</a>
+				</strong>
+			</td>
+			<td colspan='1' bgcolor='#FFFFFF' align='center'>
+				<strong>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=fy2c_fd' title='Click to view our Merged Global Geostationary Gridded Cloud Products'>FY2</a>
+				</strong>
+			</td>
+			<td colspan='2' bgcolor='#FFFFFF' align='center'>
+				<strong>
+					<a title='MTSAT Full Disk Cloud Products' href="/cgi-bin/site/showdoc?docid=22&domain=mtsat_fd&lkdomain=Y">MTSAT</a>
+				</strong>
+			</td>
+		</tr>
+	</table>
+<br/>
+
+
+       <table width='650' border='1' cellspacing='2' cellpadding='3' bordercolor=#cccccc>
+       <tr align = center>
+           <td bgcolor=#cccccc colspan=5 height=20>
+                <b><font color=#CC0000> CLOUD PRODUCTS </font></b>
+           </td>
+       </tr>
+       <tr align=center>
+          <td bgcolor=#cccccc width='20%' height='35'>
+           <b><font color=black>GOES WEST &nbsp;&nbsp;</font></b> 
+          </td>
+	  
+          <td bgcolor=#cccccc width='20%' height='35'>
+           <b><font color=black>GOES EAST &nbsp;&nbsp</font></b>
+          </td>
+	  
+	  <td bgcolor=#cccccc width='20%' height='35'>
+           <b><font color=black>METEOSAT</font></b>
+          </td>	 
+
+	  </td>
+          <td bgcolor=#cccccc width='20%' height='35'>
+           <b><font color=black>Misc Domains</font></b>
+          </td>         
+
+          <td bgcolor=#cccccc width='20%' height='35'>
+           <b><font color=black>AVHRR/MODIS</font></b>
+          </td>
+          
+
+       </tr>
+       
+       <tr align=center> 
+	<td bgcolor='#E0EFFF' colspan='2' valign='middle'><strong><a href='/cgi-bin/site/showdoc?docid=22&domain=RR&lkdomain=Y' title='Click to go to the Rapid Refresh Page'>North America (RR)</a></strong><br/><br/></td>
+          <td bgcolor=#E0EFFF>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=amf_azores&lkdomain=Y' title='Click to view the ARM AMF Azores cloud products'><b>AMF-Azores</b></a><br/>
+	  </td>	
+	  <td bgcolor='#E0EFFF'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=INSAT_INDPEN&lkdomain=Y' title='Click to view the Indian Peninsula domain'><strong>Indian Peninsula (INSAT-3D)</strong></a>
+	  </td>  
+          <td bgcolor=#e0efff>	  
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=ARM-SGP-MODIS&lkdomain=Y' title='Click to view ARM-SGP Modis cloud products'><strong>ARM-SGP</strong></a>
+	  </td>	  
+       </tr>
+       <tr align=center>
+<!--
+          <td bgcolor=#e0efff>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=conusgw&lkdomain=Y' title='Click to view the West CONUS cloud products'><b>West CONUS</b></a><br/>
+	  </td>
+          <td bgcolor=#e0efff>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=conusge&lkdomain=Y' title='Click to view the East CONUS cloud products'><b>East CONUS</b></a><br/>
+	  </td>
+-->
+         <td colspan=2 bgcolor=#e0efff>
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=mergedconus&lkdomain=Y"><b>MERGED CONUS</b></a><br/>
+	  </td>
+          <td bgcolor='#FFFFFF'>
+		<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=FEXP_HIWC2015_CP_MSG_CAYENNE' title='Click to view the HIWC-Cayenne cloud products'><b>HIWC-Cayenne</b></a><br/>
+	  </td>	
+	  <td bgcolor='#ffffff'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=mtsat-twp&lkdomain=Y' title='Click to view the TWP domain'><strong>MTSAT</strong></a>
+	  </td>  
+          <td bgcolor=#E0EFFF>
+		 		<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=Alaska-GINA'><strong>Alaska<br/>(Direct Broadcast)</strong></a>
+	  </td>
+      </tr>       
+      <tr align=center>
+<!--
+         <td colspan=2 bgcolor=#e0efff>
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=mergedconus&lkdomain=Y"><b>MERGED CONUS</b></a><br/>
+	  </td>
+-->
+          <td bgcolor='#e0efff'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=sgpgw&lkdomain=Y'><strong>ARM-SGP</strong></a>
+	  </td>
+          <td bgcolor='#e0efff'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=sgpge&lkdomain=Y' title='ARM SGP East Conus'><strong>ARM-SGP</strong></a>
+	  </td>
+          <td bgcolor='#ffffff'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=weuroge&lkdomain=Y' title='Click to view West Europe domain'><strong>WEST EUROPE</strong></a>
+	  </td>	
+	  <td bgcolor=#FFFFFF>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=mtmanus&lkdomain=Y' title='Click to view the Manus Domain'><strong>MANUS</strong></a>
+	 </td>
+           <td bgcolor='#E0EFFF'>
+			<a href='/cgi-bin/site/showdoc?docid=22&domain=alaska_nw-pacific-NO&lkdomain=Y' title='Click to view the Alaska/North Pacific Domain'><strong>Alaska (Relay)</strong></a>
+	  </td>		   	   	
+      </tr>       
+      <tr align=center>
+        <td bgcolor='#E0EFFF'>
+		<!-- <a href='/cgi-bin/site/showdoc?docid=22&domain=ARM-NSA&lkdomain=Y' title='Click to view cloud products for the ARM-NSA site'><strong>ARM-NSA</strong></a> -->
+		<!-- <img src='/satimage/images/new.gif' alt='New Product'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/> -->
+		<!-- <a href='/cgi-bin/site/showdoc?docid=22&domain=FEXP_CALWATER2_SATIMG_GW&lkdomain=Y' title='Click to view cloud products for the FEXP_CALWATER2_CP site'><strong>CALWater-2/ACAPEX</strong></a> -->
+		<!-- <a href="/cgi-bin/site/showdoc?docid=22&domain=alaska_nw-pacific&lkdomain=Y"><strong>Alaska/NPacific</strong></a> -->
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=alaska_nw-pacific&lkdomain=Y"><strong>Alaska/NPacific</strong></a>
+	</td>		 	  
+        <td bgcolor='#E0EFFF'>
+		<!-- <a href='/cgi-bin/site/showdoc?mnemonic=cloud-product-viewer&domain=MACPEX_GOES-EAST&lkdomain=Y' title='Click for the FRAM-S domain'><strong>MACPEX</strong></a> -->
+		<!-- This under field exps -->
+		<!-- <a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=FEXP_HIWC2015_PUERTO_RICO_GOES_CP' title='HIWC-2015-Puerto-Rico'><strong>HIWC-2015-Puerto-Rico</strong></a> -->
+		<!-- <a title='GOES-16 SE USA' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=G16-SEUSA"><strong>GOES-16 SE USA</strong></a> -->
+		<a title='ARM-TRACER' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=ARM-AMF-TRACER"><strong>ARM TRACER</strong></a>
+	 </td>	 	  
+	<td>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=europe&lkdomain=Y'><b>EUROPE</b></a>
+	</td>
+          <td>
+	<!--	<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=amie' title='Click to go to the AMIE page'><strong>AMIE (MTSAT and FENG-YUN)</strong></a> -->
+		<a href='/cgi-bin/site/showdoc?docid=4&cmd=field-experiment-homepage&exp=HIWC' title='Click to view the HIWC domain'><strong>HIWC</strong></a>
+	  </td>	
+        <td>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=armnsa&lkdomain=Y'><b>ARM-NSA</b></a>
+	</td> 
+      </tr> 
+
+<!-- <img src='/satimage/images/new.gif' alt='New Product'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+      <tr align=center>
+	<td bgcolor='#E0EFFF'>
+		<a title='Alaska/NPacific G17' href="/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=alaska-nwpac-G17"><strong>Alaska/NPacific G17</strong></a>
+	</td>
+	<td bgcolor='#E0EFFF'>
+		&nbsp;
+	</td>
+          <td>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=arm-niamey&lkdomain=Y' title='ARM-NIAMEY'><strong>ARM-NIAMEY</strong></a>
+	  </td>
+	<td>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=GOES9' title='Click to view the GOES9 cloud products over the TWP domain'><strong>GOES-9</strong></a>
+	</td>  
+          <td valign='center' bgcolor='#FFFFFF'>	    
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=cove-goes12&lkdomain=Y"><strong>COVE</strong></a>&nbsp;
+	  </td>	      
+       </tr>  
+
+      </table>
+   
+     </td>
+   </tr>
+   
+<div style='display:none;'>
+   SAT LOOP
+</div>
+
+   <tr align="left">
+     <td width="650">        
+       <br>
+       <font  color=#050533>
+          <b><u>Real-time and Historical Satellite Imagery Loops:</u></b>
+	  The links from the table below provide access to the real-time (blue cells) and historical image loops for various satellites.
+       </font>
+
+	<table border='2' width="650" cellspacing='3' cellpadding='3' bordercolor='#cccccc' class='imagery'>
+		<tbody>
+			<tr align=center> 
+		       <td bgcolor=#CCCCCC colspan=5>
+		            <b> <font color=#CC0000> SATELLITE IMAGERY</font></b> 
+				</td>
+			</tr>
+			<tr align=center>
+				<td class='realtime'>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=satimg-namerica-west' title='North America'>N. America GOES-W</a>
+				</td>
+				<td class='realtime'>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=satimg-namerica' title='North America'>N. America GOES-E</a>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_ma&lkdomain=Y' title='View Mid-Atlantic US Imagery with Java Applet'>Mid-Atlantic US</a>
+				</td>        
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_se&lkdomain=Y' title='View Southeast US Imagery with Java Applet'>Southeast US</a>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_conus&lkdomain=Y' title='View CONUS Imagery with Java Applet'>CONUS</a>
+				</td>
+			</tr>
+       
+			<tr align=center>
+				<td class='realtime'>
+					<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_tisa_g12&lkdomain=Y" title='View Eastern Pacific GOES-E Imagery with Java Applet'>E. Pacific GOES-E</a>
+				</td>
+				<td class='realtime'>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=satimg-spg-1km-goese' title='SGP-1KM VIS GOES-E'>SGP 1KM VIS GOES-E</a></td>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=twp_ice&lkdomain=Y' title='Click to view Tropical West Pacific Darwin MTSAT Imagery'>TWP DARWIN MTSAT</a>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_twp_dar_fy2c&lkdomain=Y' title='View Tropical West Pacific Darwin FY2C Imagery'>TWP DARWIN FY2C</a>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_dar_mtsat_fy2&lkdomain=Y' title='View Tropical West Pacific Darwin MTSAT and FY2C Imagery'>TWP DARWIN<br>MTSAT &amp; FY2C</a>
+				</td>       
+			</tr>
+			<tr align=center>
+				<td class='realtime'>
+					<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=satimg-namerica-west' title='Click to view CALWater/ACAPEX Satellite Imagery'>CALWater-2/ACAPEX</a>
+				</td>
+				<td class='archived'>
+					<a href='/cgi-bin/site/showdoc?docid=22&domain=satimg-fl&lkdomain=Y' title='View Florida Imagery'>Florida</a>
+				</td>
+				<td class='archived'>
+				</td>
+				<td class='archived'><a href="/nauru/" title='View GMS-5 images with the Java Applet Viewer'>GMS-5 TWP</a></td>
+				<td class='archived'><a href="/pacs/" title='View PACS EPIC Images with the Java Applet Viewer'>PACS EPIC</a></td>
+			</tr>
+			<tr align='center'>
+		       <td class='archived'>       
+			       <a href='/cgi-bin/site/showdoc?docid=22&domain=satimg_midwest&lkdomain=Y' title='View Mid-West US (SGP) Imagery with Java Applet'>Mid-West US (SGP)</a>
+				</td>
+				<td class='archived'>
+					<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_ne&lkdomain=Y" title='View Northeast US Imagery with Java Applet'>Northeast US</a>
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr align='center'>
+				<td>&nbsp;</td>
+				<td class='archived'>
+					<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg-west&lkdomain=Y" title='View Pacific West Imagery with Java Applet'>Pacific/West</a>
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+	</tbody>
+	</table>
+
+	<table border='2' width='650' cellspacing='3' cellpadding='3' bordercolor='#cccccc' style='margin-top:3px;'>
+
+       <tr align=center> 
+	       <td bgcolor=#CCCCCC colspan='7'>
+	            <strong><font color='#CC0000'> FULL-DISK SATELLITE IMAGERY</font></strong>
+	       </td>
+       </tr>         
+	   <tr align=center> 
+			<td bgcolor=#ffffff>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_gwest_tisa&lkdomain=Y" title='GOES-W FD'><strong>GOES-W FD</strong></a>
+			</td>
+			<td bgcolor=#ffffff>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_geast_tisa&lkdomain=Y" title='GOES-E FD'><strong>GOES-E FD</strong></a>
+			</td>
+			<td bgcolor=#ffffff>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_tisa_msg&lkdomain=Y" title='MET/0E FD'><strong>MET/0E FD</strong></a>
+			</td>
+			<td bgcolor=#ffffff>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_tisa_met7&lkdomain=Y" title='MET-7/57E FD'><strong>MET-7/57E FD</strong></a>
+			</td>
+			<td bgcolor='#ffffff'>
+				<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=satimg_Himawari-8' title='Click to view Himawari-8 FD Images'><strong>HIMAWARI-8</strong></a>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td bgcolor='#ffffff' align='center'>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=FY2D_fd" title='FY2D/86E'><strong>FY2D/86E FD</strong></a>    
+			</td>
+			<td bgcolor='#ffffff' align='center'>
+				<a href="/cgi-bin/site/showdoc?docid=22&domain=satimg_fy2c_tisa&lkdomain=Y" title='FY2C,E/105E FD'><strong>FY2C,E/105E FD</strong></a>
+			</td>
+			<td bgcolor='#ffffff' align='center'>
+				<a href='/cgi-bin/site/showdoc?docid=22&domain=mtsat_tisa&lkdomain=Y' title='Click to view MTSAT FD Images'><strong>MTSAT FD</strong></a>
+			</td>
+		</tr>
+	</table>
+
+	<table border='2' width='650' cellspacing='3' cellpadding='3' bordercolor='#cccccc' style='margin-top:3px;'  class='imagery'>
+       <tr align=center> 
+       <td bgcolor=#CCCCCC colspan=5>
+            <strong><font color=#CC0000>COMPOSITE SATELLITE IMAGERY </font></strong><font color=#FF3300></font>
+       </td>
+       </tr>         
+
+       <tr align=center> 
+       <!-- </td> -->
+	<td bgcolor='#ffffff'>
+		<a href='/cgi-bin/site/showdoc?docid=22&lkdomain=Y&domain=composite_modisak' title='Click to view composite imagery over Alaska'><strong>Alaska MODIS</strong></a>
+	</td>
+       <td class='realtime'>
+		<a href='/cgi-bin/site/showdoc?docid=22&domain=composite_global&lkdomain=Y' title='Click to view Global Geostationary Imagery'><strong>Global Geostationary</strong></a>
+       </td>
+        </td>
+       <td class='realtime'>
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=composite_modisnp&lkdomain=Y" title='North Pole MODIS Java Applet'><strong>North Pole MODIS</strong></a>
+       </td>
+       <td bgcolor='#ffffff'>
+		<a href="/cgi-bin/site/showdoc?docid=22&domain=composite_modissp&lkdomain=Y" title='South Pole MODIS Java Applet'><strong>South Pole MODIS</strong></a>
+       </td>
+       </tr>
+    
+       </table>
+        
+	<div style='font-size:10px;margin:5px;'>Java Applets may not work correctly.&nbsp;&nbsp;Please check the 
+	<a href="http://www.ssec.wisc.edu/~tomw/jvm.html" title='Java Applet Notes'>Java Applet Notes</a>
+	from Tom Whittaker if you have difficulty viewing the images.</div>
+       
+     </td>
+   </tr>
+   
+<div style='display:none;'>
+   GROUND SITE CLOUD PRODUCTS
+</div>
+   
+   <tr align="left">
+       <td width="650" class=shaded2>	    
+         <br>
+         <font  color=#050533>
+          <b><u>Cloud Products derived at Ground Sites </u></b>
+         </font>
+           
+         <br>
+         <ul class=TYPE1>
+         <li>
+         <A href="#" onClick='OpenBrWindow("..\/..\/satimage\/visst.html","visst","scrollbars=yes,resizable=yes")'><font color=green>VISST</font></a> - 
+         <font size=-1> Computed from pixel retrievals inside a 10 km or 20 km radius centered on the site.</font>
+         <br><br>
+	 
+	 <u><font color=#9a4500>&nbsp;+ Real Time Sites: &nbsp;&nbsp;&nbsp;</font></u>	
+	 <br><br>
+	 
+	<a href='cgi-bin/site/showdoc?docid=21&domain=MCMURDO_TERRA'>McMurdo - TERRA</a>&nbsp;|
+	<a href='cgi-bin/site/showdoc?docid=21&domain=MCMURDO_AQUA'>McMurdo - AQUA</a>&nbsp;|
+	<a href='cgi-bin/site/showdoc?docid=21&domain=GLENN'>NASA Glenn</a>&nbsp;|
+	<a href='/cgi-bin/site/showdoc?docid=21&domain=GOESW-SGP' title='Click to go to the GOES-WEST SGP page'>GOES-W SGP</a>&nbsp;|
+	<a href='/cgi-bin/site/showdoc?docid=21&domain=GOESE-SGP' title='Click to go to the GOES-EAST SGP page'>GOES-E SGP</a>&nbsp;|
+         <a href="/satimage/armtwp_NAU_grndsite.html">TWP Nauru </a>&nbsp;|
+	<a href='/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=MANUS' alt='click to view the MANUS data'>TWP Manus</a>&nbsp;| 
+	<a  href='/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=DARWIN' title='Click to view ground site cloud product plotting tool'>TWP Darwin</a>&nbsp;|
+
+	 <a href="/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=SIRTA">SIRTA France</a>&nbsp;|
+         <a href="/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=CBTON">Chilbolton U.K</a>&nbsp;|
+         <a href="/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=CABAUW">Cabauw Netherlands</a>&nbsp;| 
+         <a href="/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=LBERG">Lindenberg Germany</a>&nbsp;| 
+         <a href="/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=PTNZA">Potenza Italy</a>&nbsp;| 
+
+         <a href="/cgi-bin/site/showdoc?docid=21&domain=ATQ">Atqasuk</a>&nbsp;| 
+         <a href="/cgi-bin/site/showdoc?docid=21&domain=BAR">Barrow</a>&nbsp;| 
+         <a href="/cgi-bin/site/showdoc?docid=21&domain=OLI">Oliktok</a>&nbsp;| 
+         <a href="/cgi-bin/site/showdoc?docid=21&domain=TOL">Toolik</a>&nbsp;| 
+	<a href='/cgi-bin/site/showdoc?mnemonic=GROUND-SITES&domain=cove' title='Click to view the COVE groundsite plot tool'>COVE</a>&nbsp;|
+	<a href='/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=niamey' title='Click to view groundsite data for Niamey, Nigeria'>Niamey Nigeria</a>&nbsp;| 
+	<a href='/cgi-bin/site/showdoc?docid=21&sc=gs-home&domain=COPS' title='Click to view the COPS ground site cloud product viewer'>COPS</a>&nbsp;|	 
+         <br><br>
+	 <u><font color=#9a4500>&nbsp;+ Past IOP Sites: &nbsp;&nbsp;&nbsp;</font></u>	
+	 <br><br>
+	 <a href="/cgi-bin/crystal/grndsite_sl22p_addmas.cgi?domain=masrad&site=pt-reyes&sat=g10">Pt.Reyes</a>&nbsp;|	 
+	 <a href="/cgi-bin/crystal/grndsite_sl22p_crystal.cgi?year=2002&month=Jul&domain=crystal&site=EAST&sat=G08">CRYSTAL-FACE</a>&nbsp;|
+         
+	 <a href="/cgi-bin/crystal/grndsite_sl22p.cgi?year=2003&month=Nov&domain=atrec&site=BAN&sat=g12">ATReC Bangor</a>&nbsp;|
+         <a href="/cgi-bin/crystal/grndsite_sl22p.cgi?year=2003&month=Nov&domain=atrec&site=MON&sat=g12">ATReC Montreal</a>&nbsp;|
+               	  
+         <br><br>
+         <li>
+         <A href="#" onClick='OpenBrWindow("..\/..\/satimage\/lbtm.html","visst","scrollbars=yes,resizable=yes")'><font color=green>LBTM</font></a> - 
+         <font size=-1> Computed from 3x3 1/3 &deg regions centered on the site.</font>
+         <br><br>		      
+         <a href="/satimage/lbtm_armsgp_groundsite.html"> SGP CART</a> &nbsp;|	       
+         <a href="/satimage/lbtm_armtwp_NAU_groundsite.html">TWP Nauru</a> &nbsp;|
+         <a href="/satimage/lbtm_armtwp_MAN_groundsite.html">TWP Manus</a> &nbsp;|
+         <a href="/satimage/lbtm_armtwp_DAR_groundsite.html">TWP Darwin</a> &nbsp;|	 
+         </ul>
+         <br>
+       </td>	       
+    </tr>   
+    
+    <tr>
+        <td>
+	 <br>
+	 <p>
+         <a href='javascript: void(0)' onClick='OpenBrWindow("\/sheba\/page1.html","","")'>ARM-NSA & SHEBA Products</a>	 	 
+	  - Radiation and Cloud Products from satellite data during SHEBA/FIRE-ACE 		   
+         </p>
+	 
+	</td>  
+    </tr>   
+	<tr>
+		<td>
+			<a href='/prod' title='Browse the data directories directly'>Browse Data</a> - You can browse data files directly using this link.
+		</td>
+	</tr>
+       </table>
+  </p> </td></tr>
+  <tr><td colspan=3> <hr noshade size='2'></td></tr>
+	</table>
+
+<div style='display:none'>*** NASA required content here ***</div>
+<table width='805' bgcolor='#CCC' cellpadding='0' cellspacing='0'>
+	<tr>
+		<td colspan='3'>
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<ul>
+				<li><a href="http://www.hq.nasa.gov/office/pao/FOIA/" class="footerLnk">Freedom of Information Act</a></li>
+				<li><a href="http://www.nasa.gov/about/budget/index.html" class="footerLnk">Budgets, Strategic Plans and Accountability Reports</a></li>
+				<li><a href="http://www.nasa.gov/about/highlights/HP_Management.html" class="footerLnk">The President's Management Agenda</a></li>
+				<li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" class="footerLnk">Privacy Policy and Important Notices</a></li>
+				<li><a href="javascript:openNASAWindow('http://www.hq.nasa.gov/office/oig/hq/hotline.html')" class="footerLnk">Inspector General Hotline</a></li>
+				<li><a href="javascript:openNASAWindow('http://www.hq.nasa.gov/office/codee/nofear.html')" class="footerLnk">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a></li>
+				<li><a href="http://www.nasa.gov/about/contact/information_inventories_schedules.html" class="footerLnk">Information-Dissemination Priorities and Inventories</a></li>
+				<li><a href="http://www.usa.gov" class="footerLnk">USA.gov</a></li>
+			</ul>
+		</td>
+		<td>
+			<a href="http://www.nasa.gov/"><img id="nasafootr" src="/site/images/nasa_foot_nasa1.gif" width="51" height="48" alt="NASA Logo - nasa.gov" /></a>
+		</td>
+		<td>
+				<ul>
+					<li>NASA Official: <a href="mailto:william.l.smith@nasa.gov" class="footerLnk">William Smith</a></li>
+					<li>Website Curator: <a href="mailto:L.Nguyen@nasa.gov" class="footerLnk">Louis Nguyen</a></li>
+					<li><a href="http://www.nasa.gov/centers/langley/about/contact_us.html" class="footerLnk"> Contact Langley</a></li>
+					<li><a href="/cgi-bin/site/website?c=people" class="footerLnk">Contact Team Members</a></li>
+					<li>Last Updated: 2017-08-30 TLC</li>
+				</ul>
+		</td>
+	</tr>
+</table>
+</BODY>
+</html>

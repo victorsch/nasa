@@ -1,0 +1,9 @@
+GET http://storm.pps.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k mod_qos/11.70 mod_wsgi/4.6.4 Python/3.6 mod_jk/1.2.48
+< Location: https://storm.pps.eosdis.nasa.gov/
+< Content-Length: 242
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:49:32 GMT

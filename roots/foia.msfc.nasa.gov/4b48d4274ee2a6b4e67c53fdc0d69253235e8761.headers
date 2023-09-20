@@ -1,0 +1,26 @@
+GET https://foia.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< Content-Length: 15778
+< Etag: "97eb7d534733e95c10036235d1327ed7"
+< X-Amz-Server-Side-Encryption: AES256
+< X-Amz-Version-Id: null
+< X-Amz-Id-2: 73dZT1Z9m+y1UE5g/b934xb5zlJ0xNWXrNK4CKX50xNmmSfqUWTU4mkFeFefVjmw3Mas8Da5BJs=
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 17da55c14108bb8cae904f764f67c0e0.cloudfront.net (CloudFront)
+< Age: 8125
+< X-Amz-Cf-Id: I7mwDJgoIoPlXKi9B94yqObc2Sihwdfy5Lc86-x6q9BYIoG8RgsS_Q==
+< X-Amz-Request-Id: SGEN84B1TPVWT0A8
+< Referrer-Policy: same-origin
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Hit from cloudfront
+< X-Amz-Cf-Pop: EWR53-P1
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Date: Tue, 19 Sep 2023 03:47:31 GMT
+< Last-Modified: Tue, 04 Sep 2018 23:54:40 GMT
+< Accept-Ranges: bytes
+< Server: AmazonS3

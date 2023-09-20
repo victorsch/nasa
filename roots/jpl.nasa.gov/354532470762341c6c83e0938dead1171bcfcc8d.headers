@@ -1,0 +1,10 @@
+GET https://jpl.nasa.gov
+
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: nginx/1.19.9
+< Date: Tue, 19 Sep 2023 05:45:17 GMT
+< Content-Type: text/html
+< Content-Length: 145
+< Location: https://www.jpl.nasa.gov/
+< Strict-Transport-Security: max-age=31536000; preload

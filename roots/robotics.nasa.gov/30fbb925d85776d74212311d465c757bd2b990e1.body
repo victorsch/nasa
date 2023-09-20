@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Robotics Alliance Project</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Robotics Alliance Project &raquo; Feed" href="https://robotics.nasa.gov/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Robotics Alliance Project &raquo; Comments Feed" href="https://robotics.nasa.gov/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/robotics.nasa.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://robotics.nasa.gov/wp-includes/css/dist/block-library/style.min.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='exit_notifier-frontend-css'  href='https://robotics.nasa.gov/wp-content/plugins/exit-notifier/assets/css/frontend.css?ver=1.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='exit_notifier-jAlert-css'  href='https://robotics.nasa.gov/wp-content/plugins/exit-notifier/assets/css/jAlert.min.css?ver=1.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/css/font-awesome/css/font-awesome.min.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='philosophy-fonts-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/css/fonts.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='base-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/css/base.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='vendor-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/css/vendor.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/css/main.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='philosophy-style-css'  href='https://robotics.nasa.gov/wp-content/themes/philosophy/style.css?ver=5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css'  href='https://use.fontawesome.com/releases/v5.13.0/css/all.css' type='text/css' media='all' integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css'  href='https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css' type='text/css' media='all' integrity="sha384-/7iOrVBege33/9vHFYEtviVcxjUsNCqyeMnlW/Ms+PH8uRdFkKFmqf9CbVAN0Qef" crossorigin="anonymous" />
+<style id='font-awesome-official-v4shim-inline-css' type='text/css'>
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.13.0/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='exit_notifier-frontend-js-extra'>
+/* <![CDATA[ */
+var ExitBoxSettings = {"exitbox_version":"1.9.1","siteroot":"robotics.nasa.gov","siteurl":"https:\/\/robotics.nasa.gov","title":"Thank you for visiting our website","body":"<p>The link you have selected ({target}) is located on another server.  The linked site contains information that has been created, published, maintained, or otherwise posted by institutions or organizations independent of this organization.  We do not endorse, approve, certify, or control any linked websites, their sponsors, or any of their policies, activities, products, or services.  We do not assume responsibility for the accuracy, completeness, or timeliness of the information contained therein.  Visitors to any linked websites should not use or rely on the information contained therein until they have consulted with an independent professional.<\/p>\r\n\r\n<p>If the information contained within this link is not what the description we used for it, please contact us!<\/p>\r\n\r\n<p>Please click \u201cGo to URL\u2026\u201d to leave this website and proceed to the selected site.<\/p>","GoButtonText":"Go to URL...","Include_URL":"on","CancelButtonText":"Cancel","alt_title":"Thank you for visiting our website","alt_body":"<p>The link you have selected is located on another server.  The linked site contains information that has been created, published, maintained, or otherwise posted by institutions or organizations independent of this organization.  We do not endorse, approve, certify, or control any linked websites, their sponsors, or any of their policies, activities, products, or services.  We do not assume responsibility for the accuracy, completeness, or timeliness of the information contained therein.  Visitors to any linked websites should not use or rely on the information contained therein until they have consulted with an independent financial professional.<\/p> <p>Please click \u201cGo to URL\u2026\u201d to leave this website and proceed to the selected site.<\/p>","alt_GoButtonText":"Go to URL...","alt_Include_URL":"on","alt_CancelButtonText":"Cancel","alt_classname":"altExitNotifier","activate_custom_content":"on","apply_to_all_offsite_links":"on","jquery_selector_field":"a[href*=\"\/\/\"]:not([href*=\"robotics.nasa.gov\"])","new_window":"","css_exclusion_class":"noExitNotifier","relnofollow":"","enable_notifier_for_forms":"","apply_to_all_offsite_forms":"on","jquery_form_selector_field":"form[action*=\"\/\/\"]:not([action*=\"robotics.nasa.gov\"])","sa2_or_jAlert":"jAlert","theme":"default","backgroundcolor":"black","blurbackground":"","size":"md","showAnimation":"fadeIn","hideAnimation":"fadeOut","visual":"","enable_timeout":"","timeout_text_continue":"Continue in {seconds} seconds.","timeout_text_cancel":"Cancel in {seconds} seconds.","continue_or_cancel":"continue","timeout_seconds":"10","enable_progressbar":"","timeout_statement":"on","custom_css":"\nbackground: #0684ce;\nbackground: -moz-linear-gradient(top,  #0684ce 0%, #1e5799 100%);\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0684ce), color-stop(100%,#1e5799));\nbackground: -webkit-linear-gradient(top,  #0684ce 0%,#1e5799 100%);\nbackground: -o-linear-gradient(top,  #0684ce 0%,#1e5799 100%);\nbackground: -ms-linear-gradient(top,  #0684ce 0%,#1e5799 100%);\nbackground: linear-gradient(to bottom,  #0684ce 0%,#1e5799 100%);\nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0684ce', endColorstr='#1e5799',GradientType=0 );\nborder: 3px solid #1e5799;\n\t\t\t","advanced_custom_css":"","addclasses":"","classestoadd":"","debugtoconsole":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/plugins/exit-notifier/assets/js/frontend.js?ver=1.9.1' id='exit_notifier-frontend-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/plugins/exit-notifier/assets/js/jAlert.min.js?ver=1.9.1' id='exit_notifier-jAlert.min-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/plugins/exit-notifier/assets/js/sweetalert2.all.min.js?ver=1.9.1' id='exit_notifier-sa2.min-js'></script>
+<link rel="https://api.w.org/" href="https://robotics.nasa.gov/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://robotics.nasa.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://robotics.nasa.gov/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8" />
+         <style type="text/css">
+             .s-pageheader::before { 
+                 background-color: #151515; 
+                 font-size: normal;
+             }
+             .s-content {
+             	background-color: #f2f2f2                 font-size: normal;
+            }
+             .comments-wrap {
+             	background-color: #e5e5e5                 font-size: normal;
+            }
+             .s-footer {
+             	background: #19191b             }
+			 footer h4 {
+				 color: #ffffff			 }
+			 footer a,
+			 .footer-widget a {
+				color: #fff			 }
+			 footer a:hover,
+			 .footer-widget a:hover {
+				color: #fff			 }
+			 .footer-widget,
+			 .footer-widget p,
+			 .s-footer__bottom .s-footer__copyright span {
+                color: #fff                font-size: normal;
+			 }
+         </style>
+    <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f2f2f2; }
+</style>
+	<link rel="icon" href="https://robotics.nasa.gov/wp-content/uploads/2020/04/Rap-FAvIcon.ico" sizes="32x32" />
+<link rel="icon" href="https://robotics.nasa.gov/wp-content/uploads/2020/04/Rap-FAvIcon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://robotics.nasa.gov/wp-content/uploads/2020/04/Rap-FAvIcon.ico" />
+<meta name="msapplication-TileImage" content="https://robotics.nasa.gov/wp-content/uploads/2020/04/Rap-FAvIcon.ico" />
+
+
+<style>
+   article.post.sticky:after {
+    background: #333 none repeat scroll 0 0;
+    font-size: 10px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    content: "Featured Post";
+    font-weight: 600;
+    top: 0;
+    left: 6%;
+    display: block;
+    position: absolute;
+    text-align: center;
+	padding: 0px 5px;
+}
+
+.dictionary-style dd::before {
+   content: counter(definitions, decimal) ". ";
+}
+
+
+
+
+
+.hider {
+    visibility: hidden;
+}
+
+.go-away
+{
+    display: none;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #hider {
+        visibility: hidden;
+    }
+    
+    #go-away
+    {
+        display: none;
+    }    
+}
+
+	
+	
+    </style> 
+</head>
+
+<body id="top" class="home blog custom-background wp-custom-logo">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                
+					                        <a class="logo" href="https://robotics.nasa.gov">
+                            <img  src="https://robotics.nasa.gov/wp-content/uploads/2020/07/Website-header-new-Heartbeat.png" alt="Robotics Alliance Project">
+                        </a>
+                                    </div> <!-- end header__logo -->
+
+                                <ul class="header__social">
+
+                    
+                                       <li>
+<!--                     <a href="https://twitter.com/nasa_rap"><div class="go-away"><img href="https://www.blusign.it/wp-content/uploads/2015/11/3640-114-300x300.jpg" height="0px" width="0px" alt="twitter" > </div><i class="header-top-twitter fa fa-twitter" aria-hidden="true"></i></a>
+                  	-->
+					</li>
+                    
+                   
+                                   </ul> <!-- end header__social -->
+                
+                <a class="header__search-trigger" href="#"><div class="hider">Search</div></a>
+
+                <div class="header__search">
+					<form role="search" method="get" class="header__search-form" action="https://robotics.nasa.gov/">
+						<label>
+							<span class="hide-content">Search for:</span>
+							<input type="search" class="search-field" placeholder="Type Keywords &hellip;" value="" name="s" title="Search for:" autocomplete="off">
+						</label>
+						<input type="submit" class="search-submit" value="Search">
+					</form>
+        
+                    <a href="#" title="Close Search" class="header__overlay-close">Close</a>
+
+                </div>  <!-- end header__search -->
+				
+			
+				
+
+                <a class="header__toggle-menu" href="#" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap" id="stick">
+ 
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
+				
+					<div class="menu-rap-main-menu-container"><ul id="menu-rap-main-menu" class="header__nav"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18 depth-0 active"><a title="Home" href="https://robotics.nasa.gov/">Home</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-35 depth-0 dropdown has-children"><a title="Robotics Platforms" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Robotics Platforms <span class="caret"></span></a>
+<ul role="menu" class=" sub-menu">
+	<li id="menu-item-5509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5509 depth-1"><a title="Robotic Competitions" href="https://robotics.nasa.gov/robotic-competitions/">Robotic Competitions</a></li>
+	<li id="menu-item-5171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5171 depth-1"><a title="BEST Robotics" target="_blank" href="http://www.bestinc.org/">BEST Robotics</a></li>
+	<li id="menu-item-5505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5505 depth-1"><a title="Botball Robotics" href="https://robotics.nasa.gov/botball-robotics/">Botball Robotics</a></li>
+	<li id="menu-item-5173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5173 depth-1 dropdown has-children"><a title="FIRST Robotics Competition" href="https://robotics.nasa.gov/?page_id=5172">FIRST Robotics Competition</a>
+	<ul role="menu" class=" sub-menu">
+		<li id="menu-item-6267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6267 depth-2"><a title="FRC Webpage" target="_blank" href="https://www.firstinspires.org/robotics/frc">FRC Webpage</a></li>
+		<li id="menu-item-5419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5419 depth-2"><a title="FRC Resources" href="https://robotics.nasa.gov/frc-resources/">FRC Resources</a></li>
+		<li id="menu-item-6273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6273 depth-2"><a title="FRC Virtual Pits" href="https://robotics.nasa.gov/frc-virtual-pits/">FRC Virtual Pits</a></li>
+		<li id="menu-item-6358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6358 depth-2"><a title="NASA RAP Robotics Design Guide" href="https://robotics.nasa.gov/nasa-rap-robotics-design-guide/">NASA RAP Robotics Design Guide</a></li>
+		<li id="menu-item-6044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6044 depth-2"><a title="NASA House Teams" href="https://robotics.nasa.gov/nasa-house-teams/">NASA House Teams</a></li>
+		<li id="menu-item-6315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6315 depth-2"><a title="NASA FRC Sponsorship" href="https://robotics.nasa.gov/nasa-frc-sponsorship/">NASA FRC Sponsorship</a></li>
+		<li id="menu-item-6043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6043 depth-2"><a title="NASA FRC Sponsorship History" href="https://robotics.nasa.gov/nasa-frc-sponsorship-history/">NASA FRC Sponsorship History</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5103 depth-1"><a title="MATE ROV" href="https://robotics.nasa.gov/mate/">MATE ROV</a></li>
+	<li id="menu-item-6062" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6062 depth-1"><a title="RAD Aerial Drone Competition" target="_blank" href="https://www.roboticseducation.org/rad/">RAD Aerial Drone Competition</a></li>
+	<li id="menu-item-5501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5501 depth-1"><a title="VEX Robotics" href="https://robotics.nasa.gov/vex-robotics/">VEX Robotics</a></li>
+	<li id="menu-item-5182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5182 depth-1"><a title="Zero Robotics" target="_blank" href="http://zerorobotics.mit.edu/">Zero Robotics</a></li>
+</ul>
+</li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43 depth-0 dropdown has-children"><a title="Educators/Parents" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Educators/Parents <span class="caret"></span></a>
+<ul role="menu" class=" sub-menu">
+	<li id="menu-item-6021" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6021 depth-1"><a title="Elementary &amp; Primary School Resources" target="_blank" href="https://tryengineering.org/teachers/elementary-school-and-primary-school-resources/">Elementary &#038; Primary School Resources</a></li>
+	<li id="menu-item-6023" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6023 depth-1"><a title="High School &amp; Secondary Resources" target="_blank" href="https://tryengineering.org/teachers/high-school-resources/">High School &#038; Secondary Resources</a></li>
+	<li id="menu-item-6022" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6022 depth-1"><a title="TryEngineering Lesson Plans" target="_blank" href="https://tryengineering.org/teachers/lesson-plans/">TryEngineering Lesson Plans</a></li>
+	<li id="menu-item-6550" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6550 depth-1"><a title="Breaking the Glass Ceiling Early On for Girls in STEM" target="_blank" href="https://bootcamp.pe.gatech.edu/blog/how-to-empower-girls-in-stem/">Breaking the Glass Ceiling Early On for Girls in STEM</a></li>
+	<li id="menu-item-6042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6042 depth-1"><a title="Teaching Code with VEXcode VR" target="_blank" href="https://kb.vex.com/hc/en-us/categories/360002932231-VR">Teaching Code with VEXcode VR</a></li>
+	<li id="menu-item-6056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6056 depth-1"><a title="Online STEM Learning Resources &amp; Activities" target="_blank" href="https://www.roboticseducation.org/online-stem-learning-resources-and-activities/">Online STEM Learning Resources &#038; Activities</a></li>
+	<li id="menu-item-6059" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6059 depth-1"><a title="RECF Online Challenges" target="_blank" href="http://challenges.robotevents.com/?page=1">RECF Online Challenges</a></li>
+	<li id="menu-item-6061" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6061 depth-1"><a title="RECF Industry Certifications" target="_blank" href="https://www.roboticseducation.org/industry-certifications/">RECF Industry Certifications</a></li>
+	<li id="menu-item-6326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6326 depth-1"><a title="Upverter Education: Learn Electronics Design" target="_blank" href="https://education.upverter.com/?utm_source=Gumstix+Customer&#038;utm_campaign=118fb81025-EMAIL_CAMPAIGN_2020_07_31_08_43_COPY_03&#038;utm_medium=email&#038;utm_term=0_dcf3a76cf5-118fb81025-236301297">Upverter Education: Learn Electronics Design</a></li>
+	<li id="menu-item-6064" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6064 depth-1"><a title="New to Robotics?" target="_blank" href="https://www.roboticseducation.org/new-to-robotics/">New to Robotics?</a></li>
+	<li id="menu-item-5184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5184 depth-1"><a title="Get Started in Robotics" target="_blank" href="https://robots.ieee.org/learn/getting-started/">Get Started in Robotics</a></li>
+</ul>
+</li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47 depth-0 dropdown has-children"><a title="Students" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Students <span class="caret"></span></a>
+<ul role="menu" class=" sub-menu">
+	<li id="menu-item-6028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6028 depth-1"><a title="Engineering Education Resources &amp; Products" target="_blank" href="http://elementaryengineeringeducation.org/engineer-at-home/">Engineering Education Resources &#038; Products</a></li>
+	<li id="menu-item-6041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6041 depth-1"><a title="VEXcode VR" target="_blank" href="https://www.vexrobotics.com/vexcode-vr">VEXcode VR</a></li>
+	<li id="menu-item-5097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5097 depth-1"><a title="STEM Camps" href="https://robotics.nasa.gov/summer-camps/">STEM Camps</a></li>
+	<li id="menu-item-6058" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6058 depth-1"><a title="RECF Online Challenges" target="_blank" href="http://challenges.robotevents.com/?page=1">RECF Online Challenges</a></li>
+	<li id="menu-item-6057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6057 depth-1"><a title="Online STEM Learning Resources &amp; Activities" target="_blank" href="https://www.roboticseducation.org/online-stem-learning-resources-and-activities/">Online STEM Learning Resources &#038; Activities</a></li>
+	<li id="menu-item-6325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6325 depth-1"><a title="Upverter Education: Learn Electronics Design" target="_blank" href="https://education.upverter.com/?utm_source=Gumstix+Customer&#038;utm_campaign=118fb81025-EMAIL_CAMPAIGN_2020_07_31_08_43_COPY_03&#038;utm_medium=email&#038;utm_term=0_dcf3a76cf5-118fb81025-236301297">Upverter Education: Learn Electronics Design</a></li>
+	<li id="menu-item-6220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6220 depth-1"><a title="NASA Spaceflight Q&#038;A" href="https://robotics.nasa.gov/spaceflight-qa/">NASA Spaceflight Q&#038;A</a></li>
+	<li id="menu-item-6244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6244 depth-1"><a title="NASA Home &amp; City" target="_blank" href="https://homeandcity.nasa.gov/">NASA Home &#038; City</a></li>
+	<li id="menu-item-6025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6025 depth-1"><a title="Engineering Games" target="_blank" href="https://tryengineering.org/students/games/">Engineering Games</a></li>
+	<li id="menu-item-6060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6060 depth-1"><a title="RECF Industry Certifications" target="_blank" href="https://www.roboticseducation.org/industry-certifications/">RECF Industry Certifications</a></li>
+	<li id="menu-item-6483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6483 depth-1"><a title="REC Foundation&#039;s Scholarship program" href="https://www.roboticseducation.org/educational-resources/scholarships/">REC Foundation&#8217;s Scholarship program</a></li>
+	<li id="menu-item-5132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5132 depth-1 dropdown has-children"><a title="Internships &amp; Employment" href="https://robotics.nasa.gov/work/">Internships &#038; Employment</a>
+	<ul role="menu" class=" sub-menu">
+		<li id="menu-item-5187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5187 depth-2"><a title="NASA Internships : intern.nasa.gov" target="_blank" href="https://intern.nasa.gov/">NASA Internships : intern.nasa.gov</a></li>
+		<li id="menu-item-6381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6381 depth-2"><a title="NASA Pathways Internship Program" target="_blank" href="https://www.nasa.gov/careers/pathways">NASA Pathways Internship Program</a></li>
+		<li id="menu-item-6538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6538 depth-2"><a title="NASA&#039;s DEVELOP internship" target="_blank" href="https://www.nasa.gov/stem-ed-resources/develop-national-program.html">NASA&#8217;s DEVELOP internship</a></li>
+		<li id="menu-item-6539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6539 depth-2"><a title="NASA&#039;s Space Grant fellowship and scholarship program" target="_blank" href="https://www.nasa.gov/stem/spacegrant/about/index.html">NASA&#8217;s Space Grant fellowship and scholarship program</a></li>
+		<li id="menu-item-6537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6537 depth-2"><a title="NASA STEM Engagement" target="_blank" href="https://www.nasa.gov/education/materials/">NASA STEM Engagement</a></li>
+		<li id="menu-item-6482" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6482 depth-2"><a title="REC Foundation Internship Program" href="https://www.roboticseducation.org/internships/">REC Foundation Internship Program</a></li>
+		<li id="menu-item-5186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5186 depth-2"><a title="Want to Work at NASA?" target="_blank" href="https://www.nasa.gov/careers">Want to Work at NASA?</a></li>
+		<li id="menu-item-6026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6026 depth-2"><a title="Choosing a University" target="_blank" href="https://tryengineering.org/find-a-university/">Choosing a University</a></li>
+		<li id="menu-item-6024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6024 depth-2"><a title="Engineering Fields" target="_blank" href="https://tryengineering.org/category/engineering-fields/">Engineering Fields</a></li>
+		<li id="menu-item-6385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6385 depth-2"><a title="A Guide to Engineering" target="_blank" href="https://www.gradschoolcenter.com/grad-school-resource-center-a-guide-to-engineering/">A Guide to Engineering</a></li>
+		<li id="menu-item-6382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6382 depth-2"><a title="Cyber Security" target="_blank" href="https://cybersecuritydegrees.org/">Cyber Security</a></li>
+		<li id="menu-item-6383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6383 depth-2"><a title="Data Science" target="_blank" href="https://www.datascienceprograms.org/">Data Science</a></li>
+		<li id="menu-item-5125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5125 depth-2"><a title="Software Engineering" target="_blank" href="https://robotics.nasa.gov/software-engineering/">Software Engineering</a></li>
+		<li id="menu-item-5185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5185 depth-2"><a title="Cool Stuff" target="_blank" href="http://www.buildcoolstuff.com/">Cool Stuff</a></li>
+	</ul>
+</li>
+	<li id="menu-item-6401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6401 depth-1"><a title="National Robotics Week: An Expert’s Guide" target="_blank" href="https://www.onlineengineeringprograms.com/features/national-robotics-week">National Robotics Week: An Expert’s Guide</a></li>
+	<li id="menu-item-6063" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6063 depth-1"><a title="New to Robotics?" target="_blank" href="https://www.roboticseducation.org/new-to-robotics/">New to Robotics?</a></li>
+	<li id="menu-item-6027" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6027 depth-1"><a title="Get Started in Robotics" target="_blank" href="https://robots.ieee.org/learn/getting-started/">Get Started in Robotics</a></li>
+	<li id="menu-item-5098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5098 depth-1"><a title="Robotics and AI" href="https://robotics.nasa.gov/robotics/">Robotics and AI</a></li>
+	<li id="menu-item-5099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5099 depth-1"><a title="Projects" href="https://robotics.nasa.gov/projects/">Projects</a></li>
+</ul>
+</li>
+<li id="menu-item-5540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5540 depth-0 dropdown has-children"><a title="Links" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Links <span class="caret"></span></a>
+<ul role="menu" class=" sub-menu">
+	<li id="menu-item-5140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5140 depth-1"><a title="NASA Links" href="https://robotics.nasa.gov/software-engineer/nasa-links/">NASA Links</a></li>
+	<li id="menu-item-5149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5149 depth-1"><a title="University/Government Links" href="https://robotics.nasa.gov/university-government-links/">University/Government Links</a></li>
+	<li id="menu-item-5145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5145 depth-1"><a title="Resource Links" href="https://robotics.nasa.gov/software-engineer/resource-links/">Resource Links</a></li>
+	<li id="menu-item-5151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5151 depth-1"><a title="Other Links" href="https://robotics.nasa.gov/software-engineer/other-links/">Other Links</a></li>
+</ul>
+</li>
+<li id="menu-item-5584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5584 depth-0 dropdown has-children"><a title="RAP" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">RAP <span class="caret"></span></a>
+<ul role="menu" class=" sub-menu">
+	<li id="menu-item-6343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6343 depth-1"><a title="About RAP" href="https://robotics.nasa.gov/about-rap/">About RAP</a></li>
+	<li id="menu-item-6357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6357 depth-1"><a title="NASA RAP Robotics Design Guide" href="https://robotics.nasa.gov/nasa-rap-robotics-design-guide/">NASA RAP Robotics Design Guide</a></li>
+	<li id="menu-item-6352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6352 depth-1"><a title="NASA House Teams" href="https://robotics.nasa.gov/nasa-house-teams/">NASA House Teams</a></li>
+	<li id="menu-item-6353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6353 depth-1"><a title="NASA FRC Sponsorship" href="https://robotics.nasa.gov/nasa-frc-sponsorship/">NASA FRC Sponsorship</a></li>
+	<li id="menu-item-6351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6351 depth-1"><a title="NASA FRC Sponsorship History" href="https://robotics.nasa.gov/nasa-frc-sponsorship-history/">NASA FRC Sponsorship History</a></li>
+</ul>
+</li>
+<li id="menu-item-5100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5100 depth-0"><a title="Contact Us" href="https://robotics.nasa.gov/contact-us/">Contact Us</a></li>
+<img id="meatball" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/text4331.png" alt="RAP-Logo"><li id="nav-search"><a class="header__search-trigger-menu" href="#"></a>  <div class="header__search-stick">  <form role="search" method="get" class="header__search-form-stick" action="https://robotics.nasa.gov"<label><span class="hide-content"> Search for:</span><input type="search" class="search-field" placeholder="Type Keywords &hellip;" value="" name="s" title="Search for: autocomplete="off"</label><input type="submit" class="search-submit" value="Search "> </form><a href="#" title="Close Search" class="header__overlay-close-stick">Close</a></div>  <!-- end header__search --></li></ul></div>					<!-- Hard coded serach as a list item in the navbar menu --> 
+					 
+						
+					
+                    <a href="#" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+
+        <div class="pageheader-content row">
+    <div class="col-full">
+
+        <div class="featured">
+
+                        <div class="featured__column featured__column--big">
+
+            
+                    <div class="entry" style="background-image:url('https://robotics.nasa.gov/wp-content/uploads/2023/09/europaclipper-messageinabottle.png'); background-color: white;">
+                        
+                        <div class="entry__content" >
+<!--                             <span class="entry__category"> </span> -->
+
+
+                            <div class="entry__info" >
+<!--                           
+							<!-- This is to hold the new location of the title here -->
+								<div class="banner-title">  
+									
+										<h2 ><a style="color:black" href="https://robotics.nasa.gov/send-your-name-to-europa/" >Send your name to Europa!</a></h2>		           
+
+								</div>
+
+<!-- 							<a href="" class="entry__profile-pic"> -->
+                                    <!--                                 </a>  -->
+
+<!--                                 <ul class="entry__meta"> -->
+<!--                                     <li><a href=""></a></li> -->
+                               
+<!-- 								</ul> -->
+								
+								
+								
+                            </div>
+                        </div> <!-- end entry__content -->
+                        
+                    </div> <!-- end entry -->
+                
+                
+                    
+            </div> <!-- end featured__big -->
+
+
+            <div class="featured__column featured__column--small">
+                
+                
+                        <div class="entry" style="background-image:url('https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png'); background-color:white;">
+                            
+                            <div class="entry__content-small">
+<!--                                 <span class="entry__category"><ul class="post-categories">
+	<li><a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a></li>
+	<li><a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a></li>
+	<li><a href="https://robotics.nasa.gov/category/nasa/" rel="category tag">NASA</a></li>
+	<li><a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a></li></ul></span> -->
+
+<!--                                 <h1><a href="https://robotics.nasa.gov/2023-2024-frc-sponsorship-grants/" >2023-2024 FRC Sponsorship Grants</a></h1> -->
+
+                                <div class="entry__info">
+<!--                                     <a href="" class="entry__profile-pic">
+                                        <?php// echo get_avatar( get_the_author_meta( 'ID' ), 42 ); ?>
+                                    </a>
+ -->
+<!--                                     <ul class="entry__meta">
+                                        <li><a href=""></a></li>
+                                        <li><?php//the_time('M d, Y'); ?></li>
+                                    </ul>
+									 -->
+
+											
+									<div class="banner-title-small  ">
+										<h3 ><a style="color:black" href="https://robotics.nasa.gov/2023-2024-frc-sponsorship-grants/" >2023-2024 FRC Sponsorship Grants</a></h3>	
+<!-- 								</div> -->
+									</div>
+		                          
+							
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+
+                
+                        <div class="entry" style="background-image:url('https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1.png'); background-color:white;">
+                            
+                            <div class="entry__content-small">
+<!--                                 <span class="entry__category"><ul class="post-categories">
+	<li><a href="https://robotics.nasa.gov/category/nasa/" rel="category tag">NASA</a></li></ul></span> -->
+
+<!--                                 <h1><a href="https://robotics.nasa.gov/nasas-app-development-challenge/" >NASA&#8217;s App Development Challenge</a></h1> -->
+
+                                <div class="entry__info">
+<!--                                     <a href="" class="entry__profile-pic">
+                                        <?php// echo get_avatar( get_the_author_meta( 'ID' ), 42 ); ?>
+                                    </a>
+ -->
+<!--                                     <ul class="entry__meta">
+                                        <li><a href=""></a></li>
+                                        <li><?php//the_time('M d, Y'); ?></li>
+                                    </ul>
+									 -->
+
+											
+									<div class="banner-title-small  ">
+										<h3 ><a style="color:black" href="https://robotics.nasa.gov/nasas-app-development-challenge/" >NASA&#8217;s App Development Challenge</a></h3>	
+<!-- 								</div> -->
+									</div>
+		                          
+							
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+
+                
+
+            </div> <!-- end featured__small -->
+
+            
+        </div> <!-- end featured -->
+
+    </div> <!-- end col-full -->
+</div> <!-- end pageheader-content row -->
+    </section> 
+	<div id="content" class="site-content">
+
+
+	<!-- s-content
+    ================================================== -->
+    
+	<section class="s-content-home">
+        <div class="row masonry-wrap">
+			
+				<div class="masonry">
+
+					<div class="grid-sizer"></div>
+
+						
+
+
+    <article id="post-6577" class="masonry__brick entry post-6577 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-first category-frc category-nasa category-nasa-grants tag-first tag-first-robotics tag-frc tag-grants tag-nasa" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2023-2024-frc-sponsorship-grants/" class="entry__thumb-link" >
+                <img width="614" height="235" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2023-2024-frc-sponsorship-grants/">Sep 01 , 2023</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2023-2024-frc-sponsorship-grants/">2023-2024 FRC Sponsorship Grants</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>NASA FRC Sponsorship Application Directions for the 2024 Competition Season Welcome to the NASA FIRST Robotics Competition (FRC) grant application process for the 2024 competition season. We are very excited&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a>, <a href="https://robotics.nasa.gov/category/nasa/" rel="category tag">NASA</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6376" class="masonry__brick entry post-6376 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-perseverance category-rovers" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/mission-to-mars-challenge/" class="entry__thumb-link" >
+                <img width="1200" height="675" src="https://robotics.nasa.gov/wp-content/uploads/2021/01/8830_C1-marsworkshop_web.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/mission-to-mars-challenge/">Jan 22 , 2021</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/mission-to-mars-challenge/">Mission to Mars Challenge</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>On Feb. 18th, 2021 NASA will attempt to land the Mars 2020 Perseverance rover on the surface of the Red Planet. To celebrate this effort NASA has created the Mission&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/rovers/perseverance/" rel="category tag">Perseverance</a>, <a href="https://robotics.nasa.gov/category/rovers/" rel="category tag">Rovers</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6583" class="masonry__brick entry post-6583 post type-post status-publish format-standard has-post-thumbnail hentry category-nasa category-space-exploration tag-europa tag-europa-clipper tag-jpl tag-nasa" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/send-your-name-to-europa/" class="entry__thumb-link" >
+                <img width="718" height="218" src="https://robotics.nasa.gov/wp-content/uploads/2023/09/europaclipper-messageinabottle.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" srcset="https://robotics.nasa.gov/wp-content/uploads/2023/09/europaclipper-messageinabottle.png 718w, https://robotics.nasa.gov/wp-content/uploads/2023/09/europaclipper-messageinabottle-300x91.png 300w, https://robotics.nasa.gov/wp-content/uploads/2023/09/europaclipper-messageinabottle-500x152.png 500w" sizes="(max-width: 718px) 100vw, 718px" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/send-your-name-to-europa/">Sep 01 , 2023</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/send-your-name-to-europa/">Send your name to Europa!</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>NASA’s Message in a Bottle campaign invites people around the world to sign their names to a poem written by the U.S. Poet Laureate Ada Limón. The poem connects the&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/nasa/" rel="category tag">NASA</a>, <a href="https://robotics.nasa.gov/category/space-exploration/" rel="category tag">Space Exploration</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6573" class="masonry__brick entry post-6573 post type-post status-publish format-standard has-post-thumbnail hentry category-nasa tag-adc tag-app tag-challenge tag-nasa" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/nasas-app-development-challenge/" class="entry__thumb-link" >
+                <img width="640" height="640" src="https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" srcset="https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1.png 640w, https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1-300x300.png 300w, https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1-500x500.png 500w, https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1-150x150.png 150w, https://robotics.nasa.gov/wp-content/uploads/2023/08/edu_fy20_adc_logo_1-70x70.png 70w" sizes="(max-width: 640px) 100vw, 640px" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/nasas-app-development-challenge/">Aug 26 , 2023</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/nasas-app-development-challenge/">NASA&#8217;s App Development Challenge</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>The NASA App Development Challenge (ADC), a Next Gen STEM activity, is a coding challenge in which NASA presents technical problems to middle and high school students seeking student contributions&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/nasa/" rel="category tag">NASA</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6551" class="masonry__brick entry post-6551 post type-post status-publish format-standard has-post-thumbnail hentry category-first category-frc category-nasa-grants tag-first tag-frc" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2022-2023-nasas-first-robotics-competition-grant-awards/" class="entry__thumb-link" >
+                <img width="614" height="235" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2022-2023-nasas-first-robotics-competition-grant-awards/">Nov 14 , 2022</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2022-2023-nasas-first-robotics-competition-grant-awards/">2022-2023 NASA&#8217;s FIRST Robotics Competition Grant Awards</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>The highly anticipated moment all the FIRST Robotics Competition (FRC) teams that applied for a NASA FRC grant has finally arrived! NASA is happy to announce our 2022-2023 award selections&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6541" class="masonry__brick entry post-6541 post type-post status-publish format-standard has-post-thumbnail hentry category-first category-ftc category-nasa-grants" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2022-2023-frc-sponsorship-grants/" class="entry__thumb-link" >
+                <img width="614" height="235" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2022-2023-frc-sponsorship-grants/">Sep 02 , 2022</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2022-2023-frc-sponsorship-grants/">2022-2023 FRC Sponsorship Grants</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>NASA FRC Sponsorship Application Directions for the 2023 Competition Season Welcome to the NASA FIRST Robotics Competition (FRC) grant application process for the 2023 competition season. We are very excited&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/ftc/" rel="category tag">FTC</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6504" class="masonry__brick entry post-6504 post type-post status-publish format-standard has-post-thumbnail hentry category-first category-frc category-nasa-grants category-uncategorized category-vr" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2022-first-robotics-competition-kickoff-rapid-react/" class="entry__thumb-link" >
+                <img width="773" height="504" src="https://robotics.nasa.gov/wp-content/uploads/2022/01/rapidreact_logo.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2022-first-robotics-competition-kickoff-rapid-react/">Jan 08 , 2022</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2022-first-robotics-competition-kickoff-rapid-react/">2022 FIRST Robotics Competition Kickoff — “RAPID REACT”</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>The 2022 FIRST Robotics Competition kickoff marks the beginning of the design and build season for the FIRST Robotics Competition. Teams have the opportunity to meet at &#8220;local&#8221; Kickoffs to&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>, <a href="https://robotics.nasa.gov/category/uncategorized/" rel="category tag">Uncategorized</a>, <a href="https://robotics.nasa.gov/category/vr/" rel="category tag">VR</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6491" class="masonry__brick entry post-6491 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/lunabotics-junior-contest/" class="entry__thumb-link" >
+                <img width="600" height="400" src="https://robotics.nasa.gov/wp-content/uploads/2021/12/LunaboticsThumbnail600x400.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/lunabotics-junior-contest/">Dec 16 , 2021</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/lunabotics-junior-contest/">Lunabotics Junior Contest</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>NASA Lunabotics Junior Contest &#8211; Design Moon Digging Robots NASA seeks young engineers to help design a new robot for an excavation mission on the Moon. The Lunabotics Junior Contest, open&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/uncategorized/" rel="category tag">Uncategorized</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6463" class="masonry__brick entry post-6463 post type-post status-publish format-standard has-post-thumbnail hentry category-first category-frc category-nasa-grants tag-first tag-frc tag-grants tag-nasa tag-nasa-grants" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2021-2022-nasas-first-robotics-competition-grant-awards/" class="entry__thumb-link" >
+                <img width="614" height="235" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2021-2022-nasas-first-robotics-competition-grant-awards/">Nov 24 , 2021</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2021-2022-nasas-first-robotics-competition-grant-awards/">2021-2022 NASA&#8217;s FIRST Robotics Competition Grant Awards</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>The highly anticipated moment all the FIRST Robotics Competition (FRC) teams that submitted an application for a NASA FRC grant has finally arrived! NASA&#8217;s award selection are below. If your&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+
+
+    <article id="post-6442" class="masonry__brick entry post-6442 post type-post status-publish format-standard has-post-thumbnail hentry category-first category-frc category-nasa-grants tag-competition tag-first tag-frc tag-grant tag-nasa tag-robot tag-robotics" data-aos="fade-up">
+        <div class="entry__thumb">
+            <a href="https://robotics.nasa.gov/2021-2022-frc-sponsorship-grants/" class="entry__thumb-link" >
+                <img width="614" height="235" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="featured image" loading="lazy" />                           </a>
+        </div>
+
+        <div class="entry__text">
+            <div class="entry__header">
+                
+                <div class="entry__date">
+                    <a href="https://robotics.nasa.gov/2021-2022-frc-sponsorship-grants/">Sep 09 , 2021</a>
+                </div>
+                <h1 class="entry__title"><a href="https://robotics.nasa.gov/2021-2022-frc-sponsorship-grants/">2021-2022 FRC Sponsorship Grants</a></h1>
+                
+            </div>
+            <div class="entry__excerpt">
+                <p>
+                    <p>Update 11/24/2021: Grants have been awarded. Please view the post here. NASA FRC Sponsorship Application Directions for the 2022 Competition Season Welcome to the NASA FIRST Robotics Competition (FRC) grant&#8230;</p>
+                </p>
+            </div>
+            <div class="entry__meta">
+                <span class="entry__meta-links">
+                    <a href="https://robotics.nasa.gov/category/first/" rel="category tag">FIRST</a>, <a href="https://robotics.nasa.gov/category/first/frc/" rel="category tag">FRC</a>, <a href="https://robotics.nasa.gov/category/nasa-grants/" rel="category tag">NASA Grants</a>                </span>
+            </div>
+        </div>
+    </article>
+    
+
+
+
+				</div> <!-- end masonry -->
+				
+					</div> <!-- end masonry-wrap -->
+        
+        <nav class="pgn"><ul class="pagination"><li><span aria-current="page" class="page-numbers current">1</span></li><li><a class="page-numbers" href="https://robotics.nasa.gov/page/2/">2</a></li><li><a class="page-numbers" href="https://robotics.nasa.gov/page/3/">3</a></li><li><span class="page-numbers dots">&hellip;</span></li><li><a class="page-numbers" href="https://robotics.nasa.gov/page/52/">52</a></li><li><a class="next page-numbers" href="https://robotics.nasa.gov/page/2/">Next &raquo;</a></li></ul></nav>		
+
+    </section> <!-- s-content -->
+
+
+	</div><!-- #content -->
+
+
+
+        <!-- s-extra
+    ================================================== -->
+    <section class="s-extra footer-enable">
+
+        <div class="row top">
+
+            <div class="col-eight md-six tab-full popular">
+                <h3 class="popular-post-title">Top Posts</h3>
+
+                <div class="block-1-2 block-m-full popular__posts">
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/2021-2022-frc-sponsorship-grants/" class="popular__thumb">
+                               <img width="70" height="27" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/2021-2022-frc-sponsorship-grants/">2021-2022 FRC Sponsorship Grants</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/dprice/"> dprice</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="September 9, 2021">September 9, 2021</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/2022-2023-frc-sponsorship-grants/" class="popular__thumb">
+                               <img width="70" height="27" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/2022-2023-frc-sponsorship-grants/">2022-2023 FRC Sponsorship Grants</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/dprice/"> dprice</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="September 2, 2022">September 2, 2022</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/2021-2022-nasas-first-robotics-competition-grant-awards/" class="popular__thumb">
+                               <img width="70" height="27" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRST_FRC_NASA.png" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/2021-2022-nasas-first-robotics-competition-grant-awards/">2021-2022 NASA&#8217;s FIRST Robotics Competition...</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/dprice/"> dprice</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="November 24, 2021">November 24, 2021</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/vex-vrc-2020-2021-challenge-change-up/" class="popular__thumb">
+                               <img width="70" height="20" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/2020-2021-VRC-ChangeUp.jpg" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/vex-vrc-2020-2021-challenge-change-up/">VEX VRC 2020-2021 Challenge: &#8220;Change...</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/campanelli/"> Campanelli</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="April 30, 2020">April 30, 2020</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/blogging-on-mars/" class="popular__thumb">
+                               <img src="https://robotics.nasa.gov/wp-content/themes/philosophy/assets/images/placeholder.png" alt="Blogging on Mars">
+                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/blogging-on-mars/">Blogging on Mars</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/rap/"> RAP</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="July 17, 2008">July 17, 2008</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/first-fll-research-project/" class="popular__thumb">
+                               <img width="70" height="22" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/FIRSTLego_iconHorz_RGB-1.png" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/first-fll-research-project/">2018-2019 FIRST FLL Research Project</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/dprice/"> dprice</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="October 30, 2018">October 30, 2018</time></span>
+                        </section>
+                    </article>
+
+                
+                    <article class="col-block popular__post">
+                                                    <a href="https://robotics.nasa.gov/vex-reveals-the-most-advanced-technology-in-competitive-robotics-today-vex-ai-competition/" class="popular__thumb">
+                               <img width="70" height="26" src="https://robotics.nasa.gov/wp-content/uploads/2020/04/2020-2021-VEX-AI-1.jpg" class="attachment-philosophy_recent_post_thumb_size size-philosophy_recent_post_thumb_size wp-post-image" alt="featured image" loading="lazy" />                            </a>
+                        
+                        <h5><a href="https://robotics.nasa.gov/vex-reveals-the-most-advanced-technology-in-competitive-robotics-today-vex-ai-competition/">VEX Reveals &#8220;The most advanced...</a></h5>
+                        <section class="popular__meta">
+                                <span class="popular__author"><span>By</span> <a href="https://robotics.nasa.gov/author/campanelli/"> Campanelli</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="April 30, 2020">April 30, 2020</time></span>
+                        </section>
+                    </article>
+
+                
+
+                </div> <!-- end popular_posts -->
+            </div> <!-- end popular -->
+
+            <div class="col-four md-six tab-full about">
+                <h3 class="about-post-title">Follow RAP on Twitter!</h3>
+
+                <p class="about-post-content"></p>
+
+                
+                <ul class="about__social">
+                    
+                                       <li>
+                        <a href="https://twitter.com/nasa_rap"><div class="go-away"><img href="https://www.blusign.it/wp-content/uploads/2015/11/3640-114-300x300.jpg" height="0px" width="0px" alt="twitter" ></div><i class="header-top-twitter fa fa-twitter" aria-hidden="true"></i></a>
+					</li>
+					
+                    
+                   
+                                   </ul> <!-- end header__social -->
+                       					<a class="twitter-timeline" data-width="315" data-height="500" data-theme="dark" href="https://twitter.com/NASA_RAP?ref_src=twsrc%5Etfw">Tweets by NASA_RAP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			
+			</div> <!-- end about -->
+
+        </div> <!-- end row -->
+
+        <div class="row bottom tags-wrap">
+            <div class="col-full tags">
+                <h3 class="tags-widget-title">Search by Tag</h3>
+
+                <div class="tagcloud">
+                     <a href="https://robotics.nasa.gov/tag/adc/" class="tag-cloud-link tag-link-57 tag-link-position-1" style="font-size: 8pt;" aria-label="adc (1 item)">adc</a>
+<a href="https://robotics.nasa.gov/tag/ai/" class="tag-cloud-link tag-link-47 tag-link-position-2" style="font-size: 8pt;" aria-label="AI (1 item)">AI</a>
+<a href="https://robotics.nasa.gov/tag/app/" class="tag-cloud-link tag-link-56 tag-link-position-3" style="font-size: 8pt;" aria-label="app (1 item)">app</a>
+<a href="https://robotics.nasa.gov/tag/challenge/" class="tag-cloud-link tag-link-55 tag-link-position-4" style="font-size: 8pt;" aria-label="challenge (1 item)">challenge</a>
+<a href="https://robotics.nasa.gov/tag/competition/" class="tag-cloud-link tag-link-9 tag-link-position-5" style="font-size: 18.866666666667pt;" aria-label="Competition (85 items)">Competition</a>
+<a href="https://robotics.nasa.gov/tag/curiosity/" class="tag-cloud-link tag-link-11 tag-link-position-6" style="font-size: 14.8pt;" aria-label="Curiosity (20 items)">Curiosity</a>
+<a href="https://robotics.nasa.gov/tag/europa/" class="tag-cloud-link tag-link-59 tag-link-position-7" style="font-size: 8pt;" aria-label="europa (1 item)">europa</a>
+<a href="https://robotics.nasa.gov/tag/europa-clipper/" class="tag-cloud-link tag-link-60 tag-link-position-8" style="font-size: 8pt;" aria-label="europa clipper (1 item)">europa clipper</a>
+<a href="https://robotics.nasa.gov/tag/first/" class="tag-cloud-link tag-link-31 tag-link-position-9" style="font-size: 14.533333333333pt;" aria-label="FIRST (18 items)">FIRST</a>
+<a href="https://robotics.nasa.gov/tag/first-robotics/" class="tag-cloud-link tag-link-58 tag-link-position-10" style="font-size: 8pt;" aria-label="first robotics (1 item)">first robotics</a>
+<a href="https://robotics.nasa.gov/tag/fll/" class="tag-cloud-link tag-link-36 tag-link-position-11" style="font-size: 11.2pt;" aria-label="FLL (5 items)">FLL</a>
+<a href="https://robotics.nasa.gov/tag/frc/" class="tag-cloud-link tag-link-26 tag-link-position-12" style="font-size: 14.533333333333pt;" aria-label="FRC (18 items)">FRC</a>
+<a href="https://robotics.nasa.gov/tag/ftc/" class="tag-cloud-link tag-link-42 tag-link-position-13" style="font-size: 9.2pt;" aria-label="FTC (2 items)">FTC</a>
+<a href="https://robotics.nasa.gov/tag/grant/" class="tag-cloud-link tag-link-52 tag-link-position-14" style="font-size: 8pt;" aria-label="grant (1 item)">grant</a>
+<a href="https://robotics.nasa.gov/tag/grants/" class="tag-cloud-link tag-link-53 tag-link-position-15" style="font-size: 9.2pt;" aria-label="Grants (2 items)">Grants</a>
+<a href="https://robotics.nasa.gov/tag/ingenuity/" class="tag-cloud-link tag-link-45 tag-link-position-16" style="font-size: 8pt;" aria-label="Ingenuity (1 item)">Ingenuity</a>
+<a href="https://robotics.nasa.gov/tag/mars/" class="tag-cloud-link tag-link-8 tag-link-position-17" style="font-size: 18.933333333333pt;" aria-label="Mars (86 items)">Mars</a>
+<a href="https://robotics.nasa.gov/tag/mate/" class="tag-cloud-link tag-link-41 tag-link-position-18" style="font-size: 8pt;" aria-label="MATE (1 item)">MATE</a>
+<a href="https://robotics.nasa.gov/tag/nasa/" class="tag-cloud-link tag-link-51 tag-link-position-19" style="font-size: 11.2pt;" aria-label="nasa (5 items)">nasa</a>
+<a href="https://robotics.nasa.gov/tag/nasa-grants/" class="tag-cloud-link tag-link-38 tag-link-position-20" style="font-size: 12.333333333333pt;" aria-label="NASA Grants (8 items)">NASA Grants</a>
+<a href="https://robotics.nasa.gov/tag/opportunity/" class="tag-cloud-link tag-link-10 tag-link-position-21" style="font-size: 12.333333333333pt;" aria-label="Opportunity (8 items)">Opportunity</a>
+<a href="https://robotics.nasa.gov/tag/perseverance/" class="tag-cloud-link tag-link-34 tag-link-position-22" style="font-size: 11.2pt;" aria-label="Perseverance (5 items)">Perseverance</a>
+<a href="https://robotics.nasa.gov/tag/resource/" class="tag-cloud-link tag-link-49 tag-link-position-23" style="font-size: 8pt;" aria-label="resource (1 item)">resource</a>
+<a href="https://robotics.nasa.gov/tag/robot/" class="tag-cloud-link tag-link-6 tag-link-position-24" style="font-size: 20.8pt;" aria-label="Robot (165 items)">Robot</a>
+<a href="https://robotics.nasa.gov/tag/robotics/" class="tag-cloud-link tag-link-7 tag-link-position-25" style="font-size: 22pt;" aria-label="Robotics (249 items)">Robotics</a>
+<a href="https://robotics.nasa.gov/tag/rover/" class="tag-cloud-link tag-link-5 tag-link-position-26" style="font-size: 17.6pt;" aria-label="Rover (54 items)">Rover</a>
+<a href="https://robotics.nasa.gov/tag/space-exploration/" class="tag-cloud-link tag-link-35 tag-link-position-27" style="font-size: 13.4pt;" aria-label="Space Exploration (12 items)">Space Exploration</a>
+<a href="https://robotics.nasa.gov/tag/vex/" class="tag-cloud-link tag-link-32 tag-link-position-28" style="font-size: 10.666666666667pt;" aria-label="VEX (4 items)">VEX</a>
+<a href="https://robotics.nasa.gov/tag/viper/" class="tag-cloud-link tag-link-39 tag-link-position-29" style="font-size: 8pt;" aria-label="VIPER (1 item)">VIPER</a>
+<a href="https://robotics.nasa.gov/tag/vr/" class="tag-cloud-link tag-link-25 tag-link-position-30" style="font-size: 9.2pt;" aria-label="VR (2 items)">VR</a>                </div> <!-- end tagcloud -->
+            </div> <!-- end tags -->
+        </div> <!-- end tags-wrap -->
+
+    </section> <!-- end s-extra -->
+
+    
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+    
+
+    <div class="s-footer__bottom">
+        <div class="row">
+            <div class="col-five">
+                <div class="s-footer__copyright">
+					<span><h4 style="color:white">Contact</h4>
+					<p>
+						<b>Curator: Drew Price</b>
+						<br>
+						<b>NASA Official: Lucien Junkin</b>
+						</p> </span>
+                </div>
+
+                
+            </div>
+        </div>
+        <a href="https://www.nasa.gov/offices/odeo/no-fear-act">No Fear Act</a> - <a href="https://www.nasa.gov/FOIA">FOIA</a> - <a href="https://oig.nasa.gov/">Office of the Inspector General</a> - <a href="https://osc.gov/">Office of Special Counsel</a> - <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a>
+    </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+        <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="breathing-log">
+                <div></div>
+                <div></div>
+				<div><object width="350px" data="https://robotics.nasa.gov/wp-content/themes/philosophy/assets/images/NASA_white.svg" type="image/svg+xml;"></object></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    
+<!-- #page -->
+
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/js/modernizr.js?ver=3.3.1' id='philosophy-modernizr-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/js/plugins.js?ver=3.3.1' id='philosophy-plugins-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/js/pace.min.js?ver=1.0.0' id='philosophy-pace-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/js/skip-link-focus-fix.js?ver=1.0.0' id='philosophy-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-content/themes/philosophy/assets/js/main.js?ver=1.0.0' id='philosophy-main-js'></script>
+<script type='text/javascript' src='https://robotics.nasa.gov/wp-includes/js/wp-embed.min.js?ver=5.8' id='wp-embed-js'></script>
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JSC&dclink=true"></script>
+
+</body>
+</html>

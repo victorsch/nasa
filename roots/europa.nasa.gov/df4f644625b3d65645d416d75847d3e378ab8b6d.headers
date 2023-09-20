@@ -1,0 +1,20 @@
+GET https://europa.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: max-age=0, private, must-revalidate
+< Status: 200 OK
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Amz-Cf-Id: YKdYEJB1hHzkRLcvlOObPhzhMH9Nqz2idJaKlJ1Z4mQgYE1CtdRWzA==
+< Date: Tue, 19 Sep 2023 05:44:16 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Cache: Miss from cloudfront
+< Content-Type: text/html; charset=utf-8
+< Etag: W/"453fb1befef91f09ef5f090868dd3367"
+< Via: 1.1 1f8f39239caa9483a95872353afdef00.cloudfront.net (CloudFront)
+< X-Runtime: 0.287605
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval';        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Request-Id: 33cb9eaf-127e-4acb-8da8-b50eaa6331b4
+< X-Powered-By: Phusion Passenger(R)
+< X-Frame-Options: sameorigin

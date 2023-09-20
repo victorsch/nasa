@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://fdf.gsfc.nasa.gov/" />
+<link rel="shortlink" href="https://fdf.gsfc.nasa.gov/" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" type="application/rss+xml" title="" href="https://fdf.gsfc.nasa.gov/rss.xml" />
+
+    <title>| Flight Dynamics Facility</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_DfIk0kDE_97QqZBJr5TF4iiP6Rt7nG3gWSu-Jh5AKCY.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_xHeH-iizjWNbhmucywOo9kaGQaBMy7y2V98R1Gl8Whs.css" />
+
+    
+  </head>
+  <body class="one-sidebar one-sidebar-left path-frontpage">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="layout-type-1">
+
+  <div id="header">
+    <div id="header-wrapper">
+
+        <div class="region region-header">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-fdflogotextnasalogo" class="block">
+  
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="header" style="width: 950px; height: 100px; background-color:#404040;">
+<p> </p>
+<p>		<span style="font-size: 3.5em;"><img alt="" src="/sites/default/files/FDFProdCenter.png" style="width: 154px; float: left; height: 100px;" /></span><a href="/"><strong><span id="site-title" style="font-size: 3.5em; font-family:verdana,sans-serif; background-color:#404040; color:#ffffff; position: relative;">Flight Dynamics Facility</span></strong></a><span style="font-size: 3.5em;"><img alt="" src="/sites/default/files/NASA_logo.png" style="width: 111px; height: 95px; float: right;" /></span></p>
+<div id="name-and-slogan" style="width: 950px; height: 55px; background-color:#404040;">
+		<span style="color:#fff; background-color:#404040; font-size: 2em; font-weight: lighter; font-family: Georgia, Times New Roman, times, serif; padding-left: 40px;">Goddard Space Flight Center</span>
+</div>
+<p> </p>
+</div></div>
+      
+      </div>
+</div>
+
+  </div>
+
+
+      
+      
+    </div><!-- end header-wrapper -->
+  </div> <!-- /header -->
+
+  <div style="clear:both"></div>
+
+  <div id="menu" class="clearfix">
+              <div id="nav">
+            <div class="region region-primary_menu">
+    <nav role="navigation" aria-labelledby="block-danland-main-menu-menu" id="block-danland-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="block-title visually-hidden" id="block-danland-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu menu-parent">
+                    <li class="menu-item menu-item--expanded expanded">
+        <a href="/flight-dynamics-facility-news" title="Flight Dynamics Facility News" data-drupal-link-system-path="node/9">News</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news/flight-dynamics-facility-news-briefs" title="FDF News Briefs" data-drupal-link-system-path="node/10">Flight Dynamics Facility News Briefs</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded expanded">
+        <a href="/services" title="Flight Dynamics Facility Services" data-drupal-link-system-path="node/6">Services</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/services/expendable-launch-vehicles" title="Expendable Launch Vehicles" data-drupal-link-system-path="node/11">Expendable Launch Vehicles</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/human-spaceflight" title="Human Spaceflight" data-drupal-link-system-path="node/34">Human Spaceflight</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/mission-analysis-trajectory-design-and-maneuver-planning" title="Mission Analysis, Trajectory Design, and Maneuver Planning" data-drupal-link-system-path="node/12">Mission Analysis, Trajectory Design, and Maneuver Planning</a>
+              </li>
+                <li class="menu-item">
+        <a href="/services/navigation" title="Navigation" data-drupal-link-system-path="node/13">Navigation</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item">
+        <a href="/customers" title="Flight Dynamics Facility Customers" data-drupal-link-system-path="node/7">Customers</a>
+              </li>
+                <li class="menu-item">
+        <a href="/contacts" title="Flight Dynamics Facility Contacts" data-drupal-link-system-path="node/8">Contacts</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about" title="About the Flight Dynamics Facility" data-drupal-link-system-path="node/5">About Us</a>
+              </li>
+                <li class="menu-item">
+        <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+        </div> <!-- end menu -->
+
+  <div style="clear:both"></div>
+
+      <div id="slideshow-wrapper">
+      <div class="slideshow-inner">
+                                  <div class="slideshow">
+            <img src="https://fdf.gsfc.nasa.gov/sites/default/files/100_0.jpg" width="100%" height="100%" />
+            <img src="https://fdf.gsfc.nasa.gov/sites/default/files/101.jpg" width="100%" height="100%" />
+            <img src="https://fdf.gsfc.nasa.gov/sites/default/files/102.jpg" width="100%" height="100%" />
+          </div>
+              </div>
+    </div>
+  
+  
+  <div style="clear:both"></div>
+
+  <div id="wrapper">
+
+    <div id="content">
+
+      <a id="main-content"></a>
+      
+      
+
+      
+
+      
+
+      
+      
+
+      
+      
+
+      
+              <div class="content-middle">
+            <div class="region region-content">
+    <div id="block-danland-system-main" class="block">
+  
+    
+  <div class="content">
+          <div class="views-element-container"><div class="view view-frontpage view-id-frontpage view-display-id-page_1 js-view-dom-id-de655cc40c55faaa42b24767b2ec37078cc15df9214329a97d3e11b6e21a9349">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><article data-history-node-id="10" role="article" about="/news/flight-dynamics-facility-news-briefs" typeof="schema:WebPage" class="node node--type-page node--promoted node--view-mode-teaser">
+
+  
+      <h2>
+      <a href="/news/flight-dynamics-facility-news-briefs" rel="bookmark"><span property="schema:name" class="field field--name-title field--type-string field--label-hidden">Flight Dynamics Facility News Briefs</span>
+</a>
+    </h2>
+      <span property="schema:name" content="Flight Dynamics Facility News Briefs" class="rdf-meta hidden"></span>
+
+
+  
+    <div class="content">
+      
+            <div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h1 align="center">
+	<img src="/sites/default/files/aradrule.gif" /></h1>
+<h2>
+	FDF Modernization Status</h2>
+<p>The Flight Dynamics Facility has been operational on its new modernized system since the beginning of 2012.  The implementation of the new system has allowed us to retire the entire FDF presence on the legacy Closed IONet, and replaced it with a newly constructed presence on the Restricted IONet.  That new presence includes the use of the GMSEC messaging architecture for data distribution, automation, and monitoring and deployed brand new applications for the front end, initial data processing, data ingest and delivery, and mission support.  While hosted completely on the Restricted IONet, the new FDF still maintains customer interfaces on the Open, Restricted, and Closed IONets, but now makes use of modern applications to host those interfaces and allow a more complete set of options for protocols with more configurability and consistency.</p>
+<p>The revamped applications are also hosted in a new way – virtually!  At the core of the new FDF is a virtualization environment that hosts three networks and all of the new servers (now virtualized).  With this new system the FDF now has a much more flexible and robust computing environment that is easier to monitor and control.  This is the beginning of the FDF Cloud – some 70 pieces of legacy hardware were retired and were replaced with equipment that fits in one rack.  There are still some legacy servers that have come along for the ride, but as the modernization effort continues in Phase 2 and beyond, their days are numbered.</p>
+<p>To get started exchanging data with the new FDF, you’ll need to establish access with the FDF Customer Interface.  To get that access going, start by requesting information and an account on the new FDF Customer Interface:   <a href="http://fdf.ndc.nasa.gov/forms">http://fdf.ndc.nasa.gov/forms</a> </p>
+</div>
+        <div class="node__links">
+    <div class="links">
+  <ul class="links inline"><li class="node-readmore"><a href="/news/flight-dynamics-facility-news-briefs" rel="tag" title="Flight Dynamics Facility News Briefs" hreflang="und">Read more<span class="visually-hidden"> about Flight Dynamics Facility News Briefs</span></a></li></ul>
+  </div>  </div>
+
+    </div>
+
+</article>
+</div>
+
+    </div>
+  
+      
+              <div class="feed-icons">
+      <a href="https://fdf.gsfc.nasa.gov/rss.xml" class="feed-icon">
+  Subscribe to 
+</a>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+      
+      
+    </div> <!-- end content -->
+
+          <div id="sidebar-left" class="column sidebar">
+        <div class="section">
+            <div class="region region-sidebar_first">
+    <div id="block-danland-aggregator-feed-2" role="complementary" class="block">
+  
+    
+  <div class="content">
+          <div class="item-list"><ul><li><a href="http://www.nasa.gov/press-release/nasa-finalizes-coverage-for-first-us-asteroid-sample-landing" hreflang="en">NASA Finalizes Coverage for First US Asteroid Sample Landing</a></li><li><a href="http://www.nasa.gov/feature/goddard/2023/stella-nasa-s-diy-educational-gadget-for-measuring-plant-health" hreflang="en">STELLA: NASA’s DIY Educational Gadget for Measuring Plant Health</a></li><li><a href="http://www.nasa.gov/goddard/2023/nasa-s-webb-telescope-inspires-artechouse-exhibit-public-art" hreflang="en">NASA’s Webb Telescope Inspires ARTECHOUSE Exhibit, Public Art</a></li><li><a href="http://www.nasa.gov/image-feature/goddard/2023/hubble-spots-a-dreamy-galaxy" hreflang="en">Hubble Spots a Dreamy Galaxy</a></li><li><a href="http://www.nasa.gov/feature/goddard/2023/nasa-s-webb-snaps-supersonic-outflow-of-young-star" hreflang="en">NASA’s Webb Snaps Supersonic Outflow of Young Star</a></li></ul></div><div class="more-link"><a href="/aggregator/sources/2" title="View this feed&#039;s recent news." hreflang="en">More</a></div>
+
+      </div>
+</div>
+
+  </div>
+
+        </div>
+      </div> <!-- end sidebar-first -->
+    
+    
+    <div style="clear:both"></div>
+
+  </div> <!-- end wrapper -->
+
+
+  
+
+  
+  <div style="clear:both"></div>
+
+  <div id="footer-wrapper">
+          <div id="footer">
+          <div class="region region-footer">
+    <div id="block-footerblock" class="block">
+  
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="footer" style="width: 950px; height: 150px; background-color:#2c2c2c;">
+<p><img alt="" src="/sites/default/files/footerIcon.png" style="width: 152px; height: 150px; float: left;" /></p>
+<p id="footercol1" style="font-size:12px; line-height: 30px;"><span style="color:#b2b2b2;"><span style="font-family:arial,helvetica,sans-serif;margin-left:16px;"><span style="background-color:#2c2c2c; margin-left:16px;">Website Administrator: Matthew Zuckerman </span></span></span><br /><span style="color:#b2b2b2;"><span style="font-family:arial,helvetica,sans-serif;margin-left:16px;"><span style="background-color:#2c2c2c; margin-left:16px;">NASA Official: Samuel Schreiber</span></span></span></p>
+</div>
+<p> </p>
+</div>
+      
+      </div>
+</div>
+
+  </div>
+
+      </div>
+              <div id="secondary-menu">
+          <div class="region region-secondary_menu">
+    <nav role="navigation" aria-labelledby="block-danland-account-menu-menu" id="block-danland-account-menu" class="block block-menu navigation menu--account">
+            
+  <h2 class="block-title visually-hidden" id="block-danland-account-menu-menu">User account menu</h2>
+  
+
+        
+              <ul class="menu menu-parent">
+                    <li class="menu-item">
+        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+      </div>
+      </div> <!-- end footer wrapper -->
+
+  <div style="clear:both"></div>
+
+  <div id="notice">
+    <p>Theme by <a href="http://www.danetsoft.com">Danetsoft</a> and <a href="http://www.danpros.com">Danang Probo Sayekti</a> inspired by <a href="http://www.maksimer.no">Maksimer</a></p>
+  </div>
+
+</div>
+
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_Yk_wwpczGpZM2LndNmaqn6Gwy4TnL1RY5pkhynBXGzs.js"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?" id="_fed_an_ua_tag"></script>
+
+  </body>
+</html>

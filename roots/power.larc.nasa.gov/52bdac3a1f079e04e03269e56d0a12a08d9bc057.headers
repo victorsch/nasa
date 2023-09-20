@@ -1,0 +1,13 @@
+GET http://power.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:44:26 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://power.larc.nasa.gov/
+< X-Amz-Cf-Pop: PHL51-P1
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 b9e4f54576ef92a1af5dd8e6f47f2916.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: R0ifch9-Kt1l_Iv1gYwI5kAFxoTEtfeyFcbzNPyhB9MKzWDh1eezyA==

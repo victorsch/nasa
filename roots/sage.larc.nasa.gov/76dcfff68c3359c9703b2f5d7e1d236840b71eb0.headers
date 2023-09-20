@@ -1,0 +1,22 @@
+GET https://sage.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Pragma: no-cache
+< Location: https://sage.nasa.gov/
+< Content-Length: 0
+< Date: Tue, 19 Sep 2023 05:54:22 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< X-Redirect-By: WordPress
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Access-Control-Allow-Origin: *
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: PHPSESSID=cdg7isnev9o3cr2r88u6i98222; path=/
+< Set-Cookie: 7hinkZElzC=2466bb3d50; expires=Tue, 19-Sep-2023 06:24:22 GMT; Max-Age=1800
+< Access-Control-Allow-Credentials: true
+< X-Permitted-Cross-Domain-Policies: none
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< X-Powered-By: PHP/8.1.22

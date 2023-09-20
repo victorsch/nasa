@@ -1,0 +1,18 @@
+GET https://cmr.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: JFK50-P8
+< Content-Type: text/html
+< Server: ServerTokens ProductOnly
+< Via: 1.1 4c1a2d98b0820f90f630f0721b0b6538.cloudfront.net (CloudFront)
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 134
+< X-Request-Id: CPcOaQ4ZsHCUqdxMHzM2muwDlrk9YDx19-gxqO9S_hKcaTLLuxYKQA==
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Id: CPcOaQ4ZsHCUqdxMHzM2muwDlrk9YDx19-gxqO9S_hKcaTLLuxYKQA==
+< Date: Tue, 19 Sep 2023 06:03:39 GMT
+< Location: https://cmr.uat.earthdata.nasa.gov:443/search
+< X-Content-Type-Options: nosniff
+< X-Cache: Miss from cloudfront

@@ -1,0 +1,9 @@
+GET http://mafspace.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 134
+< Location: https://mafspace.msfc.nasa.gov:443/
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 06:02:22 GMT
+< Content-Type: text/html

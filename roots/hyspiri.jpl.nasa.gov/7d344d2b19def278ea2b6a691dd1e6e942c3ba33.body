@@ -1,0 +1,720 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <base href="https://hyspiri.jpl.nasa.gov/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/reset-cachekey-b8ea3ac966b427b785acccd1b68a4c20.css" />
+    <style type="text/css" media="screen">@import url(https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/base-cachekey-992636beb768f6c0f2e226a0b251f073.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/resourcetinymce.stylesheetstinymce-cachekey-8a7844dbfa1a9145399afb0b8da4f7c8.css" />
+    <style type="text/css">@import url(https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/print-cachekey-d6f1bb80ea41bd792e0970d34f61058d.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-f460a241aefdb552aa23f7302a3b2523.css" />
+    <style type="text/css" media="all">@import url(https://hyspiri.jpl.nasa.gov/portal_css/Plone%20Classic%20Theme/ploneCustom-cachekey-07670cf9f26d7207b08b1a59ccb8d14c.css);</style>
+
+  
+  
+    <script type="text/javascript" src="https://hyspiri.jpl.nasa.gov/portal_javascripts/Plone%20Classic%20Theme/resourceplone.app.jquery-cachekey-be83e9dd3ae32f022d52526a0ec17ac6.js"></script>
+    <script type="text/javascript" src="https://hyspiri.jpl.nasa.gov/portal_javascripts/Plone%20Classic%20Theme/se-highlight-cachekey-c1af83f5f3ea527a9889a2ef49b247b1.js"></script>
+    <script type="text/javascript" src="https://hyspiri.jpl.nasa.gov/portal_javascripts/Plone%20Classic%20Theme/kss-bbb-cachekey-74d88b756eb517c7966d3462bd8f4440.js"></script>
+    <script type="text/javascript" src="https://hyspiri.jpl.nasa.gov/portal_javascripts/Plone%20Classic%20Theme/hawaii_image_popup.js"></script>
+
+
+<title>Welcome to HyspIRI Mission Study Website &mdash; Hyperspectral Infrared Imager</title>
+
+        
+    <link rel="canonical" href="https://hyspiri.jpl.nasa.gov" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://hyspiri.jpl.nasa.gov/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://hyspiri.jpl.nasa.gov/touch_icon.png" />
+
+
+
+
+
+    <link rel="alternate" href="https://hyspiri.jpl.nasa.gov/RSS" title="Hyperspectral Infrared Imager - RSS 1.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://hyspiri.jpl.nasa.gov/rss.xml" title="Hyperspectral Infrared Imager - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="https://hyspiri.jpl.nasa.gov/atom.xml" title="Hyperspectral Infrared Imager - Atom" type="application/rss+xml" />
+
+
+    <link rel="search" href="https://hyspiri.jpl.nasa.gov/@@search" title="Search this site" />
+
+
+
+        <!-- Disable IE6 image toolbar -->
+        <meta http-equiv="imagetoolbar" content="no" />
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  </head>
+
+  <body class="template-document_view portaltype-document site-hyspiri section-front-page icons-on userrole-anonymous" dir="ltr">
+<!--  Beginning of Insert the JPL required CSS (this is the DIV between visual portal wrapper and portal top) -->
+<!-- Adding new header -->
+<div id="wrapper_top">
+   <div id="top">
+ 	<div id="nav_tier_0">
+          	<a href="http://www.nasa.gov/" id="nasa" title="NASA"><i>NASA</i></a>
+                <a href="http://www.jpl.nasa.gov/" id="jplhome0" title="JPL Home"><i>JPL Home</i></a>
+                <a href="http://www.caltech.edu/" id="caltech" title="California Institute of Technology"><i>California Institute of Technology</i></a>
+        </div>
+        <div id="nav_tier_1">
+    		<ul id="tier_1">
+                <li class="" id="jplhome"><a href="http://www.jpl.nasa.gov/" title="JPL Home">JPL Home</a></li>
+  		<li class="" id="earth"><a href="http://www.jpl.nasa.gov/earth/" title="Earth">Earth</a></li>
+  		<li class="" id="solarsystem"><a href="http://www.jpl.nasa.gov/solar-system/" title="Solar System">Solar System</a></li>
+  		<li class="" id="starsgalaxies"><a href="http://www.jpl.nasa.gov/stars-galaxies/" title="Stars &amp; Galaxies">Stars &amp; Galaxies</a></li>
+  		<li class="" id="scitech"><a href="http://scienceandtechnology.jpl.nasa.gov/" title="Science &amp; Tech">Science &amp; Tech</a></li>
+  		</ul>
+  	</div>
+	<div id="nav_tier_2">
+    		<ul id="tier_2">
+   	 	<li class="" id="jplemailnews"><a href="http://jpl.kintera.org/signup/" title="JPL Email News">JPL Email News</a></li>
+    		<li class="" id="rss"><a href="http://www.jpl.nasa.gov/rss/" title="RSS">RSS</a></li>
+   	  	<li class="" id="podcast"><a href="http://www.jpl.nasa.gov/podcast/" title="Podcast">Podcast</a></li>
+    		<li class="" id="video"><a href="http://www.jpl.nasa.gov/video/" title="Video">Video</a></li>
+    		</ul>
+    	</div>
+   </div>
+</div>
+
+    <div id="visual-portal-wrapper">
+<table border="0" cellspacing="0" cellpadding="0" valign="top" bgcolor="#FFFFFF" width="1050">
+<tr>
+ <td width="1050">
+  <table border="0" cellpadding="0" cellspacing="0" width="1050">
+  <tr>      
+    <td width="1050"><img src="hyspiri.jpg" width="1050" height="100" alt="Hyspiri website" border="0"></td>
+  </tr>
+  </table>
+ </td>
+</tr>
+</table>
+<!--  End of Insert the JPL required CSS (this is the DIV between visual portal wrapper and portal top) -->
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="https://hyspiri.jpl.nasa.gov/#content">Skip to content.</a> |
+
+  <a accesskey="6" href="https://hyspiri.jpl.nasa.gov/#portal-globalnav">Skip to navigation</a>
+</p>
+
+
+
+<!-- div id="portal-searchbox"
+     i18n:domain="plone">
+    <form name="searchform"
+          action="search"
+          tal:attributes="action string:${view/portal_url}/search">
+
+        <label for="searchGadget" class="hiddenStructure"
+                    i18n:translate="text_search">Search Site</label>
+
+        <div class="LSBox">
+        <input name="SearchableText"
+               type="text"
+               size="18"
+               value=""
+               title="Search Site"
+               accesskey="4"
+               i18n:attributes="title title_search_site;"
+               tal:attributes="value request/SearchableText|nothing;
+                               id view/search_input_id"
+               class="inputLabel" />
+
+        <input class="searchButton"
+               type="submit"
+               value="Search"
+               i18n:attributes="value label_search;" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search"
+         class="hiddenStructure">
+        <a href="#"
+           tal:attributes="href string:${view/portal_url}/search_form"
+           i18n:translate="label_advanced_search"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div -->
+<a id="portal-logo" accesskey="1" href="https://hyspiri.jpl.nasa.gov"><br />
+    <!-- img src="logo.jpg" alt=""
+         tal:replace="structure view/logo_tag" / --></a>
+
+    <p class="hiddenStructure">Navigation</p>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="selected"><a href="https://hyspiri.jpl.nasa.gov" title="">Home</a></li><li id="portaltab-events" class="plain"><a href="https://hyspiri.jpl.nasa.gov/events" title="Site Events">Events</a></li><li id="portaltab-nrc-decadal-survey" class="plain"><a href="https://hyspiri.jpl.nasa.gov/nrc-decadal-survey" title="">NRC Decadal Survey</a></li><li id="portaltab-science" class="plain"><a href="https://hyspiri.jpl.nasa.gov/science" title="Science associated with the HyspIRI Mission">Science</a></li><li id="portaltab-applied" class="plain"><a href="https://hyspiri.jpl.nasa.gov/applied" title="">Applied</a></li><li id="portaltab-gallery" class="plain"><a href="https://hyspiri.jpl.nasa.gov/gallery" title="">Gallery</a></li><li id="portaltab-documents" class="plain"><a href="https://hyspiri.jpl.nasa.gov/documents" title="HyspIRI relevant documents">Documents</a></li><li id="portaltab-airborne" class="plain"><a href="https://hyspiri.jpl.nasa.gov/airborne"
+    title="Activities related to the 2013 and 2014 HyspIRI Airborne Campaign">Airborne</a></li><li id="portaltab-hytes-1" class="plain"><a href="http://hytes.jpl.nasa.gov" title="">HyTES</a></li><li id="portaltab-ecostress-1" class="plain"><a href="http://ecostress.jpl.nasa.gov" title="">ECOSTRESS</a></li><li id="portaltab-related-links" class="plain"><a href="https://hyspiri.jpl.nasa.gov/related-links" title="">Links</a></li></ul>
+
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-nothing">
+            <a href="http://www.nasa.gov">NASA/JPL</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://hyspiri.jpl.nasa.gov">Home</a>
+        
+    </span>
+
+</div>
+
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+                
+                <td id="portal-column-one">
+                  <div class="visualPadding">
+                    
+                      
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f687973706972690a6e617669676174696f6e" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f687973706972690a6e617669676174696f6e">
+<dl class="portlet portletNavigationTree">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="https://hyspiri.jpl.nasa.gov/sitemap" class="tile">Navigation</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem lastItem">
+        <ul class="navTree navTreeLevel0">
+            <li class="navTreeItem navTreeTopNode navTreeCurrentNode nav-section-hyperspectral-infrared-imager">
+                <div>
+                   <a href="https://hyspiri.jpl.nasa.gov" class="contenttype-plone-site navTreeCurrentItem" title="">
+                   
+                   Home
+                   
+                   </a>
+                </div>
+            </li>
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-events">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/events" class="state-published navTreeFolderish contenttype-folder" title="Site Events">
+            
+            <span>Events</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-nrc-decadal-survey">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/nrc-decadal-survey" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>NRC Decadal Survey</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-science">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/science" class="state-published navTreeFolderish contenttype-folder" title="Science associated with the HyspIRI Mission">
+            
+            <span>Science</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-applied">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/applied" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Applied</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-gallery">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/gallery" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Gallery</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-documents">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/documents" class="state-published navTreeFolderish contenttype-folder" title="HyspIRI relevant documents">
+            
+            <span>Documents</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-airborne">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/airborne" class="state-published navTreeFolderish contenttype-folder" title="Activities related to the 2013 and 2014 HyspIRI Airborne Campaign">
+            
+            <span>Airborne</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-hytes-1">
+
+    
+
+
+        <a href="http://hytes.jpl.nasa.gov" class="state-published contenttype-link" title="">
+            
+            <span>HyTES</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker section-ecostress-1">
+
+    
+
+
+        <a href="http://ecostress.jpl.nasa.gov" class="state-published contenttype-link" title="">
+            
+            <span>ECOSTRESS</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-related-links">
+
+    
+
+
+        <a href="https://hyspiri.jpl.nasa.gov/related-links" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Links</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+
+
+        </ul>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+<div class="portletWrapper" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f687973706972690a63616c656e646172" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f687973706972690a63616c656e646172">
+<dl class="portlet portletCalendar">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <a href="?month:int=8&amp;year:int=2023&amp;orig_query=" rel="nofollow" title="Previous month" class="calendarPrev" data-month="8" id="calendar-previous" data-year="2023">&laquo;</a>
+
+        
+            September
+            2023
+        
+
+        <a href="?month:int=10&amp;year:int=2023&amp;orig_query=" rel="nofollow" title="Next month" class="calendarNext" data-month="10" id="calendar-next" data-year="2023">&raquo;</a>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem">
+        <table class="ploneCalendar" summary="Calendar">
+            <caption class="hiddenStructure">September</caption>
+            <thead>
+                <tr class="weekdays"><th scope="col">Mo</th><th scope="col">Tu</th><th scope="col">We</th><th scope="col">Th</th><th scope="col">Fr</th><th scope="col">Sa</th><th scope="col">Su</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
+                </tr>
+                <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+                </tr>
+                <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+                </tr>
+                <tr><td>18</td><td class="todaynoevent"><strong>19</strong></td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
+                </tr>
+                <tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td></td>
+                </tr>
+            </tbody>
+
+        </table>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+</dl>
+
+</div>
+
+
+
+
+                    
+                    &nbsp;
+                  </div>
+                </td>
+                
+            
+
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"></div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+                        
+                            
+                            
+                                
+                                
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Welcome to HyspIRI Mission Study Website
+                </h1>
+            
+            
+        
+                            
+                            
+
+
+
+
+                            
+                                
+                                
+            
+                
+            
+            
+        
+                            
+
+                            
+
+
+                            <div id="content-core">
+                                
+    
+        
+        <div class="" id="parent-fieldname-text-c1bff4605349cc8c9948a75726f14d1c">
+            <p>The Hyperspectral Infrared Imager or HyspIRI mission will study the world’s ecosystems and provide critical information on natural disasters such as volcanoes, wildfires and drought. HyspIRI will be able to identify the type of vegetation that is present and whether the vegetation is healthy. The mission will provide a benchmark on the state of the worlds ecosystems against which future changes can be assessed. The mission will also assess the pre-eruptive behavior of volcanoes and the likelihood of future eruptions as well as the carbon and other gases released from wildfires.</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>The HyspIRI mission includes two instruments mounted on a satellite in Low Earth Orbit. There is an imaging spectrometer measuring from the visible to short wave infrared (VSWIR: 380 nm - 2500 nm) in 10 nm contiguous bands and a multispectral imager measuring from 3 to 12 um in the mid and thermal infrared (TIR). The VSWIR and TIR instruments both have a spatial resolution of 60 m at nadir. The VSWIR will have a revisit of of 19 days and the TIR will have a revisit of 5 days. HyspIRI also includes an Intelligent Payload Module (IPM) which will enable direct broadcast of a subset of the data. <br /><br />The data from HyspIRI will be used for a wide variety of studies primarily in the Carbon Cycle and Ecosystem and Earth Surface and Interior focus areas. The mission was recommended in the 2007 National Research Council Decadal Survey requested by NASA, NOAA, and USGS.The mission is currently at the study stage and this website is being provided as a focal point for information on the mission and to keep the community informed on the mission activities.</p>
+</td>
+<td><img src="https://hyspiri.jpl.nasa.gov/hyspiriinspace.jpg" alt="hyspiri-in-space" class="image-inline image-inline" title="hyspiri-in-space" /></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="https://hyspiri.jpl.nasa.gov/downloads/reports_whitepapers/HyspIRI_FINAL_Report_1October2018_20181005a.pdf" class="external-link">2018 HyspIRI Final Report</a></p>
+<p><a href="https://hyspiri.jpl.nasa.gov/documents/2018-workshop/" class="internal-link" title="HyspIRI 2018 Workshop">2018 HyspIRI Workshop Agenda and Presentations</a></p>
+<p><a href="https://science.nasa.gov/earth-science/decadal-surveys" title="2017 ESAS Decadal Survey">2017 Earth Science and Applications from Space (ESAS) Decadal Survey</a></p>
+<p><a href="https://hyspiri.jpl.nasa.gov/mission-report" class="internal-link" title="HyspIRI 2015 Comprehensive Mission Report">HyspIRI 2015 Comprehensive Mission Report</a></p>
+<p><a href="https://hyspiri.jpl.nasa.gov/documents" class="internal-link" title="Documents">Previous Workshop Agendas, Presentations and Reports</a></p>
+            
+        </div>
+    
+    
+
+                            </div>
+                            
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+
+                        
+
+                      
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+
+
+
+</div>
+
+            </td>
+            
+
+            
+                
+                
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div id="portal-footer">
+
+<p>
+    
+    ALL RIGHTS RESERVED Copyright California Institute of Technology U.S. Government Sponsorship Acknowledged
+    under NAS7-1260 CL 08-2417
+    <!-- span i18n:name="plonecms" tal:omit-tag="" -->
+        <!-- a href="http://plone.org" i18n:translate="label_plone_cms">Plone<sup>&reg;</sup> CMS &mdash; Open 
+Source Content Management System</a -->
+     <!--
+    is
+    <acronym title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</acronym>
+    2000-<span i18n:name="current_year"
+               tal:omit-tag=""
+               tal:define="now modules/DateTime/DateTime"
+               tal:content="now/year" />
+-->
+   <!-- by the
+    <span i18n:name="plonefoundation" tal:omit-tag="">
+        <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>
+    et al.
+    </span>
+-->
+</p>
+
+<!-- p -->
+<!-- 
+    <span i18n:translate="description_trademark" tal:omit-tag="">
+    Plone<sup>&reg;</sup> and the Plone logo are registered trademarks of the
+        <span i18n:name="plonefoundation" tal:omit-tag="">
+            <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>.
+    </span>
+-->
+<!-- 
+    <span i18n:translate="description_license" tal:omit-tag="">
+    Distributed under the
+        <span i18n:name="license" tal:omit-tag="">
+            <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU 
+GPL license</a></span>.
+    </span>
+-->
+<!-- /p -->
+</div>
+<div id="portal-colophon">
+
+<div class="colophonWrapper">
+<ul>
+  <li>
+<!--
+    <a href="http://plone.org"
+       title="This site was built using the Plone Open Source CMS/WCM."
+       i18n:attributes="title title_built_with_plone;"
+       i18n:translate="label_powered_by_plone">
+      Powered by Plone &amp; Python</a>
+-->
+  </li>
+</ul>
+</div>
+</div>
+<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JPL_hyspiri&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+
+      
+
+      <div class="visualClear"><!-- --></div> 
+    </div>
+
+<!-- Main Content Ends Here -->
+<div class="clear"><br /></div>
+<div id="wrapper_bottom">
+<div id="footer">
+	<div class="usa_gov">&nbsp;</div>
+   	<div class="footer_credits">
+      	<p>Site Manager: Simon Hook<br />
+      	Webmasters: Gerardo Rivera</p>
+   	</div>
+    <div class="footer_nav"><p><a href="http://www.jpl.nasa.gov/copyrights.cfm">PRIVACY</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="http://www.jpl.nasa.gov/imagepolicy/">IMAGE POLICY</a></p>
+    </div><div class="clear"></div>
+</div><!-- end #footer -->
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,13 @@
+GET http://eyes.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://eyes.nasa.gov/
+< X-Amz-Cf-Id: B3wS3bdfns25pqWj82JkiV2TjMJ8l4vGgP1NoAdz3_U0x1ob_INOIg==
+< X-Amz-Cf-Pop: JFK50-P3
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:04:31 GMT
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 cf498d1eb1eabcd3ba17659086fa3f86.cloudfront.net (CloudFront)

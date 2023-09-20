@@ -1,0 +1,12 @@
+GET http://ghrc.nsstc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://ghrc.nsstc.nasa.gov/
+< Date: Tue, 19 Sep 2023 06:02:08 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: no-store
+< Content-Length: 236
+< Content-Type: text/html; charset=iso-8859-1

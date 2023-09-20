@@ -1,0 +1,17 @@
+GET http://worldview.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 2b32055d9226f21c6a6dab015aed37ce.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: frame-ancestors *.nasa.gov https://nasa-gibs.github.io *.arcgis.com *.refoorest.com;
+< Server: CloudFront
+< Content-Type: text/html
+< X-Amz-Cf-Id: 6SkTDVMzZj3CyznOg-1N1pH7K87wCPnCQ4WNyKomZ8d6fCOjldcGWA==
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:04:45 GMT
+< X-Amz-Cf-Pop: EWR53-C1
+< Location: https://worldview.earthdata.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Content-Length: 167
+< X-Content-Type-Options: nosniff

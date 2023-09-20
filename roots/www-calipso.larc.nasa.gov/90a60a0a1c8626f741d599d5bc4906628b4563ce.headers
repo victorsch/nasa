@@ -1,0 +1,19 @@
+GET https://www-calipso.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: DENY
+< Pragma: no-cache
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< X-Xss-Protection: 1; mode=block
+< X-Powered-By: PHP/8.1.23
+< Cache-Control: no-cache, no-store, must-revalidate
+< Expires: 0
+< Set-Cookie: e42e877fc06d7b4fe3ea09a98f749cef=230d8f419dfdd1a2686947400619a900; path=/; HttpOnly; Secure; SameSite=None
+< X-Permitted-Cross-Domain-Policies: none
+< Content-Security-Policy: script-src 'self' https://www-calipso.larc.nasa.gov;
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:54:42 GMT
+< X-Content-Type-Options: nosniff

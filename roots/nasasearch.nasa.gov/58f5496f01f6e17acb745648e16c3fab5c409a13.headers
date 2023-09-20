@@ -1,0 +1,13 @@
+GET http://nasasearch.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:53:44 GMT
+< Content-Length: 167
+< Location: https://nasasearch.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: JFK50-P2
+< Content-Type: text/html
+< Via: 1.1 62c7f4f128c40af6818c2f8f919f1c18.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: YJDtD8xEPrzAHrM8WKZN8llhNsdlJM6G8FFPX3df71PQeZL5CbGSeg==

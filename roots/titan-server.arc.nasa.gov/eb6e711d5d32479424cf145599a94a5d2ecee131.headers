@@ -1,0 +1,12 @@
+GET https://titan-server.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Microsoft-IIS/8.5
+< Content-Length: 130
+< Last-Modified: Thu, 12 Mar 2020 22:48:43 GMT
+< Accept-Ranges: bytes
+< Etag: "efc39561c0f8d51:0"
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:00:25 GMT
+< Content-Type: text/html

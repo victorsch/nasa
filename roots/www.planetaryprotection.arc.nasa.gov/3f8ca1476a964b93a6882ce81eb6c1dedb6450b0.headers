@@ -1,0 +1,12 @@
+GET https://www.planetaryprotection.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< Upgrade: h2
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:05:31 GMT
+< X-Frame-Options: SAMEORIGIN

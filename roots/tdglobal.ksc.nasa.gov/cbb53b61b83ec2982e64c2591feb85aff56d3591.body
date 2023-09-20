@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+<title>TechDoc - NASA Public Technical Library System</title>
+<script id="_fed_an_js_tag" type="text/javascript"src="/scripts/federated-analytics.all.min.js?agency=NASA&subagency=KSC">
+</script>
+<link href="/td/styles/normal.css" rel="STYLESHEET" type="text/css">
+<meta name="author" content="Prevo Technologies, Inc.">
+</head>
+<body>
+<table class="topSection">
+ <tr class="topSection"><td class="topSection">
+  <table class="topBar">
+   <tr class="topBar">
+    <td class="topBarLeft"><a href="/" class="topBar" title="Home Page">TDGLOBAL</a></td>
+    <td class="topBarCenter">tdglobal.ksc.nasa.gov</td>
+    <td class="topBarRight">&nbsp;</td>
+   </tr>
+  </table>
+ </td></tr>
+ <tr class="topSection"><td class="topSection">
+  <table class="menuBar">
+   <tr class="menuBar">
+    <td class="menuBar"><a href="https://www.nasa.gov/centers/kennedy/home/index.html" class="menuBar">KSC Home Page</a></td>
+    <td class="menuBar"><a href="/faq.html" class="menuBar">FAQ</a></td>
+    <td class="menuBarWide"><a href="/whatsnew.html" class="menuBar">Whats New</a></td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+
+<div class="lowlightedWide">
+
+<noscript>
+<div class="errorBox">
+<p>Various features may not work because JavaScript is currently disabled in your browser. Please re-enable JavaScript to experience full functionality.</p>
+</div>
+<br />
+</noscript>
+
+<table border="0" cellpadding="0" cellspacing="4" width="100%">
+<tr>
+<td><img src="/td/images/nasa-logo.gif" alt="NASA logo" align="TOP" border="0"></td>
+<td align="CENTER" width="100%"><h2>TechDoc&nbsp;-&nbsp;NASA&nbsp;Technical&nbsp;Library&nbsp;Public&nbsp;Search&nbsp;Engine</h2>
+ <table class="speedSearch">
+  <tr>
+   <td class="speedSearch"><form method="GET" action="/servlet/search" class="speedSearch">
+    <input type="TEXT" name="TEXT1" value="" size="52" maxlength="255"><br>
+    <input type="RADIO" name="FIELD1" value="SM_TEXT" checked>Text&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_DOC_NUMBER">Doc Number&nbsp;&nbsp;<input type="RADIO" name="FIELD1" value="SM_TITLE">Title&nbsp;&nbsp;<input type="SUBMIT" value="Speed Search" style="margin-top: 4px;">
+    <input type="HIDDEN" name="MAX_RESULTS" value="50"></form></td>
+  </tr>
+ </table>
+ <div class="speedSearch">Tip: Doc Numbers do not allow spaces, so use asterisks or<BR>question marks in place of spaces, i.e.&nbsp;KNPR?1700*</div>
+</td>
+<td><img src="/td/images/nasa-logo.gif" alt="NASA logo" align="TOP" border="0"></td>
+</tr>
+</table>
+
+<p>To locate documents, select a search option and provide search
+criteria. To view documents in their released format, you
+will need a PDF viewer, such as <a href="http://www.adobe.com/">Acrobat Reader</a>.</p>
+
+<ul>
+
+<li><strong><a href="search/general.html">Search all TechDoc systems for documents accessible to the world</a></strong><br>
+Search by one or more fields in the documents.<br>&nbsp;</li>
+
+<li><strong><a href="https://tdsearch.ksc.nasa.gov/search/general.html">Search all TechDoc systems for documents only accessible to NASA and it's contractors</a></strong><br>
+Search by one or more fields in the documents.<br>
+<i>(Only employees of NASA and its contractors permitted!)</i><br>&nbsp;</li>
+
+<li><strong><a href="https://procurement.ksc.nasa.gov/PPD/Documents">View NASA KSC Referenced Documents</a></strong><br>
+View documents that are referenced by some of NASA's contracts, Delivery Orders, Task Orders, Invitations for Bids (IFBs) and Request for Proposals.<br>&nbsp;</li>
+
+</ul>
+
+</div>
+
+<br />
+<!--<div class="centered"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank"></a></div>-->
+<br />
+ 
+<table class="curatorBox" width="900px;" role="presentation">
+  <tr class="curatorBox" >
+	<th class="curatorBoxLeft"></th>
+	<th class="curatorBoxRight" colspan="2"></th>
+  </tr>
+  <tr class="curatorBox">
+	<td class="curatorBoxLeft" style="text-align:left; padding: 15px; border-right:2px;">
+	A Product of the Information Technology & Communications Services Directorate<br>
+	<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy & Important Notices</a>
+    	</td>
+	
+    <td class="curatorBoxRight" style="text-align:left; padding: 15px; border-left:2px;">
+	Curator: <a href="mailto:christine.e.wilson@nasa.gov ">Christine Wilson</a><br>
+	NASA Official: <a href="mailto:tracy.bierman@nasa.gov ">Tracy Bierman</a><br>
+	Last Updated: Thursday, Feb. 7, 2019<br>
+	Version 9.2
+    </td>
+  </tr>
+</table>
+</body>
+</html>

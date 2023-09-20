@@ -1,0 +1,19 @@
+GET https://science.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: PHPSESSID=anb805chmk9nmq57pi7sukpjav; path=/; HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< X-Permitted-Cross-Domain-Policies: none
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< Link: <https://science.larc.nasa.gov/wp-json/>; rel="https://api.w.org/", <https://science.larc.nasa.gov/wp-json/wp/v2/pages/3>; rel="alternate"; type="application/json", <https://science.larc.nasa.gov/>; rel=shortlink
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: sameorigin
+< Access-Control-Allow-Origin: *
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:55:13 GMT
+< X-Ua-Compatible: IE=edge
+< Cache-Control: no-store, no-cache, must-revalidate
+< Server: Apache
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT

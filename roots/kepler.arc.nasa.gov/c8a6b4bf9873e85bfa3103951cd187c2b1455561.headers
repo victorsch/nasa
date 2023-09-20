@@ -1,0 +1,13 @@
+GET http://kepler.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Location: https://kepler.arc.nasa.gov/
+< Via: 1.1 155cf052093c04a91231ce0752765784.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: UZLQBp9C1GM2KCkfPrdV_qnr481ILaqI7c96gMfQ8HupB4CuZnWLrg==
+< Server: CloudFront
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: PHL51-P1
+< Date: Tue, 19 Sep 2023 06:03:08 GMT

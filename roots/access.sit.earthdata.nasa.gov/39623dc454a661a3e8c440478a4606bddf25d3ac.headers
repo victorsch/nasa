@@ -1,0 +1,16 @@
+GET https://access.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Cf-Id: xogBBs5oZylrOWW7FM13Gv0LbTVP6yBogZE8ewT48_XRRwRsRMrGbg==
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 919
+< X-Cache: Error from cloudfront
+< Server: CloudFront
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Via: 1.1 b107b2437bbcbc926a3b733dc72fd52a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C3
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:03:25 GMT
+< Content-Type: text/html

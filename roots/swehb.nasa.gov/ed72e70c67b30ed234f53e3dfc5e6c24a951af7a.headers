@@ -1,0 +1,18 @@
+GET https://swehb.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: _51391=f5af9cdcc68167d3; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=7434360A7C2EDA7A57C35174E9E12B91; Path=/; Secure; HttpOnly;HttpOnly;Secure
+< Cache-Control: no-store
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Accel-Buffering: no
+< X-Confluence-Request-Time: 1695103582247
+< X-Frame-Options: DENY
+< Date: Tue, 19 Sep 2023 06:06:23 GMT
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< X-Content-Type-Options: nosniff

@@ -1,0 +1,16 @@
+GET https://sma.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Ua-Compatible: IE=edge
+< Date: Tue, 19 Sep 2023 05:41:12 GMT
+< X-Aspnet-Version: XXXXXXXXXX
+< Expires: -1
+< Server: Microsoft-IIS/10.0
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 137617
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=utf-8
+< Pragma: no-cache
+< Set-Cookie: ASP.NET_SessionId=nyap2btfke5p2vuvvhuydfi1; path=/; HttpOnly; SameSite=Lax; Secure
+< Set-Cookie: cookiesession1=678B287CCBC3CB7F797F7CF1B7A057E1;Expires=Wed, 18 Sep 2024 05:41:12 GMT;Path=/;HttpOnly

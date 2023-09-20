@@ -1,0 +1,7 @@
+GET http://chats.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://chats.nasa.gov/
+< Content-Length: 0

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Mission Assurance Systems COVID-19 update</title>
+    <meta name="description" content="MAS availability during ARC Stage 4 operations">
+    <meta name="author" content="Mission Assurance Systems">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <article>
+      <h1>Mission Assurance Systems <abbr title="Coronavirus disease 2019">COVID-19</abbr> update</h1>
+      <p class="intro">Given the recent elevation of several NASA centers to Stage 4 of <a href="https://nasapeople.nasa.gov/coronavirus/">NASA’s COVID-19 Response Framework</a>, we wanted to share the status of the Mission Assurance Systems (<abbr title="Mission Assurance Systems">MAS</abbr>) platform, which is primarily hosted in the NASA Advanced Supercomputing facility at <abbr title="Ames Research Center">ARC</abbr> and partially replicated at the Kennedy Data Center at <abbr title="Kennedy Space Center">KSC</abbr>.</p>
+      <p class="intro">Thanks,<br><abbr title="Mission Assurance Systems">Mission Assurance Systems</abbr> staff</p>
+      
+      <h2>What is <abbr title="Mission Assurance Systems">MAS</abbr>?</h2>
+      <p><abbr title="Mission Assurance Systems">MAS</abbr> is the software framework that <abbr title="International Space Station">ISS</abbr> (<abbr title="Problem Analysis and Reporting Tool">PART</abbr>, <abbr title="Failure Modes Effects Analysis">FMEA</abbr>, <abbr title="Operational Control Agreements Database">OCAD</abbr>, Hazard), Exploration Systems/Advanced Exploration Systems (<abbr title="Cross-Program Operations and Maintenance Requirements and Specifications Management System">CP-OMS</abbr>, <abbr title="Cross-Program Launch Commit Criteria Management System">CP-LMS</abbr>, CP-Hazard, etc), and other Programs/Projects use to store/process engineering/safety data. A single codebase drives over 20 different applications, all of which are hosted in a shared environment we call <abbr title="Mission Assurance Systems">MAS</abbr>.</p>
+
+
+      <h2>What is the current status of <abbr title="Mission Assurance Systems">MAS</abbr>?</h2>
+
+      <p>All <abbr title="Mission Assurance Systems">MAS</abbr> applications are online and functioning normally. Because the <abbr title="International Space Station">ISS</abbr> program uses MAS operationally, there are no plans to change the system status.</p>
+
+
+      <h2>What is the impact of Stage 4 on <abbr title="Mission Assurance Systems">MAS</abbr> operations?</h2>
+      <p>There is no immediate impact. The <abbr title="Mission Assurance Systems">MAS</abbr> operations team is able to securely monitor, patch, troubleshoot, and otherwise maintain the applications remotely.</p>
+
+      <h2>How do I notify <abbr title="Mission Assurance Systems">MAS</abbr> staff of an issue?</h2>
+      <p>Ideally, our modernized automated monitoring will identify service interruptions before our customers do. We have 24&times;7 general support at <a href="tel:8003318737">(800) 331-USER</a> and business hours technical support available via <a href="mailto:mas-support@mail.nasa.gov">mas-support@mail.nasa.gov</a>.</p>
+    </article>
+    <footer>
+      <p>Updated <time datetime="2020-03-24">March 24, 2020</time></p>
+    </footer>
+  </body>
+
+</html>

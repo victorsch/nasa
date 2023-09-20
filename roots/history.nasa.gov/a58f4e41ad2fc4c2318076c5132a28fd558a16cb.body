@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASA History Division | NASA </title>
+      <!-- None of these worked.  -->
+
+	   <!-- timer script to activate MOdal click  -->
+
+    <!-- Twitter feed  -->
+    <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nasahistory" />
+<meta name="twitter:title" content="Welcome to the NASA History Website" />
+<meta name="twitter:description" content="Come explore the NASA Archives" />
+<meta name="twitter:image" content="https://history.nasa.gov/images/aids_ap7-crew-500x325.jpg" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/history_styles.css" rel="stylesheet">
+ <!-- this was for the future contact us popp window, -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33523145-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-33523145-1');
+</script>
+
+<!-- Meta data  -->
+ <meta name="keywords" content=" NASA History"/>
+<meta name="description" content="NASA History" />
+<meta name="revisit-after" content="10 days" />
+<meta name="robots" content="all" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="classification" content="NASA History" />
+<meta name="copyright" content="NASA" />
+<meta name="author" content="Robyn Rodgers and Steve Garber" />
+<meta name="author" content="SA 07.01.19" />  
+ 
+<!-- Modal styles  -->
+<style>
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+	
+.alert {
+  padding: 20px;
+  background-color:blue;
+  color: white;
+  border:thin;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+
+	  
+  </head>
+  <body>
+	  
+
+<!-- Top menu bar  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+ <img class="meatball" src="images/nasa-logo.svg" width="75" height="75" alt="NASA Meatball" > 
+ <a class="navbar-brand" href="#">NASA History Division</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+        <!--  <li class="nav-item"> <a class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact</a> </li>  -->
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NASA HQ Archives </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+              <a class="dropdown-item" href="national_history_day.html">National History Day</a>   
+           <a class="dropdown-item" href="frequent_research_topics.html">Research Questions</a> 
+           <a class="dropdown-item" href="finding_aids.html">Finding Aids</a>
+           
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="publications.html">Publications and Newsletters</a>
+           
+            <a class="dropdown-item" href="donations_and_research.html">Donations and Family Research</a> 
+            
+            <a class="dropdown-item" href="visit_us.html">Planning a Visit? </a>
+           
+            <a class="dropdown-item" href="policies_and_faq.html">Policies and Frequently Asked Questions</a> 
+            </div>
+        </li>
+      </ul>
+      <!-- SEARCH this  --> 
+      <!-- Old NASA only search <script async src="https://cse.google.com/cse.js?cx=003655732767547834924:75zk31-rai4"></script>  -->
+      <!-- Google Search  -->
+      <script async src="https://cse.google.com/cse.js?cx=007063491941470456154:fcssrrik1eq"></script>     
+ <div style="border: thin solid black; max-width: 40%;">
+       <div class="gcse-search"></div>
+    </div>
+        </div>
+  </nav>
+ <!-- This is the Mobile Hidden menu  -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" style="margin-top: 100px;">
+      <li class="nav-item active"> <a class="dropdown-item" href="#">Home </a> </li>
+      <!-- <li class="nav-item"> <a class="dropdown-item"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact</a> </li>  -->
+      <li>NASA HQ Archives</li>
+		 <li class="nav-item"><a class="dropdown-item" href="national_history_day.html">National History Day</a> </li>
+      <li class="nav-item"><a class="dropdown-item" href="frequent_research_topics.html">Research Questions</a> </li>
+      <li class="nav-item"><a class="dropdown-item" href="finding_aids.html">Finding Aids</a> </li>
+      <li class="nav-item"><a class="dropdown-item" href="publications.html">Publications and Newsletters</a> </li>
+      <li class="nav-item"><a class="dropdown-item" href="donations_and_research.html">Donations and Family Research</a> </li>
+      <li class="nav-item"><a class="dropdown-item" href="visit_us.html">Planning a Visit? </a></li>
+      <li class="nav-item"><a class="dropdown-item" href="policies_and_faq.html">Policies and Frequently Asked Questions</a> </li>
+      
+     
+    </ul>
+    <!-- Google Search   for mobile -->
+   <script async src="https://cse.google.com/cse.js?cx=003655732767547834924:75zk31-rai4"></script>
+<div class="gcse-search"></div>
+  </div>
+  
+  <!-- History Header  --> 
+    <header class="py-5 bg-image-full headercontainer" style="background-image:url(images/apollo-11_east-crater_1920x620.jpg);">
+    
+    <div class="container headercontainer">
+     
+    <h1 class="text-white">NASA History</h1>
+    <p class="lead text-white" style="padding-bottom: 12px;">The National Aeronautics and Space Act of 1958 (Pub.L. 85-568) created the National Aeronautics and Space Administration (NASA). Section 20112 (a)(3) of the Act directs NASA "to provide for the widest practicable and appropriate dissemination of information concerning NASA activities and the results thereof." The sharing of information, and our history, has always been, and continues to be, a priority.</p>
+  
+  
+ </div>
+        
+   </header> 
+     <!-- end Modal  --> 
+	  	  <!-- add ALERT BOX .  -->
+
+<section>
+  <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-center">
+           <!-- do not need  <h2>NASA Headquarters and Centers </h2>   -->
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+         <!-- add another 4 column node  -->
+         <div class="col-lg-3 col-md-6 mb-4">
+         <div class="card h-100 " >
+          <img class="card-img-top" src="images/nasa_hq_building_500x325.jpg" alt="NASA Headquarters">
+          <div class="card-body">
+            <h4 class="card-title">NASA HQ </h4>
+            <p class="card-text">
+             </p>
+          </div>
+          <div class="card-footer">Current Site</div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 ">
+          <img class="card-img-top" src="images/nasa-ames-research-center_500x328.jpg" alt="Ames center sign">
+          <div class="card-body">
+            <h4 class="card-title">Ames Research Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://history.arc.nasa.gov/" target="_blank">Ames History</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_armstrong_fc_500x325.jpg" alt="Armstrong sign">
+          <div class="card-body">
+            <h4 class="card-title">Armstrong Flight Research Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www.nasa.gov/centers/armstrong/history/index.html" target="_blank">Armstrong History</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_grc-1958-c-48958_500x325.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Glenn Research Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www1.grc.nasa.gov/glenn-history/ "  target="_blank">Glenn History </a></div>
+        </div>
+      </div> 
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_gsfc_sign_installation-500x325.jpg" alt="Goddard sign">
+          <div class="card-body">
+            <h4 class="card-title">Goddard Space Flight Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://gsfcir.gsfc.nasa.gov/"  target="_blank">Goddard History </a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <a href="https://www.jpl.nasa.gov/about/history.php" target="_blank"><img class="card-img-top" src="images/nasa_jpl_v2_500x325.jpg" alt="JPL sign"></a>
+          <div class="card-body">
+            <h4 class="card-title">Jet Propulsion Lab</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www.jpl.nasa.gov/about/history.php" target="_blank">JPL History </a></div>
+		  <!-- https://www.jpl.nasa.gov/about/history.php  -->
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_johnson_v2_500x325.jpg" alt="Johnson Center">
+          <div class="card-body">
+            <h4 class="card-title">Johnson Space Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://historycollection.jsc.nasa.gov/JSCHistoryPortal/history/" target="_blank">Johnson History</a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_kennedy_v1_500x325.jpg" alt="picture of launch pad 39B">
+          <div class="card-body">
+            <h4 class="card-title">Kennedy Space Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://ksclibrary.ksc.nasa.gov/" target="_blank">Kennedy History </a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <a href="https://www.nasa.gov/langley/100" target="_blank"><img class="card-img-top" src="images/nasa_langely_historical_500x325.jpg" alt="Image of pilots in from of plane"></a>
+          <div class="card-body">
+            <h4 class="card-title">Langley Research Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www.nasa.gov/langley/100" target="_blank">Langley History </a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_marshall_v2_500x325.jpg" alt="Marshall sign">
+          <div class="card-body">
+            <h4 class="card-title">Marshall Space Flight Center</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www.nasa.gov/centers/marshall/history/index.html" target="_blank">Marshall History </a></div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_stennis_500x325.jpg" alt="Stennis Space Center sign">
+          <div class="card-body">
+            <h4 class="card-title">Stennis Space Center</h4>
+            <p class="card-text"> 
+           </p>
+          </div>
+          <div class="card-footer">
+           <a href="https://www.nasa.gov/centers/stennis/about/history/index.html" target="_blank">Stennis History </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+          <img class="card-img-top" src="images/nasa_white-sands_500x325.jpg" alt="image of shuttle on 747">
+          <div class="card-body">
+            <h4 class="card-title">White Sands Test Facility</h4>
+            <p class="card-text">
+           </p>
+          </div>
+          <div class="card-footer"><a href="https://www.nasa.gov/centers/wstf/about_us/our_history/the_beginning.html" target="_blank">White Sands History </a></div>
+        </div>
+      </div>
+         <!-- Old cards  -->        
+          <h2 class="text-left">&nbsp;</h2>
+        </div>
+	</div>
+
+<div class="container">
+    <div class="row">
+          <div class="col-12 mb-2 text-center">
+            <h2><strong>Research at NASA HQ Archives</strong> </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <h3 class="text-center">Frequent Research Questions and Finding Aids </h3>
+            <p>From <a>Animals in Space</a> to Women at NASA, our top 12 research questions are here in mini research collections. </p>
+            <p>Looking for other archival material? Our finding aids will assist researchers in refining their searches. Researchers may also access our <a href="https://historydms.hq.nasa.gov/">Document Management System </a>here.</p>
+            <p><a href="frequent_research_topics.html">View Frequent Research Questions » </a></p>
+            <p><a href="finding_aids.html">View Finding Aids » </a></p>
+            <p>&nbsp;</p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3 class="text-center">Publications and Newsletters</h3>
+            <p> Looking for our list of NASA books? Many of our books have either been scanned or created in PDF. They are downloadable, text-searchable, and free. </p>
+            <p>Some of the books are only available in HTML and are divided by chapter. </p>
+            <p><a href="publications.html">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3 class="text-center">Donations and Family Research</h3>
+            <p>Do you have something you think may be better homed within the Archives? Looking for more information on a family member who worked at NASA? </p>
+            <p><a href="donations_and_research.html">View details »</a></p>
+          </div>
+        </div>   
+        </div>   
+        
+    </section>      
+ 
+ <!-- This is the contact info section  -->
+           
+ <section>
+  	<div class="container">
+  	<div class="row">
+  	<div class="col-sm-6 col-lg-4">
+  	<h3>Can't find what you need? </h3>  
+  	   <p> <em class="icon-desktop "></em> Can't find what you need? Archival work is never-ending. We are constantly bringing in new records, accepting donations, and refining our description. If you don't find what you need here, or need to schedule an appointment, please don't hesitate to get in touch. </p>
+         </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3 class="text-center">Get in touch</h3>
+            
+            <p class="text-center">300 E St. SW, Washington, DC 20546 <br>Email: 
+           <a href="mailto:hq-histinfo@nasa.gov">hq-histinfo@nasa.gov</a>
+			  </p>
+            <p>&nbsp;</p> 
+            
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Visit Us </h3>
+            <p> Planning a research visit? See here for all the details.</p>
+            <p><a href="visit_us.html">View details »</a></p>
+          </div>
+      </div>
+    </div> 
+  </section>
+
+
+<!-- MODAL Script  -->
+  <!-- Model Button  -->
+ <!--  <div class="container">
+  	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Send us a Note</button>
+
+  </div>  -->
+   <!--  Hidden contact us pop up modal   --> 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Send us a note</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+         <div class="form-group">
+                      <label for="name"> </label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
+                      <span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span> </div>
+          
+          <div class="form-group">
+                      <label for="email"> </label>
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                      <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span> </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+   <!--  New footer -->
+<footer class="page-footer font-small teal pt-4 bg-dark">
+
+  <!-- Footer Text -->
+  <div class="container container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3 text-white">
+
+        <!-- Content -->
+        <!-- footer column title  <h5 class="text-uppercase font-weight-bold text-white">Footer text 1</h5>  -->
+        <div id="status">
+        <img class="meatball" src="images/nasa-logo.svg" width="75" height="75" alt="NASA Meatball"/> 
+        
+      <span>National&nbsp;Aeronautics and Space&nbsp;Administration</span><br>
+        
+<!---->      
+    </div>
+         
+          
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3 text-white text-footer">
+
+        <!-- Content -->
+        
+        <p class="text-footer">NASA Official:  Brian Odom<br>
+        Site Administrator: Michele Ostovar<br>
+        Site Curator: Garrett Shea</p>
+        
+<script language="Javascript">
+document.write("This page was last modified on: " + document.lastModified +"");
+</script>
+  
+     
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <ul class="footer-links footer-menu" > 
+          <li><a href="https://www.nasa.gov/offices/odeo/no-fear-act">No Fear Act</a></li>
+          <li><a href="https://www.nasa.gov/FOIA">FOIA</a></li>
+          <li><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy</a></li>
+          <li><a href="https://oig.nasa.gov/">Office of Inspector General</a></li>
+          <li><a href="https://osc.gov/">Office of Special Counsel</a></li>
+          <li><a href="https://www.nasa.gov/news/budget/index.html">Agency Financial Reports</a></li>
+          <li><a href="https://www.nasa.gov/about/contact/index.html">Contact NASA</a></li>
+          </ul>
+   
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>

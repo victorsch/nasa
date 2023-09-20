@@ -1,0 +1,11 @@
+GET http://arset.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 236
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:03:03 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< X-Frame-Options: SAMEORIGIN
+< Location: https://arset.gsfc.nasa.gov/

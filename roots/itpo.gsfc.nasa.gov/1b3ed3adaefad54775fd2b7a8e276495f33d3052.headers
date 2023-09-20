@@ -1,0 +1,9 @@
+GET http://itpo.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:05:31 GMT
+< Server: Apache
+< Location: https://itpo.gsfc.nasa.gov/
+< Content-Length: 235

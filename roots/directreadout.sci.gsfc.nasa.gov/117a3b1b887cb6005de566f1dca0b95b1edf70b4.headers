@@ -1,0 +1,13 @@
+GET http://directreadout.sci.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: ggCEPdFNQJWK6QgvcPKPSoj1j0lDh56hSooLOHmAkbIP-lixicMUzw==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:00:21 GMT
+< Location: https://directreadout.sci.gsfc.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 c123eaeab0338ee38c9f9a5fe5647218.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 167
+< X-Amz-Cf-Pop: JFK50-P6

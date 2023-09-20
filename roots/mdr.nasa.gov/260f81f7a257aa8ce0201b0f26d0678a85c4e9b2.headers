@@ -1,0 +1,19 @@
+GET https://mdr.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: DENY
+< Server: Apache
+< Content-Type: text/html
+< X-Server-Region: NDC
+< X-Server-Region: NDC
+< Date: Tue, 19 Sep 2023 05:58:07 GMT
+< X-Server-Instance: os.aao-eps-mobile-mdr-prod-75bd96bfb8-sf6wb
+< X-Server-Instance: os.aao-eps-mobile-mdr-prod-75bd96bfb8-sf6wb
+< X-Content-Type-Options: nosniff
+< Set-Cookie: _d3cfe=87c836a6257d32c6; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=D77F9F2B21CBAA4F8EC8B3D7F3B079CF; Path=/; Secure; HttpOnly
+< Set-Cookie: UFWIREQUESTEDAUTHLEVEL=40
+< Set-Cookie: 403047a0556b87a638bb99ad27a038fc=0f35574f2011d333a0fd7256e8c6b0d4; path=/; HttpOnly; Secure; SameSite=None

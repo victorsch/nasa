@@ -1,0 +1,18 @@
+GET https://cxgmip.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Cache-Control: no-cache, no-store, must-revalidate
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: Apache
+< Content-Security-Policy: default-src 'self' *.nasa.gov ; script-src 'self' *.nasa.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:49:58 GMT
+< Delivered-By: CGI
+< Strict-Transport-Security: max-age=31536000
+< Pragma: no-cache
+< Expires: 0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block

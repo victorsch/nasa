@@ -1,0 +1,12 @@
+GET http://calipso-mocc.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:01:03 GMT
+< X-Frame-Content-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 243
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< X-Content-Type-Options: nosniff
+< Location: https://calipso-mocc.larc.nasa.gov/

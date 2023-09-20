@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/content/Welcome_to_the_ESPO_Data_Archive" />
+<link rel="shortlink" href="/node/6079" />
+<link rel="shortcut icon" href="https://espoarchive.nasa.gov/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>ESPO Data Archive</title>
+  <style type="text/css" media="all">
+@import url("https://espoarchive.nasa.gov/modules/system/system.base.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/system/system.menus.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/system/system.messages.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/system/system.theme.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://espoarchive.nasa.gov/modules/comment/comment.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/domain/domain_nav/domain_nav.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/custom/espodb/espodb.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/field/theme/field.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/node/node.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/search/search.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/modules/user/user.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/asset/css/assets.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/views/css/views.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/ckeditor/css/ckeditor.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://espoarchive.nasa.gov/sites/all/modules/custom/calendar/calendar_multiday/calendar_multiday.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/ctools/css/ctools.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/custom/date/date_popup/themes/datepicker.1.7.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/default/files/honeypot/honeypot.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/modules/custom/date/date_api/date.css?s0vqsr");
+</style>
+<style type="text/css" media="all">
+@import url("https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/css/207071main_allpages.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/css/207072main_allmodules.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/css/207308main_allmodules_homepage.css?s0vqsr");
+@import url("https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/css/style.css?s0vqsr");
+</style>
+  <script type="text/javascript" src="/sites/all/libraries/jquery/jquery-3.7.0.min.js?v=3.7.0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="/sites/all/libraries/jquery/jquery-migrate-3.4.1.js?v=3.4.1"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/misc/jquery-extend-3.4.0.js?v=3.7.0"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=3.7.0"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/misc/drupal.js?s0vqsr"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/misc/form-single-submit.js?v=7.98"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/sites/all/modules/entityreference/js/entityreference.js?s0vqsr"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/js/script.js?s0vqsr"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/sites/all/themes/custom/nasa/js/jquery.hoverIntent.min.js?s0vqsr"></script>
+<script type="text/javascript" src="https://espoarchive.nasa.gov/sites/all/modules/jquery_update/js/jquery_position.js?v=0.0.1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"nasa","theme_token":"_X78bcjHKDmr7NW6SPAf0GFbyGr5-aPgwjGsWrPkBNc","js":{"\/sites\/all\/libraries\/jquery\/jquery-3.7.0.min.js":1,"0":1,"\/sites\/all\/libraries\/jquery\/jquery-migrate-3.4.1.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/themes\/custom\/nasa\/js\/script.js":1,"sites\/all\/themes\/custom\/nasa\/js\/jquery.hoverIntent.min.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_position.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"sites\/all\/modules\/custom\/espodb\/espodb.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/mailman\/mailman.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/asset\/css\/assets.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/custom\/calendar\/calendar_multiday\/calendar_multiday.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/date\/date_popup\/themes\/datepicker.1.7.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/modules\/custom\/date\/date_api\/date.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207071main_allpages.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207072main_allmodules.css":1,"sites\/all\/themes\/custom\/nasa\/css\/207308main_allmodules_homepage.css":1,"sites\/all\/themes\/custom\/nasa\/css\/style.css":1}},"urlIsAjaxTrusted":{"\/content\/Welcome_to_the_ESPO_Data_Archive?destination=node\/6079":true,"\/":true}});
+//--><!]]>
+</script>
+    <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
+  <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&cto=12"></script>
+  
+  <!-- generated by realfavicongenerator.net -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/custom/nasa/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/sites/all/themes/custom/nasa/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/sites/all/themes/custom/nasa/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/sites/all/themes/custom/nasa/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/sites/all/themes/custom/nasa/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-6079 node-type-std-page domain-espoarchive-nasa-gov" >
+	<noscript>
+	<center><font size="3" color="red">This site requires that JavaScripts be
+	enabled in your browser. For instructions,
+	<a target="_blank" href="http://www.nasa.gov/home/How_to_enable_Javascript.html" class="navLnkRed">
+	click here</a></font></center></noscript>
+  <div class="skiplink">
+    <a href="#main-content"> Skip to main content</a>
+  </div>
+
+    
+<div id="page-wrapper"><div id="page" class="content_body">
+	<div class="top">
+		<div id="top_header" class="top_header">
+
+			<div id="header" class="header section clearfix">
+				<h1>
+					<a href="http://www.nasa.gov" class="nasa_logo">
+						<span class="hide">NASA - National Aeronautics and Space Administration</span>
+					</a>
+				</h1>
+				<div id="header_form">
+					  <div class="region region-header">
+    <div id="block-menu-block-8" class="block block-menu-block">
+  <div class="content">
+          <div id="main-nav"><div id="dropper_wrapper" class="menu-block-wrapper menu-block-8 menu-name-menu-archive parent-mlid-1413 menu-level-1">
+	<ul class="menu"><li class="first expanded menu-mlid-653"><a href="/archive/browse" title="Browse and download files in the data archive.">Browse</a><div class="dropper"><ul class="menu"><li class="first leaf has-children menu-mlid-37675"><a href="/archive/browse/atom" title="Browse and download files that have been submitted to the archive for the ATom campaign (restricted access).">ATom</a></li>
+<li class="leaf has-children menu-mlid-29661"><a href="/archive/browse/oracles" title="Browse and download files that have been submitted to the archive for the ORACLES campaign (restricted access).">ORACLES</a></li>
+<li class="leaf has-children menu-mlid-1438"><a href="/archive/browse/attrex" title="Browse and download files that have been submitted to the archive for the ATTREX campaign.">ATTREX</a></li>
+<li class="leaf has-children menu-mlid-29465"><a href="/archive/browse/accent" title="Browse and download files that have been submitted to the archive for the ACCENT campaign.">ACCENT</a></li>
+<li class="leaf has-children menu-mlid-29478"><a href="/archive/browse/ashoe" title="Browse and download files that have been submitted to the archive for the ASHOE/MAESA campaign.">ASHOE/MAESA</a></li>
+<li class="leaf has-children menu-mlid-29480"><a href="/archive/browse/aase2" title="Browse and download files that have been submitted to the archive for the AASE II campaign.">AASE II</a></li>
+<li class="leaf has-children menu-mlid-29482"><a href="/archive/browse/aase" title="Browse and download files that have been submitted to the archive for the AASE campaign.">AASE</a></li>
+<li class="leaf has-children menu-mlid-29483"><a href="/archive/browse/aaoe" title="Browse and download files that have been submitted to the archive for the AAOE campaign.">AAOE</a></li>
+<li class="last leaf has-children menu-mlid-1401"><a href="/archive/browse" title="See a list of all missions with data in the ESPO Archive.">Other Missions</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-655"><a href="/archive/upload" title="Upload and submit new or revised files to the archive.  Or just check the format of files.">Upload Files</a></li>
+<li class="last expanded menu-mlid-657"><a href="/archive/help" title="Help files for the ESPO Archive.">Help</a><div class="dropper"><ul class="menu"><li class="first leaf has-children menu-mlid-37678"><a href="/content/Archive_File_Format" title="Information about the file formats used on the ESPO Archive">Archive File Format</a></li>
+<li class="leaf menu-mlid-660"><a href="/archive/help/creating_accounts" title="Instructions for creating accounts on this website">Creating Accounts</a></li>
+<li class="last leaf menu-mlid-661"><a href="/archive/help/archive_configuration" title="Instructions for how to setup the archive so that you can submit files">Archive Configuration</a></li>
+</ul></div></li>
+</ul></div></div>
+      </div>  
+</div>
+<div id="block-user-login" class="userMenublock block-user">
+	<div id='login_form_nodrop'>
+		<span id="login_links">
+			<span>› <a href="#" onclick="javascript:toggleLoginBox('show');">Log in to Airborne Science</a>
+			</span>
+			|
+			<span>› <a href="https://espoarchive.nasa.gov/user/register">Create New Account</a>
+			</span>
+		</span>
+	</div>
+	<div id="login_floater">
+		<div id="floatArrow" class="float_arrow_up"></div>
+		<div id='floatMessage' class="content normal_overlay_float">
+			<div id="floatMessageTop" class="floatType_bookmark_top"></div>
+			<div id="floatMessageInner" class="floatType_bookmark">
+				<span>
+    				<h5 id="mynasah5">Log in to Airborne Science</h5>
+					<a class="module_close icons_black icon_close" href="#" id="closelink" onclick="javascript:toggleLoginBox('hide');"></a>
+					<form autocomplete="off" action="/content/Welcome_to_the_ESPO_Data_Archive?destination=node/6079" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+ <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+ <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" value="form-2ZxnNRvc61iUhnwOxp0gjSwOIIvAT_iMY27ggpjOo1o" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></form>					</span>
+			</div>
+			<div id="floatMessageBottom" class="floatType_bookmark_bottom"></div>
+		</div>
+	</div>
+</div>
+<div id="block-menu-block-4" class="block block-menu-block">
+  <div class="content">
+                </div>  
+</div>
+<div id="block-search-form" class="block block-search">
+<div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline" id="search_form_nodrop">
+			<h2 class="element-invisible">Search form</h2>
+		<div class="form-item form-type-textfield form-item-search-block-form">
+ <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><div class="link-textfield"><div class="form-item form-type-textfield form-item-link">
+ <label for="edit-link">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-link" name="link" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><input type="hidden" name="form_build_id" value="form-HK4EgZVyg2zinGKMdo1P_Y2CfhMAby1_hCQt7SKWWb4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div></div></form>  </div>
+</div>
+  </div>
+				</div>
+				
+			</div> <!-- /.section, /#header -->
+			
+						
+		</div>
+	</div>
+	<div id="main-wrapper"><div id="main" class="clearfix">
+     	 
+	<!-- div class="messages warning">
+     The  website will be undergoing maintenance between Friday, June 23rd at 5:00 PM PDT and Monday, June 26th at 5:00 AM PDT.  Please plan to complete any critical activities before or after this time.
+     </div -->
+
+			<!--Start of Left Column -->
+		<div id="left" class="left_232">
+							<div id="sidebar-first-top" class="column sidebar"><div class="section">
+					  <div class="region region-sidebar-first-top">
+    <div id="block-menu-block-6" class="block block-menu-block">
+  <div class="content">
+          <div class="block block-menu-block section_nav_cap">
+        <div class="top_cap"></div>
+      	  <div class="section_nav">
+      	    <h2 class="h2_grey"></h2>
+            		
+		<ul class="menu"><li class="first expanded menu-mlid-653"><a href="/archive/browse" title="Browse and download files in the data archive.">Browse</a><div class="dropper"><ul class="menu"><li class="first collapsed menu-mlid-37675"><a href="/archive/browse/atom" title="Browse and download files that have been submitted to the archive for the ATom campaign (restricted access).">ATom</a></li>
+<li class="collapsed menu-mlid-29661"><a href="/archive/browse/oracles" title="Browse and download files that have been submitted to the archive for the ORACLES campaign (restricted access).">ORACLES</a></li>
+<li class="collapsed menu-mlid-1438"><a href="/archive/browse/attrex" title="Browse and download files that have been submitted to the archive for the ATTREX campaign.">ATTREX</a></li>
+<li class="collapsed menu-mlid-29465"><a href="/archive/browse/accent" title="Browse and download files that have been submitted to the archive for the ACCENT campaign.">ACCENT</a></li>
+<li class="collapsed menu-mlid-29478"><a href="/archive/browse/ashoe" title="Browse and download files that have been submitted to the archive for the ASHOE/MAESA campaign.">ASHOE/MAESA</a></li>
+<li class="collapsed menu-mlid-29480"><a href="/archive/browse/aase2" title="Browse and download files that have been submitted to the archive for the AASE II campaign.">AASE II</a></li>
+<li class="collapsed menu-mlid-29482"><a href="/archive/browse/aase" title="Browse and download files that have been submitted to the archive for the AASE campaign.">AASE</a></li>
+<li class="collapsed menu-mlid-29483"><a href="/archive/browse/aaoe" title="Browse and download files that have been submitted to the archive for the AAOE campaign.">AAOE</a></li>
+<li class="last expanded menu-mlid-1401"><a href="/archive/browse" title="See a list of all missions with data in the ESPO Archive.">Other Missions</a><div class="dropper"><ul class="menu"><li class="first collapsed menu-mlid-42159"><a href="/archive/browse/posidon" title="Browse and download files that have been submitted to the archive for the POSIDON campaign.">POSIDON</a></li>
+<li class="collapsed menu-mlid-654"><a href="/archive/browse/macpex" title="Browse and download files that have been submitted to the archive for the MACPEX campaign.">MACPEX</a></li>
+<li class="collapsed menu-mlid-1397"><a href="/archive/browse/glopac" title="Browse and download files that have been submitted to the archive for the GloPac campaign.">GloPac</a></li>
+<li class="collapsed menu-mlid-1398"><a href="/archive/browse/tc4" title="Browse and download files that have been submitted to the archive for the TC4 campaign.">TC4</a></li>
+<li class="collapsed menu-mlid-1399"><a href="/archive/browse/tsonde06" title="Browse and download files that have been submitted to the archive for the Ticosonde06 campaign.">Ticosonde06</a></li>
+<li class="collapsed menu-mlid-1400"><a href="/archive/browse/cr_ave" title="Browse and download files that have been submitted to the archive for the CR-AVE campaign.">CR-AVE</a></li>
+<li class="collapsed menu-mlid-16931"><a href="/archive/browse/ave_wiif" title="Browse and download files that have been submitted to the archive for the AVE (WIIF) campaign.">AVE (WIIF)</a></li>
+<li class="collapsed menu-mlid-16934"><a href="/archive/browse/ave_0506" title="Browse and download files that have been submitted to the archive for the AVE (2005) campaign.">AVE (2005)</a></li>
+<li class="collapsed menu-mlid-16938"><a href="/archive/browse/pave" title="Browse and download files that have been submitted to the archive for the PAVE campaign.">PAVE</a></li>
+<li class="collapsed menu-mlid-29458"><a href="/archive/browse/ave_0410" title="Browse and download files that have been submitted to the archive for the AVE (2004) campaign.">AVE (2004)</a></li>
+<li class="collapsed menu-mlid-29459"><a href="/archive/browse/midcix" title="Browse and download files that have been submitted to the archive for the MidCiX campaign.">MidCiX</a></li>
+<li class="collapsed menu-mlid-29460"><a href="/archive/browse/pre_ave" title="Browse and download files that have been submitted to the archive for the Pre-AVE campaign.">Pre-AVE</a></li>
+<li class="collapsed menu-mlid-29461"><a href="/archive/browse/bos" title="Browse and download files that have been submitted to the archive for the BOS campaign.">BOS</a></li>
+<li class="collapsed menu-mlid-29462"><a href="/archive/browse/solve2" title="Browse and download files that have been submitted to the archive for the SOLVE II campaign.">SOLVE II</a></li>
+<li class="collapsed menu-mlid-29463"><a href="/archive/browse/crystalf" title="Browse and download files that have been submitted to the archive for the CRYSTAL-FACE campaign.">CRYSTAL-FACE</a></li>
+<li class="collapsed menu-mlid-29464"><a href="/archive/browse/solve" title="Browse and download files that have been submitted to the archive for the SOLVE campaign.">SOLVE</a></li>
+<li class="collapsed menu-mlid-29466"><a href="/archive/browse/wam" title="Browse and download files that have been submitted to the archive for the WAM campaign.">WAM</a></li>
+<li class="collapsed menu-mlid-29468"><a href="/archive/browse/sonex" title="Browse and download files that have been submitted to the archive for the SONEX campaign.">SONEX</a></li>
+<li class="collapsed menu-mlid-29469"><a href="/archive/browse/polaris" title="Browse and download files that have been submitted to the archive for the POLARIS campaign.">POLARIS</a></li>
+<li class="collapsed menu-mlid-29470"><a href="/archive/browse/success" title="Browse and download files that have been submitted to the archive for the SUCCESS campaign.">SUCCESS</a></li>
+<li class="collapsed menu-mlid-29471"><a href="/archive/browse/tote" title="Browse and download files that have been submitted to the archive for the TOTE/VOTE campaign.">TOTE/VOTE</a></li>
+<li class="collapsed menu-mlid-29472"><a href="/archive/browse/strat" title="Browse and download files that have been submitted to the archive for the STRAT campaign.">STRAT</a></li>
+<li class="collapsed menu-mlid-29479"><a href="/archive/browse/spade" title="Browse and download files that have been submitted to the archive for the SPADE campaign.">SPADE</a></li>
+<li class="collapsed menu-mlid-29481"><a href="/archive/browse/oms" title="Browse and download files that have been submitted to the archive for the OMS campaign.">OMS</a></li>
+<li class="last collapsed menu-mlid-29484"><a href="/archive/browse/step87" title="Browse and download files that have been submitted to the archive for the STEP campaign.">STEP</a></li>
+</ul></div></li>
+</ul></div></li>
+<li class="leaf menu-mlid-655"><a href="/archive/upload" title="Upload and submit new or revised files to the archive.  Or just check the format of files.">Upload Files</a></li>
+<li class="last collapsed menu-mlid-657"><a href="/archive/help" title="Help files for the ESPO Archive.">Help</a></li>
+</ul>          </div>
+      	<div class="footer_bottom footer"></div>
+      </div>  
+      </div>  
+</div>
+  </div>
+				</div></div> <!-- /.section, /#sidebar-first-top -->
+								</div>
+		<!--End of Left Column -->
+		<div class="wide_right">
+			<!-- Start of ABS Banner -->
+			<div class="wide_right">
+				<div id="center_banner">
+					<div class="box_710">
+						<div id="name-and-logo">
+						  							  <span class="banner_image"><img 
+							    							      alt="" 
+							    							  src="https://espoarchive.nasa.gov/sites/default/files/ESPO_Data_Archive_Banner.jpg"/></span>
+																					<!-- /#name-and-logo -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of ABS Banner -->
+	    	
+			<!-- Start of Center Column -->
+      <div id="content" class="column wide_right"><div class="section">
+																<a id="main-content"></a>
+												  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+<div class="content">
+    
+<div class="box_710_cap">
+	<div class="top_cap_white"></div>
+	<div id="node-6079" class="node node-std-page clearfix box_710 box_white box_710_white" style="height:auto;text-align:left;">
+		
+				<h2>Welcome to the ESPO Data Archive</h2>
+             
+				
+		<div class="content white_article_wrap_detail"> 
+			<div class="default_style_wrap">
+				<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The Earth Science Project Office (ESPO) Data Archive contains measurements and related information pertaining to NASA aircraft field experiments.  The archive has been collecting measurements since 1987, covering more than thirty missions, with a total of more than 20,000 data files and more than 20,000 images.  The studies have concentrated on the<br />
+chemistry and physics of the upper troposphere and lower stratosphere, and in most cases the missions were managed by ESPO.</p>
+<p>The purpose of the ESPO Data Archives is to provide a way for investigators to exchange their measurements and model results with other experimental participants. The archives are initially used to share preliminary measurements, starting hours after a flight has been completed.  The preliminary measurements are only available to other members of the science team for that experiment -- science team members must login to this site to view the data.  However, once the data is finalized (typically one year after an experiment is complete), it is all made publicly available.</p>
+<p>The archived data and image files all use a special naming convention.  The data files also use special file formats, and those conventions are strictly enforced.  Descriptions of the file naming convention and formats can be found in the File Names and File Formats pages.</p>
+</div></div></div>			</div>
+		</div>
+					</div>
+	<div class="bottom_cap_white"></div>
+</div>
+  </div>
+</div>
+  </div>
+							</div></div> <!-- /.section, /#content -->
+			<!-- End of Center Column -->
+			
+			<!--Start of Right Column -->
+			<div class="right_232">
+							</div>
+			<!-- End if Right Column -->
+		</div>
+	
+	</div></div> <!-- /#main, /#main-wrapper -->
+	<div id="footer"><div class="section">
+		  <div class="region region-footer">
+    <div id="block-espo-shared-standard" class="block block-espo-shared">
+<div class="content">
+    		<a href="http://www.nasa.gov" class="nasa_logo_footer">
+			<span class="hide">NASA Home</span>
+		</a>
+		<div id="footercol1">
+			<span>
+				<p>Page Last Updated: September 13, 2011</p>
+				<p>Page Editor: Katja Drdla</p>
+				<p>NASA Official: Marilyn Vasques</p>
+        				<p>Website Issues: <a href="/contact">Contact Us</a></p>
+			</span>
+		</div>
+		<div id="footercol2">
+      <ul><li class="link1-0 first"><a href="https://www.nasa.gov/news/budget/index.html" target="_blank">Budgets, Strategic Plans and Accountability Reports</a></li>
+<li class="link1-1"><a href="https://www.hq.nasa.gov/office/codee/nofear.html" target="_blank">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a></li>
+<li class="link1-2 last"><a href="https://www.nasa.gov/about/contact/information_inventories_schedules.html" target="_blank">Information-Dissemination Policies and Inventories</a></li>
+</ul>
+		</div>
+		<div id="footercol3">
+      <ul><li class="link2-0 first"><a href="https://www.nasa.gov/FOIA/" target="_blank">Freedom of Information Act</a></li>
+<li class="link2-1"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy &amp; Important Notices</a></li>
+<li class="link2-2"><a href="https://www.nasa.gov/offices/nac/home/index.html" target="_blank">NASA Advisory Council</a></li>
+<li class="link2-3"><a href="https://oig.nasa.gov/hotline.html" target="_blank">Inspector General Hotline</a></li>
+<li class="link2-4"><a href="https://oig.nasa.gov" target="_blank">Office of the Inspector General</a></li>
+<li class="link2-5 last"><a href="https://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">NASA Communications Policy</a></li>
+</ul>
+		</div>
+		<div id="footercol4">
+      <ul><li class="link3-0 first"><a href="https://www.nasa.gov/about/contact/index.html" target="_blank">Contact NASA</a></li>
+<li class="link3-1"><a href="https://www.nasa.gov/sitemap/sitemap_nasa.html" target="_blank">Site Map</a></li>
+<li class="link3-2"><a href="https://www.USA.gov" target="_blank">USA.gov</a></li>
+<li class="link3-3 last"><a href="https://www.nasa.gov/open/index.html" target="_blank">Open Government at NASA</a></li>
+</ul>
+		</div>  </div>
+</div>
+  </div>
+	</div></div> <!-- /.section, /#footer -->
+</div></div> <!-- /#page, /#page-wrapper -->
+    <div class="background_layer">&nbsp;</div>
+
+</body>
+</html>

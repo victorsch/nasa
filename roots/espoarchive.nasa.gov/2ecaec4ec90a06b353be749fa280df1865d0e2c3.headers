@@ -1,0 +1,24 @@
+GET https://espoarchive.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Etag: "1695100323-1"
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 19 Sep 2023 06:06:48 GMT
+< X-Drupal-Cache: HIT
+< Link: </content/Welcome_to_the_ESPO_Data_Archive>; rel="canonical",</node/6079>; rel="shortlink"
+< Last-Modified: Tue, 19 Sep 2023 05:12:03 GMT
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< Server: Apache
+< Content-Security-Policy: manifest-src 'self';
+< Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' unpkg.com www.google.com www.gstatic.com platform.twitter.com www.googletagmanager.com cdn.ckeditor.com *.nasa.gov nasa.gov *.digitalgov.gov digitalgov.gov *.google-analytics.com google-analytics.com vjs.zencdn.net;; object-src 'self' nasa.gov *.nasa.gov; style-src 'self' 'unsafe-inline' vjs.zencdn.net cdn.ckeditor.com *.nasa.gov nasa.gov; img-src * data: blob:; media-src * data: blob:; frame-src 'self' syndication.twitter.com platform.twitter.com www.youtube.com www.google.com; frame-ancestors 'self'; child-src 'self'; font-src 'self' fonts.gstatic.com data:; connect-src 'self' *.google-analytics.com google-analytics.com blob:; report-uri /report-csp-violation; upgrade-insecure-requests
+< X-Frame-Options: SAMEORIGIN
+< From-Origin: same
+< Cache-Control: public, max-age=0
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< X-Generator: Drupal 7 (http://drupal.org)
+< Vary: Cookie,Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+< Content-Language: en

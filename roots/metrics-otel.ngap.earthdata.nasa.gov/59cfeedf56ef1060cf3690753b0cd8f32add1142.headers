@@ -1,0 +1,16 @@
+GET http://metrics-otel.ngap.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< Date: Tue, 19 Sep 2023 05:41:19 GMT
+< Via: 1.1 18235244f92adbfef142c197cb3eac0c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: ukKcGH1DcFhSDeuA-8ZNiJBE_a7Cfq0680DPYeRHtkcWypWOOAqrkg==
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 167
+< Location: https://metrics-otel.ngap.earthdata.nasa.gov/
+< Content-Type: text/html

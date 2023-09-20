@@ -1,0 +1,12 @@
+GET https://sites-e.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:03:26 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&TYPE=33554433&REALMOID=06-e34c66e4-e3a3-47ba-89d1-a0cc40004969&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-zxlBA1FMZIVkCu7okw%2b4xO6707QRT0uLy6SyE4hP3HjXgAGtEzrDxj4qdVe8KVmX8dTe23xunsZn6KJkQ1Ubu9ABzmgs45WP%2bu7fHrXjJSVsaBBLoa73MaKdSJ6bFZv0&TARGET=-SM-https%3a%2f%2fsites--e%2elarc%2enasa%2egov%2f
+< Content-Length: 563
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,23 @@
+GET https://optics.msfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Date: Tue, 19 Sep 2023 06:01:11 GMT
+< Server: nginx
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Set-Cookie: spo_42_fa=0716bc83f8aae3a104588e06c105aef3; expires=Tue, 19-Sep-2023 06:31:10 GMT; Max-Age=1800; path=/xrcf/
+< Set-Cookie: PHPSESSID=e8f38d54bfda2c4bb5f7307e3121967e; path=/; secure; HttpOnly
+< Link: <https://optics.msfc.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://optics.msfc.nasa.gov/>; rel=shortlink
+< Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000

@@ -1,0 +1,15 @@
+GET https://mescforyou.ksc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Microsoft-IIS/10.0
+< Content-Security-Policy: 
+< Set-Cookie: ASP.NET_SessionId=ldpmu5s2ne2eu4n2evn0s0pe; path=/; secure; HttpOnly; SameSite=Lax
+< X-Frame-Options: DENY
+< Date: Tue, 19 Sep 2023 06:05:12 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Aspnet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Content-Length: 13848
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Cache-Control: private

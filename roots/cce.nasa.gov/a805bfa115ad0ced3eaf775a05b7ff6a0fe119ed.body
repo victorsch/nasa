@@ -1,0 +1,11 @@
+<html>
+<title></title>
+<head>
+</head>
+<body>
+<SCRIPT Language="JavaScript">
+location = 'http://cce.nasa.gov/cce/index.htm';
+</SCRIPT>
+<META HTTP-EQUIV="Refresh" CONTENT="1;URL=http://cce.nasa.gov/cce/index.htm">
+</body>
+</html>

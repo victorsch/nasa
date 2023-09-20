@@ -1,0 +1,16 @@
+GET https://s3-test.kzebdi.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 68f2eed06d7ecb02b863cacb0da2fc28.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: VmIG_LqtN92qabBF7eMQcJ4I2Gsm0PPGblmVH7FcjytreeBk275DtA==
+< X-Content-Type-Options: nosniff
+< Content-Length: 919
+< X-Cache: Error from cloudfront
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK50-P5
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:43:02 GMT

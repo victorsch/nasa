@@ -1,0 +1,10 @@
+GET http://acquisition.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Location: https://acquisition.jpl.nasa.gov/
+< Content-Length: 217
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:06:53 GMT

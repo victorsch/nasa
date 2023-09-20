@@ -1,0 +1,24 @@
+GET https://daac.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:02:12 GMT
+< X-Content-Type-Options: nosniff
+< Etag: W/"a35-18aa980326f"
+< Vary: Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Dns-Prefetch-Control: off
+< X-Download-Options: noopen
+< Accept-Ranges: bytes
+< Cache-Control: public, max-age=0
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Strict-Transport-Security: max-age=15552000; includeSubDomains
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Mon, 18 Sep 2023 18:14:25 GMT
+< Content-Type: text/html; charset=UTF-8
+< Via: 1.1 gs6102dsc-web1.gesdisc.eosdis.nasa.gov
+< Set-Cookie: 145109161141712028191376183115=s%3AZJsOHvhmkPUSl7amv9toNeN5Y_DCib-e.LPEz%2BkOyQSaUMraBKg7KSdwcqmNOa6XGyahfs326jc8; Domain=.nasa.gov; Path=/; HttpOnly

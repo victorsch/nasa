@@ -1,0 +1,2098 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		
+
+
+
+
+
+
+                    
+    
+
+
+
+		
+	
+            <title>Book A. Introduction - SW Engineering Handbook Ver D - Global Site</title>
+	
+        
+        
+
+                        
+    
+                        
+    
+
+            <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://swehb.nasa.gov">
+
+    <meta id="atlassian-token" name="atlassian-token" content="2088457c2cd24c4e9265b0b2892bcb0ba153191b">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="SWEHBVD">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1695103243018">
+        
+    
+        
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="4f2e7a6f1db0c16bf65da7061e8fc6ac">
+            <meta name="ajs-com.comalatech.checklists-stats-appSen" content="---" /><meta name="ajs-com.comalatech.checklists-stats-checklistMetadataMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-comalatechToken" content="XFhRy6fwkHlLHU1rRnrrzYQUfwoiJe7GYKsg1oy3uf/R0ZpXIMhHZ9ZLiAP7Ux+Upvyg/vegMTyJ28+q1ChDsxT8qTW3zMgjGMuKrRHWXun+VprsqzgOFqFOZtxNkZ5VhQreL4rZmkhw6SC1Lso4rGfaT1FSSQSdM1eHAXNF+6fIklNGfKIMLfepekFRpf96dY7kMnAoiAaSPt0IVQCfN0U054d1DerUo7jIifXcTfzsm+aEPnaJ7zRXhLk1Ib6bqcOh5qamWYvpwoAxACsh8MSc5tazg2UZAsax1pDnZn2WiIqgxN1gu8LAfYKyxgHPZwqwoafo1lA5+drJrHUyyA==" /><meta name="ajs-com.comalatech.checklists-stats-checklistPagelinkMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistSelectMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistExcerptMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-timestamp" content="1695020400084" /><meta name="ajs-com.comalatech.checklists-stats-checklistAttributeMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-app" content="chks" /><meta name="ajs-com.comalatech.checklists-dev-mode" content="false" /><meta name="ajs-com.comalatech.checklists-trace" content="false" /><meta name="ajs-com.comalatech.checklists-stats-checklistLogMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistInputMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistIncludeMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistWikiinputMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-checklistLabelMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-version" content="2.6.9" /><meta name="ajs-com.comalatech.checklists-stats-checklistWikiMacroTotal" content="0" /><meta name="ajs-com.comalatech.checklists-stats-hostSen" content="SEN-9474110" />
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="false">
+            <meta id="team-calendars-user-timezone" content="America/Chicago">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sep"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <script type="text/x-template" title="gliffy-webpanel-footer">
+        <div class="gliffy-webpanel-footer"><span></span></div>
+</script>
+
+
+            <meta name="ajs-k15t-cxp-word-native-export-available" content="false">
+            
+    
+    
+            <meta name="ajs-page-title" content="Book A. Introduction">
+            <meta name="ajs-latest-published-page-title" content="Book A. Introduction">
+            <meta name="ajs-space-name" content="SW Engineering Handbook Ver D">
+            <meta name="ajs-page-id" content="100598340">
+            <meta name="ajs-latest-page-id" content="100598340">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-parent-page-id" content="">
+            <meta name="ajs-space-key" content="SWEHBVD">
+            <meta name="ajs-max-number-editors" content="12">
+            <meta name="ajs-macro-placeholder-timeout" content="5000">
+            <meta name="ajs-jira-metadata-count" content="0">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-can-remove-page-hierarchy" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://swehb.nasa.gov">
+            <meta name="ajs-version-number" content="7.19.5">
+            <meta name="ajs-build-number" content="8804">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-url" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/s/-levcin/8804/1w4vbtj/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="600000011">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="site-wide.synchrony.disable,site-wide.shared-drafts.disable,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,http.session.registrar,frontend.editor.v4,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,frontend.editor.v4.compatibility,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,collaborative-audit-log,confluence.efi.onboarding.rich.space.content,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,graphql,read.only.mode,previews.trigger-all-file-types,lucene.caching.filter,attachment.extracted.text.extractor,confluence.table.resizable,notification.batch,previews.sharing.pushstate,tc.tacca.dacca,confluence-inline-comments-rich-editor,atlassian.webresource.twophase.js.i18n.disabled,site-wide.synchrony.opt-in,confluence.denormalisedpermissions,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,mobile.supported.version,confluence.editor.tinymce.tables,pulp,confluence-inline-comments,quick-reload-inline-comments-flags,confluence-inline-comments-dangling-comment,confluence.retention.rules">
+            <meta name="ajs-atl-token" content="2088457c2cd24c4e9265b0b2892bcb0ba153191b">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="/s/-levcin/8804/1w4vbtj/34/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/s/-levcin/8804/1w4vbtj/34/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="NASA Software Engineering Handbook"/>
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible Project\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repository\u0022,\u0022stash.project\u0022:\u0022Stash Project\u0022,\u0022generic.entity\u0022:\u0022Generic Project\u0022,\u0022confluence.space\u0022:\u0022Confluence Space\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Project\u0022,\u0022jira.project\u0022:\u0022Jira Project\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible Projects\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repositories\u0022,\u0022stash.project\u0022:\u0022Stash Projects\u0022,\u0022generic.entity\u0022:\u0022Generic Projects\u0022,\u0022confluence.space\u0022:\u0022Confluence Spaces\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Projects\u0022,\u0022jira.project\u0022:\u0022Jira Projects\u0022}}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022Basic Access\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022Trusted Applications\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022View more recently visited\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022Find space categories...\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022Clear selected items\u0022,\u0022search.ui.search.results.empty\u0022:\u0022We couldn\u0027\u0027t find anything matching \u005C\u0022{0}\u005C\u0022.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022Show more app results...\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022Search archived spaces\u0022,\u0022search.ui.filter.label\u0022:\u0022filter\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022Contributor\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022Any time\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022CURRENT\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022Clear text\u0022,\u0022help.search.ui.link.title\u0022:\u0022Search tips\u0022,\u0022search.ui.container.close.text\u0022:\u0022Close\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022clear your filters.\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022The past day\u0022,\u0022search.ui.filters.heading\u0022:\u0022Filter by\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022Find labels...\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022The past month\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022Start exploring. Your search results will appear here.\u0022,\u0022search.ui.input.label\u0022:\u0022Search\u0022,\u0022search.ui.input.aria.label\u0022:\u0022Search, when you type, your results will be displayed below.\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022More results\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022Date\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022The past week\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022Label\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022Team calendar\u0022,\u0022search.ui.input.alert\u0022:\u0022Hit enter to search\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022We can\u0027\u0027t find anything matching your search\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022Last modified within\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022User profile\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022Find people...\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022Type\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022Find spaces...\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022The past year\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022Space\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022Advanced search\u0022,\u0022search.ui.generic.error\u0022:\u0022Something went wrong. Refresh the page, or contact your admin if this keeps happening.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022Recent Spaces\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022Try a different search term or\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022Space category\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022We couldn\u0027\u0027t find anything matching your search.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022Show more settings and app results...\u0022,\u0022search.ui.recent.pages\u0022:\u0022Recently visited\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}. Have an account? {1}Log in{2} to expand your search.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022Start exploring. Pages and spaces you\u0027\u0027ve visited recently will appear here.\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022Space\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022recent spaces\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022FishEye / Crucible\u0022,\u0022stash\u0022:\u0022Stash\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022Reference Application\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022Generic Application\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-081/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="/s/a4a5de5f02fad51a7adb7c313538e641-CDN/-levcin/8804/1w4vbtj/1e5904e7f6d2fd721b0601d4be8dcc4d/_/download/contextbatch/css/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.css" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/350fb3e1ebe3ee4fb2e9cffacfe8b259-CDN/-levcin/8804/1w4vbtj/c9b098edb22d5853a92f586d37b544a2/_/download/contextbatch/css/atl.confluence.macros.expand.desktop,viewcontent,refined.main,main,atl.general,page,atl.comments,-_super/batch.css?gatekeeper-ui-v2=true&amp;highlightactions=true&amp;hostenabled=true" data-wrm-key="atl.confluence.macros.expand.desktop,viewcontent,refined.main,main,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-levcin/8804/1w4vbtj/7.12.1/_/download/batch/confluence.macros.advanced:blogpost-resources/confluence.macros.advanced:blogpost-resources.css" data-wrm-key="confluence.macros.advanced:blogpost-resources" data-wrm-batch-type="resource" media="all">
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-levcin/8804/1w4vbtj/7.3.0/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:print-style/com.refinedwiki.confluence.plugins.theme.original:print-style.css?content-type=text%2Fcss&amp;media=print" media="print" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:print-style" data-wrm-batch-type="resource">
+<link rel="stylesheet" href="/s/-levcin/8804/1w4vbtj/34/_/styles/colors.css" media="all">
+<link rel="stylesheet" href="/s/-levcin/8804/1w4vbtj/7.3.0/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/default-theme.css" media="all">
+<link rel="stylesheet" href="/s/-levcin/8804/1w4vbtj/7.3.0/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/atlassian-editor.css" media="all">
+<link rel="stylesheet" href="/s/-levcin/8804/1w4vbtj/34/_/styles/custom.css" media="all">
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered>
+!function(){"use strict";if("PerformanceObserver"in window){const e=[];window.__observedResources=e;const r=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:e,name:r})=>{const n="script"===e||((e,r)=>"link"===e&&"css"===new URL(r).pathname.split(".").pop())(e,r),i=new URL(location.href).origin===new URL(r).origin;return n&&i})).forEach((({name:n,transferSize:i,encodedBodySize:s,initiatorType:o})=>{e.push([i,s,n,r(o)])}))})).observe({type:"resource"})}}();
+
+</script>
+<script src="/s/4c991e2456b64d71204472c6e4851dab-CDN/-levcin/8804/1w4vbtj/1e5904e7f6d2fd721b0601d4be8dcc4d/_/download/contextbatch/js/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.js?locale=en-GB" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/6fb6af8446dd8e00629d7bf7d3d8298f-CDN/-levcin/8804/1w4vbtj/c9b098edb22d5853a92f586d37b544a2/_/download/contextbatch/js/atl.confluence.macros.expand.desktop,viewcontent,refined.main,main,atl.general,page,atl.comments,-_super/batch.js?gatekeeper-ui-v2=true&amp;highlightactions=true&amp;hostenabled=true&amp;locale=en-GB" data-wrm-key="atl.confluence.macros.expand.desktop,viewcontent,refined.main,main,atl.general,page,atl.comments,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/s/d41d8cd98f00b204e9800998ecf8427e-T/-levcin/8804/1w4vbtj/2.6.9/_/download/batch/com.comalatech.checklists:analyticsResources/com.comalatech.checklists:analyticsResources.js" data-wrm-key="com.comalatech.checklists:analyticsResources" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="NASA Software Engineering Handbook" />
+            
+
+		
+
+
+
+
+	
+	
+	<script>
+						if (typeof RW === 'undefined') {
+			var RW = {};
+		}
+
+		if (typeof RWJS === 'undefined') {
+		  var RWJS = {};
+		}
+						RWJS.showLoader = function(){
+		  console.warn("RWJS.showLoader access from velocity deprecated");
+		}
+        RWJS.hideLoader = function(){
+          console.warn("RWJS.hideLoader access from velocity deprecated");
+		}
+
+
+		        RW._versionChecker = {
+            comparedTo66: 1,
+            comparedTo614: 1,
+            comparedTo70: 1,
+            comparedTo74: 1,
+            comparedTo710: 1,
+            comparedTo712: 1
+        };
+
+                        
+                    RW._isConfluenceAdministrator = false;
+                    RW._isConfluenceOrRefinedAdmin = false;
+
+                    RW._defaultApplinks = '$defaultApplinks';
+
+		                RW._isSiteAdministrator = false;
+
+					RW._blogPortalEnabled = false;
+		
+                RW._isHtmlModuleDisabled = false;
+				RW._userDashboardsEnabled = true;
+
+        RW._canViewProfiles = false;
+				
+				RW._cacheSettings = {};
+        RW._cacheSettings.params = {};
+        RW._cacheSettings.lastChange = {};
+
+            
+                        RW._cacheSettings.params['footer'] = true;
+                                        RW._cacheSettings.params['userdetails'] = true;
+                                        RW._cacheSettings.params['globalmenu'] = true;
+                                        RW._cacheSettings.params['usercategory'] = true;
+                                        RW._cacheSettings.params['category'] = true;
+                                        RW._cacheSettings.params['docache'] = true;
+                                                                    RW._cacheSettings.lastChange['footer'] = 1695087784188;
+                                        RW._cacheSettings.lastChange['userdetails'] = 1695087763622;
+                                        RW._cacheSettings.lastChange['globalmenu'] = 1695087784188;
+                                        RW._cacheSettings.lastChange['usercategory'] = 1695087784188;
+                                        RW._cacheSettings.lastChange['category'] = 1695087740394;
+            
+                                    RW._siteId = 0;
+            RW._siteName = 'Global Site';
+            RW._siteType = '';
+                    RW._clusterNodeId = '';
+        RW._rootCategoryKey = 'swehbvd'; // The active root category
+        RW._categoryKey = '';
+        RW._categoryName = 'SWEHBVD';
+        RW._spaceName = 'SW Engineering Handbook Ver D';
+        RW._spaceKey = 'SWEHBVD';
+        RW._pageId = '100598340';
+
+        // Keyboard shortcuts add-on status
+        RW.shortcutsEnabled = function() {
+            return Confluence && Confluence.KeyboardShortcuts && Confluence.KeyboardShortcuts.enabled;
+        };
+
+        // Different Home Context
+                    
+        // Layout preview draft status
+        RW._isDraftPreview = function() {
+          return window.location.href.indexOf('draft=true') >= 0;
+        }
+
+        // Check if layouteditor can be executed
+        RW._isLayoutEditorAvailable = function() {
+          // Layout Preview mode is off
+          if (!RW._isDraftPreview()) {
+            // Layouteditor is invisible
+            if (document.querySelector('#rw_layouteditor').style.display === 'none') {
+              return true;
+            }
+		  }
+		  return null;
+        };
+	</script>
+
+
+
+
+
+<!--[if !IE]><!-->
+ 	<style type="text/css">
+		.rw_toolbar_menu li .rw_toolbar_dropdown li a:hover
+		{
+			color: #172B4D;
+			background: #005391;
+		}
+
+		/* Scroll office fix */
+		#com-k15t-confluence-scroll-pdf-launcher:hover
+		{
+			color: #172B4D;
+			background: #005391;
+		}
+	</style>
+<!--<![endif]-->
+
+
+
+
+
+
+
+			
+		
+				<script type="text/javascript" src="/plugins/servlet/rw-resources/designs/swehbvd/bundle/bundle.js?_=1683782249295" ></script>
+
+		
+				<link type="text/css" rel="stylesheet" href="/plugins/servlet/rw-resources/designs/swehbvd/bundle/bundle.css?_=1683782249295" media="all"/>
+
+	
+
+			
+	
+	<style type="text/css">
+	  body #rw_main
+	  {
+		width:980px;
+	  }
+	</style>
+
+	
+
+
+<style type="text/css">
+	/* Key navigation in popup */
+	.rw_key_nav li.rw_selected a {
+        background-color: $keyNavColor !important;
+        border-color: $keyNavColor !important;
+                box-shadow: none;
+    }
+    .rw_key_nav li.rw_selected * { color: #fff !important; }
+    .rw_key_nav li.rw_selected a span.rw_item_left { background: none !important; border-color:unset !important;}
+
+	/* Key navigation category menu */
+	#rw_category_menu ul li.rw_active.rw_selected a > span { border-color: $keyNavColor; }
+
+	/* Confluence questions  */
+	.rw_navigation_module_questions ul li.rw_selected { background: $keyNavColor; }
+	.rw_category_dd_theme_dark #rw_category_dropdown_wrapper .rw_navigation_module_questions ul li.rw_selected { background: $keyNavColor; }
+
+	/* Key navigation for page tree */
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content { background: $keyNavColor !important; border-color: $keyNavColor !important; }
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content a { color:#fff !important;}
+	.rw_pagetree_list li.rw_selected a {background: none !important; border-color: unset; color:#333 !important;}
+
+	/* Key navigation for activity popup */
+	li.rw_selected div.rw_no_link { background: $keyNavColor !important; border-color: $keyNavColor !important; }
+    .rw_popup_design_default .rw_popup .rw_activity_module .rw_selected,
+    .rw_popup_design_confluence .rw_popup .rw_activity_module .rw_selected {
+        background: $keyNavColor !important;
+    }
+
+	/* Main Key Navigation */
+	.rw_keynavigation_row > div.rw_selected { background: $keyNavColor !important; color:#fff !important;}
+	.rw_keynavigation_container > div.rw_keynavigation_empty_item { background: none;}
+
+    /* Key Navigation in search module */
+    .rw_search_module_results ul li.rw_selected a {
+        background: $keyNavColor !important;
+        border-color: $keyNavColor !important;
+        color: #fff;
+    }
+
+	/* Menu keynav exceptions */
+	#notifications-anchor.rw_selected {background: $keyNavColor !important; color:#fff !important;}
+
+
+	
+
+	#rw_menu_bar #rw_create_button .aui-button,
+	#rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+	{
+	  background-image: -moz-linear-gradient(top, #0065b2, #00518f);
+	  background-image: -ms-linear-gradient(top,  #0065b2, #00518f);
+	  background-image: -webkit-linear-gradient(top,  #0065b2, #00518f);
+	  background-image: -o-linear-gradient(top,  #0065b2, #00518f);
+	  background-image: linear-gradient(top,  #0065b2, #00518f);
+	  text-shadow: none;
+	  color: #ffffff;
+	}
+
+    #rw_menu_bar #rw_create_button .aui-button,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+    {
+      border-color: #0065b2;
+    }
+    #rw_main #rw_create_button .aui-button:hover,
+    #rw_main #rw_create_button .aui-button:focus,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:hover,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:focus,
+    .rw_create_blogpost_button.aui-button:hover,
+    .rw_create_blogpost_button.aui-button:focus
+    {
+      background-image: -moz-linear-gradient(top, #007fe0, #025797);
+      background-image: -ms-linear-gradient(top, #007fe0, #025797);
+      background-image: -webkit-linear-gradient(top, #007fe0, #025797);
+      background-image: -o-linear-gradient(top, #007fe0, #025797);
+      background-image: linear-gradient(top, #007fe0, #025797);
+    }
+
+    .rw_create_blogpost_button.aui-button {
+	  border: 0;
+    }
+    .rw_create_blogpost_button.aui-button:hover {
+      color: #ffffff;
+	}
+
+
+				#likes-section { display:none !important; }
+	
+
+
+    	
+		
+</style>
+
+
+
+    <script type="text/javascript">
+for (i = 0; i < frm_elements.length; i++) {
+    field_type = frm_elements[i].type.toLowerCase();
+    switch (field_type) {
+    case "checkbox":
+        if (frm_elements[i].checked) {
+            frm_elements[i].checked = false;
+        }
+        break;
+    case "select-one":
+    }
+}
+</script>
+
+<!--
+<style type="text/css">
+.ui-tabs {
+    position: relative;
+    top: -35px !important;
+}
+</style>
+-->
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/base/jquery.ui.all.css" media="screen">
+<!--<script src="/download/attachments/16121861/jquery-1.4.4.js"></script>-->
+
+<!-- USE THE FOLLOWING TWO LINES FOR CONF V4.0 & LATER -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+<!-- USE THE FOLLOWING TWO LINES FOR CONF V3.5.X -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script> -->
+
+<script src="/download/attachments/16121861/jquery.history.js"></script>
+
+<!-- COMMENT: 10 May 2013 - Process: https://aetdwiki.gsfc.nasa.gov:8443/browse/CECT-64 -->
+<script type="text/javascript">
+var jq_tabs = jQuery.noConflict(true);
+// Code that uses other library's $ can follow here.
+</script>
+
+
+<!--
+<script src="/download/attachments/16121861/jquery.ui.core.js"></script>
+<script src="/download/attachments/16121861/jquery.ui.widget.js"></script>
+<script src="/download/attachments/16121861/jquery.ui.tabs.js"></script>
+-->
+
+<!-- <link rel="stylesheet" href="http://jqueryui.com/demos/demos.css" media="screen"> -->
+
+<script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal­Federated­Analytics­Min.js?agency=NASA"></script>
+
+    
+                <link rel="canonical" href="https://swehb.nasa.gov/display/SWEHBVD/Book+A.+Introduction">
+        <link rel="shortlink" href="https://swehb.nasa.gov/x/RAL-BQ">
+    <meta name="wikilink" content="[SWEHBVD:Book A. Introduction]">
+    <meta name="page-version" content="39">
+    <meta name="ajs-page-version" content="39">
+
+
+        
+
+    
+
+
+</head>
+
+
+<body      id="com-atlassian-confluence"
+     data-advanced-theme-key="swehbvd"        data-site-id="0"
+    class=" rw_version_6  aui-layout aui-theme-default
+        lighter-editor     
+      rw_popup_design_default rw_category_dd_theme_dark           rw_new_icons               "
+     >
+
+
+<script>
+  if (window.frameElement) {
+    if (AJS && AJS.Meta && AJS.Meta.set) {
+      AJS.Meta.set('content-type', '');
+    }
+    $('#main-content').append('<style></style>')
+  }
+</script>
+
+
+        
+            <div id='stp-licenseStatus-banner'></div>
+            
+
+<fieldset class="parameters hidden" style="display: none;">
+            <input type="hidden" id="listAnalyticsKey" value="18"/>
+        <input type="hidden" id="listAnalyticsDomain" value="comalatech.matomo.cloud"/>
+    </fieldset>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="#title-heading">Skip to main content</a></li>
+    <li><a href="#breadcrumbs">assistive.skiplink.to.breadcrumbs</a></li>
+    <li><a href="#rw_category_menu">assistive.skiplink.to.header.menu</a></li>
+    <li><a href="#navigation">assistive.skiplink.to.action.menu</a></li>
+    <li><a href="#rw_search_query">assistive.skiplink.to.quick.search</a></li>
+</ul>
+
+
+<div id="page">
+
+<div id="rw_layout_draft_preview"></div>
+
+<div id="full-height-container">
+
+      <div id="header" style="display:none;"></div>
+
+   <div id="header-precursor">
+        <div class="cell">
+            <script type="text/javascript">
+jq_tabs(function() {
+       jq_tabs('#tabs').tabs();
+
+
+       
+       jq_tabs.history.init(function(hash){
+               if(hash != "") {
+                       jq_tabs('#tabs').tabs('select', hash.substring(1, hash.length));
+               }
+       },{ unescape: false });
+       
+
+       // newly added javascript from Tommy Tayman - CCM 5/30/2013
+       // the following javascript breaks the tabs
+       /*
+       jq_tabs.history.init(function(hash){
+	     if(hash != "") {
+		//split the hash, look for TOP keyword
+		var hashParts = hash.split('-');
+		//hashParts will always have length >= 1, no length check needed
+		//look at last item in array to see if matches TOP keyword
+		if(hashParts[hashParts.length - 1] == "TOP"){
+			//perform scroll - this number will need to be tweaked to scroll to proper position
+			window.scrollTo(0,200);
+		}else{
+			//do what we usually do
+                         jq_tabs('#tabs').tabs('select', hash.substring(1, hash.length));
+                }
+       },{ unescape: false });
+       */
+
+
+});
+</script>
+                        </div>
+    </div>
+
+		
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+				
+
+
+
+        
+
+
+                <div id="rw_announcement_banners"></div>
+
+        <div id="rw_wrapper" class="rw_menu_layout_v2    
+		 ">
+
+			<div id="rw_main">
+
+				
+
+											
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=MSFC&dclink=true"></script>
+<div id="demo_theme_header" class="rw_no_print">
+  <div class="rw_row_1">
+                    
+
+
+        
+        <div class="rw_header_right rw_has_menu">
+                                  
+		<ul id="rw_global_menu" class="rw_inline_menu rw_header_menu rw_right aui-dropdown2-trigger-group rw_c711_tweak rw_c712_tweak">
+			    			<li>    
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" href="#" aria-haspopup="true" aria-owns="help-menu-link-content" title="Help">
+        <span class="aui-icon aui-icon-small aui-iconfont-question-filled">Help</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default">
+                    <div class="aui-dropdown2-section">
+                                <ul  id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a  id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-719/" class="    "      title="Visit the Confluence documentation home"  target="_blank"
+>
+        Online Help
+</a>
+</li>
+                                            <li>
+    
+                
+<a  id="keyboard-shortcuts-link" href="#" class="    "      title="View available keyboard shortcuts" >
+        Keyboard Shortcuts
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="feed-builder-link" href="/dashboard/configurerssfeed.action" class="    "      title="Create your custom RSS feed." >
+        Feed Builder
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+7.19+Release+Notes" class="    "      title="" >
+        What’s new
+</a>
+</li>
+                                            <li>
+    
+                
+<a  id="gadget-directory-link" href="#" class="   user-item administration-link "      title="Browse gadgets provided by Confluence" >
+        Available Gadgets
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="confluence-about-link" href="/aboutconfluencepage.action" class="    "      title="Get more information about Confluence" >
+        About Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    </li>
+            			<li>        
+    </li>
+			<li>    </li>
+                            <li>                                    <li>
+    
+            
+<a  id="login-link" href="/login.action?os_destination=%2F" class="   user-item login-link "      title="" >
+        Log in
+</a>
+</li>
+                        </li>
+            		</ul>
+	
+<!--             	<div id="rw_search_container">
+		<div id="rw_search" class="rw_search">
+
+						<form style="width:0; height:0; overflow:hidden; "><input type="text" name="hack" onfocus="this.blur()" /></form>
+
+			<form id="rw_search_form" class="rw_search_form" method="get" action="/dosearchsite.action">
+		   		<label for="rw_search_query" class="assistive">Quick Search</label>
+              	<div class="rw_search_icon rw_icon rw_iconfont_search"></div>
+
+						    <div id="search-ui">
+        <button id="quick-search-query-button" style="display:none;"></button>
+        <input id="quick-search-query" style="display: none;"/>
+		<div id="quick-search-alert" role="alert" style="display: none;">Hit enter to search</div>
+		<aui-spinner size="small" resolved="" style="display: none;">
+		            <svg></svg>
+            <circle></circle>
+      </aui-spinner>
+    </div>
+	
+			  	<input class="rw_search_query" style="width: 150px;" id="rw_search_query" placeholder="Search" type="search" accessKey="search-pages-action.accesskey" autocomplete="off" name="queryString" size="25" />
+
+		   		<div style="clear:both;"></div>
+		        <div id="rw_search_result_container" class="rw_search_result_container rw_corners" style="display:none;">
+
+		        </div>
+
+		        <fieldset class="hidden parameters">
+		            <input type="hidden" id="quickNavEnabled" value="true" />
+		            		        </fieldset>
+		    </form>
+	    </div>
+	</div>
+ -->
+
+            <!--            
+
+	    	<div id="rw_top_menu_container">
+            <div id="rw_top_menu">
+                <ul class="rw_inline_menu rw_header_menu rw_right">
+                    <li>
+                        <a id="rw_top_menu_button" title="Show ( Type 'p' )">
+                            <span class="rw_icon rw_iconfont_top_menu"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div style="clear:both;"></div>
+                <div id="rw_top_menu_items_container" class="rw_dd_medium rw_corners" style="display:none;">
+
+                </div>
+            </div>
+        </div>
+	 -->
+    
+    
+    <div class="table" style="height:42px;" cellpadding="0px" cellspacing="0px" border="0px" padding-top="15px">
+      <div class="row" style="height:100%">
+        <div class="cell" style="vertical-align:middle; height"100%"> &nbsp;&nbsp;<a href="https://nen.nasa.gov/web/software"><img alt="door2" title="door2" border="0" class="nopie" style="width: 16px; height: 16px; position: relative; left: -1px; top: 2px;" src="/plugins/servlet/rw-resources/designs/swehbvd/images/door2.png"></a>&nbsp;<a href="https://nen.nasa.gov/web/software">Return to Software Engineering Community of Practice</a></div>
+    </div>
+</div>   
+    
+    
+    
+    
+    
+    
+        </div>
+  </div>
+</div>
+
+<div style="margin:0 0 0 0px"><a href="/display/SWEHBVD/Book+A.+Introduction"><img alt="bannerd" title="bannerD" style="width:980px;" src="/plugins/servlet/rw-resources/designs/swehbvd/images/SWEHBVD_banner.jpg"></a></div>
+
+
+
+<!------------------------------------------ NAVIGATION SECTION FROM ORIGNAL SWEHB ------------------------------------------->
+
+<style type="text/css">
+p.navitem {
+border-radius:6px;box-shadow:rgba(0, 0, 0, 0.3) 0 2px 3px;padding:1px 0 3px 5px; margin: 0 2px 2px 0;background-color:#b0e0e6;width:100px;height:42px;text-align:center;
+}
+p.navitem span {
+font-size:10pt;color:black;margin:0 5px 0 0;
+{
+p.navitem span a {
+text-decoration: underline;
+{
+</style>
+
+
+<div style="position:relative; background-color:#4682B4;">
+<table border="0">
+<tr>
+
+<td>
+<p onclick="window.location.href='/display/SWEHBVD;" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="/display/SWEHBVD">A. Introduction</a></span></p>
+</td>
+
+<td width=2px></td>
+
+<td>
+<p style="width:100px;" onclick="window.location.href='/display/SWEHBVD/B.+Institutional+Requirements';" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="/display/SWEHBVD/B.+Institutional+Requirements">B. Institutional Requirements</a></span></p>
+</td>
+
+<td width=2px></td>
+
+<td>
+<p style="width:130px;" onclick="window.location.href='/display/SWEHBVD/C.+Project+Software+Requirements';" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="/display/SWEHBVD/C.+Project+Software+Requirements">C. Project Software Requirements</a></span></p>
+</td>
+
+<td width=2px></td>
+
+<td>
+<p style="width:85px;" onclick="window.location.href='/display/SWEHBVD/D.+Software+Topics';" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="/display/SWEHBVD/D.+Topics">D. Topics</a></span></p>
+</td>
+
+<td width=2px></td>
+
+<td>
+<p style="width:140px;" onclick="window.location.href='/display/SWEHBVD/E.+Tools%2C+References%2C+and+Terms';" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="/display/SWEHBVD/E.+Tools%2C+References%2C+and+Terms">E. Tools, References, and Terms</a></span></p></td>
+
+<td width=2px></td>
+
+<td>
+<p style="width:90px;" onmouseover="this.style.background='white';this.style.cursor='pointer';" onmouseout="this.style.background='#b0e0e6';this.style.cursor='cursor';" class="navitem"><span><a href="https://swehb.msfc.nasa.gov/display/SWEHBVD/SPAN+Access">F. SPAN <br /> (NASA Only)</a></span></p>
+</td>
+
+<td width=2px></td>
+
+<td style="width:240px"><div style="margin:0px 4px 0px 3px;">	<div id="rw_search_container">
+		<div id="rw_search" class="rw_search">
+
+						<form style="width:0; height:0; overflow:hidden; "><input type="text" name="hack" onfocus="this.blur()" /></form>
+
+			<form id="rw_search_form" class="rw_search_form" method="get" action="/dosearchsite.action">
+		   		<label for="rw_search_query" class="assistive">Quick Search</label>
+              	<div class="rw_search_icon rw_icon rw_iconfont_search"></div>
+
+						    <div id="search-ui">
+        <button id="quick-search-query-button" style="display:none;"></button>
+        <input id="quick-search-query" style="display: none;"/>
+		<div id="quick-search-alert" role="alert" style="display: none;">Hit enter to search</div>
+		<aui-spinner size="small" resolved="" style="display: none;">
+		            <svg></svg>
+            <circle></circle>
+      </aui-spinner>
+    </div>
+	
+			  	<input class="rw_search_query" style="width: 150px;" id="rw_search_query" placeholder="Search" type="search" accessKey="search-pages-action.accesskey" autocomplete="off" name="queryString" size="25" />
+
+		   		<div style="clear:both;"></div>
+		        <div id="rw_search_result_container" class="rw_search_result_container rw_corners" style="display:none;">
+
+		        </div>
+
+		        <fieldset class="hidden parameters">
+		            <input type="hidden" id="quickNavEnabled" value="true" />
+		            		        </fieldset>
+		    </form>
+	    </div>
+	</div>
+</div></td>
+
+</tr>
+</table></div>
+
+
+<!------------------------------------------ END - NAVIGATION SECTION FROM ORIGNAL SWEHB ------------------------------------------->
+
+
+
+
+
+
+<div id="demo_theme_content" class="rw_content_menu_transparent_dark rw_content_spaces_gray3 rw_content_dashboards_gray1">
+	<div style="clear:both;"></div>
+
+
+		
+
+			<div style="clear:both;"></div>
+
+		    <div id="main" >
+
+																
+	            <!-- putMetadata failed to add value for key "abstract-category-key" so rendering metadata inline - see server debug log for details -->
+        <meta name="ajs-abstract-category-key" content="swehbvd">
+    
+
+				
+		
+<div id="rw_menu_bar_wrapper" class="" >
+
+    
+	<div id="rw_menu_bar" class="rw_corners" >
+                
+					
+		
+				
+
+				
+
+								
+				
+			
+
+
+
+<div id="rw_space_nav" class="rw_corners">
+
+    <div class="rw_item_content ">
+                <a
+                title="SW Engineering Handbook Ver D"
+                            href="/display/SWEHBVD"
+                                >
+                            SW Engineering Handbook Ver D
+                                                                            </a>
+    </div>
+
+    
+            <button
+                class="rw_item_actions"
+                id="rw_space_menu_button"
+                        >
+            <span class="rw_icon rw_iconfont_top_menu"></span>
+        </button>
+                    
+	
+	
+	<div id="browse-space-menu" style="display:none;" >
+                    <ul  id="browse-space-menu-leading">
+		  		<h3 class="rw_section_title">Content</h3>
+                                    
+
+        
+
+    
+    		    
+    
+<li class="acs-nav-item wiki"><a  href="/collector/pages.action?key=SWEHBVD"  class="wiki"   title="Pages">
+    
+        
+          <span class="rw_item_icon rw_iconfont_pages"></span>
+      <span class="rw_item_content">Pages</span>
+</a></li>
+                                    
+
+    
+
+    
+    		    
+    
+<li class="acs-nav-item blog"><a  href="/pages/viewrecentblogposts.action?key=SWEHBVD"  class="blog"   title="Blog">
+    
+        
+          <span class="rw_item_icon rw_iconfont_feed"></span>
+      <span class="rw_item_content">Blog</span>
+</a></li>
+                
+								            </ul>
+		
+  		<ul>
+			<h3 class="rw_section_title">Space Tools</h3>
+
+								<li>
+
+		
+				
+			
+					
+      <a title="Overview" href="/spaces/viewspacesummary.action?key=SWEHBVD">
+		              <span class="rw_item_icon rw_iconfont_text"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Settings
+					  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+			
+					
+      <a title="Content Tools" href="/pages/reorderpages.action?key=SWEHBVD">
+		              <span class="rw_item_icon rw_iconfont_tree"></span>
+		  
+        <span class="rw_item_content">
+		  		  				  Content Tools
+					  		</span>
+      </a>
+
+				    </li>
+					      	</ul>
+
+ 			</div>
+            </div>
+
+		
+
+	</div> <!-- #rw_menu_bar -->
+</div> <!-- #rw_menu_bar_wrapper -->
+				
+
+												
+
+		        
+
+								
+					
+											
+
+    <div class="rw_content_section page view">
+
+
+              <div id="rw_splitter"><div id="rw_splitter_handle" class="rw_hidden"></div></div>
+    
+    
+    <div id="rw_main_column" >
+      <script>
+        // We check for left column width already here to avoid flickering by changeing the width after render.
+        if (RW && RW._tmpLeftColumnWidth) {
+          $('#rw_main_column').attr('style', 'margin-left: ' + RW._tmpLeftColumnWidth + 'px');
+          // Cleanup our tmp variable
+          RW._tmpLeftColumnWidth = undefined;
+        }
+      </script>
+        <div class="rw_content">
+            
+                            
+
+
+            <div id="main-header" >
+
+                <div class="rw_page_buttons">
+    <a id="rw_open_fullscreen" title="Open page in fullscreen ( Type 'F', shift + f )" class="aui-button aui-button-subtle" href="#">
+        <span>
+			<span class="rw_icon rw_iconfont_fullscreen"></span>
+		</span>
+    </a>
+    <a id="rw_close_fullscreen" style="display:none;" class="aui-button aui-button-subtle" title="Exit fullscreen mode ( Type 'esc' )">
+        <span>
+            <span class="rw_icon rw_iconfont_minimize"></span>
+        </span>
+    </a>
+</div>
+
+                
+
+                
+    <div id="navigation" class="content-navigation view" role="region" aria-label="Page tools">
+                    <ul class="ajs-menu-bar">
+                                            
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-label="More options" aria-owns="action-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more" aria-label="More options"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default" aria-hidden="true">
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-primary"                         class="section-primary first">
+                                                    <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="view-attachments-link" href="/pages/viewpageattachments.action?pageId=100598340" rel="nofollow" class="action-view-attachments"  accessKey="t"  title="View Attachments" >
+                        <span>
+                                A<u>t</u>tachments (2)
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="action-view-history-link" href="/pages/viewpreviousversions.action?pageId=100598340" rel="nofollow" class="action-view-history"   title="" >
+                        <span>
+                                Page History
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="scaffold-versions" href="/pages/viewscaffoldversions.action?pageId=100598340" rel="nofollow" class=""   title="" >
+                        <span>
+                                Scaffolding History
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-secondary"                         class="section-secondary">
+                                                    <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="view-page-info-link" href="/pages/viewinfo.action?pageId=100598340" rel="nofollow" class="action-view-info"   title="" >
+                        <span>
+                                Page Information
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+            
+    
+                                                        
+    
+    
+            <a  id="view-resolved-comments" href="#" rel="nofollow" class=""   title="" >
+                        <span>
+                                Resolved comments
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="view-in-hierarchy-link" href="/pages/listpages-dirview.action?key=SWEHBVD&amp;openId=100598340#selectedPageInHierarchy" rel="nofollow" class=""   title="" >
+                        <span>
+                                View in Hierarchy
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="action-view-source-link" href="/plugins/viewsource/viewpagesrc.action?pageId=100598340" rel="nofollow" class="action-view-source popup-link"   title="" >
+                        <span>
+                                View Source
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="scaffold.viewmetadata" href="/pages/metadata/viewxml.action?pageId=100598340" rel="nofollow" class=""   title="" >
+                        <span>
+                                View Scaffolding XML
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="action-export-pdf-link" href="/spaces/flyingpdf/pdfpageexport.action?pageId=100598340" rel="nofollow" class=""   title="" >
+                        <span>
+                                Export to PDF
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="action-export-word-link" href="/exportword?pageId=100598340" rel="nofollow" class="action-export-word"   title="" >
+                        <span>
+                                Export to Word
+            </span>        </a>
+    </li>
+                                                <li>
+
+    
+            
+    
+                                                        
+    
+    
+            <a  id="k15t-exp-word-export-dialog-web-item" href="#" rel="nofollow" class=""   title="" >
+                        <span>
+                                Export to Word
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-modify"                         class="section-modify">
+                                                    <li>
+
+    
+        
+    
+                                                        
+    
+    
+            <a  id="copy-scaffold-contents-link" href="/pages/copyscaffoldfromajax.action?idOfPageToCopy=100598340&amp;spaceKey=SWEHBVD" rel="nofollow" class=""   title="" >
+                        <span>
+                                Copy with Scaffolding XML
+            </span>        </a>
+    </li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+        
+
+
+         <div id="title-heading" class="pagetitle with-breadcrumbs">
+
+                            <div id="breadcrumb-section">
+                    
+    
+    
+    <nav aria-label="Breadcrumbs">
+        <ol id="breadcrumbs">
+                                                            
+                                
+            <li class="first" >
+                                
+                                    <span class=""><a href="/collector/pages.action?key=SWEHBVD">Pages</a></span>
+                                                                                                    </ol>
+    </nav>
+
+
+                </div>
+            
+            
+		<a href="#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner"><ul class="banner"><li id="system-content-items" class="noprint"><a href="" title="Unrestricted" id="content-metadata-page-restrictions-hidden" class="hidden"></a><a href="/pages/viewpageattachments.action?pageId=100598340&amp;metadataLink=true" title="2 attachments" id="content-metadata-attachments" class="aui-icon aui-icon-small aui-iconfont-attachment"></a></li><li class="page-metadata-item noprinthas-button"  id="content-metadata-jira-wrapper"><a href="" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>Jira links</span></a></li></ul></div>
+            
+
+<a href="#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+	
+
+
+                            <h1 id="title-text" class="with-breadcrumbs">
+                                                        <a href="/display/SWEHBVD/Book+A.+Introduction">Book A. Introduction</a>
+                                        </h1>
+                    </div>
+    </div><!-- \#main-header -->
+
+
+
+            
+            
+    
+
+        
+
+
+
+
+            
+    <!-- this is page.vmd -->
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+    
+        
+    
+    
+                    
+    
+
+	                    
+    
+	
+
+
+
+
+
+	
+    <script>
+  AJS.toInit(function() {
+    if(AJS.$("#action-menu-link").length > 0) {
+      AJS.$(window).trigger("resize");
+    }
+  });
+</script>
+ 
+		
+
+		
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+
+
+        
+
+            
+
+                            
+    
+
+
+
+
+
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+
+            
+  <div id="content" class="page view">
+		<article>
+		<div id="main-content" class="wiki-content">
+		                   
+        <p><strong class="conf-macro output-block" data-hasbody="false" data-macro-name="include"><a href="/display/SWEHBVD/New+in+SWEHB">                                                                                                                                                                                                                       New in SWEHB</a></strong></p><span class="conf-macro output-inline" data-hasbody="true" data-macro-name="tabsetup">
+
+<div id="pdfpagetitle">Book A. Introduction</div>
+
+<div id="pdfwebresources" style="width:25%;padding:4px;margin:4px;border-radius:6px;float:right;border:1px solid #5dc;">
+<div style="padding-bottom:6px;font-size:12pt;font-weight:bold;"><i>Web Resources</i></div>
+
+<a href="https://swehb.nasa.gov/display/SWEHBVD/Book+A.+Introduction#_tabs-1"><img width="12px" src="https://swehb.nasa.gov/s/1725/13/1/_/download/resources/com.adaptavist.confluence.themes.sitebuilder:sitebuilder/icons/document_into.png"/> View this section on the website</a><br/><a href="https://swehb.nasa.gov/pages/viewpreviousversions.action?pageId=100598340"><img width="12px" src="https://swehb.nasa.gov/s/1725/13/1/_/download/resources/com.adaptavist.confluence.themes.sitebuilder:sitebuilder/icons/clock.png"/> See edit history of this section</a><br/><a href="http://swehb.nasa.gov/pages/viewpage.action?pageId=100598340&amp;showCommentArea=true&amp;showComments=true#addcomment"><img width="12px" src="https://swehb.nasa.gov/download/attachments/16121861/icon_bubble_small.png?version=1&amp;modificationDate=1299093727000"/> Post feedback on this section</a> 
+
+<p><span style="text-decoration: underline; "><span class="nobr"><a href="https://swehb.nasa.gov/display/7150/Tag+Multi-Select" class="external-link" rel="nofollow">Section Labels<sup><img class="rendericon" src="/images/icons/linkext7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span>:</span> </p>
+<div class="error"><span class="error">Unknown macro: {page-info}</span> </div>
+
+</div>
+
+<style type="text/css">
+a {
+   outline: 0;
+}
+
+</style>
+
+<style type="text/css">
+@media screen {
+ #pdfpagetitle { display:none; }
+ #pdfwebresources { display:none; }
+}
+
+@media print {
+     #pdfpagetitle { position: running(header1); }
+     .ui-tabs-nav { display: none; }
+     .ui-tabs .ui-tabs-hide { border:solid 2px black; display: block !important; }
+ }
+</style>
+<div class="demo">
+<div id="tabs">
+
+<ul>
+<li><a href="#tabs-1" class="trigger" id="display-tab-1">1. Welcome</a></li>
+<li><a href="#tabs-2" class="trigger" id="display-tab-2">2. SWEHB Introduction</a></li>
+ <li><a href="#tabs-3">3. Title Material</a></li>  <li><a href="#tabs-4">4. Resources</a></li>  <li><a href="#tabs-5">5. Accessing Other Versions of SWEHB</a></li>  <li><a href="#tabs-6">6. NASA-STD-8739.8B Title Material</a></li> </ul>
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-1">	<div class="navmenu conf-macro output-block" data-hasbody="true" data-macro-name="float" style="float:right; width:200px; background:white; margin:3px; padding:3px"><p><span class="confluence-embedded-file-wrapper image-right-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image confluence-external-resource image-right" draggable="false" width="150" src="https://swehb.nasa.gov/download/thumbnails/50888752/NASA%20LOGO.jpg?version=1&amp;modificationDate=1520963945000&amp;api=v2" data-image-src="https://swehb.nasa.gov/download/thumbnails/50888752/NASA%20LOGO.jpg?version=1&amp;modificationDate=1520963945000&amp;api=v2"/></span></p></div>
+<h1 id="BookA.Introduction-WelcometotheNASASoftwareEngineering"><strong>Welcome to the NASA Software Engineering </strong></h1><h1 id="BookA.Introduction-andAssuranceHandbook,NASA-HDBK-2203."><strong>and Assurance Handbook, </strong><strong>NASA-HDBK-2203.</strong></h1><p><br/></p><p><br/></p><div class="sectionColumnWrapper conf-macro output-block" data-hasbody="true" data-macro-name="section"><div class="sectionMacro"><div class="sectionMacroRow"><div class="columnMacro conf-macro output-block" data-hasbody="true" data-macro-name="column" style="width:60%;min-width:60%;max-width:60%;"><h3 id="BookA.Introduction-SoftwareisacorecapabilityandkeyenablingtechnologyforNASA'smissionsandsupportinginfrastructure.">Software is a core capability and key enabling technology for NASA's missions and supporting infrastructure.&nbsp;</h3><p>This wiki-based NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 provides users and practitioners with guidance material for implementing the requirements of NPR 7150.2, NASA Software Engineering Requirements, and the implementation of the NASA Software Assurance and Software Safety requirements in NASA-STD-8739.8    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">278</a></sup>. The requirements in this directive and standard have been extracted from industry standards and proven NASA experience in software engineering.&nbsp;</p><p>The NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 is for the community that is involved in the acquisition, management, development, assurance, maintenance, and operations of NASA software. <span>The use of this&nbsp;handbook is intended to provide &quot;best-in-class&quot; guidance for the implementation of safe and reliable software in support of NASA projects.</span></p><p>The NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 is an easily accessible reference or manual that captures the broad knowledge base of numerous experts who have extensive experience in all aspects of NASA's software systems. <span>The handbook&nbsp;is a key component of an Agency-wide plan to work toward a continuous and sustained software engineering and software assurance&nbsp;process and product improvement.</span></p><p><br/></p><div class="panel conf-macro output-block conf-macro output-inline" data-hasbody="true" data-macro-name="excerpt" style="border-color: blue;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-color: blue;"><b>Documents can be viewed and downloaded in PDF format:</b></div><div class="panelContent">
+<ul><li><strong>The NASA Software Engineering Requirements, <a class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7150&amp;s=2D" rel="nofollow">NPR 7150.2D</a>    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">083</a></sup></strong></li><li><strong>The NASA Software Assurance and Software Safety Standard requirements, <a class="external-link" href="https://standards.nasa.gov/sites/default/files/standards/NASA/B/0/NASA-STD-87398-Revision-B.pdf" rel="nofollow">NASA-STD-8739.8B</a>&nbsp;   <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">278</a></sup></strong></li></ul>
+</div></div><p class="conf-macro output-block" data-hasbody="false" data-macro-name="include"><span class="conf-macro output-inline" data-hasbody="true" data-macro-name="excerpt">You can submit&nbsp;any inputs and suggestions regarding SWEHB via &quot;Feedback&quot; in the <a class="external-link" href="http://standards.nasa.gov/" rel="nofollow">NASA Technical Standards System (NTSS)</a>.</span></p><p> </p></div><div class="columnMacro conf-macro output-block" data-hasbody="true" data-macro-name="column"><div class="panel conf-macro output-block" data-hasbody="true" data-macro-name="panel" style="border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;color: blue;"><b>What's New in SWEHB!</b></div><div class="panelContent">
+<p> </p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="blog-posts">    
+
+    
+        
+<div class="blog-post-listing">
+            <div class="logo-heading-block">
+            <span class="logoBlock">
+                 <span class="aui-avatar aui-avatar-large">
+                     <span class="aui-avatar-inner">
+                         <img class="userLogo logo anonymous" src="/s/-levcin/8804/1w4vbtj/_/images/icons/profilepics/anonymous.svg" alt="User icon: fhaigh" title="fhaigh"/>                     </span>
+                 </span>
+            </span>
+            <span class="blogHeading">
+                <a class="blogHeading" href="/display/SWEHBVD/2023/07/17/Work+Product+Minimum+Content">Work Product Minimum Content</a>
+                <div class="page-metadata not-personal">    <a href="    /display/~fhaigh&#xa;" class="url fn">Haigh, Fred Douglas. (HQ-KA000)[PEROT]</a> posted on Jul 17, 2023</div>
+            </span>
+        </div>
+    
+    <div class="wiki-content">
+        A new tab called &quot;<strong>5.xx Document Contents</strong>&quot; has been added to the <a href="/display/SWEHBVD/D.+Topics">D. Topics</a> page.&nbsp;<div class="expand-container conf-macro output-block" data-hasbody="true" data-macro-name="expand" id="expander-1395088856"><div id="expander-control-1395088856" class="expand-control" aria-expanded="false"><span class="expand-icon aui-icon aui-icon-small aui-iconfont-chevron-right">&nbsp;</span><span class="expand-control-text">Click here to see more ...</span></div><div id="expander-content-1395088856" class="expand-content expand-hidden"><p>The new tab contains links to a series of pages that contain guidance for the minimum recommended content for typical Work Products in the SWEHB. It includes pages referenced in <strong>NPR 7150.2D</strong>, <strong>Chapter 6 - Recommended Software Records Content.&nbsp;</strong></p><p>Additional pages will be added to include some that are used by Software Assurance (from Topic <a href="/display/SWEHBVD/8.16+-+SA+Products">8.16 - SA Products</a>).&nbsp;</p></div></div>
+    </div>
+    
+        
+        <div class="endsection">
+        
+                            <ul class="label-list">
+                <li class="aui-label " data-label-id="122617857"><a class="aui-label-split-main" href="/label/SWEHBVD/swehb" rel="tag">swehb</a></li>
+             </ul>
+            </div>
+    </div>
+    
+        
+<div class="blog-post-listing">
+            <div class="logo-heading-block">
+            <span class="logoBlock">
+                 <span class="aui-avatar aui-avatar-large">
+                     <span class="aui-avatar-inner">
+                         <img class="userLogo logo anonymous" src="/s/-levcin/8804/1w4vbtj/_/images/icons/profilepics/anonymous.svg" alt="User icon: fhaigh" title="fhaigh"/>                     </span>
+                 </span>
+            </span>
+            <span class="blogHeading">
+                <a class="blogHeading" href="/display/SWEHBVD/2023/05/07/Software+Design+Principles+Are+Now+Numbered+Topics">Software Design Principles Are Now Numbered Topics</a>
+                <div class="page-metadata not-personal">    <a href="    /display/~fhaigh&#xa;" class="url fn">Haigh, Fred Douglas. (HQ-KA000)[PEROT]</a> posted on May 07, 2023</div>
+            </span>
+        </div>
+    
+    <div class="wiki-content">
+        Software Design Principles are now numbered in the topic series 9.xx.&nbsp;<div class="expand-container conf-macro output-block" data-hasbody="true" data-macro-name="expand" id="expander-1352919828"><div id="expander-control-1352919828" class="expand-control" aria-expanded="false"><span class="expand-icon aui-icon aui-icon-small aui-iconfont-chevron-right">&nbsp;</span><span class="expand-control-text">Click here to see more ...</span></div><div id="expander-content-1352919828" class="expand-content expand-hidden"><p>The new series is posted in D. Topics page and all references to these topics in the current version of the handbook have been updated.&nbsp;</p></div></div>
+    </div>
+    
+        
+        <div class="endsection">
+        
+                            <ul class="label-list">
+                <li class="aui-label " data-label-id="122617857"><a class="aui-label-split-main" href="/label/SWEHBVD/swehb" rel="tag">swehb</a></li>
+             </ul>
+            </div>
+    </div>
+    
+        
+<div class="blog-post-listing">
+            <div class="logo-heading-block">
+            <span class="logoBlock">
+                 <span class="aui-avatar aui-avatar-large">
+                     <span class="aui-avatar-inner">
+                         <img class="userLogo logo anonymous" src="/s/-levcin/8804/1w4vbtj/_/images/icons/profilepics/anonymous.svg" alt="User icon: fhaigh" title="fhaigh"/>                     </span>
+                 </span>
+            </span>
+            <span class="blogHeading">
+                <a class="blogHeading" href="/display/SWEHBVD/2023/03/30/SA+Tasking+Checklist+Update">SA Tasking Checklist Update</a>
+                <div class="page-metadata not-personal">    <a href="    /display/~fhaigh&#xa;" class="url fn">Haigh, Fred Douglas. (HQ-KA000)[PEROT]</a> posted on Mar 30, 2023</div>
+            </span>
+        </div>
+    
+    <div class="wiki-content">
+        Topic 8.15 has been updated in SWEHB versions &quot;C&quot; and &quot;D&quot;. The &quot;SA Tasking Checklist&quot;, an Excel workbook, was updated to version 2.0.1.&nbsp; Earlier versions have been removed.&nbsp;<div class="expand-container conf-macro output-block" data-hasbody="true" data-macro-name="expand" id="expander-594998609"><div id="expander-control-594998609" class="expand-control" aria-expanded="false"><span class="expand-icon aui-icon aui-icon-small aui-iconfont-chevron-right">&nbsp;</span><span class="expand-control-text">Click here to expand...</span></div><div id="expander-content-594998609" class="expand-content expand-hidden"><p>The new workbook was uploaded into Topic 8.15 and is built on the documents:&nbsp;</p><ul><li>NPR 7150.2C</li><li>NASA-STD-8739.8A</li></ul><p>Another update of this workbook is in process and will be based on the NPR 7150.2D and NASA-STD-8739.8B.&nbsp;</p></div></div>
+    </div>
+    
+        
+        <div class="endsection">
+        
+                            <ul class="label-list">
+                <li class="aui-label " data-label-id="122617857"><a class="aui-label-split-main" href="/label/SWEHBVD/swehb" rel="tag">swehb</a></li>
+             </ul>
+            </div>
+    </div>
+    
+        
+<div class="blog-post-listing">
+            <div class="logo-heading-block">
+            <span class="logoBlock">
+                 <span class="aui-avatar aui-avatar-large">
+                     <span class="aui-avatar-inner">
+                         <img class="userLogo logo anonymous" src="/s/-levcin/8804/1w4vbtj/_/images/icons/profilepics/anonymous.svg" alt="User icon: fhaigh" title="fhaigh"/>                     </span>
+                 </span>
+            </span>
+            <span class="blogHeading">
+                <a class="blogHeading" href="/pages/viewpage.action?pageId=128385068">MC/DC Testing Updates</a>
+                <div class="page-metadata not-personal">    <a href="    /display/~fhaigh&#xa;" class="url fn">Haigh, Fred Douglas. (HQ-KA000)[PEROT]</a> posted on Mar 15, 2023</div>
+            </span>
+        </div>
+    
+    <div class="wiki-content">
+        Updates have been made to:<ul><li><a href="/display/SWEHBVD/SWE-219+-+Code+Coverage+for+Safety+Critical+Software">SWE-219 - Code Coverage for Safety Critical Software</a></li><li>Topic&nbsp;<a href="/display/SWEHBVD/7.21+-+Multi-condition+Software+Requirements">7.21 - Multi-condition Software Requirements</a></li></ul>Updates include additional examples and references. Also, the &quot;gcov&quot; tool is discussed.
+    </div>
+    
+        
+        <div class="endsection">
+        
+                            <ul class="label-list">
+                <li class="aui-label " data-label-id="122617857"><a class="aui-label-split-main" href="/label/SWEHBVD/swehb" rel="tag">swehb</a></li>
+             </ul>
+            </div>
+    </div>
+    
+        
+<div class="blog-post-listing">
+            <div class="logo-heading-block">
+            <span class="logoBlock">
+                 <span class="aui-avatar aui-avatar-large">
+                     <span class="aui-avatar-inner">
+                         <img class="userLogo logo anonymous" src="/s/-levcin/8804/1w4vbtj/_/images/icons/profilepics/anonymous.svg" alt="User icon: fhaigh" title="fhaigh"/>                     </span>
+                 </span>
+            </span>
+            <span class="blogHeading">
+                <a class="blogHeading" href="/display/SWEHBVD/2023/02/19/Updated+Requirements+Pages">Updated Requirements Pages</a>
+                <div class="page-metadata not-personal">    <a href="    /display/~fhaigh&#xa;" class="url fn">Haigh, Fred Douglas. (HQ-KA000)[PEROT]</a> posted on Feb 19, 2023</div>
+            </span>
+        </div>
+    
+    <div class="wiki-content">
+        Requirements pages have been reformatted and updated with new lists of ALL NPR 7150.2D Requirements in Numeric Order.&nbsp;<ul><li>B. Institutional Requirements</li><li>C. Project Software Requirements</li></ul><div class="expand-container conf-macro output-block" data-hasbody="true" data-macro-name="expand" id="expander-757159993"><div id="expander-control-757159993" class="expand-control" aria-expanded="false"><span class="expand-icon aui-icon aui-icon-small aui-iconfont-chevron-right">&nbsp;</span><span class="expand-control-text"> Click here to see more details ...</span></div><div id="expander-content-757159993" class="expand-content expand-hidden"><p>Introductory remarks have been shortened by putting the content in expanding sections (&quot;<strong><span style="color: rgb(0,0,255);">Click to see</span></strong> ...&quot;)</p><p>Each page has a new section below the introductory remarks. The new section contains two expanding displays of ALL SWEs.&nbsp;</p><ul><li>First, is a list of all SWE pages in Numeric Order. Each entry is a link to the SWE page.&nbsp;</li><li>Second, is a list of all SWE pages along with the text of the requirement in numeric Order. Each SWE entry is a link to the SWE page.&nbsp;</li></ul><p>When expanded, you my use your browser's &quot;Find&quot; function to look for key words in the SWE titles or requirements on the browser page.&nbsp;&nbsp;</p><p>Additionally, the link to &quot;<span style="color: rgb(0,0,255);"><strong>New in SWEHB</strong></span>&quot; link has been added at the top of both Requirements pages.&nbsp;</p></div></div>
+    </div>
+    
+        
+        <div class="endsection">
+        
+                            <ul class="label-list">
+                <li class="aui-label " data-label-id="122617857"><a class="aui-label-split-main" href="/label/SWEHBVD/swehb" rel="tag">swehb</a></li>
+             </ul>
+            </div>
+    </div>
+    </div><p> </p>
+</div></div></div></div></div></div></div>
+
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-2"><h1 id="BookA.Introduction-Introduction">Introduction</h1><p>The <span>NASA Software Engineering and Assurance Handbook</span>, NASA-HDBK-2203,&nbsp;originated from multiple requests for additional guidance, rationale, resources, references, and lessons learned for acquiring, managing, developing, assuring, and maintaining NASA software systems. The design of the electronic&nbsp;(wiki-based) format was selected to accommodate the following evolving needs:</p><ul><li>To publish material in a timely fashion.</li><li>To provide needed information in concise screen-friendly parts.</li><li>To simplify updates to the Handbook.</li><li>To make it easily searchable.</li><li>To engage the NASA software community by providing an easy-to-use vehicle for<br/><ul><li>sharing examples of best practices, and</li><li>contributing lessons learned developed on their projects.</li></ul></li></ul><p>The NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 is accessible via <a href="https://swehb.nasa.gov" rel="nofollow">https://swehb.nasa.gov</a>,&nbsp;the NASA Technical Standard site <a class="external-link" href="https://standards.nasa.gov" rel="nofollow">https://standards.nasa.gov</a>, or on the NASA Engineering Network (NEN).&nbsp; Links are&nbsp;available for relevant processes, templates, and tools in the Software Processes Across NASA (SPAN) repository, accessible only to NASA users from the SPAN tab in this Handbook.</p><p>The NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 wiki can be used <span style="color: rgb(23,43,77);">similarly&nbsp;</span>to the use of any hard copy guidebooks, but it offers significant advantages for the reader. Once&nbsp;familiar with the resource,&nbsp;a user will be able to directly access concise information relevant to their interest or need. (Typically, a quick scan and flip through the Handbook structure, including the chapter organization and the reference/appendix material, is enough to gain familiarity.)</p><p>The&nbsp;NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 provides guidance associated with each SWE (Software Requirement)&nbsp;in NPR 7150.2, guidance in the form of features and topics, and software assurance and software safety requirements and guidance information. Users are expected to consult NASA Center resources for local procedures and guidance, when available.</p><div class="panel conf-macro output-block" data-hasbody="true" data-macro-name="panel" style="border-width: 1px;"><div class="panelContent">
+<p>For NASA users, the Software Engineering Handbook is available on the NEN from the Software Engineering Community of Practice homepage. This site offers additional guidance and information to software developers, including the Ask an Expert pick, a Contact List, a Document Repository, and much more. Frequent users may wish to add a direct bookmark to the NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 in their browser <a href="https://swehb.nasa.gov" rel="nofollow">https://swehb.nasa.gov</a>.</p>
+</div></div><p>Here's an overview of each major section within the NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203:</p><ul><li>A contains the Introduction.</li><li>B contains the developed guidance for each institutional requirement in NPR 7150.2. These SWE descriptions are from Chapter 2 of NPR 7150.2. Each SWE guidance section provides stand-alone explanations and interpretive information about the implementation of the requirement. The guidance material&nbsp;includes hyperlinks for easy reference to related SWEs and Topics.</li><li>C contains the developed guidance for each software project requirement in NPR 7150.2. Each SWE guidance section provides a stand-alone explanation and interpretive information about the implementation of the requirement. The guidance includes hyperlinks for easy reference to related SWEs and Topics. Each requirement in C also&nbsp;includes the software assurance steps and software safety requirements and guidelines.</li><li>D contains special Topics, most in the form of essays, that are broader than any single SWE. Many of the special Topics take the form of &quot;how-to&quot; and instructional material for users seeking to improve their knowledge and practices in software engineering, software assurance, and software safety. The special topics help the user go beyond the minimum descriptions presented in each SWE. Topics are more expansive on particular ideas and contain additional instructions for developing and acquiring software.</li><li>E&nbsp;contains a list of terms including acronyms used in the Handbook, listings of and references to software development and assurance tools used by the Centers, and a complete listing of Handbook references in a numerated References Table.</li><li>F&nbsp;is a link to the Software Processes Across NASA (SPAN) repository accessible to NASA users only. This repository contains processes and process assets approved for use across the Agency.</li></ul><p>Explanation of the SEARCH Box in the splash banner above: This utility allows the NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 user to interrogate the Handbook contents for particular items of interest.</p><p>In the&nbsp;handbook, each&nbsp;typical requirement,&nbsp;SWE, has seven sections:</p><ul><li>THE REQUIREMENT: This section is a restatement of the NPR 7150.2 requirement wording, including any Notes from either the requirement paragraph itself or any applicable note from Appendix C. This section also gives a tabular representation of the applicability to each software class    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">438</a></sup>.</li></ul><ul><li>RATIONALE: This section provides useful information regarding the purpose of the requirement. Occasionally, historical information and references are included to support the rationale statement.</li></ul><ul><li>GUIDANCE: This section provides information helpful for interpreting the requirement, its scope, its relationship to other SWE, associated best practices, and references to supporting materials (standards, guides, published technical papers, the NEN, and SPAN materials).</li></ul><ul><li>SMALL PROJECTS: This section suggests implementation aids to small projects to help satisfy the SWE while accommodating the typically limited resources of time, funds, and personnel. The definition of a &quot;small project&quot; needs to be determined by the user.</li></ul><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p>This determination does not relieve a project from satisfying the requirements of the NPR. When small projects need to reduce the set of applicable software requirements due to constraints, consult the designated Center Software Technical Authority.&nbsp;NPR 7120.5 and the&nbsp;NASA Chief Engineer&rsquo;s specific direction provide direction&nbsp;on tailoring the&nbsp;NPR 7120.5 requirements.</p></div></div><ul><li>RESOURCES: This section provides a listing of referenced and footnoted texts, documents found within publicly accessible NASA repositories and out on the web, and other useful documents (e.g., checklists and templates). The Handbook includes in the Resources sections listings of&nbsp;additional readings, i.e., useful items not specifically cited or linked to in the GUIDANCE section, but thought by the authors to contain educational or expanded discussions of the ideas covered in the SWE write-up. Also, this section usually includes a separate table listing of tools and items that will help the user satisfy the requirement (e.g., developer tools). The Handbook wiki links SWEs and tools through the use of a master <a href="/display/SWEHBVC/Tools+Table">Tools table</a>. The Tools table provides websites for accessing the tool. It also lists the Center(s) that currently use the tool in case the reader wants to seek out the &quot;experiences&quot; of a current user of the tool. Readers are invited to submit their tools for candidate inclusion in the Tools table for the benefit of others around the Agency.</li></ul><ul><li>LESSONS LEARNED (LL): This section contains references to the experiences of others involved in NASA software development activities as well as other industry and government development efforts. The majority are in the Public Lessons Learned library    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">439</a></sup>&nbsp; at the Office of the Chief Engineer (OCE). Some are derived from specialized projects or Center collections as well as from reputable industry and government groups. Occasionally a lesson has only indirect applicability to the requirement.&nbsp;</li></ul><ul><li>SOFTWARE ASSURANCE: This section contains the software assurance and software safety&nbsp;steps and requirements needed to assure each engineering requirement, the software assurance and software safety products required for each requirement, the software assurance, and software safety&nbsp;metrics required for each requirement, and the software assurance and software safety&nbsp;guidance associated with each software assurance and software safety&nbsp;step and requirement.</li></ul><p>Remember that the NPR 7150.2 is a requirements document. It uses &quot;shall&quot; exclusively to indicate requirements. Applicability of an NPR 7150.2 requirement&nbsp;applies per the&nbsp;NASA Software Classification, and the matrix in Appendix C (of the NPR). The&nbsp;handbook is not a requirements document, only an informational document.</p><p>Earlier versions of NPR 7150.2 made extensive use of the NPR's Notes sections to help with the interpretation of the SWE. This Handbook is intended to collaborate with and augment the current NPR Notes, and to include valuable guidance from previous versions of NPR 7150.2.</p><p>The Requirements Mapping Matrix (RMM) in NPR 7150.2 provides a list of the applicability of each software project requirement by the class of software. Associated with many of the entries in the RMM are one or more notes that modify the applicability of the requirement for a particular class. Since the&nbsp;handbook makes explicit mention of these modifiers in section 1 of the guidance for each requirement, SWE, an additional explanation for the modifiers is:</p><ul><li>X - Indicates an invoked requirement by this NPR consistent with Software Classification (ref. SWE-139). May be tailored with Technical Authority approval (ref. Chapter 2.2).</li><li><p>Blank - Optional/Not invoked by this NPR.</p></li><li><p>Center - Center Director or the Center Director&rsquo;s designated Engineering Technical Authority, the Center Director's designated SMA Technical Authority, and the CHMO designated for Health and Medical Technical Authority. The CIO, or the designee, has institutional authority on all Class F software projects and has joint responsibility for the cybersecurity requirements in section 3.11 per the direction in the Requirements Mapping Matrix.</p></li><li><p>CIO - The OCIO, or the designee Center CIO, has institutional authority on all Class F software projects and has joint responsibility for the cybersecurity requirements in section 3.11 per the direction in the Requirements Mapping Matrix.</p></li></ul><p>Each requirement marked 'X' for the project's software classification(s) should be addressed in the Requirements Mapping Matrix. All requirements can be tailored per the guidance in this directive. Requirements that do not apply to a given project, such as the IV&amp;V requirements, should be tailored out in the Requirements Mapping Matrix with justification.</p><p>Some general comments:</p><ul><li>Note that the SWE titles in the SWEHB may not always agree with those in the NPR. The SWEHB Development Team expanded the titles for some of the SWE to help distinguish between other similarly sounding SWE names (e.g., &quot;bidirectional traceability&quot;).</li><li>See the <a href="/display/SITE/Terms">Terms Table</a> for a complete list of definitions of unique terms used in the SWEHB.</li><li>The referenced material listed in the Resources section is located on the NASA Headquarters NODIS site, e.g., NPRs, NPDs,&nbsp; in NTSS    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">442</a></sup>, e.g., NASA standards, IEEE standards, or in other NASA sites, e.g., materials from the OCE, Public lesson learned sources; etc. Please note that many of the Agency or Center assets are subject to scheduled updates. While we will make every effort to link to the latest versions, editions, or documents, you may discover references that have broken links or require updating. We invite the community to submit requests for information via &quot;Feedback&quot; at <a class="external-link" href="http://standards.nasa.gov/" rel="nofollow">http://standards.nasa.gov/</a>&nbsp;and requests for changes to the Handbook via MSFC Form 4657, Change Request for a NASA Engineering Standard.</li><li>The handbook uses citations to external sites and general web-hosted sites. While attempts were made to cite publicly available (i.e., &quot;free&quot;) references, there may be an occasional reference that suggests the reader &quot;buy&quot; a copy. If you come across one of these, and you are a NASA user, try to access it through the NASA Technical Standards    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">442</a></sup> site. This NASA site provides prepaid access to many external repositories through an Agency-wide agreement with the site.</li><li>(Caveat: Since the web is a dynamic place, some references in the Resources section of the SWE may have been discontinued online or moved to another host by their owners.&nbsp; While all references have been verified on internal Agency networks as well as external Virtual Private Network (VPN) access, the variances in firewall and VPN settings, permissions, and configurations may affect access to these references.)</li></ul></div>
+
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-3"><h1 id="BookA.Introduction-TitleMaterial">Title Material</h1><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><td class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper image-left-wrapper"><img class="confluence-embedded-image confluence-thumbnail image-left" draggable="false" src="/download/thumbnails/100598340/NASA%20LOGO.jpg?version=1&amp;modificationDate=1629725658000&amp;api=v2" data-image-src="/download/attachments/100598340/NASA%20LOGO.jpg?version=1&amp;modificationDate=1629725658000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="101810184" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="NASA LOGO.jpg" data-base-url="https://swehb.nasa.gov" data-linked-resource-content-type="image/jpeg" data-linked-resource-container-id="100598340" data-linked-resource-container-version="39" alt=""/></span></p><h3 id="BookA.Introduction-NASATECHNICALHANDBOOK">NASA TECHNICAL HANDBOOK</h3><h4 id="BookA.Introduction-NationalAeronauticsandSpaceAdministration">National Aeronautics and Space Administration</h4><h4 id="BookA.Introduction-Washington,DC20546-0001">Washington, DC&nbsp; 20546-0001</h4></div></td><td class="confluenceTd"><h3 id="BookA.Introduction-NASASoftwareEngineeringandSoftwareAssuranceHandbook">NASA Software Engineering and Software Assurance&nbsp;Handbook</h3><h3 id="BookA.Introduction-NASA-HDBK-2203B">NASA-HDBK-2203B</h3><h4 id="BookA.Introduction-Approved:April20,2020">Approved: April 20, 2020</h4><p>Superseding NASA-HDBK-2203A</p></td></tr></tbody></table></div><h2 id="BookA.Introduction-DOCUMENTHISTORYLOG">DOCUMENT HISTORY LOG</h2><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><td class="confluenceTd"><p><strong>Status</strong></p></td><td class="confluenceTd"><p><strong>Document Revision</strong></p></td><td class="confluenceTd"><p><strong>Approval Date</strong></p></td><td class="confluenceTd"><p><strong>Description</strong></p></td></tr><tr><td class="confluenceTd"><p>Baseline</p></td><td class="confluenceTd"><p>1</p></td><td class="confluenceTd"><p>02-28-2013</p></td><td class="confluenceTd"><p>Initial Release</p></td></tr><tr><td class="confluenceTd"><p>Revision&nbsp;</p></td><td class="confluenceTd"><p>A&nbsp;</p></td><td class="confluenceTd"><p>&nbsp;01-13-2017</p></td><td class="confluenceTd"><p>Handbook updated&nbsp;to&nbsp;address the NASA Software Engineering Requirements, NPR 7150.2B,&nbsp;changes.&nbsp; Update the guidance topics.</p></td></tr><tr><td colspan="1" class="confluenceTd">Revision&nbsp;</td><td colspan="1" class="confluenceTd">B</td><td colspan="1" class="confluenceTd">&nbsp;04-20-2020</td><td colspan="1" class="confluenceTd">Handbook updated&nbsp;to&nbsp;address the NASA Software Engineering and Software Assurance Requirements, NPR 7150.2C,&nbsp;changes, and NASA-STD-8739.8 changes.&nbsp; Update the guidance topics.</td></tr><tr><td colspan="1" class="confluenceTd">Revision</td><td colspan="1" class="confluenceTd">C</td><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd">Handbook updated&nbsp;to&nbsp;address the NASA Software Engineering and Software Assurance Requirements, NPR 7150.2D,&nbsp;changes, and NASA-STD-8739.8 changes.&nbsp; Update the guidance topics.</td></tr></tbody></table></div><h2 id="BookA.Introduction-FOREWORD">FOREWORD</h2><p>This NASA Technical Handbook is published by the National Aeronautics and Space Administration (NASA) as a guidance document to provide engineering information; lessons learned; possible options to address technical issues; classification of similar items, materials, or processes; interpretative direction and techniques; and any other type of guidance information that may help the Government or its contractors in the design, construction, selection, management, support, or operation of systems, products, processes, or services.</p><p>This NASA Technical Handbook is approved for use by NASA Headquarters and NASA Centers and Facilities.&nbsp; It may also apply to the Jet Propulsion Laboratory and other contractors only to the extent specified or referenced in applicable contracts.</p><p>This wiki-based NASA Technical Handbook provides users and practitioners with guidance material for implementing the requirements of <a class="external-link" href="http://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7150&amp;s=2A" rel="nofollow">NPR 7150.2, NASA Software Engineering Requirements</a>&nbsp;   <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">083</a></sup>&nbsp; and the NASA Software Assurance and Software Safety Standard, NASA-STD-8739.8. The use of this Software Engineering and Software Assurance Handbook is intended to provide &quot;best-in-class&quot; guidance for the implementation of safe and reliable software in support of NASA projects. The NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 is a key component of the NASA Software community implementation of an Agency-wide plan to work toward a continuous and sustained software engineering and software assurance&nbsp;process and product improvement.</p><p>Requests for information should be submitted via &quot;Feedback&quot; at <a class="external-link" href="http://standards.nasa.gov/" rel="nofollow">http://standards.nasa.gov/</a>. Requests for changes to this NASA Technical Handbook should be submitted via MSFC Form 4657, Change Request for a NASA Engineering Standard.</p><p><br/></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><td class="confluenceTd"><p><strong>Ralph R. Roe, Jr</strong>&nbsp;<br class="atl-forced-newline"/>NASA Chief Engineer</p></td><td class="confluenceTd"><p><strong>Approval Date: </strong></p><p><br/></p></td></tr></tbody></table></div></div>
+
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-4"><h1 id="BookA.Introduction-4.Resources">4. Resources</h1><span class="conf-macro output-inline" data-hasbody="false" data-macro-name="refstable-intro"><div class="confluence-information-macro confluence-information-macro-information"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"> </span><div class="confluence-information-macro-body"><p><a href="/display/SWEHBVD/References+Table" title="References Table">Click here to view master references table.</a></p></div></div>
+<ul><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-059"> </span>(SWEREF-059)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.iso.org/obp/ui/#iso:std:iso-iec:19770:-5:ed-2:v1:en" rel="nofollow" title="Click to open in new window">
+        Information technology &mdash; IT asset management &mdash; Overview and vocabulary &mdash; Part 5
+    </a>
+</div>
+
+   ISO/IEC 19770-5:2015(en), Information technology &mdash; IT asset management &mdash; 
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-075"> </span>(SWEREF-075)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.iso.org/standard/63598.html" rel="nofollow" title="Click to open in new window">
+        Information technology &mdash; Vocabulary
+    </a>
+</div>
+
+   ISO/IEC 2382:2015, Information technology &mdash; Vocabulary, Replaces ISO/IEC 2382-20:1990,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-076"> </span>(SWEREF-076)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.iso.org/obp/ui/#iso:std:iso-iec:26514:ed-1:v1:en" rel="nofollow" title="Click to open in new window">
+        Systems and software engineering &mdash; Requirements for designers and developers of user documentation
+    </a>
+</div>
+
+   ISO/IEC 26514:2008(en), Systems and software engineering &mdash; Requirements for designers and developers of user documentation </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-080"> </span>(SWEREF-080)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.iso.org/obp/ui/#iso:std:iso-iec-ieee:26513:ed-1:v1:en" rel="nofollow" title="Click to open in new window">
+        Systems and software engineering &mdash; Requirements for testers and reviewers of information for users
+    </a>
+</div>
+
+   ISO/IEC/IEEE 26513:2017(en), Systems and software engineering &mdash; Requirements for testers and reviewers of information for users
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-081"> </span>(SWEREF-081)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=1600&amp;s=1A" rel="nofollow" title="Click to open in new window">
+        NASA Security Program Procedural Requirements
+    </a>
+</div>
+
+   NPR 1600.1A, Office of Protective Services, Effective Date: August 12, 2013, Expiration Date: December 12, 2021
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-082"> </span>(SWEREF-082)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7120&amp;s=5F" rel="nofollow" title="Click to open in new window">
+        NASA Space Flight Program and Project Management Requirements
+    </a>
+</div>
+
+   NPR 7120.5F, Office of the Chief Engineer, Effective Date: August 03, 2021, 
+Expiration Date: August 03, 2026,   </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-083"> </span>(SWEREF-083)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://swehb-pri.msfc.nasa.gov/download/attachments/16450224/N_PR_7150_002D_.pdf?api=v2" rel="nofollow" title="Click to open in new window">
+        NPR 7150.2 NASA Software Engineering Requirements,
+    </a>
+</div>
+
+   NPR 7150.2D, Effective Date: March 08, 2022, Expiration Date: March 08, 2027
+  https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7150&amp;s=2D Contains link to full text copy in PDF format. Search for &quot;SWEREF-083&quot; for links to old NPR7150.2 copies. 
+</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-084"> </span>(SWEREF-084)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.iso.org/obp/ui/#iso:std:iso-iec:19770:-1:ed-3:v1:en" rel="nofollow" title="Click to open in new window">
+        Information technology &mdash; IT asset management &mdash; 
+    </a>
+</div>
+
+   ISO/IEC 19770-1:2017(en); Part 1: IT asset management systems &mdash; Requirements,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-085"> </span>(SWEREF-085)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=2540&amp;s=1I" rel="nofollow" title="Click to open in new window">
+        Acceptable Use of Government Office Property Including Information Technology
+    </a>
+</div>
+
+   NPD 2540.1I, Office of the Chief Information Officer, Effective Date: August 19, 2019, Expiration Date: August 19, 2024,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-087"> </span>(SWEREF-087)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=1600&amp;s=2E" rel="nofollow" title="Click to open in new window">
+        NASA Security Policy (Revalidated on 4/2/2015 w/Change 1)
+    </a>
+</div>
+
+   NPD 1600.2E, Office of Protective Services, Effective Date: April 28, 2004, Expiration Date: May 28, 2022
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-088"> </span>(SWEREF-088)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf" rel="nofollow" title="Click to open in new window">
+        Security and Privacy Controls for Information Systems and Organizations
+    </a>
+</div>
+
+   NIST Special Publication 800-53, Revision 5, September, 2020, U.S. Department of Commerce, 
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-090"> </span>(SWEREF-090)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf" rel="nofollow" title="Click to open in new window">
+        Risk Management Framework for Information Systems and Organizations, Revision 2
+    </a>
+</div>
+
+   NIST Special Publication 800-37, Revision 2, National Institute of Standards and Technology, December, 2018,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-093"> </span>(SWEREF-093)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-146.pdf" rel="nofollow" title="Click to open in new window">
+        Cloud Computing Synopsis and Recommendations
+    </a>
+</div>
+
+   Special Publication 800-146, Badger, Grance, et. al., National Institute of Standards and Technology, May, 2012 </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-099"> </span>(SWEREF-099)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.govinfo.gov/content/pkg/CFR-2013-title48-vol6/pdf/CFR-2013-title48-vol6-sec1852-237-73.pdf" rel="nofollow" title="Click to open in new window">
+        Release of sensitive information. 
+    </a>
+</div>
+
+   NFS 1852.237&ndash;73,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-102"> </span>(SWEREF-102)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.law.cornell.edu/cfr/text/48/1852.237-72" rel="nofollow" title="Click to open in new window">
+        Access to Sensitive Information
+    </a>
+</div>
+
+   48 CFR &sect; 1852.237-72,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-150"> </span>(SWEREF-150)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.gao.gov/assets/gao-14-413.pdf" rel="nofollow" title="Click to open in new window">
+        FEDERAL SOFTWARE LICENSES
+    </a>
+</div>
+
+   GAO-14-413, Report to the Chairman, Committee on Homeland Security and Governmental Affairs, U.S. Senate, May 2014,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-157"> </span>(SWEREF-157)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="http://www.sei.cmu.edu/reports/10tr033.pdf" rel="nofollow" title="Click to open in new window">
+        CMMI for Development, Version 1.3: Improving processes for developing better products and services,
+    </a>
+</div>
+
+   CMMI Development Team (2010). CMU/SEI-2010-TR-033, Software Engineering Institute.  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-194"> </span>(SWEREF-194)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.federalregister.gov/documents/2007/10/31/07-5405/federal-acquisition-regulation-far-case-2005-014-smartbuy" rel="nofollow" title="Click to open in new window">
+        Federal Acquisition Regulation; FAR Case 2005-014, SmartBUY
+    </a>
+</div>
+
+   Federal Acquisition Regulation; FAR Case 2005-014, SmartBUY,  A Proposed Rule by the Defense Department, the General Services Administration, and the National Aeronautics and Space Administration on 10/31/2007</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-195"> </span>(SWEREF-195)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.acquisition.gov/far/52.212-4" rel="nofollow" title="Click to open in new window">
+        Contract Terms and Conditions-Commercial Items
+    </a>
+</div>
+
+   FAR 52.212-4 Contract Terms and Conditions-Commercial Items, Effective Date: 2021-07/2021-09-10,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-196"> </span>(SWEREF-196)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://stage.cmmiinstitute.com/cmmi" rel="nofollow" title="Click to open in new window">
+        CMMI&reg; V2.0
+    </a>
+</div>
+
+   CMMI - Capability, Maturity Model, Integration, Version 2.0,  See your SEPG for a NASA licensed copy. </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-197"> </span>(SWEREF-197)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nen.nasa.gov/web/software/wiki" rel="nofollow" title="Click to open in new window">
+        Software Processes Across NASA (SPAN)
+    </a>
+</div>
+
+   Software Processes Across NASA (SPAN) web site in NEN SPAN is a compendium of Processes, Procedures, Job Aids, Examples and other recommended best practices.</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-229"> </span>(SWEREF-229)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7120&amp;s=11A" rel="nofollow" title="Click to open in new window">
+        NASA Health and Medical Technical Authority (HMTA) Implementation, 
+    </a>
+</div>
+
+   NPR 7120.11A - Effective Date: September 08, 2020, Expiration Date: September 08, 2025
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-231"> </span>(SWEREF-231)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.govregs.com/regulations/expand/title22_chapterI_part120_section120.16" rel="nofollow" title="Click to open in new window">
+        120.16 - Foreign person.
+    </a>
+</div>
+
+   22 CFR &sect;120.16  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-258"> </span>(SWEREF-258)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nen.nasa.gov/web/software" rel="nofollow" title="Click to open in new window">
+        NASA Engineering Network, Software Engineering Community
+    </a>
+</div>
+
+   Welcome to the Software Community. Software engineering is a core capability and a key enabling technology for NASA's missions and supporting infrastructure.  Software Community site covers topics such as software requirements, design, implementation, architecture, assurance, testing, training, tools, process improvement, best practices, software release, models and simulations, and software research and technology innovation. </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-262"> </span>(SWEREF-262)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nen.nasa.gov/web/oce/ta" rel="nofollow" title="Click to open in new window">
+        NASA Headquarters NASA Office of the Chief Engineer engineering deviations and waivers website.
+    </a>
+</div>
+
+    NASA Headquarters NASA Office of the Chief Engineer engineering deviations and waivers website.</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-271"> </span>(SWEREF-271)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://swehb-pri.msfc.nasa.gov/download/attachments/16450126/nasa-std-8719.13c_0.pdf?api=v2" rel="nofollow" title="Click to open in new window">
+        NASA Software Safety Standard, 
+    </a>
+</div>
+
+   NASA STD 8719.13  (Rev C ) , Document Date: 2013-05-07 </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-278"> </span>(SWEREF-278)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://standards.nasa.gov/sites/default/files/standards/NASA/B/0/NASA-STD-87398-Revision-B.pdf" rel="nofollow" title="Click to open in new window">
+        SOFTWARE ASSURANCE AND SOFTWARE SAFETY STANDARD
+    </a>
+</div>
+
+   NASA-STD-8739.8B , NASA TECHNICAL STANDARD, Approved 2022-09-08
+Superseding &quot;NASA-STD-8739.8A, </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-330"> </span>(SWEREF-330)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7120&amp;s=7A" rel="nofollow" title="Click to open in new window">
+        NASA Information Technology Program and Project Management Requirements
+    </a>
+</div>
+
+   NPR 7120.7A, Effective Date: August 17, 2020, Expiration Date: August 17, 2025
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-361"> </span>(SWEREF-361)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://standards.nasa.gov/standard/NASA/NASA-STD-1006 " rel="nofollow" title="Click to open in new window">
+        SPACE SYSTEM PROTECTION STANDARD
+    </a>
+</div>
+
+    NASA-STD-1006A, Approved 7/15/2022,  PUBLIC: Upload Publicly Available Standard
+https://standards.nasa.gov/sites/default/files/standards/NASA/A/0/2022-07-15-NASA-STD-1006A-Approved.pdf</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-363"> </span>(SWEREF-363)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://ntrs.nasa.gov/citations/20160005787" rel="nofollow" title="Click to open in new window">
+        Quality Attributes for Mission Flight Software: A Reference for Architects
+    </a>
+</div>
+
+   Wilmot, Jonathan, Fesq, Lorraine, Dvorak, Dan, Conference Paper, Publication Date
+March 5, 2016, GSFC-E-DAA-TN30323,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-406"> </span>(SWEREF-406)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="http://nodis3.gsfc.nasa.gov/Waivers/Waiver_list.cfm" rel="nofollow" title="Click to open in new window">
+        NASA Requirement Waivers.
+    </a>
+</div>
+
+   January, 2012. This is a list of the NASA Requirement Waivers.  Instructions for submitting requirement waivers are outlined in Chapter 4 of NPR 1400.1, NASA Directives Procedural Requirements.</li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-411"> </span>(SWEREF-411)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.nasa.gov/centers/ivv/ims/home/index.html" rel="nofollow" title="Click to open in new window">
+        IV&amp;V Management System (IMS)
+    </a>
+</div>
+
+   NASA IV&amp;V Facility. </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-438"> </span>(SWEREF-438)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7150_002C_&amp;page_name=AppendixD" rel="nofollow" title="Click to open in new window">
+        NASA Software Engineering Requirements, Appendix D, 
+    </a>
+</div>
+
+    NPR 7150.2C, Effective Date: August 02, 2019 </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-439"> </span>(SWEREF-439)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://llis.nasa.gov/" rel="nofollow" title="Click to open in new window">
+        NASA Public Lessons Learned System
+    </a>
+</div>
+
+   The NASA Lessons Learned system.    The system provides access to official, reviewed lessons learned from NASA programs and projects. </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-442"> </span>(SWEREF-442)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://standards.nasa.gov/ " rel="nofollow" title="Click to open in new window">
+        NASA Technical Standards System
+    </a>
+</div>
+
+    NASA users must LOGIN to fully access the NTSS.: https://standards.nasa.gov/ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-489"> </span>(SWEREF-489)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=1000&amp;s=5C" rel="nofollow" title="Click to open in new window">
+        NPD 1000.5,B, Policy for NASA Acquisition, 
+    </a>
+</div>
+
+   NPD 1000.5C, Policy for NASA Acquisition, Effective Date: July 13, 2020, Expiration Date: July 13, 2025
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-593"> </span>(SWEREF-593)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=1200&amp;s=1E" rel="nofollow" title="Click to open in new window">
+        NASA Internal Control (Revalidated w/Change 1, 07/21/2017)
+    </a>
+</div>
+
+   NPD 1200.1E, Office of the Chief Financial Officer, Effective Date: July 21, 2008, Expiration Date: July 21, 2022,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-594"> </span>(SWEREF-594)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=1210&amp;s=2" rel="nofollow" title="Click to open in new window">
+        NASA Surveys, Audits, and Reviews Policy (Revalidated on10/24/2017)
+    </a>
+</div>
+
+   NPD 1210.2, Office of the Chief Financial Officer, Effective Date: January 13, 2005, Expiration Date: October 24, 2023,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-595"> </span>(SWEREF-595)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=2091&amp;s=1C" rel="nofollow" title="Click to open in new window">
+         Inventions Made By Government Employees 
+    </a>
+</div>
+
+   NPD 2091.1C, Office of the General Counsel, Effective Date: May 24, 2018, Expiration Date: May 24, 2023,  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-597"> </span>(SWEREF-597)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=2190&amp;s=1C" rel="nofollow" title="Click to open in new window">
+        NASA Export Control Program
+    </a>
+</div>
+
+   NPR 2190.1C, NASA Procedural Requirements, Effective Date: September 08, 2017, Expiration Date: September 08, 2022  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-598"> </span>(SWEREF-598)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=2800&amp;s=1E" rel="nofollow" title="Click to open in new window">
+        Managing Information Technology
+    </a>
+</div>
+
+   NPD 2800.1E, Office of the Chief Information Officer, Effective Date: December 09, 2019, Expiration Date: December 09, 2024, 
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-599"> </span>(SWEREF-599)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=2841&amp;s=1" rel="nofollow" title="Click to open in new window">
+        Identity, Credential, and Access Management 
+    </a>
+</div>
+
+   NASA Procedural Requirements, NPR 2841.1, Effective Date: January 06, 2011, Expiration Date: January 06, 2022, (Revalidated w/change 1) </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-600"> </span>(SWEREF-600)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&amp;c=7120&amp;s=10A" rel="nofollow" title="Click to open in new window">
+        Technical Standards for NASA Programs and Projects
+    </a>
+</div>
+
+   NASA Procedural Requirements, NPR 7120.10A, Effective Date: February 21, 2017, Expiration Date: February 21, 2022  </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-601"> </span>(SWEREF-601)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://www.gpo.gov/fdsys/pkg/CFR-2005-title48-vol6/pdf/CFR-2005-title48-vol6-sec1852-227-86.pdf" rel="nofollow" title="Click to open in new window">
+        Commercial computer software&mdash;Licensing
+    </a>
+</div>
+
+   48 CFR Ch. 18 (10&ndash;1&ndash;05 Edition) 1852.227&ndash;86 </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-608"> </span>(SWEREF-608)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&amp;c=9250&amp;s=1A" rel="nofollow" title="Click to open in new window">
+        Capital Asset Identification and Treatment 
+    </a>
+</div>
+
+   NPD 9250.1A, Effective Date: October 08, 2010, Expiration Date: October 08, 2024, NASA policy for property, plant, and equipment (PP&amp;E)
+ </li><li> <span class="confluence-anchor-link conf-macro output-inline" data-hasbody="false" data-macro-name="anchor" id="BookA.Introduction-SWEREF-663"> </span>(SWEREF-663)        <div class="conf-macro output-inline conf-macro output-inline" data-hasbody="true" data-macro-name="ifnotzero">
+    <a alt="Click to open in new window" class="external-link" href="https://discovery.larc.nasa.gov/PDF_FILES/2019AO/nasa-std-1006.pdf" rel="nofollow" title="Click to open in new window">
+        SPACE SYSTEM PROTECTION STANDARD
+    </a>
+</div>
+
+   NASA-STD-1006, Approved: 2019-10-29, Office of the NASA Chief Engineer
+ </li></ul></span></div>
+
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-5"><h1 id="BookA.Introduction-5.AccessingHandbookVersions">5. Accessing Handbook Versions</h1><p>The version of the handbook that you are viewing is noted in the header image. Clicking on this image, while on any page&nbsp;of the SWEHBVD, will take you back to the Introduction page for this version.</p><p>To&nbsp;access other versions of the Software Engineering Handbook use the links below:</p><ul><li><a href="/display/7150/Book+A.+Introduction">Click here to go back to the Software Engineering Handbook from NPR 7150.2A</a></li><li><a href="/display/SWEHBVB/Book+A.+Introduction">Click here to go back to the Software Engineering Handbook from NPR 7150.2B</a></li><li><a href="/display/SWEHBVC/Book+A.+Introduction">Click here to go back to the Software Engineering Handbook from NPR 7150.2C</a></li><li>You are already in the Software Engineering and Software Assurance Handbook from NPR 7150.2D</li></ul><p>Four versions of the NASA Software Engineering and Assurance Handbook, NASA-HDBK-2203 are available for use (see Tab 5 to access&nbsp;the versions of the handbook)</p><ul><li>The original version of the handbook&nbsp;- addresses&nbsp;the NASA Software Engineering&nbsp;Requirements in NPR 7150.2A. NPR 7150.2A had an effective date of&nbsp;November 19, 2009, to the expiration date of&nbsp;November 19, 2014.</li><li>Revision A - addresses&nbsp;the NASA Software Engineering&nbsp;Requirements in NPR 7150.2B. NPR 7150.2B had an effective date of&nbsp;November 19, 2014, to the expiration date of&nbsp;August 2, 2019.</li><li>Revision&nbsp;B - addresses&nbsp;the NASA Software Engineering&nbsp;Requirements in NPR 7150.2C and the requirements in the NASA Software Assurance and Software Safety standard, NASA-STD-8739.8A. NPR 7150.2C had an effective date of&nbsp;August 2, 2019, to the expiration date of&nbsp;August 2, 2024. NASA-STD-8739.8A    <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">278</a></sup> has an effective date of June 10, 2020.</li><li>Revision C - Addresses the&nbsp;NASA Software Engineering&nbsp;Requirements in NPR 7150.2D,&nbsp;and the requirements in the NASA Software Assurance and Software Safety standard, NASA-STD-8739.8A. NPR 7150.2D had an effective date of 03/08/2022, to the expiration date of 03/08/2027. NASA-STD-8739.8B&nbsp;   <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">278</a></sup> has an effective date of June 10, 2020.</li><li><h3 id="BookA.Introduction-NPR7150.2DisthelatestversionoftheNASASoftwareEngineeringRequirements.NASA-STD-8739.8BisthelatestversionoftheNASASoftwareAssuranceandSoftwareSafetyStandard"><strong>NPR 7150.2D is the latest version of the NASA Software Engineering Requirements.&nbsp;&nbsp;<br/></strong><strong>NASA-STD-8739.8B is the latest version of the NASA Software Assurance and Software Safety Standard</strong></h3>   <sup class="conf-macro output-inline" data-hasbody="false" data-macro-name="swerefn"><a href="#_tabs-4" onclick="scrollTo(0,0)" rel="nofollow">278</a></sup><span> has an effective date of September 8, 2022.</span></li></ul><h1 id="BookA.Introduction-5.1SWEHistory">5.1 SWE History</h1><p><strong><span class="conf-macro output-inline" data-hasbody="false" data-macro-name="excerpt-include" style="color: rgb(0,0,0);">The SWE History Summary includes all SWE numbers and their history of use in all versions of the Software Engineering Handbook.</span></strong></p><p>Click <a href="/display/SWEHBVD/SWE+History">SWE History</a> to view.</p></div>
+
+
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="div" id="tabs-6"><h1 id="BookA.Introduction-NASA-STD-8739.8BTitleMaterial">NASA-STD-8739.8B Title Material</h1><p> </p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="include"><div class="table-wrap"><table class="relative-table confluenceTable"><colgroup><col style="width: 6.67017%;"/><col style="width: 9.58946%;"/><col style="width: 9.66532%;"/><col style="width: 74.075%;"/></colgroup><tbody><tr><th class="confluenceTh">Status</th><th class="confluenceTh">Document Revision</th><th class="confluenceTh">Approval Date</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">Baseline</td><td class="confluenceTd">Initial</td><td class="confluenceTd">2004-07-28</td><td class="confluenceTd">Initial Release</td></tr><tr><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd">1</td><td colspan="1" class="confluenceTd">2005-05-05</td><td colspan="1" class="confluenceTd">Administrative changes to the Preface; Paragraphs 1.1, 1.4, 1.5, 2.1.1, 2.2.2, 3, 5.1.2.3, 5.4.1.1; 5.6.2, 5.8.1.2, 6.7.1.a, 7.3.2, 7.3.3, 7.5, 7.5.1; Table 1; Appendix A; Appendix C to reflect NASA Transformation changes, reflect the release of NASA Procedural Requirements (NPR) 7150.2, NASA Software Engineering Requirements and to make minor editorial changes. Note: Some paragraphs have changed pages as a result of these changes. Only pages where content has changed are identified by change indications.</td></tr><tr><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd">A</td><td colspan="1" class="confluenceTd">2020-06-10</td><td colspan="1" class="confluenceTd">The revised document addresses the following significant issues: combined the NASA Software Assurance Standard (NASA-STD-8739.8) with the NASA Software Safety Standard (NASA-STD-8719.13), reduction of requirements, bring into alignment with updates to NPR 7150.2, added a section on IV&amp;V requirements to perform IV&amp;V, and moved guidance text to an Electronic Handbook. This change combines the updates to NASA-STD-8739.8 and the content of NASA-STD-8719.13. The update includes the NASA software safety requirements and cancels NASA-STD-8719.13 standard.</td></tr><tr><td colspan="1" class="confluenceTd"><br/></td><td colspan="1" class="confluenceTd">B</td><td colspan="1" class="confluenceTd">2022-09-08</td><td colspan="1" class="confluenceTd"><span>Brings into alignment with the update to NPR 7150.2D. Update the Appendix A table containing the additional areas to consider when identifying software causes in Hazard Analysis.</span></td></tr></tbody></table></div><p><br/></p><p><strong>DOCUMENT HISTORY LOG</strong></p><div class="table-wrap"><table class="relative-table confluenceTable"><colgroup><col style="width: 60.4563%;"/><col style="width: 39.5437%;"/></colgroup><tbody><tr><td class="confluenceTd">Approved: TBD</td><td class="confluenceTd">Measurement System Identification: Not Measurement Sensitive</td></tr><tr><td class="confluenceTd"><p>NASA TECHNICAL STANDARD</p><p>National Aeronautics and Space Administration</p></td><td class="confluenceTd"><p>NASA-STD-8739.8B</p><p>Approved:&nbsp;2022-09-08<br/>Superseding NASA-STD-8739.8A</p></td></tr><tr><td colspan="1" class="confluenceTd">SOFTWARE ASSURANCE AND SOFTWARE SAFETY STANDARD<br/>APPROVED FOR PUBLIC RELEASE &ndash; DISTRIBUTION IS UNLIMITED</td><td colspan="1" class="confluenceTd"><br/></td></tr></tbody></table></div><h2 id="BookA.Introduction-Forward">Forward</h2><p>This NASA Technical Standard is published by the National Aeronautics and Space Administration (NASA) to provide uniform engineering and technical requirements for processes, procedures, practices, and methods that have been endorsed as standard for NASA facilities, programs, and projects, including requirements for selection, application, and design criteria of an item.<br/>This standard was developed by the NASA Office of Safety and Mission Assurance (OSMA). Requests for information, corrections, or additions to this standard should be submitted to the OSMA by email to <a class="external-link" href="mailto:Agency-SMA-Policy-Feedback@mail.nasa.gov" rel="nofollow">Agency-SMA-Policy-Feedback@mail.nasa.gov</a> or via the &ldquo;Email Feedback&rdquo; link at <a class="external-link" href="https://standards.nasa.gov" rel="nofollow">https://standards.nasa.gov</a>.</p><div class="table-wrap"><table class="relative-table confluenceTable" style="width: 99.2179%;"><colgroup><col style="width: 48.929%;"/><col style="width: 51.071%;"/></colgroup><tbody><tr><td class="confluenceTd"><p><u>William Deloach</u></p><p>NASA Chief, Safety and Mission Assurance</p></td><td class="confluenceTd"><p><u>TBD</u></p><p>2022-09-08</p></td></tr></tbody></table></div><p><br/></p><p><br/></p></div><p> </p></div>
+
+
+
+
+</div></div>
+</span>
+
+                
+        
+    
+		</div>
+	</article>
+</div>
+
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+
+			    
+    
+
+
+
+<div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="100598340" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right ">
+            <li class="no-labels-message">
+            No labels
+        </li>
+            </ul>
+
+    </div>
+</div>
+</div>
+	
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+	    
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+
+
+
+
+
+
+
+
+    
+	
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+        
+
+
+
+
+        </div><!-- .rw_content -->
+    </div><!-- #rw_main_column -->
+    <div class="rw_clear"></div>
+</div><!-- #content -->
+										<script>
+						// Now we can show the sidebar..
+						$('#rw_left_column').removeClass('rw_visibility_hidden');
+						$('#rw_right_column').removeClass('rw_visibility_hidden');
+					</script>
+								
+		        <div style="clear:both;"></div>
+		    </div><!-- \#main -->
+
+
+		
+						</div> <!-- #demo_theme_content -->
+
+
+<style type="text/css">
+.nasafooter a {
+color:#ccc
+}
+</style>
+<div class="nasafooter" style="color: #D4BFBF;height: 52px;background: #111 url('/plugins/servlet/rw-resources/designs/swehbvd/images/bg-footer2.gif') no-repeat top center; min-width: 960px;position: relative;border-radius: 5px;border-color: green;border: solid 1px #bbb;margin-bottom:4px">
+
+<div style="width: 960px; margin: 0 auto; font-size: 11px;">
+
+<div class="footer-author" style=" line-height: 16px; padding-top: 0px; margin-top: 0;margin-right: 15px;text-align: right;position: relative;right: -2px;width: 350px;float: right;">
+Page Editor: <a href="mailto:Tim.Crumbley@nasa.gov">Tim Crumbley</a> <br />
+NASA Official: <a href="mailto:Tim.Crumbley@nasa.gov">Tim Crumbley</a>
+</div>
+
+
+<div class="footer-maintext" style="line-height:16px;position: relative; top: 1; left: 171px;text-align: left;width: 500px;">
+NASA Software Engineering Handbook - A service of the <a href="http://www.nasa.gov/offices/oce/home/index.html">NASA Office of the Chief Engineer</a><br>
+ <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Statement</a><br>
+<span style="color:#888;">______________________________________________________________________________</span> </div>
+
+<div class="footer-logo" style="float: left; width: 159px; height: 52px; margin-right: 13px; margin-top: -52px; overflow: hidden;top: 1px;position: relative;">
+
+<a href="http://www.nasa.gov"><img class="normal-logo" style="position: relative;
+top: -49px;left: -4px;" width="180px" border="0" src="/plugins/servlet/rw-resources/designs/swehbvd/images/500px-NASA_logo2.png"></a>
+
+<!--[if gte IE 8 ]>
+<a href="http://www.nasa.gov"><img style="position: relative;
+top: -49px;left: -4px;" width="180px" border="0" src="/plugins/servlet/rw-resources/designs/swehbvd/images/500px-NASA_logo2.png" /></a>
+<![endif]-->
+
+<!--[if lte IE 7 ]>
+<a href="http://www.nasa.gov"><img style="position: relative;
+top: 0px;left: -4px;" border="0" src="/download/attachments/16449762/ie-logo-crop.png" /></a>
+<![endif]-->
+</div>
+
+</div>
+
+</div>
+
+<script type='text/javascript' src='https://mobile.neacc.nasa.gov/pulse/track.js'></script>
+<script type='text/javascript'>try {Pulse.track('SWEHB', {'method' : '', 'auid' : ''})}catch(e){var Pulse = (function(){var module ={};module.track=function(){};module.logInfo=function(){};module.logWarn=function(){};module.logError=function(){};module.event=function(){};return module;}());}</script>
+	
+
+
+						
+
+
+                                
+            	
+	    
+
+			</div> <!-- rw_main -->
+
+						<div class="rw_background_section_background1"></div>
+<div id='rw_popup_bg' style='display:none;'></div>
+
+
+		</div><!-- rw_wrapper -->
+
+
+	
+	
+
+		
+
+	
+
+
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+<!-- Avoid json parse error for Atlassian metrics not present on Refined pages. -->
+<div id="confluence-server-performance" style="display:none;">null</div>
+</body>
+</html>

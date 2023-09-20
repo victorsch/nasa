@@ -1,0 +1,8 @@
+GET http://columbia.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Content-Length: 0
+< Location: https://columbia.nasa.gov/
+< Server: BigIP
+< Connection: close

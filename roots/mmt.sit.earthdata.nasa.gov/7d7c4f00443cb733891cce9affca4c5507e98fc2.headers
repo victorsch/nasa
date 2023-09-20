@@ -1,0 +1,19 @@
+GET https://mmt.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Etag: W/"d4b112b62fae3baaf93f113ba01719c8"
+< Date: Tue, 19 Sep 2023 05:43:13 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Cache-Control: max-age=0, private, must-revalidate
+< Server: nginx
+< X-Download-Options: noopen
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: _mmt_session=f4c8e78a08e902f056537425067357dd; path=/; secure; HttpOnly
+< X-Request-Id: 560fd867-e576-42d5-a65c-70d8e1cca50a
+< X-Runtime: 0.010952

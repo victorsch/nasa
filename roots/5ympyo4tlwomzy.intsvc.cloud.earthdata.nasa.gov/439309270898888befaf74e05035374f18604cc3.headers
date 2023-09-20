@@ -1,0 +1,8 @@
+GET https://5ympyo4tlwomzy.intsvc.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:41:03 GMT
+< Content-Type: text/html
+< Content-Length: 118

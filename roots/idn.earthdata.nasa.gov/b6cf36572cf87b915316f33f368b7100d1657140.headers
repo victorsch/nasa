@@ -1,0 +1,15 @@
+GET https://idn.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Expires: Tue, 19 Sep 2023 05:52:29 GMT
+< Server: Jetty(9.4.z-SNAPSHOT)
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 10 Aug 2023 16:00:07 GMT
+< X-Xss-Protection: 1;mode=block
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Set-Cookie: f5_cspm=1234;
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:41:23 GMT

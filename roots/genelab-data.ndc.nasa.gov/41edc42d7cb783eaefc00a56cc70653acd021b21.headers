@@ -1,0 +1,12 @@
+GET http://genelab-data.ndc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 231
+< X-Xss-Protection: 1;  mode=block
+< Date: Tue, 19 Sep 2023 06:01:59 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Location: https://osdr.nasa.gov//
+< Server: Apache

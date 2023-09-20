@@ -1,0 +1,9 @@
+GET http://ava.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 233
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:01:53 GMT
+< Server: 
+< Location: https://ava.jpl.nasa.gov/

@@ -1,0 +1,23 @@
+GET https://cso.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Link: <https://cso.nasa.gov/wp-json/>; rel="https://api.w.org/"
+< Link: <https://cso.nasa.gov/>; rel=shortlink
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+< Content-Type: text/html; charset=UTF-8
+< Server: nginx
+< Strict-Transport-Security: max-age=31536000
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: spo_24_fa=935e3689fad16f61c353f4ab5c9fdf27; expires=Tue, 19-Sep-2023 06:28:33 GMT; Max-Age=1800; path=/cso/
+< Set-Cookie: PHPSESSID=2407eff49848bd6aa9f421182b744f33; path=/; secure; HttpOnly
+< Access-Control-Allow-Credentials: true
+< Date: Tue, 19 Sep 2023 05:58:34 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Access-Control-Allow-Origin: *

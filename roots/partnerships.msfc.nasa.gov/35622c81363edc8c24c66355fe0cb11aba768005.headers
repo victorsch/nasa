@@ -1,0 +1,13 @@
+GET http://partnerships.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:02:48 GMT
+< Content-Length: 167
+< X-Amz-Cf-Pop: JFK52-P3
+< Via: 1.1 6ca3dc9afd6f12cee41f6246e0c4aa8e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: M_8RX5VdFXqowYkpzwcQ8QcW0TXNeCsR5gkwkesbzEn5UEvloXsYcw==
+< Content-Type: text/html
+< Location: https://partnerships.msfc.nasa.gov/
+< X-Cache: Redirect from cloudfront

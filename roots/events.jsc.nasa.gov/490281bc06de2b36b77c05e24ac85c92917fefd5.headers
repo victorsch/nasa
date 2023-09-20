@@ -1,0 +1,18 @@
+GET https://events.jsc.nasa.gov
+
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block
+< Accept-Ranges: bytes
+< Etag: W/"379-1684962672231"
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:59:36 GMT
+< X-Powered-By: appdat
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Type: text/html
+< Content-Length: 379
+< Content-Security-Policy: script-src 'unsafe-inline' 'self' google-analytics.com *.google-analytics.com nasa.gov *.nasa.gov dap.digitalgov.gov
+< Last-Modified: Wed, 24 May 2023 21:11:12 GMT

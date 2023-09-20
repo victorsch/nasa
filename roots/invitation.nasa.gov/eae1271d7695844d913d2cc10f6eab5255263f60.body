@@ -1,0 +1,247 @@
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>NASA Identity Invitation</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<meta name="_csrf_parameter" content="_csrf" /><meta name="_csrf_header" content="X-CSRF-TOKEN" /><meta name="_csrf" content="0ebc972f-eeab-43c8-a2b9-7c567b10fc8b" />
+		
+		<link rel="shortcut icon" href="/img/NASA-Icon.ico" />
+		
+		<link href="/webjars/jquery-ui/1.13.2/jquery-ui.min.css" rel="stylesheet"/>
+		
+		<link href="/webjars/jquery-ui/1.13.2/jquery-ui.theme.min.css" rel="stylesheet"/>
+		
+		<link href="/webjars/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet"/>
+		
+		<link href="/webjars/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+		
+		<link href="/webjars/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+		
+		<link href="/webjars/smartwizard/5.1.1/dist/css/smart_wizard.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="/css/parsley-2.6.0.css" />
+		<link rel="stylesheet" type="text/css" href="/css/invitation.css" />
+		<link rel="stylesheet" type="text/css" href="/css/sw-theme-arrows-custom.css" />
+		
+	  	
+		<script src="/webjars/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+	  	
+		<script src="/webjars/jquery-ui/1.13.2/jquery-ui.min.js"></script>
+	  	<script type="text/javascript" src="/js/bbq.js"></script>
+		
+		<script src="/webjars/popper.js/2.9.3/umd/popper.min.js"></script>
+	  	
+    	<script src="/webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+	  	<script type="text/javascript" src="/js/parsley.custom.validators.js"></script>
+	  	<script type="text/javascript" src="/js/parsley.min-2.6.0.js"></script>
+		
+		<script src="/webjars/jquery-dateFormat/1.0.2/jquery-dateFormat.min.js"></script>
+		<script type="text/javascript" src="/js/csrf-helper.js"></script>
+		
+		<script src="/webjars/smartwizard/5.1.1/dist/js/jquery.smartWizard.min.js"></script>
+	</head>
+	
+	<body class="main-body">	
+		<noscript>
+			<meta HTTP-EQUIV="refresh" content="0;url='/javascriptNotEnabled'" />
+		</noscript>
+		
+		<div>
+			
+
+<header id="header" role="banner">
+	<div id="header-content" class="container">
+			<a id="masthead" title="NASA Identity Invitation">
+     			<img src="/img/nasa-logo.png" alt="NASA Logo"/>
+     			<span class="masthead-title">NASA Identity Invitation</span>
+    		</a>
+	</div>
+</header>
+		</div>
+
+		<div>
+			<!-- This div contains error message content that can be displayed on any page by passing in the "errorMessage" param in the model -->
+			<div id="main-content" class="container" role="main">
+			    
+			    
+			    
+			</div>
+			
+			
+
+
+
+<div class="container">
+	<div class="card">
+ 		<div class="card-header bg-primary">
+  			<h2 class="card-title h5">Login</h2>
+ 		</div>
+ 		<div class="card-body">
+ 			<div class="row">
+		 		<div class="col-sm-5">
+		 		<form id="loginPage" novalidate="novalidate" data-parsley-validate="true" action="invitation" method="POST">
+		 			<div class="mb-3">
+			 			<div class="mb-3">
+			 				<label class="col-form-label" for="passPhrase"><span aria-label='Required' class='fa fa-asterisk required'></span>Passphrase</label>
+				 			<div class="row invitation-form-row">
+				 				<div class="col-sm">
+				 					<div class="inline">
+				 						<input id="passPhrase" name="passPhrase" data-parsley-required-message="The Passphrase is required." name="passPhrase" data-parsley-required="required" class="form-control medium-width" data-parsley-errors-container="#passPhraseErrorsContainer" type="text" value=""/> 
+							 			<a id="passphrase-popover" tabindex="0" role="button" 
+							 				class="btn-link collapse-panel-info-link popover-dismiss" 
+								 			data-bs-container="body" 
+								 			data-bs-toggle="popover" 
+								 			data-bs-trigger="focus" 
+								 			data-bs-placement="right" 
+								 			data-bs-content="Enter the Passphrase you received in the second Identity Invitation email.">
+											<span class='fa fa-info-circle'></span>
+										</a>
+				 					</div>
+				 				</div>
+				 			</div>
+				 			<div class="row error-container-row">
+				 				<div id="passPhraseErrorsContainer" class="col-sm medium-width"></div>
+				 			</div>
+		      			</div>
+					    <fieldset class="mb-3">
+					    	<legend class="col-form-label"><span aria-label='Required' class='fa fa-asterisk required'></span>Citizenship</legend>
+						    <input id="citizenship" name="citizenship" aria-labelledby="usRadioLabel" data-parsley-required-message="Citizenship is required." data-parsley-required="required" type="radio" value="1"/>
+					       	<span id="usRadioLabel">&nbsp;I am a US or Naturalized US Citizen. </span><br />
+					        <input id="citizenship" name="citizenship" aria-labelledby="lprRadioLabel" data-parsley-required-message="Citizenship is required." data-parsley-required="required" type="radio" value="2"/>
+					        <span id="lprRadioLabel">&nbsp;I am a Lawful Permanent US Resident. </span><br />
+ 					        <input id="citizenship" name="citizenship" aria-labelledby="fnRadioLabel" data-parsley-required-message="Citizenship is required." data-parsley-required="required" type="radio" value="3"/> 
+					        <span id="fnRadioLabel">&nbsp;I am NOT a United States Citizen.</span>
+				        </fieldset>
+				 		<input id="terms" name="terms" title="Agree with Terms of Service" type="checkbox" value="Y"/><input type="hidden" name="_terms" value="on"/>
+				        &nbsp;<span aria-label='Required' class='fa fa-asterisk required'></span>I have read and agree with the Terms of Service
+				        <br/>
+				        <input id="pra" name="pra" title="Agree with Paperwork Reduction Act" type="checkbox" value="Y"/><input type="hidden" name="_pra" value="on"/>
+				        &nbsp;<span aria-label='Required' class='fa fa-asterisk required'></span>I have read and agree with the Paperwork Reduction Act
+			        </div>
+		       		<input class="btn btn-primary" type="submit" id="loginButton" disabled aria-label="Press Enter to Sign In" value="Sign In">
+		 			<input type="hidden" id="requestKey" name="ek" value="null"/>
+		 		<div>
+<input type="hidden" name="_csrf" value="0ebc972f-eeab-43c8-a2b9-7c567b10fc8b" />
+</div></form>
+		 		</div>
+				<div id="policyStatementContainer" class="col-sm-7" style="border-left: 2px solid lightgray">
+					<div class="card float-end">
+						<div class="card-header bg-info-light">
+				     		<h2 class="card-title text-info-light h5" tabindex="0">Terms of Service</h2>
+ 				    	</div>
+ 				    	<div class="card-body">
+							<p tabindex="0"><strong>By accessing and using this information system, you acknowledge and consent to the following:</strong> <br/>You are accessing a U.S. Government information system, which includes: (1) this computer; (2) this computer network; (3) all computers connected to this network including end user systems; (4) all devices and storage media attached to this network or to any computer on this network; and (5) cloud and remote information services. This information system is provided for U.S. Government-authorized use only. You have no reasonable expectation of privacy regarding any communication transmitted through or data stored on this information system.  At any time, and for any lawful purpose, the U.S. Government may monitor, intercept, search, and seize any communication or data transiting, stored on, or traveling to or from this information system. You are NOT authorized to process classified information on this information system.  Unauthorized or improper use of this system may result in suspension or loss of access privileges, disciplinary action, and civil and/or criminal penalties.</p>
+				    	</div>
+					</div>
+					<div class="card float-end">
+						<div class="card-header bg-info-light">
+				     		<h2 class="card-title text-info-light h5" tabindex="0">Paperwork Reduction Act</h2>
+				    	</div>
+				    	<div class="card-body">
+ 							<p tabindex="0">This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for this collection is 2700-0158 and expires on 02/28/2026. We estimate that it will take five (5) minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding the time estimate to: <a href="mailto:james.p.nicholas@nasa.gov?subject=Paperwork Reduction Act time estimate comments">james.p.nicholas@nasa.gov</a></p>
+				    	</div>
+					</div>
+					<div class="card float-end">
+						<div class="card-header bg-info-light">
+							<h2 class="card-title text-info-light h5" tabindex="0">Privacy Policy</h2>
+						</div>
+						<div class="card-body">
+							<div tabindex="0">
+								<p>AUTHORITY:  42 U.S.C. 2451, et seq., the National Aeronautics and Space Act of 1958, as amended</p>
+								<p>PURPOSE:  To collect information from persons requesting access to NASA assets and/or resources
+									in order to establish an identity and determine eligibility for access.</p>
+								<p>ROUTINE USES:  Use and disclosure of your records within and outside of NASA may occur in accordance
+									with the NASA Security Records Systems (NASA 10SECR) system of records notice published at
+									<a target="_blank" href="https://www.nasa.gov/content/nasa-privacy-act-system-of-records-notices-sorns">https://www.nasa.gov/content/nasa-privacy-act-system-of-records-notices-sorns</a>
+									and as permitted by the Privacy Act of 1974, as amended (5 U.S.C. 552a(b)).</p>
+								<p>DISCLOSURE:  Providing this information is voluntary; however, failure to provide the requested
+									information may result in the denial of access.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+	 		</div>
+	 	</div>
+	</div> 
+</div>
+
+<script type="text/javascript">
+	$(window).on('pageshow', function(){
+		if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+			$("#loginButton").attr('disabled', false);
+		else
+			$("#loginButton").attr('disabled', true);
+	});
+
+	$(function() {
+		$(document).on('click', '#terms', function() {
+			if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+				$("#loginButton").attr('disabled', false);
+			else
+				$("#loginButton").attr('disabled', true);
+		});
+
+		$(document).on('click', '#pra', function() {
+			if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+				$("#loginButton").attr('disabled', false);
+			else
+				$("#loginButton").attr('disabled', true);
+		});
+	});
+ </script>
+<script type="text/javascript" src="/js/invitation.js"></script>
+		</div>
+		<div>
+			
+
+
+<footer id="footer" role="contentinfo">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+		    <p class="col-sm-2 text-center">Website Owner: Whitney Craig</p>
+			<p class="col-sm-2 text-center">Curator: Agency Applications Office</p>
+         	<p class="col-sm-2 text-center"><a href="#paperworkReductionModal" data-bs-toggle="modal">Paperwork Reduction Act</a><br></p>
+			<p class="col-sm-2 text-center"><a target="_blank" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a></p>
+			<span class="col-sm-4 text-center">
+			Need Help? Available 24 Hours: <br>
+			1-877-677-2123, Option 2 or esd.nasa.gov
+			 </span>
+		</div>
+	</div>  	
+</footer>
+
+
+<div id="paperworkReductionModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="paperworkLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h4 id="paperworkLabel" class="modal-title">Paperwork Reduction Act Statement</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <p>This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for this collection is 2700-0158 and expires on 02/28/2026. We estimate that it will take five (5) minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding the time estimate to: <a href="mailto:james.p.nicholas@nasa.gov?subject=Paperwork Reduction Act time estimate comments">james.p.nicholas@nasa.gov</a></p>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+
+<script type='text/javascript' src='https://mobile.neacc.nasa.gov/pulse/track.js'></script>
+<script type='text/javascript'>try { Pulse.track('IdentityInvitation', {'environment' : 'production', 'method' : 'GET', 'server' : 'aao-icam-invitation-prod-6df86fb749-nwsxb', 'status' : 200})}catch(e){}</script>
+		</div>
+	</body>
+</html>

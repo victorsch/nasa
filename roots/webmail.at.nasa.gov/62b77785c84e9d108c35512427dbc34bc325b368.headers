@@ -1,0 +1,19 @@
+GET https://webmail.at.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Powered-By: ASP.NET
+< Content-Length: 0
+< X-Feproxyinfo: BL0PR02CA0074.NAMPRD02.PROD.OUTLOOK.COM
+< Pragma: no-cache
+< Server: Microsoft-IIS/10.0
+< Ms-Cv: ibVUqJCfJEms6V8muc79ZA.0
+< Cache-Control: no-cache
+< Request-Id: a854b589-9f90-4924-ace9-5f26b9cefd64
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Feserver: BL0PR02CA0074
+< X-Feserver: BL0PR02CA0074
+< X-Requestid: a464d077-0ca4-40fa-a1e5-361ebfb75210
+< X-Feefzinfo: MNZ
+< Date: Tue, 19 Sep 2023 05:58:19 GMT
+< Location: https://outlook.office365.com/owa/

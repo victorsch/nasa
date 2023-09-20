@@ -1,0 +1,10 @@
+GET https://seadas.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Content-Security-Policy: upgrade-insecure-requests; default-src 'self' 'unsafe-inline' 'unsafe-eval' data: oceancolor.gsfc.nasa.gov *.google.com *.gstatic.com *.googleapis.com www.googletagmanager.com www.google-analytics.com www.youtube.com s.ytimg.com stats.g.doubleclick.net dap.digitalgov.gov cdn.earthdata.nasa.gov api.ipify.org *.cloudflare.com maxcdn.bootstrapcdn.com platform.twitter.com;
+< Strict-Transport-Security: max-age=31536000; includesubdomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:56:11 GMT

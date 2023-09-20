@@ -1,0 +1,12 @@
+GET https://employeeorientation.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: 
+< Content-Length: 151
+< Content-Type: text/html; charset=UTF-8
+< Location: https://www.nasa.gov/careers
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self' https://employeeorientation.nasa.gov/
+< Date: Tue, 19 Sep 2023 05:55:35 GMT

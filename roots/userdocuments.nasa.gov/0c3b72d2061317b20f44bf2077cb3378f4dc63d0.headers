@@ -1,0 +1,18 @@
+GET https://userdocuments.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Date: Tue, 19 Sep 2023 05:58:17 GMT
+< Expires: 0
+< Pragma: no-cache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< Server: Apache
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: _acf3c=3350080e7f6af068; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=3D805ED0AA53450DC231C549745FE7FB; Path=/; Secure; HttpOnly
+< Set-Cookie: 36543c2f42ed6832f6909a46fc5e2c98=d40c0de400659ac814dfb4a8ac426af9; path=/; HttpOnly; Secure; SameSite=None
+< X-Frame-Options: DENY

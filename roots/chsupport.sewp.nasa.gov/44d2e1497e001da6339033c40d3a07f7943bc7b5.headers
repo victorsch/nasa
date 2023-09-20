@@ -1,0 +1,7 @@
+GET http://chsupport.sewp.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://chsupport.sewp.nasa.gov/
+< Content-Type: text/html
+< Content-Length: 185

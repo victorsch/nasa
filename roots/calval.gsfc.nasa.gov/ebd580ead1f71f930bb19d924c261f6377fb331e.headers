@@ -1,0 +1,10 @@
+GET https://calval.gsfc.nasa.gov
+
+
+< HTTP/1.1 401 Unauthorized
+< Date: Tue, 19 Sep 2023 06:00:27 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< Www-Authenticate: Basic realm="Calibration and Validation Restricted Files - email: Lawrence.Ong@nasa.gov for login info"
+< Content-Length: 381
+< Content-Type: text/html; charset=iso-8859-1

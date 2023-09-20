@@ -1,0 +1,17 @@
+GET http://www.hq.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 19 Sep 2023 05:50:15 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://www.hq.nasa.gov/
+< Server: CloudFront
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: 8pTMV4xPuEaQCS673cgbwqOHJ0S5d9IpzHg2VfE_2Evp1i52icDfPg==
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 a147f9c60c162e36df3586fdd9c01478.cloudfront.net (CloudFront)
+< X-Content-Type-Options: nosniff

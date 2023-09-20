@@ -1,0 +1,14 @@
+GET http://www.nas.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:50:21 GMT
+< Server: Apache
+< Set-Cookie: session=expiry=1695103221362982;Max-Age=600;path=/; HttpOnly; Secure;
+< Set-Cookie: session=expiry=1695103221362982;Max-Age=600;path=/; HttpOnly; Secure;
+< Content-Length: 233
+< Content-Type: text/html; charset=iso-8859-1
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Location: https://www.nas.nasa.gov/
+< Cache-Control: no-cache, private

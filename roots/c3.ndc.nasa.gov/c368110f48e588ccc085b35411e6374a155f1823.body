@@ -1,0 +1,180 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        
+        <title>C3 - C3 Command and Control Center</title>
+        
+            <link rel="shortcut icon" href="/c3/static/htdocs/site/base/img/meatball-favicon.ico">
+        
+        
+        
+
+
+        
+            <link rel="stylesheet" href="/c3/static/htdocs/site/base/css/foundation.css">
+        
+
+        
+            
+
+            <link href="/c3/static/htdocs/site/base/css/label.css" rel="stylesheet" type="text/css" />
+            <link href="/c3/static/htdocs/site/base/css/form.css" rel="stylesheet" type="text/css" />
+            <link href="/c3/static/htdocs/site/base/css/table.css" rel="stylesheet" type="text/css" />
+            <link href="/c3/static/htdocs/site/base/css/comment.css" rel="stylesheet" type="text/css" />
+            <link href="/c3/static/htdocs/site/base/css/core.css" rel="stylesheet" type="text/css" />
+            <link href="/c3/static/htdocs/site/base/css/typography.css" rel="stylesheet" type="text/css" />
+        
+        
+        
+        
+        
+    <link href="/c3/static/htdocs/site/ccc/css/main_page.css" rel="stylesheet" type="text/css" />
+    <link href="/c3/static/htdocs/site/ccc/css/typography_dash.css" rel="stylesheet" type="text/css" />
+    <link href="/c3/static/htdocs/site/ccc/css/banner.css" rel="stylesheet" type="text/css" /> 
+    <link href="/c3/static/htdocs/site/ccc/css/core_dash.css" rel="stylesheet" type="text/css" />
+
+
+        
+        
+
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/vendor/custom.modernizr.js"></script>
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/vendor/jquery.js"></script>
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/foundation.min.js"></script>
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/foundation/foundation.topbar.js"></script>
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/foundation/foundation.reveal.js"></script>
+        <script type="text/javascript" src="/c3/static/htdocs/site/base/js/c3_js.js"></script>
+
+        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC"></script>
+        
+        
+            
+        
+    </head>
+
+    
+
+    <body id="home" >
+        <div class="wrapper">
+            <div id="skipnav">
+                <ul class="hideme">
+                    <li><a href="#skippy">Skip Navigation</a></li>
+                    <li><a href="#right_sidebar">User Sidebar</a></li>
+                </ul>
+            </div> 
+
+            
+
+            
+    <div id="banner-wrap">
+        
+
+
+<div class="row">
+    <img src="/c3/static/htdocs/site/base/img/meatball-top.png" style="float: left; margin: 6px 6px;"><h1 style="color: #aaa; margin: 13px 5px; float:left;">C3 Control Center</h1>
+</div>
+
+    </div>
+
+            <a name="skippy"></a>
+            <section >
+                
+                <div id="heading" class="row heading">
+                    <div class="large-12 columns">
+                        
+
+
+                        
+                    </div>
+                </div>
+
+                
+                <a name="skippy"></a>
+                <div id="main_content" class="row">
+                    
+                        <div class="large-12 columns m_col" id="main_column">
+                            
+
+
+<h1>C3 Sites</h1>
+<div>
+ <ul>
+  
+  <li  style="padding: 0px">
+    <div class="content">
+      <h2><a class="project" href="https://c3.nasa.gov/">C3</a></h2>
+    </div>
+  </li>
+  
+  <li  style="padding: 0px">
+    <div class="content">
+      <h2><a class="project" href="https://c3.nasa.gov/dashlink/">DASH<i>link</i></a></h2>
+    </div>
+  </li>
+  
+  <li  style="padding: 0px">
+    <div class="content">
+      <h2><a class="project" href="https://genelab-data.ndc.nasa.gov/genelab/">GeneLab Data</a></h2>
+    </div>
+  </li>
+  
+  <li class="last" style="padding: 0px">
+    <div class="content">
+      <h2><a class="project" href="https://c3.nasa.gov/water/">Water</a></h2>
+    </div>
+  </li>
+  
+  </ul>
+</div><!--featured -->
+
+<div style="margin=60px 60px;">&nbsp;</div>
+
+
+
+                        </div> 
+                    
+                </div>
+
+                
+                <div id="bottom_content" class="row">
+                    <div class="large-12 columns">
+                        
+                    </div>
+                </div>
+            </section>
+            <div class="push"></div>
+        </div>
+
+        
+
+<footer id="footer">
+    <div class="row" style="background-color:#333;">
+        <div id="footer_body">
+            <ul class="official inline-list">
+                <li>Responsible NASA official: Sonie Lau</li>
+                
+                    <li>Curator: ASANI Solutions</li>
+                
+            </ul>
+        </div>
+        <div id="footer_body">
+            <ul class="official inline-list">
+                <li><a style="margin: 0px;" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Notices</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+    
+</html>

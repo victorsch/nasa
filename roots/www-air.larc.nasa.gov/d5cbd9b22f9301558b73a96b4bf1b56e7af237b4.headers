@@ -1,0 +1,12 @@
+GET https://www-air.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:03:16 GMT
+< Server: Apache
+< Last-Modified: Tue, 12 Sep 2023 23:04:15 GMT
+< X-Frame-Options: DENY
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000
+< Accept-Ranges: bytes
+< Content-Length: 24122

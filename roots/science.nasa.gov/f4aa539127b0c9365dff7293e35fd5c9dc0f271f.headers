@@ -1,0 +1,24 @@
+GET https://science.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Etag: "1695098703-1"
+< X-Amz-Cf-Id: CsFv9cqswWWI0D2k4G7Ovtjt7niBF014jq8Eg1Ml_rQ4KC3iJFge_A==
+< Server: NASA
+< Strict-Transport-Security: max-age=31536000
+< X-Nginx-Cache-Status: EXPIRED
+< X-Ua-Compatible: IE=edge,chrome=1
+< Vary: Accept-Encoding
+< X-Amz-Cf-Pop: PHL50-C1
+< Content-Language: en
+< Cache-Control: public, max-age=60
+< Date: Tue, 19 Sep 2023 05:57:18 GMT
+< X-Cache: RefreshHit from cloudfront
+< Via: 1.1 0e456968e63d1e7575028bb48aa8e96a.cloudfront.net (CloudFront)
+< Last-Modified: Tue, 19 Sep 2023 04:45:03 GMT
+< X-Drupal-Cache: HIT
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block

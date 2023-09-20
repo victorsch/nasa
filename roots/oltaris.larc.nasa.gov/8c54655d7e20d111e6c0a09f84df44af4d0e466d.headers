@@ -1,0 +1,22 @@
+GET https://oltaris.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Powered-By: Phusion Passenger 6.0.2
+< Set-Cookie: _oltaris_session=7nQq%2FGu%2FlNzRuDggX9UiSFRtF%2Bbq2eV8AUCt8tVSIeK9nW1QcmkisMFkjrDxvTK4SOF%2Bd9EMd2ZQUCZ%2FEG3vk63S9axpzWyLt7bjgD%2FyDGf7wfXcYtetQFTCirkumvQuevreFyyntvoLwQAoJWzvTsfvFWiYxi8pa%2FKO8ynaltexiCehuHsYCLHJXiFbKUZ8%2BVtSP8do%2FZ%2FrKVRLVPiHPstiWb%2BrnNHOxNGBWpkLS4h6ISb0pXV6D70acNol5Q8ADtCWrI66RlExQUryThtZ%2BhpknVzBB9Ti--3fK72yLIQOHbinBH--txK4npZcHd3dwokazufF4Q%3D%3D; path=/; HttpOnly; SameSite=Lax
+< Etag: W/"e13ca04e3755b349a360d0f618f15e98"
+< Status: 200 OK
+< Cache-Control: max-age=0, private, must-revalidate
+< X-Permitted-Cross-Domain-Policies: none
+< X-Request-Id: d2c09f1c-e879-4979-a168-221a4f4eb2af
+< Link: </assets/signin_page-fb3487548e19d9d985d68c3123b5cf8d161a2195a0091d74603636cb37211ccc.css>; rel=preload; as=style; nopush
+< X-Download-Options: noopen
+< Server: Apache
+< X-Xss-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 05:53:50 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Runtime: 0.008574
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

@@ -1,0 +1,13 @@
+GET http://crgis.ndc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: TGn1hwI9ChiutesXOQuRmIzsV9cXjYSKsxJAi_u44Xb8b2Y8LduRfg==
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 7e35b683005d768b7c720f84f8a9e476.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:59:46 GMT
+< Location: https://crgis.ndc.nasa.gov/

@@ -1,0 +1,10 @@
+GET http://women.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Location: https://women.nasa.gov/
+< Content-Length: 231
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:44:30 GMT
+< Server: 

@@ -1,0 +1,18 @@
+GET https://cxfmea-cil.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:57:41 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< Pragma: no-cache
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Security-Policy: default-src 'self' *.nasa.gov ; script-src 'self' *.nasa.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+< Expires: 0
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Delivered-By: CGI

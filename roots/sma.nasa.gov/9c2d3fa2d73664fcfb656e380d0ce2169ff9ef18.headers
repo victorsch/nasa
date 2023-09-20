@@ -1,0 +1,7 @@
+GET http://sma.nasa.gov
+
+
+< HTTP/1.1 302 Object moved
+< Location: https://sma.nasa.gov:443/
+< Content-Length: 74
+< Content-Type: text/html

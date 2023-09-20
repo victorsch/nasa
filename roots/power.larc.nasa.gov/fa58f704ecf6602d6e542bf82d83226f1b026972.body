@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Provides solar and meteorological data sets from NASA research for support of renewable energy, building energy efficiency and agricultural needs.">
+  <meta name="author" content="Paul Stackhouse">
+
+  <title>NASA POWER | Prediction Of Worldwide Energy Resources</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Temporary Beta DAV Icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Bootstrap Core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link href="/css/new-age.min.css" rel="stylesheet">
+
+  <link href="/css/custom-styling.css" rel="stylesheet">
+  
+  <script src="https://status.earthdata.nasa.gov/assets/banner_widget.js"></script>
+
+  <script type="text/javascript" src="/vendor/jquery/jquery.min.js"> </script>
+  <script type="text/javascript" src="/vendor/jquery/jquery-ui.min.js"> </script>
+
+  <script>
+    if (top.frames.length != 0) { top.location = self.document.location; }
+  </script>
+
+  <script>
+    $(function () {
+
+      $("document").ready(function () {
+
+        $('#register').click(function () {
+          ga('send', 'event', 'Website', 'Button Click', 'Register');
+        })
+        $('#rel').click(function () {
+          ga('send', 'event', 'Website', 'Button Click', 'Release Notes');
+        })
+        $('#pub').click(function () {
+          ga('send', 'event', 'Website', 'Button Click', 'Publications');
+        })
+        $('#faq').click(function () {
+          ga('send', 'event', 'Website', 'Button Click', 'FAQ');
+        })
+        $('#mth').click(function () {
+          ga('send', 'event', 'Website', 'Button Click', 'Documentation');
+        })
+
+        var getAbsoluteUrl = (function () {
+          var a;
+          return function (url) {
+            if (!a) a = document.createElement('a');
+            a.href = url;
+            return a.href;
+          };
+        })();
+
+        parameters_json = getAbsoluteUrl('/api/system/manager/system/parameters')
+
+        $.getJSON(parameters_json, function (data) {
+
+        })
+          .done(function (data) {
+            
+            parameters_json_data = data;
+
+            for (parameter_abbreviation in parameters_json_data) {
+              parameter = data[parameter_abbreviation]
+              $('#parameterDictSelect').append('<option value="' + parameter_abbreviation + '">' + parameter["longname"] + '</option>');
+            }
+          })
+          .fail(function (data) {
+            $('#mount2').css('display', 'block')
+          })
+          .always(function (data) {
+          });
+      })
+
+      $("#parameterDictSelect").change(function () {
+
+        var userSelection = $("#parameterDictSelect option:selected").val();
+
+        for (parameter_abbreviation in parameters_json_data) {
+          parameter = parameters_json_data[parameter_abbreviation]
+          $('#alias').css('display', 'block')
+          $('#stat').css('display', 'block')
+          $('#unit').css('display', 'block')
+          if (parameter_abbreviation == userSelection) {
+            $("#paramInfo").empty()
+            $("#aliases").empty()
+            $("#stats").empty()
+            $("#units").empty()
+            
+            var paramInfo = "<h4><b>Name:</b> " + parameter["longname"] + "</h4>" + "<h4><b>Abbreviation:</b> " + userSelection + "</h4>" + "<h4><b>Definitions: </b></h4>" + "<p style=\"margin-left:5%;\"><b>Climatology:</b> " + parameter["definition"]['CLIMATOLOGY'] + "</p>" + "<p style=\"margin-left:5%;\"><b>Monthly & Annual:</b> " + parameter["definition"]['MONTHLY'] + "</p>" + "<p style=\"margin-left:5%;\"><b>Daily:</b> " + parameter["definition"]['DAILY'] + "</p>" + "<p style=\"margin-left:5%;\"><b>Hourly:</b> " + parameter["definition"]['HOURLY'] + "</p>"
+
+            var aliasesInfo = "<h4>Aliases</h4>" + "<p>" + parameter["longname"] + "</p>"
+
+            var statsInfo = "<h4>Statistics Available</h4>" + "<p>" + parameter["temporal"].join(", ") + "</p>"
+
+            var unitsInfo = "<h4>Units Available</h4>" + "<p><b>Agroclimatology:</b> " + parameter["units"]["AG"] + "<br><b>Sustainable Buildings:</b> " + parameter["units"]["SB"] + "<br><b>Renewable Energy:</b> " + parameter["units"]["RE"] + "</p>"
+
+            $(paramInfo).appendTo("#paramInfo");
+            $(aliasesInfo).appendTo("#aliases");
+            $(statsInfo).appendTo("#stats");
+            $(unitsInfo).appendTo("#units");
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    //UA-85370454-1 - dev
+    //UA-101183444-1 - prod
+    wurl = window.location.href;
+    var n = wurl.includes("dev-");
+    if (n) { gid = "UA-85370454-1" }
+    else { gid = "UA-101183444-1" }
+
+    ga('create', gid, 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <style>
+    #banner2 {
+      top: 30px;
+      z-index: 9999;
+      word-wrap: break-word;
+    }
+
+    #parameterDictSelect {
+      width: 90%
+    }
+
+    #earthdata-notification-banner {
+      top: 60px;
+      z-index: 9999;
+      width: 100%
+    }
+
+    .modal-dialog {
+      width: 900px
+    }
+
+    table#paramstablet td {
+      padding: 6px
+    }
+
+    table#paramstablet td {
+      padding: 6px;
+      background-color: #FC9A3F;
+    }
+
+    table#paramstablet tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+
+    table#releasetable td {
+      padding: 6px;
+      width: 25%
+    }
+
+    table#releasetable .tr {
+      padding: 6px;
+      background-color: #FC9A3F;
+    }
+
+    table#releasetable tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+
+    table#releasetable ul {
+      padding-left: 20px
+    }
+
+    .centering{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+  </style>
+
+  <style>
+    /*Temporary styling for beta dav banner.*/
+    #beta-dav-message {
+      background-color: rgb(255, 165, 0);
+      color: #000;
+      font-size: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      line-height: 30px;
+    }
+
+    #beta-dav-message a {
+      color: #093949;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #beta-dav-message a:hover {
+      color: #127191;
+    }
+
+    .warning-icon {
+      width: 20px;
+      margin: 0px 5px;
+      /*margin-top: 2.5px;*/
+      vertical-align: middle;
+    }
+
+    #mainNav {
+      margin-top: 30px;
+    }
+
+    .btn-chip {
+      background-color: #D3D3D3;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px 20px 20px 20px;
+      
+    }
+
+    .btn-chip-yellow {
+      background-color: rgb(255, 165, 0);
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 800,
+      'GRAD' 0,
+      'opsz' 48;
+      font-size: 25px;
+      margin-top: 2.5px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    /*End of temporary styling for beta dav banner.*/
+  </style>
+
+  <script type="text/javascript">
+    function chbg(name, color) {
+        document.getElementById(name).style.backgroundColor = color;
+    }
+    
+    function expandBlue(el) {
+      if (el.classList.contains('unexpanded-blue')) {
+        el.classList.remove('unexpanded-blue');
+        el.classList.add('expanded-blue');
+      } else {
+        el.classList.add('unexpanded-blue');
+        el.classList.remove('expanded-blue');
+      }
+    }
+
+    let isMobileScreen = false;
+        // changes navbar layout depending if mobile device is detected
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      isMobileScreen = true;
+    }
+    window.onscroll = function() { scrollChangeNavbar() }
+      function scrollChangeNavbar() {
+        let marginType = (isMobileScreen) ? "40px" : "30px"; 
+        // if page isn't long enough, leave
+        if (document.documentElement.scrollHeight < 1100) return;
+        // Modifies styles after scroll
+        if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25){
+          document.getElementById("mainNav").style.margin = "0px";
+          //Goes back to initial styles when goes back to top of page
+        } else {
+          document.getElementById("mainNav").style.margin = marginType;
+        }
+      }
+  </script>
+
+</head>
+<body id="page-top">
+  <!--temporary banner for beta dav message-->
+  <div id="beta-dav-message" class="banner">
+    <span class="material-symbols-outlined warning-icon">info</span>
+    <span style="font-size: 20px;">Check out the newly released <a href="/beta/data-access-viewer/">enhanced Data Access Viewer</a>. We welcome your feedback at <a href="mailto:larc-power-project@mail.nasa.gov" target="_blank">larc-power-project@mail.nasa.gov</a>.</span>
+    <span class="material-symbols-outlined warning-icon">info</span>
+  </div>
+  <!--end of temporary message-->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    
+    <div class="container">
+      
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        </button>
+        <a style='padding-top: 5px' class="navbar-brand page-scroll" href="#page-top">
+          <table>
+            <tr>
+              <th><img alt='NASA Logo' src='/img/nasa_small.png'/></th>
+              <th><img alt='POWER Logo' src='/img/power_small.png'/></th>
+              <th class='visible-xs'><b>&nbsp;&nbsp;POWER</b></th>
+              <th class='hidden-xs'>&nbsp;&nbsp;<b>NASA</b> <b>P</b>rediction <b>O</b>f <b>W</b>orldwide <b>E</b>nergy <b>R</b>esources</th>
+            </tr>
+          </table>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#dataaccess">Data Access</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#documentation">Documentation</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#resources">Resources</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <header class="main-gloco-header" style='overflow-x: hidden'>
+    <div class="container features" style='height:100vh'>
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="header-content">
+            <div class="header-content-inner">
+              <div class='hidden-xs'><br><br><br><br></div>
+              <div class='visible-xs'><br><br><br><br><br><br><br><br><br></div>
+              <h1><b>The POWER Project</b></h1>
+              <h4>Provides solar and meteorological data sets from NASA research for support of renewable energy, building energy efficiency and agricultural needs.</h4>
+              <br class="first-level-breaks">
+              <h4><em>Supported by NASA Earth Science's <a href='https://science.nasa.gov/earth-science/applied-sciences' style="color:rgb(255, 165, 0); text-decoration:underline;">Applied Sciences Program</a></em></h4>
+              <br class="first-level-breaks">
+              <h3>POWER's Web-Based Docs Pages</h3>
+              <h4>
+                &nbsp;&nbsp;&nbsp;&nbsp;> <a href='/docs/methodology/' style="color:rgb(255, 165, 0); text-decoration:underline;">Data Methodology</a>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;> <a href='/docs/services/' style="color:rgb(255, 165, 0); text-decoration:underline;">Data Services Documentation</a>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;> <a href='/docs/tutorials/' style="color:rgb(255, 165, 0); text-decoration:underline;">Data Access Tutorials</a>
+                <br>
+              </h4>
+              <br class="first-level-breaks">
+              <h4>POWER is hosting its <b>2nd Annual Virtual Global Community (GloCo) Summit event</b> scheduled to be held on <b>October 11th & 12th, 2023</b>. You can view registration information, the agenda, and last year's event recordings here: <a href='/global-community-summit-2023/' style="color:rgb(255, 165, 0); text-decoration:underline;">2023 GloCo Event Page</a>!</h4>
+            </div>
+          </div>
+        </div>
+        <div class="header-globe-container hidden-md col-lg-6">
+          <div class='hidden-xs'><br><br><br><br></div>
+          <div class='visible-xs'><br><br><br><br><br><br><br><br><br></div>          
+          <img class="header-globe" src="/img/main_globe.png" alt="Globe" style='width: 160%; height: 73%'>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="earthdata-notification-banner"></div>
+
+  <!-- ==== NEW FEATURES ==== -->
+  <section id="dataaccess" class="dataaccess" style='padding-top: 40px'>
+    <div class="container">
+      <div class="row">
+        <div class="section-heading text-center">
+          <div class="section-heading" style='margin-bottom:70px'>
+            <h2>Multiple Data Access Options</h2>
+            <div id='mount2' class="alert alert-danger" role="alert"
+              style='color:white; background-color:#dd4b39; display:none'>
+              <h4><b>NOTICE</b></h4>
+              <p>POWER data access appears to be temporarily unavailable. Parameter information and data may be inaccessible at this time. Please try again shortly and we apologize for this inconvenience. If you have any questions please do not hesitate to contact the <a href="mailto:larc-power-project@mail.nasa.gov" style='color:white'>POWER team</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7 col-md-offset-0 hidden-xs">
+          <img class="centering" alt='POWER Data Access Viewer' src="/img/dav_access_tools.png"><!--src='img/access_tools.png'-->
+        </div>
+        <div class="col-md-5 col-md-offset-0"><br>
+          <h2>Data Access Viewer</h2>
+          <h3>Responsive web mapping application providing data subsetting, charting, and visualization tools in an easy-to-use interface.</h3>
+          <br>
+          <!--temporary button change for beta, before old dav is decommissioned-->
+          <a id='c1' style='color: white;display:flex;justify-content:center;' href="/data-access-viewer/" class="btn btn-outline btn-xl page-scroll" onmouseover="chbg('c1-sub-btn', '#127191')" onmouseout="chbg('c1-sub-btn', '#D3D3D3')">
+            <b>Data Access Viewer
+              <span id="c1-sub-btn" class="btn-chip">Classic</span>
+            </b>
+          </a>
+          <br>
+          <a id='c6' style='color: white;display:flex;justify-content:center;' href="/beta/data-access-viewer/" class="btn btn-outline btn-xl page-scroll" onmouseover="chbg('c6-sub-btn', '#127191')" onmouseout="chbg('c6-sub-btn', 'rgb(255, 165, 0)')">
+            <b>Enhanced Data Access Viewer
+              <span id="c6-sub-btn" class="btn-med btn-chip btn-chip-yellow">Beta</span>
+            </b>
+          </a>
+          <!--end-->
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1"><br><br>
+          <h2>API Services Catalog</h2>
+          <h3>Access the POWER data holdings through your own custom scripts and scalable applications.</h3>
+          <br>
+          <a id='c2' style='color: white;display:flex;justify-content:center;' href="/docs/services/api/" class="btn btn-outline btn-xl page-scroll"><b>POWER Services Catalog Documentation</b></a>
+          <br>
+          <a id='c3' style='color: white;display:flex;justify-content:center;' href="/api/pages/" class="btn btn-outline btn-xl page-scroll"><b>POWER API Landing Pages</b></a>
+          <br>
+          <br>
+        </div>
+        <div class="col-md-6 col-md-offset-0 hidden-xs"><br><br>
+          <img class="centering" alt='POWER API' src='/img/access_gears.png'><br><br>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-7 col-md-offset-0 hidden-xs">
+          <img class="centering" alt='POWER Image Services' src='/img/access_globe.png'>
+        </div>
+        <div class="col-md-5 col-md-offset-0"><br>
+          <h2>ArcGIS Image Services</h2>
+          <h3>GIS-Ready Time-Enabled ArcGIS Image Services for mapping, visualization, and spatial analysis.</h3>
+          <br>
+          <a id='c4' style='color: white;display:flex;justify-content:center;' href="/beta/data-access-viewer/" class="btn btn-outline btn-xl page-scroll"><b>beta Enhanced POWER Data Access Viewer</b></a><!-- <-text and hyperlink changed to reflect new beta version-->
+          <br>
+          <a id='c5' style='color: white;display:flex;justify-content:center;' href="https://nasa.maps.arcgis.com/home/group.html?id=4b75def515df430980faebca6a007465#overview" class="btn btn-outline btn-xl page-scroll"><b>NASA ArcGIS Online (AGOL)</b></a>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1"><br>
+          <h2>AWS Open Data Registry</h2>
+          <h3>Access POWER’s NetCDF and Zarr Datastore from the cloud, hosted in an Amazon Web Services (AWS) S3 Bucket.</h3>
+          <br>
+          <a id='c4' style='color: white;display:flex;justify-content:center;' href="https://registry.opendata.aws/nasa-power/" class="btn btn-outline btn-xl page-scroll"><b>AWS ODR </b></a><!-- <-text and hyperlink changed to reflect new beta version-->
+        </div>
+        <div class="col-md-6 col-md-offset-0 hidden-xs">
+          <img class="centering" alt='AWS Open Data Registry' src='/img/AWS_open_data_registry_icon.png'>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== DOCUMENTATION ==== -->
+  <section id="documentation" class="cta" style='background-repeat: no-repeat;background-attachment: fixed;'>
+    <div class="cta-content">
+      <div class="container">
+        <div class="col-md-5 col-md-offset-1">
+          <h2>POWER Docs</h2>
+          <a id='documentation_1' href="/docs/" class="btn btn-outline btn-xl page-scroll">Home</a>
+          <br>
+          <br>
+          <a id='documentation_2' href="/docs/methodology/" class="btn btn-outline btn-xl page-scroll">Data Methodology</a>
+          <br>
+          <br>
+          <a id='documentation_3' href="/docs/services/" class="btn btn-outline btn-xl page-scroll">POWER Services Catalog</a>
+          <br>
+          <br>
+          <a id='documentation_4' href="/dashboard/" class="btn btn-outline btn-xl page-scroll">POWER Services Status Dashboard</a>
+          <br>
+          <br>
+          <a id='documentation_5' href="https://forum.earthdata.nasa.gov/app.php/tag/POWER%20-%20SSE/AND?sid=57772411302fa3401a49d00fe2dd1731#" class="btn btn-outline btn-xl page-scroll">Earthdata User Forum (POWER Topics)</a>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
+
+  <!-- ==== Resources === -->
+  <section id="resources" class="bg-default" style='padding-top: 40px; padding-bottom: 30px;'>
+    <div class="container">
+      <div class="row">
+        <!-- Start Main Row -->
+        <h2 class="section-heading text-center">Resources</h2>
+        <!--Start Parameter Dictionary Row -->
+        <div class="row text-left">
+          <!--<div class="col-lg-6 col-md-4">-->
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Parameter Dictionary</h3>
+              <div>
+                <label for="parameterDictSelect">Select a parameter from the dropdown below:
+                  <select title="Select a parameter." id="parameterDictSelect" style='height: 40px;background-color:#ffffff;'>
+                    <option>Select a parameter...</option>
+                  </select>
+                </label>
+              </div>
+              <div class="row">
+                <div class="text-left caption">
+                  <!--<div id ="paramInfo" class="inner"></div>-->
+                  <div class="">
+                    <!-- Start Release Notes Section -->
+                    <div class="">
+                      <div id="paramInfo" class="caption">
+                      </div>
+                      <!--Sub items -->
+                      <div class="row">
+                        <div class="text-left caption">
+                          <div class="col-md-6 col-md-4">
+                            <!-- Start Release Notes Section -->
+                            <div id="alias" class="thumbnail bg-primary" style="display: none;">
+                              <div id="aliases" class="caption">
+                              </div>
+                            </div>
+                            <!--End Thumbnail-->
+                          </div>
+                          <!--End Release Notes Section-->
+                          <div class="col-md-6 col-md-4">
+                            <!-- Start Release Notes Section -->
+                            <div id="stat" class="thumbnail bg-primary" style="display: none;">
+                              <div id="stats" class="caption">
+                              </div>
+                            </div>
+                            <!--End Thumbnail-->
+                          </div>
+                          <!--End Release Notes Section-->
+                          <div class="col-md-6 col-md-4">
+                            <!-- Start Release Notes Section -->
+                            <div id="unit" class="thumbnail bg-primary" style="display: none;">
+                              <div id="units" class="caption">
+                              </div>
+                            </div>
+                            <!--End Thumbnail-->
+                          </div>
+                          <!--End Release Notes Section-->
+                        </div>
+                      </div><!-- end sub items -->
+                    </div>
+                    <!--End Thumbnail-->
+                  </div>
+                  <!--End Release Notes Section-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Parameter Dictionary Row -->
+      </div> <!-- End Data Access Main Row -->
+
+      <!--Start Data Chart Row -->
+      <div class="row">
+        <div class="thumbnail">
+          <div class="caption" style='text-align:center'>
+            <h2 style='font-size:30px'>Data Availability</h2>
+            <div class="alert alert-info" role="alert">Different data sets were required to produce a long time series. It is not recommended to use this time series data to assess trends across the breaks in dates listed below.</div>
+            <h3>Meteorology</h3>
+            <table class="table text-left">
+              <thead>
+                <tr>
+                  <th>Model Name</th>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                  <th>Additional Information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MERRA 2</td>
+                  <td>January 1, 1981</td>
+                  <td>Few Months Within Near-Real Time</td>
+                  <td><a href="http://gmao.gsfc.nasa.gov/" style="text-decoration:underline">Global Modeling and Assimilation Office (GMAO)</a></td>
+                </tr>
+                <tr>
+                  <td>GEOS 5.12.4</td>
+                  <td>End of MERRA 2</td>
+                  <td>To Near-Real Time</td>
+                  <td><a href="http://gmao.gsfc.nasa.gov/" style="text-decoration:underline">Global Modeling and Assimilation Office (GMAO)</a></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3>Solar Radiation</h3>
+            <table class="table text-left">
+              <thead>
+                <tr>
+                  <th>Model Name</th>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                  <th>Additional Information</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>GEWEX SRB R4-IP</td>
+                  <td>January 1, 1984</td>
+                  <td>December 31, 2000</td>
+                  <td><a href="http://gewex-srb.larc.nasa.gov/" style="text-decoration:underline">NASA/GEWEX Surface Radiation Budget (SRB) Project</a></td>
+                </tr>
+                <tr>
+                  <td>CERES SYN1deg</td>
+                  <td>January 1, 2001</td>
+                  <td>Few Months Within Near-Real Time</td>
+                  <td><a href="https://ceres.larc.nasa.gov/" style="text-decoration:underline">Clouds and the Earth’s Radiant Energy System (CERES) Project</a></td>
+                </tr>
+                <tr>
+                  <td>FLASHFlux 4</td>
+                  <td>End of CERES</td>
+                  <td>To Near-Real Time</td>
+                  <td><a href="http://flashflux.larc.nasa.gov/" style="text-decoration:underline">CERES Fast Longwave And SHortwave Radiative Fluxes (FLASHFlux)</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--End Data Chart Row -->
+      </div>
+
+      <!-- Start Row -->
+      <div class="row text-center">
+        <!-- Start Row -->
+        <div class="col-md-6 col-md-4">
+
+          <div class="thumbnail">
+            <img src="/img/notepad.png" alt=''>
+            <br>
+            <div class="caption">
+              <h3 style="display:inline"><b>Release Notes</b></h3>
+              <p>Stay in the know as we push out new changes!</p>
+              <p><a id='rel' data-toggle="modal" href="/docs/release-guide/" class="btn btn-primary text-center" role="button">POWER Release Notes</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-4">
+          <div class="thumbnail">
+            <img src="/img/documents.png" alt=''>
+            <br>
+            <div class="caption">
+              <h3 style="display:inline"><b>Publications</b></h3>
+              <p>View a categorized list of POWER Publications.</p>
+              <p><a id='pub' data-toggle="modal" href="/docs/references/publications/" class="btn btn-primary text-center" role="button">Publications</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-4">
+          <div class="thumbnail">
+            <img src="/img/question.png" alt=''>
+            <br>
+            <div class="caption">
+              <h3 style="display:inline"><b>Frequently Asked Questions</b></h3>
+              <p>View a list of Frequently Asked Questions.</p>
+              <p><a id='faq' data-toggle="modal" href="/docs/faqs/" class="btn btn-primary text-center" role="button">Read FAQs</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Row -->
+    </div>
+    <!-- End Data Access Container -->
+
+  </section>
+
+  <!-- ==== TEAM MEMBERS ==== -->
+  <section id="team" style='padding: 30px 0'>
+    <div class="container" id="portfolio">
+      <br>
+      <div class="row">
+        <h2 class="section-heading text-center">About the POWER Project</h2>
+        <p class="text-center">NASA's goal in Earth science is to observe, understand, and model the Earth system to discover how it is changing, to better predict change, and to understand the consequences for life on Earth. The Applied Sciences Program, within the Science Mission Directorate (which replaced both the Office of Earth Science and the Office of Space Science), serves NASA and Society by expanding and accelerating the realization of societal and economic benefits from Earth science, information, and technology research and development.</p>
+        <p class="text-center">The <strong>Prediction Of Worldwide Energy Resources (POWER)</strong> project was initiated to improve upon the current renewable energy data set and to create new data sets from new satellite systems. The POWER project targets three user communities: (1) Renewable Energy, (2) Sustainable Buildings, and (3) Agroclimatology.</p> <br>
+
+        <!-- POWER User Communities Start -->
+        <div class="row community-row-section">
+          <div class="col-sm-12 col-md-3 column-box-overlay">
+            <div class="thumbnail hover-over-imagery">
+              <img src="/img/renewable-energy-block.png" alt="Renewable Energy" class="communities-imagery" >
+              <div class="caption text-center communities-text-overlay">
+                <div class="communities-header">
+                  <h3><b>Renewable Energy</b></h3>
+                </div>
+                <div class="communities-text">
+                  <p class="text-center">The Renewable Energy Archive is designed to provide access to parameters specifically tailored to assist in the design of solar and wind powered renewable energy systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-3 column-box-overlay">
+            <div class="thumbnail hover-over-imagery">
+              <img src="/img/sustainable-buildings.png" alt="Sustainable Buildings" class="communities-imagery" >
+              <div class="caption text-center communities-text-overlay">
+                <div class="communities-header">
+                  <h3><b>Sustainable Buildings</b></h3>
+                </div>
+                <div class="communities-text">
+                  <p class="text-center">The Sustainable Buildings Archive is designed to provide industry-friendly parameters for the buildings community, to include parameters in multi-year monthly averages.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-3 column-box-overlay">
+            <div class="thumbnail hover-over-imagery">
+              <img src="/img/agroclimatology.jpg" alt="Agroclimatology" class="communities-imagery" >
+              <div class="caption text-center communities-text-overlay">
+                <div class="communities-header">
+                  <h3><b>Agroclimatology</b></h3>
+                </div>
+                <div class="communities-text">
+                  <p class="text-center">The Agroclimatology Archive is designed to provide web-based access to industry-friendly parameters formatted for input to crop models contained within agricultural DSS. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ==== STRATEGIC INITIATIVES AND INVESTMENTS ==== 
+      <section id="documentation" class="" style='padding-top: 40px'>
+     
+        <div class="container">
+
+          <div class="row">
+            <h2 class="section-heading text-center">Strategic Initiatives and Investments</h2>
+            <p class="text-center">The following 8 investment areas represent the highest-value opportunities for NASA to expand our capabilities and offerings to inform society’s transition to NetZero 2050 and a more sustainable future through use of Earth Observations.</p>
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-12 col-md-6 blue-box-outer">
+              <h3 class="">Enhance Core Products & Services</h2>
+              <div class="blue-boxes-container">
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">1</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">Enhance Solar & Meteorological Info </div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Update with latest versions of source data products from research projects; provide new value-added quantities according to needs
+                        <br/>
+                        Partner with DOE/NREL and ASHRAE to provide benchmark information
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="partly cloudy" src="/img/partly_cloudy_day_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">2</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">Improve Hosting Environment</div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Transition data archiving to cloud system to increase system reliability and  throughput
+                        <br />
+                        Provide metadata file to inform users of dataset updates, etc.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="database" src="/img/database_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">3</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">Improve Spatial & Temporal Resolution</div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Collaborate to develop high quality, higher resolution global products
+                        <br />
+                        Support rapid growth in renewable and energy efficiency in selected regions at Near-Real Time
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="cube" src="/img/view_in_ar_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">4</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">Scale Data & Mapping Platform</div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Expand communities & decisions served to increase societal benefit of NASA data
+                        <br />
+                        Use existing data platform to support new applications across NASA
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="mapping" src="/img/map_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+              </div>
+            
+            </div>
+
+            <div class="col-sm-12 col-md-6 blue-box-outer">
+              <h3 class="">Expand Customized Offerings</h2>
+              <div class="blue-boxes-container">
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">5</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">
+                      Add Global Climate Model Projections
+                    </div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Demand for climate-informed decision making exists across all sectors
+                        <br />
+                        Partner with users making climate risk decisions to provide global leadership in making user-friendly projections available for public use
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="bar chart" src="/img/equalizer_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">6</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">
+                      Host Monthly & Seasonal Forecasts
+                    </div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Demand exists to inform operational decisions in energy and agriculture sectors seasonal risk and planning
+                        <br />
+                        Partner with key users at this month to to provide user-friendly access and risk information
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="rainy" src="/img/rainy_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">7</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">
+                      Add Hydrologic & Wetness Parameters
+                    </div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Support existing needs in renewable and Ag sectors
+                        <br />
+                        Add value to other applications, i.e., public health & wildfire risk assessment 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="water symbol" src="/img/water_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+                <div class="blue-box-wrapper unexpanded-blue" onClick="expandBlue(this)">
+                  <div class="main-blue-number">8</div>
+                  <div class="main-blue-text">
+                    <div class="main-blue-topText">
+                      Integrate Current & Future EO Datasets
+                    </div>
+                    <div class="main-blue-descriptive">
+                      <p>
+                        Cost-effective solution to improving data offerings through partnerships
+                        <br />
+                        Users seek datasets with best available accuracy & high resolution
+                      </p>
+                    </div>
+                  </div>
+                  <div class="main-blue-icon"><img alt="globe" src="/img/public_FILL1_wght400_GRAD0_opsz48.svg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+    </section>
+-->
+
+    <!-- ==== CONTACT US ==== -->
+    <section id="contact" class="bg-primary" style='background:linear-gradient(to left,#009ACD, #000000)'>
+      <div class="container" id="contact_class">
+          <h2 style="text-align:center">You are a part of our community!</h2>
+        <div class="row">
+          <br>
+          <br>
+          <div class="col-lg-4">
+            <h3>Contact Information</h3>
+            <p>
+              <span class="icon icon-home"></span> NASA Langley Research Center (LaRC)
+              <br>
+              Hampton, VA (USA)
+              <br>
+              <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:larc-power-project@mail.nasa.gov"
+                class="text_1"><b> larc-power-project@mail.nasa.gov</b></a><br />
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Stay Up To Date</h3>
+            <p>Please email us at <a href="mailto:larc-power-project@mail.nasa.gov" class="text_1"><b>larc-power-project@mail.nasa.gov</b></a> to be included on our mailing list to be updated with the latest information regarding our data and services.
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>About Us</h3>
+            <p>The Prediction of Worldwide Energy Resources (POWER) project was initiated to improve upon the current SSE data set and to create new data sets from new satellite systems and forecast modeling data.</p>
+          </div>
+        </div>
+        <!--acknowledgements-->
+        <div id='ack'>
+          <h3>Acknowledgments</h3>
+          <p class="text_4"><b>Use of POWER Data:</b> When POWER data products are used in a publication, we request the following acknowledgment be included: <br> <i>&quot;These data were obtained from the NASA Langley Research Center (LaRC) POWER Project funded through the NASA Earth Science/Applied Science Program.&quot;</i> </p>
+          <p class="text_4"><b>Reprints Please:</b> The POWER Project kindly requests a reference, web link and/or a reprint of any published papers or reports or a brief description of other uses (e.g., posters, oral presentations, etc.) of data products that we have distributed. This will help us determine the use of data that we distribute, which is helpful in optimizing product development. It also helps us to assess our value to the community. Please contact us at <a href="mailto:larc-power-project@mail.nasa.gov" style="color:rgb(255, 165, 0)"><b>POWER Project Team</b> </a> for additional information on sending reference material.</p>
+          <p class="text_4"><b>Redistribution of Data:</b> To assist the POWER Project in providing the best service to the scientific community, we request <a href="mailto:larc-power-project@mail.nasa.gov" class="text_1" style="color:rgb(255, 165, 0)"><b>notification</b></a> if you transmit POWER data to other researchers.</p>
+          <p class="text_4"><b>Acknowledgement:</b> The Prediction of Worldwide Energy Resources (POWER) Project is funded through the NASA Applied Sciences Program within the Earth Science Division of the Science Mission Directorate. The POWER team could not have completed this task without both technical and scientific inputs from the following Earth Science Division teams: The World Climate Research Programme (WCRP) Global Energy and Water Cycle Experiment's (GEWEX) Surface Radiation Budget (NASA/GEWEX SRB) and the Clouds and the Earth's Radiant Energy System (CERES) projects at NASA LaRC and the Global Modeling and Assimilation Office at the NASA Goddard Space Flight Center. The data obtained through the POWER (Prediction of Worldwide Energy Resources) web services was made possible with collaboration from the the NASA LaRC Sciences Data Center (ASDC).
+          <p class="text_4"><b>Section 508 Rehabilitation Act Information:</b> The Science Directorate at NASA Langley Research Center is dedicated to compliance with accessibility standards developed under Section 508 of the Rehabilitation Act. However, technical and financial limitations occasionally prevent some information or data from being presented in a manner that is readily accessible to persons with certain disabilities. If you have any difficulty viewing a Section 508 Rehabilitation Act Information web page with adaptive technology, please contact the NASA Official or Curator responsible for the web page. Either an alternative format of the web page or manual assistance obtaining the required information will be provided.
+        </div>
+        <!-- end acknowledgements-->
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>FirstGov - Your First Click to the US Government + <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Statement, Disclaimer, and Accessibility Certification</a> | NASA - National Aeronautics and Space Administration | Page Curator: <a href="mailto:larc-power-project@mail.nasa.gov">POWER Project Team</a> | NASA Official: Paul Stackhouse | Contact <a href="http://www.nasa.gov/about/contact/index.html">NASA</a> | Last  modified 08/05/2021</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="/js/new-age.min.js"></script>
+
+</body>
+
+</html>

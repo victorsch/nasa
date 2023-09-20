@@ -1,0 +1,13 @@
+GET http://ohp.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: c2IWGJDqfbFjV7peuCAKLm-N6oiBDiKwj3T8i1m6DlGE3O49tQCbbg==
+< Date: Tue, 19 Sep 2023 06:00:28 GMT
+< Location: https://ohp.nasa.gov/
+< Via: 1.1 d7202b57803815a076179b3bb9bbd766.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-P1
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront

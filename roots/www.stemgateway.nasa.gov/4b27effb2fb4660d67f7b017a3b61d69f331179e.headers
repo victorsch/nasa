@@ -1,0 +1,14 @@
+GET http://www.stemgateway.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Date: Tue, 19 Sep 2023 05:44:28 GMT
+< Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Wed, 18-Sep-2024 05:44:28 GMT; Max-Age=31536000
+< Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Wed, 18-Sep-2024 05:44:28 GMT; Max-Age=31536000
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+< Location: https://www.stemgateway.nasa.gov/
+< Strict-Transport-Security: max-age=63072000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: upgrade-insecure-requests

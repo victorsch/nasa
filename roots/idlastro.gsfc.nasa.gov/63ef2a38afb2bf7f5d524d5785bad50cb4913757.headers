@@ -1,0 +1,12 @@
+GET https://idlastro.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:59:10 GMT
+< Server: WebServer/1.0
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: sameorigin
+< Accept-Ranges: bytes
+< Content-Length: 14092
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: upgrade-insecure-requests

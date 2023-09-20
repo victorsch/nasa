@@ -1,0 +1,19 @@
+GET https://nbi.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: PHPSESSID=hkbb89bitmel8l8t0ucs8vva45; path=/; domain=nbi.larc.nasa.gov; secure; HttpOnly; SameSite=Lax
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: SAMEORIGIN, sameorigin
+< Expires: Thu, 01 Jan 1970 00:00:00 +0000
+< X-Powered-By: Fat-Free Framework
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-cache, no-store, must-revalidate
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:56:46 GMT
+< Server: Apache
+< Pragma: no-cache
+< X-Xss-Protection: 1; mode=block
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none

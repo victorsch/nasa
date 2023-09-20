@@ -1,0 +1,18 @@
+GET https://wiki.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: JSESSIONID=E5DFFA4476C6BF476D31F9C4393C6A43; Path=/; Secure; HttpOnly
+< Set-Cookie: f5_cspm=1234;
+< Date: Tue, 19 Sep 2023 05:41:21 GMT
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html;charset=UTF-8
+< X-Confluence-Request-Time: 1695102082034
+< X-Accel-Buffering: no
+< Server: Apache
+< Cache-Control: no-store
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: frame-ancestors 'self'
+< Strict-Transport-Security: max-age=31536000

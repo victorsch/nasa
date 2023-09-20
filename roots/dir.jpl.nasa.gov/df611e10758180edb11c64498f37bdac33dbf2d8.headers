@@ -1,0 +1,11 @@
+GET https://dir.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:55:24 GMT
+< Server: Apache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=63072000; includeSubdomains
+< X-Frame-Options: SAMEORIGIN

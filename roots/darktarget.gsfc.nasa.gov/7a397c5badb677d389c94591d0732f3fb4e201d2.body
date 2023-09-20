@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/sixseventeen/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://darktarget.gsfc.nasa.gov/dark-target-and-study-aerosols" />
+<link rel="shortlink" href="https://darktarget.gsfc.nasa.gov/node/32" />
+
+    <title>Dark Target and the Study of Aerosols | Dark Target</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/modules/contrib/genpass/css/genpass.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/modules/custom/smartmenus2/css/sm-ldas/sm-ldas.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/bootstrap.min.css?s07w6h" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/style_darktarget.min.css?s07w6h" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/js/twentytwenty.css?s07w6h" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+
+    
+  </head>
+  <body class="layout-no-sidebars page-node-32 path-frontpage node--type-page">
+    <a href="#main-content" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+            
+
+<div id="page-container" class="container-fluid">
+                        
+        <header id="header" class="row sticky-top" role="banner" aria-label='Site header'>
+        <!-- Meatball -->
+        <div class="col-lg-1 col-md-2 col-sm-3 col-2 tex2-center no-padding meatball">
+            <a href="https://nasa.gov">
+                <img id="nasa-logo" src="https://darktarget.gsfc.nasa.gov/themes/custom/sixseventeen/images/nasa.svg"
+                     alt="NASA Logo">
+            </a>
+        </div>
+        <!-- Brand and Slogan -->
+        <div class="col-xl-3 col-lg-3 col-md-8 col-sm-7 col-8 region header_region_1">
+            <div class="brand">
+              <h1>
+                <a href="/" title="Home"
+                   rel="home" class="navbar-brand">Dark Target</a>
+              </h1>
+            </div>
+            <div class="slogan">Aerosol Retrieval Algorithm</div>
+        </div>
+        <!-- Navbar / Main Menu -->
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa-lg"></i>
+            </span>
+        </button>
+
+        
+        <div class="col-xl-8 col-lg-8 col-12 d-inline-block" id="navbar-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <nav role="navigation" aria-labelledby="block-sixseventeen-main-menu-menu" id="block-sixseventeen-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-sixseventeen-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/algorithm-intro" title="About the Dark-Target Algorithm" class="nav-link dropdown-toggle nav-link--algorithm-intro" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/3">Aerosols Overview</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/how-use-site" class="nav-link--how-use-site" data-drupal-link-system-path="node/167">How To Use This Site</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/why-study-aerosols" class="nav-link--why-study-aerosols" data-drupal-link-system-path="node/168">Why Study Aerosols?</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/dark-target-basics" class="nav-link--dark-target-basics" data-drupal-link-system-path="node/169">Dark Target Basics</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm-intro" title="" class="nav-link--algorithm-intro" data-drupal-link-system-path="node/3">About the Algorithm</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/basic-definitions" class="nav-link--basic-definitions" data-drupal-link-system-path="node/177">Aerosol Definitions</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm-inputs" class="nav-link--algorithm-inputs" data-drupal-link-system-path="node/93">Algorithm Inputs</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/algorithm/ocean" class="dropdown-toggle nav-link--algorithm-ocean" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/78">Ocean Algorithm</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/algorithm/ocean" title="" class="nav-link--algorithm-ocean" data-drupal-link-system-path="node/78">Introduction</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/ocean/pixel-masking" class="nav-link--algorithm-ocean-pixel-masking" data-drupal-link-system-path="node/79">Pixel Masking &amp; Selection</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/ocean/retrieval-algorithm" class="nav-link--algorithm-ocean-retrieval-algorithm" data-drupal-link-system-path="node/80">Ocean Algorithm</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/ocean/aerosol-models" class="nav-link--algorithm-ocean-aerosol-models" data-drupal-link-system-path="node/81">Ocean Aerosol Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/algorithm/land" class="dropdown-toggle nav-link--algorithm-land" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/82">Land Algorithm</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/algorithm/land" title="" class="nav-link--algorithm-land" data-drupal-link-system-path="node/82">Introduction</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/land/pixel-masking" class="nav-link--algorithm-land-pixel-masking" data-drupal-link-system-path="node/83">Pixel Masking &amp; Selection</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/land/surface-reflectance" class="nav-link--algorithm-land-surface-reflectance" data-drupal-link-system-path="node/86">Surface Reflectance</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/land/land-inversion" class="nav-link--algorithm-land-land-inversion" data-drupal-link-system-path="node/84">Land Inversion</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/land/aerosol-models" class="nav-link--algorithm-land-aerosol-models" data-drupal-link-system-path="node/85">Land Aerosol Models</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/land-3" class="nav-link--algorithm-land-3" data-drupal-link-system-path="node/19">3 Km Algorithm</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/algorithm/history" title="History of the algorithm" class="nav-link--algorithm-history" data-drupal-link-system-path="node/92">Short History</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/c61-updates" class="nav-link--c61-updates" data-drupal-link-system-path="node/165">C6.1 Updates</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/overview-users-guide" title="Data Products" class="nav-link dropdown-toggle nav-link--overview-users-guide" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/13">Users Guide</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/overview-users-guide" class="nav-link--overview-users-guide" data-drupal-link-system-path="node/13">Overview (Download)</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/products/modis" class="dropdown-toggle nav-link--products-modis" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/161">MODIS Products</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/products/modis/ocean" class="nav-link--products-modis-ocean" data-drupal-link-system-path="node/14">MODIS Ocean Products</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/modis/land-10" class="nav-link--products-modis-land-10" data-drupal-link-system-path="node/15">MODIS Land Products</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/modis/land-3" class="nav-link--products-modis-land-3" data-drupal-link-system-path="node/18">MODIS 3 KM Products</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/modis/combined" class="nav-link--products-modis-combined" data-drupal-link-system-path="node/131">Combined Ocean Land</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/guide-modis-viirs" class="dropdown-toggle nav-link--guide-modis-viirs" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/185">VIIRS &amp; MODIS Products</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/products/viirs-modis/instrument-differences" class="nav-link--products-viirs-modis-instrument-differences" data-drupal-link-system-path="node/186">MODIS &amp; VIIRS Sensors</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/viirs-modis/aerosol-products-overview" class="nav-link--products-viirs-modis-aerosol-products-overview" data-drupal-link-system-path="node/187">Aerosol Products Intro</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/viirs-modis/level-2-aerosol-overview" class="nav-link--products-viirs-modis-level-2-aerosol-overview" data-drupal-link-system-path="node/188">Level 2 Aerosol Overview</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/products/viirs-modis/level-2-product-contents" class="nav-link--products-viirs-modis-level-2-product-contents" data-drupal-link-system-path="node/189">Level 2 Product Contents</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/validation" class="nav-link dropdown-toggle nav-link--validation" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/25">Validation</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/validation" class="nav-link--validation" data-drupal-link-system-path="node/25">Validation Methods</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/validation/results" class="nav-link--validation-results" data-drupal-link-system-path="node/90">Validation Results</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/validation-maps" class="nav-link--validation-maps" data-drupal-link-system-path="node/195">Validation Maps</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/satellites/sensors" title="Platforms" class="nav-link dropdown-toggle nav-link--satellites-sensors" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/87">Sensors</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellites/sensors" class="nav-link--satellites-sensors" data-drupal-link-system-path="node/87">Sensors</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/file-specifications" class="dropdown-toggle nav-link--file-specifications" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/170">GEO</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/satellite/modis" class="dropdown-toggle nav-link--satellite-modis" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/95">MODIS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/modis" class="nav-link--satellite-modis" data-drupal-link-system-path="node/95">About MODIS</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/satellite/modis/algorithm" class="dropdown-toggle nav-link--satellite-modis-algorithm" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/146">Algorithm</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/modis/algorithm-inputs" class="nav-link--satellite-modis-algorithm-inputs" data-drupal-link-system-path="node/148">Algorithm Inputs</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/satellite/modis/ocean-algorithm" class="dropdown-toggle nav-link--satellite-modis-ocean-algorithm" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/150">Ocean Algorithm</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/modis/pixel-masking-and-selection" class="nav-link--satellite-modis-pixel-masking-and-selection" data-drupal-link-system-path="node/151">Pixel Masking and Selection</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/satellite/modis/ocean-algorithm#sect3" class="nav-link--satellite-modis-ocean-algorithmsect3">Ocean Aerosol Models</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/satellite/modis/products" class="nav-link--satellite-modis-products" data-drupal-link-system-path="node/149">Products</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/satellite/modis/validation" class="nav-link--satellite-modis-validation" data-drupal-link-system-path="node/152">Validation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/satellite/modis/atbd-overview" class="nav-link--satellite-modis-atbd-overview" data-drupal-link-system-path="node/153">ATBD</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/satellite/viirs" class="dropdown-toggle nav-link--satellite-viirs" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/89">VIIRS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/viirs" class="nav-link--satellite-viirs">About VIIRS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/satellite/viirs/developing-dark-target-viirs" class="nav-link--satellite-viirs-developing-dark-target-viirs" data-drupal-link-system-path="node/147">Developing DT for VIIRS</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/mas" class="dropdown-toggle nav-link--mas" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/88">MAS</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/mas" class="nav-link--satellite-mas">About MAS</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/mas-appendix" class="nav-link--mas-appendix" data-drupal-link-system-path="node/166">MAS Appendix</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/wild-fires-and-smoke-russia" class="dropdown-toggle nav-link--wild-fires-and-smoke-russia" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/172">LEO</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/satellite/himawari" class="nav-link--satellite-himawari" data-drupal-link-system-path="node/155">Himawari</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/atbd/overview" class="nav-link dropdown-toggle nav-link--atbd-overview" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/132">ATBD</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/atbd/overview" class="nav-link--atbd-overview" data-drupal-link-system-path="node/132">ATBD Overview</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-introduction" class="nav-link--atbd-introduction" data-drupal-link-system-path="node/133">ATBD  - Introduction</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-aerosol-optics-and-retrieval-strategy" class="nav-link--atbd-aerosol-optics-and-retrieval-strategy" data-drupal-link-system-path="node/135">ATBD - Retrieval Strategy</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-products" class="nav-link--atbd-products" data-drupal-link-system-path="node/136">ATBD - Products</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-ocean-algorithm" class="nav-link--atbd-ocean-algorithm" data-drupal-link-system-path="node/137">ATBD - Ocean Algorithm</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-land-algorithm" class="nav-link--atbd-land-algorithm" data-drupal-link-system-path="node/138">ATBD - Land Algorithm</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-product-evaluation" class="nav-link--atbd-product-evaluation" data-drupal-link-system-path="node/140">ATBD - Product Evaluation</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-3-km-product" class="nav-link--atbd-3-km-product" data-drupal-link-system-path="node/141">ATBD - 3 KM Product</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-data-usage" class="nav-link--atbd-data-usage" data-drupal-link-system-path="node/142">ATBD - Data Usage</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/atbd-references" class="nav-link--atbd-references" data-drupal-link-system-path="node/143">ATBD - References</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/atbd-appendices" class="dropdown-toggle nav-link--atbd-appendices" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/144">ATBD - Appendices</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/pixel-masking" class="nav-link--pixel-masking" data-drupal-link-system-path="node/159">Pixel Masking</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/pubs" class="nav-link dropdown-toggle nav-link--pubs" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Reference</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/pubs" class="nav-link--pubs">Publications</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/educational-materials" class="nav-link--educational-materials" data-drupal-link-system-path="node/28">Educational Materials</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/reference/code" class="nav-link--reference-code" data-drupal-link-system-path="node/91">Stand-alone Code</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/links" class="nav-link--links" data-drupal-link-system-path="node/11">Links</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/about-dark-target-group" class="nav-link--about-dark-target-group" data-drupal-link-system-path="node/160">About the Dark Target Group</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                          <a href="/faq-page" class="nav-link nav-link--faq-page" data-drupal-link-system-path="faq-page">FAQ</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                    <form action="/search/node" method="get" id="search-block-form"
+                          accept-charset="UTF-8"
+                          class="form-inline search-form search-block-form form-row"
+                          data-drupal-form-fields="edit-keys" >
+                        <input id="edit-keys" name="keys"
+                               class="form-search me-sm-2" type="search"
+                               placeholder="Search" aria-label="Search"
+                               data-drupal-selector="edit-keys">
+                        <button aria-label="Search" id="top-search-box" class="btn form-submit"
+                                data-drupal-selector="edit-submit"
+                                type="submit">
+                            <i class="fa fa-search fa-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+           </header>
+
+<div class="row no-gutters header_image" style="">
+    <div class="col col-sm-12 col-12">
+    </div>
+</div>
+
+
+    <main id="content_section" class="row no-gutters">
+        <section id="main-content" class="col-sm-12">
+              <div data-drupal-messages-fallback class="hidden"></div>
+<div class="views-element-container block block-views block-views-blockhomepage-highlights-block-1" id="block-views-block-homepage-highlights-block-1">
+  
+    
+      <div class="content">
+      <div><div class="view view-homepage-highlights view-id-homepage_highlights view-display-id-block_1 js-view-dom-id-be5129a17990b6ed84da0b8ecf98fbff00af41403d517746710806b803de1bba">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+    <div class="views-field views-field-title"><h2 class="field-content"><a href="/news/introduction" hreflang="und">Introduction</a></h2></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>The purpose of this website is to provide information about the Dark Target aerosol retrieval algorithm and products. We provide information and content for those new to remote sensing as well as more experienced users.  If you are new to remote sensing we suggest you start by reading the content in the "Aerosols Overview" section.  This section begins with some general background on the remote sensing of aerosols, followed by general information about "Dark Target" retrievals and then begins to describe in some detail the dark target retrieval algorithm.</p></div></div></div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockslideshow-block-2" id="block-views-block-slideshow-block-2">
+  
+    
+      <div class="content">
+      <div><div class="view view-slideshow view-id-slideshow view-display-id-block_2 js-view-dom-id-593f635c6bc5706e45d046e95b4da9ddeafacfbaaaf683763e40e1542a768c0e">
+  
+    
+      
+      <div class="view-content">
+      <div id="views-bootstrap-slideshow-block-2"  class="grid views-view-grid">
+  <div class="row">
+          <div  class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 container">
+        <div><div><div class="container">
+  <img loading="lazy" src="/sites/default/files/styles/grid_image/public/ABI_AHI.png?itok=BN7QqRfa" alt="AOD retrievals from ABI and AHI" class="image-style-grid-image" />
+
+
+
+<div class="overlay">
+<h3><a href="/aerosol-retrieval-geostationary-instruments" hreflang="und">          Aerosol Retrieval From Geostationary Instruments</a></h3>
+</div>
+</div></div></div>
+      </div>
+          <div  class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 container">
+        <div><div><div class="container">
+  <img loading="lazy" src="/sites/default/files/styles/grid_image/public/IndiaFiresP.jpg?itok=HNm0YUeu" alt="" class="image-style-grid-image" />
+
+
+
+<div class="overlay">
+<h3><a href="/pollution-and-haze-india" hreflang="und">Pollution and Haze in India</a></h3>
+</div>
+</div></div></div>
+      </div>
+          <div  class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 container">
+        <div><div><div class="container">
+  <img loading="lazy" src="/sites/default/files/styles/grid_image/public/CalOregonFiresP.jpg?itok=3JdEBkzO" alt="" class="image-style-grid-image" />
+
+
+
+<div class="overlay">
+<h3><a href="/wild-fires-california-and-oregon" hreflang="und">Wild Fires in California and Oregon</a></h3>
+</div>
+</div></div></div>
+      </div>
+          <div  class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 container">
+        <div><div><div class="container">
+  <img loading="lazy" src="/sites/default/files/styles/grid_image/public/RussiaFiresP.jpg?itok=9DTrSvo9" alt="Data image of Russian Fires" class="image-style-grid-image" />
+
+
+
+<div class="overlay">
+<h3><a href="/wild-fires-and-smoke-russia" hreflang="und">Wild Fires and Smoke in Russia</a></h3>
+</div>
+</div></div></div>
+      </div>
+      </div>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockhomepage-highlights-block-2" id="block-views-block-homepage-highlights-block-2">
+  
+    
+      <div class="content">
+      <div><div class="view view-homepage-highlights view-id-homepage_highlights view-display-id-block_2 js-view-dom-id-7fe7a3b04327b4fa15563e45ecb29811c4e8275b4e89917e052aa1d87b024c59">
+  
+    
+      
+      <div class="view-content">
+      <div id="views-bootstrap-homepage-highlights-block-2"  class="grid views-view-grid">
+  <div class="row">
+          <div  class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <div class="views-field views-field-body"><div class="field-content"><div class="container">
+<div class="inner-container">
+<h3><a href="/algorithm-intro" hreflang="und">Algorithm Intro</a></h3>
+<div class="tex2jax_process"><p>The dark target aerosol algorithm lays out the precise steps used in the retrieval process to go from raw data collected by the instrument to a geophysical product which provides useful information about aerosols in the atmospheric column.</p></div>
+</div>
+</div></div></div>
+      </div>
+          <div  class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <div class="views-field views-field-body"><div class="field-content"><div class="container">
+<div class="inner-container">
+<h3><a href="/news/highlights" hreflang="und">Highlights</a></h3>
+<div class="tex2jax_process"><p>Members of our group will be attending the MODIS and AEROCOM/AEROSAT meetings next week in Maryland</p>
+<p> </p>
+</div>
+</div>
+</div></div></div>
+      </div>
+          <div  class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <div class="views-field views-field-body"><div class="field-content"><div class="container">
+<div class="inner-container">
+<h3><a href="/news/validation-results" hreflang="und">Validation Results</a></h3>
+<div class="tex2jax_process"><p>Values for collection 5 were derived using an extensive data set and are considered definitive and will not change.  Values for collection 6 were created using only six months of data and should be considered interim apporximate values until a more complete analysis can be performed.</p>
+</div>
+</div>
+</div></div></div>
+      </div>
+      </div>
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div id="block-sixseventeen-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+<article role="article" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+        
+      </header>
+  <div class="node__content clearfix">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2>Dark Target and the Study of Aerosols</h2>
+    
+      <div class="content">
+      
+    </div>
+  </div>
+<div class="block block-layout-builder block-field-blocknodepagebody">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="tex2jax_process"><p>The effect of aerosols is one of the greatest sources of uncertainty in climate modeling. Aerosols vary in time in space and can lead to variations in cloud microphysics, which impact cloud radiative properties and climate. The Dark-Target (DT) aerosol retrieval algorithm is applied to multispectral satellite sensor data, and derives aerosol properties including aerosol optical depth (AOD) over land and ocean, as well as spectral AOD and aerosol size parameters over ocean. Products of the DT retrieval are used to develop global and regional aerosol climatology, to study the interaction of aerosols with clouds, and for air quality assessments and forecasts.</p>
+<p>The DT algorithm has been applied to data from the MODIS sensor beginning with the Terra satellite in 1999 and followed by Aqua in 2001. There are actually two separate and distinct “Dark Target” (DT) algorithms. The first one is used for retrieving aerosol information over ocean (dark in visible and longer wavelengths) and the second one over vegetated/dark-soiled land (dark in the visible).   The algorithms have been refined and improved continually since the launch of Terra.  The updated algorithms are applied to the raw data periodically to produce new data product collections.  Currently Terra and Aqua data products are collection 6 (C6).</p>
+<p>Although originally developed for use with the MODIS sensors these algorithms can be applied to any sensor that measures reflectance in appropriate wavelength bands covering  visible (VIS), near-IR (NIR) and shortwave-IR (SWIR). Currently the DT retrieval algorithm is being ported to additional sensors including VIIRS on SUOMI-NPP, AHI (Himawari) , EPIC (DISCOVR) and the airborne sensor eMAS usually flown on the ER2 and will be applied in the near future to ABI (GOES-R-16).</p>
+<p>Before the DT algorithm which was designed for MODIS can be applied to new sensors many factors must be taken into account including:</p>
+<ul><li>Sensor differences such as available wavelengths, width of sensor bands, and sensitivity</li>
+<li>Calibration and characterization differences</li>
+<li>Sampling differences including time of day, orbital coverage, orbital height and measurement geometry</li>
+<li>Pixel selection including cloud and other masking</li>
+<li>Data aggregation and averaging to produce global and/or gridded products</li>
+</ul><p>This website is intended to be the primary source of on-line information for the dark-target satellite aerosol retrieval algorithm.  Information on the site is intended for both beginners and advanced users.  Advanced level users who are already familiar with the algorithm and products should go to the ATBD section for a detailed and mathematical treatment of the algorithm.   Newer users should read the algorithm pages to get a detailed overview of how the algorithm works and consult the product pages to understand the content and meaning of the products and where to obtain them.  New users are strongly advised to have a complete and thorough understanding of the products and the product quality indicators before making use of them.</p>
+<p>Since DT was developed for and has a long history of use with the MODIS sensors the information content on this site refers primarily to the MODIS DT algorithms and products.   Specific differences and changes to the algorithm for other sensors are discussed on the platform specific pages.</p>
+</div></div>
+      
+    </div>
+  </div>
+<div class="block block-layout-builder block-extra-field-blocknodepagelinks">
+  
+    
+      <div class="content">
+      
+
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+
+        </section>
+
+    </main>
+    
+    <footer id="footer_section" data-footer-bg="">
+
+    <section class="row">
+            </section>
+    <section class='row footer_region_middle'>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                      <section class="row region region-footer-region-3">
+    <div id="block-footercredits" class="block block-block-content block-block-content006b00ad-7de7-4a28-9c52-d6ab1d98572c">
+  
+    
+  <div id='required-credits'>
+  <p> 
+  <strong><span>Responsible </span>NASA Official:</strong> 
+    <a href="mailto:robert.c.levy@nasa.gov?subject=">
+        Robert Levy</a><br>
+    <strong>Web Developers:</strong> 
+    <a href="mailto:gsfc-dl-610-webdev@mail.nasa.gov?subject=">
+        610 WebDev</a><br>
+
+        <strong>Curator:</strong> 
+    <a href="mailto:richard.g.kleidman@nasa.gov?subject=">
+        Richard Kleidman</a><br>
+    
+    <a href='/contact-us'>Contact Us</a> | 
+    <a href="/sitemap.xml">Site Map</a> | 
+    <a href='http://www.nasa.gov/about/highlights/HP_Privacy.html' 
+       target='_blank'>Privacy Policy</a>
+  </p>
+      <p> 
+    Last Updated: 05/16/2023
+  </p>
+    </div>
+</div>
+
+  </section>
+
+                </div>
+    </section>
+    <section class="row">
+            </section>
+</footer>
+<div class="footer_bg">
+</div>
+</div>
+    <!-- Add Federal Analytics -->
+    <script type='text/javascript' id='_fed_an_ua_tag' 
+            src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'>
+    </script>
+
+    <!-- GA3 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '' );
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNYYF03N9S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GNYYF03N9S');
+    </script>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/32","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(.*).nasa.gov","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are now navigating to an external website. Do you wish to continue?","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"mathjax":{"config_type":0,"config":{"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"processEscapes":"true"},"showProcessingMessages":"false","messageStyle":"none"}},"smarttheme":"sm-ldas","smartloc":"top","smartpath":"modules\/custom\/smartmenus2\/","smartclass":"sm-ldas sm nav navbar-nav","user":{"uid":0,"permissionsHash":"82828e3b57b09cc3e867c74f3731bba526261817518e3ca8ec027872826de9fb"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.10"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/bootstrap.bundle.min.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/dist/sixseventeen.min.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.event.move.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/js/jquery.twentytwenty.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/dist/twentytwentyFix.min.js?v=9.5.10"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.5.10"></script>
+<script src="/modules/contrib/mathjax/js/config.js?v=9.5.10"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/modules/contrib/mathjax/js/setup.js?v=9.5.10"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/jquery.smartmenus.min.js?s07w6h"></script>
+<script src="/modules/custom/smartmenus2/js/bugfix.js?s07w6h"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.min.js?s07w6h"></script>
+<script src="/modules/custom/smartmenus2/js/smart.js?s07w6h"></script>
+
+  </body>
+</html>

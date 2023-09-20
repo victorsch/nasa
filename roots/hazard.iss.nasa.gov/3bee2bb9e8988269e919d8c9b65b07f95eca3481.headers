@@ -1,0 +1,18 @@
+GET https://hazard.iss.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy: default-src 'self' *.nasa.gov ; script-src 'self' *.nasa.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Cache-Control: no-cache, no-store, must-revalidate
+< Expires: 0
+< Date: Tue, 19 Sep 2023 05:56:55 GMT
+< Delivered-By: CGI
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Pragma: no-cache
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: Apache

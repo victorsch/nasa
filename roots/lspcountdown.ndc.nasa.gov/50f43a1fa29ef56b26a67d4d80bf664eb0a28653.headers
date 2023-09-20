@@ -1,0 +1,12 @@
+GET https://lspcountdown.ndc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Tue, 19 Sep 2023 06:05:07 GMT
+< Content-Length: 5957
+< Accept-Ranges: bytes
+< Last-Modified: Tue, 26 Feb 2019 21:08:06 GMT
+< Etag: "86cc6a5e17ced41:0"
+< Content-Type: text/html

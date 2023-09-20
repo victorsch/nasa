@@ -1,0 +1,14 @@
+GET https://tdglobal.ksc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Microsoft-IIS/10.0
+< Content-Type: text/html
+< Last-Modified: Thu, 18 Nov 2021 22:54:52 GMT
+< Date: Tue, 19 Sep 2023 05:56:25 GMT
+< Etag: "086df4bcfdcd71:0"
+< Vary: Accept-Encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Powered-By: ASP.NET

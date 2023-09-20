@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"https://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<title>STEREO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" type="text/css" href="/css/menu.css">
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media='screen'>
+<link rel="stylesheet" type="text/css" href="/css/print.css"  media='print'>
+<link rel="stylesheet" type="text/css" href="/css/toggle_js.css">
+<link rel="stylesheet" type="text/css" href="/scripts/lightbox/css/jquery.lightbox.css">
+<link rel="alternate" type="application/rss+xml" href="https://stereo.gsfc.nasa.gov/news/news.xml" title="What's New RSS feed">
+<script language="javascript" src="https://stereo.gsfc.nasa.gov/scripts/toggle.js"></script>
+<script language="javascript" src="https://stereo.gsfc.nasa.gov/scripts/rotatingImage.js"></script>
+<script language="javascript" src="https://stereo.gsfc.nasa.gov/scripts/pagination.js"></script>
+<script language="javascript" src="/scripts/window.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/lightbox/js/jquery.lightbox.js"></script>
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+<script type="text/javascript">
+$(function() {
+    $(".lightbox").lightBox();
+});
+</script>
+
+<meta name="description" content="STEREO Home Page">
+<meta name="orgcode" content="671">
+<meta name="rno" content="Joseph.B.Gurman">
+<meta name="content-owner" content="Joseph Gurman">
+<meta name="webmaster" content="Kevin Addison">
+
+
+</head>
+
+<body bgcolor="black">
+<div id="wrapper">
+<table class="table" cellpadding='0' cellspacing='0' border='0'>
+<tr><td>
+<table class="page" width='800' cellpadding='0' cellspacing='0' border='0'>
+<tr><td><table cellpadding='0' cellspacing='0' border='0' width='100%'>
+	<tr bgcolor='#000000'>
+		<td colspan'2'><img src="/img2/spacer.gif" width="443" height="1" alt=""><td>
+		<td><img src="/img2/spacer.gif" width="357" height="1" alt=""></td>
+	</tr>
+
+	<tr background='/img2/stereo_gsfc_02.gif' class='toprow' height='156'>
+		<td background='/img2/stereo_gsfc_02.gif' bgcolor='#000000' id='headercell1' height='156' colspan='2' valign='top'><!--
+		--><img src="/img2/stereo_gsfc_01.gif" height='156' width='443' alt="STEREO - Solar Terrestrial Relations Observatory"></td>
+		<td align='center' valign='top'><!--
+		--><img src="/img2/stereo_gsfc_02.gif" width="3" height="156" alt="" align='left' valign='top'><!--
+		--><img src="/img2/stereo_gsfc_03.gif" width="272" height="77" alt="" align='left' valign='top'><!--
+		--><a href="http://www.nasa.gov" target="_blank"><img id='nasa_logo' src="/img2/stereo_gsfc_04.gif" width="82" height="77" alt="" align='right' valign='top'></a><!--
+		--><br clear='right'>
+		  <!--
+		--><img src="/img2/stereo_gsfc_06.gif" width="354" height="79" alt="" align='right' usemap='#stereo_gsfc_06_Map' border='0'><!--
+			--><map name="stereo_gsfc_06_Map">
+<area shape="rect" alt="[Home]" coords="262,5,344,24" href="/sitemap.shtml" title="Sitemap">
+<area shape="rect" alt="[Contact]" coords="153,5,234,24" href="/contact/contact.shtml" title="Contact">
+<area shape="rect" alt="[Site Map]" coords="68,5,133,25" href="/" title="Home">
+</map></td>
+	</tr>
+</table></td></tr>
+	<tr bgcolor='#000033'><td><table cellpadding='0' cellspacing='0' border='0'>
+
+		<td width='198' class='col1'><!--
+		--><img src="/img2/stereo_gsfc_07.gif" width="198" height="71" alt="" align='left'><br><!--
+		--><img src="/img2/stereo_gsfc_10.gif" valign='top' align='right' width="49" height="508" alt="">
+			<br clear='left'>
+			<dl class="menu">
+			<dt>MISSION</dt>
+				<dd><a href="/mission/mission.shtml">Mission</a></dd>
+				<dd><a href="/spacecraft.shtml">Spacecraft</a></dd>
+				<dd><a href="/launch.shtml">Launch</a></dd>
+				<dd><a href="/instruments/instruments.shtml">Instruments</a></dd>
+				<dd><a href="https://stereo-ssc.nascom.nasa.gov/where.shtml" target="_blank">Where is STEREO?</a></dd>
+				<dd><a href="/10year/">STEREO 10 Year Anniversary</a></dd>
+			</dl>
+			
+			<dl class="menu">
+			<dt>IN THE NEWS</dt>
+				<dd><a href="/news/news.shtml">What's New?</a></dd>
+				<dd><a href="/status.shtml">Current Status</a></dd>
+				<dd><a href="http://www.nasa.gov/mission_pages/stereo/news/" target="_blank">Newsroom</a></dd>
+			</dl>
+			
+			<dl class="menu">
+			<dt>SCIENCE</dt>
+				<dd><a href="/spaceweather/spaceweather.shtml">Space Weather</a></dd>
+				<dd><a href="https://stereo-ssc.nascom.nasa.gov/" target="_blank">Science Center (Data)</a></dd>
+			</dl>
+			
+			<dl class="menu">
+			<dt>RESOURCES</dt>
+				<dd><a href="/beacon/">Latest Images</a></dd>
+<!--				<dd><a href="https://stereo-ssc.nascom.nasa.gov/browse/" target="_blank">Today's Images</a></dd>-->
+				<dd><a href="/gallery/gallery.shtml">Galleries</a></dd>
+				<dd><a href="/classroom/classroom.shtml">Learning Center</a></dd>
+				<dd><a href="/links.shtml">Links</a></dd>
+			</dl>
+		</td>
+
+		<td id='content'>
+
+<P>
+<A HREF="https://stereo-ssc.nascom.nasa.gov/ftp_deactivation.shtml"
+   TARGET="_blank">Important notice about the deactivation of the STEREO ftp
+  server</A>
+</P>
+<P>
+<A HREF="https://stereo.gsfc.nasa.gov/curl.shtml"
+   TARGET="_blank">Important notice about the STEREO redirects</A>
+</P>
+<P>
+<A HREF="https://stereo-ssc.nascom.nasa.gov/behind_status.shtml"
+   TARGET="_blank">Important notice about STEREO Behind</A>
+</P>
+
+
+
+<script type="text/javascript">
+$(function() {    
+    makeRequest("/news/news.xml",newsParser);
+    makeRequest("/gallery/xml/selects.xml",selectsParser);
+    function makeRequest(uri,func) {
+        $.ajax({
+            type: "GET",
+            url: uri,
+            dataType: "xml",
+            success: func
+        });
+    }
+    
+    function newsParser(xml) {
+        $(xml).find("item").each(function(i) {
+            if(i<2) {
+                var title = $(this).find("title").text();
+                var link = $(this).find("link").text();            
+                var description = $(this).find("description").text();
+                var pubDate = $(this).find("pubDate").text();
+                
+                var html = '<li><span><strong><a href="'+link+'">'+title+'</a></strong></span><br />';
+                html += '<span style="font-weight:bold">'+pubDate+'</span>';
+                html += '<p style="margin:5px 0 0 0">'+description+'</p></li>';                
+                $('<ul />').attr('class','list').appendTo('#newswrapper').append(html);
+            }
+        });
+    }
+    
+    function selectsParser(xml) {
+        $(xml).find("item").each(function(i) {
+            if(i<1) {
+                var id = $(this).attr('id');
+                var title = $(this).find("title").text();
+                var link = $(this).find("link").text();            
+                var description = $(this).find("description").text();
+                var thumbnail = $(this).find("thumbnail").text();
+                
+                var html = '<a href="'+link+'?id=selects&iid='+id+'"><img src="'+thumbnail+'" width="150" height="125" class="thumbnail" alt="image" /></a><br />';
+                html += '<small>'+title+'</small>';
+                $('#selectswrapper').html(html);
+            }
+        });
+    }
+});
+</script>
+
+<!-- DO NOT EDIT ABOVE THIS LINE -->
+<div class="section">
+
+<h1>Welcome to the STEREO website!</h1>
+
+<h2><a href="./10year/">&raquo; STEREO 10 Anniversary</a></h2>
+<p>STEREO currently consists of a space-based observatory, STEREO-A, orbiting the Sun just inside of 1 AU - slowly catching up with Earth as it orbits about the Sun. This viewpoint away from the Earth-Sun line allows scientists to see the structure and evolution of solar storms as they blast from the Sun and move out through space.</p>
+
+<p id="synoptic">
+<img src="/beacon/euvi_195_rotated.gif" style="width:200px;height:200px;float:left;margin:0 20px 0 0;position:relative" />
+This movie shows a spherical map of the Sun as it currently appears, formed from a combination of the latest STEREO-A beacon images combined with a SDO/AIA. The movie starts with the view of the Sun as seen from Earth, with the 0 degree meridian line in the middle. The map then rotates through 360 degrees to show the part of the Sun not visible from Earth.</p>
+
+<div style="clear:both"></div>
+
+<h1>Latest EUVI Images</h1>
+<div id="latest_wrapper">
+<div id="image_containerB"><img src="/beacon/latest_256/behind_euvi_195_latest.jpg" class="latest_images" alt="latest image" /></div>
+<div id="image_containerA"><img src="/beacon/latest_256/ahead_euvi_195_latest.jpg" class="latest_images" alt="latest images" /></div>
+</div>
+
+
+<div style="clear:both"></div>
+
+<h1>Featured Gallery Item</h1>
+<table>
+<tr>
+<td id="selectswrapper"></td>
+<td>
+<h3 style="margin:0 0 10px 10px">STEREO SELECTS</h3>
+<p style="margin:0 0 10px 10px">A selection of some of our favorite video clips and images as they occur.</p>
+<ul class="list" style="margin:0 0 0 10px">
+<li><a href="/gallery/selects.shtml">View Selects gallery</a></li>
+<li><a href="/gallery/gallery.shtml">STEREO Galleries Index</a></li>
+<li><a href="http://sohowww.nascom.nasa.gov/pickoftheweek/" target="_blank">SOHO Pick of the week</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h1><a href="/news/news.xml"><img src="/img/RSS_icon.gif" alt="rss" border="0" /></a> What's New</h1>
+<div>
+<small><img src="/img/bullet2.gif" alt="" /> <a href="/news/news.shtml">For more news about STEREO</a></small><br />
+<br />
+<div id="newswrapper"></div>
+</div>
+
+<p><img src="/img/bullet2.gif" alt="" /> <a href="https://www.nasa.gov/stereo/" target="_blank">Visit STEREO on the NASA Portal.</a></p>
+</div>
+<!-- DO NOT EDIT BELOW THIS LINE -->
+
+
+
+<hr />
+<P>Last Revised: Friday, 20-Nov-2020 19:12:15 EST<!-- /index.shtml --><br>
+Responsible NASA Official: <img src="/img/kucera_email.jpg" width="40%" style="display:inline;" alt="[email address: therese.a.kucera&lt;at&gt;nasa&lt;dot&gt;gov]"><br>
+<a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a><br>
+Webmaster: <a href="mailto:Kevin.M.Addison@nasa.gov">Kevin Addison</a><br /><br /></p>
+
+		</td></tr></table>
+		</td>
+	</tr>
+	
+</table>
+
+</td></tr></table>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Landsat-8 Calibration Analysis</title>
+
+<meta name="orgcode" content="618" />
+<meta name="rno" content="Kurt Thome" />
+<meta name="content-owner" content="Julia.Barsi" />
+<meta name="webmaster" content="Julia.Barsi" />
+<meta name="description" content="Restricted access site for sharing Landsat-8 calibration and validation analysis." />
+<meta name="keywords" content="landsat, ldcm, landsat 8, landsat data continuity mission" />
+<meta name="doc-class" content="Living Document" />
+
+<style type="text/css" media="screen">@import url("css/style.css"); </style>
+
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+<script type="text/javascript" src="https://ldcm-cal.gsfc.nasa.gov/google_analytics/federated-analytics.all.min.js?agency=NASA&subagency=GSFC"></script>
+
+<style> body { background-image: url("img/Mississippi_Delta_1600x1600.jpg"); }</style> 
+</head>
+
+<body class="home page">
+
+
+<div id="header" class="page">
+<img src="img/header-bg.png" height="210" usemap="#Map" border="0" hidefocus="true">
+<map name="Map" id="Map">
+  <area shape="circle" coords="59,67,39" href="http://www.nasa.gov" target="new" alt="NASA" />
+  <area shape="rect" coords="129,44,522,91" href="http://ldcm-cal.gsfc.nasa.gov" alt="Landsat Calibration - Home" />
+</map>
+
+<h2> News </h2>
+</div>
+<!-- close header -->
+
+<div id="main">
+<div id="sidebar-main">
+<ul class="feed small">
+<li>Launchpad access coming soon</li>
+</div>
+
+<div id="content2">
+</div>
+<div id="main">
+<div id="content2" class="widecolumn" role="main">
+<div class="post-18 page type-page status-publish hentry">
+                    <div class="entry">
+                    					
+
+	    <h2> Access      </h2><br>
+	<table cellpadding="20" cellspacing="20" border="0" width=100%>
+	<tr><td>
+			This is a restricted access site. If you would like access, please send a request to <a href="mailto:julia.barsi@nasa.gov">Julia Barsi</a> 
+			which includes a justification as to why you require access.
+	</table>
+
+
+		<h2>Analysis Sites<br></h2>
+	<table cellpadding="20" cellspacing="20" border="0" width=100%>
+	<tr>
+		<td>+ Landsat 7 Analysis</td>
+		<td>Prelaunch and postlaunch analyses<br>
+		(separate account required)</td>
+	</tr>
+	<tr>
+		<td>+ Landsat-8</a></td>
+		<td>Prelaunch (LDCM) and postlaunch analyses</td>
+	</tr>
+	<tr>
+		<td>+ Landsat-9</a></td>
+		<td>Prelaunch reports, testing, data, analyses</td>
+	</tr>
+	<tr>
+		<td>+ Sentinel-2</a></td>
+		<td>Prelaunch reports, testing, data, analyses</td>
+	</tr>
+	</table>
+	<br />
+
+	</div>
+	</div>
+	</div>
+		<div class="clear">&nbsp;</div>
+	</div>
+		<div class="clear">&nbsp;</div>
+		<div class="clear">&nbsp;</div>
+		<div class="clear">&nbsp;</div>
+		<div class="clear">&nbsp;</div>
+		<div class="clear">&nbsp;</div>
+
+	<!-- NASA Footer -->
+	<div id="footer">
+		<div class="cap"></div>
+    		<div class="fill"></div>
+<img src="img/footer-bg.png">
+		<ul class="left">
+			<li class="reg"><span>NASA Official: </span> <a href="mailto:brian.l.markham@nasa.gov">Kurt Thome</a></li>
+			<li class="reg"><span>Webmaster: </span> <a href="mailto:edward.kaita-1@nasa.gov">Ed Kaita</a></li>
+			<li class="reg"><span>Curators: </span><a href="mailto:julia.barsi@nasa.gov">Julia Barsi</a></li>
+			
+            	</ul>
+            	<ul class="right">
+                	<li class="reg"><span>Last Updated:</span> February 25, 2016</li>
+                	<li class="reg"><span>Background Image: </span><a href="http://visibleearth.nasa.gov/view.php?id=8103" target="_new">Mississippi Delta</a></li>
+                	<li class="reg"><span><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy &amp; Important Notices</a></span></li>
+            	</ul>
+    	</div>
+</div>
+</body>
+</html>

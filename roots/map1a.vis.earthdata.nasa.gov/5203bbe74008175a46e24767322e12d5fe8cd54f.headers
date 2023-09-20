@@ -1,0 +1,11 @@
+GET https://map1a.vis.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Last-Modified: Wed, 06 Apr 2022 14:01:41 GMT
+< Etag: "4d5-5dbfccd01ba9f"
+< Accept-Ranges: bytes
+< Content-Length: 1237
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:46:31 GMT

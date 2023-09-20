@@ -1,0 +1,16 @@
+GET https://ails.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Etag: "22cc-5fbeb83812af9"
+< X-Content-Type-Options: nosniff
+< Upgrade: h2
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Wed, 17 May 2023 22:50:25 GMT
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:57:47 GMT
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Length: 8908

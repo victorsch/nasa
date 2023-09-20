@@ -1,0 +1,12 @@
+GET https://scool.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000
+< Last-Modified: Sun, 18 Apr 2021 14:00:52 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 17507
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 06:03:23 GMT
+< Server: Apache

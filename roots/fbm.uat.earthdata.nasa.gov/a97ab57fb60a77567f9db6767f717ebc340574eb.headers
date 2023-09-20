@@ -1,0 +1,17 @@
+GET https://fbm.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< Server: nginx/1.22.1
+< X-Runtime: 0.003033
+< X-Request-Id: 9ded1d51-8a44-4fe1-bb3a-34c0252c3fd2
+< X-Download-Options: noopen
+< X-Permitted-Cross-Domain-Policies: none
+< Referrer-Policy: strict-origin-when-cross-origin
+< Location: https://fbm.uat.earthdata.nasa.gov/sso/login?state=%2F
+< Cache-Control: no-cache
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 05:42:17 GMT

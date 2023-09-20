@@ -1,0 +1,10 @@
+GET http://genesis.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Length: 213
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:44:28 GMT
+< Server: 
+< Strict-Transport-Security: max-age=31536000
+< Location: https://genesis.jpl.nasa.gov/

@@ -1,0 +1,11 @@
+GET http://uavsar.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: sameorigin
+< Location: https://uavsar.jpl.nasa.gov/
+< Content-Length: 236
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:06:15 GMT

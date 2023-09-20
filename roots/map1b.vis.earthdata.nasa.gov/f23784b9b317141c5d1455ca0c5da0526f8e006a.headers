@@ -1,0 +1,11 @@
+GET https://map1b.vis.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 1237
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:46:34 GMT
+< Server: Apache
+< Last-Modified: Wed, 06 Apr 2022 13:45:13 GMT
+< Etag: "4d5-5dbfc92203e0a"
+< Accept-Ranges: bytes

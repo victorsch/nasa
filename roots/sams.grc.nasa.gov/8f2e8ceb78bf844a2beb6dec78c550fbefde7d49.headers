@@ -1,0 +1,15 @@
+GET https://sams.grc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Set-Cookie: cookiesession1=678B28751FF4A7EC79283FA3ECB68803;Expires=Wed, 18 Sep 2024 06:01:23 GMT;Path=/;HttpOnly
+< Date: Tue, 19 Sep 2023 06:01:23 GMT
+< Etag: "af4-5c2c5719c1c30"
+< Accept-Ranges: bytes
+< Content-Length: 2804
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Last-Modified: Thu, 20 May 2021 16:29:13 GMT
+< Content-Security-Policy: frame-ancestors https://gipoc.grc.nasa.gov/

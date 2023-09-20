@@ -1,0 +1,27 @@
+GET https://appel.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Pingback: https://appel.nasa.gov/xmlrpc.php
+< X-Amz-Cf-Pop: EWR53-C3
+< Timing-Allow-Origin: *
+< Via: 1.1 e3fb879a67c14c7a96059b2b777ccbc8.cloudfront.net (CloudFront)
+< Access-Control-Allow-Origin: *
+< Link: <https://appel.nasa.gov/>; rel=shortlink
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Referrer-Policy: same-origin
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: tBktAirGtJB66_Qbt1XuituXOkgvjXKELUeSHXaY3YQSFdIKd2Q-sw==
+< Set-Cookie: AWSALB=A+BV9zPd9057OsvSP8LG0TX2TpNVS0ktzdpgIwLFMmHW45no8dHAgkHiS60t8/Vj8y4fChyHC16pZnBFuRDGKdizeSU6KashO8d6mIWJ0NtHMXGK9seVldfjwHHR; Expires=Tue, 26 Sep 2023 05:55:09 GMT; Path=/
+< Set-Cookie: AWSALBCORS=A+BV9zPd9057OsvSP8LG0TX2TpNVS0ktzdpgIwLFMmHW45no8dHAgkHiS60t8/Vj8y4fChyHC16pZnBFuRDGKdizeSU6KashO8d6mIWJ0NtHMXGK9seVldfjwHHR; Expires=Tue, 26 Sep 2023 05:55:09 GMT; Path=/; SameSite=None; Secure
+< Strict-Transport-Security: max-age=31536000
+< Server: NASA
+< X-Xss-Protection: 1; mode=block
+< Access-Control-Allow-Credentials: true
+< Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+< Vary: Accept-Encoding
+< Cache-Control: max-age=300, s-maxage=600, stale-while-revalidate=3600
+< Date: Tue, 19 Sep 2023 05:55:09 GMT
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8

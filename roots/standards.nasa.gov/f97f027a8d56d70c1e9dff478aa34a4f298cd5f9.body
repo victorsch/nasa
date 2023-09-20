@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+  <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" src="https://mobile.neacc.nasa.gov/pulse/track.js"></script>
+<link rel="icon" href="/themes/custom/standards_dark/logo.svg" type="image/svg+xml" />
+
+  <title>Welcome | Standards</title>
+  <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ANKERxmICujKqYlDqfPJKVufkwSg1cRizV9IuKkS8xo.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/uswds@2.10.0/dist/css/uswds.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_1Ac-ltNmEpb3hzpDOAs-bhd6k20mv2TvZb9kUfVrI6w.css" />
+
+  
+</head>
+<body>
+<a href="#main-content" class="usa-sr-only focusable">
+  Skip to main content
+</a>
+
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended"  id="header" role="banner">
+
+  
+  
+    <div class="region region-header usa-navbar">
+    <div class="usa-logo site-logo" id="logo">
+  <em class="usa-logo__text">
+          <a class="logo-img" href="/" accesskey="1" title="Home" aria-label="Home">
+        <span class="logo-img-item"><img src="/themes/custom/standards_dark/logo.svg" alt="Home" /></span>
+      </a>
+      <span class="ntss-slogan">
+        <div class="first-line">Office of the NASA Chief Engineer</div>
+        <div class="second-line">NASA Technical Standards System</div>
+      </span>
+    
+    
+      </em>
+</div>
+<div class="usa-nav__header-ntss">
+</div>
+<button class="usa-menu-btn">Menu</button>
+
+</div>
+
+
+    <nav class="usa-nav" role="navigation">
+            <div class="usa-nav__inner">
+        
+        <button class="usa-nav__close">
+          <img src="https://cdn.jsdelivr.net/npm/uswds@2.10.0/dist/img/close.svg" alt="close"/>
+        </button>
+
+        
+        
+                      
+<div  id="block-standards-dark-main-menu" class="block block-system block-system-menu-blockmain">
+  
+    
+    
+        
+  
+          <ul class="usa-nav__primary usa-accordion" role="navigation">
+    
+                        
+              <li class="usa-nav__primary-item">
+      
+      
+              
+        
+                                  <a href="/" class="is-active usa-nav__link" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+
+              
+              </li>
+      
+                        
+              <li class="usa-nav__primary-item">
+      
+      
+              
+        
+                                  <a href="/Program-Overview" class="usa-nav__link" data-drupal-link-system-path="node/3">Program Overview</a>
+
+              
+              </li>
+      
+                        
+              <li class="usa-nav__primary-item">
+      
+      
+              
+        
+                                  <a href="/NTSS-Description" class="usa-nav__link" data-drupal-link-system-path="node/4">NTSS Description</a>
+
+              
+              </li>
+      
+    
+          </ul>
+    
+  
+
+
+
+</div>
+
+
+          
+                      <div class="usa-nav__secondary">
+
+<div  id="block-standards-dark-account-menu" class="block block-system block-system-menu-blockaccount">
+  
+    
+  
+    
+    <ul class="usa-nav__secondary-links">
+
+      
+              
+                          
+        
+        <li class="menu-item usa-nav__secondary-item">
+          <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+                  </li>
+      
+    </ul>
+  
+
+
+
+</div>
+
+</div>
+          
+          
+              </div>
+          </nav>
+
+    </header>
+
+
+<main class="main-content usa-layout-docs usa-section " role="main"
+      id="main-content">
+  <a id="main-content" tabindex="-1"></a>
+  <div class="grid-container">
+
+          <div class="grid-row">
+        
+      </div>
+
+      <div class="">
+        <div data-drupal-messages-fallback class="hidden"></div>
+
+
+      </div>
+
+                    <div class="grid-row ">
+          
+        </div>
+          
+    <div class="grid-row grid-gap-1">
+              <aside
+          class="usa-layout-docs__sidenav desktop:grid-col-3 layout-sidebar-first"
+          role="complementary">
+          <div class="sidebar-first-wrapper padding-top-3 padding-right-3 padding-bottom-0 padding-left-3 height-full border-width-1px border-gray-10 radius-md bg-dark shadow-3">
+            
+
+<div  id="block-standards-dark-standardsusermenu-2" class="block block-system block-system-menu-blockstandards-user-menu sidenav-menu-wrapper padding-bottom-1">
+  
+      <div class='sidenav-menu-title'>
+      <h2 class='margin-top-0'>User Menu</h2>
+    </div>
+    
+
+  <div class='sidenav-menu-items'>
+    
+
+  
+      <ul class="usa-sidenav">
+          
+                    
+      
+      <li class="usa-sidenav__item first">
+        <a href="/nasa-technical-standards" data-drupal-link-system-path="node/2">NASA Technical Standards</a>
+      </li>
+                
+                    
+      
+      <li class="usa-sidenav__item last">
+        <a href="/center-specific-standards" data-drupal-link-system-path="center-specific-standards">Center Standards</a>
+      </li>
+              </ul>
+  
+
+
+  </div>
+
+  <div class='horizontal-line padding-top-2 border-bottom-width-1px border-gray-10 margin-left-neg-3 margin-right-neg-3'></div>
+</div>
+
+
+<div  id="block-standards-dark-sitemenu-2" class="block block-system block-system-menu-blocksite-menu sidenav-menu-wrapper padding-bottom-1">
+  
+      <div class='sidenav-menu-title'>
+      <h2 class='margin-top-0'>Site Menu</h2>
+    </div>
+    
+
+  <div class='sidenav-menu-items'>
+    
+
+  
+      <ul class="usa-sidenav">
+          
+                    
+      
+      <li class="usa-sidenav__item first last">
+        <a href="mailto:standards@msfc.nasa.gov?subject=%22Feedback%20From%20NTSS%20User%22">Email Feedback </a>
+      </li>
+              </ul>
+  
+
+
+  </div>
+
+  <div class='horizontal-line padding-top-2 border-bottom-width-1px border-gray-10 margin-left-neg-3 margin-right-neg-3'></div>
+</div>
+
+          </div>
+        </aside>
+      
+      <div class="usa-layout-docs__main desktop:grid-col-fill">
+        <div class="main-content-wrapper padding-top-3 padding-right-3 padding-bottom-3 padding-left-3 height-full border-width-1px border-gray-10 radius-md bg-dark shadow-3">
+              <div class="views-element-container block block-views block-views-blockhomepage-slideshow-block-1" id="block-standards-dark-views-block-homepage-slideshow-block-1">
+  
+    
+      <div><div class="js-view-dom-id-facbb149ccf57dfb686153aeaed885c43c00b6f4a638735681b332ca8e5eb7ad">
+  
+  
+  
+
+  
+  
+  
+
+    <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_homepage_slideshow-block_1" class="views_slideshow_cycle_main views_slideshow_main">
+    <div id="views_slideshow_cycle_teaser_section_homepage_slideshow-block_1"  class="views_slideshow_cycle_teaser_section">
+     <div id="views_slideshow_cycle_div_homepage_slideshow-block_1_0"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+      <div  class="views-row views-row-0 views-row-odd views-row-first">
+  <div class="views-field views-field-title"><span class="field-content slideshow-link"><a href="http://www.nasa.gov/faces-of-nasa/liliana-villareal" target="_blank">Artemis Landing and Recovery Director Liliana Villarreal</a></span></div><div class="views-field views-field-field-slideshow-image"><div class="field-content"><a href="http://www.nasa.gov/faces-of-nasa/liliana-villareal" target="_blank">  <img loading="lazy" src="/sites/default/files/styles/homepage_slideshow/public/Slideshow_Images/ksc-20230201-ph-kls01_0029orig.jpg?itok=2AOKq1mc" width="710" height="250" typeof="foaf:Image" />
+
+
+</a></div></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_homepage_slideshow-block_1_1"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      <div  class="views-row views-row-1 views-row-even">
+  <div class="views-field views-field-title"><span class="field-content slideshow-link"><a href="http://www.nasa.gov/image-feature/accelerated-ice-breakup-in-hudson-bay" target="_blank">Accelerated Ice Breakup in Hudson Bay</a></span></div><div class="views-field views-field-field-slideshow-image"><div class="field-content"><a href="http://www.nasa.gov/image-feature/accelerated-ice-breakup-in-hudson-bay" target="_blank">  <img loading="lazy" src="/sites/default/files/styles/homepage_slideshow/public/Slideshow_Images/jamesbaypolarbears_vir2_2023179_lrg.jpg?itok=rGCMQX6z" width="710" height="250" typeof="foaf:Image" />
+
+
+</a></div></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_homepage_slideshow-block_1_2"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      <div  class="views-row views-row-2 views-row-odd">
+  <div class="views-field views-field-title"><span class="field-content slideshow-link"><a href="http://www.nasa.gov/image-feature/droid-2-captures-the-wind" target="_blank">DROID 2 Captures the Wind</a></span></div><div class="views-field views-field-field-slideshow-image"><div class="field-content"><a href="http://www.nasa.gov/image-feature/droid-2-captures-the-wind" target="_blank">  <img loading="lazy" src="/sites/default/files/styles/homepage_slideshow/public/Slideshow_Images/afrc2023-0135-32orig.jpg?itok=aTAt51Jc" width="710" height="250" typeof="foaf:Image" />
+
+
+</a></div></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_homepage_slideshow-block_1_3"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      <div  class="views-row views-row-3 views-row-even">
+  <div class="views-field views-field-title"><span class="field-content slideshow-link"><a href="http://www.nasa.gov/image-feature/frank-rubio-breaks-nasa-s-single-spaceflight-…" target="_blank">Frank Rubio Breaks NASA’s Single Spaceflight Record</a></span></div><div class="views-field views-field-field-slideshow-image"><div class="field-content"><a href="http://www.nasa.gov/image-feature/frank-rubio-breaks-nasa-s-single-spaceflight-…" target="_blank">  <img loading="lazy" src="/sites/default/files/styles/homepage_slideshow/public/Slideshow_Images/ksc-07pd0726orig.jpg?itok=O9ixhT22" width="710" height="250" typeof="foaf:Image" />
+
+
+</a></div></div>
+</div>
+
+  </div>
+
+     <div id="views_slideshow_cycle_div_homepage_slideshow-block_1_4"  class="views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+      <div  class="views-row views-row-4 views-row-odd views-row-last">
+  <div class="views-field views-field-title"><span class="field-content slideshow-link"><a href="http://www.nasa.gov/image-feature/snowy-egret-searches-the-waters" target="_blank">Snowy Egret Searches the Waters</a></span></div><div class="views-field views-field-field-slideshow-image"><div class="field-content"><a href="http://www.nasa.gov/image-feature/snowy-egret-searches-the-waters" target="_blank">  <img loading="lazy" src="/sites/default/files/styles/homepage_slideshow/public/Slideshow_Images/ksc-20230201-ph-kls01_0029orig.jpg?itok=2AOKq1mc" width="710" height="250" typeof="foaf:Image" />
+
+
+</a></div></div>
+</div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+        </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  <h1 class="margin-0 margin-bottom-4">Welcome</h1>
+<div id="block-standards-dark-content" class="block block-system block-system-main-block">
+  
+    
+      
+  </div>
+<div id="block-standards-dark-welcometontssforpublicusers-2" class="block block-block-content block-block-contentfa8e5eaa-c38d-4bcf-9738-05e57ecbf31b">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The NASA Technical Standards System (<span class="tx-tooltip" tabindex="0">
+  NTSS
+  <span class="tx-tooltip-text">
+     NASA Technical Standards System
+
+  </span>
+</span>) is a key element of the NASA Technical Standards Program (<span class="tx-tooltip" tabindex="0">
+  NTSP
+  <span class="tx-tooltip-text">
+     NASA Technical Standards Program
+
+  </span>
+</span>), sponsored by the Office of the NASA Chief Engineer (<span class="tx-tooltip" tabindex="0">
+  OCE
+  <span class="tx-tooltip-text">
+     Office of the Chief Engineer
+
+  </span>
+</span>).</p>
+
+<p><strong>PUBLIC ACCESS:</strong> Public Users may access NASA and Center Technical Standards authorized for public release. Use the “Email Feedback” link to submit questions regarding NASA or Center Technical Standards.</p>
+</div>
+      
+  </div>
+
+
+        </div>
+      </div>
+          </div>
+  </div>
+</main>
+
+<footer class="usa-footer usa-footer--big" role="contentinfo">
+      <div class="footer-wrap">
+      <div class="grid-container usa-footer__return-to-top">
+  <a href="#" class="footer-return-top" aria-label="Back to top" title="Back to top"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-circle-up" class="svg-inline--fa fa-arrow-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z"></path></svg></a>
+</div>
+<div class="usa-footer__primary-section">
+  <div class="usa-footer__primary-content bg-black">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-3 padding-top-3">
+          <div class="usa-footer__logo grid-row mobile-lg:grid-col-3 mobile-lg:grid-gap-2">
+            <a href="/">
+              <div class="footer-logo padding-3 mobile-lg:grid-col-auto">
+                <img class="usa-footer__logo-img"
+                   src="/themes/custom/standards/nasa-logo.svg"
+                   alt="Nasa">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="tablet:grid-col-3 padding-top-6">
+          <div class="standards_content_copyright_block block block-standards-content block-standards-content-copyright-block" id="block-standards-dark-copyrightblock">
+  
+    
+      <div><div class="copyright-block-wrapper"><p>Site Curator: <a class="mailto" href="mailto:brenda.k.bailey@nasa.gov" rel="nofollow" title="Link to Brenda Bailey email address">Brenda Bailey</a> </p>
+
+<p>NASA Official: <a class="mailto" href="mailto:paul.gill@nasa.gov" rel="nofollow" title="Link to Paul Gill email address">Paul Gill</a></p>
+
+<p>NTSS Version 8.1.0.14   June 1, 2023</p>
+</div>
+</div>
+
+  </div>
+
+        </div>
+        <div class="tablet:grid-col-6 padding-top-6">
+          
+<div  class="contextual-region block block-system block-system-menu-blockfooter">
+  
+    
+  <div data-contextual-id="block:block=standards_footer_menu:langcode=en|menu:menu=footer:langcode=en" data-contextual-token="rZ3wdVu3ScdhDQlc7nynlSV0vx-WvbYPddkIECmiCUo"></div>
+  
+      
+
+          <nav class="usa-footer__nav">
+    
+            <div class="grid-row grid-gap">
+    
+                        
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
+          <section class="usa-footer__primary-content">
+            <a class="usa-footer__primary-link padding-2" href="https://get.adobe.com/reader/">Get Adobe Reader </a>
+            <ul class="usa-list usa-list--unstyled">
+                          </ul>
+          </section>
+        </div>
+                              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
+          <section class="usa-footer__primary-content">
+            <a class="usa-footer__primary-link padding-2" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Policy and Important Notices </a>
+            <ul class="usa-list usa-list--unstyled">
+                          </ul>
+          </section>
+        </div>
+                              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
+          <section class="usa-footer__primary-content">
+            <a class="usa-footer__primary-link padding-2" href="https://sma.nasa.gov/sma-disciplines/nsrs">NASA Safety Reporting System </a>
+            <ul class="usa-list usa-list--unstyled">
+                          </ul>
+          </section>
+        </div>
+          
+
+          </nav>
+    
+          </div>
+    
+  
+
+
+
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  
+  </footer>
+
+  </div>
+
+<script type="text/javascript">try{Pulse.track('NTSS', {auid: '', server: 'standards-webapp-1-prod-priv.nasawestprime.com', method: 'GET'})}catch(e){var Pulse = (function(){var module ={};module.track=function(){};module.logInfo=function(){};module.logWarn=function(){};module.logError=function(){};module.event=function(){};return module;}());}</script>
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"home","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"extlink\/drupal.extlink,popup_after_login\/popup_after_login_js,standards_dark\/assets,sweetalert2\/sweetalert2_js,system\/base,tooltip_taxonomy\/simple_tooltip,usfedgov_google_analytics\/load-analytics-cdn,uswds_base\/framework,views\/views.module,views_slideshow\/jquery_hoverIntent,views_slideshow\/widget_info,views_slideshow_cycle\/jquery_cycle,views_slideshow_cycle\/json2,views_slideshow_cycle\/views_slideshow_cycle","theme":"standards_dark","theme_token":null},"ajaxTrustedUrl":[],"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"(nen\\.nasa\\.gov)","extCssExclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"By following this link, you will no longer be on this website.  The NASA Standards Office is not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_homepage_slideshow-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"homepage_slideshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"items_per_slide_first":0,"items_per_slide_first_number":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"viewsSlideshow":{"homepage_slideshow-block_1":{"methods":{"goToSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowSlideCounter","viewsSlideshowPager","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowSlideCounter","viewsSlideshowPager"],"transitionEnd":[]},"paused":0}},"siteBaseUrl":"https:\/\/standards.nasa.gov","user":{"uid":0,"permissionsHash":"a742a4d40b4c5f0f133f701a57499b6807d8bb65193434ec45b7b940faa0a99f"}}</script>
+<script src="/sites/default/files/js/js_nyemd-Pu2x_K3XR0rvpZcDOFA9TrvSrsf1T2dH6X_vw.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uswds@2.10.0/dist/js/uswds.min.js"></script>
+<script src="/sites/default/files/js/js_Ym0lEbeIM_eUdPM2AgG5DOk6MQdUX-QGwv4xbc8B7tM.js"></script>
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=MSFC&amp;pua=0" id="_fed_an_ua_tag"></script>
+<script src="/sites/default/files/js/js_p7K_-5YeF7juH4zpwimHIbo9qQhUaPKK_dc93S3KMcA.js"></script>
+
+</body>
+</html>

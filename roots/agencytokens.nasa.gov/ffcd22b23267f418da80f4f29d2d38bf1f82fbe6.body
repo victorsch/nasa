@@ -1,0 +1,190 @@
+<html><head><title>RSA SecurID PASSCODE Request</title>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-oei36hl1LVSdefEXtutPabvpsSK' object-src 'self'">
+<script language="JavaScript" nonce="oei36hl1LVSdefEXtutPabvpsSK">
+<!--
+
+window.onload = function(){
+    findPlugins();
+}
+function getError()
+{
+    return "";
+}
+function getUrl()
+{
+    return "/webauthentication";
+}
+
+
+var need_cancel = true;
+var submitDone = false;
+function dopopup( location, w, h ) {
+	return window.open(location, "SecurIDPopup", "screenx=16,screeny=16,left=16,top=16,height=" + h + ",width=" + w);
+}
+function clear_cancel() {	
+	need_cancel = false;
+	if (submitDone) return false;
+	submitDone = true;
+	//var myform=document.forms[0];
+	//document.cookie = "username=" + myform.username.value + ";path=/;";
+	return true;
+}
+function check_cancel() {
+	if (need_cancel) {
+		dopopup("/webauthentication?Cancel?sessionid=0&authntype=2", 500, 240);
+	}
+}
+
+
+// handle key pressed
+function handleKeyPressed(keypressed)
+{
+    contentFrame.lemmein(keypressed);
+}
+
+function frametop()
+{
+  if (!(top === self))
+  {
+    document.write = '';
+    setTimeout(function(){document.body.innerHTML='';},1);
+    window.self.onload=function(evt){document.body.innerHTML='';};
+    window.top.location = window.self.location;
+  }
+}
+
+// popup support in framed pages
+var popup_auth = null;
+var old_cookies = document.cookie;
+// when the popup closes attempt to reload this page
+function check_popup()
+{
+	if (popup_auth && popup_auth.open && !popup_auth.closed) {
+		setTimeout("check_popup()", 500);
+	// if the cookies did not change the user closed the popup
+	} else if (document.cookie != old_cookies) {
+		clear_cancel();
+		self.document.location.reload(true);
+	}
+}
+// open a popup window for authentication
+function make_popup() {
+	frametop();
+	if (false && self != top) {
+		var h = screen.height - 96;
+		var w = screen.width - 48;
+
+		if (navigator.appName.indexOf("Netscape") != -1) {
+			popup_auth = dopopup(location, w, h);
+		} else {
+			popup_auth = dopopup("", w, h);
+			var proto = popup_auth.document.location.protocol;
+			if (proto != "http:" && proto != "https:")
+				popup_auth = window.open(location, "SecurIDPopup");
+		}
+		setTimeout("check_popup()", 500);
+		return true;
+	}
+	return false;
+}
+
+
+function loadPage(url)
+{
+    document.getElementById('contentFrame').src = url;
+}
+
+
+function findPlugins()
+{
+    var pluginFound = false;
+    
+    // test for Firefox
+    var isFireFox = /Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent);
+
+    // test for Safari 
+    var isSafari = /Safari/.test(navigator.userAgent);
+    
+    // test for IE
+    var isIE = /MSIE (\d+\.\d+);/.test(navigator.userAgent);
+
+    // test for Windows
+    var isWindows = /Windows/.test(navigator.userAgent);
+
+    // only IE and Firefox on Windows, and Safari on Mac are supported for plugins
+    if ( (isFireFox && isWindows) || (isSafari && !isWindows) )
+    {
+        // search for WebID NPAPI plugin
+        var pluginCount=navigator.plugins.length;
+        for( var i=0; i<pluginCount; i++)
+        {
+            var myPlugin = navigator.plugins[i];
+            var myMimeType=myPlugin[0];
+            if( myMimeType && myMimeType.type == "application/x-sdclient" )
+            {
+                pluginFound = true;
+                break; 
+            }
+        }
+    }
+    else if ( isIE )
+    {
+        var webIdControl = null;
+
+        // test for ActiveX plugin
+        try
+        {
+            webIdControl= new ActiveXObject('IESDCLNT.IesdclntCtrl.1');
+        }
+        catch ( e ) { }
+        
+        if ( webIdControl != null ) {
+            pluginFound = true;
+        }
+    }
+
+    if ( pluginFound )
+    { 
+        loadPage("/webauthentication?GetFile?file=useridplugin");
+    }
+    else
+    {
+        loadPage("/webauthentication?GetFile?file=useridmanual");
+    }
+}
+
+// -->
+</script>
+<noscript><meta http-equiv="refresh" content="0;about:blank"></noscript>
+
+</head>
+
+<!-- <body language="Javascript" onload="findPlugins()"> -->
+<body language="Javascript">
+<iframe name="contentFrame" id="contentFrame" width="100%" height="100%" frameborder="0">
+</iframe>
+
+<form action="/webauthentication" method="POST" name="transportForm" accept-charset="ISO-8859-1">
+	<input type="hidden" name="username">
+	<input type="hidden" name="referrer"  value="Z2F">
+	<input type="hidden" name="sessionid" value="0">
+	<input type="hidden" name="postdata"  value="get&#58;">
+	<input type="hidden" name="authntype" value="2">
+	<input type="hidden" name="stage">
+	<input type="hidden" name="passcode">
+	<input type="hidden" name="csrftoken" value="7A2163238BED4E44">
+</form>
+<form action="/webauthentication?Cancel" method="POST" name="cancelForm" accept-charset="ISO-8859-1">
+	<input type="hidden" name="referrer"  value="Z2F">
+	<input type="hidden" name="sessionid" value="0">
+	<input type="hidden" name="authntype" value="2">
+</form>
+<form name=DataForm accept-charset="ISO-8859-1">
+    <input type="hidden" name="sd_time" value="1695103053" >
+</form>
+
+
+</body>
+
+</html>
+

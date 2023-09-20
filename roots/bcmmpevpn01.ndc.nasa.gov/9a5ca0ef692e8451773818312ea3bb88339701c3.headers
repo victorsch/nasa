@@ -1,0 +1,13 @@
+GET https://bcmmpevpn01.ndc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Location: /dana-na/auth/url_default/welcome.cgi
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 0
+< Set-Cookie: DSSIGNIN=url_default; path=/dana-na/; secure
+< Set-Cookie: DSIVS=; path=/; expires=Thu, 01 Jan 1970 22:00:00 GMT; secure
+< Set-Cookie: DSSignInURL=/; path=/; secure
+< Set-Cookie: SUPPORTCHROMEOS=1; path=/; secure
+< Set-Cookie: DISABLE_PHC=1; path=/; secure
+< Strict-Transport-Security: max-age=31536000

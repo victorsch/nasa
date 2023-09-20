@@ -1,0 +1,12 @@
+GET https://heasarc.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=ISO-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:01:02 GMT
+< X-Frame-Options: sameorigin
+< Content-Security-Policy: frame-ancestors 'self' cms.nasa.gov www.nasa.gov beta.science.nasa.gov smd-cms.nasa.gov science.nasa.gov;
+< Content-Security-Policy: upgrade-insecure-requests
+< Server: WebServer/1.0
+< Accept-Ranges: bytes

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>NASA's New Technology Reporting System</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=9" />
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+   <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+   <script type="text/javascript" src="/libs/jquery.min.js"></script>
+   <link type="text/css" href="/assets/ntr-t2p.css?v=2" rel="stylesheet" />
+   <script type="text/javascript" src="/assets/js/ntr-t2p.js"></script>
+</head>
+<body class="html front not-logged-in page-indexhtml page-home">
+   <a class="accessible" href="#content">[Skip to Content]</a>
+   <div id="banner">
+   <div class="header">
+      <table style="width: 100%" role="presentation">
+         <tr>
+            <td style="width: 313px; text-align: left;"><a href="https://technology.nasa.gov"><img src="/assets/images/ntr.logo.2017.png" style="height: 140px" alt="NASA Tech Transfer banner"/></a></td>
+            <td style="text-align: center;"><a href="/" target="_self"><img src="/assets/images/ntr-banner-t2.png" alt="e-NTR banner"/></a></td>
+            <td style="width: 313px; text-align: right;"><a href="http://www.nasa.gov"><img src='/assets/images/banner-meatball.png' alt="NASA logo"/></a></td>
+         </tr>
+      </table>
+   </div>
+   <!--<a href="/" target="_self"><img src="/assets/images/entr-banner.jpg" id="full-banner" /></a>-->
+   <img src="/assets/images/entr-banner.jpg" id="full-banner" alt="e-NTR banner"/>
+   <div id="m-banner">
+      <a href="http://www.nasa.gov"><img src="/assets/images/meatball.png" class="meatball" alt="NASA logo"/></a>
+      <a href="/" target="_self"><img src="/assets/images/ntr-banner-t2-m.png" class="t2banner" alt="e-NTR banner"/></a>
+   </div>
+</div>
+    <div align="center" id="cat">
+      <header id="section-header" class="section section-header">
+         <div id="section-header-menu-container"></div>
+      </header>
+
+      <main>
+         <div style="width: 550px; color: red; font-weight: bold;text-align: center; padding-top:20px; font-size:16px">
+                  </div>
+         <a id="content"></a>
+
+         <div id="feature">
+            <div id="feature_content" style="background:#ddd; max-width: 450px; max-height: 260px; margin: 0 auto; overflow: hidden;">
+               <div class="bx-wrapper" style="max-width: 100%;">
+                  <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 252px;">
+                     <ul class="bxslider" style="width: auto; position: relative;">
+                        <li style="float: none; list-style: none; position: absolute; width: 450px; z-index: 50; display: block;">
+                           <a href="https://youtu.be/7lmjeeiV9UI" target="_blank">
+                              <img src="/assets/features/images/video.jpg" title="Video for New Technology Reporting System" alt="Video for New Technology Reporting System">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <br class="cb"/>
+            <div id="ntr_tagline">
+               Improving life on Earth, one technology at a time
+            </div>
+         </div>
+
+         <br class="cb"/>
+
+         <div style="color:red;padding-bottom:5px; font-size:20px; width:550px;">
+            <strong>Attention all SBIR/STTR Contractors</strong>, please submit your reports via the
+            <a href="https://ehb8.gsfc.nasa.gov/contracts-app/public/awardee-home" target="_self" style="font-size:18px" text="Link to Electronic Handbook"><strong>Electronic Handbook (EHB)</strong></a>
+         </div>
+         <div class="box padded greenborder" id="reporting">
+            A New Technology Report (NTR) is the first step in helping NASA make the most of your technology <br/>
+            <a href="/prog" text="reporting link"><img src="/assets/images/report.png" id="ntr_report_img" alt="reporting icon" /></a>
+            <br/>
+            <a href="/prog" text="reporting link" id="reporting_link"><strong>Report your NTR or NTSR</strong></a>
+         </div>
+
+         <div class="box padded" id="reporting_info">
+            Not ready to submit?<br/>
+            Review these frequently asked questions<br/>
+            to learn more about the NTR process:<br/>
+            <br/>
+
+            <div id="info_button">
+               <a href="/faqs.php">Frequently Asked Questions</a>
+            </div>
+
+            <br class="cb"/>
+
+            <p>
+               Or <a href="contact-us.php" text="Contact Us">contact us</a> – we're here to help.
+            </p>
+
+            <br class="cb"/>
+            <br class="cb"/>
+            <br class="cb"/>
+         </div>
+      </main>
+
+      <div id="footer">
+         <div class="f-left">
+            <a href="http://www.nasa.gov">
+               <img alt="home" src="/assets/images/nasa-logo.svg">
+            </a>
+         </div>
+         <div class="f-right">
+            <div class="f-title">National Aeronautics and Space Administration</div>
+            <p>
+               NASA Official: Dan Lockney<br />
+               <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a><br />
+               <a href="mailto:NHQ-DL-T2-Support@mail.nasa.gov">Contact Us</a>
+            </p>
+         </div>
+      </div>
+
+   </div>
+   <div id="page-updated-info"></div>
+   </body>
+</html>

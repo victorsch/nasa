@@ -1,0 +1,7 @@
+GET https://urspapp.urs.eosdis.nasa.gov
+
+
+< HTTP/1.0 200 OK
+< Strict-Transport-Security: max-age=31536000
+< Connection: close
+< Content-Length: 13311

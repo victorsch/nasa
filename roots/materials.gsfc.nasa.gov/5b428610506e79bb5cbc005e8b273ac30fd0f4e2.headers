@@ -1,0 +1,12 @@
+GET https://materials.gsfc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Frame-Options: SAMEORIGIN
+< Location: https://code541.gsfc.nasa.gov/
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Content-Length: 214
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:02:27 GMT
+< X-Content-Type-Options: nosniff

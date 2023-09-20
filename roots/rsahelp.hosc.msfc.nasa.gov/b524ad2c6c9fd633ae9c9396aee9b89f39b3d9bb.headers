@@ -1,0 +1,14 @@
+GET https://rsahelp.hosc.msfc.nasa.gov
+
+
+< HTTP/1.1 302 Moved Temporarily
+< Cache-Control: no-store, no-cache, must-revalidate
+< Content-Length: 307
+< Content-Type: text/html;charset=UTF-8;
+< Content-Security-Policy: frame-ancestors https:; default-src 'self' 'unsafe-eval' 'unsafe-inline'
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:56:54 GMT
+< Location: https://rsahelp.hosc.msfc.nasa.gov/console-selfservice/
+< Strict-Transport-Security: max-age=63072000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block

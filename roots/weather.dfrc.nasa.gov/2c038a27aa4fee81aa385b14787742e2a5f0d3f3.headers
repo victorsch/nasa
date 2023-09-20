@@ -1,0 +1,11 @@
+GET http://weather.dfrc.nasa.gov
+
+
+< HTTP/1.1 302 Redirect
+< Date: Tue, 19 Sep 2023 06:05:14 GMT
+< Content-Length: 153
+< Content-Type: text/html; charset=UTF-8
+< Location: https://weather.dfrc.nasa.gov/
+< Server: Microsoft-IIS/8.5
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

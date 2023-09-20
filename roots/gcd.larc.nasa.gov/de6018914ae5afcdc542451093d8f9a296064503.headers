@@ -1,0 +1,13 @@
+GET https://gcd.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:06:02 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: LambdaGeneratedResponse from cloudfront
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: aItqDtEKmI4ETV0AKIBWvlnrN8dYAoU5yme5txi85wLK5sKfXrscyw==
+< Content-Length: 0
+< Server: CloudFront
+< Location: https://www.nasa.gov/directorates/spacetech/game_changing_development/
+< Via: 1.1 4f7671bb51952e26d4af9f468d98bc84.cloudfront.net (CloudFront)

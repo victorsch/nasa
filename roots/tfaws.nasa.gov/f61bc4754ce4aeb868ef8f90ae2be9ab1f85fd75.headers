@@ -1,0 +1,14 @@
+GET https://tfaws.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:56:34 GMT
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: cookiesession1=678B287302C213F84B36B7E1F3DCC00D;Expires=Wed, 18 Sep 2024 05:56:35 GMT;Path=/;HttpOnly
+< Content-Length: 25501
+< Server: Apache
+< Cache-Control: private, max-age=0, must-revalidate
+< X-Powered-By: XXXXXXXXXXX
+< Link: <https://tfaws.nasa.gov/>; rel=shortlink
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=UTF-8

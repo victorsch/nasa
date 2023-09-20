@@ -1,0 +1,14 @@
+GET http://monitoring.staging.larcmap.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Type: text/html
+< Content-Length: 164
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< Date: Tue, 19 Sep 2023 05:44:43 GMT
+< Location: https://monitoring.staging.larcmap.appdat.jsc.nasa.gov
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block

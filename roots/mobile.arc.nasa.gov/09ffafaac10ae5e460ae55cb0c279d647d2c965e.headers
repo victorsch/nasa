@@ -1,0 +1,17 @@
+GET https://mobile.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:44:14 GMT
+< Accept-Ranges: bytes
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Cache-Control: no-cache, no-store, must-revalidate;
+< Content-Security-Policy: default-src 'self' *.nasa.gov platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN'; script-src 'self' *.nasa.gov platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN'; style-src 'self' *.nasa.gov platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN'; frame-src 'self' *.nasa.gov youtube.com www.youtube.com platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN'; child-src 'self' *.nasa.gov platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN'; frame-ancestors 'self' *.nasa.gov platform.twitter.com syndication.twitter.com fonts.googleapis.com fonts.gstatic.com; form-action 'self' *.nasa.gov platform.twitter.com syndication.twitter.com 'nonce-k+IAGsZQ1sp4LuIyrkxsBgxN';
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 299
+< X-Frame-Options: SAMEORIGIN
+< Etag: "12b-5a603b6705890"
+< X-Xss-Protection: 1;  mode=block
+< Last-Modified: Tue, 19 May 2020 17:35:59 GMT

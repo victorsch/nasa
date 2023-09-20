@@ -1,0 +1,481 @@
+
+    
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>
+	Human Research Roadmap
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="google-site-verification" content="IwlveOTVyGsl9tquAqIphtZNDm4qakFvXmnccfjrkHY" /><link id="ctl00_slsdLink" rel="stylesheet" type="text/css" href="https://humanresearchroadmap.nasa.gov/slsd.css" /><link id="ctl00_localLink" rel="stylesheet" type="text/css" href="https://humanresearchroadmap.nasa.gov/local.css" /><link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png" /><link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192" /><link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" /><link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" /><link rel="manifest" href="images/manifest.json" /><link rel="shortcut icon" href="images/favicon.ico?v=lkkMz4LKb0" /><meta name="msapplication-TileColor" content="#da532c" /><meta name="msapplication-TileImage" content="~/images/mstile-144x144.png" /><meta name="theme-color" content="#ffffff" />
+    <script type="text/javascript" src="../JavaScript/jquery.js"></script>
+    <script type="text/javascript" src="../JavaScript/polyfill.js"></script>
+    <!-- DF: adding javascript 508 fixes -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('table').not(".riskRatingTable").not(".acronymHeader").removeAttr("summary").attr("role","presentation");
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            if (!Object.keys) {
+                Object.keys = function (obj) {
+                    var keys = [];
+
+                    for (var i in obj) {
+                        if (obj.hasOwnProperty(i)) {
+                            keys.push(i);
+                        }
+                    }
+
+                    return keys;
+                };
+            }
+
+            var acronymMeanings = {
+                'AEH': 'Advanced Environmental Health',
+                'AFT': 'Advanced Food Technology',
+                'BHP': 'Behavioral Health and Performance',
+                'CDC': 'Centers for Disease Control and Prevention',
+                'CMO': 'Chief Medical Officer',
+                'CSA': 'Customer-Spplier Agreement',
+                'DCS': 'Decompression Sickness',
+                'DOE': 'Department of Energy',
+                'DRM': 'Design Reference Mission',
+                'EVA': 'Extra-Vehicular Activity',
+                'ExMC': 'Exploration Medical Capability',
+                'HEOMD': 'Human Exploration and Operations Mission Directorate',
+                'HFBP': 'Human Factors and Behavioral Health',
+                'HHC': 'Human Health Countermeasures',
+                'HIDH': 'Human Integration Design Handbook',
+                'HRP': 'Human Research Program',
+                'HRR': 'Human Research Roadmap',
+                'HSRB': 'Human System Risk Board',
+                'IOM': 'Institute of Medicine',
+                'IRP': 'Integrated Research Plan',
+                'ISS': 'International Space Station',
+                'ISS-12': '12-Month ISS Mission',
+                'ISSMP': 'ISS Medical Projects',
+                'JSC': 'Johnson Space Center',
+                'LSAH': 'Lifetime Surveillance of Astronaut Health',
+                'LSDA': 'Life Science Data Archive',
+                'MRID': 'Medical Requirements Integration Document',
+                'NASA': 'National Aeronautics and Space Administration',
+                'NEA': 'Near Earth Asteroid',
+                'NPD': 'NASA Policy Directive',
+                'NRA': 'NASA Research Announcement',
+                'NSBRI': 'National Space Biomedical Research Institute',
+                'OCHMO': 'Office of the Chief Health and Medical Officer',
+                'PRD': 'Program Requirements Document',
+                'PRR': 'Path to Risk Reduction',
+                'R&TD': 'Research and Technology Development',
+                'R&amp;TD': 'Research and Technology Development',
+                'RCAP': 'Research and Clinical Advisory Panel',
+                'ROI': 'Research Operations and Integration',
+                'SBIR': 'Small Business Innovation Research',
+                'SHFE': 'Space Human Factors Engineering',
+                'SHFH': 'Space Human Factors and Habitability',
+                'SPE': 'Solar Particle Event',
+                'SR': 'Space Radiation',
+                'SRP': 'Standing Review Panel',
+                'VIIP': 'Visual Impairment Intercranial Pressure'
+            },
+            acronyms = Object.keys(acronymMeanings),
+            acronymRegexes = [];
+            acronyms.sort(function(a, b) {
+                return b.length - a.length;
+            });
+            for(var idx in acronyms) {
+                if (!acronyms.hasOwnProperty(idx)) continue;
+                var acronym = acronyms[idx];
+                acronymRegexes[acronym] = new RegExp('<span class="acronym_tooltip"(?:.|[\r\n])+?</span>|<(?:.|[\r\n])+?>|(' + acronym + ')', 'gm');
+            }
+
+            $('.js_acronyms').each(function () {
+                var text = $(this).html();
+                for (var idx in acronyms) {
+                    if (!acronyms.hasOwnProperty(idx)) continue;
+                    var acronym = acronyms[idx];
+                    text = text.replace(acronymRegexes[acronym], function (match, p1) {
+                        if (p1) {
+                            return '<span class="acronym_tooltip" title="' + acronymMeanings[acronym] + '">' + acronym + '</span>'
+                        }
+                        else {
+                            return match;
+                        }
+                    });
+                }
+                $(this).html(text);
+            });
+
+            $('a.blank').on('click', function (e) {
+                e.preventDefault();
+                window.open($(this).attr('href'));
+            });
+        });
+
+        var popupBlockerChecker = {
+            check: function (popup_window) {
+                var _scope = this;
+                if (popup_window) {
+                    if (/chrome/.test(navigator.userAgent.toLowerCase())) {
+                        setTimeout(function () {
+                            _scope._is_popup_blocked(_scope, popup_window);
+                        }, 200);
+                    } else {
+                        popup_window.onload = function () {
+                            _scope._is_popup_blocked(_scope, popup_window);
+                        };
+                    }
+                    popup_window.focus();
+                } else {
+                    _scope._displayError();
+                }
+            },
+            _is_popup_blocked: function (scope, popup_window) {
+                if ((popup_window.innerHeight > 0) == false) {
+                    scope._displayError();
+                } else {
+                    popup_window.focus();
+                }
+            },
+            _displayError: function () {
+                alert("Your browser has blocked the Print View popup window. Please add this site to your exception list or disable your popup blocker and try again.");
+            }
+        };
+
+        function dropInvalidCharacters(sender) {
+            var $sender = $(sender);
+            if ($sender.val().match(/<[A-Za-z!?\/]/)) {
+                $sender.val($sender.val().replace(/<([A-Za-z!?\/])/g, "< $1"));
+                alert("You must include a space after an open angle bracket. Your input has been automatically fixed.");
+            }
+            if ($sender.val().match(/&#/)) {
+                $sender.val($sender.val().replace(/&#/g, "& #"));
+                alert("You can not enter &# into an input field. Your input has been automatically fixed with a space: & #");
+            }
+        }
+
+        function bindAllTextboxesDropInvalidChars() {
+            $("input[type=text]").bind('change', function (e) {
+                dropInvalidCharacters(e.target);
+            });
+            $("textarea").bind('change', function (e) {
+                dropInvalidCharacters(e.target);
+            });
+        }
+
+        $(document).ready(bindAllTextboxesDropInvalidChars);
+    </script>
+    
+        <script type="text/javascript">
+            
+        </script>
+    
+    
+        <!-- Google Analytics -->
+        <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JSC&dclink=true"></script>
+        <!-- End Google Analytics Code -->
+    
+    <style type="text/css">
+        a.whiteAnchor:link, a.whiteAnchor:visited
+        {
+            color: #FFFFFF;
+        }
+
+        a.whiteAnchor:hover
+        {
+            text-decoration: underline !important;
+        }
+    </style>
+<link href="/WebResource.axd?d=t7Jn13Xls7qXFO7Hob6UVXbppNKs7zI4suB7SL35dIKVhtnc2bJ5th2h1mBspifMVGBugGhGpu-R2fPZBvEeH70yN18JPnFmM6U73Y4fp5lNs_liyMQQzVsX_9XiPrfnD8r5Vw2&amp;t=636129002798201367" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=U5ESXRYT6-egC2sKKGWOPzO9QVgO6bp4PqzBBNyDGGAcDtO5oytWmnObMXFe5FLzw_R2715Gy849M9g6cS-Sw9qA9zfeKJxd1Cu_TCUVJXTLO7N5yJy1sy0VCK6NRDYlO7zOzURqie3A-UKnQa5PDh7nywE1&amp;t=636129002798201367" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body id="slsdInternet">
+    <form name="aspnetForm" method="post" action="./" id="aspnetForm">
+<input type="hidden" name="ctl00_content_ctl00_TSM" id="ctl00_content_ctl00_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_content_ctl00_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.50508.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a0c8c847b-b611-49a7-8e75-2196aa6e72fa%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2015.2.826.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3ac2ba43dc-851e-4009-beab-3032480b6a4b%3a16e4e7cd%3aed16cbdc%3af7645509%3a24ee1bba%3ac128760b%3a874f8ea2%3a19620875%3a4877f69a%3af46195d3%3a92fe8ea0%3afa31b949%3a490a9d4e%3abd8f85e4" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+        <div id="slsdBackground">
+        <div id="slsdHead">
+            <a href="#slsdHeadLinksEnd"
+                title="Skip SLSD Head Text Links"
+                class="saZWSP">&#8203;</a>
+            <a href="https://www.nasa.gov"
+                id="slsdHeadNASA"
+                title="National Aeronautics and Space Administration"><span style="position:absolute;left:-5000px;">NASA Logo</span></a>
+            <a id="ctl00_slsdHeadHRR" class="slsdHeadMajorLinks" href="./">Human Research Roadmap</a>
+            <a href="https://www.nasa.gov/hrp/"
+                class="slsdHeadMajorLinks"
+                id="slsdHeadHRP"
+                title="Human Research Program">HRP</a>
+            <a href="https://www.nasa.gov/exploration/home/index.html"
+                class="slsdHeadMajorLinks"
+                id="slsdHeadESMD"
+                title="Human Exploration and Operations Mission Directorate">Exploration</a>
+            <a href="https://lsda.jsc.nasa.gov/"
+                class="slsdHeadMajorLinks"
+                id="slsdHeadLSDA"
+                title="HRP Data">Data</a>
+
+            <a id="slsdHeadLinksEnd"></a>
+            <div id="slsdHeadSearch">
+
+                <span title="Search" style="float: right; position: relative; top: 2px; margin-right: 5px">
+                    <input name="ctl00$tbHeaderSearch" type="text" value="Search" id="ctl00_tbHeaderSearch" Title="Search" />
+                    <input type="button" name="ctl00$btnHeaderSearch" value="Search" onclick="javascript:__doPostBack(&#39;ctl00$btnHeaderSearch&#39;,&#39;&#39;)" id="ctl00_btnHeaderSearch" Title="Search" />
+                </span>
+            </div>
+
+        </div>
+        <div id="slsdNavigation">
+            <div class="slsdNavLeft">
+                <a id="ctl00_hlHome" class="currentPage" href="./"> Home
+                </a>
+                |
+                <a id="ctl00_hlIntro" title="HRP Goals and Objectives" href="intro/"> HRP Goals and Objectives
+                </a>
+                |
+                <a id="ctl00_hlArchitecture" title="HRP Architecture" href="architecture/"> HRP Architecture
+                </a>
+                |
+                <a id="ctl00_hlOrgChart" title="HRP Organizational Structure" href="orgchart/"> HRP Organizational Structure
+                </a>
+                |
+                <a id="ctl00_hlAcronyms" href="acronyms/">Acronyms</a>
+                |
+                <a id="ctl00_hlReviews" href="reviews/"> Reviews
+                </a>
+                |
+                <a id="ctl00_hlHelp" href="help/"> Help
+                </a>
+            </div>
+            <div class="slsdNavRight">
+            </div>
+        </div>
+        <div id="ctl00_rapFrontMatter">
+	<!-- 2015.2.826.40 -->
+            <div id="ctl00_rwmFrontMatter" style="display:none;">
+		<div id="ctl00_rwFrontMatterDialog" style="display:none;">
+			<div id="ctl00_rwFrontMatterDialog_C" style="display:none;">
+
+			</div><input id="ctl00_rwFrontMatterDialog_ClientState" name="ctl00_rwFrontMatterDialog_ClientState" type="hidden" />
+		</div><div id="ctl00_rwmFrontMatter_alerttemplate" style="display:none;">
+		<div class="rwDialogPopup radalert">			
+			<div class="rwDialogText">
+			{1}				
+			</div>
+			
+			<div>
+				<a  onclick="$find('{0}').close(true);"
+				class="rwPopupButton" href="javascript:void(0);">
+					<span class="rwOuterSpan">
+						<span class="rwInnerSpan">##LOC[OK]##</span>
+					</span>
+				</a>				
+			</div>
+		</div>
+		</div><div id="ctl00_rwmFrontMatter_prompttemplate" style="display:none;">
+		 <div class="rwDialogPopup radprompt">			
+			    <div class="rwDialogText">
+			    {1}				
+			    </div>		
+			    <div>
+				    <script type="text/javascript">
+				    function RadWindowprompt_detectenter(id, ev, input)
+				    {							
+					    if (!ev) ev = window.event;                
+					    if (ev.keyCode == 13)
+					    {															        
+					        var but = input.parentNode.parentNode.getElementsByTagName("A")[0];					        
+					        if (but)
+						    {							
+							    if (but.click) but.click();
+							    else if (but.onclick)
+							    {
+							        but.focus(); var click = but.onclick; but.onclick = null; if (click) click.call(but);							 
+							    }
+						    }
+					       return false;
+					    } 
+					    else return true;
+				    }	 
+				    </script>
+				    <input title="Enter Value" onkeydown="return RadWindowprompt_detectenter('{0}', event, this);" type="text"  class="rwDialogInput" value="{2}" />
+			    </div>
+			    <div>
+				    <a onclick="$find('{0}').close(this.parentNode.parentNode.getElementsByTagName('input')[0].value);"				
+					    class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
+				    <a onclick="$find('{0}').close(null);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+			    </div>
+		    </div>				       
+		</div><div id="ctl00_rwmFrontMatter_confirmtemplate" style="display:none;">
+		<div class="rwDialogPopup radconfirm">			
+			<div class="rwDialogText">
+			{1}				
+			</div>						
+			<div>
+				<a onclick="$find('{0}').close(true);"  class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
+				<a onclick="$find('{0}').close(false);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+			</div>
+		</div>		
+		</div><input id="ctl00_rwmFrontMatter_ClientState" name="ctl00_rwmFrontMatter_ClientState" type="hidden" />
+	</div>    
+        
+</div>
+       <div class="contentContainer">
+          
+          
+       </div>
+        
+    
+    <div class="outerListingBody">
+        
+<div class="navigatorBar">
+    <div class="navigatorLinksLeft">
+        <a href="Evidence/" id="ctl00_content_navigator_btnEvidence" class="navigatorButton"> Evidence</a>
+        <a href="MDRPs/" id="ctl00_content_navigator_btnMDRPs" class="navigatorButton" title="Multi-Disciplinary Research Plan">MDRP</a>
+        <a href="Risks/" id="ctl00_content_navigator_btnRisks" class="navigatorButton">Risks</a>
+        <a href="Gaps/" id="ctl00_content_navigator_btnGaps" class="navigatorButton">Gaps</a>
+        <a href="Tasks/" id="ctl00_content_navigator_btnTasks" class="navigatorButton">Tasks</a>
+        <a href="Reports/" id="ctl00_content_navigator_btnReports" class="navigatorButton">Reports</a>
+    </div>
+    <div class="navigatorLinksRight">
+        <a href="Explore/" id="ctl00_content_navigator_btnExplore" class="navigatorButton">Explore</a>
+        <a href="Search/" id="ctl00_content_navigator_btnSearch" class="navigatorButton">Search</a>
+    </div>
+</div>
+
+        <div class="listingContent center">
+            <div>
+                <span class="intro">Human Research Roadmap</span>
+                <img src="images/indexMainImage.gif"
+                    class="center"
+                    alt="Welcome to the Human Research Roadmap!"
+                    title="Welcome to the Human Research Roadmap!" />
+                <div class="center">
+                    <a href="explore" title="Explore the Roadmap" class="homePageLink">Explore the Roadmap</a>
+                    <a href="search" title="Search the Roadmap" class="homePageLink">Search the Roadmap</a>
+                    <div class="paddedFormSection js_acronyms">
+                        <a href="architecture" title="HRP Architecture" class="homePageLink">HRP Architecture</a>
+                    </div>
+                </div>
+                <div class="introText js_acronyms">
+                    
+                    
+                    
+                    <span style="font-size: 14px; font-family: arial;">
+</span>
+<p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span style="font-size: 10.5pt; font-family: arial, sans-serif;">Crew health and performance are
+critical to successful human exploration beyond low Earth orbit (LEO). The Human
+Research Program (HRP) investigates and mitigates the highest risks to human
+health and performance, providing essential countermeasures and technologies
+for human space exploration. Risks include physiological and performance effects
+from hazards such as radiation, altered gravity, and hostile environments, as
+well as unique challenges in medical support, human factors, and behavioral
+health support. The&nbsp;HRP&nbsp;utilizes an&nbsp;</span><span style="font-size: 10.5pt; font-family: arial, sans-serif; color: blue;"><a target="_blank" href="/Documents/IRP_Rev-Current.pdf" target="_blank" class="whiteAnchor">Integrated Research Plan
+(IRP)</a></span><span style="font-size: 10.5pt; font-family: arial, sans-serif;">&nbsp;to identify the approach and research
+activities planned to address these risks, which are assigned to specific
+Elements within the program. The Human Research Roadmap (HRR) is the web-based tool
+for communicating the&nbsp;IRP&nbsp;content, Evidence Reports, external reviews of HRP research, and general HRP organizational information.</span><span style="font-size: 12pt; font-family: 'times new roman', serif;">
+</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="slsdFooter">
+            <a id="slsdFooterAnchor"></a>
+            <a href="#slsdFooterContactUs"
+                title="Skip Footer Links to Contact Info"
+                class="saZWSP">&#8203;</a>
+            <a id="slsdFooterNASA"
+                title="National Aeronautics and Space Administration"
+                href="https://www.nasa.gov"><acronym
+                title="National Aeronautics and Space Administration">
+                NASA</acronym></a>
+            
+            <span id="ctl00_spnFooterLinks">
+                <span id="slsdFooterPageEditor"
+                    class="slsdFooterSpan">
+                    Developer:&nbsp; Daniel Febus</span>
+                <span id="slsdFooterNASAOfficial"
+                    class="slsdFooterSpan">
+                    Responsible NASA Official:&nbsp; Susan Torney</span>
+            </span>
+
+ 
+            <a id="ctl00_lbContactUs_508Compliance" class="slsdFooterA" href="javascript:__doPostBack(&#39;ctl00$lbContactUs_508Compliance&#39;,&#39;&#39;)">Contact HRP for a 508 compliant PDF</a>            
+
+            <a id="slsdFooterBudgets"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/news/budget/">
+                Budgets, Strategic Plans, and Accountability Reports</a>
+            <a id="slsdFooterNoFear"
+                class="slsdFooterA"
+                href="https://www.hq.nasa.gov/office/codee/nofear.html">
+                Equal Employment Opportunity Data Posted Pursuant to the
+                No Fear Act</a>
+            <a id="slsdFooterPolicies"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/about/contact/information_inventories_schedules.html">
+                Information-Dissemination Policies and Inventories</a>
+            
+            <a id="slsdFooterFOIA"
+                class="slsdFooterA"
+                href="https://www.hq.nasa.gov/office/pao/FOIA/agency/">
+                Freedom of Information Act</a>
+            <a id="slsdFooterPMA"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/about/highlights/HP_Management.html">
+                President's Management Agenda</a>
+            <a id="slsdFooterPrivacy"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/about/highlights/HP_Privacy.html">
+                Privacy Policy &amp; Important Notices</a>
+            <a id="slsdFooterIGHotline"
+                class="slsdFooterA"
+                href="https://oig.nasa.gov/hotline.html">
+                Inspector General Hotline</a>
+
+            
+            <a id="ctl00_lbContactUs" class="slsdFooterA" href="javascript:__doPostBack(&#39;ctl00$lbContactUs&#39;,&#39;&#39;)">Contact HRP</a>
+
+            <a id="slsdFooterSLSD"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/hhp/">
+                Human Health and Performance DIR</a>
+            <a id="slsdFooterJSC"
+                class="slsdFooterA"
+                href="https://www.nasa.gov/centers/johnson/home">
+                Johnson Space Center</a>
+            <a id="slsdFooterUsaGov"
+                class="slsdFooterA"
+                href="https://www.usa.gov"
+                onclick="window.open(this.href,'_blank'); return false;">
+                USA.gov</a>
+            <a id="slsdFooterExpectMore"
+                class="slsdFooterA"
+                href="https://www.whitehouse.gov/omb/expectmore/"
+                onclick="window.open(this.href,'_blank'); return false;">
+                ExpectMore.gov</a>
+        </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindow, {"_dockMode":false,"behaviors":52,"clientStateFieldID":"ctl00_rwFrontMatterDialog_ClientState","enableShadow":true,"formID":"aspnetForm","height":"700px","iconUrl":"","keepInScreenBounds":true,"minimizeIconUrl":"","modal":true,"name":"rwFrontMatterDialog","reloadOnShow":true,"showContentDuringLoad":false,"skin":"Default","title":"Edit Front Matter Content","visibleStatusbar":false,"width":"730px"}, null, null, $get("ctl00_rwFrontMatterDialog"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadWindowManager, {"behaviors":36,"clientStateFieldID":"ctl00_rwmFrontMatter_ClientState","enableShadow":true,"formID":"aspnetForm","iconUrl":"","keepInScreenBounds":true,"minimizeIconUrl":"","modal":true,"name":"rwmFrontMatter","showContentDuringLoad":false,"skin":"Default","visibleStatusbar":false,"windowControls":"['ctl00_rwFrontMatterDialog']"}, null, {"child":"ctl00_rwFrontMatterDialog"}, $get("ctl00_rwmFrontMatter"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxPanel, {"clientEvents":{OnRequestStart:"",OnResponseEnd:""},"enableAJAX":true,"enableHistory":false,"links":[],"loadingPanelID":"","styles":[],"uniqueID":"ctl00$rapFrontMatter"}, null, null, $get("ctl00_rapFrontMatter"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

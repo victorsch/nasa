@@ -1,0 +1,15 @@
+GET https://visitorcenterevents.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:06:26 GMT
+< Server: goredirect/2013.08.12
+< Strict-Transport-Security: max-age=31536000
+< Content-Length: 97
+< Location: https://www.nasa.gov/centers/goddard/visitor/events/index.html
+< X-Last-Reviewed: Thu, 11 Dec 2014
+< X-Cache: Miss from cloudfront
+< Via: 1.1 ee623581f95aa65c7c8707871d87b790.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C2
+< X-Amz-Cf-Id: wAHubWMPBEgmHXxhUUuvB4aN27LssNv5A64RzRyAZFfwyAV0kHXWOQ==
+< Content-Type: text/html; charset=utf-8

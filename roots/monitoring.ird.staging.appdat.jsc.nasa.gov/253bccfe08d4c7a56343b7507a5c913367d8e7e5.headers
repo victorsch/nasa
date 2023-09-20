@@ -1,0 +1,14 @@
+GET http://monitoring.ird.staging.appdat.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< X-Content-Type-Options: nosniff
+< X-Using-Nginx-Controller: true
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin
+< Content-Length: 164
+< Location: https://monitoring.ird.staging.appdat.jsc.nasa.gov
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< Date: Tue, 19 Sep 2023 05:43:31 GMT
+< Content-Type: text/html

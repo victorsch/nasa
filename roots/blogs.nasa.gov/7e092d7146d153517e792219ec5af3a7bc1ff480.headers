@@ -1,0 +1,13 @@
+GET http://blogs.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:06:01 GMT
+< Content-Length: 167
+< Location: https://blogs.nasa.gov/
+< X-Amz-Cf-Id: gwFT7ErAur6YUMOaDvo0jA-Q5LEaMk929aLxSzBK6d6PB64aGKz1YA==
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 3a9f76e15ac64134cc339fc4f9fb6a4c.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1

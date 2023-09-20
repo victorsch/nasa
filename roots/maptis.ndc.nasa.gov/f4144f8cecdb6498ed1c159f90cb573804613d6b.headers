@@ -1,0 +1,11 @@
+GET https://maptis.ndc.nasa.gov
+
+
+< HTTP/1.1 302 Redirect
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Date: Tue, 19 Sep 2023 05:54:59 GMT
+< Content-Length: 156
+< Content-Type: text/html; charset=UTF-8
+< Location: https://maptis.ndc.nasa.gov/home/
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET

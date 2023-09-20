@@ -1,0 +1,365 @@
+
+<HTML>
+	<HEAD>
+		<title>NASA CERCLA Program at JPL</title>
+		<LINK href="style.css" type="text/css" rel="stylesheet">
+			<script src="loadNewWin.js" type="text/javascript"></script><noscript>script to open new window</noscript>
+			<script language="javascript" type="text/javascript">
+			function SubmitByEnter(e,txtQueryID,btnID) {
+				if(e && (e.keyCode == 13)) {
+					var txt = document.getElementById(txtQueryID);
+					if(txt && (Trim(txt.value) != "")) {
+						var btn = document.getElementById(btnID);
+						if(btn != null) {
+							var btnName = btn.name;
+							if(btnName != "" ) {
+								ShowImgLoading(true);
+								__doPostBack(btnName,'');
+							}
+						}
+					}
+					else {
+						alert("Please enter keyword(s) for search.");
+						return false;
+					}
+				}
+				return true;
+			}
+						function Trim(str) {
+				var start;
+				var end;
+				str = str.toString();
+				var len = str.length;
+				for (start = 0; start < len; start ++)
+				{
+					ch = str.charAt(start);
+					if (ch!=' ' && ch!='\t' && ch!='\n' && ch!='\r' && ch!='\f')
+						break;
+				}
+				if (start == len)
+		  			return "";
+				for (end = len - 1; end > start; end --)
+				{
+					ch = str.charAt(end);
+					if (ch!=' ' && ch!='\t' && ch!='\n' && ch!='\r' && ch!='\f')
+						break;
+				}
+				end ++;
+				return str.substring(start, end);
+			}
+
+			function ShowImgLoading(v) {
+				var img = document.getElementById("imgLoading");
+				if(img) {
+					if(v) {
+						img.style.display = "inline";
+					}
+					else
+					{
+						img.style.display = "none";
+					}
+				}
+				return true;
+			}
+
+			</script><noscript>script to SubmitByEnter and utility functions like show image loading</noscript>
+
+                  <style type="text/css">
+    .ExpandedCssClass .rpText
+    {
+        color: red !important;
+    }
+    
+    .ClickedCssClass .rpText
+    {
+        color: green !important;
+    }
+    .DisabledCssClass
+    {
+        text-decoration: line-through !important;
+    }
+    .FocusedCssClass
+    {
+        color: blue !important;
+    }
+    .SelectedCssClass .rpText
+    {
+        color: black !important;
+        font-weight: bold !important;
+        text-decoration: underline !important;
+    }
+    </style>
+
+	    <link href="NasaSkin/PanelBar.NASA.css" rel="stylesheet" type="text/css" />
+
+<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JPL_CERCLA&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+
+	</HEAD>
+	<BODY>
+    <a class="skiplink" href="#startcontent">Skip Navigation</a>
+		<form method="post" action="./" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4MzU3MjMzNjYPZBYCAgMPZBYKAgMPD2QWAh4Kb25rZXlwcmVzcwU4cmV0dXJuIFN1Ym1pdEJ5RW50ZXIoZXZlbnQsJ3RiU2VhcmNoVGVybScsJ2lidG5TZWFyY2gnKTtkAgcPFCsAAhQrAAIPFgQeC18hRGF0YUJvdW5kZx4XRW5hYmxlQWpheFNraW5SZW5kZXJpbmdoZA8UKwAFFCsAAg8WBh4EVGV4dAUESG9tZR4FVmFsdWUFBGhvbWUeCEV4cGFuZGVkaGRkFCsAAg8WBB8DBRdJbnZlc3RpZ2F0aW9uICYgQ2xlYW51cB8EBQExZBAWBWYCAQICAgMCBBYFFCsAAg8WBB8DBRRQcm9qZWN0IEJhY2tncm91bmRlch8EBQwxLnByb2plY3Ria2dkZBQrAAIPFgQfAwUQTWFqb3IgTWlsZXN0b25lcx8EBRExLm1ham9ybWlsZXN0b25lc2RkFCsAAg8WBB8DBQ1LZXkgRG9jdW1lbnRzHwQFCTEua2V5ZG9jc2RkFCsAAg8WBB8DBRZJbmZvcm1hdGlvbiBSZXBvc2l0b3J5HwQFFGluZm9yZXBvc2l0b3J5c2VhcmNoZGQUKwACDxYEHwMFFE90aGVyIEludmVzdGlnYXRpb25zHwQFFTEub3RoZXJpbnZlc3RpZ2F0aW9uc2RkDxYFZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkUGFuZWxJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjIuOTEyLjM1LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYEHwMFCE91dHJlYWNoHwQFATJkEBYFZgIBAgICAwIEFgUUKwACDxYEHwMFD1llYXJzIGluIFJldmlldx8EBQ8yLnllYXJzaW5yZXZpZXdkZBQrAAIPFgQfAwUKRmFjdHNoZWV0cx8EBQwyLmZhY3RzaGVldHNkZBQrAAIPFgQfAwUPUHVibGljIE1lZXRpbmdzHwQFEDIucHVibGljbWVldGluZ3NkZBQrAAIPFgQfAwUIRGlzcGxheXMfBAUKMi5kaXNwbGF5c2RkFCsAAg8WBB8DBQtOZXdzbGV0dGVycx8EBQwyLm5ld3NsZXR0ZXJkZA8WBWZmZmZmFgEFdFRlbGVyaWsuV2ViLlVJLlJhZFBhbmVsSXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4yLjkxMi4zNSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0FCsAAg8WBB8DBQtRdWljayBMaW5rcx8EBQEzZBAWB2YCAQICAgMCBAIFAgYWBxQrAAIPFgQfAwUERkFRcx8EBQUzLmZhcWRkFCsAAg8WBB8DBQhBY3Jvbnltcx8EBQkzLmFjcm9ueW1kZBQrAAIPFgQfAwUIR2xvc3NhcnkfBAUKMy5nbG9zc2FyeWRkFCsAAg8WBB8DBRNJbmZvIGZvciBOZXdzIE1lZGlhHwQFEjMuaW5mb2Zvcm5ld3NtZWRpYWRkFCsAAg8WBB8DBQRCaW9zHwQFEDMubWVkaWFyb29tLmJpb3NkZBQrAAIPFgQfAwULZW4gRXNwYcOxb2wfBAUJMy5lc3Bhbm9sZGQUKwACDxYEHwMFDVBob3RvIEdhbGxlcnkfBAUOMy5waG90b2dhbGxlcnlkZA8WB2ZmZmZmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkUGFuZWxJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjIuOTEyLjM1LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQUKwACDxYEHwMFCkNvbnRhY3QgVXMfBAUBNGQQFgNmAgECAhYDFCsAAg8WBB8DBRBQcm9ncmFtIENvbnRhY3RzHwQFETQucHJvZ3JhbWNvbnRhY3RzZGQUKwACDxYEHwMFCEZlZWRiYWNrHwQFCGZlZWRiYWNrZGQUKwACDxYEHwMFFEUtbWFpbCAgTGlzdCBTaWduLXVwHwQFC21haWxpbmdsaXN0ZGQPFgNmZmYWAQV0VGVsZXJpay5XZWIuVUkuUmFkUGFuZWxJdGVtLCBUZWxlcmlrLldlYi5VSSwgVmVyc2lvbj0yMDEyLjIuOTEyLjM1LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTEyMWZhZTc4MTY1YmEzZDQPFCsBBWZmZmZmFgEFdFRlbGVyaWsuV2ViLlVJLlJhZFBhbmVsSXRlbSwgVGVsZXJpay5XZWIuVUksIFZlcnNpb249MjAxMi4yLjkxMi4zNSwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj0xMjFmYWU3ODE2NWJhM2Q0ZBYKZg8PFgYfAwUESG9tZR8EBQRob21lHwVoZGQCAQ8PFgQfAwUXSW52ZXN0aWdhdGlvbiAmIENsZWFudXAfBAUBMWQWCmYPDxYEHwMFFFByb2plY3QgQmFja2dyb3VuZGVyHwQFDDEucHJvamVjdGJrZ2RkAgEPDxYEHwMFEE1ham9yIE1pbGVzdG9uZXMfBAURMS5tYWpvcm1pbGVzdG9uZXNkZAICDw8WBB8DBQ1LZXkgRG9jdW1lbnRzHwQFCTEua2V5ZG9jc2RkAgMPDxYEHwMFFkluZm9ybWF0aW9uIFJlcG9zaXRvcnkfBAUUaW5mb3JlcG9zaXRvcnlzZWFyY2hkZAIEDw8WBB8DBRRPdGhlciBJbnZlc3RpZ2F0aW9ucx8EBRUxLm90aGVyaW52ZXN0aWdhdGlvbnNkZAICDw8WBB8DBQhPdXRyZWFjaB8EBQEyZBYKZg8PFgQfAwUPWWVhcnMgaW4gUmV2aWV3HwQFDzIueWVhcnNpbnJldmlld2RkAgEPDxYEHwMFCkZhY3RzaGVldHMfBAUMMi5mYWN0c2hlZXRzZGQCAg8PFgQfAwUPUHVibGljIE1lZXRpbmdzHwQFEDIucHVibGljbWVldGluZ3NkZAIDDw8WBB8DBQhEaXNwbGF5cx8EBQoyLmRpc3BsYXlzZGQCBA8PFgQfAwULTmV3c2xldHRlcnMfBAUMMi5uZXdzbGV0dGVyZGQCAw8PFgQfAwULUXVpY2sgTGlua3MfBAUBM2QWDmYPDxYEHwMFBEZBUXMfBAUFMy5mYXFkZAIBDw8WBB8DBQhBY3Jvbnltcx8EBQkzLmFjcm9ueW1kZAICDw8WBB8DBQhHbG9zc2FyeR8EBQozLmdsb3NzYXJ5ZGQCAw8PFgQfAwUTSW5mbyBmb3IgTmV3cyBNZWRpYR8EBRIzLmluZm9mb3JuZXdzbWVkaWFkZAIEDw8WBB8DBQRCaW9zHwQFEDMubWVkaWFyb29tLmJpb3NkZAIFDw8WBB8DBQtlbiBFc3Bhw7FvbB8EBQkzLmVzcGFub2xkZAIGDw8WBB8DBQ1QaG90byBHYWxsZXJ5HwQFDjMucGhvdG9nYWxsZXJ5ZGQCBA8PFgQfAwUKQ29udGFjdCBVcx8EBQE0ZBYGZg8PFgQfAwUQUHJvZ3JhbSBDb250YWN0cx8EBRE0LnByb2dyYW1jb250YWN0c2RkAgEPDxYEHwMFCEZlZWRiYWNrHwQFCGZlZWRiYWNrZGQCAg8PFgQfAwUURS1tYWlsICBMaXN0IFNpZ24tdXAfBAULbWFpbGluZ2xpc3RkZAIJD2QWBAIBDw8WCB4GSGVpZ2h0GwAAAAAAADlAAQAAAB8DBRw8ZGl2IGNsYXNzPWJyZWFkY3J1bWI+PC9kaXY+HgRfIVNCAoABHgdWaXNpYmxlaGRkAgMPDxYCHwMF23s8aW1nIHNyYz0iZ2FsbGVyeS9OTU9iYW5uZXIxLmpwZyIgd2lkdGg9IjY0MCI+DQogICAgPHAgc3R5bGU9IiI+PHN0cm9uZz5XZWxjb21lIHRvIHRoZSBOQVNBIEdyb3VuZHdhdGVyIENsZWFudXAgUHJvZ3JhbTwvc3Ryb25nPiB3ZWJzaXRlIGZvciB0aGUgSmV0IFByb3B1bHNpb24gTGFib3JhdG9yeSAoSlBMKSBwcm92aWRpbmcgY29tbXVuaXR5IG1lbWJlcnMgYW5kIGludGVyZXN0ZWQgcGFydGllcyB3aXRoIGVhc3kgYWNjZXNzIHRvIGluZm9ybWF0aW9uIGFib3V0IGNsZWFudXAgYWN0aXZpdGllcyBiZWluZyBjb25kdWN0ZWQgdW5kZXIgdGhlIENvbXByZWhlbnNpdmUgRW52aXJvbm1lbnRhbCBSZXNwb25zZSwgQ29tcGVuc2F0aW9uLCBhbmQgTGlhYmlsaXR5IEFjdCAoQ0VSQ0xBKS4gVmlldyB0aGUgPGEgaHJlZj0iP2lkPTEucHJvamVjdGJrZyI+UHJvamVjdCBCYWNrZ3JvdW5kZXI8L2E+LiBGb3Igam91cm5hbGlzdHMsIHBsZWFzZSBzZWUgdGhlICAgPGEgaHJlZj0iP2lkPTMuaW5mb2Zvcm5ld3NtZWRpYSI+TWVkaWEgQ29udGFjdHMgYW5kIENyZWRlbnRpYWxpbmc8L2E+IHBhZ2UuDQo8L3A+ICAgIA0KDQo8aDI+V0hBVCdTIE5FVzwvaDI+DQoNCjxiPjIwMjIgQ0VSQ0xBIFByb2plY3QgWWVhciBpbiBSZXZpZXcgPC9iPjxiciAvPg0KTkFTQSBHcm91bmR3YXRlciBDbGVhbnVwIEFkdmFuY2VzIGF0IGFuZCBOZWFyIEpQTC4gVmlldyB0aGUgPGEgaHJlZj0iZG9jcy9maW5hbCAtIENFUkNMQSBQcm9qZWN0IDIwMjIgeWVhciBpbiByZXZpZXcgMjAyMi5wZGYiIHRhcmdldD1fYmxhbms+MjAyMiBZZWFyIGluIFJldmlldzwvYT4uDQo8YnI+DQo8YnI+DQo8Yj5OYW1lIENoYW5nZTwvYj48YnIgLz4NClBsZWFzZSBub3RlOiB0aGUgbmFtZSBvZiB0aGUgTkFTQSBNYW5hZ2VtZW50IE9mZmljZS9KUEwgaGFzIGJlZW4gY2hhbmdlZCB0byB0aGUg4oCcTkFTQSBPZmZpY2Ugb2YgSlBMIE1hbmFnZW1lbnQgYW5kIE92ZXJzaWdodC7igJ0gVGhlIG9mZmljZeKAmXMgYWRkcmVzcyByZW1haW5zIHRoZSBzYW1lOiA0ODAwIE9hayBHcm92ZSBEcml2ZSwgUGFzYWRlbmEsIENhbGlmb3JuaWEgOTExMDkuIChGYWN0IHNoZWV0cyBhbmQgb3RoZXIgbWF0ZXJpYWxzIG9uIHRoaXMgd2Vic2l0ZSwgcHJlcGFyZWQgaW4gcGRmIGZvcm1hdCBiZWZvcmUgdGhlIG5hbWUgY2hhbmdlIHdhcyBtYWRlLCB3aWxsIG5vdCBoYXZlIHRoZSBPZmZpY2XigJlzIG5ldyBuYW1lLikNCjxicj4NCjxicj4NCjxiPkFzc2Vzc2luZyBQRkFTIGF0IEpQTDwvYj48YnIgLz4NCk5BU0EgaXMgY29tbWl0dGVkIHRvIGNvbW11bmljYXRpbmcgYWJvdXQgUEZBUyBpbnZlc3RpZ2F0aW9uIGFjdGl2aXRpZXMgYXQgYW5kIGluIHRoZSB2aWNpbml0eSBvZiB0aGUgSmV0IFByb3B1bHNpb24gTGFib3JhdG9yeSBhbmQgaGFzIGNyZWF0ZWQgYW5kIHBvc3RlZCBvbnRvIHRoaXMgd2Vic2l0ZSBhIG5ldyAnJ0Fzc2Vzc2luZyBQRkFTIGF0IEpQTCcnIGZhY3RzaGVldC4gQWNjZXNzIGl0IDxhIGhyZWY9J2RvY3MvQXNzZXNzaW5nIFBGQVMgYXQgSlBMLnBkZicgdGFyZ2V0PSdfYmxhbmsnPiBoZXJlPC9hPi48YnI+CQ0KPGJyPg0KPGI+MjAyMSBBbm51YWwgSW5zdGl0dXRpb25hbCBDb250cm9sIFJlcG9ydCAoSUMpIGlzIEZpbGVkIDwvYj48YnIgLz4NClRoZSBhcHByb3ZlZCBmaW5hbCBjbGVhbnVwIHBsYW4sIHJlZmVycmVkIHRvIGFzIHRoZSBmaW5hbCBSZWNvcmQgb2YgRGVjaXNpb24gKFJPRCkgYW5kIHNpZ25lZCBpbiBGZWJydWFyeSAyMDE4LCBpbmNsdWRlZCByZXF1aXJlbWVudHMgZm9yIGFuIGFubnVhbCBJbnN0aXR1dGlvbmFsIENvbnRyb2wgKElDKSByZXBvcnQgdG8gZW5zdXJlIHRoZSBlZmZlY3RpdmVuZXNzIG9mIG9uZ29pbmcgZ3JvdW5kd2F0ZXIgdHJlYXRtZW50IGFuZCBwcmV2ZW50IGV4cG9zdXJlIHRvIGltcGFjdGVkIGdyb3VuZHdhdGVyIGF0IEpQTC4gVGhlIDxhIGhyZWY9J2RvY3MvTkFTNzEwNjc0LnBkZicgdGFyZ2V0PSdfYmxhbmsnPjIwMjEgSUMgUmVwb3J0PC9hPiBoYXMgbm93IGJlZW4gZmlsZWQuIDxicj4NCjxicj4JDQoNCjxiPlRoaXJkIEZpdmUtWWVhciBSZXZpZXcgPC9iPjxiciAvPg0KVGhlIENvbXByZWhlbnNpdmUgRW52aXJvbm1lbnRhbCBSZXNwb25zZSwgQ29tcGVuc2F0aW9uLCBhbmQgTGlhYmlsaXR5IEFjdCAoQ0VSQ0xBKSwgYWxzbyBrbm93biBhcyBTdXBlcmZ1bmQsIHJlcXVpcmVzIHRoYXQgdGhlIGltcGxlbWVudGF0aW9uIGFuZCBwZXJmb3JtYW5jZSBvZiBvbmdvaW5nIHJlbWVkaWVzIGF0IENFUkNMQSBzaXRlcyBiZSByZXZpZXdlZCBhdCBsZWFzdCBldmVyeSBmaXZlIHllYXJzLiBUaGUgPGEgaHJlZj0iZG9jcy9OQVM3MTA2NzMucGRmIiB0YXJnZXQ9X2JsYW5rPlRoaXJkIEZpdmUtWWVhciBSZXZpZXc8L2E+IGZvciB0aGUgSlBMIENFUkNMQSBzaXRlLCBjb3ZlcmluZyB0aGUgY2FsZW5kYXIgeWVhcnMgZnJvbSAyMDE3IHRvIDIwMjEgaGFzIG5vdyBiZWVuIGNvbXBsZXRlZCwgYXBwcm92ZWQgYnkgZmVkZXJhbCBhbmQgc3RhdGUgcmVndWxhdG9ycywgYW5kIGZpbGVkLiBBIDxhIGhyZWY9ImRvY3MvRklOQUwgQVBSSUwgMTQgMjAyMi1qcGwgNS15ZWFyIHJldmlldyAyMDE3LTIwMjEgLnBkZiIgdGFyZ2V0PV9ibGFuaz5GYWN0c2hlZXQ8L2E+IG9uIHRoZSBUaGlyZCBGaXZlLVllYXIgUmV2aWV3IGhhcyBhbHNvIGJlZW4gY29tcGxldGVkIGFuZCBmaWxlZCBvbiB0aGlzIHdlYnNpdGUuDQo8YnI+DQo8YnI+CQkNCgkJDQoJDQo8Yj5QVUJMSUMgTk9USUNFPC9iPjxiciAvPg0KPGI+TmF0aW9uYWwgQWVyb25hdXRpY3MgYW5kIFNwYWNlIEFkbWluaXN0cmF0aW9uIChOQVNBKQ0KSmV0IFByb3B1bHNpb24gTGFib3JhdG9yeSAoSlBMKSANCkdyb3VuZHdhdGVyIENsZWFudXAgUHJvZ3JhbQ0KVGhpcmQgRml2ZS1ZZWFyIFJldmlldzwvYj4NCjxicj48YnI+DQpOQVNBIGlzIGRpc3RyaWJ1dGluZyB0aGlzIG5vdGljZSB0byBpbmZvcm0gdGhlIGNvbW11bml0eSB0aGF0IHRoZSB0aGlyZCBGaXZlLVllYXIgUmV2aWV3IHdpbGwgYmUgY29uZHVjdGVkIHRvIGV2YWx1YXRlIHRoZSBlZmZlY3RpdmVuZXNzIG9mIG9uZ29pbmcgZWZmb3J0cyB0byBjbGVhbiB1cCBncm91bmR3YXRlciBiZW5lYXRoIGFuZCBuZWFyIEpQTC4gVGhlIHB1cnBvc2Ugb2YgdGhlIEZpdmUtWWVhciBSZXZpZXcgaXMgdG8gY29uZHVjdCBhIHRlY2huaWNhbCBhc3Nlc3NtZW50IHRvIGRldGVybWluZSBpZiB0aGUgY3VycmVudCByZW1lZGllcyB0aGF0IHdlcmUgaW1wbGVtZW50ZWQgYXMgcGFydCBvZiB0aGUgYXBwcm92ZWQgUmVjb3JkIG9mIERlY2lzaW9uIChST0QpIGNvbnRpbnVlIHRvIGJlIHByb3RlY3RpdmUgb2YgaHVtYW4gaGVhbHRoIGFuZCB0aGUgZW52aXJvbm1lbnQuIEFzIHBhcnQgb2YgdGhpcyBwcm9jZXNzLCBOQVNBIHdpbGwgcHJlcGFyZSBhIHJlcG9ydCBvZiB0aGUgRml2ZS1ZZWFyIFJldmlldyB0aGF0IHN1bW1hcml6ZSBzaXRlIGFjdGl2aXRpZXMgYW5kIHRvIG1ha2UgcmVjb21tZW5kYXRpb25zIHRoYXQgY2FuIGltcHJvdmUgYW5kIG9wdGltaXplIHRoZSBOQVNBIEpQTCBDbGVhbnVwIFByb2dyYW0uICAgDQo8YnI+PGJyPg0KVGhlIGdyb3VuZHdhdGVyIGNoZW1pY2FscyBiZWluZyBhZGRyZXNzZWQgYnkgdGhlIE5BU0EgSlBMIENsZWFudXAgUHJvZ3JhbSBpbmNsdWRlIHZvbGF0aWxlIG9yZ2FuaWMgY29tcG91bmRzIChWT0NzKSBhbmQgcGVyY2hsb3JhdGUuIFRoZXNlIGNoZW1pY2FscyBvcmlnaW5hdGVkIGZyb20gbG9uZy1kaXNjb250aW51ZWQgbGlxdWlkIGFuZCBzb2xpZCB3YXN0ZSBkaXNwb3NhbCBwcmFjdGljZXMgZHVyaW5nIHRoZSAxOTQwcyBhbmQgMTk1MHMgd2hlbiB3YXN0ZXMgZnJvbSBKUEwgZHJhaW5zIGFuZCBzaW5rcyB3ZXJlIGRpc3Bvc2VkIG9mIGluIGJyaWNrLWxpbmVkIHNlZXBhZ2UgcGl0cyDigJMgYSB3YXN0ZSBtYW5hZ2VtZW50IHByYWN0aWNlIHRoYXQgd2FzIGNvbW1vbiBhdCB0aGUgdGltZS4gVGhlIHJlbWVkaWVzIGN1cnJlbnRseSBiZWluZyBpbXBsZW1lbnRlZCBpbmNsdWRlIHRocmVlIGdyb3VuZHdhdGVyIGV4dHJhY3Rpb24gYW5kIGFib3ZlLWdyb3VuZCB0cmVhdG1lbnQgc3lzdGVtcyB0byByZW1vdmUgVk9DcyBhbmQgcGVyY2hsb3JhdGUgZnJvbSBpbXBhY3RlZCBncm91bmR3YXRlci4gSW4gYWRkaXRpb24gdG8gdGhlIG9uZ29pbmcgb3BlcmF0aW9uIGFuZCBtYWludGVuYW5jZSBvZiB0aGVzZSBzeXN0ZW1zLCBOQVNBIGlzIGFsc28gaW1wbGVtZW50aW5nIGEgbG9uZy10ZXJtIGdyb3VuZHdhdGVyIG1vbml0b3JpbmcgcHJvZ3JhbSB0byBhc3Nlc3Mgc2l0ZSBjb25kaXRpb25zIGFuZCBldmFsdWF0ZSB0aGUgcHJvZ3Jlc3Mgb2YgdGhlIE5BU0EgSlBMIENsZWFudXAgUHJvZ3JhbSBpbiByZXN0b3JpbmcgbG9jYWwgZ3JvdW5kd2F0ZXIgcmVzb3VyY2VzIHRvIG1lZXQgc3RhdGUgYW5kIGZlZGVyYWwgZHJpbmtpbmcgd2F0ZXIgc3RhbmRhcmRzLiANCjxicj48YnI+ICANCldoaWxlIE5BU0EgdGFrZXMgdGhlIGxlYWQgZm9yIGNsZWFudXAgYWN0aXZpdGllcyBhdCBKUEwsIHRoZSBwcm9ncmFtIGlzIGJlaW5nIGltcGxlbWVudGVkIHVuZGVyIHRoZSBvdmVyc2lnaHQgb2Ygc2V2ZXJhbCBmZWRlcmFsIGFuZCBzdGF0ZSByZWd1bGF0b3J5IGFnZW5jaWVzLCBpbmNsdWRpbmcgdGhlIFUuUy4gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIEFnZW5jeSAoRVBBKSwgdGhlIENhbGlmb3JuaWEgRGVwYXJ0bWVudCBvZiBUb3hpYyBTdWJzdGFuY2VzIENvbnRyb2wgKERUU0MpLCBhbmQgdGhlIFJlZ2lvbmFsIFdhdGVyIFF1YWxpdHkgQ29udHJvbCBCb2FyZCAoUldRQ0IpLCBMb3MgQW5nZWxlcyBSZWdpb24uIFRoZSBGaXZlLVllYXIgUmV2aWV3IHByb2Nlc3Mgd2lsbCBiZSBjb25kdWN0ZWQgb3ZlciB0aGUgbmV4dCBzZXZlcmFsIG1vbnRocyBhbmQgaXMgZXhwZWN0ZWQgdG8gYmUgY29tcGxldGVkIGluIEZlYnJ1YXJ5IDIwMjIuICBPbmNlIGl0IGlzIGNvbXBsZXRlZCwgYSBmYWN0IHNoZWV0IHN1bW1hcml6aW5nIHRoZSBmaW5kaW5ncyBvZiB0aGUgdGhpcmQgRml2ZS1ZZWFyIFJldmlldyB3aWxsIGJlIGF2YWlsYWJsZSBvbiB0aGUgTkFTQSBKUEwgQ2xlYW51cCBQcm9ncmFtIHdlYnNpdGU6ICBodHRwczovL2pwbHdhdGVyLm5hc2EuZ292Ly4gIEluIGFkZGl0aW9uLCBOQVNBIHdpbGwgaXNzdWUgYW5vdGhlciBwdWJsaWMgbm90aWNlIHVwb24gY29tcGxldGlvbiBvZiB0aGUgRml2ZS1ZZWFyIFJldmlldyB0byBhbm5vdW5jZSB0aGUgYXZhaWxhYmlsaXR5IG9mIHRoZSBGaW5hbCBUaGlyZCBGaXZlIFllYXIgUmV2aWV3IFJlcG9ydCBvbiB0aGUgTkFTQSBKUEwgQ2xlYW51cCBQcm9ncmFtIHdlYnNpdGUuICBJZiB5b3UgaGF2ZSBhbnkgcXVlc3Rpb25zIG9yIGNvbmNlcm5zLCBwbGVhc2UgY29udGFjdDoNCjxicj48YnI+DQpTdGV2ZSBTbGF0ZW4sIDxhIGhyZWY9Im1haWx0bzogc3NsYXRlbkBuYXNhLmdvdiI+c3NsYXRlbkBuYXNhLmdvdjwvYT4sIDIwMi0zNjgtMDQ5MQ0KTkFTQSBHcm91bmR3YXRlciBDbGVhbnVwIFByb2plY3QgTWFuYWdlciA8YnI+DQo8YnI+CSAgICAgDQogICAgICAgIA0KICAgIA0KPGI+Q29tbXVuaXR5IE91dHJlYWNoIGFuZCBQdWJsaWMgSW52b2x2ZW1lbnQgQXJlIEVzc2VudGlhbCB0byBhbiBFZmZlY3RpdmUgQ2xlYW51cDwvYj4NCjxicj4NCkNvbW11bml0eSBvdXRyZWFjaCBhbmQgcHVibGljIGludm9sdmVtZW50IGFyZSBpbnRlZ3JhbCBjb21wb25lbnRzIG9mIHRoZSBncm91bmR3YXRlciBjbGVhbnVwIHByb2plY3QgYXQgYW5kIG5lYXIgTkFTQeKAmXMgSmV0IFByb3B1bHNpb24gTGFib3JhdG9yeSAoSlBMKS4gIEJvdGggb3V0cmVhY2ggYW5kIGludm9sdmVtZW50IGFyZSBlc3NlbnRpYWwgdG8gYW4gZWZmZWN0aXZlIGNsZWFudXAuICAmZ3Q7Jmd0OzxhIGhyZWY9IiNFZmZlY3RpdmVDbGVhbnVwIj5TZWUgZnVsbCBzdG9yeSBiZWxvdzwvYT4JDQoJDQo8YnIgLz4NCjxiciAvPg0KDQo8Yj5DTEVBTlVQIFBST0dSQU0gU1RBVFVTIChBcHJpbCAyMDIwKTwvYj48YnIgLz4NClRoZSB0aHJlZSB0cmVhdG1lbnQgc3lzdGVtcyBhc3NvY2lhdGVkIHdpdGggdGhlIEpQTCBHcm91bmR3YXRlciBDbGVhbnVwIHByb2dyYW0gKGkuZS4sIHRoZSBTb3VyY2UgQXJlYSBUcmVhdG1lbnQgU3lzdGVtLCB0aGUgTEFXQyBUcmVhdG1lbnQgU3lzdGVtLCBhbmQgdGhlIE1vbmsgSGlsbCBUcmVhdG1lbnQgU3lzdGVtKSBjb250aW51ZSB0byBvcGVyYXRlIGluIGFjY29yZGFuY2Ugd2l0aCBhcHByb3ZlZCBwbGFucyBhbmQgcGVybWl0cy4NCg0KPGJyPg0KPGJyIC8+DQo8Yj5NaWxlc3RvbmUgQWNoaWV2ZWQ6ICBKUEwgR3JvdW5kd2F0ZXIgQ2xlYW51cCBQbGFuIEFwcHJvdmVkIGFuZCBTaWduZWQgQnkgTkFTQSBhbmQgdGhlIFJlZ3VsYXRvcnkgQWdlbmNpZXM8L2I+PGJyIC8+TkFTQSBhbmQgdGhlIHJlZ3VsYXRvcnkgYWdlbmNpZXMgb3ZlcnNlZWluZyBOQVNB4oCZcyBncm91bmR3YXRlciBjbGVhbnVwIHByb2plY3QgYXQgSlBMIGhhdmUgYXBwcm92ZWQgYW5kIHNpZ25lZCBhIGZpbmFsIFJlY29yZCBvZiBEZWNpc2lvbiAoUk9EKSBmb3IgdGhlIGNsZWFudXAuICBUaGUgcGFydGllcyBhZ3JlZSB0aGF0IGNvbnRpbnVpbmcgdGhlIG9wZXJhdGlvbiBvZiB0aGUgdGhyZWUgZ3JvdW5kd2F0ZXIgdHJlYXRtZW50IHBsYW50cyB3aWxsIHJlYWNoIHRoZSBjbGVhbnVwIGdvYWxzLiAgTkFTQSBoYXMgcHJlcGFyZWQgYSA8YSBocmVmPSJkb2NzL05BUzcxMDYzMy5wZGYiIHRhcmdldD0iX2JsYW5rIj5mYWN0c2hlZXQ8L2E+IG9uIHRoZSBST0QsIGNvdmVyaW5nIHRoZSBpbnZlc3RpZ2F0aW9ucyBhbmQgcmVtZWRpYWwgYWN0aW9ucyB0aGF0IGxlZCB0byBpdHMgYXBwcm92YWwsIGFzIHdlbGwgYXMgdGhlIHNpZ25pZmljYW5jZSBvZiB0aGUgPGEgaHJlZj0iRG9jcy9OQVM3MTA2MzIuaHRtIiB0YXJnZXQ9Il9ibGFuayI+Uk9EPC9hPiBpdHNlbGYuPGRpdj48YnI+DQoNCjxiPk5ldyBOQVNBLUZ1bmRlZCBMQVdDIERyaW5raW5nIFdhdGVyIFdlbGwgaXMgT3BlcmF0aW9uYWw8L2I+PGJyIC8+DQpBIG5ldyBhbmQgZGVlcGVyIGRyaW5raW5nIHdhdGVyIHdlbGwgYmVjYW1lIGZ1bGx5IG9wZXJhdGlvbmFsIGluIEp1bHkgZm9yIHRoZSBMaW5jb2xuIEF2ZW51ZSBXYXRlciBDb21wYW55IChMQVdDKS4mbmJzcDsgVGhlIG5ldyB3ZWxsLCBmdW5kZWQgYW5kIGNvbnN0cnVjdGVkIGJ5IE5BU0EsIGVuaGFuY2VzIGdyb3VuZHdhdGVyIGNsZWFudXAgZWZmb3J0cyBhbmQgaGVscHMgbWFpbnRhaW4gZWZmZWN0aXZlIGNvbnRhaW5tZW50IG9mIHRoZSBsZWFkaW5nIGVkZ2Ugb2YgZ3JvdW5kd2F0ZXIgY2hlbWljYWxzIHRoYXQgb3JpZ2luYXRlZCBmcm9tIGxvbmctZGlzY29udGludWVkIHdhc3RlIGRpc3Bvc2FsIHByYWN0aWNlcyBhdCBKUEwuIFRoZSB3ZWxsIGFsc28gc2VydmVzIGFzIGEgbW9kZXJuLCByZWxpYWJsZSBiYWNrdXAgZm9yIHRoZSBMQVdDLCBlbnN1cmluZyBmb3IgaXRzIGN1c3RvbWVycyBjb250aW51ZWQgY2xlYW4gZHJpbmtpbmcgd2F0ZXIgc3VwcGxpZXMgZm9yIG1hbnkgZGVjYWRlcy4mbmJzcDsgQSBmYWN0c2hlZXQgb24gdGhlIHdlbGwgd2FzIHB1Ymxpc2hlZCBpbiBBcHJpbCAyMDE0IGFzIGNvbnN0cnVjdGlvbiBiZWdhbi48cCBzdHlsZT0iIj48c3Bhbj48L3NwYW4+PC9wPg0KPGI+Q2xlYW51cCBEaXJlY3RvciBTbGF0ZW4gSG9ub3JlZCBieSBOQVNBIGZvciDigJxleGNlcHRpb25hbCBsZWFkZXJzaGlwIOKAnGFuZCDigJxpbm5vdmF0aXZlIHNvbHV0aW9ucy7igJ08L2I+PGJyIC8+R3JvdW5kd2F0ZXIgQ2xlYW51cCBQcm9qZWN0IERpcmVjdG9yIFN0ZXZlIFNsYXRlbiBoYXMgd29uIGEgcHJlc3RpZ2lvdXMgMjAxNyBOQVNBIEJsdWUgTWFyYmxlIEF3YXJkLCByZWNvZ25pemluZyBoaXMg4oCcZXhjZXB0aW9uYWwgbGVhZGVyc2hpcOKAnSBhbmQg4oCcaW5ub3ZhdGl2ZSBzb2x1dGlvbnMgdG8gc3VjY2Vzc2Z1bGx5IHJlbWVkaWF0ZSBOQVNB4oCZcyBKZXQgUHJvcHVsc2lvbiBMYWJvcmF0b3J5IChKUEwpIGdyb3VuZHdhdGVyLuKAnSZuYnNwOyAmZ3Q7Jmd0OyA8YSBocmVmPSIjQ2xlYW51cERpcmVjdG9yIj5TZWUgZnVsbCBzdG9yeSBiZWxvdzwvYT4mbmJzcDsNCjxwPjwvcD4NCjxiciAvPjxiciAvPg0KDQo8aHI+PHNwYW4+PGgyPkZVTEwgU1RPUklFUzwvaDI+PC9zcGFuPg0KDQo8ZGl2PjxoMz48YSBuYW1lPSJFZmZlY3RpdmVDbGVhbnVwIj4gPC9hPg0KQ29tbXVuaXR5IE91dHJlYWNoIGFuZCBQdWJsaWMgSW52b2x2ZW1lbnQgQXJlIEVzc2VudGlhbCB0byBhbiBFZmZlY3RpdmUgQ2xlYW51cDwvaDM+DQoNCltUaGlzIGZhY3RzaGVldCBpcyBwYXJ0IG9mIE5BU0HigJlzIGVmZm9ydCB0byBrZWVwIHRoZSBwdWJsaWMgaW5mb3JtZWQgYWJvdXQgdGhlIHByb2dyZXNzIG9mIGdyb3VuZHdhdGVyIGNsZWFudXAgZWZmb3J0cyBhdCBhbmQgaW4gdGhlIHZpY2luaXR5IG9mIE5BU0HigJlzIEpldCBQcm9wdWxzaW9uIExhYm9yYXRvcnkuXQ0KPGJyPjxicj4NCkNvbW11bml0eSBvdXRyZWFjaCBhbmQgcHVibGljIGludm9sdmVtZW50IGFyZSBpbnRlZ3JhbCBjb21wb25lbnRzIG9mIHRoZSBncm91bmR3YXRlciBjbGVhbnVwIHByb2plY3QgYXQgYW5kIG5lYXIgTkFTQeKAmXMgSmV0IFByb3B1bHNpb24gTGFib3JhdG9yeSAoSlBMKS4gIEJvdGggb3V0cmVhY2ggYW5kIGludm9sdmVtZW50IGFyZSBlc3NlbnRpYWwgdG8gYW4gZWZmZWN0aXZlIGNsZWFudXAuDQo8YnI+PGJyPg0KVGhlIGNsZWFudXAgYWRkcmVzc2VzIGdyb3VuZHdhdGVyIGNoZW1pY2FscyB0aGF0IG9yaWdpbmF0ZWQgZHVyaW5nIHRoZSAxOTQwcyBhbmQgMTk1MHMgd2hlbiBsaXF1aWQgd2FzdGVzIGdlbmVyYXRlZCBhdCBKUEwgd2VyZSBkaXNwb3NlZCBvZiBpbnRvIHNlZXBhZ2UgcGl0cywgYSBsb25nLWRpc2NvbnRpbnVlZCBwcmFjdGljZSBjb25zaWRlcmVkIGNvbW1vbiBhdCB0aGUgdGltZS4gSW4gMTk5MiwgSlBMIHdhcyBvZmZpY2lhbGx5IGxpc3RlZCBhcyBhIHNvLWNhbGxlZCDigJxTdXBlcmZ1bmTigJ0gY2xlYW51cCBzaXRlLiBTaW5jZSB0aGVuLCBOQVNBIGhhcyBiZWVuIGZvbGxvd2luZyB0aGUgY29tcGxleCBwcm9jZXNzIHJlcXVpcmVkIGF0IGZlZGVyYWwgY2xlYW51cCBzaXRlcyB1bmRlciB0aGUgQ29tcHJlaGVuc2l2ZSBFbnZpcm9ubWVudGFsIFJlc3BvbnNlLCBDb21wZW5zYXRpb24gYW5kIExpYWJpbGl0eSBBY3QgKENFUkNMQSkuIFRoaXMgcHJvY2VzcyBpbnZvbHZlZCBmaXJzdCBpbnZlc3RpZ2F0aW5nIGFuZCDigJMgYWZ0ZXIgYW4gZXZhbHVhdGlvbiBvZiB2YXJpb3VzIHJlbWVkaWVzIOKAkyBpbXBsZW1lbnRpbmcgZXh0ZW5zaXZlIGNsZWFudXAgb2Ygc29pbCBhdCBKUEwgYW5kIGdyb3VuZHdhdGVyIGNoZW1pY2FscyBkZWVwIGJlbmVhdGggYW5kIGluIGFyZWFzIGFkamFjZW50IHRvIEpQTC4gIA0KPGJyPjxicj4NCkluIGFsbCB0aG9zZSB5ZWFycywgTkFTQSBoYXMgaGVsZCBmYXN0IHRvIGl0cyBjb21taXRtZW50czogdG8gY2xlYW4gdXAgdGhlIGNoZW1pY2FscywgdG8gcHJhY3RpY2UgY29tbXVuaXR5IG91dHJlYWNoIGFuZCBlbmNvdXJhZ2UgcHVibGljIGludm9sdmVtZW50IGR1cmluZyB0aGUgY2xlYW51cC4NCjxicj48YnI+DQpUaGUgY2xlYW51cCBpcyBwcm9ncmVzc2luZyBvbiBzY2hlZHVsZSwgdGhhbmtzIHRvIHRocmVlIE5BU0EtZnVuZGVkIHRyZWF0bWVudCBzeXN0ZW1zIOKAkyBvbi1KUEwgYXQgdGhlIHNvdXJjZSBhcmVhLCBhdCB0aGUgbWlkLXBvaW50IG9mIHRoZSBhZmZlY3RlZCBhcmVhIHVzaW5nIGZvdXIgZHJpbmtpbmcgd2F0ZXIgd2VsbHMgaW4gdGhlIEFycm95byBTZWNvIG9wZXJhdGVkIGJ5IFBhc2FkZW5hIFdhdGVyICYgUG93ZXIgKFBXUCksIGFuZCBhdCB3ZWxscyBvcGVyYXRlZCBieSB0aGUgTGluY29sbiBBdmVudWUgV2F0ZXIgQ29tcGFueSAoTEFXQykgaW4gQWx0YWRlbmEsIGF0IHRoZSBmYXIgcmVhY2hlcyBvZiB0aGUgYWZmZWN0ZWQgYXJlYS4gDQo8YnI+PGJyPg0KQ29tbXVuaXR5IG91dHJlYWNoIG92ZXIgdGhlIHllYXJzIGFuZCBwdWJsaWMgaW52b2x2ZW1lbnQgaW4gdGhlIHByb2plY3QgaGF2ZSBwcm92aWRlZCBpdCB3aXRoIHNpZ25pZmljYW50IHN1cHBvcnQsIGFjY29yZGluZyB0byBOQVNBIENsZWFudXAgRGlyZWN0b3IgU3RldmUgU2xhdGVuLiDigJxPdXIgb3V0cmVhY2ggYW5kIHB1YmxpYyBpbnZvbHZlbWVudCBlZmZvcnRzLOKAnSBoZSBleHBsYWluZWQsIOKAnGhhdmUgcmVzdWx0ZWQgaW4gYSBwcm9qZWN0IHRoYXQgaGFzIGdvbmUgcXVpdGUgc21vb3RobHkgaW4gdGVybXMgb2YgYWRkcmVzc2luZyBjb21tdW5pdHkgY29uY2VybnMsIGluIGxpc3RlbmluZyB0byBwdWJsaWMgZmVlZGJhY2ssIGFuZCBpbiBhZGRyZXNzaW5nIHRoZSB0ZWNobmljYWwgYXNwZWN0cyBvZiB0aGUgY2xlYW51cC7igJ0gDQo8YnI+PGJyPg0KRWFybHkgaW4gdGhlIHByb2plY3QsIGEgd2Vic2l0ZSAoPGEgaHJlZj0iaHR0cHM6Ly9qcGx3YXRlci5uYXNhLmdvdiI+aHR0cHM6Ly9qcGx3YXRlci5uYXNhLmdvdjwvYT4pIHdhcyBjcmVhdGVkIGZvciB0aGUgcHJvamVjdCwgd2hpY2ggb2ZmZXJzIGFuIG9wcG9ydHVuaXR5IGZvciBwdWJsaWMgcXVlc3Rpb25zIGFuZCBjb21tZW50cy4gVGVjaG5pY2FsIGFuZCBvdGhlciBjbGVhbnVwLXJlbGF0ZWQgZG9jdW1lbnRzIGFyZSByZWd1bGFybHkgcG9zdGVkIHRvIHRoZSBzaXRlIGZvciBhbGwgdG8gc2VlLiAgRm9yIGV4YW1wbGUsIGV2ZXJ5IHRocmVlIG1vbnRocyBOQVNBIHBvc3RzIGdyb3VuZHdhdGVyIGNoZW1pY2FsIGxldmVsIHJlc3VsdHMgZnJvbSAyNSBOQVNBIG1vbml0b3Jpbmcgd2VsbHMgdGhhdCBjb3ZlciB2aXJ0dWFsbHkgdGhlIGVudGlyZSBhZmZlY3RlZCBhcmVhIGJvdGggb24tIGFuZCBvZmYtSlBMIHByb3BlcnR5LiAgQ29uc3VsdGluZyB0aG9zZSBxdWFydGVybHkgcmVwb3J0cyBwcm92aWRlcyBhIHRyYW5zcGFyZW50IG1lYW5zIHRvIHZpZXcgdGhlIGNsZWFudXDigJlzIHByb2dyZXNzLCBhcyBkbyB0aGUgYW5udWFsIOKAnFllYXIgaW4gUmV2aWV34oCdIGRvY3VtZW50cyB0aGF0IGRpc2N1c3MgcHJvZ3Jlc3MgbWFkZSBmcm9tIHllYXIgdG8geWVhciBpbiByZW1vdmluZyB1bndhbnRlZCBjaGVtaWNhbHMgZnJvbSB0aGUgZ3JvdW5kd2F0ZXIuIA0KPGJyPjxicj4NCk1hbnkgb3RoZXIgdGVjaG5pY2FsIGFuZCDigJxvdXRyZWFjaOKAnSBkb2N1bWVudHMgZnJvbSBvdmVyIHRoZSB5ZWFycyBhcmUgYWxzbyBhdmFpbGFibGUgb24gdGhlIHdlYnNpdGUgaW5jbHVkaW5nIE5BU0EgZmFjdHNoZWV0cyBvbiBhIHZhcmlldHkgb2YgdGVjaG5pY2FsIGFuZCBvdGhlciB0b3BpY3MsIGRpc3BsYXlzIHRoYXQgd2VyZSBjcmVhdGVkIGJ5IE5BU0EgZm9yIHB1YmxpYyBtZWV0aW5ncywgYW5kIGEgbnVtYmVyIG9mIGNsZWFudXAgcHJvamVjdCBuZXdzbGV0dGVycyB0aGF0IHdlcmUgIGRpc3RyaWJ1dGVkIGluIHByaW50IGFuZCB2aWEgZW1haWwgdG8gbWFueSBodW5kcmVkcyBvZiBuZWlnaGJvcnMgYW5kIG90aGVyIHN0YWtlaG9sZGVycy4gIFNldmVyYWwgb2YgdGhlIG5ld3NsZXR0ZXJzIGluY2x1ZGVkIFNwYW5pc2ggdHJhbnNsYXRpb25zIG9mIGtleSBzdG9yaWVzLg0KPGJyPjxicj4NCk5BU0EgaGFzIGhlbGQgYW5kL29yIHN0YWZmZWQgYSBkb3plbiBwdWJsaWMgbWVldGluZ3MgYW5kIGhhcyBzb2xpY2l0ZWQgcHVibGljIGNvbW1lbnQgaW4gYWR2YW5jZSBvZiBldmVyeSBrZXkgY2xlYW51cCBkZWNpc2lvbiB0aGF0IE5BU0EgaGFzIG1hZGUgYWxvbmcgdGhlIHdheS4gIOKAnEl04oCZcyBpbXBvcnRhbnQs4oCdIGFjY29yZGluZyB0byBNZXJyaWxlZSBGZWxsb3dzLCBOQVNB4oCZcyBNYW5hZ2VyIG9mIENvbW11bml0eSBJbnZvbHZlbWVudCwg4oCcdG8gc2VlayBwdWJsaWMgY29sbGFib3JhdGlvbiBhbmQgdG8ga2VlcCB0aGUgcHVibGljIGluZm9ybWVkIGFzIG11Y2ggYXMgcG9zc2libGUgYWJvdXQgYSBwcm9qZWN0IHRoYXQgY291bGQgaW1wYWN0IG91ciBuZWlnaGJvcnMuICBUcmFuc3BhcmVuY3kgaXMga2V5LuKAnQ0KPGJyPjxicj4NCkluIGFkZGl0aW9uLCBzbWFsbCBncm91cCBtZWV0aW5ncywgdG91cnMgb2YgdGhlIGNsZWFudXAgcHJvamVjdCBmYWNpbGl0aWVzIGZvciBhcmVhIHdhdGVyIHB1cnZleW9ycyBhbmQgcmVndWxhdG9ycywgYW5kIG9uZS1vbi1vbmUgY29udGFjdHMgd2l0aCBuZWlnaGJvcnMgYW5kIG90aGVyIHN0YWtlaG9sZGVycyBjb250aW51ZSB0byBiZSBhIHZpdGFsIHBhcnQgb2YgTkFTQeKAmXMgb3V0cmVhY2ggYW5kIHB1YmxpYyBpbnZvbHZlbWVudCBlZmZvcnQuICBFdmVuIGR1cmluZyB0aGUgY29yb25hdmlydXMgcGFuZGVtaWMsIHdoZW4gbW9zdCB3b3JrIG9uLXNpdGUgYXQgSlBMIHdhcyBkZWxheWVkLCB0aGUgY2xlYW51cCBhbmQgY29ycmVzcG9uZGluZyBvdXRyZWFjaCBlZmZvcnRzIGNvbnRpbnVlZCByZW1vdGVseS4NCjxicj48YnI+DQpBcyBmb3IgdGhlIGZ1dHVyZSwgaW4gdGhlIHdvcmRzIG9mIFByb2plY3QgTWFuYWdlciBTbGF0ZW4sIOKAnE91ciBjb21taXRtZW50cyB0byB0aGUgY2xlYW51cCBhbmQgdG8gcHVibGljIG91dHJlYWNoIGFuZCBpbnZvbHZlbWVudCBhcmUgYmVpbmcgY2FycmllZCBvdXQgaW4gZ3JlYXQgZGV0YWlsLCBhbmQgd2UgYXJlIHZlcnkgcHJvdWQgb2YgdGhlIHB1YmxpY+KAmXMgYWNjZXB0YW5jZSBvZiBvdXIgd29yay4gIEV2ZW4gZHVyaW5nIHRoZSBjb3JvbmF2aXJ1cyBwZXJpb2QsIHdlIGFyZSBhdmFpbGFibGUgYnkgcGhvbmUgb3IgdmlkZW8gY2hhdCBhdCBhbnkgdGltZS4gV2Ugd29u4oCZdCByZXN0IG9uIHRob3NlIGNsZWFudXAgYW5kIHB1YmxpYyBpbnZvbHZlbWVudCBjb21taXRtZW50cywgdW50aWwgdGhlIHByb2plY3QgaXMgY29tcGxldGUuIA0KPGJyPjxicj4NCjxjZW50ZXI+IyMjPC9jZW50ZXI+DQo8L2Rpdj4NCjxicj4NCg0KDQo8ZGl2PjxzcGFuPjxoMz48YSBuYW1lPSJDbGVhbnVwRGlyZWN0b3IiPiA8L2E+Q2xlYW51cCBEaXJlY3RvciBTbGF0ZW4gSG9ub3JlZCBieSBOQVNBIGZvciDigJxFeGNlcHRpb25hbCBMZWFkZXJzaGlw4oCdPC9oMz48L3NwYW4+PC9kaXY+PGRpdj48ZGl2PkpQTCBHcm91bmR3YXRlciBDbGVhbnVwIFByb2plY3QgRGlyZWN0b3IgU3RldmUgU2xhdGVuIGhhcyB3b24gYSBwcmVzdGlnaW91cyAyMDE3IE5BU0EgQmx1ZSBNYXJibGUgQXdhcmQsIHJlY29nbml6aW5nIGhpcyDigJxleGNlcHRpb25hbCBsZWFkZXJzaGlwIOKApiBpbiBpbXBsZW1lbnRpbmcgTkFTQSdzIG1pc3Npb24gYW5kIHZpc2lvbiB3aGlsZSB1bmRlcnN0YW5kaW5nIGFuZCBwcm90ZWN0aW5nIHRoZSBob21lIHBsYW5ldCBhbmQgaW1wcm92aW5nIHRoZSBxdWFsaXR5IG9mIGxpZmUgb24gRWFydGgu4oCdIFNsYXRlbiB3YXMgY2l0ZWQgZm9yIGhpcyDigJxpbm5vdmF0aXZlIHNvbHV0aW9ucyB0byBzdWNjZXNzZnVsbHkgcmVtZWRpYXRlIE5BU0HigJlzIEpldCBQcm9wdWxzaW9uIExhYm9yYXRvcnkgKEpQTCkgZ3JvdW5kd2F0ZXIu4oCdJm5ic3A7IFRoZSBncm91bmR3YXRlciBiZW5lYXRoIGFuZCBpbiB0aGUgdmljaW5pdHkgb2YgSlBMIHdhcyBhZmZlY3RlZCBieSBjaGVtaWNhbHMgYXNzb2NpYXRlZCB3aXRoIGhpc3RvcmljIGFuZCBsb25nLWRpc2NvbnRpbnVlZCB3YXN0ZSBkaXNwb3NhbCBwcmFjdGljZXMgYXQgSlBMLiBOQVNBIGlzIGNvbW1pdHRlZCB0byBjbGVhbmluZyB1cCB0aGUgZ3JvdW5kd2F0ZXIgYW5kIGhhcyBmdW5kZWQgdGhyZWUgZ3JvdW5kd2F0ZXIgdHJlYXRtZW50IHN5c3RlbXMgdG8gZG8gdGhlIGpvYiDigJMgYXQgdGhlIEpQTCBzb3VyY2UgYXJlYSwgYXQgdGhlIGZhcnRoZXN0IHJlYWNoZXMgb2YgdGhlIGFmZmVjdGVkIGFyZWEgYXQgd2VsbHMgb3BlcmF0ZWQgaW4gQWx0YWRlbmEgYnkgdGhlIExpbmNvbG4gQXZlbnVlIFdhdGVyIENvbXBhbnksIGFuZCBhdCByb3VnaGx5IHRoZSBtaWRwb2ludCBvZiB0aGUgYWZmZWN0ZWQgYXJlYSBvbiBDaXR5IG9mIFBhc2FkZW5hLW93bmVkIHByb3BlcnR5IGFkamFjZW50IHRvIHRoZSBXaW5kc29yIFJlc2Vydm9pci48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PkluIGhvbm9yaW5nIFNsYXRlbiwgTkFTQSBzYWlkIHRoYXQgaGUg4oCcc3BlYXJoZWFkZWQgYSBjb2xsYWJvcmF0aXZlIGFwcHJvYWNoIHRvIHJlbWVkaWF0ZSBncm91bmR3YXRlciBjb250YW1pbmF0aW9uIGluIHBhcnRuZXJzaGlwIHdpdGggdGhlIGxvY2FsIHdhdGVyIHB1cnZleW9ycy4gSGUgcmVjb2duaXplZCB0aGF0IGltcGxlbWVudGluZyBhbmQgb3BlcmF0aW5nIG9mZnNpdGUgY2xlYW51cCBzeXN0ZW1zIHdvdWxkIG5lY2Vzc2l0YXRlIGludGVuc2UgY29vcGVyYXRpb24gd2l0aCB3YXRlciBwdXJ2ZXlvcnMgYW5kIHBlcm1pdHRpbmcgYWdlbmNpZXMs4oCdIGFuZCDigJx0aGUgdmFsdWUgYW5kIGltcG9ydGFuY2Ugb2YgcHVibGljIG91dHJlYWNoLiDigKYgU2xhdGVuIHdhcyBzdWNjZXNzZnVsIGluIGdhaW5pbmcgcmVndWxhdG9yeSBhZ3JlZW1lbnQgZm9yIGNvbXBsZXRpb24gb2YgdGhpcyBpbXBvcnRhbnQgY2xlYW51cC4mbmJzcDsgQXQgdGhlIHNhbWUgdGltZSwgaGUgaW1wbGVtZW50ZWQga2V5IGluaXRpYXRpdmVzIHRvIHJlZHVjZSB3YXRlciB1c2UgYW5kIGluY3JlYXNlIHRoZSB1c2Ugb2YgcmVuZXdhYmxlIHJlc291cmNlcywgaW5jbHVkaW5nIGVuZXJneSBvcHRpbWl6YXRpb24gdGhyb3VnaCByZWR1Y2VkIHB1bXBpbmcgcmVxdWlyZW1lbnRzLCBpbm5vdmF0aXZlIGNvbnRyYWN0aW5nIGluaXRpYXRpdmVzLCByZWN5Y2xpbmcgOTUgcGVyY2VudCBvZiB0aGUgd2FzdGUgZ2VuZXJhdGVkIGR1cmluZyBjb25zdHJ1Y3Rpb24gb2YgUGFzYWRlbmHigJlzIHRyZWF0bWVudCBwbGFudCwgdXNpbmcgbmF0aXZlLCBkcm91Z2h0LXRvbGVyYW50IHBsYW50IHNwZWNpZXMgdG8gbGFuZHNjYXBlIHRoZSBuZXcgdHJlYXRtZW50IHBsYW50LCBhbmQgcmVjeWNsaW5nIHBsYW50IHdhc3Rld2F0ZXIuJm5ic3A7IEhlIGFsc28gY2hhbXBpb25lZCB0aGUgaW5zdGFsbGF0aW9uIG9mIGEgNTY0LWtpbG93YXR0IFBWIFtwaG90b3ZvbHRhaWNdIHN5c3RlbSBhdCB0aGUgV2luZHNvciBSZXNlcnZvaXIgZmFjaWxpdHkgYWRqYWNlbnQgdG8gdGhlIE1vbmsgSGlsbCBUcmVhdG1lbnQgU3lzdGVtLuKAnSZuYnNwOyBUaGUgZmFjaWxpdHkgZ2VuZXJhdGVzIHN1ZmZpY2llbnQgZW5lcmd5IHRvIG9mZnNldCBhbGwgb2YgdGhlIGFubnVhbCBlbGVjdHJpY2l0eSBjb25zdW1lZCBhdCB0aGUgV2luZHNvciBSZXNlcnZvaXIgc2l0ZS48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PlNsYXRlbiByZWNlaXZlZCBoaXMgYXdhcmQgaW4gZWFybHkgQXByaWwgYXQgTkFTQeKAmXMgMjAxNyBFbnZpcm9ubWVudGFsIENvbmZlcmVuY2UsIGhlbGQgYXQgSm9obnNvbiBTcGFjZSBDZW50ZXIgaW4gSG91c3Rvbi4mbmJzcDsgSGUgY3JlZGl0ZWQgdGhlIHN1cHBvcnQgb2YgTkFTQSBtYW5hZ2VtZW50LCBsb2NhbCBvZmZpY2lhbHMgYW5kIHJlZ3VsYXRvcnMsIGhpcyB0ZWFtIG9mIGNvbnRyYWN0b3JzLCBhbmQgTkFTQSBNYW5hZ2VyIGZvciBDb21tdW5pdHkgSW52b2x2ZW1lbnQgTWVycmlsZWUgRmVsbG93cyBmb3IgaGVyIHJvbGUgaW4gY29tbXVuaXR5IG91dHJlYWNoLjwvZGl2PjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsgIj4jIyM8L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2IHN0eWxlPSJ0ZXh0LWFsaWduOiByaWdodDsgIj48YSBocmVmPSIjdG9wIj5edG9wPC9hPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjwvZGl2Pg0KPC9zcGFuPg0KDQo8L3NwYW4+PC9zcGFuPg0KPC9zcGFuPg0KZGQCCw8PFgIfAwUjTGFzdCBNb2RpZmllZDogMi82LzIwMjMgMTE6Mzc6MDMgUE1kZAINDw8WAh8DBRZWZXJzaW9uIDMuMF8yMDEzLjEwLjAxZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFCmlidG5TZWFyY2gFDHJhZFBhbmVsQmFyMZMT050xm6/8D/SEteg7nd2sPgwj" />
+
+<link class='Telerik_stylesheet' type='text/css' rel='stylesheet' href='/WebResource.axd?d=aEE0LG5gQl4mgXN0q9i0CLMyj0vf6V7EhJd0is32Sc5bLCLvUfKxq45Bu1P9obiJhlLnPsB4ShrAMa_hvIMD0y5KzkY6AnnLDvf-CaSU5hHDxNNYKbddVAGwyQ2gzv-ufRChwEePqzz_4K2zNOQOEw73EpQ1&amp;t=636727987296149622'></link>
+<script src="/ScriptResource.axd?d=aR8x3U8Phs49ZY2B922QQEpMgjdnWa_7LRPrkQhFdQBkYMLiBPeUmuDEpRO4q3A4dNIu05IDGXQVFtG0BqFIyWh4R6iKcofwNlQ92H1_wDWBzI-wdyikOa5r6lvJQEkHIci9jeCBfVPwE4HazFvGQ3qFfRuAHa55f2ezhsdbFmpKnhUo0&amp;t=96346c8" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=zgRrZxPVkDvY-gAc8-1LQz6S1prwxN1WQkZZe3p7f7I81_lUUEtbTHc6O7M93VVZWuEPhFXPbVGIynB7LSLwISwjilPX1qwdU6o8BicdPtHGFZak_mLhmMQ1073md9QlUjMsJQ2&amp;t=50476fbe" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Ogz8iUpglCfUbj-r4oCcaWH5j7k_DytuaoeQuIJrM-oCESk8Ev3sCRP5ZvGuuZMk-ifqomjcOc1Hr3Sv5MCXZHhlYsOrXqlOvj6uEdIFx8Y0HDewFYU3O8LUGC3c3BGJmDzm-UhwjEe6g2sOZw-dE6Ylyq41&amp;t=50476fbe" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zl4IrYGlNSYv_Yql6W3JhfIJqroRjj3WJ_V2JHzJ0HuG74eo_NkrAFPaMDqGg6sol2ZcDVHdHh-BEYTSYSukVadYttrW8G8zVWhJehlxkJF8hwOYEVvr4vLce09qWBMkJwPZNwO4AhZ7cMVqRRzgW5LcE3E1&amp;t=50476fbe" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=UudEK7vT9LWPprOm0Acop-tGdGySg-M4i_28O3TPfMyX90JAdezEfzrWwQYQToGsu-kp7jVZ9Ga_G62PaP_WPCpGYBLbtcrIbQVM-ve6lBWI_KIzUqPo9kXcz5mjs1Q8gPqWrCuUfbaSne-dtEU7iVi47hM1&amp;t=50476fbe" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_HsAj5qT5wk_1jpmFycCZADC183YejywklzHY53MRw5R0ohSldRsQ7uM6atsMMvfMWueeyqoiL2Ys0lm4MW8YyMHNt2Wh499u8kBcwJa2qmtgmG3QbK6fM1f_z4xNqsvMWTY4kRSuteMhBPv585zvSOHHb4GBCaW8gEFyNyEBqMSawSi0&amp;t=50476fbe" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=y2I0-YN3yRa0-U4WmlIRnF0Xe3kkd1Zcgmc1E-19OOq2FBPdV6eNUYndQrmHb_nMFa_458xM2exx8f2jOAxNtSJGWPFVBnO6i-FfyyFJBJikNZ70pZqeqhLG_W3RFN13MsJ0MoLOWq4O4OdOhnSYJaHAFTY1&amp;t=50476fbe" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAObSiubervaJjy9geQXJhTbxI+9ULRtD5As6bKOVj3kTBlHSB6GZ4av78bh88ZAUcIFezfj3OfE4TNjE/gyn/1FnAPT3w==" />
+            
+			<DIV class="centered">
+                                <TABLE cellSpacing="0" cellPadding="0" width="840" align="center" bgColor="#ffffff" border="0">
+					<TBODY>
+						<TR>
+                                                        <TD width="860">
+								<DIV class="centered">
+                                                                        <TABLE cellSpacing="0" cellPadding="0" width="840" align="center" border="0">
+										<TBODY>
+										</TBODY></TABLE> 
+										<!-- Skip navigation link --><div class="skiplink"><a href="#maincontent">skip to the main content</a></div>
+										<!-- [[ AFFINITY HEADER START ]] -->
+										
+                                                                        <TABLE id="header" cellSpacing="0" cellPadding="0" width="840" bgColor="#cccccc" border="0">
+										<TBODY>
+											<TR>
+												<TD vAlign="middle" width="273"><A onClick="loadNewWin('http://www.nasa.gov','nasagov');return false;" href="http://www.nasa.gov/"><IMG height="51" alt="NASA logo" src="images/logo_nasa.gif" width="288" border="0"></A></TD>
+												<TD vAlign="middle" width="364"><IMG height="10" alt=" " src="images/spacer.gif" width="1" border="0"> <!-- [[ QUICK LINKS START ]] -->
+													<TABLE height="59" cellSpacing="0" cellPadding="0" border="0" style="width: 536px">
+														<TBODY>
+															<TR>
+																<TD width="1" bgColor="#666666"><IMG height="45" alt=" " src="images/spacer.gif" width="1" border="0"></TD>
+																<TD style="width: 109px">&nbsp;
+																</TD>
+																<TD style="width: 380px"><A onClick="loadNewWin('http://www.nasa.gov','nasagov');return false;" href="http://www.nasa.gov/">+
+																		Visit NASA.gov</A><BR>
+																	<A onClick="loadNewWin('http://www.nasa.gov/about/contact/index.html','contactnasa');return false;"
+																		href="http://www.nasa.gov/about/contact/index.html">+ Contact NASA</A><BR>
+																	<A href="?id=feedback">+ Feedback</A>
+																</TD>
+																<TD width="293">
+																	<P align="left">&nbsp;<label for="tbSearchTerm">Search documents and information<BR>
+																		&nbsp;pertaining to the CERCLA&nbsp;project</label>&nbsp;&nbsp;
+																		<BR>
+																		<input name="tbSearchTerm" type="text" maxlength="30" id="tbSearchTerm" name="search terms" onkeypress="return SubmitByEnter(event,&#39;tbSearchTerm&#39;,&#39;ibtnSearch&#39;);" />
+																		<input type="image" name="ibtnSearch" id="ibtnSearch" src="images/search.gif" alt="Search documents and information pertaining the CERCLA project" border="1" />
+																	    <br />
+																	</P>
+																</TD>
+															</TR>
+														</TBODY></TABLE> <!-- [[ QUICK LINKS END ]] --><IMG height="10" alt=" " src="images/spacer.gif" width="1" border="0"></TD>
+											</TR>
+										</TBODY></TABLE> <!-- [[ AFFINITY HEADER END ]] -->
+									<TABLE cellSpacing="0" cellPadding="0" width="840" align="center" border="0">
+										<TBODY>
+											<TR>
+												<TD>
+													<TABLE id="Table1" cellSpacing="1" cellPadding="1" width="100%" border="0">
+														<TR>
+															<TD vAlign="top" width="170">
+																<IMG class="inline" alt="NASA CERCLA Program at JPL" src="images/header_text.gif" border="0">
+																<div id="radPanelBar1" class="RadPanelBar RadPanelBar_nasa">
+	<!-- 2012.2.912.35 --><ul class="rpRootGroup">
+		<li class="rpItem rpFirst"><a href="#" class="rpLink rpSelected"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Home</span></span></a></li><li class="rpItem"><a href="#" class="rpLink rpExpandable"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Investigation &amp; Cleanup</span></span></a><div class="rpSlide">
+			<ul class="rpGroup rpLevel1 ">
+				<li class="rpItem rpFirst"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Project Backgrounder</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Major Milestones</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Key Documents</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Information Repository</span></span></a></li><li class="rpItem rpLast"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Other Investigations</span></span></a></li>
+			</ul>
+		</div></li><li class="rpItem"><a href="#" class="rpLink rpExpandable"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Outreach</span></span></a><div class="rpSlide">
+			<ul class="rpGroup rpLevel1 ">
+				<li class="rpItem rpFirst"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Years in Review</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Factsheets</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Public Meetings</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Displays</span></span></a></li><li class="rpItem rpLast"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Newsletters</span></span></a></li>
+			</ul>
+		</div></li><li class="rpItem"><a href="#" class="rpLink rpExpandable"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Quick Links</span></span></a><div class="rpSlide">
+			<ul class="rpGroup rpLevel1 ">
+				<li class="rpItem rpFirst"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">FAQs</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Acronyms</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Glossary</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Info for News Media</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Bios</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">en Espa&#241;ol</span></span></a></li><li class="rpItem rpLast"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Photo Gallery</span></span></a></li>
+			</ul>
+		</div></li><li class="rpItem rpLast"><a href="#" class="rpLink rpExpandable"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Contact Us</span></span></a><div class="rpSlide">
+			<ul class="rpGroup rpLevel1 ">
+				<li class="rpItem rpFirst"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Program Contacts</span></span></a></li><li class="rpItem"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">Feedback</span></span></a></li><li class="rpItem rpLast"><a href="#" class="rpLink"><span class="rpOut"><span class="rpExpandHandle"></span><span class="rpText">E-mail  List Sign-up</span></span></a></li>
+			</ul>
+		</div></li>
+	</ul><input id="radPanelBar1_ClientState" name="radPanelBar1_ClientState" type="hidden" />
+</div>
+																<BR><br />
+																<BR>
+																&nbsp;<BR>
+																<BR>
+																<br />
+                                                                Para Más Información En Español, llame a 
+                                                                Angel Castillo, NASA JPL, Teléfono (818) 354-1585.
+															</TD>
+															<td width="10">&nbsp;</td>
+															<TD id="Content" valign="top"><a name="maincontent"></a>
+                                                                <a name="startcontent"></a>
+                                                                
+                                                                <span id="lblContent" style="display:inline-block;"><img src="gallery/NMObanner1.jpg" width="640">
+    <p style=""><strong>Welcome to the NASA Groundwater Cleanup Program</strong> website for the Jet Propulsion Laboratory (JPL) providing community members and interested parties with easy access to information about cleanup activities being conducted under the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA). View the <a href="?id=1.projectbkg">Project Backgrounder</a>. For journalists, please see the   <a href="?id=3.infofornewsmedia">Media Contacts and Credentialing</a> page.
+</p>    
+
+<h2>WHAT'S NEW</h2>
+
+<b>2022 CERCLA Project Year in Review </b><br />
+NASA Groundwater Cleanup Advances at and Near JPL. View the <a href="docs/final - CERCLA Project 2022 year in review 2022.pdf" target=_blank>2022 Year in Review</a>.
+<br>
+<br>
+<b>Name Change</b><br />
+Please note: the name of the NASA Management Office/JPL has been changed to the “NASA Office of JPL Management and Oversight.” The office’s address remains the same: 4800 Oak Grove Drive, Pasadena, California 91109. (Fact sheets and other materials on this website, prepared in pdf format before the name change was made, will not have the Office’s new name.)
+<br>
+<br>
+<b>Assessing PFAS at JPL</b><br />
+NASA is committed to communicating about PFAS investigation activities at and in the vicinity of the Jet Propulsion Laboratory and has created and posted onto this website a new ''Assessing PFAS at JPL'' factsheet. Access it <a href='docs/Assessing PFAS at JPL.pdf' target='_blank'> here</a>.<br>	
+<br>
+<b>2021 Annual Institutional Control Report (IC) is Filed </b><br />
+The approved final cleanup plan, referred to as the final Record of Decision (ROD) and signed in February 2018, included requirements for an annual Institutional Control (IC) report to ensure the effectiveness of ongoing groundwater treatment and prevent exposure to impacted groundwater at JPL. The <a href='docs/NAS710674.pdf' target='_blank'>2021 IC Report</a> has now been filed. <br>
+<br>	
+
+<b>Third Five-Year Review </b><br />
+The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), also known as Superfund, requires that the implementation and performance of ongoing remedies at CERCLA sites be reviewed at least every five years. The <a href="docs/NAS710673.pdf" target=_blank>Third Five-Year Review</a> for the JPL CERCLA site, covering the calendar years from 2017 to 2021 has now been completed, approved by federal and state regulators, and filed. A <a href="docs/FINAL APRIL 14 2022-jpl 5-year review 2017-2021 .pdf" target=_blank>Factsheet</a> on the Third Five-Year Review has also been completed and filed on this website.
+<br>
+<br>		
+		
+	
+<b>PUBLIC NOTICE</b><br />
+<b>National Aeronautics and Space Administration (NASA)
+Jet Propulsion Laboratory (JPL) 
+Groundwater Cleanup Program
+Third Five-Year Review</b>
+<br><br>
+NASA is distributing this notice to inform the community that the third Five-Year Review will be conducted to evaluate the effectiveness of ongoing efforts to clean up groundwater beneath and near JPL. The purpose of the Five-Year Review is to conduct a technical assessment to determine if the current remedies that were implemented as part of the approved Record of Decision (ROD) continue to be protective of human health and the environment. As part of this process, NASA will prepare a report of the Five-Year Review that summarize site activities and to make recommendations that can improve and optimize the NASA JPL Cleanup Program.   
+<br><br>
+The groundwater chemicals being addressed by the NASA JPL Cleanup Program include volatile organic compounds (VOCs) and perchlorate. These chemicals originated from long-discontinued liquid and solid waste disposal practices during the 1940s and 1950s when wastes from JPL drains and sinks were disposed of in brick-lined seepage pits – a waste management practice that was common at the time. The remedies currently being implemented include three groundwater extraction and above-ground treatment systems to remove VOCs and perchlorate from impacted groundwater. In addition to the ongoing operation and maintenance of these systems, NASA is also implementing a long-term groundwater monitoring program to assess site conditions and evaluate the progress of the NASA JPL Cleanup Program in restoring local groundwater resources to meet state and federal drinking water standards. 
+<br><br>  
+While NASA takes the lead for cleanup activities at JPL, the program is being implemented under the oversight of several federal and state regulatory agencies, including the U.S. Environmental Protection Agency (EPA), the California Department of Toxic Substances Control (DTSC), and the Regional Water Quality Control Board (RWQCB), Los Angeles Region. The Five-Year Review process will be conducted over the next several months and is expected to be completed in February 2022.  Once it is completed, a fact sheet summarizing the findings of the third Five-Year Review will be available on the NASA JPL Cleanup Program website:  https://jplwater.nasa.gov/.  In addition, NASA will issue another public notice upon completion of the Five-Year Review to announce the availability of the Final Third Five Year Review Report on the NASA JPL Cleanup Program website.  If you have any questions or concerns, please contact:
+<br><br>
+Steve Slaten, <a href="mailto: sslaten@nasa.gov">sslaten@nasa.gov</a>, 202-368-0491
+NASA Groundwater Cleanup Project Manager <br>
+<br>	     
+        
+    
+<b>Community Outreach and Public Involvement Are Essential to an Effective Cleanup</b>
+<br>
+Community outreach and public involvement are integral components of the groundwater cleanup project at and near NASA’s Jet Propulsion Laboratory (JPL).  Both outreach and involvement are essential to an effective cleanup.  &gt;&gt;<a href="#EffectiveCleanup">See full story below</a>	
+	
+<br />
+<br />
+
+<b>CLEANUP PROGRAM STATUS (April 2020)</b><br />
+The three treatment systems associated with the JPL Groundwater Cleanup program (i.e., the Source Area Treatment System, the LAWC Treatment System, and the Monk Hill Treatment System) continue to operate in accordance with approved plans and permits.
+
+<br>
+<br />
+<b>Milestone Achieved:  JPL Groundwater Cleanup Plan Approved and Signed By NASA and the Regulatory Agencies</b><br />NASA and the regulatory agencies overseeing NASA’s groundwater cleanup project at JPL have approved and signed a final Record of Decision (ROD) for the cleanup.  The parties agree that continuing the operation of the three groundwater treatment plants will reach the cleanup goals.  NASA has prepared a <a href="docs/NAS710633.pdf" target="_blank">factsheet</a> on the ROD, covering the investigations and remedial actions that led to its approval, as well as the significance of the <a href="Docs/NAS710632.htm" target="_blank">ROD</a> itself.<div><br>
+
+<b>New NASA-Funded LAWC Drinking Water Well is Operational</b><br />
+A new and deeper drinking water well became fully operational in July for the Lincoln Avenue Water Company (LAWC).&nbsp; The new well, funded and constructed by NASA, enhances groundwater cleanup efforts and helps maintain effective containment of the leading edge of groundwater chemicals that originated from long-discontinued waste disposal practices at JPL. The well also serves as a modern, reliable backup for the LAWC, ensuring for its customers continued clean drinking water supplies for many decades.&nbsp; A factsheet on the well was published in April 2014 as construction began.<p style=""><span></span></p>
+<b>Cleanup Director Slaten Honored by NASA for “exceptional leadership “and “innovative solutions.”</b><br />Groundwater Cleanup Project Director Steve Slaten has won a prestigious 2017 NASA Blue Marble Award, recognizing his “exceptional leadership” and “innovative solutions to successfully remediate NASA’s Jet Propulsion Laboratory (JPL) groundwater.”&nbsp; &gt;&gt; <a href="#CleanupDirector">See full story below</a>&nbsp;
+<p></p>
+<br /><br />
+
+<hr><span><h2>FULL STORIES</h2></span>
+
+<div><h3><a name="EffectiveCleanup"> </a>
+Community Outreach and Public Involvement Are Essential to an Effective Cleanup</h3>
+
+[This factsheet is part of NASA’s effort to keep the public informed about the progress of groundwater cleanup efforts at and in the vicinity of NASA’s Jet Propulsion Laboratory.]
+<br><br>
+Community outreach and public involvement are integral components of the groundwater cleanup project at and near NASA’s Jet Propulsion Laboratory (JPL).  Both outreach and involvement are essential to an effective cleanup.
+<br><br>
+The cleanup addresses groundwater chemicals that originated during the 1940s and 1950s when liquid wastes generated at JPL were disposed of into seepage pits, a long-discontinued practice considered common at the time. In 1992, JPL was officially listed as a so-called “Superfund” cleanup site. Since then, NASA has been following the complex process required at federal cleanup sites under the Comprehensive Environmental Response, Compensation and Liability Act (CERCLA). This process involved first investigating and – after an evaluation of various remedies – implementing extensive cleanup of soil at JPL and groundwater chemicals deep beneath and in areas adjacent to JPL.  
+<br><br>
+In all those years, NASA has held fast to its commitments: to clean up the chemicals, to practice community outreach and encourage public involvement during the cleanup.
+<br><br>
+The cleanup is progressing on schedule, thanks to three NASA-funded treatment systems – on-JPL at the source area, at the mid-point of the affected area using four drinking water wells in the Arroyo Seco operated by Pasadena Water & Power (PWP), and at wells operated by the Lincoln Avenue Water Company (LAWC) in Altadena, at the far reaches of the affected area. 
+<br><br>
+Community outreach over the years and public involvement in the project have provided it with significant support, according to NASA Cleanup Director Steve Slaten. “Our outreach and public involvement efforts,” he explained, “have resulted in a project that has gone quite smoothly in terms of addressing community concerns, in listening to public feedback, and in addressing the technical aspects of the cleanup.” 
+<br><br>
+Early in the project, a website (<a href="https://jplwater.nasa.gov">https://jplwater.nasa.gov</a>) was created for the project, which offers an opportunity for public questions and comments. Technical and other cleanup-related documents are regularly posted to the site for all to see.  For example, every three months NASA posts groundwater chemical level results from 25 NASA monitoring wells that cover virtually the entire affected area both on- and off-JPL property.  Consulting those quarterly reports provides a transparent means to view the cleanup’s progress, as do the annual “Year in Review” documents that discuss progress made from year to year in removing unwanted chemicals from the groundwater. 
+<br><br>
+Many other technical and “outreach” documents from over the years are also available on the website including NASA factsheets on a variety of technical and other topics, displays that were created by NASA for public meetings, and a number of cleanup project newsletters that were  distributed in print and via email to many hundreds of neighbors and other stakeholders.  Several of the newsletters included Spanish translations of key stories.
+<br><br>
+NASA has held and/or staffed a dozen public meetings and has solicited public comment in advance of every key cleanup decision that NASA has made along the way.  “It’s important,” according to Merrilee Fellows, NASA’s Manager of Community Involvement, “to seek public collaboration and to keep the public informed as much as possible about a project that could impact our neighbors.  Transparency is key.”
+<br><br>
+In addition, small group meetings, tours of the cleanup project facilities for area water purveyors and regulators, and one-on-one contacts with neighbors and other stakeholders continue to be a vital part of NASA’s outreach and public involvement effort.  Even during the coronavirus pandemic, when most work on-site at JPL was delayed, the cleanup and corresponding outreach efforts continued remotely.
+<br><br>
+As for the future, in the words of Project Manager Slaten, “Our commitments to the cleanup and to public outreach and involvement are being carried out in great detail, and we are very proud of the public’s acceptance of our work.  Even during the coronavirus period, we are available by phone or video chat at any time. We won’t rest on those cleanup and public involvement commitments, until the project is complete. 
+<br><br>
+<center>###</center>
+</div>
+<br>
+
+
+<div><span><h3><a name="CleanupDirector"> </a>Cleanup Director Slaten Honored by NASA for “Exceptional Leadership”</h3></span></div><div><div>JPL Groundwater Cleanup Project Director Steve Slaten has won a prestigious 2017 NASA Blue Marble Award, recognizing his “exceptional leadership … in implementing NASA's mission and vision while understanding and protecting the home planet and improving the quality of life on Earth.” Slaten was cited for his “innovative solutions to successfully remediate NASA’s Jet Propulsion Laboratory (JPL) groundwater.”&nbsp; The groundwater beneath and in the vicinity of JPL was affected by chemicals associated with historic and long-discontinued waste disposal practices at JPL. NASA is committed to cleaning up the groundwater and has funded three groundwater treatment systems to do the job – at the JPL source area, at the farthest reaches of the affected area at wells operated in Altadena by the Lincoln Avenue Water Company, and at roughly the midpoint of the affected area on City of Pasadena-owned property adjacent to the Windsor Reservoir.</div><div><br></div><div>In honoring Slaten, NASA said that he “spearheaded a collaborative approach to remediate groundwater contamination in partnership with the local water purveyors. He recognized that implementing and operating offsite cleanup systems would necessitate intense cooperation with water purveyors and permitting agencies,” and “the value and importance of public outreach. … Slaten was successful in gaining regulatory agreement for completion of this important cleanup.&nbsp; At the same time, he implemented key initiatives to reduce water use and increase the use of renewable resources, including energy optimization through reduced pumping requirements, innovative contracting initiatives, recycling 95 percent of the waste generated during construction of Pasadena’s treatment plant, using native, drought-tolerant plant species to landscape the new treatment plant, and recycling plant wastewater.&nbsp; He also championed the installation of a 564-kilowatt PV [photovoltaic] system at the Windsor Reservoir facility adjacent to the Monk Hill Treatment System.”&nbsp; The facility generates sufficient energy to offset all of the annual electricity consumed at the Windsor Reservoir site.</div><div><br></div><div>Slaten received his award in early April at NASA’s 2017 Environmental Conference, held at Johnson Space Center in Houston.&nbsp; He credited the support of NASA management, local officials and regulators, his team of contractors, and NASA Manager for Community Involvement Merrilee Fellows for her role in community outreach.</div></div><div><br></div><div style="text-align: center; ">###</div><div><br></div><div style="text-align: right; "><a href="#top">^top</a></div><div><br></div></div>
+</span>
+
+</span></span>
+</span>
+</span>
+                                                                </TD>
+
+														</TR>
+													</TABLE>
+													<CENTER><span id="lblLastMod" style="display:inline-block;">Last Modified: 2/6/2023 11:37:03 PM</span></CENTER>
+												</TD>
+											</TR>
+										</TBODY></TABLE>
+                                                                        <TABLE id="footer" cellSpacing="0" cellPadding="0" width="840" bgColor="#cccccc" border="0">
+										<TBODY>
+											<TR>
+												<TD vAlign="top" width="135"><A href="http://www.firstgov.gov/" target="_blank"><IMG height="42" alt="FirstGov - Your First Click to the US Government" src="images/logo_first_gov.gif"
+															width="125" border="0"></A><br />
+                                                    <br />
+															<a href="http://www.adobe.com/prodindex/acrobat/readstep.html" target=_blank><img SRC="images/get_adobe_reader.png" border=0 ALT="Get Acrobat Reader" ></a></TD>
+												<TD vAlign="top" width="330"><p><BR>
+												  <a onClick="loadNewWin('http://www.hq.nasa.gov/office/pao/FOIA/agency/','foia');return false;" href="http://www.hq.nasa.gov/office/pao/FOIA/agency/" target="_blank">+ Freedom of Information Act</a><br /> <a onClick="loadNewWin('http://www.nasa.gov/about/highlights/HP_Privacy.html','privacypolicy');return false;" href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">+ Privacy Policy &amp; Important   Notices<br>
+												  </a><a onClick="loadNewWin('http://www.nasa.gov/offices/nac/home/index.html','nasaadvisorycouncil');return false;" href="http://www.nasa.gov/offices/nac/home/index.html" target="_blank">+ NASA Advisory Council<br>
+												  </a><a onClick="loadNewWin('http://oig.nasa.gov/hotline.html','inspectorgeneral');return false;" href="http://oig.nasa.gov/hotline.html" target="_blank">+ Inspector General   Hotline<br>
+												  </a><a onClick="loadNewWin('http://oig.nasa.gov','iog');return false;" href="http://oig.nasa.gov" target="_blank">+ Office of the Inspector General<br>
+												  </a><a onClick="loadNewWin('http://www.nasa.gov/audience/formedia/features/communication_policy.html','nasacommunicationspolicy');return false;" href="http://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">+ NASA Communications Policy</a></p>
+
+									        </p></TD>
+											  <TD vAlign="top" width="60"><A onClick="loadNewWin('http://www.nasa.gov','nasagov');return false;" href="http://www.nasa.gov/"><IMG height="48" alt="NASA logo" src="images/logo_nasa(1).gif" width="49" border="0"></A></TD>
+												<TD vAlign="top" width="205">
+													<P><BR>
+														For problems or questions regarding
+														<BR>
+														this Web page, please contact
+														<BR>
+                                                                                                                <A href="mailto:SSlaten@nasa.gov">Steve Slaten</A></P>
+													<P><A onClick="loadNewWin('http://www.nasa.gov/about/contact/index.html','contactnasa');return false;"
+															href="http://www.nasa.gov/about/contact/index.html">+ Contact NASA</A><BR>
+													</P>
+												</TD>
+											</TR>
+											<TR>
+												<TD colSpan="4"><IMG height="6" alt=" " src="images/spacer.gif" width="1" border="0"></TD>
+											</TR>
+										</TBODY></TABLE> <!-- [[ AFFINITY FOOTER END ]] -->
+								</DIV>
+							</TD>
+						</TR>
+					</TBODY></TABLE>
+				                <span id="lblVersion">Version 3.0_2013.10.01</span>
+			</DIV>
+            
+            
+		
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadPanelBar, {"_enableItemTextHtmlEncoding":true,"_postBackReference":"__doPostBack(\u0027radPanelBar1\u0027,\u0027arguments\u0027)","_skin":"nasa","allowCollapseAllItems":true,"clientStateFieldID":"radPanelBar1_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"type\":1,\"duration\":450}","expandMode":1,"itemData":[{"value":"home","selected":true},{"items":[{"value":"1.projectbkg"},{"value":"1.majormilestones"},{"value":"1.keydocs"},{"value":"inforepositorysearch"},{"value":"1.otherinvestigations"}],"value":"1"},{"items":[{"value":"2.yearsinreview"},{"value":"2.factsheets"},{"value":"2.publicmeetings"},{"value":"2.displays"},{"value":"2.newsletter"}],"value":"2"},{"items":[{"value":"3.faq"},{"value":"3.acronym"},{"value":"3.glossary"},{"value":"3.infofornewsmedia"},{"value":"3.mediaroom.bios"},{"value":"3.espanol"},{"value":"3.photogallery"}],"value":"3"},{"items":[{"value":"4.programcontacts"},{"value":"feedback"},{"value":"mailinglist"}],"value":"4"}],"persistStateInCookie":true}, null, null, $get("radPanelBar1"));
+});
+//]]>
+</script>
+</form>
+
+	</BODY>
+</HTML>

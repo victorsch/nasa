@@ -1,0 +1,9 @@
+GET https://cor1.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Powered-By: PHP/7.2.24
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:54:04 GMT
+< Server: Apache

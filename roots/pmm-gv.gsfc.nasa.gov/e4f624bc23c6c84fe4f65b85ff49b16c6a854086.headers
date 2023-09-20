@@ -1,0 +1,9 @@
+GET http://pmm-gv.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:44:29 GMT
+< Server: Apache
+< Location: https://pmm-gv.gsfc.nasa.gov/
+< Content-Length: 237

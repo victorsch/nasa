@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>
+NASA SEWP Home </title>
+
+                     	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="rno" content="Joanne.R.Woytek.1" />
+    <meta name="content-owner" content="Joanne.R.Woytek.1" />
+    <meta name="webmaster" content="Kenneth.G.Woltz.1" />
+    <meta name="orgcode" content="704" />
+    <meta name="description" content="The official NASA SEWP V (www1-2-pz)
+ WWW resource." /> 
+    <meta name="verify-v1" content="Jm83HBZf69QX4SMbH/9VlLOKLW6LxdOmksj9Qg2Dzds=" />
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+    <meta name="classification" content="computer, procurement, government, federal" />
+    <meta name="keywords" content="procurement, sewp, hardware, computers, purchase, order, software, periferals, gwac, contract" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Include either the minifed or production version, NOT both!! -->
+    <script type="text/javascript" src="/addins/jquery.qtip/jquery.qtip.js"></script>
+<!-- Tablesorter jQuery plugin -->
+<script src="/addins/tablesorter_new/js/jquery.tablesorter.js" type="text/javascript"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script src="/addins/jquery.smartmenus.js" type="text/javascript"></script>
+    <!-- Dynamic Menu -->
+    <script id='dynamicMenuPlaceholder' type='text/javascript'></script>
+    <script type="text/javascript">
+        var dynamicMenuJsPath = 'https://sewp.nasa.gov/addins/dynamicMenu.js';
+        document.getElementById('dynamicMenuPlaceholder').src = dynamicMenuJsPath + '?v=' + Date.now();
+    </script>
+    <!-- qtip CSS file -->
+    <link type="text/css" rel="stylesheet" href="/addins/jquery.qtip/jquery.qtip.css" />
+    <!-- SmartMenus core CSS (required) -->
+    <link href='/addins/sm-core-css.css' rel='stylesheet' type='text/css' />
+    <!-- "sm-blue" menu theme (optional, you can use your own CSS, too) -->
+    <link href='/addins/sm-blue.css' rel='stylesheet' type='text/css' />
+    <link href="/addins/style.css" rel="stylesheet" type="text/css" />
+    <script src="/addins/s5.js" type="text/javascript"></script>
+
+                     <!-- Google Analytic Scripts /addins/GAScripts.shtml-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZTVGDGNBQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8ZTVGDGNBQ');
+</script>
+
+<!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76048179-1', 'auto');
+  ga('send', 'pageview');
+ 
+
+</script>-->
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+
+
+
+  </head>
+  <body>
+               <!-- Start of the body -->
+    <div id="scontainer">
+
+	  <div class="header">
+		<!-- This is the start of v4header3.shtml -->   
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+
+
+<div id="head1"> 
+ <div  id="head2"> 
+  <a href="https://www.sewp.nasa.gov/index.shtml" title="Click Here to go to the SEWP Home Page."
+         accesskey="h" >
+     <img  id="head1img" src="/images/sewpvhead_i.png"  
+           style="height: auto; max-width: 100%; border: 0;" 
+           alt="This is a logo of the letters S, E, W, P space V" /> </a>
+
+
+  <!-- SEARCH-ENGINE-OFF -->
+<!-- Start /addins/headtext.shtml -->
+
+<ul class="headtext"> 
+  <li>Helpline: (301) 286-1478<br /><a href="mailto:help&#64;sewp.nasa.gov" title="help&#64;sewp.nasa.gov">help&#64;sewp.nasa.gov</a></li>
+  <li>Orders: FAX (301) 286-0317<br /><a href="mailto:sewporders&#64;sewp.nasa.gov" title="sewporders&#64;sewp.nasa.gov">sewporders&#64;sewp.nasa.gov</a></li>
+  <li><br /><a href="https://support.sewp.nasa.gov" target="_blank" title="support.sewp.nasa.gov">Customer Support Center</a></li>
+</ul>
+
+<!-- Dynamic menu: chat functionality -->
+<script src='https://sewp.nasa.gov/addins/chatDeployment.js' type='text/javascript'></script>
+<script type="text/javascript">
+  window.onload = createDplOnLoadDelegate();
+</script>
+
+<!-- End /addins/headtext.shtml -->
+<!-- SEARCH-ENGINE-ON -->
+
+ 
+
+
+ </div>
+</div>
+    <ul id="dynamicMenu" class="sm sm-blue"></ul>
+
+    <!--include virtual="/addins/main_menu_new.html" --> 
+    <!-- include virtual="/addins/NOTE_oldrfqs.shtml" --> 
+    <!-- ***********************  Include notice files below   *************************   -->
+
+<script type="text/javascript">
+  var note_text_062023 =
+    '<div class="notice" style="background-color: #FAFCB5;">' +
+    "<p><strong>&#42; &#42; &#42; </strong>" +
+    "<strong>Attention NASA SEWP Customers and Contract Holders: Please be advised that the deadlines for implementing secure software requirements for the Federal Government orders have been changed</strong>  -- " +
+    '<a href="/documents/Updates_Concerning_Secure_Software_Requirements.pdf" target="_blank">Read More</a> ' +
+    '<span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Tuesday, June 21, 2023</span>' +
+    "<strong> &#42; &#42; &#42;</strong></div>";
+</script>
+
+<script type="text/javascript">
+  var note_text_051123 =
+    '<div CLASS="notice" style="text-align: left;"><p><strong>&#42; &#42; &#42; </strong> <strong>Notice</strong> -- NASA SEWP will be performing scheduled maintenance, Sat., May. 20, 2023, 8 AM - 3 PM. During this time the SEWP website and applications will be unavailable.  For concerns, please send questions to ';
+</script>
+
+<script type="text/javascript">
+  var note_text_070323 =
+    '<div CLASS="notice" style="text-align: left;"><p><strong>&#42; &#42; &#42; </strong> <strong>Notice</strong> -- NASA SEWP will be performing scheduled Database maintenance, Sat., July. 8, 2023, 8 AM - 1 PM. During this time the SEWP V desktop applications will be unavailable for portions of the maintenance.  For concerns, please send questions to ';
+</script>
+
+<script type="text/javascript">
+  var note_text_070323_chop =
+    '<div CLASS="notice" style="text-align: left;"><p><strong>&#42; &#42; &#42; </strong> <strong>Notice</strong> -- NASA SEWP will be performing scheduled Database maintenance, Sat., July. 8, 2023, 8 AM - 1 PM. During this time, TRs will queue but will not process until after the maintenance is completed. For concerns, please send questions to ';
+</script>
+
+<script type="text/javascript">
+  var note_text_073123 =
+    '<div CLASS="notice"style="background-color: #FAFCB5;"><p><strong>&#42; &#42; &#42; </strong> <strong>Attention - NASA SEWP will have extended operating hours in support of agency procurements from September 5th - 30th, 2023 </strong>  -- <a href="https://sewp.nasa.gov/eofy23.shtml" target="_blank">Read More</a> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Thurs, July 20, 2023</span><strong> &#42; &#42; &#42;</strong></div>';
+</script>
+
+<script type="text/javascript">
+  var note_text_091123_chop =
+    '<div CLASS="notice" style="text-align: left;"><p><strong>&#42; &#42; &#42; </strong> <strong>Notice</strong> -- The draft RFP for the SEWP VI contracts is now available. To read, review and comment on the draft, please visit the SEWP VI information page, <a target="_blank" href="https://www.sewp.nasa.gov/sewpvi/">here</a> or visit <a target="_blank" href="https://www.sam.gov">SAM.gov</a>.';
+</script>
+
+
+<!-- ***********************  Include notice files above   *************************   -->
+
+<script type="text/javascript">
+  // set this to true to show uncheduled wording with a notice
+  // the default should be false (i.e. scheduled)
+  //  var scheduledOverride = true;
+  var scheduledOverride = false;
+  var scheduled;
+  var CHOP = false;
+  //alert('Location: '+document.location);
+  var location_reg1 = new RegExp("chop");
+  if (location_reg1.test(document.location) === true) {
+    CHOP = true;
+    //alert('Location: '+document.location +"CHOP = "+CHOP);
+  }
+  var PROP = false;
+  //alert('Location: '+document.location);
+  var location_reg2 = new RegExp("prop");
+  if (location_reg2.test(document.location) === true) {
+    PROP = true;
+    //alert('Location: '+document.location +"PROP = "+PROP);
+  }
+  var INTERNAL = false;
+  //alert('Location: '+document.location);
+  var location_reg3 = new RegExp("sewp5internal");
+  if (location_reg3.test(document.location) === true) {
+    INTERNAL = true;
+    //alert('Location: '+document.location +"PROP = "+PROP);
+  }
+
+  ///////////////////////////////SET THIS START AND END DATE EQUAL TO MAINTENANCE DATE
+  StartDate = "8/3/2019";
+  EndDate = "8/4/2019";
+
+  ///////////// NOTICES THAT HAVE AUDIENCE SPECIFIC MESSAGE ENDINGS // START AND END DATES GO HERE
+  if (CHOP === true) {
+    // no end date for now
+    delayexpwords(
+      "9/11/2023",
+      "7/9/2026",
+      note_text_091123_chop + '</strong> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Mon, September 11, 2023</span><strong> &#42; &#42; &#42;</strong></p></div>'
+      // + '    <a href="mailto:chhelp@sewp.nasa.gov">chhelp@sewp.nasa.gov</a> or contact our helpline at 301-286-4555.</strong> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Mon, September 11, 2023</span><strong> &#42; &#42; &#42;</strong></p></div>'
+    );
+  } else if (PROP === true) {
+    // delayexpwords(
+    //   "5/15/2023",
+    //   "5/21/2023",
+    //   note_text_051123 +
+    //     '    <a href="mailto:chhelp@sewp.nasa.gov">chhelp@sewp.nasa.gov</a> or contact our helpline at 301-286-4555.</strong> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Mon, May 15, 2023</span><strong> &#42; &#42; &#42;</strong></p></div>'
+    // );
+  } else if (INTERNAL === true) {
+    delayexpwords(
+      "7/3/2023",
+      "7/9/2023",
+      note_text_070323 +
+        '   <a href="mailto:itsupport@sewp.nasa.gov">itsupport@sewp.nasa.gov</a> or visit our <a href="https://sewpprod.servicenowservices.com/sp">IT service portal</a> to submit a ticket and we will respond within 1 business day.</strong> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Mon, July 3, 2023</span><strong> &#42; &#42; &#42;</strong></p></div>'
+    );
+  } else {
+    //PUBLIC
+    // delayexpwords(
+    //   "5/15/2023",
+    //   "5/21/2023",
+    //   note_text_051123 +
+    //     '   <a href="mailto:help@sewp.nasa.gov">help@sewp.nasa.gov</a> or contact our helpline at 301-286-1478.</strong> <span style="position: relative; text-align: right; font-size: 10px; color: teal; margin: -5px 5px 0px 5px;">Updated: Mon, May 15 </span><strong> &#42; &#42; &#42;</strong></p></div>'
+    // );
+  }
+
+  ///////////// NOTICES THAT HAVE SAME MESSAGE EVERYWHERE // START AND END DATES GO HERE
+
+  delayexpwords("7/31/2023", "9/30/2023", note_text_073123);
+  delayexpwords("6/19/2023", "9/19/2026", note_text_062023);
+
+  //////////////// do not touch the stuff below this line //////////////
+  if (scheduledOverride === true) {
+    scheduled = false;
+  } else {
+    testStart = new Date(StartDate);
+    testEnd = new Date(EndDate);
+    myDate = new Date();
+    if (testEnd.getTime() > myDate.getTime() && testStart.getTime() < myDate.getTime()) {
+      scheduled = true;
+    } else {
+      scheduled = false;
+    } // end if
+  } // end if
+  //  //alert('the variable scheduled is set to ('+scheduled+')!');
+</script>
+ 
+
+<!-- This is the end of v4header3.shtml -->
+
+
+<a id="main-content"></a>
+
+	  </div>
+	  <div class="inner" > 
+		<div class="row">
+		    <div id="lft-panels"  class="col-2">     
+		       <!-- Fast Access -->
+  <div id="fast_access">
+   <h3>Fast Access</h3>
+     <ul id="fast_access_sub_menu_i" class="sub-menu sm-nowrap">
+        <li >
+                     <script language="JavaScript" type="text/javascript">
+                        var my_url = '<a href="';
+                        my_url += my_https;
+                        my_url += my_domain;
+                        my_url += '/sewp5public/">SEWP Log-in<\/a>';
+                        document.writeln(my_url);
+                    </script>
+       </li>
+        <li>
+            <a href="https://sewpprod.servicenowservices.com/support/?id=kb_view2">FAQ</a>
+        </li>
+        <li style="white-space: nowrap;">
+                    <a href="/events/multimedia/index.shtml">Training Videos   </a>  </li>
+		<li><a href="https://events.sewp.nasa.gov">Outreach/Events</a> </li>
+     
+        <li >
+                     <script language="JavaScript" type="text/javascript">
+                        var my_url = '<a href="';
+                        my_url += my_https;
+                        my_url += my_domain;
+                        my_url += '/contract_info.shtml">Contract, Clauses & SOW<\/a>';
+                        document.writeln(my_url);
+                    </script>
+       </li>
+
+        <li >
+                     <script language="JavaScript" type="text/javascript">
+                        var my_url = '<a href="';
+                        my_url += my_https;
+                        my_url += my_domain;
+                        my_url += '/sewp5public/">Request A Quote<\/a>';
+                        document.writeln(my_url);
+                    </script>
+       </li>
+
+
+
+      <li >
+                     <script language="JavaScript" type="text/javascript">
+                        var my_url = '<a href="';
+                        my_url += my_https;
+                        my_url += my_domain;
+												my_url += '/micropurchase_wcc.shtml">Credit Card / Micropurchases<\/a>';
+                        document.writeln(my_url);
+                    </script>
+       </li>
+        <li>
+                      <script type="text/javascript">
+                      var my_url = '<a href="';
+                      my_url += my_https;
+                      my_url += my_domain;
+                      my_url += '/contact.shtml">Address and Directions<\/a>';
+                      document.writeln(my_url);
+                    </script>
+      </li>
+         <li>
+                   <a href="mailto:help&#64;sewp.nasa.gov">Give Us Your Feedback</a>
+       </li>
+    </ul>
+
+  
+</div>
+
+		       <!-- start of press_release_panel.shtml -->
+
+<div id="resources">
+  <h3>Resources</h3>
+  <p>
+    <a href="/documents/NASASEWPV_ContractGuide_2022-2023.pdf"
+      >2022-2023 NASA SEWP GWAC Guide</a
+    >
+    <br />
+    <a href="/documents/SEWPTrainingPDF.pdf" target="_blank"
+      >SEWP Training Document</a
+    >
+    <br />
+    <a href="/documents/SEWPVScope.pptx">SEWP Scope</a>
+    <br />
+    <a href="/documents/SEWPVGroups.pptx">SEWP Groups</a>
+    <br />
+    <a href="/documents/RFQBestPractices2016.pdf">RFQ Best Practices</a>
+    <br />
+    <a href="/documents/Section_508_Guide_111821.pdf"
+      >Demystifying Section 508 Guide</a
+    >
+    <br />
+    <a
+      href="/documents/WCT-Workstation_End-User_Device-Environment_And_Trends-11-29-2021.docx"
+      >Workstation/End User Device Environment and Trends Paper</a
+    >
+    <br />
+  </p>
+  <div>
+    <p>
+      <script type="text/JavaScript">
+        delayexpnew('3/10/2023','3/28/2023');
+      </script>
+      <br />
+      <a
+        href="/documents/OTTPS-NIST_CrossWalk_NASA_SEWP_UPDATE.pdf"
+        target="_blank"
+        >SEWP OTTPS-NIST Supply Chain White Paper Update</a
+      >
+    </p>
+  </div>
+
+  <p>
+    <a href="/federal_mobility.shtml"
+      >Federal Mobility Categories &amp; Acquisition Options Guide</a
+    >
+    <br />
+  </p>
+
+  <h3>Featured FAQs</h3>
+  <p>
+    <a
+      href="https://sewpprod.servicenowservices.com/support/?id=kb_article&sys_id=fbd0ac0adbb397401c047c031f961984"
+      target="_blank"
+      >I am an IT vendor. How do I become a SEWP Prime Contract Holder?</a
+    >
+  </p>
+  <p>
+    For more Frequently Asked Questions, visit our
+    <a
+      href="https://sewpprod.servicenowservices.com/support/?id=kb_view2"
+      target="_blank"
+      >FAQ Knowledgebase</a
+    >.
+  </p>
+</div>
+
+<!-- end of press_release_panel.shtml -->
+
+			</div>	
+			<div id="HotTopics" class="col-8">
+					<!-- START /hot_topics2.shtml -->
+
+<div class="hotTopic">
+  <h2>Hot Topics</h2>
+  <!-- NEW Non-Events Hot Topics Below this line -->
+   <p>
+    <script type="text/JavaScript">
+        delayexpnew('5/5/2023','5/12/2023');
+        delayexpwords('5/5/2023','5/19/2023','<div class="table_font"><span style="color: #336699; font-weight: bold;">New Upgrade to the Quote Request Tool (QRT)</span><br /><p>We have a NEW enhancement that allows you to easily view the list of contract holders for all RFQ Mods. This new enhancement is now live on our QRT! <a href="/addins/hot_topic/2023/QRT_Updates_5-5-23_more.shtml">Learn More</a>.</p> <div style="text-align: center; color: #008080; font-size: 10px;">Updated: May 5, 2023</div><br /><hr width="80%"></div>');
+    </script>
+ </p>
+
+
+   <p>
+    <script type="text/JavaScript">
+        delayexpnew('04/20/2023','04/27/2023');
+        delayexpwords('04/20/2023','05/11/2023','<div class="table_font"><span style="color: #336699; font-weight: bold;">Joanne Woytek has been recognized as one of OrangeSlices\' 2023 Engage GovCon Honorees! </span><br /><p><a href="https://orangeslices.ai/announcing-the-2023-engage-fedgov-honorees/" target="_blank">See the full list of honorees here.</a> The award honors and applauds outstanding leaders in both government and industry who distinguish themselves by taking BOLD initiatives and employing innovative engagement strategies, all while promoting a cultural transformation in the Federal sector that prioritizes collaboration, transparent communication, and partnership between the Federal government and industry partners across ecosystems.</p> <div style="text-align: center; color: #008080; font-size: 10px;">Updated: Apr 20, 2023</div><br /><hr width="80%"></div>');
+    </script>
+ </p>
+
+
+   <p>
+    <script type="text/JavaScript">
+        delayexpnew('11/21/2022','11/30/2022');
+        delayexpwords('11/21/2022','3/6/2023','<div class="table_font"><span style="color: #336699; font-weight: bold;">SEWP VI Market Research Phase </span><br /><p>Industry, do you have suggestions, comments, or questions to submit during our SEWP VI market research phase?</p><ul><li>Are you looking for the SEWP VI Timeline?</li><li>Are you wondering when you can start sending your suggestions, comments, or questions? </li><li>Do you know the cut-off date to submit your suggestions, comments or questions?</li></ul><p>Find out all you need to know on our <a href="/sewpvi/">SEWP VI page</a>.</p> <div style="text-align: center; color: #008080; font-size: 10px;">Updated: Feb 22, 2023</div><br /><hr width="80%"></div>');
+    </script>
+ </p>
+
+
+  <p>
+  <script type="text/JavaScript">
+    delayexpnew("8/7/2023", "8/14/2023");
+    delayexpwords(
+      '8/7/2023',
+      '8/21/2023',
+      `
+      <div class="table_font">
+        <span style="color: #336699; font-weight: bold">GSS Version 9 Systems Now Available!</span><br />
+        <p>
+          NASA SEWP is excited to announce Version 9 of the Government-Wide Strategic Solutions (GSS) for Workstations
+          (Desktops, Notebooks, Tablets, and Thin/Zero Clients). The GSS V9 catalog offers a fast and easy way for all US
+          Federal Government Agencies to buy the latest end-user computing devices. For more information on GSS V9 please go
+          to:
+          <a href="/strategic_solutions.shtml" target="_blank">Government-Wide Strategic Solutions (GSS) for Workstations.</a>
+          If you have any questions, please contact <a href="mailto:help@sewp.nasa.gov">help@sewp.nasa.gov</a>.
+        </p>
+        <div style="text-align: center; color: #008080; font-size: 10px">Updated: Aug 4, 2023</div>
+        <br />
+        <hr width="80%" />
+      </div>
+      `
+    );
+  </script>
+</p>
+
+  <p>
+  <script type="text/JavaScript">
+    delayexpnew("8/7/2023", "9/14/2023");
+    delayexpwords(
+      '8/7/2023',
+      '9/21/2023',
+      `
+      <div class="table_font">
+        <span style="color: #336699; font-weight: bold">SEWP VI Draft Request for Proposal (RFP) and SEWP VI Industry Day</span><br />
+        <p>
+          NASA SEWP has published the SEWP VI Draft Request for Proposal (RFP) on SAM.gov - <a href='https://sam.gov/opp/37298dea43964737b0c55d80081f5ed9/view' target='_blank'>SEWP VI Draft RFP- 80TECH23R0001</a> and has opened <a href='https://web.cvent.com/event/c75c750b-f1eb-4fc3-a4f7-65d0fa2dfb66/regPage:a7e10950-0340-458f-909c-e74b289c2945' target='_blank'>Registration</a> for our SEWP VI Industry Day on October 18, 2023 in College Park, MD.
+          <br />
+          To submit comments/questions about the DRAFT RFP, please register for our Comment Tool on our <a href='/sewpvi/' target='_blank'>SEWP VI webpage</a>.  We look forward to hearing from you!
+        </p>
+        <div style="text-align: center; color: #008080; font-size: 10px">Updated: Sep 11, 2023</div>
+        <br />
+        <hr width="80%" />
+      </div>
+      `
+    );
+  </script>
+</p>
+
+
+</div>
+
+<div class="hotTopic">
+  <h2>Events Hot Topics</h2>
+  <!-- NEW Events Hot Topics Below this line -->
+   <p>
+    <script type="text/JavaScript">
+        delayexpnew('2/28/2023','3/14/2023');
+        delayexpwords(
+			'2/28/2023',
+			'3/22/2023',
+			'<div class="table_font"><span style="color: #336699; font-weight: bold;">Joanne Woytek speaking at the AFCEA NOVA Space Force IT Day on March 21, at the Westfields Marriott in Chantilly, VA! </span><br /><p><a href="https://afceanova.swoogo.com/SpaceForceITDay2023" target="_blank">Register</a> to hear NASA SEWP Program Director, Joanne Woytek, speaking on the Acquisition for Space panel! The theme of this conference is “Partnering to Win Space Superiority”. </p><div style="text-align: center; color: #008080; font-size: 10px;">Updated: Feb 28, 2023</div><br /><hr width="80%"></div>'
+		);
+    </script>
+ </p>
+   <p>
+    <script type="text/JavaScript">
+        delayexpnew('2/10/2023','2/23/2023');
+        delayexpwords('2/10/2023','6/2/2023','<div class="table_font"><span style="color: #336699; font-weight: bold;">Joanne Woytek will be speaking on June 1, 2023 at the Centre Law & Consulting - Annual Review 2023 event! </span><br /><p><a href="https://centrelawgroup.com/annual-review-conference/" target="_blank">Register</a> to hear Joanne Woytek\'s presentation on SEWP - Present, Process and Prospect: An overview of SEWP, current policy issues (especially concerning supply chain risk management) and what is upcoming for the next version of SEWP - at the MGM National Harbor in Oxon Hill, MD!  </p><div style="text-align: center; color: #008080; font-size: 10px;">Updated: Feb 16, 2023</div><br /><hr width="80%"></div>');
+    </script>
+ </p>
+
+
+  <p>
+  <script type="text/JavaScript">
+    delayexpnew("6/21/2023", "7/5/2023");
+    delayexpwords(
+      "6/21/2023",
+      "7/12/2023",
+      '<div class="table_font"><div class="row"><div class="col-4"><a href="/images/TD_Synnex_Public_Sector_2023_JW_Speaking.png" ><img src="/images/TD_Synnex_Public_Sector_2023_JW_Speaking.png" style="max-width: 90%;" alt="Picture of Joanne Woytek"/></a></div><div class="col-8"><span style="color: #336699; font-weight: bold;">Joanne Woytek is the keynote speaker at the TD SYNNEX PUBLIC SECTOR – FBSO and Federal Roadshow in Herndon, VA, July 19-20!</span><br /><p><a href="https://web.cvent.com/event/930e18fc-c09f-43ca-afa2-b443aa65d46a/summary" target="blank">Register </a>to hear Joanne Woytek speak at the TD SYNNEX PUBLIC SECTOR – FBSO and Federal Roadshow, July 19-20, 2023 at The Westin Washington Dulles Airport Hotel, Herndon, VA. <br /> <br /> Attend to gain valuable insights from keynote speaker Joanne Woytek (Program Director, SEWP), discussing strategies for success and collaboration in 2023. You will gain a deeper understanding on how key federal vendors\' solutions, such as NASA SEWP, can assist in navigating the current market, expanding federal customers\' network capabilities, and effectively maneuvering contracts.</p><div style="text-align: center; color: #008080; font-size: 10px;">Updated: Jun 21, 2023</div></div></div><br /><hr width="80%"></div>'
+    );
+  </script>
+</p>
+
+  <p>
+  <script type="text/JavaScript">
+    delayexpnew("9/6/2023", "9/14/2023");
+    delayexpwords(
+      '9/6/2023',
+      '10/31/2023',
+      `
+      <div class="table_font">
+        <span style="color: #336699; font-weight: bold">Joanne Woytek will be speaking at Imagine Nation 2023 in Hershey, PA, October 29-31, 2023!</span><br />
+        <p>
+          <a href="https://web.cvent.com/event/4949d465-b72d-470f-a46c-18839336e3b3/summary" target="_blank">Register</a> for the conference to hear Joanne Woytek speak as part of the panel, Acquisition - The Future of Public Sector Acquisitions, on Monday, October 30 from 2:15 – 3:15pm. 
+        </p>
+        <div style="text-align: center; color: #008080; font-size: 10px">Updated: Sept. 7, 2023</div>
+        <br />
+        <hr width="80%" />
+      </div>
+      `
+    );
+  </script>
+</p>
+
+  <p>
+  <script type="text/JavaScript">
+    delayexpnew("9/7/2023", "9/14/2023");
+    delayexpwords(
+      '9/7/2023',
+      '9/20/2023',
+      `
+      <div class="table_font">
+        <span style="color: #336699; font-weight: bold">Joanne Woytek will be speaking at the AI, Automation & Acquisition: Engaged Fed Leaders to Make an Impact in 2024 event at the University of Maryland, College Park, MD September 20, 2023!</span><br />
+        <p>
+          <a href="https://www.eventbrite.com/e/ai-automation-acquisition-engaged-fed-leaders-to-make-an-impact-in-2024-tickets-638076262277?aff=oddtdtcreator" target="_blank">Register</a> for the conference to hear Joanne Woytek speak on one of two panel sessions on Wednesday, Sept. 20, from 1:30-3:30 pm on how AI in automation, data innovation, workforce development, cybersecurity, emerging technologies, and platforms are impacting how Federal leaders and agencies evaluate and act to meet emerging needs and make measureable impact.  
+        </p>
+        <div style="text-align: center; color: #008080; font-size: 10px">Updated: Sept. 7, 2023</div>
+        <br />
+        <hr width="80%" />
+      </div>
+      `
+    );
+  </script>
+</p>
+
+</div>
+
+<!-- END /hot_topics2.shtml -->
+
+			         <!-- start of press_release_panel.shtml -->
+
+<div   id="events_panel" class="events_panel">
+
+  <h3>Upcoming Events</h3>
+  <div>
+
+  <table  id="events_panelt">
+  </table>
+ 
+	  <p><a href="https://events.sewp.nasa.gov/">See the full schedule of events on SEWP's Events Calendar</a></p>  
+  </div>
+
+
+
+   
+</div>
+
+
+<script type="text/javascript">
+   
+    $(function() {
+    //<!-- START /addins/events.txt -->
+//<!-- Evnets Array file-->
+//ColumnsArray = ["Start Date", "End Date", "Event Name", "Venue", "Address", "URL_text","URL", "Details", "City/State"];
+var EventsSEWP = [
+["Date", "End Date", "Event Name", "Venue", "Address", "URL_text","URL", "Details", "City/State",],
+["9/19/2023","","SEWP of the Day – Becoming a SEWP Industry Provider","","","Information and Registration for the Event","https://nasaenterprise.webex.com/weblink/register/r66289697036c1cfdb20cb2e5af8ad27c","","Online/Virtual",],
+["9/20/2023","","AI, Automation & Acquisition: Engaged Fed Leaders to Make an Impact in 2024","","","Information and Registration for the Event","https://www.eventbrite.com/e/ai-automation-acquisition-engaged-fed-leaders-to-make-an-impact-in-2024-tickets-638076262277?aff=oddtdtcreator","Speaking: Joanne Woytek","College Park, MD",],
+
+["9/20/2023","","AGA's 2023 Internal Control & Fraud Prevention Training","","","Information and Registration for the Event","https://www.agacgfm.org/Events/Fraud/Home.aspx","Speaking: George Nicol","Washington, DC",],
+
+["10/18/2023","","SEWP VI Industry Day","","","Information and Registration for the Event","https://web.cvent.com/event/c75c750b-f1eb-4fc3-a4f7-65d0fa2dfb66/regPage:a7e10950-0340-458f-909c-e74b289c2945","","College Park, MD",],
+["10/29/2023","10/31/2023","Imagine Nation ELC23","","","Information and Registration for the Event","https://web.cvent.com/event/4949d465-b72d-470f-a46c-18839336e3b3/summary","Speaking: Joanne Woytek","Hershey, PA",],
+["11/07/2023","11/09/2023","AFCEA TechNet Indo-Pacific 2023","","","Information and Registration for the Event","https://events.afcea.org/TIP23/Public/enter.aspx","","Honolulu, HI",],
+["11/15/2023","","AFCEA Energy, Infrastructure, and Environment (EIE) Summit","","","Information and Registration for the Event", "https://bethesdaevents.afceachapters.org/eie23/Home#:~:text=The%20EIE%20Summit%20will%20convene,%2C%20technology%20modernization%2C%20the%20workforce%2C","Speaking: Joanne Woytek","Washington, DC"],
+["12/12/2023","12/14/2023","DODIIS 2023","","","Information and Registration for the Event","https://www.ncsi.com/event/dodiis/","","Portland, OR",],
+];
+//<!-- END /addins/events.txt -->
+
+
+		var html = '';
+		var flag_c = 0;
+		var m = 0;
+        for( var row in EventsSEWP){	
+			var event_sdate = EventsSEWP[row][0];
+			var event_edate = EventsSEWP[row][1];
+			var event_name = EventsSEWP[row][2];
+			var venue = EventsSEWP[row][3];
+			var address = EventsSEWP[row][4];
+			var url_text = EventsSEWP[row][5];
+			var url = EventsSEWP[row][6];
+			var details = EventsSEWP[row][7];
+			var location = EventsSEWP[row][8];
+			if (row == 0) {
+				continue;
+			}else 
+			html += '<tr>';
+	
+			var ds = new Date(event_sdate);
+			var de = new Date(event_edate);
+			var disM = 4;
+	                var localDate = new Date();
+                var curDate = (localDate.getMonth()+1) + "/" + localDate.getDate() + "/" + localDate.getFullYear();
+                //console.log(event_edate);
+                //console.log(tt);
+                //console.log(new Date(tt));
+                curDate = new Date(curDate);
+                
+                
+                //if (((new Date(event_sdate) >= curDate) && (event_edate == '')) || (new Date(event_edate) >= curDate)) {
+                if ((new Date(event_sdate) >= curDate || new Date(event_edate) >= curDate) && m < disM ) {
+
+			//		if (((new Date(event_sdate) >= new Date(toDay)) && (event_edate == '')) || (new Date(event_edate) >= new Date(toDay)) && m < disM ){
+		//				alert(event_sdate + ' - ' + event_edate );
+//			if (ds >= now && m < disM)  {
+	//				alert(now + ' ' + ds );
+	//		alert(now.getMonth() + 1);
+	//			alert(ds.getMonth() + 1);
+			for ( var col in EventsSEWP[row]) {
+				flag_c ++; 
+					if (col >= 2) {
+					continue;
+					}
+				   else {
+					   html += '<td>'
+				   }
+				   if (col == 0){
+					   	if (event_edate != "" ){
+					   html += (ds.getMonth() + 1) + '/' + ds.getDate() + ' - ' + (de.getMonth() + 1) + '/' + de.getDate(); 
+					   					//alert(d.getMonth() + '/' + d.getDate());
+						} else {
+						html += (ds.getMonth() + 1) + '/' + ds.getDate() ; 
+	
+						}
+				   }
+				   if (col == 1){
+					   html += '<a target="_blank" href="'+ url + '">' + event_name + '</a>'; 
+			      };
+				
+			}
+		
+			if (flag_c == 0) {
+				$('#events_panel').hide()	
+			                 }
+		
+			m++;
+		}
+		}
+								
+
+ $('#events_panelt').append(html); // And add to document
+
+});
+
+
+
+</script>
+
+<!-- end of press_release_panel.shtml -->
+
+		       <!-- start of /info/aboutSEWP.shtml -->
+<h2 class="aboutSewp"  >About SEWP</h2>
+<p class="p_content">The NASA <strong>SEWP</strong> (Solutions for Enterprise-Wide Procurement) <a href="https://sewpprod.servicenowservices.com/support?id=kb_article&sys_id=a6c5ce6fdb8d1b001c047c031f96199d" target="_blank">GWAC (Government-Wide Acquisition Contract)</a> provides the latest in Information and Communications Technology (ICT) and Audio-Visual (AV) products and services for all Federal Agencies and their approved contractors. The statutory authority allowing usage of the SEWP contracts by the entire Federal Government is NASA's designation as an Executive Agent by OMB based on the Information Technology Management Reform Act (<strong>ITMRA</strong>) of 1996, now the Clinger-Cohen Act. <a href="/about_us.shtml">More About SEWP V...</a></p>
+
+<!-- end of /info/aboutSEWP.shtml -->
+
+					<!-- start of /info/mission.shtml -->
+
+
+<h2 class="mission"> <a name="MISSION">SEWP Mission</a> <script type="text/JavaScript">expnew("8/22/2016")</script></h2>
+<p class="p_content">The SEWP Program Office manages a suite of government-wide IT products and services contracts that enable NASA and all Federal Agencies
+ to achieve their missions and strategic initiatives by providing streamlined access to critical technologies and solutions. The Program provides best value for the
+ Federal Government and American taxpayer through innovative procurement processes, premier customer service and outreach, acquisition insight, and partnership 
+ with Government entities and Industry.</p>
+
+
+<!-- end of /info/mission.shtml -->
+
+
+				         <!-- start of /addins/vision.shtml -->
+
+<h2 class="vision" >SEWP Vision <script type="text/JavaScript">expnew("8/22/2016")</script></h2>
+<p class="p_content">NASA SEWP is regarded as the Federal Government's vehicle of choice for Information and Communications Technology and Audio Visual solutions focusing on the Next Best Practices in customer interactions supported by a knowledgeable and responsive staff. Information flow and initiatives are driven by premier-level quality data centered on industry offerings and government acquisition practices, meeting agency's needs through a flexible, intuitive, and adaptive, catalog-based platform. Our collective customer odyssey creates a foundation that combines a dynamic infrastructure which leverage advanced data analytics resulting in a contextualized and personal, next-generation standard for a first-of-its-kind acquisition experience.</p>
+<!-- end of /addins/vision.shtml -->
+
+
+		</div>			 
+		    <div id="rt-panels" class="col-2">     
+			         <!-- start of press_release_panel.shtml -->
+
+<div id="press_panel">
+  <h3>SEWP in the News...</h3>
+  <!--start sewp_news/2023-temp/a051823_tog.shtml-->
+<div class="sewp_news">
+  <p>
+    <strong
+      >Joanne Woytek discussed her career journey and insights on managing growth on the Open Comments podcast – Episode
+      9: The Sky’s the Limit with Ms. Joanne Woytek, with Oliver David (Social Media Manager) and Ash Patel (Marketing
+      Specialist), hosted by The Open Group. The Open Group, <br />&ldquo;<a
+        title="SEWP in the News article"
+        href="https://www.buzzsprout.com/2112772/12851109-open-comments-episode-9-the-sky-s-the-limit-with-ms-joanne-woytek"
+        target="blank"
+        >Open Comments - Episode 9: the Sky's the Limit</a
+      >&rdquo; The Open Group, May 16, 2023. </strong
+    ><br />
+  </p>
+</div>
+
+<!--end sewp_news/2023-temp/a051823_tog.shtml-->
+
+  <hr style="" />
+  <!--start sewp_news/2023/a041123_fnn.shtml-->
+<div class="sewp_news">
+<p><strong>Joanne Woytek's interview on Roger Waldron's (of the Coalition for Government Procurement), OFF THE SHELF program, provides an update on NASA SEWP V over the last fiscal year and provides her outlook for the second half of the FY23.<strong> Roger Waldron, <br/>&ldquo;<a title="SEWP in the News article" href="https://federalnewsnetwork.com/off-the-shelf/2023/04/an-update-on-nasa-sewp-v/" target="blank">An update on NASA SEWP V</a>&rdquo; Federal News Network, April 11, 2023. <br/> 
+
+</div>
+<!--end sewp_news/2023/a041123_fnn.shtml-->
+
+  <hr style="" />
+  <!--start sewp_news/2022/a100622_yt.shtml-->
+<div class="sewp_news">
+<p><strong>Joanne Woytek participated as a panelist at the Governmentwide Contracting Opportunities through NASA, NIH, and GSA event. Coalition for Government Procurement (CGP).<strong><br/>&ldquo;<a title="SEWP in the News article" href="https://www.youtube.com/watch?v=2-PL5EUwB1s" target="blank">The IT Category: Creating Opportunities for Small Business, Oct 6 Meeting Recording.</a>&rdquo; YouTube, October 6, 2022.<br/> 
+
+</div>
+<!--end sewp_news/2022/a100622_yt.shtml-->
+
+  <hr style="" />
+  <!--start sewp_news/2022/a071822_wcd.shtml-->
+<div class="sewp_news">
+<p><strong>Joanne Woytek discusses SEWP's SCRM experience, approach, and strategies using commercial standards.<strong><br/>Joanne Woytek, &ldquo;<a title="SEWP in the News article" href="https://s6.goeshow.com/ncma/world/2022/documents/NASA_SEWP_Managing_Supply_Chain_Risk_Through_Commercial_Standards.pdf" target="blank">Managing Supply Chain Risk Through Commercial Standards</a>&rdquo; World Congress Daily News, July 18, 2022.<br/> 
+
+</div>
+<!--end sewp_news/2022/a071822_wcd.shtml-->
+
+
+  <!-- 	  <p><a href="/news_arc_v.shtml">News Archive</a></p>  -->
+</div>
+
+<!-- end of press_release_panel.shtml -->
+
+			</div>	
+		</div>
+
+		<div class="row">
+			<div  class="col-6 ">
+			</div>	
+		    <div class="col-6">     
+			</div>	
+		</div>
+										 
+<script>	
+	// detect browser window size and change display accordingly
+	$(document).ready(function() {
+       var $window = $(window);
+	
+	  function checkWidth() {
+		var screensize= $( window ).width();
+		if (screensize < 655) {
+			document.getElementById("lft-panels").classList.remove('col-2');
+			document.getElementById("HotTopics").classList.remove('col-8');
+			document.getElementById("rt-panels").classList.remove('col-2');
+
+		} else if (screensize > 654) {
+			document.getElementById("lft-panels").classList.add('col-2');
+			document.getElementById("HotTopics").classList.add('col-8');
+			document.getElementById("rt-panels").classList.add('col-2');
+		}
+	  }
+    
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+    });
+	
+		
+ </script>	
+  
+  
+  
+  
+  <p style="clear: both;">&nbsp;  </p>           
+	  </div>
+   </div>
+
+   <!-- Start of /addins/footer.shtml -->
+<div id="footer" class="footer">
+
+ 
+<ul class="sub_menu">
+
+ <!-- 1 -->
+  <li>
+    <script type="text/javascript">
+       var my_url = '<a href="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/index.shtml">';
+       my_url += ' Home<\/a>';
+       document.writeln(my_url);
+    </script>
+  </li>
+  <!-- 2 -->
+  <li>
+    <script type="text/javascript">
+       var my_url = '<a href="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/about_us.shtml">';
+       my_url += ' About Us<\/a>';
+       document.writeln(my_url);
+    </script>
+  </li>
+  <!-- 3 -->
+  <li>
+    <script type="text/javascript">
+       var my_url = '<a href="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/contact.shtml">';
+       my_url += ' Contact Us<\/a>';
+       document.writeln(my_url);
+    </script>
+  </li>
+  <!-- 4 -->
+  <li style="border-right: none;">
+     <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy, Security, Notices</a>
+  </li>
+ 
+</ul>
+
+
+<!-- START social.shtml -->
+<div id="social">
+
+        <a href="https://twitter.com/nasasewp" target="_blank">
+    <script type="text/javascript">
+       var my_url = '<img src="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/twitter-bird-light-bgs_20px.png" style="text-align: center; vertical-align: middle; border: 0;" alt="Twitter" width="24" height="20" />';
+       document.writeln(my_url);
+    </script></a>  
+      
+        &nbsp; <a href="https://www.facebook.com/nasa.sewp.3?fref=ts" target="_blank">
+    <script type="text/javascript">
+       var my_url = '<img src="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/facebook.jpg" style="text-align: center; vertical-align: middle;" width="20" height="20" alt="Facebook" />';
+       document.writeln(my_url);
+		</script></a>
+       
+        &nbsp; <a href="https://www.linkedin.com/company/nasa-sewp" target="_blank">
+	<script type="text/javascript">
+       var my_url = '<img src="';
+	   my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/InBug-20px-R.png" style="text-align: center; vertical-align: middle;" width="27" height="20" alt="LinkedIn" />';
+       document.writeln(my_url);
+    </script></a>
+
+      &nbsp; <a href="https://www.youtube.com/channel/UCGvRH2hAkXgV5BnHd9ste6A" target="_blank">
+	<script type="text/javascript">
+       var my_url = '<img src="';
+	   my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/youtube_social_icon_red_20px.png" style="text-align: center; vertical-align: middle;" width="27" height="20" alt="Youtube" />';
+       document.writeln(my_url);
+    </script></a>
+
+  <br /> <br />
+      
+   <a href="https://get.adobe.com/reader/" target="_blank">
+    <script type="text/javascript">
+       var my_url = '<img src="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/Get_Adobe_Reader_button_158x39.png" STYLE="text-align: center; vertical-align: middle;" width="158" height="39" alt="Get Adobe Acrobat Reader" />';
+       document.writeln(my_url);
+    </script></a>
+   &nbsp;     &nbsp; 
+<!-- Blue Duck Page -->  
+    <script type="text/javascript">
+       var my_url = '<a href="';
+       my_url += my_https;
+       my_url += my_domain;
+       my_url += '/documents/training/sewp.shtml">';
+         my_url += '<img src="';
+         my_url += my_https;
+         my_url += my_domain;
+         my_url += '/images/blueduck.png" id="blueDuck" alt="blue duck" width="20" height="19" /><\/a>';
+       document.writeln(my_url);
+    </script>
+
+
+<!-- Orange Duck Page -->  
+ <a href="https://sewpv.shufflrr.com/" target="_blank">
+	<script type="text/javascript">
+       var my_url = '<img src="';
+	   my_url += my_https;
+       my_url += my_domain;
+       my_url += '/images/orangeduck.png" id="orangeDuck" alt="orange duck" width="20" height="19" />';
+       document.writeln(my_url);
+    </script></a>
+
+
+        
+</div>
+<!-- END social.shtml -->
+              
+ 
+
+</div>
+
+  <!-- s5_jquery.js -->
+  <script type="text/javascript" src="/addins/s5_jquery.js?version=07072022"></script>
+  <!-- include virtual="/addins/s5_jquery.js" -->
+
+<!-- End of /addins/footer.shtml -->
+
+
+  <!-- This is the START of /addins/v4footer.shtml -->
+<div id="footer_i" class="">
+	<table role="presentation">
+		<tr>
+			<td><img src="/images/meatball_transparent.gif" height="69" width="78" alt="NASA Logo" style="border: 0;"></td>
+            
+			<td>Resp. NASA Official: <a href="/contacts/jw.shtml">Joanne Woytek</a>
+		         <br />Curator: <a href="/contacts/kgw.shtml">KG Woltz</a>
+		         <br /><a href=" https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy, Security, Notices</a></td>
+
+			<td style="width: 75%; text-align: right;"> <a href="http://www.opengroup.org" target="_blank">
+		          <img src="/images/opn_grp.gif" width="125" height="32" style="border: 0;"  alt="The Open Group logo"></a>
+		          <a href="http://www.ncmahq.org/" target="_blank">
+		          <img src="/images/NCMA_Logo2.png"  style="border: 0;"  alt="NCMA logo"></a>
+		          <a href="http://www.afcea.org" target="_blank">
+		          <img src="/images/AFCEA_Logo2.png"  style="border: 0;"  alt="AFCEA logo"></a>
+		          <a href="https://www.actiac.org/" target="_blank">
+		          <img src="/images/actiac.png"  style="border: 0;"  alt="AFCEA logo"></a></td>
+      
+
+		</tr>   
+	</table>      
+            
+ </div>      
+ <!-- This is the END of /addins/v4footer.shtml -->
+
+
+
+  </BODY>
+</HTML>

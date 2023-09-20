@@ -1,0 +1,18 @@
+GET https://auth.launchpad.nasa.gov
+
+
+< HTTP/1.1 302 
+< Date: Tue, 19 Sep 2023 06:06:27 GMT
+< X-Permitted-Cross-Domain-Policies: none
+< Content-Type: text/plain;charset=UTF-8
+< Server: unknown
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=20&target=https://auth.launchpad.nasa.gov
+< X-Content-Type-Options: nosniff
+< X-Robots-Tag: noindex, nofollow
+< X-Frame-Options: deny
+< Content-Security-Policy: default-src 'none'; script-src 'self' https://launchpad.nasa.gov https://*.launchpad.nasa.gov 'nonce-OhFmMQ3ok9onO4/aFnBE8iWH61lj/P/tpi6liKSzk2w7kaAYb6br6tq1qhOOgOcm1hR1DEbQz5fhl4lxDcqVeQ==' 'unsafe-inline'; style-src 'self' https://launchpad.nasa.gov https://*.launchpad.nasa.gov 'unsafe-inline'; connect-src 'self' https://launchpad.nasa.gov https://*.launchpad.nasa.gov; img-src 'self' https://launchpad.nasa.gov https://*.launchpad.nasa.gov data:; base-uri 'none'; form-action 'self' https://launchpad.nasa.gov https://*.launchpad.nasa.gov; frame-ancestors 'none';
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Ua-Compatible: IE=Edge
+< Cache-Control: private, no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< X-Xss-Protection: 0

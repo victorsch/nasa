@@ -1,0 +1,13 @@
+GET https://dundee.larc.nasa.gov
+
+
+< HTTP/1.1 401 Unauthorized
+< Server: Apache
+< X-Frame-Content-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:05:22 GMT
+< Strict-Transport-Security: max-age=31536000
+< Www-Authenticate: Basic realm="CALIPSO Flight Operations"
+< Content-Length: 381
+< X-Xss-Protection: 1; mode=block

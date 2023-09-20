@@ -1,0 +1,13 @@
+GET http://visitorcenterevents.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 b7d10369ae737ec35cf8d7faced56ef0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: _7Io1w_Pt4xiKR2HJ_pJ6mW58clkaTWFbPJC3j6re_g30_D34kfoMA==
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://visitorcenterevents.gsfc.nasa.gov/
+< X-Amz-Cf-Pop: EWR53-C2
+< Date: Tue, 19 Sep 2023 06:06:25 GMT

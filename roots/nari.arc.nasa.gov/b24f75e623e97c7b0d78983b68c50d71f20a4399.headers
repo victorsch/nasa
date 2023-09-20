@@ -1,0 +1,18 @@
+GET https://nari.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Etag: W/"64549c19-4b93"
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Type: text/html
+< Server: nginx
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Last-Modified: Fri, 05 May 2023 06:03:05 GMT
+< Cache-Control: no-cache
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Pragma: no-cache
+< Date: Tue, 19 Sep 2023 06:00:24 GMT
+< Expires: Tue, 19 Sep 2023 06:00:23 GMT
+< Content-Security-Policy: script-src 'self' 'unsafe-inline' unpkg.com *.paperform.co paperform.co plausible.io cdnjs.cloudflare.com form.jotform.com *.jotfor.ms; style-src 'self' 'unsafe-inline' fonts.googleapis.com  unpkg.com cdnjs.cloudflare.com *.jotfor.ms; img-src 'self' *.zapwp.com *.marquilabs.com *.directus.app *.marqui.tech mlabs.directus.app *.ytimg.com *.youtube.com *.airtableusercontent.com *.airtable.com *.unsplash.com *.nasa.gov *.nocodeapi.com data: nari.directus.app upload.wikimedia.org *.amazonaws.com *.jotfor.ms; font-src 'self' data: fonts.gstatic.com; default-src 'self' *.marquilabs.com *.marqui.tech mlabs.directus.app *.nasa.gov *.nocodeapi.com fonts.googleapis.com fonts.gstatic.com unpkg.com plausible.io nari.directus.app form.jotform.com *.paperform.co *.youtube.com youtube.com; connect-src 'self' api.crossref.org *.marquilabs.com *.directus.app *.marqui.tech mlabs.directus.app plausible.io nari.directus.app *.nocodeapi.com; frame-src 'self' *.jotform.com *.paperform.co *.youtube.com *.vimeo.com; frame-ancestors 'self';
+< X-Xss-Protection: 1; mode=block

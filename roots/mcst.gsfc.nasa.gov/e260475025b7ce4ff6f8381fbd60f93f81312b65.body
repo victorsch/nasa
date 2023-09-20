@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/sixseventeen/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://mcst.gsfc.nasa.gov/mcst/about" />
+<link rel="shortlink" href="https://mcst.gsfc.nasa.gov/node/1" />
+<link rel="alternate" type="application/rss+xml" title="Latest News" href="https://mcst.gsfc.nasa.gov/latest-news.xml" />
+
+    <title>Home | MCST</title>
+    <link rel="stylesheet" media="all" href="/libraries/slick/slick/slick.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/layout/slick.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/blazy.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/components/blazy.loading.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/libraries/slick/slick/slick-theme.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/genpass/css/genpass.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/theme/slick.theme.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/contrib/slick/css/theme/slick.theme--default.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/modules/custom/smartmenus2/css/sm-ldas/sm-ldas.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/bootstrap.min.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/sixseventeen/dist/style_mcst.min.css?s0ko4u" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+
+    
+  </head>
+  <body class="layout-no-sidebars page-node-1 path-frontpage node--type-page">
+    <a href="#main-content" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+            
+
+<div id="page-container" class="container-fluid">
+                        
+        <header id="header" class="row sticky-top" role="banner" aria-label='Site header'>
+        <!-- Meatball -->
+        <div class="col-lg-1 col-md-2 col-sm-3 col-2 tex2-center no-padding meatball">
+            <a href="https://nasa.gov">
+                <img id="nasa-logo" src="https://mcst.gsfc.nasa.gov/themes/custom/sixseventeen/images/nasa.svg"
+                     alt="NASA Logo">
+            </a>
+        </div>
+        <!-- Brand and Slogan -->
+        <div class="col-xl-3 col-lg-3 col-md-8 col-sm-7 col-8 region header_region_1">
+            <div class="brand">
+              <h1>
+                <a href="/" title="Home"
+                   rel="home" class="navbar-brand">MCST</a>
+              </h1>
+            </div>
+            <div class="slogan">MODIS Characterization Support Team</div>
+        </div>
+        <!-- Navbar / Main Menu -->
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa-lg"></i>
+            </span>
+        </button>
+
+        
+        <div class="col-xl-8 col-lg-8 col-12 d-inline-block" id="navbar-container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <nav role="navigation" aria-labelledby="block-sixseventeen-main-menu-menu" id="block-sixseventeen-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-sixseventeen-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/iot/planning" class="nav-link dropdown-toggle nav-link--iot-planning" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/18600">Instrument Operation</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/iot/planning" class="nav-link--iot-planning" data-drupal-link-system-path="node/18600">Planning</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/aqua-spacecraft-and-modis-instrument-status" title="Aqua MODIS Health" class="nav-link--aqua-spacecraft-and-modis-instrument-status" data-drupal-link-system-path="node/28">Aqua MODIS Instrument Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/terra-spacecraft-and-modis-instrument-status" title="MODIS Health for Terra Spacecraft" class="nav-link--terra-spacecraft-and-modis-instrument-status" data-drupal-link-system-path="node/29">Terra MODIS Instrument Status</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/modis-events-categories/routine-calibrations" class="nav-link--modis-events-categories-routine-calibrations" data-drupal-link-system-path="taxonomy/term/41">MODIS Events</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/iot/weekly-reports" class="nav-link--iot-weekly-reports" data-drupal-link-system-path="iot/weekly-reports">Weekly Reports</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/calibration/information" class="nav-link dropdown-toggle nav-link--calibration-information" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/18599">Calibration</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/calibration/information" class="nav-link--calibration-information" data-drupal-link-system-path="node/18599">General Information</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/collection-7" class="nav-link--calibration-collection-7" data-drupal-link-system-path="node/18075">Collection 7</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/collection-61" class="nav-link--calibration-collection-61" data-drupal-link-system-path="node/16423">Collection 6.1</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/collection-6-information" class="nav-link--calibration-collection-6-information" data-drupal-link-system-path="node/11298">Collection 6</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/emissive-bands" class="nav-link--calibration-emissive-bands" data-drupal-link-system-path="node/23">Emissive Bands</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/reflective-bands" class="nav-link--calibration-reflective-bands" data-drupal-link-system-path="node/24">Reflective Bands</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                          <a href="/calibration/modis-performance" class="dropdown-toggle nav-link--calibration-modis-performance" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/25">MODIS Performance</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/calibration/modis-performance" class="nav-link--calibration-modis-performance" data-drupal-link-system-path="node/25">MODIS Performance</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/modis-performance/trending" class="nav-link--calibration-modis-performance-trending" data-drupal-link-system-path="node/30369">Trending</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/known-issues" class="nav-link--calibration-known-issues" data-drupal-link-system-path="node/26">Known Issues</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                          <a href="/calibration/parameters" class="nav-link--calibration-parameters" data-drupal-link-system-path="node/27">Parameters</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/level-1b-product-information-and-status" class="nav-link dropdown-toggle nav-link--level-1b-product-information-and-status" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/31">L1B Software</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/level-1b-product-information-and-status" title="" class="nav-link--level-1b-product-information-and-status" data-drupal-link-system-path="node/31">Product Information</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/level-1b-software-system-overview" title="" class="nav-link--level-1b-software-system-overview" data-drupal-link-system-path="node/4">Software System Overview</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/l1b-data-inputsoutputs" class="nav-link--l1b-data-inputsoutputs" data-drupal-link-system-path="node/32">Data Inputs/Outputs</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/l1b-algorithm-overview" class="nav-link--l1b-algorithm-overview" data-drupal-link-system-path="node/33">Algorithm Overview</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/l1b-code-history" class="nav-link--l1b-code-history" data-drupal-link-system-path="node/11341">L1B Code History</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/l1b-lut-history" class="nav-link--l1b-lut-history" data-drupal-link-system-path="node/11340">L1B LUT History</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/l1b-documents" class="nav-link--l1b-documents" data-drupal-link-system-path="node/36">L1B Documents</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/news" class="nav-link dropdown-toggle nav-link--news" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="news">News &amp; Features</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/news" class="nav-link--news" data-drupal-link-system-path="news">Latest News</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/mcst-gallery" class="nav-link--mcst-gallery" data-drupal-link-system-path="mcst-gallery">MCST Gallery</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                          <a href="/publications" class="nav-link dropdown-toggle nav-link--publications" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="publications">Publications</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                          <a href="/publications" class="nav-link--publications" data-drupal-link-system-path="publications">All Publications</a>
+              </li>
+                <li class="dropdown-item">
+                          <a href="/mcst-meetings" class="nav-link--mcst-meetings" data-drupal-link-system-path="mcst-meetings">Meetings</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                    <form action="/search/node" method="get" id="search-block-form"
+                          accept-charset="UTF-8"
+                          class="form-inline search-form search-block-form form-row"
+                          data-drupal-form-fields="edit-keys" >
+                        <input id="edit-keys" name="keys"
+                               class="form-search me-sm-2" type="search"
+                               placeholder="Search" aria-label="Search"
+                               data-drupal-selector="edit-keys">
+                        <button aria-label="Search" id="top-search-box" class="btn form-submit"
+                                data-drupal-selector="edit-submit"
+                                type="submit">
+                            <i class="fa fa-search fa-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+           </header>
+
+<div class="row no-gutters header_image" style="">
+    <div class="col col-sm-12 col-12">
+    </div>
+</div>
+
+ 
+    <section class="row no-gutters">
+        <div class="col col-sm-12 col-12 region placeholder_region_2">
+          <section class="row region region-placeholder-region-2">
+    <div class="views-element-container block block-views block-views-blockhomepage-slideshow-block-1" id="block-views-block-homepage-slideshow-block-1">
+  
+    
+      <div class="content">
+      <div><div class="view view-homepage-slideshow view-id-homepage_slideshow view-display-id-block_1 js-view-dom-id-fb3456055d25194b34d3f37c942c1a20cbeba34d53c300a62165779abe4a38fa">
+  
+    
+      
+      <div class="view-content">
+        <div data-content-gallery class="slick blazy blazy--content slick--view slick--view--homepage-slideshow slick--view--homepage-slideshow--block-1 slick--view--homepage-slideshow-block-block-1 slick--skin--default slick--content" data-blazy="" id="slick-views-homepage-slideshow-block-block-1-1">
+      <div id="slick-views-homepage-slideshow-block-block-1-1-slider" data-slick="{&quot;autoplay&quot;:true,&quot;dots&quot;:true,&quot;draggable&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;count&quot;:5}" class="slick__slider">
+  
+      
+  <div class="slick__slide slide slide--0 slide--caption--bottom">
+  <div class="slide__content">
+                  <div class="slide__media">
+
+
+
+
+                    <a href="/content/clouds-over-flores-island-indonesia">      <div style="padding-bottom: 30%;" data-ratio="30" class="media media--blazy media--slick media--switch media--switch--content media--image media--ratio media--ratio--fluid is-b-loading"><img alt="Clouds over Flores Island, Indonesia" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/default/files/styles/slideshow_image/public/MCST_Gallery/clouds_indonesia.jpg?itok=1-dqrbQd" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" />
+        </div>
+  </a>
+
+                
+            
+  
+</div>
+      
+  
+            
+        <div class="slide__caption">
+          
+                      <h2 class="slide__title"><a href="/content/clouds-over-flores-island-indonesia" hreflang="und">Clouds over Flores Island, Indonesia</a></h2>
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>MODIS; aboard NASA’s Aqua satellite flew over Indonesia and captured this true-color image of spectacular clouds rising over the landscape.</p>
+</div></div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--1 slide--caption--bottom">
+  <div class="slide__content">
+                  <div class="slide__media">
+
+
+
+
+                    <a href="/content/tropical-cyclone-alessia-02s-over-australia">      <div style="padding-bottom: 30%;" data-ratio="30" class="media media--blazy media--slick media--switch media--switch--content media--image media--ratio media--ratio--fluid is-b-loading"><img alt="Tropical Cyclone Alessia (02S) over Australia" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/default/files/styles/slideshow_image/public/MCST_Gallery/tropical_cyclone_alessia.jpg?itok=YAJRryeL" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" />
+        </div>
+  </a>
+
+                
+            
+  
+</div>
+      
+  
+            
+        <div class="slide__caption">
+          
+                      <h2 class="slide__title"><a href="/content/tropical-cyclone-alessia-02s-over-australia" hreflang="und">Tropical Cyclone Alessia (02S) over Australia</a></h2>
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>The first storm of the Australian region's cyclone season threatened Australia’s Top End in late November 2013.</p>
+</div></div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--2 slide--caption--bottom">
+  <div class="slide__content">
+                  <div class="slide__media">
+
+
+
+
+                    <a href="/content/plume-sakura-jima-southern-japan">      <div style="padding-bottom: 30%;" data-ratio="30" class="media media--blazy media--slick media--switch media--switch--content media--image media--ratio media--ratio--fluid is-b-loading"><img alt="Plume from Sakura-jima, southern Japan" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/default/files/styles/slideshow_image/public/MCST_Gallery/plume_japan.jpg?itok=fLaAdeIM" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" />
+        </div>
+  </a>
+
+                
+            
+  
+</div>
+      
+  
+            
+        <div class="slide__caption">
+          
+                      <h2 class="slide__title"><a href="/content/plume-sakura-jima-southern-japan" hreflang="und">Plume from Sakura-jima, southern Japan </a></h2>
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>On November 23, 2013 violent eruptions shook Japan’s Sakura-jima volcano.</p>
+</div></div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--3 slide--caption--bottom">
+  <div class="slide__content">
+                  <div class="slide__media">
+
+
+
+
+                    <a href="/content/tropical-storm-issac">      <div style="padding-bottom: 30%;" data-ratio="30" class="media media--blazy media--slick media--switch media--switch--content media--image media--ratio media--ratio--fluid is-b-loading"><img alt="Tropical Storm Issac" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/default/files/styles/slideshow_image/public/MCST_Gallery/TSIssac.jpg?itok=n-_TJC_C" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" />
+        </div>
+  </a>
+
+                
+            
+  
+</div>
+      
+  
+            
+        <div class="slide__caption">
+          
+                      <h2 class="slide__title"><a href="/content/tropical-storm-issac" hreflang="und">Tropical Storm Issac</a></h2>
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-body"><div class="field-content"><p>In late August 2012, Tropical Storm Isaac hovered over the Caribbean Sea, taking aim at populated areas. At 2:00 p.m. EDT on August 23, shortly after MODIS took this picture, the U.S.</p></div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  <div class="slick__slide slide slide--4 slide--caption--bottom">
+  <div class="slide__content">
+                  <div class="slide__media">
+
+
+
+
+                    <a href="/content/fires-and-smoke-western-united-states">      <div style="padding-bottom: 30%;" data-ratio="30" class="media media--blazy media--slick media--switch media--switch--content media--image media--ratio media--ratio--fluid is-b-loading"><img alt="Fires and smoke in western United States" class="media__image media__element b-lazy" decoding="async" loading="lazy" data-src="/sites/default/files/styles/slideshow_image/public/MCST_Gallery/ColoradoFires.jpg?itok=Nem5CHdR" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" />
+        </div>
+  </a>
+
+                
+            
+  
+</div>
+      
+  
+            
+        <div class="slide__caption">
+          
+                      <h2 class="slide__title"><a href="/content/fires-and-smoke-western-united-states" hreflang="und">Fires and smoke in western United States</a></h2>
+          
+          
+                      <div class="slide__description"><div class="views-field views-field-body"><div class="field-content"><p>The Moderate Resolution Imaging Spectroradiometer (MODIS) on NASA’s Aqua satellite captured this true-color image of the fires on August 13, 2012.</p></div></div></div>
+          
+          
+                  </div>
+
+            
+  </div>  </div>
+
+  
+      </div>
+          <nav role="navigation" class="slick__arrow">
+        <button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0">Previous</button>
+                <button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0">Next</button>
+      </nav>
+      </div>
+
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </section>
+
+        </div>
+    </section>
+
+    <main id="content_section" class="row no-gutters">
+        <section id="main-content" class="col-sm-12">
+              <div data-drupal-messages-fallback class="hidden"></div>
+
+
+<article role="article" class="node node--type-page node--view-mode-full clearfix">
+  <header>
+    
+        
+      </header>
+  <div class="node__content clearfix">
+    <div class="row bs-2col">
+  
+
+    <div class="col-sm-6 bs-region bs-region--left">
+    <div class="views-element-container block block-views block-views-blocklatest-news-block-1">
+  
+      <h2>Latest News</h2>
+    
+      <div class="content">
+      <div><div class="view view-latest-news view-id-latest_news view-display-id-block_1 js-view-dom-id-1347c8e0de979c710ff1d66497ea75235a6a629c2788d4c64471ee777c49849c">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+    <div class="views-field views-field-title"><span class="field-content"><a href="/news/2023-modisviirs-science-team-meeting" hreflang="en">2023 MODIS/VIIRS Science Team Meeting</a></span></div><div class="views-field views-field-field-news-image"><div class="field-content"></div></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>The combined MODIS/VIIRS Science Team Meeting was held May 1-4, 2023 in College Park, Maryland. The presentations have been archived <a href="https://modis.gsfc.nasa.gov//sci_team/meetings/202305/plenary.php">here</a>.</p>
+<p>As a precursor to the meeting, MCST and VCST hosted a Calibration Workshop. Those presentations can be found <a href="https://modis.gsfc.nasa.gov//sci_team/meetings/202305/calibration.php">here</a>.</p>
+</div></div></div>
+  </div>
+    <div class="views-row">
+    <div class="views-field views-field-title"><span class="field-content"><a href="/news/rsb-algorithm-updates-c61" hreflang="en">RSB Algorithm updates for C6.1</a></span></div><div class="views-field views-field-field-news-image"><div class="field-content"></div></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>In March, MCST began gradually implementing several calibration algorithm improvements into the Terra and Aqua MODIS Collection 6.1 Level 1B products for the reflective solar bands. The algorithm changes, which were previously developed and tested for the upcoming Collection 7 L1B reprocess, will improve the accuracy and stability of the MODIS reflectance and radiance products going forward.</p></div></div></div>
+  </div>
+    <div class="views-row">
+    <div class="views-field views-field-title"><span class="field-content"><a href="/news/terramodis-completes-constellation-exit" hreflang="en">Terra/MODIS Completes Constellation Exit</a></span></div><div class="views-field views-field-field-news-image"><div class="field-content"></div></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>MODIS entered its modified science configuration in preparation for Terra constellation exit maneuvers (CEMs) on 2022/283. CEM #1 was performed on 2022/285 and CEM #2 was performed on 2022/292. MODIS performed an outgas from 2022/293 17:30:25 – 2022/294 19:44:48. MODIS returned to nominal science configuration on 2022/294 19:59:49. Cold focal plane temperatures are expected to reach operating range by 2022/297.</p></div></div></div>
+  </div>
+    <div class="views-row">
+    <div class="views-field views-field-title"><span class="field-content"><a href="/news/terramodis-prepares-constellation-exit" hreflang="en">Terra/MODIS Prepares for Constellation Exit</a></span></div><div class="views-field views-field-field-news-image"><div class="field-content"></div></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>Beginning in October 2022, Terra will exit the spacecraft constellation that has been its home for the last twenty years and continue operations at a lower orbit altitude. To assure instrument health and safety, Terra/MODIS will be commanded to a modified configuration with SMIR and LWIR focal planes turned off, blackbody calibrator turned off, along with space view and nadir doors closed. MODIS will remain in this configuration throughout the duration of the constellation exit maneuvers.</p></div></div></div>
+  </div>
+    <div class="views-row">
+    <div class="views-field views-field-title"><span class="field-content"><a href="/news/aqua-lwir-c61-post-safe-mode-update" hreflang="en">Aqua LWIR C6.1 Post-Safe Mode Update</a></span></div><div class="views-field views-field-field-news-image"><div class="field-content"></div></div><div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>Aqua S/C transitioned to a safe mode on March 31st, 2022 (2022090). Post the S/C recovery, MODIS was brought back to Science Mode on April 14th, 2022 (2022104). Increase in the PV LWIR TEB electronic crosstalk was observed post-safe mode that resulted in increased striping in the L1B imagery. MCST developed a crosstalk correction algorithm and LUTs for the PV LWIR TEB to be applied Aqua MODIS C6.1 for forward production starting 2022208.0000 under version 6.2.3.</p></div></div></div>
+  </div>
+
+    </div>
+  
+                    <nav aria-label="Page navigation">
+        <h4 class="visually-hidden">Pagination</h4>
+        <ul class="js-pager__items pagination">
+                                <li class="page-item">
+              <span class="page-link">
+                Page 1              </span>
+            </li>
+                                <li class="page-item">
+              <a class="page-link" href="/mcst/about?page=1" title="Go to next page" rel="next">
+                <span class="visually-hidden">Next page</span>
+                <span aria-hidden="true">››</span>
+              </a>
+            </li>
+                  </ul>
+      </nav>
+    
+              <div class="feed-icons">
+      <a href="https://mcst.gsfc.nasa.gov/latest-news.xml" class="feed-icon">
+  Subscribe to Latest News
+</a>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+  
+    <div class="col-sm-6 bs-region bs-region--right">
+    <div class="views-element-container block block-views block-views-blockhomepage-blocks-block-1">
+  
+      <h2>MODIS Characterization Support Team</h2>
+    
+      <div class="content">
+      <div><div class="view view-homepage-blocks view-id-homepage_blocks view-display-id-block_1 js-view-dom-id-452b213ed47b59a6936b65c22b5f36d3e2a8dd812b80ab299c0642e993cd60f2">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+    <div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>The MODIS Characterization Support Team (MCST) is dedicated to the production of a high quality MODIS calibration product. This product is a precursor to every geophysical science product. MCST works for the Science Team Leader and is responsible for developing and maintaining the calibration product (L1B algorithm).</p></div></div></div><span class="views-field views-field-field-tags"><strong class="views-label views-label-field-tags">Tags: </strong><span class="field-content"><a href="/tags/calibration" hreflang="en">Calibration</a></span></span><div class="views-field views-field-view-node"><span class="field-content"><a href="/calibration/information" hreflang="en">Read more on the MODIS Calibration General Information page</a></span></div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockhomepage-blocks-block-2">
+  
+      <h2>Calibration</h2>
+    
+      <div class="content">
+      <div><div class="view view-homepage-blocks view-id-homepage_blocks view-display-id-block_2 js-view-dom-id-653cab44d49336f7b61677780b9e62425fb78e40ff99f89bdab23c88ef42fd69">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+    <div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>Collection 6 has been under development for a number of years. MCST, in consultation with representatives of the science disciplines, developed improvements to the calibration algorithms and methodolgies to handle known issues with the aging MODIS sensors. Summary talks of the proposed Collection 6 changes have been delivered at the MODIS science team meetings over the last few years.</p>
+</div></div></div><div class="views-field views-field-view-node"><span class="field-content"><a href="/calibration/collection-6-information" hreflang="und">Read more on the Collection 6 Information page</a></span></div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockhomepage-blocks-block-3">
+  
+      <h2>L1B</h2>
+    
+      <div class="content">
+      <div><div class="view view-homepage-blocks view-id-homepage_blocks view-display-id-block_3 js-view-dom-id-3cb61d24beb9c96bb78e80dd5accd806a1673fe50cdd33bff6930d353ad30c6d">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">
+    <div class="views-field views-field-body"><div class="field-content"><div class="tex2jax_process"><p>Current L1B LUT Versions:</p>
+<p><strong>Terra C6:</strong> 6.1.26.68; <strong>Terra C6.1</strong>: 6.2.2.67; <strong>Aqua C6:</strong> 6.1.37.71; <strong>Aqua C6.1:</strong> 6.2.1.66</p>
+</div></div></div><span class="views-field views-field-field-tags"><strong class="views-label views-label-field-tags">Tags: </strong><span class="field-content"><a href="/tags/l1b-product" hreflang="en">L1B Product</a></span></span><div class="views-field views-field-view-node"><span class="field-content"><a href="/level-1b-product-information-and-status" hreflang="und">Read more on the Level 1B Product Information and Status page</a></span></div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container block block-views block-views-blockhomepage-blocks-block-4">
+  
+      <h2>Latest MsWG</h2>
+    
+      <div class="content">
+      <div><div class="view view-homepage-blocks view-id-homepage_blocks view-display-id-block_4 js-view-dom-id-575c382a04d23aac814912f0dd78220f440398be0d8b8c0aa6d95a3569d718a8">
+  
+    
+      
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+  
+</div>
+
+  </div>
+</article>
+
+
+        </section>
+
+    </main>
+    
+    <footer id="footer_section" data-footer-bg="">
+
+    <section class="row">
+            </section>
+    <section class='row footer_region_middle'>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                </div>
+        <div class='col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4'>
+                      <section class="row region region-footer-region-3">
+    <div id="block-footercredits" class="block block-block-content block-block-contenta2980e7f-337f-4755-bcff-89084135819a">
+  
+    
+  <div id='required-credits'>
+  <p> 
+  <strong><span>Responsible </span>NASA Official:</strong> 
+    <a href="mailto:xiaoxiong.xiong-1@nasa.gov?subject=">
+        Jack Xiong</a><br>
+    <strong>Web Developers:</strong> 
+    <a href="mailto:gsfc-dl-610-webdev@mail.nasa.gov?subject=">
+        610 WebDev</a><br>
+
+        <strong>Curator:</strong> 
+    <a href="mailto:amit.angal@ssaihq.com?subject=">
+        Amit Angal</a><br>
+    
+    <a href='/contact-us'>Contact Us</a> | 
+    <a href="/sitemap.xml">Site Map</a> | 
+    <a href='http://www.nasa.gov/about/highlights/HP_Privacy.html' 
+       target='_blank'>Privacy Policy</a>
+  </p>
+      <p> 
+    Last Updated: 09/15/2023
+  </p>
+    </div>
+</div>
+
+  </section>
+
+                </div>
+    </section>
+    <section class="row">
+            </section>
+</footer>
+<div class="footer_bg">
+</div>
+</div>
+    <!-- Add Federal Analytics -->
+    <script type='text/javascript' id='_fed_an_ua_tag' 
+            src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'>
+    </script>
+
+    <!-- GA3 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36318964-2">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-36318964-2' );
+    </script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXTD3H8JCN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MXTD3H8JCN');
+    </script>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"blazy\/bio.ajax,blazy\/blazy,blazy\/classlist,blazy\/load,blazy\/loading,blazy\/polyfill,blazy\/promise,blazy\/raf,blazy\/webp,bootstrap_barrio\/fontawesome,bootstrap_barrio\/global-styling,bootstrap_barrio\/node,extlink\/drupal.extlink,genpass\/genpass,mathjax\/config,mathjax\/setup,mathjax\/source,sixseventeen\/global-styling,slick\/slick.css,slick\/slick.load,slick\/slick.main.default,slick\/slick.theme,smartmenus\/smartmenus,system\/base,views\/views.ajax,views\/views.module","theme":"sixseventeen","theme_token":null},"ajaxTrustedUrl":[],"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(.*).nasa.gov","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"You are now navigating to an external website. Do you wish to continue?","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"mathjax":{"config_type":0,"config":{"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"processEscapes":"true"},"showProcessingMessages":"false","messageStyle":"none"}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:1347c8e0de979c710ff1d66497ea75235a6a629c2788d4c64471ee777c49849c":{"view_name":"latest_news","view_display_id":"block_1","view_args":"","view_path":"\/node\/1","view_base_path":"latest-news.xml","view_dom_id":"1347c8e0de979c710ff1d66497ea75235a6a629c2788d4c64471ee777c49849c","pager_element":0}}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"smarttheme":"sm-ldas","smartloc":"top","smartpath":"modules\/custom\/smartmenus2\/","smartclass":"sm-ldas sm nav navbar-nav","user":{"uid":0,"permissionsHash":"c9c792ecf79b66058fa87b6a063366854c529d0e8910ae0e957267164e82544f"}}</script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?s0ko4u"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.6.3"></script>
+<script src="/core/misc/polyfills/element.matches.js?v=9.5.10"></script>
+<script src="/core/misc/polyfills/nodelist.foreach.js?v=9.5.10"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=9.5.10"></script>
+<script src="/core/assets/vendor/css-escape/css.escape.js?v=1.5.1"></script>
+<script src="/core/assets/vendor/es6-promise/es6-promise.auto.min.js?v=4.2.8"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?s0ko4u"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=9.5.10"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.js?v=9.5.10"></script>
+<script src="/core/misc/drupal.init.js?v=9.5.10"></script>
+<script src="/core/misc/debounce.js?v=9.5.10"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.loading.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?s0ko4u"></script>
+<script src="/libraries/slick/slick/slick.min.js?v=1.x"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/blazy.load.min.js?s0ko4u"></script>
+<script src="/modules/contrib/blazy/js/blazy.compat.min.js?s0ko4u"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=5.3.3"></script>
+<script src="/themes/custom/sixseventeen/js/bootstrap.bundle.min.js?v=9.5.10"></script>
+<script src="/themes/custom/sixseventeen/dist/sixseventeen.min.js?v=9.5.10"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=9.5.10"></script>
+<script src="/modules/contrib/mathjax/js/config.js?v=9.5.10"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/modules/contrib/mathjax/js/setup.js?v=9.5.10"></script>
+<script src="/core/misc/progress.js?v=9.5.10"></script>
+<script src="/core/misc/jquery.once.bc.js?v=9.5.10"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/misc/ajax.js?v=9.5.10"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.ajax.min.js?s0ko4u"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=9.5.10"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=9.5.10"></script>
+<script src="/modules/contrib/slick/js/slick.load.min.js?v=9.5.10"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/jquery.smartmenus.min.js?s0ko4u"></script>
+<script src="/modules/custom/smartmenus2/js/bugfix.js?s0ko4u"></script>
+<script src="/modules/custom/smartmenus2/node_modules/smartmenus/dist/addons/bootstrap-4/jquery.smartmenus.bootstrap-4.min.js?s0ko4u"></script>
+<script src="/modules/custom/smartmenus2/js/smart.js?s0ko4u"></script>
+
+  </body>
+</html>

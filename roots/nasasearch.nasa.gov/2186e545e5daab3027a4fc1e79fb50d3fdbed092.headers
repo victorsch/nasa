@@ -1,0 +1,13 @@
+GET https://nasasearch.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Date: Tue, 19 Sep 2023 05:53:45 GMT
+< Content-Length: 595
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK50-P2
+< X-Amz-Cf-Id: FRVbK9oy1mgPcSRrAa0hEuihAlJ9kdnd2aBvj9Ykf7O1ck4vcC8ETg==
+< Server: CloudFront
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< X-Cache: Error from cloudfront
+< Via: 1.1 6c9d752a06683b70c3a48f07f80d43b0.cloudfront.net (CloudFront)

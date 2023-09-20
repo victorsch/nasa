@@ -1,0 +1,119 @@
+<html>
+<head>
+        <title>JPL: AIRS Team Web Site</title>
+
+<script id="_fed_an_ua_tag" type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=JPL&dclink=true&sp=search,s,q&sdor=false&exts=tif,tiff"></script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+        <link type="text/css" rel="stylesheet" href="airsstyle.css">
+
+        <map name="home_banner">
+                <area alt="NASA Home Page" shape="CIRCLE" coords="48,51,31" href="http://www.nasa.gov">
+                <area alt="JPL Home Page" coords="95,0,176,17" href="http://www.jpl.nasa.gov" shape="RECT">
+                <area alt="Earth" coords="185,0,236,17" href="http://www.jpl.nasa.gov/earth/earth_index.html" shape="RECT">
+                <area alt="Solar System" coords="245,0,339,17" href="http://www.jpl.nasa.gov/solar_system/solar_system_index.html" shape="RECT">
+                <area alt="Stars and Galaxies" coords="346,0,457,17" href="http://www.jpl.nasa.gov/stars_galaxies/stars_galaxies_index.html" shape="RECT">
+                <area alt="Technology" coords="468,0,552,17" href="http://www.jpl.nasa.gov/technology/technology_index.html">
+        </map>
+
+        <map name="jpl_caltech">
+                <area alt="JPL Home Page" coords="0,3,137,19" href="http://www.jpl.nasa.gov" shape="RECT">
+                <area alt="California Institute of Technology" coords="0,20,136,34" href="http://www.caltech.edu" shape="RECT">
+        </map>
+
+</head>
+
+<body bgcolor="#FFFFFF" link="#003399" alink="#ff0000" vlink="#003399" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0">
+
+<center>
+
+<table width="610" border="0" cellpadding="0" cellspacing="0">
+        <tr><td><img src="images/spacer.gif" width="610" height="10"></td></tr>
+        <tr><td><img src="images/home_banner.jpg" width="610" height="90" alt="" border="0" usemap="#home_banner"></td></tr>
+        <tr><td><img src="images/home_topgold.gif" width="610" height="9"></td></tr>
+</table>
+
+<table width="610" border="0" cellpadding="0" cellspacing="0">
+        <tr><td width="185"><img src="images/home_hometop.gif" width="185" height="32" border="0"></td>
+            <td width="425" valign="bottom" align="left"><div class="pageheading">Welcome to the AIRS Team Web Site</div></td>
+        </tr>
+        <tr><td colspan="2"><img src="images/home_topblue.gif" width="610" height="4"</td></tr>
+</table>
+
+<table width="610" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+                <td valign="top" width="20" background="images/home_navfill01.gif"><img src="images/home_homebot01.gif" width="20" height="42" alt="" border="0"></td>
+                <td valign="top" width="146" background="images/home_navfill02.gif">
+                        <img src="images/home_homebot02.gif" width="146" height="42" alt="" border="0"><br>
+                        <center>
+                        For general information about the AIRS mission, please visit the <a href="http://www.jpl.nasa.gov/airs/"><div class="nav2">AIRS Public Web Site</div></a>
+                        <hr>
+						<!--- <a href=""><img src="images/airs_logo_onyellow.jpg" width="142" height="158" alt="" border="0"></a>
+                        <div class="indexnav2"><a href="" class="nav3">Team Members</a><br></div>
+                        <div class="nav3"><a href="" class="nav3">[Enter Password]</a><br></div> --->
+                        <a href="password_protected/directory.html"><img src="images/airs_logo_onyellow.jpg" width="142" height="158" alt="" border="0"></a>
+                        <div class="indexnav2"><a href="password_protected/directory.html" class="nav3">Team Members</a><br></div>
+                        <div class="nav3"><a href="password_protected/directory.html" class="nav3">[Enter Password]</a><br></div>
+                        <hr>
+                        <img src="images/home_navbottom.gif" width="146" height="44" alt="" border="0" usemap="#jpl_caltech">
+                        </center>
+                </td>
+                <td valign="top" width="19" background="images/home_navfill03.gif"><img src="images/home_homebot03.gif" width="19" height="42" alt="" border="0"></td>
+                
+                <td width="425" valign="top">
+                        <table width="425" border="0" cellpadding="10" cellspacing="0">
+                               <tr>
+                               <td>
+<!-- begin main content -->
+
+<p><b>AIRS</b> is the acronym for the <b>Atmospheric Infrared Sounder</b>, an instrument onboard NASA's Aqua spacecraft that launched on May 4, 2002.</p>
+<table align="right" width="180" bgcolor="CCE8FF" cellspacing="1" cellpadding="3">
+	<tr bgcolor="#2354A6">
+		<td><div align="center"><font color="White"><b>NET MEETING NOTICE</b></font></div></td>
+	</tr>
+	<tr>
+		<td><p><!--- This is a reminder for the  ---><!--- "Net Meeting" on 22&nbsp;January&nbsp;2004, 8-12 PST. <br><br>--->
+			<div class="nav3"><a href="netmeeting/">Current Net Meeting</a><br>
+			<a href="netmeeting/" class="nav3">[Password Required]</a></div>
+		</td>
+	</tr>
+</table>
+<p>AIRS is circling the globe 14.6 times per day in a 705 kilometer high polar orbit. It has begun gathering data about our atmosphere - data that will aid in weather forecasting, climate modeling, and greenhouse gas studies.
+
+<p>This web site contains information pertaining to the technical aspects of the AIRS instrument, data system and science.
+<p>For more information about the AIRS mission and instrument, including photos and animations, please see the <a href="http://www.jpl.nasa.gov/airs">AIRS Public Web Site.</a>
+
+<hr>
+<span class="newsheader"> </span><p>
+
+								</td>
+                                </tr>
+                         </table>
+<!-- end main content -->
+                    </td>
+                    </tr>
+                    </table>
+
+                        <hr width=600>
+                        <font face="arial, helvetica, verdana, sans serif" size="1">
+                        <a href="mailto:angela.smythe@jpl.nasa.gov">AIRS Project Office</a><br>
+                        Technical Content: <a href="mailto:george.aumann@jpl.nasa.gov">George Aumann</a><br>
+                        Site Manager: <a href="mailto:heidar.t.thrastarson@jpl.nasa.gov">Heidar Thrastarson</a><br>
+						Site last updated on May 24, 2022<br>
+						<a href="http://www.jpl.nasa.gov/copyrights.cfm">Privacy/Copyright</a>
+                        </font>
+                </td>
+        </tr>
+</table>
+
+<table width="610" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+                <td><img src="images/home_bluebot.gif" width="610" height="29"></td>
+        </tr>
+</table>
+
+</center>
+
+</body>
+</html>

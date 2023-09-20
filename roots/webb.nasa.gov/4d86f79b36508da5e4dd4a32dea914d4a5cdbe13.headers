@@ -1,0 +1,14 @@
+GET https://webb.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: WebServer/1.0
+< Content-Security-Policy: frame-ancestors 'self' beta.science.nasa.gov science.nasa.gov;
+< Content-Security-Policy: upgrade-insecure-requests
+< Content-Type: text/html; charset=UTF-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 05:43:57 GMT
+< X-Frame-Options: sameorigin
+< X-Frame-Options: https://science.nasa.gov/
+< Access-Control-Allow-Origin: https://science.nasa.gov
+< Accept-Ranges: bytes

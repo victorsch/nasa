@@ -1,0 +1,9 @@
+GET http://ceres-tool.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:02:02 GMT
+< Server: Apache
+< Location: https://ceres-tool.larc.nasa.gov/
+< Content-Length: 241

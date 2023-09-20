@@ -1,0 +1,13 @@
+GET http://egressproto.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 e5eaa3ec30b881d1cd974c31701ba952.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:42:55 GMT
+< Location: https://egressproto.ngap.sit.earthdata.nasa.gov/
+< X-Amz-Cf-Id: CnXZtBPKiWPseLlhxo-yYGX8toRhds-eluGhftfqOP2FDWff95OyFA==

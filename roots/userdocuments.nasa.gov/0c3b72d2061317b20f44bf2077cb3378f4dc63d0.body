@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+
+	    <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		 <title>Upload User Documents</title>
+		 		 
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		 <meta name="_csrf" content="310af6c7-cf28-4dfa-b8a1-3667e3dd28be"/>
+        <!-- default header name is X-CSRF-TOKEN -->
+         <meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+    
+    
+		<link rel="shortcut icon" href="images/NASA-Icon.ico" />
+		
+		<link rel="stylesheet" type="text/css" href="webjars/datatables/css/jquery.dataTables.min.css" />		
+
+		<link rel="stylesheet" type="text/css" href="webjars/jquery-ui/jquery-ui.min.css" /> 
+		
+		<link rel="stylesheet" type="text/css" href="webjars/jquery-ui/jquery-ui.theme.min.css" />
+				
+		<link rel="stylesheet" type="text/css" href="styles/parsley-2.6.0.css" />
+		
+		<link rel="stylesheet" type="text/css" href="styles/main.css" />
+	  		
+       <link rel="stylesheet" type="text/css" href="webjars/font-awesome/css/font-awesome.min.css" /> 
+	 	
+	 	<link rel="stylesheet" type="text/css" href="webjars/bootstrap/css/bootstrap.min.css" /> 
+		
+		<script type="text/javascript" src="webjars/jquery/jquery.min.js"></script>
+				  	
+	  	<script type="text/javascript" src="webjars/jquery-ui/jquery-ui.min.js"></script>
+	  	
+	    <script type="text/javascript" src="js/parsley.custom.validators.js"></script>
+	  		  	
+	  	<script type="text/javascript" src="js/Captcha.js"></script>
+
+		<script type="text/javascript" src="webjars/datatables/js/jquery.dataTables.min.js"></script>
+		
+		<script type="text/javascript" src="webjars/dropzone/dropzone.js"></script>
+			
+	    <script type="text/javascript"  src="webjars/bootstrap/js/bootstrap.min.js"></script> 
+		 
+	     <script type="text/javascript"  src="webjars/popper.js/umd/popper.min.js"></script> 
+	     
+	     <script type="text/javascript"  src="webjars/parsleyjs/parsley.min.js"></script> 
+		 
+	 
+	</head>
+	
+	<body class="main-body">	
+		<noscript>
+			<meta HTTP-EQUIV="refresh" content="0;url='/help/javascript_not_enabled'" />
+		</noscript>
+		
+		<script type="text/javascript">
+			var ua = navigator.userAgent.toLowerCase();
+			if (/msie/.test(ua)) {
+		    	if (parseInt(ua.split('msie')[1]) < 9) {
+					if (parseInt(ua.split('trident/')[1]) > 4) {
+						window.location.href = "/help/compatibility_mode_detected";
+					} else {
+						window.location.href = "/help/outdated_ie_detected";
+					}
+		    	}
+			}	
+		</script>
+		
+		<div>
+			
+
+<header id="header" role="banner">
+	<div id="header-content" class="container">
+		<div class="navbar-header">
+			<a id="masthead" title="NASA Document Upload">
+     			<img src="/images/nasa-logo.png" alt="NASA Logo"/>
+     			<span class="masthead-title">Upload User Documents</span>
+    		</a>
+		</div>
+	</div>
+</header>
+		</div>
+
+		<div>
+			<!-- This div contains error message content that can be displayed on any page by passing in the "errorMessage" param in the model -->
+			<div id="main-content" class="container" role="main">
+			    
+			    
+			    
+			</div>
+			
+			
+
+
+ 
+ <div class="container">
+
+<div class="row border border-primary p-4">
+
+<div class="col-6"> 
+
+<div class="card">
+					<div class="card-header">
+						<h6 class="card-title" >Purpose</h6>
+					</div>
+					<div class="card-body">
+						<p>
+	 					This tool allows you to attach an identity proofing document to your NASA Identity record. These documents are necessary for obtaining access to NASA logical and or physical resources. Any existing identity proofing document data will be displayed in limited context. 
+						<br/><br/>
+						To continue, please select your citizenship and read and acknowledge the Terms of Service and Paperwork Reduction Act.
+						</p>
+					</div>
+				</div>
+	<form id="loginPage" method="GET" action="search" data-parsley-validate="true" novalidate="novalidate">
+			 		<div class="form-group">
+			 			<label class="control-label" for="citizenship"><span aria-label='Required' class='fa fa-fw fa-asterisk text-danger'></span>Citizenship</label>
+					    <div>
+						    <input type="radio" id="citizenship" name="citizenship" value="us"
+						    	data-parsley-required="required" data-parsley-required-message="Citizenship is required."/>
+					       	 	&nbsp;I have a Social Security Number (U.S. Citizen, Legal Permanent Resident, or citizen of non-U.S. country).<br/>
+					        <input type="radio" id="citizenship" name="citizenship" value="fn" 
+					        	data-parsley-required="required" data-parsley-required-message="Citizenship is required."/>
+					        	&nbsp;I do NOT have a Social Security Number (citizen of non-U.S. country).<br/>
+				        </div>
+			 		</div>
+			 		
+			 		<br/>
+			 		
+			 		<label class="checkbox-inline"><input type="checkbox" value="Y" id="terms"/>&nbsp;<span aria-label='Required' class='fa fa-fw fa-asterisk text-danger'></span>I have read and agree with the Terms of Service</label>
+			 		<br/>
+			 		<label class="checkbox-inline"><input type="checkbox" value="Y" id="pra"/>&nbsp;<span aria-label='Required' class='fa fa-fw fa-asterisk text-danger'></span>I have read and agree with the Paperwork Reduction Act</label>
+			        
+		 			<div id="continueSubmit">
+			       		<input class="btn btn-primary" type="submit" id="continueButton" disabled value="Continue">
+			    	</div>
+	 			</form>
+
+</div>
+<div class="col-6" style="border-left: 2px solid lightgray">
+
+
+  
+               <div class="card ">
+					<div class="card-header">
+						<h6 class="panel-title">Terms of Service</h6>
+					</div>
+					<div class="card-body">
+						<p><strong>By accessing and using this information system, you acknowledge and consent to the following:</strong> <br/>You are accessing a U.S. Government information system, which includes: (1) this computer; (2) this computer network; (3) all computers connected to this network including end user systems; (4) all devices and storage media attached to this network or to any computer on this network; and (5) cloud and remote information services. This information system is provided for U.S. Government-authorized use only. You have no reasonable expectation of privacy regarding any communication transmitted through or data stored on this information system.  At any time, and for any lawful purpose, the U.S. Government may monitor, intercept, search, and seize any communication or data transiting, stored on, or traveling to or from this information system. You are NOT authorized to process classified information on this information system.  Unauthorized or improper use of this system may result in suspension or loss of access privileges, disciplinary action, and civil and/or criminal penalties.</p>
+					</div>
+				</div>
+				<br>
+				<div class="card float-right">
+					<div class="card-header">
+						<h6 class="panel-title">Paperwork Reduction Act</h6>
+					</div>
+					<div class="card-body">
+						<p>This information collection meets the requirements of 44 U.S.C. § 3507, as amended by section 2 of the Paperwork Reduction Act of 1995. You do not need to answer these questions unless we display a valid Office of Management and Budget (OMB) control number. The OMB control number for this collection is 2700-0158 and expires on 02/28/2026. We estimate that it will take five (5) minutes to read the instructions, gather the facts, and answer the questions. Send only comments regarding the time estimate to: <a href="mailto:james.p.nicholas@nasa.gov?subject=Paperwork Reduction Act time estimate comments">james.p.nicholas@nasa.gov</a></p>
+					</div>
+				</div>
+ </div>
+
+</div>
+
+
+</div>
+
+
+<script type="text/javascript">
+	function init (){
+		var obj = document.getElementById("loginPage");
+	
+		for (var i=0; i < obj.elements.length; i++) {
+			obj.elements[i].disabled = false;
+		}
+	}
+	
+	$(function() {
+		if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+	    	$("#continueButton").attr('disabled', false);
+	  	else 
+			$("#continueButton").attr('disabled', true);
+	    
+		$(document).on('click', '#terms', function() {
+			if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+		    	$("#continueButton").attr('disabled', false);
+		  	else 
+		  		$("#continueButton").attr('disabled', true);
+		});
+		
+		$(document).on('click', '#pra', function() {
+			if ($("#terms").prop("checked") && $("#pra").prop("checked"))
+		    	$("#continueButton").attr('disabled', false);
+		  	else 
+		  		$("#continueButton").attr('disabled', true);
+		});
+	});
+</script>
+		</div>
+		<div>
+			
+
+
+<footer id="footer" role="contentinfo">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+		    <p class="col-2 text-center">Website Owner:Whitney Craig</p>
+			<p class="col-2 text-center">Curator: Agency Applications Office</p>
+         	<p class="col-2 text-center"><a href="#paperworkReductionModal" data-bs-toggle="modal">Paperwork Reduction Act</a><br></p>
+			<p class="col-2 text-center"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a></p>
+			<span class="col-4 text-center">
+			Need Help? Available 24 Hours: <br>
+			1-877-677-2123, Option 2 or esd.nasa.gov
+			 </span>
+		</div>
+	</div>  
+</footer>
+
+
+<div id="paperworkReductionModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="paperworkLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">           
+            <h4 id="paperworkLabel" class="modal-title">Paperwork Reduction Act Statement</h4>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">X</button>
+         </div>
+         <div class="modal-body">
+            <p>
+               This information collection meets the requirements of 44 U.S.C. Â§ 
+               3507, as amended by section 2 of the Paperwork Reduction Act of
+               1995. You do not need to answer these questions unless we display a
+               valid Office of Management and Budget (OMB) control number. The OMB
+               control number for this collection is 2700-0158 and expires on
+               02/28/2026. We estimate that it will take five (5) minutes to read
+               the instructions, gather the facts, and answer the questions. Send
+               only comments regarding the time estimate to: <a href="mailto:james.p.nicholas@nasa.gov?subject=Paperwork Reduction Act time estimate comments">james.p.nicholas@nasa.gov</a>
+            </p>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div id="privacyPolicyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="privacyPolicyModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+	     	<div class="modal-header">
+	     		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 id="privacyPolicyModalLabel" class="modal-title">Privacy Policy</h4>
+			</div>
+			<div class="modal-body">
+	        	<p>AUTHORITY:  42 U.S.C. 2451, et seq., the National Aeronautics and Space Act of 1958, as amended</p>
+	       		<p>PURPOSE:  To collect information from persons requesting access to NASA assets and/or resources in order to establish an identity and determine eligibility for access.</p>
+	     		<p>ROUTINE USES:  Use and disclosure of your records within and outside of NASA may occur in accordance with the NASA Security Records System Privacy Act System of Record 
+	            	Notices published at <a target="_blank" href="https://www.nasa.gov/content/nasa-privacy-act-system-of-records-notices-sorns">https://www.nasa.gov/content/nasa-privacy-act-system-of-records-notices-sorns</a> 
+	                and as permitted by the Privacy Act of 1974, as amended (5 U.S.C. 552a(b)).</p>
+	     		<p>DISCLOSURE:  Providing this information is voluntary; however, failure to provide the requested information may result in the denial of access.</p>
+			</div>
+			<div class="modal-footer">
+	   			<button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript' src='https://mobile.neacc.nasa.gov/pulse/track.js'></script>
+<script type='text/javascript'>try { Pulse.track('DocumentUpload', {'environment' : 'production', 'method' : 'GET', 'server' : 'aao-icam-documentupload-prod-64df97f74c-kv5q8'})}catch(e){}</script>
+		</div>
+	</body>
+</html>

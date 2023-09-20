@@ -1,0 +1,18 @@
+GET https://ssctdpub.ssc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< X-Frame-Options: SameOrigin
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 05:57:54 GMT
+< Last-Modified: Thu, 10 May 2018 12:32:14 GMT
+< Accept-Ranges: bytes
+< Server: 
+< Content-Security-Policy: frame-ancestors 'self' https://nasa.sharepoint.com
+< X-Content-Type-Options: nosniff
+< Permissions-Policy: camera=(), display-capture=(), geolocation=(), microphone=(), payment(), picture-in-picture=(), web-share=()
+< Referrer-Policy: no-referrer
+< Etag: "ff62fed5ae8d31:0"
+< Vary: Accept-Encoding

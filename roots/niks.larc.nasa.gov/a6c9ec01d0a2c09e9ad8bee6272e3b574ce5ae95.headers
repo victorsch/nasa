@@ -1,0 +1,11 @@
+GET https://niks.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:59:30 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Strict-Transport-Security: max-age=31536000
+< Location: https://niks.larc.nasa.gov/share/
+< Content-Length: 217

@@ -1,0 +1,10 @@
+GET http://aerocompass1.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:59:34 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Location: https://aerocompass1.larc.nasa.gov/
+< Content-Length: 243
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,11 @@
+GET https://lance-modis.eosdis.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Tue, 19 Sep 2023 06:03:54 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://lance.modaps.eosdis.nasa.gov/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Request-Id: a9292a75f5a9fa025b51c66b67d3508c

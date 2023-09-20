@@ -1,0 +1,12 @@
+GET https://naif.jpl.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Tue, 23 Nov 2004 23:44:15 GMT
+< Accept-Ranges: bytes
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 157
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 06:05:36 GMT

@@ -1,0 +1,13 @@
+GET http://www.sti.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< Date: Tue, 19 Sep 2023 05:50:34 GMT
+< Content-Type: text/html
+< Location: https://www.sti.nasa.gov
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 164
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Powered-By: appdat

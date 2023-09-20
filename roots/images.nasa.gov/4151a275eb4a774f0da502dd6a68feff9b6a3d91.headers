@@ -1,0 +1,24 @@
+GET https://images.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Referrer-Policy: same-origin
+< X-Cache: Miss from cloudfront
+< Date: Tue, 19 Sep 2023 06:01:50 GMT
+< Etag: "95433f7c903142851d2280f20a3d5ee3"
+< X-Amz-Server-Side-Encryption: AES256
+< Via: 1.1 37cc5671352ec3ac8f0d6d7b7c988e80.cloudfront.net (CloudFront)
+< Content-Type: text/html
+< Content-Length: 6272
+< Last-Modified: Wed, 28 Jun 2023 17:01:16 GMT
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Version-Id: u.aEfD8q.MzCklum5mGvNTncWWUGQWwP
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< X-Amz-Cf-Pop: EWR53-C3
+< X-Amz-Cf-Id: a6aPmti5213U1o359FqsNyXXVD1i6A6_cDYVzir83yoRixyUkp_sWw==
+< Cache-Control: public,max-age=1200, s-maxage=2400
+< Server: AmazonS3

@@ -1,0 +1,10 @@
+GET http://human-factors.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:55:20 GMT
+< Content-Type: text/html
+< Content-Length: 178
+< Location: https://human-factors.arc.nasa.gov/
+< X-Debug-Cache: no_cache=0

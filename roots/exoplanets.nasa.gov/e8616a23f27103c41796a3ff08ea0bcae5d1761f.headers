@@ -1,0 +1,24 @@
+GET https://exoplanets.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Runtime: 0.763627
+< Etag: W/"fd3479e2f0ffe7e4d4a2775c5eac4b42"
+< X-Cache: Miss from cloudfront
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: sameorigin
+< Access-Control-Max-Age: 1000
+< Via: 1.1 19f59f4851bd1754171a506ce0726a08.cloudfront.net (CloudFront)
+< Date: Tue, 19 Sep 2023 06:02:06 GMT
+< Server: Apache
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+< Status: 200 OK
+< X-Amz-Cf-Pop: EWR53-C1
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: max-age=0, private, must-revalidate
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src blob: 'self' https: 'unsafe-inline' 'unsafe-eval';        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Request-Id: 653fa37d-9cd6-454e-9302-de72da3ae8d5
+< X-Powered-By: Phusion Passenger
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< X-Amz-Cf-Id: WTElq4-1isLkqcS5BwJ_C_kTFhVvo64X69y5MBLibJqiZRDvrBzk1Q==

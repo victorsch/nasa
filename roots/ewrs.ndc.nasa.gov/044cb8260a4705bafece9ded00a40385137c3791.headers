@@ -1,0 +1,12 @@
+GET https://ewrs.ndc.nasa.gov
+
+
+< HTTP/1.1 302 Object
+< Date: Tue, 19 Sep 2023 06:01:35 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;
+< Set-Cookie: gov.nasa.web.broker.sticky-103=68; Path=/; Secure; HttpOnly
+< Server: Apache
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=30&TYPE=33554433&REALMOID=06-03b4ce08-3171-4177-afeb-3f5e8a519415&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-W%2b%2fJ0nZ%2fA6LOAfV9NT4C7EzHF%2b7qgpHcRV8VHocmR054ZFetIcFoRmo0kCYL5Xbe0GHpXpEaEgOPaBlTnzK0hSagGgA7Tq1ZBZbuzPsXHEErA9rqepyCQDE9JJeIlCRs&TARGET=-SM-https%3a%2f%2fewrs%2endc%2enasa%2egov%2fewrs
+< Content-Length: 0
+< X-Broker: PROD.WB.01.03

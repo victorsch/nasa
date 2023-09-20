@@ -1,0 +1,13 @@
+GET https://crgis.ndc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Amz-Cf-Id: u8gfpIaGrNOcH96HTPwBESnHCTAF063b_Fd2OZmZf22gE8_Qk1o9TQ==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:59:52 GMT
+< Location: https://www.nasa.gov/langley/history/
+< X-Cache: LambdaGeneratedResponse from cloudfront
+< Content-Length: 0
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 1ffe498380a643d1bb2efaa624b761a6.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C1

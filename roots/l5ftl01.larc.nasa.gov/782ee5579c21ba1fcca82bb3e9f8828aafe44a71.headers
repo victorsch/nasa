@@ -1,0 +1,12 @@
+GET https://l5ftl01.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:03:12 GMT
+< Last-Modified: Thu, 06 Jul 2023 12:58:59 GMT
+< Accept-Ranges: bytes
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Etag: "2d-5ffd1146740ed"
+< Content-Length: 45
+< Content-Type: text/html

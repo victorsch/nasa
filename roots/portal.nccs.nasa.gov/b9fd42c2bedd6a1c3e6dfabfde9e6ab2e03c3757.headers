@@ -1,0 +1,10 @@
+GET http://portal.nccs.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:04:59 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Location: https://portal.nccs.nasa.gov/
+< Content-Length: 237

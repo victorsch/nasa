@@ -1,0 +1,18 @@
+GET https://cmr.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Etag: W/"50e92818043aa94d30a1537542261f20"
+< Via: 1.1 9ef00004ef0e93efae76c75d3a2df1b4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-C3
+< X-Amz-Cf-Id: vMwFRpPLZZJUKHK8P6tzwTP4L47nB9Nh2FdlhFDyQdsMHaStn42eTw==
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Wed, 24 Jun 2020 17:18:12 GMT
+< Server: AmazonS3
+< Date: Tue, 19 Sep 2023 06:03:29 GMT
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< X-Cache: Error from cloudfront
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000

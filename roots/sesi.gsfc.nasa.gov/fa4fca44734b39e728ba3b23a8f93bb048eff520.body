@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+  <head>
+      
+    <title>SESI Program Official Website</title>
+      
+     <meta charset="UTF-8">
+         
+     <meta name="description" content="SESI Program Official Website">
+     
+     <meta name="keywords" content="NASA, Internship, NASA internship, SESI, Physics, Engineering, Heliophysics, CCMC">
+      
+     <meta name="author" content="Silvina E. Guidoni">
+     
+     <style type="text/css"> </style>
+     
+     <link rel=stylesheet href="Style_English.css" type="text/css">
+
+   </head>
+  
+<body>
+    
+   <!-- Top picture -->
+
+         <img class="topfigure" src="Pictures_header/composite.png" alt=" ">
+
+   <!-- Table for whole webpage -->
+
+        <table class="hometable">
+       
+           <tbody>
+               
+            <tr class="sidecolumnstr">
+
+               <!-- Side bars -->
+    
+               <td class="sidecolumns">
+                   
+                  <br>
+                  
+                  <p class="textside">   <a class=set1 href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=600&navTab=nav_about_us">
+                  Science and Exploration Directorate </a> </p>  <br>
+    
+                 <p class="textside">  <a class=set1 href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=670">
+                      Heliophysics Science Division:  </a></p>
+                  
+                  <!-- Labs -->
+                  
+                      <p class="textside">  <a class=set3 href="https://science.gsfc.nasa.gov/heliophysics/solar/">
+                      &#9656; Solar Physics Laboratory (Code 671) </a> </p>
+
+                       <p class="textside">  <a class=set3 href="https://science.gsfc.nasa.gov/heliophysics/heliospheric/">
+                     &#9656; Heliospheric Physics Laboratory (Code 672) </a> </p>
+ 
+                      <p class="textside">  <a class=set3 href="https://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=673&navTab=nav_about_us">
+                      &#9656; Geospace Physics Laboratory (Code 673)</a>  </p>
+                       
+                       <p class="textside">  <a class=set3 href="https://science.gsfc.nasa.gov/heliophysics/spaceweather/">
+                       &#9656;     Space Weather Laboratory (Code 674) </a> </p>
+
+<p class="textside">  <a class=set3 href="https://science.gsfc.nasa.gov/heliophysics/itmphysics/">
+                       &#9656; ITM Physics Laboratory (Code 675) </a> </p> <br>                
+ <!-- end Labs -->
+                  
+                  <p class="textside">  <a class="set1" href=" " >
+                      Other Links: </a> </p>
+
+                  <p class="textside">  <a class=set3 href="https://ccmc.gsfc.nasa.gov/">
+                  &#9656; Community Coordinated Modeling Center (CCMC)  </a> </p>
+                  
+                  <p class="textside">  <a class=set3 href="http://science.gsfc.nasa.gov/670/seminar/">
+                  &#9656; Heliophysics Science Division Seminars </a>  </p> <br>
+
+	              <hr>
+                   
+                   
+               </td>
+            
+               <!-- end side bar -->
+               
+               <!-- ******************************************************************************************** -->
+               <!-- ******************************************************************************************** -->
+               <!-- ******************************************************************************************** -->
+
+               <!-- start interior of front page -->
+
+
+               <td class="maincolumn">
+                   
+                   
+                   <!-- Navigation Bar old -->
+                   <!--
+                   <ul class="navbar">
+                       <li class="navbar"><a  class="navbar"href="index.html">Home</a></li>
+                       <li class="navbar"><a  class="navbar"href="About_SESI.html">About SESI</a></li>
+                       <li class="navbar"><a  class="navbar"href="Gallery.html">Gallery</a></li>
+                       <li class="navbar"><a  class="navbar"href="For_Interns.html">For Interns</a></li>
+                       <li class="navbar"><a  class="navbar"href="For_Mentors.html">For Mentors</a></li>
+                       <li class="navbar"><a  class="navbar"href="FAQs.html">FAQs</a></li>
+                       <li class="navbar"><a  class="navbar"href="Contact.html">Contact</a></li>
+                   </ul>
+                   -->
+                   <!-- End of Navigation Bar -->
+                   
+                   
+                   <!-- Navigation Bar new -->
+                   <div class="navbar">
+                    <ul class="navbar" >
+                    <li class="navbar"><a class="navbar" href="index.html">Home</a></li>
+                    <li class="navbar"><a class="navbar"  href="About_SESI.html">About SESI</a></li>
+                    <li class="navbar"><a class="navbar"  href="Gallery.html">Gallery</a></li>
+                    <li class="navbar"><a class="navbar" href="For_Interns.html">For Interns</a></li>
+                    <li class="navbar"><a class="navbar" href="For_Mentors.html">For Mentors</a></li>
+                    <li class="navbar"><a class="navbar" href="FAQs.html">FAQs</a></li>
+                    <li class="navbar"><a class="navbar" href="Contact.html">Contact</a></li>
+                    </ul>
+                    </div>
+                   <!-- End of Navigation Bar -->
+                   
+                   
+                   <h2 class="headlines"> The Scientific and Engineering Student Internship (S.E.S.I.) Program <br>
+                         NASA Goddard Space Flight Center,  Heliophysics Science Division
+                      </h2>
+                      <br>
+                      <p class="headlines2"> A multi-decade program dedicated to training the next generation of scientists and engineers!
+                      </p>
+                      <br>
+                      <br>
+                      <!--
+                      <p class="maintext"> We are accepting applications now for summer 2017.
+                      <br>
+                      <br>
+                       -->
+                      <img class="studentpictures" src="Gallery/PHOTOS_2018/2018_HSD_Orientation.jpg" alt="Heliophysics Summer Interns">
+                          <br>
+                          <h3> <center> Welcome 2023 Heliophysics Summer Interns! </center> </h3>
+                          </p>
+                          <br>
+                          <br>
+                      <br>
+                      <br>
+                      <h3> How do I apply? </h3>
+                      <br>
+                      <p class="maintext"> Please check the "FAQs" tab. Applications are accepted through <a class="set2" href="https://intern.nasa.gov/">https://intern.nasa.gov/</a>
+                      </p>
+                      <br>
+                      <h3>  Can I still apply? </h3>
+                      <br>
+                      <p class="maintext">  The application deadline is March 1, 2023.
+                      </p>
+                      <br>
+		<!--
+                      <h3>  When does the program start if I am accepted? </h3>
+                      <br>
+                      <p class="maintext">
+                      
+                      <table style="width:40%">
+                          <tr>
+                              <th align="left">Grade level</th>
+                              <th align="left">Length of Session</th>
+                              <th align="left">Session Start</th>
+                              <th align="left">Session End</th>
+                          </tr>
+                          <tr>
+                              <td>High School</td>
+                              <td> 6 weeks</td>
+                              <td>Jun 27, 2022</td>
+                              <td>Aug 5, 2022</td>
+                          </tr>
+                          <tr>
+                              <td>Undergraduate </td>
+                              <td> 10 weeks</td>
+                              <td> Jun 6, 2022</td>
+                              <td> Aug 12, 2022</td>
+                          </tr>
+                          <tr>
+                              <td>Graduate</td>
+                              <td> 10 weeks</td>
+                              <td> Jun 6, 2022</td>
+                              <td> Aug 12, 2022</td>
+                          </tr>
+                          
+                      </table>
+                -->          
+                      <br>
+                      <br>
+                      <br>
+                      </p>
+                      <br>
+                      <!--
+                      <h3> Current mentors and their research opportunities (see "FAQs" for how to search for research opportunities) </h3>
+                      <br>
+                      <p class="maintext">
+                      <b> Mentor:</b> Neel Savani, <b>Title:</b> SESI: 3D Virtual Reality visualisation of Solar Storms, <b>Number of positions:</b>  1 <br>
+                      <b>Mentor:</b> Georgia de Nolfo, <b>Title:</b> SESI : Understanding Solar Energetic Particles, <b>Number of positions:</b> 1 <br>
+                      <b>Mentor:</b> Chris St. Cyr, <b>Title:</b>  SESI: Studies of Interplanetary Dust at 1 A.U. , <b>Number of positions:</b> 1 <br>
+                      <b>Mentor:</b> Community Coordinated Modeling Center (CCMC), <b> Title:</b>  SESI - Science of Space Weather and Forecasting of Space Weather Events (summer internship), <b> Number of positions:</b> 3   <br>
+                      </p>
+                      <b>Mentor:</b> ..., <b> Title:</b>  SESI : Energetic particle and neutral radiation instrument development, <b> Number of positions:</b> 1   <br>
+                      </p>
+                    -->
+
+
+             </td>
+             
+             <!-- ******************************************************************************************** -->
+             <!-- ******************************************************************************************** -->
+             <!-- ******************************************************************************************** -->
+         
+               
+             <!-- end of center of table -->
+      
+             <!-- start right column -->
+    
+             <td class="sidecolumns">
+                
+                <br>
+       
+                <a class=set1 href="Our_Legacy.html">
+                <p class="textside"> Our Legacy </p> </a> <br>
+       
+                <a class=set1 href="Newsletters.html">
+                <p class="textside">  Newsletters  </p> </a> <br>
+
+                <a class=set1 href="Flyer.html">
+                <p class="textside">  Flyer </p> </a> <br>
+
+                <a class=set1 href="Testimonials.html">
+                <p class="textside">  Testimonials </p> </a> <br>
+                
+                <a class=set1 href="Our_Anniversary.html">
+                <p class="textside">  Our Anniversary </p> </a> <br>
+                
+                <!-- Logos -->
+                
+                <a href="http://www.nasa.gov"> <img class="sidefigure" src="Logos/logonasagsfc.png" alt=" "> </a>
+                
+                <br>
+                
+                <a href="http://www.nsf.gov">  <img class="sidefigure" src="Logos/nsf1.jpg" alt=" "> </a>
+                
+
+             </td>
+ 
+       </tr>
+            
+  </tbody>
+           
+</table>
+        
+<hr>
+
+<!-- end of table -->
+
+<p class="maintext"> Web Curator: Silvina E. Guidoni (silvina.e.guidoni at nasa.gov) <br>
+Web Editor: Burcu Kosar (burcu.kosar at nasa.gov) <br>
+Responsible NASA Official: Douglas Rabin (Douglas.M.Rabin at nasa.gov) <br>
+
+<a class="set2" href="http://www.nasa.gov/about/highlights/HP_Privacy.html#.VIHqUIc-86k"> NASA Privacy, Security, Disclaimer &amp; Accessibility Notices </a>
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+
+</p>
+
+
+
+<!-- To be fixed
+ 
+ <td colspan="3" align="center" bgcolor="#ffffff" height="20" valign="top" width="558">
+ 
+ <hr>
+ 
+ <a href="http://science.gsfc.nasa.gov/">SSD</a> |
+ <a href="http://www.gsfc.nasa.gov"> GSFC</a> |
+ <a href="http://www.nasa.gov">NASA</a>
+ </td>
+ </tr>
+
+ 
+ 
+ <a href="description.html">
+ <font color="#ff0000">Research
+ Opportunities</font></a><font color="#ff0000">&nbsp;</font></p>
+ 
+ 
+ <p><a href="imagine/title.html"><font face="MS Sans Serif"></font></a>Links for student interns accepted into the SESI
+ program:</p>
+ 
+ <p>
+ <font color="#0000ff">
+ <a href="preparations.html">Arrival
+ Preparations and Housing Information</a></font></p>
+ 
+ <p>
+ <font color="#ff0000">
+ 
+ <a href="it_training.htm">
+ IT Security</a></font></p>
+ 
+ <p><font color="#ff0000"><br>
+ </font></p>
+ 
+ <p>
+ &nbsp;</p>
+ 
+ <p>
+ &nbsp;</p>
+ 
+ <p>
+ &nbsp;</p>
+ <br>
+ <br>
+ <p>&nbsp;</p>
+ <p><b><a href="applicants_2008/applicants2008.html"><font size="5"><br>
+ </font></a></b></p>
+ <p>
+ &nbsp;</p>  -->
+
+
+</body></html>

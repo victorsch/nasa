@@ -1,0 +1,19 @@
+GET https://bugs.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 
+< Referrer-Policy: strict-origin-when-cross-origin
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:42:23 GMT
+< Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+< X-Arequestid: 102x3054930x1
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Length: 0
+< Set-Cookie: atlassian.xsrf.token=BKO6-RAQD-T9J9-IG8H_3965ac6be37c84d45333f20c1de975603c4bf754_lout; Path=/
+< Set-Cookie: JSESSIONID=5C1A39197827AAFF43B1DE58F2222657; Path=/; HttpOnly
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Ausername: anonymous
+< Location: /login.jsp
+< Content-Type: text/html;charset=UTF-8

@@ -1,0 +1,12 @@
+GET https://userdocuments.support.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:01:46 GMT
+< Server: Apache
+< Last-Modified: Fri, 08 Apr 2022 15:53:08 GMT
+< Content-Length: 44
+< Content-Type: text/html
+< Etag: "2c-5dc26974e0c2d"
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

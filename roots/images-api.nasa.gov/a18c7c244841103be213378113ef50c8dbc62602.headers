@@ -1,0 +1,13 @@
+GET http://images-api.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:01:40 GMT
+< Content-Length: 167
+< Via: 1.1 74e6dd86eff86d5443ebe1a2ced7df88.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: UIfsBCeYEmgxI4MtPU7qt85cGG_CrvZFWNMkIiWmEJ3JKjw3nAhWNQ==
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://images-api.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: JFK50-P4

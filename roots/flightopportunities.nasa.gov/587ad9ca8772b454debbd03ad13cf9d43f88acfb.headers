@@ -1,0 +1,11 @@
+GET https://flightopportunities.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Location: https://flightopportunities.ndc.nasa.gov//
+< Content-Length: 250
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:01 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=63072000; includeSubDomains

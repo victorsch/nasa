@@ -1,0 +1,9 @@
+GET https://elvperf.ksc.nasa.gov
+
+
+< HTTP/1.1 303 See Other
+< Content-Length: 164
+< Content-Type: text/html; charset=UTF-8
+< Location: https://elvperf.ksc.nasa.gov/default.aspx
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 06:02:02 GMT

@@ -1,0 +1,11 @@
+GET https://cddis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:44:53 GMT
+< Last-Modified: Tue, 25 Jul 2023 18:58:02 GMT
+< Strict-Transport-Security: max-age=31536000
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8

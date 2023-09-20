@@ -1,0 +1,21 @@
+GET https://worldview.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Etag: W/"45a7e18d089954a8440d9d1fc916365c"
+< X-Amz-Cf-Id: XE4QaQHbQnEV32gx4DUlqltB1GggocbtJAFk_tvad18EwfSNGQJUAg==
+< X-Amz-Server-Side-Encryption: AES256
+< X-Request-Id: XE4QaQHbQnEV32gx4DUlqltB1GggocbtJAFk_tvad18EwfSNGQJUAg==
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: EWR53-C1
+< Last-Modified: Thu, 14 Sep 2023 16:56:09 GMT
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 fd6ee8ff46440f33e22da71450793e70.cloudfront.net (CloudFront)
+< Date: Tue, 19 Sep 2023 06:04:49 GMT
+< Server: ServerTokens ProductOnly
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Content-Security-Policy: frame-ancestors *.nasa.gov https://nasa-gibs.github.io *.arcgis.com *.refoorest.com;

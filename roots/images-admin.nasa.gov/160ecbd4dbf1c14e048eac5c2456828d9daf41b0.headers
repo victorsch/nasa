@@ -1,0 +1,13 @@
+GET http://images-admin.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: 0ihrHUvw9pc1H-D1p_gxQBEgLYKqlQmzI5FiVabFCSmZCvYoY2Y_XA==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:01:37 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Via: 1.1 759533d02225fb7e951ea4dc2b01fd48.cloudfront.net (CloudFront)
+< Location: https://images-admin.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: EWR50-C1

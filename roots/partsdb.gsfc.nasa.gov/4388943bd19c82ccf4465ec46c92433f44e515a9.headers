@@ -1,0 +1,15 @@
+GET https://partsdb.gsfc.nasa.gov
+
+
+< HTTP/1.1 400 Bad Request
+< Date: Tue, 19 Sep 2023 05:58:25 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=63072000; includeSubdomains;
+< X-Content-Type-Options: nosniff
+< Referrer-Policy: strict-origin-when-cross-origin
+< Feature-Policy: accelerometer 'none'; ambient-light-sensor 'none'; animations 'none'; autoplay 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; max-downscaling-image 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; speaker 'none'; usb 'none'; vr 'none'
+< Content-Length: 15
+< Content-Type: text/html; charset=iso-8859-1
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< Content-Security-Policy: default-src https://partsdb.gsfc.nasa.gov:443 data: self: 'unsafe-inline'; frame-ancestors 'self'; base-uri 'self'

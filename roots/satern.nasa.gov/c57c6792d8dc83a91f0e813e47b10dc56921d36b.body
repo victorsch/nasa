@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/custom.css" crossorigin="anonymous">
+   <style>
+	   .s-thumb > div, .s-thumb2 > div, .s-thumb3 > div {
+		   background: white;
+		   border-radius: 0px;
+		   border: 1px solid #999;
+		   padding: 1.25rem;
+		   height: 100%;
+	   }
+
+	   .borderbanner {
+		width: 1112px;
+		height: 75px;
+		padding: 10px;
+		border: 7px solid #DC143C;
+	   }
+	</style>
+
+    <title>SATERN</title>
+  </head>
+  <body>
+  	<nav class="navbar navbar-light fixed-top navbar-expand-lg bg-light">
+		<div class="container">
+			<a class="navbar-brand align-top" href="#">
+				<img alt="NASA SATERN Logo" src="images/200px-NASA_logo.svg.png" height="54px" style="padding-right: 5px;">
+				<div style="display: inline-block; vertical-align: middle;">
+                    <div class="siteTitle">SATERN</div>
+					<div class="subheading collapse navbar-collapse">System for Administration, Training, and Educational Resources for NASA</div>
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active " href="default.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resources.html">Resources</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html">Key Contacts</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+ 	
+ 	<main role="main">
+		<div class="jumbotron bg-secondary satern-jumbotron">
+			<div class="container jumbotron-contentContainer text-center text-white">
+				<h3 class="jumbotronWelcome">Welcome to</h3>
+				<h1 class="jumbotronSiteTitle">SATERN</h1>
+				<p>The <strong>System for Administration, Training, and Educational Resources for NASA (SATERN)</strong> is NASA's Learning Management System (LMS) that provides web-based access to training and career development resources.</p>
+				<!--UNCOMMENT THE BUTTON WHEN THE PLANNED MAINTENANCE HAS BEEN COMPLETED-->
+				<button role="button" class="btn btn-primary btn-lg satern-login" href="#" data-toggle="modal" data-target="#warningText">
+					Launch SATERN
+				</button>
+				<!--UNCOMMENT THE BUTTON WHEN THE PLANNED MAINTENANCE HAS BEEN COMPLETED-->
+			</div>
+		</div>
+		
+		<div class="container">
+			<!--BLOCK OF TEXT FOR PLANNED OUTAGES
+			<div style="text-align:center">
+				<div class="row" style="display: inline-block; border:  3px solid #ff6300; padding: 20px">
+					<p style="font-size:18px">
+						<strong>
+							The SATERN online learning system will be unavailable from Friday, August 12 at 8:00pm ET until Sunday, <br>August 14 at 5:00pm ET. 
+						</strong>
+						<br><br>
+						<strong>
+							For questions concerning SATERN, contact the NSSC Customer Contact Center 1-877-677-2123 (1-877-NSSC123) 
+							or <br><a href="mailto:nssc-contactcenter@nasa.gov">nssc-contactcenter@nasa.gov</a>.
+						</strong>
+					</p>
+				</div>
+			</div>
+					
+			<div class="row"><div class="col-12"><h1 class="sectionHeading">Common Resources</h1></div></div>-->
+			
+			<div class="row"> <!-- Uses a single row container to self adjust for tablets and smartphones -->
+				<div class="s-thumb2">
+			    	<div>
+						<a href="https://nasa.sharepoint.com/sites/nssc/SitePages/Training-Administration.aspx" target="_blank"><img alt="Skillsoft Icon" src="images/icon-agency-train-admin.png">
+						  <h5 class="card-title">Agency Training Administration</h5></a>
+					  <p class="card-text">Training Administration transitioned to the NSSC effective 10/1/19. The Training Administration website has a variety of references including training modules, "how-to" guides, and other resources.</p>
+					</div>
+				</div>
+			
+			    <div class="s-thumb2">
+			    	<div>
+						<a href="https://nasa.sharepoint.com/sites/futureofwork/SitePages/training.aspx" target="_blank">
+							<img alt="Learner Guide Icon" src="images/icon-tutorials-for-learners.png">
+							<h5 class="card-title">Hybrid Learning Resources</h5>
+						</a>
+					  <p class="card-text">Learning resources to help you thrive in a hybrid work environment.</p>
+					</div>
+				</div>
+				
+				<div class="s-thumb2">
+			    	<div>
+			      	  <a href="resources.html#For_Admins"><img alt="SATERN Guides for Administrators" src="images/icon-saternadmin.png">
+						  <h5 class="card-title">SATERN Guides for Administrators</h5></a>
+					  <p class="card-text">Up-to-date job aids for Administrators for navigating the new SATERN.</p>
+					</div>
+				</div>
+			<!-- 	<div class="s-thumb2">
+			    	<div>
+			      	  <a href="resources.html#Skillsoft"><img alt="Skillsoft Icon" src="images/icon-skillsoftresources.png">
+						  <h5 class="card-title">Skillsoft Resources</h5></a>
+					  <p class="card-text">Access to Skillsoft Online Courses in SATERN and to Skillport Books, Audiobooks and Videos.</p>
+					</div>
+				</div> -->
+				
+				<div class="s-thumb2">
+			    	<div>
+			    	<a href="resources.html#For_Learners"><img alt="Learner Guide Icon" src="images/icon-tutorials-for-learners.png">
+						  <h5 class="card-title">SATERN Guides for Learners</h5></a>
+						<p class="card-text">Up-to-date job aids for Learners for navigating the new SATERN.</p></div>
+				</div>							
+
+			    <div class="s-thumb2">
+			    	<div>
+			    		<a href="resources.html#For_Supervisors"><img alt="SATERN Guides for Supervisors" src="images/icon-tutorials-for-supervisors.png">
+						<h5 class="card-title">SATERN Guides for Supervisors</h5></a>
+					  	<p class="card-text">Up-to-date job aids for Supervisors for navigating the new SATERN.</p>
+					</div>
+				</div>	
+             
+			 <div class="s-thumb2">  
+				<div>
+						<a href="https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3A%2F%2Fnasa-hcm03.ns2cloud.com%2Flearning%2Fuser%2Fdeeplink_redirect.jsp%3FlinkId%3DHOME_PAGE%26pageID%3D44de072856d242a781052c4c6a205861%26fromSF%3DY&company=NASAHCM03"><img alt="Skillsoft Icon" src="images/icon-satern.png">
+						  <h5 class="card-title">Supervisor Toolkit</h5></a>
+					  <p class="card-text">Learning resources in SATERN for supervisors and anyone interested in supervision, aligned with NASA's Environment Matters 360 assessment.</p>
+					</div>
+				</div>
+				
+			    <div class="s-thumb2">
+			    	<div>
+						<img alt="Help Icon" src="images/icon-saternhelp.png">
+						<h5 class="card-title">SATERN HELP</h5>
+						<p class="card-text helpText">
+							<strong>NSSC Contact Center</strong><br>
+							<small>877-NSSC-123 (877-677-2123) or <br>
+							<a href="mailto:nssc-contactcenter@mail.nasa.gov">nssc-contactcenter@mail.nasa.gov</a><br>
+							Hours of Operation:<br>
+							8 a.m. - 8 p.m. ET<br>
+								Monday - Friday</small>
+						</p>
+					</div>
+				</div>	
+					
+				<div class="s-thumb2">
+			    	<div>
+			      	  <a href="resources.html#SF182"><img alt="SF-182 Guide Icon" src="images/icon-external-training-guide.png">
+						  <h5 class="card-title">SF-182 (Offsite/External Training Requests) Guide</h5></a>
+					  <p class="card-text">Instructions and What’s New for the Reconfigured SF-182 Form.</p>
+					</div>
+				</div>		
+                
+				<div class="s-thumb2">
+			    	<div>
+						<a href="https://nasa.sharepoint.com/sites/CFOUniversity/"><img alt="Skillsoft Icon" src="images/icon-skillsoftresources.png">
+						  <h5 class="card-title">CFO University</h5></a>
+					  <p class="card-text">Training & Development including Management & Leadership for all financial professionals and OCFO partnering organizations within NASA.</p>
+					</div>
+				</div>
+				
+
+				
+				<div class="s-thumb2">
+			    	<div>
+			      	  <img alt="IDP Icon" src="images/icon-idp-resources.png">
+						  <h5 class="card-title">Individual Development Plan (IDP)</h5>
+					  <p class="card-text">IDPs are no longer housed in SATERN; find the new Agency-wide IDP form below.</p>
+					  <a target="_blank" href="IDP_Fillable_2018.pdf" class="btn btn-primary">Download IDP Form</a>
+					</div>
+				</div>
+
+		
+			</div>
+			    
+		  <div class="row">
+			<div class="col-12"><h1 class="sectionHeading">Technical Problems?</h1></div>
+		  </div>
+		  <div class="row">
+			<div class="s-thumb2">
+				<div>
+				  <a href="https://launchpad.nasa.gov/" target="_blank"><img alt="Settings Icon" src="images/icon-system-settings.png">
+					  <h5 class="card-title">Access Launchpad</h5></a>
+				  <p class="card-text">Forgot your Agency User ID or Password?<br>First Time Users Create Profile Before Accessing SATERN.</p>
+				</div>
+			</div>
+			<div class="s-thumb2">
+				<div>
+				  <a href="https://searchpub.nssc.nasa.gov/servlet/sm.web.Fetch/BrowserHelp.pdf?rhid=1000&did=1279900&type=released" target="_blank"><img alt="Browser Help Icon" src="images/icon-browser-help.png">
+					  <h5 class="card-title">Browser Help</h5></a>
+				  <p class="card-text">Your browser pop-up blocker must be disabled to use SATERN.</p>
+				</div>
+			</div>
+			<div class="s-thumb2">
+				<div>
+				  <a href="https://searchpub.nssc.nasa.gov/servlet/sm.web.Fetch/ComputerAndBrowserInfo.htm?rhid=1000&did=693952&type=released" target="_blank"><img alt="Settings Icon" src="images/icon-system-settings.png">
+					  <h5 class="card-title">System Settings</h5></a>
+				  <p class="card-text">Helps troubleshoot problems when launching SATERN.</p>
+				</div>
+			</div>
+		</div>
+	</div><!-- close container -->
+			
+<div class="modal fade" id="warningText" tabindex="-1" role="dialog" aria-labelledby="securityModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="securityModalLongTitle">Security Warning</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		  <strong>By accessing and using this information system, you acknowledge and consent to the following:</strong>
+		  You are accessing a U.S. Government information system, which includes: (1) this computer; (2) this computer network; 
+		  (3) all computers connected to this network including end user systems; (4) all devices and storage media attached to 
+		  this network or to any computer on this network; and (5) cloud and remote information services. This information system 
+		  is provided for U.S. Government-authorized use only. You have no reasonable expectation of privacy regarding any communication 
+		  transmitted through or data stored on this information system. At any time, and for any lawful purpose, the U.S. Government may 
+		  monitor, intercept, search, and seize any communication or data transiting, stored on, or traveling to or from this information 
+		  system. You are NOT authorized to process classified information on this information system. Unauthorized or improper use of this 
+		  system may result in suspension or loss of access privileges, disciplinary action, and civil and/or criminal penalties.
+      </div>
+      <div class="modal-footer mx-auto">
+        <a role="button" class="btn btn-primary btn-lg satern-login" href="https://hcm03.ns2cloud.com/sf/learning?Treat-As=WEB&bplte_company=NASAHCM03">
+			Proceed to SATERN
+		</a>
+      </div>
+    </div>
+  </div>
+</div>
+		
+	</main>
+  	<footer class="bg-dark satern-footer">
+		<div class="container">
+        <ul class="nav justify-content-center">
+         <li class="nav-item ">
+			<a class="nav-link text-white" href="#"><img alt="NASA SATERN Icon" src="images/icon-satern-white.png" height="32px" style="padding-right: 15px;"></a>
+		  </li>
+		  <li class="nav-item ">
+			<a class="nav-link text-white" href="mailto:nssc-contactcenter@mail.nasa.gov?subject=SATERN%20Help">Help</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" href="mailto:nssc-contactcenter@mail.nasa.gov?subject=SATERN%20Feedback">Feedback</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" target="_blank" href="https://www.nasa.gov/FOIA/index.html">Freedom of Information Act</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" target="_blank" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy</a>
+		  </li>
+		</ul>
+	  </div>
+	</footer>
+	
+	<script src="js/jquery-3_6_0.slim.js"></script>
+	<script src="js/bootstrap_4_2_1/bootstrap.min.js"></script>
+	<script>
+		$('.s-thumb').addClass('col-12 col-sm-6 col-md-4 col-lg-3 mb-3');
+		$('.s-thumb > div').addClass('text-center');
+		$('.s-thumb2').addClass('col-12 col-sm-6 col-lg-4 mb-3');
+		$('.s-thumb2 > div').addClass('text-center');
+		$('.s-thumb3').addClass('col-12 col-sm-6 mb-3');
+		$('.s-thumb3 > div').addClass('text-center');
+	</script>
+	<script type='text/javascript' src='js/boundary_protection_security_finding_SC07.js'></script>
+  </body>
+  
+</html>

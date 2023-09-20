@@ -1,0 +1,19 @@
+GET https://status.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Referrer-Policy: strict-origin-when-cross-origin
+< Cache-Control: max-age=0, private, must-revalidate
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< X-Download-Options: noopen
+< Set-Cookie: _downtime_session=MEdySlUrL3ZnS3lMN1o0eHpWT1ltZmlyOG5KemlkMk5DYTZnS2E1ZFp4SmVPbTZ5YS9zaUdZNWhHRHRYc3oyRm5jSWZ3dU5wVVNONVE5bHIreU9DRUtOenY5eE1iUFJhUnV6VVBSWVo0OHZDbTJ0alRxczE5Ykx2Y1pJUTEvci82ZkFtbSs4dlNSbndpNE1tSjdKTWxRPT0tLU1mcHZFdURYeDhtb0QyNWV6d0RYNFE9PQ%3D%3D--897899a563e0d06d83e5886803012b4d69682646; path=/; HttpOnly
+< X-Request-Id: b842dde5-9a5f-4187-bc3d-9433cc4f91a6
+< X-Runtime: 0.041728
+< Server: nginx/1.22.1
+< Date: Tue, 19 Sep 2023 05:41:52 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Permitted-Cross-Domain-Policies: none
+< Etag: W/"42594bc3bab50c8c3c8952d3ebc40127"
+< Strict-Transport-Security: max-age=31536000

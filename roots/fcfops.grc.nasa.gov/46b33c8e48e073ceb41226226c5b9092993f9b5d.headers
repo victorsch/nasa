@@ -1,0 +1,12 @@
+GET https://fcfops.grc.nasa.gov
+
+
+< HTTP/1.1 401 Unauthorized
+< Server: Apache
+< Set-Cookie: cookiesession1=678B28760FD75F5AC490796D48968719;Expires=Wed, 18 Sep 2024 06:00:55 GMT;Path=/;HttpOnly
+< Strict-Transport-Security: max-age=31536000
+< Www-Authenticate: Basic realm="FCF Operations Secure Site"
+< Content-Length: 381
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:00:55 GMT
+< X-Frame-Options: SAMEORIGIN

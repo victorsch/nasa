@@ -1,0 +1,16 @@
+GET https://sealevel.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Server: nginx/1.20.1
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval' blob:;        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< Location: https://sealevel.uat.earthdata.nasa.gov/auth/urs
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html; charset=utf-8
+< X-Request-Id: db8126fb-6b8f-4f5d-bfb7-6c2b1a794c54
+< X-Runtime: 0.005918
+< Cache-Control: no-cache
+< X-Xss-Protection: 1;mode=block
+< Date: Tue, 19 Sep 2023 05:42:15 GMT
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000

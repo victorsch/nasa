@@ -1,0 +1,25 @@
+GET https://intern.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Date: Mon, 18 Sep 2023 10:23:03 GMT
+< Etag: "be997f4b32d2dfba30e737c1268034b2"
+< X-Xss-Protection: 1; mode=block
+< X-Cache: Hit from cloudfront
+< Via: 1.1 acbc16f609c0c9804b8a2c3d38d3023e.cloudfront.net (CloudFront)
+< Age: 70496
+< Last-Modified: Tue, 01 Aug 2023 13:00:50 GMT
+< X-Amz-Server-Side-Encryption: AES256
+< Server: AmazonS3
+< X-Amz-Cf-Pop: JFK52-P4
+< Content-Type: text/html
+< X-Amz-Id-2: lt8H0PWDAuJvm+Ppo/Sz174xFfLNdgE1XczTc2EFE/Nfpt9Tc3Q2CIct+1RF7G4wxGIEs+mQl7s=
+< X-Amz-Request-Id: F0BH0F0CFZCAKYRN
+< Referrer-Policy: same-origin
+< X-Amz-Cf-Id: 2AIw4RHT2W1EsdFZbtputm1BG1kRygEkyTjo6TV-zasRPj4bY6cMgw==
+< Content-Length: 76085
+< Content-Security-Policy-Report-Only: default-src https:; report-uri /csp-violation-report/
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN

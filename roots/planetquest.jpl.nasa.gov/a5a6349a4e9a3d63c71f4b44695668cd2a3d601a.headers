@@ -1,0 +1,13 @@
+GET http://planetquest.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:01:55 GMT
+< Location: https://planetquest.jpl.nasa.gov/
+< Via: 1.1 dff867205390cf91b170b9bf1251e39a.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: EWR53-C1
+< X-Amz-Cf-Id: hvyu3BbwPUJ5PzqZb8xHM-bbzKIaZSOsovqYkCE3Wh4bc6ju4CAPng==

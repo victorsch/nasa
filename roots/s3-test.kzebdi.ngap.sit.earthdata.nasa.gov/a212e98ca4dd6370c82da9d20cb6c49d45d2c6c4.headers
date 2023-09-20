@@ -1,0 +1,16 @@
+GET http://s3-test.kzebdi.ngap.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< X-Amz-Cf-Pop: JFK50-P5
+< X-Amz-Cf-Id: zijF11-9pBSXZDpTHV8i0Cs8vuF1E0rE8l0w0JobAzuDJa6-GZicJQ==
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Location: https://s3-test.kzebdi.ngap.sit.earthdata.nasa.gov/
+< Date: Tue, 19 Sep 2023 05:42:59 GMT
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 68f2eed06d7ecb02b863cacb0da2fc28.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Server: CloudFront

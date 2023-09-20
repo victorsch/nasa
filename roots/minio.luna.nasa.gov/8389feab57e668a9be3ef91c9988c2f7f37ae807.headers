@@ -1,0 +1,13 @@
+GET http://minio.luna.nasa.gov
+
+
+< HTTP/1.1 404 Not Found
+< Date: Tue, 19 Sep 2023 05:40:58 GMT
+< Content-Length: 146
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: luna
+< X-Using-Nginx-Controller: true

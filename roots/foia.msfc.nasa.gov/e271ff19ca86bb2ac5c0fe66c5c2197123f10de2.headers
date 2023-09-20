@@ -1,0 +1,13 @@
+GET http://foia.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: EWR53-P1
+< X-Amz-Cf-Id: Rd5OnuNCsml8JqbW1k1DRN69szNladsM5AqndGIP7rLuiUj7ChCweA==
+< Date: Tue, 19 Sep 2023 06:02:54 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< Location: https://foia.msfc.nasa.gov/
+< Via: 1.1 957a0e737a088bdc07cb5cc9dcc9e826.cloudfront.net (CloudFront)
+< Server: CloudFront

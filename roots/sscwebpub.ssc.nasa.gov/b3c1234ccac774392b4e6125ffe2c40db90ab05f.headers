@@ -1,0 +1,18 @@
+GET https://sscwebpub.ssc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: no-referrer
+< Permissions-Policy: camera=(), display-capture=(), geolocation=(), microphone=(), payment(), picture-in-picture=(), web-share=()
+< Date: Tue, 19 Sep 2023 06:03:01 GMT
+< Content-Type: text/html
+< Last-Modified: Mon, 31 Oct 2022 11:26:25 GMT
+< Etag: "adf3989c1bedd81:0"
+< Vary: Accept-Encoding
+< Content-Security-Policy: frame-ancestors 'self' http://*.nasa.gov https://*.nasa.gov https://nasa.sharepoint.com
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SameOrigin
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubDomains

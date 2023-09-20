@@ -1,0 +1,12 @@
+GET https://beoc.ccs.esmo.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:58:20 GMT
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Server: Constellation Coordination System
+< Cache-Control: private
+< Set-Cookie: ASP.NET_SessionId=jnlzgqfswfciu3xm1pimukqc; path=/; secure; HttpOnly; SameSite=Lax

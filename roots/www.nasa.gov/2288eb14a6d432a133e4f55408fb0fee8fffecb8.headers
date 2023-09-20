@@ -1,0 +1,28 @@
+GET https://www.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Amz-Server-Side-Encryption: AES256
+< X-Amz-Version-Id: Vhhz.K68egdjgAHdaOhPVddV0vbvDi56
+< Cache-Control: max-age=300
+< Referrer-Policy: strict-origin
+< Age: 286
+< X-Amz-Meta-Md5_hash: f131a4dfb8a48268db3d90c8a4bf67a5
+< X-Ua-Compatible: IE=edge,chrome=1
+< Content-Security-Policy: frame-ancestors 'self' https://*.nasa.gov
+< X-Amz-Cf-Id: 6eHMn5V0ob-Iev2jzL30lrg53q4NAGDS1-gSd37jjUvXTBS7fKbMPw==
+< Accept-Ranges: bytes
+< Etag: "f131a4dfb8a48268db3d90c8a4bf67a5"
+< Via: 1.1 5b4b6c6517b988a4ff2c794e5583ee02.cloudfront.net (CloudFront)
+< Content-Length: 9434
+< X-Amz-Request-Id: SG0M0F5FX6CFBP19
+< X-Amz-Replication-Status: COMPLETED
+< Server: AmazonS3
+< X-Amz-Cf-Pop: JFK50-P1
+< X-Amz-Id-2: 6EyUipsB2oWCLIM+sYfIWvdrzgYrNAfBPqscDIAfdIPjnCuM/7skmjyPjOZyRjp7hTIsIH8EelY=
+< Date: Tue, 19 Sep 2023 05:38:44 GMT
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31557600; includeSubdomains; preload
+< X-Cache: Hit from cloudfront
+< Content-Type: text/html
+< Last-Modified: Mon, 18 Sep 2023 21:27:56 GMT

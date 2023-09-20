@@ -1,0 +1,17 @@
+GET https://sealevel.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Security-Policy: default-src 'self' https:;        font-src 'self' https: data:;        img-src 'self' https: data: blob:;        object-src 'self';        script-src 'self' https: 'unsafe-inline' 'unsafe-eval' blob:;        style-src 'self' https: 'unsafe-inline';        upgrade-insecure-requests;        frame-ancestors *
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1;mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:03:46 GMT
+< Cache-Control: max-age=0, private, must-revalidate
+< Set-Cookie: _sealevel_session_v7=SG91STBrN3pKaEdUUktsc1FHeWtldzlROGd3TzA0THFzbXNPWDd2MmxEdFllYVdybndNWGZvVVgzSHUxRm8zVkNhcjFKMS9uODZQYS94ZENlQTVLcUVVb1Y0WEIrbk1zNE1HMnVNckpjZDA3SW1aNEZEVXBBMzVPdWFVS3FNYlRyMEd5OXJUQWNMQ0MzekE5TW9Yc25RPT0tLXY1NWE1eFF1OUtXd1ZJUGFIaXY2R1E9PQ%3D%3D--257259860aaf52ae3014552dd5ddf0f375fa0a4f; domain=.nasa.gov; path=/; secure; HttpOnly
+< X-Runtime: 0.195535
+< Server: nginx/1.20.1
+< Content-Type: text/html; charset=utf-8
+< Etag: W/"551180a1ae8386fec16832b234e9595a"
+< X-Request-Id: 794c68cb-d23b-4dab-994d-99c17324aed8
+< Strict-Transport-Security: max-age=31536000

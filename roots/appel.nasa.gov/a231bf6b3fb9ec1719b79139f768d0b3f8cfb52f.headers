@@ -1,0 +1,13 @@
+GET http://appel.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 6886c621d4716e156349149ba8d65b40.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:55:00 GMT
+< Location: https://appel.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Pop: EWR53-C3
+< X-Amz-Cf-Id: AyOaFHtvj3iiw6_bRpHzJBeaAxlpjvbkKed2oQdfDzrdHs1mYpbvcw==
+< Content-Type: text/html
+< Content-Length: 167

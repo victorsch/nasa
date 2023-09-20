@@ -1,0 +1,226 @@
+
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Materials And Processes Technical Information System (MAPTIS)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Materials And Processes Technical Information System (MAPTIS)">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--Script for Google Analytics -->
+    <script id="_fed_an_ua_tag"
+            type="text/javascript"
+            src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=MSFC">
+
+    </script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/fonts/css/font-awesome.css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="/css/colors.min.css" rel="stylesheet" type="text/css" />
+    <!--script type="text/javascript" src="js/jquery-1.11.1.js"></script -->
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/AboutMaptis.js"></script>
+</head>
+<body>
+
+    <div id="MAPTIS_top_wrapper">
+        <div id="headerIMG" class="text-center">
+            <img src="img/meatball.png" class="meatball" alt="NASA Meatball" />
+            <div id="logo">
+                <span>
+                    <span class="dd animated rotateIn">M</span>
+                    <span class="da animated rotateIn">A</span>
+                    <span class="dn animated rotateIn">P</span>
+                    <span class="da animated rotateIn">T</span>
+                    <span class="dn animated rotateIn">I</span>
+                    <span class="dn animated rotateIn">S</span>
+                </span>
+            </div>
+            <h2 class="headerMAPTISSystem">Materials And Processes Technical Information System</h2>
+        </div>
+
+        <div id="sticky_navigation_wrapper">
+            <div id="sticky_navigationN">
+
+                <div class="MAPTIS_container">
+                    
+<nav class="navbar-collapse menu">
+    <ul class="nav navbar-nav sf-menu">
+        <li><a href="/Home" tabindex="1" title="Home" id="current">Home</a></li>
+        <li><a href="/Features" tabindex="2" title="Features" id="2">Features</a></li>
+
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" tabindex="3" title="About" id=3>About <i class="icon-angle-down"></i></a>
+            <ul class="dropdown-menu sticky-dropdown">
+
+                <li><a href="/requirements" tabindex="4" style="width:195px; line-height:20px;" title="System Requirements">Requirements<span class="sf-sub-indicator pull-right"></span></a></li>
+
+                <li><a href="/contacts" tabindex="5" style="width:195px; line-height:20px;" title="contacts">Contacts<span class="sf-sub-indicator pull-right"></span></a></li>
+
+                <li><a href="/brochure" tabindex="6" style="width:195px; line-height:20px;">Brochure<span class="sf-sub-indicator pull-right"></span></a></li>
+            </ul>
+        </li>
+
+        <li><a href="/register" tabindex="7" title="Register" id="4">Register</a></li>
+        <li class="dropdown signInBtn" style="margin-left:5px;">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" tabindex="8" title="Sign In" id=5>Sign In <i class="icon-angle-down"></i></a>
+            <ul class="dropdown-menu sticky-dropdown">
+                <li><a href="https://maptis.ndc.nasa.gov/" tabindex="9" target="_blank" style="width:200px; line-height:20px;" title="Sign In">Sign In<span class="sf-sub-indicator pull-right"></span></a></li>
+
+                <li><a href="/loginhelp" style="width:200px; line-height:20px;" tabindex="10" title="Login Help">Login Help<span class="sf-sub-indicator pull-right"></span></a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+                </div>
+
+            </div>
+        </div>
+    </div><!-- #MAPTIS_top_wrapper -->
+    <!-- everything below is just content to fill the page -->
+
+    <section id="main">
+
+        <div id="content">
+
+            <!-- Slider Start-->
+            <div id="carousel-MAPTIS" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-MAPTIS" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="2" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="3" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="4" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="5" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="6" class=""></li>
+                    <li data-target="#carousel-MAPTIS" data-slide-to="7" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/slider/SLS-silverN.png" title="SLS" alt="SLS">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/GOES-goldN.png" title="GOES" alt="GOES">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/ISS-silverN.png" title="ISS" alt="ISS">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/JWST-goldN.png" title="JWST" alt="JWST">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/JPS-silverN.png" title="JPS" alt="JPS">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/MSL-Curiocity-goldN.png" title="MSL" alt="MSL">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/SEP-silverN.png" title="SEP" alt="SEP">
+                    </div>
+                    <div class="item">
+                        <img src="img/slider/orion-goldN.png" title="Orion" alt="Orion">
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#carousel-MAPTIS" data-slide="prev" tabindex="11" title="Previous">
+                    <div class="text-hide">Previous</div>
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-MAPTIS" data-slide="next" tabindex="12" title="Next">
+                    <div class="text-hide">Next</div>
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <!-- Slider End-->
+            <div>
+                <article>
+                    <h1 class="text-hide">MAPTIS</h1>
+                    <div>
+                        <p class="mainText">
+                            Welcome to the Materials and Processes Technical Information System (MAPTIS) Web Site. The
+                            goal of MAPTIS is to provide a single-point source for materials properties
+                            for NASA and NASA associated contractors and organizations. MAPTIS
+                            contains physical, mechanical and environmental properties for metallic
+                            and non-metallic materials.<br /><br />
+                        </p>
+
+                    </div>
+                </article>
+
+                <h1 class="text-hide">MESSAGE</h1>
+                <!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 alert alert-info">
+                    We are currently experiencing a problem with our system. All attempts are being made to restore this service as soon as possible. We apologize for the inconvenience.
+                </div>-->
+
+            </div>
+
+        </div>
+    </section><!-- #main -->
+
+    <footer id="footer">
+<!-- Footer Top Start -->
+<div class="footer-top">
+    <div class="container">
+        <div class="row contact-box">
+            <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+                <p>
+                    NASA Official:  <a href="mailto:carole.y.wagner@nasa.gov" class="footerLink" tabindex="56" title="mailto:carole.y.wagner@nasa.gov">Carole Wagner</a>
+                </p>
+            </section>
+
+            <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+                <p>
+                    <a href="https://www.nasa.gov/safety/reporting/safety_reporting.html" id="A1" class="footerLink" tabindex="57" title="NASA Safety Reporting System">NASA Safety Reporting System</a><br />
+                    <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" id="A2" class="footerLink" tabindex="58" title="Privacy and Legal Statements">Privacy and Legal Statements</a>
+                </p>
+            </section>
+
+            <section class="col-lg-4 col-md-4 col-xs-12 col-sm-4">
+                <p>
+                    Curator: <a href="https://esd.nasa.gov/esdportal" class="footerLink" tabindex="59" title="Curator:Julia M. Reynolds">
+                        Julia M. Reynolds
+                    </a> <br />
+                    Powered by the Athena Platform
+                </p>
+            </section>
+
+        </div>
+    </div>
+</div>
+<!-- Footer Top End -->
+<!-- Footer Bottom Start -->
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-12 col-md-12 col-xs-12 col-sm-12 contact-box">
+                <p class="footerBar">
+                    <strong>Business Hours -</strong> 6:30 am to 5:00 pm Monday - Friday, Central time,
+
+                    <i><b>(877) 677-2123,</b></i>
+
+                    <a href="https://esd.nasa.gov/esdportal" tabindex="108" title="https://esd.nasa.gov/esdportal">NASA Enterprise Service Desk</a>
+
+                </p>
+
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Bottom End -->
+    </footer>
+
+    <!-- Scroll To Top -->
+    <a href="#" class="scrollup" tabindex="109" title="Scroll Up"><i class="icon-angle-up"></i><div class="text-hide">Scroll</div></a>
+
+</body>
+</html>
+

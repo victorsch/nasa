@@ -1,0 +1,9 @@
+GET http://lunarscience.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 05:59:53 GMT
+< Content-Type: text/html
+< Content-Length: 134
+< Location: https://lunarscience.arc.nasa.gov:443/

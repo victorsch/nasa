@@ -1,0 +1,18 @@
+GET https://cmr.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Request-Id: o3AIuw1HSFOPI3Br3D3ebi49RpAeTXAxIId7GrQR908w5UQKNtMqIQ==
+< X-Frame-Options: SAMEORIGIN
+< X-Amz-Cf-Id: o3AIuw1HSFOPI3Br3D3ebi49RpAeTXAxIId7GrQR908w5UQKNtMqIQ==
+< Server: ServerTokens ProductOnly
+< Location: https://cmr.earthdata.nasa.gov:443/search
+< Via: 1.1 f9247b65ce15be5e9abf969e43362ca8.cloudfront.net (CloudFront)
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Miss from cloudfront
+< Content-Type: text/html
+< Content-Length: 134
+< Date: Tue, 19 Sep 2023 06:05:19 GMT

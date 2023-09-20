@@ -1,0 +1,13 @@
+GET https://maptis.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Kestrel
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:49:47 GMT
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: DENY
+< Set-Cookie: _91834=3e5323bbedb7a5e1; Path=/; HttpOnly; Secure
+< Set-Cookie: 8b18b6ed5b1cd131341f62be12e74769=f750faee84725a97b9996c9b8f32d2c0; path=/; HttpOnly; Secure; SameSite=None

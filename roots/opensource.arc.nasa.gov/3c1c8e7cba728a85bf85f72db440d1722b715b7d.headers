@@ -1,0 +1,12 @@
+GET https://opensource.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.nasa.gov/intelligent-systems-division
+< Content-Length: 257
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:51:10 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: default-src 'self'; img-src 'self' data:; object-src https://ti.ndc.nasa.gov/dataset/; script-src https://ti.ndc.nasa.gov/dataset; base-uri https://ti.ndc.nasa.gov/dataset; report-to http://ti.ndc.nasa.gov/dataset; form-action 'self'; frame-ancestors 'none';

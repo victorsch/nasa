@@ -1,0 +1,16 @@
+GET http://cmr.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:03:27 GMT
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Location: https://cmr.sit.earthdata.nasa.gov/
+< X-Amz-Cf-Pop: EWR53-C3
+< X-Amz-Cf-Id: 5fVILLkA6hdCoFEqvW1Zosj5lXlTZFAaHzGeK6tqZbvB8-6MmkpPEQ==
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 167
+< Via: 1.1 6f773b38a039c4c643665ffcabe35fd0.cloudfront.net (CloudFront)

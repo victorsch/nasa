@@ -1,0 +1,10 @@
+GET http://titan-server.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 156
+< Content-Type: text/html; charset=UTF-8
+< Location: https://titan-server.arc.nasa.gov
+< Server: Microsoft-IIS/8.5
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Tue, 19 Sep 2023 06:01:33 GMT

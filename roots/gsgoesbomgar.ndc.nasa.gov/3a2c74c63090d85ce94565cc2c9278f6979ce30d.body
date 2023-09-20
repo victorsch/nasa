@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Remote Support Portal | Powered by BOMGAR</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link href="/content/common.css" rel="stylesheet" type="text/css" />
+<link href="/content/public.css" rel="stylesheet" type="text/css" />
+<link href="/content/mobile.css" rel="stylesheet" type="text/css" />
+<link href="/content/portal-customizations.css?_c=0" rel="stylesheet" type="text/css" />
+<link href="/content/appliance.css" rel="stylesheet" type="text/css" />
+	<link href="/content/style.css" rel="stylesheet" type="text/css" />
+	<link href="/content/screen.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/content/mobile.css" rel="stylesheet" type="text/css" media="handheld" />
+
+<!--   NOTE: The following style block was added as part of the Bomgar Evaluation Kickstart settings
+	to better align the Customer Exit Survey questions. -->
+	<style type="text/css">
+		#exitSurveyBox table tbody tr td:first-child { width: 375px; }
+		/* 	Uncommenting the next line will align radio buttons vertically rather than horizontally if desired  */
+ 		/* 	#exitSurveyBox .group-td-vert.answers .choice { display:block; }   */
+	</style>
+
+	
+</head>
+<body>
+<div id="container">
+
+<div id="header" class="contentBox">
+	<div style="margin: 10px 0">
+		<span style="height: 41px; float: left;">
+			<a href="https://www.beyondtrust.com/" target="_blank">
+				
+			</a>
+		</span>
+		<div class="pageTitle" style="text-align: right; line-height: 1.5em;">
+			Support Portal
+		</div>
+		<div style="text-align:right"><img alt="Choose Your Language" title="Choose Your Language" src="/content/globe.gif"/><span class="language_selection" id="language_selection">
+		English (US)
+</span>
+</div>
+	</div>
+</div>
+
+
+
+	
+
+
+
+
+
+
+<div class="contentBox" id="sessionKeyBox">
+	<h1 class="sectionTitle">
+		<span>
+		Session Key
+		</span>
+			<a rel="help" title="Show Session Key Help Window" href="help?show_help=help_session_keys" target="_blank" class="popup-if-possible" data-open-options="toolbar=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, height=300, width=400" id="help_session_keys"><img src="/content/help_16.gif" alt="Show Session Key Help Window"/></a>
+
+	
+	</h1>
+	<div>
+	<form action="/check_access_key" method="get"
+      id="access_key_form">
+	<label id="access_key_pretty:label" for="access_key_pretty"
+		class="accessible">Session Key</label>
+	<input type="text" name="access_key_pretty" id="access_key_pretty" value=""
+		size="20" maxlength="20" autocomplete="off" />
+	<input type="submit" name="access_key_submit" id="access_key_submit"
+		value="Submit" />
+	<img src="/content/loading.gif" alt="" class="hidden"
+		id="session_key_loading_gif" />
+	<div id="access_key_error" class="hidden error"></div>
+</form>
+
+
+<span class="params"
+	id="access_key_params"
+	data-disable-clickonce="true"
+	data-enable-edge-clickonce="false"
+	data-chat-enabled="false"
+	data-current-locale="en-us"
+></span>
+<span class="params"
+	id="access_key_strings"
+	data-invalid-key="The key that you entered is not valid."
+	data-validation-error="Error validating access key."
+></span>
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="/content/lib/jquery.js"></script>
+<script type="text/javascript" src="/content/portal.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="/content/ie9_public.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/api/start_session.js"></script>
+<script type="text/javascript" src="/api/content/core.js"></script>
+<script type="text/javascript" src="/content/access_key_input.js"></script>
+
+
+<div id="footer" class="contentBox">
+	Copyright © 2002-2022 BeyondTrust Corporation. Redistribution Prohibited. All Rights Reserved.
+</div>
+
+<div style="margin: 1em;">
+	<a id="powered_by_text" href="https://www.beyondtrust.com/remote-support" class="inverse" target="_blank" rel="noopener">BeyondTrust Remote Support</a>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+GET http://events.jsc.nasa.gov
+
+
+< HTTP/1.1 308 Permanent Redirect
+< X-Frame-Options: SAMEORIGIN
+< X-Powered-By: appdat
+< X-Using-Nginx-Controller: true
+< Date: Tue, 19 Sep 2023 05:59:32 GMT
+< Content-Type: text/html
+< Location: https://events.jsc.nasa.gov
+< X-Content-Type-Options: nosniff
+< Content-Length: 164
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Xss-Protection: 1; mode=block

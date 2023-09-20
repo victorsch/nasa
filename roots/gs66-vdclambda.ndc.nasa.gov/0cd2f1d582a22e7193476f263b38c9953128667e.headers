@@ -1,0 +1,9 @@
+GET http://gs66-vdclambda.ndc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:53:54 GMT
+< Server: Apache
+< Location: https://gs66-vdclambda.ndc.nasa.gov/
+< Content-Length: 244
+< Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,13 @@
+GET http://smap.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://smap.jpl.nasa.gov/
+< X-Amz-Cf-Pop: EWR53-C2
+< X-Amz-Cf-Id: 8AawzVQhF6ojShMza5UVRFOBkM8rC-1ADEb_Bdk0GhWMAqbmfVb5mg==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:04:56 GMT
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 081adfb0526af4d4162283117d917418.cloudfront.net (CloudFront)

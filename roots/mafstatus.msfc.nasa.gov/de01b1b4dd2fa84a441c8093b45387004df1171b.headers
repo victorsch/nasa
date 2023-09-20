@@ -1,0 +1,15 @@
+GET https://mafstatus.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Pop: JFK52-P3
+< Date: Tue, 19 Sep 2023 06:02:23 GMT
+< X-Last-Reviewed: Thu, 01 Jan 2019
+< X-Cache: Miss from cloudfront
+< Via: 1.1 4e1c4d133adc8d8214916eeaddd7af66.cloudfront.net (CloudFront)
+< Server: goredirect/2013.08.12
+< Strict-Transport-Security: max-age=31536000
+< X-Amz-Cf-Id: MjNUVswCrSbLQSphL4_FU5bvKeXfc089E8yPTzb8ZUFGcpR7OseyvA==
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 76
+< Location: https://mafspace.msfc.nasa.gov/maf-status

@@ -1,0 +1,6734 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="ltr" dir="ltr" lang="en-US">
+
+<head>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&b=7201&t=1692530545381&/o/frontend-js-jquery-web/jquery/jquery.min.js&/o/frontend-js-jquery-web/jquery/bootstrap.bundle.min.js&/o/frontend-js-jquery-web/jquery/collapsible_search.js&/o/frontend-js-jquery-web/jquery/fm.js&/o/frontend-js-jquery-web/jquery/form.js&/o/frontend-js-jquery-web/jquery/popper.min.js&/o/frontend-js-jquery-web/jquery/side_navigation.js" type="text/javascript"></script>
+<link charset="utf-8" data-senna-track="permanent" href="/o/frontend-theme-font-awesome-web/css/main.css" rel="stylesheet"></script>
+
+
+<link href="https://dml.msfc.nasa.gov/o/dml-theme/images/favicon.ico" rel="icon" />
+
+
+
+
+
+		
+			
+				<link data-senna-track="temporary" href="https://dml.msfc.nasa.gov" rel="canonical" />
+			
+		
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://dml.msfc.nasa.gov/o/dml-theme/css/clay.css?browserId=other&amp;themeId=dmltheme_WAR_dmltheme&amp;minifierType=css&amp;languageId=en_US&amp;b=7201&amp;t=1692530622000" id="liferayAUICSS" rel="stylesheet" type="text/css" />
+
+
+
+<link data-senna-track="temporary" href="/o/frontend-css-web/main.css?browserId=other&amp;themeId=dmltheme_WAR_dmltheme&amp;minifierType=css&amp;languageId=en_US&amp;b=7201&amp;t=1573511642487" id="liferayPortalCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+		<link data-senna-track="temporary" href="/combo?browserId=other&amp;minifierType=&amp;themeId=dmltheme_WAR_dmltheme&amp;languageId=en_US&amp;b=7201&amp;com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch:%2Fsearch%2Fbar%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet:%2Fcss%2Fmain.css&amp;com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet:%2Fcss%2Fmain.css&amp;gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX:%2Fcss%2Fmain.css&amp;t=1692530622000" id="de8626a2" rel="stylesheet" type="text/css" />
+
+	
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		var Liferay = Liferay || {};
+
+		Liferay.Browser = {
+			acceptsGzip: function() {
+				return true;
+			},
+
+			
+
+			getMajorVersion: function() {
+				return 0;
+			},
+
+			getRevision: function() {
+				return '';
+			},
+			getVersion: function() {
+				return '';
+			},
+
+			
+
+			isAir: function() {
+				return false;
+			},
+			isChrome: function() {
+				return false;
+			},
+			isEdge: function() {
+				return false;
+			},
+			isFirefox: function() {
+				return false;
+			},
+			isGecko: function() {
+				return false;
+			},
+			isIe: function() {
+				return false;
+			},
+			isIphone: function() {
+				return false;
+			},
+			isLinux: function() {
+				return false;
+			},
+			isMac: function() {
+				return false;
+			},
+			isMobile: function() {
+				return false;
+			},
+			isMozilla: function() {
+				return false;
+			},
+			isOpera: function() {
+				return false;
+			},
+			isRtf: function() {
+				return false;
+			},
+			isSafari: function() {
+				return false;
+			},
+			isSun: function() {
+				return false;
+			},
+			isWebKit: function() {
+				return false;
+			},
+			isWindows: function() {
+				return false;
+			}
+		};
+
+		Liferay.Data = Liferay.Data || {};
+
+		Liferay.Data.ICONS_INLINE_SVG = true;
+
+		Liferay.Data.NAV_SELECTOR = '#navigation';
+
+		Liferay.Data.NAV_SELECTOR_MOBILE = '#navigationCollapse';
+
+		Liferay.Data.isCustomizationView = function() {
+			return false;
+		};
+
+		Liferay.Data.notices = [
+			null
+
+			
+
+			
+		];
+
+		Liferay.PortletKeys = {
+			DOCUMENT_LIBRARY: 'com_liferay_document_library_web_portlet_DLPortlet',
+			DYNAMIC_DATA_MAPPING: 'com_liferay_dynamic_data_mapping_web_portlet_DDMPortlet',
+			ITEM_SELECTOR: 'com_liferay_item_selector_web_portlet_ItemSelectorPortlet'
+		};
+
+		Liferay.PropsValues = {
+			JAVASCRIPT_SINGLE_PAGE_APPLICATION_TIMEOUT: 0,
+			NTLM_AUTH_ENABLED: false,
+			UPLOAD_SERVLET_REQUEST_IMPL_MAX_SIZE: 104857600
+		};
+
+		Liferay.ThemeDisplay = {
+
+			
+
+			
+				getLayoutId: function() {
+					return '1';
+				},
+
+				
+
+				getLayoutRelativeControlPanelURL: function() {
+					return '/group/guest/~/control_panel/manage';
+				},
+
+				getLayoutRelativeURL: function() {
+					return '/web/guest/home';
+				},
+				getLayoutURL: function() {
+					return 'https://dml.msfc.nasa.gov/web/guest/home';
+				},
+				getParentLayoutId: function() {
+					return '0';
+				},
+				isControlPanel: function() {
+					return false;
+				},
+				isPrivateLayout: function() {
+					return 'false';
+				},
+				isVirtualLayout: function() {
+					return false;
+				},
+			
+
+			getBCP47LanguageId: function() {
+				return 'en-US';
+			},
+			getCanonicalURL: function() {
+
+				
+
+				return 'https://dml.msfc.nasa.gov';
+			},
+			getCDNBaseURL: function() {
+				return 'https://dml.msfc.nasa.gov';
+			},
+			getCDNDynamicResourcesHost: function() {
+				return '';
+			},
+			getCDNHost: function() {
+				return '';
+			},
+			getCompanyGroupId: function() {
+				return '20128';
+			},
+			getCompanyId: function() {
+				return '20101';
+			},
+			getDefaultLanguageId: function() {
+				return 'en_US';
+			},
+			getDoAsUserIdEncoded: function() {
+				return '';
+			},
+			getLanguageId: function() {
+				return 'en_US';
+			},
+			getParentGroupId: function() {
+				return '20124';
+			},
+			getPathContext: function() {
+				return '';
+			},
+			getPathImage: function() {
+				return '/image';
+			},
+			getPathJavaScript: function() {
+				return '/o/frontend-js-web';
+			},
+			getPathMain: function() {
+				return '/c';
+			},
+			getPathThemeImages: function() {
+				return 'https://dml.msfc.nasa.gov/o/dml-theme/images';
+			},
+			getPathThemeRoot: function() {
+				return '/o/dml-theme';
+			},
+			getPlid: function() {
+				return '2';
+			},
+			getPortalURL: function() {
+				return 'https://dml.msfc.nasa.gov';
+			},
+			getScopeGroupId: function() {
+				return '20124';
+			},
+			getScopeGroupIdOrLiveGroupId: function() {
+				return '20124';
+			},
+			getSessionId: function() {
+				return '';
+			},
+			getSiteAdminURL: function() {
+				return 'https://dml.msfc.nasa.gov/group/guest/~/control_panel/manage?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view';
+			},
+			getSiteGroupId: function() {
+				return '20124';
+			},
+			getURLControlPanel: function() {
+				return '/group/control_panel?refererPlid=2';
+			},
+			getURLHome: function() {
+				return 'https\x3a\x2f\x2fdml\x2emsfc\x2enasa\x2egov\x2fweb\x2fguest';
+			},
+			getUserEmailAddress: function() {
+				return '';
+			},
+			getUserId: function() {
+				return '20105';
+			},
+			getUserName: function() {
+				return '';
+			},
+			isAddSessionIdToURL: function() {
+				return false;
+			},
+			isImpersonated: function() {
+				return false;
+			},
+			isSignedIn: function() {
+				return false;
+			},
+			isStateExclusive: function() {
+				return false;
+			},
+			isStateMaximized: function() {
+				return false;
+			},
+			isStatePopUp: function() {
+				return false;
+			}
+		};
+
+		var themeDisplay = Liferay.ThemeDisplay;
+
+		Liferay.AUI = {
+
+			
+
+			getAvailableLangPath: function() {
+				return 'available_languages.jsp?browserId=other&themeId=dmltheme_WAR_dmltheme&colorSchemeId=01&minifierType=js&languageId=en_US&b=7201&t=1692530491208';
+			},
+			getCombine: function() {
+				return true;
+			},
+			getComboPath: function() {
+				return '/combo/?browserId=other&minifierType=&languageId=en_US&b=7201&t=1573511642052&';
+			},
+			getDateFormat: function() {
+				return '%m/%d/%Y';
+			},
+			getEditorCKEditorPath: function() {
+				return '/o/frontend-editor-ckeditor-web';
+			},
+			getFilter: function() {
+				var filter = 'raw';
+
+				
+					
+						filter = 'min';
+					
+					
+
+				return filter;
+			},
+			getFilterConfig: function() {
+				var instance = this;
+
+				var filterConfig = null;
+
+				if (!instance.getCombine()) {
+					filterConfig = {
+						replaceStr: '.js' + instance.getStaticResourceURLParams(),
+						searchExp: '\\.js$'
+					};
+				}
+
+				return filterConfig;
+			},
+			getJavaScriptRootPath: function() {
+				return '/o/frontend-js-web';
+			},
+			getLangPath: function() {
+				return 'aui_lang.jsp?browserId=other&themeId=dmltheme_WAR_dmltheme&colorSchemeId=01&minifierType=js&languageId=en_US&b=7201&t=1573511642052';
+			},
+			getPortletRootPath: function() {
+				return '/html/portlet';
+			},
+			getStaticResourceURLParams: function() {
+				return '?browserId=other&minifierType=&languageId=en_US&b=7201&t=1573511642052';
+			}
+		};
+
+		Liferay.authToken = 'cnglbM9w';
+
+		
+
+		Liferay.currentURL = '\x2f';
+		Liferay.currentURLEncoded = '\x252F';
+	// ]]>
+</script>
+
+<script src="/o/js_loader_config?t=1692530545390" type="text/javascript"></script>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&b=7201&t=1573511642052&/o/frontend-js-web/loader/config.js&/o/frontend-js-web/loader/loader.js&/o/frontend-js-web/aui/aui/aui.js&/o/frontend-js-web/aui/aui-base-html5-shiv/aui-base-html5-shiv.js&/o/frontend-js-web/liferay/browser_selectors.js&/o/frontend-js-web/liferay/modules.js&/o/frontend-js-web/liferay/aui_sandbox.js&/o/frontend-js-web/misc/svg4everybody.js&/o/frontend-js-web/aui/arraylist-add/arraylist-add.js&/o/frontend-js-web/aui/arraylist-filter/arraylist-filter.js&/o/frontend-js-web/aui/arraylist/arraylist.js&/o/frontend-js-web/aui/array-extras/array-extras.js&/o/frontend-js-web/aui/array-invoke/array-invoke.js&/o/frontend-js-web/aui/attribute-base/attribute-base.js&/o/frontend-js-web/aui/attribute-complex/attribute-complex.js&/o/frontend-js-web/aui/attribute-core/attribute-core.js&/o/frontend-js-web/aui/attribute-observable/attribute-observable.js&/o/frontend-js-web/aui/attribute-extras/attribute-extras.js&/o/frontend-js-web/aui/base-base/base-base.js&/o/frontend-js-web/aui/base-pluginhost/base-pluginhost.js&/o/frontend-js-web/aui/classnamemanager/classnamemanager.js&/o/frontend-js-web/aui/datatype-xml-format/datatype-xml-format.js&/o/frontend-js-web/aui/datatype-xml-parse/datatype-xml-parse.js&/o/frontend-js-web/aui/dom-base/dom-base.js&/o/frontend-js-web/aui/dom-core/dom-core.js&/o/frontend-js-web/aui/dom-screen/dom-screen.js&/o/frontend-js-web/aui/dom-style/dom-style.js&/o/frontend-js-web/aui/event-base/event-base.js&/o/frontend-js-web/aui/event-custom-base/event-custom-base.js&/o/frontend-js-web/aui/event-custom-complex/event-custom-complex.js&/o/frontend-js-web/aui/event-delegate/event-delegate.js&/o/frontend-js-web/aui/event-focus/event-focus.js&/o/frontend-js-web/aui/event-hover/event-hover.js&/o/frontend-js-web/aui/event-key/event-key.js&/o/frontend-js-web/aui/event-mouseenter/event-mouseenter.js&/o/frontend-js-web/aui/event-mousewheel/event-mousewheel.js" type="text/javascript"></script>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&b=7201&t=1573511642052&/o/frontend-js-web/aui/event-outside/event-outside.js&/o/frontend-js-web/aui/event-resize/event-resize.js&/o/frontend-js-web/aui/event-simulate/event-simulate.js&/o/frontend-js-web/aui/event-synthetic/event-synthetic.js&/o/frontend-js-web/aui/intl/intl.js&/o/frontend-js-web/aui/io-base/io-base.js&/o/frontend-js-web/aui/io-form/io-form.js&/o/frontend-js-web/aui/io-queue/io-queue.js&/o/frontend-js-web/aui/io-upload-iframe/io-upload-iframe.js&/o/frontend-js-web/aui/io-xdr/io-xdr.js&/o/frontend-js-web/aui/json-parse/json-parse.js&/o/frontend-js-web/aui/json-stringify/json-stringify.js&/o/frontend-js-web/aui/node-base/node-base.js&/o/frontend-js-web/aui/node-core/node-core.js&/o/frontend-js-web/aui/node-event-delegate/node-event-delegate.js&/o/frontend-js-web/aui/node-event-simulate/node-event-simulate.js&/o/frontend-js-web/aui/node-focusmanager/node-focusmanager.js&/o/frontend-js-web/aui/node-pluginhost/node-pluginhost.js&/o/frontend-js-web/aui/node-screen/node-screen.js&/o/frontend-js-web/aui/node-style/node-style.js&/o/frontend-js-web/aui/oop/oop.js&/o/frontend-js-web/aui/plugin/plugin.js&/o/frontend-js-web/aui/pluginhost-base/pluginhost-base.js&/o/frontend-js-web/aui/pluginhost-config/pluginhost-config.js&/o/frontend-js-web/aui/querystring-stringify-simple/querystring-stringify-simple.js&/o/frontend-js-web/aui/queue-promote/queue-promote.js&/o/frontend-js-web/aui/selector-css2/selector-css2.js&/o/frontend-js-web/aui/selector-css3/selector-css3.js&/o/frontend-js-web/aui/selector-native/selector-native.js&/o/frontend-js-web/aui/selector/selector.js&/o/frontend-js-web/aui/widget-base/widget-base.js&/o/frontend-js-web/aui/widget-htmlparser/widget-htmlparser.js&/o/frontend-js-web/aui/widget-skin/widget-skin.js&/o/frontend-js-web/aui/widget-uievents/widget-uievents.js&/o/frontend-js-web/aui/yui-throttle/yui-throttle.js&/o/frontend-js-web/aui/aui-base-core/aui-base-core.js" type="text/javascript"></script>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&b=7201&t=1573511642052&/o/frontend-js-web/aui/aui-base-lang/aui-base-lang.js&/o/frontend-js-web/aui/aui-classnamemanager/aui-classnamemanager.js&/o/frontend-js-web/aui/aui-component/aui-component.js&/o/frontend-js-web/aui/aui-debounce/aui-debounce.js&/o/frontend-js-web/aui/aui-delayed-task-deprecated/aui-delayed-task-deprecated.js&/o/frontend-js-web/aui/aui-event-base/aui-event-base.js&/o/frontend-js-web/aui/aui-event-input/aui-event-input.js&/o/frontend-js-web/aui/aui-form-validator/aui-form-validator.js&/o/frontend-js-web/aui/aui-node-base/aui-node-base.js&/o/frontend-js-web/aui/aui-node-html5/aui-node-html5.js&/o/frontend-js-web/aui/aui-selector/aui-selector.js&/o/frontend-js-web/aui/aui-timer/aui-timer.js&/o/frontend-js-web/liferay/dependency.js&/o/frontend-js-web/liferay/dom_task_runner.js&/o/frontend-js-web/liferay/events.js&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/liferay/lazy_load.js&/o/frontend-js-web/liferay/liferay.js&/o/frontend-js-web/liferay/util.js&/o/frontend-js-web/liferay/global.bundle.js&/o/frontend-js-web/liferay/portal.js&/o/frontend-js-web/liferay/portlet.js&/o/frontend-js-web/liferay/workflow.js&/o/frontend-js-web/liferay/form.js&/o/frontend-js-web/liferay/form_placeholders.js&/o/frontend-js-web/liferay/icon.js&/o/frontend-js-web/liferay/menu.js&/o/frontend-js-web/liferay/notice.js&/o/frontend-js-web/liferay/poller.js&/o/frontend-js-web/aui/async-queue/async-queue.js&/o/frontend-js-web/aui/base-build/base-build.js&/o/frontend-js-web/aui/cookie/cookie.js&/o/frontend-js-web/aui/event-touch/event-touch.js&/o/frontend-js-web/aui/overlay/overlay.js&/o/frontend-js-web/aui/querystring-stringify/querystring-stringify.js&/o/frontend-js-web/aui/widget-child/widget-child.js&/o/frontend-js-web/aui/widget-position-align/widget-position-align.js&/o/frontend-js-web/aui/widget-position-constrain/widget-position-constrain.js&/o/frontend-js-web/aui/widget-position/widget-position.js" type="text/javascript"></script>
+<script data-senna-track="permanent" src="/combo?browserId=other&minifierType=js&languageId=en_US&b=7201&t=1573511642052&/o/frontend-js-web/aui/widget-stack/widget-stack.js&/o/frontend-js-web/aui/widget-stdmod/widget-stdmod.js&/o/frontend-js-web/aui/aui-aria/aui-aria.js&/o/frontend-js-web/aui/aui-io-plugin-deprecated/aui-io-plugin-deprecated.js&/o/frontend-js-web/aui/aui-io-request/aui-io-request.js&/o/frontend-js-web/aui/aui-loading-mask-deprecated/aui-loading-mask-deprecated.js&/o/frontend-js-web/aui/aui-overlay-base-deprecated/aui-overlay-base-deprecated.js&/o/frontend-js-web/aui/aui-overlay-context-deprecated/aui-overlay-context-deprecated.js&/o/frontend-js-web/aui/aui-overlay-manager-deprecated/aui-overlay-manager-deprecated.js&/o/frontend-js-web/aui/aui-overlay-mask-deprecated/aui-overlay-mask-deprecated.js&/o/frontend-js-web/aui/aui-parse-content/aui-parse-content.js&/o/frontend-js-web/liferay/layout_exporter.js&/o/frontend-js-web/liferay/session.js&/o/frontend-js-web/liferay/deprecated.js" type="text/javascript"></script>
+
+
+
+
+	
+
+	<script data-senna-track="temporary" src="/o/js_bundle_config?t=1692530592146" type="text/javascript"></script>
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	// <![CDATA[
+		
+			
+				
+		
+
+		
+
+		
+	// ]]>
+</script>
+
+
+
+
+
+	
+		
+
+			
+
+			
+		
+		
+
+
+
+	
+		
+
+			
+
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link class="lfr-css-file" data-senna-track="temporary" href="https://dml.msfc.nasa.gov/o/dml-theme/css/main.css?browserId=other&amp;themeId=dmltheme_WAR_dmltheme&amp;minifierType=css&amp;languageId=en_US&amp;b=7201&amp;t=1692530622000" id="liferayThemeCSS" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+
+	<style data-senna-track="temporary" type="text/css">
+
+		
+
+			
+
+				
+
+					
+
+#p_p_id_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_ .portlet-content {
+
+}
+
+
+
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	</style>
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.Loader.require('frontend-js-spa-web@3.0.22/liferay/init.es', function(frontendJsSpaWeb3022LiferayInitEs) {
+(function(){
+var frontendJsSpaWebLiferayInitEs = frontendJsSpaWeb3022LiferayInitEs;
+(function() {var $ = AUI.$;var _ = AUI._;
+
+Liferay.SPA = Liferay.SPA || {};
+Liferay.SPA.cacheExpirationTime = -1;
+Liferay.SPA.clearScreensCache = false;
+Liferay.SPA.debugEnabled = false;
+Liferay.SPA.excludedPaths = ["/documents","/image"];
+Liferay.SPA.loginRedirect = '';
+Liferay.SPA.navigationExceptionSelectors = ':not([target="_blank"]):not([data-senna-off]):not([data-resource-href]):not([data-cke-saved-href]):not([data-cke-saved-href])';
+Liferay.SPA.requestTimeout = 0;
+Liferay.SPA.userNotification = {
+	message: 'It looks like this is taking longer than expected.',
+	timeout: 30000,
+	title: 'Oops'
+};
+
+frontendJsSpaWebLiferayInitEs.default.init(
+	function(app) {
+		app.setPortletsBlacklist({"com_liferay_site_navigation_directory_web_portlet_SitesDirectoryPortlet":true,"com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet":true,"com_liferay_login_web_portlet_LoginPortlet":true,"com_liferay_login_web_portlet_FastLoginPortlet":true});
+		app.setValidStatusCodes([221,490,494,499,491,492,493,495,220]);
+	}
+);})();})();
+});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script data-senna-track="temporary" type="text/javascript">
+	if (window.Analytics) {
+		window._com_liferay_document_library_analytics_isViewFileEntry = false;
+	}
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+Liferay.on(
+	'ddmFieldBlur', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldBlurred',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					focusDuration: event.focusDuration,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFieldFocus', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'fieldFocused',
+				'Form',
+				{
+					fieldName: event.fieldName,
+					formId: event.formId,
+					page: event.page - 1
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormPageShow', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'pageViewed',
+				'Form',
+				{
+					formId: event.formId,
+					page: event.page,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormSubmit', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formSubmitted',
+				'Form',
+				{
+					formId: event.formId
+				}
+			);
+		}
+	}
+);
+
+Liferay.on(
+	'ddmFormView', function(event) {
+		if (window.Analytics) {
+			Analytics.send(
+				'formViewed',
+				'Form',
+				{
+					formId: event.formId,
+					title: event.title
+				}
+			);
+		}
+	}
+);
+// ]]>
+</script>
+
+
+
+
+
+
+
+</head>
+
+<body class="   yui3-skin-sam guest-site signed-out public-page site">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<nav class="quick-access-nav" id="zcid_quickAccessNav">
+		<h1 class="hide-accessible">Navigation</h1>
+
+		<ul>
+			
+				<li><a href="#main-content">Skip to Content</a></li>
+			
+
+			
+
+		</ul>
+	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script src="https://dml.msfc.nasa.gov/o/dml-theme/js/theme.js" type="text/javascript"></script>
+
+
+
+
+<br><br><br>
+<div class="pt-0" id="wrapper">
+<div class="row">
+	<div class="col"></div>
+	<div class="col-6">
+		<h1 class="text-center strong">MSFC Directives Master List</h1>
+	</div>
+	<div class="col"></div>
+</div>
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		<h4 class="text-center text-danger">ATTENTION: A directive
+			(Document No.) is uncontrolled when downloaded and/or printed. Only
+			the electronic copy is the approved version for use.</h4>
+	</div>
+	<div class="col-3"></div>
+</div>
+
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#activeDir">Search Active</a></li>
+  <li><a data-toggle="tab" href="#cancelledDir">Search Cancelled</a></li> 
+</ul>
+
+<div class="tab-content">
+  <div id="activeDir" class="tab-pane fade in active">
+  <span class="label label-primary">Search Active Directives:</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_  portlet-static portlet-static-end portlet-barebone portlet-search-bar " id="p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_">
+		<span id="p_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch">
+
+
+	<div class="portlet-content">
+
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://dml.msfc.nasa.gov/web/guest/search" class="form  " data-fm-namespace="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm" method="get" name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_formDate"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_formDate"     type="hidden" value="1695103003903"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+			
+
+			<fieldset class="fieldset search-bar" ><div class="">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field search-bar-empty-search-input form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_emptySearchEnabled"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_emptySearchEnabled"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+				<div class="input-group search-bar-simple">
+					
+						
+						
+							<div class="input-group-item search-bar-keywords-input-wrapper">
+								<input class="form-control input-group-inset input-group-inset-after search-bar-keywords-input" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_qtiv" name="q" placeholder="Search..." title="Search" type="text" value="" />
+
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_scope"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+								<div class="input-group-inset-item input-group-inset-item-after search-bar-search-button-wrapper">
+									<button class="btn search-bar-search-button btn-unstyled" aria-label="Submit" id="rhhl" type="submit"><svg class="lexicon-icon lexicon-icon-search" focusable="false" role="presentation"><use xlink:href="https://dml.msfc.nasa.gov/o/dml-theme/images/clay/icons.svg#search"/></svg></button>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div></fieldset>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch') {
+			delete Liferay.Form._INSTANCES['_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_formReady',
+		{
+			formName: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm'
+		}
+	);
+})();});
+// ]]>
+</script>
+
+		<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-search-bar', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+			new Liferay.Search.SearchBar(A.one('#_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_fm'));
+		})();});
+// ]]>
+</script>
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+  </div>
+  <div id="cancelledDir" class="tab-pane fade">
+  <span class="label label-warning">Search Cancelled Directives:</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_  portlet-static portlet-static-end portlet-barebone portlet-search-bar " id="p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_">
+		<span id="p_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled">
+
+
+	<div class="portlet-content">
+
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="https://dml.msfc.nasa.gov/web/guest/search-cancelled" class="form  " data-fm-namespace="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm" method="get" name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm" >
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_formDate"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_formDate"     type="hidden" value="1695103003906"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+			
+
+			<fieldset class="fieldset search-bar" ><div class="">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field search-bar-empty-search-input form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_emptySearchEnabled"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_emptySearchEnabled"     type="hidden" value="false"   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+				<div class="input-group search-bar-simple">
+					
+						
+						
+							<div class="input-group-item search-bar-keywords-input-wrapper">
+								<input class="form-control input-group-inset input-group-inset-after search-bar-keywords-input" data-qa-id="searchInput" id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_uofg" name="q" placeholder="Search..." title="Search" type="text" value="" />
+
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_scope"    name="_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_scope"     type="hidden" value=""   />
+			
+		
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+								<div class="input-group-inset-item input-group-inset-item-after search-bar-search-button-wrapper">
+									<button class="btn search-bar-search-button btn-unstyled" aria-label="Submit" id="tqha" type="submit"><svg class="lexicon-icon lexicon-icon-search" focusable="false" role="presentation"><use xlink:href="https://dml.msfc.nasa.gov/o/dml-theme/images/clay/icons.svg#search"/></svg></button>
+								</div>
+							</div>
+						
+					
+				</div>
+			</div></fieldset>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+</form>
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-form', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	Liferay.Form.register(
+		{
+			id: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm'
+
+			
+				, fieldRules: [
+
+					
+
+				]
+			
+
+			
+
+			, validateOnBlur: true
+		}
+	);
+
+	var onDestroyPortlet = function(event) {
+		if (event.portletId === 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled') {
+			delete Liferay.Form._INSTANCES['_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm'];
+		}
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	
+
+	Liferay.fire(
+		'_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_formReady',
+		{
+			formName: '_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm'
+		}
+	);
+})();});
+// ]]>
+</script>
+
+		<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-search-bar', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+			new Liferay.Search.SearchBar(A.one('#_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_fm'));
+		})();});
+// ]]>
+</script>
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+  </div> 
+</div>
+	</div>
+	<div class="col-3"></div>
+</div>
+
+		<header id="banner">
+			<div class="navbar navbar-classic navbar-top py-3">
+				<div class="container user-personal-bar">
+					<div class="align-items-center autofit-row">
+				</div>
+			</div>
+
+		<div class="navbar navbar-classic navbar-expand-md navbar-light pb-3">
+				<div class="container">
+					<a class="logo custom-logo align-items-center d-inline-flex d-md-none logo-xs" href="https://dml.msfc.nasa.gov/web/guest" rel="nofollow">
+						<img alt="" class="mr-2" height="56" src="/image/layout_set_logo?img_id=34052&amp;t=1692530621561" />
+
+							<h2 class="font-weight-bold h2 mb-0 text-dark">MSFC DML</h2>
+					</a>
+
+<!--	<button aria-controls="navigationCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navigationCollapse" data-toggle="collapse" type="button">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div aria-expanded="false" class="collapse navbar-collapse" id="navigationCollapse">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_  portlet-static portlet-static-end portlet-barebone portlet-navigation " id="p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_">
+		<span id="p_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+
+
+	<div class="portlet-content">
+
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+	<div id="navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet">
+		<ul aria-label="Site Pages" class="navbar-blank navbar-nav navbar-site" role="menubar">
+
+
+
+
+
+
+					<li class="lfr-nav-item nav-item selected active" id="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_1" role="presentation">
+						<a aria-labelledby="layout_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_1"  class="nav-link text-truncate" href='https://dml.msfc.nasa.gov/web/guest/home'  role="menuitem">
+							<span class="text-truncate"> Home </span>
+						</a>
+
+					</li>
+		</ul>
+	</div>
+
+<script type="text/javascript">
+// <![CDATA[
+AUI().use('liferay-navigation-interaction', function(A) {(function() {var $ = AUI.$;var _ = AUI._;		var navigation = A.one('#navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+
+		Liferay.Data.NAV_INTERACTION_LIST_SELECTOR = '.navbar-site';
+		Liferay.Data.NAV_LIST_SELECTOR = '.navbar-site';
+
+		if (navigation) {
+			navigation.plug(Liferay.NavigationInteraction);
+		}
+})();});
+// ]]>
+</script>
+	
+	
+	
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+	</div> -->
+				</div>
+			</div> 
+		</header>
+
+	<section class="container mt-4" id="content">
+		<h2 class="sr-only" role="heading" aria-level="1">Home</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="columns-1" id="main-content" role="main">
+	<div class="portlet-layout row">
+		<div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+			<div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<div class="portlet-boundary portlet-boundary_gov_nasa_msfc_dml_DMLPortlet_  portlet-static portlet-static-end portlet-barebone  " id="p_p_id_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_">
+		<span id="p_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX"></span>
+
+
+
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+<section class="portlet" id="portlet_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX">
+
+
+	<div class="portlet-content">
+
+
+
+		
+			<div class=" portlet-content-container">
+				
+
+
+	<div class="portlet-body">
+
+
+
+	
+		
+			
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+				
+
+				
+					
+						
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script
+	src="https://cdn.datatables.net/1.10.8/js/jquery.dataTables.min.js"></script>
+<script
+	src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script
+	src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+<script
+	src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script
+	src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+<script
+	src="https://cdn.datatables.net/colreorder/1.5.1/js/dataTables.colReorder.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.8/css/jquery.dataTables.css">
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/colreorder/1.5.1/css/colReorder.dataTables.min.css">
+
+<!-- MODAL FOR GOV WARNING -->
+<div class="modalRIDWarning">
+	<!-- Modal content -->
+	<div class="modal-contentRIDWarning">
+		<div class="modal-header">
+			<h3 class="text-danger">WARNING:</h3>
+		</div>
+			
+		<h5>
+			By accessing and using this information system, you acknowledge and consent to the following:
+			You are accessing a U.S. Government information system, which includes: (1) this computer; (2) this computer network;
+			(3) all computers connected to this network including end user systems; (4) all devices and storage media attached to this network or to any computer on this network;
+			and (5) cloud and remote information services. This information system is provided for U.S. Government-authorized use only. You have no
+			reasonable expectation of privacy regarding any communication transmitted through or data stored on this information system.
+			At any time, and for any lawful purpose, the U.S. Government may monitor, intercept, search, and seize any communication or data transiting, stored on, or travelling,
+			to or from this information system. You are not authorized to process classified information on this information system. Unauthorized or improper use of this system may result
+			in suspension or loss of access privileges, disciplinary action, and civil and/or criminal penalties.
+		</h5>
+			
+			<div class="button-holder mx-auto" style="width: 500px; text-align: center;" >
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<button
+			class="btn btn btn-info btn-primary btn-default"
+
+			
+
+			id="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mbzv"
+
+			
+
+			
+
+			type="submit"
+
+			
+			onclick="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_closeWarningModal()" 
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">Accept</span>
+
+
+
+
+
+	
+		</button>
+	
+
+
+
+
+
+
+	
+			</div> 
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+	
+	
+
+
+
+	
+	
+	
+
+
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		
+		<h4 class="text-center text-info">
+			Current as of
+			Tuesday, Sep 19, 2023 05:56:43 AM
+			GMT
+		</h4>
+	</div>
+	<div class="col-3"></div>
+</div>
+
+
+<div class="text-center">
+	<div class="button-holder " >
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<button
+			class="btn btn-default"
+
+			
+
+			id="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_directivesBtn"
+
+			
+
+			
+
+			type="button"
+
+			
+			onclick="window.open('https://nodis3.gsfc.nasa.gov/main_lib.cfm');" 
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">NASA Directives</span>
+
+
+
+
+
+	
+		</button>
+	
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<button
+			class="btn btn-default"
+
+			
+
+			id="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_fdbkBtn"
+
+			
+
+			
+				onClick="location.href='mailto:wendy.l.sullivan@nasa.gov; kerry.b.warner@nasa.gov';"
+			
+
+			type="button"
+
+			
+			
+		>
+	
+
+
+
+
+
+	<span class="lfr-btn-label">Feedback</span>
+
+
+
+
+
+	
+		</button>
+	
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a
+			class="btn btn-default"
+			href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcRenderCommandName=%2FviewRecords&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcPath=%2Fview.jsp&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_viewCancelled=false"
+			id="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_igvz"
+
+			
+				onClick="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcRenderCommandName=%2FviewRecords&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcPath=%2Fview.jsp&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_viewCancelled=false"
+			
+
+			
+			
+		>
+	
+	
+
+
+
+
+	<span class="lfr-btn-label">Master List</span>
+
+
+
+
+
+	
+		</a>
+	
+	
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a
+			class="btn btn-default"
+			href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcRenderCommandName=%2FviewRecords&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcPath=%2Fview.jsp&amp;_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_viewCancelled=true"
+			id="_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_tpxl"
+
+			
+				onClick="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcRenderCommandName=%2FviewRecords&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_mvcPath=%2Fview.jsp&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_viewCancelled=true"
+			
+
+			
+			
+		>
+	
+	
+
+
+
+
+	<span class="lfr-btn-label">Cancellation List</span>
+
+
+
+
+
+	
+		</a>
+	
+	
+
+
+
+
+
+
+		
+		
+		
+		
+	</div>
+</div>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		<h3 class="text-center ">Master Directives List</h3>
+	</div>
+	<div class="col-3"></div>
+</div>
+
+
+<table id="dml_EntityList" class="display" style="width: 100%">
+	<thead>
+		<tr>
+			<th>Document Number</th>
+			<th>Revision</th>
+			<th>Type</th>
+			<th>Effective Date</th>
+			<th>Expiration Date</th>
+			<th>Title</th>
+			<th>Responsible Office</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Governance_REV_D_20221123175951.pdf">1000.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D</td>
+			<td>MPD</td>
+			<td>11/30/17</td>
+			<td>11/30/27</td>
+			<td>MSFC Governance</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=66"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Center+Continuity+of+Operations+%28COOP%29+Management+Team+%28CCMT%29+Plan_REV_Baseline_20230209211028.pdf">1040.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline</td>
+			<td>MCP</td>
+			<td>03/02/15</td>
+			<td>03/02/25</td>
+			<td>Center Continuity of Operations (COOP) Management Team (CCMT) Plan</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=106"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Emergency+Plan_REV_Baseline_20230209211050.pdf">1040.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline</td>
+			<td>MCP</td>
+			<td>03/02/15</td>
+			<td>03/02/25</td>
+			<td>MSFC Emergency Plan</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=107"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MAF+Continuity+of+Operations+%28COOP%29+Plan_REV_B-3_20220721185341.pdf">1040.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B-3</td>
+			<td>MCP</td>
+			<td>07/20/22</td>
+			<td>07/20/27</td>
+			<td>MAF Continuity of Operations (COOP) Plan</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=705"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MAF+Emergency+Plan_REV_C-3_20220721185426.pdf">1040.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C-3</td>
+			<td>MCP</td>
+			<td>07/20/22</td>
+			<td>07/20/27</td>
+			<td>MAF Emergency Plan</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=58"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Procedure+for+Executing+Agreements+with+Non-MSFC+Entities-With+Change+1+%283-17-23%29_REV_F-1_20230317164148.pdf">1050.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F-1</td>
+			<td>MPR</td>
+			<td>05/28/19</td>
+			<td>05/28/24</td>
+			<td>Procedure for Executing Agreements with Non-MSFC Entities/With Change 1 (3/17/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=83"><h5
+						class="align-self-center">ST01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Marshall+Space+Flight+Center+Organization_REV_G_20220420205000.pdf">1100.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MPR</td>
+			<td>04/20/22</td>
+			<td>04/20/27</td>
+			<td>Marshall Space Flight Center Organization</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=48"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Establishment+of+Councils%2C+Boards%2C+and+Committees-With+Change+4+%284-13-22%29_REV_G-4_20220414140805.pdf">1150.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G-4</td>
+			<td>MPD</td>
+			<td>11/06/14</td>
+			<td>11/06/24</td>
+			<td>Establishment of Councils, Boards, and Committees/With Change 4 (4/13/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=100"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Delegations+of+Authority+for+Marshall+Space+Flight+Center+%28MSFC%29-with+Change+5+%287-20-23%29_REV_N-5_20230720172636.pdf">1200.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>N-5</td>
+			<td>MPD</td>
+			<td>07/21/17</td>
+			<td>07/21/27</td>
+			<td>Delegations of Authority for Marshall Space Flight Center (MSFC)/with Change 5 (7/20/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=704"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Quality+Management+System+Policy-With+Change+2+%281-10-22%29_REV_Y-2_20220110143853.pdf">1280.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Y-2</td>
+			<td>MPD</td>
+			<td>09/24/19</td>
+			<td>09/24/24</td>
+			<td>MSFC Quality Management System Policy/With Change 2 (1/10/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=94"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Guidance+for+Continual+Improvement-With+Change+3+%2812-3-21%29_REV_E-3_20211207185351.pdf">1280.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E-3</td>
+			<td>MGM</td>
+			<td>07/20/15</td>
+			<td></td>
+			<td>Guidance for Continual Improvement/With Change 3 (12-3-21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=122"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Marshall+Quality+Management+System_REV_E_20230517191107.pdf">1280.10</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E</td>
+			<td>MPR</td>
+			<td>05/17/23</td>
+			<td>05/17/28</td>
+			<td>Marshall Quality Management System</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=701"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Process+Control-With+Change+1+%283-21-16%29_REV_H-1_20201219004453.pdf">1280.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-1</td>
+			<td>MPR</td>
+			<td>03/01/16</td>
+			<td>03/01/26</td>
+			<td>Process Control-With Change 1 (3-21-16)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=18"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Corrective+Action+System_REV_O_20211221142235.pdf">1280.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>O</td>
+			<td>MPR</td>
+			<td>12/16/21</td>
+			<td>12/16/26</td>
+			<td>MSFC Corrective Action System</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=97"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+ALERT+Processing_REV_N.pdf">1280.5</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>N</td>
+			<td>MWI</td>
+			<td>09/24/19</td>
+			<td>09/24/24</td>
+			<td>MSFC ALERT Processing</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=86"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Management+Systems+Internal+Audits_REV_Q_20221130192649.pdf">1280.6</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Q</td>
+			<td>MPR</td>
+			<td>11/30/22</td>
+			<td>11/30/27</td>
+			<td>Management Systems Internal Audits</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=37"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Customer+Satisfaction-With+Change+1+%282-17-23%29_REV_J-1_20230218015134.pdf">1280.8</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-1</td>
+			<td>MPR</td>
+			<td>07/07/22</td>
+			<td>07/07/27</td>
+			<td>Customer Satisfaction/With Change 1 (2/17/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=105"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Release+of+Information+to+News+and+Information+Media-With+Change+2+%285-26-22%29_REV_I-2_20230731164815.pdf">1380.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I-2</td>
+			<td>MPD</td>
+			<td>07/31/13</td>
+			<td>07/31/28</td>
+			<td>Release of Information to News and Information Media/With Change 2 (5/26/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=72"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Center+Public+Exhibits+Process-With+Change+2+%284-4-23%29_REV_G-2_20230404172606.pdf">1380.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G-2</td>
+			<td>MPR</td>
+			<td>04/11/13</td>
+			<td>04/11/28</td>
+			<td>Center Public Exhibits Process/With Change 2 (4/4/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=71"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Processing+Marshall+Directives-With+Change+2+%284-21-23%29_REV_H-2_20230421141344.pdf">1410.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-2</td>
+			<td>MWI</td>
+			<td>05/25/21</td>
+			<td>05/25/26</td>
+			<td>Processing Marshall Directives/With Change 2 (4/21/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=19"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Organizational+Issuances-With+Change+3+%283-31-22%29_REV_G-3_20230110154607.pdf">1410.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G-3</td>
+			<td>MPR</td>
+			<td>01/31/13</td>
+			<td>01/31/28</td>
+			<td>Organizational Issuances/With Change 3 (3-31-22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=69"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Marshall+Directives+System-With+Change+2+%283-30-23%29_REV_L-2_20230330163336.pdf">1410.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-2</td>
+			<td>MPR</td>
+			<td>05/25/21</td>
+			<td>05/25/26</td>
+			<td>Marshall Directives System/With Change 2 (3/30/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=20"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Marshall+Center+Plans+and+Charters+for+Executive+Councils%2C+Boards%2C+and+Committees-With+Change+5+%284-18-23%29_REV_A-5_20230418162943.pdf">1410.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-5</td>
+			<td>MPR</td>
+			<td>03/16/20</td>
+			<td>03/16/25</td>
+			<td>Marshall Center Plans and Charters for Executive Councils, Boards, and Committees/With Change 5 (4/18/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=121"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Forms+Management+Program_REV_R_20200831230215.pdf">1420.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>R</td>
+			<td>MPR</td>
+			<td>09/09/15</td>
+			<td>09/09/25</td>
+			<td>MSFC Forms Management Program</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=10"><h5
+						class="align-self-center">IS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Guidance+for+Vital+Records+Management-With+Change+5+%288-18-21%29_REV_Baseline-5_20210818172655.pdf">1440.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-5</td>
+			<td>MGM</td>
+			<td>12/20/12</td>
+			<td></td>
+			<td>Guidance for Vital Records Management/With Change 5 (8-18-21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=116"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Records+Management-With+Change+3+%288-19-21%29_REV_N-3_20220125234410.pdf">1440.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>N-3</td>
+			<td>MPR</td>
+			<td>01/27/17</td>
+			<td>01/27/27</td>
+			<td>MSFC Records Management/With Change 3 (8/19/21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=706"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Special+Events+Coordination-With+Change+1+%289-29-22%29_REV_F-1_20220929190417.pdf">1500.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F-1</td>
+			<td>MWI</td>
+			<td>08/11/16</td>
+			<td>08/11/26</td>
+			<td>Special Events Coordination/With Change 1 (9/29/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=28"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Mail+Management+and+Distribution-With+Change+3+%282-2-22%29_REV_J-3_20220301151652.pdf">1551.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-3</td>
+			<td>MPR</td>
+			<td>04/13/16</td>
+			<td>04/13/26</td>
+			<td>Mail Management and Distribution/With Change 3 (2-2-22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=24"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Security+Program+Procedural+Requirements_REV_G_20220126010052.pdf">1600.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MPR</td>
+			<td>01/27/17</td>
+			<td>01/27/27</td>
+			<td>MSFC Security Program Procedural Requirements</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=42"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Prevention+of+and+Response+to+Threatening+or+Violent+Behavior+in+the+Workplace-With+Change+1+%2811-2-22%29_REV_C-1_20221102174111.pdf">1600.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C-1</td>
+			<td>MPR</td>
+			<td>11/18/21</td>
+			<td>11/18/26</td>
+			<td>Prevention of and Response to Threatening or Violent Behavior in the Workplace/With Change 1 (11/2/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=91"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Identity%2C+Credential%2C+and+Access+Management-With+Change+1+%2812-9-22%29_REV_B-1_20221209170151.pdf">1600.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B-1</td>
+			<td>MPR</td>
+			<td>12/16/21</td>
+			<td>12/16/26</td>
+			<td>MSFC Identity, Credential, and Access Management/With Change 1 (12/9/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=39"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Occupational+Medicine_REV_C_20220711191529.pdf">1800.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C</td>
+			<td>MWI</td>
+			<td>07/11/22</td>
+			<td>07/11/27</td>
+			<td>MSFC Occupational Medicine</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=131"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Sanitation+Program-With+Change+1+%285-18-21%29_REV_C-1_20210518143559.pdf">1800.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C-1</td>
+			<td>MPR</td>
+			<td>09/24/19</td>
+			<td>09/24/24</td>
+			<td>MSFC Sanitation Program/With Change 1 (5/18/21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=85"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Automated+External+Defibrillator+%28AED%29+Program-With+Change+3+%281-25-23%29_REV_Baseline-3_20230125151009.pdf">1810.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-3</td>
+			<td>MPR</td>
+			<td>09/29/14</td>
+			<td>09/29/24</td>
+			<td>Automated External Defibrillator (AED) Program/With Change 3 (1/25/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=88"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Notification+and+Assistance+to+Next+of+Kin_REV_B_20211118182858.pdf">1830.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B</td>
+			<td>MPR</td>
+			<td>11/18/21</td>
+			<td>11/18/26</td>
+			<td>Notification and Assistance to Next of Kin</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=90"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Industrial+Hygiene+Programs_REV_A_20230809144804.pdf">1840.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A</td>
+			<td>MWI</td>
+			<td>08/09/23</td>
+			<td>08/09/28</td>
+			<td>Industrial Hygiene Programs</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=47"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Asbestos+Program_REV_D_20220719161728.pdf">1840.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D</td>
+			<td>MPR</td>
+			<td>07/18/22</td>
+			<td>07/18/27</td>
+			<td>MSFC Asbestos Program</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=79"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Radiation+Safety+Procedural+Requirements-With+Change+3+%281-25-23%29_REV_H-3_20230125205812.pdf">1860.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-3</td>
+			<td>MPR</td>
+			<td>02/21/19</td>
+			<td>02/21/24</td>
+			<td>MSFC Radiation Safety Procedural Requirements/With Change 3 (1/25/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=80"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Radiation+Safety+Program-With+Change+4+%286-6-23%29_REV_L-4_20230606163100.pdf">1860.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-4</td>
+			<td>MPD</td>
+			<td>09/18/13</td>
+			<td>12/04/28</td>
+			<td>Radiation Safety Program/With Change 4 (6/6/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=77"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Nonionizing+Radiation+Safety-With+Change+1+%282-2-23%29_REV_D-1_20230202153418.pdf">1860.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D-1</td>
+			<td>MPR</td>
+			<td>08/02/22</td>
+			<td>08/02/27</td>
+			<td>Nonionizing Radiation Safety/With Change 1 (2/2/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=101"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Export+Control+Program_REV_B_20211221141950.pdf">2190.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B</td>
+			<td>MPR</td>
+			<td>12/16/21</td>
+			<td>12/16/26</td>
+			<td>MSFC Export Control Program</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=63"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Repository+Documentation+Processing-With+Change+5+%284-4-23%29_REV_G-5_20230404184738.pdf">2210.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G-5</td>
+			<td>MWI</td>
+			<td>08/13/13</td>
+			<td>12/04/23</td>
+			<td>MSFC Repository Documentation Processing/With Change 5 (4/4/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=78"><h5
+						class="align-self-center">IS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Management+of+Information+Technology+and+Services+at+MSFC_REV_F.pdf">2800.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F</td>
+			<td>MPD</td>
+			<td>07/07/15</td>
+			<td>06/17/25</td>
+			<td>Management of Information Technology and Services at MSFC</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=901"><h5
+						class="align-self-center">IS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Information+Technology+Services_REV_I_20220824180106.pdf">2800.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I</td>
+			<td>MPR</td>
+			<td>08/24/22</td>
+			<td>08/24/27</td>
+			<td>MSFC Information Technology Services</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=17"><h5
+						class="align-self-center">IS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Onsite+Location+or+Relocation+of+Contractor+or+Other+Government+Agency+Personnel+at+MSFC_REV_M.pdf">3200.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>M</td>
+			<td>MPR</td>
+			<td>08/14/13</td>
+			<td>12/04/23</td>
+			<td>Onsite Location or Relocation of Contractor or Other Government Agency Personnel at MSFC</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=73"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Position+Management-With+Change+1+%2811-12-19%29_REV_C-1_20210811164316.pdf">3312.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C-1</td>
+			<td>MPD</td>
+			<td>08/11/16</td>
+			<td>08/11/26</td>
+			<td>Position Management-With Change 1 (11-12-19)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=29"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Intergovernmental+Personnel+Act+Assignments_REV_H_20220929141630.pdf">3334.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H</td>
+			<td>MWI</td>
+			<td>09/29/17</td>
+			<td>09/29/27</td>
+			<td>Intergovernmental Personnel Act Assignments</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=62"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Personnel+Certification+Program-With+Change+1+%2810-3-22%29_REV_M-1_20221003143312.pdf">3410.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>M-1</td>
+			<td>MWI</td>
+			<td>06/01/21</td>
+			<td>06/01/26</td>
+			<td>Personnel Certification Program/With Change 1 (10/3/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=15"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Training_REV_N_20200828231358.pdf">3410.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>N</td>
+			<td>MPR</td>
+			<td>08/27/20</td>
+			<td>08/27/25</td>
+			<td>Training</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=132"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Professional+Intern+Program+%28PIP%29_REV_A_20221130193627.pdf">3410.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A</td>
+			<td>MPR</td>
+			<td>11/30/22</td>
+			<td>11/30/27</td>
+			<td>Professional Intern Program (PIP)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=27"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Personnel+Certification+Program+for+Skills_REV_C_20220803194350.pdf">3410.5</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C</td>
+			<td>MWI</td>
+			<td>08/03/22</td>
+			<td>08/03/27</td>
+			<td>Personnel Certification Program for Skills</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=74"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Incentive+Awards+and+Suggestions-With+Change+3+%282-17-23%29_REV_B-3_20230218013041.pdf">3451.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B-3</td>
+			<td>MPR</td>
+			<td>11/30/17</td>
+			<td>11/30/27</td>
+			<td>Incentive Awards and Suggestions/With Change 3 (2-17-23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=45"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Student+Loan+Repayment+Process-With+Change+3+%284-4-22%29_REV_A-3_20220404210050.pdf">3530.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-3</td>
+			<td>MWI</td>
+			<td>07/22/15</td>
+			<td>07/22/25</td>
+			<td>Student Loan Repayment Process/With Change 3 (4-4-22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=801"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Overtime%2C+Compensatory+Time%2C+and+Credit+Hours_REV_I_20211025160126.pdf">3550.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I</td>
+			<td>MPR</td>
+			<td>10/25/21</td>
+			<td>10/25/26</td>
+			<td>Overtime, Compensatory Time, and Credit Hours</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=30"><h5
+						class="align-self-center">RS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Attendance+and+Leave+Guidance_REV_D.pdf">3600.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D</td>
+			<td>MGM</td>
+			<td>11/30/17</td>
+			<td></td>
+			<td>Attendance and Leave Guidance</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=114"><h5
+						class="align-self-center">HS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Time+and+Attendance+Process_REV_I.pdf">3600.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I</td>
+			<td>MPR</td>
+			<td>11/05/19</td>
+			<td>11/05/24</td>
+			<td>Time and Attendance Process</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=96"><h5
+						class="align-self-center">RS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Property+Management_REV_J_20230818153936.pdf">4000.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J</td>
+			<td>MPR</td>
+			<td>08/09/23</td>
+			<td>08/09/28</td>
+			<td>Property Management</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=99"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Management+of+Propellants+and+Pressurants-With+Change+1+%285-27-20%29_REV_F-1_20210401185631.pdf">4500.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F-1</td>
+			<td>MPR</td>
+			<td>07/20/16</td>
+			<td>07/20/26</td>
+			<td>Management of Propellants and Pressurants-With Change 1 (5-27-20)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=127"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Flight+Hardware+Support+Operations+%28FHSO%29+Component+Acquisition%2C+Inventory+Control%2C+and+Kitting+Services_REV_J_20230331142841.pdf">4530.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J</td>
+			<td>MWI</td>
+			<td>03/31/23</td>
+			<td>03/31/28</td>
+			<td>Flight Hardware Support Operations (FHSO) Component Acquisition, Inventory Control, and Kitting Services</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=95"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Purchasing-With+Change+1+%2812-8-22%29_REV_L-1_20221208220444.pdf">5000.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-1</td>
+			<td>MPR</td>
+			<td>05/25/21</td>
+			<td>05/25/26</td>
+			<td>Purchasing/With Change 1 (12/8/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=23"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Initiating+Procurement+Requisitions-With+Change+1+%282-6-23%29_REV_L-1_20230206154104.pdf">5100.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-1</td>
+			<td>MWI</td>
+			<td>01/22/23</td>
+			<td>01/22/28</td>
+			<td>Initiating Procurement Requisitions/With Change 1 (2/6/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=6"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Processing+Unsolicited+Proposals-With+Change+1+%287-18-22%29_REV_K-1_20220718172405.pdf">5115.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>K-1</td>
+			<td>MWI</td>
+			<td>06/24/20</td>
+			<td>06/24/25</td>
+			<td>Processing Unsolicited Proposals/With Change 1 (7/18/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=67"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Requirements+Development+Team+%28RDT%29+and+Source+Evaluation+Board+%28SEB%29+Process_REV_J_20230620181511.pdf">5115.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J</td>
+			<td>MWI</td>
+			<td>06/20/23</td>
+			<td>06/20/28</td>
+			<td>Requirements Development Team (RDT) and Source Evaluation Board (SEB) Process</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=110"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Evaluation+of+Contractor+Performance+Under+Contracts+with+Award+Fee+Provisions-With+Change+1+%2811-22-22%29_REV_L-1_20221122210150.pdf">5116.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-1</td>
+			<td>MWI</td>
+			<td>08/18/20</td>
+			<td>08/18/25</td>
+			<td>Evaluation of Contractor Performance Under Contracts with Award Fee Provisions/With Change 1 (11/22/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=129"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Contract+Change+Process_REV_L_20220519154040.pdf">5143.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L</td>
+			<td>MWI</td>
+			<td>05/19/22</td>
+			<td>05/19/27</td>
+			<td>Contract Change Process</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=22"><h5
+						class="align-self-center">PS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//NASA+Engineering+and+Quality+Audit+%28NEQA%29-With+Change+3+%283-16-23%29_REV_F-3_20230316190932.pdf">5330.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F-3</td>
+			<td>MPR</td>
+			<td>03/31/15</td>
+			<td>03/31/25</td>
+			<td>NASA Engineering and Quality Audit (NEQA)/With Change 3 (3/16/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=2"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Foreign+Object+Damage-Foreign+Object+Debris+Prevention+Operations_REV_C_20201204161405.pdf">5340.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C</td>
+			<td>MPD</td>
+			<td>11/02/20</td>
+			<td>11/02/25</td>
+			<td>Foreign Object Damage/Foreign Object Debris Prevention Operations</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=40"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Controlled+Work+Area%2C+Cleanroom%2C+and+Flow+Bench+Operations-With+Change+1+%2810-1-21%29_REV_E-1_20211207201225.pdf">5340.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E-1</td>
+			<td>MPR</td>
+			<td>07/14/11</td>
+			<td>01/27/27</td>
+			<td>Controlled Work Area, Cleanroom, and Flow Bench Operations/With Change 1 (10/1/21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=52"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Transportation-With+Change+2+%283-31-23%29_REV_C-2_20230331171913.pdf">6000.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C-2</td>
+			<td>MPR</td>
+			<td>08/19/20</td>
+			<td>08/19/25</td>
+			<td>Transportation/With Change 2 (3/31/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=113"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Identifying%2C+Packaging%2C+Handling%2C+and+Moving+Program+Critical+Hardware-With+Change+2+%286-28-22%29_REV_A-2_20220628204959.pdf">6410.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-2</td>
+			<td>MPR</td>
+			<td>07/07/17</td>
+			<td>07/07/27</td>
+			<td>Identifying, Packaging, Handling, and Moving Program Critical Hardware/With Change 2 (6/28/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=51"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Lifting+Equipment+and+Operations-With+Change+1+%285-13-21%29_REV_A-1_20210513203546.pdf">6430.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-1</td>
+			<td>MPR</td>
+			<td>04/29/20</td>
+			<td>04/29/25</td>
+			<td>Lifting Equipment and Operations/With Change 1 (5/13/21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=124"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+New+Work+Pursuit+Policy-With+Change+2+%288-10-23%29_REV_Baseline-2_20230810213414.pdf">7100.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-2</td>
+			<td>MPD</td>
+			<td>05/27/15</td>
+			<td>05/27/25</td>
+			<td>MSFC New Work Pursuit Policy/With Change 2 (8/10/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=4"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//New+Work+Lifecycle+Process-With+Change+2+%286-18-20%29_REV_B-2_20200625170757.pdf">7100.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B-2</td>
+			<td>MWI</td>
+			<td>05/27/15</td>
+			<td>05/27/25</td>
+			<td>New Work Lifecycle Process-With Change 2 (6-18-20)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=128"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Engineering+and+Program-Project+Management+Requirements-With+Change+1+%285-2-17%29_REV_H-1_20210903121836.pdf">7120.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-1</td>
+			<td>MPR</td>
+			<td>10/20/16</td>
+			<td>10/20/26</td>
+			<td>MSFC Engineering and Program-Project Management Requirements-With Change 1 (5-2-17)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=31"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Data+Management+Guidance-With+Change+2+%2811-18-20%29_REV_Baseline-2_20201118153508.pdf">7120.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-2</td>
+			<td>MGM</td>
+			<td>08/14/13</td>
+			<td></td>
+			<td>MSFC Data Management Guidance/With Change 2 (11-18-20)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=115"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Center+Management+Council+%28CMC%29+Process_REV_H_20230103150903.pdf">7120.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H</td>
+			<td>MPR</td>
+			<td>01/03/23</td>
+			<td>01/03/28</td>
+			<td>MSFC Center Management Council (CMC) Process</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=64"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Program%2C+Project+and+Institutional+Risk+Management_REV_G.pdf">7120.6</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MWI</td>
+			<td>02/21/14</td>
+			<td>02/21/24</td>
+			<td>Program, Project and Institutional Risk Management</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=81"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Systems+Engineering+Processes+and+Requirements_REV_D_20220401193235.pdf">7123.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D</td>
+			<td>MPR</td>
+			<td>04/01/22</td>
+			<td>04/01/27</td>
+			<td>MSFC Systems Engineering Processes and Requirements</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=126"><h5
+						class="align-self-center">DA01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Aviation+Operations-With+Change+2+%289-27-22%29_REV_A-2_20220927184942.pdf">7900.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-2</td>
+			<td>MPR</td>
+			<td>10/10/19</td>
+			<td>10/10/24</td>
+			<td>MSFC Aviation Operations/With Change 2 (9/27/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=92"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Mission+Support+Risk+Management-With+Change+1+%283-16-22%29_REV_B-1_20220316132129.pdf">8000.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B-1</td>
+			<td>MPR</td>
+			<td>03/15/21</td>
+			<td>03/15/26</td>
+			<td>Mission Support Risk Management/With Change 1 (3/16/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=104"><h5
+						class="align-self-center">CS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Configuration+Management+Guidance-With+Change+2+%2810-18-17%29_REV_Baseline-2.pdf">8040.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-2</td>
+			<td>MGM</td>
+			<td>08/14/13</td>
+			<td></td>
+			<td>MSFC Configuration Management Guidance-With Change 2 (10-18-17)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=111"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Non-Flight+and+Non-Facility+Design+and+Development_REV_B_20200807193514.pdf">8060.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>B</td>
+			<td>MWI</td>
+			<td>05/18/15</td>
+			<td>08/07/25</td>
+			<td>Non-Flight and Non-Facility Design and Development</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=3"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Administration+of+MSFC+Technical+Standards+and+MSFC+Standard+Data+Requirements+Descriptions_REV_C_20221117192355.pdf">8070.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C</td>
+			<td>MPR</td>
+			<td>11/30/17</td>
+			<td>11/30/27</td>
+			<td>Administration of MSFC Technical Standards and MSFC Standard Data Requirements Descriptions</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=103"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//%28MSFC%29+Technical+Authority+Implementation+Plan_REV_D_20201203205950.pdf">8070.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>D</td>
+			<td>MCP</td>
+			<td>12/03/20</td>
+			<td>12/03/25</td>
+			<td>(MSFC) Technical Authority Implementation Plan</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=68"><h5
+						class="align-self-center">DE01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Fracture+Control+Board_REV_G.pdf">8071.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MWI</td>
+			<td>12/11/19</td>
+			<td>12/11/24</td>
+			<td>Fracture Control Board</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=16"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Environmental+Engineering+and+Occupational+Health+Program-With+Change+3+%288-3-23%29_REV_K-2_20230803193439.pdf">8500.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>K-3</td>
+			<td>MPR</td>
+			<td>08/19/20</td>
+			<td>08/19/25</td>
+			<td>MSFC Environmental Engineering and Occupational Health Program/With Change 3 (8/3/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=46"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Environmental+Management+Policy_REV_F_20220322161713.pdf">8500.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F</td>
+			<td>MPD</td>
+			<td>03/22/22</td>
+			<td>03/22/27</td>
+			<td>MSFC Environmental Management Policy</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=707"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Environmental+Management+System+%28EMS%29-With+Change+1+%289-26-22%29_REV_H-1_20220926150105.pdf">8500.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-1</td>
+			<td>MPR</td>
+			<td>10/06/21</td>
+			<td>10/06/26</td>
+			<td>MSFC Environmental Management System (EMS)/With Change 1 (9/26/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=21"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Green+Purchasing+Program_REV_G_20220311152853.pdf">8540.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MWI</td>
+			<td>03/10/22</td>
+			<td>03/10/27</td>
+			<td>Green Purchasing Program</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=89"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Waste+Management-With+Change+4+%281-24-23%29_REV_H-4_20230124150253.pdf">8550.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-4</td>
+			<td>MWI</td>
+			<td>10/03/14</td>
+			<td>10/03/24</td>
+			<td>Waste Management/With Change 4 (1/24/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=84"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Stormwater+%26+Wastewater+Management-With+Change+1+%284-22-21%29_REV_L-1_20210422191631.pdf">8550.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-1</td>
+			<td>MWI</td>
+			<td>06/01/20</td>
+			<td>06/01/25</td>
+			<td>Stormwater & Wastewater Management/With Change 1 (4/22/21)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=50"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Air+Emissions+Compliance_REV_H_20220617125743.pdf">8550.4</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H</td>
+			<td>MWI</td>
+			<td>06/16/22</td>
+			<td>06/16/27</td>
+			<td>Air Emissions Compliance</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=75"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Hazardous+Material+Management_REV_M_20230517181935.pdf">8550.5</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>M</td>
+			<td>MWI</td>
+			<td>05/17/23</td>
+			<td>05/17/28</td>
+			<td>Hazardous Material Management</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=108"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Mishap+and+Close+Call+Reporting+and+Investigation+Program-With+Change+2+%286-22-23%29_REV_K-2_20230622130547.pdf">8621.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>K-2</td>
+			<td>MWI</td>
+			<td>10/20/16</td>
+			<td>10/20/26</td>
+			<td>Mishap and Close Call Reporting and Investigation Program/With Change 2 (6/22/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=34"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC-MAF+Mishap+Preparedness+and+Contingency+Plan-With+Change+2+%282-3-23%29_REV_A-2_20230203143623.pdf">8621.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>A-2</td>
+			<td>MCP</td>
+			<td>03/16/20</td>
+			<td>09/24/24</td>
+			<td>MSFC/MAF Mishap Preparedness and Contingency Plan/With Change 2 (2/3/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=87"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Requirements+for+Ground-Based+Pressure+Vessels+and+Pressurized+Systems+%28PVS%29_REV_C_20221216160655.pdf">8710.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>C</td>
+			<td>MPR</td>
+			<td>12/15/22</td>
+			<td>12/15/27</td>
+			<td>MSFC Requirements for Ground-Based Pressure Vessels and Pressurized Systems (PVS)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=13"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Electrical+Safety+Program-With+Change+2+%283-28-16%29_REV_J-2_20220526165512.pdf">8715.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-2</td>
+			<td>MWI</td>
+			<td>08/10/12</td>
+			<td>06/05/27</td>
+			<td>Electrical Safety Program/With Change 2 (3/28/16)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=7"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Annual+Safety%2C+Health%2C+and+Environmental+%28SHE%29+Program+Plan+FY+2023-With+Change+1+%281-20-23%29_REV_Baseline-1_20230120170547.pdf">8715.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline-1</td>
+			<td>MCP</td>
+			<td>10/21/22</td>
+			<td>09/30/23</td>
+			<td>Annual Safety, Health, and Environmental (SHE) Program Plan FY 2023/With Change 1 (1/20/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=49"><h5
+						class="align-self-center">DE01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Marshall+Safety%2C+Health%2C+and+Environmental+%28SHE%29+Program-With+Change+1+%282-6-23%29_REV_O-1_20230206184321.pdf">8715.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>O-1</td>
+			<td>MPR</td>
+			<td>07/07/17</td>
+			<td>07/07/27</td>
+			<td>Marshall Safety, Health, and Environmental (SHE) Program/With Change 1 (2/6/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=54"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Explosives%2C+Propellant%2C+and+Pyrotechnics+Program-With+Change+1+%281-20-23%29_REV_J-1_20230120163219.pdf">8715.10</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-1</td>
+			<td>MWI</td>
+			<td>11/30/22</td>
+			<td>11/30/27</td>
+			<td>Explosives, Propellant, and Pyrotechnics Program/With Change 1 (1/20/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=14"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Fire+Safety+Program_REV_P_20230406202453.pdf">8715.11</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>P</td>
+			<td>MWI</td>
+			<td>04/06/23</td>
+			<td>04/06/28</td>
+			<td>Fire Safety Program</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=36"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Safety%2C+Health%2C+and+Environmental+%28SHE%29+Inspection+Program-With+Change+3+%281-13-23%29_REV_I-3_20230113162611.pdf">8715.12</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I-3</td>
+			<td>MWI</td>
+			<td>10/20/16</td>
+			<td>12/31/26</td>
+			<td>Safety, Health, and Environmental (SHE) Inspection Program/With Change 3 (1/13/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=102"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Safety+Concerns+Reporting+System+%28SCRS%29-With+Change+5+%282-9-23%29_REV_J-5_20230209165510.pdf">8715.13</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-5</td>
+			<td>MWI</td>
+			<td>12/02/14</td>
+			<td>12/02/24</td>
+			<td>Safety Concerns Reporting System (SCRS)/With Change 5 (2-9-23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=57"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Ground+Operations+Safety+Assessment+Program-With+Change+1+%282-7-23%29_REV_J-1_20230207152055.pdf">8715.15</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>J-1</td>
+			<td>MWI</td>
+			<td>09/15/22</td>
+			<td>09/15/27</td>
+			<td>Ground Operations Safety Assessment Program/With Change 1 (2/7/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=9"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Hazardous+Operations+Readiness+Review+Program-With+Change+1+%2811-2-22%29_REV_E-1_20221102164350.pdf">8715.17</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E-1</td>
+			<td>MWI</td>
+			<td>10/30/20</td>
+			<td>10/30/25</td>
+			<td>Hazardous Operations Readiness Review Program/With Change 1 (11/2/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=41"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Control+of+Hazardous+Energy+%28Lockout-Tagout%29+Program-With+Change+2+%281-17-23%29_REV_L-2_20230117204540.pdf">8715.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L-2</td>
+			<td>MWI</td>
+			<td>01/27/17</td>
+			<td>01/27/27</td>
+			<td>Control of Hazardous Energy (Lockout-Tagout) Program-With Change 2 (1/17/23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=33"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Area-Building+Manager+and+Organization%27s+Safety%2C+Health+and+Environmental+%28SHE%29+Point+of+Contact+%28POC%29+Program-With+Change+4+%283-23-23%29_REV_G-4_20230323171556.pdf">8715.5</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G-4</td>
+			<td>MWI</td>
+			<td>10/20/16</td>
+			<td>12/31/26</td>
+			<td>Area-Building Manager and Organization's Safety, Health and Environmental (SHE) Point of Contact (POC) Program/With Change 4 (3-23-23)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=60"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Equipment+Logs-Records_REV_F_20210902191536.pdf">8730.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>F</td>
+			<td>MWI</td>
+			<td>06/10/10</td>
+			<td>10/20/26</td>
+			<td>Equipment Logs-Records</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=11"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Inspection+and+Testing_REV_L_20220817145205.pdf">8730.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>L</td>
+			<td>MPR</td>
+			<td>08/17/22</td>
+			<td>08/17/27</td>
+			<td>Inspection and Testing</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=35"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Inspection+and+Test+Status-With+Change+1+%288-15-22%29_REV_H-1_20220815154256.pdf">8730.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-1</td>
+			<td>MPR</td>
+			<td>12/02/20</td>
+			<td>12/02/25</td>
+			<td>Inspection and Test Status/With Change 1 (8/15/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=32"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Temporarily-Installed+Hardware+Control-With+Change+2+%285-3-22%29_REV_E-2_20220503140319.pdf">8730.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E-2</td>
+			<td>MWI</td>
+			<td>07/07/10</td>
+			<td>10/20/26</td>
+			<td>Temporarily-Installed Hardware Control/With Change 2 (5/3/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=59"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Control+of+Nonconforming+Product-With+Change+1+%289-2-22%29_REV_M-1_20220902200728.pdf">8730.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>M-1</td>
+			<td>MPR</td>
+			<td>11/18/21</td>
+			<td>11/18/26</td>
+			<td>Control of Nonconforming Product/With Change 1 (9/2/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=43"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Material+Review+System-With+Change+1+%286-29-22%29_REV_I-1_20220629154912.pdf">8730.3</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I-1</td>
+			<td>MWI</td>
+			<td>06/24/20</td>
+			<td>06/24/25</td>
+			<td>MSFC Material Review System/With Change 1 (6/29/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=70"><h5
+						class="align-self-center">QD01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Metrology+and+Calibration-With+Change+1+%283-3-22%29_REV_P-1_20220303212701.pdf">8730.5</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>P-1</td>
+			<td>MPR</td>
+			<td>03/16/21</td>
+			<td>03/16/26</td>
+			<td>Metrology and Calibration/With Change 1 (3/3/22)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=55"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Inspection+of+Hazardous+Test+Facility+Configuration+Changes_REV_G_20220712160814.pdf">8730.6</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>G</td>
+			<td>MPR</td>
+			<td>07/21/17</td>
+			<td>07/21/27</td>
+			<td>Inspection of Hazardous Test Facility Configuration Changes</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=26"><h5
+						class="align-self-center">ED01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Requests+for+Facility+Services+at+MSFC_REV_I_20210818201127.pdf">8812.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I</td>
+			<td>MPR</td>
+			<td>08/18/21</td>
+			<td>08/18/26</td>
+			<td>Requests for Facility Services at MSFC</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=76"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//MSFC+Facility+Utilization_REV_Baseline.pdf">8812.2</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>Baseline</td>
+			<td>MPR</td>
+			<td>07/16/13</td>
+			<td>12/04/23</td>
+			<td>MSFC Facility Utilization</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=82"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Design+Control+of+Facilities_REV_E.pdf">8823.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>E</td>
+			<td>MPR</td>
+			<td>05/23/14</td>
+			<td>05/23/24</td>
+			<td>Design Control of Facilities</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=44"><h5
+						class="align-self-center">AS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Travel+Process-With+Change+1+%288-12-2021%29_REV_H-1_20210812194658.pdf">9710.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>H-1</td>
+			<td>MPR</td>
+			<td>09/25/20</td>
+			<td>09/25/25</td>
+			<td>Travel Process/With Change 1 (8/12/2021)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=93"><h5
+						class="align-self-center">RS01</h5></a></td>
+		</tr>
+		
+			<td>
+			
+				<a
+				href="https://dml.msfc.nasa.gov/documents/20124//34213//Travel+Card+Operating+Procedures-With+Change+1+%2810-28-20%29_REV_I-1_20201028211508.pdf">9730.1</a>
+					
+				
+			
+			
+		
+			</td>
+			<td>I-1</td>
+			<td>MPR</td>
+			<td>11/05/19</td>
+			<td>11/05/24</td>
+			<td>Travel Card Operating Procedures/With Change 1 (10/28/20)</td>
+			<td><a
+				href="https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_javax.portlet.action=%2FRespOffice&p_auth=cnglbM9w&_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_respOfficeInputId=38"><h5
+						class="align-self-center">RS01</h5></a></td>
+		</tr>
+		
+
+	</tbody>
+</table>
+
+
+<script>
+	$(document).ready(function() {
+		$('#dml_EntityList').DataTable({
+			"emptyTable": "No Directives",
+			"searching" : false,
+			"paging" : true,
+			"info" : true,
+			"lengthMenu" : [ [ -1, 10, 25, 50 ], [ "All", 10, 25, 50 ] ]
+		})
+	});
+	
+	function _gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_closeWarningModal() {
+		
+		jQuery.ajax({
+			type: "post",
+			url: "https://dml.msfc.nasa.gov:443/web/guest/home?p_p_id=gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=%2FwarningLabel&p_p_cacheability=cacheLevelPage",
+			data: {
+				_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_warningLabel: "accepted",
+	 			_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_homeURL: "https://dml.msfc.nasa.gov/web/guest",
+			},
+			success: function (data) {
+				jQuery(".modalRIDWarning").css("display", "none");
+				
+			},
+			error: function(error) {
+				console.log(error)
+			}
+		})
+	}
+</script>
+
+
+	
+	
+					
+				
+			
+		
+	
+	
+
+
+	</div>
+
+			</div>
+		
+	</div>
+</section>
+	
+
+		
+		
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+</div>
+		</div>
+	</div>
+</div>
+
+<form action="#" class="hide" id="hrefFm" method="post" name="hrefFm"><span></span><input hidden type="submit"/></form>	</section>
+
+<div class="container">
+	<div class="row">
+	<div class="col-3"></div>
+	<div class="col-6">
+		<h3 class="text-center">Responsible Official: Kimberly Newton<br>
+			Curator: Wendy Sullivan</h3>
+	</div>
+	<div class="col-3"></div>
+</div>	
+
+		<footer id="footer" role="contentinfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">						
+						<div>Built By: Agency Applications Office</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+</div>
+
+	<script type='text/javascript' src='https://pulse.nasa.gov/track.js'></script>
+
+	<script type="text/javascript">
+		var appid = "mdml";
+		var auid = "20105";
+
+		try {
+			if (auid == ''){
+				Pulse.track(appid, {'method' : 'GET', 'server' : location.host, 'status' : 200})
+			}
+			else{
+				Pulse.track(appid, {'method' : 'GET', 'auid' : auid, 'server' : location.host, 'status' : 200})
+			}
+		}catch(e)
+		{}
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+
+	
+		
+
+			
+
+			
+		
+	
+
+	Liferay.BrowserSelectors.run();
+
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+		
+
+		Liferay.currentURL = '\x2f';
+		Liferay.currentURLEncoded = '\x252F';
+
+	// ]]>
+</script>
+
+
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			
+				
+
+				
+			
+		// ]]>
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+	
+
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {var $ = AUI.$;var _ = AUI._;
+	var onDestroyPortlet = function() {
+		Liferay.detach('messagePosted', onMessagePosted);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+
+	var onMessagePosted = function(event) {
+		if (window.Analytics) {
+			Analytics.send('posted', 'Comment', {
+				className: event.className,
+				classPK: event.classPK,
+				commentId: event.commentId,
+				text: event.text
+			});
+		}
+	};
+
+	Liferay.on('messagePosted', onMessagePosted);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var pathnameRegexp = /\/documents\/(\d+)\/(\d+)\/(.+?)\/([^&]+)/;
+
+	function handleDownloadClick(event) {
+		if (event.target.nodeName.toLowerCase() === 'a' && window.Analytics) {
+			var anchor = event.target;
+			var match = pathnameRegexp.exec(anchor.pathname);
+
+			var fileEntryId =
+				anchor.dataset.analyticsFileEntryId ||
+				(anchor.parentElement &&
+					anchor.parentElement.dataset.analyticsFileEntryId);
+
+			if (fileEntryId && match) {
+				var getParameterValue = function(parameterName) {
+					var result = null;
+
+					anchor.search
+						.substr(1)
+						.split('&')
+						.forEach(function(item) {
+							var tmp = item.split('=');
+
+							if (tmp[0] === parameterName) {
+								result = decodeURIComponent(tmp[1]);
+							}
+						});
+
+					return result;
+				};
+
+				Analytics.send('documentDownloaded', 'Document', {
+					groupId: match[1],
+					fileEntryId: fileEntryId,
+					preview: !!window._com_liferay_document_library_analytics_isViewFileEntry,
+					title: decodeURIComponent(match[3].replace(/\+/gi, ' ')),
+					version: getParameterValue('version')
+				});
+			}
+		}
+	}
+
+	document.body.addEventListener('click', handleDownloadClick);
+
+	var onDestroyPortlet = function() {
+		document.body.removeEventListener('click', handleDownloadClick);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onShare = function(data) {
+		if (window.Analytics) {
+			Analytics.send('shared', 'SocialBookmarks', {
+				className: data.className,
+				classPK: data.classPK,
+				type: data.type,
+				url: data.url
+			});
+		}
+	};
+
+	var onDestroyPortlet = function() {
+		Liferay.detach('socialBookmarks:share', onShare);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('socialBookmarks:share', onShare);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	var onVote = function(event) {
+		if (window.Analytics) {
+			Analytics.send('VOTE', 'Ratings', {
+				className: event.className,
+				classPK: event.classPK,
+				ratingType: event.ratingType,
+				score: event.score
+			});
+		}
+	};
+
+	var onDestroyPortlet = function() {
+		Liferay.detach('ratings:vote', onVote);
+		Liferay.detach('destroyPortlet', onDestroyPortlet);
+	};
+
+	Liferay.on('ratings:vote', onVote);
+	Liferay.on('destroyPortlet', onDestroyPortlet);
+})();
+	if (Liferay.Data.ICONS_INLINE_SVG) {
+		svg4everybody(
+			{
+				attributeName: 'data-href',
+				polyfill: true
+			}
+		);
+	}
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled_',
+			portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2\x26p_p_id\x3dcom_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_seachCancelled\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F\x26settingsScope\x3dportletInstance',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_',
+			portletId: 'com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2\x26p_p_id\x3dcom_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F\x26settingsScope\x3dportletInstance',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX_',
+			portletId: 'gov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2\x26p_p_id\x3dgov_nasa_msfc_dml_DMLPortlet_INSTANCE_n2ARVr56lfiX\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F',
+			refreshURLData: {}
+		}
+	);
+
+	
+		Liferay.Portlet.register('com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet');
+	
+
+	Liferay.Portlet.onLoad(
+		{
+			canEditTitle: false,
+			columnPos: 0,
+			isStatic: 'end',
+			namespacedId: 'p_p_id_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_',
+			portletId: 'com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet',
+			refreshURL: '\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d2\x26p_p_id\x3dcom_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dnull\x26p_p_col_pos\x3dnull\x26p_p_col_count\x3dnull\x26p_p_static\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F\x26settingsScope\x3dportletInstance',
+			refreshURLData: {}
+		}
+	);
+Liferay.Loader.require('metal-dom/src/all/dom', 'clay-tooltip/src/ClayTooltip', function(metalDomSrcAllDom, clayTooltipSrcClayTooltip) {
+(function(){
+var dom = metalDomSrcAllDom;
+var ClayTooltip = clayTooltipSrcClayTooltip;
+(function() {var $ = AUI.$;var _ = AUI._;
+	var focusInPortletHandler = dom.delegate(
+		document,
+		'focusin',
+		'.portlet',
+		function(event) {
+			dom.addClasses(dom.closest(event.delegateTarget, '.portlet'), 'open');
+		}
+	);
+
+	var focusOutPortletHandler = dom.delegate(
+		document,
+		'focusout',
+		'.portlet',
+		function(event) {
+			dom.removeClasses(dom.closest(event.delegateTarget, '.portlet'), 'open');
+		}
+	);
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	if (!Liferay.Data.LFR_PORTAL_CLAY_TOOLTIP) {
+		Liferay.Data.LFR_PORTAL_CLAY_TOOLTIP = ClayTooltip.default.init(
+			{
+				selectors: [
+					'.manage-collaborators-dialog .lexicon-icon[data-title]:not(.lfr-portal-tooltip)',
+					'.manage-collaborators-dialog .lexicon-icon[title]:not(.lfr-portal-tooltip)',
+					'.management-bar [data-title]:not(.lfr-portal-tooltip)',
+					'.management-bar [title]:not(.lfr-portal-tooltip)',
+					'.preview-toolbar-container [data-title]:not(.lfr-portal-tooltip)',
+					'.preview-toolbar-container [title]:not(.lfr-portal-tooltip)',
+					'.progress-container[data-title]',
+					'.source-editor__fixed-text__help[data-title]',
+					'.taglib-discussion [data-title]:not(.lfr-portal-tooltip)',
+					'.taglib-discussion [title]:not(.lfr-portal-tooltip):not([title=""])',
+					'.upper-tbar [data-title]:not(.lfr-portal-tooltip)',
+					'.upper-tbar [title]:not(.lfr-portal-tooltip)'
+				]
+			}
+		);
+	}
+})();})();
+});AUI().use('aui-tooltip', 'liferay-menu', 'liferay-notice', 'aui-base', 'liferay-session', 'liferay-poller', function(A) {(function() {var $ = AUI.$;var _ = AUI._;
+	if (A.UA.mobile) {
+		Liferay.Util.addInputCancel();
+	}
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	if (!Liferay.Data.LFR_PORTAL_TOOLTIP) {
+		var triggerShowEvent = ['mouseenter', 'MSPointerDown', 'touchstart'];
+
+		if (A.UA.ios) {
+			triggerShowEvent = ['touchstart'];
+		}
+
+		Liferay.Data.LFR_PORTAL_TOOLTIP = new A.TooltipDelegate(
+			{
+				constrain: true,
+				opacity: 1,
+				trigger: '.lfr-portal-tooltip',
+				triggerHideEvent: ['click', 'mouseleave', 'MSPointerUp', 'touchend'],
+				triggerShowEvent: triggerShowEvent,
+				visible: false,
+				zIndex: Liferay.zIndex.TOOLTIP
+			}
+		);
+
+		Liferay.on(
+			'beforeNavigate',
+			function(event) {
+				Liferay.Data.LFR_PORTAL_TOOLTIP.getTooltip().hide();
+			}
+		);
+	}
+})();(function() {var $ = AUI.$;var _ = AUI._;
+	new Liferay.Menu();
+
+	var liferayNotices = Liferay.Data.notices;
+
+	for (var i = 1; i < liferayNotices.length; i++) {
+		new Liferay.Notice(liferayNotices[i]);
+	}
+
+	
+})();(function() {var $ = AUI.$;var _ = AUI._;
+			Liferay.Session = new Liferay.SessionBase(
+				{
+					autoExtend: true,
+					redirectOnExpire: false,
+					redirectUrl: 'https\x3a\x2f\x2fdml\x2emsfc\x2enasa\x2egov\x2fweb\x2fguest',
+					sessionLength: 890,
+					warningLength: 0
+				}
+			);
+
+			
+		})();});
+// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script src="https://dml.msfc.nasa.gov/o/dml-theme/js/main.js?browserId=other&amp;minifierType=js&amp;languageId=en_US&amp;b=7201&amp;t=1692530622000" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+		AUI().use(
+			'aui-base',
+			function(A) {
+				var frameElement = window.frameElement;
+
+				if (frameElement && frameElement.getAttribute('id') === 'simulationDeviceIframe') {
+					A.getBody().addClass('lfr-has-simulation-panel');
+				}
+			}
+		);
+	// ]]>
+</script>
+</body>
+
+</html>
+
+

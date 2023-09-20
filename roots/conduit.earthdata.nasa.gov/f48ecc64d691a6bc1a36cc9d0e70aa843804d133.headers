@@ -1,0 +1,21 @@
+GET https://conduit.earthdata.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< X-Permitted-Cross-Domain-Policies: none
+< Set-Cookie: previous_url=%2F; path=/; expires=Tue, 19 Sep 2023 05:48:16 GMT
+< Set-Cookie: BIGipServered_conduit_cms-pool=!U438EXszLAqt2pFZ59oXyyh0bcAxZ933pf+gS18MwcCkccb/VKjh+sY+YQlxNZOX8hJJTOT9Sbw3S7A=; path=/; Httponly; Secure
+< X-Runtime: 0.002770
+< X-Content-Type-Options: nosniff
+< Location: https://conduit.earthdata.nasa.gov/saml/sso
+< X-Request-Id: 3ee33113-d52f-4453-b469-6810f37f0994
+< Status: 302 Found
+< X-Xss-Protection: 1; mode=block
+< X-Download-Options: noopen
+< Referrer-Policy: strict-origin-when-cross-origin
+< Server: nginx/1.20.1
+< Date: Tue, 19 Sep 2023 05:43:16 GMT
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: no-cache
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: SAMEORIGIN

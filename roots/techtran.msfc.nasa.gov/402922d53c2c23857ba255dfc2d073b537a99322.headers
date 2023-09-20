@@ -1,0 +1,13 @@
+GET http://techtran.msfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:00:11 GMT
+< Location: https://techtran.msfc.nasa.gov/
+< Via: 1.1 84fd743af5e8639c32332cec06beef46.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P3
+< Server: CloudFront
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: gTJX6mDJ_3O7XozQeNVEMGSpEeWURa61A178gY0h4udpVzwLtZVh8A==
+< Content-Type: text/html

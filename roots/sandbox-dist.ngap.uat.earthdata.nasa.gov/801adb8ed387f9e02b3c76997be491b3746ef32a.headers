@@ -1,0 +1,16 @@
+GET http://sandbox-dist.ngap.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://sandbox-dist.ngap.uat.earthdata.nasa.gov/
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: 6VumJ26D8-8XIYb_PWPPIlKGzB3aN1Bg058hjsM76F0vtWaSAfX6nw==
+< Date: Tue, 19 Sep 2023 05:42:24 GMT
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< Via: 1.1 eb0e559672da6f524cf68a461f930cc4.cloudfront.net (CloudFront)

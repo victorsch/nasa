@@ -1,0 +1,25 @@
+GET https://sandbox-backend.ngap.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Amzn-Remapped-Content-Length: 42
+< X-Amz-Apigw-Id: LfUv9HVkPHcFxsQ=
+< X-Amzn-Trace-Id: Root=1-650934cc-1328c60c73a44fa122cb78a9;Sampled=0;lineage=40c0418e:0
+< X-Amzn-Requestid: 9fe488f2-31eb-4655-86c4-f1befb800ac7
+< X-Xss-Protection: 1; mode=block
+< X-Amzn-Remapped-Server: Server
+< X-Amz-Cf-Id: 91X5nhnjUxHC0DTO_9TcW3hYgzapi2SEuk62ew3T3jURbsUdOLjvJw==
+< Content-Type: application/json
+< X-Amzn-Remapped-X-Amzn-Requestid: b02afa29-0b52-4abb-ab07-51d9d825b20c
+< X-Amzn-Errortype: MissingAuthenticationTokenException
+< X-Content-Type-Options: nosniff
+< X-Amzn-Remapped-X-Forwarded-For: 173.70.88.162, 130.176.17.133
+< X-Cache: Error from cloudfront
+< Via: 1.1 c1d7effc96a4e7ef2f2297d393d28d04.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< Content-Length: 42
+< Date: Tue, 19 Sep 2023 05:42:36 GMT
+< X-Amzn-Remapped-Connection: keep-alive
+< X-Amzn-Remapped-Date: Tue, 19 Sep 2023 05:42:36 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: SAMEORIGIN

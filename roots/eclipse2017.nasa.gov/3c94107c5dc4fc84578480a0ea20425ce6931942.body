@@ -1,0 +1,577 @@
+
+    <title>Eclipse 2017</title>
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="orgcode" content="670.0" />
+    <meta name="rno" content="C.A.Young" />
+    <meta name="webmaster" content="Kaushal Patel" />
+    <meta name="description" content="Total Solar Eclipse 2017 - On Monday, August 21, 2017, all of North America will be treated to an eclipse of the sun. Anyone within the path of totality can see one of nature’s most awe inspiring sights - a total solar eclipse. This path, where the moon will completely cover the sun and the sun's tenuous atmosphere - the corona - can be seen, will stretch from Salem, Oregon to Charleston, South Carolina. Observers outside this path will still see a partial solar eclipse where the moon covers part of the sun's disk. NASA created this website to provide a guide to this amazing event. Here you will find activities, events, broadcasts, and resources from NASA and our partners across the nation."/>
+    <meta name="abstract" content="Total Solar Eclipse 2017 - On Monday, August 21, 2017, all of North America will be treated to an eclipse of the sun. Anyone within the path of totality can see one of nature’s most awe inspiring sights - a total solar eclipse."/>
+    <meta name="keywords" content="eclipse, eclipse 2017, sun, total solar eclipse, total solar eclipse 2017, NASA, NASA Sun Science, NASA Science, science, National Aeronautics and Space Administration, Eclipse Safety, Eclipse apps" />
+    <meta name="doc-class" content="Living Document" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="shortcut icon" type="image/png" href="/static/img/nasa_favicon.ico"/>
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="/static/vendor/font-awesome/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Overpass&display=swap" rel="stylesheet">
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="https://www.nasa.gov/">
+          <img class="lab_logo" src="/static/img/nasa_logo.png" />
+        </a>
+        <a class="navbar-brand" href="/">
+          <img class="eclipse_logo" src="/static/img/eclipse_logo_w.png" />
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/eclipse-101" style="display: inline;">Eclipse 101</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="nasas-eyes"><li class="nav-link">NASA's Eyes</li></a>
+                <a href="eclipse-who-what-where-when-and-how"><li class="nav-link">Eclipse: Who? What? When? Where? and How?</li></a>
+                <a href="how-eclipses-work"><li class="nav-link">How Eclipses Work</li></a>
+                <a href="eclipse-history"><li class="nav-link">Eclipse History</li></a>
+                <a href="eclipse-maps"><li class="nav-link">Eclipse Maps</li></a>
+                <a href="safety"><li class="nav-link">Safety </li></a>
+                <a href="eclipse-misconceptions"><li class="nav-link">Eclipse Misconceptions</li></a>
+                <a href="faq"><li class="nav-link">FAQ</li></a>
+                <a href="acknowledgments"><li class="nav-link">Acknowledgements</li></a>
+                <a href="eclipse-glossary"><li class="nav-link">Eclipse Glossary</li></a>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/event-locations" style="display: inline;">Events</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="event-locations"><li class="nav-link">Event Locations</li></a>
+                <a href="eclipse-live-stream-archive"><li class="nav-link">Eclipse Live Stream Archive</li></a>
+                <!-- <a href="nasa-official-viewing-locations"><li class="nav-link">Submit Official NASA Event</li></a> -->
+                <!-- <a href="general-events"><li class="nav-link">Submit General Event</li></a> -->
+                <a href="host-eclipse-party"><li class="nav-link">Host Eclipse Party</li></a>
+                <!-- <a href="subject-matter-experts"><li class="nav-link">Subject Matter Expert Application</li></a> -->
+                <!-- <a href="https://eclipse2017.nasa.gov/sites/default/files/2017_solar_eclipse_SME_s_map.html" target="_blank" title="Subject Matter Expert Map"><li class="nav-link">Subject Matter Expert Map</li></a> -->
+                <!-- <a href="https://eclipse2017.nasa.gov/event-calendar-view"><li class="nav-link">Events Calendar</li></a> -->
+                <!-- <a href="https://eclipse2017.nasa.gov/sites/default/files/interactive_map/index.html"><li class="nav-link">Eclipse Interactive Map</li></a> -->
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/science" style="display: inline;">Science</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="sun"><li class="nav-link">The Sun</li></a>
+                <a href="moon"><li class="nav-link">The Moon</li></a>
+                <a href="earth"><li class="nav-link">Earth</li></a>
+                <a href="transits-and-occultations"><li class="nav-link">Transits and Occultations</li></a>
+                <a href="science-ground"><li class="nav-link">Science from the ground</li></a>
+                <a href="balloon-observations"><li class="nav-link">Balloon Observations</li></a>
+                <a href="citizen-science"><li class="nav-link">Citizen Science</li></a>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/activities" style="display: inline;">Activities</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="citizen-explorers"><li class="nav-link">Citizen Explorers</li></a>
+                <a href="science-challenges"><li class="nav-link">Science Challenges</li></a>
+                <a href="eclipse-viewing"><li class="nav-link">Eclipse Viewing</li></a>
+                <a href="eclipse-art-projects"><li class="nav-link">Eclipse Art Projects</li></a>
+                <a href="flickr-gallery"><li class="nav-link">Flickr Gallery</li></a>
+                <a href="2d3d-printable-pinhole-projectors"><li class="nav-link">2D/3D Printable Pinhole Projectors</li></a>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/education" style="display: inline;">Education</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="k-12-formal-education"><li class="nav-link">K-12 Formal Education</li></a>
+                <a href="homeschool"><li class="nav-link">Homeschool</li></a>
+                <a href="informal-education"><li class="nav-link">Informal Education</li></a>
+                <a href="public-engagement"><li class="nav-link">Public Engagement</li></a>
+                <a href="undergraduate-resources"><li class="nav-link">Undergraduate Resources</li></a>
+                <a href="nasa-wavelength"><li class="nav-link">NASA Wavelength</li></a>
+                <a href="nasa-space-place"><li class="nav-link">NASA Space Place</li></a>
+                <a href="eclipse-kit"><li class="nav-link">Eclipse Kit</li></a>
+                <a href="whats-up"><li class="nav-link">What's Up?</li></a>
+                <a href="other-education-resources"><li class="nav-link">Other Education Resources</li></a>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="/resources" style="display: inline;">Resources</a>
+              <span class="caret"></span>
+              <a class="dropdown-toggle" data-toggle="dropdown"></a>
+              <ul class="dropdown-menu">
+                <a href="videos-images"><li class="nav-link">Videos &amp; Images</li></a>
+                <a href="scientist-interviews"><li class="nav-link">Scientist Interviews</li></a>
+                <a href="downloadables"><li class="nav-link">Downloadables</li></a>
+                <a href="apps"><li class="nav-link">Apps</li></a>
+                <a href="eclipses-and-music"><li class="nav-link">Eclipse and Music</li></a>
+                <a href="press-kit"><li class="nav-link">Press Kit</li></a>
+                <a href="doe's-resources"><li class="nav-link">DOE's Resources</li></a>
+                <a href="dot's-resources"><li class="nav-link">DOT's Resources</li></a>
+                <a href="noaa's-resources"><li class="nav-link">NOAA's Resources</li></a>
+                <a href="nps-resources"><li class="nav-link">NPS Resouces</li></a>
+                <a href="us-fish-and-wildlife-service"><li class="nav-link">US Fish and Wildlife Service</li></a>
+                <a href="español"><li class="nav-link">Español</li></a>
+                <a href="other-languages"><li class="nav-link">Other Languages</li></a>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      
+<!-- Main Content -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="6000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://www.flickr.com/groups/nasa-eclipse2017/">
+        <img class="d-block w-100" src="/static/img/home/carousel/slide_bg_1_main_media_gallery.jpg" alt="">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="eclipse-live-stream-archive">
+        <img class="d-block w-100" src="/static/img/home/carousel/slide_bg_2.jpg">
+      </a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container container-fluid total-solar-eclipse-div">
+  <div class="row">
+    <div class="col-sm-10 col-11 mx-auto">
+      <h4 class="total-solar-eclipse-headline">TOTAL SOLAR ECLIPSE - August 21, 2017</h4>
+      <p>
+          On Monday, August 21, 2017, all of North America will be treated to an eclipse of the sun. Anyone within the path of totality can see one of nature’s most awe inspiring sights - a total solar eclipse. This path, where the moon will completely cover the sun and the sun's tenuous atmosphere - the corona - can be seen, will stretch from Salem, Oregon to Charleston, South Carolina. Observers outside this path will still see a partial solar eclipse where the moon covers part of the sun's disk. NASA created this website to provide a guide to this amazing event. Here you will find activities, events, broadcasts, and resources from NASA and our partners across the nation.
+      </p>
+
+      <div class="card-group col-sm-11 col-10 mx-auto">
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="science">
+            <img src="/static/img/icon_SCIENCE_.png" class="" alt="Science icon linked to Science">
+            <div class="card-body">
+              <h5 class="card-title">SCIENCE</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="safety">
+            <img src="/static/img/icon_SAFETY_.png" class="" alt="Safety icon linked to Safety page">
+            <div class="card-body">
+              <h5 class="card-title">SAFETY</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="public-engagement">
+            <img src="/static/img/icon_PUBLIC_20ENGAGEMENT_.png" class="" alt="Public engagement icon linked to public engagement page">
+            <div class="card-body">
+              <h5 class="card-title">PUBLIC ENGAGEMENT</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="citizen-science">
+            <img src="/static/img/icon_CITIZEN_SCIENCE_.png" class="" alt="Citizen Science icon linked to citizen science page">
+            <div class="card-body">
+              <h5 class="card-title">CITIZEN SCIENCE</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="education">
+            <img src="/static/img/icon_EDUCATION.png" class="" alt="Education icon linked to education page">
+            <div class="card-body">
+              <h5 class="card-title">EDUCATION</h5>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12 six-sign">
+          <a href="event-locations">
+            <img src="/static/img/icon_EVENTS.png" class="" alt="Events calendar iconicon linked to events page">
+            <div class="card-body">
+              <h5 class="card-title">EVENTS</h5>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="three-social-info">
+  <div class="row three-box">
+    <div class="box col-10 col-sm-8 col-md-7 col-lg-3">
+      <a href="flickr-gallery">
+        <div class="content">
+          <h5 class="card-title">FLICKR GALLERY</h5>
+          <div class="card-text">
+            Use the Flickr Gallery to share your experience
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="box col-10 col-sm-8 col-md-7 col-lg-3">
+      <a href="eclipse-six">
+        <div class="content">
+          <h5 class="card-title" style="margin-right: 0px;">ECLIPSE IN SIX</h5>
+          <div class="card-text">
+            Let us know what the eclipse meant to you in 6 words
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="box col-10 col-sm-8 col-md-7 col-lg-3">
+      <a href="dancing-along-path">
+        <div class="content">
+          <h5 class="card-title">#ECLIPSEDANCE</h5>
+          <div class="card-text">
+            <div class="dancing-text">Dancing Along the Path</div>
+            <div class="card-text-dancing">
+              Share your video with us in this Flickr group or on Instagram, Facebook and Twitter
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<div class="container container-fluid total-solar-eclipse-div">
+  <div class="row">
+    <div class="col-sm-11 col-12 mx-auto">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10 col-11 mx-auto">
+            <h3 class="eclipse2017-headline">Eclipse2017</h3>
+          </div>
+          
+          <div class="card-group col-sm-11 mx-auto">
+            <div class="col-md-6 col-sm-12">
+              <h5 class="card-title two-info-div">GET INVOLVED</h5>
+              <div class="home-info-section">
+                <a href="flickr-gallery">
+                  <h6 class="card-title">Flickr Gallery</h6>
+                </a>
+                <div>
+                  Use the Total Solar Eclipse 2017 Flickr Gallery to share your eclipse experience through imagery, video and artwork!
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="apps">
+                  <h6 class="card-title">Apps</h6>
+                </a>
+                <div>
+                    Stay informed on the go with eclipse apps
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="enthusiastic-science-beyond-2017-eclipse">
+                  <h6 class="card-title">Enthusiastic for Science Beyond the 2017 Eclipse?</h6>
+                </a>
+                <div>
+                    If you’re interested in NASA Eclipse and other Science information, sign up to receive an email newsletter “Weekly on Wednesdays.” Science starts with a question, and so does "Science WOW!" Each week kicks off with a science question with answer link. "Science WOW!" also highlights a NASA science education tool such as NASA apps, interactive games, 3-D printing templates, etc.
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="planning-your-eclipse-party">
+                  <h6 class="card-title">Planning Your Eclipse Party</h6>
+                </a>
+                <div>
+                    Many eclipse enthusiasts host parties in local community centers, museums, observatories, parks or open fields. Even your own backyard is a good place to throw a party. It is always a good idea to choose place that has access to shade and facilities. You may also want to check weather-related Web sites for forecasts of your area. If the clouds move in, don’t worry! You can always connect to NASA’s live streaming event.
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <h5 class="card-title two-info-div">WHAT'S NEW</h5>
+              <div class="home-info-section">
+                <a href="2d3d-printable-pinhole-projectors">
+                  <h6 class="card-title">2D/3D Printable Pinhole Projectors</h6>
+                </a>
+                <div>
+                  Why not celebrate the eclipse by making your own 3D Printed Pinhole Projector in the shape of the USA and/or a US State?
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="eclipse-misconceptions">
+                  <h6 class="card-title">Eclipse Misconceptions</h6>
+                </a>
+                <div>
+                    Humans have watched eclipses since before the dawn of written history, and during this long span of time our scientific understanding of the physical world has grown enormously. As a consequence, many of the older ideas we had about the causes and effects of total solar eclipses have been replaced by detailed physical explanations.
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="faq">
+                  <h6 class="card-title">FAQ</h6>
+                </a>
+                <div>
+                  As we admire the rarity of a total solar eclipse, many questions come to mind that not only occur to us now, but have puzzled eclipse watchers for thousands of years
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="iss-observations">
+                  <h6 class="card-title">ISS Observations</h6>
+                </a>
+                <div>
+                    Observations of the Eclipse from the International Space Station
+                </div>
+              </div>
+
+              <div class="home-info-section">
+                <a href="downloadables">
+                  <h6 class="card-title">Downloadables</h6>
+                </a>
+                <div>
+                    Please feel free to download maps, posters, fact sheet, safety bulletin and other materials for use in your communities and events. We appreciate it if you credit NASA
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="share-bar">
+    <ul class="share-bar--list">
+      <li class="facebook share-bar--item">
+        <a class="share-bar--item-link" href="https://www.facebook.com/NASASunScience/" title="Follow us on Facebook." target="_blank">
+        </a>
+      </li>
+      <li class="twitter share-bar--item">
+        <a class="share-bar--item-link" href="https://twitter.com/NASASun" title="Follow us on Twitter" target="_blank">
+        </a>
+      </li>
+      <li class="youtube share-bar--item">
+        <a class="share-bar--item-link" href="https://www.youtube.com/playlist?list=PLF14609877EF3419B" title="Follow us on YouTube" target="_blank">
+        </a>
+      </li>
+      <li class="instagram share-bar--item">
+        <a class="share-bar--item-link" href="https://www.instagram.com/NASAGoddard/" title="Follow us on Instagram"  target="_blank">
+        </a>
+      </li>
+      <li class="flickr share-bar--item">
+        <a class="share-bar--item-link" href="https://www.flickr.com/groups/nasa-eclipse2017" title="Follow us on Flickr" target="_blank">
+        </a>
+      </li>
+      <li class="snapchat share-bar--item">
+        <a class="share-bar--item-link" href="https://www.snapchat.com/add/nasa" title="Follow us on Snapchat" target="_blank">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+      <footer>
+        <div class="centered clearfix">
+          <div class="footer-navigation">
+            <div class="footer-links-holder">
+              <h3><a href="eclipse-101">ECLIPSE 101</a></h3>
+              <ul class="footer-links">
+                <li><a href="nasas-eyes">NASA's Eyes</a></li>
+                <li><a href="eclipse-who-what-where-when-and-how">Eclipse: Who? What? When? Where? and How?</a></li>
+                <li><a href="how-eclipses-work">How Eclipses Work</a></li>
+                <li><a href="eclipse-history">Eclipse History</a></li>
+                <li><a href="eclipse-maps">Eclipse Maps</a></li>
+                <li><a href="safety">Safety</a></li>
+                <li><a href="eclipse-misconceptions">Eclipse Misconceptions</a></li>
+                <li><a href="faq">FAQ</a></li>
+                <li><a href="acknowledgments">Acknowledgments</a></li>
+                <li><a href="eclipse-glossary">Eclipse Glossary</a></li>
+              </ul>
+            </div>
+            <div class="footer-links-holder">
+              <h3><a href="event-locations">EVENTS</a></h3>
+              <ul class="footer-links">
+                <li><a href="event-locations">Event Locations</a></li>
+                <li><a href="eclipse-live-stream-archive">Eclipse Live Stream</a></li>
+                <li><a href="nasa-360-videos">NASA 360 Videos</a></li>
+                <li><a href="nasas-eyes">NASA's Eyes</a></li>
+                <!-- <li><a href="nasa-official-viewing-locations">Submit Official NASA Event</a></li> -->
+                <!-- <li><a href="general-events">Submit General Event</a></li> -->
+                <li><a href="host-eclipse-party">Hosft Eclipse Party</a></li>
+                <!-- <li><a href="subject-matter-experts">Subject Matter Expert Application</a></li> -->
+                <!-- <li><a href="https://eclipse2017.nasa.gov/sites/default/files/2017_solar_eclipse_SME_s_map.html" target="_blank" title="Subject Matter Expert Map">Subject Matter Expert Map</a></li> -->
+                <!-- <li><a href="https://eclipse2017.nasa.gov/event-calendar-view">Events Calendar</a></li> -->
+                <!-- <li><a href="https://eclipse2017.nasa.gov/sites/default/files/interactive_map/index.html">Eclipse Interactive Map</a></li> -->
+              </ul>
+            </div>
+            <div class="footer-links-holder">
+              <h3><a href="science">SCIENCE</a></h3>
+              <ul class="footer-links">
+                <li><a href="sun">The Sun</a></li>
+                <li><a href="moon">The Moon</a></li>
+                <li><a href="earth">Earth</a></li>
+                <li><a href="transits-and-occultations">Transits and Occultations</a></li>
+                <li><a href="science-ground">Science from the ground</a></li>
+                <li><a href="balloon-observations">Balloon Observations</a></li>
+                <li><a href="citizen-science">Citizen Science</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-holder">
+              <h3><a href="activities">ACTIVITIES</a></h3>
+              <ul class="footer-links">
+                <li><a href="citizen-explorers">Citizen Explorers</a></li>
+                <li><a href="science-challenges">Science Challenges</a></li>
+                <li><a href="eclipse-viewing">Eclipse Viewing</a></li>
+                <li><a href="eclipse-art-projects">Eclipse Art Projects</a></li>
+                <li><a href="2d3d-printable-pinhole-projectors">2D/3D Printable Pinhole Projectors</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-holder">
+              <h3><a href="education">EDUCATION</a></h3>
+              <ul class="footer-links">
+                <li><a href="k-12-formal-education">K-12 Formal Education</a></li>
+                <li><a href="homeschool">Homeschool</a></li>
+                <li><a href="informal-education">Informal Education</a></li>
+                <li><a href="public-engagement">Public Engagement</a></li>
+                <li><a href="undergraduate-resources">Undergraduate Resources</a></li>
+                <li><a href="nasa-wavelength">NASA Wavelength</a></li>
+                <li><a href="nasa-space-place">NASA Space Place</a></li>
+                <li><a href="eclipse-kit">Eclipse Kit</a></li>
+                <li><a href="whats-up">What's Up?</a></li>
+                <li><a href="other-education-resources">Other Education Resources</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-holder">
+              <h3 class="resources-link"><a href="resources">RESOURCES</a></h3>
+              <ul class="footer-links">
+                <li><a href="videos-images">Videos &amp; Images</a></li>
+                <li><a href="scientist-interviews">Scientist Interviews</a></li>
+                <li><a href="downloadables">Downloadables</a></li>
+                <li><a href="apps">Apps</a></li>
+                <li><a href="press-kit">Press Kit</a></li>
+                <li><a href="noaa's-resources">NOAA's Resources</a></li>
+                <li><a href="dot's-resources">DOT's Resources</a></li>
+                <li><a href="nps-resources">NPS Resouces</a></li>
+                <li><a href="us-fish-and-wildlife-service">US Fish and Wildlife Service</a></li>
+                <li><a href="español">Español</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-logo">
+            <img src="/static/img/nasa_logo.png" height="100">
+            <div class="footer-contact">
+                <div class="left-logo">
+                  <p>NASA Official: Alex Young</p>
+                  <p>Curator: Kaushal Patel</p>
+                </div>
+                <div class="footer-right-links">
+                    <div>
+                      <ul class="list-inline">
+                        <li class="footer-li">
+                            <a href="contact-us" class="footer-link">Contact Us</a>
+                        </li>
+                        <li class="footer-li">
+                          <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="footer-link">Privacy Policy & Important Notices</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+             </div>
+          </div>
+        </div>
+      </footer>
+      <div class="bottom-bar">
+          National Aeronautics and Space Administration
+      </div>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="/static/vendor/jquery/jquery.min.js"></script>
+      <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="/static/js/clean-blog.js"></script>
+      <!-- Footer Script for arrow -->
+      <script>
+        $(function() {
+          $('.footer-links-holder h3').click(function () {
+            $(this).parent().toggleClass('active');
+          });
+        });
+      </script>
+
+
+    </body>
+
+    </html>
+
+    <!-- <style>
+      @import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+    </style> -->

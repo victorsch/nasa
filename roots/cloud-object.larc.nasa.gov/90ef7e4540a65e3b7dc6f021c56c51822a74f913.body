@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<HTML>
+<SCRIPT LANGUAGE=JAVASCRIPT>
+
+<!--
+
+if (top.frames.length!=0)
+
+  top.location=self.document.location;
+
+// -->
+
+</SCRIPT>
+
+    <HEAD>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+        <META NAME="dc.title" CONTENT="NASA - Cloud Objects Web Site" />
+        <META NAME="dc.format" CONTENT="text/html" />
+        <META NAME="dc.date.modified" CONTENT="" />
+        <META NAME="dc.language" CONTENT="en" />
+        <META NAME="dc.publisher" CONTENT="Takmeng Wong" />
+        <META NAME="dc.publisher" CONTENT="Daniel C. Mangosing, Jr." />
+        <META NAME="dc.description" CONTENT="" />
+        <META NAME="dc.identifier" CONTENT="https://cloud-object.larc.nasa.gov/" />
+        <TITLE>NASA - Satellite Cloud Object Data for Large Ensemble Evaluation of Cloud Models and Parameterizations</TITLE>
+        <SCRIPT SRC="/common/js/common.js" TYPE="text/javascript" LANGUAGE="javascript"></SCRIPT>
+        <LINK TYPE="text/css" REL="stylesheet" HREF="/common/css/may-common.css" />
+    </HEAD>
+    <BODY>
+        <NOSCRIPT>
+            <CENTER><FONT SIZE="3" COLOR="red">The cloud-object.larc.nasa.gov site requires that JavaScripts be enabled in your browser. For instructions, <A TARGET="_blank" HREF="#" CLASS="navLnkRed">click here</A></FONT></CENTER>
+        </NOSCRIPT>
+
+        <A HREF="#"><IMG BORDER="0" ALT="Follow this link to go to the text only version of nasa.gov" HEIGHT="1" WIDTH="1" SRC="/images/common/spacer.gif" /></A><BR />
+
+        <BR />
+        <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="750" ALIGN="center">
+            <TR>
+                <TD>
+                    <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" WIDTH="100%">
+                        <TR BGCOLOR="#ffffff">
+                            <TD BGCOLOR="#ffffff">
+                                <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+                                    <TR>
+                                        <TD>
+                                            <TABLE BGCOLOR="#cccccc" WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                                                <TR>
+                                                    <TD BGCOLOR="#CCCCCC" VALIGN="middle" WIDTH="405">
+                                                        <A HREF="http://www.nasa.gov">
+                                                           <IMG BORDER="0" ALT="NASA - National Aeronautics and Space Administration"
+                                                                HEIGHT="51" WIDTH="288" SRC="/images/header/logo_nasa.gif" /></A><BR />
+                                                    </TD>
+                                                    <TD VALIGN="middle" HEIGHT="65" WIDTH="147">
+                                                        <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+                                                            <TR>
+                                                                <TD BGCOLOR="#666666" WIDTH="1">
+                                                                    <IMG BORDER="0" ALT="" HEIGHT="45" WIDTH="1"
+                                                                         SRC="/images/common/spacer.gif" />
+                                                                </TD>
+                                                                <TD WIDTH="19">
+                                                                    <IMG BORDER="0" ALT="" HEIGHT="1" WIDTH="1" 
+                                                                         SRC="/images/common/spacer.gif" />
+                                                                </TD>
+                                                                <TD WIDTH="158">
+                                                                    <A HREF="#maincontent"><IMG BORDER="0"
+                                                                       ALT="Follow this link to skip to the main content" 
+                                                                       HEIGHT="1" WIDTH="1" SRC="/images/common/spacer.gif" /></A><BR />
+                                                                    <A CLASS="headerLnk" HREF="#">+ Text Only Site</A><BR />
+                                                                    <A CLASS="headerLnk" HREF="http://www.nasa.gov/about/contact/index.html">+ Contact NASA</A><BR />
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                    <TD BGCOLOR="#006699" VALIGN="middle" HEIGHT="65" WIDTH="178">
+                                                        <FORM NAME="search" ID="search" METHOD="GET"
+                                                              ACTION="http://search.nasa.gov/search/search.jsp">
+                                                        <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0">
+                                                            <TR>
+                                                                <TD ROWSPAN="4" WIDTH="20">
+                                                                    <IMG BORDER="0" ALT="" HEIGHT="1" WIDTH="1"
+                                                                         SRC="/images/common/spacer.gif">
+                                                                </TD>
+                                                                <TD COLSPAN="3"><LABEL FOR="searchfield">
+                                                                    <IMG SRC="/images/template/search/title_find_it_sm.gif"
+                                                                         WIDTH="92" HEIGHT="16" ALT="FIND IT @ NASA"
+                                                                         TITLE="FIND IT @ NASA" BORDER="0"></LABEL>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN="top">
+                                                                    <INPUT TYPE="text" SIZE="9" CLASS="search" TITLE="searchfield"
+                                                                           ID="searchfield" NAME="nasaInclude" VALUE="">
+                                                                </TD>
+                                                                <TD WIDTH="8">
+                                                                    <IMG BORDER="0" ALT="" HEIGHT="1" WIDTH="1" SRC="/images/common/spacer.gif">
+                                                                </TD>
+                                                                <TD VALIGN="top"><A HREF="javascript:document.search.submit();">
+                                                                    <IMG NAME="Go" SRC="/images/template/search/button_go.gif"
+                                                                         WIDTH="38" HEIGHT="20" ALT="Go" TITLE="Go" BORDER="0"></A>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR HEIGHT="5">
+                                                                <TD HEIGHT="5" COLSPAN="3">
+                                                                    <IMG BORDER="0" ALT="" HEIGHT="5" WIDTH="1" SRC="/images/common/spacer.gif">
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD COLSPAN="3">
+                                                                    <A CLASS="navLnkWhite" HREF="http://search.nasa.gov/search/search.jsp">
+                                                                       <IMG BORDER="0" ALIGN="Bottom" HEIGHT="11"
+                                                                            SRC="/images/template/search/85034main_button_advanced_search_new.gif"
+                                                                            TITLE="Advanced Search" ALT="Advanced Search" WIDTH="92"></A>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                        </FORM>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+
+<TABLE WIDTH="730" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+        <TD><A onBlur="swapImg('navti0','/images/navigation/topnav/nav_top_0_0.jpg');"
+                onFocus="swapImg('navti0','/images/navigation/topnav/nav_top_0_1.jpg');"
+                onMouseOut="swapImg('navti0','/images/navigation/topnav/nav_top_0_0.jpg');"
+                onMouseOver="swapImg('navti0','/images/navigation/topnav/nav_top_0_1.jpg');"
+                HREF="/about/"><IMG ID="navti0" NAME="navti0" BORDER="0" HEIGHT="25" WIDTH="173"
+                                    SRC="/images/navigation/topnav/nav_top_0_0.jpg"
+                                    TITLE="ABOUT CLOUD OBJECTS" ALT="ABOUT CLOUD OBJECTS"/></A>
+        </TD>
+        <TD><A onBlur="swapImg('navti1','/images/navigation/topnav/nav_top_1_0.jpg');"
+                onFocus="swapImg('navti1','/images/navigation/topnav/nav_top_1_1.jpg');"
+                onMouseOut="swapImg('navti1','/images/navigation/topnav/nav_top_1_0.jpg');"
+                onMouseOver="swapImg('navti1','/images/navigation/topnav/nav_top_1_1.jpg');"
+                HREF="/references/"><IMG ID="navti1" NAME="navti1" BORDER="0" HEIGHT="25" WIDTH="105"
+                                         SRC="/images/navigation/topnav/nav_top_1_0.jpg"
+                                         TITLE="REFERENCES" ALT="REFERENCES"/></A>
+        </TD>
+        <TD><A onBlur="swapImg('navti2','/images/navigation/topnav/nav_top_2_0.jpg');"
+                onFocus="swapImg('navti2','/images/navigation/topnav/nav_top_2_1.jpg');"
+                onMouseOut="swapImg('navti2','/images/navigation/topnav/nav_top_2_0.jpg');"
+                onMouseOver="swapImg('navti2','/images/navigation/topnav/nav_top_2_1.jpg');"
+                HREF="/data_access/"><IMG ID="navti2" NAME="navti2" BORDER="0" HEIGHT="25" WIDTH="103"
+                                          SRC="/images/navigation/topnav/nav_top_2_0.jpg"
+                                          TITLE="DATA ACCESS" ALT="DATA ACCESS"/></A>
+        </TD>
+        <TD><A onBlur="swapImg('navti3','/images/navigation/topnav/nav_top_3_0.jpg');"
+               onFocus="swapImg('navti3','/images/navigation/topnav/nav_top_3_1.jpg');"
+               onMouseOut="swapImg('navti3','/images/navigation/topnav/nav_top_3_0.jpg');"
+               onMouseOver="swapImg('navti3','/images/navigation/topnav/nav_top_3_1.jpg');"
+               HREF="/FAQ/"><IMG ID="navti3" NAME="navti3" BORDER="0" HEIGHT="25" WIDTH="203"
+                                 SRC="/images/navigation/topnav/nav_top_3_0.jpg"
+                                 TITLE="FREQUENTLY ASKED QUESTIONS" ALT="FREQUENTLY ASKED QUESTIONS"/></A>
+        </TD>
+        <TD><A onBlur="swapImg('navti4','/images/navigation/topnav/nav_top_4_0.jpg');"
+               onFocus="swapImg('navti4','/images/navigation/topnav/nav_top_4_1.jpg');"
+               onMouseOut="swapImg('navti4','/images/navigation/topnav/nav_top_4_0.jpg');"
+               onMouseOver="swapImg('navti4','/images/navigation/topnav/nav_top_4_1.jpg');"
+               HREF="/related_web_sites/"><IMG ID="navti4" NAME="navti4" BORDER="0" HEIGHT="25" WIDTH="146"
+                                               SRC="/images/navigation/topnav/nav_top_4_0.jpg"
+                                               TITLE="RELATED WEB SITES" ALT="RELATED WEB SITES"/></A>
+        </TD>
+    </TR>
+</TABLE>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+    <TR>
+        <TD VALIGN="top" WIDTH="730">
+            <IMG SRC="/images/header/banner.jpg" BORDER="0" WIDTH="730"
+                 ALT="Statistical Analyses of Satellite Cloud Object Data for Large Ensemble Evaluation of Cloud Models"/>
+        </TD>
+    </TR>
+</TABLE>
+<BR />
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+        <TD ALIGN="left">
+            <h2 style="color:#006699; font-size:110%;">Satellite Cloud Object Data Website Objective</h2>
+        </TD>
+    </TR>
+    <TR>
+        <TD BGCOLOR="#cccccc" HEIGHT="1">
+            <IMG BORDER="0" ALT="" HEIGHT="1" WIDTH="1" SRC="/images/common/spacer.gif" />
+        </TD>
+    </TR>
+    <TR>
+        <TD>
+            <P>With the NASA strategic objective to advance knowledge of Earth, the NASA Clouds
+               and the Earth Radiant Energy System (CERES) project is designed to improve our
+               understanding of the relationship between clouds and solar and longwave radiation.
+               This website supports the ongoing CERES project by providing access to the CERES
+               cloud object data.  This dataset is based on a cloud object identification algorithm
+               using inputs from the CERES instantaneous footprint SSF data. The cloud object data provide a
+               unique way to diagnose the relationship between cloud properties and the top-of-atmosphere
+               shortwave and longwave radiation for specific cloud types.  This information can be
+               used to study the effects of cloud on the Earth's climate system.
+               <br><br>
+               For more information about the CERES project, please visit the
+               <a href="https://ceres.larc.nasa.gov" title="CERES Home Page"
+                  target="_blank">CERES website</a>.
+            </P>
+        </TD>
+    </TR>
+</TABLE>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+        <TD ALIGN="left">
+            <h2 style="color:#006699; font-size:110%;">News and Events</h2>
+        </TD>
+    </TR>
+    <TR>
+        <TD BGCOLOR="#cccccc" HEIGHT="1">
+            <IMG SRC="/images/common/spacer.gif"
+                 BORDER="0" ALT="" HEIGHT="1" WIDTH="1"/>
+        </TD>
+    </TR>
+    <TR>
+        <TD>
+            <P><SPAN CLASS="bold">DECEMBER 2011 - TERRA AND AQUA EDITION 1 DATA RELEASED</SPAN><BR />
+               Release of new Terra and Aqua cloud objects. &nbsp;&nbsp;
+               <A HREF="/about/news/" TITLE="NEWS AND EVENTS">&raquo; Read More &hellip;</A>
+            </P>
+        </TD>
+    </TR>
+</TABLE>
+<BR />
+                                            <TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="#cccccc" WIDTH="100%">
+                                                <TR>
+                                                    <TD VALIGN="top" WIDTH="135">
+                                                        <A HREF="javascript:openNASAWindow('http://www.usa.gov')">
+                                                           <IMG SRC="/images/footer/logo_usa_gov.gif" WIDTH="125" HEIGHT="42"
+                                                                ALT="USA.gov - Government Made Easy" BORDER="0" /></A>
+                                                    </TD>
+                                                    <TD VALIGN="top" WIDTH="330">
+                                                        <BR />
+                                                        <A HREF="http://www.nasa.gov/about/highlights/HP_Privacy.html"
+                                                           CLASS="footerLnk">+ NASA Privacy Statement, Disclaimer, <BR />
+                                                           <IMG SRC="/images/common/spacer.gif" WIDTH="9" HEIGHT="1" ALT=""
+                                                                BORDER="0" />and Accessibility Certification</A><BR />
+                                                    </TD>
+                                                    <TD WIDTH="60" VALIGN="top">
+                                                        <A HREF="http://www.nasa.gov">
+                                                           <IMG SRC="/images/footer/logo_nasa.gif" WIDTH="49" HEIGHT="48"
+                                                                ALT="NASA - National Aeronautics and Space Administration" BORDER="0" /></A>
+                                                    </TD>
+                                                    <TD class="light" VALIGN="top">
+                                                        <BR />
+                                                        Curator: <A TITLE="Edward Kizer" HREF="mailto:edward.a.kizer@nasa.gov"
+                                                                    CLASS="footerLnk">Edward Kizer</A><BR />
+                                                        NASA Official: <A TITLE="Takmeng Wong" HREF="mailto:&#116;&#097;&#107;&#109;&#101;&#110;&#103;&#046;&#119;&#111;&#110;&#103;&#064;&#110;&#097;&#115;&#097;&#046;&#103;&#111;&#118;" CLASS="footerLnk">Takmeng Wong</A><BR />
+                                                        Last Updated: September 11, 2023<BR />
+                                                        <a HREF="http://www.nasa.gov/about/contact/index.html" class="footerLnk">+ Contact NASA</A>
+                                                    </TD>
+                                                </TR>
+                                                <TR>
+                                                    <TD COLSPAN="4">
+                                                        <IMG SRC="/images/common/spacer.gif" WIDTH="1" HEIGHT="19" ALT="" BORDER="0" />
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                </TD>
+            </TR>
+        </TABLE>
+        <BR />
+        <BR />
+</BODY>
+</HTML>

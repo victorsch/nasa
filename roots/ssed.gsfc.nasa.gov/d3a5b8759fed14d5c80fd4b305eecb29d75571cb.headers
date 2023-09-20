@@ -1,0 +1,12 @@
+GET https://ssed.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 7680
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Content-Security-Policy: upgrade-insecure-requests
+< Date: Tue, 19 Sep 2023 05:57:44 GMT
+< Server: WebServer/1.0
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes

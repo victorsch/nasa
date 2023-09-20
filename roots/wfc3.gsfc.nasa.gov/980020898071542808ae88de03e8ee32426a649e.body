@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="description" content="The Fermi Gamma-ray Space Telescope">
+	<meta name="keywords" content="fermi, fermi gamma-ray space telescope, glast, glast homepage, glast website, glast web site, gamma-ray, gamma, cgro, gro, egret, compton, space, telescope, nasa, bursts, high-energy, high, energy, acd, anti-coincidence detector, anticoincidence detector, lat, large area telescope, gbm, glast burst monitor, burst monitor, balloon">
+	<meta name="robots" content="noodp">
+	<!-- NASA Required Meta -->
+	<meta name="orgcode" content="661">
+	<meta name="rno" content="Phillip.A.Newman.1">
+	<meta name="content-owner" content="John.D.Myers.1">
+	<meta name="webmaster" content="Stephan.F.Fantasia.1">
+<!-- Favicon -->
+	<link rel="shortcut icon" href="/inc/img/favicon.png">
+<!-- CSS -->
+	<link rel="stylesheet" href="/inc/css/wfc3.css">
+<!-- Javascript -->
+	<!-- Google Analytics -->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+<!-- Feed -->
+	<!--<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="" />-->
+<!-- Page Title -->
+	<title>WFC3</title>
+</head>
+
+<body>
+
+<!-- Start Skip To Content -->
+<div id="skip"><a href="#content-wrapper">Skip navigation and go straight to page content.</a></div>
+<!-- End Skip To Content -->
+
+<!-- Start Page Container -->
+<div id="page-container">
+
+<!-- Start NASA Banner -->
+<div id="nasa-banner">
+<!-- Left - Logo -->
+	<div class="nasa-logo">
+	<a href="http://www.nasa.gov/"><img src="/inc/img/nasa_logo.gif" width="140" height="98" border="0" alt="NASA Logo"></a>
+	</div>
+<!-- Middle - Affiliations -->
+	<div id="nasa-affiliation">
+	<h1><a href="http://www.nasa.gov/">National Aeronautics and Space Administration</a></h1>
+	<h2><a href="http://www.nasa.gov/goddard">Goddard Space Flight Center</a></h2>
+	</div>
+<!-- Right - Search and Links -->
+	<div id="nasa-search-links">
+		<div id="search-wrapper">
+		<!--<form method="post" action="http://heasarc.gsfc.nasa.gov/cgi-bin/search/search.pl?swindex=fermi">
+	    <label id="search-label" for="searchfield">Search:</label> <input name="tquery" id="search" size="25" maxlength="60" value="Fermi" onfocus="this.value='';">
+	    <input name="swindex" type="hidden" value="fermi">
+	    <input id="search-img" type="image" height="22" width="49" src="/inc/img/search_go.jpg" alt="search" />
+	    </form>-->
+		</div>
+	    <div id="header-links">
+	    <a href="http://heasarc.gsfc.nasa.gov/">HEASARC</a> | <a href="http://science.gsfc.nasa.gov/">Sciences and Exploration</a>
+	    </div>
+    </div>
+</div>
+<!-- End NASA Banner -->
+
+<!-- Start Mission Banner Graphic -->
+<div id="mission-banner">
+<a href="/"><img src="/inc/img/wfc3_banner.jpg" width="952" height="100" alt="Wide Field Camera 3" /></a>
+</div>
+<!-- End Mission Banner Graphic -->
+
+<!-- Start Main Navigation -->
+<div id="nav">
+<ul>
+    <li class="nav-home nav-active"><a href="/">Home</a></li>
+    <li class="nav-overview"><a href="/overview/">Overview</a></li>
+    <li class="nav-timeline"><a href="/timeline/">Timeline</a></li>
+    <li class="nav-tech"><a href="/tech/">Technology</a></li>
+    <li class="nav-docs"><a href="/docs/">Documents</a></li>
+    <li class="nav-team"><a href="/team/">WFC3 Team</a></li>
+    <li class="nav-image"><a href="/library/">Image Library</a></li>
+    <li class="nav-private"><a href="/private/">Private Site</a></li>
+</ul>
+</div>
+<!-- End Main Navigation -->
+
+<!-- Start Page Content Wrapper -->
+<div id="content-wrapper">
+
+<!-- Start Section Navigation -->
+<div id="sec-nav">
+<h1>Home</h1>
+<ul>
+	<li><a href="/private/ftp/">WFC3 FTP Area</a></li>
+	<li><a href="sm4.html">About SM4</a></li>
+</ul>
+</div>
+<!-- End Section Navigation -->
+
+<div class="archive-note">
+This webpage is kept for archival purposes only and is no longer updated or maintained.
+</div>
+
+
+<!-- Start Section Wrapper -->
+<div id="sec-wrapper">
+
+<h1>Welcome to the WFC3 Site - Hubble's Next Evolution</h1>
+<p>
+The Hubble Space Telescope was reborn with Servicing Mission 4 (SM4). The fifth and final servicing of the orbiting observatory flew aboard Space Shuttle Atlantis (STS-125) from May 11 - May 24, 2009. <a href="sm4.html">(Read More)</a>
+</p>
+<p>
+Orbiting high above the Earth, the Hubble Space Telescope (HST) obtains its extraordinary view of the Universe. Hubble is one of NASA's crown jewels and has remained on the forefront of astronomical science for the past decade. To do this Hubble has been continuously maintained and upgraded with cutting edge technology.
+</p>
+<p>
+As Hubble enters the last stage of its life, WFC3 - Wide Field Camera 3 - will be Hubble's next evolutionary step, allowing Hubble to peer ever further into the mysteries of the cosmos.
+</p>
+
+<!-- WHAT -->
+<h2 class="fivew-title">What?</h2>
+<div class="fivew-content">
+<a href="wfc3_uwt.jpg"><img src="wfc3_uwt.jpg" width="150" height="113" alt="Underwater Training for WFC3 Installation" title="Underwater Training for WFC3 Installation"></a>
+<p>To ensure the imaging capabilities of Hubble, Wide Field Camera 3 (WFC3) replaced Wide Field Planetary Camera 2 (WFPC2).</p>
+<p>Currently, there are three scientific instruments operating on Hubble. WFC3 will possibly be Hubble's last and most technologically advanced instrument to take images in the visible spectrum.</p>
+</div>
+
+<!-- WHY -->
+<h2 class="fivew-title">Why?</h2>
+<div class="fivew-content">
+<a href="astro_orion.jpg"><img src="astro_orion.jpg" width="150" height="149" title="Orion Nebula" alt="Orion Nebula"></a>
+<p>In June 1997, NASA made the decision to extend the HST mission from 2005 until 2010. There have been two servicing missions since that time - SM3A in December 1999 and SM3B in March 2002. In October of 2006, NASA made the decision to service the Hubble again to prolong its life until at least 2013. That mission took place in 2009.</p>
+<p>WFPC2 has been Hubble's "workhorse" instrument since it was installed in 1993, capturing more images for astronomers and the public than any other instrument. But technology often needs an upgrade, and after ten years, WFC3 will provide that. Think how far personal computers have advanced in ten years.</p>
+</div>
+
+<!-- HOW -->
+<h2 class="fivew-title">How?</h2>
+<div class="fivew-content">
+<a href="ast_radial_wfpc1.jpg"><img src="ast_radial_wfpc1.jpg" title="Hubble, Astronaut, and Shuttle" width="150" height="149" alt="Hubble, Astronaut, and Shuttle"></a>
+<p>WFC3 went through various stages before it was finally installed into Hubble in orbit - planning, building, testing, training, and more testing. Millions of man hours were put into WFC3.</p>
+<p>For installation, WFC3 was stowed aboard a space shuttle and taken up to Hubble in orbit where astronauts performed the installation of WFC3 after removing WFPC2 from Hubble's radial bay.</p>
+</div>       
+
+<!-- WHEN -->
+<h2 class="fivew-title">When?</h2>
+<div class="fivew-content">
+<a href="launch_clock.jpg"><img src="launch_clock.jpg" width="150" height="120" alt="Countdown Clock and Launch" title="Countdown Clock and Launch"></a>
+<p>The planning and construction of WFC3 began in 1997.</p>
+<p>WFC3 flew on the Space Shuttle Atlantis (STS-125) and was installed during Servicing Mission 4 (SM4), May 11 - May 24, 2009.</p>
+</div>   
+                      
+<!-- WHERE -->
+<h2 class="fivew-title">Where?</h2>
+<div class="fivew-content">
+<a href="earth_hub.jpg"><img src="earth_hub.jpg" width="150" height="98" alt="Hubble Orbiting Earth" title="Hubble Orbiting Earth"></a>
+<p>WFC3 was constructed mostly at Goddard Space Flight Center (GSFC in Maryland) and Ball Aerospace (in Colorado). Also various parts were built by contractors across the United States and the United Kingdom.</p>
+<p>Hubble is located in 600 km (375 miles) above the Earth's surface in Low Earth Orbit (LEO). The space shuttle matched altitude and velocity with Hubble so that the astronauts could perform their operation.</p>
+</div>
+
+<!-- WHO -->
+<h2 class="fivew-title">Who?</h2>
+<div class="fivew-content">
+<a href="clnrm_latch.jpg"><img src="clnrm_latch.jpg" width="150" height="113" alt="Scientists and Engineers" title="Scientists and Engineers"></a>
+<p>The Hubble Project, led by NASA, consists of a myriad of organizations and companies in government, academia, and industry. Those who worked to build WFPC1, WFPC2, and several other HST instruments also worked together on WFC3, leveraging their experience to provide a superior instrument at a modest cost. <a href="/team/">CLICK HERE for a listing of all those involved with WFC3</a>.</p>
+</div>
+
+</div>
+<!-- End Section Wrapper -->
+</div>
+<!-- End Page Content Wrapper -->
+
+<!-- Start Footer -->
+<div id="footer">
+<!-- Left - NASA Logo -->
+	<div class="nasa-logo">
+	<a href="http://www.nasa.gov/"><img src="/inc/img/nasa_logo.gif" width="140" height="98" border="0" alt="NASA Logo"></a>
+	</div>
+<!-- Left/Middle - GSFC Signature -->
+	<div id="goddard-signature">
+	<a href="http://www.nasa.gov/goddard"><img src="/inc/img/goddardsignature.png" width="172" height="68" border="0" alt="Goddard Signature"></a>
+	</div>
+<!-- Right/Middle - Contacts -->
+	<div id="contacts">
+	<ul>
+		<li>Curator: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#111;&#104;&#110;&#46;&#100;&#46;&#109;&#121;&#101;&#114;&#115;&#64;&#110;&#97;&#115;&#97;&#46;&#103;&#111;&#118;">J.D. Myers</a></li>
+		<li>NASA Official: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#097;&#110;&#101;&#119;&#109;&#097;&#110;&#064;&#108;&#104;&#101;&#097;&#112;&#111;&#112;&#046;&#103;&#115;&#102;&#099;&#046;&#110;&#097;&#115;&#097;&#046;&#103;&#111;&#118;">Phil Newman</a></li>
+		<li>Science Official: Kenneth Carpenter</li>
+	</ul>
+	</div>
+<!-- Right - Notices -->
+	<div id="notices">
+	<ul>
+		<li>&rsaquo; <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
+		<li>&rsaquo; <a href="http://www.nasa.gov/about/contact/index.html">Contact NASA</a></li>
+		<li>&rsaquo; <a href="/ssc/help/">Fermi FAQ, Comments, Feedback</a></li>
+		<li>&rsaquo; Page Last Updated: Thu, Mar 08, 2012</li>
+	</ul>
+	</div>
+</div>
+<!-- End Footer -->
+
+</div>
+<!-- End Page Container -->
+
+</body>
+</html>

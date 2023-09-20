@@ -1,0 +1,24 @@
+GET https://blogs.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 06:06:18 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+< Vary: Accept-Encoding
+< Referrer-Policy: same-origin
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: ziLNwhiPPapcllVRLm_bvScFEB3TA5ugtMOuwzdAG125yNphv0qb-g==
+< X-Amz-Cf-Pop: PHL50-C1
+< Cache-Control: max-age=20, s-maxage=600
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 193d4441ee6d312fd234f2d28e48c110.cloudfront.net (CloudFront)
+< Content-Type: text/html; charset=UTF-8
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Timing-Allow-Origin: *
+< Server: NASA
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Credentials: true
+< Link: <https://blogs.nasa.gov/>; rel=shortlink

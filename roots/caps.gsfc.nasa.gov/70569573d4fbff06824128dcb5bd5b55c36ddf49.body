@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <title>Cassini Plasma Spectrometer (CAPS)</title>
+<script id='_fed_an_ua_tag' type='text/javascript' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true'></script>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="orgcode" content="600" />
+<meta name="content-owner" content="David.G.Simpson.1" />
+<meta name="rno" content="Edward.C.Sittler.1" />
+<meta name="webmaster" content="david.g.simpson" />
+<meta name="description" content="Cassini Plasm Spectrometer (CAPS)" />
+<meta name="doc-class" content="Living Document" />
+
+<link rel="icon"
+      type="image/gif"
+      href="/images/nasa_foot_nasa1.gif">
+
+
+<style type="text/css" media="screen">@import url("css/style2.css");
+</style>
+
+<!--[if gte IE 5]>
+<style type="text/css" media="screen">@import url("css/style_iefixes.css");
+</style>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+<link rel="stylesheet" type="text/css" media="handheld" href="css/handheld.css" />
+
+<script language="JavaScript"><!--
+// The Central Randomizer 1.3 (C) 1997 by Paul Houle (houle at msc dot cornell dot edu)
+// See:  http://www.msc.cornell.edu/~houle/javascript/randomizer.html
+
+rnd.today=new Date();
+rnd.seed=rnd.today.getTime();
+
+function rnd() {
+        rnd.seed = (rnd.seed*9301+49297) % 233280;
+        return rnd.seed/(233280.0);
+};
+
+function rand(number) {
+        return Math.ceil(rnd()*number);
+};
+
+// end central randomizer. -->
+</script>
+
+
+</head>
+
+<div id="paper">
+<div id="nasahead">
+  <a href="http://www.nasa.gov" target="_blank"><img src="./images/nasa_header_logo1.gif" alt="NASA Logo, National Aeronautics and Space Administration" width="300px"; height="65px";></a>
+
+<div class="hidden"><a href="#skipping" title="Skip Navigation" accesskey="2">Skip Navigation (press 2)</a></div>
+
+<div id="nasaheadlinks">
+<ul>
+<li><a href="http://www.nasa.gov/centers/goddard/" target="_blank"><span style="color:black;">+ Goddard Home </a></li>
+<li><a href="http://www.nasa.gov/" target="_blank"><span style="color:black;">+ NASA.gov</a></li>
+<li><a href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=670" target="_blank"><span style="color:black;">+ Heliophysics Science Div.<br /></a></li>
+
+<li><a href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=673" target="_blank"><span style="color:black;">+ Geospace Physics Lab.<br /></a></li>
+
+</ul>
+</div>
+
+<div id="searchbox"><h3>Search NASA:</h3>
+<form name="search" id="search" method="get" action="http://search.nasa.gov/search/search.jsp" target="_blank">
+<label for="searchfield" style="color:#069; font-size:0px;">search field</label>
+<input type="text" size="10" id="searchfield" title="searchfield" value=" " name="nasaInclude" />
+<input type="image" src="./images/button_go.gif" alt="Submit Search" class="submitit" value="" id="submitsearch" />
+</form>
+
+</div>
+</div>
+
+
+<div id="menu">
+   <ul>
+      <li id="one"><a href="http://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=projects.main&navOrgCode=673" target="_blank"><span>PROJECTS</span></a></li>
+      <li id="two"><a href="http://science.gsfc.nasa.gov/673/gpl_images.html" target="_blank"><span>IMAGE GALLERY</span></a></li>
+      <li id="three"><a href="http://science.gsfc.nasa.gov/673/epo.html" target="_blank"><span>EDUCATION</span></a></li>
+      <li id="four"><a href="http://science.gsfc.nasa.gov/673/references.html" target="_blank"><span>REFERENCES</span></a></li>
+      <li id="five"><a href="http://science.gsfc.nasa.gov/673/links.html" target="_blank"><span>LINKS</span></a></li>
+   </ul>
+</div>
+
+<p>
+<center>
+<img src="images/caps_banner.jpg" alt="CAPS Logo"width="730" height="90"></a>
+</center>
+
+<div id="contentwrapper"><!-- Content Wrapper, this div surrounds the main content and the Left Nav -->
+<div id="rightcontent"><a name="skipping" id="skipping"></a><!-- Main content div (right side) -->
+
+
+<!--
+**********************************
+**** START MAIN CONTENT HERE. ****
+**********************************
+-->
+
+<!--<h1><span style="color:red">UNDER CONSTRUCTION</span></h1>-->
+<body>
+
+<!--
+<h2>LATEST CAPS NEWS</h2>
+
+<div class="lgfeature">
+<ul style="list-style-type:none;">
+    <li><a href="http://actu.epfl.ch/news/getting-to-the-moon-on-drops-of-fuel/" target="_blank">
+    + Lorem Ipsum Dolor 1
+    </li>
+
+</ul>
+</div>
+<div class="clearleft"></div>
+
+<div class="lgfeature">
+<ul style="list-style-type:none;">
+    <li><a href="http://www.space.com/15094-moon-water-ice-space-fuel.html" target="_blank">
+    + Lorem Ipsum Dolor 2
+    </li>
+</ul>
+</div>
+<div class="clearleft"></div>
+
+<div class="lgfeature">
+<ul style="list-style-type:none;">
+    <li><a href="http://www.space.com/14955-cosmic-rays-moon-space-radiation.html" target="_blank">
+    + Lorem Ipsum Dolor 3
+    </li>
+</ul>
+</div>
+<div class="clearleft"></div>
+
+<p><a href="Caps-news.html"> more...</a>
+-->
+
+<h2>Introduction</h2>
+
+<p>
+
+<I>Cassini-Huygens</I> is the fourth spacecraft to visit the planet Saturn, following Pioneer 11 (1979), Voyager 1 (1980), and Voyager 2 (1981).  It is also the first to be placed in orbit around Saturn.
+The spacecraft consists of two primary components: (1) The <I>Cassini</I> spacecraft, designed to orbit Saturn; and (2) the <I>Huygens</I> probe, designed to be dropped into the atmosphere of Saturn's
+largest moon Titan and land on its surface.
+
+<p>
+
+Launched in 1997, <I>Cassini-Huygens</I> began its journey with gravitational assist flybys of the planets Venus (1998 and 1999), Earth (1999), and Jupiter (2000).  It arrived at Saturn and was placed into orbit
+around Saturn on July 1, 2004.  The <I>Huygens</I> probe detached from <I>Cassini</I> on Christmas Day 2004, and descended through Titan's atmosphere to the ground three weeks later, on January 14, 2005.
+Since that time, <I>Cassini</I> spaceraft has continued orbiting Saturn, collecting data on the planet Saturn, its rings, its moons, and its magnetosphere.
+
+<p><a href="Introduction.html"> more...</a>
+
+<p>
+
+
+<!--
+**** END MAIN CONTENT HERE. ****
+-->
+
+	</div><!-- END Main content div -->
+	<div id="leftcontent"><!-- Left content div (left side, includes the left nav) -->
+
+	<!-- Begin Left Nav -->
+	<div id="lefttitle"><a href="" class="homeabs">+ Home</a><h2>Cassini Plasma Spectrometer (CAPS)</h2>
+	<div class="mac ie fix"></div></div>
+
+	<div id="leftnav">
+	<ul>
+	<li id="lnone"><a href="Introduction.html">Introduction</a></li>
+	<li id="lntwo"><a href="http://saturn.jpl.nasa.gov/news/cassinifeatures/">Cassini News</a>
+	<li id="lnthree"><a href="Caps-news.html">CAPS News</a>
+	<li id="lnfour"><a href="Publications.html">Cassini Publications</a>
+	<li id="lnfive"><a href="http://saturn.jpl.nasa.gov/home/index.cfm">Cassini Site at JPL</a>
+	<li id="lnsix"><a href="http://caps.space.swri.edu/">CAPS Site at SwRI</a>
+	<li id="lnseven"><a href="http://www.caps.lanl.gov/">CAPS Site at LANL</a>
+	<li id="lneight"><a href="http://www.caps.lanl.gov/sur_anl_tool.html">CAPS Data Display (LANL)</a>
+	<li id="lnnine"><a href="http://saturn.jpl.nasa.gov/operations/present-position.cfm">Where is Cassini Now?</a>
+	<li id="lnten"><a href="Feedback.html">Feedback</a></li>
+	</ul>
+
+	</div>
+	<!-- END Left Nav -->
+
+	<div>
+	<h3>Random Image</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;source:NASA/JPL
+
+        <script language="JavaScript"><!--
+
+             var number = rand(86);
+             if (number ==  1)  {var picture = "IMG001313.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1313"}
+             if (number ==  2)  {var picture = "IMG001326.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1326"}
+             if (number ==  3)  {var picture = "IMG002203.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2203"}
+             if (number ==  4)  {var picture = "IMG002314.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2314"}
+             if (number ==  5)  {var picture = "IMG002610.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2610"}
+             if (number ==  6)  {var picture = "IMG002625.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2625"}
+             if (number ==  7)  {var picture = "IMG002909.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2909"}
+             if (number ==  8)  {var picture = "IMG003013.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3013"}
+             if (number ==  9)  {var picture = "IMG003015.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3015"}
+             if (number == 10)  {var picture = "IMG003266.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3266"}
+             if (number == 11)  {var picture = "IMG003313.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3313"}
+             if (number == 12)  {var picture = "IMG003751.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3751"}
+             if (number == 13)  {var picture = "IMG003772.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3772"}
+             if (number == 14)  {var picture = "IMG004139.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4139"}
+             if (number == 15)  {var picture = "PIA01940.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2305"}
+             if (number == 16)  {var picture = "PIA02145.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1994"}
+             if (number == 17)  {var picture = "PIA03553.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1691"}
+             if (number == 18)  {var picture = "PIA05075.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=846"}
+             if (number == 19)  {var picture = "PIA05076.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=847"}
+             if (number == 20)  {var picture = "PIA06073.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=911"}
+             if (number == 21)  {var picture = "PIA06077.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=825"}
+             if (number == 22)  {var picture = "PIA06090.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1044"}
+             if (number == 23)  {var picture = "PIA06099.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=842"}
+             if (number == 24)  {var picture = "PIA06110.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1030"}
+             if (number == 25)  {var picture = "PIA06141.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1179"}
+             if (number == 26)  {var picture = "PIA06167.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1271"}
+             if (number == 27)  {var picture = "PIA06207.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1431"}
+             if (number == 28)  {var picture = "PIA06409.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1033"}
+             if (number == 29)  {var picture = "PIA06420.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=541"}
+             if (number == 30)  {var picture = "PIA06430.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1629"}
+             if (number == 31)  {var picture = "PIA06436.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1639"}
+             if (number == 32)  {var picture = "PIA06578.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1339"}
+             if (number == 33)  {var picture = "PIA06984.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1167"}
+             if (number == 34)  {var picture = "PIA06994.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=871"}
+             if (number == 35)  {var picture = "PIA07230.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1308"}
+             if (number == 36)  {var picture = "PIA07232.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1310"}
+             if (number == 37)  {var picture = "PIA07632.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1853"}
+             if (number == 38)  {var picture = "PIA07638.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1866"}
+             if (number == 39)  {var picture = "PIA07693.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1978"}
+             if (number == 40)  {var picture = "PIA07740.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1762"}
+             if (number == 41)  {var picture = "PIA07759.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1874"}
+             if (number == 42)  {var picture = "PIA07772.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1914"}
+             if (number == 43)  {var picture = "PIA07787.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2172"}
+             if (number == 44)  {var picture = "PIA07800.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2032"}
+             if (number == 45)  {var picture = "PIA07960.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=1540"}
+             if (number == 46)  {var picture = "PIA08127.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2018"}
+             if (number == 47)  {var picture = "PIA08235.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2222"}
+             if (number == 48)  {var picture = "PIA08290.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2330"}
+             if (number == 49)  {var picture = "PIA08328.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2312"}
+             if (number == 50)  {var picture = "PIA08365.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2539"}
+             if (number == 51)  {var picture = "PIA08386.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2779"}
+             if (number == 52)  {var picture = "PIA08388.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2788"}
+             if (number == 53)  {var picture = "PIA08411.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3057"}
+             if (number == 54)  {var picture = "PIA08427.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2115"}
+             if (number == 55)  {var picture = "PIA08882.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2497"}
+             if (number == 56)  {var picture = "PIA09102.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2432"}
+             if (number == 57)  {var picture = "PIA09171.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2470"}
+             if (number == 58)  {var picture = "PIA09188.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2552"}
+             if (number == 59)  {var picture = "PIA09758.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2822"}
+             if (number == 60)  {var picture = "PIA09860.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2998"}
+             if (number == 61)  {var picture = "PIA09918.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3107"}
+             if (number == 62)  {var picture = "PIA10008.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2786"}
+             if (number == 63)  {var picture = "PIA10084.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2876"}
+             if (number == 64)  {var picture = "PIA10094.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=2882"}
+             if (number == 65)  {var picture = "PIA10358.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3067"}
+             if (number == 66)  {var picture = "PIA10446.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3186"}
+             if (number == 67)  {var picture = "PIA11103.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3257"}
+             if (number == 68)  {var picture = "PIA11104.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3258"}
+             if (number == 69)  {var picture = "PIA11667.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3661"}
+             if (number == 70)  {var picture = "PIA11668.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4115"}
+             if (number == 71)  {var picture = "PIA12547.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3836"}
+             if (number == 72)  {var picture = "PIA12588.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3898"}
+             if (number == 73)  {var picture = "PIA12608.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3937"}
+             if (number == 74)  {var picture = "PIA12672.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4044"}
+             if (number == 75)  {var picture = "PIA12684.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4070"}
+             if (number == 76)  {var picture = "PIA12715.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4122"}
+             if (number == 77)  {var picture = "PIA12721.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4132"}
+             if (number == 78)  {var picture = "PIA12723.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4135"}
+             if (number == 79)  {var picture = "PIA12740.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4177"}
+             if (number == 80)  {var picture = "PIA12867.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=3919"}
+             if (number == 81)  {var picture = "PIA13403.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4143"}
+             if (number == 82)  {var picture = "PIA13405.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4145"}
+             if (number == 83)  {var picture = "PIA13424.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4158"}
+             if (number == 84)  {var picture = "PIA13426.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4160"}
+             if (number == 85)  {var picture = "PIA13621.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4189"}
+             if (number == 86)  {var picture = "PIA13695.jpg";var width = 140;var height = 500;var details = "http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4196"}
+
+	document.write('<a href='+details+'><img src="images/caps_random/'+ picture + '" width=' + width + 'height=' + height + '></a>');
+	//--></script>
+	</div>
+
+	<p><p>
+	</div><!-- END Left content div -->
+
+<div id="nasafoot">
+	<div id="nasafootplus">
+	<ul>
+	<center>
+	<li>+ <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">NASA Privacy, Security, Notices</a></li>
+	<!--<li>+ <a href="http://www.hq.nasa.gov/office/pao/FOIA/" target="_blank" class="footerLnk">Freedom of Information Act</a></li>
+	<li>+ <a href="http://www.nasa.gov/about/highlights/HP_Management.html" target="_blank" class="footerLnk">The President's Management Agenda</a></li>
+	<li>+ <a href="http://www.usa.gov" target="_blank">USA.gov</a></li>
+	<li>+ <a href="http://www.whitehouse.gov/omb/expectmore/" target="_blank">ExpectMore.gov</a></li>-->
+	</center>
+	</ul>
+
+	</div>
+	<a href="http://www.nasa.gov/" target="_blank"><img id="nasafootr" src="./images/nasa_foot_nasa1.gif" width="51" height="48" alt="NASA Logo - nasa.gov" /></a>
+
+	<div id="nasafootlinks">
+	<ul>
+	<li><span style="color:black;">NASA Official: <a href="mailto:edward.c.sittler@nasa.gov">Dr. Edward C. Sittler, Jr.</a></li>
+	<li><span style="color:black;">Curator: <a href="mailto:david.g.simpson@nasa.gov">Dr. David G. Simpson</a></li>
+
+	</ul>
+	</div>
+</div>
+
+
+
+<!-- TJK thinks this is extra since there's an "end div in footer.html
+</div>
+-->
+
+</div>
+</body>
+</html>
+

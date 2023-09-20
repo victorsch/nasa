@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en" style="background: #222;font-size:10px;">
+    <head>  
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179000052-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-179000052-1');
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>NASA | Ozone and Air Quality</title>
+        <meta name="description" content="Ozone and Air Quality">
+        <meta name="keywords" content="ozone, air quality, ozone map, ozone data, daily ozone">
+        
+        <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700);</style>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+        
+        <link rel="stylesheet" href="/css/woff2.css">
+    </head>
+    <link rel="stylesheet" href="/dist/index.73ed959f.css"><script type="module" src="/dist/index.e8f5fe05.js"></script>    <link rel="stylesheet" href="/css/ozoneaq.css"><style>
+#workshop {
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    background: #e7e7e7;
+}
+</style>
+    <body>
+        <div class="content mainSection">
+            <div class="welcome_banner">
+                Welcome to NASA's Ozone and Air Quality site
+            </div>
+            <section class="ct-front-main">
+                <section id="front-image-wrap" class="ct-main">
+                    <section id="front-image" tatra-bg-image="/api/dailyImage/"></section>
+                </section>
+                <section id="front-text" class="ct-main">
+                    <p>
+                        NASA's <span style="font-weight:600;">Ozone and Air Quality</span> site provides data and results from Backscattering Ultraviolet (BUV) satellite sensors.
+                    </p>
+                    <p>
+                        These sensors are used to measure and monitor atmospheric trace gases (such as ozone, SO2, and NO2), aerosols, surface reflectance, 
+                        and cloud pressure.<br/><br/>
+
+                        Over 30 years ago, the first BUV instruments provided measurements that were integral to the discovery that man-made CFCs being 
+                        released into the atmosphere destroyed stratospheric ozone through a previously unrecognized catalytic reaction. 
+                        In recognition of the importance of understanding such atmospheric perturbations, 
+                        Congress directed NASA in June 1975 to 
+                        <span class="info-quote info-quote-front">"develop and carry out a comprehensive program of research, technology, and monitoring of the phenomena of the upper atmosphere 
+                            so as to provide for an understanding of and to maintain the chemical and physical integrity of the Earth's upper atmosphere."</span>
+                        The BUV series of measurements were designed to help carry out this responsibility.<br/></br>
+
+                        More recently, scientists at institutions including NASA and NOAA have developed the capability to measure other
+                        trace gases and UV absorbing aerosols from BUV sensors, helping us to determine, and predict, 
+                        air quality in the atmospheric layer closest to the surface, the troposphere.
+                    </p>
+                    <div style="text-align:right;"><img src="/images/NASA_logo.svg" class="nasaLogo"></div>
+                </section>
+            </section>
+<!--            <section id="workshop">
+                <p><a href="/limb_2021">Access the 11th International Limb Workshop Information ...</a></p>
+            </section>-->
+
+            <div class="download-banner">Download Data</div>
+            <div class="dwnl_wrap">
+                <section class="ct-front-main">
+                    <section class="ct-main ct-tools">
+                        <a href="/data/aerosols/">
+                            <div class="ct-button">
+                                <span style="color:#F2AE2E;"><i class="fa fa-database"></i></span><br/>
+                                Aerosols
+                            </div>
+                        </a>
+                        <a href="/data/omi/">
+                            <div class="ct-button">
+                                <span style="color:#20ae20;"><i class="fa fa-database"></i></span><br/>
+                                OMI
+                            </div>
+                        </a>
+                        <a href="/data/omps/">
+                            <div class="ct-button">
+                                <span style="color:66A3D9;"><i class="fa fa-database"></i></span><br/>
+                                OMPS
+                            </div>
+                        </a>
+                        <a href="/data/ozone/">
+                            <div class="ct-button">
+                                <span style="color:#66A3D9;"><i class="fa fa-database"></i></span><br/>
+                                Ozone
+                            </div>
+                        </a>
+                    </section>
+                    <section class="ct-main ct-tools">
+                        <a href="/data/reflectivity/">
+                            <div class="ct-button">
+                                <span style="color:#9EA1E5;"><i class="fa fa-database"></i></span><br/>
+                                Reflectivity
+                            </div>
+                        </a>
+                        <a href="/data/toms/">
+                            <div class="ct-button">
+                                <span style="color:#7b20ae;"><i class="fa fa-database"></i></span><br/>
+                                TOMS
+                            </div>
+                        </a>
+                        <a href="/data/trace-gases/">
+                            <div class="ct-button">
+                                <span style="color:#732615;"><i class="fa fa-database"></i></span><br/>
+                                Trace Gases
+                            </div>
+                        </a>
+                        <a href="/docs/">
+                            <div class="ct-button">
+                                <span ><i class="fa fa-file"></i></span><br/>
+                                Documents
+                            </div>     
+                        </a>           
+                    </section>
+                </section>
+                <div class="description">
+                    <ul>
+                        <li><b>OMI</b> - Ozone Monitoring Instrument</li>
+                        <li><b>OMPS</b> - Ozone Mapping and Profiler Suite</li>
+                        <li><b>TOMS</b> - Total Ozone Mapping Spectrometer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="static_links" style="display:none;">
+<a href="/data/aerosols/#tab=image">Aerosols</a><br/>
+<a href="/data/ozone/#tab=image">Ozone</a><br/>
+<a href="/data/reflectivity/#tab=image">Reflectivity</a><br/>
+<a href="/map/">Map Overlays</a><br/>
+<a href="/data/aerosols/">Aerosols</a><br/>
+<a href="/data/ozone/">Ozone</a><br/>
+<a href="/data/reflectivity/#tab=image">Reflectivity</a><br/>
+<a href="/data/trace-gases/">Trace Gases</a><br/>
+<a href="/data/omi/">OMI</a><br/>
+<a href="/data/omps/">OMPS</a><br/>
+<a href="/data/toms/">TOMS</a><br/>
+<a href="/omps/">About OMPS</a><br/>
+<a href="/acronyms/">Acronyms</a><br/>
+<a href="/public/">Documents</a><br/>
+<a href="/faq/">FAQ</a><br/>
+<a href="/map/">Map</a><br/>
+<a href="/missions/">Missions</a><br/>
+<a href="/tools/">Tools</a><br/>
+<a href="/trending/omi/aura/">OMI Aura (TEST)</a><br/>
+<a href="/trending/omps/npp/">OMPS NPP</a><br/>
+<a href="/trending/omps/n20/">OMPS NOAA-20</a><br/>
+<a href="/activity/omps/npp/">NPP</a><br/>
+<a href="/activity/omps/n20/">NOAA-20</a><br/>
+<a href="/activity/omps/n21/">NOAA-21</a><br/>
+<a href="/data/aerosols/#tab=image">Aerosols</a><br/>
+<a href="/data/ozone/#tab=image">Ozone</a><br/>
+<a href="/map/">Map Overlays</a><br/>
+<a href="https://worldview.earthdata.nasa.gov/?l=OMPS_Ozone_Total_Column,MERRA2_Ozone_Mixing_Ratio_50hPa_Monthly(hidden),OMI_Ozone_TOMS_Total_Column(hidden),OMI_Ozone_DOAS_Total_Column(hidden),MLS_O3_46hPa_Night(hidden),MLS_O3_46hPa_Day(hidden),Reference_Labels(hidden),Reference_Features(hidden),Coastlines,VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)">Worldview</a><br/>
+</div>    </body>
+    <!--googleon: all-->    
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>  
+
+</html>

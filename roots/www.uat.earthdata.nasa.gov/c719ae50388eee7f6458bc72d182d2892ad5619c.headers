@@ -1,0 +1,16 @@
+GET http://www.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 06:05:17 GMT
+< Location: https://www.uat.earthdata.nasa.gov/
+< Via: 1.1 7e50e11b37fc55ad87bf48e905b770a0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: py52_Awo0T-9FAqJv4sQC5la2Z3ICr37csbkJFo2FEgQCMN9LIXM-w==

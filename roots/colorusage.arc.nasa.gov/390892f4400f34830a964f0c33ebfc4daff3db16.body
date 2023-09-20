@@ -1,0 +1,567 @@
+<html>
+<head>
+<title>Color Usage Site Home Page</title>
+
+<!--  Color Usage Research Lab  - Color Usage Web Site -->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<LINK REV="made" href="mailto:Lawrence.E.Arend@nasa.gov">
+
+<META Name="revisit-after" Content="30 Days">
+
+<META NAME="keywords" CONTENT="atc interface design, atm interface design, color design, color usage, color interface design, color tool, color design tool, color selection tool, color usage, color usage nasa, nasa color, color guidelines, color usage guidelines">
+
+<META NAME="description" CONTENT="Using Color in Information Display Graphics and ATC/ATM Interface Design. Design methods, color science, and color guidelines.">
+
+<META NAME="author" CONTENT="Lawrence Arend, Ph.D.">
+
+<META NAME="ROBOTS" CONTENT="ALL">
+
+<script>
+
+function getSelect(s) {
+
+var url = s.options[s.selectedIndex].value
+
+if (url != ""){location = url}
+
+}
+
+</script>
+
+<!-- Begin Main Navigation Menu Scripts -->
+
+<script language="JavaScript">
+
+<!--
+
+// Design Process Menu
+
+function mmLoadMenus() {
+
+  if (window.mm_menu_X) return;
+
+        window.mm_menu_X = new Menu("root",280,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,350,-5,7,true,true,true,0,true,true);
+
+		mm_menu_X.addMenuItem("Designing&nbsp;a&nbsp;Color&nbsp;Graphics&nbsp;Page&nbsp;(Checklist)","location='graphics_page_design.php'");
+
+		mm_menu_X.hideOnMouseOut=true;
+
+		mm_menu_X.bgColor='#555555';
+
+		mm_menu_X.menuBorder=1;
+
+		mm_menu_X.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_X.menuBorderBgColor='#777777';
+
+
+
+
+
+// Color Issues Menu
+
+
+
+  if (window.mm_menu_I) return;
+
+
+
+        window.mm_menu_I = new Menu("root",240,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,350,-5,7,true,true,true,0,true,true);
+
+		mm_menu_I.addMenuItem("Labeling&nbsp;with&nbsp;Color","location='labeling.php'");
+
+		mm_menu_I.addMenuItem("Grouping&nbsp;with&nbsp;Color","location='grouping.php'");
+
+		mm_menu_I.addMenuItem("Color&nbsp;and&nbsp;Popout","location='popout.php'");
+
+		mm_menu_I.addMenuItem("Creating&nbsp;Urgency&nbsp;Hierarchies","location='urgency_1.php'");
+
+		mm_menu_I.addMenuItem("Creating&nbsp;Perceptual&nbsp;Layers","location='Percept_layers_1.php'");
+
+		mm_menu_I.addMenuItem("Designing&nbsp;with&nbsp;Luminance&nbsp;Contrast","location='design_lum_0.php'");
+
+		mm_menu_I.addMenuItem("Luminance&nbsp;Contrast&nbsp;in&nbsp;Color&nbsp;Graphics","location='design_lum_1.php'");
+
+		mm_menu_I.addMenuItem("Choosing&nbsp;Background&nbsp;Colors","location='bkg_1.php'");
+
+		mm_menu_I.addMenuItem("Last&nbsp;Resorts&nbsp;Outlining / Infills","location='last_resorts.php'");
+
+		mm_menu_I.hideOnMouseOut=true;
+
+		mm_menu_I.bgColor='#555555';
+
+		mm_menu_I.menuBorder=1;
+
+		mm_menu_I.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_I.menuBorderBgColor='#777777';
+
+
+
+
+
+// Aerospace Menu
+
+
+
+	window.mm_menu_Y = new Menu("root",325,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,350,-5,7,true,true,true,0,true,true);
+
+
+
+		mm_menu_Y.addMenuItem("Color&nbsp;Design&nbsp;for&nbsp;Aerospace&nbsp;Graphics","location='aerospace_1.php'");
+
+		mm_menu_Y.addMenuItem("Design&nbsp;of&nbsp;Cockpit&nbsp;Graphics&nbsp;(Example)","location='cockpit_1.php'");
+
+		mm_menu_Y.addMenuItem("Design&nbsp;of&nbsp;Air&nbsp;Traffic&nbsp;Management&nbsp;Graphics&nbsp;(Example)","location='ATM_1.php'");
+
+		mm_menu_Y.addMenuItem("Colors&nbsp;in&nbsp;Aviation&nbsp;Charts&nbsp;and&nbsp;Maps","location='maps_and_charts_1.php'");
+
+		mm_menu_Y.hideOnMouseOut=true;
+
+		mm_menu_Y.bgColor='#555555';
+
+		mm_menu_Y.menuBorder=1;
+
+		mm_menu_Y.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_Y.menuBorderBgColor='#777777';
+
+
+
+
+
+// Guidelines Menu
+
+
+
+	window.mm_menu_Z = new Menu("root",335,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,350,-5,7,true,true,true,0,true,true);
+
+
+
+		mm_menu_Z.addMenuItem("Introduction&nbsp;to&nbsp;Color&nbsp;Guidelines&nbsp;and&nbsp;Standards","location='guidelines_0.php'");
+		mm_menu_Z.addMenuItem("Hierarchy&nbsp;of&nbsp;Color&nbsp;Usage&nbsp;Guidelines","location='GuidelinesHierarchy.php'");
+		mm_menu_Z.addMenuItem("Guidelines&nbsp;for&nbsp;Color&nbsp;Discrimination&nbsp;and&nbsp;Identification","location='guidelines_discrim_id.php'");
+
+		mm_menu_Z.addMenuItem("Luminance&nbsp;Contrast&nbsp;Color&nbsp;Guidelines","location='guidelines_lum_cont.php'");
+
+		mm_menu_Z.addMenuItem("Other&nbsp;Color&nbsp;Design&nbsp;Guidelines","location='guidelines_ov_design.php'");
+
+		mm_menu_Z.addMenuItem("Color&nbsp;Guidelines&nbsp;Bibliography","location='guidelines_specific.php'");
+
+		mm_menu_Z.hideOnMouseOut=true;
+
+		mm_menu_Z.bgColor='#555555';
+
+		mm_menu_Z.menuBorder=1;
+
+		mm_menu_Z.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_Z.menuBorderBgColor='#777777';
+
+
+
+
+
+// Color Science Menu
+
+
+
+	window.mm_menu_A = new Menu("root",284,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,250,-5,7,true,true,true,0,true,true);
+
+
+
+		mm_menu_A.addMenuItem("Applied&nbsp;Color&nbsp;Science","location='color_concepts_1.php'");
+		
+		mm_menu_A.addMenuItem("Luminance&nbsp;Contrast","location='luminance_cont.php'");
+
+		mm_menu_A.addMenuItem("Luminance&nbsp;and&nbsp;Chromaticity","location='lum_and_chrom.php'");
+
+		mm_menu_A.addMenuItem("Color&nbsp;Discrimination&nbsp;and&nbsp;Identification","location='discrim.php'");
+
+		mm_menu_A.addMenuItem("Legibility","location='legib_1.php'");
+
+		mm_menu_A.addMenuItem("Designing&nbsp;with&nbsp;Blue","location='blue_2.php'");
+
+		mm_menu_A.addMenuItem("Individual&nbsp;Differences&nbsp;in&nbsp;Color&nbsp;Vision","location='indiv_diffs.php'");
+
+		mm_menu_A.addMenuItem("Masking&nbsp;by&nbsp;Patterns","location='masking.php'");
+
+		mm_menu_A.addMenuItem("Blinking,&nbsp;Flashing,&nbsp;and&nbsp;Temporal&nbsp;Response","location='flashing.php'");
+
+		mm_menu_A.addMenuItem("Simultaneous&nbsp;and&nbsp;Successive&nbsp;Contrast","location='Simult_and_succ_cont.php'");
+
+		mm_menu_A.addMenuItem("Display&nbsp;Hardware&nbsp;&&nbsp;Software","location='display_physics.php'");
+
+		mm_menu_A.addMenuItem("Reflected&nbsp;Light","location='refl_light.php'");
+
+		mm_menu_A.hideOnMouseOut=true;
+
+		mm_menu_A.bgColor='#555555';
+
+		mm_menu_A.menuBorder=1;
+
+		mm_menu_A.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_A.menuBorderBgColor='#777777';
+
+
+
+
+
+// Utilities Menu
+
+
+
+	window.mm_menu_M = new Menu("root",185,25,"Arial, Helvetica, sans-serif",12,"#000000","#FFFFFF","#DBDBF7","#2B3E55","left","middle",3,0,250,1,7,true,true,true,0,true,true);
+
+
+
+		mm_menu_M.addMenuItem("References","location='refs_1.php'");
+
+		mm_menu_M.addMenuItem("Bibliography","location='bibliography.php'");
+
+		mm_menu_M.addMenuItem("Links&nbsp;and&nbsp;External&nbsp;Resources","location='links.php'");
+
+		mm_menu_M.addMenuItem("Site&nbsp;Map","location='usage_site_map.php'");
+
+		mm_menu_M.addMenuItem("About&nbsp;This&nbsp;Site","location='about.php'");
+
+		mm_menu_M.hideOnMouseOut=true;
+
+		mm_menu_M.bgColor='#555555';
+
+		mm_menu_M.menuBorder=1;
+
+		mm_menu_M.menuLiteBgColor='#FFFFFF';
+
+		mm_menu_M.menuBorderBgColor='#777777';
+		
+		
+
+
+// Commented Out Glossary		mm_menu_M.addMenuItem("Glossary","location='glossary.php'");
+
+
+
+mm_menu_M.writeMenus();
+
+
+
+}
+
+
+
+//-->
+
+
+
+</script>
+
+
+
+<!-- End Main Navigation Script -->
+
+
+
+
+
+<!-- Navigation JS file -->
+
+
+
+<script language="JavaScript" src="mm_menu.js"></script>
+
+
+
+
+
+<!-- Site Style Sheet -->
+
+
+
+<link href="includes/global.css" rel="stylesheet" type="text/css">
+
+<!-- Netscape 4 resize bug code -->
+
+<script language="JavaScript" type="text/JavaScript">
+
+<!--
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+
+}
+
+
+
+MM_reloadPage(true);
+
+
+function pviiW3Cbg(obj, pviiColor) { //v1.1 by Project VII
+
+
+
+	obj.style.backgroundColor=pviiColor
+
+}
+
+
+
+//-->
+
+</script>
+
+<!-- Paltform Detection Script -->
+
+<script language="JavaScript" src="includes/platform_detector.js"></script>
+
+
+<!-- Site Shortcut Icon -->
+
+<link rel="shortcut icon" href="img/curl.ico">
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC&dclink=true"></script>
+
+</head>
+
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="bg">
+
+<a name="top"></a>
+
+<!-- Load Menus -->
+
+<script language="JavaScript1.2">mmLoadMenus();</script><center>
+
+<!-- Main Navigation Menu -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="79" align="center" nowrap><a href="#skipnavigation"><img src="img/transparent.gif" alt="To Skip Navigation Press Enter." width="1" height="1" hspace="0" vspace="0" border="0"></a><img src="img/transparent.gif" alt="Link to the Color Usage Site Home Page" width="800" height="79" hspace="0" vspace="0" border="0" usemap="#Map"></td>
+  </tr></table>
+
+<table width="700" border="1" cellpadding="3" cellspacing="0" bordercolorlight="#000000" bordercolordark="#FFFFFF"><form name="navigationlinks" method="post" action="">
+  <noscript>
+  <tr align="center" bgcolor="#2c3e56">
+    <td colspan="9"> <span class="text"><font color="#FFFFFF">Use the category
+      links below to navigate this web site. All site pages can also be accessed
+      with the <a href="usage_site_map.php"><font color="#FFFFFF">site map</font></a>.</font></span></td>
+  </tr>
+  </noscript>
+  <tr align="center">
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="process.php" name="link11" id="link1" onFocus="onmouseover();" onBlur="onmouseout();" onMouseOver="MM_showMenu(window.mm_menu_X,-7,19,null,'link11')" onMouseOut="MM_startTimeout();" class="navlink">Design Process</a></td>
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="issues.php" name="link19" id="link9" onFocus="onmouseover();" onBlur="onmouseout();" onMouseOver="MM_showMenu(window.mm_menu_I,-9,19,null,'link19')" onMouseOut="MM_startTimeout();" class="navlink">Color Graphics Topics</a></td>
+
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="guidelines.php" name="link12" class="navlink" id="link2" onFocus="onmouseover();" onBlur="onmouseout();" onMouseOver="MM_showMenu(window.mm_menu_Z,-7,19,null,'link12')" onMouseOut="MM_startTimeout();">Color Guidelines</a></td>
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="aerospace.php" name="link16" id="link3" onMouseOver="MM_showMenu(window.mm_menu_Y,-6,19,null,'link16')" onMouseOut="MM_startTimeout();" onFocus="onmouseover();" onBlur="onmouseout();" class="navlink">Aerospace</a><br></td>
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="color_science.php" name="link13" class="navlink" id="link7" onFocus="onmouseover();" onBlur="onmouseout();" onMouseOver="MM_showMenu(window.mm_menu_A,-7,19,null,'link13')" onMouseOut="MM_startTimeout()">Color Science</a></td>
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="utilities.php"  name="link77" class="navlink" id="link77" onFocus="onmouseover();" onBlur="onmouseout();" onMouseOver="MM_showMenu(window.mm_menu_M,-6,19,null,'link77')" onMouseOut="MM_startTimeout()">Utilities</a></td>
+
+    <td valign=middle bgcolor='#FFFFFF' nowrap onMouseOver='pviiW3Cbg(this, &quot;#DBDBF7&quot;)' onMouseOut='pviiW3Cbg(this, &quot;#FFFFFF&quot;)'>
+    <a href="usage_site_map.php"  class="navlink" onFocus="onmouseover();" onBlur="onmouseout();">Site Map</a></td>
+
+<!-- Glossary Commented Out Until Ready 10/3/2003
+    <td valign="middle" bgcolor='#FFFFFF' nowrap onMouseOver="pviiW3Cbg(this, '#DBDBF7')" onMouseOut="pviiW3Cbg(this, '#FFFFFF')">
+      <SELECT name="list" size=1 class="navlink" OnChange="getSelect(this)">
+       <option>Site Glossary</option>
+       <option value="glossary.php">Glossary Page</option>
+       <option>--------------</option>
+        <option value="glossary.php#amb">Ambient Light</option>
+        <option value="glossary.php#bri">Brilliance</option>
+        <option value="glossary.php#chr">Chromatic/Achromatic</option>
+        <option value="glossary.php#cie">CIE</option>
+        <option value="glossary.php#cod">Coding Ordinal/Nominal</option>
+        <option value="glossary.php#col">Colorfulness</option>
+        <option value="glossary.php#con">Conspicuity</option>
+        <option value="glossary.php#cont">Contrast</option>
+        <option value="glossary.php#crt">CRT</option>
+        <option value="glossary.php#dis">Discernibility</option>
+        <option value="glossary.php#hue">Hue</option>
+        <option value="glossary.php#lig">Lightness</option>
+        <option value="glossary.php#lum">Luminance</option>
+        <option value="glossary.php#pho">Photoreceptors</option>
+        <option value="glossary.php#red">Redundant Coding</option>
+        <option value="glossary.php#rgb">RGB</option>
+        <option value="glossary.php#sal">Salience</option>
+        <option value="glossary.php#sat">Saturation</option>
+      </select> </td>
+
+End Glossary Area -->
+
+  </tr>
+</table>
+
+<a name="skipnavigation"></a> 
+<!-- End Main Navigation Menu -->
+<!-- End Header Include -->
+<map name="Map">
+  <area shape="rect" coords="-3,0,799,78" href="index.php" alt="Link back to the CURL Home Page">
+</map>
+
+<table width="850" border="0" cellpadding="5" cellspacing="0">
+  <tr> 
+    <td width="234" valign="top"><div class="breadcrumb"> &nbsp;</div></td>
+  </tr>
+  <tr> 
+    <td valign="top"> <center>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="5"><strong>USING 
+        COLOR IN INFORMATION DISPLAY GRAPHICS</strong></font> 
+      </center>
+      <p><font face="Arial, Helvetica, sans-serif" size="3"><strong>* Please note, there is currently no support for this website. It remains available for public access for informational/historical purposes only. *</strong></font> <br>
+      <p align="left">
+                
+<!-- Poll Code Is Here -->
+
+
+<!-- Poll Code Ends Here -->
+          
+          <font face="Arial, Helvetica, sans-serif" size="3">This site provides 
+        a guide to color design for information visualization. It includes </font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="3">- a step by step 
+          process for designing color usage in complicated interface graphics 
+          <br>
+          - two detailed examples of design of aerospace displays<br>
+          - a new color selection tool to support the recommended design process<br>
+          - information about color usage standards and guidelines<br>
+          - information about applied color science, and <br>
+          - reference resources. </font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="3">Aerospace graphics 
+        get special attention, but much of the information should be useful for 
+        other color graphics as well. </font></p>
+      
+    <p><font face="Arial, Helvetica, sans-serif" size="3">The site is intended 
+      to help designers who are not color experts find usable color designs, <b><br>
+      BUT</b>, keep in mind that even with the best possible recipe there's no 
+      substitute for a properly trained, experienced chef!!! <br>
+      Depending on the complexity of your project, you may also need review or
+      design by a trained and experienced color expert. </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="middle"><table width="840" border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td><img id="home1" src="" width="130" height="87" alt="Sample image of an aviation chart" border="1" vspace="10" hspace="10">
+<script type="text/javascript">
+document.getElementById("home1").src = 'assets/' + platform + '/NOAA_SF_small_2.jpg';
+</script>
+		  </td>
+          <td><img id="home2" src="" width="129" height="88" alt="Demo image of use of luminance contrast to emphasize and de-emphasize text" vspace="10" hspace="10">
+<script type="text/javascript">
+document.getElementById("home2").src = 'assets/' + platform + '/design_lum_small.gif';
+</script>
+		  </td>
+          <td><img id="home3" src="" width="131" height="115" alt="Sample image of a cockpit display of hazard information." vspace="10" hspace="10">
+<script type="text/javascript">
+document.getElementById("home3").src = 'assets/' + platform + '/cdti_wx_small.gif';
+</script>
+		  </td>
+          <td><img id="home4" src="" alt="Sample image of a demo of pure blue text on a black background and vice versa"  width="116" height="59" hspace="10" vspace="10">
+<script type="text/javascript">
+document.getElementById("home4").src = 'assets/' + platform + '/blk_on_blue_small.jpg';
+</script>
+		  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="533" valign="top"> <p><font color="#000000" face="Arial, Helvetica, sans-serif" size="4"><b>Ordered 
+        Topics  </b></font></p>
+      <p><font><a href="graphics_page_design.php"><font  face="Arial, Helvetica, sans-serif" size="3">Designing 
+        a Color Graphics Page:</font></a><font face="Arial, Helvetica, sans-serif" size="2"> 
+        Step-by-step guidance for effective use of color in information graphics.<br> 
+       </font>
+	  <font color="#FF0000"><font color="#000000" face="Arial, Helvetica, sans-serif"><font size="3"><a href="aerospace_1.php">Color
+      Design for Aerospace Applications:</a></font><font  size="2"> Detailed
+      case-studies from aerospace graphics illustrate challenges of color design for safety-critical
+      information interfaces.<br>
+      </font></font></font></font></font><font color="#FF0000"><font color="#000000" face="Arial, Helvetica, sans-serif"><font size="3"><a href="GuidelinesHierarchy.php">Hierarchy of Color Usage Guidelines:</a></font><font color="#000000" size="3"><font size="2"> A hierarchy of guidelines that begins with high-level cognitive performance requirements and proceeds down to more specific graphic requirements and advice. At the appropriate places there are links to supporting information elsewhere on the site.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </font></font></font></font></p>
+      <p><font color="#000000" face="Arial, Helvetica, sans-serif" size="4"><b>Browse 
+        In Any Order</b></font></p>
+      <p><a href="guidelines_0.php"><font face="Arial, Helvetica, sans-serif" size="3" >Color 
+        Guidelines, Standards, Requirements</font></a><font color="#000000" face="Arial, Helvetica, sans-serif" size="3">:</font><font color="#000000"><font face="Arial, Helvetica, sans-serif" size="2"> 
+        </font><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">Discusses 
+        conventional approaches to control of quality of color usage, problems 
+        presented by technology advances, and opportunities for new approaches.</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <br>
+      </font><font color="#FF0000"><a href="color_concepts_1.php"><font face="Arial, Helvetica, sans-serif" size="3">Applied 
+      Color Vision</font></a><font color="#000000" face="Arial, Helvetica, sans-serif" size="3">:</font><font color="#000000"><font face="Arial, Helvetica, sans-serif" size="2"> 
+      A simplified overview of </font><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">applied 
+      and basic vision research concepts</font> <font face="Arial, Helvetica, sans-serif" size="2">and 
+      pointers to more detailed information.</font></font></font></font></p>
+      
+      <p><font color="#000000" face="Arial, Helvetica, sans-serif" size="4"><b>Interactive 
+        Design Tool</b></font></p>
+    <p><font face="Arial, Helvetica, sans-serif" size="3"><a href="ColorTool.php">Color 
+      Selection Tool</a></font><font color="#000000" size="2" face="Arial, Helvetica, sans-serif">: 
+      Interactive tool gives a preview of user-selected symbol and background 
+      colors. Colors are selected from perceptually organized palettes of the 
+      display's available colors.</font><br>
+      <font><font color="#FF0000"><font color="#000000" face="Arial, Helvetica, sans-serif"><font  size="2"><strong><font color="#0000FF" size="3"></font></strong> </font></font></font></font><font color="#FF0000"><font color="#000000" face="Arial, Helvetica, sans-serif"><font size="3"><a href="colortoolexamples.php">Color Tool Examples:</a></font><font color="#000000" size="3"><font size="2">&nbsp;Some examples of things you can do using the Color Selection Tool.</font></font></font></font>    </p>
+    <p align="left"><font size="4" face="Arial, Helvetica, sans-serif"><b>Using 
+        This Site</b></font></p>
+      
+    <p><font face="Arial, Helvetica, sans-serif" size="3"><b>Your Equipment</b>. 
+      <font size="2">As with other websites, the appearance of the colors on
+      your display may differ from our intent if your equipment is different
+      from our
+      assumptions. Our server is sending your browser graphics
+      from one of two sets, depending on what it thinks your computer is. The
+      sets have been computed to display accurately on our two idealized 
+      &quot;standard&quot; displays. The standard displays are typical Macintosh 
+      OS systems and typical Windows systems, both with 24-bit (or more) color 
+      and 6500K white alignment. If you are using something else and the colors 
+      seem too dark or too light, you might want to look at the site on one of 
+      these targeted systems. </font></font></p>
+      
+    <p><font face="Arial, Helvetica, sans-serif" size="2">More detailed information 
+      about color accuracy of the displayed graphics and tools for improving it 
+      are available <a href="display_accuracy.php">here</a>. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Sponsored by: NASA Human Measures and Performance Project</font></p>
+	  
+      <!-- Begin Footer Include --> 
+<p align="center"><img src="img/footer_rule.gif" width="710" height="1" alt=""> 
+  <br>
+  <br>
+  <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><a href="about.php">About 
+  This Site<br>
+  <br>
+  Home</a> | <a href="process.php">Design Process</a> | <a href="issues.php">Color 
+  Graphics Topics</a> | <a href="ColorTool.php">Color Tool</a> | <a href="guidelines.php">Guidelines</a> 
+  | <a href="aerospace.php">Aerospace</a> | <a href="color_science.php">Color 
+  Science</a> | <a href="utilities.php">Utilities</a><br>
+  <br>
+  &nbsp; <a href="mailto:richard.mogford@nasa.gov">Site Curator: Richard Mogford</a> 
+  | <a href="mailto:richard.mogford@nasa.gov">Responsible NASA Official: Richard Mogford</a> | <a href="http://www.hq.nasa.gov/privacy.html">Privacy Statement</a></font> 
+  <br>
+  <br>
+  <a href="http://www.nasa.gov/"><img src="assets/nasa_logo.gif" alt="NASA Logo" width="50" height="43" border="0" align="absmiddle"></a> 
+  &nbsp; &nbsp; <a href="http://www.arc.nasa.gov/"><img src="assets/ames_logo.gif" alt="Ames Research Center Logo" width="86" height="43" border="0" align="absmiddle"></a> 
+  &nbsp; &nbsp; <a href="http://hsi.arc.nasa.gov/"><img src="assets/hsilogo.jpg" alt="Human Systems Integration Division Logo" width="269" height="43" border="0" align="absmiddle"></a>
+  <br></td></tr>
+  </table> </html>
+</form>
+
+<!-- End Footer Include -->

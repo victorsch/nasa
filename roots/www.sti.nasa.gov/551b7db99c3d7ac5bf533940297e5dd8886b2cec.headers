@@ -1,0 +1,15 @@
+GET https://www.sti.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Mon, 18 Sep 2023 23:08:03 GMT
+< Etag: W/"6508d853-8171"
+< Content-Type: text/html
+< Referrer-Policy: strict-origin-when-cross-origin
+< Date: Tue, 19 Sep 2023 05:50:45 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Powered-By: appdat

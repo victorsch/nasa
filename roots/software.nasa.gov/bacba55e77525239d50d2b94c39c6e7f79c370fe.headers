@@ -1,0 +1,25 @@
+GET https://software.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Drupal-Cache: HIT
+< Via: 1.1 67b919f32fa9ff0607f0c0df49f2c116.cloudfront.net (CloudFront)
+< X-Ua-Compatible: IE=edge
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< Date: Tue, 19 Sep 2023 06:04:54 GMT
+< Server: Apache
+< Content-Type: text/html; charset=UTF-8
+< X-Drupal-Dynamic-Cache: MISS
+< Content-Language: en
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Generator: Drupal 9 (https://www.drupal.org)
+< X-Xss-Protection: 1; mode=block
+< X-Cache: Miss from cloudfront
+< Set-Cookie: AWSALB=Pc7jVjjLsDDG3AOWKVL2+H2BPMAzatUjJiEC+q5gYmwhesbGZPE0rTDlWUd4B1iHG5lsb2vf+M0b3tofyTWilxJ9yVe7rHQ1DLE3ske/8O9oV6XJC9cghb869mnd; Expires=Tue, 26 Sep 2023 06:04:54 GMT; Path=/
+< Set-Cookie: AWSALBCORS=Pc7jVjjLsDDG3AOWKVL2+H2BPMAzatUjJiEC+q5gYmwhesbGZPE0rTDlWUd4B1iHG5lsb2vf+M0b3tofyTWilxJ9yVe7rHQ1DLE3ske/8O9oV6XJC9cghb869mnd; Expires=Tue, 26 Sep 2023 06:04:54 GMT; Path=/; SameSite=None; Secure
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Access-Control-Allow-Origin: https://software.nasa.gov
+< X-Amz-Cf-Pop: JFK50-P3
+< X-Amz-Cf-Id: fgU36nQ4UH1PKZSVc77o--Mj4t2KZnYYYvnnpt9EZ1lv89XraLeJQQ==
+< Cache-Control: must-revalidate, no-cache, private
+< X-Content-Type-Options: nosniff

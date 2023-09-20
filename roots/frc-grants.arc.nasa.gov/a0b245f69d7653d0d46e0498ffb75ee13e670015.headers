@@ -1,0 +1,12 @@
+GET http://frc-grants.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: SAMEORIGIN
+< Location: https://frc-grants.arc.nasa.gov/
+< Content-Length: 240
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:50:06 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Security-Policy: default-src 'self' robotics.arc.nasa.gov robotics.nasa.gov; script-src 'self' www.google.com www.gstatic.com;frame-ancestors 'self'; 'form-action 'self'; frame-src 'self' www.google.com www.gstatic.com;

@@ -1,0 +1,545 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <title>Log in to PART</title>
+    <link rel="stylesheet" type="text/css" href="skins/css/yui/reset-fonts-grids.css">
+  <style type="text/css">
+        div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+            text-align:left;
+        }
+        .yui-ge .yui-u, .yui-gf div.first { width:28%;}
+        .yui-ge div.first, .yui-gf .yui-u {width: 71%}
+  </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<link rel="Top" href="https://part.iss.nasa.gov/">
+
+    
+    
+    
+    
+    
+
+    <script src="js/yui/combo.js?1692137262" type="text/javascript"></script>
+    <script src="js/yui/rowexpansion.js?1692137262" type="text/javascript"></script>
+ 
+    
+     
+    <link href="skins/standard/global.css?1692137271"
+          rel="stylesheet" 
+          title="Classic"><!--[if lte IE 7]>
+      
+      <link href="skins/standard/IE-fixes.css?1692137262" rel="stylesheet"
+            type="text/css" >
+<![endif]-->
+
+    
+
+
+
+    
+
+    
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js?1692137271"></script><script type="text/javascript" src="js/jquery-ui-1.12.1.custom.min.js?1692137271"></script><script type="text/javascript" src="js/jquery.actual.min.js?1692137262"></script><script type="text/javascript" src="js/jquery.placeholder.js?1692137262"></script><script type="text/javascript" src="js/jquery.autogrowtextarea.js?1692137262"></script><script type="text/javascript" src="js/browser.min.js?1692137262"></script><script type="text/javascript" src="js/moment.min.js?1692137262"></script>
+
+    <script type="text/javascript">
+    <!--
+        YAHOO.namespace('bugzilla');
+        YAHOO.util.Event.addListener = function (el, sType, fn, obj, overrideContext) {
+               if ( ("onpagehide" in window || YAHOO.env.ua.gecko) && sType === "unload") { sType = "pagehide"; };
+               var capture = ((sType == "focusin" || sType == "focusout") && !YAHOO.env.ua.ie) ? true : false;
+               return this._addListener(el, this._getType(sType), fn, obj, overrideContext, capture);
+         };
+        
+        function unhide_language_selector() { 
+            YAHOO.util.Dom.removeClass(
+                'lang_links_container', 'bz_default_hidden'
+            ); 
+        } 
+        YAHOO.util.Event.onDOMReady(unhide_language_selector);
+
+        
+        var BUGZILLA = {
+            param: {
+                cookiepath: '\/',
+                maxusermatches: 100
+            },
+            constant: {
+                COMMENT_COLS: 80
+            },
+            string: {
+                
+
+                attach_desc_required:
+                    'You must enter a Description for this attachment.',
+                component_required:
+                    'You must select a Component for this record.',
+                description_required:
+                    'You must enter a Description for this record.',
+                short_desc_required:
+                    'You must enter a Summary for this record.',
+                version_required:
+                    'You must select a Version for this record.'
+            }
+        };
+
+    // -->
+    </script>
+
+    
+    
+    <script type="text/javascript">
+        var USER_DATE_FORMAT = 'YYYY-MM-DD';
+            USER_DATE_FORMAT = 'YYYY-MM-DD';
+        var USER_TIME_FORMAT = 'HH:mm:ss';
+        var DATE_PARSE_FORMAT = USER_DATE_FORMAT + ' ' + USER_TIME_FORMAT;
+        var show_bug_endpoint = 'record';
+        window.LAST_UPDATED_DATE = moment( new Date("Tue Aug 15 15:08:33 2023"), USER_DATE_FORMAT).format(USER_DATE_FORMAT);
+
+        // https://github.com/jquery/jquery/security/advisories/GHSA-gxr4-xjj5-5px2
+        jQuery.htmlPrefilter = function( html ) {
+            return html;
+        };
+    </script>
+
+
+    
+
+<script src="js/praca/firebugx.js?1692137262" type="text/javascript"></script>
+    <script src="js/praca/global.js?1692137271" type="text/javascript"></script>
+    <script src="js/praca/bug_links.js?1692137262" type="text/javascript"></script>
+    <script src="js/praca/noneditablefields.js?1692137271" type="text/javascript"></script>
+    <script src="js/praca/show_bug.js?1692137271" type="text/javascript"></script>
+    <script src="js/praca/daggr.js?1692137271" type="text/javascript"></script>
+    <script src="js/praca/calendar.js?1692137262" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+  var praca = new Object();
+  praca.terms = new Array();
+  praca.terms['Bugs'] = 'Records'
+</script>
+
+<!-- start tinyMCE -->
+<script type="text/javascript" src="js/tinymce/tinymce.js?1692137262"></script>
+
+<script type="text/javascript">
+  /* Copied from Helper.js */
+  function debounce(func, wait = 250) {
+    let timer;
+
+    return function () {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            func.apply(this, arguments);
+        }, wait);
+    }
+  }
+  function myCustomOnChangeHandler(inst){
+		var mce_id = document.getElementById(inst.id);
+		try {
+      setonOnChangeEvent(mce_id, inst.getContent());
+      cacheValues(mce_id);
+    } catch(e) {
+      if ( console )console.log('setonOnChangeEvent error:' + e);
+    }
+	}
+  tinymce.init({
+        // General options
+        mode : "",
+        theme : "modern",
+        menubar:false,
+        statusbar:false,
+        plugins : "paste,autoresize,link,charmap",
+        autoresize_max_height: 800,
+        toolbar : "bold,italic,underline,|,bullist,numlist,|,outdent,indent,|,undo,redo,|,subscript,superscript,|,link,unlink,|,charmap",
+        toolbar_items_size: "small",
+        content_css : "skins/standard/praca/slim_global.css?id=" + new Date().getTime(),
+        valid_styles : { '*' : 'font-weight,font-style,text-decoration'},
+        apply_source_formatting : true,
+        paste_auto_cleanup_on_paste : true,
+        theme_advanced_path:false,
+        forced_root_block : false,
+        force_br_newlines : false,
+        force_p_newlines : true,
+        relative_urls : false,
+        width : 460       
+    });
+
+</script>
+<!-- end tinyMCE -->
+<link href="skins/css/smoothness/jquery-ui-1.12.1.custom.min.css?1692137271"  rel="stylesheet"  type="text/css">
+<link href="skins/standard/yui/container.css?1692137262"  rel="stylesheet"  type="text/css">
+<link href="skins/standard/yui/datatable.css?1692137262" rel="stylesheet" type="text/css">
+<link href="skins/standard/yui/editor.css?1692137262" rel="stylesheet" type="text/css">
+<link href="skins/standard/yui/button.css?1692137262" rel="stylesheet" type="text/css">
+<!-- This will need to be fixed to change per skins-->
+<link href="skins/standard/yui/resize.css?1692137262" rel="stylesheet" type="text/css">
+<link href="skins/standard/praca/praca_base.css?1692137271" rel="stylesheet" type="text/css">
+<link href="skins/standard/praca/praca_global.css?1692137271" rel="stylesheet" type="text/css">
+<link href="skins/standard/praca/slim_global.css?1692137271" rel="stylesheet" type="text/css">
+<link href="skins/standard/praca/colors.css?1692137271" rel="stylesheet" type="text/css">
+<link href="skins/standard/yui/autocomplete.css?1692137262" rel="stylesheet" type="text/css">
+
+  <link href="skins/contrib/iss_part/praca/colors.css?1595880247" rel="stylesheet" type="text/css">
+  <link href="data/css/colors.css?1695073622" rel="stylesheet" type="text/css">
+<!--[if IE 8]>
+  <link href="skins/standard/praca/ie8.css"
+        rel="stylesheet"
+        type="text/css">
+<![endif]-->
+
+
+<style type="text/css">
+    .yui-skin-sam .yui-ac-input {
+      width:30em;
+      position:static;
+    }
+    
+    .yui-skin-sam .yui-ac-container { text-align:left;width:30em;position:static; }
+
+    #examplecontainer {
+        padding:10px;
+    }
+
+
+    #yui-history-iframe {
+      position:absolute;
+      top:0; left:0;
+      width:1px; height:1px; /* avoid scrollbars */
+      visibility:hidden;
+    }
+</style>
+<script type="text/javascript">
+var saved_search_dialog = null;
+$(document).ready(function(){
+    $('#links-saved').click(function() {
+        create_saved_search_dialog();
+        saved_search_dialog.dialog("option", "position", {my: "left top", at: "left bottom", of: this});
+        saved_search_dialog.dialog("open");
+        return false;
+    });
+    $('#links-saved_bottom').click(function() {
+        create_saved_search_dialog();
+        saved_search_dialog.dialog("option", "position", {my: "left bottom", at: "left top", of: this});
+        saved_search_dialog.dialog("open");
+        return false;
+    });
+});
+
+function create_saved_search_dialog() {
+    if(saved_search_dialog == null){
+        saved_search_dialog = $('#saved_searches').dialog({
+            draggable: true,
+            autoOpen: false,
+            resizable: true,
+            width: 250,
+            height: 200
+        });
+    }
+}
+
+var resources_dialog = null;
+$(document).ready(function(){
+    $('#view_resources').click(function() {
+        create_resources_dialog();
+        resources_dialog.dialog("option", "position", {my: "left top", at: "left bottom", of: this});
+        resources_dialog.dialog("open");
+        return false;
+    });
+    $('#view_resources_bottom').click(function() {
+        create_resources_dialog();
+        resources_dialog.dialog("option", "position", {my: "left bottom", at: "left top", of: this});
+        resources_dialog.dialog("open");
+        return false;
+    });
+});
+
+function create_resources_dialog() {
+    if(resources_dialog == null){
+        resources_dialog = $('#resources').dialog({
+            draggable: true,
+            autoOpen: false,
+            resizable: true,
+            width: 425,
+            height: 575
+        });
+    }
+}
+
+
+var tooltips = new Array();
+
+</script>
+      <script type="text/javascript" src="js/jquery.dataTables.js?1692137262"></script>
+      <script type="text/javascript" src="js/jquery.editable.js?1692137262"></script>
+      <script type="text/javascript" src="js/praca/attachment.js?1692137271"></script>
+      <script type="text/javascript" src="js/praca/attachment.js?1692137271"></script>
+  <style type="text/css">
+  .ac_height .yui-ac-content  {
+      max-height:305px;
+      overflow:scroll;
+  }
+  </style>
+  <link rel="icon" href="skins/contrib/iss_part/praca/img2/favicon.png" type="image/x-icon"/>
+  <link rel="icon" sizes="24x24"   href="skins/contrib/iss_part/praca/img2/favicon_24.png" type="image/x-icon"/>
+  <link rel="icon" sizes="32x32"   href="skins/contrib/iss_part/praca/img2/favicon_32.png" type="image/x-icon"/>
+  <link rel="icon" sizes="128x128" href="skins/contrib/iss_part/praca/img2/favicon_128.png" type="image/x-icon"/>
+  <meta name="theme-color" content="#500001">
+
+  </head>
+
+
+
+
+  <body id="bugzilla_body_tag" role="main"
+        class="part-iss-nasa-gov yui-skin-sam yui-skin-sam">
+        <a class="skipNav" tabIndex="1" href="#bugzilla-body">Skip to main content</a>
+
+<IFRAME id="yui-history-iframe" src="js/yui/blank.html" title="No user content" width="0%" height="0%" style="width:0px;height:0px;" ></IFRAME>
+<form action="get">
+<input id="yui-history-field" type="hidden">
+</form>
+
+
+
+
+
+
+
+<div id="header" role="banner">
+	<div id="praca_logo" >
+		<a href="./">
+			<img
+				src="skins/contrib/iss_part/praca/img2/system_logo.png"
+				srcset="skins/contrib/iss_part/praca/img2/system_logo.png 1x, skins/contrib/iss_part/praca/img2/system_logo@2x.png 2x"
+				style="border:0px solid none;margin-left:20px;margin-top:5px;"
+				alt="System Logo"
+				border="0"
+				height="52px">
+		</a>
+	</div>
+</div>
+<div style="clear:both" ></div><div class="praca_global_toolbar ">
+<div class="links" role="navigation">
+</div><div class="links" role="navigation">
+  </div>
+  </div>
+<div style="clear:both"></div>
+<script type="text/javascript">
+newTooltip = new YAHOO.widget.Tooltip("new_label_tt", {
+                 context:"new_label", text:"Enter a new Record", showDelay:500 });
+</script>
+
+<div id="bugzilla-body" role="main" class="">
+
+
+  
+    
+  
+
+
+  <div style="clear:both"></div>
+<div>
+
+<div id="system_color"></div>
+
+<style>
+body {
+  min-width: 0px;
+}
+
+div#message{
+  color:black;
+}
+</style>
+
+<NOSCRIPT>
+  <div id="no-js">
+      <h1>JavaScript is disabled on your browser.</h1>
+      <p>Please enable JavaScript to use this application.</p>
+  </div>
+</NOSCRIPT>
+
+<script type="text/javascript">
+<!--
+function onLoadActions() {
+  document.getElementById('login_area').style.display = "block";
+}
+YAHOO.util.Event.onDOMReady(onLoadActions);
+//-->
+</script>
+
+<div id="login_area"  style="display:none">
+<center style="clear:both">
+
+<div class="login_box">
+	<div class="login_header" > Log in to ISS&nbsp;PART </div>
+<div class="login_content" style="background:white">
+
+    <div class="not-supported">
+      <h1>Unsupported browser</h1>
+      <p>Please use one of NASA's <a href="https://cset.nasa.gov/browser-configurations">standard browsers</a>. 
+      Contact the <a href="https://esd.nasa.gov">Enterprise Service Desk</a> if you need help updating your browser.</p>
+    </div>
+
+</div>
+</div>
+
+<div class="login_box"><div class="login_content">
+By accessing and using this information system, you acknowledge and consent to the following:<br><br>
+
+You are accessing a U.S. Government information system, which includes: (1) this computer; (2) this computer network; (3) all computers connected to this network including end user systems; (4) all devices and storage media attached to this network or to any computer on this network; and (5) cloud and remote information services. This information system is provided for U.S. Government-authorized use only. Unauthorized or improper use of this system may result in suspension or loss of access privileges, disciplinary action, and civil and/or criminal penalties.  By using this information system, you acknowledge and consent to the terms and conditions established in NASA policy and regulatory guidance for NASA IT Systems.
+</div>
+</div>
+</center>
+
+</div>
+<div style="z-index:5;position:absolute;top:-1500px;">
+<div id="praca_universal_field_help" class="praca_field_help"><div id="helptext"></div> </div>
+<div id="praca_group_expand" class="praca_group_expand">Expand/Edit </div>
+</div>
+<script type="text/javascript">
+    if (YAHOO.show_bug) Help.set_field_help();
+</script>
+<div style="position:absolute;top:-1000px;display:none;">
+  <div id="promptForPrintingDialog" onkeypress="return preventSubmitOnEnter(event);">
+    <div class="bd">
+        <label for="curr_report_version">
+        Generate a report showing data from:
+        </label>
+      <div style="padding-bottom:10px">
+        <select id="curr_report_version" title="Report Version">
+          <option value="0">the last modified version of the report</option>
+          
+        </select>
+      </div>
+        <input type="hidden" id = "report_format" value="">
+      
+    </div>
+  </div>
+  <div id="resources" title="Resources">
+    <div class="bd"><style>#login-blurb a{text-decoration:underline}#login-blurb p:not(:last-child){margin-bottom:16px}#login-blurb h3{font-weight:700;font-size:14px;margin-bottom:8px}abbr[title], acronym[title] {cursor: help;border-bottom: 1px dotted #33363d;text-decoration: none;font-variant: none;}</style>
+
+<p>The ISS Problem Analysis Reporting Tool (<abbr title="Problem Analysis Report Tool">PART</abbr>) supports problem analysis and processing workflow including entry, searching, change notification, digital signatures, and real-time integrations with other data systems.</p>
+
+<p>This application contains links to PDF content. To view it, <a href="https://get.adobe.com/reader/">download Adobe Reader</a>.</p>
+
+<h3>Sandbox/training instance</h3>
+<p>To experiment with creating and modifying records without affecting production data, head to the PART <a href="https://part.iss.nasa.gov/training/">sandbox instance.</a></p>
+
+<h3>Record permissions</h3>
+<p>If your current permissions prevent you from accessing the data you require, you can request updates to your account by <a href="https://idmax.nasa.gov/nams/asset/225974">logging into NAMS</a> and submitting a modified NAMS request.</p>
+
+<h3>Additional resources</h3>
+<ul>
+<li><a href="https://part.iss.nasa.gov/load_file.cgi?file=help/ISS%20PART%20Overview.pdf">PART Overview Presentation</a> (PDF)</li>
+<li><a href="https://part.iss.nasa.gov/load_file.cgi?file=help/help.html">PART user guide</a></li>
+<li><a href="https://part.iss.nasa.gov/load_file.cgi?file=help/IFI_MRB_training.pdf">IFI MRB training slides</a> (PDF)</li>
+<li><a href="https://part.iss.nasa.gov/load_file.cgi?file=help/GFETraining.pptx">GFE training slides</a> (PPT)</li>
+</ul>
+    </div>
+    <div class="ft"></div>
+  </div>
+  
+  <div id="saved_searches" title="Saved Searches">
+    <div class="bd">
+      <div id="praca_saved_searches_g" class="links" > 
+        <div>
+          <div class="links">
+        
+        You have no visible saved searches.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ft"></div>
+  </div>
+</div>
+<div style="clear:both;"></div>
+<div id="footer" role="contentinfo">
+<div >
+<!--  <div class="label">Actions:</div> --><div class="praca_global_toolbar ">
+<div class="links" role="navigation">
+</div><div class="links" role="navigation">
+  </div>
+  </div>
+<div style="clear:both"></div>
+<script type="text/javascript">
+newTooltip = new YAHOO.widget.Tooltip("new_label_tt", {
+                 context:"new_label_bottom", text:"Enter a new Record", showDelay:500 });
+</script>
+    
+
+    <div class="main_footer">
+        <div class="footer_column footer_favicon">
+            <img
+                width="32px" height="32px"
+                src="dist/client/images/favicon_32.png"
+                alt=""
+                srcset="dist/client/images/favicon_32.png 1x, dist/client/images/favicon_128.png 2x"
+            >
+        </div>
+        <div class="footer_column">
+            <div>Curator: <a href="mailto:tami.r.hocker@nasa.gov">Tami Hocker</a></div>
+            <div>NASA Official: <a href="mailto:suzanne.c.hansen@nasa.gov">S. Hansen (IFI)</a>, <a href="mailto:gary.w.ohnesorge@nasa.gov">G. Ohnesorge (PRACA)</a></div>
+        </div>
+        <div class="footer_spacer"></div>
+
+        <div class="footer_column"><div style="height: 16px;"></div>
+            <div><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Statement</a></div>
+        </div>
+        <div class="footer_spacer"></div>
+        <div class="footer_column">
+            <div><strong>MAS <span id="version_tag"></span></strong></div>
+            <div id="footer_column_last_updated">Last Updated:</div>
+        </div>
+        <div class="footer_spacer"></div>
+        <div class="footer_column">
+                        <div>
+                <strong>Suggestions? Need Help? </strong>
+                <a href="mailto:mas-support@mail.nasa.gov?body=%5BPlease%20describe%20your%20question%20or%20issue.%20If%20experiencing%20an%20application%20issue%2C%20include%20the%20diagnostic%20information%20below%20for%20the%20team%20to%20use.%5D%0A%0A%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%0ADiagnostics%20for%20the%20support%20team%0A%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%0AApplication%3A%20PART%0ALocation%3A%20%20%20%20%2F%0AWeb%20host%3A%20%20%20%20not%20logged%20in%0ADB%20host%3A%20%20%20%20%20not%20logged%20in%0AUser%20ID%3A%20%20%20%20%20not%20logged%20in%0ABrowser%3A%20%20%20%20%20Go-http-client%2F1.1%0AMAS%20version%3A%20vcb354e1e1%0A">Email MAS Support</a>
+            </div>
+            <div>
+                <strong>Report an outage (24/7) </strong>
+                <a href="tel:8003318737">(800) 331-USER</a>
+            </div>
+        </div>
+    </div>
+    <div class="technical_footer provider">
+        <span>ISS PART is provided by the <a href="https://hci.arc.nasa.gov" target="_blank">Human–Computer Interaction Group</a></span>
+        <span id="mas_version_info">master&nbsp;vcb354e1e1&nbsp;(&nbsp;26939&nbsp;)</span>
+    </div>
+    <script src="js/praca/footer.js?1692137271" type="text/javascript"></script>
+</div>
+
+</div>
+<div class="outro"></div>
+</div>
+
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDoNotTrack", true]);
+      _paq.push(['setUserId', ""]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableHeartBeatTimer']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.nas.nasa.gov/piwik/";
+        if (window.location.pathname.includes('index.cgi')) return; // do not track index page
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '21']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+GET https://cplms.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src 'self' *.nasa.gov ; script-src 'self' *.nasa.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Vary: CPIDS-Request-ID,Accept-Encoding
+< Cache-Control: no-cache, no-store, must-revalidate
+< Expires: 0
+< Date: Tue, 19 Sep 2023 06:03:06 GMT
+< Delivered-By: CGI
+< Pragma: no-cache
+< Server: Apache
+< X-Xss-Protection: 1; mode=block
+< Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,16 @@
+GET https://secopcogtest.dev.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Content-Length: 919
+< X-Cache: Error from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Server: CloudFront
+< X-Xss-Protection: 1; mode=block
+< X-Amz-Cf-Id: J15KvRU9gnnlzN3ch__jjxqEPYQzclYLg4-qd7vVYJfTnQ1GlClmtw==
+< Strict-Transport-Security: max-age=31536000
+< Via: 1.1 cdbbcd70735de4c554b3d02a12c5bea0.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL51-P1
+< Date: Tue, 19 Sep 2023 05:41:08 GMT

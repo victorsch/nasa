@@ -1,0 +1,17 @@
+GET https://worldview.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 919
+< X-Amz-Cf-Id: wI0UjqblywJUoaBbv2J9gJRp4RPgDqJLLFIr2uuZRIPfqpro0sYXvA==
+< X-Content-Type-Options: nosniff
+< X-Cache: Error from cloudfront
+< Via: 1.1 76f877b8790c6441a8bdc32b2feafab8.cloudfront.net (CloudFront)
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:03:33 GMT
+< X-Amz-Cf-Pop: JFK52-P2
+< Content-Security-Policy: frame-ancestors *.nasa.gov https://nasa-gibs.github.io;

@@ -1,0 +1,13 @@
+GET http://standards.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: AOBsXKix8BRLDgVX1gTcfzffSdK4nhqfcVszeVvI8d8o7pM_jEP3kA==
+< Location: https://standards.nasa.gov/
+< X-Cache: Redirect from cloudfront
+< Content-Type: text/html
+< Content-Length: 167
+< Via: 1.1 b88fe06cb643513c120238beec43283e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK52-P4
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:58:36 GMT

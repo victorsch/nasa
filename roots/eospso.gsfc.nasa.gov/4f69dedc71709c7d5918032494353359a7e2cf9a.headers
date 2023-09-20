@@ -1,0 +1,23 @@
+GET https://eospso.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:56:20 GMT
+< Strict-Transport-Security: max-age=31557600
+< Strict-Transport-Security: max-age=1000
+< X-Drupal-Cache: HIT
+< Last-Modified: Tue, 19 Sep 2023 03:43:21 GMT
+< Server: Apache
+< From-Origin: same
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Generator: Drupal 7 (http://drupal.org)
+< Content-Type: text/html; charset=utf-8
+< Cache-Control: public, max-age=86400
+< Etag: "1695095001-1"
+< Vary: Cookie,Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-Content-Type-Options: nosniff
+< Content-Language: en
+< Link: </content/nasas-earth-observing-system-project-science-office>; rel="canonical",</node/303>; rel="shortlink"

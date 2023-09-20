@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="referrer" content="no-referrer" />
+<title id="Description">Payload Data Library (PDL)</title>
+<!-- Bootstrap core CSS
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    jQWidgets CSS -->
+<link rel="shortcut icon" href="https://pdlprod.hosc.msfc.nasa.gov/pdlapp/js/jqwidgets/styles/images/payload18x18.png" type="image/x-icon" />
+<link href="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/styles/bootstrap-custom.css" rel="stylesheet" />
+<link href="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/styles/jqx.base.css" rel="stylesheet" />
+<link href="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/styles/jqx.bootstrap.css" rel="stylesheet" />
+<link href="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/styles/jqx.nasa-DAB.css" rel="stylesheet" />
+<link href="https://pdlprod.hosc.msfc.nasa.gov/css/warningPDL.css" rel="stylesheet" />
+<!-- Custom styles for this template -->
+<style>
+        /* Move down content because we have a fixed navbar that is 50px tall */
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+            visibility: hidden;
+			background-color: #fff;
+        }
+    </style>
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">PAYLOAD DATA LIBRARY</a> </div>
+    <div class="navbar-collapse collapse">
+      <form class="navbar-form navbar-right" role="form">
+        <button style='margin-left: 5px;' id="button" type="button" class="jqx-success">Sign in</button>
+        <img src="https://pdlprod.hosc.msfc.nasa.gov/images/nasatransparentbkgrd.png">
+      </form>
+    </div>
+    <!--/.navbar-collapse -->
+  </div>
+</div>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div id="mainjumbo" class="jumbotron">
+  <div class="container">
+    <Div style="font:Verdana, sans-serif; font-size:3em; font-weight:450;padding-top:15px;">Welcome to the Payload Data Library!</div>
+  <div id="mainBodyCUI" align="center">
+	<div id="securityAlertWindowCUI"><div id="warningHeaderCUI"><div id="warnTri" class="triangleSet"><div id="warnTriIn" class="triangleSetInner"><p>!</p></div></div><div id="headerTextCUI">WARNING!</div></div>
+		<div id="warningMessageCUI"><p><span style="font-weight:600; color:#300;">This application contains CONTROLLED UNCLASSIFIED INFORMATION (CUI).</span></br>This information is to be controlled, stored, handled, transmitted, distributed, and disposed of in accordance with NASA Interim Directive (NID) 2810.135, and shall not be distributed beyond the original addresses without prior authorization of the originator.</br><span style="font-weight:600; color:#300;">Users are responsible for adding the appropriate CUI markings to printed materials.</span></p>
+		<div id="alertTextP"></div></div>
+    </div>
+    </div>
+	</br>
+	<p><strong><em>29.0 Release:</em></strong> The PDL 29.0 version has been released on 3/13/2023. Version 29.0 includes updates to C&amp;DH CDEF, KuIP Reports, and the Safety dataset.</p>
+	<p><span style="font:Verdana, sans-serif; font-weight:600; color:#030;">If you need user support, please contact the PDL Helpdesk via email at <a href="mailto:GRPISSPDLHelpdesk@boeing.com">GRPISSPDLHelpdesk@boeing.com</a></span></p>
+    <p><span style="font:Verdana, sans-serif; font-weight:600; color:#00003c;">Please checkout the "Hints and Tips" on this page before getting started!</span> It has important information on how to configure Firefox (our recommended browser) for PIV smartcard access and many more tips on how to get started. Other helpful resources are the Users Guide and Training Videos for Command and Data Handling located under the applications "Help" menu item.</p>
+    <p><a class="btn btn-primary jqx-primary btn-lg" href="https://pdlprod.hosc.msfc.nasa.gov/learn_more.php" role="button">Learn more &raquo;</a></p>
+  </div>
+</div>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>New Users</h2>
+      <p>Request a Payload Developer or an ISS Integrator Account. The Helpdesk processes the account request, gets approval and assigns a PDL account. In order to access the account request form you must already be registered in NAMS and possess a valid NASA PIV or token. Please contact the PDL Helpdesk if you have further questions.</p>
+      <p><a class="btn btn-danger" href="https://pdlprod.hosc.msfc.nasa.gov/pdlapp/pdlacctform4.php" role="button">Account Request &raquo;</a></p>
+      <!-- <p><a class="btn btn-danger" href="pdlacctform4.php?formType=ISS" role="button">ISS Integrator Account &raquo;</a></p> -->
+    </div>
+    <div class="col-md-4">
+      <h2>User Support</h2>
+      <p>Helpdesk Phone:  256-961-1265 <br />
+        Helpdesk E-Mail: <a href="mailto:GRPISSPDLHelpdesk@boeing.com">GRPISSPDLHelpdesk@boeing.com</a> <br />
+        Helpdesk Hours: 9am - 3pm Monday - Friday <br />
+        Voice mail and email left before 9am will be handled the same business day. Voice mail and email left after hours will be handled the next business day. </p>
+    </div>
+    <div class="col-md-4">
+      <h2>Hints and Tips</h2>
+      <p>Learn about supported browser configurations and tips on how to set-up the browser for best user experience.</p>
+      <p><a class="btn btn-danger" href="https://pdlprod.hosc.msfc.nasa.gov/hintsandtips.php" role="button">View details &raquo;</a></p>
+    </div>
+  </div>
+  <div id="securityAlertWindow">
+    <div> <span> <img src="https://pdlprod.hosc.msfc.nasa.gov/images/error25x25.png" alt="" style="margin-right: 15px" />Security Warning! </span> </div>
+    <div>
+      <p>By accessing and using this information system, you acknowledge and consent
+        to the following: You are accessing a U.S. Government information system, which
+        includes:</p>
+      <p><font style="font-style:italic">(1) this computer; (2) this computer network; (3) all computers connected
+        to this network including end user systems; (4) all devices and storage media
+        attached to this network or to any computer on this network; and (5) cloud and
+        remote information services. </font></p>
+      <p>This information system is provided for U.S.
+        Government-authorized use only. You have no reasonable expectation of privacy regarding
+        any communication transmitted through or data stored on this information system.
+        At any time, and for any lawful purpose, the U.S. Government may monitor, intercept,
+        search, and seize any communication or data transiting, stored on, or traveling to or
+        from this information system. You are NOT authorized to process classified information
+        on this information system.  Unauthorized or improper use of this system may result in
+        suspension or loss of access privileges, disciplinary action, and civil and/or criminal
+        penalties.</p>
+      <div style="float: right; padding-top: 30px">
+        <div id="acceptBtn">Accept</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <p></p>
+  </footer>
+</div>
+<!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- jQWidgets JavaScript files -->
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxcore.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxbuttons.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxinput.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxpasswordinput.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxwindow.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxscrollbar.js"></script>
+<script src="https://pdlprod.hosc.msfc.nasa.gov/js/jqwidgets/jqxpanel.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+//            $("#input").jqxInput({ theme: "bootstrap" });
+//            $("#passwordInput").jqxPasswordInput({ theme: "bootstrap" });
+            $("#button").jqxButton({ theme: "bootstrap" });
+            $("#acceptBtn").jqxButton({ theme: "nasa-DAB", width: 75, height: 20 });
+//            $(".btn-default").jqxButton({ theme: "bootstrap" });
+            $(".btn-primary").jqxButton({ theme: "bootstrap" });
+            var mainjumbo = $('#mainjumbo');
+            var offset = mainjumbo.offset();
+            $('#securityAlertWindow').jqxWindow({isModal:true, theme: 'nasa-DAB', autoOpen: false, height: 'auto', width: 600,  position: { x: offset.left + 300, y: offset.top + 50} });
+            document.body.style.visibility = "inherit";
+
+                $("#button").click(function () {
+                     $('#securityAlertWindow').jqxWindow('open');
+                });
+
+                $("#acceptBtn").click(function () {
+                        if (window.location.hostname == "pdlprod.hosc.msfc.nasa.gov"){
+                           window.open("https://pdlprod.hosc.msfc.nasa.gov/pdlapp", "_self");
+                        }else if (window.location.hostname == "pdltest.hosc.msfc.nasa.gov"){
+                           window.open("https://pdltest.hosc.msfc.nasa.gov/pdlapp", "_self");
+                        }else if (window.location.hostname == "pdldevl.msfc.nasa.gov"){
+                           window.open("https://pdldevl.msfc.nasa.gov/pdlapp", "_self");
+                        }else if (window.location.hostname == "pdlstage.msfc.nasa.gov"){
+                           window.open("https://pdlstage.msfc.nasa.gov/pdlapp", "_self");
+                        }else{
+                           window.open("http://localhost/pdlapp", "_self");
+                        }
+                });
+	        var thisAlert;
+		var tfs = jQuery.get("https://pdlprod.hosc.msfc.nasa.gov/pdlalert.txt", function(tadata){
+		    thisAlert = tadata.trim();
+		    if (thisAlert){
+		        $("#alertTextP").html('<div id="alertM" style="font-size:1.2em; margin-right: 20px; padding: 10px 0px 10px 15px; border: 2px inset #e0f3f4; background-color:#ffffee;"><strong>NOTICE: </strong>' + thisAlert + '</div>');
+		    } else  {
+			$("#alertTextP").html('');
+		    }
+		});
+
+        });
+        </script>
+</body>
+</html>

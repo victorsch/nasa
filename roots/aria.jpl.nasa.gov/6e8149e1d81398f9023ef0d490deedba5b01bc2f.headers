@@ -1,0 +1,13 @@
+GET http://aria.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Via: 1.1 f52a6d89da5cd85d46c2c4e4af9acf1e.cloudfront.net (CloudFront)
+< Server: CloudFront
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< X-Amz-Cf-Id: ty1eNKFNNJB3DH1gC81WL5oPXpJ6INjEuWBhdDc7yygGmgm9sH7EAw==
+< Date: Tue, 19 Sep 2023 06:03:56 GMT
+< Content-Length: 167
+< Location: https://aria.jpl.nasa.gov/
+< X-Amz-Cf-Pop: JFK52-P4

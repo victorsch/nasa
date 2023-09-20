@@ -1,0 +1,10 @@
+GET https://neptune.gsfc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:58:50 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31557600
+< Location: https://earth.gsfc.nasa.gov/
+< Content-Length: 236

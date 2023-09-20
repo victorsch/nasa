@@ -1,0 +1,16 @@
+GET https://smartskies.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Length: 21746
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 19 Sep 2023 05:55:50 GMT
+< Upgrade: h2
+< Last-Modified: Tue, 11 May 2021 21:47:51 GMT
+< Etag: "54f2-5c214d880afc0"
+< X-Xss-Protection: 1; mode=block
+< Accept-Ranges: bytes
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

@@ -1,0 +1,13 @@
+GET http://search.hec.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 f25b89e7ef738cb8bb7e28e041d8fe54.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK50-P2
+< X-Amz-Cf-Id: xRVQ_V-JJvNFE3zPA1nBzjd8PQyayzwnBg1buNS08gWolu3y6t1E7w==
+< Server: CloudFront
+< Content-Type: text/html
+< Location: https://search.hec.nasa.gov/
+< Date: Tue, 19 Sep 2023 05:53:46 GMT

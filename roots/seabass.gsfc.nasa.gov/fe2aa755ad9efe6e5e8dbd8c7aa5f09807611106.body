@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="orgcode" content="614.2" />
+		<meta name="description" content="Permanent repository for bio-optical oceanography data." />
+		<meta name="rno" content="Jeremy.Werdell" />
+		<meta name="content-owner" content="Jeremy.Werdell" />
+		<meta name="webmaster" content="David.Norris" />
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<title>News - SeaBASS</title>
+		<link rel="icon" href="/favicon.ico">
+			<script src="/globalassets/static/js/jquery.min.js"></script>
+			<script src="/js/jquery/jquery-migrate.min.js"></script>
+			<script src="/js/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+			<link href="/js/jquery/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet">
+		<script src="/js/superfish-1.7.4/src/js/superfish.js"></script>
+		<script src="/js/hoverIntent-1.10.1/hoverIntent.min.js"></script>
+		<script src="/js/seabass/global.js"></script>
+		<script>//<![CDATA[
+
+			$(function() {$('#topnav').superfish({autoArrows:false, animation: {opacity:'show',height:'show'}, speed: 'fast'});});
+		
+//]]></script>
+			<link href="/css/seabass.css" rel="stylesheet">
+			<link href="/css/utils/card.css" rel="stylesheet">
+			<link href="/css/seabass.nonlayout.css" rel="stylesheet">
+			<link href="/css/superfish.css" rel="stylesheet">
+			<link href="/js/superfish-1.7.4/dist/css/superfish-vertical.css" rel="stylesheet">
+			<link href="/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+			<link href="/css/info_banners.css" rel="stylesheet">
+			
+		<script>
+			var dataLayer = window.dataLayer = window.dataLayer || [];
+			$.get('https://seabass.gsfc.nasa.gov/get_ip/', function(data) {
+				dataLayer.push({
+					'event':'ipAddress',
+					'ipAddress':data
+				});
+			});
+		</script>			
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-WNP7MLF');
+		</script>
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<a id='top'></a>
+		<div id="header">
+			<div id="title">
+				<h1 id="seabass-site-title" style="float: left">
+					<a href="/">SeaBASS</a>
+				</h1>
+				<br/>
+				<div style="float: right" class="page_desc"></div>
+				<div class="clear"></div>
+			</div>
+			<div id="topnavdiv">
+				<div class="desktop">
+				<ul id="topnav" class="sf-menu">
+					<li><a href="/">Home</a></li>
+					<li>
+						<a href="#">About SeaBASS</a>
+						<ul>
+							<li><a href="/wiki/System_Description">About SeaBASS</a></li>
+							<li><a href="/wiki/Getting_Started">Getting Started</a></li>
+							<li><a href="/wiki/Access_Policy">Access Policy</a></li>
+							<li><a href="/wiki/FAQs">FAQ</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Get Data</a>
+						<ul>
+							<li><a href="/search#bio">File Search</a>
+							<li><a href="/search#val">Validation Search</a>
+							<li><a href="/search/sst">SST Search</a>
+							<li><a href="/timeseries/">Time Series Tool</a>
+							<li><a href="/archive/">Browse Archive</a></li>
+							<li><a href="/wiki/NOMAD">NOMAD</a></li>
+							<li><a href="/wiki/seabass_tools">Software Downloads</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Contribute Data</a>
+						<ul>
+							<li><a href="/wiki/Data_Submission">Submitting Overview</a></li>
+							<li><a href="/wiki/metadataheaders">Metadata Headers</a></li>
+							<li><a href="/wiki/stdfields">Fields (Measurement Labels)</a></li>
+							<li><a href="/wiki/FCHECK">FCHECK File Checker</a></li>
+							<li><a href="/wiki/User_Resources">Documentation Guidelines</a></li>
+						</ul>
+					</li>
+					<li><a href="/wiki/">Wiki</a>
+					<li><a href="#">Lists</a>
+						<ul>
+							<li><a href="/new_data">Recent Data Updates</a></li>
+							<li><a href="/affiliation">Affiliations</a></li>
+							<li><a href="/investigator">Investigators</a></li>
+							<li><a href="/experiment">Experiments</a></li>
+							<li><a href="/cruise">Cruises</a></li>
+							<li><a href="/validation">Validation Summaries</a></li>
+						</ul>
+					</li>
+								<li><a href="/login/">Login</a></li>
+					
+				</ul>
+				</div>
+				<div class="desktop no-hover" style = 'padding-right: 10px;'>
+					<form method='GET' action='/wiki/search'>
+						<div style='height: 32px; padding: 0px;'>
+							<input id="nav-search" type='text' class='search-box' placeholder="Search articles..." onKeyPress='return submitOnEnter(this,event)' name='search'>
+						</div>
+					</form>
+				</div>
+				<div class="mob-menu">
+					<i aria-hidden="true" class="burger fa fa-bars fa-2x" title="Navigation Menu"></i>
+					<span class="sr-only">Navigation Menu</span>
+				</div>
+			</div>
+		</div>
+		<div id="wrap">
+				
+<div class="card content">
+Welcome to the SeaWiFS Bio-optical Archive and Storage System (SeaBASS), the publicly shared archive of in situ oceanographic and atmospheric data maintained by the NASA Ocean Biology Processing Group (OBPG). 
+For information on how to search for data, please refer to the "Get Data" menu options. For information about preparing files for submission to SeaBASS,
+refer to "Contribute Data."
+</div>
+
+<div id='home-news-wrapper'>
+	<div id="news_column_left" style="padding-right: 10px">
+		<div style="display: flex; flex-direction: row;">
+			<div class="data-shortcuts-btns" style='width:50%;'>
+				<h2>Data Shortcuts</h2>
+				<a class='target_self' href='/search#bio'>File Search</a><br/>
+				<a class='target_self' href='/search#val'>Validation Search</a><br/>
+				<a class='target_self' href='/timeseries/'>Time Series Tool</a><br/>
+				<a class='target_self' href='/search/sst'>SST Search</a><br/>
+				<a class='target_self' href='/wiki/NOMAD'>NOMAD Dataset</a><br/>
+			</div>
+			<div class="data-shortcuts-btns" style='width:50%;'>
+				<h2>Lists</h2>
+				<a class='target_self' href='/investigator'>Investigators</a><br/>
+				<a class='target_self' href='/experiment'>Experiments</a><br/>
+				<a class='target_self' href='/cruise'>Cruises</a><br/>
+				<a class='target_self' href='/wiki/stdfields#Table of Field Names and Units'>Fields</a><br/>
+			</div>
+		</div>
+		<div style="clear: both; padding-top: 5px">
+			<h2>Recent Data Updates</h2>
+			<div class="rtb-table-wrapper">
+				<table class="new_data_table news_table rtb-table" style="max-width: 100%; table-layout: fixed; text-overflow: ellipsis; margin: 0">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Investigator</th>
+							<th>Cruise</th>
+							<th>Parameters</th>
+						</tr>
+					</thead>
+					<tbody>
+							<tr>
+								<td>2023-09-18</td>
+								<td><a href="/investigator/Antonio_Mannino" target="_blank">Antonio Mannino</a></td>
+									<td><a href="/cruise/AMT30" target="_blank">AMT30</a></td>
+								<td>agp,sal</td>
+							</tr>
+							<tr>
+								<td>2023-09-18</td>
+								<td><a href="/investigator/Antonio_Mannino" target="_blank">Antonio Mannino</a></td>
+									<td><a href="/cruise/Norton_Sound_2023" target="_blank">Norton_Sound_2023</a></td>
+								<td>DOC,TDN</td>
+							</tr>
+							<tr>
+								<td>2023-09-18</td>
+								<td><a href="/investigator/David_Siegel" target="_blank">David Siegel</a></td>
+									<td>[multiple PnB cruises]</td>
+								<td>aop,ag,ap,abs</td>
+							</tr>
+							<tr>
+								<td>2023-09-18</td>
+								<td><a href="/investigator/Frank_Muller-Karger" target="_blank">Frank Muller-Karger</a></td>
+									<td>[multiple SFMBON cruises]</td>
+								<td>HPLC,particulate_absorbance,Chl</td>
+							</tr>
+							<tr>
+								<td>2023-09-18</td>
+								<td><a href="/investigator/Norman_B_Nelson" target="_blank">Norman B_Nelson</a></td>
+									<td><a href="/cruise/BATS404" target="_blank">BATS404</a></td>
+								<td>ag,abs</td>
+							</tr>
+							<tr>
+								<td>2023-09-15</td>
+								<td><a href="/investigator/Leah_Johnson" target="_blank">Leah Johnson</a></td>
+									<td><a href="/cruise/EXPORTSNA" target="_blank">EXPORTSNA</a></td>
+								<td>wt,sal</td>
+							</tr>
+							<tr>
+								<td>2023-09-15</td>
+								<td><a href="/investigator/Leah_Johnson" target="_blank">Leah Johnson</a></td>
+									<td><a href="/cruise/SG2105" target="_blank">SG2105</a></td>
+								<td>wt,sal</td>
+							</tr>
+							<tr>
+								<td>2023-08-22</td>
+								<td><a href="/investigator/Norman_B_Nelson" target="_blank">Norman B_Nelson</a></td>
+									<td><a href="/cruise/BATS400" target="_blank">BATS400</a></td>
+								<td>CDOM_abs</td>
+							</tr>
+							<tr>
+								<td>2023-08-16</td>
+								<td><a href="/investigator/Antonio_Mannino" target="_blank">Antonio Mannino</a></td>
+									<td><a href="/cruise/AMT30" target="_blank">AMT30</a></td>
+								<td>agp</td>
+							</tr>
+							<tr>
+								<td>2023-08-14</td>
+								<td><a href="/investigator/Norman_B_Nelson" target="_blank">Norman B_Nelson</a></td>
+									<td><a href="/cruise/bats325" target="_blank">bats325</a></td>
+								<td>wavelength,ag,ag_se,abs_ag,abs_ag_sd,a*srfa,abs_nacl_30ppt,abs_nacl_40ppt,abs_blank_ag,abs_blank_ag_sd</td>
+							</tr>
+					</tbody>
+				</table>
+			</div>
+			<a href='/new_data' style="float:right">More...</a>
+		</div>
+	</div>
+	<div id="news_column_right">
+		<h2>News</h2>
+			<div class="card patch">
+	<div class="patch-date">2023-04-13</div>
+	<h2>Validation Update: AERONET-OC V3</h2>
+	<p><p>SeaBASS Validation results have been updated with AERONET-OC V3 data</p></p>
+</div>
+
+			<div class="card patch">
+	<div class="patch-date">2021-07-20</div>
+	<h2>New Ordering and Download System</h2>
+	<p><p>SeaBASS data downloads are now unified and distributed under the same system that manages <a href="https://oceancolor.gsfc.nasa.gov/">NASA satellite Ocean Biology data</a></p><ul><li>Placing a SeaBASS data order to download data now requires a NASA Earthdata login (you will be prompted to create one if you don't already have one)</li><li>Downloads will be fulfilled through an <a href="https://oceandata.sci.gsfc.nasa.gov/odps/orders/">order manager</a></li></ul><p>More info including links to illustrated instructions is found under <a href="https://seabass.gsfc.nasa.gov/wiki/Getting_Started#Download%20and%20Order%20SeaBASS%20data">Download and Order SeaBASS data</a></p></p>
+</div>
+
+			<div class="card patch">
+	<div class="patch-date">2021-03-03</div>
+	<h2>Earthdata forum transition</h2>
+	<p><p>The Ocean Color Forum (including our subforum for Field Data - SeaBASS) has transitioned to the burgeoning Earthdata Forum (<a href="https://forum.earthdata.nasa.gov/">https://forum.earthdata.nasa.gov/</a>). We encourage you to ask questions there and we look forward to interacting with you.</p><br /><p>The new forum is organized using tags. Pick the "SeaBASS" tag to search for existing SeaBASS posts, or when you create a new post. There are a variety of search options; if you use the "Search By Tags" feature then SeaBASS is under the dropdown "Major Project". Other relevant tags include "Ocean" for Discipline and "OB DAAC" as the DAAC.</p><br /><p>You can bookmark your favorite searches using your browser if you want a shortcut. Also, later this year a feature will be added allowing you to follow specific tags and receive email notifications whenever there is a new post.</p></p>
+</div>
+
+		<a href='/news' style="float:right; margin: -10px 0 5px 0">More...</a>
+	</div>
+</div>
+<!--<div style="clear: both"></div>-->
+
+<script src="/js/seabass/news.js"></script>
+
+		</div>
+		<div id="footer_full">
+			<div id="footer">
+				<div>
+						Responsible NASA Official: Sean Bailey<br>
+						Curator: <a href="mailto:seabass@seabass.gsfc.nasa.gov">SeaBASS Administrator</a><br/>
+						Authorized by: <a href="//science.gsfc.nasa.gov/sed/bio/sean.w.bailey">Sean Bailey</a>
+				</div>
+				<div class="compliance">
+					<ul>
+						<li><a class="ext" href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Web Privacy Policy</a></li>
+						<li><a class="ext" href="https://science.nasa.gov/earth-science/earth-science-data/data-information-policy/">Data &amp; Information Policy</a></li>
+						<li><a class="ext" href="https://www.nasa.gov/audience/formedia/features/communication_policy.html">Communications Policy</a></li>
+						<li><a class="ext" href="https://www.nasa.gov/FOIA/index.html">Freedom of Information Act</a></li>
+						<li><a class="ext" href="https://www.usa.gov/">USA.gov</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+         <script src="https://cdn.earthdata.nasa.gov/tophat2/tophat2.js"
+         id="earthdata-tophat-script"
+    data-show-fbm="false"
+  data-show-status="true"
+  data-status-polling-interval=5
+  data-current-daac="OB.DAAC"
+  data-show-outage-banner="true"
+  data-use-fontawesome="false">
+         </script>
+		<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+		<!--%= javascript "/js/utils/event-handlers.js"-->
+		<script src="/js/utils/nav-scroll.js"></script>
+	</body>
+</html>

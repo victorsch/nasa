@@ -1,0 +1,11 @@
+GET https://ccs.esmo.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 05:58:21 GMT
+< Vary: Accept-Encoding
+< Server: Constellation Coordination System
+< Set-Cookie: ASP.NET_SessionId=lid2cy1rtbagbmnqlq5xmpls; path=/; secure; HttpOnly; SameSite=Lax
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private

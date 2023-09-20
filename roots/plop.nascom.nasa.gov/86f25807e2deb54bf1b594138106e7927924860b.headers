@@ -1,0 +1,10 @@
+GET https://plop.nascom.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Location: https://soho.nascom.nasa.gov/
+< Content-Length: 213
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:55:51 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains;

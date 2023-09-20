@@ -1,0 +1,16 @@
+GET https://api.cerebro.cloud.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 403 Forbidden
+< X-Content-Type-Options: nosniff
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:42:11 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Cache: Error from cloudfront
+< Content-Type: text/html
+< Content-Length: 919
+< Via: 1.1 193d4441ee6d312fd234f2d28e48c110.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: Hkoe62uJ1auaDJFCBK9Cbrn5YtSFsZrXSpeH_nCFw0lSv6OMlTNXRA==
+< Server: CloudFront

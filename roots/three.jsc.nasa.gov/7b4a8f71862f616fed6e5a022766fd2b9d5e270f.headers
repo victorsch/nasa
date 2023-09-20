@@ -1,0 +1,16 @@
+GET https://three.jsc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Aspnetmvc-Version: 5.2
+< X-Aspnet-Version: XXXXXXXXXX
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+< X-Frame-Options: SAMEORIGIN
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: __RequestVerificationToken=sW3d5Z6PM5rFp0wxrkDpt8uCFR2Ri-4AEtQV7oe03jkUAOwsiZwaffaYdVS9dWWDDiMn3Mco3eVHXJdI-zJ3blt09kO9jBO5k4Ls3Etrxok1; path=/; secure; HttpOnly
+< Set-Cookie: cookiesession1=678B286D179AFEC40F9DDB9EB111A0E9;Expires=Wed, 18 Sep 2024 06:04:43 GMT;Path=/;HttpOnly
+< Date: Tue, 19 Sep 2023 06:04:41 GMT
+< Vary: Accept-Encoding

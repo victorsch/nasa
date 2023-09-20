@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+
+  <head>
+    <title>
+      Stub Page for old NASA GSFC ACD Addresses
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="content-owner-note" lang="en-us" content="See disclaimer at bottom of page"/>
+    <meta name="orgcode" lang="en-us" content="614"/>
+
+    <meta name="title" lang="en-us" content="Stub Page for old NASA GSFC ACD Addresses"/>
+    <meta name="keywords" lang="en-us" content="atmosphere, goddard, gsfc, nasa"/>
+    <meta name="description" lang="en-us"  content="Stub Page for NASA GSFC Code 614"/>
+    <meta name="rno" lang="en-us" content="James.F.Gleason"/>
+    <meta name="content-owner" lang="en-us" content="Leslie.R.Lait"/>
+    <meta name="webmaster" lang="en-us" content="Leslie.R.Lait"/>
+    <link rev="made" href="Leslie.R.Lait"/>
+
+    <link rel="stylesheet" type="text/css" href="/Styles/main.css"/>
+
+
+    <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC" id="_fed_an_ua_tag" ></script>
+
+  </head>
+
+  <body>
+
+    <div class="body">
+
+      <div id="nasa_header">
+        <div id="nasa_bypass"><a href="#nav_bypass">Bypass Navigation?</a></div>
+        <div id="nasa_logo"><img src="/Images/nasa_meatball_78x64t.gif" alt="NASA Logo" width="78" height="64"/></div>
+        <div id="nasa_sitetitle">
+          <div id="nasa_title">GSFC Atmospheric Chemistry and Dynamics Branch</div>
+          <div id="nasa_subtitle">Code 614</div>
+        </div>
+        <div id="nasa_links">
+          <ul>
+            <li><a href="https://www.nasa.gov/home/">+ NASA</a></li>
+            <li><a href="https://atmospheres.gsfc.nasa.gov/">+ Laboratory for Atmospheres</a></li>
+            <li><a href="https://www.nasa.gov/about/contact/index.html">+ Contact NASA</a></li>
+          </ul>
+        </div>
+        <div id="nasa_search">
+          <form name="search" id="nasa_search_form" method="get"action="https://search.nasa.gov/nasasearch/search/search.jsp">
+            <input type="text" size="9" title="searchfield" id="searchfield"name="nasaInclude" value="" />
+            <input id="submit" type="submit" value="+ Search" />
+          </form>
+        </div>
+      </div>
+      
+      <div id="nav_menuhead">
+        <span class="nav_here" id="nav_home"><a href="/index.html">Home</a></span>
+        <span class="nav_elsewhere" id="nav_filler"> </span>
+      </div>
+
+      <a name="nav_bypass"></a>
+
+
+      <div id="content">
+      
+      <h1>Stub Page for old NASA GSFC ACD Addresses</h1>
+
+
+
+
+<p>
+Hello.  If you are reading this, you have probably followed
+an old link looking for the Atmospheric Chemistry and Dynamics Branch
+at NASA's Goddard Space Flight Center. In the time since the link
+you followed first appeared, our organization has become
+the Atmospheric Chemistry and Dynamics Laboratory, and
+its organizational code designation at Goddard Space Flight Center has changed.
+</p>
+
+<p>
+In fact, over the years this site has been known as:
+<ul>
+<li> code916.gsfc.nasa.gov
+<li> code613-3.gsfc.nasa.gov
+<li> code614.gsfc.nasa.gov
+<li> acdb.gsfc.nasa.gov
+<li> acd.gsfc.nasa.gov
+</ul>
+</p>
+
+<p>
+Rather than leave you hanging, looking for an organization that you
+cannot find, we have set up this page so that the old links still lead
+you to something that you might find useful. Depending on what you are 
+looking for, you might be interested in one or more of these links:
+<ul>
+<li><a href="https://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&&navOrgCode=614">Organization Site</a>: This 
+     is the official, public-facing web site for our organization. 
+     It is a little more focussed on our Lab's place in the
+     overall NASA structure at Goddard.
+     If you are a member of the general public or a government official, then you 
+     most likely want to go here.
+<li><a href="https://atmospheres.gsfc.nasa.gov/acd/">Science Research Portal</a>: This 
+     is a somewhat more science-oriented public-facing web site for our organization. 
+     If you are a member of the scientifically-interested public,  or 
+     a fellow scientist who is not already working with us, then you will
+     most likely want to go here.
+<li><a href="https://acd-ext.gsfc.nasa.gov">For-Our-Colleagues Site</a>: This is 
+     a web site for our scientific colleagues. Having no sensitive or classified
+     information on it, this site is open to the public.  But most members of the
+     public will find its contents boring and technical, with little or no 
+     explanatory context. If you are already on a first-name basis with scientists working
+     in our Lab, then this is probably where you want to go.
+</ul>
+</p>
+
+
+
+
+      </div>
+
+      <div id="nasa_footer">
+
+        <p><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Policy and Important Notices</a></p>
+
+        <p id="credit">Please credit all images and animations to NASA, unless otherwise noted.</p>
+
+        <ul>
+          <li>NASA Official: <a href="mailto:James.F.Gleason@nasa.gov">James F. Gleason, Lab Chief</a></li>
+          <li>Web Curator: <a href="mailto:Leslie.R.Lait@nasa.gov">Leslie R. Lait (SSAI)</li>
+          <li>Last Updated: 2022-03-04</li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head><script type="text/javascript">
+//<![CDATA[
+var ajax = [];var cache;function pjx(args,fname,method) { this.target=args[1]; this.args=args[0]; method=(method)?method:'GET'; if(method=='post'){method='POST';} this.method = method; this.r=ghr(); this.url = this.getURL(fname);}function formDump(){ var all = []; var fL = document.forms.length; for(var f = 0;f<fL;f++){ var els = document.forms[f].elements; for(var e in els){ var tmp = (els[e].id != undefined)? els[e].id : els[e].name; if(typeof tmp != 'string'){continue;} if(tmp){ all[all.length]=tmp} } } return all;}function getVal(id) { if (id.constructor == Function ) { return id(); } if (typeof(id)!= 'string') { return id; } var element = document.getElementById(id); if( !element ) { for( var i=0; i<document.forms.length; i++ ){ element = document.forms[i].elements[id]; if( element ) break; } if( element && !element.type ) element = element[0]; } if(!element){ alert('ERROR: Cant find HTML element with id or name: ' + id+'. Check that an element with name or id='+id+' exists'); return 0; } if(element.type == 'select-one') { if(element.selectedIndex == -1) return; var item = element[element.selectedIndex]; return item.value || item.text; } if(element.type == 'select-multiple') { var ans = []; var k =0; for (var i=0;i<element.length;i++) { if (element[i].selected || element[i].checked ) { ans[k++]= element[i].value || element[i].text; } } return ans; } if(element.type == 'radio' || element.type == 'checkbox'){ var ans =[]; var elms = document.getElementsByTagName('input'); var endk = elms.length ; var i =0; for(var k=0;k<endk;k++){ if(elms[k].type== element.type && elms[k].checked && (elms[k].id==id||elms[k].name==id)){ ans[i++]=elms[k].value; } } return ans; } if( element.value == undefined ){ return element.innerHTML; }else{ return element.value; }}function fnsplit(arg) { var url=""; if(arg=='NO_CACHE'){cache = 0; return "";}; if((typeof(arg)).toLowerCase() == 'object'){ for(var k in arg){ url += '&' + k + '=' + arg[k]; } }else if (arg.indexOf('__') != -1) { arga = arg.split(/__/); url += '&' + arga[0] +'='+ escape(arga[1]); } else { var res = getVal(arg) || ''; if(res.constructor != Array){ res = [res] } else if( res.length == 0 ) { res = [ '' ] } for(var i=0;i<res.length;i++) { url += '&args=' + escape(res[i]) + '&' + arg + '=' + escape(res[i]); } } return url;}pjx.prototype = { send2perl : function(){ var r = this.r; var dt = this.target; if (dt==undefined) { return true; } this.pjxInitialized(dt); var url=this.url; var postdata; if(this.method=="POST"){ var idx=url.indexOf('?'); postdata = url.substr(idx+1); url = url.substr(0,idx); } r.open(this.method,url,true); ; if(this.method=="POST"){ r.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); r.send(postdata); } if(this.method=="GET"){ r.send(null); } r.onreadystatechange = handleReturn; }, pjxInitialized : function(){}, pjxCompleted : function(){}, readyState4 : function(){ var rsp = unescape(this.r.responseText); /* the response from perl */ var splitval = '__pjx__'; /* to split text */ /* fix IE problems with undef values in an Array getting squashed*/ rsp = rsp.replace(splitval+splitval+'g',splitval+" "+splitval); var data = rsp.split(splitval); dt = this.target; if (dt.constructor != Array) { dt=[dt]; } if (data.constructor != Array) { data=[data]; } if (typeof(dt[0])!='function') { for ( var i=0; i<dt.length; i++ ) { var div = document.getElementById(dt[i]); if (div.type =='text' || div.type=='textarea' || div.type=='hidden' ) { div.value=data[i]; } else if (div.type =='checkbox') { div.checked=data[i]; } else { div.innerHTML = data[i]; } } } else if (typeof(dt[0])=='function') { dt[0].apply(this,data); } this.pjxCompleted(dt); }, getURL : function(fname) { var args = this.args; var url= 'fname=' + fname; for (var i=0;i<args.length;i++) { url=url + args[i]; } return url; }};handleReturn = function() { for( var k=0; k<ajax.length; k++ ) { if (ajax[k].r==null) { ajax.splice(k--,1); continue; } if ( ajax[k].r.readyState== 4) { ajax[k].readyState4(); ajax.splice(k--,1); continue; } }};var ghr=getghr();function getghr(){ if(typeof XMLHttpRequest != "undefined") { return function(){return new XMLHttpRequest();} } var msv= ["Msxml2.XMLHTTP.7.0", "Msxml2.XMLHTTP.6.0", "Msxml2.XMLHTTP.5.0", "Msxml2.XMLHTTP.4.0", "MSXML2.XMLHTTP.3.0", "MSXML2.XMLHTTP", "Microsoft.XMLHTTP"]; for(var j=0;j<=msv.length;j++){ try { A = new ActiveXObject(msv[j]); if(A){ return function(){return new ActiveXObject(msv[j]);} } } catch(e) { } } return false;}function jsdebug(){ var tmp = document.getElementById('pjxdebugrequest').innerHTML = "<br><pre>"; for( var i=0; i < ajax.length; i++ ) { tmp += '<a href= '+ ajax[i].url +' target=_blank>' + decodeURI(ajax[i].url) + ' <' + '/a><br>'; } document.getElementById('pjxdebugrequest').innerHTML = tmp + "<" + "/pre>";}function bogus() { var args = bogus.arguments; cache = 1; for( var i=0; i<args[0].length;i++ ) { args[0][i] = fnsplit(args[0][i]); } var l = ajax.length; ajax[l]= new pjx(args,"bogus",args[2]); ajax[l].url = 'home.pl?' + ajax[l].url; if ( cache == 0 ) { ajax[l].url = ajax[l].url + '&pjxrand=' + Math.random(); } ajax[l].send2perl(); ;}
+//]]>
+</script>
+  <title>UAVSAR - Uninhabited Aerial Vehicle Synthetic Aperture Radar</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="UAVSAR, Uninhabited Aerial Vehicle Synthetic Aperture Radar, UAV SAR, UAV, SAR, Gulfstream-III, G3, G-3, G-III, repeat pass interferometry, JPL SAR, NASA SAR, JPL UAVSAR, NASA UAVSAR, RPI, InSAR, Synthetic Aperture Radar, airborne synthetic aperture radar, JPL, Jet Propulsion Laboratory, NASA, National Aeronautics and Space Administration, ESTO, Earth Science Technology Office, Differential Interferometry, AIRSAR, Rosamond, corner reflectors, electronically steered antenna, flight plannning, deformation, Dryden, DFRC, KML, precision autopilot, PPA, earthquake, interferogram, differential interferogram, earthquake, volcano, vegetation, hydrology, ice, subsidence, forest structure, forest height, airborne, Caltech, PolSAR, polarimetric, quad-pol, dual-pol, single-pol, emergency response, l-band, l band, p-band, p band, ka-band, ka band, AirMOSS, GLISTIN, DInSAR">
+  <meta name="description" content="Using an airborne radar to study earth science (earthquakes, volcanoes, vegetation, hydrology, ice, etc.), with emergency response potential">
+
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/home.css" type="text/css">
+
+  <!-- JS libraries to make IE behave like a standards-compliant browser -->
+  <!--[if lt IE 7]>
+  <script src="/ie7/IE7.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+  <script src="/ie7/IE8.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="/ie7/IE9.js"></script>
+  <![endif]-->
+
+</head>
+
+<body onload="initialize('http://uavsar.jpl.nasa.gov/kml/2022/ykdelB_26906_22038_006_220823_L090_CX_02.kml')">
+<!-- Skip to main content link -->
+<a href="#startOfContent"><img src="/images/spacer.gif" alt="Follow this link to skip to the main content" width="1" height="1" hspace="0" vspace="0" border="0" align="left"></a>
+<!-- End of skip to main content link -->
+
+<div id="background">
+<div id="layout">
+
+<!-- JPL HEADER ************************************************************-->
+<div id="jplHeader">
+  <a id="nasaLogo" href="http://www.nasa.gov/" title="NASA">
+    <img src="/images/nasaLogo.png" alt="NASA Logo"> 
+  </a>
+  <a id="linkJPL" href="http://www.jpl.nasa.gov/" title="Jet Propulsion Laboratory">Jet Propulsion Laboratory</a>
+  <a id="linkCaltech" href="http://www.caltech.edu/" title="California Institute of Technology">California Institute of Technology</a>
+
+  <ul id="jplLinks">
+    <li>
+	  <a href="http://www.jpl.nasa.gov" title="JPL Home">JPL HOME</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/earth" title="Earth">EARTH</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/solar-system" title="Solar System">SOLAR SYSTEM</a>
+	</li>
+    <li>
+      <a href="http://www.jpl.nasa.gov/stars-galaxies" title="Stars & Galaxies">STARS &amp; GALAXIES</a>
+	</li>
+    <li>
+      <a href="http://scienceandtechnology.jpl.nasa.gov" title="Science & Technology">SCIENCE &amp; TECHNOLOGY</a>
+	</li>
+  </ul>
+
+  <span id="jplSocial">
+	BRING THE UNIVERSE TO YOU: &nbsp;
+	<a href="http://www.kintera.org/site/apps/ka/ct/contactcustom.asp?c=bsJKK2PNJtH&amp;b=198474">JPL Email News</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/rss">RSS</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/podcast">Podcast</a> &nbsp; | &nbsp;
+	<a href="http://jpl.nasa.gov/video">Video</a> 
+  </span>
+
+</div>
+<!-- END OF JPL HEADER *****************************************************-->
+
+
+<!-- BANNER TEXT ***********************************************************-->
+<div id="bannerText">
+  <a href="/"><h1>UAVSAR</h1></a>
+  <a href="/"><h3>Uninhabited Aerial Vehicle Synthetic Aperture Radar</h3></a>
+  <a href="/"><i class="L-band">L-band</i></a>
+  <a href="http://airmoss.jpl.nasa.gov"><i class="P-band">P-band (AirMOSS)</i></a>
+  <a href="/technology/ka-band.html"><i class="Ka-band">Ka-band (GLISTIN-A)</i></a>
+</div>
+<!-- END OF BANNER TEXT ****************************************************-->
+
+
+<!-- NAVIGATION ************************************************************-->
+<div id="navigationBkgd"></div>
+<ul id="navigation">
+  <li><a class="leftmost" href="/science">Science &amp; Applications</a></li>
+  <li><a href="/technology">Technology</a></li>
+  <li><a href="/education">Education</a></li>
+  <li><a class="rightmost" href="/tools">Tools</a></li>
+</ul>
+<!-- END OF NAVIGATION *****************************************************-->
+
+
+<!-- MAIN CONTENT **********************************************************-->
+<div id="mainContent">
+  <a name="startOfContent"></a>
+
+
+  <!-- BIG NEWS ************************************************************-->
+  <!-- Comment or uncomment this section as necessary. DO NOT DELETE. -->
+<!--
+  <div class="tile big-news">
+    Check out a <a href="/cgi-bin/publications.pl?year=2023&search=IEEE">list of exciting research talks and posters</a> using UAVSAR that will be presented during the IGARSS 2023 meeting in Pasadena, CA.
+  </div>
+-->
+
+  <div class="tile big-news hide">
+    UAVSAR is flying to  soon. <a href="/cgi-bin/deployments.pl">Find out more</a>!
+  </div>
+  <!-- END OF BIG NEWS *****************************************************-->
+
+
+  <!-- TILES & BUTTONS *****************************************************-->
+
+  <!-- Calendar -->
+  <div id="calendar" class="tile">
+    <h3><a href="/science/calendar.html">Calendar</a> <small id="calendarYear"></small></h3>
+	<a id="thisWeekButton" class="grayButton small">This Week</a>
+	<a id="previousButton" class="button small">&lt;</a>
+	<a id="nextButton" class="button small">&gt;</a>
+
+	<table id="schedules">
+	  <tr>
+	    <td>
+		  <span class="l-band">
+		    <input id="l-band" type="checkbox">
+		    <label for="l-band">L-band</label>
+		  </span>
+		</td>
+	    <td>
+		  <span class="p-band">
+		    <input id="p-band" type="checkbox">
+		    <label for="p-band">P-band (AirMOSS)</label>
+		  </span>
+		</td>
+	    <td>
+		  <span class="ka-band">
+		    <input id="ka-band" type="checkbox">
+		    <label for="ka-band">Ka-band (GLISTIN-A)</label>
+		  </span>
+		</td>
+	  </tr>
+	  <tr>
+	    <td>
+		  <span class="dryden">
+		    <input id="dryden" type="checkbox">
+		    <label for="dryden">NASA Armstrong G3</label>
+		  </span>
+		</td>
+	    <td>
+		  <span class="jsc">
+		    <input id="jsc" type="checkbox">
+		    <label for="jsc">NASA Johnson G3</label>
+		  </span>
+		</td>
+	  </tr>
+	</table>
+
+	<div id="dayHeaders">
+	  <h4>Loading...</h4>
+	</div>
+
+	<div id="eventPopup">
+	  <a id="closePopupButton" onclick="closePopup();return false;">X</a>
+	  <span id="popupText">
+      </span>
+	</div>
+
+	<div id="week">
+	</div>
+  </div>
+  <!-- End of Calendar -->
+
+  <div id="login-or-register">
+    <a href="/cgi-bin/login.pl" class="actionButton large">Login</a>
+	<div class="linespace"><br></div>
+	or
+	<div class="linespace"><br></div>
+    <a href="/cgi-bin/register.pl" class="button large">Register</a>
+
+  </div>
+
+  <div id="buttons">
+    <a id="uavsarButton" href="/education/what-is-uavsar.html" class="button">
+      <img src="/images/icon_airplane.png" width="48" height="46" alt="Airplane icon"> 
+	  What is UAVSAR?
+    </a>
+
+    <a id="dataSearchButton" href="http://uavsar.jpl.nasa.gov/cgi-bin/data.pl" class="button">
+      <img src="/images/icon_flight-line.png" width="56" height="51" alt="Flight line icon"> 
+      Search for Data
+    </a>
+
+    <a id="flightPlanButton" href="/cgi-bin/deployments.pl" class="button">
+      <img src="/images/icon_search.png" width="45" height="47" alt="Search icon"> 
+      View Deployments
+    </a>
+  </div>
+
+  <div id="leftTiles">
+    <div id="lastFlight" class="tile">
+      Last Flight Flown: <a href="/cgi-bin/report.pl?planID=PLAN_23015">PLAN_23015</a> <small>(Sep 14, 2023)</small><br>
+	  <small>P-band. Location: Arizona and Utah</small>
+    </div>
+
+    <div id="lastImage" class="tile">
+      Last Image Released:
+	  <a href="/cgi-bin/product.pl?jobName=ykdelB_26906_22038_006_220823_L090_CX_02">ykdelB_26906</a> <small>(PolSAR)</small><br>
+	  <small>
+	    L-band. Acquired Aug 23, 2022<br>
+		YK Delta B<br>
+	  </small>
+	  <script type="text/javascript">  
+	    document.write("<div id='map'></div>");
+	  </script>
+	  <noscript>
+        <h3><center>Javascript is disabled. You must have Javascript enabled to view the map.</center></h3>
+	  </noscript> 
+    </div>
+  </div>
+
+  <!-- Slideshow -->
+  <div id="slideshow" class="tile">
+    <div id="slide-images">
+      <a href="https://www.jpl.nasa.gov/images/pia25526-airborne-nasa-radar-maps-mauna-loa-lava-changes-in-hawaii">
+        <img id="slide1" src="/images/news/mauna_loa.png">
+	  </a>
+      <a href="https://www.jpl.nasa.gov/news/nasa-noaa-tech-will-aid-marine-oil-spill-response">
+        <img id="slide2" src="/images/news/slick.png">
+	  </a>
+      <a href="https://durangoherald.com/articles/360826-can-nasa-satellites-help-monitor-snowpack-across-the-american-southwest?fbclid=IwAR0nnWEdVeYcFUBl7vDJtc1XqzRmqisYGoMr-KyH1iyAapNbWv-5Qqy4Tp8">
+        <img id="slide3" src="/images/news/snowex_jan26_2021.png">
+	  </a>
+
+    </div>
+  
+    <div id="slide-buttons">
+      <span id="slide1_button" onclick="selectSlide(1,1)">1</span>
+      <span id="slide2_button" onclick="selectSlide(2,1)">2</span>
+      <span id="slide3_button" onclick="selectSlide(3,1)">3</span>
+	  <span id="pause-button" onclick="pauseSlideshow()">II</span>
+	  <span id="play-button" onclick="startSlideshow()">&gt;</span>
+    </div>
+
+    <div id="slide-text">
+      <span id="slide1_text">
+	    <a href="https://www.jpl.nasa.gov/images/pia25526-airborne-nasa-radar-maps-mauna-loa-lava-changes-in-hawaii">Airborne NASA Radar Maps Mauna Loa Lava Changes in Hawaii</a><br>
+	    <small>
+		  Teams from NASA's Jet Propulsion Laboratory and the United States Geological Survey (USGS) used UAVSAR's Ka-Band observations to map the thickness of lava flows during a series of flights in December
+		</small>
+	  </span>
+      <span id="slide2_text">
+	    <a href="https://www.jpl.nasa.gov/news/nasa-noaa-tech-will-aid-marine-oil-spill-response">NASA-NOAA Tech Will Aid Marine Oil Spill Response</a><br>
+	    <small>
+		  NASA and National Oceanic and Atmospheric Administration scientists are teaming up to test remote sensing technology for use in oil spill response.
+		</small>
+	  </span>
+      <span id="slide3_text">
+	    <a href="https://durangoherald.com/articles/360826-can-nasa-satellites-help-monitor-snowpack-across-the-american-southwest?fbclid=IwAR0nnWEdVeYcFUBl7vDJtc1XqzRmqisYGoMr-KyH1iyAapNbWv-5Qqy4Tp8">Can NASA satellites help monitor snowpack across the SW USA?</a><br>
+	    <small>
+		  SnowEX researchers develop new methods to measure the snowpack with airborne observations
+		</small>
+	  </span>
+
+    </div>
+
+  </div>
+  <!-- End of Slideshow -->
+
+  <!-- END OF TILES & BUTTONS **********************************************-->
+
+  <!-- SITE MAP ************************************************************-->
+  <div id="site-map">
+    <span>
+	  <h3>Science & Applications</h3>
+	  <a href="/cgi-bin/news.pl">News</a><br>
+	  <a href="/science/calendar.html">Calendar</a><br>
+	  <a href="/cgi-bin/articles.pl">Featured Articles</a><br>
+	  <a href="/cgi-bin/deployments.pl">Deployments</a><br>
+<!--
+	  <a href="/cgi-bin/deployments.pl">Deployments</a><br>
+	  <a href="/science/applications.html">Applications</a><br>
+-->
+	  Applications<br>
+	  <a href="/cgi-bin/publications.pl">Publications</a><br>
+	  <a href="/science/workshops.html">Workshops</a><br>
+<!--
+	  <a href="/science/team.html">Team Profile</a><br>
+-->
+	  Team Profile<br>
+	  <a href="/science/flight-requests.html">Flight Request Instructions</a><br>
+	  <a href="/science/documents.html">Documents</a><br>
+	</span>
+    <span>
+	  <h3>Technology</h3>
+      UAVSAR-L<br>
+	  UAVSAR-P<br>
+	  <a href="/technology/ka-band.html">UAVSAR-Ka</a><br>
+	  <a href="/cgi-bin/calibration.pl">Calibration</a><br>
+	  Aircraft<br>
+	  Processing<br>
+	</span>
+    <span>
+	  <h3>Education</h3>
+	  <a href="/education/what-is-uavsar.html">What is UAVSAR?</a><br>
+	  <a href="/education/uavsar-ops.html">UAVSAR Operations</a><br>
+	  <a href="/education/postcards.html">Postcards</a><br>
+	  <a href="/education/radar-job.html">How We Became Radar Scientists/Engineers</a><br>
+	  <a href="/education/lesson-plans.html">Lesson Plans</a><br>
+	  <a href="/education/images.html">Image Gallery</a><br>
+	</span>
+    <span>
+	  <h3>Tools</h3>
+	  <a href="/cgi-bin/fps">Flight Planning</a><br>
+	  <a href="http://uavsar.jpl.nasa.gov/cgi-bin/data.pl">Data Search</a><br>
+	  <a href="/tools/track.html">Track NASA G3</a><br>
+	  <a href="/cgi-bin/flights.pl">Flight Search</a><br>
+	  <a href="/tools/links.html">Related Links</a><br>
+	  <a href="/cgi-bin/contact.pl">Contact Us</a><br>
+	</span>
+  </div>
+  <!-- END OF SITE MAP *****************************************************-->
+
+  <div style="clear: both"></div>
+</div>
+<!-- END OF MAIN CONTENT ***************************************************-->
+
+<!-- FOOTER ****************************************************************-->
+<div id="footer">
+  <span id="updateDate">
+    Last updated: March 2, 2023
+  </span>
+  <span id="footerLinks">
+    <a href="mailto:Bruce.D.Chapman@jpl.nasa.gov">
+	  Contact Webmaster
+	</a> 
+	&nbsp; | &nbsp;
+	<a href="http://www.jpl.nasa.gov/copyrights.cfm" target="_blank"> 
+	  Privacy
+	</a> 
+	&nbsp; | &nbsp;
+	<a href="http://www.jpl.nasa.gov/imagepolicy/" target="_blank">
+	  Image Policy
+	</a>
+  </span>
+  <span id="clearanceNum">
+    (CL 13-1570)
+  </span>
+</div>
+<!-- END OF FOOTER *********************************************************-->
+
+</div>  <!-- End of layout -->
+   </div>  <!-- End of background -->
+
+<script type="text/javascript" src="/js/jquery-3.6.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery.browser.min.js"></script>
+<script type="text/javascript" src="/js/home.js"></script>
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15546159-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- End of Google Analytics -->
+
+</body>
+</html>

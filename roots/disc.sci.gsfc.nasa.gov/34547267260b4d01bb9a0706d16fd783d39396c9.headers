@@ -1,0 +1,11 @@
+GET https://disc.sci.gsfc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000;includeSubdomains;
+< Location: https://disc.gsfc.nasa.gov/
+< Content-Length: 211
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 06:02:17 GMT

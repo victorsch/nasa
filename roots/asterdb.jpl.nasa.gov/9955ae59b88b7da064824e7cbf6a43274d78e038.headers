@@ -1,0 +1,14 @@
+GET https://asterdb.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Object moved
+< Cache-Control: private
+< Server: Microsoft-IIS/10.0
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Location: https://www.jpl.nasa.gov
+< Set-Cookie: ASPSESSIONIDCGRTQBDC=FIKFIMPDIEGDEHFCOANNCBLJ; secure; path=/
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< X-Powered-By: ASP.NET
+< Date: Tue, 19 Sep 2023 06:07:03 GMT
+< Content-Length: 145

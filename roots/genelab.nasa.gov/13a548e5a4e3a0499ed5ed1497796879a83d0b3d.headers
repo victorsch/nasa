@@ -1,0 +1,25 @@
+GET https://genelab.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: max-age=86400, public
+< X-Ua-Compatible: IE=edge
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Etag: "1694736907"
+< Date: Tue, 19 Sep 2023 05:55:11 GMT
+< X-Powered-By: PHP/8.1.22
+< X-Drupal-Dynamic-Cache: HIT
+< Vary: Cookie
+< X-Xss-Protection: 1
+< Content-Security-Policy: default-src 'self' data: use.fontawesome.com *.google-analytics.com fonts.googleapis.com bulma.io fonts.gstatic.com;                 style-src-attr 'self' 'unsafe-inline';                 frame-ancestors 'self';                 form-action 'self';                 style-src 'self';                 img-src 'self' data:;                 frame-src 'self' https://www.youtube.com;                 script-src 'self' *.google-analytics.com;
+< Content-Type: text/html; charset=UTF-8
+< Server: Apache
+< Strict-Transport-Security: max-age=63072000; includeSubDomains
+< Referrer-Policy: origin
+< Last-Modified: Fri, 15 Sep 2023 00:15:07 GMT
+< Content-Language: en
+< Expires: Sun, 19 Nov 1978 05:00:00 GMT
+< X-Generator: Drupal 9 (https://www.drupal.org)
+< From-Origin: same
+< X-Drupal-Cache: HIT

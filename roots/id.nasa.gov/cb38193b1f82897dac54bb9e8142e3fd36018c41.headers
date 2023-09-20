@@ -1,0 +1,23 @@
+GET https://id.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Permissions-Policy: accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),layout-animations=(self),legacy-image-formats=(self),magnetometer=(),microphone=(),midi=(),oversized-images=(self),payment=(),picture-in-picture=(),publickey-credentials-get=(),speaker-selection=(),sync-xhr=(self),unoptimized-images=(self),unsized-media=(self),usb=(),screen-wake-lock=(),web-share=(),xr-spatial-tracking=()
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Permitted-Cross-Domain-Policies: none
+< Cross-Origin-Resource-Policy: same-origin
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Content-Security-Policy: default-src 'self' ; img-src 'self' 'unsafe-inline' data: https://pulse.staging.nasa.gov ; form-action 'self' null ; frame-ancestors 'none' ; block-all-mixed-content ; object-src 'none' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pulse.staging.nasa.gov ; upgrade-insecure-requests ; style-src 'self' 'unsafe-inline' ;
+< Set-Cookie: _2eb70=a7c4369556eee203; Path=/; HttpOnly; Secure
+< Set-Cookie: JSESSIONID=F0351BD95167F53E46DB018C6B35A960; Path=/; Secure; HttpOnly
+< Set-Cookie: e359435b5eb0621ad0137b9c561e2f91=100985f79584745ed1a275b6bc1902a6; path=/; HttpOnly; Secure; SameSite=None
+< Date: Tue, 19 Sep 2023 05:58:03 GMT
+< Cross-Origin-Opener-Policy: same-origin
+< Pragma: no-cache
+< X-Frame-Options: DENY
+< Server: Apache
+< Expires: 0
+< Location: https://id.nasa.gov/oauth2/authorization/launchpad
+< Referrer-Policy: no-referrer
+< X-Content-Type-Options: nosniff
+< Content-Length: 0

@@ -1,0 +1,21 @@
+GET https://access.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Last-Modified: Wed, 06 Sep 2023 13:22:16 GMT
+< Etag: W/"9b3bf1bde105352e728e1c9607801a65"
+< Server: ServerTokens ProductOnly
+< Vary: Accept-Encoding
+< Via: 1.1 957a0e737a088bdc07cb5cc9dcc9e826.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-P1
+< Date: Tue, 19 Sep 2023 06:03:35 GMT
+< Cache-Control: no-store
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Id: O0oStaKsV3SR24uUi8XNGJAQD22YnkEI8jJt7xGkA_nhomIXHFQ9FA==
+< X-Amz-Server-Side-Encryption: AES256
+< X-Request-Id: O0oStaKsV3SR24uUi8XNGJAQD22YnkEI8jJt7xGkA_nhomIXHFQ9FA==
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=31536000

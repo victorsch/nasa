@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html" charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	IRB - Institutional Review Board
+</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" />
+    <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeCHcsbAAAAAESXnsv6NltHnq_EE3o7rqVU7ZO6"></script>
+    <script type="text/javascript">
+        var reCAPTCHA = '6LeCHcsbAAAAAESXnsv6NltHnq_EE3o7rqVU7ZO6';
+        var myCrumbs = [];
+        
+    </script>
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body data-urlbase="/">
+    <div class="scrollButton scrollToTop" id="divScrollTop" title="Scroll back to the top of the page"><i class="fas fa-arrow-up"></i></div>
+    <div class="scrollButton scrollToHeader" id="divScrollHeader" title="Scroll back to the current header"><i class="fas fa-arrow-up"></i></div>
+    <div class="container">
+        <div class="topbar">
+            <a href="https://www.nasa.gov/" title="NASA Homepage"><div class="nasa"></div></a>
+            <div class="link_container">
+                <div class="links">
+                    
+                    <div class="link" data-url="https://www.nasa.gov/news/">News
+                        
+                    </div>
+                    
+                    <div class="link" data-url="https://www.nasa.gov/missions/">Missions
+                        
+                    </div>
+                    
+                    <div class="link" data-url="https://www.nasa.gov/multimedia/">Multimedia
+                        
+                    </div>
+                    
+                    <div class="link" data-url="https://www.nasa.gov/about/">About NASA
+                        
+                    </div>
+                    
+                    <div class="link parent" data-url="">Contact
+                        
+                        <div class="sublink" data-url="https://www.nasa.gov/about/contact/">NASA</div>
+                        
+                        <div class="sublink" data-url="About/Contact">IRB</div>
+                        
+                    </div>
+                    
+                    <div class="input">
+                        <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" target="_blank">
+                            <input name="utf8" type="hidden" value="✓">
+                            <input id="affiliate" name="affiliate" type="hidden" value="irb">
+                            <input type="text" name="query" title="Search IRB website content" placeholder="Search">
+                            <div class="search_button" id="search_button">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="crumbs">
+                    
+                    <span class="crumbsSpan" id="spnHeaderCrumbs"></span>
+                    <div class="crumbsClear" id="divHeaderCrumbsClear" title="Clear the breadcrumb trail back to the current page"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="links">
+                
+                <div class="link parent" data-url="About">About
+                    
+                    <div class="sublink" data-url="About/#meet">Meet the Office Personnel</div>
+                    
+                    <div class="sublink" data-url="About/#desc">NASA IRB</div>
+                    
+                    <div class="sublink" data-url="About/#regs">Human Subjects Regulations</div>
+                    
+                </div>
+                
+                <div class="link parent" data-url="Meetings">Meetings
+                    
+                    <div class="sublink" data-url="Meetings/#irb">NASA IRB</div>
+                    
+                    <div class="sublink" data-url="Meetings/#hrmrb">HRMRB</div>
+                    
+                </div>
+                
+                <div class="link parent" data-url="Guidance">Submission Guidance
+                    
+                    <div class="sublink" data-url="Guidance/#types">Types of Submissions</div>
+                    
+                    <div class="sublink" data-url="Guidance/#level">Level of Review</div>
+                    
+                    <div class="sublink" data-url="Guidance/#info_reliance">Reliance Acknowledgements</div>
+                    
+                    <div class="sublink" data-url="Guidance/#info">Additional Information</div>
+                    
+                </div>
+                
+                <div class="link" data-url="HRMRB">HRMRB
+                    
+                </div>
+                
+                <div class="link parent" data-url="Resources">Resources
+                    
+                    <div class="sublink" data-url="Resources/#tss">TSS Information</div>
+                    
+                    <div class="sublink" data-url="Resources/#safety">Safety/Hazard Assessments</div>
+                    
+                    <div class="sublink" data-url="Resources/#templates">Templates</div>
+                    
+                    <div class="sublink" data-url="Resources/#sop">SOPs</div>
+                    
+                    <div class="sublink" data-url="Resources/#guidance">Regulatory Guidance</div>
+                    
+                </div>
+                
+                <div class="link parent" data-url="eIRB">eIRB
+                    
+                    <div class="sublink" data-url="https://eirb.jsc.nasa.gov/eIRB">Access the eIRB</div>
+                    
+                </div>
+                
+                <div class="link" data-url="COI">Exempt #5
+                    
+                </div>
+                
+                <div class="link" data-url="FAQ">FAQ
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div class="header" style="background-image: url('/img/headers/index.jpg');">
+            <div class="header_text"><span class="noscreen"></span><span class="actual_text">Institutional Review Board</span></div>
+        </div>
+        <div class="content">
+            
+    <div class="content_box">
+        <div class="content_top grayback" style="font-size: 22px; line-height: 26px">
+            The NASA IRB is an Agency-wide IRB operating within the Common Rule [NASA 14CFR1230] that is charged with oversight of research involving human subjects to ensure the ethical, safe, and equitable treatment of human subjects.
+        </div>
+    </div>
+    <div class="content_buttons stretch" style="margin-top: 23px">
+        <button data-url="Researchers">For Researchers</button>
+        <button data-url="Participants">For Participants</button>
+    </div>
+    <div class="content_buttons stretch" style="margin-top: 23px">
+        <button data-url="ReviewNeeded">Do I Need NASA IRB Review?</button>
+    </div>
+    
+    <div class="content_callout" style="margin-top: 32px">
+        <div class="callout_container main">
+            <div class="callout_image">
+                <div class="main"></div>
+                <div class="alt"></div>
+            </div>
+            <div class="callout_content">
+                <div class="callout_content_title">
+                    <div class="main"></div>
+                    <div class="alt"></div>
+                </div>
+                <div class="callout_content_text">
+                    <div class="main"></div>
+                    <div class="alt"></div>
+                </div>
+            </div>
+        </div>
+        <div class="callout_links">
+            <div class="callout_link_scroller">
+                
+                    <div class="callout_link" data-img="langley.jpg" data-width="32" data-title="Langley Research Center" data-content="Langley Research Center conducts systematic investigations, tests, and evaluations to understand human interactions with technologies, concepts, and operational procedures in support of NASA space and aeronautics missions. Our research involves the use of quantitative and qualitative approaches to studying ergonomics (e.g., interface design and human-machine teaming), psychology and neuroergonomics  (e.g., workload, stress, situation awareness, and behavior logic), and physiological human responses (e.g., eye tracking and psychoacoustics) that impact operational safety, efficiency, and community acceptance. This research is accomplished via relevant and methodical scenarios and vignettes—often employing fixed- or motion-based simulators, or simulated acoustic environments—to elicit responses that quantify human-subjects&#39; performance and feedback to new technologies and concepts of operations. Results are broadly shared across aeronautics and space domains to help lay the groundwork for successful development and introduction of revolutionary vehicles and operations by improving crew-technology interactions, operator training, crew procedures, assignment of roles and responsibilities, and impact on communities." data-fontsize="smaller"></div>
+                
+                    <div class="callout_link" data-img="analog.jpg" data-width="50" data-title="Analog Missions" data-content="&lt;a href=&quot;https://www.nasa.gov/analogs&quot; target=&quot;_blank&quot;&gt;Please click here for more information about Analog Missions.&lt;/a&gt;" data-fontsize="larger"></div>
+                
+                    <div class="callout_link" data-img="kennedy.jpg" data-width="40" data-title="Kennedy Space Center" data-content="One of NASA Kennedy Space Center&#39;s key roles in support of human exploration is in the area of plant and crop research and production. As astronauts venture beyond low earth orbit to the moon and Mars, a food system that meets the crew&#39;s dietary needs will be of critical importance to keeping astronauts healthy and operating at peak performance. NASA is looking to develop a sustainable exploration food system that incorporates the production of fresh crops to provide both supplemental nutrition and to eventually replace part of the pre-packaged food required for longer surface stays on the moon and Mars. Researchers at the Kennedy Space Center support both the fundamental plant research and the technology development needed to enable plants to thrive in these new and challenging environments." data-fontsize="small"></div>
+                
+                    <div class="callout_link" data-img="johnson.jpg" data-width="40" data-title="Johnson Space Center" data-content="Johnson Space Center performs much of the coordination and development for projects within the Human Research Program at a number of facilities across the country and all around the world, as well as onboard the International Space Station. Scientists and engineers at Johnson Space Center also conduct studies related to space radiation, exploration medical capabilities, microgravity, human factors, habitability and behavioral health at a host of laboratories on site. Additionally, Johnson is home to the Human Exploration Research Analog, or HERA, a unique three-story habitat designed to serve as an analog for isolation, confinement, and remote conditions in exploration scenarios. Using all of these resources allows HRP to prepare for new suites of studies that will ensure safe and productive human space travel as we move toward missions to the Moon and Mars." data-fontsize="small"></div>
+                
+                    <div class="callout_link" data-img="ecl.jpg" data-width="35" data-title="Exercise Countermeasures Laboratory" data-content="The &lt;a href=&quot;https://hrp.grc.nasa.gov/explore/human-health-countermeasures/exercise-countermeasures/&quot; target=&quot;_blank&quot;&gt;Exercise Countermeasures Laboratory (ECL)&lt;/a&gt; at NASA Glenn Research Center (GRC) is a ground-based test bed that provides high-fidelity weightlessness, lunar (&lt;super&gt;1&lt;/super&gt;/&lt;sub&gt;6&lt;/sub&gt;g), and Martian (&lt;super&gt;1&lt;/super&gt;/&lt;sub&gt;3&lt;/sub&gt;g) human-in-the-loop exercise simulations for developing exercise countermeasure devices, equipment, and exercise protocols for spaceflight, and quantifying the physiological demands of performing exercise in a shirtsleeve environment. The enhanced Zero-g Locomotion Simulator (eZLS) exercise platform orients human test subjects horizontally, such that they exercise in simulated zero-g (oriented 90 degrees relative to the gravity vector) against a three-degree-of-freedom air-bearing exercise simulator that allows frictionless translation and rotation. Kick load assessments, sensorimotor challenges, and lower and upper body kinematics can all be assessed in this way in simulated zero-g, without the time limitations of parabolas on parabolic flight. The current data acquisition user interface is programmed in LabVIEW and is set up to continuously monitor foot forces under treadmill belt, in-line SLD force, accelerations, displacements, heart rate, and treadmill speed. The laboratory uses a motion capture system to analyze human movement, either while in the eZLS or on the ground. Wireless electromyography data, wearable accelerometry, and force plates are available for a full suite of biomechanical analysis and operational volume capability. Other test protocols include medical station analysis for a habitat design, operational volume analysis and imparted loads characterization for compact exploration exercise devices, development of the ISS T2 Treadmill harness and evaluation of the T2 treadmill vibration isolation system with NASA JSC and Boeing; a kinematic and electromyographic study comparing gait parameters and muscle-activation patterns during treadmill running in the eZLS, 1g upright, and in parabolic flight; lunar-gravity locomotion studies and Daily Load Stimulus characterizations during various lunar tasks; evaluations of compact advanced exercise equipment, compact subject load devices, sensorimotor balance challenge countermeasures; and development of wireless biometric sensors that have also been evaluated in parabolic flight." data-fontsize="smallest"></div>
+                
+                    <div class="callout_link" data-img="ames.jpg" data-width="50" data-title="Ames Research Center" data-content="Ames Research Center was founded in 1939 as an aircraft research laboratory and is located in the heart of California&#39;s Silicon Valley. Although the center’s primary focus is on information technology and computing, it is also a leader in human factors and aeronautics research. The human factors area of study is devoted to understanding the variables that affect human performance in space and then to design applications, equipment, and environments that align with these parameters. The aeronautics research is at the forefront of enabling dramatic improvements in aeronautics during the 21st century.  Ames operates national wind tunnel facilities, airspace research labs, and human-in-the-loop flight simulators.  The center conducts applied research and development in collaboration with industry, academia, and government. Other studies include work on space radiation, lunar dust, and biomedicine." data-fontsize="smaller"></div>
+                
+            </div>
+        </div>
+        <div class="scrollbutton left"><i class="fas fa-chevron-left"></i></div>
+        <div class="scrollbutton right"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    
+    <div class="content_buttons" style="margin-top: 60px">
+        <button data-url="About/Contact">Contact Us</button>
+    </div>
+
+            <div class="footer">
+                <div><div class="nasa"></div></div>
+                <div>
+                    Last Modified: <span class="nowrap">12/13/2021</span><br />
+                    Current As Of: <span class="nowrap">9/19/2023</span><br />
+                    Editor: <span class="nowrap">David Williams</span><br />
+                    Content Manager: <span class="nowrap"></span><br />
+                    Website Designer: <span class="nowrap">Tytianna Horn</span><br />
+                    Website Owner: <span class="nowrap">Dr. Marisa Covington</span><br />
+                    NASA Official: <span class="nowrap">Terri Blatt</span><br />
+                </div>
+                
+                <div class="noprint">
+                
+                    &gt; <a href="https://www.nasa.gov/news/budget/" target="_blank">Budgets, Strategic Plans, and Accountability Reports</a><br />
+                    
+                    &gt; <a href="http://odeo.hq.nasa.gov/nofear.html" target="_blank">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/about/contact/information_inventories_schedules.html" target="_blank">Information-Dissemination Policies and Inventories</a><br />
+                    
+                </div>
+                
+                <div class="noprint">
+                
+                    &gt; <a href="https://www.nasa.gov/FOIA/" target="_blank">Freedom of Information Act</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/about/highlights/HP_Management.html" target="_blank">President's Management Agenda</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy and Important Notices</a><br />
+                    
+                    &gt; <a href="https://oig.nasa.gov/hotline.html" target="_blank">Inspector General Hotline</a><br />
+                    
+                    &gt; <a href="http://www.whitehouse.gov/omb/expectmore/" target="_blank">ExpectMore.gov</a><br />
+                    
+                </div>
+                
+                <div class="noprint nowrap">
+                
+                    &gt; <a href="Sitemap" target="_blank">Sitemap</a><br />
+                    
+                    &gt; <a href="About/Contact" target="_blank">Contact IRB</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/hrp" target="_blank">Human Research Program</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/centers/johnson/home" target="_blank">Johnson Space Center</a><br />
+                    
+                    &gt; <a href="https://www.nasa.gov/" target="_blank">NASA.gov</a><br />
+                    
+                    &gt; <a href="https://www.usa.gov/" target="_blank">USA.gov</a><br />
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/e0ccb31d2c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/common/polyfills.js"></script>
+    <script type="text/javascript" src="/js/site.js"></script>
+    
+    <script type="text/javascript" src="/js/index.js"></script>
+
+
+
+</body>
+</html>

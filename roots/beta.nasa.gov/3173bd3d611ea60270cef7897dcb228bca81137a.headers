@@ -1,0 +1,9 @@
+GET http://beta.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: nginx
+< Date: Tue, 19 Sep 2023 05:44:33 GMT
+< Content-Type: text/html
+< Content-Length: 162
+< Location: https://beta.nasa.gov/

@@ -1,0 +1,13 @@
+GET http://mars.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 167
+< Location: https://mars.nasa.gov/
+< X-Amz-Cf-Pop: PHL51-P1
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 d9cb2cc28f0170090b851fc36d4c091e.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: hhKJfld-aVd6Qruaa20HbjPvHp4LBO3vwcPX5NHoZS9cz5wrQIzL3w==
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 05:44:50 GMT
+< Content-Type: text/html

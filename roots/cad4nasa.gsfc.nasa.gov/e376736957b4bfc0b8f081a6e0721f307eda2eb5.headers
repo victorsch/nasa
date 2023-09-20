@@ -1,0 +1,12 @@
+GET https://cad4nasa.gsfc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Last-Modified: Mon, 31 Jul 2023 23:49:16 GMT
+< Etag: "1e7-601d1140a8330"
+< Accept-Ranges: bytes
+< Content-Length: 487
+< Date: Tue, 19 Sep 2023 05:59:59 GMT
+< Content-Type: text/html
+< Strict-Transport-Security: max-age=31557600

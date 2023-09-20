@@ -1,0 +1,19 @@
+GET https://exoplanets.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Frame-Options: sameorigin
+< Access-Control-Allow-Origin: *
+< Location: https://exoplanets.nasa.gov/
+< X-Amz-Cf-Id: hu6EiYsOb5NSKip3JDzKxSnYKuaz5AUPS9iNQLyBXkuMssYu-wSHMw==
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+< Via: 1.1 c9bef6d423a5d23e0ca5e2af8503331c.cloudfront.net (CloudFront)
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: EWR53-C1
+< Content-Type: text/html; charset=iso-8859-1
+< Content-Length: 236
+< Access-Control-Allow-Headers: x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+< Date: Tue, 19 Sep 2023 06:01:57 GMT
+< Access-Control-Max-Age: 1000

@@ -1,0 +1,10 @@
+GET http://bsgapps.arc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:56:40 GMT
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Location: https://bsgapps.arc.nasa.gov/
+< Content-Length: 237

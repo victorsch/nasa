@@ -1,0 +1,11 @@
+GET https://invitation.test.nasa.gov
+
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/plain; charset=utf-8
+< Date: Tue, 19 Sep 2023 05:57:06 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: DENY
+< Content-Length: 19

@@ -1,0 +1,13 @@
+GET http://podaac.jpl.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Date: Tue, 19 Sep 2023 06:06:28 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Content-Length: 212
+< Content-Type: text/html; charset=iso-8859-1
+< Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+< Content-Securitiy-Policy: frame-ancestors 'self'
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://podaac.jpl.nasa.gov/

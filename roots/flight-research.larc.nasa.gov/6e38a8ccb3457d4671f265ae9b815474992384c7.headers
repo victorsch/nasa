@@ -1,0 +1,11 @@
+GET https://flight-research.larc.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:49:37 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< Cache-Control: no-store
+< Location: https://auth.launchpad.nasa.gov/kerblogin?level=10&TYPE=33554433&REALMOID=06-dbd38f63-732a-450a-9df8-919c7cee5ef7&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-B7mDqCpJHQt30iCnCMB83KVhXfYumXqi8ijoRUDd0H%2b%2frZeNzrJYRiNKI4tCo2w%2fLeZbKHD7C0uMgebIzjoFsrQj4LhjKJOUtbJxTMvSPNZEg83vgQA4tqkjTj0Osym4&TARGET=-SM-https%3a%2f%2fflight--research%2elarc%2enasa%2egov%2f
+< Content-Length: 573

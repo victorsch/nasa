@@ -1,0 +1,10 @@
+GET http://clarreo.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:55:33 GMT
+< Server: Apache
+< X-Frame-Options: sameorigin
+< Location: https://clarreo.larc.nasa.gov/
+< Content-Length: 238
+< Content-Type: text/html; charset=iso-8859-1

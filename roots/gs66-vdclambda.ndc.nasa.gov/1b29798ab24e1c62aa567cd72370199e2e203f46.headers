@@ -1,0 +1,11 @@
+GET https://gs66-vdclambda.ndc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:53:56 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< Last-Modified: Wed, 06 Sep 2023 02:56:47 GMT
+< Etag: "4c46-604a7e4f06df0"
+< Accept-Ranges: bytes
+< Content-Length: 19526

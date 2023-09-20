@@ -1,0 +1,14 @@
+GET https://satern.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-cache
+< Vary: Accept-Encoding
+< Content-Security-Policy: frame-ancestors 'self' https://satern.nasa.gov/
+< Last-Modified: Tue, 28 Feb 2023 14:43:33 GMT
+< Accept-Ranges: bytes
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Server: 
+< Content-Type: text/html
+< Etag: "8058ee7834bd91:0"
+< Date: Tue, 19 Sep 2023 05:44:56 GMT

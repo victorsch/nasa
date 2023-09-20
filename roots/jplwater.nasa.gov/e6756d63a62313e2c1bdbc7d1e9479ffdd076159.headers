@@ -1,0 +1,14 @@
+GET https://jplwater.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Powered-By: ASP.NET
+< Content-Security-Policy: default-src 'self' *.nasa.gov www.specialtechnology.net; script-src 'self' *.nasa.gov dap.digitalgov.gov *.digitalgov.gov 'unsafe-inline' 'unsafe-eval'; style-src 'self' *.nasa.gov 'unsafe-inline'; frame-ancestors 'none';
+< Strict-Transport-Security: max-age=31536000
+< Date: Tue, 19 Sep 2023 05:54:50 GMT
+< Cache-Control: private
+< Set-Cookie: ASP.NET_SessionId=op1wnx2iegcx3unysl2cif15; path=/; HttpOnly; SameSite=Lax
+< X-Aspnet-Version: 4.0.30319
+< Content-Length: 60150
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/8.5

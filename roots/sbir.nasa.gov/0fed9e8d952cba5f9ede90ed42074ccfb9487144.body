@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://sbir.gsfc.nasa.gov/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon-precomposed" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/apple-touch-icon-precomposed.png" />
+<meta name="viewport" content="width=device-width" />
+  <title>NASA SBIR &amp; STTR Program Homepage</title>
+  <link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.base.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/system/system.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/date/date_api/date.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/book/book.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/modules/node/node.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/custom/sbir_common/js/tablesorter/themes/blue/style.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/field/field.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/extlink/css/extlink.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views/css/views.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/search/search.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/user/user.base.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/css/modules/user/user.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.core.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.theme.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.autocomplete.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.tabs.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views_slideshow/views_slideshow.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/ctools/css/ctools.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/panels/css/panels.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/panels/plugins/layouts/flexible/flexible.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views_slideshow/views_slideshow_controls_text.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/default/files/ctools/css/6c932ff4307024e381fa3bc04ad4766f.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/css/superfish.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/nasasbir/css/open-sans.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/nasasbir/css/roboto-slab-fontface.css?rz13j8" media="all" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/nasasbir/css/print.css?rz13j8" media="print" />
+<link type="text/css" rel="stylesheet" href="https://sbir.gsfc.nasa.gov/sites/all/themes/nasasbir/css/styles.css?rz13j8" media="all" />
+  <script src="https://sbir.gsfc.nasa.gov/misc/jquery.js?v=1.4.4"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/drupal.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/themes/omega/omega/js/no-js.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.position.min.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.position-1.13.0-backport.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.autocomplete.min.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/misc/ui/jquery.ui.tabs.min.js?v=1.8.7"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/custom/sbir_common/js/common.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/custom/sbir_common/js/tablesorter/jquery.tablesorter.min.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/custom/sbir_solicitation/solicitation.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/custom/sbir_solicitation_upload/sbir_solicitation_upload.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/colorbox/jquery.colorbox-min.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/colorbox/js/colorbox.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/colorbox/js/colorbox_load.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/colorbox/js/colorbox_inline.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/floating_block/floating_block.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/json2/json2.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/jquery.hoverIntent/jquery.hoverIntent.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/google_analytics/googleanalytics.js?rz13j8"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://sbir.gsfc.nasa.gov/sites/default/files/googleanalytics/analytics.js?rz13j8","ga");ga("create", "UA-49632249-1", {"cookieDomain":".sbir.nasa.gov"});(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-49632249-1', 'nasa.gov');
+  ga('send', 'pageview');ga("send", "pageview");</script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/extlink/js/extlink.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/sfsmallscreen.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/supposition.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/superfish.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/libraries/superfish/supersubs.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/modules/contrib/superfish/superfish.js?rz13j8"></script>
+<script src="https://sbir.gsfc.nasa.gov/sites/all/themes/nasasbir/js/script.js?rz13j8"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"floating_block":{"settings":{"#floatingheader":[]},"minWidth":"0"},"viewsSlideshow":{"front_slideshow-wisywyg_slider_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"ioc_speakers_front_page_carousel-block_1_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"front_slideshow-wisywyg_slider_1":{"top":{"type":"viewsSlideshowPagerFields","master_pager":"0"}},"ioc_speakers_front_page_carousel-block_1_1":{"bottom":{"type":"viewsSlideshowPagerFields","master_pager":"1"}}},"viewsSlideshowPagerFields":{"front_slideshow-wisywyg_slider_1":{"top":{"activatePauseOnHover":0}},"ioc_speakers_front_page_carousel-block_1_1":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowControls":{"front_slideshow-wisywyg_slider_1":{"top":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_front_slideshow-wisywyg_slider_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"front_slideshow-wisywyg_slider_1","effect":"fade","transition_advanced":1,"timeout":6000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_ioc_speakers_front_page_carousel-block_1_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"ioc_speakers_front_page_carousel-block_1_1","effect":"fade","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"better_exposed_filters":{"views":{"front_slideshow":{"displays":{"wisywyg_slider":{"filters":[]}}},"ioc_speakers_front_page_carousel":{"displays":{"block_1":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1,"trackCrossDomains":["sbir.gsfc.nasa.gov"]},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"smallscreen":{"mode":"window_width","addSelected":false,"menuClasses":false,"hyperlinkClasses":false,"title":"Main menu"},"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false}});</script>
+</head>
+<body class="html front not-logged-in page-front">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page clearfix">
+
+    <div class="new_header" clearfix" role="banner">
+      
+                            <div class="new_title">
+                            <p style="line-height: 1px;">Small Business Innovation Research (SBIR) &</p>
+                <p>Small Business Technology Transfer (STTR) Program</p><br>
+                </div>
+            
+            <a href="/" title="Home" rel="home" class="site-logo">
+            <div class="new_homepage_logo" >
+                <img src="/sites/all/themes/nasasbir/images/NASA_Logo_FullColor1.png" width="201" height="201" alt=""/>
+            </div>
+            <!--    <img src="" alt="" /> -->
+                <!--<div class="slider">
+                <ul id="LogoRotate">
+                    <li><img border="0" src="/sites/all/themes/nasasbir/images/nasaLogo.png"  alt="nasa logo" title="nasa logo" /></li>
+                    <li><img border="0" src="/sites/all/themes/nasasbir/images/sbirLogo.png"  alt="sbir logo" title="sbir logo" /></li>
+                 </ul>
+                </div>-->
+            </a>
+                   
+          <div class="l-region l-region--header">
+    <div id="block-sbir-search-sitewide-search-bar" class="block block--sbir-search block--sbir-search-sitewide-search-bar">
+        <div class="block__content">
+    	<div class="l-search">
+		<form id="sitewidesearchform" action="/sbir_search" method="get">
+			<div class="searchOptions1 clearfix">
+				<label class="hidden-offscreen" for="searchInput">site wide search</label> <input class="searchInput" name="searchText" id="searchInput" type="text">
+				<input class="searchSubmit" title="search Submit" type="submit" value="search"> <!--<a class="advancedSearch" href="/advanced_search">Advanced Search</a>-->
+			</div>
+			<ul class="searchOptions2 clearfix">
+				<li><input id="site" value="site" name="searchType" type="radio" onclick="this.form.action='/sbir_search';" ><label for="site">Site</label></li>
+				<li><input id="topic" value="topic" name="searchType" type="radio" onclick="this.form.action='/sbir_search';"><label for="topic">Solicitations</label></li>
+				<li><input id="award" value="award" checked="checked" name="searchType" type="radio" onclick="this.form.action='/sbir_search';" ><label for="award">Awards</label></li>
+				<li><a class="advancedSearch" href="/advanced_search">Advanced</a></li>
+			</ul>
+		</form>
+	</div>  </div>
+</div>
+  </div>
+    </div>
+
+    <div class="l-nav clearfix new_menu" role="navigation">
+          <div class="l-region l-region--navigation">
+    <div id="block-superfish-1" class="block block--superfish block--superfish-1">
+        <div class="block__content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-5 sf-single-items-2"><li id="menu-771-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" class="sf-depth-1 active">Home</a></li><li id="menu-425-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-11 sf-parent-children-0 sf-single-children-11 menuparent"><a href="/content/nasa-sbirsttr-basics" class="sf-depth-1 menuparent sf-depth-1 menuparent">About SBIR/STTR</a><ul><li id="menu-848-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/content/nasa-sbirsttr-basics" class="sf-depth-2 sf-depth-2">SBIR/STTR Basics<sub>Brief orientation on SBIR/STTR programs &amp; access to program-related information</sub></a></li><li id="menu-2851-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/content/post-phase-ii-initiatives" class="sf-depth-2 sf-depth-2">Post Phase II Initiatives<sub>Post Phase II Initiatives Page</sub></a></li><li id="menu-3058-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ignite" class="sf-depth-2 sf-depth-2">SBIR Ignite <sub>NASA SBIR Ignite Program</sub></a></li><li id="menu-2855-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/content/I-Corps" class="sf-depth-2 sf-depth-2">I-Corps <sub>Innovation Corps Program</sub></a></li><li id="menu-849-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="http://sbir.nasa.gov/guide" class="sf-depth-2">Interactive Participation Guide<sub>Overview of both the SBIR and STTR programs as implemented by NASA</sub></a></li><li id="menu-1844-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/content/program-authorization-and-executive-order" class="sf-depth-2 sf-depth-2">Program Authorization<sub>Congressional history and Executive Orders for SBIR/STTR Programs</sub></a></li><li id="menu-2268-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/content/nasa-sbirsttr-program-definitions" class="sf-depth-2 sf-depth-2">NASA SBIR/STTR Program Definitions</a></li><li id="menu-850-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="/content/procurement-information" class="sf-depth-2 sf-depth-2">Procurement Information<sub>Quick access to procurement &amp; legal guidance, and sample forms and contracts</sub></a></li><li id="menu-851-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="/content/additional-sources-assistance" class="sf-depth-2 sf-depth-2">Additional Sources of Assistance<sub>Federal and non-Federal sources of assistance for small businesses</sub></a></li><li id="menu-853-1" class="middle even sf-item-10 sf-depth-2 sf-no-children"><a href="/content/frequently-asked-questions" class="sf-depth-2 sf-depth-2">FAQ's<sub>Frequently asked questions about NASA's SBIR and STTR Programs</sub></a></li><li id="menu-2854-1" class="last odd sf-item-11 sf-depth-2 sf-no-children"><a href="https://sbir.nasa.gov/info" class="sf-depth-2">SBIR/STTR Program Information Request</a></li></ul></li><li id="menu-1867-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/solicitations" class="sf-depth-1 menuparent">Solicitations</a><ul><li id="menu-3069-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/solicitations" class="sf-depth-2">SBIR/STTR Phase I</a></li><li id="menu-3106-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/solicitations_p2" class="sf-depth-2">SBIR/STTR Phase II</a></li><li id="menu-3068-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="/solicit-detail/98342" class="sf-depth-2">IGNITE</a></li></ul></li><li id="menu-427-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/prg_sched_anncmnt" class="sf-depth-1 menuparent">Schedule &amp; Awards</a><ul><li id="menu-1825-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/prg_sched_anncmnt" class="sf-depth-2">Schedule &amp; Awards<sub>Program schedule and selection announcements</sub></a></li><li id="menu-1826-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/advanced_search" class="sf-depth-2">Award Search<sub>Tool for performing searches on NASA SBIR/STTR awards</sub></a></li><li id="menu-1827-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/abstract_archives" class="sf-depth-2">Awarded Abstracts<sub>Searchable abstracts on awarded NASA SBIR/STTR projects</sub></a></li><li id="menu-1828-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/states_stats_all" class="sf-depth-2">State-based Statistics<sub>Proposal and award statistics by State</sub></a></li><li id="menu-1842-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="https://ehb8.gsfc.nasa.gov/sbir/public/technologySearch/searchAction.do?requestFrom=NASASBIRHome" class="sf-depth-2">TechSource<sub>Tool for performing searches on technology keywords or phrases in funded NASA SBIR/STTR projects</sub></a></li></ul></li><li id="menu-428-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="https://ehb8.gsfc.nasa.gov/contracts-app/public/awardee-home" class="sf-depth-1 menuparent">Handbooks</a><ul><li id="menu-1864-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="https://ehb8.gsfc.nasa.gov/contracts-app/public/awardee-home" class="sf-depth-2">SBIR/STTR Awardee Firm's EHB<sub>Electronic Handbook used by firms during the Contract Negotiation/Award &amp; Admin processes</sub></a></li><li id="menu-1865-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="https://submissions.gsfc.nasa.gov/submissions/login" class="sf-depth-2">SBIR/STTR Proposal Submission EHB<sub>Electronic Handbook used by firms to submit their Phase I &amp; Phase II proposals</sub></a></li></ul></li><li id="menu-429-1" class="middle even sf-item-6 sf-depth-1 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/resource-library" class="sf-depth-1 menuparent sf-depth-1 menuparent">Resources</a><ul><li id="menu-3055-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/resource-library" class="sf-depth-2 sf-depth-2">Resource Library</a></li><li id="menu-1818-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/success-stories" class="sf-depth-2">Success Stories<sub>Articles highlighting NASA's successful SBIR and STTR projects</sub></a></li><li id="menu-3056-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/blog" class="sf-depth-2 sf-depth-2">Blog</a></li><li id="menu-3061-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/programevents" class="sf-depth-2 sf-depth-2">Program Events</a></li><li id="menu-3057-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="https://sbir.nasa.gov/sbir/firm_library/index.html" class="sf-depth-2">SBIR/STTR Firm Library</a></li><li id="menu-1808-1" class="last even sf-item-6 sf-depth-2 sf-no-children"><a href="/content/publications" class="sf-depth-2 sf-depth-2">Publications<sub>NASA publications relevant to the R&amp;D community</sub></a></li></ul></li><li id="menu-431-1" class="last odd sf-item-7 sf-depth-1 sf-no-children"><a href="/contacts" class="sf-depth-1 sf-depth-1">Contact Us</a></li></ul>  </div>
+</div>
+  </div>
+    </div>
+
+    <div class="l-main clearfix new_main">
+        <div class="l-content clearfix" role="main">
+                                    <a id="main-content"></a>
+                                                                                                <div class="panel-flexible panels-flexible-nasa_standard clearfix" id="homePage">
+<div class="panel-flexible-inside panels-flexible-nasa_standard-inside">
+<div class="panels-flexible-region panels-flexible-region-nasa_standard-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-nasa_standard-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-views pane-front-slideshow">
+            <div class="view view-front-slideshow view-id-front_slideshow view-display-id-wisywyg_slider view-dom-id-59c100d923c47a0b14147c306f4ce32d">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+          <div class="views-slideshow-controls-top clearfix">
+        <div id="widget_pager_top_front_slideshow-wisywyg_slider_1" class="views-slideshow-pager-fields widget_pager widget_pager_top views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first" aria-controls="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_0">
+  <div class="views-field-field-slider-type">
+    <div class="views-content-field-slider-type">
+    <a href='#slideshow-0'>Join our Community</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_1">
+  <div class="views-field-field-slider-type">
+    <div class="views-content-field-slider-type">
+    <a href='#slideshow-1'>Announcements</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd" aria-controls="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_2">
+  <div class="views-field-field-slider-type">
+    <div class="views-content-field-slider-type">
+    <a href='#slideshow-2'>Participation Guide</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_3">
+  <div class="views-field-field-slider-type">
+    <div class="views-content-field-slider-type">
+    <a href='#slideshow-3'>Success Stories</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_4" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-last" aria-controls="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_4">
+  <div class="views-field-field-slider-type">
+    <div class="views-content-field-slider-type">
+    <a href='#slideshow-4'>Resource Library</a>  </div>
+</div>
+</div>
+</div>
+<div id="views_slideshow_controls_text_front_slideshow-wisywyg_slider_1" class="views-slideshow-controls-text views_slideshow_controls_text">
+  <span id="views_slideshow_controls_text_previous_front_slideshow-wisywyg_slider_1" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous">
+  <a href="#" rel="prev">Previous</a>
+</span>
+  <span id="views_slideshow_controls_text_pause_front_slideshow-wisywyg_slider_1" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play"><a href="#">Pause</a></span>
+  <span id="views_slideshow_controls_text_next_front_slideshow-wisywyg_slider_1" class="views-slideshow-controls-text-next views_slideshow_controls_text_next">
+  <a href="#" rel="next">Next</a>
+</span>
+</div>
+      </div>
+    
+    <div id="views_slideshow_cycle_main_front_slideshow-wisywyg_slider_1" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_front_slideshow-wisywyg_slider_1" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-first views-row-odd" aria-labelledby='views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_0'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="slideImg"><img src="/sites/default/files/join_our_comunity.png" alt="Resources" /></div>
+<div class="slideSummary" style="margin: 1px 0px; padding: 1px 50px;">
+<p>Join our diverse community of pioneers who are researching and developing technologies to change the world. The NASA Small Business Innovation Research and Small Business Technology Transfer (SBIR/STTR) program provides more than just early-stage funding – we open doors to a community that awaits you. Whether your destination is the Marketplace, the Moon, or Mars–let us help you get there.</p>
+</div>
+</div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_1'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="slideImg"> </div>
+<div class="slideImg"><img src="/sites/default/files/021-Carousel_Announcements_98212.jpg" alt="Resources" /></div>
+<div class="slideSummary" style="margin: 1px 0px; padding: 1px 50px;">
+<p>SBIR/STTR Proposal Submissions Interface Evolving | Scheduled to Debut for SBIR Ignite 2023<br /><a style="font-size: 13.008px;" href="/news">Additional Information</a></p>
+<p>NASA SBIR Sequential Phase II Awards | Accepting White Papers through October 5 at 5 pm ET. Technical Need Areas: ISRU and Tall Lunar Surface Structures. Funding: $2.5M - $4M per award.<br /><a style="font-size: 13.008px;" href="https://sam.gov/opp/14829a8719e44cacb5367ee6a4661ddc/view">More Details</a>        <a style="font-size: 13.008px;" href="/news">Other News</a></p>
+</div>
+</div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" aria-labelledby='views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_2'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="slideImg"><img src="/sites/default/files/CarouselParticipationGuide.jpg" alt="Resources" /></div>
+<div class="slideSummary" style="margin: 1px 0px; padding: 1px 50px;">
+<p>Interested in participating in the NASA SBIR/STTR program but don’t know where to start? Our interactive participation guide is a single stop for quick information and helpful links to help you prepare for the solicitation and learn about the program.</p>
+<p><a href="/guide">Explore the interactive participation guide</a></p>
+</div>
+</div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_3'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="slideImg"><img src="/sites/default/files/CarouselSuccessStories.jpg" alt="Resources" /></div>
+<div class="slideSummary" style="margin: 1px 0px; padding: 1px 50px;">
+<p>From out-of-this-world technologies that help us research and explore space, to state-of-the-art innovations that improve life on Earth, small businesses make an impact through the NASA SBIR/STTR program. Get inspired by reading about their journeys.</p>
+<p><a href="/success-stories">Read success stories</a>    <a href="/blog ">Read our blog</a></p>
+</div>
+</div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_front_slideshow-wisywyg_slider_1_4" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-last views-row-odd" aria-labelledby='views_slideshow_pager_field_item_top_front_slideshow-wisywyg_slider_1_4'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="slideImg"><img src="/sites/default/files/CarouselResourceLibrary_0.jpg" alt="Resource library" /></div>
+<div class="slideSummary" style="margin: 1px 0px; padding: 1px 50px;">
+<p>Our resource library is curated with videos, documents, and links based on where you are in your SBIR/STTR journey. Peruse the library to see relevant information for Phase 0, Phase 1, and Phase 2 and beyond.</p>
+<p><a href="/resource-library">Visit the resource library</a></p>
+</div>
+</div>  </div></div>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-block pane-block-27">
+            <div class="whatprovidebox">
+<div class="whatprovidetitle" style="font-size: 24px; font-weight: bold;">What do we provide?</div>
+<div>
+<div class="whatprovide_row">
+<div class="whatprovide_column">
+<ul><li><strong>Early-stage funding</strong> for research &amp; development (R&amp;D)</li>
+<li><strong>Up to $1 million during your first three years</strong>, plus up to nearly $3 million or more through our Post Phase II opportunities</li>
+<li>We <strong>take zero equity</strong>, and you are in control of your intellectual property</li>
+<li>The <strong>experience</strong> of working with NASA experts on your technology</li>
+<li>The <strong>opportunity</strong> to join us on one of our many ambitious missions</li>
+</ul></div>
+<div class="whatprovide_column">
+<ul><li>A <strong>network</strong> of diverse entrepreneurs and innovators</li>
+<li>A door into potential work <strong>with NASA programs and other government agencies</strong></li>
+<li>A way to hone your <strong>business skills</strong> to complement your technical skills</li>
+<li>A way to <strong>de-risk your technology</strong> as you work to mature it</li>
+<li>A <strong>reputation</strong> that comes with working with an agency known for expanding the physical and mental boundaries of humanity</li>
+</ul></div>
+</div>
+</div>
+</div>
+    </div>
+<div class="panel-pane pane-block pane-block-28">
+            <div>
+<div class="section">
+<div class="sectionleft" style="font-size: 24px; padding: 8px; font-weight: bold;">SBIR</div>
+<div class="sectionright" style="font-size: 24px; font-weight: bold;">STTR</div>
+</div>
+<div class="sectionleftbody">
+<div class="sectionleftbodytxt"><img src="sites/all/themes/nasasbir/images/SBIR_image.png" alt="" width="410" /><p><strong>A U.S. small business with 500 or fewer employees is eligible to submit a proposal for funding.</strong> If you are an innovator and have not yet established a company, it’s never too early to start learning about the funding opportunities available to you.</p>
+</div>
+</div>
+<div class="sectionrightbody">
+<div class="sectionrightbodytxt"><img src="sites/all/themes/nasasbir/images/STTR_image.png" alt="" width="410" /><p><strong>The STTR program requires collaboration between the small business submitting a proposal and a research institution.</strong> Whether you are a small business or research institution, there are ways to find a partner if you don’t already have one.</p>
+</div>
+</div>
+<div class="section_learnmore">
+<div class="sectionleft_learnmore">
+<p><a href="content/nasa-sbirsttr-basics#sbir" rel=" noopener noreferrer" data-extlink="">Learn more</a></p>
+</div>
+<div class="sectionright_learnmore">
+<p><a href="content/nasa-sbirsttr-basics#sttr" rel=" noopener noreferrer" data-extlink="">Learn more</a></p>
+</div>
+</div>
+</div>
+    </div>
+<div class="panel-pane pane-block pane-block-29">
+            <div class="getinspiredsec">
+<div class="getinspired" style="font-size: 24px; font-weight: bold;">Get Inspired</div>
+<div class="getinspiredbody">Many have found success developing their technologies through SBIR and STTR, from those that enable our exploration of Mars, to rugged drones that collect Earth science data in extreme conditions, to air filters that eliminate household odors, and much more! Submitting a proposal is an investment towards a long and fruitful journey. Check out our success stories to get inspired!</div>
+<div class="getinspiredbox"><img src="/sites/all/themes/nasasbir/images//SuccessStories.png" alt="" width="240" /><br /><p style="margin-top: 2%;"><strong>Success Stories</strong></p>
+<p style="margin: 3%;">Read stories of some small businesses who have found success.</p>
+<div class="learnmoresmall"><a href="/success-stories">Learn More</a></div>
+</div>
+<div class="getinspiredbox"><img src="/sites/all/themes/nasasbir/images/Spinoff.png" alt="" width="240" /><br /><p style="margin-top: 2%;"><strong>Spinoff</strong></p>
+<p style="margin: 3%;">Check out SBIR/STTR-derived technologies that commercialized to benefit life on Earth.</p>
+<div class="learnmoresmall"><a href="https://spinoff.nasa.gov/small-business-spinoffs" target="_blank">Learn More</a></div>
+</div>
+<div class="getinspiredbox"><img src="/sites/all/themes/nasasbir/images/AdditionalSources.png" alt="" width="240" /><br /><p style="margin-top: 2%;"><strong>Additional Sources of Assistance</strong></p>
+<p style="margin: 4%;">You have a community of support. Check out some additional sources.</p>
+<div class="learnmoresmall"><a href="/content/additional-sources-assistance">Learn More</a></div>
+</div>
+</div>
+    </div>
+<div class="panel-pane pane-views pane-ioc-speakers-front-page-carousel">
+            <div class="view view-ioc-speakers-front-page-carousel view-id-ioc_speakers_front_page_carousel view-display-id-block_1 view-dom-id-98cfaaacbe8d37776918e5499afc16f3">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_ioc_speakers_front_page_carousel-block_1_1" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_ioc_speakers_front_page_carousel-block_1_1" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-first views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_0'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="ioc-carousel">
+<span class="ioc-carousel-title">Testimonials </span> <br><br>
+
+“SBIR and STTR awards are really how we got the company going and became the lifeblood of the company.”
+<br>
+<div class="ioc-carousel-referrer">–   Astrobotic, PA</div>
+</div></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_1'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="ioc-carousel">
+<span class="ioc-carousel-title">Testimonials </span> <br><br>
+
+“We now have maturity in the eyes of our industry partners… NASA gave us an initial push and now the industry is taking over.”
+<br>
+<div class="ioc-carousel-referrer">–   Research in Flight, AL</div>
+</div></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_2'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="ioc-carousel">
+<span class="ioc-carousel-title">Testimonials </span> <br><br>
+
+“Without the SBIR/STTR program this would have been a much more difficult road for us to travel.”
+<br>
+<div class="ioc-carousel-referrer">–   Parabilis Space Technologies, CA</div>
+</div></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_3'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="ioc-carousel">
+<span class="ioc-carousel-title">Testimonials </span> <br><br>
+
+“I was impressed with the opportunity for the small businesses to compete with the large aerospace companies. It really gives small business an entry.”
+<br>
+<div class="ioc-carousel-referrer">–   Iris Technology Corporation, CA</div>
+</div></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_4" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-last views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_4'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+  <div class="views-field views-field-body">        <div class="field-content"><div class="ioc-carousel">
+<span class="ioc-carousel-title">Testimonials </span> <br><br>
+
+“The technology that was funded under this NASA SBIR evolved into the product we sell today.”
+<br>
+<div class="ioc-carousel-referrer">–   Phoenix Integration Engineering Services, VA</div>
+</div></div>  </div></div>
+</div>
+</div>
+</div>
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="widget_pager_bottom_ioc_speakers_front_page_carousel-block_1_1" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first" aria-controls="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_0">
+  <div class="views-field-field-page-number">
+    <div class="views-content-field-page-number">
+    <a href='#slideshow-0'><img src="https://sbir.gsfc.nasa.gov/sites/default/files/styles/thumbnail/public/NASA_SBIR-STTR_Phase3_Customer_Guide_V2.pdf?itok=_XHOuA17" alt="" /></a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_1">
+  <div class="views-field-field-page-number">
+    <div class="views-content-field-page-number">
+    <a href='#slideshow-1'><img src="https://sbir.gsfc.nasa.gov/sites/default/files/styles/thumbnail/public/NASA_SBIR-STTR_Phase3_Customer_Guide_V2.pdf?itok=_XHOuA17" alt="" /></a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd" aria-controls="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_2">
+  <div class="views-field-field-page-number">
+    <div class="views-content-field-page-number">
+    <a href='#slideshow-2'><img src="https://sbir.gsfc.nasa.gov/sites/default/files/styles/thumbnail/public/NASA_SBIR-STTR_Phase3_Customer_Guide_V2.pdf?itok=_XHOuA17" alt="" /></a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_3">
+  <div class="views-field-field-page-number">
+    <div class="views-content-field-page-number">
+    <a href='#slideshow-3'><img src="https://sbir.gsfc.nasa.gov/sites/default/files/styles/thumbnail/public/NASA_SBIR-STTR_Phase3_Customer_Guide_V2.pdf?itok=_XHOuA17" alt="" /></a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_ioc_speakers_front_page_carousel-block_1_1_4" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-last" aria-controls="views_slideshow_cycle_div_ioc_speakers_front_page_carousel-block_1_1_4">
+  <div class="views-field-field-page-number">
+    <div class="views-content-field-page-number">
+    <a href='#slideshow-4'><img src="https://sbir.gsfc.nasa.gov/sites/default/files/styles/thumbnail/public/NASA_SBIR-STTR_Phase3_Customer_Guide_V2.pdf?itok=_XHOuA17" alt="" /></a>  </div>
+</div>
+</div>
+</div>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+<div class="panel-pane pane-block pane-block-30">
+            <div>
+<div class="joincom">
+<div class="joincta_text"><a href="/info" target="_blank">Join our community</a></div>
+<div><a href="/info" target="_&quot;blank&quot;"><br /><div class="joincta" style="margin-top: -6%;"></div>
+<p></p></a></div>
+</div>
+<div class="infobox">
+<div class="infoboxleft">
+<div style="font-size: 22px; font-weight: bold;">Space Technology<br /> Mission Directorate</div>
+<div class="stmd_left">
+            <a href="https://www.nasa.gov/directorates/spacetech/news_media/index.html" target="_blank">STMD News &amp; Media</a><br /><a href="https://www.nasa.gov/offices/oct/home/roadmaps/index.html" target="_blank">Space Technology Roadmap</a> <br /><a href="https://www.nasa.gov/offices/oct/home/index.html" target="_blank">Office of the Chief Technologist</a> <br /><a href="https://www.nasa.gov/about/business/index.html" target="_blank">Partnering with NASA</a> 
+<div id="connectwithnasa_div"><a href="http://www.facebook.com/NASATechnology" target="_blank"><img style="margin: 5px;" src="/sites/all/themes/nasasbir/images/Facebook_icon.png" alt="" width="31" height="31" /></a><br /><a href="http://twitter.com/NASA_Technology" target="_blank"><img style="margin: 5px;" src="/sites/all/themes/nasasbir/images/twitter_icon.png" alt="" width="31" height="31" /></a><br /><a href="https://www.youtube.com/c/NASA" target="_blank"><img style="margin: 5px;" src="/sites/all/themes/nasasbir/images/YouTube_icon.png" alt="" width="31" height="31" /></a><br /><a href="http://www.flickr.com/photos/nasahqphoto/" target="_blank"><img style="margin: 5px;" src="/sites/all/themes/nasasbir/images/flicker_icon.png" alt="" width="31" height="31" /></a></div>
+</div>
+</div>
+<div class="infoboxright">
+<div style="font-size: 22px; font-weight: bold;">Office of Inspector General</div>
+<p>         Report crime, fraud, waste, and mismanagement in <br /> NASA’s programs to the OIG</p>
+<div class="reportbutton"><a href="https://oig.nasa.gov/hotline.html" target="_blank">Report Fraud/Waste/Abuse</a></div>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+                    </div>
+    </div>
+
+    <div class="l-footer clearfix" role="contentinfo">
+          <div class="l-region l-region--footer">
+    <div id="block-block-2" class="block block--block block--block-2">
+        <div class="block__content">
+    <div class="publisherDetails clearfix"><div class="footerLogo"><img src="/sites/all/themes/nasasbir/images/nasa-logo.png" alt="nasa logo" /></div><div class="publisherInfo"><p class="curator">Curator: <span><a class="mailto" href="mailto:agency-sbir@mail.nasa.gov">Samidha Manu</a></span></p><p class="official">NASA Official: <span>Mr. Carlos Torrez</span></p><p class="update">Last Updated: <span>05-Sep-2023</span></p></div></div>
+<style>
+li#menu-1867-1 span{
+right:-0.9em !important;
+}
+li#menu-1867-1{
+margin-right: 0.5rem;
+}
+</style>  </div>
+</div>
+<div id="block-block-1" class="block block--block block--block-1">
+        <div class="block__content">
+    <!-- commented for new design
+<div class="miscLinks clearfix"><ul class="listOne"><li><a href="http://www.nasa.gov/recovery/index.html" target="_blank">NASA Information on the American Recovery and Reinvestment Act of 2009</a></li><li><a href="http://www.nasa.gov/news/budget/index.html" target="_blank">Budgets, Strategic Plans and Accountability Reports</a></li><li><a href="http://www.hq.nasa.gov/office/codee/nofear.html" target="_blank">Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a></li><li><a href="http://www.nasa.gov/about/contact/information_inventories_schedules.html" target="_blank">Information-Dissemination Policies and Inventories</a></li></ul><ul class="listTwo"><li><a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/" target="_blank">Freedom of Information Act</a></li><li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy &amp; Important Notices</a></li><li><a href="http://www.nasa.gov/offices/nac/home/index.html" target="_blank">NASA Advisory Council</a></li><li><a href="http://oiir.hq.nasa.gov/asap/index.html" target="_blank">Aerospace Safety Advisory Panel</a></li><li><a href="http://oig.nasa.gov/hotline.html" target="_blank">Inspector General Hotline</a></li><li><a href="http://oig.nasa.gov" target="_blank">Office of the Inspector General</a></li><li><a href="http://www.nasa.gov/audience/formedia/features/communication_policy.html" target="_blank">NASA Communications Policy</a></li></ul></div> -->
+
+<style type="text/css">
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.first-topic div.topicDesc ul,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.second-topic div.topicDesc ul,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.md-taxonomy div.whole-topic-content ul,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .expandable-content .view-topics .view-content ul li.first-topic div.whole-topic-content ul,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .expandable-content .view-topics .view-content ul li.second-topic div.whole-topic-content ul {  display: block; clear:both; float:none; list-style: disc; margin:0px auto; padding: 0px 0 0 25px;  }
+
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.first-topic div.topicDesc ul li,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.second-topic div.topicDesc ul li,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .txnmy-container .view-topics .view-content ul li.md-taxonomy div.whole-topic-content ul li,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .expandable-content .view-topics .view-content ul li.first-topic div.whole-topic-content ul li,
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .expandable-content .view-topics .view-content ul li.second-topic div.whole-topic-content ul li {  display: list-item; clear:both; float:none; list-style: disc; margin:0px auto; padding: 0px auto; padding-bottom: 8px; color:#434343 }
+body.page-solicit-detail .solicitationContentDetail .solicitation-main-content .expandable-content .view-topics .view-content ul li.first-topic div.topic .topicDesc p {
+    margin: 0 0 10px;
+}
+.l-nav ul.menu li a{
+font:13px/16px "Open Sans",sans-serif;
+}
+.publicationsImg img{height:auto;}
+</style>
+<script type="text/javascript">
+jQuery(function($){ // DOM is now read and ready to be manipulated
+$('.print-pdf img').attr('alt','');
+$('.print-pdf img').removeAttr('title');
+/*$('.solicitationContentDetail table').each(function(){
+var attr = $(this).attr('role');
+if (typeof attr == typeof undefined || attr == false) {
+ $(this).attr('role','presentation');
+}
+  });*/
+
+
+
+
+    //$(".left-md-anchor").attr("href", "#");
+$(".solicitation-left-navigation a.active").closest("li").find("a.left-md-anchor").attr("href", "#");
+
+$(".solicitation-left-navigation a.active").closest("li").closest("ul").closest("li").find("a").css("background-position", "7px -136px");
+//$(".solicitation-left-navigation a.active").closest("li").closest("ul").closest("li").find("li.collapsed > a").css("background-position", "7px -136px");
+$("#cboxPrevious").html('previous');
+$("#cboxNext").html('next');
+$("#cboxSlideshow").html('slideshow');
+});
+</script>  </div>
+</div>
+<nav id="block-menu-menu-footer" role="navigation" class="block block--menu block--menu-menu-footer">
+      
+  <ul class="menu"><li class="first leaf"><a href="http://www.nasa.gov/about/contact/index.html" title="Contact NASA Page">Contact NASA</a></li>
+<li class="leaf"><a href="https://www.usa.gov/business" title="Business USA web site">Business USA</a></li>
+<li class="leaf"><a href="http://www.usa.gov/" title="Link to USA.gov web site">USA.gov</a></li>
+<li class="leaf"><a href="http://www.nasa.gov/open/index.html" title="Link to Open Government at NASA page">Open Government at NASA</a></li>
+<li class="leaf"><a href="http://www.nasa.gov/help/about/index.html" title="Link to Help and Preferences page">Help and Preferences </a></li>
+<li class="leaf"><a href="http://www.adobe.com/products/reader.html" title="">Get Adobe Reader</a></li>
+<li class="last leaf"><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" title="">Privacy</a></li>
+</ul></nav>
+  </div>
+    </div>
+
+</div>
+  </body>
+</html>

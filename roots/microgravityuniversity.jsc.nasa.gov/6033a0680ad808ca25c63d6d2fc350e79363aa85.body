@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/agency.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microgravity University</title>
+    <script type="module" crossorigin src="/assets/index.8a24e603.js"></script>
+    <link rel="stylesheet" href="/assets/index.7ed18442.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <!--- Google Analytics Script Block, alternative method with VueGtag implemented --->
+    <!-- <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script> -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.min.js" type="module"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" type="module"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js" type="module"></script>
+    <!-- Page Last Updated: 7/27/2022 by Jeffery Rubio -->
+  </body>
+</html>

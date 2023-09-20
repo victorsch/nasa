@@ -1,0 +1,174 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" ng-app="app">
+<head>
+    <title>NASA ESMO Constellation Coordination System</title>
+    <meta name="description" content="CCS is designed to be a web-based portal for the collaboration, data sharing, and operational planning of the Earth Science Mission Operations (ESMO) and Earth Observing System (EOS) missions. It provides a means to track the operations health of the constellations as well as share mission products and perform specific orbital analyses all online." />
+    <meta name="orgcode" content="595" />
+    <meta name="rno" content="michael.j.machado" />
+    <meta name="content-owner" content="matthew.petusky" />
+    <meta name="webmaster" content="ccs-support@lists.hq.nasa.gov" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="Stylesheet" href="/Scripts/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="/Scripts/Styles/chosen.css" rel="stylesheet" type="text/css"/>
+    <link id="layoutStyleheet" href="/layout.css?cacheBuster=20230919" rel="stylesheet" type="text/css"></link>
+    <link id="consolidatedStyleheet" href="/app/dist/consolidated.css?cacheBuster=20230919" rel="stylesheet" type="text/css"></link>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    
+        
+    <script type="text/javascript" src="/scripts/lazy-0.4.0.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-3.5.1.min.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.3.1.js"></script>-->
+    <script type="text/javascript" src="/scripts/jquery-ui-1.12.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/d3-context-menu.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/d3-tip.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/d3-geo.min.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/d3-labeler.js"></script>
+    <script type="text/javascript" src="/Scripts/d3/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/queue.v1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/three.js"></script>
+    <script type="text/javascript" src="/Scripts/TrackballControls.js"></script>
+    <script type="text/javascript" src="/Scripts/dat.gui.js"></script>
+    <script type="text/javascript" src="/Scripts/dat.color.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.tabSlideOut.v1.3.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.signalR-2.4.1.min.js"></script>
+    <script type="text/javascript" src="/signalr/hubs"></script>
+    <script type="text/javascript" src="/scripts/timepicker.js"></script>
+    <script type="text/javascript" src="/scripts/sprintf-0.7-beta1.js"></script>
+    <script type="text/javascript" src="/scripts/ExitNotice.js"></script>
+    <script type="text/javascript" src="/scripts/GMTClock.js"></script>
+    <script type="text/javascript" src="/scripts/Popup.js"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js"></script>
+    <script type="text/javascript" src="/Scripts/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/modernizr.custom.45250.js"></script>
+    <script type="text/javascript" src="/Scripts/async.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jszip.min.js"></script>
+    <script type="text/javascript" src="/Scripts/FileSaver.min.js"></script>
+    <script type="text/javascript" src="/Scripts/thenBy.js"></script>
+    
+    <script type="text/javascript" src="/scripts/saveSvgAsPngNoStyles.js"></script>
+
+    <script type="text/javascript" src="/scripts/Angular/1.8.0/angular.min.js"></script>
+    <script type="text/javascript" src="/scripts/Angular/1.8.0/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/Angular/1.8.0/angular-animate.min.js"></script>
+    <script type="text/javascript" src='/scripts/Angular/1.8.0/angular-sanitize.min.js'></script>
+
+    <script type="text/javascript" src="/scripts/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/Angular/ui-bootstrap-tpls-2.5.0.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/canvg.js"></script>
+    <script type="text/javascript" src="/scripts/sortable.js"></script>
+    <script type="text/javascript" src="/scripts/megaMenu.js"></script>
+    <script type="text/javascript" src="/Scripts/util.js?cacheBuster=20230919"></script>
+    
+    <script type="text/javascript" src='/scripts/scrollTo.js'></script>
+
+    <script type="text/javascript" src='/scripts/angularFileTree.js'></script>
+    <link rel='stylesheet' href='/scripts/angularFileTree.css' />
+    <script type="text/javascript" src='/scripts/ngFileUpload/FileAPI.js'></script>
+    <script type="text/javascript" src='/scripts/ngFileUpload/ng-file-upload.js'></script>
+    <script type="text/javascript" src='/scripts/angular-ui-tree.js'></script>
+    <link rel='stylesheet' href='/scripts/angular-ui-tree.css' />
+    <script type="text/javascript" src='/scripts/treeControl/treeControl.js'></script>
+    <link rel='stylesheet' href='/scripts/treeControl/treeControl.css' />
+    <link rel='stylesheet' href='/scripts/treeControl/treeControlAttribute.css' />
+    <link rel='stylesheet' href='/scripts/styles/yamm.css' />
+
+    <link rel='stylesheet prefetch' href='/scripts/font-awesome-4.3.0/css/font-awesome.min.css' />
+    <script type="text/javascript" src="/app/dist/consolidated.js?cacheBuster=20230919"></script>
+    <script type="text/javascript" src="/app/dist/consolidatedPagePartials.js?cacheBuster=20230919"></script>
+    <script type="text/javascript" src="/app/dist/consolidatedComponentPartials.js?cacheBuster=20230919"></script>
+    <script type="text/javascript" src="/scripts/spinner.js"></script>
+    <script type="text/javascript" src="/scripts/xml2json.js"></script>
+    <script type="text/javascript" src="/scripts/infiniteScroll.js"></script>
+
+    <script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&dclink=true"></script>
+    
+</head>
+<body id="page3" onload="renderclock(); setInterval('renderclock()', 1000 )">
+    <ccs-modal-spinner></ccs-modal-spinner>
+    <ccs-popins></ccs-popins>
+    <form method="post" action="./" id="form1" novalidate="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="kta1+RHTqDO6QATC/QsaSMUV33UwCkr5INrC6JOhjlghVIr/DFq9CjHx9U0QDhQWOKXlrlIPjZg1/krzPtvMXZxaHlS3GFXSqUlXgFGc2/VB6dvqO4bI+72qfan2vsBB4/Isx3RMK1Z//hMbvRdruX+m7x3ITZNa3scbayzl1Xq8eNie5gigEd/uGa54I5r5ovsllZPtFXynyREjjGofNNSU23auLBwzJh+M0VGzwlFLkOuNij8Mu1stqsXJJFG6" />
+
+
+<script src="/ScriptResource.axd?d=QlfWVylsLHxKvPc9LHaoBa4uk1FC4-sOHjTpkcNSae_DjPhJkIRq744706TrqjGW7ZfzGzetjGoZTRMYIGMxHw5oYHu4PM9PxW6w9db3nEYcpQ6xhUtqh-HpBp45SzAD0&amp;t=f2cd5c5" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+        <!-- header -->
+        <div id="topHeader" class="col-xs-12" >
+
+            <div class="row">
+                <a href="http://www.nasa.gov" id="nasaLogoLink" class="col-xs-1">
+                    <img src="/images/NASA_logo.png" id="nasaLogo" />
+                </a>
+            </div>
+            
+            <div class="row" >
+                <div class="bannerBox">
+                        <h2 id = "ccsBannerText">Constellation Coordination System (CCS)</h2>
+                </div>
+
+                <div class="clockDiv" style="color:white;" id="utc-clock">
+                    <div id="clock" class="pull-right"></div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Main -->
+        <div class="container" id="centralDiv">
+            
+            <!-- content -->
+            <div class="row" id="content">
+                <div id="menu">
+                    <ul id="site-nav" role="navigation">
+                        
+                            <ccs-menu />
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-12" id="mainContent">
+                        <h1 style="display:none;">
+                            
+                                Page Title
+                            
+                        </h1>
+                        <ccs-page-title></ccs-page-title>
+                            <div id="wrapper" class="wrapper">
+                            <div ng-view></div>
+                        </div>
+                </div>
+            </div>
+        
+            <!-- footer -->
+            <hr />
+            <div id="footer">
+                <div id="nasaOfficials" class="ccsClear pull-left">
+                    <div  class="pull-left col-xs-9" style="margin-top: 8px;">
+                        <div id="meatball" class="pull-left">
+                            <a href="http:\\www.nasa.gov"><img src="images/NASA_logo_flat.png"></a>
+                        </div>
+                        <div class="pull-left">
+                            <div class="boldFooterText-CCS">
+                               Constellation Coordination System &copy; 2023
+                            </div>
+
+                            <p class="pull-left ccsClear" style="margin: 5px 0;"><strong>NASA Official:</strong> <a href="mailto:michael.j.machado@nasa.gov">Michael Machado</a></p>
+                            <p class="pull-left ccsClear"><strong>Site Curator:</strong> <a href="mailto:matthew.petusky@ai-solutions.com">Matthew Petusky</a></p>
+                        </div>
+                    </div>
+
+                    <div id="privacyLink" class="pull-right col-xs-3" style="margin: 8px 0 0 0;">
+                        <p class="footerRightText"><strong>Version: 2022.2</strong></p>
+                        <p class="footerRightText"><a href="/#/AboutUs/ContactUs">Contact CCS</a></p>
+                        <p class="footerRightText"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy <i class="fa fa-external-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

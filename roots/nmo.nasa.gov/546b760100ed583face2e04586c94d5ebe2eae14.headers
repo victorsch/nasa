@@ -1,0 +1,13 @@
+GET https://nmo.nasa.gov
+
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: LambdaGeneratedResponse from cloudfront
+< X-Amz-Cf-Id: XFUD7dxUBTfNdb7WMHo2MPC7P9ZJTQOO_h8yuxKHgLOQxx4I7KWzTg==
+< Content-Length: 0
+< Server: CloudFront
+< Date: Tue, 19 Sep 2023 06:00:56 GMT
+< Location: https://nasa.sharepoint.com/sites/nojmo/
+< Via: 1.1 f5386598f013dd093e17be33d361f408.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: JFK52-P4

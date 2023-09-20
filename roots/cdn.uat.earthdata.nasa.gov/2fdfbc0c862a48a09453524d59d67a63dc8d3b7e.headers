@@ -1,0 +1,13 @@
+GET https://cdn.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Last-Modified: Thu, 25 Aug 2016 15:37:14 GMT
+< Content-Type: text/html
+< Set-Cookie: f5_cspm=1234;
+< Date: Tue, 19 Sep 2023 05:42:18 GMT
+< Accept-Ranges: bytes
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET
+< Strict-Transport-Security: max-age=31536000

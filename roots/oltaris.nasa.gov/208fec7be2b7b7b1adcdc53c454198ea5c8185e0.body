@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en">
+<head>
+  <title>OLTARIS Home Page</title>
+  <link rel="stylesheet" href="/assets/signin_page-fb3487548e19d9d985d68c3123b5cf8d161a2195a0091d74603636cb37211ccc.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="BS0I6n5lYDuIPjqCSj5nY75P82wmQh-KndvywG1gQTl1Z2LMGZGi2p9VDgh4va3TmloLtBM5-nKR2x_4Rq5m7w" />
+
+</head>
+<body style="color:#000;background:#ffffff;text-align: center;">
+<!-- Top of Page contains banner graphics, and input for name & login -->
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="margin-left: auto;margin-right: auto;">
+  <tr>
+    <td >
+      <img alt="Crew Exploration Vehicle in flight over moon (upper left quadrant of image" src="/assets/upper_left_5-2fee93a3fac37a0c9ed7c36c34675d9ded7caaa2bad100e2db02b27e3eef002e.jpg" />
+    </td>
+    <td >
+      <img alt="Crew Exploration Vehicle in flight over moon (upper right quadrant of image" src="/assets/upper_right_5-df440c2e84e9825563abdcdc38008744f60503f0854baee6628b88b5c2910303.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 310px">
+        <br><br><br>
+
+
+<form class="simple_form form-horizontal" id="new_user" novalidate="novalidate" action="/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pIWFeCIpfEZFINI6zulz_VQrBV2HHzuAUh4M5kGugJrkZJwYnZMBXlKL-wE-84BBlYM7w-x7BzIChzaiU7sxPw" autocomplete="off" />
+
+    <div class="form-group string optional user_username"><label class="string optional" for="user_username">User Name</label><input class="form-control string optional" style="width:160px" autofocus="autofocus" type="text" name="user[username]" id="user_username" /></div>
+    <div class="form-group password optional user_password"><label class="password optional" for="user_password">Password</label><input class="form-control password optional" style="width:160px" autocomplete="off" type="password" name="user[password]" id="user_password" /></div>
+
+    <input type="submit" name="commit" value="Sign in" class="btn" data-disable-with="Sign in" />
+</form>
+    </td>
+    <td>
+      <img src="/assets/lower_right_5-97559e46bfca3908918973852485feb9f6a09aeadf4c4542c2136afcf57aeb34.jpg" />
+    </td>
+  </tr>
+</table>
+<!-- End Top of Page-->
+
+<!-- Links for registraton, changing/retrieval of password, accessing documentation  -->
+<br>
+
+<div style="width:732px;margin-left: auto;margin-right: auto;margin-bottom:10px;margin-top:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;">
+
+  <div style="float: left;">
+    <a class="linky" href="/sign_up">Sign up</a>    &nbsp;|
+    <a class="linky" href="/request_username">Forgot your user name?</a>  &nbsp;|
+    <a class="linky" href="/password/new">Forgot your password?</a>   <br>
+  </div>
+  <div style="float: right; width:200px;">
+    <a class="linky" href="/links">Documentation and Links</a>   &nbsp;
+  </div>
+</div>
+
+<div style="width:820px;margin-left: auto;margin-right: auto;margin-bottom:10px;margin-top:0px;">
+
+  <!-- Welcome to OLTARIS  -->
+  <p style="clear:both;margin-left:0px">
+    <br/>
+    <span style="font-weight:bold;font-size:130%">Welcome to OLTARIS</span>,
+    the <span style="font-weight:bold;font-size:130%">O</span>n-
+    <span style="font-weight:bold;font-size:130%">L</span>ine
+    <span style="font-weight:bold;font-size:130%">T</span>ool for the
+    <span style="font-weight:bold;font-size:130%">A</span>ssessment of
+    <span style="font-weight:bold;font-size:130%">R</span>adiation in
+    <span style="font-weight:bold;font-size:130%">S</span>pace.
+    OLTARIS is an integrated tool set utilizing HZETRN (High Charge and Energy Transport).
+    These tools are intended to help scientists and engineers study the effects of space
+    radiation on shielding materials, electronics, and biological systems.
+    This site is intended for users knowledgeable about space radiation and shielding concepts.
+    A users guide and some reference documentation can be found under the <em> Documentation 
+    and Links</em> page linked above.
+  </p>
+
+
+  <!-- New Features  -->
+  <h2>Newest Features</h2>
+  <ul>
+
+    <li>
+      HZETRN has been updated such that charged muons and pions are fully coupled to neutron and light ion transport.
+    </li>
+    <li>
+      HZETRN3D is now used for slab/sphere geometry analysis, surface environment generation, and as an option
+      for thickness distributions.
+    </li>
+  </ul>
+
+  <!-- Registration  -->
+
+  <h2>Registration</h2>
+
+  <p>
+    There are no charges associated with the use of OLTARIS, but users
+    must register and get approval from the site administrators
+    before accessing the site contents. New users should click
+    the <i>Sign up</i> link above and complete the
+    <i>OLTARIS Sign Up</i> page. After registration is complete,
+    one of the site administrators will activate your account when approved,
+    and confirmation will be sent to the supplied email address.
+  </p>
+
+  <!-- System Requirements  -->
+  <h2>System Requirements</h2>
+
+  <p>
+    OLTARIS requires a standard browser with
+    JavaScript.
+  </p>
+
+  <!-- Current Capabilities -->
+  <h2>Current Capabilities</h2>
+
+  <p>
+    This is an evolving tool set; new capabilities can and will be added.
+    Please contact the <a href="mailto:c.a.sandridge@nasa.gov">site administrator</a>
+    with comments and suggestions.
+  </p>
+
+<ul>
+  <h3>User Selected Environment(s)</h3>
+
+  <ul>
+
+    <li> Free Space Galactic Cosmic Ray (GCR)
+      <ul>
+        <li> Badhwar-O'Neill 2010, 2014, and 2020; Matthia 2013; SINP 2016 </li>
+        <li> Select historical solar minimum or maximum and input duration</li>
+        <li> Input start and end dates</li>
+        <li> Input fitting parameter</li>
+      </ul>
+
+    <li>Free Space Solar Particle Event (SPE)
+      <ul>
+        <li> Select historical spectra</li>
+        <li> Input parameters for a specific fitting function</li>
+      </ul>
+    </li>
+
+    <li>Earth Orbit
+      <ul>
+        <li> Circular orbit by start/end data, altitude, inclination</li>
+        <li> AP8 and AP9 trapped models</li>
+        <li> Upload user-defined trajectory</li>
+      </ul>
+    </li>
+
+    <li> Mars Surface Environment
+      <ul>
+        <li> Mars-GRAM or Mars Climate Database (MCD) atmosphere models </li>
+        <li> Albedo included via 3D transport of near-surface environment</li>
+      </ul>
+
+    <li> Lunar surface with albedo</li>
+
+  </ul>
+
+  <h3>User Defined Geometry</h3>
+  <ul>
+    <li>Upload thickness distribution(s)
+      <ul>
+        <li>Interpolation-based analysis limited to three user-defined materials/layers</li>
+        <li>3D analysis available for up to 5000 user-defined materials/layers</li>
+      </ul>
+    </li>
+    <li>
+      Slabs and spheres can be defined with any number of materials/layers in any order
+    </li>
+  </ul>
+
+  <h3>User Defined Materials</h3>
+  Materials can be defined by:
+  <ul>
+    <li>
+      Chemical Formula
+    </li>
+    <li>
+      Elemental Mass Percentage
+    </li>
+    <li>
+      Molecular Mass Percentage
+    </li>
+  </ul>
+  <h3>User Selected Response Function(s)</h3>
+  <ul>
+    <li>
+      Differential Flux / Fluence
+    </li>
+    <li>
+      Dose in tissue or silicon
+    </li>
+    <li>
+      Dose Equivalent (ICRP60 or NASA Q)
+    </li>
+    <li>
+      Whole-Body Effective Dose Equivalent CAM, CAF, MAX, and FAX (NCRP-132 or NASA tissue weights)
+    </li>
+    <li>
+      Gray Equivalent
+    </li>
+    <li>
+      Risk of Exposure Induced Death (REID), Risk of Exposure Induced Cancer (REIC)
+    </li>
+    <li>
+      LET (Linear Energy Transfer) in tissue or silicon
+    </li>
+  </ul>
+ </ul>
+
+  <h2>Known Issues</h2>
+
+  <p>
+    The OLTARIS development team is always in
+    the process of making improvements and additions to the site.
+    If you encounter an issue you feel is a bug in the product, please let us know about it.
+    You can use the links which are posted at the top of each page or those here:
+    <a class="linky" href="mailto:c.a.sandridge@nasa.gov?subject=OLTARIS Bug Report">Report a Bug</a> /
+    <a class="linky" href="mailto:c.a.sandridge@nasa.gov?subject=OLTARIS User Feedback">Send a Comment</a>
+    for reporting bugs and submitting comments.
+    The OLTARIS development team appreciates your feedback!
+  </p>
+
+
+  <p>
+    Here is a list of known issues:
+  </p>
+  <ol>
+    <li>
+      Help documents and user guides may not be up to date. If it doesn't agree with what's on the page,
+      it probably just needs to be updated. Please let us know.
+    </li>
+  </ol>
+</div>
+
+    <div id="nasafoot" style="margin-left: auto;margin-right: auto;">
+
+
+      <a href="http://www.firstgov.gov/" target="_blank"><img width="128" height="48" alt="First Gov . gov" src="/assets/nasa_foot_logo1-f891c54bd5c3a5edac996bb8e3a6a84d627addb754730b1a4089f6fe13d503d3.gif" /></a>
+
+      <div id="nasafootplus">
+        <ul>
+          <li>
+            + <a href="http://www.hq.nasa.gov/office/pao/FOIA/" target="_blank" class="footerLnk">Freedom of Information
+            Act</a>
+          </li>
+          <li>
+            + <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">NASA Privacy Statement,
+            Disclaimer, and Accessibility Certification</a>
+          </li>
+        </ul>
+        <!-- end nasa foot plus-->
+      </div>
+      <a href="http://www.nasa.gov/" target="_blank"><img id="nasafootr" width="51" height="48" alt="NASA Logo - nasa.gov" src="/assets/nasa_foot_nasa1-b2ac22287cc9506252a27dc5e80fcd08fef41be05c092b409bc8c663eed96727.gif" /></a>
+      <div id="nasafootlinks">
+
+        <ul>
+          <li>
+            <a href="mailto:c.a.sandridge@nasa.gov">NASA Official:  Chris Sandridge</a>
+          </li>
+          <li>
+            <a href="mailto:Jan.L.Spangler@nasa.gov">Website Manager:  Jan Spangler</a>
+          </li>
+          <li>
+            OLTARIS Last Modified on 07/12/2023
+          </li>
+        </ul>
+        <!-- end nasa foot links-->
+      </div>
+
+      <!-- end nasa foot -->
+    </div>
+
+</div>
+</body>
+</html>

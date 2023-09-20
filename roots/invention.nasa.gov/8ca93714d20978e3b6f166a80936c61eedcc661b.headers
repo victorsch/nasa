@@ -1,0 +1,17 @@
+GET https://invention.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: JFK52-P1
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000; includeSubdomains
+< Set-Cookie: AWSALB=K7lkpFxgVbMPhpawpGb73yK02W/w5mlQ2QsYv8oJ5BSwYG2Y++PMHSpoMQKSTi/YrLgpCO2nq2UWaYFmLbXcGvq6GqdpsrB13XWBxBHdFkR7ueo/2ntnmEBROi9l; Expires=Tue, 26 Sep 2023 06:05:05 GMT; Path=/
+< Set-Cookie: AWSALBCORS=K7lkpFxgVbMPhpawpGb73yK02W/w5mlQ2QsYv8oJ5BSwYG2Y++PMHSpoMQKSTi/YrLgpCO2nq2UWaYFmLbXcGvq6GqdpsrB13XWBxBHdFkR7ueo/2ntnmEBROi9l; Expires=Tue, 26 Sep 2023 06:05:05 GMT; Path=/; SameSite=None; Secure
+< Date: Tue, 19 Sep 2023 06:05:06 GMT
+< Access-Control-Allow-Origin: https://invention.nasa.gov
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html; charset=UTF-8
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 6c1e463b1907685097cce9e63f1cf75a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: dySayoLXcEOzQudEnHWcwmR5qPVx_V7jeTUhv9wFsrM2796PYfVKNQ==

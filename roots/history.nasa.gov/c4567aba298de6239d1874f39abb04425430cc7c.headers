@@ -1,0 +1,17 @@
+GET http://history.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://history.nasa.gov/
+< X-Xss-Protection: 1; mode=block
+< Server: CloudFront
+< Content-Type: text/html
+< Content-Length: 167
+< X-Cache: Redirect from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< Date: Tue, 19 Sep 2023 05:44:13 GMT
+< Via: 1.1 e329cb97e195e238d2d961aa95a36a4a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: PHL50-C1
+< X-Amz-Cf-Id: VFwaUxrNn3xowBg71IkknMi5qsY68rsOMz4Gp3W82ycEU7EEgF2ilw==
+< Referrer-Policy: strict-origin-when-cross-origin
+< X-Content-Type-Options: nosniff

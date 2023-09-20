@@ -1,0 +1,16 @@
+GET http://monitoring.cloud.earthdata.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 05:40:52 GMT
+< Content-Type: text/html
+< Location: https://monitoring.cloud.earthdata.nasa.gov/
+< Via: 1.1 64142199656297b56ef863f9ccc0c102.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR50-C1
+< X-Cache: Redirect from cloudfront
+< X-Frame-Options: SAMEORIGIN
+< Server: CloudFront
+< Content-Length: 167
+< X-Amz-Cf-Id: Aq9UdkhEZdkw42lpSyH3vKecqQS2E6styXcns29Jb0AbdQ2H0gZyeg==
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff

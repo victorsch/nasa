@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NASA Jet Propulsion Laboratory California Institute of Technology</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+
+<!-- Meta Header Information -->
+<meta name="keywords" content="mercury, venus, moon, earth, mars, saturn, uranus, neptune, pluto, solar system, universe, rover, rovers, cassini, mars phoenix, mars reconnaissance orbiter, mars odyssey, 
+cloudsat, dawn mission, epoxi, galaxy evolution explorer, galex, jason 2, quikscat, quick scatterometer, spitzer space telescope, stardust mission, voyager mission, robot, robotics, spacecraft, deep space, 
+probe, deep space exploration, extrasolar, Jet Propulsion Laboratory, JPL, NASA, National Aeronautics and Space Administration, Caltech, California Institute of Technology, www.jpl.nasa.gov" />
+<meta name="description" content="The Jet Propulsion Laboratory is the lead U.S. center for robotic exploration of the solar system, and conducts major programs in space-based 
+Earth sciences and astronomy. JPL spacecraft have visited all of the planets from Mercury to Neptune." />
+<meta name="author" content="JPL.NASA.GOV" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- End Meta Information -->
+
+<!-- Inline CSS Styles, Add/Edit these styles to override external CSS file -->
+<style type="text/css">
+#cssdriveid{
+width: 500px;
+padding: 10px;
+}
+<!--This style changes the font size where the main content goes, increase .8em to make font larger or decrease to make it smaller-->
+#inner_body_content {
+font-size:.8em;
+}
+</style>
+<!-- End Internal CSS Styles -->
+</head>
+
+<body>
+<!-- Top Navigation Banner, Do Not Modify -->
+<div id="wrapper_top">
+	<div id="top">
+ 		<div id="nav_tier_0">
+          <a href="http://www.nasa.gov/" id="nasa" title="NASA"><i>NASA</i></a>
+          <a href="http://www.jpl.nasa.gov" id="jplhome0" title="JPL Home Page"><i>JPL Home</i></a>
+          <a href="http://www.caltech.edu/" id="caltech" title="California Institute of Technology"><i>California Institute of Technology</i></a><a href="#bruno"><img src="images/spacer.gif" alt="Follow this link to skip to the main content" width="1" height="1" align="left" class="i" /></a></div>
+        <div id="nav_tier_1">
+    		<ul id="tier_1">
+                <li class="" id="jplhome" title="jplhome"><a href="http://www.jpl.nasa.gov/index.cfm" title="JPL Home">JPL Home</a></li>
+  				<li class="" id="earth"><a href="http://www.jpl.nasa.gov/earth/index.cfm" title="Earth">Earth</a></li>
+  				<li class="" id="solarsystem"><a href="http://www.jpl.nasa.gov/solar-system/index.cfm" title="Solar System">Solar System</a></li>
+  				<li class="" id="starsgalaxies"><a href="http://www.jpl.nasa.gov/stars-galaxies/index.cfm" title="Stars &amp; Galaxies">Stars &amp; Galaxies</a></li>
+  				<li class="" id="scitech"><a href="http://scienceandtechnology.jpl.nasa.gov/" title="Science &amp; Tech">Science &amp; Tech</a></li>
+		  </ul>
+  		</div>
+		<div id="nav_tier_2">
+    		<ul id="tier_2">
+   		 		<li><table cellspacing="0" cellpadding="0" border="0" summary="Bring the Universe to You">
+        <tr>
+        <td><img src="http://www.jpl.nasa.gov/images/jpl/home/tnav3.jpg" alt="Bring the Universe to You" title="Bring the Universe to You" /></td><td>&nbsp;</td><td><a href="http://www.jpl.nasa.gov/email/signup.cfm" onClick="internalexit(this,'Bring Universe To You:email');s_objectID='header_email';"><img src="http://www.jpl.nasa.gov/images/jpl/home/email_small_ico.gif" alt="JPL Email News" title="JPL Email News" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://www.facebook.com/NASAJPL" onClick="internalexit(this,'Bring Universe To You:facebook');s_objectID='header_facebook';"><img src="http://www.jpl.nasa.gov/images/jpl/home/facebook_ico.gif" alt="JPL on Facebook" title="JPL on Facebook" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://twitter.com/NASAJPL" onClick="internalexit(this,'Bring Universe To You:twitter');s_objectID='header_twitter';"><img src="http://www.jpl.nasa.gov/images/jpl/home/twitter_ico.gif" alt="JPL on Twitter" title="JPL on Twitter" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://www.youtube.com/user/JPLnews" onClick="internalexit(this,'Bring Universe To You:youtube');s_objectID='header_youtube';"><img src="http://www.jpl.nasa.gov/images/jpl/home/youtube_ico.gif" alt="JPL on YouTube" title="JPL on YouTube" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://www.flickr.com/photos/nasa-jpl" onClick="internalexit(this,'Bring Universe To You:flickr');s_objectID='header_flickr';"><img src="http://www.jpl.nasa.gov/images/jpl/home/flickr_ico.gif" alt="JPL on Flickr" title="JPL on Flickr" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://itunes.apple.com/podcast/hd-nasas-jet-propulsion-laboratory/id262254981" onClick="internalexit(this,'Bring Universe To You:itunes');s_objectID='header_itunes';"><img src="http://www.jpl.nasa.gov/images/jpl/home/itunes_ico.gif" alt="JPL on iTunes" title="JPL on iTunes" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://www.ustream.tv/nasajpl2" onClick="internalexit(this,'Bring Universe To You:ustream');s_objectID='header_ustream';"><img src="http://www.jpl.nasa.gov/images/jpl/home/ustream_ico.gif" alt="Live Streaming Video" title="Live Streaming Video" /></a></td><td>&nbsp;&nbsp;</td><td><a href="http://www.jpl.nasa.gov/rss/index.cfm" onClick="internalexit(this,'Bring Universe To You:rss');s_objectID='header_rss';"><img src="http://www.jpl.nasa.gov/images/jpl/home/rss_ico.gif" alt="RSS" title="RSS" /></a></td><td>&nbsp;</td><td><a href="http://blogs.jpl.nasa.gov/" onClick="internalexit(this,'Bring Universe To You:blog');s_objectID='header_blog';"><img src="http://www.jpl.nasa.gov/images/jpl/home/blog_ico.gif" alt="JPL Blog" title="JPL Blog" /></a></td><td>&nbsp;</td><td><a href="http://www.jpl.nasa.gov/onthego/" onClick="internalexit(this,'Bring Universe To You:mobile');s_objectID='header_mobile';"><img src="http://www.jpl.nasa.gov/images/jpl/home/mobile_ico.gif" alt="JPL Mobile" title="JPL Mobile" /></a></td>
+        </tr>
+        </table></li>
+    		</ul>
+    	</div>
+	</div> 
+	<div id="nav_tier_3">
+  		<ul id="tier_3">
+        <!-- Do not modify the id variables, only modify: a href, title, and the text for your link-->
+    		<li class="" id="home"><a href="index.html" title="Home">Home</a></li>
+	  		<li class="" id="theory"><a href="theory/theory.html" title="Theory">Theory</a></li>
+	  		<li class="" id="history"><a href="history.html" title="History">History</a></li>
+ 			<li class="" id="structure"><a href="structure.html" title="Structure">Structure</a></li>
+	  		<li class="" id="tutor"><a href="tutor_base.html" title="Tutor">Tutor</a></li>
+	  		<li class="" id="products"><a href="products.html" title="Products">Products</a></li>
+	  		<li class="" id="userforum"><a href="https://sites.google.com/site/qocaforum" title="User forum">User forum</a></li>
+	  		<li class="" id="news"><a href="news.html" title="News">News</a></li>
+	  		<li class="" id="links"><a href="links.html" title="Links">Links</a></li>
+	  		<li class="" id="gallery"><a href="gallery.html" title="Gallery">Gallery</a></li>
+	  		<li class="" id="license"><a href="license.html" title="License">License</a></li>
+		</ul>
+	</div>
+    <div><a name="bruno"></a></div>
+
+</div>
+<!-- End Top Navigation Banner -->
+
+
+<div id="wrapper_middle_2">
+	<div id="middle_2_border">
+
+<!--*Note: This page uses the following font format throughout the body using the external CSS stylesheet(included): 
+font-family: Helvetica, Arial, Verdana, sans-serif; color: #4b5c68;-->
+
+       <div id="inner_body_content">
+<!-- Add Main Content Below Here -->
+
+<!-- ########################################################### -->
+<HTML>
+<HEAD>
+<title>QOCA home page</title>
+<meta http-equiv="Content-Type"
+  content="text/html; charset=iso-8859-1">
+<meta name="Author" content="Danan Dong">
+<meta name="description"
+     content="QOCA (Quasi-Observation Combination Analysis) is a software to combine
+  various geodetic data to get tectonic information. It is developed at Jet Propulsion
+  Laboratory and is free for non-commercial use."> 
+<meta name="keywords" 
+     content="space geodesy,Kalman filter,GPS,quasi-observation,online manual,software">
+<meta http-equiv='Page-Exit' content='revealTrans(Duration=3.0,Transition=24)'>
+<script language="Javascript">
+  var lines = 0;
+  fil1 = "gipsy.html";
+  function show_html(fil1) {
+    VWIN = window.open(fil1,"VWIN",
+      "status=no,toolbar=no,menu=no,width=500,height=350");
+  }
+</script>
+</HEAD>
+<BODY ALINK="#ff6622" BGCOLOR="#f4FdFd" LINK="#0000FF" TEXT="#000000" 
+  VLINK="#800080" border=0>
+<LINK href="qocalist.css" rel=stylesheet>
+<blockquote> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align=left>
+<IMG src="giflib/earthrot.gif" height="80" border=0
+  alt="It is cool!"></td>
+<td>
+<img src="giflib/qoca_1.gif" width="200" 
+height="55" border="0" alt="Welcome to QOCA!"></td>
+</tr>
+</table>
+<p align=center>
+<IMG SRC="giflib/colorbar.gif" border=0 alt=" "></p>
+<P ALIGN=left>
+<font size=4 color=#4422bb><b>What is QOCA?</b></font><br>
+<!--
+<blockquote> <font size=4 color=#4422bb><b>What is QOCA?</b></font><br>
+-->
+   <b> QOCA (Quasi-Observation Combination Analysis) is a software package
+   that combines various loosely constrained geodetic site coordinate and
+   velocity solutions (as quasi
+   observations) to obtain crustal deformation information. QOCA is free for
+   any non-commercial user. To respect the support of JPL and QOCA developer,
+   please give the appropriate credit in your research work. </p>
+<p> QOCA is used as the post-processing software package by many geodetic 
+   data analysis groups. Currently it can combine space-geodetic 
+   quasi-observations (GPS, VLBI, SLR, ... etc.) and terrestrial geodetic
+   survey quasi-observations (EDM, triangulation, leveling, ... etc.).  It
+   has the potential to combine SAR data and gravity, seismicity,
+   and ground motion data. </p>
+<p> QOCA was designed and developed at 
+   <a href="jpl_tour.html">Jet Propulsion Laboratory</a>, 
+   California Institute of
+   Technology.  California Institute of Technology holds all the copyrights 
+   and Caltech licenses the users.
+</B></font> </p>
+<hr color=red>
+<UL> <font size=4 color=#4422bb><b>What is cool?</b></font>
+<LI> QOCA accepts various formats from 
+     <a href="#" onclick="fil1='gipsy.html';show_html(fil1);">GIPSY</a>,
+     <a href="#" onclick="fil1='gamit.html';show_html(fil1);">GAMIT</a>,
+     <a href="#" onclick="fil1='fonda.html';show_html(fil1);">FONDA</a>,
+     <a href="#" onclick="fil1='globk.html';show_html(fil1);">GLOBK</a>,
+     <a href="#" onclick="fil1='bernese.html';show_html(fil1);">BERNESE</a>
+     programs. It also accepts
+     SINEX and Blue Book formats.
+<LI> QOCA solves for site positions, velocities, network parameters, and the coseismic
+     and postseismic deformation parameters simultaneously. There is no need for
+     other procedures. By-products, such as strain rates and gamma rates, are also
+     obtained simultaneously.
+<LI> QOCA has the ability to detect outliers hidden in the quasi-observations.
+<LI> QOCA can directly deal with the noisy time series through robust analysis.
+</UL>
+<hr color=red>
+<UL> <font size=4 color=#4422bb><b>What is hot?</b></font>
+<LI> QOCA runs fast.
+<LI> Space-saving.
+<LI> Flexible.
+<LI> User-friendly. Novices can run QOCA in basic mode within 4 hours.
+<LI> Online registration, online manual, online help board (Q/A) make the information
+     exchange efficiently.
+</UL>
+<hr color=red>
+<UL> <font size=4 color=#4422bb><b>What is weak?</b></font>
+<LI> Due to manpower shortage (see
+<a href="history.html"> History</a>), some parts 
+     of the software are incomplete.
+<LI> The author of the QOCA has no time to write a detailed manual.
+<LI> There is no funding to support full service for the QOCA users.
+</UL>
+
+<hr color=red>
+<UL> <font size=4 color=#4422bb><b>What is new?</b></font>
+<LI><div >04/28/2011: <font size=2 color=#dd2200><b>New QOCA administrator</b></font></div>
+<br>
+Dr. Da Kuang at JPL has taken over the responsibility of the
+QOCA software registration process.<br>
+If you have any question about the application for the software, please send an e-mail to
+dakuang@jpl.nasa.gov <br><br>
+
+<LI><div>07/20/2009: <b>QOCA user forum</b></div><br>
+We generate QOCA forum for users to submit their questions,
+suggestions and discussions.<br>
+Please go to https://sites.google.com/site/qocaforum/home to 
+read the forum. Or just click the "User forum" tag on the left side of this page.<br><br>
+</UL>
+
+<!--
+<table border="0" cellpadding="2" cellspacing="2" width="680">
+<tr>
+<td align="left" width=160>
+<font size=4 color="#4422bb"><b>What is new?</b></font>
+</td>
+<td bgColor=#fdedcf>
+<marquee width="500" height="125" direction="up" scrollamount="2" scrolldelay="120" onmouseover="stop()" onmouseout="start()"> 
+<font size=2>
+   <div align="center">04/28/2011: <font size=2 color=#dd2200><b>New QOCA administrator</b></font></div>
+<br>
+        &nbsp; &nbsp; Dr. Da Kuang at JPL has taken over the responsibility of the
+        QOCA software registration process.<br>
+        &nbsp; &nbsp;  If you have any question about the application for the software, please send an e-mail to
+        dakuang@jpl.nasa.gov <br>
+      &nbsp; <br>
+   <div align="center">07/20/2009: <b>QOCA user forum</b></div><br>
+        &nbsp; &nbsp; We generate QOCA forum for users to submit their questions,
+        suggestions and discussions.<br>
+        &nbsp; &nbsp;  Please go to https://sites.google.com/site/qocaforum/home to 
+        read the forum. Or just click the "User forum" tag on the left side of this page.<br><br>
+</font>
+</marquee>
+</td></tr></table>
+-->
+
+
+<hr>
+<P ALIGN=CENTER><FONT SIZE=-1><B>Created by Danan Dong 
+  and maintained by <A HREF="mailto:dakuang@jpl.nasa.gov">Da Kuang</A> for
+   <br>Geodynamics and Space Geodesy Group <br>
+   email: dakuang@jpl.nasa.gov <br>
+   08/02/98 </B></FONT>
+</P>
+
+<hr>
+<p>
+<!-- BEGIN digits.com CODE -->
+<!-- BEGIN digits.com counter LINK -->
+<center>
+<A HREF="http://www.digits.com">
+<IMG SRC="http://counter.digits.com/wc/-d/5/qoca_manual" ALIGN=middle WIDTH=70 HEIGHT=20 BORDER=0 HSPACE=4 VSPACE=2 ALT="Visitor Counter by Digits"></A><br>
+<A HREF="http://www.digits.com/"><IMG SRC="giflib/wc.gif" WIDTH=103 HEIGHT=34 BORDER=0 VSPACE=2 HSPACE=1 alt="Digits Web Counter"></A><br>
+<!-- END digits.com LINK -->
+<!-- END digits.com CODE -->
+<font size="2" face="Impact" color=#000fef>since 03/01/2003</font>
+</center>
+<br>
+<p>
+</blockquote>
+
+</BODY>
+</HTML>
+<!-- ########################################################### -->
+        
+        
+  	</div>
+	</div>
+</div>
+<!-- Main Content Ends Here -->
+            <div class="clear"></div>
+
+<!-- Begin Footer -->
+<div id="wrapper_bottom">
+	<div id="footer">
+		<div class="usa_gov">&nbsp;</div>
+			<div class="footer_credits">
+            
+            
+<p>Webmaster: <a href="mailto:dakuang@jpl.nasa.gov">Da Kuang</a></p>
+<p>CL#12-0434</p>
+
+  			</div>
+  						<div class="footer_nav"><p><a href="http://www.jpl.nasa.gov/copyrights.cfm">PRIVACY</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="http://www.jpl.nasa.gov/imagepolicy/">IMAGE POLICY</a></p>
+ 						 </div><div class="clear"></div>
+						</div>
+<!-- end #footer -->
+		</div>
+</body>
+</html>
+
+
+

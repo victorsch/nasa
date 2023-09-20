@@ -1,0 +1,13 @@
+GET https://flightopportunities.ndc.nasa.gov
+
+
+< HTTP/1.1 301 MOVED PERMANENTLY
+< X-Frame-Options: SAMEORIGIN
+< Vary: Cookie
+< Date: Tue, 19 Sep 2023 06:05:42 GMT
+< Server: Apache
+< Cache-Control: private, max-age=0, must-revalidate
+< Content-Type: text/html; charset=utf-8
+< Strict-Transport-Security: max-age=63072000; includeSubDomains
+< Location: https://flightopportunities.ndc.nasa.gov/technologies/
+< Set-Cookie: django_language=en; expires=Wed, 18-Sep-2024 06:05:42 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure

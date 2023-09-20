@@ -1,0 +1,15 @@
+GET https://gcmd.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< Server: Jetty(9.4.z-SNAPSHOT)
+< Strict-Transport-Security: max-age=31536000
+< Set-Cookie: f5_cspm=1234;
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1;mode=block
+< X-Content-Type-Options: nosniff
+< Date: Tue, 19 Sep 2023 05:40:56 GMT
+< Last-Modified: Tue, 07 Mar 2023 10:05:28 GMT
+< Vary: Accept-Encoding

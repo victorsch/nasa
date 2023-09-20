@@ -1,0 +1,19 @@
+GET https://status.uat.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< X-Content-Type-Options: nosniff
+< X-Request-Id: 33edf866-987b-4094-a7df-851fcfbb152b
+< X-Runtime: 0.055438
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"208eeeef777ca6b200cfda1612b99b5a"
+< Cache-Control: max-age=0, private, must-revalidate
+< Strict-Transport-Security: max-age=31536000
+< Server: nginx/1.22.1
+< X-Download-Options: noopen
+< X-Permitted-Cross-Domain-Policies: none
+< Date: Tue, 19 Sep 2023 05:42:25 GMT
+< Referrer-Policy: strict-origin-when-cross-origin
+< Set-Cookie: _downtime_session=bjRTWmZjc3AvZGwrWTJoVUlxeEpQeVVQM0VFYnUzNjZGcWtRaEZhOUlQT2VyME9tWnY3ckRtOVBOcjRlN1E4aGcyWmdRcWxxVUlJeTNRK3FKdkRCeXQwTWdqY2pHZ1pUTnUrc0o0TDZ0cTFhOHBYNVZaNko2NmJ5ajRyZEdNeTlMaU5uNVJNMm1ieEFBOFFtWVlOaFBRPT0tLUpKS1o3d25kMTRhQXR5alIvZ1Y1ZkE9PQ%3D%3D--843f9befaf7d0c89d0f9adcdbd1e88da2104eaf2; path=/; HttpOnly

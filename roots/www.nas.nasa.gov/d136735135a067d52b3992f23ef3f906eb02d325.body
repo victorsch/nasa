@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>NASA Advanced Supercomputing Division Website </title>
+    <meta name="description" content="NAS Division">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,500;0,700;1,500;1,700&family=Michroma&display=swap" rel="stylesheet">
+
+<!--  <link rel="manifest" href="site.webmanifest"> -->
+<link rel="apple-touch-icon" href="icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/nas_refresh_main.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+
+<!-- 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+ -->
+
+<!-- Google Analytics Required by DAP-->
+<script language="javascript" id="_fed_an_ua_tag"  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=ARC"></script>
+
+<style>
+article.news-card div#SoY {
+    background-image: url('/assets/nas/images/content/news_08-29-23_uPSP_rocket-1280_reduced.gif'); 
+    background-position: center !important;
+}
+
+@media (prefers-reduced-motion) {
+    article.news-card div#SoY {
+        background-image: url('/assets/nas/images/content/news_08-29-23_uPSP_rocket-1280_still.png'); 
+        background-position: center !important;
+    }
+
+}
+</style>
+</head>
+
+<body class="one-column homepage">
+<a class="skip-main" href="#main">Skip to main content</a> 
+<div id="container">
+
+<header id="page-header">
+<div class="bannerblock">
+  <img src="/assets/nas/images/template/NASA_logo.svg" width="80" alt="" class="nasalogo">
+  <span class="bannerhead">NASA Advanced Supercomputing (NAS) Division</span>
+  <span class="mission">World-class modeling, simulation, and supercomputing in support of the NASA mission</span>
+</div>
+  <div class="searchbox">
+  		<ul id="toplinks">
+			<li><a href="https://www.nasa.gov">NASA Home</a></li> 
+			<li class="squared"><a href="https://www.nasa.gov/centers/ames/home/index.html">Ames Home</a></li>	
+		</ul>
+		<!-- <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script> -->
+
+<div class="gcse-searchbox-only invisible" data-resultsUrl="/aboutnas/search.html?query=test"></div>
+</div>
+</header>
+<nav id="site-nav" aria-label="primary">
+                <label for="tm" id="toggle-menu">
+                    Navigation 
+                    <span class="drop-icon">▾</span>
+                </label>
+                <input type="checkbox" id="tm">
+                <ul class="main-menu cf">
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About
+                                    
+                            <span class="drop-icon">▾</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm0">▾</label>
+                        </a>
+                        <input type="checkbox" id="sm0">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/aboutnas/about.html">About NAS</a>
+                            </li>
+                            <li>
+                                <a href="/aboutnas/organization.html">Organization Chart</a>
+                            </li>
+                            <li>
+                                <a href="/aboutnas/staff.html">Staff Pages</a>
+                            </li>
+                            <li>
+                                <a href="/aboutnas/jobs.html">Opportunities</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Technical Areas
+                                    
+                            <span class="drop-icon">▾</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm1">▾</label>
+                        </a>
+                        <input type="checkbox" id="sm1">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/areas/technical_areas.html">Overview</a>
+                            </li>
+                            <li>
+                            <a href="/areas/aero_research.html">Aeronautics Research</a>
+                            </li>
+                            <li>
+                                <a href="/areas/launch_vehicle.html">Launch Vehicle Analysis</a>
+                            </li>
+                                 <li>
+                                <a href="/areas/risk_safety.html">Risk/Safety Assessment</a>
+                            </li>
+                             <li>
+                                <a href="/areas/helio.html">Heliophysics</a>
+                            </li>
+
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Supercomputing at NAS
+                                    
+                            <span class="drop-icon">▾</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm3">▾</label>
+                        </a>
+                        <input type="checkbox" id="sm3">
+                        <ul class="sub-menu">
+   
+                                                             <li>
+                                        <a href="/supercomputing/overview.html">Supercomputing Facility</a>
+                                    </li>
+                            
+                                 <li>
+                                        <a href="/supercomputing/applications.html">Application Porting &amp; Optimization</a>
+                                    </li>
+                                    <li>
+                                        <a href="/supercomputing/data_analytics.html">Data Analytics</a>
+                                    </li>
+                                    <li>
+                                        <a href="/supercomputing/pipelines.html">Science Data Pipelines</a>
+                                    </li>
+                                    <li>
+                                        <a href="/supercomputing/visualization.html">Visualization</a>
+                                    </li>
+                                     <li>
+                                        <a href="/supercomputing/data_portal.html">Data Portal</a>
+                                    </li>
+                                   <li>
+                                        <a href="/supercomputing/custom_services.html">Custom NAS Services</a>
+                                    </li>
+                                  
+</ul>
+                      </li>
+                    <li>
+                        <a href="#">
+                           Software
+                           
+                                     
+                            <span class="drop-icon">▾</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm8">▾</label>
+                        </a>
+                        <input type="checkbox" id="sm8">
+                        
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/software/cart3d.html">Cart3D</a>
+                            </li>
+                            <li>
+                                <a href="/software/chimera.html">Chimera Grid Tools</a>
+                            </li>
+                            <li>
+                                <a href="/software/eddy.html">Eddy</a>
+                            </li>                            
+<!-- 
+                             <li>
+                                <a href="/software/lava.html">LAVA</a>
+                            </li>
+ -->
+                            <li>
+                                <a href="/software/npb.html">NAS Parallel Benchmarks</a>
+                            </li>
+
+                            <li>
+                                <a href="/software/shift.html">Shift Data Transfer Tool</a>
+                            </li>                            
+                            
+                            <li>
+                                <a href="/software/software.html">Other Software Packages</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </li>                    <li>
+                        <a href="#">
+                           Publications
+                                      
+                            <span class="drop-icon">▾</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm9">▾</label>
+                        </a>
+                        <input type="checkbox" id="sm9">
+                    
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="/pubs/ams.html">AMS Seminars</a>
+                            </li>
+                            <li>
+                                <a href="/pubs/stories.html">News &amp; Features</a>
+                            </li>
+                            <li>
+                                <a href="/pubs/reports.html">Papers &amp; Reports</a>
+                            </li>
+                            <li>
+                                <a href="/pubs/gallery.html">Scientific Visualization Gallery</a>
+                            </li>
+							<li>
+                                <a href="/pubs/nasa_sc.html">NASA@SC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+										<li class="hecc-home">
+                        <a href="/hecc/index.html">HECC Home &#x25B6;</a>
+                    </li>
+                </ul>
+
+
+
+
+</nav>
+
+
+	<main id="main"> 
+	<h1 class="sr-only">NASA Advanced Supercomputing (NAS) Division Homepage</h1>
+	<div class="articles-home">
+
+<!-- Start Cards Below Here -->
+	
+<!-- Top Left Card -->
+
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div id="SoY" class="card-image" style="">  
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Ames Data Processing Software Receives Honorable Mention</h2>
+					<time datetime="2023-09-13">September 13, 2023</time> 
+				</header>
+				<p>NASA management has announced that the Unsteady Pressure-Sensitive Paint (uPSP) Data Processing Software received an honorable mention in the 2023 NASA Software of the Year Award competition. Developed by several teams across NASA’s Ames Research Center in Silicon Valley&mdash;including visualization and aerodynamics experts in the NASA Advanced Supercomputing (NAS) Division&mdash;the uPSP software is a collection of applications that processes raw data from wind tunnel-based testing systems.</p>
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2023/news_09-13-23_uPSP_Honorable_Mention.html"><span class="sr-only">Read more about the Honorable Mention</span></a>  
+				</p>
+			</div>
+		</article>	
+		
+							
+				   
+    	<!-- /End Top Left Card -->
+    	
+ 		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/news_08-22-23-SEP_activeregionview_med.jpg'); background-position: center right !important;">  
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Summer Interns Share Science & Engineering Project Results </h2>
+					<time datetime="2023-08-22">August 22, 2023</time> 
+				</header>
+				<p>Students from around the U.S. and Canada wrapped up a three-month NASA summer internship opportunity at NAS, where each student was matched with NAS Division mentors having expertise in their fields of study. Their projects contributed to NASA research in aeronautics, space exploration, heliophysics, and Earth science, as well as data analysis and visualization tools and technologies.</p>
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2023/news_08-22-2023_summer_interns.html"><span class="sr-only">Read more about the NAS 2023 summer intern projects.</span></a>  
+				</p>
+			</div>
+		</article>	 
+		
+	
+		
+				    
+<!-- AMS Seminar Card -->
+		
+		
+	<!-- PLACEHOLDER  
+					
+<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/ams/ams_seminar_crowd_250.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Advanced Modeling and Simulation (AMS) Seminar Series</h2>
+					<br>
+				</header>
+				<p>
+					Hosted by the Computational Aerosciences Branch at the NASA Advanced Supercomputing facility, this seminar series presents talks on recent achievements, innovative tools, and current problems being faced by members of the modeling and simulation community from NASA, government, industry, and academia.
+				</p>
+				<p class="read-more">
+					<a href="/pubs/ams.html"><span class="sr-only">More about the AMS Seminar Series</span></a> 
+				</p>
+			</div>
+		</article> -->
+		
+
+	
+	<!-- SEMINAR TEMPLATE -->
+	
+    
+	<article class="news-card"> 
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/ams/ams_seminar_crowd_250.jpg');">
+            </div>
+        </div>
+        <div class="card-text ams-text">
+            <header>
+                <h2>A Study on Flow Solutions Computed on Automatically and Manually Generated Structured Overset Meshes</h2>
+                <div class="subtitle">
+            <a href="/pubs/ams.html">AMS Seminar Series</a>
+                </div>
+            </header>
+
+                <div class="ams-speaker">Andrew M. Chuen and William M. Chan, NASA Ames Research Center</div> 
+                <div class="ams-time">
+                <time datetime="2023-09-21T9:00-7:00">September 21, 9:00 AM PT</time> 
+                </div>
+ 
+            <p class="ams-desc">This seminar will cover a recently developed scheme at NASA's Ames Research Center that enables automation of structured overset surface mesh generation, a process that typically requires extensive user expertise and effort.</p>
+            <p class="read-more">
+                <a href="/pubs/ams/2023/09-21-23.html"><span class="sr-only">More about this AMS seminar</span></a> 
+            </p>
+        </div>
+    </article> 
+
+
+
+<!-- /End AMS Seminar Card -->
+		
+					
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/feature_Augustson_Prendergast_med_2.jpg'); background-position: center center !important; background-size: contain !important;background-repeat: no-repeat !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Shining a Light on the Sun&rsquo;s Magnetic Field</h2>
+					<time datetime="2023-08-07">August 7, 2023</time> 
+				</header>
+				<p>Researchers at Northwestern University ran simulations of the Sun and other stars on the Pleiades cluster at the NASA Advanced Supercomputing (NAS) facility and made some discoveries that help answer questions about how magnetic fields develop and travel to the surface&mdash;leading to clues about how they influence the Sun&rsquo;s atmosphere and Earth&rsquo;s magnetic shield.</p>
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2023/feature_sun_magnetic_field.html"><span class="sr-only">Read the story about discoveries made about the Sun using NASA High-End Computing resources.</span></a>  
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card ">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/geos_mit_sea_surface.png'); background-position: center top !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Sea Surface Currents and Salinity Near the Maritime Continent</h2>
+					<time datetime="2023-08-10">August 1, 2023</time> 
+				</header>
+				<p>NASA High-End Computing resources, including those at the NAS facility, enabled a modeling study of the Indonesian Throughflow, the only low-latitude gateway for export of large amounts of heat and freshwater from the Pacific to the Indian Ocean.  </p>
+				</p>
+				<p class="read-more">
+					<a href="https://gmao.gsfc.nasa.gov/research/science_snapshots/2023/sea-surface.php"><span class="sr-only">Read more about the NASA study of the Indonesian Throughflow,</span></a>  
+				</p>
+			</div>
+	</article>	
+			
+			<article class="news-card ">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/APP_spring_forecast.png'); background-position: center center !important; background-size: 105% !important; background-repeat: no-repeat !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Severe Weather Modeling Gets a Boost from NAS Optimization Experts</h2>
+					<time datetime="2023-07-18">July 18, 2023</time> 
+				</header>
+				<p>Scientists in NASA’s Global Modeling and Assimilation Office ran their 2023 Hazardous Spring Forecast Experiment on the Aitken supercomputer. NAS Division application optimization experts provided extensive, customized “concierge service” throughout the three-month project to ensure its success.</p>
+				</p>
+				<p class="read-more">
+					<a href="hecc/about/hecc_user_success.html#APP_forecast"><span class="sr-only">See the story about this HECC user success.</span></a>  
+				</p>
+			</div>
+	</article>		
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/nasa_climate_risks.png'); background-position: center top !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Study Reveals Compounding Climate Risks at Two Degrees of Warming</h2>
+					<time datetime="2023-08-10">August 10, 2023</time> 
+				</header>
+				<p>A NASA-led study showed that if global temperatures keep rising and reach 2 degrees Celsius (3.6 degrees Fahrenheit) above pre-industrial levels, people worldwide could face multiple impacts of climate change simultaneously. Researchers at the NASA Earth Exchange (NEX) relied on the Pleiades supercomputer for climate modeling and data distribution employed in the study.</p>
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/ames/nasa-study-reveals-compounding-climate-risks-at-two-degrees-of-warming"><span class="sr-only">Read more about the NASA climate study,</span></a>  
+				</p>
+			</div>
+		</article>  	
+		
+		
+		
+														
+<!-- archived cards	
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/news_06-08-23_aiaa_forum_ventura_diaz_med_crop.jpg'); background-position: center
+				 right !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Division Experts Present Latest Findings at 2023 Aviation Forum</h2>
+					<time datetime="2023-06-08">June 8, 2023</time> 
+				</header>
+				<p>Aeronautics experts in the NAS Division presented their latest research results to aviation professionals from around the world at the 2023 Aviation Forum, June 12&mdash;16 in San Diego, CA. From advanced air mobility and low-boom flight simulations to new computational fluid dynamics techniques, our aero teams&rsquo; work reflects this year&rsquo;s conference theme, "Revolutionary Leaps Toward a New Age of Aviation."</p>
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2023/news_06-08-2023_AIAA_Forum.html"><span class="sr-only">Get the schedule of NAS presentations at 2023 Aviation Forum.</span></a>  
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/news_ECCO_Velcocity.png'); background-position: bottom !important;"> 
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Celebrating Our Ocean World at NASA in Silicon Valley</h2>
+					<time datetime="2023-04-13">April 21, 2023</time> 
+				</header>
+				<p>This Earth Day, researchers studying our planet shared what excites them about Earth science and explain how they’re working to better understand, predict, and protect Earth’s life-sustaining water systems. NAS visualization expert Nina McCurdy highlights how supercomputers and complex visualization help scientists run complex ocean and atmospheric circulation models.</p>
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/ames/celebrating-our-ocean-world-at-nasa-in-silicon-valley"><span class="sr-only">Read more about the ECCO visualization work.</span></a>  
+				</p>
+			</div>
+		</article>
+	
+	
+	<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/climate_data_041323_med.jpg'); background-position: bottom !important;"> >
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>New Look at Climate Data Shows Substantially Wetter Rain and Snow Days Ahead</h2>
+					<time datetime="2023-04-13">April 13, 2023</time> 
+				</header>
+				<p>Scientists at Scripps Institution of Oceanography and Lawrence Berkeley National Laboratory report that extremely intense days of rain or snow will be more frequent by the end of this century than previously thought. The <a href="https://www.nas.nasa.gov/hecc/">High-End Computing Capability Project</a> provided resources supporting this work through the NAS Division.</p>
+</a>  
+				</p>
+				<p class="read-more">
+					<a href="https://newscenter.lbl.gov/2023/04/13/climate-data-shows-wetter-rain-snow-days-ahead/
+"><span class="sr-only">News from Lawrence Berkeley Lab.</span></a>  
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/ATAP_success_risk_swath_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>This is What Would Happen if Scientists Found an Asteroid Heading to Earth</h2>
+					<time datetime="2023-04-06">April 6, 2023</time> 
+				</header>
+				<p>In support of NASA's Near Earth Object (NEO) Program Office, NAS Division scientists presented a hypothetical asteroid impact scenario at the 8th Planetary Defence Conference in Vienna, Austria this week. Science.com's Robert Lea <a href="https://www.space.com/nasa-models-hypothetical-asteroid-impact-scenario">captured their work</a> to better calculate the size of the asteroid and build an asteroid impact risk assessment model that considers many factors, from limited observational data.</p>
+</a>  
+				</p>
+				<p class="watch-video">
+					<a href="https://media.un.org/en/asset/k1a/k1ajrlvavq?kalturaStartTime=3658
+"><span class="sr-only">Video from the 8th Planetary Defence Conference</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NAS_homepage_Kepler_exoplanet.jpeg'); background-position: center !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>The Soul of Music: Meklit Hadero Tells Stories of Migration
+					</h2>
+					<time datetime="2023-03-24">March 24, 2023</time> 
+				</header>
+				<p>In National Geographic’s podcast "The Soul of Music," jazz musician Meklit Hadero explains how she incorporates sounds of nature into her music, including sonifications of starlight data that came in through NASA's Kepler Telescope.  The sonifications were created by the NAS Division’s Jon Jenkins, Kepler Mission Analysis Lead. The data was processed through a <a href="https://www.nas.nasa.gov/supercomputing/pipelines.html">science data pipeline</a> on the Pleiades supercomputer.</p>
+				<p class="listen-pod">
+					<a href="https://www.nationalgeographic.com/podcasts/overheard/article/the-soul-of-music-meklit-hadero-tells-stories-of-migration"><span class="sr-only">Link to the National Geographic website page featuring the podcast.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		
+
+			<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_GPU_Hackathon_2023_med.jpg'); background-color: #2B2B38; background-position: top
+				 right !important;""<br>">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Apply Now for the NASA GPU Hackathon: Deadline July 14 
+					</h2>
+					<time datetime="2023-06-14">June 14, 2023</time> 
+				</header>
+				<p>
+Consider applying to participate in the 2023 NASA GPU Hackathon to be held on September 12 and September 19-21. Whether your code is a traditional high-performance computing-centric application or if your goal focuses on artificial intelligence/machine learning technologies, please apply to participate in this event!				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hackathon/"><span class="sr-only">Get further details and important deadlines for the GPU Hackathon.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/dalle_summer_series_2023_med.jpg'); background-position: center left !important;"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Summer Series: <br />
+					NASA’s Use of Supercomputing in the Artemis Program</h2>
+					<time datetime="2023-07-06">July 6, 2023</time> 
+				</header>
+				<p>
+Mark your calendar! NAS Division Aerodynamics Engineer Derek Dalle will present, &ldquo;NASA&rsquo;s Use of Supercomputing in the Artemis Program,&rdquo; on July 13 at 11 a.m. Pacific Time, as part of the 2023 NASA Summer Series. Dalle will share some ways that NASA groups use computational modeling to support space exploration. The aerodynamics, heating, and acoustics of the ascent and descent phases are the primary focus of Artemis-related supercomputing efforts. 
+ 				</p> 
+				<p class="read-more">
+				<a href="https://www.nasa.gov/summerseries/"><span class="sr-only">Ames Summer Series.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/04_Browne_O_SC22_vortMag_TTBW_small.jpg'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>A Future Aircraft Design, Supercomputed
+					</h2>
+					<time datetime="2023-03-09">March 9, 2023</time> 
+				</header>
+				<p>No, it’s not hypermodern art. This image from a simulation generated by NASA’s high-performance computers, shows a Transonic Truss Braced Wing (TTBW) aircraft concept, which could consume up to 10% less jet fuel than a standard airliner. Researchers in the NAS Division are <a href="https://www.nas.nasa.gov/SC22/research/project4.html">simulating the TTBW’s Mach 0.8 cruise configuration</a> to validate and develop their scale-resolving CFD models</a>.  
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/aeroresearch/a-future-aircraft-design-supercomputed
+"><span class="sr-only">Image from a simulation of the Transonic Truss-Braced Wing aircraft.</span></a> 
+				</p>
+			</div>
+		</article>	
+				
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/gallery/Stefan_solar_flare_med_4.jpg'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Simulating Sunquakes: Understanding How Energy is Transported During 
+Solar Flares
+					</h2>
+					<time datetime="2023-02-22">February 22, 2023</time> 
+				</header>
+				<p>Did you know that solar flares produce sunquakes that are similar to earthquakes? Researchers at New Jersey Institute of Technology are studying <a href="https://www.nas.nasa.gov/SC22/research/project20.html">the impact of flares on the Sun</a>. A video produced by NAS visualization experts, is featured in the <a href="/pubs/gallery.html">NAS Scientific Visualization Gallery</a>.  
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/pubs/gallery.html#gal-1
+"><span class="sr-only">Watch the video of solar flare heating and waves.</span></a> 
+				</p>
+			</div>
+		</article>
+	
+	
+<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/4_heliophysics_big.jpg'); background-position: center center !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>New Features in NAS Data Portal Improve Knowledge Sharing 
+					</h2>
+					<time datetime="2023-03-07">March 7, 2023</time> 
+				</header>
+				<p>The <a href="/supercomputing/data_portal.html">NAS Data Portal</a> was recently updated to accommodate a growing number of shared datasets. Computer experts in the NAS Division developed a method that enables users and collaborators to incorporate data into their workflow more efficiently. 
+				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hecc/about/hecc_user_success.html
+"><span class="sr-only">Read more about the data portal update.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/SC22_Chaderjian_N_cutaway_med_crop.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Visualizations to Better Understand Rotorcraft Flow Physics   
+					</h2>
+					<time datetime="2023-01-10">January 10, 2023</time> 
+				</header>
+				<p>
+					Over the last ten years, NASA high-perfomance computing resources have been used to improve <a href="https://www.nas.nasa.gov/SC22/research/project5.html">prediction of rotorcraft hover performance.</a> Check out the cool video of a V22 Osprey rotor, along with other fascinating images and movies in the <a href="/pubs/gallery.html">NAS Scientific Visualization Gallery</a>.  
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/pubs/gallery.html#gal-2
+"><span class="sr-only">Watch the video of rotorcraft flow on a V22 Osprey rotor during hover.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_GPU_Hackathon_2022_med.jpg'); background-color: #000; background-size:contain !important; background-repeat: no-repeat;"<br>">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Results from the NASA GPU Hackathon 2022
+					</h2>
+					<time datetime="2023-02-02">February 2, 2023</time> 
+				</header>
+				<p>
+During the NASA GPU Hackathon 2022, teams from three NASA centers and academic institutions brought a variety of computationally intensive applications and applied HPC and machine-learning techniques to speed up code performance. Check out the success stories from the event, held in September 2022.</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hackathon/#Summary2022"><span class="sr-only">Get results from the GPU Hackathon 2022.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+	<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/corona_med.jpg'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						The World's Largest Turbulence Simulation Unmasks the Flow of Energy in Astrophysical Plasmas
+					</h2>
+					<time datetime="2022-12-23">December 23, 2022</time> 
+				</header>
+				<p>Princeton Plasma Physics Laboratory research has uncovered a previously hidden heating process that helps explain how the atmosphere that surrounds the Sun called the &ldquo;solar corona&rdquo; can be vastly hotter than the solar surface that emits it. The discovery leveraged computational resources from NASA High-End Computing&rsquo;s NASA Advanced Supercomputing facility.
+			</p>
+				<p class="read-more">
+					<a href="https://www.pppl.gov/news/2022/worlds-largest-turbulence-simulation-unmasks-flow-energy-astrophysical-plasmas"><span class="sr-only">Read more on the solar research enabled by NASA supercomputers.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/SC21TV_fourup2.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						NAS Researchers Contribute to Successful Artemis 1 Mission  
+					</h2>
+					<time datetime="2022-12-15">December 15, 2022</time> 
+				</header>
+				<p>
+					Teams across NASA celebrated the successful first mission of the Artemis Program when Orion splashed down on Dec. 11.  In this interview with SC21 TV host Rich Finlinson last year, NAS Division research scientists Jordan Angel, Derek Dalle, and Francois Cadieux explained how NASA supercomputers have helped NASA prepare the launch environment, ensure flight readiness, and analyze lift-off scenarios for Orion and the Space Launch System. 
+				</p>
+				<p class="watch-video">
+					<a href="https://sc21.supercomputing.org/2021/11/08/nasa-supercomputing-and-the-artemis-moon-mission/"><span class="sr-only">Watch the SC21 video interview with NASA engineers.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/06_VenturaDiaz_P_tiltwing_hover_med.jpg'); background-position: top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						The Gift that Keeps on Giving: NAS Division Research in 2022
+					</h2>
+					<time datetime="2022-12-20">December 20, 2022</time> 
+				</header>
+				<p>Launch pad safety. Mars landings. Cleaner, quieter aircraft. These and more selected projects led by NAS Division experts over the past year will benefit agency missions and projects for years to come! All were presented during SC22, the International Conference for High-Performance Computing, Networking, Storage, and Analysis, where NASA returned in person this year to showcase the science and engineering made possible by the agency&rsquo;s supercomputers.
+			</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2022/feature_SC22_wrap_Dec_22.html"><span class="sr-only">Find out about all the NAS Division projects featured at SC22</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+	<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Robertson_Mars_tsunami_med.jpg'); ">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						NASA May Have Landed on a Martian Megatsunami Deposit Nearly 50 Years Ago
+					</h2>
+					<time datetime="2022-12-01">December 1, 2022</time> 
+				</header>
+				<p>A new research paper by Planetary Science Institute, published in <a href="https://www.nature.com/articles/s41598-022-18082-2">Nature Scientific Reports</a>, shows that NASA&rsquo;s Viking 1 (1976) may have touched down on the margins of a megatsunami deposit, formed when a 3 - 9 kilometer asteroid impacted a Martian ocean about 3.4 billion years ago. Coauthor and NAS Division Aerospace Engineer Darrel Robertson ran simulations of the impact into the Martian ocean and the run-up on shore.
+			</p>
+				<p class="read-more">
+					<a href="https://www.psi.edu/news/megatsunamimars"><span class="sr-only">Read the Planetary Science press release</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		 <article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Mehrotra_hpcwire_small.jpg'); background-position: center !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						2022 Road Trip: NASA Ames Takes Off
+					</h2>
+					<time datetime="2022-11-25">November 25, 2022</time> 
+				</header>
+				<p>In this interview with HPCwire contributing editor Dan Olds, NAS Division Chief Piyush Mehrotra talks all things supercomputing—from global ocean simulations to modular facilities, cloud applications, and new high-end computing system architectures at NASA&rsquo;s Ames Research Center.
+			</p>
+				<p class="watch-video">
+					<a href="https://www.hpcwire.com/2022/11/25/2022-road-trip-nasa-ames-takes-off/"><span class="sr-only">Watch the video interview  with Piyush Mehrotra, chief, NASA Advanced Supercomputing Divsion.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+    	    <article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/06_VenturaDiaz_P_tiltwing_cruise_small.png'); background-position: center !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						5 Ways Supercomputing is Key to NASA Mission Success
+					</h2>
+					<time datetime="2022-11-22">November 22, 2022</time> 
+				</header>
+				<p>Whether developing new technologies for landing on other planets, improving air travel here at home with new air taxi concepts, or more realistically simulating global weather and climate on Earth and other planets&mdash;both inside and outside our solar system&mdash;supercomputing is key to the success of NASA missions.
+			</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/5-ways-supercomputing-is-key-to-nasa-mission-success"><span class="sr-only">Learn about some of the ways supercomputing supports NASA missions.</span></a> 
+				</p>
+			</div>
+		</article>		
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NAS_homepage_solar_sasha.png'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Secrets of Sunspots and Solar Magnetic Fields
+					</h2>
+					<time datetime="2022-11-17">November 17, 2022</time> 
+				</header>
+				<p>Using data about the Sun’s structure and dynamics from two NASA missions, the Solar and Heliospheric Observatory and the Solar Dynamics Observatory, researchers are running simulations on supercomputers at the NASA Advanced Supercomputing facility to learn more about the sunspot cycle.
+			</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/ames/sunspot-simulations"><span class="sr-only">Read the feature on the NASA Ames Research Center website.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_sc22_connect_med_3.png'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						NASA Science and Engineering Showcased at SC22
+					</h2>
+					<time datetime="2022-11-18">November 18, 2022</time> 
+				</header>
+				<p>Check out the <a href="https://www.nas.nasa.gov/SC22/">NASA@SC22 website</a> to see dazzling visualizations, and learn about the exciting science and engineering achievements that we highlighted this year&mdash;all made possible by NASA supercomputers! And be sure to follow NASA Supercomputing on <a href="https://twitter.com/nasa_supercomp">Twitter</a> and <a href="https://www.facebook.com/NASASupercomputing">Facebook</a>.
+			</p>
+				<p class="visit-site">
+					<a href="https://www.nas.nasa.gov/SC22/"><span class="sr-only">Visit the NASA at SC22 website.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card two-col">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_menemenlis_sc21_12-07-21_med.jpg'); background-position: center !important;">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   Ocean-Atmosphere Mashup: A Recipe for Climate Predictions
+                </h2>
+                <time datetime="2022-10-04">October 4, 2022<time> 
+            </header>
+            <p>
+What happens when scientists cook up a new recipe for understanding the workings of our planet? That’s what two teams studying Earth’s oceans and atmosphere decided to find out—with help from visualization experts in the NASA Advanced Supercomputing (NAS) Division and the agency’s high-performance computing (HPC) resources.
+
+</p>
+            <p class="read-more">
+                <a href="/pubs/stories/2022/feature_ocean_atmosphere_mashup.html"><span class="sr-only">Learn more about ocean-atmosphere research on NAS supercomputers.</span></a> 
+            </p>
+        </div>
+    </article>
+    
+    <article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stellarbox_Kitiashvili_HD17051_med.jpg'); background-position: center !important;">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   NAS’s StellarBox Code Improvements to Help Increase Exoplanet Detection 
+                </h2>
+                <time datetime="2022-11-04">November 4, 2022<time> 
+            </header>
+            <p>
+Heliophysics <a href="/areas/helio.html">researchers</a> in the NAS Division teamed up with our <a href="/supercomputing/applications.html">application porting and optimization</a> experts to improve the performance of their StellarBox code on the Aitken supercomputer&rsquo;s Rome nodes in order to develop a procedure to increase the detection rate of Earth-mass exoplanets. 
+</p>
+            <p class="read-more">
+                <a href="https://www.nas.nasa.gov/hecc/about/hecc_user_success.html"><span class="sr-only">Learn more about StellarBox code improvements.</span></a> 
+            </p>
+        </div>
+    </article>
+
+
+<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/SJM-L-METEOR-0811-4_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Meteor Hunt: New Research Reveals the Life and Death of a Space Rock
+
+					</h2>
+					<time datetime="2021-10-08">October 8, 2021</time> 
+				</header>
+				<p>
+					New research at the SETI Institute and NASA Ames tells a 2008 meteorite&rsquo;s origin story. To understand the wide track of meteroid fall patterns from asteroid 2008 TC3, the NAS Division&rsquo;s Darrel Robertson, in support of the Asteroid Threat Assessment Project, performed computer modeling to decode this pattern. Robertson is a co-author on a <a href="https://onlinelibrary.wiley.com/doi/10.1111/maps.13892">related paper</a> that details the analysis process.
+			</p>
+				<p class="read-more">
+					<a href="https://www.mercurynews.com/2022/08/14/meteor-hunt-new-research-reveals-the-life-and-death-of-a-space-rock/
+"><span class="sr-only">Read the article Meteor hunt: New research reveals the life and death of a space rock.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+
+			<article class="news-card two-col">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/NAS_homepage_sun_plasma_9.27.22.jpg'); background-position: center !important;">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   Scientists Trace High-Energy Particles Back to Sun's Plasma
+                </h2>
+                <time datetime="2022-09-23">Septemer 23, 2022<time> 
+            </header>
+            <p>
+Scientists may have discovered how and when high-energy particles that bombard Earth and other objects emerge from violent environments such as the Sun's atmosphere. <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ac8422">New research</a>, based on simulations run on supercomputers at the NAS facility and other HPC centers, may lead to better predictions of the origin of solar energetic particles and improve forecasting models of space weather events.</p>
+            <p class="read-more">
+                <a href="https://www.space.com/high-energy-particles-source-space-weather"><span class="sr-only">Read the article on Space.com.</span></a> 
+            </p>
+        </div>
+    </article>
+
+
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/aero_Barad_LandingNoise_big.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>ICCFD11 Proceedings Now Available</h2>
+					<time datetime="2022-09-20">September 20, 2022</time> 
+				</header>
+				<p>
+Proceedings of the ICCFD11 Conference are now available. Co-hosted by the NASA Advanced Supercomputing Division, the 11th International Conference on Computational Fluid Dynamics (ICCFD) was held on the island of Maui July 11-15. Researchers and experts around the world shared innovative new tools and CFD research advancing our understanding of complex flow physics.</p>
+				<p class="read-more">
+				<a href="https://www.iccfd.org/iccfd11/proceedings.html"><span class="sr-only">Browse and download the ICCFD11 abstracts and papers.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stock_survey_image_med.jpg');">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   Results of the Latest HECC/NAS User Survey
+                </h2>
+                <time datetime="2022-09-06">September 6, 2022<time> 
+            </header>
+            <p>
+Survey geeks: Check out the summary of our biennial user survey results, including information on key areas targeted for improvement over the next year. In 2021, 196 users participated in a survey that addressed 12 user service areas. To quote one happy user, &ldquo;Everyone I&rsquo;ve worked with has been very knowledgeable, helpful, and kind, even when I have dumb questions.&rdquo;</p>
+            <p class="read-more">
+                <a href="https://www.nas.nasa.gov/hecc/assets/pdf/2021_HECC_User_Survey_Results.pdf"><span class="sr-only">HECC/NAS User Survey Summary PDF.</span></a> 
+            </p>
+        </div>			
+	</article>	
+	
+	<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/acd19-0120-022-lores2_small.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Doing More With Less: NASA’s Most Powerful Supercomputer</h2>
+					<time datetime="2022-08-17">August 17, 2022</time> 
+				</header>
+				<p>NASA is committed to reducing the environmental impact of its labs and facilities. The latest expansion to NASA’s innovative Modular Supercomputing Facility increased NASA&rsquo;s computational power by 22%, making it the agency&rsquo;s most powerful, yet energy-efficient, supercomputer.</p> 
+				<p class="read-more">
+				<a href="https://www.nasa.gov/feature/ames/doing-more-with-less-nasa-s-most-powerful-supercomputer"><span class="sr-only">Learn more about NASA's modular supercomputing facility.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/SiliCon_logo.jpg'); background-position: center !important;">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   NASA Supercomputing at SiliCon with Adam Savage
+                </h2>
+                <time datetime="2022-09-06">Septemer 6, 2022<time> 
+            </header>
+            <p>
+The NASA booth drew large crowds interested in supercomputing and our cool visualizations at SiliCon, August 26-27 at the San Jose Convention Center. Two talks by NAS Division experts were standing-room only: "Artemis: The First Step in the Next Era of Human Exploration," with Derek Dalle, and "Getting Your Start at NASA: All About Internships Across the Agency" with Ashley Coates.</p>
+            <p class="read-more">
+                <a href="https://siliconsj.com"><span class="sr-only">Go to the SiliCon website.</span></a> 
+            </p>
+        </div>
+    </article>	
+		
+			<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/ATAP_success_risk_swath_med.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Team Collaborates on Asteroid Impact Simulations</h2>
+					<time datetime="2022-08-02">August 2, 2022</time> 
+				</header>
+				<p>NAS Division researchers on the Asteroid Threat Assessment Project play a key role in ongoing planetary defense and asteroid threat exercises run with governmental and international organizations. The team  runs simulations on NAS facility supercomputers to estimate the severity and likelihood of damage that could result from potential asteroid impacts on Earth.</p> 
+				<p class="read-more">
+				<a href="/areas/risk_safety.html"><span class="sr-only">Learn more about the NAS Divisions Risk and Safety Assessment work.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/Aitken_supercomputer_med.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Aitken Leaps Over Pleiades to Become NASA’s Most Powerful Supercomputer</h2>
+					<time datetime="2022-07-13">July 13, 2022</time> 
+				</header>
+				<p>With its latest expansion, the Aitken supercomputer became NASA&rsquo;s most powerful high-performance system. Aitken is a key resource for hundreds of researchers working on projects across all of NASA&rsquo;s mission directorates, including aerospace engineers at NAS who contribute to the Artemis Program by simulating the launch environment at Kennedy Space Center.</p> 
+				<p class="read-more">
+				<a href="https://www.nas.nasa.gov/pubs/stories/2022/feature_Aitken_expansion_2Q2022.html"><span class="sr-only">Read about Aitken&rsquo;s latest expansion.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/HECC_AR_2021_Cover_med.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>FY2021 HECC Annual Report Now Available</h2>
+					<time datetime="2022-07-08">July 8, 2022</time> 
+				</header>
+				<p>
+Browse through our collection of NASA-supported science and engineering projects showcased in the High-End Computing Capability (HECC) Annual Report for Fiscal Year 2021. The 40 highlighted activities&mdash;covering aeronautics, space exploration, Earth science, and much more&mdash;are all enabled by supercomputing resources and services funded by the HECC project at the NASA Advanced Supercomputing facility. </p>
+				<p class="read-more">
+				<a href="https://www.nas.nasa.gov/hecc/about/hecc_reports.html"><span class="sr-only">Browse the FY21 HECC  Annual Report.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/feature_LAVA_Parachute_B_big.png');"<br>
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Simulating Supersonic Parachute Inflation for Future Mars Landings</h2>
+					<time datetime="2022-05-31">May 31, 2022</time> 
+				</header>
+				<p>
+The Launch Ascent and Vehicle Aerodynamics (LAVA) team in the NASA Divison are developing new modeling and simulation tools and capabilities to better understand the aerodynamic processes at play during the inflation of parachutes at supersonic speeds, which the agency uses to reduce vehicle speed during atmospheric entry to Earth and Mars.</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2022/feature_LAVA_Parachutes.html"><span class="sr-only">Read more about simulating supersonic parachute inflation </span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/DePontieu_summer_series_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						NASA Summer Series: MUSE: Revealing the Physics of the Sun’s Corona and the Roots of Space Weather
+					</h2>
+					<time datetime="2022-08-17">August 17, 2022</time> 
+				</header>
+				<p>
+					Join NAS user Bart De Pontieu, when he presents, &ldquo;MUSE: Revealing the Physics of the Sun&rsquo;s Corona and the Roots of Space Weather,&rdquo; on August 23 at 11 a.m. Pacific Time, as part of the 2022 NASA Summer Series. De Pontieu will discuss NASA&rsquo;s Multi-slit Solar Explorer (MUSE) mission, which will improve our understanding of the physical processes that drive solar flares and eruptions. 
+			</p>
+				<p class="read-more">
+				<a href="https://www.nasa.gov/summerseries/2022/bartdepontieu"><span class="sr-only">Ames Summer Series.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/ATAP_success_risk_swath_med.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Team Collaborates on Asteroid Impact Simulations for Planetary Defense</h2>
+					<time datetime="2022-08-02">August 2, 2022</time> 
+				</header>
+				<p>NAS Division researchers on the Asteroid Threat Assessment Project (ATAP) at Ames Research Center play a key role in ongoing planetary defense and asteroid threat exercises conducted with governmental and international organizations. Recently, the ATAP team participated in a technical interchange meeting on Asteroid Impact Global Effects, and published a paper, “<a href="https://iopscience.iop.org/article/10.3847/PSJ/ac66eb">Apophis Planetary Defense Campaign</a>.”  The team  runs simulations on NAS facility supercomputers to estimate the severity and likelihood of damage that could result from potential asteroid impacts on Earth.</p> 
+				<p class="read-more">
+				<a href="/areas/risk_safety.html"><span class="sr-only">Learn more about the NAS Divisions Risk and Safety Assessment work.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/SC21/assets/images/content/10_Angel_J_SC21_2_big.jpg');"<br>
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Experts&rsquo; Role Leading into Artemis Pre-Launch Tests</h2>
+					<time datetime="2022-06-20">June 20, 2022</time> 
+				</header>
+				<p>
+Curious about the physics of the Space Launch System's two-day <a href="https://www.nasa.gov/press-release/nasa-to-discuss-conduct-test-to-prepare-for-artemis-i-moon-mission">wet dress rehearsal</a> this week? NAS Division CFD experts used supercomputers at the NAS facility to help understand and improve the design of many aspects of the Artemis mission&mdash;including the chaotic physics around the launch pad. They explain their work in an interview recorded last fall. Take a look!
+</p>
+				<p class="watch-video">
+				<a href="https://www.youtube.com/watch?v=wxLI-82qiNQ">
+				<span class="sr-only">Watch video interview on Artemis with NAS Division experts .</span></a> 
+				</p>
+			</div>
+		</article> 
+		
+		<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/lunar_hydration_success_big.jpg');"<br>
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Visualizing Mechanisms for Making Water on the Moon</h2>
+					<time datetime="2022-06-14">June 14, 2022</time> 
+				</header>
+				<p>
+Physicists at Princeton University are running simulations on the Pleiades and Electra supercomputers to trace the origin of water on the Moon. To help the researchers gain insight into their complex computational results, our visualization experts produced animations that help convey a dynamic system of ionized oxygen deposits. 
+</p>
+				<p class="read-more">
+				<a href="https://www.nas.nasa.gov/hecc/about/hecc_user_success.html"><span class="sr-only">Read more about lunar hydration visualizations.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/SWIPE_HECC_success_NAS.jpg');"<br>
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Simulating Algae to Model Water Quality in Minutes
+					</h2>
+					<time datetime="2022-05-26">May 26, 2022</time> 
+				</header>
+				<p>
+Researchers on the Biospheric Science team at NASA Ames Research Center use NAS systems to calculate the optical properties of water containing algae and other phytoplankton species—a key to determining the degree of water contamination and modeling water quality. Recently, NAS experts helped the team speed up their simulations, reducing the time required to perform calculations for single alga particle from two hours to just 18 minutes.</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hecc/about/hecc_user_success.html"><span class="sr-only">Read more about this and other HECC user success stories</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/aero_Barad_LandingNoise_big.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NAS Co-Hosts ICCFD11</h2>
+					<time datetime="2022-07-08">July 11, 2022</time> 
+				</header>
+				<p>
+The NASA Advanced Supercomputing Division is co-hosting the 11th International Conference on Computational Fluid Dynamics (ICCFD) held on the island of Maui July 11-15. Researchers and experts around the world will join to share innovative new tools and CFD research advancing our understanding of complex flow physics.</p>
+				<p class="read-more">
+				<a href="https://www.iccfd.org/iccfd11/"><span class="sr-only">Visit the ICCFD11 website.</span></a> 
+				</p>
+			</div>
+		</article>		
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_GPU_Hackathon_2022_med.jpg'); background-color: #000; background-size:contain !important; background-repeat: no-repeat;"<br>">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>JULY 20: Last Day to Apply for the GPU Hackathon 
+					</h2>
+					<time datetime="2022-05-02">May 2, 2022</time> 
+				</header>
+				<p>
+Consider applying to participate in the 2022 NASA GPU Hackathon to be held on September 19 and September 26-28. Whether your code is a traditional high-performance computing (HPC) centric application or if your goal focuses on artificial intelligence/machine learning technologies, please apply to participate in this event!				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hackathon/"><span class="sr-only">Get further details and important deadlines for the GPU Hackathon.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Barnhardt_summer_series_2022_med.jpg');"><br />
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Summer Series: <br />
+					Modeling Entry Systems to Explore Our Solar System</h2>
+					<time datetime="2022-07-11">July 11, 2022</time> 
+				</header>
+				<p>
+Join NAS user Michael Barnhardt when he presents, “Modeling Entry Systems to Explore Our Solar System,” on July 14 at 11 a.m. Pacific Time, as part of the 2022 NASA Summer Series. Modeling and simulation are critical tools for designing a vehicle that will work the first time, every time. Barnhardt will discuss the latest research in modeling entry systems&mdash;enabled by NASA high-end computing resources&mdash;and how it is being used in NASA&rsquo;s exploration missions.
+ 				</p> 
+				<p class="read-more">
+				<a href="https://www.nasa.gov/summerseries/2022/michaelbarnhardt"><span class="sr-only">Ames Summer Series.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/feature_prairie_view_team_small.jpg'); background-color: #000; background-size:contain !important; background-repeat: no-repeat;"<br>">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>HPC Students and NASA Mentors: A Winning Combination 
+					</h2>
+					<time datetime="2022-04-22">April 22, 2022</time> 
+				</header>
+				<p>
+Talented students from diverse communities around the U.S. gained hands-on experience in supercomputing in the second annual Winter Classic Invitational Student Cluster Competition, with help from high-performance computing (HPC) experts in the NASA Advanced Supercomputing (NAS) Division at NASA’s Ames Research Center.
+				</p>
+				<p class="read-more">
+					<a href="https:/pubs/stories/2022/feature_student_supercomputing_competition.html
+"><span class="sr-only">Find out more about the NAS Divsion's role in the cluster competetition.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_GPU_Hackathon_2022_med.jpg'); background-color: #000; background-size:contain !important; background-repeat: no-repeat;"<br>">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>June 20: Last Day to Apply for the GPU Hackathon 
+					</h2>
+					<time datetime="2022-05-02">May 2, 2022</time> 
+				</header>
+				<p>
+Consider applying to participate in the 2022 NASA GPU Hackathon to be held on September 19 and September 26-28. Whether your code is a traditional high-performance computing (HPC) centric application or if your goal focuses on artificial intelligence/machine learning technologies, please apply to participate in this event!				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/hackathon/"><span class="sr-only">Get further details and important deadlines for the GPU Hackathon.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/modular_supercomputing_facility_acd19-0120-022-lores2_0_.jpeg">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>From Supercomputers to Symbiotes, NASA in Silicon Valley Invests in the Earth 
+					</h2>
+					<time datetime="2022-04-22">April 22, 2022</time> 
+				</header>
+				<p>
+On Earth Day, NASA Ames highlights programs that are helping to understand, mitigate, and prepare for Earth&rsquo;s changing climate. Our the Modular Supercomputing Facility takes advantage of the local climate to cool the Aitken and Electra systems that help scientists make new discoveries about our planet.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/ames/from-supercomputers-to-symbiotes-nasa-in-silicon-valley-invests-in-the-earth
+"><span class="sr-only">Read more about the energy-efficient supercomputers at the NAS facility.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/CATMIP_Success_large.png'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						NAS Division Experts Add GPU Support to USGS Earthquake Modeling Code
+					</h2>
+					<time datetime="2022-02-22">February 22, 2022</time> 
+				</header>
+				<p>
+				NAS Division experts are working with researchers at the U.S. Geological Survey (USGS) to assess potential benefits of running their Cascading Adaptive Transitional Metropolis in Parallel (CATMIP) application on GPU nodes. In tests, the code ran more than 20 times faster on GPUs than on traditional CPU-only nodes. CATMIP is used to model and study earthquake faults.
+				</p>
+				<p class="read-more">
+					<a href="/hecc/about/hecc_user_success.html"><span class="sr-only">Read more about how NAS experts worked with the USGS to port their CATMIP code to GPUs</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/news_20220301_ToomreBice_Stellar.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						Simulations of Dynamo Action in M-Dwarf Stars
+					</h2>
+					<time datetime="2021-02-28">February 8, 2022</time> 
+				</header>
+				<p>
+				A <a href="https://arxiv.org/pdf/2202.02869.pdf">recent paper</a> by researchers at the University of Colorado, Boulder shows that new global magnetohydrodynamic simulations of rapidly rotating M-Dwarf stars, run on NAS supercomputers, produced convective nests. This previously unseen phenomena might contribute to the formation of persistant active longitudes scientists have observed on the Sun and other stars. The Boulder team's related work was highlighted as a NASA@SC21 research project.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/SC21/research/project24.html"><span class="sr-only">Read more about  this research performed on NAS supercomputers</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_01-31-22_Rivord_SLS_water_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						Cutting-edge Simulations Help Predict Water Operations in the SLS Launch Environment
+					</h2>
+					<time datetime="2022-01-31">January 31, 2022</time> 
+				</header>
+				<p>
+					To help keep ignition overpressure waves from damaging the Space Launch System during launch, fluid dynamics engineer Travis Rivord  at NASA&rsquo;s Marshall Space Flight Center runs simulations of the solid rocket booster plume-water induced environment. In this short video presentation, Rivord discusses both the challenges of simulating the launch environment physics&mdash;using the Pleiades supercomputer at NAS&mdash;and his team&rsquo;s successful validation of various test scenarios.
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/SC21/presentations.html#Rivord"><span class="sr-only">Video presentation on Space Launch System solid rocket booster plume-water induced environment simulations.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/student_cluster_comp.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>	Student Cluster Competition Award Winners to be Announced on April 15
+					</h2>
+					<time datetime="2022-04-12">April 12, 2022</time> 
+				</header>
+				<p>
+				Winners of the 2022 Winter Classic Invitational competition will be announced at an awards ceremony to be livestreamed on April 15 at 4:00 p.m. Pacific Time. <a href="https://us06web.zoom.us/webinar/register/WN_gmR5domeR6mSgQOZoM_C0A">Register now</a> for this webinar that will recognize the student teams from Historically Black Colleges and Universities and Hispanic Serving Institutions. In the meantime, you can watch a video where NAS Division mentors discussed their role in guiding students through hands-on exercises using NASA&rsquo;s Pleiades supercomputer.
+				</p>
+				<p class="watch-video">
+					<a href=https://www.winterclassicinvitational.com/episode-20-meet-the-nasa-mentors/">
+					<span class="sr-only"> Read more about the X-59 supersonic aircraft development.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/TACC_creek_ocean_model_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>	When Water is Coming from All Sides 
+					</h2>
+					<time datetime="2020-01-13">January 13, 2022</time> 
+				</header>
+				<p>Researchers at the National Oceanographic and Atmospheric Administration teamed up with colleagues at the Virginia Institute of Marine Science at William & Mary to develop and test the world's first three-dimensional operational storm surge model. The research was enabled by supercomputers at the NASA Advanced Supercomputing facility and the Texas Advanced  Computing Center. 
+				</p>
+				<p class="read-more">
+					<a href="https://www.tacc.utexas.edu/-/when-water-is-coming-from-all-sides"><span class="sr-only">Image from 3D model results of mesh on the Delaware Bay region.</span></a> 
+				</p>
+			</div>
+		</article>	
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NAS_homepage_TWAN_1.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						NAS Research Featured in “This Week @NASA” 
+					</h2>
+					<time datetime="2020-11-22">January 7, 2022</time> 
+				</header>
+				<p>The first “This Week @NASA” video of the year went on location with our Electra supercomputer and featured a simulation by NAS researchers! The simulation helps engineers understand how vibration levels during various launch abort scenarios might affect the Orion spacecraft’s launch abort system. 
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nasa.gov/sites/default/files/atoms/video/nhq_2022_0107_twn.mp4"><span class="sr-only">Video summary produced each week by NASA.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_12-21-21_global_simulated_water_vapor.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Winter Modeling Experiments Push the Boundaries of Simulation to Explore the Earth<h2>
+					<time datetime="2020-12-21">December 21, 2021</time> 
+				</header>
+				<p>
+					NASA High-End Computing resources, including NAS&rsquo;s Pleiades and Aitken supercomputers, hosted global storm- and eddy-resolving simulations for Phase II of the international DYAMOND Initiative: DYnamics of the Atmospheric general circulation Modeled On Non-hydrostatic Domains.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nccs.nasa.gov/news-events/nccs-highlights/DYAMOND-Winter/"><span class="sr-only">Read more about NAS projects and get digital swag.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Russell_Galactic_Center_VR_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Putting a Bow on it: The NAS Division Wraps Up the Year <br />with SC21<h2>
+					<time datetime="2020-12-22">December 22, 2021</time> 
+				</header>
+				<p>
+					To wrap up the NASA Advanced Supercomputing (NAS) Division’s valuable contributions to agency programs, here are 18 research projects led by NAS Division staff and featured at SC21, the International Conference for High-Performance Computing, Networking, Storage, and Analysis&mdash;plus, some extra free goodies you can unwrap year-round!
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2021/feature_SC21_wrap_Dec_21.html"><span class="sr-only">Read more about NAS projects and get digital swag.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/NASA_Remembrance.jpeg'); background-position: center top !important;">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>NASA Day of Remembrance 
+					</h2>
+					<time datetime="2020-01-27">January 27, 2022</time> 
+				</header>
+				<p>Each January, NASA pauses to honor members of the NASA family who lost their lives while furthering the cause of exploration and discovery, including the crews of Apollo 1 and space shuttles Challenger and Columbia. Today we honor those who we have lost, including Columbia astronaut and CFD researcher Kalpana Chawla (center), who was part of our NAS family.
+				</p>
+				<p class="read-more">
+					<a href="https://nasa.gov/dor"><span class="sr-only">Link to NASA's Day of Remembrance page.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_cadieux_sc21_11_22_21_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>2021 in Review: Highlights from NASA in Silicon Valley<h2>
+					<time datetime="2020-12-21">December 21, 2021</time> 
+				</header>
+				<p>
+					The NAS Division&rsquo;s amazing modeling and simulation projects impacting the validation of new exoplanets, safety of launch abort systems for Artemis, and the design of urban air taxis&mdash;all enabled by our supercomputers and expertise&mdash;are among 13 key efforts highlighted in NASA&rsquo;s Ames 2021 review.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/ames/2021-in-review-highlights-from-nasa-in-silicon-valley"><span class="sr-only">Read more about NASA Ames 2021 review.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_menemenlis_sc21_12-07-21_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						Realistic Ocean Simulation Adds a Little Atmosphere 
+					</h2>
+					<time datetime="2020-11-22">December 8, 2021</time> 
+				</header>
+				<p>
+					Show and Tell: Research scientist Dimitris Menemenlis teamed up with NAS visualization experts to create  new, highly realistic animations from a global ocean-atmosphere model, giving an unprecedented view of the interactions between Earth&rsquo;s climate and weather. In this short video presentation based on <a href="https://www.nas.nasa.gov/SC21/research/project16.html">his NASA@SC21 project</a>, Menemenlis says his team is "blown away" by the complexity and beauty revealed in their simulations run on the Pleiades and Aitken supercomputers at NAS.
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/SC21/presentations.html#Menemenlis"><span class="sr-only">Video presentation on coupled ocean-atmosphere simulations.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_PredSci_20211204_eclipse.png');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Scientists Use NASA Data to Predict Corona of Dec. 4 Antarctic Eclipse</h2>
+					<time datetime="2021-12-09">December 9, 2021</time> 
+				</header>
+				<p>
+					A week in advance, researchers from Predictive Science, Inc. used data from NASA&rsquo;s Solar Dynamics Observatory to predict what the Antarctic eclipse would look like from the ground, utilizing the computing power of the Pleiades supercomputer at the NASA Advanced Supercomputing facility.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/feature/goddard/2021/scientists-use-nasa-data-to-predict-corona-of-dec-4-antarctic-eclipse"><span class="sr-only">Read more about solar eclipse prediction simulations.</span></a> 
+				</p>
+			</div>
+		</article>
+	
+	
+	<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_2021_11_18_Aitken_expansion_small.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						NASA&rsquo;s Newest Supercomputer Gets a Power Boost  
+					</h2>
+					<time datetime="2021-11-18">November 18, 2021</time> 
+				</header>
+				<p>
+					NASA&rsquo;s Aitken supercomputer is being expanded with 512 new nodes that bring its theoretical peak performance to 10.76 petaflops&mdash;a 28% increase in performance, which translates to solving larger problems with faster results for important NASA research in aeronautics, human and robotic space missions, Earth science, and more.	
+				</p>
+				<p class="read-more">
+					<a href="/pubs/stories/2021/feature_Aitken_Nov_21_expansion.html"><span class="sr-only">Get more details on the Aitken supercomputer power boost.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/New_NASAatSC21_2.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						NASA@SC21 Virtual Exhibit  
+					</h2>
+					<time datetime="2020-11-15">November 15, 2021</time> 
+				</header>
+				<p>
+					The NASA@SC21 virtual exhibit highlights 39 projects from across the agency and academia, all of which utilized the computing, storage, networking, and/or visualization services from the NASA Advanced Supercomputing (NAS) Division at Ames Research Center and the NASA Center for Climate Simulation (NCCS) at Goddard Space Flight Center.
+				</p>
+				<p class="visit-site">
+					<a href="https://www.nas.nasa.gov/SC21"><span class="sr-only">Learn more about the NASA exhibit at SC21.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_cadieux_sc21_11_22_21_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						NASA Supercomputers Predict How Vibrations Vary With Altitude for Orion Abort Scenarios  
+					</h2>
+					<time datetime="2021-11-22">November 22, 2021</time> 
+				</header>
+				<p>
+					As part of the Artemis missions, NASA&rsquo;s Orion spacecraft will carry the first woman and first person of color to the Moon and return them safely back to Earth. NAS Division researchers are using their LAVA software to simulate Orion’s launch abort system, to predict how different abort scenarios will affect vibrations generated by exhaust plume pressure waves.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/image-feature/ames/nasa-supercomputers-predict-how-vibrations-vary-for-orion-abort-scenarios"><span class="sr-only">Read more about LAVA simulations to keep astronauts safe.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Russell_Galactic_Center_VR_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						6 Things to Know About Supercomputing at NASA  
+					</h2>
+					<time datetime="2021-11-12">November 12, 2021</time> 
+				</header>
+				<p>
+					From exploring the solar system and outer space to improving life here on Earth, supercomputing is vital to NASA missions. The agency is showcasing how these powerful machines are enabling science and engineering advances during SC21, the International Conference on High Performance Computing, Networking, Storage, and Analysis. 
+				</p>
+				<p class="read-more">
+					<a href="https://www.nasa.gov/press-release/ames/6-things-to-know-about-supercomputing-at-nasa"><span class="sr-only">Get more info on 6 things you need to know about supercomputing at NASA.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/SC21TV_fourup2.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						NASA, Supercomputing, and the Artemis Moon Mission 
+					</h2>
+					<time datetime="2021-11-08">November 8, 2021</time> 
+				</header>
+				<p>
+					NASA supercomputers are helping the agency prepare for Artemis, the program that will return humans to the Moon. Learn more in this SC21 TV interview with NAS Division research scientists Jordan Angel, Derek Dalle and Francois Cadieux. SC21 host Rich Finlinson gets answers about how our experts are supporting the launch environment, flight readiness, and lift-off scenarios. 
+				</p>
+				<p class="watch-video">
+					<a href="https://sc21.supercomputing.org/2021/11/08/nasa-supercomputing-and-the-artemis-moon-mission/"><span class="sr-only">Watch the SC21 video interview with NASA engineers.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card two-col">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/21_Edquist_SC21_video1_med.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Visualization of Mars Retrorocket Models
+					</h2>
+					<time datetime="2021-10-08">October 8, 2021</time> 
+				</header>
+				<p>
+					Researchers at NASA's Langley Research Center used over 30,000 hours on our supercomputers to perform CFD  analysis of Mars retrorocket wind tunnel models, as an alternative to using parachutes to slow down a spacecraft during descent to the Red Planet. Take a look at the cool video produced by NAS visualization experts, in the <a href="/pubs/gallery.html">NAS Scientific Visualization Gallery</a>. Some say the jet plumes resembles a jellyfish in space. What do you see?
+			</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/pubs/gallery.html#gal-1
+"><span class="sr-only">Watch the video of wind tunnel simulation air particles.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/gallery/Barad_2018_39B_Video_Small.png');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Visualization of the NASA Kennedy Launch Complex 
+					</h2>
+					<time datetime="2021-10-08">October 8, 2021</time> 
+				</header>
+				<p>
+					Utilizing their in-house developed Launch Ascent and Vehicle Aerodynamics (LAVA) flow solver, our CFD experts are helping redesign and predict conditions at Kennedy Space Center&rsquo;s Launch Complex 39B. Take a look at the spectacular video of the launch complex&mdash simulation in the <a href="/pubs/gallery.html">NAS Scientific Visualization Gallery</a>. 
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/pubs/gallery.html#gal-1
+"><span class="sr-only">Watch the video of a simulated an evolving galaxy.</span></a> 
+				</p>
+			</div>
+		</article>		
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/ISS_solarstorm_aurora.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						Heliophysics Research Helps Improve Space Weather Prediction  
+					</h2>
+					<time datetime="2021-10-08">October 8, 2021</time> 
+				</header>
+				<p>
+					Last week, a huge solar storm spotted from the ISS created auroras that stretched as far south as New York. NAS Division researchers develop modeling and simulation tools for more accurate space weather forecasting to better understand the impacts of solar flare radiation on Earth, spacecraft, and astronauts</a>.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/areas/helio.html
+"><span class="sr-only">Learn more about NAS heliophysics modeling and simulation.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Chandra_Zuhone_homepage.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>				
+						Simulations of Giant Cold Fronts in Clusters of Galaxies  
+					</h2>
+					<time datetime="2020-11-15">November 15, 2020</time> 
+				</header>
+				<p>
+					Using numerical simulations on our Pleiades supercomputer, a group of astrophysicists were able to simulate collisions between galaxy clusters that produce features known as "cold fronts"&mdash;jumps in gas density and temperature that are visible as edges in X-ray observations. Through comparison of simulations with observations, we can learn details about the complex physics of hot magnetized gas within each cluster.
+				</p>
+				<p class="read-more">
+					<a href="https://www.nas.nasa.gov/SC20/demos/demo13.html"><span class="sr-only">Learn more about simulations of galaxy clusters.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+	
+    	
+    	
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/TESS_SPOC_Yale.jpeg'); background-position: center top !important; ">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>Yale Astronomer Leads Team in the Study of an Ultra-Hot Jupiter</h2>
+					<time datetime="2021-09-27">September 27, 2021<time> 
+				</header>
+				<p>
+					Using NASA's Transiting Exoplanet Survey Satellite (TESS), an international team of researchers has discovered an alien world nearly two times larger than Jupiter. TESS observations are processed by the Science Processing Operations Center (SPOC), which generates calibrated pixels and light curves on the Pleiades supercomputer at the NAS facility.
+				</p>
+				<p class="read-more">
+					<a href="https://yaledailynews.com/blog/2021/09/17/yale-astronomer-leads-team-in-the-study-of-an-ultra-hot-jupiter/"><span class="sr-only">Learn more about the discovery of the new hot Jupiter exoplanet</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/News_2021_09_13_14dinokiller_Sally_Deng.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>The Rock That Ended the Dinosaurs Was Much More Than a Dino Killer</h2>
+					<time datetime="2021-09-13">September 13, 2021</time> 
+				</header>
+				<p>
+In his New York Times interview, NAS user Bill Bottke from the Southwest Research Institute described NASA&rsquo;s Pleiades supercomputer as a “game changer” for his research team, which ran simulations of 130,000 model asteroids evolving over hundreds of millions of years—including the one that may have killed off the dinosaurs.				</p>
+			<p class="read-more">
+				<a href="https://www.nytimes.com/2021/09/13/science/chicxulub-dinosaur-extinction.html"><span class="sr-only">Read more about The Rock that Ended the Dinosaurs</span></a> 
+			</p>
+			 </div>
+    	</article>
+    	
+
+		<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/Peeples_evolving_galaxy_small.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Visualization of Gas Around a Simulated Galaxy 
+					</h2>
+					<time datetime="2021-08-23">August 23, 2021</time> 
+				</header>
+				<p>
+					Visualizations developed by NAS Division experts are helping scientists understand how galaxies form and evolve. Researchers in the Physics and Astronomy Department at Johns Hopkins University ran this simulation of gas in and around an evolving galaxy on our Pleiades supercomputer for the Figuring Out Gas & Galaxies In Enzo (FOGGIE) project. Take a look at the spectacular video of a simulated galaxy&mdash;along with other beautiful images and movies in the <a href="/pubs/gallery.html">NAS Scientific Visualization Gallery</a>. 
+				</p>
+				<p class="watch-video">
+					<a href="https://www.nas.nasa.gov/pubs/gallery.html#gal-21
+"><span class="sr-only">Watch the video of a simulated an evolving galaxy.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+	
+	<article class="news-card">
+			<div class="card-block">
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_07-28-21_swri_asteroids.jpg');">
+				</div>
+			</div>
+			<div class="card-text">
+				<header>
+					<h2>
+						Finding the Source of the Impactor that Wiped out the Dinosaurs 
+					</h2>
+					<time datetime="2019-07-28">July 28, 2021<time> 
+				</header>
+				<p>
+					Researchers from the Southwest Research Institute are using the NAS facility's Pleiades supercomputer to simulate the evolutionary processes that deliver large asteroids, like the one that wiped out the dinosaurs, to Earth from the outer half of the asteroid belt between Mars and Jupiter&mdash;a process now known to occur 10 times more frequently than previously thought. 
+				</p>
+				<p class="read-more">
+					<a href="https://phys.org/news/2021-07-source-impactor-dinosaurs.html"><span class="sr-only">Read more about large asteroid origins.</span></a> 
+				</p>
+			</div>
+		</article>
+		
+		<article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_2021_08_03_youngsun1_print_small.jpg');">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   NASA Model Describes Nearby Star which Resembles Ours in its Youth
+                </h2>
+                <time datetime="2019-08-03">August 3, 2021<time> 
+            </header>
+            <p>
+			New research led by NASA provides a closer look at a nearby star thought to resemble our young Sun. Using the Pleiades supercomputer at the NAS facility, the researchers performed simulations of the star Kappa 1 Ceti with an updated model and data inputs from a variety of space missions.           </p>
+            <p class="read-more">
+                <a href="https://www.nasa.gov/feature/goddard/2021/nasa-model-describes-nearby-star-which-resembles-ours-in-its-youth"><span class="sr-only">Learn more about NASA research on the Kappa 1 Ceti star.</span></a> 
+            </p>
+        </div>
+    </article>
+	
+
+			<article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_07-28-21_Covid-19_med.jpg'); background-position: center center !important;">"
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   COVID Researchers Complete Projects Using Supercomputers at NAS
+                </h2>
+                <time datetime="2019-07-28">July 28, 2021<time> 
+            </header>
+            <p>
+			Using computing resources at the NAS facility, COVID-19 scientists from around the U.S. conducted rapid research in the fight to understand the SARS-CoV-2 virus and develop treatments and vaccines to help bring an end to the pandemic. Three research projects were recently completed, and results have been shared via publications and presentations.
+            </p>
+            <p class="read-more">
+                <a href="/pubs/stories/2021/news_07-28-21_Covid_projects_completed.html"><span class="sr-only">Read more on the completed COVID-19 projects.</span></a> 
+            </p>
+        </div>
+    </article>
+    
+    <article class="news-card ">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stories/feature_nemec_lowboom_big.jpg');">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   Inside NASA's X-59 Plane: Supersonic Flight Without the Boom
+                </h2>
+                <time datetime="2021-07-07">July 7, 2021</time> 
+            </header>
+            <p>
+           NASA and Lockheed Martin's vision for the future of supersonic flight is now in its final stages of development. Getting the X-59 through the design process has taken a lot of testing in virtual wind tunnels, with many of these <a href="/pubs/stories/2021/feature_X-59.html">complex simulations</a> performed by the NAS Division's LAVA team on NAS supercomputers over the last several years. Click below to watch the cool CNET video.
+            </p>
+            <p class="watch-video">
+                <a href="https://www.youtube.com/watch?v=hcHW1LZrzI0"><span class="sr-only">Watch the CNET video about NASA's X-59 Plane.</span></a> 
+            </p>
+        </div>
+    </article>
+    
+    
+    <article class="news-card">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/tycho-central-peak.png'); ">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   New Maps Help Developers Plan Lunar Road Trip for VIPER’s Artemis Mission
+                </h2>
+                <time datetime="2021-07-15">July 15, 2021</time> 
+            </header>
+            <p>
+A team at at NASA’s Ames Research Center is using the processing power of the Pleiades supercomputer, combined with NASA’s open source Stereo Pipeline software, to develop maps of the Moon’s terrain by layering thousands of satellite images taken by cameras aboard the Lunar Reconnaissance Orbiter. The maps wiil be used by the Volatiles Investigating Polar Exploration Rover (VIPER), scheduled to land on the Moon in 2023 to search for ice and other resources.
+            </p>
+            <p class="read-more">
+                <a href="https://www.nasa.gov/feature/ames/new-maps-help-viper-plan-lunar-road-trip"><span class="sr-only">Learn more about the NAS Division's role in the Space Shuttle Program.</span></a> 
+            </p>
+        </div>
+    </article>	
+    
+    <article class="news-card">
+           <div class="card-block">
+                <div class="card-image" style="background-image: url('assets/nas/images/content/Pleiades_blue_small.jpg');">
+                </div>
+           </div>
+           <div class="card-text">
+                <header>
+                     <h2>
+                           Join Us at the 2021 NASA GPU Hackathon
+                     </h2>
+                     <time datetime="2021-06-21">June 21, 2021</time>
+                </header>
+                <p>
+                     The 2021 NASA GPU Hackathon will be held September 20 and September 27-29. The goal of the event is to port and optimize codes on GPU technologies in a focused, highly collaborative environment. Several pre-hackathon training opportunities will be offered.
+                </p>
+                <p class="read-more">
+                     <a href="/hackathon/"><span class="sr-only">Get 2021 NASA GPU Hackathon details and deadlines.
+</span></a>
+                </p>
+           </div>
+     </article>	
+     
+     
+      <article class="news-card ">
+        <div class="card-block">
+            <div class="card-image" style="background-image: url('/assets/nas/images/content/stories/feature_nemec_lowboom_big.jpg');">
+            </div>
+        </div>
+        <div class="card-text">
+            <header>
+                <h2>
+                   Inside NASA's X-59 Plane: Supersonic Flight Without the Boom
+                </h2>
+                <time datetime="2021-07-07">July 7, 2021</time> 
+            </header>
+            <p>
+           NASA and Lockheed Martin's vision for the future of supersonic flight is now in its final stages of development. Getting the X-59 through the design process has taken a lot of testing in virtual wind tunnels, with many of these <a href="/pubs/stories/2021/feature_X-59.html">complex simulations</a> performed by the NAS Division's LAVA team on NAS supercomputers over the last several years. Click below to watch the cool CNET video.
+            </p>
+            <p class="watch-video">
+                <a href="https://www.youtube.com/watch?v=hcHW1LZrzI0"><span class="sr-only">Watch the CNET video about NASA's X-59 Plane.</span></a> 
+            </p>
+        </div>
+    </article>
+    
+	 <article class="news-card two-col">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/Cart3D_LAV_plumes_med_2.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					New NASA Software Catalog Available for a Variety of Technical Applications
+				</h2>
+				<time datetime="2021-06-28">June 29, 2021</time> 
+			</header>
+			<p>
+				NASA&rsquo;s latest software catalog has hundreds of codes available for free download, including the NAS Division&rsquo; award-winning CART3D package for modeling and simulation of next-generation quieter aircraft, designing launch vehicles and spacecraft, and asteroid risk modeling&mdash;plus other <a href="/software/software.html">NAS-developed software</a> used for critical agency missions.
+			</p>
+			<p class="read-more">
+				<a href="https://software.nasa.gov"><span class="sr-only">Check out the NASA Software Catalog</span></a> 
+			</p>
+		</div>
+	</article>
+	
+	<article class="news-card">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/Aitken_supercomputer_med.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					Aitken Expansion Clocks More than 10,000 Hours in First Three Months
+				</h2>
+				<time datetime="2021-06-14">June 14, 2021</time> 
+			</header>
+			<p>
+				After Aitken's recent expansion, NAS users quickly put the supercomputer's 1,024 new nodes to use for their science and engineering projects supporting NASA's missions. Aitken’s eight new racks provide 131,072 total cores, more cores than the entire Electra system. The update more than tripled Aitken's production capability—representing the largest single addition of computing power in the history of the NAS facility.</p>
+			<p class="read-more">
+				<a href="/pubs/stories/2021/feature_Aitken_expansion.html"><span class="sr-only">Learn more about the recent Aitken expansion.</span></a> 
+			</p>
+		</div>
+	</article>
+	
+	<article class="news-card">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/1_ecco_big.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					NAS Visualization Experts Expand Access to High-Resolution Ocean Simulations
+				</h2>
+				<time datetime="2021-06-14">June 14, 2021</time> 
+			</header>
+			<p>
+				The NAS Visualization and Data Analysis team recently released a new database of pre-computed visualizations from the Estimating the Circulation and Climate of the Ocean (ECCO) project’s 14-month global ocean simulation, enabling scientists all over the world to download and customize the visualized data to support their own research.  
+			</p>
+			<p class="read-more">
+				<a href="/pubs/stories/2021/news_06-14-21_ecco_database.html"><span class="sr-only">Find out how to access the ECCO visualization database.</span></a> 
+			</p>
+		</div>
+	</article>
+	
+	
+	<article class="news-card">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_06-08-21_coral_maps_med.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					NASA Partners with Khaled bin Sultan Living Oceans Foundation to Expand Efforts to Map Corals
+				</h2>
+				<time datetime="2021-06-08">June 8, 2021</time> 
+			</header>
+			<p>
+				NASA&rsquo;s Ames Research Center is partnering with the Khaled bin Sultan Living Oceans Foundation to use their extensive high-resolution data about reefs and expand NASA&rsquo;s coral mapping capabilities even further. The partnership will use the massive Global Reef Expedition dataset in conjunction with the neural network and the Pleiades supercomputer at the NAS facility. 
+			</p>
+			<p class="read-more">
+				<a href="https://www.nasa.gov/image-feature/ames/nasa-expands-efforts-to-map-corals"><span class="sr-only">Learn more about NASA work to map and coral reefs.</span></a> 
+			</p>
+		</div>
+	</article>
+	
+	<article class="news-card two-col">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_2021_06_06_cornalmassejection_small.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					Which Way Does the Solar Wind Blow? Supercomputers Improve Space Weather Prediction
+				</h2>
+				<time datetime="2021-06-06">June 6, 2021</time> 
+			</header>
+			<p>
+				Using supercomputers at NAS, as well as the Texas Advanced Computing Center and the San Diego Supercomputing Center, researchers are improving models and methods to predict space weather, including the arrival of coronal mass ejections.
+			</p>
+			<p class="read-more">
+				<a href="https://scitechdaily.com/which-way-does-the-solar-wind-blow-supercomputers-improve-space-weather-prediction"><span class="sr-only">Learn more about How Supercomputers Improve Space Weather Prediction</span></a> 
+			</p>
+		</div>
+	</article>
+
+
+	
+		<article class="news-card"> 
+		<div class="card-block"> 
+				<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/Features_2020_05_01_Asteroid_small.jpg');  background-position: center bottom !important;"> 
+			</div> 
+		</div> 
+		<div class="card-text"> 
+			<header> 
+				<h2> 
+					Saving Earth from Asteroids 
+				</h2> 
+				<time datetime="2021-04-23">April 23, 2021</time>  
+			</header> 
+			<p> 
+NAS researchers are running millions of high-fidelity computer simulations of hypothetical impact and airburst scenarios to help estimate possible damage if a real asteroid ever reaches Earth. 
+			</p> 
+			<p class="read-more"> 
+				<a href="https://www.nasa.gov/feature/saving-earth-from-asteroids"><span class="sr-only">Read more on simulations of possible asteroid impact scenarios</span></a>  
+			</p> 
+		</div> 
+	</article> 
+	
+	
+	<article class="news-card two-col">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_2021_03_16_Supersonic_small.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					Using NAS-Developed Tools to Quiet the Boom of Supersonic Flight 
+				</h2>
+				<time pubdate datetime="2021-03-16">March 16, 2021</time>
+			</header>
+			<p>
+				Researchers at NAS are using in-house-developed tools to help NASA develop its innovative low-boom supersonic X-plane.  
+			</p>
+			<p class="read-more">
+				<a href="/pubs/stories/2021/feature_X-59.html"><span class="sr-only">Learn more about NAS tools and the X-plane</span></a> 
+			</p>
+		</div>
+	</article>	
+	
+	
+	<article class="news-card">
+		<div class="card-block">
+			<div class="card-image" style="background-image: url('/assets/nas/images/content/stories/news_2021_02_04_LAVA_small.jpg');">
+			</div>
+		</div>
+		<div class="card-text">
+			<header>
+				<h2>
+					LAVA: NASA’s Hottest Flow Solver Contributes to Astronaut Safety
+				</h2>
+				<time pubdate datetime="2021-02-04">February 4, 2021</time> 
+			</header>
+			<p>
+				The NAS Division&rsquo;s LAVA software is helping to reduce risk and ensure the safety of astronauts on the launch pad and during the moments after takeoff.  
+			</p>
+			<p class="read-more">
+				<a href="/pubs/stories/2021/feature_LAVA_contributes_to_astronaut_safety.html"><span class="sr-only">Learn more launch safety and LAVA</span></a> 
+			</p>
+		</div>
+	</article>
+	 
+ -->
+
+<!--  /articles-home -->
+	</main> 
+	<div id="hecc" class="hecc-banner">
+		<div class="hecc-title">
+			<h2>
+				High-End<br>
+				Computing<br>
+				Capability
+			</h2>
+		</div>
+		<div class="hecc-image">
+			<img src="/assets/nas/images/template/Pleiades_blue_med.jpg" alt="Photo of Pleiades"> 
+		</div>
+		<div class="hecc-info">
+			<h3>
+				HECC Info
+			</h3>
+			<ul class="no-bullets">
+				<li><a href="/hecc/">HECC Home</a></li>
+				<li><a href="/hecc/about/">About HECC</a></li>
+				<li><a href="/hecc/resources/">Resources</a></li>
+				<li><a href="/hecc/services/">Services</a></li>
+				<li><a href="/hecc/about/hecc_user_success.html">User Success Stories</a></li>
+			</ul>
+		</div>
+		<div class="hecc-links">
+			<h3>
+				Quick Links
+			</h3>
+			<ul class="no-bullets">
+				<li><a href="/hecc/accounts/getaccounts.html">Get Accounts</a></li>
+				<li><a href="/hecc/support/kb/news/">User News</a></li>
+				<li><a href="/hecc/support/system_status.html">System Status</a></li>
+				<li><a href="/hecc/support/kb/161/">New User Orientation</a></li>
+				<li><a href="/hecc/support/kb/">User Documentation</a></li>
+			</ul>
+		</div>
+	</div>
+<nav id="secondary-nav" aria-label="secondary">
+		<ul>
+			<li class="jslink"><a data-fancybox="modal" data-src="#contactpop" href="javascript:;">Contact Us</a></li>
+			<li class="noscript"><a href="mailto:contact-nas@nas.nasa.gov?Subject=Contact%20From%20NAS%20Website&amp;CC=jill.a.dunbar@nasa.gov">Contact Us</a></li>
+			<li class="jslink"><a data-fancybox="modal" data-src="#feedbackpop" href="javascript:;">Site Feedback</a></li>
+			<li class="noscript"><a href="mailto:john.hardman@nasa.gov?Subject=NAS%20Website%20User%20Feedback&amp;CC=jill.a.dunbar@nasa.gov">Site Feedback</a></li>
+			<li><a href="/sitemap.html">Site Map</a></li>
+		</ul>
+</nav>	
+
+<div id="contactpop" class="modal" style="display:none;" role="dialog" aria-modal="true">
+	<div class="dialog-header">
+		<h2 id="contact-us">
+			Contact Us
+		</h2>
+	</div>
+	<div class="dialog-scroll">
+		<h3>
+			NASA Division Office
+		</h3>
+		<address> 
+		<p>
+			Phone: (650) 604-4502
+		</p>
+		<ul class="no-bullets">
+			<li><span class="email-name" data-first="Piyush" data-last="Mehrotra" data-name="piyush.mehrotra">Piyush Mehrotra</span>, Division Chief</li>
+			<li><span class="email-name" data-first="Donovan" data-last="Mathias" data-name="donovan.mathias">Donovan Mathias</span>, Deputy Division Chief</li>
+			<li><span class="email-name" data-first="Jaime" data-last="Martinez" data-name="jaime.j.martinez">Donovan Mathias</span>, Administrative Assistant</li>
+		</ul>
+		</address>
+		<h3>
+			General inquiries about the Division
+		</h3>
+		<address> Email: <a href="mailto:contact-nas@nas.nasa.gov">contact-nas@nas.nasa.gov</a> </address>
+		<h3>
+			Website-related issues or comments
+		</h3>
+		<address> Email: <span class="email-us" data-name="john.hardman">Please enable Javascript to see email address.</span></address>
+		<h3>
+			24x7 User Assistance
+		</h3>
+		<address> 
+		<ul class="no-bullets">
+			<li>Toll-free Phone: (800) 331-8737</li>
+			<li>Local Phone: (650) 604-4444</li>
+			<li>Email: <a href="mailto:support@nas.nasa.gov">support@nas.nasa.gov</a></li>
+		</ul>
+		</address>
+		<h3>
+			General comments or questions about NASA
+		</h3>
+		<address> Email: <a href="mailto:public-inquiries@nasa.gov">public-inquiries@nasa.gov</a> </address>
+	</div> <!-- /content-scroll -->
+</div> <!-- /contactpop -->
+
+
+<div id="feedbackpop" class="modal" style="display:none;" role="dialog" aria-modal="true">
+<h2 id="tell-us">Tell Us About It</h2>
+<p>We welcome your input on features and topics that you would like to see included on this website.</p>
+<p>Please <a href="mailto:john.hardman@nasa.gov?Subject=NAS%20Website%20User%20Feedback&amp;CC=jill.a.dunbar@nasa.gov">send us email</a> with your wish list and other feedback.</p>
+</div> <!-- /feedbackpop -->
+
+
+
+
+
+
+
+
+  <footer id="page-footer">
+      <div class="legal">
+     <img src="/assets/nas/images/template/NASA_logo.svg" width="80" alt="">
+	
+
+		<ul class="no-bullets">
+			
+			<li><a href="https://www.nasa.gov/centers/ames/home/index.html">Ames Website</a></li>
+   			<li><a href="https://www.nasa.gov/home">NASA Website</a></li>
+			<li><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy, Security, Notices</a></li>
+			<li><a href="/trademark.html">Trademark Notices</a></li>
+		</ul>
+		</div>
+ 
+
+  <ul class="credits no-bullets"> 
+    <address>
+	  <li>Editor: <span class="email-name" data-first="Jill" data-last="Dunbar" data-name="jill.dunbar">Jill Dunbar</span>
+	  </li>
+	  <li>Webmaster: <span class="email-name" data-first="John" data-last="Hardman" data-name="john.hardman">John Hardman</span>
+	  </li>
+	</address>
+	  <li>NASA Official: Piyush Mehrotra</li>
+	  <li>Last Updated: <time datetime="2023-09-15">September 15, 2023</time></li>
+  </ul>
+  
+  </footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/js/fallbacks/jquery-3.6.4.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.3/purify.min.js" integrity="sha512-TBmnYz6kBCpcGbD55K7f4LZ+ykn3owqujFnUiTSHEto6hMA7aV4W7VDPvlqDjQImvZMKxoR0dNY5inyhxfZbmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+if (typeof DOMPurify == 'undefined') {
+    document.write(unescape("%3Cscript src='/js/fallbacks/purify.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+<script type="text/javascript">
+if (typeof $.fancybox == 'undefined')  {
+    document.write(unescape("%3Cscript src='/js/fallbacks/jquery.fancybox-3.5.7.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+ 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+
+
+<script src="/js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="/js/nas_refresh_plugins.js"></script>
+<script src="/js/nas_refresh_main.js"></script>  
+  
+<script>
+ready(function() {
+    assembleEmail();
+    assembleEmailName();
+    assembleEmailOutside();  
+});
+</script>
+  
+
+</div>
+<!-- /container -->
+</body>
+</html>

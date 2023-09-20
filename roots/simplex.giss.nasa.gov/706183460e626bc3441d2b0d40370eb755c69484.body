@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<HEAD>
+  <TITLE>Simplex at NASA GISS</TITLE>
+  <meta name="description" content="GISS Model E General Circulation Model resource server. It contains documentation, source code viewer, bug tracking system and recent snapshots of the source code." />
+<meta name="orgcode" content="611" />
+<meta name="rno" content="Gavin.A.Schmidt.1" />
+<meta name="content-owner" content="Igor.Aleinov.1" />
+<meta name="webmaster" content="Igor.Aleinov.1" />
+
+  <script
+  id="_fed_an_ua_tag" 
+  src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=GISS&amp;dclink=true&amp;pua=UA-52099626-1"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="/css/simplex.css" media="all" />
+</HEAD>
+<BODY>
+
+<div style="width:100%;padding:10px">
+
+<div style="width:90%;padding:10px;background:#fff;margin:0 auto 0 auto;">
+
+<table class="header" role="presentation">
+<tr>
+  <td style="width:580px">
+    <img src="/images/GISS.png" alt="NASA GISS"
+         style="margin:0;width:580px;height:100px;border:0" usemap="#MapMap" /></td>
+  <td style="width:354px">
+    <a href="http://www.nasa.gov/">+ NASA Homepage</a><br>
+    <a href="http://www.giss.nasa.gov">+ NASA GISS Homepage</a>
+  </td>
+</tr>
+</table>
+
+<map name="MapMap">
+  <area shape="rect" coords="8,8,92,86" href="https://www.nasa.gov/" alt="NASA">
+  <area shape="rect" coords="92,35,580,60" href="https://www.giss.nasa.gov/" alt="Goddard Institute for Spce Studies">
+</map>
+
+
+  <H1 style="text-align:center">Welcome to SIMPLEX at NASA GISS</H1>
+
+ <H1 style="text-align:center"><i>***  U.S. Government Information Exchange Resource  ***</i></H1>
+
+<p>
+<!--
+              You have accessed a U.S. Government Resource.
+  This site is intended to be used by the public for information exchange.
+ Any attempt to modify or exploit this resource or associated information
+ other than for instructed use is strictly prohibited and may be punishable
+             under the Computer Fraud and Abuse Act of 1986.
+    The Government may monitor and audit the usage of this resource.
+All persons are hereby notified that use of this resource constitutes consent
+            for monitoring, keystroke recording, or auditing.
+-->
+WARNING! This is a US Government computer. This system is for
+the use of authorized users only. By accessing and using the
+computer system you are consenting to system monitoring,
+including the monitoring of keystrokes. Unauthorized use of, or
+access to, this computer system may subject you to disciplinary
+action and criminal prosecution.
+</p>
+
+<p>
+To enter GCM-related page please click 
+<A HREF="https://simplex.giss.nasa.gov/gcm" >here</A>.
+</P>
+
+
+
+<table class="footer" role="presentation">
+<tr>
+  <td style="width:150px">
+     <a href="http://www.nasa.gov/">
+     <img src="/images/nasa_foot1.gif" alt="NASA logo" style="width:51px;height:48px;border:0" /></a>
+  </td>
+
+  <td style="width:225px">
+     <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">
+     + Privacy Policy and important Notices</a>
+  </td>
+
+  <td style="width:294px">
+     Curator: <a href="http://www.giss.nasa.gov/staff/ialeinov.html">Igor Aleinov</a><br />
+     NASA Official: <a href="http://www.giss.nasa.gov/staff/gschmidt.html">Gavin A. Schmidt</a>
+  </tr>
+</table>
+
+
+
+
+</div>
+</div>
+
+
+
+</BODY>
+</HTML>

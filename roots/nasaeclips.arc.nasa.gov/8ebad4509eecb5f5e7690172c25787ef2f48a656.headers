@@ -1,0 +1,17 @@
+GET https://nasaeclips.arc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Upgrade: h2
+< X-Content-Type-Options: nosniff
+< Cache-Control: no-store, no-cache, must-revalidate, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, No-cache="set-cookie"
+< X-Frame-Options: SAMEORIGIN
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Server: 
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:02:39 GMT
+< Set-Cookie: eclips2_csrf_cookie_=e2a214c8a608ffa7363d192816d65fc9; expires=Tue, 19-Sep-2023 08:02:39 GMT; Max-Age=7200; path=/; secure; HttpOnly
+< Set-Cookie: eclips2_session_=p1858ltqvjs9c13g97je5mevc8r8drgr; path=/; secure; HttpOnly
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Type: text/html; charset=UTF-8
+< Pragma: no-cache, no-cache

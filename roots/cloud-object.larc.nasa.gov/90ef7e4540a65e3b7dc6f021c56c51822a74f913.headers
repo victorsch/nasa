@@ -1,0 +1,17 @@
+GET https://cloud-object.larc.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< X-Frame-Options: DENY
+< X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+< X-Powered-By: PHP/8.1.23
+< Expires: 0
+< X-Content-Type-Options: nosniff
+< Set-Cookie: 2ce94d619e7f7de38a5be91a95918253=269fb8da8b63a72798fe9479df19e042; path=/; HttpOnly; Secure; SameSite=None
+< Server: Apache
+< Cache-Control: no-cache, no-store, must-revalidate
+< Date: Tue, 19 Sep 2023 05:55:44 GMT
+< X-Xss-Protection: 1; mode=block
+< Pragma: no-cache
+< Content-Type: text/html; charset=UTF-8

@@ -1,0 +1,13 @@
+GET http://ftsdb.grc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Tue, 19 Sep 2023 06:00:48 GMT
+< Content-Type: text/html
+< X-Cache: Redirect from cloudfront
+< Via: 1.1 67d3f8867c3d6540e7495f9026c9c57a.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: ZIaVT96QFFmgpE5_Fg3TraQazt1U2LB5GvlkDOedSohwGfr0RvfzgQ==
+< Server: CloudFront
+< Content-Length: 167
+< Location: https://ftsdb.grc.nasa.gov/
+< X-Amz-Cf-Pop: JFK50-P8

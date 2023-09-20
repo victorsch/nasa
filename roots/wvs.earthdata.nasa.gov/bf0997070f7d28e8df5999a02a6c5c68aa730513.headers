@@ -1,0 +1,20 @@
+GET https://wvs.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:42:05 GMT
+< X-Xss-Protection: 1; mode=block
+< Last-Modified: Thu, 10 Aug 2023 17:51:47 GMT
+< X-Amz-Server-Side-Encryption: AES256
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Miss from cloudfront
+< X-Amz-Cf-Pop: PHL51-P1
+< Content-Type: text/html
+< Etag: W/"eef6148d0ebd9a87ca3c8c5d6f527f51"
+< Vary: Accept-Encoding
+< Server: ServerTokens ProductOnly
+< X-Request-Id: diuydtWU5lCsUBvX-SycMhEBhP9r_qeKsbkqR2Wls8O8KvkRq49X2g==
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 7b2c97c3ba7e37bdd32ec314e5554c74.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: diuydtWU5lCsUBvX-SycMhEBhP9r_qeKsbkqR2Wls8O8KvkRq49X2g==

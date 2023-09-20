@@ -1,0 +1,19 @@
+GET https://status.sit.earthdata.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Date: Tue, 19 Sep 2023 05:43:22 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Permitted-Cross-Domain-Policies: none
+< X-Runtime: 0.075239
+< Referrer-Policy: strict-origin-when-cross-origin
+< Etag: W/"b36940f7954be23fb52efeb1eb72b34e"
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/html; charset=utf-8
+< X-Download-Options: noopen
+< Cache-Control: max-age=0, private, must-revalidate
+< Set-Cookie: _downtime_session=VkdXUXhldG9aMDI5WGNrT2F6OHFUVW9IaFo0SC82dmdWZWZScXN6SDVzSGJtbTZoWjZ3Q3dHTTdwQStkSWZwcEtwM3p1TGlMRmE2aUl1bWJGU0l4RWtBOWIzV0dWT0RuRWlTYU9sd0YwYm1UbHlNNWNKU200YVBkRHVMRHlvQ2pvU3h4ekNvREdMNGlucUp5Y0tVSW13PT0tLVJha0c2ZFpLOU85cFh6dC9meTlLUEE9PQ%3D%3D--3190b30424b403e9e782e8387fb4dc909dff8b47; path=/; HttpOnly
+< Server: nginx/1.22.1
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< X-Request-Id: e5f880a1-7694-4cda-80fd-4d901c570166

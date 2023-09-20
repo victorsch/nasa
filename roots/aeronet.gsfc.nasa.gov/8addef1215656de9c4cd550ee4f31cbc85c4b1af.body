@@ -1,0 +1,693 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html LANG="en">
+<head>
+	<title>Aerosol Robotic Network (AERONET) Homepage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="title" content="Aerosol Robotic Network (AERONET) Homepage">
+<meta name="description" content="AERONET is an international federation of ground based sun and sky scanning radiometer networks which includes hundreds of instruments covering a large portion of Earth’s surface to provide measurements for aerosol research, satellite and atmospheric model validation, and synergy with other databases.">
+<meta name="orgcode" content="618">
+<meta name="rno" content="Pawan.Gupta.1">
+<meta name="content-owner" content="Ilya.Slutsker.1">
+<meta name="webmaster" content="Ilya.Slutsker.1">
+<!-- prevent search engines from using the Open Directory Project description -->
+<meta name="robots" content="NOODP"> 
+<!-- <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">  -->
+
+<link rel=stylesheet href="/new_web/styles.css" type="text/css">
+<link rel=stylesheet href="/new_web/styles2.css" type="text/css">
+<link rel=stylesheet href="/new_web/styles_data_buttons.css" type="text/css">
+<link rel="stylesheet" href="/modules/leaflet15.css"
+     crossorigin=""/>
+<script src="/modules/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+
+<style type="text/css">
+<!--
+.style1 {font-weight: bold}
+-->
+</style>
+
+ <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+//-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+<!-- Google Analytics required script -->
+<!-- <script id="_fed_an_js_tag" type="text/javascript" src="/js/federated-analytics.all.min.js?agency=NASA&subagency=GSFC&pua=UA-53781545-1"></script> -->
+
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;subagency=GSFC&amp;pua=UA-53781545-1"></script>
+
+ 
+ <style type="text/css">
+<!--
+.style1 {font-weight: bold}
+.style14 {font-weight: bold}
+.style16 {font-weight: bold}
+.style44 {font-weight: bold}
+.style60 {font-weight: bold}
+.style61 {font-weight: bold}
+.style62 {font-weight: bold}
+-->
+ </style>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 270px;
+			width: 540px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
+
+<meta name="google-site-verification" content="pFiSufF65RscjGWuz5VNY8Ck00mt9zXPZIJDLubIkn0">
+</head>
+<body onLoad="MM_preloadImages('images/sh1sn10_v3.gif','images/sh1sn11_v3.gif','images/sh1sn2_v3.gif','images/sh1sn3_v3.gif','images/sh1sn4_v3.gif','images/sh1sn5_v3.gif','images/sh1sn6_v3.gif','images/sh1sn7_v3.gif','images/sh1sn8_v3.gif','images/sh1sn9_v3.gif')" link="#006699" vlink="#006699" alink="#006699">
+<span class="style1"></span><!-- open table 1 -->
+<div align="center">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="750">
+<tr>
+	<td bgcolor="#000000" width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+	<td bgcolor="#000000" width="730"><img_src="/images/shim.gif" alt="" width="730" height="10"></td>
+	<td bgcolor="#000000" width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+</tr>
+<tr>
+	<td width="10"><a href="#content"><img_src="/images/shim.gif" alt="Skip all navigation and jump to content" width="10" height="10" border="0"></a></td>
+	<td width="730"><a href="#site"><img_src="/images/shim.gif" alt="Jump to site navigation" width="730" height="10" border="0"></a></td>
+	<td width="10"><a href="#content"><img_src="/images/shim.gif" alt="Jump to section navigation." width="10" height="10" border="0"></a></td>
+</tr>
+<tr>
+	<td width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+	<td align="center">
+	<!-- open table 2 -->
+	<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="730">
+	<tr> 
+		<td bgcolor="#ffffff">
+		<!-- open header table 1 -->
+			 <table bgcolor="#cccccc" border="0" cellpadding="0" cellspacing="0" width="730">
+			<tr>
+    			<td width="549"><img src="/new_web/images/header-wide.gif" alt="NASA Logo - Goddard Space Flight Center" border="0" width="549" height="52" usemap="#Map"></td>
+    			<td width="181" align="center" valign="middle"><a href="http://www.nasa.gov" class="navLnkBlack">+
+        Visit NASA.gov</a>
+      <map name="Map">
+           <area shape="circle" alt="region to select the NASA home page" coords="28,26,20" href="http://www.nasa.gov" target=_blank>
+           <area shape="rect" alt="region to select the NASA GSFC home page" coords="56,3,545,49" href="http://www.nasa.gov/centers/goddard/home/index.html" target=_blank>
+        </map>
+			</td>
+			</tr>
+			</table>
+
+		<!-- close header table 1 -->
+		
+		</td>
+	</tr>
+	<tr>
+		<td width="730"><img_src="/images/shim.gif" alt="" width="730" height="5"></td>
+	</tr>
+	<tr> 
+		<td bgcolor="#ffffff">
+		<!-- open header table 2 -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" align="left">
+		<tr align="left">
+			<td align="center" colspan="6"><img src="/images/aeronet_banner2.gif" width="730" height="100" border="0" alt="Aerosol Robotic Network (AERONET)"></td>
+		</tr>
+		<tr bgcolor="#ffffff">
+			<td width="730" colspan="6"><a name="site"><img_src="/images/shim.gif" width="730" height="5" border="0" alt=""></a></td>
+		</tr>
+		<!-- BEGIN SITE NAVIGATION --------------------------------- BEGIN SITE NAVIGATION -->
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr bgcolor="#666666">
+ <td align="left" width="179"><a href="/new_web/aerosols.html" title="Direct sun measurement products including Aerosol Optical Depth (AOD)" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sitenav1','','/images/sitenav1_v3.gif',1)"><img name="sitenav1" width="179" height="25" border="0" src="/images/sitenav1_v2.gif" alt="AEROSOL OPTICAL DEPTH"></a></td>
+ <td align="left" width="179">
+			<a href="/new_web/optical_properties.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sitenav2','','/images/sitenav2_v3.gif',1)" title="Aerosol inversion products such as size distribution, single scattering albedo and phase functions"><img name="sitenav2" width="179" height="25" border="0" src="/images/sitenav2_v2.gif" alt="AEROSOL INVERSIONS"></a></td>
+ <td align="left" width="114">
+			<a href="http://solrad-net.gsfc.nasa.gov" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sitenav3','','/images/sitenav3_v3.gif',1)" title="Solrad-Net pyranometer and PAR flux data"><img name="sitenav3" width="114" height="25" border="0" src="/images/sitenav3_v2.gif" alt="SOLAR FLUX"></a></td>
+ <td align="left" width="114">
+			<a href="/new_web/ocean_color.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sitenav4','','/images/sitenav4_v3.gif',1)" title="Normalized water-leaving radiances"><img name="sitenav4" width="114" height="25" border="0" src="/images/sitenav4_v2.gif" alt="OCEAN COLOR"></a></td>
+<td align="left" width="144">
+			<a href="/new_web/maritime_aerosol_network_v3.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sitenav9','','/images/sitenav9_v3.gif',1)" title="Aerosol optical depth measurements using Microtops sun photometers on ship cruises"><img name="sitenav9" width="144" height="25" border="0" src="/images/sitenav9_v2.gif" alt="Maritime Aerosol Network"></a></td>
+</tr>
+<tr><td align = center bgcolor = #DDDDDD><strong>Web Site Feature</strong></td><td colspan = 4 align=center bgcolor=#DDDDDD><strong><a href="/new_web/synergism.html">AERONET Data Synergy Tool</a> - Access Earth Science data sets for AERONET sites</strong></td></tr>
+
+		<!-- END SITE NAVIGATION ------------------------------------- END SITE NAVIGATION -->
+		<!-- close header table 2 -->
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="730"><img_src="/images/shim.gif" alt="" width="730" height="5"></td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<!-- open table 3 -->
+		<table border="0" cellpadding="0" cellspacing="0" width="730">
+		<tr>
+			<td valign="top">
+			<!-- open navbar table 1 -->
+			<table border="0" cellpadding="0" cellspacing="0" width="179">
+			<!-- BEGIN SECTION HEADING --------------------------------- BEGIN SECTION HEADING -->
+			<tr>
+				<td bgcolor="006699">
+				<!-- open navbar table 2 -->
+				<table border="0" cellpadding="0" cellspacing="0" width="179">
+				<tr>
+					<td><img_src="/images/shim.gif" width="179" height="10" border="0" alt=""></td>
+				</tr>					
+				<tr>
+					<td><p><a href="index.html" class="sectionLnk">&nbsp;&nbsp;-Home</a></p>
+					  <p><a name="form">&nbsp;</a></p></td>
+				</tr>
+				<tr>
+					<td><img src="/images/home.gif" width="179" height="35" border="0" alt="Aerosols"></td>
+				</tr>
+				<!-- close navbar table 2 -->
+				</table></td>
+			</tr>
+			<!-- END SECTION HEADING ------------------------------------- END SECTION HEADING -->
+			<!-- BEGIN SECTION NAVIGATION --------------------------- BEGIN SECTION NAVIGATION -->
+				
+				
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+<tr>
+<td align="left" width="179"><a href="/new_web/networks.html" title="Aerosol and Flux Networks" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn6_v2.gif','','/images/sh1sn6_v3.gif',1)"><img name="sh1sn6_v2.gif" border="0" src="/images/sh1sn6_v2.gif" alt="AEROSOL/FLUX NETWORKS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/campaigns.html" title="Field Campaigns with AERONET participation" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn4_v2.gif','','/images/sh1sn4_v3.gif',1)"><img name="sh1sn4_v2.gif" border="0" src="/images/sh1sn4_v2.gif" alt="CAMPAIGNS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/collaborators.html" title="Significant collaborating organizations" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn5_v2.gif','','/images/sh1sn5_v3.gif',1)"><img name="sh1sn5_v2.gif" border="0" src="/images/sh1sn5_v2.gif" alt="COLLABORATORS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/data.html" title="Analysis tools, data usage, and special requests" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn12_v2.gif','','/images/sh1sn12_v3.gif',1)"><img name="sh1sn12_v2.gif" border="0" src="/images/sh1sn12_v2.gif" alt="DATA" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/logistics.html" title="Manuals, Setup Tools, PC Data Transfer and Shipping" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn7_v2.gif','','/images/sh1sn7_v3.gif',1)"><img name="sh1sn7_v2.gif" border="0" src="/images/sh1sn7_v2.gif" alt="LOGISTICS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/nasa_projects.html" title="Related NASA organizations, missions and data sources" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn8_v2.gif','','/images/sh1sn8_v3.gif',1)"><img name="sh1sn8_v2.gif" border="0" src="/images/sh1sn8_v2.gif" alt="NASA PROJECTS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/operations.html" title="Data transfer, calibration and instrument status" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn2_v2.gif','','/images/sh1sn2_v3.gif',1)"><img name="sh1sn2_v2.gif" border="0" src="/images/sh1sn2_v2.gif" alt="OPERATIONS" height="26" width="179"></a></td>
+</tr>
+<tr>
+ <td align="left" width="179"><a href="/new_web/publications.html" title="AERONET journal publications and quarterly reports" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn3_v2.gif','','/images/sh1sn3_v3.gif',1)"><img name="sh1sn3_v2.gif" border="0" src="/images/sh1sn3_v2.gif" alt="PUBLICATIONS" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/site_info_v3" title="AERONET site photos; prinicple investigator and site manager information" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn9_v2.gif','','/images/sh1sn9_v3.gif',1)"><img name="sh1sn9_v2.gif" border="0" src="/images/sh1sn9_v2.gif" alt="SITE INFORMATION" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/contacts.html" title="AERONET staff located at NASA GSFC" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn11_v2.gif','','/images/sh1sn11_v3.gif',1)"><img name="sh1sn11_v2.gif" border="0" src="/images/sh1sn11_v2.gif" alt="STAFF" height="26" width="179"></a></td>
+</tr>
+<tr>
+<td align="left" width="179"><a href="/new_web/system_descriptions.html" title="A description of AERONET operational and research activities" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sh1sn10_v2.gif','','/images/sh1sn10_v3.gif',1)"><img name="sh1sn10_v2.gif" border="0" src="/images/sh1sn10_v2.gif" alt="SYSTEM DESCRIPTION" height="26" width="179"></a></td>
+</tr>
+
+
+				
+				
+  <tr>
+    <td align="left" bgcolor="#FFFFFF">&nbsp;</td>
+</tr>
+<tr>
+    <td align="left" width="179"><span class="detailBodyItem"><strong>AERONET DATA ACCESS</strong></span></td>
+</tr>
+<tr>
+
+<td bgcolor=#FFFFFF>
+<ul id="data_sources" class="bold">
+<lh> DATA SYNERGY TOOL</lh>
+<li><a href="/cgi-bin/bamgomas_interactive" title="Access the data synergy display" class="sectionLnk">+ Data Display</a></li>
+</ul>
+<ul id="data_sources" class="bold"> 
+<lh> AEROSOL OPTICAL DEPTH (V3)-SOLAR</lh>
+<li><a href="/cgi-bin/draw_map_display_aod_v3" title="Version 3 Direct Sun Product Display" class="sectionLnk">+ Data Display</a></li>
+<li><a href="/cgi-bin/webtool_aod_v3" title="Version 3 Direct Sun Product Download Tool (specific sites)" class="sectionLnk">+ Download Tool</a></li>
+<li><a href="/new_web/download_all_v3_aod.html" title="Version 3 Direct Sun Product Download Tool (all sites and times)" class="sectionLnk">+ Download All Sites</a></li>
+<li><a href="/cgi-bin/climo_menu_new_v3" title="Version 3 AOD Climatology Tables" class="sectionLnk">+ Climatology Tables</a></li>
+<li><a href="/cgi-bin/print_web_data_v3" title="Version 3 AOD Web Service" class="sectionLnk">+ Web Service</a></li>
+</ul>
+<ul id="data_sources" class="bold">
+<lh> AEROSOL INVERSIONS (V3)</lh>
+<li><a href="/cgi-bin/draw_map_display_inv_v3" title="Version 3 Inversion Product Display" class="sectionLnk">+ Data Display</a></li>
+<li><a href="/cgi-bin/webtool_inv_v3" title="Version 3 Inversion Product Download Tool" class="sectionLnk">+ Download Tool</a></li>
+<li><a href="/new_web/download_all_v3_inversions.html" title="Version 3 Inversion Download All Sites and Times" class="sectionLnk">+ Download All Sites</a></li>
+<li><a href="/cgi-bin/print_web_data_inv_v3" title="Version 3 Inversion Web Service" class="sectionLnk">+ Web Service</a></li>
+</ul>
+<ul id="data_sources" class="bold">
+<lh> SOLAR FLUX</lh>
+<li><a href="https://solrad-net.gsfc.nasa.gov/cgi-bin/type_piece_of_map_flux?long1=-180&long2=180&lat1=-90&lat2=90&multiplier=2&what_map=4&nachal=1&formatter=0&level=1&shef_code=P" title="Pyranometer and Flux Data Display" class="sectionLnk">+ Data Display</a></li> 
+</ul>
+<ul id="data_sources" class="bold">
+<lh> OCEAN COLOR</lh>
+<li><a href="/cgi-bin/draw_map_display_seaprism_v3" title="Normalized Water-leaving Radiance Data Display and Download" class="sectionLnk">+ V3 Data Display</a></li>
+<li><a href="/cgi-bin/print_web_data_v3" title="Version 3 LWN Web Service" class="sectionLnk">+ V3 Web Service</a></li>
+<li><a href="/new_web/download_all_v3_lwn.html" title="Version 3 Normalized Water-leaving Radiance Download Tool (all sites and times)" class="sectionLnk">+ Download All Sites</a></li>
+</ul>
+<ul id="data_sources" class="bold">
+<lh> LUNAR AOD (V3) - PROVISIONAL</lh>
+<li><a href="/cgi-bin/draw_map_display_aod_v3_lunar" title="Provisional Lunar AOD Data Product Display" class="sectionLnk">+ Data Display</a></li>
+<li><a href="/cgi-bin/webtool_aod_v3_lunar" title="Provisional Lunar AOD Data Download Tool" class="sectionLnk">+ Download Tool</a></li>
+<li><a href="/cgi-bin/print_web_data_v3" title="Version 3 AOD Web Service" class="sectionLnk">+ Web Service</a></li>
+</ul>
+<ul id="data_sources" class="bold">
+<lh> ZENITH RADIANCE (V3)</lh>
+<li><a href="/cgi-bin/print_web_data_zenith_radiance_v3?" title="Zenith Radiance Web Service" class="sectionLnk">+ Web Service</a></li>
+<lh> CLOUD MODE (V2) - PROVISIONAL</lh>
+<li><a href="/cgi-bin/type_piece_of_map_cloud" title="Cloud Mode Data Display" class="sectionLnk">+ Data Display</a></li>
+</ul>
+</td>
+</tr>
+<tr><td bgcolor="#FFFFFF">&nbsp;</td></tr>
+<tr>
+<td bgcolor="#FFFFFF"><table width="100%"  border="0">
+  <tr>
+    <td bgcolor="CCCCCC"><table width="100%"  border="0">
+      <tr>
+        <th bgcolor="#FFFFFF"><div align="left">AERONET Site Lists (V3)</div></th>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF"><p><a href="https://aeronet.gsfc.nasa.gov/aeronet_locations_v3.txt" title="Download the latest AERONET site list in text format"><strong>+ Text Format</strong></a> </p></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF"><p><a href="https://aeronet.gsfc.nasa.gov/aeronet_sites_v3.kmz" title="Download the AERONET KMZ file (Google Earth must be installed)"><strong>+ Google Earth Format </strong></a></p></td>
+      </tr>
+  <tr>
+        <td bgcolor="#FFFFFF"><p><a href="https://aeronet.gsfc.nasa.gov/Site_Lists_V3/site_index.html" title="View all available AERONET Site Lists"><strong>+ All Lists </strong></a></p>
+</td>
+      </tr>
+
+    </table></td>
+  </tr>
+</table>
+  </td>
+</tr>
+
+			<!-- END SECTION NAVIGATION ------------------------------- END SECTION NAVIGATION -->
+			<!-- close navbar table 1 -->
+		   </table>			</td>
+			<td><a name="content"><strong><img_src="/images/shim.gif" width="15" height="1" alt="" border="0"></strong></a></td>
+			<!-- BEGIN CONTENT ------------------------------------------------- BEGIN CONTENT -->
+			<td valign="top">
+			<strong>
+			<!-- open table 4 -->
+			</strong>
+			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="536">
+			  <tr>
+			    <td colspan="3">&nbsp;</td>
+			    </tr>
+			  
+			<!-- BEGIN TITLE HEADING ------------------------------------- BEGIN TITLE HEADING -->
+			
+			<tr bgcolor="#ffffff">
+				<td width="100" colspan="3"><strong><img_src="/images/sh1th1.gif" width="536" height="15" border="0" alt="MISSION"></strong></td>
+			</tr>
+			<tr bgcolor="#CCCCCC"><td colspan="3">&nbsp;</td></tr>
+			<!-- END TITLE HEADING ----------------------------------------- END TITLE HEADING -->
+			<tr><td colspan="3" class="style14"><div align="center">
+
+
+
+
+ 
+          <p align="justify">
+          The AERONET (AErosol RObotic NETwork) program is a federation of ground-based remote sensing aerosol networks established by 
+          <a href="https://www.nasa.gov">NASA</a> and <a href="https://www-loa.univ-lille1.fr/photons">PHOTONS</a> 
+          (PHOtom&eacute;trie pour le Traitement Op&eacute;rationnel de Normalisation Satellitaire; <a href="http://www.univ-lille1.fr/">Univ. of Lille 1</a>,
+          <a href="http://www.cnes.fr">CNES</a>, and <a href="http://www.cnrs.fr/">CNRS-INSU</a>) and is greatly expanded by networks 
+          (e.g., <a href="https://www.caelis.uva.es/rima/">RIMA</a>, 
+          <a href="https://research.csiro.au/acc/capabilities/aerospan/">AeroSpan</a>, 
+          <a href="http://www.aerocanonline.com/">AEROCAN</a>, <a href=https://www.neonscience.org/>NEON</a>, and CARSNET) 
+          and <a href="/new_web/collaborators.html">collaborators</a> from national agencies, institutes, universities, individual scientists, 
+          and partners. For more than 25 years, the project has provided long-term, 
+          continuous, and readily accessible public domain database of aerosol optical, 
+          microphysical and radiative properties for aerosol research and characterization, validation of satellite retrievals, 
+          and synergism with other databases. The network imposes standardization of <a href="/new_web/system_descriptions_instrument.html">instruments</a>, 
+          <a href="/new_web/system_descriptions_calibration.html">calibration</a>, <a href="/new_web/system_descriptions_processing.html">processing</a> and 
+          <a href="/new_web/system_descriptions_distribution.html">distribution</a>.
+           <br>
+			    <br> 
+
+
+          
+
+          AERONET collaboration provides globally distributed observations of spectral aerosol optical depth (AOD),
+           inversion products, and precipitable water in diverse aerosol regimes. 
+           Version 3 AOD data are computed for three data quality levels: Level 1.0 (unscreened), 
+           Level 1.5 (cloud-screened and quality-controlled), and Level 2.0 (quality-assured). Inversions, precipitable water, and other 
+           AOD-dependent products are derived from these levels and may implement additional quality checks. 
+           <br>
+			    <br>
+				
+        The AERONET - Ocean Color <a href="/new_web/ocean_color.html">(AERONET-OC)</a> is another component of the AERONET program, 
+				provides the additional capability of measuring the radiance emerging from the sea (i.e., 
+				normalized water-leaving radiance) with sun-photometers installed on offshore platforms like lighthouses, 
+				oceanographic and oil towers. 
+				Similarly, the Maritime Aerosol Network <a href="/new_web/maritime_aerosol_network_v3.html">(MAN)</a> 
+				component of the AERONET program provides ship-borne aerosol 
+				optical depth measurements from the Microtops II sun photometers. 
+				These instruments have been deployed periodically on ships of opportunity and research vessels 
+				to monitor aerosol properties over the World¿s Oceans. 
+				The Solar Radiation Network <a href="https://solrad-net.gsfc.nasa.gov/">(SolRad-Net)</a> provides high-frequency solar 
+				flux measurements and is collocated with AERONET sites.
+        <br>
+        <br>
+
+
+        The processing algorithms have evolved from Version 1.0 to Version 2.0 and now Version 3.0. 
+        The Version 3 databases are available from the AERONET and PHOTONS web sites. 
+        Version 2 data may be downloaded from the web site through 2018 and thereafter upon <a href="/new_web/data.html">special request</a>. 
+        New AERONET products will be released as new measurement techniques and algorithms are adopted and validated by the AERONET research community. 
+        The AERONET website also provides AERONET-related news, a description of research and operational activities, <a href="/cgi-bin/bamgomas_interactive">data visualization</a>, 
+        web services, related Earth Science links, and an AERONET staff directory.
+        <br>
+			  <br>
+
+
+
+			  
+        <a href="/new_web/system_descriptions.html" title="Visit the AERONET system description for more information">+ Read More</a><br> <br>
+
+			          </p>
+			  </div></td></tr>
+			<tr>
+			  <td colspan="3" class="style16"><div align="center">
+
+
+
+
+<div id="map" style="width: 540px; height: 270px;">
+<script type="text/javascript" src="/new_web/embeds/sites_index.js"></script>
+
+
+</div></td>
+			  </tr>
+
+<!-- BEGIN TITLE HEADING ------------------------------------- BEGIN TITLE HEADING -->
+			<tr bgcolor="#ffffff">
+				<td width="100" colspan="3"> <br><strong><img_src="/images/sh1th2.gif" width="536" height="15" border="0" alt="NEWS"></strong></td>
+			</tr>
+			<tr valign="top" bgcolor="#CCCCCC">
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td valign="top">&nbsp;</td>
+			  </tr>
+                        <tr valign="top">
+                          <th colspan="3">&nbsp;</th>
+                          </tr>
+
+			<tr> 
+			<td>
+                        <p align="center"><span class=bold>ANNOUNCEMENTS</span></p>
+			</td>
+			</tr>
+                        <tr valign="top">
+                          <th colspan="3">&nbsp;</th>
+                          </tr>
+
+			<tr valign="top">
+	      <th colspan="3"><strong>26 July 2023</strong></th>
+			</tr>
+			<tr valign="top">
+	      <td colspan="3"><ul>
+<p>The AERONET-OC data (Normalized Water Leaving Radiance) procedure of raising from Level 1.5 to Level 2.0 changed starting on July 2023.
+Previously expert-based quality control procedure (Zibordi et al. 2021) was applied to the qualified data (with final calibration and corresponding Level 2 AOD).
+Now the automated quality control procedure (Zibordi et al. 2022) is applied to all data not formerly quality controlled by March 2022 and upcoming data.</p></ul><td></tr>
+	      <tr valign="top">
+              <td colspan="3"><ul>
+<p>Zibordi, G., Holben, B. N., Talone, M., D'Alimonte, D., Slutsker, I., Giles, D. M., & Sorokin, M. G. (2021). Advances in the ocean color component of the aerosol robotic network (AERONET-OC). <i>Journal of Atmospheric and Oceanic Technology, 38</i>(4), 725-746.</p></ul></td></tr>
+	      <tr valign="top">
+	      <td colspan="3"><ul>
+<p>Zibordi, G., D'Alimonte, D., & Kajiyama, T. (2022). Automated Quality Control of AERONET-OC LWN Data. <i>Journal of Atmospheric and Oceanic Technology, 39</i>(12), 1961-1972.</p></ul></td></tr>
+			<tr valign="top">
+              <th colspan="3"><strong>10 November 2021</strong></th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3"><div align="center"><strong> <a href="https://svs.gsfc.nasa.gov/31171">+ NASA Hyperwall AERONET presentation at COP26</a></strong> <br>
+              </div></th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3">&nbsp;</th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3"><strong>23 July 2019</strong></th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3"><strong><a href="new_web/DRAGON-FIREX-AQ_2019.html">+ DRAGON FIREX-AQ</a></strong></th>
+			  </tr>
+			<tr valign="top">
+			  <th colspan="3">&nbsp;</th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3"><strong>12 February 2019</strong></th>
+			  </tr>
+			<tr valign="top">
+			  <th colspan="3"><strong><a href="new_web/Documents/New_AERONET_Products-U27_and_Provisional_Lunar_AOD.pdf">+ Inversion Uncertainty Estimates and Provisional Lunar AOD Announcement</a></strong></th>
+			  </tr>
+			<tr valign="top">
+			  <th colspan="3">&nbsp;</th>
+			  </tr>
+			<tr valign="top">
+			  <th colspan="3"><strong>11 January 2019</strong></th>
+			  </tr>
+			<tr valign="top">
+              <th colspan="3"><strong><a href="https://www.atmos-meas-tech.net/12/169/2019/">+AERONET Version 3 manuscript published in Atmospheric Measurement Techniques</a></strong></th>
+			  </tr>
+			<tr valign="top">
+			  <th colspan="3">&nbsp;</th>
+			  </tr>
+			<tr valign="top">
+                          <th colspan="3">&nbsp;</th>
+                          </tr>
+
+			<!-- END TITLE HEADING ----------------------------------------- END TITLE HEADING -->
+			<tr>
+			  <td colspan="3" align="center"><strong><a href="/new_web/announce.html" title="View archive of AERONET announcements">+ More Announcements</a></strong></td>
+			  </tr>
+			<tr>
+				<td width="100" colspan="3">&nbsp;</td>
+			</tr>
+			<!-- BEGIN TITLE HEADING ------------------------------------- BEGIN TITLE HEADING -->
+			<!-- END TITLE HEADING ----------------------------------------- END TITLE HEADING -->
+			<!-- BEGIN TITLE HEADING ------------------------------------- BEGIN TITLE HEADING -->
+			<tr bgcolor="#ffffff">
+				<td width="100" colspan="3"><strong><img_src="/images/sh1th4.gif" width="536" height="15" border="0" alt="FEATURES"></strong></td>
+			</tr>
+			<tr valign="top" bgcolor="#CCCCCC">
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  </tr>
+			<tr valign="top">
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  <td>&nbsp;</td>
+			  </tr>
+
+			<tr>
+			<td>
+
+			<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+			* {
+  			box-sizing: content-box;
+			}
+
+			/* Create two equal columns that floats next to each other */
+			.col1 {
+ 			 float: left;
+			 width: 60%;
+ 			 padding: 0px;
+			}
+
+			.col2 {
+			 float: left;
+			 width: 40%;
+			 padding: 0px;
+			}
+			
+			/* Clear floats after the columns */
+			.row:after {
+ 			content: "";
+  			display: table;
+  			clear: both;
+			}
+			</style>
+			</head>
+
+			<body>
+			<p align="center"><span class=bold>Aerosol Optical Depths during 2023 Canadian Wildfires</span></p>
+			<div class="row">
+                         <div class="col1">
+                           <p align="left"><img src="/images/read_map_orthographic.gif" width="300" height="270" alt="Read and Map AERONET Data Ortho"></p>
+                           <p align="left"><a href="https://aeronet.gsfc.nasa.gov/images/read_map_orthographic.gif"><span class=bold>+View Full Size</span></a></p> 
+ 			  </div>
+  			 <div class="col2">
+                          <p>The ongoing 2023 Canadian wildfires, which started at the beginning of March and peaked during the month of June, have released massive amounts of aerosols and gases in the atmosphere that darkened the skies of major cities in eastern North America, such as Chicago, Washington D.C., New York City, and Montreal. The AERONET network in North America is monitoring and making continuous measurements of atmospheric aerosols, which can help understand their influence on local and regional air quality and their longer-term impact on climate. AERONET maintains a wide array of evenly distributed sun photometer sites with instruments that record optical depths and publish those measurements in near real-time. The animated map shows the daily average aerosol optical depth (AOD) at 500 nm from June 26th to July 2nd, 2023, measured across AERONET sites in the contiguous United States and southern Canada.</p>
+                         </div>
+                        </div>
+			</body>
+			
+			<!-- END TITLE HEADING ----------------------------------------- END TITLE HEADING -->
+			<tr>
+				<td width="100" colspan="3">&nbsp;</td>
+			</tr>
+			<tr><td colspan="3"><strong><br />
+			</strong></td></tr>
+			
+			<!-- close table 4 -->
+			</table>			</td>
+			<!-- END CONTENT ----------------------------------------------------- END CONTENT -->
+		</tr>
+		<!-- close table 3 -->
+		</table>
+		</td></tr>
+	<!-- BEGIN FOOTER --------------------------------------------------- BEGIN FOOTER -->
+	<tr>
+		<td width="730"><img_src="/images/shim.gif" alt="" width="730" height="5"></td>
+	</tr>
+	<tr align="left" bgcolor="#cccccc">
+		<td>
+		<!-- open footer table 1 -->
+ <table bgcolor="#cccccc" cellpadding="4" cellspacing="0" width="100%" border="0">
+		<tr>
+			<td valign="middle" align="left" width="150">&nbsp;</td>
+			<td width="225"><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">+ Privacy Policy and Important Notices</a></td>
+			<td width="61">
+			<a href="http://www.nasa.gov/home/index.html"><img src="/images/footer_nasalogo.gif" alt="NASA" width="61" height="40" border="0"></a></td>
+			<td width="294" valign="top">
+			Curator: <a href="mailto:Ilya.Slutsker-1@nasa.gov">Ilya Slutsker</a><br>
+			NASA Official: <a href="mailto:pawan gupta@nasa.gov">Pawan Gupta</a><br>
+			Last Updated: 
+
+ 
+ July 27, 2023
+</td></tr></table>
+		<!-- close footer table 1 -->
+	  </td>
+	</tr>
+	<!-- END FOOTER ------------------------------------------------------- END FOOTER -->
+	<!-- close table 2 -->
+  </table>
+	</td>
+	<td width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+</tr>
+<tr>
+	<td width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+	<td width="730"><img_src="/images/shim.gif" width="730" height="10" border="0" alt=""></td>
+	<td width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+</tr>
+<tr>
+	<td bgcolor="#000000" width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+	<td bgcolor="#000000" width="730"><img_src="/images/shim.gif" alt="" width="730" height="10"></td>
+	<td bgcolor="#000000" width="10"><img_src="/images/shim.gif" alt="" width="10" height="1"></td>
+</tr>
+<!-- close table 1 -->
+</table></div>
+</body>
+</html>
+

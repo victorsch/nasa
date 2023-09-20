@@ -1,0 +1,11 @@
+GET https://gis.larc.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Server: Apache
+< Content-Security-Policy: frame-ancestors self
+< Strict-Transport-Security: max-age=31536000
+< Location: https://gis.larc.nasa.gov/basestation/
+< Content-Length: 246
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Tue, 19 Sep 2023 05:59:50 GMT

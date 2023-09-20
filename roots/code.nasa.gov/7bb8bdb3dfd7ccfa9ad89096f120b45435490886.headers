@@ -1,0 +1,16 @@
+GET https://code.nasa.gov
+
+
+< HTTP/1.1 200 OK
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Upgrade: h2
+< Last-Modified: Mon, 01 May 2023 23:46:01 GMT
+< X-Content-Type-Options: nosniff
+< Content-Length: 3795
+< X-Xss-Protection: 1; mode=block
+< Date: Tue, 19 Sep 2023 06:06:06 GMT
+< Etag: "ed3-5faaa6cdc7142"
+< Accept-Ranges: bytes
+< Content-Type: text/html; charset=UTF-8

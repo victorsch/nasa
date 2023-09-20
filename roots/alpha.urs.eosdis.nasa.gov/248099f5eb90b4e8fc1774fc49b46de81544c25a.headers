@@ -1,0 +1,8 @@
+GET https://alpha.urs.eosdis.nasa.gov
+
+
+< HTTP/1.0 301 Moved Permanently
+< Location: https://sit.urs.earthdata.nasa.gov/
+< Server: BigIP
+< Connection: close
+< Content-Length: 0

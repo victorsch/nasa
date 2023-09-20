@@ -1,0 +1,15 @@
+GET https://ncad.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< X-Amz-Cf-Id: abfopXSjB01zaJdkLvF85J2OfBOSuOQWdW2djgCYfpfbtfx_hSvKKw==
+< Content-Length: 64
+< Location: https://ncadinternal.nasa.gov
+< Strict-Transport-Security: max-age=31536000
+< X-Cache: Miss from cloudfront
+< Via: 1.1 52b969a4ab7956a248b07efba57c92a4.cloudfront.net (CloudFront)
+< X-Amz-Cf-Pop: EWR53-P1
+< Content-Type: text/html; charset=utf-8
+< Date: Tue, 19 Sep 2023 05:56:28 GMT
+< Server: goredirect/2013.08.12
+< X-Last-Reviewed: Wed, 26 Mar 2014

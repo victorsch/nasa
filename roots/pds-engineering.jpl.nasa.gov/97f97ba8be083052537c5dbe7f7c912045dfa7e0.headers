@@ -1,0 +1,9 @@
+GET http://pds-engineering.jpl.nasa.gov
+
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 134
+< Location: https://pds-engineering.jpl.nasa.gov:443/
+< Server: awselb/2.0
+< Date: Tue, 19 Sep 2023 06:05:48 GMT
+< Content-Type: text/html

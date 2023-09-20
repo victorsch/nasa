@@ -1,0 +1,1102 @@
+<!doctype html>
+<!--[if !IE]>
+<html class="no-js non-ie" > <![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" > <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" > <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" > <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" > <!--<![endif]-->
+    <head>
+
+        <meta charset="UTF-8"/>
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' /> 
+
+        <title>Terra &#124; The EOS Flagship</title>
+
+        <link rel="profile" href="http://gmpg.org/xfn/11"/>
+
+        <link rel="icon" 
+              type="image/ico" 
+              href="https://terra.nasa.gov/favicon.ico" />
+        <link rel="shortcut icon" 
+              type="image/x-icon"
+              href="https://terra.nasa.gov/wp-content/themes/TerraResponsiveChild/favicon.ico" /> 
+
+        <title>Terra &#8211; The EOS Flagship</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Terra &raquo; Feed" href="https://terra.nasa.gov/feed" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/terra.nasa.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='terraFeatures-css' href='https://terra.nasa.gov/wp-content/plugins/terra-rss-features/css/terraFeatures.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://terra.nasa.gov/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--button-color: #1874cd;--wp--preset--color--button-hover-color: #7db7f0;--wp--preset--color--button-hover-text-color: #333333;--wp--preset--color--button-text-color: #ffffff;--wp--preset--color--responsive-container-background-color: ;--wp--preset--color--responsive-main-container-background-color: ;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='responsive-style-css' href='https://terra.nasa.gov/wp-content/themes/responsive/core/css/style.min.css?ver=3.40' type='text/css' media='all' />
+<style id='responsive-style-inline-css' type='text/css'>
+.has-button-color-color { color: #1874cd; }.has-button-color-background-color { background-color: #1874cd; }.has-button-hover-color-color { color: #7db7f0; }.has-button-hover-color-background-color { background-color: #7db7f0; }.has-button-hover-text-color-color { color: #333333; }.has-button-hover-text-color-background-color { background-color: #333333; }.has-button-text-color-color { color: #ffffff; }.has-button-text-color-background-color { background-color: #ffffff; }
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			text-transform: inherit;
+			letter-spacing: 0px;
+			color: #575757;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			box-sizing: border-box;
+			font-size: 14px;
+		}
+		h1,h2,h3,h4,h5,h6,
+		.theme-heading,
+		.widget-title,
+		.responsive-widget-recent-posts-title,
+		.comment-reply-title,
+		.entry-title a,
+		entry-title,
+		.sidebar-box,
+		.widget-title,
+		.site-title a, .site-description {
+			font-family: Arial, Helvetica, sans-serif;
+			text-transform: inherit;
+			letter-spacing: 0px;
+			color: #333333;
+			font-weight: 700;
+			line-height: 1.4;
+			font-style: normal;
+		}
+		a, .post-meta {
+			color: #0066cc;
+		}
+		a:hover, post-meta:hover {
+			color: #10659c;
+		}
+
+		input[type=text], input[type=email], input[type=password], input[type=search], .widget-wrapper input[type=search], .widget-wrapper input[type=email], .widget-wrapper input[type=password], .widget-wrapper input[type=text], .widget-wrapper select {
+			color: #333333;
+			background-color: #ffffff;
+			border: 1px solid #eaeaea;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			letter-spacing: 0px;
+		}
+		input:focus, input[type=text]:focus {
+			background-color: #ffffff;
+			border-color: #eaeaea;
+		}
+		div.wpforms-container-full .wpforms-form .wpforms-field-label{
+			font-family: Arial, Helvetica, sans-serif;
+			text-transform: inherit;
+			letter-spacing: 0px;
+			color: #10659c;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			box-sizing: border-box;
+			font-size: 14px;
+		}
+		div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea{
+			color: #333333;
+			background-color: #ffffff;
+			border-color: #eaeaea;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			letter-spacing: 0px;
+		}
+		div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button{
+			color: #ffffff;
+			background-color: #1874cd;
+			border-radius: 2px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			letter-spacing: 0px;
+		}
+		div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form input[type=submit]:active, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:focus, div.wpforms-container-full .wpforms-form button[type=submit]:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:focus{
+			background-color: #7db7f0;
+			color: #ffffff;
+		}
+
+		#content-woocommerce .product .single_add_to_cart_button, .added_to_cart.wc-forward, .woocommerce ul.products li.product .button,
+		input[type='submit'], input[type=button], a.button, .button, .call-to-action a.button, button, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+		.woocommerce #respond input#submit, .woocommerce .cart .button, .woocommerce .cart input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, #searchsubmit, #footer_widget #searchsubmit {
+			color: #ffffff;
+			background-color: #1874cd;
+			border-radius: 2px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.8;
+			font-style: normal;
+			letter-spacing: 0px;
+		}
+		input#searchsubmit{
+			background-image: none;
+		}
+		.wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link.has-button-hover-color-color:hover, button:hover, input[type='submit']:hover, input[type=button]:hover, a.button:hover, .button:hover, .woocommerce a.button:hover, .woocommerce input.button:hover , .call-to-action a.button:hover,
+		#content-woocommerce .product .single_add_to_cart_button:hover, #content-woocommerce .product .single_add_to_cart_button:focus, .added_to_cart.wc-forward:hover, .added_to_cart.wc-forward:focus, .woocommerce ul.products li.product .button:hover, .woocommerce ul.products li.product .button:focus,
+		.woocommerce #respond input#submit:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, #searchsubmit:hover, #footer_widget #searchsubmit:hover {
+				background-color: #7db7f0;
+				color: #ffffff;
+		}
+		.woocommerce a.button:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled[disabled],
+		.woocommerce button.button:disabled,
+		.woocommerce button.button.disabled,
+		.woocommerce button.button:disabled[disabled],
+		.woocommerce input.button:disabled,
+		.woocommerce input.button.disabled,
+		.woocommerce input.button:disabled[disabled],
+		.woocommerce #respond input#submit:disabled,
+		.woocommerce #respond input#submit.disabled,
+		.woocommerce #respond input#submit:disabled[disabled] {
+			color: #ffffff;
+			background-color: #1874cd;
+		}
+
+		.woocommerce a.button.alt.disabled, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled]:hover,
+		.woocommerce button.button.alt.disabled,
+		.woocommerce button.button.alt:disabled,
+		.woocommerce button.button.alt:disabled[disabled],
+		.woocommerce button.button.alt.disabled:hover,
+		.woocommerce button.button.alt:disabled:hover,
+		.woocommerce button.button.alt:disabled[disabled]:hover,
+		.woocommerce input.button.alt.disabled,
+		.woocommerce input.button.alt:disabled,
+		.woocommerce input.button.alt:disabled[disabled],
+		.woocommerce input.button.alt.disabled:hover,
+		.woocommerce input.button.alt:disabled:hover,
+		.woocommerce input.button.alt:disabled[disabled]:hover,
+		.woocommerce #respond input#submit.alt.disabled,
+		.woocommerce #respond input#submit.alt:disabled,
+		.woocommerce #respond input#submit.alt:disabled[disabled],
+		.woocommerce #respond input#submit.alt.disabled:hover,
+		.woocommerce #respond input#submit.alt:disabled:hover,
+		.woocommerce #respond input#submit.alt:disabled[disabled]:hover{
+		background-color: #7db7f0;
+		color: #ffffff;
+		}
+		label {
+			color: #10659c;
+		}
+		.fullwidth-layout
+		.container, div#container {
+			width: 960px;
+			max-width: 100%;
+		}
+
+		.boxed-layout
+		.content-area, body.default-layout #content-outer, body.full-width-layout #content-outer, body.full-width-no-box #content-outer, .menu, #footer {
+			max-width: 960px;
+		}
+
+		.full-width-layout .grid.col-940 .alignwide,
+		.full-width-no-box .grid.col-940 .alignwide {
+			padding-left: calc((100vw - 960px)/4);
+			padding-right: calc((100vw - 960px)/4);
+		}
+
+		.woocommerce ul.products li.product .onsale.circle-outline, .woocommerce ul.products li.product .onsale.square-outline, .woocommerce div.product .onsale.circle-outline, .woocommerce div.product .onsale.square-outline {
+			background: #ffffff;
+			border: 2px solid #0066cc;
+			color: #0066cc;
+		}
+		.woocommerce ul.products li.product .onsale, .woocommerce span.onsale {
+			background-color: #0066cc;
+			color: #ffffff;
+		}
+		@media (min-width: 768px) {
+			.main-nav {
+				padding: 0px 0px 0px 0px;
+			}
+		}
+		@media (min-width: 480px) and (max-width: 768px) {
+			.js .main-nav a#responsive_menu_button {
+				margin: 0px 0px 0px 0px;
+			}
+			.main-nav > .menu {
+				margin: calc(0px + 1em) -0px -0px -0px;
+			}
+			.main-nav {
+				padding: 0px 0px 0px 0px;
+			}
+		}
+		@media (max-width: 480px){
+			.js .main-nav a#responsive_menu_button {
+				margin: 0px 0px 0px 0px;
+			}
+			.main-nav > .menu {
+				margin: calc(0px + 1em) -0px -0px -0px;
+			}
+			.main-nav {
+				padding: 0px 0px 0px 0px;
+			}
+		}
+		.single-product div.product .entry-title {
+			color: #585858;
+		}.single-product div.product .woocommerce-product-details__short-description, .single-product div.product .product_meta, .single-product div.product .entry-content {
+			color: #585858;
+		}.single-product div.product p.price, .single-product div.product span.price {
+			color: #585858;
+		}.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
+			color: #585858;
+		}.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+			color: #585858;
+		}.woocommerce .star-rating, .woocommerce .comment-form-rating .stars a, .woocommerce .star-rating::before {
+			color: #585858;
+		}.single-product .woocommerce-breadcrumb, .single-product .woocommerce-breadcrumb a {
+			color: #585858;
+		}.woocommerce ul.products li.product .responsive-woo-product-category, .woocommerce-page ul.products li.product .responsive-woo-product-category, .woocommerce ul.products li.product .responsive-woo-shop-product-description, .woocommerce-page ul.products li.product .responsive-woo-shop-product-description {
+			color: #585858;
+		}@media (max-width: 768px){
+			#widgets .widget-wrapper {
+				padding:0px
+			}
+		}@media (max-width: 480px){
+			#widgets .widget-wrapper {
+				padding:0px
+			}
+		}#widgets .widget-wrapper {
+			border-radius: px;
+		}@media (max-width: 768px){
+			#content-outer{
+				padding:0px
+			}
+		}@media (max-width: 480px){
+			#content-outer{
+				padding:0px
+			}
+		}.woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+			background-color: #1874cd;
+		}.price_slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+			background-color: #7db7f0;
+		}@media (max-width: 768px){
+			#footer, body.full-width-no-box div#footer {
+				padding:0px
+			}
+		}@media (max-width: 480px){
+			#footer, body.full-width-no-box div#footer{
+				padding:0px
+			}
+		}#scroll {
+			border-radius: %;
+		}@media screen and (max-width: 768px){
+		.js .main-nav {
+            position: relative;
+            background-color: #585858;
+            background-image: -webkit-gradient(linear,left top,left bottom,from(#585858),to(#3d3d3d));
+            background-image: -webkit-linear-gradient(top,#585858,#3d3d3d);
+            background-image: -moz-linear-gradient(top,#585858,#3d3d3d);
+            background-image: -ms-linear-gradient(top,#585858,#3d3d3d);
+            background-image: -o-linear-gradient(top,#585858,#3d3d3d);
+            background-image: linear-gradient(to top,#585858,#3d3d3d);
+            clear: both;
+            margin: 0 auto
+        }
+        .js .main-nav .menu {
+            display: none;
+            position: absolute;
+            width: 100%;
+            top: 30px;
+            z-index: 1000
+        }
+        .js .main-nav #responsive_current_menu_item {
+            display: block;
+            padding: 5px 40px 5px 10px;
+            font-weight: 700;
+			color: ;
+            cursor: pointer
+        }
+        .js .main-nav a#responsive_menu_button {
+            position: absolute;
+            display: block;
+            top: 0.17em;
+            right: 0;
+            height: 1em;
+            width: 1em;
+            cursor: pointer;
+            font-size: 2em;
+            line-height: 1;
+            text-align: center
+        }
+        .js .main-nav, #header #content-outer.responsive-header #logo {
+		    width: 100%
+	    }
+	    #header .responsive-header {
+		    display: inline-block;
+	    }
+	    .header-logo-left .main-nav ul li {
+		    display: block;
+	    }
+	    body header #content-outer {
+	        width: 100%;
+	    }
+
+	}@media screen and (min-width: 768px){
+		#responsive_menu_button {
+            display: none
+        }
+    }@media screen and (max-width: 768px){
+            .js .responsive-mobile-dropdown .main-nav .menu ul {
+                margin-top: 1px
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li {
+                float: none;
+				background-color: #fff;
+                border: none;
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li a {
+                color: #444;
+				background-color: #fff;
+                font-size: 13px;
+                font-weight: 400;
+                height: 45px;
+                line-height: 45px;
+                padding: 0 15px;
+                border: none;
+                border-bottom: 1px solid #f5f5f5;
+                text-shadow: none;
+                text-align: left;
+                cursor: pointer
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li.current_page_item,.js .menu .current-menu-item a,.js .menu .current_page_item a {
+                background-color: #f5f5f5
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li:hover {
+                background: 0 0!important
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li a {
+                position: relative;
+                padding: 0 10px 0 30px
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li li a {
+                position: relative;
+                padding: 0 10px 0 40px
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li a:hover,.js .main-nav .menu li li a:hover {
+                background-image: none;
+                filter: none;
+                background-color: #f5f5f5!important
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li a::before {
+                position: absolute;
+                top: 0;
+                left: 20px
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li li a::before {
+                position: absolute;
+                top: 0;
+                left: 20px
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu li li li a::after {
+                position: absolute;
+                top: 0;
+                left: 30px
+            }
+			.js .responsive-mobile-dropdown .main-nav .menu li li a::before {
+				content: '-';
+			}
+			.js .responsive-mobile-dropdown .main-nav .menu li li li a::before {
+				content: '-';
+			}
+			.js .responsive-mobile-dropdown .main-nav .menu li li li a::after {
+				content: '-';
+			}
+            .js .responsive-mobile-dropdown .main-nav .menu li ul {
+                position: static;
+                visibility: visible;
+            }
+            .js .responsive-mobile-dropdown .main-nav .menu ul {
+                min-width: 0;
+            }
+	    }.menu li:hover > ul {
+			border-top: px solid;
+		} .menu li:hover > ul {
+			border-right: px solid;
+		} .menu li:hover > ul {
+			border-bottom: px solid;
+		} .menu li:hover > ul{
+			border-left: px solid;
+		} .menu li:hover > ul {
+			border-color: #e5e5e5;
+		} .menu li li {
+			border-bottom-color: #e5e5e5;
+		} .menu li li {
+			background-color: ;
+		} 
+</style>
+<link rel='stylesheet' id='responsive-media-queries-css' href='https://terra.nasa.gov/wp-content/themes/responsive/core/css/responsive.min.css?ver=3.40' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-child-style-css' href='https://terra.nasa.gov/wp-content/themes/TerraResponsiveChild/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-style-css' href='https://terra.nasa.gov/wp-content/themes/responsive/core/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-slider-css' href='https://terra.nasa.gov/wp-content/plugins/photonic/include/ext/splide/splide.min.css?ver=20230406-83323' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-lightbox-css' href='https://terra.nasa.gov/wp-content/plugins/photonic/include/ext/imagelightbox/imagelightbox.min.css?ver=20230406-83323' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-css' href='https://terra.nasa.gov/wp-content/plugins/photonic/include/css/front-end/core/photonic.min.css?ver=20230406-83323' type='text/css' media='all' />
+<style id='photonic-inline-css' type='text/css'>
+/* Retrieved from saved CSS */
+.photonic-panel { background:  rgb(17,17,17)  !important;
+
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+ }
+.photonic-flickr-stream .photonic-pad-photosets { margin: 15px; }
+.photonic-flickr-stream .photonic-pad-galleries { margin: 15px; }
+.photonic-flickr-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-google-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-zenfolio-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-zenfolio-stream .photonic-pad-photosets { margin: 5px 15px; }
+.photonic-instagram-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-smug-stream .photonic-pad-albums { margin: 15px; }
+.photonic-smug-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-flickr-panel .photonic-pad-photos { padding: 10px 15px; box-sizing: border-box; }
+.photonic-smug-panel .photonic-pad-photos { padding: 10px 15px; box-sizing: border-box; }
+.photonic-random-layout .photonic-thumb { padding: 2px}
+.photonic-masonry-layout .photonic-thumb { padding: 2px}
+.photonic-mosaic-layout .photonic-thumb { padding: 2px}
+.photonic-ie .photonic-masonry-layout .photonic-level-1, .photonic-ie .photonic-masonry-layout .photonic-level-2 { width: 200px; }
+
+</style>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/plugins/jquery-updater/js/jquery-3.7.1.min.js?ver=3.7.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/plugins/jquery-updater/js/jquery-migrate-3.4.1.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/themes/TerraResponsiveChild/js/terra.js?ver=6.3.1' id='terra-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/themes/TerraResponsiveChild/js/analytics.js?ver=6.3.1' id='Google-Analytics-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=3.40' id='modernizr-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/plugins/photonic/include/ext/splide/splide.min.js?ver=4.0.1-20230406-83323' id='splide-js'></script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/plugins/photonic/include/ext/imagelightbox/imagelightbox.min.js?ver=2018-08-17' id='imagelightbox-js'></script>
+<script type='text/javascript' id='photonic-js-extra'>
+/* <![CDATA[ */
+var Photonic_JS = {"ajaxurl":"https:\/\/terra.nasa.gov\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/terra.nasa.gov\/wp-content\/plugins\/photonic\/","debug_on":"","fbox_show_title":"1","fbox_title_position":"inside","slide_adjustment":"adapt-height-width","deep_linking":"no-history","social_media":"1","lightbox_library":"imagelightbox","tile_spacing":"2","tile_min_height":"200","masonry_min_width":"200","mosaic_trigger_width":"200","slideshow_mode":"","slideshow_interval":"5000","lightbox_loop":"1","gallery_panel_width":"80","cb_transition_effect":"elastic","cb_transition_speed":"350","fb3_transition_effect":"fade","fb3_transition_speed":"366","fb3_fullscreen_button":"","fb3_fullscreen":"","fb3_thumbs_button":"1","fb3_thumbs":"","fb3_zoom":"1","fb3_slideshow":"1","fb3_download":"","fb3_disable_right_click":"","lc_transition_effect":"scrollHorizontal","lc_transition_speed_in":"350","lc_transition_speed_out":"250","lc_disable_shrink":"1","lg_plugins":"","lg_transition_effect":"lg-slide","lg_enable_download":"1","lg_hide_bars_delay":"6000","lg_transition_speed":"10","pphoto_theme":"pp_default","pphoto_animation_speed":"Fast","sp_download":"","sp_hide_bars":"","enable_swipebox_mobile_bars":"","sb_hide_mobile_close":"","sb_hide_bars_delay":"0","vb_disable_vertical_scroll":"1","vb_title_position":"bottom","vb_title_style":"bar","lightbox_for_all":"","lightbox_for_videos":"","slideshow_autostart":"1","password_failed":"This album is password-protected. Please provide a valid password.","incorrect_password":"Incorrect password.","maximize_panel":"Show","minimize_panel":"Hide"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://terra.nasa.gov/wp-content/plugins/photonic/include/js/front-end/out/photonic-imagelightbox.min.js?ver=20230406-83323' id='photonic-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://terra.nasa.gov/xmlrpc.php?rsd" />
+	<meta name='description' content='Home for the Terra Satellite Earth Observing System' />
+	<meta name='keywords' content='TERRA, satellite, ASTER, CERES, MISR, MODIS, MOPITT, EOS, NASA GSFC, Earth Sciences Division' />
+	<meta name='content-owner' content='Kurtis Thome' />
+	<meta name='DC.creator' content='Kurtis Thome' />
+	<meta name='rno' content='Kurtis Thome' />
+	<meta name='webmaster' content='610WebDev' />
+	<meta name='webmaster.mail' content='gsfc-dl-610-webdev@mail.nasa.gov' />
+	<meta name='DC.publisher' content='610WebDev' />
+	<meta name='orgcode' content='610' />
+	<meta name='DC.publisher.address' content='gsfc-dl-610-webdev@mail.nasa.gov' />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y880ZJSRDP"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-Y880ZJSRDP");</script><!-- We need this for debugging -->
+<!-- Responsive 3.40 -->
+<!-- Terra Responsive Child 1.0.0 -->
+		
+<!-- Responsive Select CSS 
+================================================================ -->
+<style type="text/css" id="responsive-select-css">
+.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect{
+	display:none;
+}
+
+@media (max-width: 768px) {
+	.responsiveSelectContainer{
+		border:none !important;
+		background:none !important;
+		box-shadow:none !important;
+		height:auto !important;
+		max-height:none !important;
+		visibility:visible !important;
+	}
+	.responsiveSelectContainer ul, ul.responsiveSelectFullMenu, #megaMenu ul.megaMenu.responsiveSelectFullMenu{
+		display: none !important;
+	}
+	.responsiveSelectContainer select.responsiveMenuSelect, select.responsiveMenuSelect { 
+		display: inline-block; 
+		width:100%;
+	}
+}	
+</style>
+<!-- end Responsive Select CSS -->
+
+<!-- Responsive Select JS
+================================================================ -->
+<script type="text/javascript">
+jQuery(document).ready( function($){
+	$( '.responsiveMenuSelect' ).change(function() {
+		var loc = $(this).find( 'option:selected' ).val();
+		if( loc != '' && loc != '#' ) window.location = loc;
+	});
+	//$( '.responsiveMenuSelect' ).val('');
+});
+</script>
+<!-- end Responsive Select JS -->
+		
+<script id='_fed_an_ua_tag' type='text/javascript' src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true'></script>
+        <link rel="stylesheet" type="text/css" href="/wp-content/themes/TerraResponsiveChild/js/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="/wp-content/themes/TerraResponsiveChild/js/slick/slick-theme.css"/>
+    </head>
+
+<body class="home blog wp-embed-responsive default-layout responsive-mobile-dropdown">
+
+<div id='terra-wrap' class='clearfix'>
+
+<div id="container" class="hfeed">
+
+    <div class="skip-container cf">
+        <a class="skip-link screen-reader-text focusable" 
+           href="#main">&darr; Skip to Main Content</a>
+    </div><!-- .skip-container -->
+    <div id="header">
+        
+                        
+<div id="topLinks">
+    <a target="_blank" href="https://www.nasa.gov">NASA</a> | 
+    <a target="_blank" href="http://earthobservatory.nasa.gov">Earth Observatory</a> | 
+    <a target="_blank" href="http://visibleearth.nasa.gov/view_cat.php?categoryID=1495">
+    Terra in Visible Earth</a>
+</div>
+
+<div id="sheath">
+    <a id="nasa" href="https://www.nasa.gov" target="_blank"><img src="https://terra.nasa.gov/wp-content/themes/TerraResponsiveChild/img/nasa.png" alt="NASA" />
+    </a> 
+    <div class='in-block'>
+            <div id="logo">
+            <a href="https://terra.nasa.gov/"><img src="https://terra.nasa.gov/wp-content/uploads/2014/03/terra-title.png" width="251" height="66" 
+            alt="Terra"/></a>
+        </div><!-- end of #logo -->
+        <div class='slogan'>
+            The EOS Flagship        </div>
+        </div> <!-- end of .in-block -->
+
+</div>
+
+
+</div>
+
+	<nav id="main-nav" class="main-nav responsiveSelectContainer"><ul id="menu-terra-top-navigation-menu-1" class="menu responsiveSelectFullMenu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-981"><a href="https://terra.nasa.gov/about">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1807"><a href="https://terra.nasa.gov/about/mission">Mission</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1808"><a href="https://terra.nasa.gov/about/terra-instruments">Terra Instruments</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1814"><a href="https://terra.nasa.gov/about/terra-instruments/aster">ASTER</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1815"><a href="https://terra.nasa.gov/about/terra-instruments/ceres">CERES</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1819"><a href="https://terra.nasa.gov/about/terra-instruments/misr">MISR</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1842"><a href="https://terra.nasa.gov/about/terra-instruments/modis">MODIS</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1843"><a href="https://terra.nasa.gov/about/terra-instruments/mopitt">MOPITT</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1209"><a href="https://terra.nasa.gov/science">Science</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1856"><a href="https://terra.nasa.gov/science/applications">Applications</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"><a href="https://terra.nasa.gov/science/atmospheric-composition">Atmosphere</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1858"><a href="https://terra.nasa.gov/science/carbon-cycle-and-ecosystems">Carbon Cycle and Ecosystems</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a href="https://terra.nasa.gov/science/climate-variability-and-change">Climate Variability and Change</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860"><a href="https://terra.nasa.gov/science/earths-surface-interior">Earth’s Surface &#038; Interior</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861"><a href="https://terra.nasa.gov/science/water-energy-cycle">Water &#038; Energy Cycle</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1862"><a href="https://terra.nasa.gov/science/weather">Weather</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1801"><a href="https://terra.nasa.gov/data">Data</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="https://terra.nasa.gov/data/aster-data">ASTER Data</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1803"><a href="https://terra.nasa.gov/data/ceres-data">CERES Data</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1804"><a href="https://terra.nasa.gov/data/misr-data">MISR Data</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1805"><a href="https://terra.nasa.gov/data/modis-data">MODIS Data</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1806"><a href="https://terra.nasa.gov/data/mopitt-data">MOPITT Data</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1196"><a href="https://terra.nasa.gov/multimedia">Multimedia</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="https://terra.nasa.gov/multimedia/images">TERRA Images</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1864"><a href="https://terra.nasa.gov/multimedia/video">Videos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5994"><a href="https://terra.nasa.gov/multimedia/podcasts">Podcasts</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-947"><a href="https://terra.nasa.gov/topics/news">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-974"><a href="https://terra.nasa.gov/resources">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1958"><a href="https://terra.nasa.gov/resources/for-data-users">For Data Users</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1246"><a href="https://terra.nasa.gov/resources/for-educators">For Educators</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1959"><a href="https://terra.nasa.gov/resources/for-everyone">For Everyone</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799"><a href="https://terra.nasa.gov/resources/resources">All Resources</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1487"><a href="https://terra.nasa.gov/people">Leadership</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1852"><a href="https://terra.nasa.gov/people/kurtis-thome">Dr. Kurtis Thome</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1844"><a href="https://terra.nasa.gov/people/dr-david-j-diner">Dr. David J. Diner</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1845"><a href="https://terra.nasa.gov/people/dr-james-r-drummond">Dr. James R. Drummond</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1848"><a href="https://terra.nasa.gov/?page_id=1453">Dr. Michael D. King</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1849"><a href="https://terra.nasa.gov/people/michael-j-abrams">Mr. Michael J. Abrams</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1850"><a href="https://terra.nasa.gov/people/dr-norman-g-loeb">Dr. Norman G. Loeb</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1851"><a href="https://terra.nasa.gov/people/dr-si-chee-tsay">Dr. Si-Chee Tsay</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1853"><a href="https://terra.nasa.gov/people/mr-robert-wolfe">Mr. Robert Wolfe</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1854"><a href="https://terra.nasa.gov/people/mr-wynn-j-watson">Mr. Wynn J. Watson</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190333"><a href="https://terra.nasa.gov/people/dr-nyssa-rayne">Dr. Nyssa Rayne</a></li>
+</ul>
+</li>
+</ul><select class="responsiveMenuSelect"><option value="" >☰ Main Menu</option><option  id="menu-item-981" value="https://terra.nasa.gov/about">About</option>
+	<option  id="menu-item-1807" value="https://terra.nasa.gov/about/mission">      Mission</option>
+	<option  id="menu-item-1808" value="https://terra.nasa.gov/about/terra-instruments">      Terra Instruments</option>
+		<option  id="menu-item-1814" value="https://terra.nasa.gov/about/terra-instruments/aster">            ASTER</option>
+		<option  id="menu-item-1815" value="https://terra.nasa.gov/about/terra-instruments/ceres">            CERES</option>
+		<option  id="menu-item-1819" value="https://terra.nasa.gov/about/terra-instruments/misr">            MISR</option>
+		<option  id="menu-item-1842" value="https://terra.nasa.gov/about/terra-instruments/modis">            MODIS</option>
+		<option  id="menu-item-1843" value="https://terra.nasa.gov/about/terra-instruments/mopitt">            MOPITT</option>
+<option  id="menu-item-1209" value="https://terra.nasa.gov/science">Science</option>
+	<option  id="menu-item-1856" value="https://terra.nasa.gov/science/applications">      Applications</option>
+	<option  id="menu-item-1857" value="https://terra.nasa.gov/science/atmospheric-composition">      Atmosphere</option>
+	<option  id="menu-item-1858" value="https://terra.nasa.gov/science/carbon-cycle-and-ecosystems">      Carbon Cycle and Ecosystems</option>
+	<option  id="menu-item-1859" value="https://terra.nasa.gov/science/climate-variability-and-change">      Climate Variability and Change</option>
+	<option  id="menu-item-1860" value="https://terra.nasa.gov/science/earths-surface-interior">      Earth’s Surface &#038; Interior</option>
+	<option  id="menu-item-1861" value="https://terra.nasa.gov/science/water-energy-cycle">      Water &#038; Energy Cycle</option>
+	<option  id="menu-item-1862" value="https://terra.nasa.gov/science/weather">      Weather</option>
+<option  id="menu-item-1801" value="https://terra.nasa.gov/data">Data</option>
+	<option  id="menu-item-1802" value="https://terra.nasa.gov/data/aster-data">      ASTER Data</option>
+	<option  id="menu-item-1803" value="https://terra.nasa.gov/data/ceres-data">      CERES Data</option>
+	<option  id="menu-item-1804" value="https://terra.nasa.gov/data/misr-data">      MISR Data</option>
+	<option  id="menu-item-1805" value="https://terra.nasa.gov/data/modis-data">      MODIS Data</option>
+	<option  id="menu-item-1806" value="https://terra.nasa.gov/data/mopitt-data">      MOPITT Data</option>
+<option  id="menu-item-1196" value="https://terra.nasa.gov/multimedia">Multimedia</option>
+	<option  id="menu-item-1863" value="https://terra.nasa.gov/multimedia/images">      TERRA Images</option>
+	<option  id="menu-item-1864" value="https://terra.nasa.gov/multimedia/video">      Videos</option>
+	<option  id="menu-item-5994" value="https://terra.nasa.gov/multimedia/podcasts">      Podcasts</option>
+<option  id="menu-item-947" value="https://terra.nasa.gov/topics/news">News</option>
+<option  id="menu-item-974" value="https://terra.nasa.gov/resources">Resources</option>
+	<option  id="menu-item-1958" value="https://terra.nasa.gov/resources/for-data-users">      For Data Users</option>
+	<option  id="menu-item-1246" value="https://terra.nasa.gov/resources/for-educators">      For Educators</option>
+	<option  id="menu-item-1959" value="https://terra.nasa.gov/resources/for-everyone">      For Everyone</option>
+	<option  id="menu-item-1799" value="https://terra.nasa.gov/resources/resources">      All Resources</option>
+<option  id="menu-item-1487" value="https://terra.nasa.gov/people">Leadership</option>
+	<option  id="menu-item-1852" value="https://terra.nasa.gov/people/kurtis-thome">      Dr. Kurtis Thome</option>
+	<option  id="menu-item-1844" value="https://terra.nasa.gov/people/dr-david-j-diner">      Dr. David J. Diner</option>
+	<option  id="menu-item-1845" value="https://terra.nasa.gov/people/dr-james-r-drummond">      Dr. James R. Drummond</option>
+	<option  id="menu-item-1848" value="https://terra.nasa.gov/?page_id=1453">      Dr. Michael D. King</option>
+	<option  id="menu-item-1849" value="https://terra.nasa.gov/people/michael-j-abrams">      Mr. Michael J. Abrams</option>
+	<option  id="menu-item-1850" value="https://terra.nasa.gov/people/dr-norman-g-loeb">      Dr. Norman G. Loeb</option>
+	<option  id="menu-item-1851" value="https://terra.nasa.gov/people/dr-si-chee-tsay">      Dr. Si-Chee Tsay</option>
+	<option  id="menu-item-1853" value="https://terra.nasa.gov/people/mr-robert-wolfe">      Mr. Robert Wolfe</option>
+	<option  id="menu-item-1854" value="https://terra.nasa.gov/people/mr-wynn-j-watson">      Mr. Wynn J. Watson</option>
+	<option  id="menu-item-190333" value="https://terra.nasa.gov/people/dr-nyssa-rayne">      Dr. Nyssa Rayne</option>
+</select></nav>	
+<div id="data">
+    <div class='instruments'>
+
+    <span class='instrument'>
+        <a class="terra" href="https://terra.nasa.gov/about/terra-instruments">
+           <span>Terra Instruments:</span></a>
+    </span>        <span class='instrument'>
+                        <a class='aster'
+               style='background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/149000/149670/glaciers_tmoliast_2020_th.png");'
+               href='https://terra.nasa.gov/about/terra-instruments/aster'
+               title='ASTER'>
+
+               <span>ASTER</span>
+           </a>
+        </span>
+            <span class='instrument'>
+                        <a class='ceres'
+               style='background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/146000/146032/australia_cer_201911_th.png");'
+               href='https://terra.nasa.gov/about/terra-instruments/ceres'
+               title='CERES'>
+
+               <span>CERES</span>
+           </a>
+        </span>
+            <span class='instrument'>
+                        <a class='misr'
+               style='background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/149000/149580/global_pm25_2019_th.png");'
+               href='https://terra.nasa.gov/about/terra-instruments/misr'
+               title='MISR'>
+
+               <span>MISR</span>
+           </a>
+        </span>
+            <span class='instrument'>
+                        <a class='modis'
+               style='background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151826/libyafloodingdaniel_tmo_2023253_th.jpg");'
+               href='https://terra.nasa.gov/about/terra-instruments/modis'
+               title='MODIS'>
+
+               <span>MODIS</span>
+           </a>
+        </span>
+            <span class='instrument'>
+                        <a class='mopitt'
+               style='background-image: url("https://eoimages.gsfc.nasa.gov/images/imagerecords/149000/149876/global_mop_2002-2018_th.png");'
+               href='https://terra.nasa.gov/about/terra-instruments/mopitt'
+               title='MOPITT'>
+
+               <span>MOPITT</span>
+           </a>
+        </span>
+        
+    </div>
+</div>
+
+    <div id="wrapper" class="clearfix">
+    
+    
+    <div id="homepage_carousel" class="grid">
+        <div class="slick_images">
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151826/torrential-rain-wreaks-havoc-in-libya/151828w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151826/libyafloodingdaniel_tmo_2023253_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            Torrential Rain Wreaks Havoc in Libya                        </h3>
+                    </div>
+                </div>
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151802/summer-rains-on-nevadas-black-rock-playa/151804w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151802/nevada_flooding_oli2_2023247_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            Summer Rains on Nevada’s Black Rock Playa                        </h3>
+                    </div>
+                </div>
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151771/idalia-spawns-major-winds/151774w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151771/hurricaneidalia_tmo_2023242_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            Idalia Spawns Major Winds                        </h3>
+                    </div>
+                </div>
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151767/idalia-roars-into-the-gulf-of-mexico/151769w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151767/hurricaneidalia_tmo_2023241_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            Idalia Roars Into the Gulf of Mexico                        </h3>
+                    </div>
+                </div>
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151743/the-ocean-has-a-fever/151745w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151743/ssta_mur_2023233_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            The Ocean Has a Fever                        </h3>
+                    </div>
+                </div>
+                            <div>
+                    <a href="https://visibleearth.nasa.gov/images/151738/winds-and-hail-scar-the-great-plains/151741w">
+                        <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151738/hail_wind_damage_oli_2023204_front.jpg" alt="">
+                    </a>
+                    <div class="slick_image_caption">
+                        <h3>
+                            Winds and Hail Scar the Great Plains                          </h3>
+                    </div>
+                </div>
+                    </div>
+    </div>
+
+    <div id="homepage_contents" class="grid">
+
+        <h2>
+            Terra: the EOS Flagship        </h2>
+
+        <div>
+                                                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 3;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 8px;
+  text-align: center;
+  background: #F5ED07;
+  color: black;
+  font-size: 7px;
+}
+
+/* Page Content */
+.content {padding:8px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The Terra satellite team would like to inform the user community of an upcoming change in the flight operations of the mission expected to take place in mid-June 2023. 
+
+<h2> A recent programmatic change in the Terra mission is prompting the flight operation staffing to go from 24 hours a day, 7 days a week to 12 hours a day, 7 days a week, with limited operational response when staff are not on site. For more information, see the graphic below.
+</h2>
+</h1>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>Terra explores the connections between Earth&#8217;s atmosphere, land, snow and ice, ocean, and energy balance to understand Earth&#8217;s climate and climate change and to map the impact of human activity and natural disasters on communities and ecosystems</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><img decoding="async" loading="lazy" src="https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018.png" alt="Images of five globes, each depicting an example of data collected by Terra instruments, including land composition from ASTER, reflected energy from CERES, vegetation snow and ice from MODIS, aerosols from MISR, and carbon monoxide from MOPITT." class="wp-image-189258" style="width:832px;height:325px" width="832" height="325" srcset="https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018.png 701w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-300x117.png 300w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-100x39.png 100w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-150x59.png 150w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-200x78.png 200w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-450x176.png 450w, https://terra.nasa.gov/wp-content/uploads/2018/09/TerraFlagshipBanner2018-600x235.png 600w" sizes="(max-width: 832px) 100vw, 832px" /></figure></div>
+
+
+<h2 class="wp-block-heading">&nbsp;</h2>
+
+
+
+<h2 class="wp-block-heading has-text-align-center">Important Terra Updates and Information</h2>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://terra.nasa.gov/wp-content/uploads/2023/08/5-1024x307.png" alt="" class="wp-image-191114" style="width:734px;height:221px" width="734" height="221" srcset="https://terra.nasa.gov/wp-content/uploads/2023/08/5-1024x307.png 1024w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-300x90.png 300w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-768x230.png 768w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-1536x461.png 1536w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-100x30.png 100w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-150x45.png 150w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-200x60.png 200w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-450x135.png 450w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-600x180.png 600w, https://terra.nasa.gov/wp-content/uploads/2023/08/5-900x270.png 900w, https://terra.nasa.gov/wp-content/uploads/2023/08/5.png 2000w" sizes="(max-width: 734px) 100vw, 734px" /></figure></div>
+
+
+<div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-5 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"><div class="wp-block-group__inner-container">
+<div class="wp-block-columns is-layout-flex wp-container-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<p class="has-text-align-left">Terra data users have expressed the need for weekly updates on Terra&#8217;s equator crossing time (in UTC Mean Local Time), as well as orbital altitude. Starting this month, we&#8217;ll be adding this information to the Terra homepage and updating it weekly using data provided by the Operations Team. Move your cursor over the chart below to view both Terra&#8217;s Mean Local Equator Crossing Time in UTC and orbital altitude for each month through 2026.</p>
+</div>
+</div>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+<style>
+.centered {width:950px; margin-left:auto; margin-right:auto;}
+</style>
+<style>
+ 
+    body{
+        margin: 0; /* Remove default margin */
+    }
+    iframe{   
+    selector .innerblocks-wrap {
+  max-width: 0px;
+}
+        display: block;  /* iframes are inline by default */
+        height: 400px;  /* Set height to 100% of the viewport height */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+        background: white; /* Just for styling */
+    }
+    
+    
+</style>
+</head>
+<body>
+<div class="centered">
+  
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSexCXO0s_9CVAKfUXfIOVWuvZpsQttHngfNLfqkin0k-C8zdkHTebsYGMOromroyOp-6jylQdmEFKT/pubchart?oid=1288266054&amp;format=interactive"></iframe> 
+
+</div>
+</body>
+</html>
+</div></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-8 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-731x1024.png" alt="" class="wp-image-191091" style="object-fit:cover;width:403px;height:564px" width="403" height="564" srcset="https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-731x1024.png 731w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-214x300.png 214w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-768x1076.png 768w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-1097x1536.png 1097w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-100x140.png 100w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-150x210.png 150w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-200x280.png 200w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-300x420.png 300w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-450x630.png 450w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-600x840.png 600w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update-900x1261.png 900w, https://terra.nasa.gov/wp-content/uploads/2023/08/Final-Data-Update.png 1428w" sizes="(max-width: 403px) 100vw, 403px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2.jpeg" alt="" class="wp-image-191122" style="width:403px;height:450px" width="403" height="450" srcset="https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2.jpeg 588w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-269x300.jpeg 269w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-100x112.jpeg 100w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-150x167.jpeg 150w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-200x223.jpeg 200w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-300x335.jpeg 300w, https://terra.nasa.gov/wp-content/uploads/2023/08/jpg_verticalorbit-2-450x502.jpeg 450w" sizes="(max-width: 403px) 100vw, 403px" /></figure>
+
+
+
+<h4 class="wp-block-heading has-medium-font-size">2023 Terra Updates</h4>
+
+
+
+<p class="has-text-align-left">Click the links below to catch up on all the latest Terra news and updates! </p>
+</div>
+</div>
+
+
+<ul class="wp-block-latest-posts__list is-grid columns-3 has-dates wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://terra.nasa.gov/news/nasa-celebrates-earth-day">NASA Celebrates Earth Day!</a><time datetime="2023-04-17T15:09:16-04:00" class="wp-block-latest-posts__post-date">April 17, 2023</time><div class="wp-block-latest-posts__post-excerpt">April 20th is officially &#8220;Earth Day,&#8221; and NASA is celebrating with a hybrid event! Join us in-person (if you&#8217;re close to Union Station in Washington D.C.) or online! See the official NASA Earth Day website (linked here) or scan the QR code on the graphic below for more information and (free!) registration! (And if you&#8217;ll … <a href="https://terra.nasa.gov/news/nasa-celebrates-earth-day" rel="noopener noreferrer">Read more</a></div></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://terra.nasa.gov/news/spring-updates-from-the-terra-team">Spring Updates from the Terra Team</a><time datetime="2023-04-14T17:31:33-04:00" class="wp-block-latest-posts__post-date">April 14, 2023</time><div class="wp-block-latest-posts__post-excerpt">Spring is here &#8212; and so are the Terra science team meetings and workshops! Here&#8217;s a list of upcoming Team Meetings and Workshops related to the Terra mission, with additional information about each in the post below this list. 2023 MODIS/VIIRS Science Team Meeting The MODIS/VIIRS Science Team Meeting will be held May 1- 4, … <a href="https://terra.nasa.gov/news/spring-updates-from-the-terra-team" rel="noopener noreferrer">Read more</a></div></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://terra.nasa.gov/news/terra-celebrates-black-history-month-qa-with-alicia-scott-former-terra-flight-operator">Terra Celebrates Black History Month: Q&#038;A with Alicia Scott, Former Terra Flight Operator</a><time datetime="2023-02-28T17:01:05-05:00" class="wp-block-latest-posts__post-date">February 28, 2023</time><div class="wp-block-latest-posts__post-excerpt"></div></li>
+</ul>
+
+
+<h3 class="wp-block-heading">Past News Features</h3>
+
+
+
+<h4 class="wp-block-heading"><a href="https://terra.nasa.gov/about/terra-orbital-maneuvers-information-oct-2022">Terra’s Lower Orbit Virtual Community Forum</a></h4>
+
+
+
+<h4 class="wp-block-heading"><a href="https://terra.nasa.gov/news/terra-aqua-aura-drifting-orbits-workshop-information">NASA&#8217;s Terra, Aqua, and Aura Drifting Orbits Workshop Information</a></h4>
+
+
+
+<figure class="wp-block-video"><video src="https://terra.nasa.gov/wp-content/uploads/2022/09/rfi-2022-1080-p-220920-mp-4.mp4" controls="controls" width="300" height="150"></video>
+<figcaption>Animated Overview of the Request for Information</figcaption>
+</figure>
+
+
+
+<h4 class="wp-block-heading"><a href="https://terra.nasa.gov/about/terra-orbital-drift-information">Terra Begins Drifting. What&#8217;s Next?</a></h4>
+
+
+
+<p>After more than 20 years orbiting at 705 km above Earth&#8217;s surface and routinely crossing the equator at approximately the same time every day, Terra is now drifting. With no maneuvers planned to sustain Terra&#8217;s altitude and crossing time, Terra will slowly get closer and closer to Earth &#8211; crossing the equator earlier and earlier as time passes. However, despite impacts to some of Terra&#8217;s nearly 100 data products, Terra&#8217;s five sensors continue to collect meaningful scientific data, producing one of the longest continuous climate data records collected by a satellite. <a href="https://terra.nasa.gov/about/terra-orbital-drift-information">Read more&#8230;</a></p>
+
+
+
+<h4 class="wp-block-heading"><a href="https://terra.nasa.gov/wp-content/uploads/2019/12/13493_Terra_Applications_20Anniversary_FINAL_VX-309499_lowres.mp4">Terra: Providing Critical Data to Help Society</a></h4>
+
+
+
+<figure class="wp-block-video"><video src="https://terra.nasa.gov/wp-content/uploads/2019/12/13493_Terra_Applications_20Anniversary_FINAL_VX-309499_lowres.mp4" controls="controls" width="300" height="150"></video>
+<p>&nbsp;</p>
+<figcaption>Terra&#8217;s five sensors help us understand out changing planet and provide critical data used in applications from food security, volcanic monitoring, wildfire safety, public health, and climate modeling. Terra&#8217;s twenty years of data continue to contribute to how we understand Earth and how we respond when disasters strike.</figcaption>
+</figure>
+
+
+
+<h4 class="wp-block-heading"><a href="https://terra.nasa.gov/news/twenty-years-of-terra-in-our-lives">Twenty Years of Terra in Our Lives</a></h4>
+
+
+
+<figure class="wp-block-video"><video src="https://terra.nasa.gov/wp-content/uploads/2019/12/13493_Terra_Instruments_20Anniversary_FINAL_VX-309498_lowres.mp4" controls="controls" width="300" height="150"></video>
+<p>&nbsp;</p>
+<figcaption>Terra&#8217;s suite of instruments allows us to understand our world well beyond what we knew twenty years ago, when Terra launched. In those twenty years, new applications and contributions to science have been made possible.</figcaption>
+</figure>
+
+
+
+<p>There is no question that technology has changed. But, at the same time that our lives on Earth were being shaped by our access to technology, 705 kilometers above us, a satellite was changing how we understood our planet.</p>
+
+
+
+<p>For 20 years, Terra, the flagship Earth observing satellite,<br>has chronicled changes on Earth. Designed and built in the 1980s and 90s, NASA and Lockheed Martin engineers set out to build a satellite that could take simultaneous measurements of Earth’s atmosphere, land, and water. Its mission – to understand how Earth is changing and to identify the consequences for life on Earth. Season after season, Terra data continues to help<br>us understand how the evolving systems of our planet affect our lives – and how<br>we can use that data to benefit society. <a href="https://terra.nasa.gov/news/twenty-years-of-terra-in-our-lives">Read more</a> and find resources from our anniversary events, <a href="https://terra.nasa.gov/terra-20-events">Terra 20 Events</a></p>
+
+
+
+<p class="has-background" style="background-color:#f7ef54"><strong>Update on Terra’s New Orbit: Since 2020, Terra has been drifting to an earlier equator crossing time, and in October 2022 was lowered by ~5km in altitude. These changes in orbit did not reduce the data quality of Terra products, and only created minor changes to orbital repeat time and swath width (for some instruments). See&nbsp;<a href="https://terra.nasa.gov/about/terras-orbit-changes">Terra’s New Orbit</a>&nbsp;for more information.</strong></p>
+        </div>
+
+    </div>
+
+        <div id="widgets" class="grid" style="width:100%">
+        <div id="home_widget_1">
+            
+            <div id="text-2" class="widget-odd widget-first widget-1 widget-wrapper widget_text"><div id="widget-title-one" class="widget-title-home"><h3>Science Visualizations</h3></div>			<div class="textwidget"></div>
+		</div><div id="widget_sp_image-2" class="widget-even widget-2 homepage_science_visualization widget-wrapper widget_sp_image"><a href="https://svs.gsfc.nasa.gov/search/DataSet/ASTER.html" target="_blank" class="widget_sp_image-image-link" rel="nofollow"><img width="200" height="112" alt="ASTER" class="attachment-responsive-200" style="max-width: 100%;" srcset="https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-200x112.jpg 200w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-300x168.jpg 300w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-1024x576.jpg 1024w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-100x56.jpg 100w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-150x84.jpg 150w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-450x253.jpg 450w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-600x337.jpg 600w, https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-900x506.jpg 900w" sizes="(max-width: 200px) 100vw, 200px" src="https://terra.nasa.gov/wp-content/uploads/2014/06/ASTER_Greenland_still.8182-200x112.jpg" /></a><div class="widget_sp_image-description" ><p>ASTER</p>
+</div></div><div id="widget_sp_image-3" class="widget-odd widget-3 homepage_science_visualization widget-wrapper widget_sp_image"><a href="https://svs.gsfc.nasa.gov/search/psd.html?value=CERES" target="_blank" class="widget_sp_image-image-link" rel="nofollow"><img width="200" height="150" alt="CERES" class="attachment-responsive-200" style="max-width: 100%;" srcset="https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-200x150.jpg 200w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-300x225.jpg 300w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-1024x768.jpg 1024w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-100x75.jpg 100w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-150x112.jpg 150w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-450x337.jpg 450w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-600x450.jpg 600w, https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-900x675.jpg 900w" sizes="(max-width: 200px) 100vw, 200px" src="https://terra.nasa.gov/wp-content/uploads/2014/06/CERES_BoxcarPair04001-200x150.jpg" /></a><div class="widget_sp_image-description" ><p>CERES</p>
+</div></div><div id="widget_sp_image-4" class="widget-even widget-4 homepage_science_visualization widget-wrapper widget_sp_image"><a href="https://svs.gsfc.nasa.gov/search/DataSet/MISR.html" target="_blank" class="widget_sp_image-image-link" rel="nofollow"><img width="200" height="112" alt="MISR" class="attachment-responsive-200" style="max-width: 100%;" srcset="https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-200x112.jpg 200w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-300x168.jpg 300w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-100x56.jpg 100w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-150x84.jpg 150w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-450x253.jpg 450w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-600x337.jpg 600w, https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881.jpg 853w" sizes="(max-width: 200px) 100vw, 200px" src="https://terra.nasa.gov/wp-content/uploads/2014/06/MISR_Haymanfire_frame.04881-200x112.jpg" /></a><div class="widget_sp_image-description" ><p>MISR</p>
+</div></div><div id="widget_sp_image-5" class="widget-odd widget-5 homepage_science_visualization widget-wrapper widget_sp_image"><a href="https://svs.gsfc.nasa.gov/search/psd.html?value=Terra%20MODIS" target="_blank" class="widget_sp_image-image-link" rel="nofollow"><img width="200" height="112" alt="Ocean Color in Gulf of Alaska" class="attachment-responsive-200" style="max-width: 100%;" srcset="https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web-200x112.png 200w, https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web-300x168.png 300w, https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web-100x56.png 100w, https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web-150x84.png 150w, https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web.png 320w" sizes="(max-width: 200px) 100vw, 200px" src="https://terra.nasa.gov/wp-content/uploads/2014/06/MODIS-phytoplankton_alaska_amo_2007009_web-200x112.png" /></a><div class="widget_sp_image-description" ><p>MODIS</p>
+</div></div><div id="widget_sp_image-6" class="widget-even widget-last widget-6 homepage_science_visualization widget-wrapper widget_sp_image"><a href="https://svs.gsfc.nasa.gov/search/psd.html?value=MOPITT" target="_blank" class="widget_sp_image-image-link" rel="nofollow"><img width="200" height="151" alt="MOPITT Globe" class="attachment-responsive-200" style="max-width: 100%;" srcset="https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre-200x151.jpg 200w, https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre-300x226.jpg 300w, https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre-100x75.jpg 100w, https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre-150x113.jpg 150w, https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre.jpg 320w" sizes="(max-width: 200px) 100vw, 200px" src="https://terra.nasa.gov/wp-content/uploads/2014/08/MOPITT-a001134_pre-200x151.jpg" /></a><div class="widget_sp_image-description" ><p>MOPITT</p>
+</div></div>
+                    </div>
+        <!-- end of .col-300 -->
+    </div><!-- end of #widgets -->
+    
+            </div>
+    </div></div>
+    <div id="footer">        <div>
+            <span id='left-foot'>
+                <span>NASA Official: <span>Kurtis Thome</span></span>&nbsp; 
+                <span>Webmaster: <span>610WebDev</span></span>
+            </span>
+
+            <span id="right-foot">                    <span>Curator: <span>Nyssa Rayne</span></span>&nbsp; 
+                                    <span>Last Updated: <span>Sep 19, 2023</span></span>
+            </span>
+        </div>
+        <div>
+            <span id="center-foot">
+                <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">
+                Privacy Policy &amp; Important Notices</a> 
+                <span class='lg-only'>&nbsp; | &nbsp;</span>
+                <a href="mailto:nyssa.rayne@nasa.gov?Subject=Terra: Contact Us&cc=gsfc-dl-610-webdev@mail.nasa.gov">Contact Us</a>
+            </span>
+        </div>
+    </div></div>
+<script type="text/javascript" src="/wp-content/themes/TerraResponsiveChild/js/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.slick_images').slick({
+            responsive: true,
+            arrows: true,
+            centerMode: true,
+            infinite: true,
+            centerPadding: "0px",
+            prevArrow: '<img src="/wp-content/themes/TerraResponsiveChild/img/icon_left.png" alt="Previous Slide" class="slick-prev">',
+            nextArrow: '<img src="/wp-content/themes/TerraResponsiveChild/img/icon_right.png" alt="Next Slide" class="slick-next">',
+            autoplay: true
+        });
+    });
+</script>
+
+</body>
+</html>
